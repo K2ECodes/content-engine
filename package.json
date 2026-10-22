@@ -1,0 +1,17 @@
+{
+  "name": "content-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plans, produces and queues social content for Content Systems.ai",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "plan": "node scripts/plan.mjs",
+    "render": "node scripts/render.mjs",
+    "generate": "node scripts/generate.mjs",
+    "lint": "node scripts/lint.mjs",
+    "queue": "node scripts/queue.mjs",
+    "report": "node scripts/report.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

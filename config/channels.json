@@ -1,0 +1,36 @@
+{
+  "timezone": "America/New_York",
+  "channels": {
+    "li-personal": {
+      "label": "Korede Kolawole, LinkedIn",
+      "platform": "linkedin",
+      "perWeek": 7,
+      "formats": ["static", "carousel", "video"],
+      "videoAspect": "4:5",
+      "slots": { "mon": "08:00", "tue": "08:00", "wed": "08:00", "thu": "08:00", "fri": "08:00", "sat": "10:00", "sun": "19:00" }
+    },
+    "li-company": {
+      "label": "Content Systems.ai, LinkedIn",
+      "platform": "linkedin",
+      "perWeek": 5,
+      "formats": ["static", "carousel", "video"],
+      "videoAspect": "4:5",
+      "slots": { "mon": "12:00", "tue": "10:30", "wed": "12:00", "thu": "10:30", "fri": "12:00" }
+    },
+    "ig-company": {
+      "label": "Content Systems.ai, Instagram",
+      "platform": "instagram",
+      "perWeek": 14,
+      "minVideos": 4,
+      "formats": ["static", "carousel", "video"],
+      "videoAspect": "9:16",
+      "slots": {
+        "mon": ["11:30", "19:00"], "tue": ["11:30", "19:00"], "wed": ["11:30", "19:00"],
+        "thu": ["11:30", "19:00"], "fri": ["11:30", "18:00"], "sat": ["10:00", "17:00"], "sun": ["10:00", "18:30"]
+      }
+    }
+  },
+  "pillars": ["belief-shift", "tools-vs-systems", "calm-playbooks", "operational-clarity", "case-studies"],
+  "executions": ["proof", "mistakes", "checklist"],
+  "statuses": ["draft", "linted", "approved", "queued", "published"]
+}

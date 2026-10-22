@@ -1,0 +1,32 @@
+{
+  "bannedPhrases": [
+    { "phrase": "purpose-led" },
+    { "phrase": "human-first" },
+    { "phrase": "responsible AI" },
+    { "phrase": "second brain", "suggest": "company brain" },
+    { "phrase": "AI consulting firm" },
+    { "phrase": "AI agency" }
+  ],
+  "limits": {
+    "li-personal": { "maxChars": 3000, "targetMin": 900, "targetMax": 1500, "maxHashtags": 3 },
+    "li-company": { "maxChars": 3000, "targetMin": 900, "targetMax": 1500, "maxHashtags": 3 },
+    "ig-company": { "maxChars": 2200, "maxHashtags": 5 }
+  },
+  "motivationalCloserPatterns": [
+    "you've got this",
+    "you got this",
+    "keep going",
+    "keep pushing",
+    "never give up",
+    "let's go",
+    "let's get it",
+    "the future is (yours|now|bright)",
+    "dream big",
+    "stay hungry",
+    "believe in yourself",
+    "go (build|crush|make) (it|something)",
+    "now go",
+    "the best is yet to come",
+    "onwards and upwards"
+  ]
+}
