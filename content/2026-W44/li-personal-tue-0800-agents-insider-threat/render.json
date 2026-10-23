@@ -25,7 +25,8 @@
         "src": "shots/c-headline.png",
         "url": "techcrunch.com",
         "h": 624,
-        "pan": 20
+        "pan": 20,
+        "bg": "bg/corridor.png"
       },
       {
         "at": "And",
@@ -35,7 +36,8 @@
         "url": "techcrunch.com",
         "h": 700,
         "pan": 15,
-        "caption": "An agent you pay for, acting like a rogue employee"
+        "caption": "An agent you pay for, acting like a rogue employee",
+        "bg": "bg/corridor.png"
       },
       {
         "at": "Someone",
@@ -62,29 +64,43 @@
             "chipKind": "bad",
             "at": "bank"
           }
-        ]
+        ],
+        "bg": "bg/master-key.png"
       },
       {
         "at": "Now",
         "world": "light",
         "type": "stat",
         "value": "1",
-        "label": "bad instruction can touch everything"
+        "label": "bad instruction can touch everything",
+        "bg": "bg/master-key.png"
       },
       {
         "at": "Satya",
+        "world": "dark",
+        "type": "person",
+        "photo": "people/satya-nadella.jpg",
+        "name": "Satya Nadella",
+        "role": "Microsoft CEO",
+        "bg": "bg/turnstile.png",
+        "color": "#00A4EF"
+      },
+      {
+        "at": "separate",
         "world": "dark",
         "type": "shot",
         "src": "shots/c-nadella.png",
         "url": "techcrunch.com",
         "h": 790,
-        "pan": 15
+        "pan": 15,
+        "bg": "bg/turnstile.png"
       },
       {
         "at": "So",
         "world": "light",
         "type": "word",
-        "text": "MY RULES"
+        "text": "MY RULES",
+        "bg": "bg/master-key.png"
       },
       {
         "at": "Each",
@@ -104,7 +120,8 @@
             "text": "A person approves what leaves",
             "at": "approves"
           }
-        ]
+        ],
+        "bg": "bg/turnstile.png"
       },
       {
         "at": "Emails",
@@ -138,14 +155,16 @@
           "at": "gated",
           "x": 260,
           "y": 830
-        }
+        },
+        "bg": "bg/corridor.png"
       },
       {
         "at": "On",
         "world": "dark",
         "type": "stat",
         "value": "11 AM ET",
-        "label": "Sunday, building an AI employee live"
+        "label": "Sunday, building an AI employee live",
+        "bg": "bg/live-studio.png"
       },
       {
         "at": "Join",
@@ -153,7 +172,8 @@
         "type": "cta",
         "keyword": "JOIN LIVE",
         "prompt": "contentsystems.ai/workshop",
-        "dm": "Seat saved · Sun 11 AM ET"
+        "dm": "Seat saved · Sun 11 AM ET",
+        "bg": "bg/live-studio.png"
       }
     ],
     "heygen": {
@@ -172,6 +192,60 @@
         "openai",
         "claude"
       ]
-    }
+    },
+    "pops": [
+      {
+        "at": "Microsoft",
+        "kind": "logo",
+        "brand": "microsoft",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "And"
+      },
+      {
+        "at": "threats.",
+        "kind": "burst",
+        "text": "INSIDER\nTHREAT",
+        "x": 620,
+        "y": 290,
+        "w": 320,
+        "size": 40,
+        "color": "#FFE066",
+        "rot": -10,
+        "until": "Someone"
+      },
+      {
+        "at": "bad",
+        "kind": "sprite",
+        "sprite": "evil-robot",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "Satya"
+      },
+      {
+        "at": "person",
+        "kind": "sprite",
+        "sprite": "worker",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "On"
+      },
+      {
+        "at": "live",
+        "kind": "burst",
+        "text": "LIVE",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#9CCAA0",
+        "rot": 10,
+        "until": "Join"
+      }
+    ]
   }
 }

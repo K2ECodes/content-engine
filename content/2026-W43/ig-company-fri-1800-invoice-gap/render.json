@@ -31,13 +31,15 @@
     "value": "8,000",
     "prefix": "$",
     "label": "of work that never made the invoice",
-    "landAt": "$8K"
+    "landAt": "$8K",
+    "bg": "bg/warehouse.png"
    },
    {
     "at": "It",
     "world": "light",
     "type": "word",
-    "text": "3 places"
+    "text": "3 places",
+    "bg": "bg/warehouse.png"
    },
    {
     "at": "First,",
@@ -67,7 +69,8 @@
       "chipKind": "ok",
       "at": "check"
      }
-    ]
+    ],
+    "bg": "bg/warehouse.png"
    },
    {
     "at": "Second,",
@@ -91,7 +94,8 @@
       "text": "Every Friday",
       "at": "Friday."
      }
-    ]
+    ],
+    "bg": "bg/warehouse.png"
    },
    {
     "at": "Third,",
@@ -112,7 +116,8 @@
       "chipKind": "bad",
       "at": "rush"
      }
-    ]
+    ],
+    "bg": "bg/desk.png"
    },
    {
     "at": "Search",
@@ -149,13 +154,15 @@
      "at": "problem.",
      "x": 250,
      "y": 760
-    }
+    },
+    "bg": "bg/desk.png"
    },
    {
     "at": "handoff",
     "world": "dark",
     "type": "word",
-    "text": "Handoff"
+    "text": "Handoff",
+    "bg": "bg/desk.png"
    },
    {
     "at": "That's#2",
@@ -182,7 +189,8 @@
      "at": "Systems.ai",
      "x": 560,
      "y": 700
-    }
+    },
+    "bg": "bg/warehouse.png"
    },
    {
     "at": "Comment",
@@ -190,7 +198,8 @@
     "type": "cta",
     "keyword": "SYSTEMS",
     "prompt": "SYSTEMS",
-    "dm": "3PL billing checklist sent"
+    "dm": "3PL billing checklist sent",
+    "bg": "bg/desk.png"
    }
   ],
   "bgLogos": [

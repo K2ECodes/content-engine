@@ -32,3 +32,6 @@ Fast animated explainer flipping between dark green and cream. A counter rolls t
 - Lead post: comment keyword plus a "save this" nudge, no "link in bio" (no company offer allowed on this account).
 - Faceless narrator: Gemini 3.8 "Jett" (company uses Brio). Music: Suno V6 instrumental (music-2.mp3 unused alt).
 Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).
+
+- Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
+- People (person scene, no quote): Dario Amodei, Anthropic CEO, photo by UK Prime Minister, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg (cropped).

@@ -27,3 +27,6 @@ Fast animated explainer flipping between dark green and cream. "Pick a lane" get
 - Lead post: comment keyword is the CTA, with a save/follow nudge. No "link in bio" (no company offer on this account).
 - Faceless narrator: Gemini 3.8 "Jett". Music: Suno V6 instrumental (music-2.mp3 unused alt).
 Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).
+
+- Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
+- People (person scene, no quote): Sam Altman, OpenAI CEO, photo by TechCrunch, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg.

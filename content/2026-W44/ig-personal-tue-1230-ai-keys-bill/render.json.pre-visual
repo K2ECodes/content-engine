@@ -1,0 +1,200 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.11
+    },
+    "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. 5 minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack.",
+    "keys": [
+      "$1000",
+      "keys",
+      "limit",
+      "separate",
+      "who"
+    ],
+    "strikes": [],
+    "posterAt": 1.2,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "shot",
+        "src": "shots/c-headline.png",
+        "url": "techcrunch.com",
+        "h": 624,
+        "pan": 20
+      },
+      {
+        "at": "Here's",
+        "world": "light",
+        "type": "list",
+        "title": "OpenCode Console",
+        "badge": "HACKED",
+        "rows": [
+          {
+            "text": "Attackers get in",
+            "chip": "BREACH",
+            "chipKind": "bad",
+            "at": "attackers"
+          },
+          {
+            "text": "Saved AI keys",
+            "chip": "EXPOSED",
+            "chipKind": "bad",
+            "at": "saved"
+          },
+          {
+            "text": "Keys get spent",
+            "chip": "$$$",
+            "chipKind": "bad",
+            "at": "spent"
+          }
+        ],
+        "stamp": {
+          "text": "BILLED",
+          "kind": "bad",
+          "at": "keys#2",
+          "x": 260,
+          "y": 830
+        }
+      },
+      {
+        "at": "OpenAI",
+        "world": "dark",
+        "type": "shot",
+        "src": "shots/c-charges.png",
+        "url": "techcrunch.com",
+        "h": 660,
+        "pan": 0,
+        "caption": "Spend alerts firing overnight"
+      },
+      {
+        "at": "If",
+        "world": "light",
+        "type": "word",
+        "text": "CHECK 3"
+      },
+      {
+        "at": "First",
+        "world": "dark",
+        "type": "shot",
+        "src": "shots/c-limits.png",
+        "url": "docs.claude.com",
+        "h": 740,
+        "pan": 0,
+        "caption": "1. Set a spending limit"
+      },
+      {
+        "at": "Second",
+        "world": "light",
+        "type": "list",
+        "title": "api-keys",
+        "badge": "1 PER TOOL",
+        "rows": [
+          {
+            "text": "Coding tool",
+            "val": "sk-…a1f",
+            "at": "1"
+          },
+          {
+            "text": "Email writer",
+            "val": "sk-…9c2",
+            "at": "per"
+          },
+          {
+            "text": "Notes app",
+            "val": "sk-…77e",
+            "at": "leak"
+          }
+        ]
+      },
+      {
+        "at": "Third",
+        "world": "dark",
+        "type": "list",
+        "title": "who can use them",
+        "rows": [
+          {
+            "text": "You",
+            "chip": "OWNER",
+            "chipKind": "ok",
+            "at": "who"
+          },
+          {
+            "text": "Key from 2025",
+            "chip": "DELETE",
+            "chipKind": "bad",
+            "at": "delete"
+          },
+          {
+            "text": "Ex-teammate",
+            "chip": "REMOVE",
+            "chipKind": "bad",
+            "at": "remove"
+          }
+        ]
+      },
+      {
+        "at": "5",
+        "world": "light",
+        "type": "checklist",
+        "title": "today, 5 minutes",
+        "rows": [
+          {
+            "text": "Spending limit",
+            "at": "5"
+          },
+          {
+            "text": "Separate keys",
+            "at": "beats"
+          },
+          {
+            "text": "Who can use them",
+            "at": "surprise"
+          }
+        ],
+        "stamp": {
+          "text": "DONE",
+          "kind": "ok",
+          "at": "bill",
+          "x": 300,
+          "y": 830
+        }
+      },
+      {
+        "at": "Comment",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "AI",
+        "prompt": "AI",
+        "dm": "Sent: your free AI starter pack"
+      }
+    ],
+    "heygen": {
+      "say": "A hacked AI coding tool just ran up bills of over a thousand dollars on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check three settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. One key per tool, so one leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. Five minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack."
+    },
+    "bgLogos": [
+      "anthropic",
+      "claude",
+      "openai",
+      "google",
+      "anthropic",
+      "claude",
+      "openai",
+      "google",
+      "anthropic",
+      "claude"
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "anthropic",
+        "claude",
+        "openai",
+        "google"
+      ]
+    }
+  }
+}

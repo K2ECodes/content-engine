@@ -33,3 +33,6 @@ Animated story reel voiced by Korede: a TechCrunch article on Microsoft calling 
 - Music: kie Suno V6 dark rage-trap bed, audio/music.mp3 at 0.07 (alt take music-2.mp3). $0.06.
 - CTA: workshop (plan row Tue 08:00). li-personal mix post, mentions Content Systems.ai.
 - Curiosity rewrite 2026-10-23 (caption only, video unchanged): the caption no longer lists the 3 rules, it points to the video, and the workshop line matches the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay).
+
+- Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
+- People (person scene on 'Satya', then the TechCrunch quote screenshot): Satya Nadella, Microsoft CEO, photo by Brian Smale and Microsoft, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-8-2.jpg (cropped).

@@ -18,10 +18,29 @@
     },
     "scenes": [
       {
-        "at": "Claude",
+        "world": "dark",
+        "type": "person",
+        "photo": "people/dario-amodei.jpg",
+        "name": "Dario Amodei",
+        "role": "Anthropic CEO",
+        "bg": "bg/wallet-lasers.png",
+        "color": "#D97757"
+      },
+      {
+        "world": "dark",
+        "type": "person",
+        "photo": "people/dario-amodei.jpg",
+        "name": "Dario Amodei",
+        "role": "Anthropic CEO",
+        "color": "#D97757",
+        "at": "that"
+      },
+      {
+        "at": "called",
         "world": "dark",
         "type": "word",
-        "text": "Claude Duet"
+        "text": "Claude Duet",
+        "bg": "bg/wallet-lasers.png"
       },
       {
         "at": "works",
@@ -46,7 +65,28 @@
           "at": "yes.",
           "x": 640,
           "y": 1120
-        }
+        },
+        "bg": "bg/robot-pay.png"
+      },
+      {
+        "at": "That's",
+        "world": "light",
+        "type": "checklist",
+        "title": "Claude Duet, preview",
+        "rows": [
+          {
+            "text": "Works in the background",
+            "at": "background,"
+          },
+          {
+            "text": "Stops before it pays",
+            "at": "pays"
+          },
+          {
+            "text": "Waits for your yes",
+            "at": "yes."
+          }
+        ]
       },
       {
         "at": "risk",
@@ -66,7 +106,8 @@
             "chipKind": "bad",
             "at": "you."
           }
-        ]
+        ],
+        "bg": "bg/robot-pay.png"
       },
       {
         "at": "single",
@@ -92,7 +133,27 @@
           "at": "fixes",
           "x": 300,
           "y": 800
-        }
+        },
+        "bg": "bg/wallet-lasers.png"
+      },
+      {
+        "at": "Want",
+        "world": "light",
+        "type": "list",
+        "title": "With 1 approval step",
+        "rows": [
+          {
+            "text": "AI drafts it",
+            "chip": "Auto",
+            "chipKind": "wait",
+            "at": "approval"
+          },
+          {
+            "text": "You say yes",
+            "chip": "Approved",
+            "at": "step"
+          }
+        ]
       },
       {
         "at": "Comment",
@@ -100,18 +161,22 @@
         "type": "cta",
         "keyword": "AI",
         "prompt": "AI",
-        "dm": "Starter skills sent"
+        "dm": "Starter skills sent",
+        "bg": "bg/robot-pay.png"
       }
     ],
     "faceCuts": [
       {
+        "layout": "none"
+      },
+      {
+        "at": "that",
         "layout": "full",
         "zoom": 1.0
       },
       {
         "at": "called",
-        "layout": "split",
-        "zoom": 1.0
+        "layout": "corner"
       },
       {
         "at": "That's",
@@ -130,7 +195,7 @@
       },
       {
         "at": "Comment",
-        "layout": "pip"
+        "layout": "corner"
       }
     ],
     "keys": [
@@ -140,6 +205,66 @@
     "strikes": [
       "dumb"
     ],
-    "tail": 1.6
+    "tail": 1.6,
+    "pops": [
+      {
+        "at": "Anthropic",
+        "kind": "logo",
+        "brand": "anthropic",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "that"
+      },
+      {
+        "at": "Claude",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 780,
+        "y": 250,
+        "w": 160,
+        "rot": 8,
+        "until": "That's"
+      },
+      {
+        "at": "waits",
+        "kind": "burst",
+        "text": "WAIT",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#FFE066",
+        "rot": -10,
+        "until": "That's"
+      },
+      {
+        "at": "dumb.",
+        "kind": "sprite",
+        "sprite": "robot",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "single"
+      },
+      {
+        "at": "Comment",
+        "kind": "burst",
+        "text": "FREE",
+        "x": 780,
+        "y": 300,
+        "w": 220,
+        "size": 60,
+        "color": "#9CCAA0",
+        "rot": 12
+      }
+    ],
+    "bgLogos": [
+      "anthropic",
+      "claude",
+      "anthropic",
+      "claude"
+    ]
   }
 }

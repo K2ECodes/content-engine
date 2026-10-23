@@ -353,6 +353,8 @@ function resolveStory(dir, spec) {
     if (o.stamp) o.stamp = { ...o.stamp, t: T(o.stamp.at, `scene ${i} stamp`) };
     if (o.click) o.click = { ...o.click, t: T(o.click.at, `scene ${i} click`) };
     if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;
+    if (o.bg) o.bgUrl = pathToFileURL(path.resolve(dir, o.bg)).href;
+    if (o.type === 'person') { o.photoUrl = pathToFileURL(path.resolve(dir, o.photo)).href; if (o.brand) o.b = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'))[o.brand]; }
     return o;
   }).sort((a, b) => a.t - b.t);
   d.scenes.forEach((sc, i) => { sc.end = d.scenes[i + 1]?.t ?? d.duration; });

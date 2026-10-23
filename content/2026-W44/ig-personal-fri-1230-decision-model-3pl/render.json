@@ -38,16 +38,28 @@
             "chipKind": "bad",
             "at": "chatbot"
           }
-        ]
+        ],
+        "bg": "bg/rail-switch.png"
       },
       {
         "at": "OpenAI's",
+        "world": "dark",
+        "type": "person",
+        "photo": "people/sam-altman.jpg",
+        "name": "Sam Altman",
+        "role": "OpenAI CEO",
+        "bg": "bg/speed-tunnel.png",
+        "color": "#10A37F"
+      },
+      {
+        "at": "picks",
         "world": "light",
         "type": "odometer",
         "value": "100",
         "suffix": " ms",
         "label": "per decision, OpenAI's claim",
-        "landAt": "100"
+        "landAt": "100",
+        "bg": "bg/speed-tunnel.png"
       },
       {
         "at": "Chat",
@@ -55,7 +67,8 @@
         "type": "stat",
         "value": "1 to 3 s",
         "label": "for a chat model to answer",
-        "foot": "OpenAI, Oct 22 2026"
+        "foot": "OpenAI, Oct 22 2026",
+        "bg": "bg/sorting.png"
       },
       {
         "at": "Speak",
@@ -78,7 +91,8 @@
             "chipKind": "ok",
             "at": "0.13"
           }
-        ]
+        ],
+        "bg": "bg/speed-tunnel.png"
       },
       {
         "at": "Most",
@@ -98,13 +112,15 @@
             "chipKind": "ok",
             "at": "choosing"
           }
-        ]
+        ],
+        "bg": "bg/sorting.png"
       },
       {
         "at": "So",
         "world": "light",
         "type": "word",
-        "text": "3 SPOTS"
+        "text": "3 SPOTS",
+        "bg": "bg/rail-switch.png"
       },
       {
         "at": "1#2",
@@ -125,7 +141,8 @@
             "chipKind": "ok",
             "at": "team"
           }
-        ]
+        ],
+        "bg": "bg/rail-switch.png"
       },
       {
         "at": "2",
@@ -152,7 +169,8 @@
             "chipKind": "wait",
             "at": "next"
           }
-        ]
+        ],
+        "bg": "bg/sorting.png"
       },
       {
         "at": "3#2",
@@ -179,7 +197,8 @@
             "chipKind": "ok",
             "at": "fine"
           }
-        ]
+        ],
+        "bg": "bg/speed-tunnel.png"
       },
       {
         "at": "Low",
@@ -205,7 +224,8 @@
           "at": "person",
           "x": 830,
           "y": 1110
-        }
+        },
+        "bg": "bg/control-room.png"
       },
       {
         "at": "The chat",
@@ -228,7 +248,8 @@
           "at": "fast",
           "x": 560,
           "y": 830
-        }
+        },
+        "bg": "bg/control-room.png"
       },
       {
         "at": "Comment",
@@ -236,7 +257,8 @@
         "type": "cta",
         "keyword": "AI",
         "prompt": "AI",
-        "dm": "Starter pack sent to your DMs"
+        "dm": "Starter pack sent to your DMs",
+        "bg": "bg/rail-switch.png"
       }
     ],
     "bgLogos": [
@@ -252,6 +274,69 @@
         "claude",
         "gemini"
       ]
-    }
+    },
+    "pops": [
+      {
+        "at": "chatbot.",
+        "kind": "sprite",
+        "sprite": "robot",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "OpenAI's"
+      },
+      {
+        "at": "OpenAI's",
+        "kind": "logo",
+        "brand": "openai",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "Chat"
+      },
+      {
+        "at": "milliseconds.",
+        "kind": "burst",
+        "text": "100 MS",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#FFE066",
+        "rot": -10,
+        "until": "Chat"
+      },
+      {
+        "at": "choosing.",
+        "kind": "sprite",
+        "sprite": "chart",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "So"
+      },
+      {
+        "at": "blink.",
+        "kind": "burst",
+        "text": "BLINK",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#9CCAA0",
+        "rot": 10,
+        "until": "Low"
+      },
+      {
+        "at": "person.",
+        "kind": "sprite",
+        "sprite": "worker",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "The chat"
+      }
+    ]
   }
 }

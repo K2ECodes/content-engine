@@ -1,0 +1,308 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.11
+    },
+    "tail": 2.0,
+    "script": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that's huge. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT or Cursor. No more pasting the same prompt every morning. So here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Comment AI and I'll send you my starter pack, plus the permission sheet.",
+    "keys": [
+      "70",
+      "1m",
+      "huge",
+      "once",
+      "first",
+      "task",
+      "late",
+      "yes",
+      "permission"
+    ],
+    "strikes": [
+      "pasting"
+    ],
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "70",
+        "suffix": "+",
+        "label": "AI tools run the same skills",
+        "landAt": "70+"
+      },
+      {
+        "at": "Over",
+        "world": "light",
+        "type": "stat",
+        "value": "1M",
+        "label": "skills, nearly 280M installs",
+        "foot": "Anthropic, Oct 22 2026"
+      },
+      {
+        "at": "Here's",
+        "world": "dark",
+        "type": "word",
+        "text": "HUGE"
+      },
+      {
+        "at": "A skill",
+        "world": "light",
+        "type": "list",
+        "title": "SKILL.md",
+        "badge": "1 file",
+        "rows": [
+          {
+            "text": "Your steps",
+            "chip": "Saved",
+            "chipKind": "ok",
+            "at": "saved"
+          },
+          {
+            "text": "Your rules",
+            "chip": "Saved",
+            "chipKind": "ok",
+            "at": "how-to"
+          },
+          {
+            "text": "Runs on demand",
+            "chip": "Yes",
+            "chipKind": "ok",
+            "at": "actually"
+          }
+        ]
+      },
+      {
+        "at": "Write",
+        "world": "dark",
+        "type": "list",
+        "title": "Same skill, any tool",
+        "badge": "1 file",
+        "rows": [
+          {
+            "text": "Claude",
+            "chip": "Runs",
+            "chipKind": "ok",
+            "at": "Claude"
+          },
+          {
+            "text": "ChatGPT",
+            "chip": "Runs",
+            "chipKind": "ok",
+            "at": "ChatGPT"
+          },
+          {
+            "text": "Cursor",
+            "chip": "Runs",
+            "chipKind": "ok",
+            "at": "Cursor"
+          }
+        ]
+      },
+      {
+        "at": "No",
+        "world": "light",
+        "type": "list",
+        "title": "Every morning",
+        "rows": [
+          {
+            "text": "Paste the prompt",
+            "chip": "Again",
+            "chipKind": "bad",
+            "at": "pasting"
+          },
+          {
+            "text": "Paste the prompt",
+            "chip": "Again",
+            "chipKind": "bad",
+            "at": "prompt"
+          },
+          {
+            "text": "Paste the prompt",
+            "chip": "Again",
+            "chipKind": "bad",
+            "at": "morning"
+          }
+        ]
+      },
+      {
+        "at": "So",
+        "world": "dark",
+        "type": "word",
+        "text": "FIRST 5"
+      },
+      {
+        "at": "1",
+        "world": "light",
+        "type": "list",
+        "title": "inbox-triage",
+        "badge": "1 of 5",
+        "rows": [
+          {
+            "text": "Needs you",
+            "chip": "Top",
+            "chipKind": "ok",
+            "at": "needs"
+          },
+          {
+            "text": "Can wait",
+            "chip": "Later",
+            "chipKind": "wait",
+            "at": "doesn't"
+          }
+        ]
+      },
+      {
+        "at": "2",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Call notes, 2 of 5",
+        "rows": [
+          {
+            "text": "Send the deck",
+            "at": "call"
+          },
+          {
+            "text": "Book the follow-up",
+            "at": "task"
+          },
+          {
+            "text": "Update the doc",
+            "at": "list"
+          }
+        ]
+      },
+      {
+        "at": "3",
+        "world": "light",
+        "type": "receipt",
+        "lines": [
+          {
+            "text": "Numbers",
+            "val": "Pulled",
+            "at": "pulls"
+          },
+          {
+            "text": "Charts",
+            "val": "Built",
+            "at": "numbers"
+          },
+          {
+            "text": "Summary",
+            "val": "Drafted",
+            "at": "drafts"
+          }
+        ],
+        "total": {
+          "text": "Weekly report",
+          "val": "Ready"
+        }
+      },
+      {
+        "at": "4",
+        "world": "dark",
+        "type": "list",
+        "title": "research-brief",
+        "badge": "4 of 5",
+        "rows": [
+          {
+            "text": "1 question",
+            "chip": "In",
+            "chipKind": "wait",
+            "at": "question"
+          },
+          {
+            "text": "Sources",
+            "chip": "Out",
+            "chipKind": "ok",
+            "at": "sources"
+          }
+        ]
+      },
+      {
+        "at": "5#2",
+        "world": "light",
+        "type": "checklist",
+        "title": "Daily brief, 7 AM",
+        "rows": [
+          {
+            "text": "What's late",
+            "at": "late"
+          },
+          {
+            "text": "What's stuck",
+            "at": "stuck"
+          },
+          {
+            "text": "What needs you",
+            "at": "needs#2"
+          }
+        ],
+        "click": {
+          "at": "needs#2",
+          "x": 140,
+          "y": 1165
+        }
+      },
+      {
+        "at": "And every",
+        "world": "dark",
+        "type": "list",
+        "title": "Outbox",
+        "badge": "Needs my yes",
+        "rows": [
+          {
+            "text": "Weekly report",
+            "chip": "Waiting",
+            "chipKind": "wait",
+            "at": "every#3"
+          },
+          {
+            "text": "Inbox replies",
+            "chip": "Waiting",
+            "chipKind": "wait",
+            "at": "waits"
+          }
+        ],
+        "stamp": {
+          "text": "APPROVED",
+          "kind": "ok",
+          "at": "yes",
+          "x": 170,
+          "y": 820
+        }
+      },
+      {
+        "at": "Comment",
+        "world": "light",
+        "type": "cta",
+        "keyword": "AI",
+        "prompt": "AI",
+        "dm": "Starter pack sent to your DMs"
+      }
+    ],
+    "bgLogos": [
+      "anthropic",
+      "claude",
+      "chatgpt",
+      "anthropic",
+      "claude",
+      "chatgpt",
+      "anthropic",
+      "claude",
+      "chatgpt",
+      "anthropic"
+    ],
+    "hook": {
+      "style": "breaking",
+      "brands": [
+        "anthropic",
+        "claude",
+        "chatgpt"
+      ],
+      "tag": "AI NEWS",
+      "ticker": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M "
+    }
+  }
+}

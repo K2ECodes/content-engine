@@ -25,3 +25,4 @@ Animated explainer that flips between dark green and cream. Carrier logos slam d
 - Order counts, unit counts and the Oct 6 / Oct 20 ship dates are illustrative (badges "Example"); "usually priced per unit" and "could run out" are hedged on purpose. The fee types are positioning from contentsystems.ai/logistics, not client results.
 - Halloween is a light hook only (the 1 Halloween post this week). Different angle from the W43 invoice-gap video: peak-specific fees and a daily (not month-end) check.
 - CTA: calculator, contentsystems.ai/logistics (link in bio).
+- Scene backgrounds (per-scene `bg`): bg/spooky.png, bg/conveyor.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.

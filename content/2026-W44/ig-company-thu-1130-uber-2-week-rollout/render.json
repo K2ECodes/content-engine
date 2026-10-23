@@ -32,7 +32,8 @@
     "type": "odometer",
     "value": "30,000",
     "label": "Uber staff now on AI",
-    "landAt": "staff."
+    "landAt": "staff.",
+    "bg": "bg/uber-car.png"
    },
    {
     "at": "The",
@@ -52,15 +53,18 @@
       "chip": "Yes",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/uber-car.png"
    },
    {
     "at": "Step",
     "world": "dark",
-    "type": "brand",
-    "brand": "uber",
-    "title": "Start small",
-    "sub": "Pilot: about 1,000 people"
+    "type": "person",
+    "photo": "people/khosrowshahi.jpg",
+    "name": "Dara Khosrowshahi",
+    "role": "Uber CEO",
+    "bg": "bg/uber-car.png",
+    "color": "#E8B84B"
    },
    {
     "at": "8",
@@ -68,7 +72,8 @@
     "type": "stat",
     "value": "8 in 10",
     "label": "of the pilot weren't engineers",
-    "foot": "TechCrunch, Oct 22 2026"
+    "foot": "TechCrunch, Oct 22 2026",
+    "bg": "bg/team.png"
    },
    {
     "at": "So",
@@ -88,14 +93,16 @@
       "chip": "Yes",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/team.png"
    },
    {
     "at": "Step#2",
     "world": "light",
     "type": "stat",
     "value": "2 weeks",
-    "label": "sitting next to each team"
+    "label": "sitting next to each team",
+    "bg": "bg/team.png"
    },
    {
     "at": "Uber#3",
@@ -103,7 +110,8 @@
     "type": "odometer",
     "value": "30",
     "label": "AI engineers paired with teams",
-    "landAt": "30"
+    "landAt": "30",
+    "bg": "bg/team.png"
    },
    {
     "at": "Step#3",
@@ -130,7 +138,8 @@
      "at": "scale.",
      "x": 560,
      "y": 720
-    }
+    },
+    "bg": "bg/team.png"
    },
    {
     "at": "Buying",
@@ -150,7 +159,8 @@
       "chip": "Skip",
       "chipKind": "bad"
      }
-    ]
+    ],
+    "bg": "bg/team.png"
    },
    {
     "at": "It's",
@@ -170,7 +180,8 @@
       "text": "Then scale",
       "at": "Content"
      }
-    ]
+    ],
+    "bg": "bg/team.png"
    },
    {
     "at": "Bring",
@@ -185,7 +196,8 @@
       "chip": "Bring it",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/team.png"
    }
   ],
   "bgLogos": [

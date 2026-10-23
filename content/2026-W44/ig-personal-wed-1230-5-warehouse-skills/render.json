@@ -26,11 +26,22 @@
     "scenes": [
       {
         "world": "dark",
+        "type": "person",
+        "photo": "people/dario-amodei.jpg",
+        "name": "Dario Amodei",
+        "role": "Anthropic CEO",
+        "bg": "bg/library.png",
+        "color": "#D97757"
+      },
+      {
+        "world": "dark",
         "type": "odometer",
         "value": "70",
         "suffix": "+",
         "label": "AI tools run the same skills",
-        "landAt": "70+"
+        "landAt": "70+",
+        "at": "70+",
+        "bg": "bg/library.png"
       },
       {
         "at": "Over",
@@ -38,13 +49,15 @@
         "type": "stat",
         "value": "1M",
         "label": "skills, nearly 280M installs",
-        "foot": "Anthropic, Oct 22 2026"
+        "foot": "Anthropic, Oct 22 2026",
+        "bg": "bg/blueprint.png"
       },
       {
         "at": "Here's",
         "world": "dark",
         "type": "word",
-        "text": "HUGE"
+        "text": "HUGE",
+        "bg": "bg/library.png"
       },
       {
         "at": "A skill",
@@ -71,7 +84,8 @@
             "chipKind": "ok",
             "at": "actually"
           }
-        ]
+        ],
+        "bg": "bg/blueprint.png"
       },
       {
         "at": "Write",
@@ -98,7 +112,8 @@
             "chipKind": "ok",
             "at": "Cursor"
           }
-        ]
+        ],
+        "bg": "bg/blueprint.png"
       },
       {
         "at": "No",
@@ -124,13 +139,15 @@
             "chipKind": "bad",
             "at": "morning"
           }
-        ]
+        ],
+        "bg": "bg/desk-sunrise.png"
       },
       {
         "at": "So",
         "world": "dark",
         "type": "word",
-        "text": "FIRST 5"
+        "text": "FIRST 5",
+        "bg": "bg/library.png"
       },
       {
         "at": "1",
@@ -151,7 +168,8 @@
             "chipKind": "wait",
             "at": "doesn't"
           }
-        ]
+        ],
+        "bg": "bg/desk-sunrise.png"
       },
       {
         "at": "2",
@@ -171,7 +189,8 @@
             "text": "Update the doc",
             "at": "list"
           }
-        ]
+        ],
+        "bg": "bg/desk-sunrise.png"
       },
       {
         "at": "3",
@@ -197,7 +216,8 @@
         "total": {
           "text": "Weekly report",
           "val": "Ready"
-        }
+        },
+        "bg": "bg/blueprint.png"
       },
       {
         "at": "4",
@@ -218,7 +238,8 @@
             "chipKind": "ok",
             "at": "sources"
           }
-        ]
+        ],
+        "bg": "bg/library.png"
       },
       {
         "at": "5#2",
@@ -243,7 +264,8 @@
           "at": "needs#2",
           "x": 140,
           "y": 1165
-        }
+        },
+        "bg": "bg/desk-sunrise.png"
       },
       {
         "at": "And every",
@@ -271,7 +293,8 @@
           "at": "yes",
           "x": 170,
           "y": 820
-        }
+        },
+        "bg": "bg/approve-button.png"
       },
       {
         "at": "Comment",
@@ -279,7 +302,8 @@
         "type": "cta",
         "keyword": "AI",
         "prompt": "AI",
-        "dm": "Starter pack sent to your DMs"
+        "dm": "Starter pack sent to your DMs",
+        "bg": "bg/approve-button.png"
       }
     ],
     "bgLogos": [
@@ -303,6 +327,88 @@
       ],
       "tag": "AI NEWS",
       "ticker": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M "
-    }
+    },
+    "pops": [
+      {
+        "at": "Anthropic",
+        "kind": "logo",
+        "brand": "anthropic",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "Over"
+      },
+      {
+        "at": "280M",
+        "kind": "burst",
+        "text": "280M",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#FFE066",
+        "rot": -10,
+        "until": "Here's"
+      },
+      {
+        "at": "Claude,",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 780,
+        "y": 240,
+        "w": 150,
+        "rot": 8,
+        "until": "No"
+      },
+      {
+        "at": "ChatGPT,",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 780,
+        "y": 420,
+        "w": 150,
+        "rot": -6,
+        "until": "No"
+      },
+      {
+        "at": "inbox",
+        "kind": "sprite",
+        "sprite": "laptop",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "2,"
+      },
+      {
+        "at": "numbers",
+        "kind": "sprite",
+        "sprite": "chart",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "4,"
+      },
+      {
+        "at": "waits",
+        "kind": "sprite",
+        "sprite": "robot",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "Comment"
+      },
+      {
+        "at": "Comment",
+        "kind": "burst",
+        "text": "FREE",
+        "x": 780,
+        "y": 300,
+        "w": 220,
+        "size": 60,
+        "color": "#9CCAA0",
+        "rot": 12
+      }
+    ]
   }
 }

@@ -23,3 +23,4 @@ Animated explainer that flips between dark green and cream. Claude and Anthropic
 - The tools card (email helper sends alone, support bot refunds alone) is an illustration, not a client.
 - This now gives the 4 yes moments away in the video on purpose (value over curiosity loop, per Korede's 2026-10-23 note); the workshop tease stays on what you build live.
 - CTA: workshop, contentsystems.ai/workshop (link in bio). $97 GA, $197 VIP.
+- Scene backgrounds (per-scene `bg`): bg/monitors.png, bg/approve.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.

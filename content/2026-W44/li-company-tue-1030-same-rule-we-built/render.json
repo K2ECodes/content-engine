@@ -30,7 +30,8 @@
    {
     "world": "dark",
     "type": "word",
-    "text": "1 rule"
+    "text": "1 rule",
+    "bg": "bg/keys.png"
    },
    {
     "at": "Anthropic's",
@@ -38,7 +39,8 @@
     "type": "brand",
     "brand": "anthropic",
     "title": "Anthropic",
-    "sub": "Asks before it pays"
+    "sub": "Asks before it pays",
+    "bg": "bg/card.png"
    },
    {
     "at": "So",
@@ -53,7 +55,8 @@
       "chip": "Always",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/card.png"
    },
    {
     "at": "Walmart",
@@ -61,7 +64,8 @@
     "type": "brand",
     "brand": "walmart",
     "title": "Walmart",
-    "sub": "Shoppers set a spending limit"
+    "sub": "Shoppers set a spending limit",
+    "bg": "bg/card.png"
    },
    {
     "at": "So#2",
@@ -82,7 +86,8 @@
       "chip": "No",
       "chipKind": "bad"
      }
-    ]
+    ],
+    "bg": "bg/card.png"
    },
    {
     "at": "1Password",
@@ -90,7 +95,8 @@
     "type": "brand",
     "brand": "1password",
     "title": "1Password",
-    "sub": "AI logs in, never sees the password"
+    "sub": "AI logs in, never sees the password",
+    "bg": "bg/keys.png"
    },
    {
     "at": "So#3",
@@ -104,15 +110,19 @@
       "chip": "Never",
       "chipKind": "bad"
      }
-    ]
+    ],
+    "bg": "bg/keys.png"
    },
    {
     "at": "Microsoft",
     "world": "light",
-    "type": "brand",
-    "brand": "microsoft",
-    "title": "Microsoft",
-    "sub": "Watch AI like an insider with the keys"
+    "type": "person",
+    "photo": "people/nadella.jpg",
+    "name": "Satya Nadella",
+    "role": "Microsoft CEO",
+    "quote": "We need to separate the supply of intelligence from the authority over it.",
+    "bg": "bg/keys.png",
+    "color": "#E8B84B"
    },
    {
     "at": "So#4",
@@ -124,7 +134,8 @@
       "text": "Only the access its job needs",
       "at": "access"
      }
-    ]
+    ],
+    "bg": "bg/keys.png"
    },
    {
     "at": "AI does",
@@ -151,7 +162,8 @@
      "at": "yes#2",
      "x": 300,
      "y": 760
-    }
+    },
+    "bg": "bg/card.png"
    },
    {
     "at": "Every",
@@ -163,7 +175,8 @@
       "text": "Starts with the yes",
       "at": "starts"
      }
-    ]
+    ],
+    "bg": "bg/keys.png"
    },
    {
     "at": "We'll",
@@ -182,7 +195,8 @@
       "chip": "Link in post",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/card.png"
    }
   ],
   "bgLogos": [

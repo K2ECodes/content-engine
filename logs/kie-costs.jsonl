@@ -240,3 +240,46 @@
 {"ts":"2026-10-23T09:36:10.403Z","model":"volcengine/video-to-video-lip-sync","taskId":"8edc964878a1c2559f80877b1b92899f","state":"success","credits":16,"usd":0.08,"label":"ig-personal-thu-1900-walmart-let-agents-shop talk 0"}
 {"ts":"2026-10-23T09:36:24.217Z","model":"nano-banana-2","taskId":"23f1af9641869bd1315213474e71a7ad","state":"success","credits":12,"usd":0.06,"label":"swap img lfc-2.png"}
 {"ts":"2026-10-23T09:37:36.608Z","model":"volcengine/video-to-video-lip-sync","taskId":"43114146d90b75f1a45d027763b9c910","state":"success","credits":16,"usd":0.08,"label":"ig-personal-thu-1900-walmart-let-agents-shop talk 1"}
+{"ts":"2026-10-23T10:00:29.775Z","model":"kling-4.0/reference-to-video","taskId":"98904fa139fd2b63e00db3a5a76fe55c","state":"success","credits":170,"usd":0.85,"label":"swap k4 test locker 5s"}
+{"ts":"2026-10-23T10:05:10.202Z","model":"nano-banana-2","taskId":"cc684f477b2d2f90b064133c0bc62595","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:19.048Z","model":"nano-banana-2","taskId":"267dad0be437953c1e46a48bb0a53c61","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:19.353Z","model":"nano-banana-2","taskId":"e5c4423671c81dab927f17dd738dc700","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:19.399Z","model":"nano-banana-2","taskId":"38b9682756dfc0d1f188366c426783c3","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:19.750Z","model":"nano-banana-2","taskId":"e0febf345b4b7c442e1701e04cc3a3d9","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:19.752Z","model":"nano-banana-2","taskId":"ba1e37908e56eb54284dba0924397329","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:20.671Z","model":"nano-banana-2","taskId":"768f3c7d0351735eb7b647bacb6a65b8","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:22.232Z","model":"nano-banana-2","taskId":"26c35539d1f317caac7c246744c33d9e","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:31.281Z","model":"nano-banana-2","taskId":"70b1979953e3fe680509fec055bb70ea","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:32.341Z","model":"nano-banana-2","taskId":"517a9076901e3d337c803b75c50095ca","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:05:47.373Z","model":"nano-banana-2","taskId":"eff9ac46ff614745af116b0a5690ce68","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:06:06.298Z","model":"nano-banana-2","taskId":"5cade648e4e98583d4ab888c78bcb00a","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:06:34.853Z","model":"nano-banana-2","taskId":"e00c87271a2038f44f6c971eae2d36d4","state":"success","credits":8,"usd":0.04,"label":"value-rewrite bg"}
+{"ts":"2026-10-23T10:07:45.853Z","model":"nano-banana-2","taskId":"99ec35f466bb423d3113dbc5337c64c8","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-mon-1230-walmart-vs-amazon-agents aisle.png"}
+{"ts":"2026-10-23T10:08:27.732Z","model":"nano-banana-2","taskId":"bbec13d17a49b71fa8844f9044ca679f","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-mon-1230-walmart-vs-amazon-agents gate.png"}
+{"ts":"2026-10-23T10:08:28.106Z","model":"nano-banana-2","taskId":"039ffcf922451c2e9983c3179edea22b","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-mon-1230-walmart-vs-amazon-agents robot-shopper.png"}
+{"ts":"2026-10-23T10:08:35.723Z","model":"nano-banana-2","taskId":"44c0cc0c2dd20468c2562a6425c9e9c0","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-mon-1230-walmart-vs-amazon-agents arena.png"}
+{"ts":"2026-10-23T10:08:49.081Z","model":"nano-banana-2","taskId":"1ff77f39bb38f75ab6f7003d4cd0647c","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-mon-1230-walmart-vs-amazon-agents phone-carts.png"}
+{"ts":"2026-10-23T10:08:50.774Z","model":"nano-banana-2","taskId":"c6386547c70a44ed803770d316404826","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-decision-model-3pl rail-switch.png"}
+{"ts":"2026-10-23T10:08:52.757Z","model":"nano-banana-2","taskId":"81254a8446b7793c912f16f86758e9f1","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-decision-model-3pl speed-tunnel.png"}
+{"ts":"2026-10-23T10:08:59.561Z","model":"nano-banana-2","taskId":"31a043c25be9e58648012c7cbcd90159","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-decision-model-3pl sorting.png"}
+{"ts":"2026-10-23T10:09:12.678Z","model":"nano-banana-2","taskId":"0b4abd482ed0971345e7ed6f20729a2a","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-decision-model-3pl control-room.png"}
+{"ts":"2026-10-23T10:09:22.418Z","model":"nano-banana-2","taskId":"f61f13c2b739bd9e8e9842984dd91b02","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-sun-0930-openai-on-google-cloud menu-wall.png"}
+{"ts":"2026-10-23T10:09:23.428Z","model":"nano-banana-2","taskId":"220370397c6068898e532d7916b609b0","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-sun-0930-openai-on-google-cloud cloud-towers.png"}
+{"ts":"2026-10-23T10:09:28.264Z","model":"nano-banana-2","taskId":"c10d231438010a5c7787f25e103515d3","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-sun-0930-openai-on-google-cloud boxing-ring.png"}
+{"ts":"2026-10-23T10:09:38.055Z","model":"nano-banana-2","taskId":"2679c00bc2a15de7cdb2a0e6e2ff9d35","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-tue-1230-ai-keys-bill keys.png"}
+{"ts":"2026-10-23T10:09:46.359Z","model":"nano-banana-2","taskId":"6c1480fb7eb5c4858ebb975973f861ef","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-tue-1230-ai-keys-bill hacker-room.png"}
+{"ts":"2026-10-23T10:10:02.063Z","model":"nano-banana-2","taskId":"0185537d390cf2969b2b4e7762127280","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-wed-1230-5-warehouse-skills library.png"}
+{"ts":"2026-10-23T10:10:11.157Z","model":"nano-banana-2","taskId":"d4332101fbbfc59eeb652e981bfd4469","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-sun-0930-openai-on-google-cloud datacenter.png"}
+{"ts":"2026-10-23T10:10:22.099Z","model":"nano-banana-2","taskId":"7bd5e82ac88e471da0b5527e6b63228a","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-wed-1230-5-warehouse-skills blueprint.png"}
+{"ts":"2026-10-23T10:10:25.287Z","model":"nano-banana-2","taskId":"b3d20b52be1b8733638f4c33cda5dc8b","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-wed-1230-5-warehouse-skills desk-sunrise.png"}
+{"ts":"2026-10-23T10:10:34.981Z","model":"nano-banana-2","taskId":"fec0105377c2faea56054351d875cd32","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-wed-1230-5-warehouse-skills approve-button.png"}
+{"ts":"2026-10-23T10:10:36.275Z","model":"nano-banana-2","taskId":"21e2230491170565dcfbbff36401e182","state":"success","credits":8,"usd":0.04,"label":"bg li-personal-tue-0800-agents-insider-threat corridor.png"}
+{"ts":"2026-10-23T10:10:39.176Z","model":"nano-banana-2","taskId":"02ec713deaaa7b423102f747d15e51d0","state":"success","credits":8,"usd":0.04,"label":"bg li-personal-tue-0800-agents-insider-threat master-key.png"}
+{"ts":"2026-10-23T10:10:52.810Z","model":"nano-banana-2","taskId":"92ad144833e84debd61e71483dfc352b","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-ai-wont-spend-without-asking wallet-lasers.png"}
+{"ts":"2026-10-23T10:10:58.574Z","model":"nano-banana-2","taskId":"a980895ab78e85ae4e528c64ca295ba1","state":"success","credits":8,"usd":0.04,"label":"bg li-personal-tue-0800-agents-insider-threat live-studio.png"}
+{"ts":"2026-10-23T10:10:59.168Z","model":"nano-banana-2","taskId":"f0c8748fef515a12c24a9a48993592f6","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-tue-1230-ai-keys-bill bill.png"}
+{"ts":"2026-10-23T10:11:07.177Z","model":"nano-banana-2","taskId":"e5af72f6b9c603052e46edbdc0a55451","state":"success","credits":8,"usd":0.04,"label":"bg ig-personal-fri-1230-ai-wont-spend-without-asking robot-pay.png"}
+{"ts":"2026-10-23T10:11:10.165Z","model":"nano-banana-2","taskId":"4db5758bf3c6f6f0ad05663bdeadc850","state":"success","credits":8,"usd":0.04,"label":"bg li-personal-tue-0800-agents-insider-threat turnstile.png"}
+{"ts":"2026-10-23T10:20:59.168Z","model":"kling-4.0/reference-to-video","taskId":"2be575624b60ee2db3a54620f1dadca1","state":"success","credits":612,"usd":3.06,"label":"swap k4 full locker 18s"}
+{"ts":"2026-10-23T10:28:21.174Z","model":"kling-4.0/reference-to-video","taskId":"d08e089ae3036c838118c4d027bdfad3","state":"success","credits":510,"usd":2.55,"label":"swap k4 depw 15s"}
+{"ts":"2026-10-23T10:31:18.896Z","model":"kling-4.0/reference-to-video","taskId":"c56904b691a281f25a99d90687a31289","state":"success","credits":510,"usd":2.55,"label":"swap k4 gas 15s"}

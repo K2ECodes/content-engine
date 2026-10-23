@@ -24,33 +24,28 @@
         "src": "shots/c-openai.png",
         "url": "openai.com",
         "h": 690,
-        "pan": 0
+        "pan": 0,
+        "bg": "bg/datacenter.png"
       },
       {
         "at": "Yes",
-        "world": "light",
-        "type": "word",
-        "text": "GOOGLE?"
+        "world": "dark",
+        "type": "person",
+        "photo": "people/sundar-pichai.jpg",
+        "name": "Sundar Pichai",
+        "role": "Google CEO",
+        "bg": "bg/cloud-towers.png",
+        "color": "#8AB4F8"
       },
       {
-        "at": "Here's",
+        "at": "OpenAI's#2",
         "world": "dark",
-        "type": "list",
-        "title": "OpenAI on Google Cloud",
-        "rows": [
-          {
-            "text": "Frontier models",
-            "chip": "IN",
-            "chipKind": "ok",
-            "at": "frontier"
-          },
-          {
-            "text": "Codex",
-            "chip": "IN",
-            "chipKind": "ok",
-            "at": "codex"
-          }
-        ]
+        "type": "person",
+        "photo": "people/sam-altman.jpg",
+        "name": "Sam Altman",
+        "role": "OpenAI CEO",
+        "bg": "bg/datacenter.png",
+        "color": "#10A37F"
       },
       {
         "at": "Cloud's",
@@ -60,7 +55,8 @@
         "url": "cloud.google.com/model-garden",
         "h": 680,
         "pan": 15,
-        "caption": "200+ models in 1 place"
+        "caption": "200+ models in 1 place",
+        "bg": "bg/datacenter.png"
       },
       {
         "at": "Companies",
@@ -80,7 +76,8 @@
             "text": "Gemini Agent, soon",
             "at": "gemini#2"
           }
-        ]
+        ],
+        "bg": "bg/cloud-towers.png"
       },
       {
         "at": "Microsoft",
@@ -90,13 +87,15 @@
         "url": "openai.com",
         "h": 381,
         "pan": 10,
-        "caption": "Microsoft is still the main partner"
+        "caption": "Microsoft is still the main partner",
+        "bg": "bg/cloud-towers.png"
       },
       {
         "at": "So",
         "world": "dark",
         "type": "word",
-        "text": "MENU"
+        "text": "MENU",
+        "bg": "bg/menu-wall.png"
       },
       {
         "at": "You'll",
@@ -122,14 +121,16 @@
             "chipKind": "ok",
             "at": "company"
           }
-        ]
+        ],
+        "bg": "bg/menu-wall.png"
       },
       {
         "at": "Rivals",
         "world": "dark",
         "type": "stat",
         "value": "Rivals",
-        "label": "on stage, partners in the cloud"
+        "label": "on stage, partners in the cloud",
+        "bg": "bg/boxing-ring.png"
       },
       {
         "at": "Would",
@@ -149,7 +150,8 @@
             "chipKind": "bad",
             "at": "inside"
           }
-        ]
+        ],
+        "bg": "bg/boxing-ring.png"
       },
       {
         "at": "Comment",
@@ -157,7 +159,8 @@
         "type": "cta",
         "keyword": "AI",
         "prompt": "AI",
-        "dm": "Sent: your free AI starter pack"
+        "dm": "Sent: your free AI starter pack",
+        "bg": "bg/datacenter.png"
       }
     ],
     "heygen": {
@@ -182,6 +185,90 @@
         "google",
         "gemini"
       ]
-    }
+    },
+    "pops": [
+      {
+        "at": "OpenAI's",
+        "kind": "logo",
+        "brand": "openai",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "Yes"
+      },
+      {
+        "at": "Google",
+        "kind": "logo",
+        "brand": "google",
+        "x": 780,
+        "y": 250,
+        "w": 160,
+        "rot": 8,
+        "until": "Here's"
+      },
+      {
+        "at": "Google,",
+        "kind": "burst",
+        "text": "GOOGLE?",
+        "x": 620,
+        "y": 290,
+        "w": 300,
+        "size": 46,
+        "color": "#FFE066",
+        "rot": -10,
+        "until": "Here's"
+      },
+      {
+        "at": "Gemini.",
+        "kind": "logo",
+        "brand": "gemini",
+        "x": 90,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "OpenAI's#2"
+      },
+      {
+        "at": "Codex",
+        "kind": "logo",
+        "brand": "openai",
+        "x": 780,
+        "y": 250,
+        "w": 140,
+        "rot": 8,
+        "until": "Cloud's"
+      },
+      {
+        "at": "Microsoft",
+        "kind": "logo",
+        "brand": "microsoft",
+        "x": 90,
+        "y": 240,
+        "w": 160,
+        "rot": -8,
+        "until": "So"
+      },
+      {
+        "at": "Rivals",
+        "kind": "sprite",
+        "sprite": "boss",
+        "x": 780,
+        "y": 260,
+        "w": 200,
+        "until": "Would"
+      },
+      {
+        "at": "Comment",
+        "kind": "burst",
+        "text": "FREE",
+        "x": 780,
+        "y": 300,
+        "w": 220,
+        "size": 60,
+        "color": "#9CCAA0",
+        "rot": 12
+      }
+    ]
   }
 }

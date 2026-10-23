@@ -31,7 +31,8 @@
     "value": "100",
     "suffix": "+",
     "label": "AI employees run our company",
-    "landAt": "employees."
+    "landAt": "employees.",
+    "bg": "bg/monitors.png"
    },
    {
     "at": "Not",
@@ -52,13 +53,15 @@
       "chip": "Never",
       "chipKind": "bad"
      }
-    ]
+    ],
+    "bg": "bg/monitors.png"
    },
    {
     "at": "Here's",
     "world": "dark",
     "type": "word",
-    "text": "1 rule"
+    "text": "1 rule",
+    "bg": "bg/monitors.png"
    },
    {
     "at": "Let",
@@ -72,7 +75,8 @@
       "chip": "Anything",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/monitors.png"
    },
    {
     "at": "But",
@@ -96,7 +100,8 @@
       "text": "Deleting data",
       "at": "Deleting"
      }
-    ]
+    ],
+    "bg": "bg/approve.png"
    },
    {
     "at": "Try",
@@ -130,7 +135,8 @@
      "at": "step.",
      "x": 300,
      "y": 760
-    }
+    },
+    "bg": "bg/approve.png"
    },
    {
     "at": "Anthropic's",
@@ -138,7 +144,8 @@
     "type": "brand",
     "brand": "anthropic",
     "title": "Anthropic",
-    "sub": "Its new assistant asks before it pays"
+    "sub": "Its new assistant asks before it pays",
+    "bg": "bg/monitors.png"
    },
    {
     "at": "This",
@@ -163,13 +170,15 @@
       "chip": "Built in",
       "chipKind": "ok"
      }
-    ]
+    ],
+    "bg": "bg/approve.png"
    },
    {
     "at": "Link",
     "world": "dark",
     "type": "word",
-    "text": "Link in bio"
+    "text": "Link in bio",
+    "bg": "bg/monitors.png"
    }
   ],
   "bgLogos": [

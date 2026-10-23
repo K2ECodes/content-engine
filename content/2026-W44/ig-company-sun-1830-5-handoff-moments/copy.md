@@ -27,3 +27,4 @@ Animated explainer that flips between dark green and cream. A red NEW SURVEY bar
 - Source: Five9 survey of 3,000 consumers, 55 in 100 trust AI when a human option exists vs 26 in 100 without, Retail Dive Oct 22 2026, https://www.retaildive.com/news/why-customers-fed-up-ai-chatbots/833488/ (headline screenshot shots/rd-five9-head.png). "Twice as much" = 55 vs 26.
 - Keyword SYSTEMS sends: assets/freebies/support-handoff-map.pdf (built, listed in config/offers.json leadMagnets).
 - Sunday is workshop day; this evening slot runs after the live session ends.
+- Scene backgrounds (per-scene `bg`): bg/agent.png, bg/shopper.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.

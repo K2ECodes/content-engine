@@ -1,0 +1,257 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.11
+    },
+    "tail": 2.4,
+    "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says the wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1, routing. Which inbox, which team, with a confidence score. 2, picking. Which reply, which tool, which next step. 3, flagging. Spam, urgent or fine, in a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack, with the permission sheet for each step.",
+    "keys": [
+      "100",
+      "seconds",
+      "0.13",
+      "choosing",
+      "person",
+      "lane"
+    ],
+    "strikes": [
+      "chatbot"
+    ],
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "list",
+        "title": "Every AI step",
+        "rows": [
+          {
+            "text": "Write a reply",
+            "chip": "Chatbot",
+            "chipKind": "ok",
+            "at": "AI"
+          },
+          {
+            "text": "Pick a lane",
+            "chip": "Chatbot?",
+            "chipKind": "bad",
+            "at": "chatbot"
+          }
+        ]
+      },
+      {
+        "at": "OpenAI's",
+        "world": "light",
+        "type": "odometer",
+        "value": "100",
+        "suffix": " ms",
+        "label": "per decision, OpenAI's claim",
+        "landAt": "100"
+      },
+      {
+        "at": "Chat",
+        "world": "dark",
+        "type": "stat",
+        "value": "1 to 3 s",
+        "label": "for a chat model to answer",
+        "foot": "OpenAI, Oct 22 2026"
+      },
+      {
+        "at": "Speak",
+        "world": "light",
+        "type": "list",
+        "title": "Speak, time between steps",
+        "badge": "Oct 2026",
+        "rows": [
+          {
+            "text": "Before",
+            "val": "1.4 s",
+            "chip": "Slow",
+            "chipKind": "bad",
+            "at": "1.4"
+          },
+          {
+            "text": "Now",
+            "val": "0.13 s",
+            "chip": "Fast",
+            "chipKind": "ok",
+            "at": "0.13"
+          }
+        ]
+      },
+      {
+        "at": "Most",
+        "world": "dark",
+        "type": "list",
+        "title": "AI work, honestly",
+        "rows": [
+          {
+            "text": "Writing",
+            "chip": "Some",
+            "chipKind": "wait",
+            "at": "writing"
+          },
+          {
+            "text": "Choosing",
+            "chip": "Most of it",
+            "chipKind": "ok",
+            "at": "choosing"
+          }
+        ]
+      },
+      {
+        "at": "So",
+        "world": "light",
+        "type": "word",
+        "text": "3 SPOTS"
+      },
+      {
+        "at": "1#2",
+        "world": "dark",
+        "type": "list",
+        "title": "routing",
+        "badge": "Example",
+        "rows": [
+          {
+            "text": "Sales inbox",
+            "val": "0.06",
+            "at": "inbox"
+          },
+          {
+            "text": "Support team",
+            "val": "0.91",
+            "chip": "Picked",
+            "chipKind": "ok",
+            "at": "team"
+          }
+        ]
+      },
+      {
+        "at": "2",
+        "world": "light",
+        "type": "list",
+        "title": "picking",
+        "badge": "Example",
+        "rows": [
+          {
+            "text": "Reply draft",
+            "val": "0.22",
+            "at": "reply"
+          },
+          {
+            "text": "Calendar tool",
+            "val": "0.87",
+            "chip": "Picked",
+            "chipKind": "ok",
+            "at": "tool"
+          },
+          {
+            "text": "Book a call",
+            "chip": "Next",
+            "chipKind": "wait",
+            "at": "next"
+          }
+        ]
+      },
+      {
+        "at": "3#2",
+        "world": "dark",
+        "type": "list",
+        "title": "flagging",
+        "badge": "Example",
+        "rows": [
+          {
+            "text": "Spam",
+            "chip": "Bin",
+            "chipKind": "bad",
+            "at": "Spam"
+          },
+          {
+            "text": "Urgent",
+            "chip": "Now",
+            "chipKind": "wait",
+            "at": "urgent"
+          },
+          {
+            "text": "Fine",
+            "chip": "Later",
+            "chipKind": "ok",
+            "at": "fine"
+          }
+        ]
+      },
+      {
+        "at": "Low",
+        "world": "light",
+        "type": "list",
+        "title": "Confidence check",
+        "badge": "Example",
+        "rows": [
+          {
+            "text": "Support, 0.91",
+            "chip": "Auto",
+            "chipKind": "ok",
+            "at": "Low"
+          },
+          {
+            "text": "Sales, 0.41",
+            "chip": "Person",
+            "chipKind": "wait",
+            "at": "person"
+          }
+        ],
+        "click": {
+          "at": "person",
+          "x": 830,
+          "y": 1110
+        }
+      },
+      {
+        "at": "The chat",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Who does what",
+        "rows": [
+          {
+            "text": "Chat model writes the reply",
+            "at": "writes"
+          },
+          {
+            "text": "Decision model picks the lane",
+            "at": "picks#2"
+          }
+        ],
+        "stamp": {
+          "text": "DONE",
+          "kind": "ok",
+          "at": "fast",
+          "x": 560,
+          "y": 830
+        }
+      },
+      {
+        "at": "Comment",
+        "world": "light",
+        "type": "cta",
+        "keyword": "AI",
+        "prompt": "AI",
+        "dm": "Starter pack sent to your DMs"
+      }
+    ],
+    "bgLogos": [
+      "openai",
+      "openai",
+      "openai",
+      "openai"
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "openai",
+        "claude",
+        "gemini"
+      ]
+    }
+  }
+}

@@ -26,3 +26,6 @@ Animated story reel voiced by Korede: OpenAI's announcement that its models are 
 - Talking head pending kie.ai top-up: swap to `node scripts/heygen.mjs kie-plate` (data.heygen.say is ready in render.json).
 - Music: kie Suno V6 dark rage-trap bed at 0.07 (alt take music-2.mp3). $0.06. Sunday slot 09:30 ET, the US clock change is that morning, so double-check the queue time in Schedchie.
 Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).
+
+- Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
+- People (person scenes, no quotes): Sundar Pichai, Google CEO, photo by Maurizio Pesce, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sundar_Pichai_(cropped).jpg (cropped). Sam Altman, OpenAI CEO, photo by TechCrunch, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg. These replace the GOOGLE? word card and the 'OpenAI on Google Cloud' list card.
