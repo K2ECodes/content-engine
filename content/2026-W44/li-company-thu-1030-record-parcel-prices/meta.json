@@ -1,0 +1,21 @@
+{
+  "channel": "li-company",
+  "format": "carousel",
+  "aspect": "1:1",
+  "pillar": "operational-clarity",
+  "execution": "proof",
+  "topic": "peak-invoices-record-parcel-prices",
+  "lead": false,
+  "cta_type": "free-quote",
+  "cta_keyword": null,
+  "slot": "2026-10-29T10:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png"
+  ]
+}

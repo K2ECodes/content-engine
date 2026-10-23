@@ -1,0 +1,17 @@
+{
+  "channel": "ig-company",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "calm-playbooks",
+  "execution": "mistakes",
+  "topic": "managing-agents",
+  "lead": false,
+  "cta_type": "newsletter",
+  "cta_keyword": null,
+  "slot": "2026-10-30T11:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "static.png"
+  ]
+}

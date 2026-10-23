@@ -1,0 +1,17 @@
+{
+  "channel": "ig-company",
+  "format": "static",
+  "aspect": "1:1",
+  "pillar": "operational-clarity",
+  "execution": "proof",
+  "topic": "peak-invoices",
+  "lead": false,
+  "cta_type": "calculator",
+  "cta_keyword": null,
+  "slot": "2026-10-28T11:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "static.png"
+  ]
+}

@@ -38,11 +38,12 @@ async function main(argv) {
     const spec = JSON.parse(fs.readFileSync(path.join(dir, 'render.json'), 'utf8')).data;
     const lookId = spec.heygen?.look || process.env.HEYGEN_LOOK_ID || readEnv('HEYGEN_LOOK_ID');
     if (!lookId) throw new Error('no twin look id: set data.heygen.look in render.json or HEYGEN_LOOK_ID in .env (see `node scripts/heygen.mjs looks`)');
-    const script = spec.say || spec.script;
+    const script = spec.heygen?.say || spec.say || spec.script;
     const words = script.split(/\s+/).length;
     const r = await hg.avatarVideo({
       lookId, script, audio: arg(argv, 'audio'), voiceId: spec.heygen?.voice || readEnv('HEYGEN_VOICE_ID'),
       engine: arg(argv, 'engine', spec.heygen?.engine || 'avatar_iii'), webm: argv.includes('--webm'),
+      keepBackground: spec.heygen?.keepBackground ?? true, aspect: spec.heygen?.aspect || '16:9', speed: spec.heygen?.speed ?? 1.1,
       motionPrompt: spec.heygen?.motion, estSeconds: Math.ceil(words / 3.6) + 3, out: path.join(dir, 'plate.mp4'), label: path.basename(dir),
     });
     console.log(`wrote ${path.relative(process.cwd(), r.file)} (${r.seconds}s)`);

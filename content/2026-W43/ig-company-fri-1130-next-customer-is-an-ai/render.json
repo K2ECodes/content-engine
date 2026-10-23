@@ -1,0 +1,348 @@
+{
+  "template": "pixel",
+  "data": {
+    "handle": "@contentsystems.ai",
+    "slides": [
+      {
+        "world": "day",
+        "headline": [
+          "Your next customer",
+          "might be *an AI*"
+        ],
+        "card": {
+          "y": 440,
+          "accent": true,
+          "kind": "rows",
+          "title": "AI shopping assistants, Oct 2026",
+          "rows": [
+            {
+              "k": "Walmart:",
+              "v": "lets them shop"
+            },
+            {
+              "k": "Google:",
+              "v": "1 cart, every store"
+            },
+            {
+              "k": "Meta Muse:",
+              "v": "10M+ users"
+            }
+          ]
+        },
+        "notes": [
+          {
+            "text": "some spend\n$200+ an order",
+            "x": 620,
+            "y": 800,
+            "w": 380,
+            "accent": true,
+            "arrow": {
+              "x1": 690,
+              "y1": 805,
+              "x2": 600,
+              "y2": 745,
+              "bend": -30
+            }
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 120,
+            "h": 290
+          },
+          {
+            "name": "qblock",
+            "x": 420,
+            "h": 120,
+            "y": 880
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "1. Clear",
+          "*product info*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Sizes and materials",
+            "What's in the box",
+            "Who it's *for*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "if it isn't written down,\nit can't recommend it",
+            "x": 470,
+            "y": 830,
+            "w": 540
+          }
+        ],
+        "sprites": [
+          {
+            "name": "sanjana-point",
+            "x": 110,
+            "h": 280
+          },
+          {
+            "name": "box",
+            "x": 360,
+            "h": 110
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "2. Real",
+          "*stock levels*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "bars",
+          "title": "what the assistant sees",
+          "bars": [
+            {
+              "label": "12",
+              "name": "store says",
+              "value": 12
+            },
+            {
+              "label": "0",
+              "name": "warehouse has",
+              "value": 0.5,
+              "hot": true
+            }
+          ],
+          "foot": "wrong counts mean missed back-in-stock alerts"
+        },
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 700,
+            "h": 290,
+            "flip": true
+          }
+        ],
+        "notes": [
+          {
+            "text": "same item,\n2 answers",
+            "x": 120,
+            "y": 870,
+            "w": 360,
+            "accent": true
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "3. Honest",
+          "*delivery dates*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Vague",
+              "p": "ships soon"
+            },
+            {
+              "h": "Clear",
+              "p": "arrives Thu",
+              "hi": true
+            }
+          ],
+          "foot": "assistants compare these side by side"
+        },
+        "sprites": [
+          {
+            "name": "sanjana-cheer",
+            "x": 720,
+            "h": 290
+          }
+        ],
+        "notes": [
+          {
+            "text": "a real date\nwins the sale",
+            "x": 110,
+            "y": 860,
+            "w": 420,
+            "accent": true
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "4. Returns",
+          "*in plain words*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "accent": true,
+          "kind": "quote",
+          "text": "[33 in 100] shoppers say shipping and returns often change what they buy.",
+          "who": "Feedvisor and PartnerCentric survey, Oct 2026"
+        },
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 110,
+            "h": 280
+          }
+        ],
+        "notes": [
+          {
+            "text": "1 clear page,\nno fine print",
+            "x": 560,
+            "y": 860,
+            "w": 420
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "5. Questions",
+          "*answered once*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Fit and sizing",
+            "Care and washing",
+            "Warranty and *returns*"
+          ]
+        },
+        "sprites": [
+          {
+            "name": "sanjana-laptop",
+            "x": 700,
+            "h": 290,
+            "flip": true
+          },
+          {
+            "name": "bubble",
+            "x": 420,
+            "h": 120,
+            "y": 880
+          }
+        ],
+        "notes": [
+          {
+            "text": "your top 10,\non your site",
+            "x": 90,
+            "y": 880,
+            "w": 360,
+            "accent": true
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "We keep your store",
+          "*AI ready*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "accent": true,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Check",
+              "p": "every page"
+            },
+            {
+              "h": "Match",
+              "p": "stock + dates",
+              "hi": true
+            },
+            {
+              "h": "Flag",
+              "p": "you approve"
+            }
+          ]
+        },
+        "sprites": [
+          {
+            "name": "korede-stand",
+            "x": 120,
+            "h": 280
+          },
+          {
+            "name": "bulb",
+            "x": 420,
+            "h": 150,
+            "y": 890
+          },
+          {
+            "name": "sanjana-stand",
+            "x": 720,
+            "h": 280
+          }
+        ],
+        "notes": [
+          {
+            "text": "human or AI,\nthey can buy",
+            "x": 560,
+            "y": 760,
+            "w": 420
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "Comment",
+          "*“SYSTEMS”*"
+        ],
+        "card": {
+          "y": 470,
+          "kind": "code",
+          "text": "you get: *the agent-ready check*\n30 tick boxes in 7 areas\nfree, sent to your DMs"
+        },
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 110,
+            "h": 290
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 720,
+            "h": 290
+          },
+          {
+            "name": "coin",
+            "x": 470,
+            "h": 90,
+            "y": 930
+          }
+        ],
+        "notes": [
+          {
+            "text": "free, of course",
+            "x": 330,
+            "y": 800,
+            "w": 420,
+            "accent": true
+          }
+        ]
+      }
+    ]
+  }
+}

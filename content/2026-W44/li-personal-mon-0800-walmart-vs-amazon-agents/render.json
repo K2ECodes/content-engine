@@ -1,0 +1,77 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Walmart said *yes* to AI shoppers. Amazon said no.",
+        "sub": "Either way, the next buyer reads your warehouse data before it buys."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "shopping-cart",
+        "title": "Walmart opened up",
+        "body": "Approved AI agents can search its stock and buy for shoppers, inside limits the shopper sets.",
+        "cost": "Agent Gateway · Oct 21"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "shield-x",
+        "title": "Amazon said no",
+        "body": "Outside agents can't buy there. It blocked Meta's in September.",
+        "cost": "The 2 biggest US stores, opposite bets"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "users",
+        "title": "The buyers are real",
+        "body": "Meta's Muse passed 10M users. Over 1 in 4 engaged shoppers spent $200+ per order.",
+        "cost": "Google's Universal Cart went live too"
+      },
+      {
+        "type": "layers",
+        "title": "What the agent *reads first*",
+        "layers": [
+          {
+            "icon": "package",
+            "name": "In stock right now?",
+            "desc": "The live count, not last night's",
+            "chips": [
+              "3PL"
+            ]
+          },
+          {
+            "icon": "calendar-clock",
+            "name": "When does it arrive?",
+            "desc": "A real date, not \"3 to 7 days\"",
+            "chips": [
+              "3PL",
+              "Brand"
+            ]
+          },
+          {
+            "icon": "undo-2",
+            "name": "What does a return cost?",
+            "desc": "Rules it can read in 1 pass",
+            "chips": [
+              "Brand"
+            ]
+          }
+        ],
+        "loop": "1 wrong answer and it buys from a store that's sure.",
+        "loopIcon": "bot"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Is your store *agent-ready*?",
+        "sub": "Free quote with your top AI opportunities · contentsystems.ai/ecommerce"
+      }
+    ]
+  }
+}

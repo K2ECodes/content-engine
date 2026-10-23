@@ -1,0 +1,145 @@
+{
+  "template": "story",
+  "data": {
+    "face": {
+      "src": "plate.mp4"
+    },
+    "words": "words.json",
+    "heygen": {
+      "say": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that, and it's how we build every system for our clients. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
+      "aspect": "16:9",
+      "keepBackground": true,
+      "speed": 1.12
+    },
+    "script": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.09
+    },
+    "scenes": [
+      {
+        "at": "Claude",
+        "world": "dark",
+        "type": "word",
+        "text": "Claude Duet"
+      },
+      {
+        "at": "works",
+        "world": "light",
+        "type": "checklist",
+        "title": "Claude Duet, preview",
+        "rows": [
+          {
+            "text": "Works in the background",
+            "at": "background,"
+          },
+          {
+            "text": "Stops before it pays",
+            "at": "pays"
+          },
+          {
+            "text": "Waits for your yes",
+            "at": "yes."
+          }
+        ],
+        "click": {
+          "at": "yes.",
+          "x": 640,
+          "y": 1120
+        }
+      },
+      {
+        "at": "risk",
+        "world": "dark",
+        "type": "list",
+        "title": "No approval step",
+        "rows": [
+          {
+            "text": "Acts on its own",
+            "chip": "Risk",
+            "chipKind": "bad",
+            "at": "act"
+          },
+          {
+            "text": "Spends on its own",
+            "chip": "Risk",
+            "chipKind": "bad",
+            "at": "you."
+          }
+        ]
+      },
+      {
+        "at": "single",
+        "world": "light",
+        "type": "list",
+        "title": "With 1 approval step",
+        "rows": [
+          {
+            "text": "AI drafts it",
+            "chip": "Auto",
+            "chipKind": "wait",
+            "at": "approval"
+          },
+          {
+            "text": "You say yes",
+            "chip": "Approved",
+            "at": "step"
+          }
+        ],
+        "stamp": {
+          "text": "APPROVED",
+          "kind": "ok",
+          "at": "fixes",
+          "x": 300,
+          "y": 800
+        }
+      },
+      {
+        "at": "Comment",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "AI",
+        "prompt": "AI",
+        "dm": "Starter skills sent"
+      }
+    ],
+    "faceCuts": [
+      {
+        "layout": "full",
+        "zoom": 1.0
+      },
+      {
+        "at": "called",
+        "layout": "split",
+        "zoom": 1.0
+      },
+      {
+        "at": "That's",
+        "layout": "full",
+        "zoom": 1.0,
+        "push": true
+      },
+      {
+        "at": "risk",
+        "layout": "none"
+      },
+      {
+        "at": "Want",
+        "layout": "full",
+        "zoom": 1.06
+      },
+      {
+        "at": "Comment",
+        "layout": "pip"
+      }
+    ],
+    "keys": [
+      "yes",
+      "approval"
+    ],
+    "strikes": [
+      "dumb"
+    ],
+    "tail": 1.6
+  }
+}

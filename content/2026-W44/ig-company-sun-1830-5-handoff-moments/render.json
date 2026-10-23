@@ -1,0 +1,151 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.09
+    },
+    "script": "Launching a support bot for Black Friday? Here are the 5 moments it has to hand the customer to a person. An apparel brand we work with in Berlin lets AI answer 72 in 100 support tickets in 4 languages. The other 28 go to a person, on purpose. An angry customer. Someone who wants to cancel. A refund over your limit. A question the bot isn't sure about. And anyone who asks for a human. Skip these and people stop trusting the bot. With a human option, 55 in 100 trust AI to fix their issue. Without one, just 26. And that Berlin brand? It still saves 1 in 4 customers who try to cancel. Comment SYSTEMS and we'll send you the full handoff map.",
+    "keys": [
+      "5",
+      "person",
+      "72",
+      "28",
+      "purpose",
+      "human",
+      "55",
+      "26",
+      "1",
+      "systems"
+    ],
+    "strikes": [
+      "trusting"
+    ],
+    "posterAt": 1.6,
+    "scenes": [
+      {
+        "world": "light",
+        "type": "list",
+        "title": "Support inbox",
+        "badge": "Black Friday",
+        "rows": [
+          {
+            "text": "Where's my order?",
+            "at": "support",
+            "chip": "Bot",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Change my address",
+            "at": "moments",
+            "chip": "Bot",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Cancel my order",
+            "at": "hand",
+            "chip": "To a person",
+            "chipKind": "wait"
+          }
+        ],
+        "stamp": {
+          "text": "SENT",
+          "kind": "ok",
+          "at": "person",
+          "x": 560,
+          "y": 820
+        }
+      },
+      {
+        "at": "an apparel",
+        "world": "dark",
+        "type": "odometer",
+        "value": "72",
+        "suffix": "\u00a0in\u00a0100",
+        "label": "tickets answered by AI, in 4 languages",
+        "landAt": "72"
+      },
+      {
+        "at": "the other",
+        "world": "light",
+        "type": "stat",
+        "value": "28",
+        "label": "go to a person, on purpose",
+        "foot": "Apparel brand in Berlin we work with"
+      },
+      {
+        "at": "an angry",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Hand it to a person",
+        "rows": [
+          {
+            "text": "Angry customer",
+            "at": "angry"
+          },
+          {
+            "text": "Wants to cancel",
+            "at": "cancel"
+          },
+          {
+            "text": "Refund over your limit",
+            "at": "refund"
+          },
+          {
+            "text": "Bot isn't sure",
+            "at": "sure"
+          },
+          {
+            "text": "Asks for a human",
+            "at": "asks"
+          }
+        ],
+        "click": {
+          "at": "human",
+          "x": 640,
+          "y": 1360
+        }
+      },
+      {
+        "at": "skip",
+        "world": "light",
+        "type": "word",
+        "text": "No trust"
+      },
+      {
+        "at": "with a human",
+        "world": "dark",
+        "type": "stat",
+        "value": "55 in 100",
+        "label": "trust AI when a person is an option",
+        "foot": "Five9 survey, Oct 2026"
+      },
+      {
+        "at": "without",
+        "world": "light",
+        "type": "stat",
+        "value": "26 in 100",
+        "label": "trust it when there's no person",
+        "foot": "Five9 survey, Oct 2026"
+      },
+      {
+        "at": "and that",
+        "world": "dark",
+        "type": "stat",
+        "value": "1 in 4",
+        "label": "customers who try to cancel, kept",
+        "foot": "Apparel brand in Berlin we work with"
+      },
+      {
+        "at": "comment",
+        "world": "light",
+        "type": "cta",
+        "keyword": "SYSTEMS",
+        "prompt": "SYSTEMS",
+        "dm": "Handoff map sent to your DMs"
+      }
+    ]
+  }
+}

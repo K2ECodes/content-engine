@@ -1,0 +1,211 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.09
+    },
+    "script": "Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks. Here's what happened. They started with a pilot of about 1,000 people. 8 in 10 of them weren't engineers. Then 30 AI engineers sat with each team, found the boring parts of their jobs and automated them. Data reports. Training in new languages. Dashboards. 2 weeks per team. Then they scaled. Most companies do the opposite. They buy licenses for everyone, send a login, and wonder why nobody uses it. You don't need 30 engineers. You need someone next to your team for 2 weeks. On your real work. Bring your biggest bottleneck to our free office hours. Link in bio.",
+    "keys": [
+      "30000",
+      "secret",
+      "30",
+      "weeks",
+      "1000",
+      "8",
+      "boring",
+      "scaled",
+      "opposite",
+      "nobody",
+      "someone",
+      "free"
+    ],
+    "strikes": [
+      "tool",
+      "login"
+    ],
+    "posterAt": 1.6,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "30,000",
+        "label": "Uber staff getting AI",
+        "landAt": "30,000"
+      },
+      {
+        "at": "secret",
+        "world": "light",
+        "type": "word",
+        "text": "Not tools"
+      },
+      {
+        "at": "it was",
+        "world": "dark",
+        "type": "stat",
+        "value": "30",
+        "label": "AI experts sitting next to teams",
+        "foot": "TechCrunch, Oct 22 2026"
+      },
+      {
+        "at": "2",
+        "world": "light",
+        "type": "word",
+        "text": "2 weeks"
+      },
+      {
+        "at": "they started",
+        "world": "dark",
+        "type": "list",
+        "title": "Uber pilot",
+        "rows": [
+          {
+            "text": "People in the pilot",
+            "at": "pilot",
+            "val": "1,000"
+          },
+          {
+            "text": "Weren't engineers",
+            "at": "8",
+            "val": "8 in 10"
+          }
+        ]
+      },
+      {
+        "at": "then",
+        "world": "light",
+        "type": "checklist",
+        "title": "Team by team",
+        "rows": [
+          {
+            "text": "Sit with the team",
+            "at": "sat"
+          },
+          {
+            "text": "Find the boring parts",
+            "at": "boring"
+          },
+          {
+            "text": "Automate them",
+            "at": "automated"
+          }
+        ],
+        "click": {
+          "at": "automated",
+          "x": 600,
+          "y": 1180
+        }
+      },
+      {
+        "at": "data",
+        "world": "dark",
+        "type": "list",
+        "title": "What they handed to AI",
+        "rows": [
+          {
+            "text": "Data reports",
+            "at": "data",
+            "chip": "Done",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Training, new languages",
+            "at": "training",
+            "chip": "Done",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Dashboards",
+            "at": "dashboards",
+            "chip": "Done",
+            "chipKind": "ok"
+          }
+        ]
+      },
+      {
+        "at": "2#2",
+        "world": "light",
+        "type": "stat",
+        "value": "2 weeks",
+        "label": "per team, then scale",
+        "foot": "TechCrunch, Oct 22 2026"
+      },
+      {
+        "at": "most",
+        "world": "dark",
+        "type": "list",
+        "title": "Most companies",
+        "rows": [
+          {
+            "text": "Licenses for everyone",
+            "at": "buy",
+            "chip": "Bought",
+            "chipKind": "ok"
+          },
+          {
+            "text": "A login by email",
+            "at": "send",
+            "chip": "Sent",
+            "chipKind": "ok"
+          },
+          {
+            "text": "People using it",
+            "at": "nobody",
+            "chip": "Nobody",
+            "chipKind": "bad"
+          }
+        ],
+        "stamp": {
+          "text": "MISSED",
+          "kind": "bad",
+          "at": "uses",
+          "x": 300,
+          "y": 820
+        }
+      },
+      {
+        "at": "don't need",
+        "world": "light",
+        "type": "word",
+        "text": "Not 30"
+      },
+      {
+        "at": "you need",
+        "world": "dark",
+        "type": "checklist",
+        "title": "What you need",
+        "rows": [
+          {
+            "text": "Someone next to your team",
+            "at": "someone"
+          },
+          {
+            "text": "For 2 weeks",
+            "at": "2#3"
+          },
+          {
+            "text": "On your real work",
+            "at": "real"
+          }
+        ],
+        "stamp": {
+          "text": "DONE",
+          "kind": "ok",
+          "at": "work",
+          "x": 600,
+          "y": 840
+        }
+      },
+      {
+        "at": "bring",
+        "world": "light",
+        "type": "cta",
+        "keyword": "FREE",
+        "prompt": "Bottleneck: month-end billing",
+        "dm": "Seat saved \u00b7 link in bio"
+      }
+    ]
+  }
+}

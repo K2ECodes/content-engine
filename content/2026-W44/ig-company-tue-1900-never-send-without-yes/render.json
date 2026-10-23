@@ -1,0 +1,104 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "3 things AI should *never send* without your yes",
+        "sub": "We run on 100+ AI employees. These 3 still wait for a person."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "banknote",
+        "title": "Refunds",
+        "body": "Money out is final. The AI gathers the order, the reason and the amount. A person clicks pay.",
+        "cost": "Rule: AI prepares, a person pays"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "mail",
+        "title": "Customer emails",
+        "body": "Routine answers can go alone once you trust them. A promise, a discount or an apology waits for a person.",
+        "cost": "Rule: AI drafts, your team sends the hard ones"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "truck",
+        "title": "Freight bookings",
+        "body": "A booking commits a truck and a bill. The AI compares carriers and prices. A person confirms.",
+        "cost": "Rule: AI shortlists, a person books"
+      },
+      {
+        "type": "layers",
+        "theme": "dark",
+        "title": "This month, the big names *agreed*",
+        "layers": [
+          {
+            "icon": "sparkles",
+            "name": "Anthropic",
+            "desc": "Its new assistant asks before it pays",
+            "chips": [
+              "Oct 22"
+            ]
+          },
+          {
+            "icon": "shopping-cart",
+            "name": "Walmart",
+            "desc": "AI shoppers get spending limits",
+            "chips": [
+              "Oct 21"
+            ]
+          },
+          {
+            "icon": "shield-check",
+            "name": "Microsoft",
+            "desc": "Watch AI helpers like staff with keys",
+            "chips": [
+              "Oct 19"
+            ]
+          }
+        ],
+        "loop": "Every system we build has had this rule from day 1.",
+        "loopIcon": "check-check"
+      },
+      {
+        "type": "layers",
+        "title": "How the *yes* works",
+        "layers": [
+          {
+            "icon": "zap",
+            "name": "AI does the work",
+            "desc": "Drafts the refund, the reply or the booking"
+          },
+          {
+            "icon": "eye",
+            "name": "You see what and why",
+            "desc": "Amount, customer, reason, on 1 screen"
+          },
+          {
+            "icon": "user-check",
+            "name": "You say yes",
+            "desc": "Or change it, or say no"
+          },
+          {
+            "icon": "send",
+            "name": "Then it sends",
+            "desc": "And every step is on record"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want our *approval sheet*?",
+        "keyword": "SYSTEMS",
+        "sub": "All 4 actions that always need a yes. Comment it and we'll DM you."
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Why an AI shopper *skipped* your product",
+        "sub": "Some of them spend $200+ an order. Here are 5 things it couldn't read."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "package-x",
+        "title": "Stock that lags",
+        "body": "Your store says sold out. The warehouse has 40 on the shelf. The back-in-stock alert goes to someone else.",
+        "cost": "Fix: store stock matches the warehouse daily"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "calendar-clock",
+        "title": "\"Ships in 3 to 7 days\"",
+        "body": "Assistants compare delivery dates side by side. A vague window loses to a real date.",
+        "cost": "Fix: a real delivery date on every product"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "undo-2",
+        "title": "Hidden returns rules",
+        "body": "33 in 100 shoppers say shipping and returns change what they buy. Fine print reads as a no.",
+        "cost": "Fix: 1 clear returns page, in plain words"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "tag",
+        "title": "Prices that disagree",
+        "body": "Your site says $48. Your marketplace listing says $52. The assistant trusts neither.",
+        "cost": "Fix: 1 price, everywhere you sell"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "image-off",
+        "title": "Details in pictures",
+        "body": "A size chart saved as an image is invisible to a shopper that reads.",
+        "cost": "Fix: sizes and materials written as text"
+      },
+      {
+        "type": "layers",
+        "theme": "dark",
+        "title": "Who fixes *what*",
+        "layers": [
+          {
+            "icon": "tag",
+            "name": "Your brand",
+            "desc": "Prices, product details, returns page",
+            "chips": [
+              "Store"
+            ]
+          },
+          {
+            "icon": "warehouse",
+            "name": "Your warehouse",
+            "desc": "Stock counts and real ship dates",
+            "chips": [
+              "3PL"
+            ]
+          },
+          {
+            "icon": "user-check",
+            "name": "Your team",
+            "desc": "Approves every change before it goes live",
+            "chips": [
+              "Your yes"
+            ]
+          }
+        ],
+        "loop": "Both sides stay in step, so the assistant can pick you.",
+        "loopIcon": "refresh-cw"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want the full *agent-ready check*?",
+        "keyword": "SYSTEMS",
+        "sub": "For brands and their 3PLs. Comment it and we'll DM you."
+      }
+    ]
+  }
+}

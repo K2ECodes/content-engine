@@ -1,0 +1,22 @@
+{
+  "channel": "ig-company",
+  "format": "carousel",
+  "aspect": "1:1",
+  "pillar": "calm-playbooks",
+  "execution": "checklist",
+  "topic": "managing-agents",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-10-30T18:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png"
+  ]
+}

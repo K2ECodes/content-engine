@@ -1,0 +1,24 @@
+{
+  "channel": "ig-company",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "operational-clarity",
+  "execution": "checklist",
+  "topic": "peak-invoices",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-10-28T19:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png",
+    "slide-08.png"
+  ]
+}

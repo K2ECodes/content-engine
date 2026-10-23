@@ -58,8 +58,8 @@ async function renderStatic(browser, data, aspect, dir) {
   return ['static.png'];
 }
 
-async function renderCarousel(browser, data, aspect, dir) {
-  const { page } = await openTemplate(browser, 'carousel', data, aspect);
+async function renderCarousel(browser, data, aspect, dir, template = 'carousel') {
+  const { page } = await openTemplate(browser, template, data, aspect);
   const files = [];
   for (let i = 0; i < data.slides.length; i++) {
     await page.evaluate((n) => window.showSlide(n), i);
@@ -379,6 +379,7 @@ async function main(argv) {
     console.log(`render ${path.relative(ROOT, dir)} · ${spec.template} · ${aspect}`);
     const files = spec.template === 'static' ? await renderStatic(browser, data, aspect, dir)
       : spec.template === 'carousel' ? await renderCarousel(browser, data, aspect, dir)
+      : spec.template === 'pixel' ? await renderCarousel(browser, data, '4:5', dir, 'pixel')
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)

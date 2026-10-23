@@ -1,0 +1,53 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "4 things *your warehouse* decides before an AI buys",
+        "sub": "AI shopping assistants check facts, not photos. 4 of them live with your 3PL."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "package",
+        "title": "Stock count",
+        "body": "It has to be right now, not as of last night.",
+        "cost": "Wrong count: skipped, or cancelled after the order"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "calendar-clock",
+        "title": "Delivery date",
+        "body": "A clear promise like \"arrives Thursday\" beats \"ships in 3 to 7 days\".",
+        "cost": "Vague dates lose to sure ones"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "undo-2",
+        "title": "Return rules",
+        "body": "Who pays, how long it takes, and where it goes back to.",
+        "cost": "1 in 3 shoppers say these rules change what they buy"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "receipt",
+        "title": "Shipping cost",
+        "body": "The full total at checkout, with no surprise at the end.",
+        "cost": "The assistant compares the total, not the tag"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Get the\n*agent-ready* check",
+        "keyword": "SYSTEMS",
+        "sub": "Comment SYSTEMS · 1 page for brands and their 3PLs, with who owns each item"
+      }
+    ]
+  }
+}

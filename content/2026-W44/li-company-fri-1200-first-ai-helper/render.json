@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "light",
+    "headline": "Your next team member might be an *AI helper*. Who manages it?",
+    "sub": "We'll set up the first 1 live on Sunday, with a person approving every step.",
+    "stats": [
+      {
+        "value": "58 in 100",
+        "label": "managers expect more AI helpers than people"
+      },
+      {
+        "value": "29 in 100",
+        "label": "say their AI setup is right"
+      }
+    ]
+  }
+}

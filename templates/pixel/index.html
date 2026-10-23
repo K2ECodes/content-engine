@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Silkscreen:wght@400;700&display=block" rel="stylesheet">
+<style>
+  /* Content Systems.ai pixel-world carousel: the 8-bit platformer world from the brand's "Our Story" posts,
+     with Albert Olgaard-style headline / card / annotation layout. 1080x1350. */
+  .canvas { width: 1080px; height: 1350px; }
+  .sky { position: absolute; inset: 0; background-size: cover; background-position: center bottom; image-rendering: pixelated; }
+  .day { --hl: #17281C; --acc: #C2591F; --note: #17281C; --foot: #F5F0E8; --hls: 0 4px 0 rgba(255,255,255,.75); }
+  .night { --hl: #F5F0E8; --acc: #E8B84B; --note: #F5F0E8; --foot: #F5F0E8; --hls: 0 5px 0 #0b1a33, 0 0 18px rgba(11,26,51,.9); }
+  .sprite { position: absolute; image-rendering: pixelated; }
+
+  .hl { position: absolute; left: 60px; right: 60px; top: 78px; text-align: center; font: 400 112px/0.98 'Anton', sans-serif; text-transform: uppercase; letter-spacing: .005em; color: var(--hl); text-shadow: var(--hls); }
+  .hl .a { color: var(--acc); }
+  .hl.s { font-size: 92px; }
+  .hl.xs { font-size: 76px; }
+  .uline { display: block; margin: 14px auto 0; width: 70%; height: 28px; }
+  .uline path { fill: none; stroke: var(--acc); stroke-width: 7; stroke-linecap: round; }
+
+  .card { position: absolute; left: 90px; right: 90px; background: #fff; color: var(--ink); border: 6px solid var(--ink); border-radius: 22px; box-shadow: 10px 10px 0 var(--ink); padding: 34px 40px; }
+  .card.acc { border-color: var(--acc); box-shadow: 10px 10px 0 rgba(23,40,28,.85); }
+  .card .t { font: 700 30px/1.2 var(--f-data); margin-bottom: 18px; color: rgba(23,40,28,.7); }
+  .rows .r { display: flex; align-items: baseline; gap: 22px; font: 700 40px/1.55 var(--f-data); }
+  .rows .r .k { color: var(--orange); min-width: 6.5em; }
+  .bars .b { display: flex; align-items: center; gap: 18px; margin: 18px 0; min-height: 76px; font: 700 32px/1 var(--f-data); }
+  .bars .track { flex: 1; height: 54px; }
+  .bars .fill { height: 100%; border: 4px solid var(--ink); background: var(--sage); }
+  .bars .b.hot .fill { background: var(--orange); }
+  .bars .v { font: 400 70px/1 'Anton'; min-width: 1.6em; }
+  .bars .foot { position: static; display: block; margin-top: 22px; white-space: normal; font: 400 22px/1.4 var(--f-data); color: rgba(23,40,28,.65); text-align: center; }
+  .flow { display: flex; align-items: stretch; gap: 14px; }
+  .flow .n { flex: 1; border: 4px solid rgba(23,40,28,.25); border-radius: 14px; padding: 22px 14px; text-align: center; background: #F5F0E8; }
+  .flow .n.hi { border-color: var(--orange); background: #fff; }
+  .flow .n h4 { font: 400 54px/1 'Anton'; text-transform: uppercase; }
+  .flow .n.hi h4 { color: var(--orange); }
+  .flow .n p { margin-top: 14px; font: 700 28px/1.3 var(--f-data); }
+  .flow .ar { align-self: center; font: 700 44px/1 var(--f-data); color: var(--orange); }
+  .flow-foot { margin-top: 18px; text-align: right; font: 700 28px/1 var(--f-data); color: var(--orange); }
+  .checks .c { display: flex; gap: 20px; align-items: center; padding: 16px 0; font: 700 48px/1.15 var(--f-head); border-bottom: 3px dashed rgba(23,40,28,.15); }
+  .checks .c:last-child { border-bottom: 0; }
+  .checks .c b { font: 700 40px/1 'Silkscreen'; color: var(--orange); width: 48px; }
+  .quote { font: 700 48px/1.3 var(--f-head); }
+  .quote mark { background: #F3DE8A; padding: 0 6px; }
+  .quote .who { margin-top: 18px; font: 700 24px/1 var(--f-data); color: rgba(23,40,28,.6); }
+  .code { background: var(--ink); color: var(--cream); border-radius: 12px; padding: 30px 30px; font: 600 34px/1.5 var(--f-data); white-space: pre-wrap; }
+  .code .k { color: var(--gold); }
+
+  .kw { position: absolute; left: 50%; transform: translateX(-50%); font: 700 120px/1 'Silkscreen'; color: var(--ink); background: var(--gold); border: 8px solid var(--ink); box-shadow: 12px 12px 0 var(--ink); padding: 26px 46px 18px; white-space: nowrap; }
+
+  .note { position: absolute; font: 700 58px/1.02 'Caveat', cursive; color: var(--note); text-align: center; }
+  .note.acc { color: var(--acc); }
+  .note svg { position: absolute; overflow: visible; }
+  .note svg path { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+
+  .foot { position: absolute; left: 44px; right: 44px; bottom: 22px; display: flex; align-items: center; justify-content: space-between; color: var(--foot); font: 700 40px/1 'Caveat', cursive; white-space: nowrap; }
+  .wmrow { position: absolute; left: 0; right: 0; bottom: 104px; display: flex; justify-content: center; }
+  .wmrow img { height: 30px; padding: 10px 18px; border-radius: 8px; background: rgba(23,40,28,.9); box-shadow: 0 4px 0 rgba(0,0,0,.35); }
+  .foot .h { display: flex; align-items: center; gap: 14px; }
+  .foot svg { width: 42px; height: 42px; stroke: currentColor; fill: none; stroke-width: 2; }
+  
+  .count { position: absolute; top: 30px; right: 40px; font: 700 22px/1 'Silkscreen'; color: var(--hl); opacity: .55; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { handle, slides: [ { world: day|night, headline: ["LINE 1", "*ACCENT* LINE"], size: s|xs, underline: bool,
+//   card: { y, accent, title, kind: rows|bars|flow|checks|quote|code, ... }, kw: { text, y },
+//   notes: [{ text, x, y, w, accent, arrow: { x1,y1,x2,y2 } }], sprites: [{ name, x, h, y?, flip }] } ] }
+// Sprites stand on the grass line (y 1108) unless y is given. All text lives here, so it's exact and linted.
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const acc = (s) => esc(s).replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
+const GRASS = 1108;
+const ICONS = {
+  ig: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>',
+  li: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>',
+  bm: '<svg viewBox="0 0 24 24" style="fill:currentColor"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+};
+const CARDS = {
+  rows: (c) => `<div class="rows">${c.rows.map((r) => `<div class="r"><span class="k">${esc(r.k)}</span><span>${esc(r.v)}</span></div>`).join('')}</div>`,
+  bars: (c) => { const max = Math.max(...c.bars.map((b) => b.value)); return `<div class="bars">${c.bars.map((b) =>
+    `<div class="b${b.hot ? ' hot' : ''}"><span class="v">${esc(b.label)}</span><div class="track"><div class="fill" style="width:${Math.max(4, (b.value / max) * 100)}%"></div></div><span>${esc(b.name)}</span></div>`).join('')}${c.foot ? `<div class="foot">${esc(c.foot)}</div>` : ''}</div>`; },
+  flow: (c) => `<div class="flow">${c.steps.map((s, i) => `${i ? '<span class="ar">&rarr;</span>' : ''}<div class="n${s.hi ? ' hi' : ''}"><h4>${esc(s.h)}</h4><p>${esc(s.p)}</p></div>`).join('')}</div>${c.foot ? `<div class="flow-foot">${esc(c.foot)}</div>` : ''}`,
+  checks: (c) => `<div class="checks">${c.items.map((t) => `<div class="c"><b>&gt;</b><span>${acc(t)}</span></div>`).join('')}</div>`,
+  quote: (c) => `<div class="quote">${esc(c.text).replace(/\[(.+?)\]/g, '<mark>$1</mark>')}${c.who ? `<div class="who">${esc(c.who)}</div>` : ''}</div>`,
+  code: (c) => `<div class="code">${esc(c.text).replace(/\*(.+?)\*/g, '<span class="k">$1</span>')}</div>`,
+};
+const arrow = (a) => { const mx = (a.x1 + a.x2) / 2 + (a.bend ?? 60), my = (a.y1 + a.y2) / 2 - (a.bend ?? 60);
+  const ang = Math.atan2(a.y2 - my, a.x2 - mx), h = 26;
+  const p1 = [a.x2 - h * Math.cos(ang - 0.5), a.y2 - h * Math.sin(ang - 0.5)], p2 = [a.x2 - h * Math.cos(ang + 0.5), a.y2 - h * Math.sin(ang + 0.5)];
+  return `<svg style="left:0;top:0;width:1px;height:1px"><path d="M${a.x1} ${a.y1} Q${mx} ${my} ${a.x2} ${a.y2}"/><path d="M${p1[0]} ${p1[1]} L${a.x2} ${a.y2} L${p2[0]} ${p2[1]}"/></svg>`; };
+
+let DATA;
+window.renderPost = (data) => { DATA = data; window.slideCount = data.slides.length; window.showSlide(0); };
+window.showSlide = (i) => {
+  const s = DATA.slides[i], world = s.world || 'day';
+  const hl = (s.headline || []).map((l) => `<div>${acc(l)}</div>`).join('');
+  const card = s.card ? `<div class="card${s.card.accent ? ' acc' : ''}" style="top:${s.card.y ?? 470}px">${s.card.title ? `<div class="t">${esc(s.card.title)}</div>` : ''}${CARDS[s.card.kind](s.card)}</div>` : '';
+  const notes = (s.notes || []).map((n) => `<div class="note${n.accent ? ' acc' : ''}" style="left:${n.x}px;top:${n.y}px;width:${n.w ?? 380}px">${esc(n.text).replace(/\n/g, '<br>')}${n.arrow ? arrow({ ...n.arrow, x1: n.arrow.x1 - n.x, y1: n.arrow.y1 - n.y, x2: n.arrow.x2 - n.x, y2: n.arrow.y2 - n.y }) : ''}</div>`).join('');
+  const sprites = (s.sprites || []).map((p) => `<img class="sprite" src="../../assets/pixel/sprites/${p.name}.png" style="left:${p.x}px;height:${p.h}px;${p.y !== undefined ? `top:${p.y}px` : `bottom:${1350 - GRASS - (p.sink ?? 6)}px`};${p.flip ? 'transform:scaleX(-1)' : ''}">`).join('');
+  document.getElementById('root').innerHTML = `
+    <div class="canvas ${world}">
+      <div class="sky" style="background-image:url(../../assets/pixel/sky-${world}.png)"></div>
+      <div class="count">${i + 1}/${DATA.slides.length}</div>
+      <div class="hl ${s.size || ''}">${hl}${s.underline !== false && hl ? '<svg class="uline" viewBox="0 0 600 28" preserveAspectRatio="none"><path d="M6 18 C150 6, 420 6, 594 14"/><path d="M60 25 C220 16, 400 17, 520 22" style="stroke-width:4"/></svg>' : ''}</div>
+      ${card}
+      ${s.kw ? `<div class="kw" style="top:${s.kw.y ?? 520}px">${esc(s.kw.text)}</div>` : ''}
+      ${sprites}${notes}
+      <div class="wmrow"><img src="../../assets/brand/wordmark.png" alt=""></div>
+      <div class="foot"><span class="h">${DATA.platform === 'linkedin' ? ICONS.li : ICONS.ig}${esc(DATA.handle || '@contentsystems.ai')}</span><span class="h">save for later ${ICONS.bm}</span></div>
+    </div>`;
+};
+</script>
+</body>
+</html>

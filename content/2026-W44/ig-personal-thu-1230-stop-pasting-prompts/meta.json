@@ -1,0 +1,23 @@
+{
+  "channel": "ig-personal",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "tools-vs-systems",
+  "execution": "mistakes",
+  "topic": "skills-as-sops",
+  "lead": false,
+  "cta_type": "workshop",
+  "cta_keyword": null,
+  "slot": "2026-10-29T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png"
+  ]
+}

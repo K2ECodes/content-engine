@@ -1,0 +1,84 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Build your first *AI employee* on Sunday",
+        "sub": "Hand it the work that eats your week. You still say yes to what matters."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "target",
+        "title": "Pick the job",
+        "body": "The 1 task that eats hours: customer emails, quotes, order updates.",
+        "cost": "You leave with: your first job chosen"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "book-open",
+        "title": "Teach it once",
+        "body": "Your rules, your prices, your tone. Written down 1 time.",
+        "cost": "You leave with: instructions it follows"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "zap",
+        "title": "Watch it work",
+        "body": "It drafts the reply, the quote or the update in seconds.",
+        "cost": "You leave with: a working AI employee"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "user-check",
+        "title": "Say yes",
+        "body": "Anything that sends, pays or promises waits for you first.",
+        "cost": "You leave with: your approval step built in"
+      },
+      {
+        "type": "layers",
+        "title": "The *details*",
+        "layers": [
+          {
+            "icon": "calendar",
+            "name": "Sunday, Nov 1",
+            "desc": "11 AM Eastern. Clocks go back 1 hour that morning",
+            "chips": [
+              "4 PM London"
+            ]
+          },
+          {
+            "icon": "video",
+            "name": "Live on Zoom",
+            "desc": "Build along with us, ask as you go",
+            "chips": [
+              "Hands-on"
+            ]
+          },
+          {
+            "icon": "ticket",
+            "name": "$97 or $197",
+            "desc": "General admission or VIP",
+            "chips": [
+              "GA",
+              "VIP"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Save your seat for *Sunday*",
+        "sub": "The AI Employee Accelerator. Link in bio."
+      }
+    ]
+  }
+}

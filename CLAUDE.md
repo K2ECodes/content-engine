@@ -14,9 +14,11 @@ Plans, produces and queues social content for Content Systems.ai. Owner: Korede 
 | `li-personal` | Korede's LinkedIn | 7 | POV, founder stories, technical insight from building systems |
 | `li-company` | Content Systems.ai LinkedIn | 5 | Proof, frameworks at a high level, case-style breakdowns |
 | `ig-company` | Content Systems.ai Instagram | 14 (2/day, at least 4 videos) | Visual explainers, carousels, short videos |
+| `ig-personal` | Korede's Instagram @koredekola | 7 (at least 4 videos) | AI creator content: news POV, tool breakdowns, build-in-public, talking-head reels with his HeyGen twin (the retouched look only) |
 
 ### Channel strategy
 - **Korede's LinkedIn (`li-personal`)**: a mix of POV on what's happening in tech and AI right now (fed by `research/daily`), founder stories, and top-of-funnel plus freebie carousels. Tech language is fine here when it's explained.
+- **Korede's Instagram (`ig-personal`)**: AI creator content in the style of the reference creators (research/creators.md, style-stilesai.md, style-nick-saraev.md). Talking heads use only the new retouched HeyGen look (HEYGEN_LOOK_ID in .env).
 - **Company LinkedIn and Instagram (`li-company`, `ig-company`)**: plain language, top of funnel. Talk about what a system does for people and how it can help them, not how it works. Anyone should understand it on 1 read, so no tech jargon (LINT warns). Write for AEO: open with a direct, quotable answer ("Content Systems.ai helps 3PLs bill for the work they already do"), name who it's for and the outcome, so AI search can cite us.
 - From the creator research (`research/creators.md`): put the comment keyword in the first 3 lines, not buried at the end; carousels are the default IG format, video for demos and explainers; lead hooks with a money or time outcome; stick to 2 standing comment keywords and reuse them; 1 voice per account ("we" on company channels, "I" on Korede's), no personal hashtags on company accounts.
 
@@ -54,6 +56,7 @@ Use only these numbers unless Korede supplies more. Never invent results.
 - Every system: human approval gate on outbound actions, built on the client's existing stack, client owns what we build.
 
 ## Design rules
+- Everything is Content Systems.ai coded: carousels and statics use `templates/pixel` (the brand's 8-bit platformer world from the "Our Story" posts: day/night sky, grass and brick ground, pixel Korede and Sanjana, pixel bulb, ? blocks, coins) with Albert Olgaard-style layout (huge Anton headline in 2 colours with hand-drawn underline, white bordered content card, Caveat handwritten note with arrow, handle + wordmark + "save for later" footer). See `.claude/skills/pixel-carousel/SKILL.md`. Videos use `templates/story` and `templates/split`.
 - No eyebrows: no small uppercase labels above headlines, no series labels, no kickers. LINT blocks `eyebrow`/`series` keys in render.json.
 - Never print the post type, pillar or execution ("belief shift", "checklist", "tools vs systems") on media or in captions. Those are internal planning labels. LINT blocks the pillar names.
 

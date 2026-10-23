@@ -39,6 +39,11 @@
       "maxChars": 2200,
       "maxHashtags": 5,
       "minHashtags": 5
+    },
+    "ig-personal": {
+      "maxChars": 2200,
+      "maxHashtags": 5,
+      "minHashtags": 5
     }
   },
   "motivationalCloserPatterns": [

@@ -1,0 +1,18 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "tools-vs-systems",
+  "execution": "proof",
+  "topic": "approval-gate",
+  "lead": false,
+  "cta_type": "workshop",
+  "offer": "ai-workshops",
+  "slot": "2026-10-27T11:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

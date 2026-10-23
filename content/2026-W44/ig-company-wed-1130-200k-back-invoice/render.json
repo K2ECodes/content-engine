@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "A brand just got a *$200,000* back invoice",
+    "sub": "Peak volume hides billing errors. Find yours before your provider does.",
+    "stats": [
+      {
+        "value": "Record",
+        "label": "parcel prices this quarter"
+      },
+      {
+        "value": "4 wks",
+        "label": "to Black Friday"
+      }
+    ]
+  }
+}

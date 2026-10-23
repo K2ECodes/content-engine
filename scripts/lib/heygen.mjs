@@ -77,15 +77,15 @@ function weekSpend() {
 
 // Make a vertical talking-head clip of Korede's twin. Either `script` (twin's cloned voice) or `audio` (local file path).
 export async function avatarVideo({ lookId, script, audio, voiceId, engine = 'avatar_iii', out, estSeconds = 60,
-  speed = 1.08, background = '#F5F0E8', webm = false, motionPrompt, label = '' }) {
+  speed = 1.08, background = '#F5F0E8', webm = false, keepBackground = false, aspect = '9:16', motionPrompt, label = '' }) {
   const est = (RATE[engine] || 0.12) * estSeconds;
   if (weekSpend() + est > WEEKLY_CAP_USD) throw new Error(`weekly HeyGen cap: ~$${est.toFixed(2)} would exceed $${WEEKLY_CAP_USD} (raise HEYGEN_WEEKLY_CAP_USD in .env)`);
 
-  const body = { type: 'avatar', avatar_id: lookId, aspect_ratio: '9:16', resolution: '1080p', fit: 'cover', engine: { type: engine }, caption: { file_format: 'srt' }, title: label || undefined };
+  const body = { type: 'avatar', avatar_id: lookId, aspect_ratio: aspect, resolution: '1080p', fit: 'cover', engine: { type: engine }, caption: { file_format: 'srt' }, title: label || undefined };
   if (audio) body.audio_asset_id = await uploadAsset(audio);
   else { body.script = script; if (voiceId) body.voice_id = voiceId; body.voice_settings = { speed }; }
   if (webm) body.output_format = 'webm';
-  else { body.remove_background = true; body.background = { type: 'color', value: background }; }
+  else if (!keepBackground) { body.remove_background = true; body.background = { type: 'color', value: background }; }
   if (motionPrompt && engine === 'avatar_v') body.motion_prompt = motionPrompt;
 
   const idem = crypto.createHash('sha256').update(JSON.stringify({ ...body, audio })).digest('hex').slice(0, 40);

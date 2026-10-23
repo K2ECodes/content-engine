@@ -92,6 +92,31 @@
         "1:1",
         "9:16"
       ]
+    },
+    "ig-personal": {
+      "label": "Korede Kolawole, Instagram (@koredekola)",
+      "platform": "instagram",
+      "perWeek": 7,
+      "minVideos": 4,
+      "formats": [
+        "static",
+        "carousel",
+        "video"
+      ],
+      "slots": {
+        "mon": "12:30",
+        "tue": "12:30",
+        "wed": "12:30",
+        "thu": "12:30",
+        "fri": "12:30",
+        "sat": "11:00",
+        "sun": "11:00"
+      },
+      "aspects": [
+        "9:16",
+        "4:5",
+        "1:1"
+      ]
     }
   },
   "pillars": [

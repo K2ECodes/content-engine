@@ -1,0 +1,19 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "case-studies",
+  "execution": "checklist",
+  "topic": "what-the-13-in-100-do-differently",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "freebie": "AI Employee Starter Pack",
+  "slot": "2026-10-30T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

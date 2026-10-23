@@ -1,0 +1,18 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "operational-clarity",
+  "execution": "mistakes",
+  "topic": "peak-unbilled-fees",
+  "lead": false,
+  "cta_type": "calculator",
+  "offer": "logistics-systems",
+  "slot": "2026-10-31T10:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

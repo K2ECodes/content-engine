@@ -53,11 +53,43 @@
     "items": [
       {
         "keyword": "LEAKS",
-        "name": "3PL leak audit checklist",
-        "status": "to-build",
+        "name": "3PL billing leak checklist",
+        "status": "built",
         "used_by": [
           "ig-company-tue-1130-5-fees-never-billed"
-        ]
+        ],
+        "file": "assets/freebies/3pl-billing-leak-checklist.pdf",
+        "source": "assets/freebies/src/3pl-billing-leak-checklist.html",
+        "note": "Also sent for SYSTEMS on 3PL posts (video \"Your warehouse did the work. The invoice never saw it\").",
+        "offer": "logistics-systems"
+      },
+      {
+        "keyword": "SYSTEMS",
+        "name": "Agent-ready store check (what AI shopping assistants look for before they buy)",
+        "status": "built",
+        "used_by": [
+          "ig-company-fri-1130-next-customer-is-an-ai"
+        ],
+        "file": "assets/freebies/agent-ready-store-checklist.pdf",
+        "source": "assets/freebies/src/agent-ready-store-checklist.html",
+        "channels": [
+          "ig-company"
+        ],
+        "offer": "ecommerce-systems",
+        "note": "SYSTEMS is shared: send this on e-commerce posts, the 3PL billing leak checklist on 3PL posts."
+      },
+      {
+        "keyword": "AI",
+        "name": "AI Employee Starter Pack: 5 starter skills plus the permission sheet",
+        "file": "assets/freebies/ai-employee-starter-pack.pdf",
+        "source": "assets/freebies/src/ai-employee-starter-pack.html",
+        "status": "built",
+        "channels": [
+          "li-personal",
+          "ig-personal"
+        ],
+        "offer": "ai-workshops",
+        "used_by": []
       }
     ]
   },

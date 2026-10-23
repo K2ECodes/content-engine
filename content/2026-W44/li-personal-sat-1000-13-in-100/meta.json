@@ -1,0 +1,17 @@
+{
+  "channel": "li-personal",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "case-studies",
+  "execution": "mistakes",
+  "topic": "logistics-ai-13-in-100",
+  "lead": false,
+  "cta_type": "call",
+  "cta_keyword": null,
+  "slot": "2026-10-31T10:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "static.png"
+  ]
+}

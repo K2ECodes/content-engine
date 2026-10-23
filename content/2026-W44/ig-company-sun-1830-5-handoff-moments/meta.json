@@ -1,0 +1,19 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "case-studies",
+  "execution": "checklist",
+  "topic": "support-bot-handoff",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "offer": "ecommerce-systems",
+  "slot": "2026-11-01T18:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

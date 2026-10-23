@@ -1,0 +1,61 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "72 in 100 tickets answered *without a person*",
+        "sub": "An apparel brand we work with in Berlin. Tricky ones still go to people."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "inbox",
+        "title": "Before",
+        "body": "Where's my order, sizing questions, refund requests. In 4 languages, for a small team.",
+        "cost": "Buried before every peak"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "languages",
+        "title": "72 in 100 answered",
+        "body": "Routine questions answered day and night, in the customer's own language.",
+        "cost": "The team only sees what needs them"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "heart-handshake",
+        "title": "1 in 4 stayed",
+        "body": "When a customer tries to cancel, they get a better option first.",
+        "cost": "€180K a year the brand kept"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "headset",
+        "title": "Hard ones go to a person",
+        "body": "Tricky cases go to the team with the full story ready.",
+        "cost": "Trust: 55 in 100 with a person on hand, 26 without"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "circle-dollar-sign",
+        "title": "Paid for itself in Q1",
+        "body": "Built on the store and help desk they already used. They own what we built.",
+        "cost": "No new software to learn"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want this before *Black Friday*?",
+        "sub": "Get a free quote with your top AI opportunities. Link in bio."
+      }
+    ]
+  }
+}

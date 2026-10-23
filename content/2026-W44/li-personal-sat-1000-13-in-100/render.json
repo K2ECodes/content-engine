@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "Only *13 in 100* logistics execs see AI in their numbers",
+    "sub": "Most of the rest started with a chatbot, not the money leak.",
+    "stats": [
+      {
+        "value": "1 job",
+        "label": "with a number before you start"
+      },
+      {
+        "value": "2x",
+        "label": "trust in AI support when a person is reachable"
+      }
+    ]
+  }
+}

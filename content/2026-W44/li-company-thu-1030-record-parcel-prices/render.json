@@ -1,0 +1,74 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Parcel prices hit *a record*. Are you billing for it?",
+        "sub": "Most of the rise is carrier pricing, not fuel."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "trending-up",
+        "title": "An all-time high",
+        "body": "Q4 ground rates per package: 43.3 in 100 above the 2018 baseline.",
+        "cost": "TD Cowen/AFS Freight Index · Oct 2026"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "fuel",
+        "title": "It isn't the fuel",
+        "body": "Since 2021, 72 in 100 of the fuel surcharge rise came from carrier pricing.",
+        "cost": "Your costs moved. Did your rates?"
+      },
+      {
+        "type": "layers",
+        "title": "What a system *does for you*",
+        "layers": [
+          {
+            "icon": "clipboard-list",
+            "name": "Record",
+            "desc": "Every job done on the floor, each day",
+            "chips": [
+              "Daily"
+            ]
+          },
+          {
+            "icon": "scan-search",
+            "name": "Match",
+            "desc": "Against each client's agreed rates",
+            "chips": [
+              "Your rates"
+            ]
+          },
+          {
+            "icon": "flag",
+            "name": "Flag",
+            "desc": "What's missing, before the invoice goes",
+            "chips": [
+              "Before billing"
+            ]
+          },
+          {
+            "icon": "user-check",
+            "name": "Approve",
+            "desc": "Your team says yes to every line",
+            "chips": [
+              "Your yes"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Bill for *every peak charge*",
+        "sub": "Free quote with your top AI opportunities · contentsystems.ai/logistics"
+      }
+    ]
+  }
+}

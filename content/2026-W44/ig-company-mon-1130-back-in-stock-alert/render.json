@@ -1,0 +1,232 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.09
+    },
+    "script": "Google now tells shoppers the second your product is back in stock. But only if your stock count is right. Here's the problem. Your warehouse says 40 units. Your store says 0. So Google says sold out, and the alert never goes out. That shopper buys from someone else. And it's not just Google. 16 in 100 shoppers now start their search in ChatGPT. These assistants don't browse your site. They read your data. So 3 things have to match. Every hour. The stock count. The shipping time. The price. Get that right, and Google sends the shopper to you. Get it wrong, and you don't even know you lost the sale. We build the system that keeps them in sync, and flags anything that doesn't match. Want a free quote? Link in bio.",
+    "keys": [
+      "second",
+      "right",
+      "40",
+      "0",
+      "sold",
+      "16",
+      "read",
+      "hour",
+      "sends",
+      "lost",
+      "system",
+      "quote"
+    ],
+    "strikes": [
+      "browse",
+      "wrong"
+    ],
+    "posterAt": 1.6,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "list",
+        "title": "Google shopping",
+        "badge": "Alerts on",
+        "rows": [
+          {
+            "text": "Your product",
+            "at": "shoppers",
+            "chip": "Sold out",
+            "chipKind": "bad"
+          },
+          {
+            "text": "Your product",
+            "at": "back",
+            "chip": "Back in stock",
+            "chipKind": "ok"
+          }
+        ]
+      },
+      {
+        "at": "only",
+        "world": "light",
+        "type": "word",
+        "text": "Only if"
+      },
+      {
+        "at": "here's",
+        "world": "dark",
+        "type": "odometer",
+        "value": "40",
+        "label": "units in your warehouse",
+        "landAt": "40"
+      },
+      {
+        "at": "store",
+        "world": "light",
+        "type": "stat",
+        "value": "0",
+        "label": "in stock on your store",
+        "foot": "Illustrative numbers"
+      },
+      {
+        "at": "so",
+        "world": "dark",
+        "type": "list",
+        "title": "Google shopping",
+        "rows": [
+          {
+            "text": "Your product",
+            "at": "sold",
+            "chip": "Sold out",
+            "chipKind": "bad"
+          },
+          {
+            "text": "Restock alert",
+            "at": "never",
+            "chip": "Not sent",
+            "chipKind": "bad"
+          },
+          {
+            "text": "That shopper",
+            "at": "someone",
+            "chip": "Gone",
+            "chipKind": "bad"
+          }
+        ],
+        "stamp": {
+          "text": "MISSED",
+          "kind": "bad",
+          "at": "else",
+          "x": 300,
+          "y": 800
+        }
+      },
+      {
+        "at": "not just",
+        "world": "light",
+        "type": "word",
+        "text": "Not just"
+      },
+      {
+        "at": "16",
+        "world": "dark",
+        "type": "stat",
+        "value": "16 in 100",
+        "label": "shoppers start their search in ChatGPT",
+        "foot": "Feedvisor and PartnerCentric, Oct 2026"
+      },
+      {
+        "at": "these",
+        "world": "light",
+        "type": "list",
+        "title": "What the assistant reads",
+        "rows": [
+          {
+            "text": "Your homepage",
+            "at": "browse",
+            "chip": "Skipped",
+            "chipKind": "bad"
+          },
+          {
+            "text": "Your stock data",
+            "at": "read",
+            "chip": "Read",
+            "chipKind": "ok"
+          }
+        ]
+      },
+      {
+        "at": "so#2",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Has to match, every hour",
+        "rows": [
+          {
+            "text": "Stock count",
+            "at": "stock#3"
+          },
+          {
+            "text": "Shipping time",
+            "at": "shipping"
+          },
+          {
+            "text": "Price",
+            "at": "price"
+          }
+        ],
+        "click": {
+          "at": "price",
+          "x": 640,
+          "y": 1180
+        }
+      },
+      {
+        "at": "get",
+        "world": "light",
+        "type": "list",
+        "title": "Google shopping",
+        "rows": [
+          {
+            "text": "Your product",
+            "at": "right#2",
+            "chip": "Back in stock",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Restock alert",
+            "at": "sends",
+            "chip": "Sent",
+            "chipKind": "ok"
+          },
+          {
+            "text": "That shopper",
+            "at": "to you",
+            "chip": "Buys from you",
+            "chipKind": "ok"
+          }
+        ],
+        "stamp": {
+          "text": "SENT",
+          "kind": "ok",
+          "at": "to you",
+          "x": 560,
+          "y": 760
+        }
+      },
+      {
+        "at": "get#2",
+        "world": "dark",
+        "type": "word",
+        "text": "Lost sale"
+      },
+      {
+        "at": "we",
+        "world": "light",
+        "type": "checklist",
+        "title": "Every hour, automatically",
+        "rows": [
+          {
+            "text": "Warehouse count to store",
+            "at": "keeps"
+          },
+          {
+            "text": "Store to Google",
+            "at": "sync"
+          },
+          {
+            "text": "Flag what doesn't match",
+            "at": "flags"
+          }
+        ]
+      },
+      {
+        "at": "want",
+        "world": "dark",
+        "type": "word",
+        "text": "Link in bio"
+      }
+    ]
+  }
+}

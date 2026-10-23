@@ -1,0 +1,224 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.09
+    },
+    "script": "We run our company on 100+ AI employees. Not 1 of them can send a refund without a person saying yes. Content, lead replies, onboarding, ads. They draft all day. But anything that leaves the building waits for a yes. Money going out. A message to a customer. A quote or a contract. Deleting data. That's the rule. And this week, the biggest names in AI shipped the same rule. Anthropic's new assistant asks before it sends, pays or signs. Walmart puts spending limits on shopping assistants. So the question isn't whether AI can do the work. It's who says yes. This Sunday, we'll set up your first AI employee live with the yes built in. The AI Employee Accelerator. November 1. 11 AM Eastern. Link in bio.",
+    "keys": [
+      "100",
+      "yes",
+      "rule",
+      "same",
+      "who",
+      "sunday",
+      "live"
+    ],
+    "strikes": [
+      "whether"
+    ],
+    "posterAt": 1.6,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "100",
+        "suffix": "+",
+        "label": "AI employees run our company",
+        "landAt": "100+"
+      },
+      {
+        "at": "not",
+        "world": "light",
+        "type": "list",
+        "title": "Refund request",
+        "rows": [
+          {
+            "text": "Refund drafted",
+            "at": "send",
+            "chip": "Ready",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Send it",
+            "at": "person",
+            "chip": "Needs a yes",
+            "chipKind": "wait"
+          }
+        ]
+      },
+      {
+        "at": "content",
+        "world": "dark",
+        "type": "list",
+        "title": "Our AI team",
+        "badge": "100+",
+        "rows": [
+          {
+            "text": "Content",
+            "at": "content",
+            "chip": "Drafting",
+            "chipKind": "wait"
+          },
+          {
+            "text": "Lead replies",
+            "at": "lead",
+            "chip": "Drafting",
+            "chipKind": "wait"
+          },
+          {
+            "text": "Onboarding",
+            "at": "onboarding",
+            "chip": "Drafting",
+            "chipKind": "wait"
+          },
+          {
+            "text": "Ads",
+            "at": "ads",
+            "chip": "Drafting",
+            "chipKind": "wait"
+          }
+        ]
+      },
+      {
+        "at": "but",
+        "world": "light",
+        "type": "word",
+        "text": "Yes?"
+      },
+      {
+        "at": "money",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Always waits for a yes",
+        "rows": [
+          {
+            "text": "Money going out",
+            "at": "money"
+          },
+          {
+            "text": "A message to a customer",
+            "at": "message"
+          },
+          {
+            "text": "A quote or a contract",
+            "at": "quote"
+          },
+          {
+            "text": "Deleting data",
+            "at": "deleting"
+          }
+        ],
+        "click": {
+          "at": "rule",
+          "x": 640,
+          "y": 1290
+        }
+      },
+      {
+        "at": "this week",
+        "world": "light",
+        "type": "word",
+        "text": "Same rule"
+      },
+      {
+        "at": "anthropic's",
+        "world": "dark",
+        "type": "list",
+        "title": "Shipped this month",
+        "rows": [
+          {
+            "text": "Anthropic",
+            "at": "asks",
+            "chip": "Asks first",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Payments",
+            "at": "pays",
+            "chip": "Need a yes",
+            "chipKind": "wait"
+          },
+          {
+            "text": "Walmart",
+            "at": "walmart",
+            "chip": "Spending limits",
+            "chipKind": "ok"
+          }
+        ]
+      },
+      {
+        "at": "so",
+        "world": "light",
+        "type": "list",
+        "title": "The real question",
+        "rows": [
+          {
+            "text": "Can AI do the work?",
+            "at": "whether",
+            "chip": "Yes",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Who says yes?",
+            "at": "who",
+            "chip": "You",
+            "chipKind": "ok"
+          }
+        ],
+        "stamp": {
+          "text": "APPROVED",
+          "kind": "ok",
+          "at": "says yes",
+          "x": 260,
+          "y": 800
+        }
+      },
+      {
+        "at": "this sunday",
+        "world": "dark",
+        "type": "checklist",
+        "title": "This Sunday, live",
+        "rows": [
+          {
+            "text": "Set up your first AI employee",
+            "at": "first"
+          },
+          {
+            "text": "With the yes built in",
+            "at": "built"
+          }
+        ]
+      },
+      {
+        "at": "the ai employee",
+        "world": "light",
+        "type": "list",
+        "title": "The AI Employee Accelerator",
+        "rows": [
+          {
+            "text": "Sunday, Nov 1",
+            "at": "november",
+            "chip": "11 AM ET",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Live on Zoom",
+            "at": "11",
+            "chip": "From $97",
+            "chipKind": "wait"
+          }
+        ]
+      },
+      {
+        "at": "link",
+        "world": "dark",
+        "type": "word",
+        "text": "Link in bio"
+      }
+    ]
+  }
+}

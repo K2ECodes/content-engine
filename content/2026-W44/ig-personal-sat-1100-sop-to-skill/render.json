@@ -1,0 +1,63 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "handle": "@koredekola",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "1 warehouse SOP to an AI skill in *20 min*",
+        "sub": "Here's the order I do it in."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "target",
+        "title": "Pick a daily SOP",
+        "body": "Something that happens every day, like \"where's my order\" replies.",
+        "cost": "Minutes 0 to 3"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "square-pen",
+        "title": "Write it for a new hire",
+        "body": "The steps, in order, in plain words. No jargon.",
+        "cost": "Minutes 3 to 8"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "file-text",
+        "title": "Add 3 real examples",
+        "body": "Good answers your team already sent. They teach tone faster than rules.",
+        "cost": "Minutes 8 to 13"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "hand",
+        "title": "Mark the yes points",
+        "body": "Refunds, promises, anything that leaves the building.",
+        "cost": "Minutes 13 to 16"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "flask-conical",
+        "title": "Test on yesterday",
+        "body": "Run it on real work from yesterday. Compare with what your team did.",
+        "cost": "Minutes 16 to 20"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want my *5 starter skills*?",
+        "keyword": "AI",
+        "sub": "Comment it and I'll DM you the pack."
+      }
+    ]
+  }
+}

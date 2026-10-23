@@ -1,0 +1,73 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Your next customer might be *an AI*",
+        "sub": "Some already spend $200+ an order. Here's what they check before they buy from you."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "package",
+        "title": "Clear product info",
+        "body": "Sizes, materials, what's in the box. If it isn't written down, the assistant can't recommend it.",
+        "cost": "Check: every product page answers the basics"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "boxes",
+        "title": "Real stock levels",
+        "body": "Google now tells shoppers when an item's back in stock. Wrong counts mean missed alerts.",
+        "cost": "Check: store stock matches the warehouse"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "truck",
+        "title": "Honest delivery dates",
+        "body": "Assistants compare delivery dates side by side. A clear date beats a vague promise.",
+        "cost": "Check: a real delivery date on every product"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "undo-2",
+        "title": "Easy returns policy",
+        "body": "33 in 100 shoppers say shipping and returns change what they buy. Make yours easy to find.",
+        "cost": "Check: 1 clear returns page, no fine print"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "message-circle-question",
+        "title": "Questions answered",
+        "body": "Fit, care, warranty. Answer them once, on your site.",
+        "cost": "Check: your top 10 questions, answered on site"
+      },
+      {
+        "type": "layers",
+        "title": "What a system *does for you*",
+        "layers": [
+          { "icon": "scan-search", "name": "Check", "desc": "Every product page reviewed for gaps", "chips": ["Daily"] },
+          { "icon": "boxes", "name": "Match", "desc": "Stock and delivery dates kept in line with your warehouse", "chips": ["Store", "Warehouse"] },
+          { "icon": "flag", "name": "Flag", "desc": "Problems sent to your team before a shopper finds them", "chips": ["Same day"] },
+          { "icon": "user-check", "name": "Approve", "desc": "Your team signs off on every change", "chips": ["Your yes"] }
+        ],
+        "loop": "Your store stays ready for every shopper, human or AI.",
+        "loopIcon": "refresh-cw"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want the full *agent-ready check*?",
+        "keyword": "SYSTEMS",
+        "sub": "Comment it and we'll DM you."
+      }
+    ]
+  }
+}

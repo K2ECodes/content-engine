@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "We go live at *11 AM Eastern* today",
+    "sub": "Your clocks went back 1 hour last night. The AI Employee Accelerator, live on Zoom. Link in bio.",
+    "stats": [
+      {
+        "value": "$97",
+        "label": "general admission"
+      },
+      {
+        "value": "$197",
+        "label": "VIP"
+      }
+    ]
+  }
+}

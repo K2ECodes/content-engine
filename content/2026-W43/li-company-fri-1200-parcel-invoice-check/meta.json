@@ -1,0 +1,25 @@
+{
+  "channel": "li-company",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "operational-clarity",
+  "execution": "mistakes",
+  "lead": false,
+  "cta_type": "calculator",
+  "cta_keyword": null,
+  "slot": "2026-10-23T12:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "topic": "parcel-invoice-check-peak",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png",
+    "slide-08.png",
+    "slide-09.png"
+  ]
+}

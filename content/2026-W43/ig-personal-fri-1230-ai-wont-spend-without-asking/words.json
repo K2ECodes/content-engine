@@ -1,0 +1,400 @@
+{
+ "words": [
+  {
+   "w": "Anthropic",
+   "start": 0.0,
+   "end": 0.62
+  },
+  {
+   "w": "just",
+   "start": 0.7,
+   "end": 0.8
+  },
+  {
+   "w": "shipped",
+   "start": 0.8,
+   "end": 0.96
+  },
+  {
+   "w": "an",
+   "start": 0.96,
+   "end": 1.08
+  },
+  {
+   "w": "AI",
+   "start": 1.08,
+   "end": 1.22
+  },
+  {
+   "w": "that",
+   "start": 1.22,
+   "end": 1.46
+  },
+  {
+   "w": "won't",
+   "start": 1.46,
+   "end": 1.66
+  },
+  {
+   "w": "spend",
+   "start": 1.66,
+   "end": 1.78
+  },
+  {
+   "w": "your",
+   "start": 1.78,
+   "end": 1.92
+  },
+  {
+   "w": "money",
+   "start": 1.92,
+   "end": 2.1
+  },
+  {
+   "w": "without",
+   "start": 2.1,
+   "end": 2.3
+  },
+  {
+   "w": "asking.",
+   "start": 2.3,
+   "end": 2.6
+  },
+  {
+   "w": "It's",
+   "start": 3.24,
+   "end": 3.32
+  },
+  {
+   "w": "called",
+   "start": 3.32,
+   "end": 3.44
+  },
+  {
+   "w": "Claude",
+   "start": 3.44,
+   "end": 3.86
+  },
+  {
+   "w": "Duet.",
+   "start": 3.86,
+   "end": 4.22
+  },
+  {
+   "w": "It",
+   "start": 4.6,
+   "end": 4.68
+  },
+  {
+   "w": "works",
+   "start": 4.68,
+   "end": 4.82
+  },
+  {
+   "w": "in",
+   "start": 4.82,
+   "end": 4.94
+  },
+  {
+   "w": "the",
+   "start": 4.94,
+   "end": 5.0
+  },
+  {
+   "w": "background,",
+   "start": 5.0,
+   "end": 5.28
+  },
+  {
+   "w": "and",
+   "start": 5.66,
+   "end": 5.84
+  },
+  {
+   "w": "before",
+   "start": 5.84,
+   "end": 6.02
+  },
+  {
+   "w": "it",
+   "start": 6.02,
+   "end": 6.14
+  },
+  {
+   "w": "pays",
+   "start": 6.14,
+   "end": 6.28
+  },
+  {
+   "w": "for",
+   "start": 6.28,
+   "end": 6.44
+  },
+  {
+   "w": "anything,",
+   "start": 6.44,
+   "end": 6.62
+  },
+  {
+   "w": "it",
+   "start": 6.92,
+   "end": 6.98
+  },
+  {
+   "w": "stops",
+   "start": 6.98,
+   "end": 7.26
+  },
+  {
+   "w": "and",
+   "start": 7.26,
+   "end": 7.56
+  },
+  {
+   "w": "waits",
+   "start": 7.56,
+   "end": 7.74
+  },
+  {
+   "w": "for",
+   "start": 7.74,
+   "end": 7.88
+  },
+  {
+   "w": "your",
+   "start": 7.88,
+   "end": 7.96
+  },
+  {
+   "w": "yes.",
+   "start": 7.96,
+   "end": 8.18
+  },
+  {
+   "w": "That's",
+   "start": 8.52,
+   "end": 8.76
+  },
+  {
+   "w": "the",
+   "start": 8.76,
+   "end": 8.8
+  },
+  {
+   "w": "part",
+   "start": 8.8,
+   "end": 8.92
+  },
+  {
+   "w": "people",
+   "start": 8.92,
+   "end": 9.1
+  },
+  {
+   "w": "are",
+   "start": 9.1,
+   "end": 9.2
+  },
+  {
+   "w": "skipping.",
+   "start": 9.2,
+   "end": 9.4
+  },
+  {
+   "w": "The",
+   "start": 9.94,
+   "end": 10.08
+  },
+  {
+   "w": "risk",
+   "start": 10.08,
+   "end": 10.26
+  },
+  {
+   "w": "with",
+   "start": 10.26,
+   "end": 10.42
+  },
+  {
+   "w": "AI",
+   "start": 10.42,
+   "end": 10.6
+  },
+  {
+   "w": "agents",
+   "start": 10.6,
+   "end": 10.92
+  },
+  {
+   "w": "was",
+   "start": 10.92,
+   "end": 11.1
+  },
+  {
+   "w": "never",
+   "start": 11.1,
+   "end": 11.36
+  },
+  {
+   "w": "that",
+   "start": 11.36,
+   "end": 11.5
+  },
+  {
+   "w": "they're",
+   "start": 11.5,
+   "end": 11.68
+  },
+  {
+   "w": "dumb.",
+   "start": 11.68,
+   "end": 11.84
+  },
+  {
+   "w": "It's",
+   "start": 12.22,
+   "end": 12.36
+  },
+  {
+   "w": "that",
+   "start": 12.36,
+   "end": 12.48
+  },
+  {
+   "w": "they",
+   "start": 12.48,
+   "end": 12.56
+  },
+  {
+   "w": "act",
+   "start": 12.56,
+   "end": 12.82
+  },
+  {
+   "w": "without",
+   "start": 12.82,
+   "end": 13.02
+  },
+  {
+   "w": "you.",
+   "start": 13.02,
+   "end": 13.24
+  },
+  {
+   "w": "A",
+   "start": 13.66,
+   "end": 13.78
+  },
+  {
+   "w": "single",
+   "start": 13.78,
+   "end": 13.98
+  },
+  {
+   "w": "approval",
+   "start": 13.98,
+   "end": 14.24
+  },
+  {
+   "w": "step",
+   "start": 14.24,
+   "end": 14.54
+  },
+  {
+   "w": "fixes",
+   "start": 14.54,
+   "end": 14.86
+  },
+  {
+   "w": "that.",
+   "start": 14.86,
+   "end": 15.1
+  },
+  {
+   "w": "Want",
+   "start": 15.55,
+   "end": 15.71
+  },
+  {
+   "w": "the",
+   "start": 15.71,
+   "end": 15.83
+  },
+  {
+   "w": "5",
+   "start": 15.83,
+   "end": 15.97
+  },
+  {
+   "w": "starter",
+   "start": 15.97,
+   "end": 16.17
+  },
+  {
+   "w": "skills",
+   "start": 16.17,
+   "end": 16.45
+  },
+  {
+   "w": "I",
+   "start": 16.45,
+   "end": 16.61
+  },
+  {
+   "w": "give",
+   "start": 16.61,
+   "end": 16.71
+  },
+  {
+   "w": "every",
+   "start": 16.71,
+   "end": 16.97
+  },
+  {
+   "w": "new",
+   "start": 16.97,
+   "end": 17.09
+  },
+  {
+   "w": "AI",
+   "start": 17.09,
+   "end": 17.29
+  },
+  {
+   "w": "employee?",
+   "start": 17.29,
+   "end": 17.57
+  },
+  {
+   "w": "Comment",
+   "start": 18.07,
+   "end": 18.31
+  },
+  {
+   "w": "AI",
+   "start": 18.31,
+   "end": 18.55
+  },
+  {
+   "w": "and",
+   "start": 18.55,
+   "end": 18.91
+  },
+  {
+   "w": "I'll",
+   "start": 18.91,
+   "end": 19.01
+  },
+  {
+   "w": "send",
+   "start": 19.01,
+   "end": 19.15
+  },
+  {
+   "w": "them.",
+   "start": 19.15,
+   "end": 19.27
+  }
+ ],
+ "text": "Anthropics has shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that. And it's how we build every system for our clients. Want the five starter skills I give every new AI employee? Comment AI and I'll send them."
+}
