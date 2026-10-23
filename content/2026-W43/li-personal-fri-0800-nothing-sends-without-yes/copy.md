@@ -3,30 +3,22 @@ The AI feature that'll save business owners the most money this year isn't a sma
 
 Anthropic put Claude Duet into research preview this week. It works in the background, builds your daily briefing and suggests what to do next.
 
-Then it stops and asks.
-
-It can buy through Stripe Link or Shop Pay, but every payment waits for your approval. It won't trade securities or move money.
+Then it stops and asks. It can buy through Stripe Link or Shop Pay, but every payment waits for your approval.
 
 That pause is the product.
 
-Owners I talk to don't lose sleep over whether AI is smart enough. They lose sleep over what it might send:
+Our own company runs on 100+ AI employees, and every 1 of them has a short list of moments where it has to stop and wait for a person. There are 4. Money going out and messages to customers are the 2 everyone guesses. The other 2 are the ones that would cost us most if we got them wrong.
 
-· a refund that shouldn't go out
-· a quote at the wrong rate
-· an email to your biggest client in the wrong tone
+The market landed here too. Walmart is adding spending limits for shopping agents. Microsoft told companies to watch their agents the way they'd watch an insider.
 
-Every system we build at Content Systems.ai has had the same rule since day 1. AI does the work. A person says yes before anything leaves the building. Our own company runs on 100+ AI employees with that rule, and it's why I trust them.
+On Nov 1 I'm opening it up. You'll set up Claude properly on your own account, build your first 2 AI employees with me, and see the 100+ running our company. 1 of the 2 answers a new lead in seconds. Think about what happens right now when a lead comes in at 2 AM.
 
-The market landed here too this week. Walmart is adding spending limits and per-purchase approval for shopping agents. Microsoft told companies to watch their agents the way they'd watch an insider.
-
-If you're adding AI to your business, start with 1 question: what does it need my yes for?
-
-I'll build your first AI employee with you, approval step included, live on Zoom on Nov 1 at 11 AM ET. The AI Employee Accelerator: contentsystems.ai/workshop
+The AI Employee Accelerator. Sun Nov 1, 11 AM ET, 120 minutes live on Zoom, replay included: contentsystems.ai/workshop
 
 #AI #AIagents #ClaudeDuet #Anthropic #AIEmployees #Automation #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations
 
 ## Alt text
-6-slide carousel. Dark cover: The best AI feature this week is a yes button. Slides on Claude Duet asking before it sends and before it pays, the 4 moments that always need a person's yes (money out, customer messages, quotes and contracts, deleting data), a 4-step diagram of how Content Systems.ai builds (AI does the work, you see it, you say yes, it learns), and a CTA for The AI Employee Accelerator on Nov 1 at 11 AM ET.
+6-slide carousel. Neon cover: The best AI feature is a yes button. Slides on Claude Duet asking before it pays, AI drafting while a person sends, 4 moments that need a yes (money going out and messages to customers shown, numbers 3 and 4 hidden behind question marks), the 1 rule all 100+ of our AI employees follow, and a CTA to build your first 2 AI employees at The AI Employee Accelerator, Sun Nov 1 at 11 AM ET.
 
 ## Notes
 Sources (all in window, checked in research/weekly/2026-W44.md section 1.1, 1.2, 1.8):
@@ -38,3 +30,4 @@ Sources (all in window, checked in research/weekly/2026-W44.md section 1.1, 1.2,
 - Workshop: Nov 1 is the day US clocks go back. 11 AM ET is already EST, so no change needed in this post. Reminder posts should mention it.
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Microsoft agents as insider threats (Oct 19 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).
+- Curiosity rewrite 2026-10-23 (Korede: loop people, don't give away too much): slide 4 hides moments 3 and 4 (quotes and contracts, deleting data), slide 5 teases the 1 rule instead of showing the 3-step flow, CTA now matches the workshop promise (set up Claude, build 2 AI employees: lead response and competitor tracking, see the 100+).

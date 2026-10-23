@@ -190,18 +190,18 @@
               "v": "to customers"
             },
             {
-              "k": "Quotes:",
-              "v": "and contracts"
+              "k": "No. 3:",
+              "v": "? ? ?"
             },
             {
-              "k": "Data:",
-              "v": "being deleted"
+              "k": "No. 4:",
+              "v": "? ? ?"
             }
           ]
         },
         "notes": [
           {
-            "text": "everything else\nruns on its own",
+            "text": "2 you'd guess,\n2 you wouldn't",
             "x": 540,
             "y": 850,
             "w": 460
@@ -223,8 +223,8 @@
       {
         "world": "day",
         "headline": [
-          "How we build",
-          "*every system*"
+          "The 1 rule",
+          "*all 100+ follow*"
         ],
         "size": "s",
         "card": {
@@ -232,20 +232,20 @@
           "kind": "flow",
           "steps": [
             {
-              "h": "AI",
-              "p": "does it"
+              "h": "Day 1",
+              "p": "it's set"
             },
             {
-              "h": "You",
-              "p": "check it"
+              "h": "Every 1",
+              "p": "no exceptions"
             },
             {
-              "h": "Yes",
-              "p": "it goes",
+              "h": "Sunday",
+              "p": "see it live",
               "hi": true
             }
           ],
-          "foot": "our 100+ AI employees, same rule",
+          "foot": "inside our 100+ AI employees",
           "accent": true
         },
         "notes": [
@@ -273,7 +273,7 @@
         "world": "neon",
         "headline": [
           "Build your first",
-          "*AI employee*"
+          "*2 AI employees*"
         ],
         "size": "s",
         "underline": false,
@@ -294,7 +294,7 @@
             "rot": 12
           },
           {
-            "text": "YES STEP\nINCLUDED",
+            "text": "LEADS\nAT 2 AM?",
             "x": 268,
             "y": 850,
             "w": 175,

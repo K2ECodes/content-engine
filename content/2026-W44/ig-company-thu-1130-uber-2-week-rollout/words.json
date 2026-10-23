@@ -2,628 +2,628 @@
  "words": [
   {
    "w": "Uber",
-   "start": 0.0,
-   "end": 0.46
+   "start": 0,
+   "end": 0.224
   },
   {
    "w": "is",
-   "start": 0.46,
-   "end": 0.7
+   "start": 0.224,
+   "end": 0.464
   },
   {
    "w": "giving",
-   "start": 0.7,
-   "end": 0.9
+   "start": 0.464,
+   "end": 0.664
   },
   {
    "w": "AI",
-   "start": 0.9,
-   "end": 1.22
+   "start": 0.664,
+   "end": 0.984
   },
   {
    "w": "to",
-   "start": 1.22,
-   "end": 1.6
+   "start": 0.984,
+   "end": 1.364
   },
   {
    "w": "all",
-   "start": 1.6,
-   "end": 1.82
+   "start": 1.364,
+   "end": 1.584
   },
   {
    "w": "30,000",
-   "start": 1.82,
-   "end": 2.88
+   "start": 1.584,
+   "end": 2.644
   },
   {
    "w": "staff.",
-   "start": 2.88,
-   "end": 3.26
+   "start": 2.644,
+   "end": 3.024
   },
   {
    "w": "The",
-   "start": 3.92,
-   "end": 4.34
+   "start": 3.237,
+   "end": 3.399
   },
   {
    "w": "secret",
-   "start": 4.34,
-   "end": 4.6
+   "start": 3.399,
+   "end": 3.659
   },
   {
    "w": "wasn't",
-   "start": 4.6,
-   "end": 4.88
+   "start": 3.659,
+   "end": 3.939
   },
   {
    "w": "the",
-   "start": 4.88,
-   "end": 5.0
+   "start": 3.939,
+   "end": 4.059
   },
   {
    "w": "tool.",
-   "start": 5.0,
-   "end": 5.26
+   "start": 4.059,
+   "end": 4.319
   },
   {
    "w": "It",
-   "start": 5.74,
-   "end": 5.84
+   "start": 4.544,
+   "end": 4.644
   },
   {
    "w": "was",
-   "start": 5.84,
-   "end": 5.94
+   "start": 4.644,
+   "end": 4.744
   },
   {
    "w": "30",
-   "start": 5.94,
-   "end": 6.3
+   "start": 4.744,
+   "end": 5.104
   },
   {
    "w": "experts",
-   "start": 6.3,
-   "end": 6.82
+   "start": 5.104,
+   "end": 5.624
   },
   {
    "w": "sitting",
-   "start": 6.82,
-   "end": 7.48
+   "start": 5.624,
+   "end": 6.121
   },
   {
    "w": "next",
-   "start": 7.48,
-   "end": 7.86
+   "start": 6.121,
+   "end": 6.501
   },
   {
    "w": "to",
-   "start": 7.86,
-   "end": 8.02
+   "start": 6.501,
+   "end": 6.661
   },
   {
    "w": "teams",
-   "start": 8.02,
-   "end": 8.28
+   "start": 6.661,
+   "end": 6.921
   },
   {
    "w": "for",
-   "start": 8.28,
-   "end": 8.54
+   "start": 6.921,
+   "end": 7.181
   },
   {
    "w": "2",
-   "start": 8.54,
-   "end": 8.88
+   "start": 7.181,
+   "end": 7.521
   },
   {
    "w": "weeks.",
-   "start": 8.88,
-   "end": 9.16
+   "start": 7.521,
+   "end": 7.801
   },
   {
    "w": "Here's",
-   "start": 9.86,
-   "end": 10.08
+   "start": 8.052,
+   "end": 8.272
   },
   {
    "w": "what",
-   "start": 10.08,
-   "end": 10.16
+   "start": 8.272,
+   "end": 8.352
   },
   {
    "w": "happened.",
-   "start": 10.16,
-   "end": 10.38
+   "start": 8.352,
+   "end": 8.572
   },
   {
    "w": "They",
-   "start": 11.02,
-   "end": 11.3
+   "start": 9.027,
+   "end": 9.171
   },
   {
    "w": "started",
-   "start": 11.3,
-   "end": 11.56
+   "start": 9.171,
+   "end": 9.431
   },
   {
    "w": "with",
-   "start": 11.56,
-   "end": 11.72
+   "start": 9.431,
+   "end": 9.591
   },
   {
    "w": "a",
-   "start": 11.72,
-   "end": 11.82
+   "start": 9.591,
+   "end": 9.691
   },
   {
    "w": "pilot",
-   "start": 11.82,
-   "end": 12.12
+   "start": 9.691,
+   "end": 9.991
   },
   {
    "w": "of",
-   "start": 12.12,
-   "end": 12.3
+   "start": 9.991,
+   "end": 10.171
   },
   {
    "w": "about",
-   "start": 12.3,
-   "end": 12.46
+   "start": 10.171,
+   "end": 10.331
   },
   {
    "w": "1,000",
-   "start": 12.46,
-   "end": 12.94
+   "start": 10.331,
+   "end": 10.811
   },
   {
    "w": "people.",
-   "start": 12.94,
-   "end": 13.28
+   "start": 10.811,
+   "end": 11.151
   },
   {
    "w": "8",
-   "start": 13.9,
-   "end": 14.04
+   "start": 11.496,
+   "end": 11.636
   },
   {
    "w": "in",
-   "start": 14.04,
-   "end": 14.12
+   "start": 11.636,
+   "end": 11.716
   },
   {
    "w": "10",
-   "start": 14.12,
-   "end": 14.32
+   "start": 11.716,
+   "end": 11.916
   },
   {
    "w": "of",
-   "start": 14.32,
-   "end": 14.42
+   "start": 11.916,
+   "end": 12.016
   },
   {
    "w": "them",
-   "start": 14.42,
-   "end": 14.54
+   "start": 12.016,
+   "end": 12.136
   },
   {
    "w": "weren't",
-   "start": 14.54,
-   "end": 15.02
+   "start": 12.136,
+   "end": 12.616
   },
   {
    "w": "engineers.",
-   "start": 15.02,
-   "end": 15.38
+   "start": 12.616,
+   "end": 12.976
   },
   {
    "w": "Then",
-   "start": 16.12,
-   "end": 16.36
+   "start": 13.247,
+   "end": 13.482
   },
   {
    "w": "30",
-   "start": 16.36,
-   "end": 16.82
+   "start": 13.482,
+   "end": 13.942
   },
   {
    "w": "AI",
-   "start": 16.82,
-   "end": 17.2
+   "start": 13.942,
+   "end": 14.322
   },
   {
    "w": "engineers",
-   "start": 17.2,
-   "end": 17.56
+   "start": 14.322,
+   "end": 14.682
   },
   {
    "w": "sat",
-   "start": 17.56,
-   "end": 18.02
+   "start": 14.682,
+   "end": 15.142
   },
   {
    "w": "with",
-   "start": 18.02,
-   "end": 18.22
+   "start": 15.142,
+   "end": 15.342
   },
   {
    "w": "each",
-   "start": 18.22,
-   "end": 18.56
+   "start": 15.342,
+   "end": 15.682
   },
   {
    "w": "team,",
-   "start": 18.56,
-   "end": 18.9
+   "start": 15.682,
+   "end": 16.022
   },
   {
    "w": "found",
-   "start": 19.38,
-   "end": 19.58
+   "start": 16.23,
+   "end": 16.43
   },
   {
    "w": "the",
-   "start": 19.58,
-   "end": 19.74
+   "start": 16.43,
+   "end": 16.59
   },
   {
    "w": "boring",
-   "start": 19.74,
-   "end": 19.96
+   "start": 16.59,
+   "end": 16.81
   },
   {
    "w": "parts",
-   "start": 19.96,
-   "end": 20.22
+   "start": 16.81,
+   "end": 17.07
   },
   {
    "w": "of",
-   "start": 20.22,
-   "end": 20.32
+   "start": 17.07,
+   "end": 17.17
   },
   {
    "w": "their",
-   "start": 20.32,
-   "end": 20.4
+   "start": 17.17,
+   "end": 17.25
   },
   {
    "w": "jobs",
-   "start": 20.4,
-   "end": 20.68
+   "start": 17.25,
+   "end": 17.53
   },
   {
    "w": "and",
-   "start": 20.68,
-   "end": 21.2
+   "start": 17.53,
+   "end": 17.881
   },
   {
    "w": "automated",
-   "start": 21.2,
-   "end": 21.52
+   "start": 17.881,
+   "end": 18.201
   },
   {
    "w": "them.",
-   "start": 21.52,
-   "end": 21.8
+   "start": 18.201,
+   "end": 18.467
   },
   {
    "w": "Data",
-   "start": 22.38,
-   "end": 22.64
+   "start": 18.501,
+   "end": 18.761
   },
   {
    "w": "reports.",
-   "start": 22.64,
-   "end": 22.96
+   "start": 18.761,
+   "end": 19.081
   },
   {
    "w": "Training",
-   "start": 23.4,
-   "end": 23.78
+   "start": 19.365,
+   "end": 19.745
   },
   {
    "w": "in",
-   "start": 23.78,
-   "end": 23.96
+   "start": 19.745,
+   "end": 19.925
   },
   {
    "w": "new",
-   "start": 23.96,
-   "end": 24.06
+   "start": 19.925,
+   "end": 20.025
   },
   {
    "w": "languages.",
-   "start": 24.06,
-   "end": 24.42
+   "start": 20.025,
+   "end": 20.385
   },
   {
    "w": "Dashboards.",
-   "start": 25.02,
-   "end": 25.54
+   "start": 20.607,
+   "end": 21.117
   },
   {
    "w": "2",
-   "start": 26.4,
-   "end": 26.6
+   "start": 21.364,
+   "end": 21.564
   },
   {
    "w": "weeks",
-   "start": 26.6,
-   "end": 26.84
+   "start": 21.564,
+   "end": 21.804
   },
   {
    "w": "per",
-   "start": 26.84,
-   "end": 27.04
+   "start": 21.804,
+   "end": 22.004
   },
   {
    "w": "team.",
-   "start": 27.04,
-   "end": 27.3
+   "start": 22.004,
+   "end": 22.264
   },
   {
    "w": "Then",
-   "start": 27.92,
-   "end": 28.08
+   "start": 22.365,
+   "end": 22.525
   },
   {
    "w": "they",
-   "start": 28.08,
-   "end": 28.2
+   "start": 22.525,
+   "end": 22.645
   },
   {
    "w": "scaled.",
-   "start": 28.2,
-   "end": 28.48
+   "start": 22.645,
+   "end": 22.925
   },
   {
    "w": "Most",
-   "start": 29.26,
-   "end": 29.78
+   "start": 23.091,
+   "end": 23.269
   },
   {
    "w": "companies",
-   "start": 29.78,
-   "end": 30.08
+   "start": 23.269,
+   "end": 23.569
   },
   {
    "w": "do",
-   "start": 30.08,
-   "end": 30.24
+   "start": 23.569,
+   "end": 23.729
   },
   {
    "w": "the",
-   "start": 30.24,
-   "end": 30.36
+   "start": 23.729,
+   "end": 23.849
   },
   {
    "w": "opposite.",
-   "start": 30.36,
-   "end": 30.62
+   "start": 23.849,
+   "end": 24.109
   },
   {
    "w": "They",
-   "start": 31.38,
-   "end": 31.42
+   "start": 24.492,
+   "end": 24.532
   },
   {
    "w": "buy",
-   "start": 31.42,
-   "end": 31.54
+   "start": 24.532,
+   "end": 24.652
   },
   {
    "w": "licenses",
-   "start": 31.54,
-   "end": 31.86
+   "start": 24.652,
+   "end": 24.972
   },
   {
    "w": "for",
-   "start": 31.86,
-   "end": 32.18
+   "start": 24.972,
+   "end": 25.292
   },
   {
    "w": "everyone,",
-   "start": 32.18,
-   "end": 32.54
+   "start": 25.292,
+   "end": 25.652
   },
   {
    "w": "send",
-   "start": 32.88,
-   "end": 33.02
+   "start": 25.992,
+   "end": 26.132
   },
   {
    "w": "a",
-   "start": 33.02,
-   "end": 33.12
+   "start": 26.132,
+   "end": 26.232
   },
   {
    "w": "login,",
-   "start": 33.12,
-   "end": 33.4
+   "start": 26.232,
+   "end": 26.512
   },
   {
    "w": "and",
-   "start": 33.86,
-   "end": 33.98
+   "start": 26.972,
+   "end": 27.092
   },
   {
    "w": "wonder",
-   "start": 33.98,
-   "end": 34.18
+   "start": 27.092,
+   "end": 27.292
   },
   {
    "w": "why",
-   "start": 34.18,
-   "end": 34.34
+   "start": 27.292,
+   "end": 27.452
   },
   {
    "w": "nobody",
-   "start": 34.34,
-   "end": 34.54
+   "start": 27.452,
+   "end": 27.652
   },
   {
    "w": "uses",
-   "start": 34.54,
-   "end": 34.84
+   "start": 27.652,
+   "end": 27.952
   },
   {
    "w": "it.",
-   "start": 34.84,
-   "end": 35.06
+   "start": 27.952,
+   "end": 28.172
   },
   {
    "w": "You",
-   "start": 35.72,
-   "end": 36.14
+   "start": 28.213,
+   "end": 28.359
   },
   {
    "w": "don't",
-   "start": 36.14,
-   "end": 36.3
+   "start": 28.359,
+   "end": 28.519
   },
   {
    "w": "need",
-   "start": 36.3,
-   "end": 36.46
+   "start": 28.519,
+   "end": 28.679
   },
   {
    "w": "30",
-   "start": 36.46,
-   "end": 36.78
+   "start": 28.679,
+   "end": 28.999
   },
   {
    "w": "engineers.",
-   "start": 36.78,
-   "end": 37.18
+   "start": 28.999,
+   "end": 29.399
   },
   {
    "w": "You",
-   "start": 38.02,
-   "end": 38.14
+   "start": 29.794,
+   "end": 29.914
   },
   {
    "w": "need",
-   "start": 38.14,
-   "end": 38.3
+   "start": 29.914,
+   "end": 30.074
   },
   {
    "w": "someone",
-   "start": 38.3,
-   "end": 38.6
+   "start": 30.074,
+   "end": 30.374
   },
   {
    "w": "next",
-   "start": 38.6,
-   "end": 38.88
+   "start": 30.374,
+   "end": 30.654
   },
   {
    "w": "to",
-   "start": 38.88,
-   "end": 39.04
+   "start": 30.654,
+   "end": 30.814
   },
   {
    "w": "your",
-   "start": 39.04,
-   "end": 39.12
+   "start": 30.814,
+   "end": 30.894
   },
   {
    "w": "team",
-   "start": 39.12,
-   "end": 39.36
+   "start": 30.894,
+   "end": 31.134
   },
   {
    "w": "for",
-   "start": 39.36,
-   "end": 39.62
+   "start": 31.134,
+   "end": 31.394
   },
   {
    "w": "2",
-   "start": 39.62,
-   "end": 39.92
+   "start": 31.394,
+   "end": 31.694
   },
   {
    "w": "weeks.",
-   "start": 39.92,
-   "end": 40.18
+   "start": 31.694,
+   "end": 31.954
   },
   {
    "w": "On",
-   "start": 40.66,
-   "end": 40.86
+   "start": 32.193,
+   "end": 32.345
   },
   {
    "w": "your",
-   "start": 40.86,
-   "end": 40.98
+   "start": 32.345,
+   "end": 32.465
   },
   {
    "w": "real",
-   "start": 40.98,
-   "end": 41.28
+   "start": 32.465,
+   "end": 32.765
   },
   {
    "w": "work.",
-   "start": 41.28,
-   "end": 41.56
+   "start": 32.765,
+   "end": 33.045
   },
   {
    "w": "Bring",
-   "start": 42.44,
-   "end": 42.72
+   "start": 33.195,
+   "end": 33.475
   },
   {
    "w": "your",
-   "start": 42.72,
-   "end": 42.84
+   "start": 33.475,
+   "end": 33.595
   },
   {
    "w": "biggest",
-   "start": 42.84,
-   "end": 43.02
+   "start": 33.595,
+   "end": 33.775
   },
   {
    "w": "bottleneck",
-   "start": 43.02,
-   "end": 43.54
+   "start": 33.775,
+   "end": 34.295
   },
   {
    "w": "to",
-   "start": 43.54,
-   "end": 43.68
+   "start": 34.295,
+   "end": 34.435
   },
   {
    "w": "our",
-   "start": 43.68,
-   "end": 43.8
+   "start": 34.435,
+   "end": 34.555
   },
   {
    "w": "free",
-   "start": 43.8,
-   "end": 44.06
+   "start": 34.555,
+   "end": 34.815
   },
   {
    "w": "office",
-   "start": 44.06,
-   "end": 44.34
+   "start": 34.815,
+   "end": 35.095
   },
   {
    "w": "hours.",
-   "start": 44.34,
-   "end": 44.62
+   "start": 35.095,
+   "end": 35.375
   },
   {
    "w": "Link",
-   "start": 45.22,
-   "end": 45.46
+   "start": 35.6,
+   "end": 35.84
   },
   {
    "w": "in",
-   "start": 45.46,
-   "end": 45.56
+   "start": 35.84,
+   "end": 35.94
   },
   {
    "w": "bio.",
-   "start": 45.56,
-   "end": 45.74
+   "start": 35.94,
+   "end": 36.12
   }
  ],
  "text": "Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks. Here's what happened. They started with a pilot of about 1,000 people. 8 in 10 of them weren't engineers. Then 30 AI engineers sat with each team, found the boring parts of their jobs and automated them. Data reports. Training in new languages. Dashboards. 2 weeks per team. Then they scaled. Most companies do the opposite. They buy licenses for everyone, send a login, and wonder why nobody uses it. You don't need 30 engineers. You need someone next to your team for 2 weeks. On your real work. Bring your biggest bottleneck to our free office hours. Link in bio."

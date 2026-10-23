@@ -168,13 +168,13 @@
     ],
     "face": {
       "src": "plate.mp4",
-      "mask": "../../../assets/talking-head/korede-cutout.png"
+      "mask": "plate-mask.mp4"
     },
     "faceCuts": [
       {
         "layout": "full",
         "cut": true,
-        "bg": "pixel-neon",
+        "bg": "loft",
         "zoom": 1.0,
         "push": true,
         "pushAt": "mistake."
@@ -195,14 +195,14 @@
         "zoom": 1.0
       },
       {
-        "at": "The stores",
+        "at": "Your",
         "layout": "none"
       },
       {
         "at": "Walmart#3",
         "layout": "full",
         "cut": true,
-        "bg": "pixel-sunset",
+        "bg": "city-dusk",
         "zoom": 1.0,
         "push": true,
         "pushAt": "wins"
@@ -303,6 +303,18 @@
         "color": "#9CCAA0",
         "rot": 12
       }
+    ],
+    "bgLogos": [
+      "walmart",
+      "amazon",
+      "google",
+      "meta",
+      "openai",
+      "claude",
+      "shopify",
+      "walmart",
+      "amazon",
+      "gemini"
     ]
   }
 }

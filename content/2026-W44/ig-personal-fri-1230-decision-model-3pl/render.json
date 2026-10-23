@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.11
     },
     "tail": 2.4,
     "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says the wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1, routing. Which inbox, which team, with a confidence score. 2, picking. Which reply, which tool, which next step. 3, flagging. Spam, urgent or fine, in a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack, with the permission sheet for each step.",
@@ -238,6 +238,12 @@
         "prompt": "AI",
         "dm": "Starter pack sent to your DMs"
       }
+    ],
+    "bgLogos": [
+      "openai",
+      "openai",
+      "openai",
+      "openai"
     ]
   }
 }

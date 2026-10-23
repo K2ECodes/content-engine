@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.1
     },
     "script": "Launching a support bot for Black Friday? Here are the 5 moments it has to hand the customer to a person. An apparel brand we work with in Berlin lets AI answer 72 in 100 support tickets in 4 languages. The other 28 go to a person, on purpose. An angry customer. Someone who wants to cancel. A refund over your limit. A question the bot isn't sure about. And anyone who asks for a human. Skip these and people stop trusting the bot. With a human option, 55 in 100 trust AI to fix their issue. Without one, just 26. And that Berlin brand? It still saves 1 in 4 customers who try to cancel. Comment SYSTEMS and we'll send you the full handoff map.",
     "keys": [
@@ -63,7 +63,7 @@
         "world": "dark",
         "type": "odometer",
         "value": "72",
-        "suffix": "\u00a0in\u00a0100",
+        "suffix": " in 100",
         "label": "tickets answered by AI, in 4 languages",
         "landAt": "72"
       },
@@ -146,6 +146,18 @@
         "prompt": "SYSTEMS",
         "dm": "Handoff map sent to your DMs"
       }
+    ],
+    "bgLogos": [
+      "shopify",
+      "fedex",
+      "ups",
+      "dhl",
+      "usps",
+      "amazon",
+      "shopify",
+      "fedex",
+      "ups",
+      "dhl"
     ]
   }
 }

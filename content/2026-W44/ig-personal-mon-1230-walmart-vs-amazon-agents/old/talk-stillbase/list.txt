@@ -1,0 +1,6 @@
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part0.mp4'
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part1.mp4'
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part2.mp4'
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part3.mp4'
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part4.mp4'
+file '/Users/koredekola/content-engine/content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents/talk/part5.mp4'

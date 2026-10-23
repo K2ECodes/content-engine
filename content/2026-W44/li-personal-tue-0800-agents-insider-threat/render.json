@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.07
+      "volume": 0.11
     },
     "script": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, the bank, all with 1 master key. Now 1 bad instruction can touch everything. Satya Nadella put it simply. Separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that leaves the building. Emails, refunds, payments. Fast inside, gated at the door. On Sunday, I'm building an AI employee live, with these exact rules. Join me at the AI Employee Accelerator. The link is in the post.",
     "keys": [
@@ -153,11 +153,17 @@
         "type": "cta",
         "keyword": "JOIN LIVE",
         "prompt": "contentsystems.ai/workshop",
-        "dm": "Seat saved \u00b7 Sun 11 AM ET"
+        "dm": "Seat saved · Sun 11 AM ET"
       }
     ],
     "heygen": {
       "say": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, the bank, all with one master key. Now one bad instruction can touch everything. Satya Nadella put it simply. Separate the supply of intelligence from the authority over it. So here's how I build at Kun-TENT Systems dot A I. Each agent only sees what its job needs. It gets its own key. And a person approves anything that leaves the building. Emails, refunds, payments. Fast inside, gated at the door. On Sunday, I'm building an AI employee live, with these exact rules. Join me at the AI Employee Accelerator. The link is in the post."
-    }
+    },
+    "bgLogos": [
+      "microsoft",
+      "microsoft",
+      "microsoft",
+      "microsoft"
+    ]
   }
 }

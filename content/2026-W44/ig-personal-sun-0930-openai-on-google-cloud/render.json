@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.07
+      "volume": 0.11
     },
     "script": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack.",
     "keys": [
@@ -162,6 +162,18 @@
     ],
     "heygen": {
       "say": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to two hundred other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."
-    }
+    },
+    "bgLogos": [
+      "openai",
+      "google",
+      "gemini",
+      "microsoft",
+      "openai",
+      "google",
+      "gemini",
+      "microsoft",
+      "openai",
+      "google"
+    ]
   }
 }

@@ -2,7 +2,7 @@
  "words": [
   {
    "w": "Launching",
-   "start": 0.0,
+   "start": 0,
    "end": 0.56
   },
   {
@@ -37,598 +37,598 @@
   },
   {
    "w": "Here",
-   "start": 2.38,
-   "end": 2.64
+   "start": 2.015,
+   "end": 2.275
   },
   {
    "w": "are",
-   "start": 2.64,
-   "end": 2.74
+   "start": 2.275,
+   "end": 2.375
   },
   {
    "w": "the",
-   "start": 2.74,
-   "end": 2.82
+   "start": 2.375,
+   "end": 2.455
   },
   {
    "w": "5",
-   "start": 2.82,
-   "end": 3.16
+   "start": 2.455,
+   "end": 2.795
   },
   {
    "w": "moments",
-   "start": 3.16,
-   "end": 3.54
+   "start": 2.795,
+   "end": 3.175
   },
   {
    "w": "it",
-   "start": 3.54,
-   "end": 3.76
+   "start": 3.175,
+   "end": 3.395
   },
   {
    "w": "has",
-   "start": 3.76,
-   "end": 4.12
+   "start": 3.395,
+   "end": 3.755
   },
   {
    "w": "to",
-   "start": 4.12,
-   "end": 4.36
+   "start": 3.755,
+   "end": 3.995
   },
   {
    "w": "hand",
-   "start": 4.36,
-   "end": 4.58
+   "start": 3.995,
+   "end": 4.215
   },
   {
    "w": "the",
-   "start": 4.58,
-   "end": 4.7
+   "start": 4.215,
+   "end": 4.335
   },
   {
    "w": "customer",
-   "start": 4.7,
-   "end": 5.0
+   "start": 4.335,
+   "end": 4.635
   },
   {
    "w": "to",
-   "start": 5.0,
-   "end": 5.2
+   "start": 4.635,
+   "end": 4.835
   },
   {
    "w": "a",
-   "start": 5.2,
-   "end": 5.32
+   "start": 4.835,
+   "end": 4.955
   },
   {
    "w": "person.",
-   "start": 5.32,
-   "end": 5.56
+   "start": 4.955,
+   "end": 5.195
   },
   {
    "w": "An",
-   "start": 6.3,
-   "end": 6.64
+   "start": 5.328,
+   "end": 5.668
   },
   {
    "w": "apparel",
-   "start": 6.64,
-   "end": 6.9
+   "start": 5.668,
+   "end": 5.928
   },
   {
    "w": "brand",
-   "start": 6.9,
-   "end": 7.08
+   "start": 5.928,
+   "end": 6.108
   },
   {
    "w": "we",
-   "start": 7.08,
-   "end": 7.22
+   "start": 6.108,
+   "end": 6.248
   },
   {
    "w": "work",
-   "start": 7.22,
-   "end": 7.38
+   "start": 6.248,
+   "end": 6.408
   },
   {
    "w": "with",
-   "start": 7.38,
-   "end": 7.56
+   "start": 6.408,
+   "end": 6.588
   },
   {
    "w": "in",
-   "start": 7.56,
-   "end": 7.7
+   "start": 6.588,
+   "end": 6.728
   },
   {
    "w": "Berlin",
-   "start": 7.7,
-   "end": 7.88
+   "start": 6.728,
+   "end": 6.908
   },
   {
    "w": "lets",
-   "start": 7.88,
-   "end": 8.22
+   "start": 6.908,
+   "end": 7.248
   },
   {
    "w": "AI",
-   "start": 8.22,
-   "end": 8.48
+   "start": 7.248,
+   "end": 7.508
   },
   {
    "w": "answer",
-   "start": 8.48,
-   "end": 8.92
+   "start": 7.508,
+   "end": 7.948
   },
   {
    "w": "72",
-   "start": 8.92,
-   "end": 9.46
+   "start": 7.948,
+   "end": 8.488
   },
   {
    "w": "in",
-   "start": 9.46,
-   "end": 9.78
+   "start": 8.488,
+   "end": 8.808
   },
   {
    "w": "100",
-   "start": 9.78,
-   "end": 10.1
+   "start": 8.808,
+   "end": 9.128
   },
   {
    "w": "support",
-   "start": 10.1,
-   "end": 10.38
+   "start": 9.128,
+   "end": 9.408
   },
   {
    "w": "tickets",
-   "start": 10.38,
-   "end": 10.74
+   "start": 9.408,
+   "end": 9.768
   },
   {
    "w": "in",
-   "start": 10.74,
-   "end": 11.1
+   "start": 9.768,
+   "end": 10.128
   },
   {
    "w": "4",
-   "start": 11.1,
-   "end": 11.34
+   "start": 10.128,
+   "end": 10.368
   },
   {
    "w": "languages.",
-   "start": 11.34,
-   "end": 11.72
+   "start": 10.368,
+   "end": 10.748
   },
   {
    "w": "The",
-   "start": 12.28,
-   "end": 12.46
+   "start": 10.972,
+   "end": 11.115
   },
   {
    "w": "other",
-   "start": 12.46,
-   "end": 12.54
+   "start": 11.115,
+   "end": 11.195
   },
   {
    "w": "28",
-   "start": 12.54,
-   "end": 12.94
+   "start": 11.195,
+   "end": 11.595
   },
   {
    "w": "go",
-   "start": 13.34,
-   "end": 13.52
+   "start": 11.751,
+   "end": 11.918
   },
   {
    "w": "to",
-   "start": 13.52,
-   "end": 13.6
+   "start": 11.918,
+   "end": 11.998
   },
   {
    "w": "a",
-   "start": 13.6,
-   "end": 13.68
+   "start": 11.998,
+   "end": 12.078
   },
   {
    "w": "person,",
-   "start": 13.68,
-   "end": 13.94
+   "start": 12.078,
+   "end": 12.338
   },
   {
    "w": "on",
-   "start": 14.44,
-   "end": 14.74
+   "start": 12.573,
+   "end": 12.873
   },
   {
    "w": "purpose.",
-   "start": 14.74,
-   "end": 15.28
+   "start": 12.873,
+   "end": 13.413
   },
   {
    "w": "An",
-   "start": 16.08,
-   "end": 16.28
+   "start": 13.793,
+   "end": 13.993
   },
   {
    "w": "angry",
-   "start": 16.28,
-   "end": 16.56
+   "start": 13.993,
+   "end": 14.273
   },
   {
    "w": "customer.",
-   "start": 16.56,
-   "end": 17.0
+   "start": 14.273,
+   "end": 14.713
   },
   {
    "w": "Someone",
-   "start": 17.52,
-   "end": 17.78
+   "start": 14.94,
+   "end": 15.2
   },
   {
    "w": "who",
-   "start": 17.78,
-   "end": 17.96
+   "start": 15.2,
+   "end": 15.38
   },
   {
    "w": "wants",
-   "start": 17.96,
-   "end": 18.14
+   "start": 15.38,
+   "end": 15.56
   },
   {
    "w": "to",
-   "start": 18.14,
-   "end": 18.3
+   "start": 15.56,
+   "end": 15.72
   },
   {
    "w": "cancel.",
-   "start": 18.3,
-   "end": 18.6
+   "start": 15.72,
+   "end": 16.02
   },
   {
    "w": "A",
-   "start": 19.24,
-   "end": 19.42
+   "start": 16.349,
+   "end": 16.512
   },
   {
    "w": "refund",
-   "start": 19.42,
-   "end": 19.68
+   "start": 16.512,
+   "end": 16.772
   },
   {
    "w": "over",
-   "start": 19.68,
-   "end": 20.02
+   "start": 16.772,
+   "end": 17.112
   },
   {
    "w": "your",
-   "start": 20.02,
-   "end": 20.16
+   "start": 17.112,
+   "end": 17.252
   },
   {
    "w": "limit.",
-   "start": 20.16,
-   "end": 20.44
+   "start": 17.252,
+   "end": 17.532
   },
   {
    "w": "A",
-   "start": 20.98,
-   "end": 21.16
+   "start": 17.677,
+   "end": 17.851
   },
   {
    "w": "question",
-   "start": 21.16,
-   "end": 21.34
+   "start": 17.851,
+   "end": 18.031
   },
   {
    "w": "the",
-   "start": 21.34,
-   "end": 21.5
+   "start": 18.031,
+   "end": 18.191
   },
   {
    "w": "bot",
-   "start": 21.5,
-   "end": 21.7
+   "start": 18.191,
+   "end": 18.391
   },
   {
    "w": "isn't",
-   "start": 21.7,
-   "end": 22.0
+   "start": 18.391,
+   "end": 18.691
   },
   {
    "w": "sure",
-   "start": 22.0,
-   "end": 22.22
+   "start": 18.691,
+   "end": 18.911
   },
   {
    "w": "about.",
-   "start": 22.22,
-   "end": 22.44
+   "start": 18.911,
+   "end": 19.131
   },
   {
    "w": "And",
-   "start": 22.72,
-   "end": 22.94
+   "start": 19.269,
+   "end": 19.471
   },
   {
    "w": "anyone",
-   "start": 22.94,
-   "end": 23.34
+   "start": 19.471,
+   "end": 19.871
   },
   {
    "w": "who",
-   "start": 23.34,
-   "end": 23.56
+   "start": 19.871,
+   "end": 20.091
   },
   {
    "w": "asks",
-   "start": 23.56,
-   "end": 23.88
+   "start": 20.091,
+   "end": 20.411
   },
   {
    "w": "for",
-   "start": 23.88,
-   "end": 24.12
+   "start": 20.411,
+   "end": 20.651
   },
   {
    "w": "a",
-   "start": 24.12,
-   "end": 24.2
+   "start": 20.651,
+   "end": 20.731
   },
   {
    "w": "human.",
-   "start": 24.2,
-   "end": 24.4
+   "start": 20.731,
+   "end": 20.931
   },
   {
    "w": "Skip",
-   "start": 25.08,
-   "end": 25.48
+   "start": 21.071,
+   "end": 21.398
   },
   {
    "w": "these",
-   "start": 25.48,
-   "end": 25.72
+   "start": 21.398,
+   "end": 21.638
   },
   {
    "w": "and",
-   "start": 25.72,
-   "end": 26.08
+   "start": 21.638,
+   "end": 21.998
   },
   {
    "w": "people",
-   "start": 26.08,
-   "end": 26.32
+   "start": 21.998,
+   "end": 22.238
   },
   {
    "w": "stop",
-   "start": 26.32,
-   "end": 26.6
+   "start": 22.238,
+   "end": 22.518
   },
   {
    "w": "trusting",
-   "start": 26.6,
-   "end": 26.94
+   "start": 22.518,
+   "end": 22.858
   },
   {
    "w": "the",
-   "start": 26.94,
-   "end": 27.12
+   "start": 22.858,
+   "end": 23.038
   },
   {
    "w": "bot.",
-   "start": 27.12,
-   "end": 27.34
+   "start": 23.038,
+   "end": 23.258
   },
   {
    "w": "With",
-   "start": 27.9,
-   "end": 28.18
+   "start": 23.407,
+   "end": 23.61
   },
   {
    "w": "a",
-   "start": 28.18,
-   "end": 28.3
+   "start": 23.61,
+   "end": 23.73
   },
   {
    "w": "human",
-   "start": 28.3,
-   "end": 28.5
+   "start": 23.73,
+   "end": 23.93
   },
   {
    "w": "option,",
-   "start": 28.5,
-   "end": 28.78
+   "start": 23.93,
+   "end": 24.21
   },
   {
    "w": "55",
-   "start": 29.08,
-   "end": 29.38
+   "start": 24.51,
+   "end": 24.81
   },
   {
    "w": "in",
-   "start": 29.38,
-   "end": 29.8
+   "start": 24.81,
+   "end": 25.23
   },
   {
    "w": "100",
-   "start": 29.8,
-   "end": 30.12
+   "start": 25.23,
+   "end": 25.55
   },
   {
    "w": "trust",
-   "start": 30.12,
-   "end": 30.42
+   "start": 25.55,
+   "end": 25.85
   },
   {
    "w": "AI",
-   "start": 30.42,
-   "end": 30.68
+   "start": 25.85,
+   "end": 26.11
   },
   {
    "w": "to",
-   "start": 30.68,
-   "end": 30.9
+   "start": 26.11,
+   "end": 26.33
   },
   {
    "w": "fix",
-   "start": 30.9,
-   "end": 31.08
+   "start": 26.33,
+   "end": 26.51
   },
   {
    "w": "their",
-   "start": 31.08,
-   "end": 31.24
+   "start": 26.51,
+   "end": 26.67
   },
   {
    "w": "issue.",
-   "start": 31.24,
-   "end": 31.52
+   "start": 26.67,
+   "end": 26.95
   },
   {
    "w": "Without",
-   "start": 32.0,
-   "end": 32.14
+   "start": 27.229,
+   "end": 27.369
   },
   {
    "w": "one,",
-   "start": 32.14,
-   "end": 32.3
+   "start": 27.369,
+   "end": 27.529
   },
   {
    "w": "just",
-   "start": 32.6,
-   "end": 32.76
+   "start": 27.829,
+   "end": 27.989
   },
   {
    "w": "26.",
-   "start": 32.76,
-   "end": 33.2
+   "start": 27.989,
+   "end": 28.429
   },
   {
    "w": "And",
-   "start": 33.88,
-   "end": 34.14
+   "start": 28.715,
+   "end": 28.882
   },
   {
    "w": "that",
-   "start": 34.14,
-   "end": 34.26
+   "start": 28.882,
+   "end": 29.002
   },
   {
    "w": "Berlin",
-   "start": 34.26,
-   "end": 34.5
+   "start": 29.002,
+   "end": 29.242
   },
   {
    "w": "brand?",
-   "start": 34.5,
-   "end": 34.82
+   "start": 29.242,
+   "end": 29.562
   },
   {
    "w": "It",
-   "start": 35.32,
-   "end": 35.42
+   "start": 29.865,
+   "end": 29.965
   },
   {
    "w": "still",
-   "start": 35.42,
-   "end": 35.66
+   "start": 29.965,
+   "end": 30.205
   },
   {
    "w": "saves",
-   "start": 35.66,
-   "end": 35.94
+   "start": 30.205,
+   "end": 30.485
   },
   {
    "w": "1",
-   "start": 35.94,
-   "end": 36.24
+   "start": 30.485,
+   "end": 30.785
   },
   {
    "w": "in",
-   "start": 36.24,
-   "end": 36.36
+   "start": 30.785,
+   "end": 30.905
   },
   {
    "w": "4",
-   "start": 36.36,
-   "end": 36.54
+   "start": 30.905,
+   "end": 31.085
   },
   {
    "w": "customers",
-   "start": 36.54,
-   "end": 36.92
+   "start": 31.085,
+   "end": 31.465
   },
   {
    "w": "who",
-   "start": 36.92,
-   "end": 37.08
+   "start": 31.465,
+   "end": 31.625
   },
   {
    "w": "try",
-   "start": 37.08,
-   "end": 37.22
+   "start": 31.625,
+   "end": 31.765
   },
   {
    "w": "to",
-   "start": 37.22,
-   "end": 37.3
+   "start": 31.765,
+   "end": 31.845
   },
   {
    "w": "cancel.",
-   "start": 37.3,
-   "end": 37.58
+   "start": 31.845,
+   "end": 32.125
   },
   {
    "w": "Comment",
-   "start": 38.24,
-   "end": 38.62
+   "start": 32.34,
+   "end": 32.72
   },
   {
    "w": "SYSTEMS",
-   "start": 38.62,
-   "end": 39.36
+   "start": 32.72,
+   "end": 33.46
   },
   {
    "w": "and",
-   "start": 39.36,
-   "end": 39.52
+   "start": 33.46,
+   "end": 33.62
   },
   {
    "w": "we'll",
-   "start": 39.52,
-   "end": 39.66
+   "start": 33.62,
+   "end": 33.76
   },
   {
    "w": "send",
-   "start": 39.66,
-   "end": 39.78
+   "start": 33.76,
+   "end": 33.88
   },
   {
    "w": "you",
-   "start": 39.78,
-   "end": 39.9
+   "start": 33.88,
+   "end": 34
   },
   {
    "w": "the",
-   "start": 39.9,
-   "end": 40.0
+   "start": 34,
+   "end": 34.1
   },
   {
    "w": "full",
-   "start": 40.0,
-   "end": 40.26
+   "start": 34.1,
+   "end": 34.36
   },
   {
    "w": "handoff",
-   "start": 40.26,
-   "end": 40.64
+   "start": 34.36,
+   "end": 34.74
   },
   {
    "w": "map.",
-   "start": 40.64,
-   "end": 40.84
+   "start": 34.74,
+   "end": 34.94
   }
  ],
  "text": "Launching a support bot for Black Friday? Here are the 5 moments it has to hand the customer to a person. An apparel brand we work with in Berlin lets AI answer 72 in 100 support tickets in 4 languages. The other 28 go to a person, on purpose. An angry customer. Someone who wants to cancel. A refund over your limit. A question the bot isn't sure about. And anyone who asks for a human. Skip these and people stop trusting the bot. With a human option, 55 in 100 trust AI to fix their issue. Without one, just 26. And that Berlin brand? It still saves 1 in 4 customers who try to cancel. Comment SYSTEMS and we'll send you the full handoff map."

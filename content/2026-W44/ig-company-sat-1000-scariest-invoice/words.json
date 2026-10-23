@@ -2,7 +2,7 @@
  "words": [
   {
    "w": "The",
-   "start": 0.0,
+   "start": 0,
    "end": 0.4
   },
   {
@@ -87,568 +87,568 @@
   },
   {
    "w": "Peak",
-   "start": 5.92,
-   "end": 6.22
+   "start": 5.401,
+   "end": 5.605
   },
   {
    "w": "season",
-   "start": 6.22,
-   "end": 6.44
+   "start": 5.605,
+   "end": 5.825
   },
   {
    "w": "just",
-   "start": 6.44,
-   "end": 6.72
+   "start": 5.825,
+   "end": 6.105
   },
   {
    "w": "started.",
-   "start": 6.72,
-   "end": 7.02
+   "start": 6.105,
+   "end": 6.405
   },
   {
    "w": "Volume's",
-   "start": 7.3,
-   "end": 7.66
+   "start": 6.538,
+   "end": 6.898
   },
   {
    "w": "up,",
-   "start": 7.66,
-   "end": 7.98
+   "start": 6.898,
+   "end": 7.218
   },
   {
    "w": "the",
-   "start": 8.12,
-   "end": 8.16
+   "start": 7.358,
+   "end": 7.398
   },
   {
    "w": "team's",
-   "start": 8.16,
-   "end": 8.4
+   "start": 7.398,
+   "end": 7.638
   },
   {
    "w": "flat",
-   "start": 8.4,
-   "end": 8.74
+   "start": 7.638,
+   "end": 7.978
   },
   {
    "w": "out,",
-   "start": 8.74,
-   "end": 9.0
+   "start": 7.978,
+   "end": 8.238
   },
   {
    "w": "and",
-   "start": 9.48,
-   "end": 9.68
+   "start": 8.406,
+   "end": 8.587
   },
   {
    "w": "that's",
-   "start": 9.68,
-   "end": 10.06
+   "start": 8.587,
+   "end": 8.967
   },
   {
    "w": "when",
-   "start": 10.06,
-   "end": 10.16
+   "start": 8.967,
+   "end": 9.067
   },
   {
    "w": "fees",
-   "start": 10.16,
-   "end": 10.5
+   "start": 9.067,
+   "end": 9.407
   },
   {
    "w": "go",
-   "start": 10.5,
-   "end": 10.76
+   "start": 9.407,
+   "end": 9.667
   },
   {
    "w": "missing.",
-   "start": 10.76,
-   "end": 11.1
+   "start": 9.667,
+   "end": 10.007
   },
   {
    "w": "A",
-   "start": 11.82,
-   "end": 11.96
+   "start": 10.193,
+   "end": 10.333
   },
   {
    "w": "pallet",
-   "start": 11.96,
-   "end": 12.3
+   "start": 10.333,
+   "end": 10.673
   },
   {
    "w": "that",
-   "start": 12.3,
-   "end": 12.44
+   "start": 10.673,
+   "end": 10.813
   },
   {
    "w": "sat",
-   "start": 12.44,
-   "end": 12.64
+   "start": 10.813,
+   "end": 11.013
   },
   {
    "w": "past",
-   "start": 12.64,
-   "end": 12.88
+   "start": 11.013,
+   "end": 11.253
   },
   {
    "w": "its",
-   "start": 12.88,
-   "end": 13.04
+   "start": 11.253,
+   "end": 11.413
   },
   {
    "w": "free",
-   "start": 13.04,
-   "end": 13.2
+   "start": 11.413,
+   "end": 11.573
   },
   {
    "w": "storage.",
-   "start": 13.2,
-   "end": 13.54
+   "start": 11.573,
+   "end": 11.913
   },
   {
    "w": "A",
-   "start": 13.98,
-   "end": 14.1
+   "start": 12.353,
+   "end": 12.473
   },
   {
    "w": "rush",
-   "start": 14.1,
-   "end": 14.26
+   "start": 12.473,
+   "end": 12.633
   },
   {
    "w": "order",
-   "start": 14.26,
-   "end": 14.52
+   "start": 12.633,
+   "end": 12.893
   },
   {
    "w": "packed",
-   "start": 14.52,
-   "end": 14.78
+   "start": 12.893,
+   "end": 13.153
   },
   {
    "w": "after",
-   "start": 14.78,
-   "end": 15.02
+   "start": 13.153,
+   "end": 13.393
   },
   {
    "w": "cutoff.",
-   "start": 15.02,
-   "end": 15.42
+   "start": 13.393,
+   "end": 13.793
   },
   {
    "w": "Relabeling",
-   "start": 15.82,
-   "end": 16.28
+   "start": 14.193,
+   "end": 14.653
   },
   {
    "w": "for",
-   "start": 16.28,
-   "end": 16.48
+   "start": 14.653,
+   "end": 14.853
   },
   {
    "w": "a",
-   "start": 16.48,
-   "end": 16.6
+   "start": 14.853,
+   "end": 14.973
   },
   {
    "w": "retailer.",
-   "start": 16.6,
-   "end": 16.88
+   "start": 14.973,
+   "end": 15.253
   },
   {
    "w": "Your",
-   "start": 17.56,
-   "end": 17.76
+   "start": 15.64,
+   "end": 15.84
   },
   {
    "w": "team",
-   "start": 17.76,
-   "end": 17.96
+   "start": 15.84,
+   "end": 16.04
   },
   {
    "w": "did",
-   "start": 17.96,
-   "end": 18.18
+   "start": 16.04,
+   "end": 16.26
   },
   {
    "w": "the",
-   "start": 18.18,
-   "end": 18.3
+   "start": 16.26,
+   "end": 16.38
   },
   {
    "w": "work.",
-   "start": 18.3,
-   "end": 18.56
+   "start": 16.38,
+   "end": 16.64
   },
   {
    "w": "Nobody",
-   "start": 18.9,
-   "end": 19.14
+   "start": 16.98,
+   "end": 17.22
   },
   {
    "w": "billed",
-   "start": 19.14,
-   "end": 19.58
+   "start": 17.22,
+   "end": 17.66
   },
   {
    "w": "it.",
-   "start": 19.58,
-   "end": 19.7
+   "start": 17.66,
+   "end": 17.78
   },
   {
    "w": "Each",
-   "start": 20.34,
-   "end": 20.54
+   "start": 17.897,
+   "end": 18.097
   },
   {
    "w": "one",
-   "start": 20.54,
-   "end": 20.7
+   "start": 18.097,
+   "end": 18.257
   },
   {
    "w": "looks",
-   "start": 20.7,
-   "end": 20.92
+   "start": 18.257,
+   "end": 18.477
   },
   {
    "w": "small.",
-   "start": 20.92,
-   "end": 21.24
+   "start": 18.477,
+   "end": 18.797
   },
   {
    "w": "Together,",
-   "start": 21.6,
-   "end": 21.96
+   "start": 18.91,
+   "end": 19.252
   },
   {
    "w": "they",
-   "start": 21.96,
-   "end": 22.36
+   "start": 19.252,
+   "end": 19.652
   },
   {
    "w": "can",
-   "start": 22.36,
-   "end": 22.5
+   "start": 19.652,
+   "end": 19.792
   },
   {
    "w": "add",
-   "start": 22.5,
-   "end": 22.68
+   "start": 19.792,
+   "end": 19.972
   },
   {
    "w": "up",
-   "start": 22.68,
-   "end": 22.78
+   "start": 19.972,
+   "end": 20.072
   },
   {
    "w": "to",
-   "start": 22.78,
-   "end": 22.9
+   "start": 20.072,
+   "end": 20.192
   },
   {
    "w": "thousands",
-   "start": 22.9,
-   "end": 23.34
+   "start": 20.192,
+   "end": 20.632
   },
   {
    "w": "a",
-   "start": 23.34,
-   "end": 23.6
+   "start": 20.632,
+   "end": 20.892
   },
   {
    "w": "month.",
-   "start": 23.6,
-   "end": 23.78
+   "start": 20.892,
+   "end": 21.072
   },
   {
    "w": "Not",
-   "start": 24.28,
-   "end": 24.64
+   "start": 21.213,
+   "end": 21.484
   },
   {
    "w": "because",
-   "start": 24.64,
-   "end": 24.86
+   "start": 21.484,
+   "end": 21.704
   },
   {
    "w": "your",
-   "start": 24.86,
-   "end": 25.0
+   "start": 21.704,
+   "end": 21.844
   },
   {
    "w": "team",
-   "start": 25.0,
-   "end": 25.14
+   "start": 21.844,
+   "end": 21.984
   },
   {
    "w": "is",
-   "start": 25.14,
-   "end": 25.26
+   "start": 21.984,
+   "end": 22.104
   },
   {
    "w": "careless.",
-   "start": 25.26,
-   "end": 25.52
+   "start": 22.104,
+   "end": 22.364
   },
   {
    "w": "Because",
-   "start": 25.96,
-   "end": 26.16
+   "start": 22.804,
+   "end": 23.004
   },
   {
    "w": "nobody",
-   "start": 26.16,
-   "end": 26.46
+   "start": 23.004,
+   "end": 23.304
   },
   {
    "w": "has",
-   "start": 26.46,
-   "end": 26.74
+   "start": 23.304,
+   "end": 23.584
   },
   {
    "w": "time",
-   "start": 26.74,
-   "end": 27.06
+   "start": 23.584,
+   "end": 23.904
   },
   {
    "w": "to",
-   "start": 27.06,
-   "end": 27.22
+   "start": 23.904,
+   "end": 24.064
   },
   {
    "w": "check",
-   "start": 27.22,
-   "end": 27.38
+   "start": 24.064,
+   "end": 24.224
   },
   {
    "w": "every",
-   "start": 27.38,
-   "end": 27.76
+   "start": 24.224,
+   "end": 24.604
   },
   {
    "w": "job",
-   "start": 27.76,
-   "end": 28.08
+   "start": 24.604,
+   "end": 24.924
   },
   {
    "w": "against",
-   "start": 28.08,
-   "end": 28.32
+   "start": 24.924,
+   "end": 25.164
   },
   {
    "w": "every",
-   "start": 28.32,
-   "end": 28.76
+   "start": 25.164,
+   "end": 25.604
   },
   {
    "w": "contract",
-   "start": 28.76,
-   "end": 29.28
+   "start": 25.604,
+   "end": 26.124
   },
   {
    "w": "in",
-   "start": 29.28,
-   "end": 29.42
+   "start": 26.124,
+   "end": 26.264
   },
   {
    "w": "November.",
-   "start": 29.42,
-   "end": 29.72
+   "start": 26.264,
+   "end": 26.564
   },
   {
    "w": "A",
-   "start": 30.5,
-   "end": 30.58
+   "start": 26.817,
+   "end": 26.897
   },
   {
    "w": "system",
-   "start": 30.58,
-   "end": 30.98
+   "start": 26.897,
+   "end": 27.297
   },
   {
    "w": "can.",
-   "start": 30.98,
-   "end": 31.16
+   "start": 27.297,
+   "end": 27.477
   },
   {
    "w": "It",
-   "start": 31.7,
-   "end": 31.84
+   "start": 27.791,
+   "end": 27.931
   },
   {
    "w": "reads",
-   "start": 31.84,
-   "end": 32.1
+   "start": 27.931,
+   "end": 28.191
   },
   {
    "w": "the",
-   "start": 32.1,
-   "end": 32.28
+   "start": 28.191,
+   "end": 28.371
   },
   {
    "w": "day's",
-   "start": 32.28,
-   "end": 32.5
+   "start": 28.371,
+   "end": 28.591
   },
   {
    "w": "work,",
-   "start": 32.5,
-   "end": 32.74
+   "start": 28.591,
+   "end": 28.831
   },
   {
    "w": "matches",
-   "start": 33.04,
-   "end": 33.28
+   "start": 29.131,
+   "end": 29.371
   },
   {
    "w": "it",
-   "start": 33.28,
-   "end": 33.42
+   "start": 29.371,
+   "end": 29.511
   },
   {
    "w": "to",
-   "start": 33.42,
-   "end": 33.52
+   "start": 29.511,
+   "end": 29.611
   },
   {
    "w": "the",
-   "start": 33.52,
-   "end": 33.6
+   "start": 29.611,
+   "end": 29.691
   },
   {
    "w": "contract,",
-   "start": 33.6,
-   "end": 33.98
+   "start": 29.691,
+   "end": 30.071
   },
   {
    "w": "and",
-   "start": 34.24,
-   "end": 34.42
+   "start": 30.331,
+   "end": 30.511
   },
   {
    "w": "puts",
-   "start": 34.42,
-   "end": 34.6
+   "start": 30.511,
+   "end": 30.691
   },
   {
    "w": "the",
-   "start": 34.6,
-   "end": 34.76
+   "start": 30.691,
+   "end": 30.851
   },
   {
    "w": "missing",
-   "start": 34.76,
-   "end": 35.0
+   "start": 30.851,
+   "end": 31.091
   },
   {
    "w": "fees",
-   "start": 35.0,
-   "end": 35.34
+   "start": 31.091,
+   "end": 31.431
   },
   {
    "w": "in",
-   "start": 35.34,
-   "end": 35.58
+   "start": 31.431,
+   "end": 31.671
   },
   {
    "w": "front",
-   "start": 35.58,
-   "end": 35.78
+   "start": 31.671,
+   "end": 31.871
   },
   {
    "w": "of",
-   "start": 35.78,
-   "end": 35.9
+   "start": 31.871,
+   "end": 31.991
   },
   {
    "w": "you",
-   "start": 35.9,
-   "end": 36.08
+   "start": 31.991,
+   "end": 32.171
   },
   {
    "w": "to",
-   "start": 36.08,
-   "end": 36.24
+   "start": 32.171,
+   "end": 32.331
   },
   {
    "w": "approve.",
-   "start": 36.24,
-   "end": 36.58
+   "start": 32.331,
+   "end": 32.671
   },
   {
    "w": "Find",
-   "start": 37.44,
-   "end": 37.76
+   "start": 32.926,
+   "end": 33.159
   },
   {
    "w": "out",
-   "start": 37.76,
-   "end": 37.9
+   "start": 33.159,
+   "end": 33.299
   },
   {
    "w": "what",
-   "start": 37.9,
-   "end": 38.02
+   "start": 33.299,
+   "end": 33.419
   },
   {
    "w": "you're",
-   "start": 38.02,
-   "end": 38.12
+   "start": 33.419,
+   "end": 33.519
   },
   {
    "w": "leaving",
-   "start": 38.12,
-   "end": 38.3
+   "start": 33.519,
+   "end": 33.699
   },
   {
    "w": "on",
-   "start": 38.3,
-   "end": 38.44
+   "start": 33.699,
+   "end": 33.839
   },
   {
    "w": "the",
-   "start": 38.44,
-   "end": 38.52
+   "start": 33.839,
+   "end": 33.919
   },
   {
    "w": "floor.",
-   "start": 38.52,
-   "end": 38.74
+   "start": 33.919,
+   "end": 34.139
   },
   {
    "w": "Our",
-   "start": 39.16,
-   "end": 39.24
+   "start": 34.559,
+   "end": 34.639
   },
   {
    "w": "free",
-   "start": 39.24,
-   "end": 39.4
+   "start": 34.639,
+   "end": 34.799
   },
   {
    "w": "calculator",
-   "start": 39.4,
-   "end": 39.74
+   "start": 34.799,
+   "end": 35.139
   },
   {
    "w": "is",
-   "start": 39.74,
-   "end": 40.08
+   "start": 35.139,
+   "end": 35.479
   },
   {
    "w": "in",
-   "start": 40.08,
-   "end": 40.18
+   "start": 35.479,
+   "end": 35.579
   },
   {
    "w": "the",
-   "start": 40.18,
-   "end": 40.24
+   "start": 35.579,
+   "end": 35.639
   },
   {
    "w": "bio.",
-   "start": 40.24,
-   "end": 40.46
+   "start": 35.639,
+   "end": 35.859
   }
  ],
  "text": "The scariest thing in your warehouse this Halloween isn't a ghost. It's the invoice you never sent. Peak season just started. Volume's up, the team's flat out, and that's when fees go missing. A pallet that sat past its free storage. A rush order packed after cutoff. Relabeling for a retailer. Your team did the work. Nobody billed it. Each one looks small. Together, they can add up to thousands a month. Not because your team is careless. Because nobody has time to check every job against every contract in November. A system can. It reads the day's work, matches it to the contract, and puts the missing fees in front of you to approve. Find out what you're leaving on the floor. Our free calculator is in the bio."

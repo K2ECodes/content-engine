@@ -171,6 +171,18 @@
         "prompt": "SYSTEMS",
         "dm": "Checklist sent to your DMs"
       }
+    ],
+    "bgLogos": [
+      "shopify",
+      "fedex",
+      "ups",
+      "dhl",
+      "usps",
+      "amazon",
+      "shopify",
+      "fedex",
+      "ups",
+      "dhl"
     ]
   }
 }

@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.1
     },
     "script": "Google now tells shoppers the second your product is back in stock. But only if your stock count is right. Here's the problem. Your warehouse says 40 units. Your store says 0. So Google says sold out, and the alert never goes out. That shopper buys from someone else. And it's not just Google. 16 in 100 shoppers now start their search in ChatGPT. These assistants don't browse your site. They read your data. So 3 things have to match. Every hour. The stock count. The shipping time. The price. Get that right, and Google sends the shopper to you. Get it wrong, and you don't even know you lost the sale. We build the system that keeps them in sync, and flags anything that doesn't match. Want a free quote? Link in bio.",
     "keys": [
@@ -227,6 +227,18 @@
         "type": "word",
         "text": "Link in bio"
       }
+    ],
+    "bgLogos": [
+      "chatgpt",
+      "google",
+      "shopify",
+      "chatgpt",
+      "google",
+      "shopify",
+      "chatgpt",
+      "google",
+      "shopify",
+      "chatgpt"
     ]
   }
 }

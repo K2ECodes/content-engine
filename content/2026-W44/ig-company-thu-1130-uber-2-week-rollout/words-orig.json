@@ -1,0 +1,630 @@
+{
+ "words": [
+  {
+   "w": "Uber",
+   "start": 0.0,
+   "end": 0.46
+  },
+  {
+   "w": "is",
+   "start": 0.46,
+   "end": 0.7
+  },
+  {
+   "w": "giving",
+   "start": 0.7,
+   "end": 0.9
+  },
+  {
+   "w": "AI",
+   "start": 0.9,
+   "end": 1.22
+  },
+  {
+   "w": "to",
+   "start": 1.22,
+   "end": 1.6
+  },
+  {
+   "w": "all",
+   "start": 1.6,
+   "end": 1.82
+  },
+  {
+   "w": "30,000",
+   "start": 1.82,
+   "end": 2.88
+  },
+  {
+   "w": "staff.",
+   "start": 2.88,
+   "end": 3.26
+  },
+  {
+   "w": "The",
+   "start": 3.92,
+   "end": 4.34
+  },
+  {
+   "w": "secret",
+   "start": 4.34,
+   "end": 4.6
+  },
+  {
+   "w": "wasn't",
+   "start": 4.6,
+   "end": 4.88
+  },
+  {
+   "w": "the",
+   "start": 4.88,
+   "end": 5.0
+  },
+  {
+   "w": "tool.",
+   "start": 5.0,
+   "end": 5.26
+  },
+  {
+   "w": "It",
+   "start": 5.74,
+   "end": 5.84
+  },
+  {
+   "w": "was",
+   "start": 5.84,
+   "end": 5.94
+  },
+  {
+   "w": "30",
+   "start": 5.94,
+   "end": 6.3
+  },
+  {
+   "w": "experts",
+   "start": 6.3,
+   "end": 6.82
+  },
+  {
+   "w": "sitting",
+   "start": 6.82,
+   "end": 7.48
+  },
+  {
+   "w": "next",
+   "start": 7.48,
+   "end": 7.86
+  },
+  {
+   "w": "to",
+   "start": 7.86,
+   "end": 8.02
+  },
+  {
+   "w": "teams",
+   "start": 8.02,
+   "end": 8.28
+  },
+  {
+   "w": "for",
+   "start": 8.28,
+   "end": 8.54
+  },
+  {
+   "w": "2",
+   "start": 8.54,
+   "end": 8.88
+  },
+  {
+   "w": "weeks.",
+   "start": 8.88,
+   "end": 9.16
+  },
+  {
+   "w": "Here's",
+   "start": 9.86,
+   "end": 10.08
+  },
+  {
+   "w": "what",
+   "start": 10.08,
+   "end": 10.16
+  },
+  {
+   "w": "happened.",
+   "start": 10.16,
+   "end": 10.38
+  },
+  {
+   "w": "They",
+   "start": 11.02,
+   "end": 11.3
+  },
+  {
+   "w": "started",
+   "start": 11.3,
+   "end": 11.56
+  },
+  {
+   "w": "with",
+   "start": 11.56,
+   "end": 11.72
+  },
+  {
+   "w": "a",
+   "start": 11.72,
+   "end": 11.82
+  },
+  {
+   "w": "pilot",
+   "start": 11.82,
+   "end": 12.12
+  },
+  {
+   "w": "of",
+   "start": 12.12,
+   "end": 12.3
+  },
+  {
+   "w": "about",
+   "start": 12.3,
+   "end": 12.46
+  },
+  {
+   "w": "1,000",
+   "start": 12.46,
+   "end": 12.94
+  },
+  {
+   "w": "people.",
+   "start": 12.94,
+   "end": 13.28
+  },
+  {
+   "w": "8",
+   "start": 13.9,
+   "end": 14.04
+  },
+  {
+   "w": "in",
+   "start": 14.04,
+   "end": 14.12
+  },
+  {
+   "w": "10",
+   "start": 14.12,
+   "end": 14.32
+  },
+  {
+   "w": "of",
+   "start": 14.32,
+   "end": 14.42
+  },
+  {
+   "w": "them",
+   "start": 14.42,
+   "end": 14.54
+  },
+  {
+   "w": "weren't",
+   "start": 14.54,
+   "end": 15.02
+  },
+  {
+   "w": "engineers.",
+   "start": 15.02,
+   "end": 15.38
+  },
+  {
+   "w": "Then",
+   "start": 16.12,
+   "end": 16.36
+  },
+  {
+   "w": "30",
+   "start": 16.36,
+   "end": 16.82
+  },
+  {
+   "w": "AI",
+   "start": 16.82,
+   "end": 17.2
+  },
+  {
+   "w": "engineers",
+   "start": 17.2,
+   "end": 17.56
+  },
+  {
+   "w": "sat",
+   "start": 17.56,
+   "end": 18.02
+  },
+  {
+   "w": "with",
+   "start": 18.02,
+   "end": 18.22
+  },
+  {
+   "w": "each",
+   "start": 18.22,
+   "end": 18.56
+  },
+  {
+   "w": "team,",
+   "start": 18.56,
+   "end": 18.9
+  },
+  {
+   "w": "found",
+   "start": 19.38,
+   "end": 19.58
+  },
+  {
+   "w": "the",
+   "start": 19.58,
+   "end": 19.74
+  },
+  {
+   "w": "boring",
+   "start": 19.74,
+   "end": 19.96
+  },
+  {
+   "w": "parts",
+   "start": 19.96,
+   "end": 20.22
+  },
+  {
+   "w": "of",
+   "start": 20.22,
+   "end": 20.32
+  },
+  {
+   "w": "their",
+   "start": 20.32,
+   "end": 20.4
+  },
+  {
+   "w": "jobs",
+   "start": 20.4,
+   "end": 20.68
+  },
+  {
+   "w": "and",
+   "start": 20.68,
+   "end": 21.2
+  },
+  {
+   "w": "automated",
+   "start": 21.2,
+   "end": 21.52
+  },
+  {
+   "w": "them.",
+   "start": 21.52,
+   "end": 21.8
+  },
+  {
+   "w": "Data",
+   "start": 22.38,
+   "end": 22.64
+  },
+  {
+   "w": "reports.",
+   "start": 22.64,
+   "end": 22.96
+  },
+  {
+   "w": "Training",
+   "start": 23.4,
+   "end": 23.78
+  },
+  {
+   "w": "in",
+   "start": 23.78,
+   "end": 23.96
+  },
+  {
+   "w": "new",
+   "start": 23.96,
+   "end": 24.06
+  },
+  {
+   "w": "languages.",
+   "start": 24.06,
+   "end": 24.42
+  },
+  {
+   "w": "Dashboards.",
+   "start": 25.02,
+   "end": 25.54
+  },
+  {
+   "w": "2",
+   "start": 26.4,
+   "end": 26.6
+  },
+  {
+   "w": "weeks",
+   "start": 26.6,
+   "end": 26.84
+  },
+  {
+   "w": "per",
+   "start": 26.84,
+   "end": 27.04
+  },
+  {
+   "w": "team.",
+   "start": 27.04,
+   "end": 27.3
+  },
+  {
+   "w": "Then",
+   "start": 27.92,
+   "end": 28.08
+  },
+  {
+   "w": "they",
+   "start": 28.08,
+   "end": 28.2
+  },
+  {
+   "w": "scaled.",
+   "start": 28.2,
+   "end": 28.48
+  },
+  {
+   "w": "Most",
+   "start": 29.26,
+   "end": 29.78
+  },
+  {
+   "w": "companies",
+   "start": 29.78,
+   "end": 30.08
+  },
+  {
+   "w": "do",
+   "start": 30.08,
+   "end": 30.24
+  },
+  {
+   "w": "the",
+   "start": 30.24,
+   "end": 30.36
+  },
+  {
+   "w": "opposite.",
+   "start": 30.36,
+   "end": 30.62
+  },
+  {
+   "w": "They",
+   "start": 31.38,
+   "end": 31.42
+  },
+  {
+   "w": "buy",
+   "start": 31.42,
+   "end": 31.54
+  },
+  {
+   "w": "licenses",
+   "start": 31.54,
+   "end": 31.86
+  },
+  {
+   "w": "for",
+   "start": 31.86,
+   "end": 32.18
+  },
+  {
+   "w": "everyone,",
+   "start": 32.18,
+   "end": 32.54
+  },
+  {
+   "w": "send",
+   "start": 32.88,
+   "end": 33.02
+  },
+  {
+   "w": "a",
+   "start": 33.02,
+   "end": 33.12
+  },
+  {
+   "w": "login,",
+   "start": 33.12,
+   "end": 33.4
+  },
+  {
+   "w": "and",
+   "start": 33.86,
+   "end": 33.98
+  },
+  {
+   "w": "wonder",
+   "start": 33.98,
+   "end": 34.18
+  },
+  {
+   "w": "why",
+   "start": 34.18,
+   "end": 34.34
+  },
+  {
+   "w": "nobody",
+   "start": 34.34,
+   "end": 34.54
+  },
+  {
+   "w": "uses",
+   "start": 34.54,
+   "end": 34.84
+  },
+  {
+   "w": "it.",
+   "start": 34.84,
+   "end": 35.06
+  },
+  {
+   "w": "You",
+   "start": 35.72,
+   "end": 36.14
+  },
+  {
+   "w": "don't",
+   "start": 36.14,
+   "end": 36.3
+  },
+  {
+   "w": "need",
+   "start": 36.3,
+   "end": 36.46
+  },
+  {
+   "w": "30",
+   "start": 36.46,
+   "end": 36.78
+  },
+  {
+   "w": "engineers.",
+   "start": 36.78,
+   "end": 37.18
+  },
+  {
+   "w": "You",
+   "start": 38.02,
+   "end": 38.14
+  },
+  {
+   "w": "need",
+   "start": 38.14,
+   "end": 38.3
+  },
+  {
+   "w": "someone",
+   "start": 38.3,
+   "end": 38.6
+  },
+  {
+   "w": "next",
+   "start": 38.6,
+   "end": 38.88
+  },
+  {
+   "w": "to",
+   "start": 38.88,
+   "end": 39.04
+  },
+  {
+   "w": "your",
+   "start": 39.04,
+   "end": 39.12
+  },
+  {
+   "w": "team",
+   "start": 39.12,
+   "end": 39.36
+  },
+  {
+   "w": "for",
+   "start": 39.36,
+   "end": 39.62
+  },
+  {
+   "w": "2",
+   "start": 39.62,
+   "end": 39.92
+  },
+  {
+   "w": "weeks.",
+   "start": 39.92,
+   "end": 40.18
+  },
+  {
+   "w": "On",
+   "start": 40.66,
+   "end": 40.86
+  },
+  {
+   "w": "your",
+   "start": 40.86,
+   "end": 40.98
+  },
+  {
+   "w": "real",
+   "start": 40.98,
+   "end": 41.28
+  },
+  {
+   "w": "work.",
+   "start": 41.28,
+   "end": 41.56
+  },
+  {
+   "w": "Bring",
+   "start": 42.44,
+   "end": 42.72
+  },
+  {
+   "w": "your",
+   "start": 42.72,
+   "end": 42.84
+  },
+  {
+   "w": "biggest",
+   "start": 42.84,
+   "end": 43.02
+  },
+  {
+   "w": "bottleneck",
+   "start": 43.02,
+   "end": 43.54
+  },
+  {
+   "w": "to",
+   "start": 43.54,
+   "end": 43.68
+  },
+  {
+   "w": "our",
+   "start": 43.68,
+   "end": 43.8
+  },
+  {
+   "w": "free",
+   "start": 43.8,
+   "end": 44.06
+  },
+  {
+   "w": "office",
+   "start": 44.06,
+   "end": 44.34
+  },
+  {
+   "w": "hours.",
+   "start": 44.34,
+   "end": 44.62
+  },
+  {
+   "w": "Link",
+   "start": 45.22,
+   "end": 45.46
+  },
+  {
+   "w": "in",
+   "start": 45.46,
+   "end": 45.56
+  },
+  {
+   "w": "bio.",
+   "start": 45.56,
+   "end": 45.74
+  }
+ ],
+ "text": "Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks. Here's what happened. They started with a pilot of about 1,000 people. 8 in 10 of them weren't engineers. Then 30 AI engineers sat with each team, found the boring parts of their jobs and automated them. Data reports. Training in new languages. Dashboards. 2 weeks per team. Then they scaled. Most companies do the opposite. They buy licenses for everyone, send a login, and wonder why nobody uses it. You don't need 30 engineers. You need someone next to your team for 2 weeks. On your real work. Bring your biggest bottleneck to our free office hours. Link in bio."
+}

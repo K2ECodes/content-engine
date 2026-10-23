@@ -62,18 +62,24 @@ async function main(argv) {
     const vo = path.join(dir, 'audio', 'vo.wav');
     const total = Number(spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vo]).stdout.toString());
     const base = path.resolve(readEnv('TALKING_HEAD_BASE') || 'assets/talking-head/korede-base-still-16x9.mp4');
-    const still = path.resolve('assets/talking-head/korede-still.png');
+    const still = path.resolve('assets/talking-head/natural-frames/001.jpg');
+    const maskDir = path.resolve('assets/talking-head/natural-masks');
+    const nMask = fs.readdirSync(maskDir).filter((f) => f.endsWith('.png')).length;
+    // kie loops the base ping-pong (align_audio_reverse), so frame k of a segment shows base frame pp(k).
+    const pp = (k) => { const m = k % (2 * nMask); return m < nMask ? m : 2 * nMask - 1 - m; };
+    const maskFrames = [];
     const segDir = path.join(dir, 'talk'); fs.mkdirSync(segDir, { recursive: true });
     const parts = []; let cursor = 0;
     for (const [i, [a, b]] of wins.entries()) {
       const wav = path.join(segDir, `seg${i}.wav`), mp4 = path.join(segDir, `seg${i}.mp4`);
       ff(['-ss', String(a), '-to', String(b), '-i', vo, '-ac', '1', '-ar', '44100', wav]);
       if (!fs.existsSync(mp4)) await kie.lipsync({ video: base, audio: wav, out: mp4, seconds: b - a, label: `${path.basename(dir)} talk ${i}` });
-      if (a > cursor) parts.push({ still: true, d: a - cursor });
+      if (a > cursor) { parts.push({ still: true, d: a - cursor }); for (let k = 0; k < Math.round((a - cursor) * 25); k++) maskFrames.push(0); }
       parts.push({ file: mp4, d: b - a });
+      for (let k = 0; k < Math.round((b - a) * 25); k++) maskFrames.push(pp(k));
       cursor = b;
     }
-    if (total > cursor) parts.push({ still: true, d: total - cursor });
+    if (total > cursor) { parts.push({ still: true, d: total - cursor }); for (let k = 0; k < Math.round((total - cursor) * 25); k++) maskFrames.push(0); }
     const norm = parts.map((p, i) => {
       const out = path.join(segDir, `part${i}.mp4`);
       if (p.still) ff(['-loop', '1', '-i', still, '-t', p.d.toFixed(3), '-r', '25', '-vf', 'scale=1920:1080,format=yuv420p', '-c:v', 'libx264', '-crf', '16', out]);
@@ -83,6 +89,10 @@ async function main(argv) {
     const list = path.join(segDir, 'list.txt');
     fs.writeFileSync(list, norm.map((f) => `file '${f}'`).join('\n'));
     ff(['-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', path.join(dir, 'plate.mp4')]);
+    // Matching alpha mask video (25 fps), one mask per plate frame.
+    const mlist = path.join(segDir, 'masks.txt');
+    fs.writeFileSync(mlist, maskFrames.map((m) => `file '${path.join(maskDir, String(m + 1).padStart(3, '0') + '.png')}'\nduration 0.04`).join('\n'));
+    ff(['-f', 'concat', '-safe', '0', '-i', mlist, '-vf', 'alphaextract,scale=1920:1080,fps=25,format=gray', '-c:v', 'libx264', '-crf', '12', '-pix_fmt', 'yuv420p', path.join(dir, 'plate-mask.mp4')]);
     console.log(`wrote plate.mp4 (${total.toFixed(1)}s, talking in ${wins.map((w) => w.join('-')).join(', ')})`);
   } else if (cmd === 'look') {
     const l = await hg.getLook(a1);

@@ -2,7 +2,7 @@
  "words": [
   {
    "w": "A",
-   "start": 0.0,
+   "start": 0,
    "end": 0.42
   },
   {
@@ -82,518 +82,518 @@
   },
   {
    "w": "Here's",
-   "start": 5.08,
-   "end": 5.24
+   "start": 4.862,
+   "end": 5.022
   },
   {
    "w": "what",
-   "start": 5.24,
-   "end": 5.32
+   "start": 5.022,
+   "end": 5.102
   },
   {
    "w": "happened.",
-   "start": 5.32,
-   "end": 5.58
+   "start": 5.102,
+   "end": 5.362
   },
   {
    "w": "Attackers",
-   "start": 6.02,
-   "end": 6.5
+   "start": 5.802,
+   "end": 6.282
   },
   {
    "w": "broke",
-   "start": 6.5,
-   "end": 6.74
+   "start": 6.282,
+   "end": 6.522
   },
   {
    "w": "into",
-   "start": 6.74,
-   "end": 6.98
+   "start": 6.522,
+   "end": 6.762
   },
   {
    "w": "OpenCode's",
-   "start": 6.98,
-   "end": 7.52
+   "start": 6.762,
+   "end": 7.302
   },
   {
    "w": "web",
-   "start": 7.52,
-   "end": 7.66
+   "start": 7.302,
+   "end": 7.442
   },
   {
    "w": "platform",
-   "start": 7.66,
-   "end": 8.1
+   "start": 7.442,
+   "end": 7.882
   },
   {
    "w": "where",
-   "start": 8.1,
-   "end": 8.6
+   "start": 7.882,
+   "end": 8.382
   },
   {
    "w": "users",
-   "start": 8.6,
-   "end": 8.86
+   "start": 8.382,
+   "end": 8.642
   },
   {
    "w": "had",
-   "start": 8.86,
-   "end": 9.08
+   "start": 8.642,
+   "end": 8.862
   },
   {
    "w": "saved",
-   "start": 9.08,
-   "end": 9.4
+   "start": 8.862,
+   "end": 9.182
   },
   {
    "w": "their",
-   "start": 9.4,
-   "end": 9.58
+   "start": 9.182,
+   "end": 9.362
   },
   {
    "w": "AI",
-   "start": 9.58,
-   "end": 9.82
+   "start": 9.362,
+   "end": 9.602
   },
   {
    "w": "keys.",
-   "start": 9.82,
-   "end": 10.16
+   "start": 9.602,
+   "end": 9.942
   },
   {
    "w": "Then",
-   "start": 10.74,
-   "end": 10.86
+   "start": 10.199,
+   "end": 10.319
   },
   {
    "w": "they",
-   "start": 10.86,
-   "end": 10.98
+   "start": 10.319,
+   "end": 10.439
   },
   {
    "w": "spent",
-   "start": 10.98,
-   "end": 11.22
+   "start": 10.439,
+   "end": 10.679
   },
   {
    "w": "on",
-   "start": 11.22,
-   "end": 11.38
+   "start": 10.679,
+   "end": 10.839
   },
   {
    "w": "those",
-   "start": 11.38,
-   "end": 11.52
+   "start": 10.839,
+   "end": 10.979
   },
   {
    "w": "keys.",
-   "start": 11.52,
-   "end": 11.76
+   "start": 10.979,
+   "end": 11.219
   },
   {
    "w": "OpenAI,",
-   "start": 12.32,
-   "end": 12.84
+   "start": 11.494,
+   "end": 12.014
   },
   {
    "w": "Anthropic,",
-   "start": 13.26,
-   "end": 13.54
+   "start": 12.434,
+   "end": 12.714
   },
   {
    "w": "and",
-   "start": 13.84,
-   "end": 13.92
+   "start": 13.014,
+   "end": 13.094
   },
   {
    "w": "Google",
-   "start": 13.92,
-   "end": 14.1
+   "start": 13.094,
+   "end": 13.274
   },
   {
    "w": "accounts,",
-   "start": 14.1,
-   "end": 14.5
+   "start": 13.274,
+   "end": 13.674
   },
   {
    "w": "with",
-   "start": 14.9,
-   "end": 15.02
+   "start": 14.074,
+   "end": 14.194
   },
   {
    "w": "spend",
-   "start": 15.02,
-   "end": 15.24
+   "start": 14.194,
+   "end": 14.414
   },
   {
    "w": "alerts",
-   "start": 15.24,
-   "end": 15.5
+   "start": 14.414,
+   "end": 14.674
   },
   {
    "w": "firing",
-   "start": 15.5,
-   "end": 15.88
+   "start": 14.674,
+   "end": 15.054
   },
   {
    "w": "overnight.",
-   "start": 15.88,
-   "end": 16.26
+   "start": 15.054,
+   "end": 15.434
   },
   {
    "w": "If",
-   "start": 16.88,
-   "end": 17.08
+   "start": 15.614,
+   "end": 15.814
   },
   {
    "w": "you've",
-   "start": 17.08,
-   "end": 17.22
+   "start": 15.814,
+   "end": 15.954
   },
   {
    "w": "ever",
-   "start": 17.22,
-   "end": 17.34
+   "start": 15.954,
+   "end": 16.074
   },
   {
    "w": "pasted",
-   "start": 17.34,
-   "end": 17.68
+   "start": 16.074,
+   "end": 16.414
   },
   {
    "w": "a",
-   "start": 17.68,
-   "end": 17.72
+   "start": 16.414,
+   "end": 16.454
   },
   {
    "w": "key",
-   "start": 17.72,
-   "end": 17.92
+   "start": 16.454,
+   "end": 16.654
   },
   {
    "w": "into",
-   "start": 17.92,
-   "end": 18.1
+   "start": 16.654,
+   "end": 16.834
   },
   {
    "w": "an",
-   "start": 18.1,
-   "end": 18.26
+   "start": 16.834,
+   "end": 16.994
   },
   {
    "w": "AI",
-   "start": 18.26,
-   "end": 18.44
+   "start": 16.994,
+   "end": 17.174
   },
   {
    "w": "tool,",
-   "start": 18.44,
-   "end": 18.72
+   "start": 17.174,
+   "end": 17.454
   },
   {
    "w": "check",
-   "start": 19.08,
-   "end": 19.18
+   "start": 17.814,
+   "end": 17.914
   },
   {
    "w": "3",
-   "start": 19.18,
-   "end": 19.48
+   "start": 17.914,
+   "end": 18.214
   },
   {
    "w": "settings",
-   "start": 19.48,
-   "end": 19.74
+   "start": 18.214,
+   "end": 18.474
   },
   {
    "w": "today.",
-   "start": 19.74,
-   "end": 20.04
+   "start": 18.474,
+   "end": 18.774
   },
   {
    "w": "First,",
-   "start": 20.6,
-   "end": 20.82
+   "start": 19.172,
+   "end": 19.392
   },
   {
    "w": "a",
-   "start": 21.16,
-   "end": 21.24
+   "start": 19.732,
+   "end": 19.812
   },
   {
    "w": "spending",
-   "start": 21.24,
-   "end": 21.48
+   "start": 19.812,
+   "end": 20.052
   },
   {
    "w": "limit.",
-   "start": 21.48,
-   "end": 21.78
+   "start": 20.052,
+   "end": 20.352
   },
   {
    "w": "Set",
-   "start": 22.22,
-   "end": 22.38
+   "start": 20.636,
+   "end": 20.796
   },
   {
    "w": "a",
-   "start": 22.38,
-   "end": 22.52
+   "start": 20.796,
+   "end": 20.936
   },
   {
    "w": "monthly",
-   "start": 22.52,
-   "end": 22.68
+   "start": 20.936,
+   "end": 21.096
   },
   {
    "w": "cap",
-   "start": 22.68,
-   "end": 23.02
+   "start": 21.096,
+   "end": 21.436
   },
   {
    "w": "wherever",
-   "start": 23.02,
-   "end": 23.26
+   "start": 21.436,
+   "end": 21.676
   },
   {
    "w": "your",
-   "start": 23.26,
-   "end": 23.58
+   "start": 21.676,
+   "end": 21.996
   },
   {
    "w": "account",
-   "start": 23.58,
-   "end": 23.82
+   "start": 21.996,
+   "end": 22.236
   },
   {
    "w": "allows",
-   "start": 23.82,
-   "end": 24.1
+   "start": 22.236,
+   "end": 22.516
   },
   {
    "w": "it.",
-   "start": 24.1,
-   "end": 24.28
+   "start": 22.516,
+   "end": 22.696
   },
   {
    "w": "Second,",
-   "start": 24.66,
-   "end": 25.02
+   "start": 22.838,
+   "end": 23.198
   },
   {
    "w": "separate",
-   "start": 25.38,
-   "end": 25.64
+   "start": 23.558,
+   "end": 23.818
   },
   {
    "w": "keys.",
-   "start": 25.64,
-   "end": 25.94
+   "start": 23.818,
+   "end": 24.118
   },
   {
    "w": "1",
-   "start": 26.42,
-   "end": 26.62
+   "start": 24.598,
+   "end": 24.798
   },
   {
    "w": "key",
-   "start": 26.62,
-   "end": 26.86
+   "start": 24.798,
+   "end": 25.038
   },
   {
    "w": "per",
-   "start": 26.86,
-   "end": 27.02
+   "start": 25.038,
+   "end": 25.198
   },
   {
    "w": "tool",
-   "start": 27.02,
-   "end": 27.32
+   "start": 25.198,
+   "end": 25.498
   },
   {
    "w": "so",
-   "start": 27.32,
-   "end": 27.7
+   "start": 25.498,
+   "end": 25.878
   },
   {
    "w": "1",
-   "start": 27.7,
-   "end": 27.94
+   "start": 25.878,
+   "end": 26.118
   },
   {
    "w": "leak",
-   "start": 27.94,
-   "end": 28.12
+   "start": 26.118,
+   "end": 26.298
   },
   {
    "w": "doesn't",
-   "start": 28.12,
-   "end": 28.42
+   "start": 26.298,
+   "end": 26.598
   },
   {
    "w": "open",
-   "start": 28.42,
-   "end": 28.62
+   "start": 26.598,
+   "end": 26.798
   },
   {
    "w": "everything.",
-   "start": 28.62,
-   "end": 28.94
+   "start": 26.798,
+   "end": 27.118
   },
   {
    "w": "Third,",
-   "start": 28.94,
-   "end": 29.98
+   "start": 27.118,
+   "end": 27.706
   },
   {
    "w": "who",
-   "start": 30.48,
-   "end": 30.6
+   "start": 28.206,
+   "end": 28.326
   },
   {
    "w": "can",
-   "start": 30.6,
-   "end": 30.76
+   "start": 28.326,
+   "end": 28.486
   },
   {
    "w": "use",
-   "start": 30.76,
-   "end": 30.92
+   "start": 28.486,
+   "end": 28.646
   },
   {
    "w": "them?",
-   "start": 30.92,
-   "end": 31.08
+   "start": 28.646,
+   "end": 28.806
   },
   {
    "w": "Delete",
-   "start": 31.66,
-   "end": 31.84
+   "start": 29.17,
+   "end": 29.35
   },
   {
    "w": "old",
-   "start": 31.84,
-   "end": 32.1
+   "start": 29.35,
+   "end": 29.61
   },
   {
    "w": "keys",
-   "start": 32.1,
-   "end": 32.38
+   "start": 29.61,
+   "end": 29.89
   },
   {
    "w": "and",
-   "start": 32.38,
-   "end": 32.92
+   "start": 29.89,
+   "end": 30.43
   },
   {
    "w": "remove",
-   "start": 32.92,
-   "end": 33.16
+   "start": 30.43,
+   "end": 30.67
   },
   {
    "w": "people",
-   "start": 33.16,
-   "end": 33.46
+   "start": 30.67,
+   "end": 30.97
   },
   {
    "w": "who've",
-   "start": 33.46,
-   "end": 33.66
+   "start": 30.97,
+   "end": 31.17
   },
   {
    "w": "left.",
-   "start": 33.66,
-   "end": 33.86
+   "start": 31.17,
+   "end": 31.37
   },
   {
    "w": "5",
-   "start": 34.24,
-   "end": 34.52
+   "start": 31.553,
+   "end": 31.833
   },
   {
    "w": "minutes",
-   "start": 34.52,
-   "end": 34.76
+   "start": 31.833,
+   "end": 32.073
   },
   {
    "w": "now",
-   "start": 34.76,
-   "end": 35.0
+   "start": 32.073,
+   "end": 32.313
   },
   {
    "w": "beats",
-   "start": 35.0,
-   "end": 35.2
+   "start": 32.313,
+   "end": 32.513
   },
   {
    "w": "a",
-   "start": 35.2,
-   "end": 35.32
+   "start": 32.513,
+   "end": 32.633
   },
   {
    "w": "surprise",
-   "start": 35.32,
-   "end": 35.58
+   "start": 32.633,
+   "end": 32.893
   },
   {
    "w": "bill.",
-   "start": 35.58,
-   "end": 35.86
+   "start": 32.893,
+   "end": 33.173
   },
   {
    "w": "Comment",
-   "start": 36.24,
-   "end": 36.58
+   "start": 33.553,
+   "end": 33.893
   },
   {
    "w": "AI",
-   "start": 36.58,
-   "end": 36.86
+   "start": 33.893,
+   "end": 34.173
   },
   {
    "w": "and",
-   "start": 36.86,
-   "end": 37.48
+   "start": 34.173,
+   "end": 34.793
   },
   {
    "w": "I'll",
-   "start": 37.48,
-   "end": 37.6
+   "start": 34.793,
+   "end": 34.913
   },
   {
    "w": "send",
-   "start": 37.6,
-   "end": 37.72
+   "start": 34.913,
+   "end": 35.033
   },
   {
    "w": "you",
-   "start": 37.72,
-   "end": 37.86
+   "start": 35.033,
+   "end": 35.173
   },
   {
    "w": "my",
-   "start": 37.86,
-   "end": 38.0
+   "start": 35.173,
+   "end": 35.313
   },
   {
    "w": "free",
-   "start": 38.0,
-   "end": 38.28
+   "start": 35.313,
+   "end": 35.593
   },
   {
    "w": "AI",
-   "start": 38.28,
-   "end": 38.62
+   "start": 35.593,
+   "end": 35.933
   },
   {
    "w": "starter",
-   "start": 38.62,
-   "end": 38.9
+   "start": 35.933,
+   "end": 36.213
   },
   {
    "w": "pack.",
-   "start": 38.9,
-   "end": 39.18
+   "start": 36.213,
+   "end": 36.493
   }
  ],
  "text": "A hacked AI coding tool just ran up bills of over a thousand dollars on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic, and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check three settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. One key per tool so one leak doesn't open everything. Third, who can use them? Delete old keys and remove people who've left. Five minutes now beats a surprise bill. Comment AI and I'll send you my free AI starter pack."

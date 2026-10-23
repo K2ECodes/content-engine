@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.1
     },
     "script": "Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks. Here's what happened. They started with a pilot of about 1,000 people. 8 in 10 of them weren't engineers. Then 30 AI engineers sat with each team, found the boring parts of their jobs and automated them. Data reports. Training in new languages. Dashboards. 2 weeks per team. Then they scaled. Most companies do the opposite. They buy licenses for everyone, send a login, and wonder why nobody uses it. You don't need 30 engineers. You need someone next to your team for 2 weeks. On your real work. Bring your biggest bottleneck to our free office hours. Link in bio.",
     "keys": [
@@ -204,8 +204,14 @@
         "type": "cta",
         "keyword": "FREE",
         "prompt": "Bottleneck: month-end billing",
-        "dm": "Seat saved \u00b7 link in bio"
+        "dm": "Seat saved · link in bio"
       }
+    ],
+    "bgLogos": [
+      "uber",
+      "uber",
+      "uber",
+      "uber"
     ]
   }
 }

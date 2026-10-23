@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.1
     },
     "tail": 2.6,
     "script": "4 of the biggest names in tech just shipped the same rule. We've built it into every system since day 1. Nothing sends, pays or signs without a person's yes. Anthropic's new assistant asks before it pays. Walmart lets shoppers approve what an AI buys. 1Password lets AI log in only after you say yes. And Microsoft told companies to watch their AI like an insider with the keys. Our own company runs on 100+ AI employees. They write, answer leads and onboard clients all day. Not 1 of them sends a thing to a customer without a person's yes. The AI does the work, you keep the final say. This Sunday at 11 AM Eastern, we'll show business owners how to set up their first AI employee with that rule built in. Grab your seat, link in the post.",
@@ -243,6 +243,18 @@
         "prompt": "contentsystems.ai/workshop",
         "dm": "Seat saved for Sunday"
       }
+    ],
+    "bgLogos": [
+      "anthropic",
+      "walmart",
+      "microsoft",
+      "1password",
+      "anthropic",
+      "walmart",
+      "microsoft",
+      "1password",
+      "anthropic",
+      "walmart"
     ]
   }
 }

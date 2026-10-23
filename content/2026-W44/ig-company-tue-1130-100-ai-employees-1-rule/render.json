@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.09
+      "volume": 0.1
     },
     "script": "We run our company on 100+ AI employees. Not 1 of them can send a refund without a person saying yes. Content, lead replies, onboarding, ads. They draft all day. But anything that leaves the building waits for a yes. Money going out. A message to a customer. A quote or a contract. Deleting data. That's the rule. And this week, the biggest names in AI shipped the same rule. Anthropic's new assistant asks before it sends, pays or signs. Walmart puts spending limits on shopping assistants. So the question isn't whether AI can do the work. It's who says yes. This Sunday, we'll set up your first AI employee live with the yes built in. The AI Employee Accelerator. November 1. 11 AM Eastern. Link in bio.",
     "keys": [
@@ -219,6 +219,16 @@
         "type": "word",
         "text": "Link in bio"
       }
+    ],
+    "bgLogos": [
+      "anthropic",
+      "walmart",
+      "anthropic",
+      "walmart",
+      "anthropic",
+      "walmart",
+      "anthropic",
+      "walmart"
     ]
   }
 }

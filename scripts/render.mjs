@@ -360,6 +360,7 @@ function resolveStory(dir, spec) {
   const BRANDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'));
   const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, logoUrl: pathToFileURL(path.join(ROOT, 'assets/logos', b.logo)).href }; };
   d.scenes.forEach((sc) => { if (sc.brand) sc.b = brand(sc.brand); if (sc.type === 'vs') { sc.lb = brand(sc.left); sc.rb = brand(sc.right); } });
+  d.bgLogos = (d.bgLogos || []).map((id) => brand(id));
   d.pops = (d.pops || []).map((p, i) => ({ ...p, t: T(p.at, `pop ${i}`, 0.03), end: p.until !== undefined ? T(p.until, `pop ${i} until`) : undefined,
     ...(p.kind === 'logo' ? { b: brand(p.brand) } : {}), ...(p.kind === 'sprite' ? { srcUrl: pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${p.sprite}.png`)).href } : {}) }));
   d.stickers = (d.stickers || []).map((k, i) => ({ ...k, srcUrl: pathToFileURL(path.resolve(dir, k.src)).href,
@@ -381,7 +382,9 @@ async function renderStory(browser, spec, dir, fps) {
       const cut = path.join(dir, '.face-cut.webm');
       const mask = path.resolve(dir, spec.data.face.mask);
       if (!fs.existsSync(cut) || fs.statSync(cut).mtimeMs < fs.statSync(faceSrc).mtimeMs)
-        spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', faceSrc, '-loop', '1', '-i', mask, '-filter_complex', '[1:v]alphaextract,scale=1920:1080[a];[0:v]scale=1920:1080,format=yuva420p[v];[v][a]alphamerge,format=yuva420p[o]', '-map', '[o]', '-shortest', '-an', '-c:v', 'libvpx-vp9', '-pix_fmt', 'yuva420p', '-b:v', '6M', '-deadline', 'realtime', '-cpu-used', '8', '-auto-alt-ref', '0', cut], { stdio: 'inherit' });
+        spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', faceSrc, ...(/\.mp4$/i.test(mask) ? ['-i', mask] : ['-loop', '1', '-i', mask]), '-filter_complex',
+          `[1:v]${/\.mp4$/i.test(mask) ? 'format=gray' : 'alphaextract'},scale=1920:1080,boxblur=1:1[a];[0:v]scale=1920:1080,format=yuva420p[v];[v][a]alphamerge,format=yuva420p[o]`,
+          '-map', '[o]', '-shortest', '-an', '-c:v', 'libvpx-vp9', '-pix_fmt', 'yuva420p', '-b:v', '6M', '-deadline', 'realtime', '-cpu-used', '8', '-auto-alt-ref', '0', cut], { stdio: 'inherit' });
       data.face = { ...data.face, cutSrc: pathToFileURL(cut).href };
     }
   }

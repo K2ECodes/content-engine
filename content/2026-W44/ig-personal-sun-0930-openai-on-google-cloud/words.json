@@ -2,17 +2,17 @@
  "words": [
   {
    "w": "OpenAI's",
-   "start": 0.0,
+   "start": 0,
    "end": 0.78
   },
   {
    "w": "models",
    "start": 0.78,
-   "end": 1.0
+   "end": 1
   },
   {
    "w": "are",
-   "start": 1.0,
+   "start": 1,
    "end": 1.16
   },
   {
@@ -37,543 +37,543 @@
   },
   {
    "w": "Yes,",
-   "start": 2.42,
-   "end": 2.64
+   "start": 2.234,
+   "end": 2.454
   },
   {
    "w": "Google,",
-   "start": 2.9,
-   "end": 3.2
+   "start": 2.714,
+   "end": 3.014
   },
   {
    "w": "the",
-   "start": 3.66,
-   "end": 3.78
+   "start": 3.228,
+   "end": 3.348
   },
   {
    "w": "company",
-   "start": 3.78,
-   "end": 4.04
+   "start": 3.348,
+   "end": 3.608
   },
   {
    "w": "building",
-   "start": 4.04,
-   "end": 4.36
+   "start": 3.608,
+   "end": 3.928
   },
   {
    "w": "Gemini.",
-   "start": 4.36,
-   "end": 4.74
+   "start": 3.928,
+   "end": 4.308
   },
   {
    "w": "Here's",
-   "start": 5.22,
-   "end": 5.46
+   "start": 4.527,
+   "end": 4.767
   },
   {
    "w": "the",
-   "start": 5.46,
-   "end": 5.56
+   "start": 4.767,
+   "end": 4.867
   },
   {
    "w": "news.",
-   "start": 5.56,
-   "end": 5.74
+   "start": 4.867,
+   "end": 5.047
   },
   {
    "w": "OpenAI's",
-   "start": 6.3,
-   "end": 6.78
+   "start": 5.607,
+   "end": 6.087
   },
   {
    "w": "frontier",
-   "start": 6.78,
-   "end": 6.98
+   "start": 6.087,
+   "end": 6.287
   },
   {
    "w": "models",
-   "start": 6.98,
-   "end": 7.42
+   "start": 6.287,
+   "end": 6.727
   },
   {
    "w": "and",
-   "start": 7.42,
-   "end": 7.68
+   "start": 6.727,
+   "end": 6.987
   },
   {
    "w": "Codex",
-   "start": 7.68,
-   "end": 8.14
+   "start": 6.987,
+   "end": 7.447
   },
   {
    "w": "are",
-   "start": 8.14,
-   "end": 8.32
+   "start": 7.447,
+   "end": 7.627
   },
   {
    "w": "heading",
-   "start": 8.32,
-   "end": 8.48
+   "start": 7.627,
+   "end": 7.787
   },
   {
    "w": "into",
-   "start": 8.48,
-   "end": 8.68
+   "start": 7.787,
+   "end": 7.987
   },
   {
    "w": "Google",
-   "start": 8.68,
-   "end": 8.92
+   "start": 7.987,
+   "end": 8.227
   },
   {
    "w": "Cloud's",
-   "start": 8.92,
-   "end": 9.36
+   "start": 8.227,
+   "end": 8.667
   },
   {
    "w": "Model Garden",
-   "start": 9.36,
-   "end": 9.94
+   "start": 8.667,
+   "end": 9.247
   },
   {
    "w": "next",
-   "start": 9.94,
-   "end": 10.44
+   "start": 9.247,
+   "end": 9.747
   },
   {
    "w": "to",
-   "start": 10.44,
-   "end": 10.6
+   "start": 9.747,
+   "end": 9.907
   },
   {
    "w": "200+",
-   "start": 10.6,
-   "end": 10.9
+   "start": 9.907,
+   "end": 10.207
   },
   {
    "w": "other",
-   "start": 10.9,
-   "end": 11.1
+   "start": 10.207,
+   "end": 10.407
   },
   {
    "w": "models.",
-   "start": 11.1,
-   "end": 11.44
+   "start": 10.407,
+   "end": 10.747
   },
   {
    "w": "Companies",
-   "start": 11.98,
-   "end": 12.26
+   "start": 11.042,
+   "end": 11.322
   },
   {
    "w": "can",
-   "start": 12.26,
-   "end": 12.46
+   "start": 11.322,
+   "end": 11.522
   },
   {
    "w": "buy",
-   "start": 12.46,
-   "end": 12.64
+   "start": 11.522,
+   "end": 11.702
   },
   {
    "w": "them",
-   "start": 12.64,
-   "end": 12.8
+   "start": 11.702,
+   "end": 11.862
   },
   {
    "w": "through",
-   "start": 12.8,
-   "end": 12.92
+   "start": 11.862,
+   "end": 11.982
   },
   {
    "w": "the",
-   "start": 12.92,
-   "end": 13.04
+   "start": 11.982,
+   "end": 12.102
   },
   {
    "w": "Google",
-   "start": 13.04,
-   "end": 13.2
+   "start": 12.102,
+   "end": 12.262
   },
   {
    "w": "Cloud",
-   "start": 13.2,
-   "end": 13.5
+   "start": 12.262,
+   "end": 12.562
   },
   {
    "w": "Marketplace",
-   "start": 13.5,
-   "end": 13.94
+   "start": 12.562,
+   "end": 13.002
   },
   {
    "w": "with",
-   "start": 13.94,
-   "end": 14.46
+   "start": 13.002,
+   "end": 13.522
   },
   {
    "w": "money",
-   "start": 14.46,
-   "end": 14.66
+   "start": 13.522,
+   "end": 13.722
   },
   {
    "w": "they've",
-   "start": 14.66,
-   "end": 14.9
+   "start": 13.722,
+   "end": 13.962
   },
   {
    "w": "already",
-   "start": 14.9,
-   "end": 15.16
+   "start": 13.962,
+   "end": 14.222
   },
   {
    "w": "committed",
-   "start": 15.16,
-   "end": 15.42
+   "start": 14.222,
+   "end": 14.482
   },
   {
    "w": "to",
-   "start": 15.42,
-   "end": 15.6
+   "start": 14.482,
+   "end": 14.662
   },
   {
    "w": "Google.",
-   "start": 15.6,
-   "end": 15.8
+   "start": 14.662,
+   "end": 14.862
   },
   {
    "w": "And",
-   "start": 16.32,
-   "end": 16.6
+   "start": 15.08,
+   "end": 15.36
   },
   {
    "w": "they're",
-   "start": 16.6,
-   "end": 16.7
+   "start": 15.36,
+   "end": 15.46
   },
   {
    "w": "coming",
-   "start": 16.7,
-   "end": 16.88
+   "start": 15.46,
+   "end": 15.64
   },
   {
    "w": "to",
-   "start": 16.88,
-   "end": 17.02
+   "start": 15.64,
+   "end": 15.78
   },
   {
    "w": "the",
-   "start": 17.02,
-   "end": 17.12
+   "start": 15.78,
+   "end": 15.88
   },
   {
    "w": "Gemini",
-   "start": 17.12,
-   "end": 17.42
+   "start": 15.88,
+   "end": 16.18
   },
   {
    "w": "Agent",
-   "start": 17.42,
-   "end": 17.7
+   "start": 16.18,
+   "end": 16.46
   },
   {
    "w": "soon.",
-   "start": 17.7,
-   "end": 17.98
+   "start": 16.46,
+   "end": 16.74
   },
   {
    "w": "Microsoft",
-   "start": 18.4,
-   "end": 18.8
+   "start": 17.16,
+   "end": 17.56
   },
   {
    "w": "is",
-   "start": 18.8,
-   "end": 19.04
+   "start": 17.56,
+   "end": 17.8
   },
   {
    "w": "still",
-   "start": 19.04,
-   "end": 19.2
+   "start": 17.8,
+   "end": 17.96
   },
   {
    "w": "OpenAI's",
-   "start": 19.2,
-   "end": 19.78
+   "start": 17.96,
+   "end": 18.54
   },
   {
    "w": "main",
-   "start": 19.78,
-   "end": 19.92
+   "start": 18.54,
+   "end": 18.68
   },
   {
    "w": "cloud",
-   "start": 19.92,
-   "end": 20.16
+   "start": 18.68,
+   "end": 18.92
   },
   {
    "w": "partner.",
-   "start": 20.16,
-   "end": 20.46
+   "start": 18.92,
+   "end": 19.22
   },
   {
    "w": "So",
-   "start": 21.1,
-   "end": 21.34
+   "start": 19.36,
+   "end": 19.531
   },
   {
    "w": "what",
-   "start": 21.34,
-   "end": 21.46
+   "start": 19.531,
+   "end": 19.651
   },
   {
    "w": "does",
-   "start": 21.46,
-   "end": 21.56
+   "start": 19.651,
+   "end": 19.751
   },
   {
    "w": "it",
-   "start": 21.56,
-   "end": 21.66
+   "start": 19.751,
+   "end": 19.851
   },
   {
    "w": "mean",
-   "start": 21.66,
-   "end": 21.76
+   "start": 19.851,
+   "end": 19.951
   },
   {
    "w": "for",
-   "start": 21.76,
-   "end": 21.94
+   "start": 19.951,
+   "end": 20.131
   },
   {
    "w": "you?",
-   "start": 21.94,
-   "end": 22.08
+   "start": 20.131,
+   "end": 20.271
   },
   {
    "w": "The",
-   "start": 22.58,
-   "end": 22.7
+   "start": 20.431,
+   "end": 20.551
   },
   {
    "w": "model",
-   "start": 22.7,
-   "end": 22.96
+   "start": 20.551,
+   "end": 20.811
   },
   {
    "w": "is",
-   "start": 22.96,
-   "end": 23.12
+   "start": 20.811,
+   "end": 20.971
   },
   {
    "w": "becoming",
-   "start": 23.12,
-   "end": 23.4
+   "start": 20.971,
+   "end": 21.251
   },
   {
    "w": "a",
-   "start": 23.4,
-   "end": 23.62
+   "start": 21.251,
+   "end": 21.471
   },
   {
    "w": "menu",
-   "start": 23.62,
-   "end": 23.78
+   "start": 21.471,
+   "end": 21.631
   },
   {
    "w": "choice.",
-   "start": 23.78,
-   "end": 24.1
+   "start": 21.631,
+   "end": 21.951
   },
   {
    "w": "You'll",
-   "start": 24.76,
-   "end": 25.0
+   "start": 22.21,
+   "end": 22.385
   },
   {
    "w": "pick",
-   "start": 25.0,
-   "end": 25.12
+   "start": 22.385,
+   "end": 22.505
   },
   {
    "w": "the",
-   "start": 25.12,
-   "end": 25.28
+   "start": 22.505,
+   "end": 22.665
   },
   {
    "w": "best",
-   "start": 25.28,
-   "end": 25.5
+   "start": 22.665,
+   "end": 22.885
   },
   {
    "w": "model",
-   "start": 25.5,
-   "end": 25.78
+   "start": 22.885,
+   "end": 23.165
   },
   {
    "w": "for",
-   "start": 25.78,
-   "end": 25.94
+   "start": 23.165,
+   "end": 23.325
   },
   {
    "w": "each",
-   "start": 25.94,
-   "end": 26.12
+   "start": 23.325,
+   "end": 23.505
   },
   {
    "w": "job,",
-   "start": 26.12,
-   "end": 26.46
+   "start": 23.505,
+   "end": 23.845
   },
   {
    "w": "not",
-   "start": 26.72,
-   "end": 26.9
+   "start": 24.105,
+   "end": 24.285
   },
   {
    "w": "1",
-   "start": 26.9,
-   "end": 27.14
+   "start": 24.285,
+   "end": 24.525
   },
   {
    "w": "company",
-   "start": 27.14,
-   "end": 27.48
+   "start": 24.525,
+   "end": 24.865
   },
   {
    "w": "for",
-   "start": 27.48,
-   "end": 27.66
+   "start": 24.865,
+   "end": 25.045
   },
   {
    "w": "everything.",
+   "start": 25.045,
+   "end": 25.365
+  },
+  {
+   "w": "Rivals",
+   "start": 25.545,
+   "end": 25.825
+  },
+  {
+   "w": "on",
+   "start": 25.825,
+   "end": 25.985
+  },
+  {
+   "w": "stage,",
+   "start": 25.985,
+   "end": 26.265
+  },
+  {
+   "w": "partners",
+   "start": 26.705,
+   "end": 26.985
+  },
+  {
+   "w": "in",
+   "start": 26.985,
+   "end": 27.145
+  },
+  {
+   "w": "the",
+   "start": 27.145,
+   "end": 27.225
+  },
+  {
+   "w": "cloud.",
+   "start": 27.225,
+   "end": 27.465
+  },
+  {
+   "w": "Would",
    "start": 27.66,
    "end": 27.98
   },
   {
-   "w": "Rivals",
-   "start": 28.54,
-   "end": 28.82
-  },
-  {
-   "w": "on",
-   "start": 28.82,
-   "end": 28.98
-  },
-  {
-   "w": "stage,",
-   "start": 28.98,
-   "end": 29.26
-  },
-  {
-   "w": "partners",
-   "start": 29.7,
-   "end": 29.98
-  },
-  {
-   "w": "in",
-   "start": 29.98,
-   "end": 30.14
-  },
-  {
-   "w": "the",
-   "start": 30.14,
-   "end": 30.22
-  },
-  {
-   "w": "cloud.",
-   "start": 30.22,
-   "end": 30.46
-  },
-  {
-   "w": "Would",
-   "start": 31.2,
-   "end": 31.52
-  },
-  {
    "w": "you",
-   "start": 31.52,
-   "end": 31.66
+   "start": 27.98,
+   "end": 28.12
   },
   {
    "w": "use",
-   "start": 31.66,
-   "end": 31.84
+   "start": 28.12,
+   "end": 28.3
   },
   {
    "w": "OpenAI",
-   "start": 31.84,
-   "end": 32.26
+   "start": 28.3,
+   "end": 28.72
   },
   {
    "w": "models",
-   "start": 32.26,
-   "end": 32.64
+   "start": 28.72,
+   "end": 29.1
   },
   {
    "w": "inside",
-   "start": 32.64,
-   "end": 32.96
+   "start": 29.1,
+   "end": 29.42
   },
   {
    "w": "Google?",
-   "start": 32.96,
-   "end": 33.24
+   "start": 29.42,
+   "end": 29.7
   },
   {
    "w": "Comment",
-   "start": 33.66,
-   "end": 34.02
+   "start": 29.904,
+   "end": 30.228
   },
   {
    "w": "AI,",
-   "start": 34.02,
-   "end": 34.32
+   "start": 30.228,
+   "end": 30.528
   },
   {
    "w": "and",
-   "start": 34.88,
-   "end": 34.96
+   "start": 30.93,
+   "end": 31.01
   },
   {
    "w": "I'll",
-   "start": 34.96,
-   "end": 35.1
+   "start": 31.01,
+   "end": 31.15
   },
   {
    "w": "send",
-   "start": 35.1,
-   "end": 35.24
+   "start": 31.15,
+   "end": 31.29
   },
   {
    "w": "you",
-   "start": 35.24,
-   "end": 35.36
+   "start": 31.29,
+   "end": 31.41
   },
   {
    "w": "my",
-   "start": 35.36,
-   "end": 35.5
+   "start": 31.41,
+   "end": 31.55
   },
   {
    "w": "free",
-   "start": 35.5,
-   "end": 35.8
+   "start": 31.55,
+   "end": 31.85
   },
   {
    "w": "AI",
-   "start": 35.8,
-   "end": 36.12
+   "start": 31.85,
+   "end": 32.17
   },
   {
    "w": "starter",
-   "start": 36.12,
-   "end": 36.4
+   "start": 32.17,
+   "end": 32.45
   },
   {
    "w": "pack.",
-   "start": 36.4,
-   "end": 36.7
+   "start": 32.45,
+   "end": 32.75
   }
  ],
  "text": "OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and codecs are heading into Google Cloud's model garden next to 200 other models. The companies can buy them through the Google Cloud marketplace with money they've already committed to Google. And they're coming to the Gemini agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."

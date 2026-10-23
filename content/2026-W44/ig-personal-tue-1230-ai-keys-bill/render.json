@@ -5,7 +5,7 @@
     "audio": "audio/vo.wav",
     "music": {
       "file": "audio/music.mp3",
-      "volume": 0.07
+      "volume": 0.11
     },
     "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. 5 minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack.",
     "keys": [
@@ -95,17 +95,17 @@
         "rows": [
           {
             "text": "Coding tool",
-            "val": "sk-\u2026a1f",
+            "val": "sk-…a1f",
             "at": "1"
           },
           {
             "text": "Email writer",
-            "val": "sk-\u20269c2",
+            "val": "sk-…9c2",
             "at": "per"
           },
           {
             "text": "Notes app",
-            "val": "sk-\u202677e",
+            "val": "sk-…77e",
             "at": "leak"
           }
         ]
@@ -174,6 +174,18 @@
     ],
     "heygen": {
       "say": "A hacked AI coding tool just ran up bills of over a thousand dollars on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check three settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. One key per tool, so one leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. Five minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack."
-    }
+    },
+    "bgLogos": [
+      "anthropic",
+      "claude",
+      "openai",
+      "google",
+      "anthropic",
+      "claude",
+      "openai",
+      "google",
+      "anthropic",
+      "claude"
+    ]
   }
 }
