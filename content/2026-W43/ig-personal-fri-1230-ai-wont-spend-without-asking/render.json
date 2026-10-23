@@ -1,380 +1,365 @@
 {
-  "template": "story",
-  "data": {
-    "face": {
-      "src": "plate.mp4",
-      "mask": "plate-mask.mp4"
-    },
-    "words": "words.json",
-    "heygen": {
-      "say": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that, and it's how we build every system for our clients. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
-      "aspect": "16:9",
-      "keepBackground": true,
-      "speed": 1.12
-    },
-    "script": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.09
-    },
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "person",
-        "photo": "people/dario-amodei.jpg",
-        "name": "Dario Amodei",
-        "role": "Anthropic CEO",
-        "bg": "bg/wallet-lasers.png",
-        "color": "#D97757"
-      },
-      {
-        "world": "dark",
-        "type": "person",
-        "photo": "people/dario-amodei.jpg",
-        "name": "Dario Amodei",
-        "role": "Anthropic CEO",
-        "color": "#D97757",
-        "at": "that"
-      },
-      {
-        "at": "called",
-        "world": "dark",
-        "type": "word",
-        "text": "Claude Duet",
-        "bg": "bg/wallet-lasers.png"
-      },
-      {
-        "at": "works",
-        "world": "light",
-        "type": "checklist",
-        "title": "Claude Duet, preview",
-        "rows": [
-          {
-            "text": "Works in the background",
-            "at": "background,"
-          },
-          {
-            "text": "Stops before it pays",
-            "at": "pays"
-          },
-          {
-            "text": "Waits for your yes",
-            "at": "yes."
-          }
-        ],
-        "click": {
-          "at": "yes.",
-          "x": 640,
-          "y": 1120
-        },
-        "bg": "bg/robot-pay.png"
-      },
-      {
-        "at": "That's",
-        "world": "light",
-        "type": "checklist",
-        "title": "Claude Duet, preview",
-        "rows": [
-          {
-            "text": "Works in the background",
-            "at": "background,"
-          },
-          {
-            "text": "Stops before it pays",
-            "at": "pays"
-          },
-          {
-            "text": "Waits for your yes",
-            "at": "yes."
-          }
-        ]
-      },
-      {
-        "at": "risk",
-        "world": "dark",
-        "type": "list",
-        "title": "No approval step",
-        "rows": [
-          {
-            "text": "Acts on its own",
-            "chip": "Risk",
-            "chipKind": "bad",
-            "at": "act"
-          },
-          {
-            "text": "Spends on its own",
-            "chip": "Risk",
-            "chipKind": "bad",
-            "at": "you."
-          }
-        ],
-        "bg": "bg/robot-pay.png"
-      },
-      {
-        "at": "single",
-        "world": "light",
-        "type": "list",
-        "title": "With 1 approval step",
-        "rows": [
-          {
-            "text": "AI drafts it",
-            "chip": "Auto",
-            "chipKind": "wait",
-            "at": "approval"
-          },
-          {
-            "text": "You say yes",
-            "chip": "Approved",
-            "at": "step"
-          }
-        ],
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "fixes",
-          "x": 300,
-          "y": 800
-        },
-        "bg": "bg/wallet-lasers.png"
-      },
-      {
-        "at": "Want",
-        "world": "light",
-        "type": "list",
-        "title": "With 1 approval step",
-        "rows": [
-          {
-            "text": "AI drafts it",
-            "chip": "Auto",
-            "chipKind": "wait",
-            "at": "approval"
-          },
-          {
-            "text": "You say yes",
-            "chip": "Approved",
-            "at": "step"
-          }
-        ]
-      },
-      {
-        "at": "Comment",
-        "world": "dark",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Starter skills sent",
-        "bg": "bg/robot-pay.png"
-      }
+ "template": "story",
+ "data": {
+  "face": {
+   "src": "plate.mp4"
+  },
+  "words": "words.json",
+  "heygen": {
+   "say": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that, and it's how we build every system for our clients. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
+   "aspect": "16:9",
+   "keepBackground": true,
+   "speed": 1.12
+  },
+  "script": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.09
+  },
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "person",
+    "photo": "people/dario-amodei.jpg",
+    "name": "Dario Amodei",
+    "role": "Anthropic CEO",
+    "color": "#D97757"
+   },
+   {
+    "world": "dark",
+    "type": "person",
+    "photo": "people/dario-amodei.jpg",
+    "name": "Dario Amodei",
+    "role": "Anthropic CEO",
+    "color": "#D97757",
+    "at": "that"
+   },
+   {
+    "at": "called",
+    "world": "dark",
+    "type": "word",
+    "text": "Claude Duet",
+    "look": "cinema",
+    "bg": "bg/wallet-lasers.png"
+   },
+   {
+    "at": "works",
+    "world": "light",
+    "type": "checklist",
+    "title": "Claude Duet, preview",
+    "rows": [
+     {
+      "text": "Works in the background",
+      "at": "background,"
+     },
+     {
+      "text": "Stops before it pays",
+      "at": "pays"
+     },
+     {
+      "text": "Waits for your yes",
+      "at": "yes."
+     }
     ],
-    "faceCuts": [
-      {
-        "layout": "none"
-      },
-      {
-        "at": "that",
-        "layout": "full",
-        "zoom": 1.0,
-        "cut": true,
-        "bg": "loft"
-      },
-      {
-        "at": "called",
-        "layout": "corner",
-        "cut": true,
-        "bg": "city-dusk",
-        "zoom": 1.0
-      },
-      {
-        "at": "That's",
-        "layout": "full",
-        "zoom": 1.0,
-        "cut": true,
-        "bg": "library"
-      },
-      {
-        "at": "risk",
-        "layout": "none"
-      },
-      {
-        "at": "Want",
-        "layout": "full",
-        "zoom": 1.0,
-        "cut": true,
-        "bg": "studio"
-      },
-      {
-        "at": "Comment",
-        "layout": "corner",
-        "cut": true,
-        "bg": "loft",
-        "zoom": 1.0
-      }
-    ],
-    "keys": [
-      "yes",
-      "approval"
-    ],
-    "strikes": [
-      "dumb"
-    ],
-    "tail": 1.6,
-    "pops": [
-      {
-        "at": "Anthropic",
-        "kind": "logo",
-        "brand": "anthropic",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "that"
-      },
-      {
-        "at": "Claude",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 780,
-        "y": 250,
-        "w": 160,
-        "rot": 8,
-        "until": "That's"
-      },
-      {
-        "at": "waits",
-        "kind": "burst",
-        "text": "WAIT",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "That's"
-      },
-      {
-        "at": "dumb.",
-        "kind": "sprite",
-        "sprite": "robot",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "single"
-      },
-      {
-        "at": "Comment",
-        "kind": "burst",
-        "text": "FREE",
-        "x": 780,
-        "y": 300,
-        "w": 220,
-        "size": 60,
-        "color": "#9CCAA0",
-        "rot": 12
-      },
-      {
-        "at": "just",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 800,
-        "y": 640,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "that"
-      },
-      {
-        "at": "shipped",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 90,
-        "y": 1150,
-        "w": 150,
-        "rot": -6,
-        "bare": true,
-        "until": "that"
-      },
-      {
-        "at": "money",
-        "kind": "sprite",
-        "sprite": "coin",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "asking."
-      },
-      {
-        "at": "yes.",
-        "kind": "sprite",
-        "sprite": "button",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "That's"
-      }
-    ],
-    "bgLogos": [
-      "anthropic",
-      "claude",
-      "anthropic",
-      "claude"
-    ],
-    "stop": false,
-    "coldOpen": {
-      "until": "It's",
-      "set": "office",
-      "titles": [
-        {
-          "text": [
-            "An AI that won't",
-            "*spend without asking.*"
-          ]
-        }
-      ],
-      "accent": [
-        "won't",
-        "asking."
-      ],
-      "actors": [
-        {
-          "brand": "claude",
-          "props": [
-            "card"
-          ],
-          "x": 300
-        },
-        {
-          "thing": "button",
-          "text": "PAY $499",
-          "x": 740,
-          "scale": 1.3
-        }
-      ],
-      "beats": [
-        {
-          "at": "Anthropic",
-          "actor": 0,
-          "do": "run-in",
-          "from": "left"
-        },
-        {
-          "at": "spend",
-          "actor": 0,
-          "do": "point",
-          "dir": "right"
-        },
-        {
-          "at": "without",
-          "actor": 0,
-          "do": "shake"
-        },
-        {
-          "at": "asking.",
-          "actor": 0,
-          "do": "look",
-          "dir": "right",
-          "say": "Okay to pay?"
-        }
-      ]
+    "click": {
+     "at": "yes.",
+     "x": 640,
+     "y": 1120
     }
+   },
+   {
+    "at": "That's",
+    "world": "light",
+    "type": "checklist",
+    "title": "Claude Duet, preview",
+    "rows": [
+     {
+      "text": "Works in the background",
+      "at": "background,"
+     },
+     {
+      "text": "Stops before it pays",
+      "at": "pays"
+     },
+     {
+      "text": "Waits for your yes",
+      "at": "yes."
+     }
+    ],
+    "px": "neon"
+   },
+   {
+    "at": "risk",
+    "world": "dark",
+    "type": "list",
+    "title": "No approval step",
+    "rows": [
+     {
+      "text": "Acts on its own",
+      "chip": "Risk",
+      "chipKind": "bad",
+      "at": "act"
+     },
+     {
+      "text": "Spends on its own",
+      "chip": "Risk",
+      "chipKind": "bad",
+      "at": "you."
+     }
+    ],
+    "look": "cinema",
+    "bg": "bg/robot-pay.png",
+    "tr": "zoom"
+   },
+   {
+    "at": "single",
+    "world": "light",
+    "type": "list",
+    "title": "With 1 approval step",
+    "rows": [
+     {
+      "text": "AI drafts it",
+      "chip": "Auto",
+      "chipKind": "wait",
+      "at": "approval"
+     },
+     {
+      "text": "You say yes",
+      "chip": "Approved",
+      "at": "step"
+     }
+    ],
+    "stamp": {
+     "text": "APPROVED",
+     "kind": "ok",
+     "at": "fixes",
+     "x": 300,
+     "y": 800
+    }
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "list",
+    "title": "With 1 approval step",
+    "rows": [
+     {
+      "text": "AI drafts it",
+      "chip": "Auto",
+      "chipKind": "wait",
+      "at": "approval"
+     },
+     {
+      "text": "You say yes",
+      "chip": "Approved",
+      "at": "step"
+     }
+    ]
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Starter skills sent",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 120,
+      "h": 320
+     },
+     {
+      "name": "robot",
+      "x": 720,
+      "h": 280,
+      "acts": [
+       {
+        "at": "Comment",
+        "do": "hop"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "none"
+   },
+   {
+    "at": "that",
+    "layout": "split",
+    "zoom": 1.0
+   },
+   {
+    "at": "called",
+    "layout": "none",
+    "zoom": 1.0
+   },
+   {
+    "at": "That's",
+    "layout": "split",
+    "zoom": 1.0
+   },
+   {
+    "at": "risk",
+    "layout": "none"
+   },
+   {
+    "at": "Want",
+    "layout": "split",
+    "zoom": 1.0
+   },
+   {
+    "at": "Comment",
+    "layout": "none",
+    "zoom": 1.0
+   }
+  ],
+  "keys": [
+   "yes",
+   "approval"
+  ],
+  "strikes": [
+   "dumb"
+  ],
+  "tail": 1.6,
+  "pops": [
+   {
+    "at": "Anthropic",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "that"
+   },
+   {
+    "at": "Claude",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 780,
+    "y": 250,
+    "w": 160,
+    "rot": 8,
+    "until": "That's"
+   },
+   {
+    "at": "dumb.",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "single"
+   },
+   {
+    "at": "just",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 800,
+    "y": 640,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "that"
+   },
+   {
+    "at": "shipped",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 90,
+    "y": 1150,
+    "w": 150,
+    "rot": -6,
+    "bare": true,
+    "until": "that"
+   },
+   {
+    "at": "money",
+    "kind": "sprite",
+    "sprite": "coin",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "asking."
+   },
+   {
+    "at": "yes.",
+    "kind": "sprite",
+    "sprite": "button",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "That's"
+   }
+  ],
+  "bgLogos": [
+   "anthropic",
+   "claude",
+   "anthropic",
+   "claude"
+  ],
+  "coldOpen": {
+   "until": "It's",
+   "set": "office",
+   "titles": [
+    {
+     "text": [
+      "An AI that won't",
+      "*spend without asking.*"
+     ]
+    }
+   ],
+   "accent": [
+    "won't",
+    "asking."
+   ],
+   "actors": [
+    {
+     "brand": "claude",
+     "props": [
+      "card"
+     ],
+     "x": 300
+    },
+    {
+     "thing": "button",
+     "text": "PAY $499",
+     "x": 740,
+     "scale": 1.3
+    }
+   ],
+   "beats": [
+    {
+     "at": "Anthropic",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "spend",
+     "actor": 0,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "without",
+     "actor": 0,
+     "do": "shake"
+    },
+    {
+     "at": "asking.",
+     "actor": 0,
+     "do": "look",
+     "dir": "right",
+     "say": "Okay to pay?"
+    }
+   ],
+   "font": "ig"
   }
+ }
 }

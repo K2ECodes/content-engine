@@ -9,6 +9,12 @@
 .tf-cs .co-title .tl.l2 { font: 700 84px/1.05 'Space Grotesk', sans-serif; text-transform: none; font-style: normal; background: #17281C; color: #F2C14E; display: inline-block; padding: 4px 22px 10px; border-radius: 16px; }
 .tf-grotesk .co-title .tl { font: 900 100px/0.98 'Inter', sans-serif; letter-spacing: -0.045em; }
 .tf-grotesk .co-title .tl.l2 { font: italic 400 104px/1 'Instrument Serif', serif; letter-spacing: 0; }
+/* Korede 2026-10-24: titles like the top AI creator posts. 'ig' (default): clean semibold tight grotesk + Instrument Serif italic accent.
+   'editorial': all Instrument Serif, regular weight ("Six AI agents."). Never heavy/black weights. */
+.tf-ig .co-title .tl { font: 650 90px/1.0 'Inter', sans-serif; letter-spacing: -0.05em; }
+.tf-ig .co-title .tl.l2 { font: italic 400 112px/0.95 'Instrument Serif', serif; letter-spacing: -0.01em; }
+.tf-editorial .co-title .tl { font: 400 124px/0.92 'Instrument Serif', serif; letter-spacing: -0.02em; }
+.tf-editorial .co-title .tl.l2 { font: italic 400 124px/0.92 'Instrument Serif', serif; }
 .co-title .tl em, .co-title .tl.l2 { font-style: italic; color: var(--acc); }
 .co-title .tl.l2 em { color: var(--acc); }
 .co-title .tl:not(.l2) em { color: var(--acc); }

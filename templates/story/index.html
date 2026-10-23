@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../_base/brand.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,800;0,9..144,900;1,9..144,500&family=Space+Grotesk:wght@700&family=Unbounded:wght@800&display=block">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@500;600;650;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,800;0,9..144,900;1,9..144,500&family=Space+Grotesk:wght@700&family=Unbounded:wght@800&display=block">
 <link rel="stylesheet" href="../_base/glass.css">
 <link rel="stylesheet" href="coldopen.css">
 <script src="../../node_modules/gsap/dist/gsap.min.js"></script>
@@ -158,6 +158,9 @@
   .stopm .sbg { inset: auto; left: 210px; right: 210px; top: 1070px; height: 430px; border-width: 12px; border-bottom-width: 44px; border: 18px solid #FBF7EE; border-bottom-width: 70px; border-radius: 6px; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
   .stopm .sbg::before { content: ''; position: absolute; top: -34px; left: 50%; width: 210px; height: 56px; margin-left: -105px; background: rgba(255,224,102,.85); transform: rotate(-4deg); z-index: 2; }
   .stopm .sbg::after { display: none; }
+  .stopm .sbg.full { inset: 0; left: 0; right: 0; top: 0; height: auto; border: 0; border-radius: 0; box-shadow: none; }
+  .stopm .sbg.full::before { display: none; }
+  .stopm .sbg.full::after { display: block; }
   .sbg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,16,11,.55) 0%, rgba(8,16,11,.15) 30%, rgba(8,16,11,.25) 55%, rgba(8,16,11,.85) 100%); }
   .person { width: 900px; display: flex; flex-direction: column; align-items: center; text-align: center; }
   .person .ph { width: 520px; height: 520px; border-radius: 50%; overflow: hidden; border: 10px solid var(--pc, #FFC93C); box-shadow: 0 0 0 10px #0B140E, 0 30px 70px rgba(0,0,0,.6); background: #222; }
@@ -442,13 +445,13 @@ window.renderPost = (data) => {
   const lines = sentences(data.words);
   const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
 
-  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}${data.look === 'pixel' ? ' pixel-look' : ''}"><div class="canvas${data.branded ? ' branded' : ''} tf-${(data.coldOpen && data.coldOpen.font) || 'serif'}" id="cv">
+  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}${data.look === 'pixel' ? ' pixel-look' : ''}"><div class="canvas${data.branded ? ' branded' : ''} tf-${(data.coldOpen && data.coldOpen.font) || 'ig'}" id="cv">
     <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div><div id="wipe"></div>
     <div class="vibe" id="vibe" style="${data.look === 'pixel' ? 'display:none' : ''}">${data.stop !== false ? Array.from({ length: 22 }, (_, k) => `<i class="scrap" style="left:${(k * 211) % 1040}px;top:${(k * 389) % 1880}px;background:${SCRAP_COLORS[k % 4]};transform:rotate(${(k * 47) % 180}deg)"></i>`).join('') : ''}<div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${i % 2 ? 950 : 30}px;top:${340 + ((i * 131) % 420)}px"><img src="${b.logoUrl}"></div>`).join('')}</div>
     ${data.face ? `<div class="facebg" id="fbg"></div><div class="face" id="face"><video class="blurfill" src="${esc(data.face.src)}" muted playsinline preload="auto"></video><video id="fv" class="plain" src="${esc(data.face.src)}" muted playsinline preload="auto"></video>${data.face.cutSrc ? `<video id="fvc" class="cutv" src="${esc(data.face.cutSrc)}" muted playsinline preload="auto"></video>` : ''}</div>` : ''}
-    ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
-    ${data.look === 'pixel' ? data.scenes.map((s, i) => `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>`).join('') : ''}
+    ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg${s.look === 'cinema' ? ' full' : ''}" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
+    ${data.scenes.map((s, i) => (data.look === 'pixel' || s.px) ? `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>` : '').join('')}
     ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;${k.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>` : '').join('')}
     <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
     <div class="caps">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
@@ -496,6 +499,8 @@ window.renderPost = (data) => {
     const nx = data.scenes[i + 1], nTr = nx ? (nx.tr || data.tr || 'push') : 'cut';
     s.out = s.end + (nx && nTr !== 'cut' ? TR_D + 0.04 : 0);
     sceneIn(tl, el, s);
+    // mixed looks inside 1 video (Korede 2026-10-24): scene.look "cinema" = full-bleed bg, smooth 30 fps; scene.px = pixel world for that scene only
+    if (s.look === 'cinema' || s.smooth) window.smoothWin.push([s.t, s.out]);
     const trD = transition(tl, data, i);
     if (s.type === 'person') tl.set('#cv .mark', { opacity: 0 }, s.t).set('#cv .mark', { opacity: 1 }, s.end);
     const px = document.getElementById('px' + i), sp = document.getElementById('sp' + i);
@@ -512,9 +517,9 @@ window.renderPost = (data) => {
       tl.set(sp, { opacity: 1 }, s.t).set(sp, { opacity: 0 }, s.out); tl.fromTo(sp.querySelectorAll('img'), { y: 400 }, { y: 0, duration: 0.3, ease: 'back.out(1.8)', stagger: 0.08, immediateRender: false }, s.t + 0.05); window.sfx.push({ t: s.t + 0.1, kind: 'pop' }); }
     if (data.stop !== false && data.look !== 'pixel') { const c = s.bgc || PALETTE[i % PALETTE.length], k = s.tr === 'up' ? 'y' : 'x';
       if (trD && (s.tr || data.tr || 'push') !== 'fade') tl.set('#wipe', { backgroundColor: c, opacity: 1, x: 0, y: 0, [k]: k === 'y' ? 1920 : 1080 }, s.t).to('#wipe', { [k]: 0, duration: TR_D, ease: 'power3.inOut' }, s.t).set('#wipe', { opacity: 0 }, s.t + TR_D + 0.01);
-      tl.set('#wd', { background: c, opacity: 1 }, s.t + trD).set('#wl', { opacity: 0 }, s.t).set('#cv', { attr: { class: `canvas ${data.branded ? 'branded ' : ''}${LIGHTISH.has(c) ? 'light-on' : 'dark-on'}` } }, s.t); }
+      tl.set('#wd', { background: c, opacity: 1 }, s.t + trD).set('#wl', { opacity: 0 }, s.t).set('#cv', { attr: { class: `canvas ${data.branded ? 'branded ' : ''}tf-${(data.coldOpen && data.coldOpen.font) || 'ig'} ${LIGHTISH.has(c) ? 'light-on' : 'dark-on'}` } }, s.t); }
     const sb = document.getElementById('sb' + i);
-    if (sb && data.stop !== false) tl.set(sb, { rotation: (i % 2 ? 3 : -3) }, s.t);
+    if (sb && data.stop !== false && s.look !== 'cinema') tl.set(sb, { rotation: (i % 2 ? 3 : -3) }, s.t);
     if (sb) { tl.set(sb, { opacity: 1 }, s.t).set(sb, { opacity: 0 }, s.out).fromTo(sb.querySelector('img'), { scale: 1.0 }, { scale: 1.14, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t); }
     const vb = s.b?.bg || s.lb?.bg || s.vb;
     if (vb) tl.set(document.getElementById('vibe'), { '--vb': vb }, s.t);
