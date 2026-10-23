@@ -34,17 +34,17 @@ npm run lint -- --strict              # warnings fail too
 npm run lint -- --json
 ```
 
-Errors (block queueing): em/en dashes, a hyphen used as a dash, exclamation marks, percent signs, banned phrases, "Content Systems.ai" casing, spelled-out numbers, unpermitted client names, caption length, hashtag count, missing CTA keyword on lead posts, invalid `meta.json`.
+Errors (block queueing): em/en dashes, a hyphen used as a dash, exclamation marks, percent signs, banned phrases, "Content Systems.ai" casing, spelled-out numbers, caption length, hashtag count, missing CTA keyword on lead posts, invalid `meta.json`.
 
 Warnings: missing contractions, "one" spelled out, LinkedIn length outside 900 to 1500, motivational closers.
 
-The `## Notes` section of `copy.md` and URLs are never linted. Rules and limits live in `config/style.json`, client names in `config/clients.json`, channels, slots, pillars and statuses in `config/channels.json`.
+The `## Notes` section of `copy.md` and URLs are never linted. Rules and limits live in `config/style.json`, channels, slots, pillars and statuses in `config/channels.json`.
 
 ## Layout
 
 ```
 CLAUDE.md            standing rules
-config/              channels + slots, style rules, client permissions
+config/              channels + slots, style rules
 templates/           static/, carousel/, video/ (HTML/CSS, phase 2)
 scripts/             plan, render, generate, lint, queue, report
 content/<YYYY-Www>/  plan.md + 1 folder per post

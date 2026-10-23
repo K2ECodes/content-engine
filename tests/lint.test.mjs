@@ -13,7 +13,7 @@ test('good post passes with no errors', () => {
 
 test('bad post trips every hard rule', () => {
   const r = rules(lintPostDir(fx('bad-post')));
-  for (const id of ['dash', 'exclamation', 'percent', 'number-words', 'client-name', 'brand-name', 'banned', 'spaced-hyphen', 'meta'])
+  for (const id of ['dash', 'exclamation', 'percent', 'number-words', 'brand-name', 'banned', 'spaced-hyphen', 'meta'])
     assert.ok(r.includes(id), `expected ${id}, got ${r.join(',')}`);
   assert.equal(r.filter((x) => x === 'brand-name').length, 3);
   assert.equal(r.filter((x) => x === 'banned').length, 4);

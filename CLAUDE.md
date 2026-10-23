@@ -22,7 +22,7 @@ Formats: `static`, `carousel`, `video`. Video aspect: 9:16 for IG, 1:1 or 4:5 fo
 - One topic, 3 executions: `proof`, `mistakes`, `checklist`. Batch by topic.
 - About 1 in 3 posts is a lead post with a comment-keyword CTA ("Comment SYSTEMS and I'll send it"). Record the keyword in `meta.json` (`lead: true`, `cta_keyword`). LINT: the keyword must appear in the caption.
 - Don't give full frameworks away. No generic AI tips, no over-teaching. Position authority, attract qualified founders.
-- Never name a client, show a client logo or claim client status without Korede's written permission. Permitted names go in `config/clients.json` with a note on where permission was given. LINT flags every known client name that isn't permitted.
+- Never name a client or show a client logo. Refer to clients by industry and location only: "an e-commerce client we work with, based out of Austin", "a 3PL we work with in New Jersey". Results and numbers are fine, identities never.
 
 ## House style (all LINT, errors unless noted)
 - Zero em dashes and zero en dashes. Use commas, periods, "to" or a middot.

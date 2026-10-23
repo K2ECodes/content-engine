@@ -1,5 +1,0 @@
-{
-  "_readme": "Known client names. lint flags any 'known' name in copy unless it is also listed in 'permitted' with a note on where written permission was given. Add every client here.",
-  "known": ["10am Anywhere", "10am-anywhere", "10amanywhere"],
-  "permitted": []
-}

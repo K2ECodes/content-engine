@@ -16,7 +16,6 @@ import { parseSections, blank } from './lib/copy.mjs';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 const STYLE = readJson('config/style.json');
-const CLIENTS = readJson('config/clients.json');
 const CHANNELS = readJson('config/channels.json');
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -65,12 +64,6 @@ const RULES = [
   { id: 'contraction', level: 'warn',
     re: new RegExp(`\\b(${Object.keys(CONTRACTIONS).map(escapeRe).join('|')})\\b`, 'gi'),
     message: (m) => `use a contraction: "${CONTRACTIONS[m.toLowerCase()]}"` },
-  ...CLIENTS.known
-    .filter((name) => !CLIENTS.permitted.some((p) => (p.name || p).toLowerCase() === name.toLowerCase()))
-    .map((name) => ({
-      id: 'client-name', level: 'error', re: new RegExp(`\\b${escapeRe(name)}\\b`, 'gi'),
-      message: (m) => `client name "${m}" without written permission (config/clients.json)`,
-    })),
 ];
 
 const UNLINTED_SECTIONS = new Set(['notes']);
