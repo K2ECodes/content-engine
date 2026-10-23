@@ -1,0 +1,49 @@
+{
+  "_readme": "Every post ends with exactly 1 CTA from this list (meta.json cta_type). The goal is capturing information: comments, form fills, bookings, sign-ups. Instagram captions can't link, so IG uses 'link in bio' or a comment keyword.",
+  "ctas": {
+    "comment-keyword": {
+      "label": "Comment KEYWORD, we DM the freebie",
+      "captures": "comment + DM thread, then email when we send the freebie",
+      "share": "about 1 in 3 posts"
+    },
+    "free-quote": {
+      "label": "Free quote with your top AI opportunities",
+      "urls": { "logistics": "https://contentsystems.ai/logistics", "ecommerce": "https://contentsystems.ai/ecommerce" },
+      "captures": "name, company, work email, phone, WMS, orders per day, pain points"
+    },
+    "calculator": {
+      "label": "Lost-revenue / hidden-cost calculator, then free quote",
+      "urls": { "logistics": "https://contentsystems.ai/logistics", "ecommerce": "https://contentsystems.ai/ecommerce" },
+      "captures": "same form as free-quote, warmer intent"
+    },
+    "call": {
+      "label": "Book a 30 minute conversation",
+      "url": "https://calendly.com/contentsystems/30min",
+      "captures": "name, email, booked call"
+    },
+    "office-hours": {
+      "label": "Free group office hours, bring your bottleneck",
+      "url": "https://contentsystems.ai/office-hours",
+      "captures": "name, email, the bottleneck"
+    },
+    "newsletter": {
+      "label": "Newsletter sign-up",
+      "url": "https://contentsystems.ai",
+      "captures": "email",
+      "note": "Form lives in the site footer. A dedicated /newsletter page would convert better."
+    },
+    "workshop": {
+      "label": "The AI Employee Accelerator, live on Zoom",
+      "url": "https://contentsystems.ai/workshop",
+      "date": "2026-11-01T11:00",
+      "timezone": "America/New_York",
+      "price": "$97 GA, $197 VIP",
+      "captures": "paid registration",
+      "share": "2 to 3 posts per channel per week while a date is open"
+    }
+  },
+  "leadMagnets": {
+    "_readme": "Freebies promised by comment-keyword posts. status 'to-build' means it must exist before the post is approved.",
+    "items": []
+  }
+}

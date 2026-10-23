@@ -7,7 +7,7 @@ Content Systems.ai maps 3 decisions your team makes by hand every day, then buil
 
 Comment SYSTEMS and I'll send the 1-page map.
 
-#logistics #3PL #ecommerce
+#logistics #3PL #ecommerce #supplychain #warehouse
 
 ## Notes
 Visit https://contentsystems.ai/?utm=100%25 for more.

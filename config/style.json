@@ -1,16 +1,45 @@
 {
   "bannedPhrases": [
-    { "phrase": "purpose-led" },
-    { "phrase": "human-first" },
-    { "phrase": "responsible AI" },
-    { "phrase": "second brain", "suggest": "company brain" },
-    { "phrase": "AI consulting firm" },
-    { "phrase": "AI agency" }
+    {
+      "phrase": "purpose-led"
+    },
+    {
+      "phrase": "human-first"
+    },
+    {
+      "phrase": "responsible AI"
+    },
+    {
+      "phrase": "second brain",
+      "suggest": "company brain"
+    },
+    {
+      "phrase": "AI consulting firm"
+    },
+    {
+      "phrase": "AI agency"
+    }
   ],
   "limits": {
-    "li-personal": { "maxChars": 3000, "targetMin": 900, "targetMax": 1500, "maxHashtags": 3 },
-    "li-company": { "maxChars": 3000, "targetMin": 900, "targetMax": 1500, "maxHashtags": 3 },
-    "ig-company": { "maxChars": 2200, "maxHashtags": 5 }
+    "li-personal": {
+      "maxChars": 3000,
+      "targetMin": 900,
+      "targetMax": 1500,
+      "maxHashtags": 15,
+      "minHashtags": 10
+    },
+    "li-company": {
+      "maxChars": 3000,
+      "targetMin": 900,
+      "targetMax": 1500,
+      "maxHashtags": 15,
+      "minHashtags": 10
+    },
+    "ig-company": {
+      "maxChars": 2200,
+      "maxHashtags": 5,
+      "minHashtags": 5
+    }
   },
   "motivationalCloserPatterns": [
     "you've got this",

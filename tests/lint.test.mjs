@@ -39,7 +39,7 @@ test('caption over limit and too many hashtags fail', async () => {
   const os = await import('node:os');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'lint-'));
   fs.writeFileSync(path.join(dir, 'copy.md'), `## Caption\n${'a '.repeat(1600)}\n#a #b #c #d\n`);
-  fs.writeFileSync(path.join(dir, 'meta.json'), JSON.stringify({ channel: 'li-company', format: 'static', pillar: 'case-studies', execution: 'proof', topic: 't', lead: false, slot: '2026-10-26T12:00', timezone: 'America/New_York', status: 'draft' }));
+  fs.writeFileSync(path.join(dir, 'meta.json'), JSON.stringify({ channel: 'li-company', format: 'static', pillar: 'case-studies', execution: 'proof', topic: 't', lead: false, cta_type: 'call', slot: '2026-10-26T12:00', timezone: 'America/New_York', status: 'draft' }));
   const r = rules(lintPostDir(dir));
   assert.ok(r.includes('length') && r.includes('hashtags'), r.join(','));
 });

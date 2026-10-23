@@ -118,6 +118,7 @@ function lintCaption(caption, meta, file) {
 
   const tags = hashtags(caption).length;
   if (tags > limits.maxHashtags) push('error', 'hashtags', `${tags} hashtags, max ${limits.maxHashtags} on ${meta.channel}`);
+  if (limits.minHashtags && tags < limits.minHashtags) push('error', 'hashtags', `${tags} hashtags, min ${limits.minHashtags} on ${meta.channel}`);
 
   if (meta.lead) {
     if (!meta.cta_keyword) push('error', 'cta', 'lead post without cta_keyword in meta.json');
@@ -138,7 +139,7 @@ function lintCaption(caption, meta, file) {
   return issues;
 }
 
-const REQUIRED_META = ['channel', 'format', 'pillar', 'execution', 'topic', 'lead', 'slot', 'timezone', 'status'];
+const REQUIRED_META = ['channel', 'format', 'pillar', 'execution', 'topic', 'lead', 'cta_type', 'slot', 'timezone', 'status'];
 const FORMATS = ['static', 'carousel', 'video'];
 
 function lintMeta(meta, file) {
@@ -149,6 +150,8 @@ function lintMeta(meta, file) {
   if (meta.format && !FORMATS.includes(meta.format)) push(`unknown format "${meta.format}"`);
   if (meta.pillar && !CHANNELS.pillars.includes(meta.pillar)) push(`unknown pillar "${meta.pillar}"`);
   if (meta.execution && !CHANNELS.executions.includes(meta.execution)) push(`unknown execution "${meta.execution}"`);
+  if (meta.cta_type && !CHANNELS.ctaTypes.includes(meta.cta_type)) push(`unknown cta_type "${meta.cta_type}"`);
+  if (meta.lead && meta.cta_type && meta.cta_type !== 'comment-keyword') push('lead posts use cta_type "comment-keyword"');
   if (meta.status && !CHANNELS.statuses.includes(meta.status)) push(`unknown status "${meta.status}"`);
   if (meta.slot && !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(meta.slot)) push(`slot "${meta.slot}" must be local YYYY-MM-DDTHH:mm`);
   if (meta.timezone && meta.timezone !== CHANNELS.timezone) push(`timezone must be ${CHANNELS.timezone}`);
