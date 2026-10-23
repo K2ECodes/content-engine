@@ -9,3 +9,15 @@ node_modules/
 # render scratch
 .cache/
 tmp/
+
+# Rendered media stays local (repo size). Scripts, copy, configs, render.json and stills stay tracked.
+content/**/*.mp4
+content/**/*.webm
+content/**/*.wav
+content/**/*.mp3
+content/**/talk/
+content/**/old/
+hyperframes/**/renders/
+hyperframes/**/node_modules/
+assets/talking-head/natural-frames/
+tmp/
