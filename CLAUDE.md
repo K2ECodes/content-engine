@@ -3,7 +3,7 @@
 Plans, produces and queues social content for Content Systems.ai. Owner: Korede Kolawole (co-founder, CTO). Read this before every session. Rules marked LINT are enforced by `npm run lint`; a post that fails lint never gets queued.
 
 ## Company
-- Pronunciation: "Content" in Content Systems.ai is said CUHN-tent (Korede: 'cuhhntent systems'). In every TTS / `say` field write "Kuhn-tent Systems dot A I"; captions and copy keep "Content Systems.ai".
+- Pronunciation: "Content" in Content Systems.ai is said "cuhntent" (Korede picked spelling D by ear on 2026-10-23: write "Cunntent" in TTS text). In every TTS / `say` field write "Cunntent Systems dot A I"; captions and copy keep "Content Systems.ai".
 - Content Systems.ai builds AI systems and phased AI transformations for logistics/3PL companies and e-commerce brands, plus AI education (workshops, webinars) for business owners.
 - Goal: the go-to name and thought leader in AI for logistics and e-commerce.
 - Tagline: "Purposeful Systems. Lasting Contentment."

@@ -48,11 +48,11 @@
   {
    "w": "same",
    "start": 2.13,
-   "end": 2.43
+   "end": 2.41
   },
   {
    "w": "AI",
-   "start": 2.43,
+   "start": 2.41,
    "end": 2.69
   },
   {
@@ -68,7 +68,7 @@
   {
    "w": "month.",
    "start": 3.13,
-   "end": 3.35
+   "end": 3.37
   },
   {
    "w": "Here's",
@@ -102,12 +102,12 @@
   },
   {
    "w": "Anthropic's",
-   "start": 4.95,
-   "end": 5.43
+   "start": 4.93,
+   "end": 5.41
   },
   {
    "w": "new",
-   "start": 5.43,
+   "start": 5.41,
    "end": 5.53
   },
   {
@@ -158,11 +158,11 @@
   {
    "w": "always",
    "start": 8.21,
-   "end": 8.71
+   "end": 8.69
   },
   {
    "w": "needs",
-   "start": 8.71,
+   "start": 8.69,
    "end": 8.97
   },
   {
@@ -293,11 +293,11 @@
   {
    "w": "in",
    "start": 16.17,
-   "end": 16.41
+   "end": 16.39
   },
   {
    "w": "without",
-   "start": 16.41,
+   "start": 16.39,
    "end": 16.61
   },
   {
@@ -362,32 +362,32 @@
   },
   {
    "w": "And",
-   "start": 20.59,
-   "end": 20.69
+   "start": 20.57,
+   "end": 20.71
   },
   {
    "w": "Microsoft",
-   "start": 20.69,
+   "start": 20.71,
    "end": 20.95
   },
   {
    "w": "says",
    "start": 20.95,
-   "end": 21.33
+   "end": 21.35
   },
   {
    "w": "to",
-   "start": 21.33,
+   "start": 21.35,
    "end": 21.51
   },
   {
    "w": "watch",
    "start": 21.51,
-   "end": 21.75
+   "end": 21.73
   },
   {
    "w": "AI",
-   "start": 21.75,
+   "start": 21.73,
    "end": 22.07
   },
   {
@@ -438,26 +438,26 @@
   {
    "w": "AI",
    "start": 24.21,
-   "end": 24.49
+   "end": 24.51
   },
   {
    "w": "helper",
-   "start": 24.49,
+   "start": 24.51,
    "end": 24.81
   },
   {
    "w": "only",
    "start": 24.81,
-   "end": 25.25
+   "end": 25.19
   },
   {
    "w": "the",
-   "start": 25.25,
-   "end": 25.41
+   "start": 25.19,
+   "end": 25.37
   },
   {
    "w": "access",
-   "start": 25.41,
+   "start": 25.37,
    "end": 25.67
   },
   {
@@ -468,177 +468,177 @@
   {
    "w": "job",
    "start": 25.89,
-   "end": 26.13
+   "end": 26.15
   },
   {
    "w": "needs.",
-   "start": 26.13,
-   "end": 26.39
+   "start": 26.15,
+   "end": 26.43
   },
   {
    "w": "AI",
-   "start": 26.77,
-   "end": 27.03
+   "start": 26.73,
+   "end": 26.95
   },
   {
    "w": "does",
-   "start": 27.03,
-   "end": 27.29
+   "start": 26.95,
+   "end": 27.17
   },
   {
    "w": "the",
-   "start": 27.29,
-   "end": 27.43
+   "start": 27.17,
+   "end": 27.31
   },
   {
    "w": "work.",
-   "start": 27.43,
-   "end": 27.63
+   "start": 27.31,
+   "end": 27.53
   },
   {
    "w": "A",
-   "start": 27.93,
-   "end": 28.03
+   "start": 27.87,
+   "end": 27.97
   },
   {
    "w": "person",
-   "start": 28.03,
-   "end": 28.27
+   "start": 27.97,
+   "end": 28.21
   },
   {
    "w": "owns",
-   "start": 28.27,
-   "end": 28.55
+   "start": 28.21,
+   "end": 28.47
   },
   {
    "w": "the",
-   "start": 28.55,
-   "end": 28.71
+   "start": 28.47,
+   "end": 28.63
   },
   {
    "w": "yes.",
-   "start": 28.71,
-   "end": 28.93
+   "start": 28.63,
+   "end": 28.85
   },
   {
    "w": "Every",
-   "start": 28.93,
-   "end": 29.63
+   "start": 28.85,
+   "end": 29.41
   },
   {
    "w": "system",
-   "start": 29.63,
-   "end": 29.95
+   "start": 29.41,
+   "end": 29.69
   },
   {
    "w": "we",
-   "start": 29.95,
-   "end": 30.13
+   "start": 29.69,
+   "end": 29.85
   },
   {
    "w": "build",
-   "start": 30.13,
-   "end": 30.37
+   "start": 29.85,
+   "end": 30.09
   },
   {
    "w": "at",
-   "start": 30.37,
-   "end": 30.51
+   "start": 30.09,
+   "end": 30.21
   },
   {
    "w": "Content",
-   "start": 30.51,
-   "end": 31.03
+   "start": 30.21,
+   "end": 30.86
   },
   {
    "w": "Systems.ai",
-   "start": 31.03,
-   "end": 31.97
+   "start": 30.86,
+   "end": 31.51
   },
   {
    "w": "starts",
-   "start": 31.97,
-   "end": 32.47
+   "start": 31.51,
+   "end": 32.05
   },
   {
    "w": "there.",
-   "start": 32.47,
-   "end": 32.79
+   "start": 32.05,
+   "end": 32.35
   },
   {
    "w": "We'll",
-   "start": 33.07,
-   "end": 33.21
+   "start": 32.77,
+   "end": 32.91
   },
   {
    "w": "set",
-   "start": 33.21,
-   "end": 33.33
+   "start": 32.91,
+   "end": 33.03
   },
   {
    "w": "this",
-   "start": 33.33,
-   "end": 33.49
+   "start": 33.03,
+   "end": 33.21
   },
   {
    "w": "up",
-   "start": 33.49,
-   "end": 33.65
+   "start": 33.21,
+   "end": 33.35
   },
   {
    "w": "live",
-   "start": 33.65,
-   "end": 33.85
+   "start": 33.35,
+   "end": 33.55
   },
   {
    "w": "this",
-   "start": 33.85,
-   "end": 34.09
+   "start": 33.55,
+   "end": 33.81
   },
   {
    "w": "Sunday",
-   "start": 34.09,
-   "end": 34.37
+   "start": 33.81,
+   "end": 34.09
   },
   {
    "w": "at",
-   "start": 34.37,
-   "end": 34.61
+   "start": 34.09,
+   "end": 34.31
   },
   {
    "w": "11",
-   "start": 34.61,
-   "end": 34.93
+   "start": 34.31,
+   "end": 34.63
   },
   {
    "w": "AM",
-   "start": 34.93,
-   "end": 35.47
+   "start": 34.63,
+   "end": 35.17
   },
   {
    "w": "Eastern.",
-   "start": 35.57,
-   "end": 35.77
+   "start": 35.21,
+   "end": 35.49
   },
   {
    "w": "It's",
-   "start": 36.17,
-   "end": 36.37
+   "start": 35.77,
+   "end": 35.91
   },
   {
    "w": "in",
-   "start": 36.37,
-   "end": 36.43
+   "start": 35.91,
+   "end": 35.99
   },
   {
    "w": "our",
-   "start": 36.43,
-   "end": 36.53
+   "start": 35.99,
+   "end": 36.07
   },
   {
    "w": "profile.",
-   "start": 36.53,
-   "end": 36.79
+   "start": 36.07,
+   "end": 36.35
   }
  ],
  "text": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday at 11 AM Eastern. It's in our profile."

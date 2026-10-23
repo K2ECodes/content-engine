@@ -37,12 +37,12 @@
   },
   {
    "w": "The",
-   "start": 2.86,
-   "end": 2.92
+   "start": 2.8,
+   "end": 2.94
   },
   {
    "w": "tool",
-   "start": 2.92,
+   "start": 2.94,
    "end": 3.12
   },
   {
@@ -63,11 +63,11 @@
   {
    "w": "The",
    "start": 4.12,
-   "end": 4.24
+   "end": 4.26
   },
   {
    "w": "rollout",
-   "start": 4.24,
+   "start": 4.26,
    "end": 4.68
   },
   {
@@ -113,31 +113,31 @@
   {
    "w": "start",
    "start": 7.0,
-   "end": 7.34
+   "end": 7.32
   },
   {
    "w": "small.",
-   "start": 7.34,
+   "start": 7.32,
    "end": 7.68
   },
   {
    "w": "Uber",
    "start": 8.12,
-   "end": 8.28
+   "end": 8.3
   },
   {
    "w": "ran",
-   "start": 8.28,
+   "start": 8.3,
    "end": 8.52
   },
   {
    "w": "a",
    "start": 8.52,
-   "end": 8.6
+   "end": 8.62
   },
   {
    "w": "pilot",
-   "start": 8.6,
+   "start": 8.62,
    "end": 8.88
   },
   {
@@ -168,16 +168,16 @@
   {
    "w": "8",
    "start": 10.38,
-   "end": 10.64
+   "end": 10.66
   },
   {
    "w": "in",
-   "start": 10.64,
-   "end": 10.8
+   "start": 10.66,
+   "end": 10.78
   },
   {
    "w": "10",
-   "start": 10.8,
+   "start": 10.78,
    "end": 11.0
   },
   {
@@ -203,16 +203,16 @@
   {
    "w": "So",
    "start": 12.46,
-   "end": 12.64
+   "end": 12.62
   },
   {
    "w": "don't",
-   "start": 12.64,
-   "end": 12.9
+   "start": 12.62,
+   "end": 12.94
   },
   {
    "w": "just",
-   "start": 12.9,
+   "start": 12.94,
    "end": 13.06
   },
   {
@@ -228,382 +228,382 @@
   {
    "w": "to",
    "start": 13.6,
-   "end": 13.86
+   "end": 13.84
   },
   {
    "w": "your",
-   "start": 13.86,
-   "end": 13.98
+   "start": 13.84,
+   "end": 13.94
   },
   {
    "w": "tech",
-   "start": 13.98,
-   "end": 14.12
+   "start": 13.94,
+   "end": 14.1
   },
   {
    "w": "person.",
-   "start": 14.12,
-   "end": 14.44
+   "start": 14.1,
+   "end": 14.42
   },
   {
    "w": "Give",
-   "start": 14.7,
-   "end": 14.8
+   "start": 14.72,
+   "end": 14.82
   },
   {
    "w": "it",
-   "start": 14.8,
-   "end": 14.9
+   "start": 14.82,
+   "end": 14.92
   },
   {
    "w": "to",
-   "start": 14.9,
-   "end": 14.98
+   "start": 14.92,
+   "end": 15.02
   },
   {
    "w": "ops.",
-   "start": 14.98,
+   "start": 15.02,
    "end": 15.26
   },
   {
    "w": "Step",
-   "start": 15.76,
-   "end": 15.94
+   "start": 15.66,
+   "end": 15.82
   },
   {
    "w": "2,",
-   "start": 15.94,
-   "end": 16.22
+   "start": 15.82,
+   "end": 16.08
   },
   {
    "w": "sit",
-   "start": 16.64,
-   "end": 16.76
+   "start": 16.38,
+   "end": 16.5
   },
   {
    "w": "next",
-   "start": 16.76,
-   "end": 16.96
+   "start": 16.5,
+   "end": 16.68
   },
   {
    "w": "to",
-   "start": 16.96,
-   "end": 17.14
+   "start": 16.68,
+   "end": 16.86
   },
   {
    "w": "each",
-   "start": 17.14,
-   "end": 17.36
+   "start": 16.86,
+   "end": 17.04
   },
   {
    "w": "team",
-   "start": 17.36,
-   "end": 17.6
+   "start": 17.04,
+   "end": 17.28
   },
   {
    "w": "for",
-   "start": 17.6,
-   "end": 17.78
+   "start": 17.28,
+   "end": 17.46
   },
   {
    "w": "2",
-   "start": 17.78,
-   "end": 17.98
+   "start": 17.46,
+   "end": 17.66
   },
   {
    "w": "weeks.",
-   "start": 17.98,
-   "end": 18.22
+   "start": 17.66,
+   "end": 17.9
   },
   {
    "w": "Uber",
-   "start": 18.64,
-   "end": 18.86
+   "start": 18.18,
+   "end": 18.38
   },
   {
    "w": "paired",
-   "start": 18.86,
-   "end": 19.16
+   "start": 18.38,
+   "end": 18.64
   },
   {
    "w": "30",
-   "start": 19.16,
-   "end": 19.52
+   "start": 18.64,
+   "end": 18.98
   },
   {
    "w": "AI",
-   "start": 19.52,
-   "end": 19.88
+   "start": 18.98,
+   "end": 19.3
   },
   {
    "w": "engineers",
-   "start": 19.88,
-   "end": 20.18
+   "start": 19.3,
+   "end": 19.68
   },
   {
    "w": "with",
-   "start": 20.18,
-   "end": 20.5
+   "start": 19.68,
+   "end": 19.98
   },
   {
    "w": "teams",
-   "start": 20.5,
-   "end": 20.78
+   "start": 19.98,
+   "end": 20.24
   },
   {
    "w": "to",
-   "start": 20.78,
-   "end": 21.14
+   "start": 20.24,
+   "end": 20.46
   },
   {
    "w": "find",
-   "start": 21.14,
-   "end": 21.3
+   "start": 20.46,
+   "end": 20.7
   },
   {
    "w": "the",
-   "start": 21.3,
-   "end": 21.42
+   "start": 20.7,
+   "end": 20.82
   },
   {
    "w": "boring",
-   "start": 21.42,
-   "end": 21.62
+   "start": 20.82,
+   "end": 21.06
   },
   {
    "w": "work.",
-   "start": 21.62,
-   "end": 21.86
+   "start": 21.06,
+   "end": 21.34
   },
   {
    "w": "Step",
-   "start": 22.16,
-   "end": 22.32
+   "start": 21.64,
+   "end": 21.82
   },
   {
    "w": "3,",
-   "start": 22.32,
-   "end": 22.62
+   "start": 21.82,
+   "end": 22.1
   },
   {
    "w": "automate",
-   "start": 23.06,
-   "end": 23.38
+   "start": 22.52,
+   "end": 22.8
   },
   {
    "w": "that",
-   "start": 23.38,
-   "end": 23.54
+   "start": 22.8,
+   "end": 22.96
   },
   {
    "w": "first.",
-   "start": 23.54,
-   "end": 23.84
+   "start": 22.96,
+   "end": 23.2
   },
   {
    "w": "Data",
-   "start": 24.28,
-   "end": 24.44
+   "start": 23.6,
+   "end": 23.74
   },
   {
    "w": "reports,",
-   "start": 24.44,
-   "end": 24.8
+   "start": 23.74,
+   "end": 24.1
   },
   {
    "w": "training",
-   "start": 25.16,
-   "end": 25.46
+   "start": 24.44,
+   "end": 24.74
   },
   {
    "w": "in",
-   "start": 25.46,
-   "end": 25.6
+   "start": 24.74,
+   "end": 24.9
   },
   {
    "w": "new",
-   "start": 25.6,
-   "end": 25.7
+   "start": 24.9,
+   "end": 25.04
   },
   {
    "w": "languages,",
-   "start": 25.7,
-   "end": 26.08
+   "start": 25.04,
+   "end": 25.4
   },
   {
    "w": "dashboards.",
-   "start": 26.56,
-   "end": 27.12
+   "start": 25.9,
+   "end": 26.38
   },
   {
    "w": "Then",
-   "start": 27.6,
-   "end": 27.84
+   "start": 26.68,
+   "end": 26.86
   },
   {
    "w": "scale.",
-   "start": 27.84,
-   "end": 28.16
+   "start": 26.86,
+   "end": 27.2
   },
   {
    "w": "Buying",
-   "start": 28.54,
-   "end": 28.74
+   "start": 27.8,
+   "end": 28.06
   },
   {
    "w": "licenses",
-   "start": 28.74,
-   "end": 29.16
+   "start": 28.06,
+   "end": 28.44
   },
   {
    "w": "and",
-   "start": 29.16,
-   "end": 29.48
+   "start": 28.44,
+   "end": 28.7
   },
   {
    "w": "sending",
-   "start": 29.48,
-   "end": 29.72
+   "start": 28.7,
+   "end": 28.92
   },
   {
    "w": "a",
-   "start": 29.72,
-   "end": 29.86
+   "start": 28.92,
+   "end": 29.06
   },
   {
    "w": "login",
-   "start": 29.86,
-   "end": 30.12
+   "start": 29.06,
+   "end": 29.36
   },
   {
    "w": "isn't",
-   "start": 30.12,
-   "end": 30.7
+   "start": 29.36,
+   "end": 29.78
   },
   {
    "w": "a",
-   "start": 30.7,
-   "end": 30.72
+   "start": 29.78,
+   "end": 29.86
   },
   {
    "w": "rollout.",
-   "start": 30.72,
-   "end": 31.12
+   "start": 29.86,
+   "end": 30.24
   },
   {
    "w": "This",
-   "start": 31.48,
-   "end": 31.58
+   "start": 30.56,
+   "end": 30.66
   },
   {
    "w": "is",
-   "start": 31.58,
-   "end": 31.7
+   "start": 30.66,
+   "end": 30.78
   },
   {
    "w": "how",
-   "start": 31.7,
-   "end": 31.8
+   "start": 30.78,
+   "end": 30.88
   },
   {
    "w": "we",
-   "start": 31.8,
-   "end": 31.92
+   "start": 30.88,
+   "end": 31.0
   },
   {
    "w": "roll",
-   "start": 31.92,
-   "end": 32.1
+   "start": 31.0,
+   "end": 31.18
   },
   {
    "w": "out",
-   "start": 32.1,
-   "end": 32.26
+   "start": 31.18,
+   "end": 31.36
   },
   {
    "w": "AI",
-   "start": 32.26,
-   "end": 32.5
+   "start": 31.36,
+   "end": 31.62
   },
   {
    "w": "at",
-   "start": 32.5,
-   "end": 32.86
+   "start": 31.62,
+   "end": 31.98
   },
   {
    "w": "Content",
-   "start": 32.86,
-   "end": 33.63
+   "start": 31.98,
+   "end": 32.65
   },
   {
    "w": "Systems.ai.",
-   "start": 33.63,
-   "end": 34.4
+   "start": 32.65,
+   "end": 33.32
   },
   {
    "w": "Bring",
-   "start": 34.94,
-   "end": 35.1
+   "start": 33.72,
+   "end": 33.84
   },
   {
    "w": "your",
-   "start": 35.1,
-   "end": 35.24
+   "start": 33.84,
+   "end": 33.98
   },
   {
    "w": "biggest",
-   "start": 35.24,
-   "end": 35.54
+   "start": 33.98,
+   "end": 34.26
   },
   {
    "w": "bottleneck",
-   "start": 35.54,
-   "end": 36.14
+   "start": 34.26,
+   "end": 34.82
   },
   {
    "w": "to",
-   "start": 36.14,
-   "end": 36.24
+   "start": 34.82,
+   "end": 34.94
   },
   {
    "w": "our",
-   "start": 36.24,
-   "end": 36.34
+   "start": 34.94,
+   "end": 35.06
   },
   {
    "w": "free",
-   "start": 36.34,
-   "end": 36.6
+   "start": 35.06,
+   "end": 35.3
   },
   {
    "w": "office",
-   "start": 36.6,
-   "end": 36.84
+   "start": 35.3,
+   "end": 35.58
   },
   {
    "w": "hours.",
-   "start": 36.84,
-   "end": 37.14
+   "start": 35.58,
+   "end": 35.86
   },
   {
    "w": "It's",
-   "start": 37.54,
-   "end": 37.64
+   "start": 36.24,
+   "end": 36.36
   },
   {
    "w": "in",
-   "start": 37.64,
-   "end": 37.72
+   "start": 36.36,
+   "end": 36.42
   },
   {
    "w": "our",
-   "start": 37.72,
-   "end": 37.82
+   "start": 36.42,
+   "end": 36.52
   },
   {
    "w": "bio.",
-   "start": 37.82,
-   "end": 38.04
+   "start": 36.52,
+   "end": 36.74
   }
  ],
  "text": "Uber just gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it. Step 1, start small. Uber ran a pilot with about 1,000 people, and 8 in 10 of them weren't engineers. So don't just hand AI to your tech person. Give it to ops. Step 2, sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work. Step 3, automate that first. Data reports, training in new languages, dashboards. Then scale. Buying licenses and sending a login isn't a rollout. This is how we roll out AI at Content Systems.ai. Bring your biggest bottleneck to our free office hours. It's in our bio."

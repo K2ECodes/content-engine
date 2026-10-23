@@ -29,7 +29,7 @@ Animated story reel voiced by Korede: a TechCrunch article on Microsoft calling 
 
 ## Notes
 - Sources: TechCrunch, "Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'", Julie Bort, Oct 19 2026 (https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/). 3 screenshots of that article in shots/ (headline, insider-threat paragraph, Nadella quote plus Defender and approval features), credited here.
-- Voice: Korede's instant clone via HeyGen free speech (audio/vo.wav), no lip-sync tonight. TTS says "Kun-TENT Systems dot A I" (con-TENT); captions keep Content Systems.ai. No stills or cutouts of Korede in the video: his moving green-screen take comes after the kie top-up.
+- Voice: Korede's instant clone via HeyGen free speech (audio/vo.wav), no lip-sync tonight. TTS says "Cunntent Systems dot A I" (Korede's pick by ear, 2026-10-23; was "Kun-TENT"/"Kuhn-tent") (con-TENT); captions keep Content Systems.ai. No stills or cutouts of Korede in the video: his moving green-screen take comes after the kie top-up.
 - Talking head pending kie.ai top-up: swap to `node scripts/heygen.mjs kie-plate` (data.heygen.say is ready in render.json).
 - Music: kie Suno V6 dark rage-trap bed, audio/music.mp3 at 0.07 (alt take music-2.mp3). $0.06.
 - CTA: workshop (plan row Tue 08:00). li-personal mix post, mentions Content Systems.ai.

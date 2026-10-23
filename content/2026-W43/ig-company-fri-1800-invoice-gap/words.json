@@ -23,11 +23,11 @@
   {
    "w": "work.",
    "start": 0.94,
-   "end": 1.16
+   "end": 1.14
   },
   {
    "w": "So",
-   "start": 1.54,
+   "start": 1.56,
    "end": 1.72
   },
   {
@@ -58,11 +58,11 @@
   {
    "w": "the",
    "start": 3.24,
-   "end": 3.36
+   "end": 3.34
   },
   {
    "w": "invoice?",
-   "start": 3.36,
+   "start": 3.34,
    "end": 3.54
   },
   {
@@ -102,7 +102,7 @@
   },
   {
    "w": "storage",
-   "start": 6.34,
+   "start": 6.54,
    "end": 6.72
   },
   {
@@ -168,42 +168,42 @@
   {
    "w": "days",
    "start": 9.48,
-   "end": 9.74
+   "end": 9.76
   },
   {
    "w": "and",
-   "start": 9.74,
-   "end": 10.16
+   "start": 10.14,
+   "end": 10.24
   },
   {
    "w": "check",
-   "start": 10.16,
-   "end": 10.36
+   "start": 10.24,
+   "end": 10.42
   },
   {
    "w": "it's",
-   "start": 10.36,
-   "end": 10.56
+   "start": 10.42,
+   "end": 10.6
   },
   {
    "w": "on",
-   "start": 10.56,
-   "end": 10.64
+   "start": 10.6,
+   "end": 10.68
   },
   {
    "w": "this",
-   "start": 10.64,
-   "end": 10.8
+   "start": 10.68,
+   "end": 10.82
   },
   {
    "w": "month's",
-   "start": 10.8,
+   "start": 10.82,
    "end": 11.14
   },
   {
    "w": "bill.",
    "start": 11.14,
-   "end": 11.26
+   "end": 11.24
   },
   {
    "w": "Second,",
@@ -212,383 +212,383 @@
   },
   {
    "w": "special",
-   "start": 12.52,
-   "end": 12.68
+   "start": 12.56,
+   "end": 12.72
   },
   {
    "w": "handling.",
-   "start": 12.68,
-   "end": 13.08
+   "start": 12.72,
+   "end": 13.12
   },
   {
    "w": "Relabels,",
-   "start": 13.64,
-   "end": 14.12
+   "start": 13.78,
+   "end": 14.22
   },
   {
    "w": "reboxing,",
-   "start": 14.42,
-   "end": 14.8
+   "start": 14.4,
+   "end": 14.76
   },
   {
    "w": "anything",
    "start": 15.3,
-   "end": 15.56
+   "end": 15.52
   },
   {
    "w": "the",
-   "start": 15.56,
-   "end": 15.78
+   "start": 15.52,
+   "end": 15.76
   },
   {
    "w": "floor",
-   "start": 15.78,
-   "end": 15.96
+   "start": 15.76,
+   "end": 15.92
   },
   {
    "w": "touched",
-   "start": 15.96,
-   "end": 16.24
+   "start": 15.92,
+   "end": 16.16
   },
   {
    "w": "twice.",
-   "start": 16.24,
-   "end": 16.54
+   "start": 16.16,
+   "end": 16.46
   },
   {
    "w": "Ask",
-   "start": 17.06,
-   "end": 17.26
+   "start": 16.88,
+   "end": 17.08
   },
   {
    "w": "your",
-   "start": 17.26,
-   "end": 17.42
+   "start": 17.08,
+   "end": 17.24
   },
   {
    "w": "shift",
-   "start": 17.42,
-   "end": 17.6
+   "start": 17.24,
+   "end": 17.4
   },
   {
    "w": "leads",
-   "start": 17.6,
-   "end": 17.82
+   "start": 17.4,
+   "end": 17.6
   },
   {
    "w": "for",
-   "start": 17.82,
-   "end": 18.02
+   "start": 17.6,
+   "end": 17.78
   },
   {
    "w": "that",
-   "start": 18.02,
-   "end": 18.16
+   "start": 17.78,
+   "end": 17.92
   },
   {
    "w": "list",
-   "start": 18.16,
-   "end": 18.38
+   "start": 17.92,
+   "end": 18.14
   },
   {
    "w": "every",
-   "start": 18.38,
-   "end": 18.64
+   "start": 18.14,
+   "end": 18.34
   },
   {
    "w": "Friday.",
-   "start": 18.64,
-   "end": 18.92
+   "start": 18.34,
+   "end": 18.62
   },
   {
    "w": "Third,",
-   "start": 19.34,
-   "end": 19.54
+   "start": 19.08,
+   "end": 19.36
   },
   {
    "w": "jobs",
+   "start": 19.86,
+   "end": 20.04
+  },
+  {
+   "w": "quoted",
    "start": 20.04,
    "end": 20.32
   },
   {
-   "w": "quoted",
-   "start": 20.32,
-   "end": 20.62
-  },
-  {
    "w": "by",
-   "start": 20.62,
-   "end": 20.84
+   "start": 20.32,
+   "end": 20.5
   },
   {
    "w": "email.",
-   "start": 20.84,
-   "end": 21.1
+   "start": 20.5,
+   "end": 20.74
   },
   {
    "w": "Kitting",
-   "start": 21.74,
-   "end": 22.02
+   "start": 21.48,
+   "end": 21.8
   },
   {
    "w": "and",
-   "start": 22.02,
-   "end": 22.18
+   "start": 21.8,
+   "end": 21.96
   },
   {
    "w": "rush",
-   "start": 22.18,
-   "end": 22.36
+   "start": 21.96,
+   "end": 22.14
   },
   {
    "w": "work",
-   "start": 22.36,
-   "end": 22.58
+   "start": 22.14,
+   "end": 22.38
   },
   {
    "w": "agreed",
-   "start": 22.58,
-   "end": 22.84
+   "start": 22.38,
+   "end": 22.6
   },
   {
    "w": "by",
-   "start": 22.84,
-   "end": 23.04
+   "start": 22.6,
+   "end": 22.82
   },
   {
    "w": "email",
-   "start": 23.04,
-   "end": 23.4
+   "start": 22.82,
+   "end": 23.14
   },
   {
    "w": "rarely",
-   "start": 23.4,
-   "end": 23.84
+   "start": 23.14,
+   "end": 23.48
   },
   {
    "w": "reach",
-   "start": 23.84,
-   "end": 24.1
+   "start": 23.48,
+   "end": 23.76
   },
   {
    "w": "billing.",
-   "start": 24.1,
-   "end": 24.32
+   "start": 23.76,
+   "end": 23.98
   },
   {
    "w": "Search",
-   "start": 24.82,
-   "end": 25.04
+   "start": 24.44,
+   "end": 24.84
   },
   {
    "w": "your",
-   "start": 25.04,
-   "end": 25.22
+   "start": 24.84,
+   "end": 25.0
   },
   {
    "w": "inbox",
+   "start": 25.0,
+   "end": 25.22
+  },
+  {
+   "w": "for",
    "start": 25.22,
    "end": 25.48
   },
   {
-   "w": "for",
-   "start": 25.48,
-   "end": 25.72
-  },
-  {
    "w": "quote",
-   "start": 25.72,
-   "end": 25.94
+   "start": 25.48,
+   "end": 25.68
   },
   {
    "w": "and",
-   "start": 25.94,
-   "end": 26.36
+   "start": 25.68,
+   "end": 26.08
   },
   {
    "w": "match",
-   "start": 26.36,
-   "end": 26.6
+   "start": 26.08,
+   "end": 26.32
   },
   {
    "w": "each",
-   "start": 26.6,
-   "end": 26.88
+   "start": 26.32,
+   "end": 26.56
   },
   {
    "w": "one",
-   "start": 26.88,
-   "end": 27.08
+   "start": 26.56,
+   "end": 26.76
   },
   {
    "w": "to",
-   "start": 27.08,
-   "end": 27.24
+   "start": 26.76,
+   "end": 26.9
   },
   {
    "w": "an",
-   "start": 27.24,
-   "end": 27.34
+   "start": 26.9,
+   "end": 27.0
   },
   {
    "w": "invoice.",
-   "start": 27.34,
-   "end": 27.58
+   "start": 27.0,
+   "end": 27.24
   },
   {
    "w": "The",
-   "start": 27.58,
-   "end": 28.04
+   "start": 27.74,
+   "end": 27.8
   },
   {
    "w": "work",
-   "start": 28.04,
-   "end": 28.22
+   "start": 27.8,
+   "end": 27.98
   },
   {
    "w": "isn't",
-   "start": 28.22,
-   "end": 28.46
+   "start": 27.98,
+   "end": 28.2
   },
   {
    "w": "the",
-   "start": 28.46,
-   "end": 28.52
+   "start": 28.2,
+   "end": 28.28
   },
   {
    "w": "problem.",
-   "start": 28.52,
-   "end": 28.82
+   "start": 28.28,
+   "end": 28.58
   },
   {
    "w": "Getting",
-   "start": 29.34,
-   "end": 29.46
+   "start": 28.9,
+   "end": 29.02
   },
   {
    "w": "it",
-   "start": 29.46,
-   "end": 29.56
+   "start": 29.02,
+   "end": 29.18
   },
   {
    "w": "to",
-   "start": 29.56,
-   "end": 29.66
+   "start": 29.18,
+   "end": 29.26
   },
   {
    "w": "billing",
-   "start": 29.66,
-   "end": 29.92
+   "start": 29.26,
+   "end": 29.46
   },
   {
    "w": "is.",
-   "start": 29.92,
-   "end": 30.2
+   "start": 29.46,
+   "end": 29.72
   },
   {
    "w": "That's",
-   "start": 30.58,
-   "end": 30.8
+   "start": 30.08,
+   "end": 30.24
   },
   {
    "w": "the",
-   "start": 30.8,
-   "end": 30.88
+   "start": 30.24,
+   "end": 30.34
   },
   {
    "w": "check",
-   "start": 30.88,
-   "end": 31.04
+   "start": 30.34,
+   "end": 30.5
   },
   {
    "w": "we",
-   "start": 31.04,
-   "end": 31.2
+   "start": 30.5,
+   "end": 30.66
   },
   {
    "w": "automate",
-   "start": 31.2,
-   "end": 31.5
+   "start": 30.66,
+   "end": 30.98
   },
   {
    "w": "at",
-   "start": 31.5,
-   "end": 31.7
+   "start": 30.98,
+   "end": 31.24
   },
   {
    "w": "Content",
-   "start": 31.7,
-   "end": 32.43
+   "start": 31.24,
+   "end": 31.86
   },
   {
    "w": "Systems.ai.",
-   "start": 32.43,
-   "end": 33.16
+   "start": 31.86,
+   "end": 32.48
   },
   {
    "w": "Want",
-   "start": 33.62,
-   "end": 33.8
+   "start": 32.9,
+   "end": 33.04
   },
   {
    "w": "the",
-   "start": 33.8,
-   "end": 33.94
+   "start": 33.04,
+   "end": 33.18
   },
   {
    "w": "full",
-   "start": 33.94,
-   "end": 34.08
+   "start": 33.18,
+   "end": 33.34
   },
   {
    "w": "checklist?",
-   "start": 34.08,
-   "end": 34.36
+   "start": 33.34,
+   "end": 33.64
   },
   {
    "w": "Comment",
-   "start": 34.82,
-   "end": 35.14
+   "start": 34.08,
+   "end": 34.44
   },
   {
    "w": "SYSTEMS",
-   "start": 35.14,
-   "end": 35.56
+   "start": 34.6,
+   "end": 34.88
   },
   {
    "w": "and",
-   "start": 35.56,
-   "end": 35.86
+   "start": 35.2,
+   "end": 35.22
   },
   {
    "w": "we'll",
-   "start": 35.86,
-   "end": 36.0
+   "start": 35.22,
+   "end": 35.36
   },
   {
    "w": "send",
-   "start": 36.0,
-   "end": 36.16
+   "start": 35.36,
+   "end": 35.52
   },
   {
    "w": "it",
-   "start": 36.16,
-   "end": 36.26
+   "start": 35.52,
+   "end": 35.62
   },
   {
    "w": "to",
-   "start": 36.26,
-   "end": 36.36
+   "start": 35.62,
+   "end": 35.72
   },
   {
    "w": "you",
-   "start": 36.36,
-   "end": 36.48
+   "start": 35.72,
+   "end": 35.82
   },
   {
    "w": "free.",
-   "start": 36.48,
-   "end": 36.68
+   "start": 35.82,
+   "end": 36.02
   }
  ],
  "text": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Content Systems.ai. Want the full checklist? Comment SYSTEMS and we'll send it to you free."

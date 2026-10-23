@@ -36,7 +36,7 @@ New scene every 3 to 5 s; rows/ticks every 0.8 to 1.2 s.
 
 ## 5b. Real-world proof
 Find the articles, posts and pages the script talks about and screenshot them: `node scripts/shot.mjs <url> <post>/shots/<name>.png --mobile --scroll 60`, then crop to the headline area (`ffmpeg -i x.png -vf "crop=iw:ih*0.56:0:ih*0.20" x-crop.png`) and add `shot` scenes {src, url (shown in the bar), caption, h 980, pan 120}. Credit sources in Notes. Never use still photos or paper cutouts of Korede: only real moving video of him (lip-synced plate, optionally cut out with `face.mask`).
-Pronunciation: write the company name as "Kuhn-tent Systems dot A I" in any TTS text.
+Pronunciation: write the company name as "Cunntent Systems dot A I" in any TTS text.
 
 ## 6. Render and review
 `npm run render -- <post> --fps 10` to check, then full `npm run render -- <post>` (about 10 min). Pull frames at each scene into a strip and LOOK: nothing overflows a card, captions don't collide, stamps land on cards, the face isn't covered in split. `npm run lint -- <post>`.
