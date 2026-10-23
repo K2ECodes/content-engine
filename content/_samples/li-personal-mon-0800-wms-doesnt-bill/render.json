@@ -2,7 +2,6 @@
   "template": "static",
   "data": {
     "theme": "dark",
-    "eyebrow": "3PL billing · belief shift",
     "headline": "Your WMS records the work. It doesn't *bill* it.",
     "sub": "If you believe month-end billing catches everything, it's costing you revenue you already earned.",
     "stats": [

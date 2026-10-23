@@ -12,9 +12,8 @@
   .hook .line { font: 700 116px/.98 var(--f-head); overflow: hidden; }
   .hook .line span { display: inline-block; }
   .hook .line em { font-style: normal; color: var(--gold); }
-  .hook .eyebrow { margin-bottom: 40px; }
 
-  .scene .title { font: 700 76px/1 var(--f-head); margin: 28px 0 48px; }
+  .scene .title { font: 700 80px/1 var(--f-head); margin: 0 0 48px; }
   .scene .title em { font-style: normal; color: var(--gold); }
 
   .nodes { display: flex; flex-direction: column; }
@@ -51,27 +50,26 @@
 <div id="root"></div>
 <script>
 // data: { scenes: [{type, start, end, ...}], captions: [{start, end, text}] }
-// Scene types: hook {eyebrow, lines[]}, flow {eyebrow, title, nodes[{label, sub, iconSvg}], connectors, highlight}, stat {value, prefix, suffix, label, note}, cta {headline, keyword, sub}
+// Scene types: hook {lines[]}, flow {title, nodes[{label, sub, iconSvg}], connectors, highlight}, stat {value, prefix, suffix, label, note}, cta {headline, keyword, sub}
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
 const capfmt = (s) => esc(s).replace(/\*(.+?)\*/g, '<b>$1</b>');
 
 const BUILD = {
-  hook: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div>${s.lines.map((l) => `<div class="line"><span>${accent(l)}</span></div>`).join('')}`,
-  flow: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div><div class="title">${accent(s.title)}</div><div class="nodes">${s.nodes.map((n, i) =>
+  hook: (s) => `${s.lines.map((l) => `<div class="line"><span>${accent(l)}</span></div>`).join('')}`,
+  flow: (s) => `<div class="title">${accent(s.title)}</div><div class="nodes">${s.nodes.map((n, i) =>
       `${i ? (s.connectors ? '<div class="conn"><i></i></div>' : '<div class="gap"></div>') : ''}<div class="node"><div class="ico icon">${n.iconSvg || ''}</div><div><div class="lbl">${esc(n.label)}</div>${n.sub ? `<div class="sub">${esc(n.sub)}</div>` : ''}</div></div>`).join('')}</div>`,
-  stat: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div><div class="num">${esc(s.prefix || '')}<span class="v">0</span>${esc(s.suffix || '')}</div><div class="lbl">${accent(s.label)}</div>${s.note ? `<div class="note">${esc(s.note)}</div>` : ''}`,
+  stat: (s) => `<div class="num">${esc(s.prefix || '')}<span class="v">0</span>${esc(s.suffix || '')}</div><div class="lbl">${accent(s.label)}</div>${s.note ? `<div class="note">${esc(s.note)}</div>` : ''}`,
   cta: (s) => `<img class="mark" src="../../assets/brand/mark.png" alt=""><div class="headline">${accent(s.headline)}</div>${s.keyword ? `<div class="keyword">${esc(s.keyword)}</div>` : ''}${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}`,
 };
 
 // Each animator adds tweens for one scene, starting at s.start.
 const ANIMATE = {
-  hook: (tl, el, s) => tl.from(el.querySelectorAll('.line span'), { yPercent: 110, duration: .7, ease: 'power3.out', stagger: .32 }, s.start + .15)
-    .from(el.querySelector('.eyebrow'), { opacity: 0, x: -30, duration: .5 }, s.start),
+  hook: (tl, el, s) => tl.from(el.querySelectorAll('.line span'), { yPercent: 110, duration: .7, ease: 'power3.out', stagger: .32 }, s.start + .15),
   flow: (tl, el, s) => {
     const nodes = el.querySelectorAll('.node'), conns = el.querySelectorAll('.conn i');
     const step = Math.min(.75, (s.end - s.start - 1.6) / nodes.length);
-    tl.from(el.querySelectorAll('.eyebrow, .title'), { opacity: 0, y: 24, duration: .5, stagger: .12 }, s.start);
+    tl.from(el.querySelectorAll('.title'), { opacity: 0, y: 24, duration: .5, stagger: .12 }, s.start);
     nodes.forEach((n, i) => {
       const t = s.start + .5 + i * step;
       if (i && conns[i - 1]) tl.to(conns[i - 1], { scaleY: 1, duration: step * .5, ease: 'none' }, t - step * .45);
@@ -84,7 +82,7 @@ const ANIMATE = {
     const v = el.querySelector('.v'), o = { n: 0 };
     tl.from(el.querySelector('.num'), { opacity: 0, scale: .9, duration: .5, ease: 'power2.out' }, s.start)
       .to(o, { n: s.value, duration: 1.8, ease: 'power2.out', onUpdate: () => { v.textContent = Math.round(o.n).toLocaleString('en-US'); } }, s.start + .1)
-      .from(el.querySelectorAll('.lbl, .note, .eyebrow'), { opacity: 0, y: 20, duration: .5, stagger: .15 }, s.start + .6);
+      .from(el.querySelectorAll('.lbl, .note'), { opacity: 0, y: 20, duration: .5, stagger: .15 }, s.start + .6);
   },
   cta: (tl, el, s) => tl.from(el.querySelector('.mark'), { opacity: 0, y: 30, rotate: -8, duration: .6, ease: 'back.out(1.7)' }, s.start)
     .from(el.querySelectorAll('.headline, .keyword, .sub'), { opacity: 0, y: 30, duration: .5, stagger: .2 }, s.start + .3),

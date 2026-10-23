@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="../_base/brand.css">
 <style>
-  .topbar { position: absolute; top: 60px; left: var(--pad); right: var(--pad); display: flex; justify-content: space-between; align-items: center; }
-  .topbar .series { font: 700 18px/1 var(--f-label); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+  .topbar { position: absolute; top: 60px; left: var(--pad); right: var(--pad); display: flex; justify-content: flex-end; align-items: center; }
   .topbar .count { font: 600 20px/1 var(--f-data); color: var(--accent); }
   .content { top: 150px; bottom: 140px; }
 
@@ -29,7 +28,7 @@
 
   /* layers: stacked system diagram */
   .layers { gap: 0; justify-content: center; }
-  .layers .title { font: 700 62px/1 var(--f-head); margin: 18px 0 26px; }
+  .layers .title { font: 700 66px/1 var(--f-head); margin: 0 0 30px; }
   .layers .title em { font-style: normal; color: var(--accent); }
   .layer { display: flex; gap: 22px; align-items: center; padding: 20px 24px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); box-shadow: 0 10px 30px -18px rgba(23,40,28,.35); }
   .layer .n { font: 700 17px/1 var(--f-label); letter-spacing: .14em; color: var(--accent); width: 28px; flex: none; }
@@ -54,7 +53,7 @@
 <body>
 <div id="root"></div>
 <script>
-// data: { theme, series, slides: [ {type: 'cover'|'point'|'layers'|'cta', ...} ] }
+// data: { theme, slides: [ {type: 'cover'|'point'|'layers'|'cta', ...} ] }
 // icons arrive pre-resolved as SVG strings in slide.iconSvg / layer.iconSvg (see scripts/render.mjs).
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
@@ -62,7 +61,6 @@ const ARROW = '<svg viewBox="0 0 26 30"><path d="M13 2v24M4 18l9 9 9-9" fill="no
 
 const SLIDES = {
   cover: (s) => `<div class="content cover">
-      <div class="eyebrow">${esc(s.eyebrow)}</div>
       <div class="headline">${accent(s.headline)}</div>
       ${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}
       <div class="swipe">Swipe <span></span></div></div>`,
@@ -72,7 +70,6 @@ const SLIDES = {
       <div class="body">${accent(s.body)}</div>
       ${s.cost ? `<div class="cost">${accent(s.cost)}</div>` : ''}</div>`,
   layers: (s) => `<div class="content layers">
-      <div class="eyebrow">${esc(s.eyebrow)}</div>
       <div class="title">${accent(s.title)}</div>
       ${s.layers.map((l, i) => `${i ? `<div class="arrow">${ARROW}</div>` : ''}
         <div class="layer"><div class="n">${String(i + 1).padStart(2, '0')}</div>
@@ -82,7 +79,6 @@ const SLIDES = {
         </div>`).join('')}
       ${s.loop ? `<div class="loop"><div class="ico icon">${s.loopIconSvg || ''}</div><div class="t">${accent(s.loop)}</div></div>` : ''}</div>`,
   cta: (s) => `<div class="content cta">
-      <div class="eyebrow">${esc(s.eyebrow)}</div>
       <div class="headline">${accent(s.headline)}</div>
       ${s.keyword ? `<div class="keyword">${esc(s.keyword)}</div>` : ''}
       ${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}</div>`,
@@ -97,7 +93,7 @@ window.showSlide = (i) => {
   document.getElementById('root').innerHTML = `
     <div class="canvas theme-${theme} a-${OPTS.aspect.replace(':', 'x')}">
       ${theme === 'dark' ? '<div class="bg-marble"></div>' : '<div class="bg-grid"></div>'}
-      <div class="topbar"><span class="series">${esc(DATA.series)}</span><span class="count">${String(i + 1).padStart(2, '0')} / ${total}</span></div>
+      <div class="topbar"><span class="count">${String(i + 1).padStart(2, '0')} / ${total}</span></div>
       ${SLIDES[s.type](s)}
       <div class="brandbar"><img class="lockup" src="../../assets/brand/lockup-horizontal.png" alt=""><span class="handle">${esc(DATA.handle || 'contentsystems.ai')}</span></div>
     </div>`;

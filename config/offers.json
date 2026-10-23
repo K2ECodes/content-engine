@@ -60,5 +60,45 @@
         ]
       }
     ]
+  },
+  "offers": {
+    "_readme": "The 6 packaged offers from the LinkedIn banner (Oct 2026). Rotate CTAs across them; match the offer to the post's audience.",
+    "logistics-systems": {
+      "label": "Logistics Systems",
+      "promise": "Sales, quotes and billing",
+      "audience": "3PLs, warehouses",
+      "url": "https://contentsystems.ai/logistics"
+    },
+    "ecommerce-systems": {
+      "label": "E-commerce Systems",
+      "promise": "AI ops, UGC and go-to-market",
+      "audience": "e-commerce and D2C brands",
+      "url": "https://contentsystems.ai/ecommerce"
+    },
+    "ai-workshops": {
+      "label": "AI Workshops",
+      "promise": "Build your first AI employees",
+      "audience": "business owners",
+      "url": "https://contentsystems.ai/workshop"
+    },
+    "ai-partner": {
+      "label": "Your AI Partner",
+      "promise": "Apps, sites and AI, built for you",
+      "audience": "SMBs",
+      "url": "https://contentsystems.ai/custom-systems"
+    },
+    "company-brain": {
+      "label": "The second brain (product name)",
+      "promise": "Run smarter AI agents",
+      "audience": "founders, SMBs",
+      "url": "https://contentsystems.ai/second-brain",
+      "note": "Product is branded 'second brain' but house style bans the phrase. Say 'company brain' in copy until Korede decides."
+    },
+    "ai-search-visibility": {
+      "label": "AI Search Visibility",
+      "promise": "Get recommended by ChatGPT",
+      "audience": "brands, local businesses",
+      "url": "https://contentsystems.ai/aeo"
+    }
   }
 }

@@ -48,6 +48,10 @@ Use only these numbers unless Korede supplies more. Never invent results.
 - Logistics angles from contentsystems.ai/logistics (unbilled storage and accessorial fees, month-end billing, WISMO, RFQ speed, receiving by email) and /ecommerce (3PL invoice overcharges, carrier surcharges, stockouts, returns) are positioning, not client results.
 - Every system: human approval gate on outbound actions, built on the client's existing stack, client owns what we build.
 
+## Design rules
+- No eyebrows: no small uppercase labels above headlines, no series labels, no kickers. LINT blocks `eyebrow`/`series` keys in render.json.
+- Never print the post type, pillar or execution ("belief shift", "checklist", "tools vs systems") on media or in captions. Those are internal planning labels. LINT blocks the pillar names.
+
 ## Brand
 - Logo files in `assets/brand/`: `mark.png` (bulb, transparent), `lockup-horizontal.png` (bulb + wordmark), `wordmark.png`, `*-square.png` (625px), `bg-dark-marble.jpg` (dark green marble with gold circuit lines, background for dark layouts).
 - Colors: ink-green `#17281C`, cream `#F5F0E8`, orange `#C98A3C`, gold `#E8B84B`, sage `#9CCAA0`.

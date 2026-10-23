@@ -46,6 +46,8 @@ const RULES = [
     message: (m) => `${m === '—' ? 'em' : 'en/figure'} dash. Use a comma, period, "to" or a middot` },
   { id: 'spaced-hyphen', level: 'error', re: /(?<=\S) {1,}-{1,2} {1,}(?=\S)/g,
     message: () => 'hyphen used as a dash. Use a comma, period, "to" or a middot' },
+  { id: 'post-type-label', level: 'error', re: /\b(belief[\s-]shift|calm[\s-]playbooks?|operational[\s-]clarity|tools[\s-]vs\.?[\s-]systems)\b/gi,
+    message: (m) => `internal post-type label "${m}". Never name the pillar or execution in copy or on media` },
   { id: 'exclamation', level: 'error', re: /!/g, message: () => 'exclamation mark' },
   { id: 'percent', level: 'error', re: /%|\bper ?cent\b/gi,
     message: () => 'percent in prose. Write "4 in 10", "40 in 100" or rephrase' },
@@ -165,7 +167,12 @@ const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt)$/i;
 function lintRenderJson(node, file, keyPath = '') {
   if (Array.isArray(node)) return node.flatMap((v, i) => lintRenderJson(v, file, `${keyPath}[${i}]`));
   if (node && typeof node === 'object')
-    return Object.entries(node).flatMap(([k, v]) => (STRUCTURAL_KEYS.test(k) ? [] : lintRenderJson(v, file, keyPath ? `${keyPath}.${k}` : k)));
+    return Object.entries(node).flatMap(([k, v]) => {
+      const here = keyPath ? `${keyPath}.${k}` : k;
+      if (/^(eyebrow|series|kicker|overline)$/i.test(k))
+        return [{ file: `${file} ${here}`, line: 0, col: 0, level: 'error', rule: 'eyebrow', message: 'no eyebrow or series labels on media' }];
+      return STRUCTURAL_KEYS.test(k) ? [] : lintRenderJson(v, file, here);
+    });
   if (typeof node !== 'string') return [];
   return lintText(node, { file }).map((i) => ({ ...i, line: 0, col: 0, file: `${file} ${keyPath}` }));
 }

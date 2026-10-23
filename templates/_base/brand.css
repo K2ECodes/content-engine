@@ -43,8 +43,6 @@ body { -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; 
 .content { position: absolute; inset: var(--pad); display: flex; flex-direction: column; }
 
 /* Type */
-.eyebrow { font: 700 22px/1 var(--f-label); letter-spacing: .22em; text-transform: uppercase; color: var(--accent); display: flex; align-items: center; gap: 16px; }
-.eyebrow::before { content: ''; width: 36px; height: 2px; background: currentColor; }
 .display { font: 900 64px/1.05 var(--f-display); letter-spacing: .01em; text-transform: uppercase; }
 .headline { font: 700 92px/.98 var(--f-head); letter-spacing: -.005em; }
 .headline em, .display em { font-style: normal; color: var(--accent); }

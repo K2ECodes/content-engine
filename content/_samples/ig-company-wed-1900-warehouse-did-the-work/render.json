@@ -7,7 +7,6 @@
         "type": "hook",
         "start": 0,
         "end": 4,
-        "eyebrow": "3PL billing",
         "lines": [
           "Your warehouse",
           "did the work.",
@@ -18,7 +17,6 @@
         "type": "flow",
         "start": 4,
         "end": 10.5,
-        "eyebrow": "Where it slips",
         "title": "4 fees that *leak*",
         "connectors": false,
         "nodes": [
@@ -48,7 +46,6 @@
         "type": "stat",
         "start": 10.5,
         "end": 15,
-        "eyebrow": "Run the math",
         "value": 90000,
         "prefix": "$",
         "label": "a year, *earned* and never invoiced",
@@ -58,7 +55,6 @@
         "type": "flow",
         "start": 15,
         "end": 21,
-        "eyebrow": "The fix",
         "title": "A system that *checks*",
         "connectors": true,
         "highlight": true,

@@ -28,7 +28,7 @@
 <body>
 <div id="root"></div>
 <script>
-// data: { theme, eyebrow, headline (use *word* for accent), sub, stats: [{value, label}] }
+// data: { theme, headline (use *word* for accent), sub, stats: [{value, label}] }
 window.renderPost = (data, opts) => {
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
@@ -38,7 +38,6 @@ window.renderPost = (data, opts) => {
       ${(data.theme || 'dark') === 'dark' ? '<div class="bg-marble"></div>' : '<div class="bg-grid"></div>'}
       <img class="mark" src="../../assets/brand/mark.png" alt="">
       <div class="content statement">
-        <div class="eyebrow">${esc(data.eyebrow)}</div>
         <div class="headline">${accent(data.headline)}</div>
         <div class="rule"></div>
         ${data.sub ? `<div class="sub">${accent(data.sub)}</div>` : ''}
