@@ -8,17 +8,17 @@
       "volume": 0.11
     },
     "tail": 2.0,
-    "script": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that's huge. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT or Cursor. No more pasting the same prompt every morning. So here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Comment AI and I'll send you my starter pack, plus the permission sheet.",
+    "script": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that matters. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT or Cursor. No more pasting the same prompt every morning. Here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Want my AI starter pack? Comment AI and I'll send it to you free.",
     "keys": [
       "70",
       "1m",
-      "huge",
+      "matters",
       "once",
       "first",
       "task",
       "late",
       "yes",
-      "permission"
+      "free"
     ],
     "strikes": [
       "pasting"
@@ -203,7 +203,7 @@
         ]
       },
       {
-        "at": "So",
+        "at": "Here are",
         "world": "dark",
         "type": "word",
         "text": "FIRST 5",
@@ -436,7 +436,7 @@
         ]
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "world": "light",
         "type": "cta",
         "keyword": "AI",
@@ -474,7 +474,10 @@
       "brands": [
         "anthropic",
         "claude",
-        "chatgpt"
+        "chatgpt",
+        "openai",
+        "google",
+        "gemini"
       ],
       "tag": "AI NEWS",
       "ticker": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M "
@@ -547,10 +550,10 @@
         "x": 780,
         "y": 260,
         "w": 200,
-        "until": "Comment"
+        "until": "Want"
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "kind": "burst",
         "text": "FREE",
         "x": 780,
@@ -559,6 +562,37 @@
         "size": 60,
         "color": "#9CCAA0",
         "rot": 12
+      },
+      {
+        "at": "Anthropic",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 90,
+        "y": 600,
+        "w": 150,
+        "rot": -8,
+        "bare": true,
+        "until": "Over"
+      },
+      {
+        "at": "just",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 800,
+        "y": 640,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "Over"
+      },
+      {
+        "at": "question",
+        "kind": "sprite",
+        "sprite": "bubble",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "daily"
       }
     ],
     "look": "pixel"

@@ -8,15 +8,15 @@ Google now tells shoppers when your product is back in stock. That alert only fi
 
 16 in 100 shoppers now start their search in ChatGPT, and AI assistants read your data, not your homepage.
 
-Content Systems.ai keeps the warehouse, the store and Google in sync for e-commerce brands. Want us to check yours? Free quote, link in bio.
+Content Systems.ai keeps the warehouse, the store and Google in sync for e-commerce brands. Want us to check your store for free? It's in our bio.
 
 #ecommerce #shopify #inventory #onlinestore #googleshopping
 
 ## Script
-Google now pings shoppers the second your product is back in stock. But it only knows what your data tells it. 3 checks so that alert actually fires. First, compare your warehouse count to your store count today. Warehouse says 40, store says 0? Google says sold out, and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make your price and shipping time match everywhere. 16 in 100 shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping that in sync is what we build at Content Systems.ai. Want us to check yours? Free quote, link in bio.
+Google now pings shoppers the second your product's back in stock. But it only knows what your data tells it. Here are 3 checks so that alert actually goes out. First, compare your warehouse count to your store count today. If the warehouse says 40 and the store says 0, Google shows sold out and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make sure your price and shipping time match everywhere. 16 in 100 shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping all that in sync is what we build at Content Systems.ai. Want us to check your store for free? It's in our bio.
 
 ## Alt text
-Animated explainer that flips between dark green and cream. A TechCrunch headline about Google's Universal Cart zooms in with Google and Shopify logos, a screenshot of the cart follows, "Your data" and "3 checks" appear in gold blocks, a stock card shows 40 units in the warehouse, 0 in the store and Google showing sold out, a sync card marks once a night too slow and every hour as the aim, a checklist ticks price, shipping time and stock count, a stat card shows 16 in 100 shoppers start in ChatGPT, an assistant card reads your data and skips your homepage, a sync checklist is stamped SENT, and the video ends on a free quote card and "Link in bio".
+Animated explainer that flips between dark green and cream. A TechCrunch headline about Google's Universal Cart zooms in with Google and Shopify logos, a screenshot of the cart follows, "Your data" and "3 checks" appear in gold blocks, a stock card shows 40 units in the warehouse, 0 in the store and Google showing sold out, a sync card marks once a night too slow and every hour as the aim, a checklist ticks price, shipping time and stock count, a stat card shows 16 in 100 shoppers start in ChatGPT, an assistant card reads your data and skips your homepage, a sync checklist is stamped SENT, and the video ends on a free quote card and "In our bio".
 
 ## Notes
 - Voice: Sanjana's instant clone (HEYGEN_SANJANA_VOICE_ID).
@@ -26,3 +26,4 @@ Animated explainer that flips between dark green and cream. A TechCrunch headlin
 - CTA: free-quote, link in bio points to the AI Search Visibility page (contentsystems.ai/aeo) per the plan.
 - Scene backgrounds (per-scene `bg`): bg/phone.png generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images. bg/warehouse.png is reused from the W43 invoice-gap post (bg/shelves.png was dropped: too many colours).
 - Re-voiced 2026-10-23 with the corrected pronunciation ("Kuhn-tent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).
+- Script pass 2026-10-23 (Korede's "Scripts" rule): smoother wording, CTA now "it's in our bio" / "comment SYSTEMS and we'll send it to you free" (LinkedIn: "it's in our profile"); re-voiced in the same voice, re-tightened, re-transcribed and re-anchored. Opening logo burst (tile and bare logos) plus word-timed bursts that act out key lines.

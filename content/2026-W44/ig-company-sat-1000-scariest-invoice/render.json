@@ -3,8 +3,8 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. Link in bio.",
-  "say": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are three to check this week. Rush orders packed after cutoff. Log each one with the client's name, the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the third. So check daily in peak. That daily check is what we automate at Kuhn-tent Systems dot A I. Our free calculator shows what it adds up to. Link in bio.",
+  "script": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip through. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. It's in our bio.",
+  "say": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip through. Here are three to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the third. So check daily in peak. That daily check is what we automate at Kuhn-tent Systems dot A I. Our free calculator shows what it adds up to. It's in our bio.",
   "music": {
    "file": "audio/music.mp3",
    "volume": 0.1,
@@ -307,7 +307,7 @@
     "world": "light",
     "type": "list",
     "title": "Free calculator",
-    "badge": "Link in bio",
+    "badge": "In our bio",
     "rows": [
      {
       "text": "What it adds up to",
@@ -349,6 +349,48 @@
   },
   "pops": [
    {
+    "at": "The",
+    "kind": "logo",
+    "brand": "amazon",
+    "x": 40,
+    "y": 420,
+    "w": 170,
+    "rot": -8,
+    "until": "Peak",
+    "bare": true
+   },
+   {
+    "at": "scariest",
+    "kind": "logo",
+    "brand": "ups",
+    "x": 860,
+    "y": 430,
+    "w": 140,
+    "rot": 8,
+    "until": "Peak"
+   },
+   {
+    "at": "thing",
+    "kind": "logo",
+    "brand": "fedex",
+    "x": 60,
+    "y": 640,
+    "w": 170,
+    "rot": 6,
+    "until": "Peak",
+    "bare": true
+   },
+   {
+    "at": "warehouse",
+    "kind": "logo",
+    "brand": "dhl",
+    "x": 860,
+    "y": 640,
+    "w": 140,
+    "rot": -6,
+    "until": "Peak"
+   },
+   {
     "at": "Our",
     "kind": "burst",
     "text": "FREE",
@@ -358,6 +400,30 @@
     "size": 60,
     "color": "#E8B84B",
     "rot": 12
+   },
+   {
+    "at": "cutoff.",
+    "kind": "burst",
+    "text": "AFTER 5PM",
+    "x": 800,
+    "y": 290,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": 10,
+    "until": "Retailer"
+   },
+   {
+    "at": "expiry",
+    "kind": "burst",
+    "text": "CHECK NOW",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#F26B1D",
+    "rot": -8,
+    "until": "At#2"
    }
   ],
   "branded": true,

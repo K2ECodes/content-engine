@@ -258,6 +258,46 @@
         "size": 60,
         "color": "#9CCAA0",
         "rot": 12
+      },
+      {
+        "at": "just",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 800,
+        "y": 640,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "that"
+      },
+      {
+        "at": "shipped",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 90,
+        "y": 1150,
+        "w": 150,
+        "rot": -6,
+        "bare": true,
+        "until": "that"
+      },
+      {
+        "at": "money",
+        "kind": "sprite",
+        "sprite": "coin",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "asking."
+      },
+      {
+        "at": "yes.",
+        "kind": "sprite",
+        "sprite": "button",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "That's"
       }
     ],
     "bgLogos": [

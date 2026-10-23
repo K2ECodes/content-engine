@@ -7,13 +7,14 @@
       "file": "audio/music.mp3",
       "volume": 0.11
     },
-    "script": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack.",
+    "script": "OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, using money they've already committed to Google. They're also coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. What does that mean for you? You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI inside Google? Want my AI starter pack? Comment AI and I'll send it to you free.",
     "keys": [
       "google",
       "gemini",
-      "menu",
+      "best",
       "rivals",
-      "partners"
+      "partners",
+      "free"
     ],
     "strikes": [],
     "posterAt": 1.2,
@@ -97,14 +98,6 @@
         "bgc": "#F2B705"
       },
       {
-        "at": "So",
-        "world": "dark",
-        "type": "word",
-        "text": "MENU",
-        "bg": "bg/menu-wall.png",
-        "bgc": "#17281C"
-      },
-      {
         "at": "You'll",
         "world": "light",
         "type": "list",
@@ -164,7 +157,7 @@
         "bgc": "#17281C"
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "world": "dark",
         "type": "cta",
         "keyword": "AI",
@@ -194,7 +187,9 @@
       "brands": [
         "openai",
         "google",
-        "gemini"
+        "gemini",
+        "microsoft",
+        "chatgpt"
       ]
     },
     "pops": [
@@ -258,7 +253,7 @@
         "y": 240,
         "w": 160,
         "rot": -8,
-        "until": "So"
+        "until": "You'll"
       },
       {
         "at": "Rivals",
@@ -270,7 +265,7 @@
         "until": "Would"
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "kind": "burst",
         "text": "FREE",
         "x": 780,
@@ -279,6 +274,57 @@
         "size": 60,
         "color": "#9CCAA0",
         "rot": 12
+      },
+      {
+        "at": "OpenAI's",
+        "kind": "logo",
+        "brand": "gemini",
+        "x": 800,
+        "y": 620,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "Yes"
+      },
+      {
+        "at": "models",
+        "kind": "logo",
+        "brand": "microsoft",
+        "x": 90,
+        "y": 1120,
+        "w": 150,
+        "rot": 0,
+        "bare": true,
+        "until": "Yes"
+      },
+      {
+        "at": "coming",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 820,
+        "y": 1120,
+        "w": 150,
+        "rot": -6,
+        "bare": true,
+        "until": "Yes"
+      },
+      {
+        "at": "money",
+        "kind": "sprite",
+        "sprite": "coin",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "They're"
+      },
+      {
+        "at": "best",
+        "kind": "sprite",
+        "sprite": "trophy",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "Rivals"
       }
     ]
   }

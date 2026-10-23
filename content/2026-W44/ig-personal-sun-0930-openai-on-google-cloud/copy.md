@@ -10,7 +10,8 @@ Would you use OpenAI models inside Google? Tell me below.
 #AI #OpenAI #GoogleCloud #Gemini #technews
 
 ## Script
-OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack.
+
+OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, using money they've already committed to Google. They're also coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. What does that mean for you? You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI inside Google? Want my AI starter pack? Comment AI and I'll send it to you free.
 
 ## On-screen
 OpenAI announcement · GOOGLE? · OpenAI on Google Cloud (Frontier models, Codex) · Google Cloud Model Garden page, 200+ models in 1 place · how companies buy checklist · OpenAI page: Microsoft remains primary cloud partner · MENU · pick per job · Rivals, on stage, partners in the cloud · your call poll · AI keyword box
@@ -29,3 +30,4 @@ Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in
 
 - Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
 - People (person scenes, no quotes): Sundar Pichai, Google CEO, photo by Maurizio Pesce, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sundar_Pichai_(cropped).jpg (cropped). Sam Altman, OpenAI CEO, photo by TechCrunch, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg. These replace the GOOGLE? word card and the 'OpenAI on Google Cloud' list card.
+- Script rewrite 2026-10-23 (Korede: natural, no filler or forced metaphors, CTA 'comment AI and I'll send it to you free' / 'it's in my bio'), re-voiced in his HeyGen clone (free), tightened, re-transcribed, re-anchored. Previous audio and words in old-v1/.

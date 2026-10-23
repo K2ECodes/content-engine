@@ -7,13 +7,14 @@
       "file": "audio/music.mp3",
       "volume": 0.11
     },
-    "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. 5 minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack.",
+    "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys, and spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts going off overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys and remove people who've left. It takes 5 minutes, and it beats a surprise bill. Want my AI starter pack? Comment AI and I'll send it to you free.",
     "keys": [
       "$1000",
       "keys",
       "limit",
       "separate",
-      "who"
+      "who",
+      "free"
     ],
     "strikes": [],
     "posterAt": 1.2,
@@ -82,7 +83,7 @@
         ]
       },
       {
-        "at": "OpenAI",
+        "at": "OpenAI,",
         "world": "dark",
         "type": "shot",
         "src": "shots/c-charges.png",
@@ -258,7 +259,7 @@
         ]
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "world": "dark",
         "type": "cta",
         "keyword": "AI",
@@ -297,10 +298,11 @@
     "hook": {
       "style": "zoom",
       "brands": [
+        "openai",
         "anthropic",
         "claude",
-        "openai",
-        "google"
+        "google",
+        "chatgpt"
       ],
       "src": "shots/c-headline.png"
     },
@@ -324,7 +326,7 @@
         "x": 780,
         "y": 260,
         "w": 200,
-        "until": "Then"
+        "until": "OpenAI,"
       },
       {
         "at": "OpenAI,",
@@ -384,7 +386,38 @@
         "x": 780,
         "y": 260,
         "w": 200,
-        "until": "Comment"
+        "until": "Want"
+      },
+      {
+        "at": "A",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 90,
+        "y": 600,
+        "w": 150,
+        "rot": -8,
+        "bare": true,
+        "until": "Here's"
+      },
+      {
+        "at": "hacked",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 800,
+        "y": 640,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "Here's"
+      },
+      {
+        "at": "limit.",
+        "kind": "sprite",
+        "sprite": "flag",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "Second,"
       }
     ],
     "look": "pixel"

@@ -8,14 +8,15 @@
       "volume": 0.11
     },
     "tail": 2.4,
-    "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says the wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1, routing. Which inbox, which team, with a confidence score. 2, picking. Which reply, which tool, which next step. 3, flagging. Spam, urgent or fine, in a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack, with the permission sheet for each step.",
+    "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. A chat model takes 1 to 3 seconds. Speak says its wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. Here's where that fits. 1, routing. Which inbox, which team, and how sure it is. 2, picking. Which reply, which tool, what happens next. 3, flagging. Spam, urgent or fine, in a blink. When it's not sure, a person decides. The chat model still writes the reply. The decision model picks the lane. Want my AI starter pack? Comment AI and I'll send it to you free.",
     "keys": [
       "100",
       "seconds",
       "0.13",
       "choosing",
       "person",
-      "lane"
+      "lane",
+      "free"
     ],
     "strikes": [
       "chatbot"
@@ -65,7 +66,7 @@
         "bgc": "#F2B705"
       },
       {
-        "at": "Chat",
+        "at": "A chat",
         "world": "dark",
         "type": "stat",
         "value": "1 to 3 s",
@@ -122,7 +123,7 @@
         "bgc": "#F2B705"
       },
       {
-        "at": "So",
+        "at": "Here's",
         "world": "light",
         "type": "word",
         "text": "3 SPOTS",
@@ -211,7 +212,7 @@
         "bgc": "#17281C"
       },
       {
-        "at": "Low",
+        "at": "When",
         "world": "light",
         "type": "list",
         "title": "Confidence check",
@@ -221,7 +222,7 @@
             "text": "Support, 0.91",
             "chip": "Auto",
             "chipKind": "ok",
-            "at": "Low"
+            "at": "When"
           },
           {
             "text": "Sales, 0.41",
@@ -256,7 +257,7 @@
         "stamp": {
           "text": "DONE",
           "kind": "ok",
-          "at": "fast",
+          "at": "lane",
           "x": 560,
           "y": 830
         },
@@ -264,7 +265,7 @@
         "bgc": "#F2B705"
       },
       {
-        "at": "Comment",
+        "at": "Want",
         "world": "light",
         "type": "cta",
         "keyword": "AI",
@@ -284,8 +285,11 @@
       "style": "slam",
       "brands": [
         "openai",
+        "chatgpt",
         "claude",
-        "gemini"
+        "gemini",
+        "anthropic",
+        "google"
       ]
     },
     "pops": [
@@ -306,7 +310,7 @@
         "y": 250,
         "w": 160,
         "rot": -8,
-        "until": "Chat"
+        "until": "A chat"
       },
       {
         "at": "milliseconds.",
@@ -318,7 +322,7 @@
         "size": 38,
         "color": "#FFE066",
         "rot": -10,
-        "until": "Chat"
+        "until": "A chat"
       },
       {
         "at": "choosing.",
@@ -327,7 +331,7 @@
         "x": 780,
         "y": 260,
         "w": 200,
-        "until": "So"
+        "until": "Here's"
       },
       {
         "at": "blink.",
@@ -339,7 +343,7 @@
         "size": 38,
         "color": "#9CCAA0",
         "rot": 10,
-        "until": "Low"
+        "until": "When"
       },
       {
         "at": "person.",
@@ -349,6 +353,66 @@
         "y": 260,
         "w": 200,
         "until": "The chat"
+      },
+      {
+        "at": "Not",
+        "kind": "logo",
+        "brand": "chatgpt",
+        "x": 90,
+        "y": 560,
+        "w": 150,
+        "rot": -10,
+        "bare": true,
+        "until": "OpenAI's"
+      },
+      {
+        "at": "Not",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 800,
+        "y": 620,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "OpenAI's"
+      },
+      {
+        "at": "every",
+        "kind": "logo",
+        "brand": "gemini",
+        "x": 110,
+        "y": 1120,
+        "w": 150,
+        "rot": 0,
+        "bare": true,
+        "until": "OpenAI's"
+      },
+      {
+        "at": "inbox,",
+        "kind": "sprite",
+        "sprite": "box",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "2,"
+      },
+      {
+        "at": "tool,",
+        "kind": "sprite",
+        "sprite": "cursor",
+        "x": 780,
+        "y": 560,
+        "w": 120,
+        "until": "3,#2"
+      },
+      {
+        "at": "Spam,",
+        "kind": "sprite",
+        "sprite": "evil-robot",
+        "x": 780,
+        "y": 560,
+        "w": 180,
+        "until": "When"
       }
     ]
   }

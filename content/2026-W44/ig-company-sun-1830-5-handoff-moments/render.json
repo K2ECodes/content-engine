@@ -3,8 +3,8 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when a human option exists. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and still saves 1 in 4 customers who try to cancel. Comment SYSTEMS for the handoff map.",
-  "say": "Shoppers trust a support bot twice as much when it can do one thing. Hand them to a person. In a survey of three thousand shoppers, fifty-five in a hundred trust AI when a human option exists. Without one, just twenty-six. So before Black Friday, make sure your bot hands off in five moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Kuhn-tent Systems dot A I. An apparel brand we work with in Berlin lets AI answer seventy-two in a hundred tickets, and still saves one in four customers who try to cancel. Comment SYSTEMS for the handoff map.",
+  "script": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when there's a human option. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and it still saves 1 in 4 customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.",
+  "say": "Shoppers trust a support bot twice as much when it can do one thing. Hand them to a person. In a survey of three thousand shoppers, fifty-five in a hundred trust AI when there's a human option. Without one, just twenty-six. So before Black Friday, make sure your bot hands off in five moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Kuhn-tent Systems dot A I. An apparel brand we work with in Berlin lets AI answer seventy-two in a hundred tickets, and it still saves one in four customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.",
   "music": {
    "file": "audio/music.mp3",
    "volume": 0.1,
@@ -174,6 +174,48 @@
   },
   "pops": [
    {
+    "at": "Shoppers",
+    "kind": "logo",
+    "brand": "shopify",
+    "x": 40,
+    "y": 420,
+    "w": 150,
+    "rot": -8,
+    "until": "Hand"
+   },
+   {
+    "at": "trust",
+    "kind": "logo",
+    "brand": "instagram",
+    "x": 860,
+    "y": 430,
+    "w": 150,
+    "rot": 8,
+    "until": "Hand",
+    "bare": true
+   },
+   {
+    "at": "support",
+    "kind": "logo",
+    "brand": "meta",
+    "x": 60,
+    "y": 640,
+    "w": 170,
+    "rot": 6,
+    "until": "Hand",
+    "bare": true
+   },
+   {
+    "at": "bot",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 860,
+    "y": 640,
+    "w": 140,
+    "rot": -6,
+    "until": "Hand"
+   },
+   {
     "at": "In",
     "kind": "sprite",
     "sprite": "robot",
@@ -201,6 +243,30 @@
     "size": 60,
     "color": "#E8B84B",
     "rot": 12
+   },
+   {
+    "at": "Black",
+    "kind": "burst",
+    "text": "BLACK FRIDAY",
+    "x": 800,
+    "y": 290,
+    "w": 260,
+    "size": 44,
+    "color": "#E8B84B",
+    "rot": 10,
+    "until": "An"
+   },
+   {
+    "at": "human.",
+    "kind": "burst",
+    "text": "HUMAN",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": -8,
+    "until": "That's"
    }
   ],
   "branded": true,

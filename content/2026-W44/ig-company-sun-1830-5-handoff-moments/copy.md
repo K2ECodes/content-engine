@@ -1,5 +1,5 @@
 ## Caption
-5 moments your support bot has to hand the customer to a person. Comment SYSTEMS and we'll send you the handoff map.
+5 moments your support bot has to hand the customer to a person. Want the handoff map? Comment SYSTEMS and we'll send it to you free.
 
 Shoppers trust a bot more when it can do that. In a Five9 survey of 3,000 shoppers, 55 in 100 trust AI to fix their issue when a human option exists. Without one, 26.
 
@@ -15,7 +15,7 @@ An apparel brand we work with in Berlin lets AI answer 72 in 100 support tickets
 #customerservice #ecommerce #blackfriday #customersupport #onlinestore
 
 ## Script
-Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when a human option exists. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and still saves 1 in 4 customers who try to cancel. Comment SYSTEMS for the handoff map.
+Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when there's a human option. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and it still saves 1 in 4 customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.
 
 ## Alt text
 Animated explainer that flips between dark green and cream. A red NEW SURVEY bar slides in with Shopify and Instagram logos and "2X", a support chat passes a customer from the bot to a person, a Retail Dive headline about customers fed up with chatbots, a card compares 55 in 100 trusting AI with a human option against 26 in 100 without, "5 moments" in a gold block, a checklist ticks angry customer, wants to cancel, refund over your limit, bot isn't sure and asks for a human, a counter rolls to 72 in 100 tickets answered by AI, a stat shows 1 in 4 cancellations saved, and SYSTEMS types into a comment box before a DM says the handoff map was sent.
@@ -29,3 +29,4 @@ Animated explainer that flips between dark green and cream. A red NEW SURVEY bar
 - Sunday is workshop day; this evening slot runs after the live session ends.
 - Scene backgrounds (per-scene `bg`): bg/agent.png, bg/shopper.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.
 - Re-voiced 2026-10-23 with the corrected pronunciation ("Kuhn-tent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).
+- Script pass 2026-10-23 (Korede's "Scripts" rule): smoother wording, CTA now "it's in our bio" / "comment SYSTEMS and we'll send it to you free" (LinkedIn: "it's in our profile"); re-voiced in the same voice, re-tightened, re-transcribed and re-anchored. Opening logo burst (tile and bare logos) plus word-timed bursts that act out key lines.

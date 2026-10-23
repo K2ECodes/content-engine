@@ -23,12 +23,12 @@
   {
    "w": "AI",
    "start": 1.32,
-   "end": 1.56
+   "end": 1.54
   },
   {
    "w": "employees.",
-   "start": 1.56,
-   "end": 1.92
+   "start": 1.54,
+   "end": 1.96
   },
   {
    "w": "Not",
@@ -53,11 +53,11 @@
   {
    "w": "can",
    "start": 3.04,
-   "end": 3.16
+   "end": 3.18
   },
   {
    "w": "send",
-   "start": 3.16,
+   "start": 3.18,
    "end": 3.34
   },
   {
@@ -102,12 +102,12 @@
   },
   {
    "w": "so",
-   "start": 5.14,
-   "end": 5.32
+   "start": 5.16,
+   "end": 5.3
   },
   {
    "w": "you",
-   "start": 5.32,
+   "start": 5.3,
    "end": 5.4
   },
   {
@@ -127,7 +127,7 @@
   },
   {
    "w": "Let",
-   "start": 6.54,
+   "start": 6.52,
    "end": 6.64
   },
   {
@@ -148,16 +148,16 @@
   {
    "w": "But",
    "start": 8.02,
-   "end": 8.13
+   "end": 8.12
   },
   {
    "w": "4",
-   "start": 8.13,
-   "end": 8.24
+   "start": 8.12,
+   "end": 8.22
   },
   {
    "w": "things",
-   "start": 8.24,
+   "start": 8.22,
    "end": 8.58
   },
   {
@@ -173,11 +173,11 @@
   {
    "w": "for",
    "start": 9.2,
-   "end": 9.32
+   "end": 9.34
   },
   {
    "w": "a",
-   "start": 9.32,
+   "start": 9.34,
    "end": 9.44
   },
   {
@@ -192,7 +192,7 @@
   },
   {
    "w": "Money",
-   "start": 10.34,
+   "start": 10.3,
    "end": 10.44
   },
   {
@@ -253,348 +253,368 @@
   {
    "w": "contract.",
    "start": 13.44,
-   "end": 13.74
+   "end": 13.72
   },
   {
    "w": "Deleting",
    "start": 14.18,
-   "end": 14.46
+   "end": 14.42
   },
   {
    "w": "data.",
-   "start": 14.46,
-   "end": 14.72
+   "start": 14.42,
+   "end": 14.7
   },
   {
    "w": "Try",
-   "start": 15.08,
-   "end": 15.24
+   "start": 15.22,
+   "end": 15.4
   },
   {
-   "w": "it",
-   "start": 15.24,
-   "end": 15.34
+   "w": "this",
+   "start": 15.4,
+   "end": 15.58
   },
   {
    "w": "today.",
-   "start": 15.34,
-   "end": 15.54
+   "start": 15.58,
+   "end": 15.82
   },
   {
    "w": "List",
-   "start": 16.08,
-   "end": 16.22
+   "start": 16.26,
+   "end": 16.38
   },
   {
    "w": "every",
-   "start": 16.22,
-   "end": 16.48
+   "start": 16.38,
+   "end": 16.66
   },
   {
    "w": "AI",
-   "start": 16.48,
-   "end": 16.7
+   "start": 16.66,
+   "end": 16.9
   },
   {
    "w": "tool",
-   "start": 16.7,
-   "end": 16.96
+   "start": 16.9,
+   "end": 17.18
   },
   {
    "w": "your",
-   "start": 16.96,
-   "end": 17.12
+   "start": 17.18,
+   "end": 17.34
   },
   {
    "w": "team",
-   "start": 17.12,
-   "end": 17.3
+   "start": 17.34,
+   "end": 17.54
   },
   {
    "w": "uses,",
-   "start": 17.3,
-   "end": 17.6
+   "start": 17.54,
+   "end": 17.84
   },
   {
    "w": "and",
-   "start": 17.96,
-   "end": 18.14
+   "start": 17.84,
+   "end": 18.16
   },
   {
    "w": "next",
-   "start": 18.14,
-   "end": 18.34
+   "start": 18.16,
+   "end": 18.38
   },
   {
    "w": "to",
-   "start": 18.34,
+   "start": 18.38,
    "end": 18.52
   },
   {
-   "w": "each,",
+   "w": "each",
    "start": 18.52,
-   "end": 18.72
+   "end": 18.66
+  },
+  {
+   "w": "one,",
+   "start": 18.66,
+   "end": 18.9
   },
   {
    "w": "write",
-   "start": 19.06,
-   "end": 19.2
+   "start": 18.9,
+   "end": 19.32
   },
   {
    "w": "which",
-   "start": 19.2,
-   "end": 19.44
-  },
-  {
-   "w": "of",
-   "start": 19.44,
+   "start": 19.32,
    "end": 19.56
   },
   {
-   "w": "those",
+   "w": "of",
    "start": 19.56,
-   "end": 19.7
+   "end": 19.66
+  },
+  {
+   "w": "those",
+   "start": 19.66,
+   "end": 19.8
   },
   {
    "w": "4",
-   "start": 19.7,
-   "end": 19.98
-  },
-  {
-   "w": "it",
-   "start": 19.98,
+   "start": 19.8,
    "end": 20.08
   },
   {
-   "w": "can",
+   "w": "it",
    "start": 20.08,
-   "end": 20.16
+   "end": 20.24
+  },
+  {
+   "w": "can",
+   "start": 20.24,
+   "end": 20.34
   },
   {
    "w": "do",
-   "start": 20.16,
-   "end": 20.3
+   "start": 20.34,
+   "end": 20.48
   },
   {
    "w": "alone.",
-   "start": 20.3,
-   "end": 20.52
+   "start": 20.48,
+   "end": 20.7
   },
   {
    "w": "If",
-   "start": 20.94,
-   "end": 21.08
-  },
-  {
-   "w": "it",
-   "start": 21.08,
+   "start": 21.0,
    "end": 21.14
   },
   {
-   "w": "can",
+   "w": "it",
    "start": 21.14,
-   "end": 21.24
+   "end": 21.22
+  },
+  {
+   "w": "can",
+   "start": 21.22,
+   "end": 21.3
   },
   {
    "w": "do",
-   "start": 21.24,
-   "end": 21.36
+   "start": 21.3,
+   "end": 21.42
   },
   {
-   "w": "any,",
-   "start": 21.36,
+   "w": "any",
+   "start": 21.42,
    "end": 21.58
   },
   {
+   "w": "of",
+   "start": 21.58,
+   "end": 21.72
+  },
+  {
+   "w": "them,",
+   "start": 21.72,
+   "end": 21.88
+  },
+  {
    "w": "add",
-   "start": 21.86,
-   "end": 21.96
+   "start": 22.1,
+   "end": 22.24
   },
   {
    "w": "a",
-   "start": 21.96,
-   "end": 22.04
+   "start": 22.24,
+   "end": 22.34
   },
   {
    "w": "yes",
-   "start": 22.04,
-   "end": 22.2
+   "start": 22.34,
+   "end": 22.5
   },
   {
    "w": "step.",
-   "start": 22.2,
-   "end": 22.38
+   "start": 22.5,
+   "end": 22.7
   },
   {
    "w": "Anthropic's",
-   "start": 22.76,
-   "end": 23.16
+   "start": 23.12,
+   "end": 23.54
   },
   {
    "w": "new",
-   "start": 23.16,
-   "end": 23.24
+   "start": 23.54,
+   "end": 23.64
   },
   {
    "w": "assistant",
-   "start": 23.24,
-   "end": 23.52
+   "start": 23.64,
+   "end": 23.94
   },
   {
    "w": "works",
-   "start": 23.52,
-   "end": 23.76
+   "start": 23.94,
+   "end": 24.22
   },
   {
    "w": "the",
-   "start": 23.76,
-   "end": 23.92
+   "start": 24.22,
+   "end": 24.38
   },
   {
    "w": "same",
-   "start": 23.92,
-   "end": 24.12
+   "start": 24.38,
+   "end": 24.6
   },
   {
    "w": "way.",
-   "start": 24.12,
-   "end": 24.3
+   "start": 24.6,
+   "end": 24.78
   },
   {
    "w": "It",
-   "start": 24.72,
-   "end": 24.84
+   "start": 25.12,
+   "end": 25.24
   },
   {
    "w": "asks",
-   "start": 24.84,
-   "end": 25.2
-  },
-  {
-   "w": "before",
-   "start": 25.2,
+   "start": 25.24,
    "end": 25.54
   },
   {
-   "w": "it",
+   "w": "before",
    "start": 25.54,
-   "end": 25.76
+   "end": 25.88
+  },
+  {
+   "w": "it",
+   "start": 25.88,
+   "end": 26.1
   },
   {
    "w": "pays.",
-   "start": 25.76,
-   "end": 25.94
+   "start": 26.1,
+   "end": 26.3
   },
   {
    "w": "This",
-   "start": 25.94,
-   "end": 26.76
+   "start": 26.3,
+   "end": 27.22
   },
   {
    "w": "Sunday",
-   "start": 26.76,
-   "end": 27.08
+   "start": 27.22,
+   "end": 27.54
   },
   {
    "w": "at",
-   "start": 27.08,
-   "end": 27.34
+   "start": 27.54,
+   "end": 27.72
   },
   {
    "w": "11",
-   "start": 27.34,
-   "end": 27.58
+   "start": 27.72,
+   "end": 27.96
   },
   {
    "w": "AM",
-   "start": 27.58,
-   "end": 27.82
+   "start": 27.96,
+   "end": 28.2
   },
   {
    "w": "Eastern,",
-   "start": 27.82,
-   "end": 28.14
+   "start": 28.2,
+   "end": 28.5
   },
   {
    "w": "we'll",
-   "start": 28.6,
-   "end": 28.72
-  },
-  {
-   "w": "set",
-   "start": 28.72,
-   "end": 28.86
-  },
-  {
-   "w": "up",
-   "start": 28.86,
-   "end": 28.98
-  },
-  {
-   "w": "your",
-   "start": 28.98,
+   "start": 28.96,
    "end": 29.08
   },
   {
-   "w": "first",
+   "w": "set",
    "start": 29.08,
+   "end": 29.22
+  },
+  {
+   "w": "up",
+   "start": 29.22,
    "end": 29.34
   },
   {
-   "w": "AI",
+   "w": "your",
    "start": 29.34,
-   "end": 29.64
+   "end": 29.46
+  },
+  {
+   "w": "first",
+   "start": 29.46,
+   "end": 29.7
+  },
+  {
+   "w": "AI",
+   "start": 29.7,
+   "end": 29.98
   },
   {
    "w": "employee",
-   "start": 29.64,
-   "end": 30.04
+   "start": 29.98,
+   "end": 30.38
   },
   {
    "w": "live,",
-   "start": 30.04,
-   "end": 30.42
+   "start": 30.38,
+   "end": 30.76
   },
   {
    "w": "with",
-   "start": 30.42,
-   "end": 30.84
+   "start": 31.1,
+   "end": 31.18
   },
   {
    "w": "the",
-   "start": 30.84,
-   "end": 30.94
+   "start": 31.18,
+   "end": 31.3
   },
   {
    "w": "yes",
-   "start": 30.94,
-   "end": 31.12
+   "start": 31.3,
+   "end": 31.58
   },
   {
    "w": "built",
-   "start": 31.12,
-   "end": 31.36
+   "start": 31.58,
+   "end": 31.86
   },
   {
    "w": "in.",
-   "start": 31.36,
-   "end": 31.56
+   "start": 31.86,
+   "end": 32.1
   },
   {
-   "w": "Link",
-   "start": 31.9,
-   "end": 31.99
+   "w": "It's",
+   "start": 32.5,
+   "end": 32.62
   },
   {
    "w": "in",
-   "start": 31.99,
-   "end": 32.08
+   "start": 32.62,
+   "end": 32.7
+  },
+  {
+   "w": "our",
+   "start": 32.7,
+   "end": 32.82
   },
   {
    "w": "bio.",
-   "start": 32.08,
-   "end": 32.36
+   "start": 32.82,
+   "end": 33.02
   }
  ],
- "text": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try it today. List every AI tool your team uses, and next to each, write which of those 4 it can do alone. If it can do any, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. Link in bio."
+ "text": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those 4 it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio."
 }

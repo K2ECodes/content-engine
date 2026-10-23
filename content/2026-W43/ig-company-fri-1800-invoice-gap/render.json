@@ -8,8 +8,8 @@
    "volume": 0.1,
    "dropAt": "So"
   },
-  "script": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Content Systems.ai. Comment SYSTEMS for the free checklist.",
-  "say": "Your warehouse did the work. So why is eight thousand dollars missing from the invoice? It usually hides in three places. First, storage past the free period. Pull every pallet that's older than its free days, and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote, and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Kuhn-tent Systems dot A I. Comment SYSTEMS for the free checklist.",
+  "script": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Content Systems.ai. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
+  "say": "Your warehouse did the work. So why is eight thousand dollars missing from the invoice? It usually hides in three places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Kuhn-tent Systems dot A I. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
   "keys": [
    "$8k",
    "missing",
@@ -231,10 +231,10 @@
     ]
    },
    {
-    "at": "handoff",
+    "at": "Getting",
     "world": "dark",
     "type": "word",
-    "text": "Handoff",
+    "text": "To billing",
     "px": "hq",
     "sprites": [
      {
@@ -333,14 +333,46 @@
   },
   "pops": [
    {
-    "at": "Search",
-    "kind": "text",
-    "text": "Search: quote",
-    "x": 690,
-    "y": 230,
-    "size": 60,
+    "at": "Your",
+    "kind": "logo",
+    "brand": "amazon",
+    "x": 40,
+    "y": 420,
+    "w": 170,
+    "rot": -8,
+    "until": "missing",
+    "bare": true
+   },
+   {
+    "at": "warehouse",
+    "kind": "logo",
+    "brand": "shopify",
+    "x": 850,
+    "y": 430,
+    "w": 140,
+    "rot": 8,
+    "until": "missing"
+   },
+   {
+    "at": "did",
+    "kind": "logo",
+    "brand": "fedex",
+    "x": 60,
+    "y": 640,
+    "w": 170,
+    "rot": 6,
+    "until": "missing",
+    "bare": true
+   },
+   {
+    "at": "work.",
+    "kind": "logo",
+    "brand": "ups",
+    "x": 860,
+    "y": 640,
+    "w": 140,
     "rot": -6,
-    "until": "invoice#2"
+    "until": "missing"
    },
    {
     "at": "Comment",
@@ -352,6 +384,30 @@
     "size": 60,
     "color": "#E8B84B",
     "rot": 12
+   },
+   {
+    "at": "Search",
+    "kind": "burst",
+    "text": "QUOTE?",
+    "x": 800,
+    "y": 290,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": 10,
+    "until": "invoice#2"
+   },
+   {
+    "at": "Getting",
+    "kind": "burst",
+    "text": "BILL IT",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": -8,
+    "until": "That's#2"
    }
   ],
   "branded": true,

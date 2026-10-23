@@ -3,8 +3,8 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday, 11 AM Eastern. Link in the post.",
-  "say": "Four of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. One Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says, watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Kuhn-tent Systems dot A I starts there. We'll set this up live this Sunday, eleven A M Eastern. Link in the post.",
+  "script": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday at 11 AM Eastern. It's in our profile.",
+  "say": "Four of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. One Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Kuhn-tent Systems dot A I starts there. We'll set this up live this Sunday at eleven A M Eastern. It's in our profile.",
   "music": {
    "file": "audio/music.mp3",
    "volume": 0.1,
@@ -318,13 +318,13 @@
     "rows": [
      {
       "text": "Sunday, Nov 1",
-      "at": "Sunday,",
+      "at": "Sunday",
       "val": "11 AM ET"
      },
      {
       "text": "Live on Zoom",
-      "at": "Link",
-      "chip": "Link in post",
+      "at": "profile.",
+      "chip": "In our profile",
       "chipKind": "ok"
      }
     ],
@@ -363,7 +363,62 @@
    ],
    "text": "1 RULE"
   },
-  "pops": [],
+  "pops": [
+   {
+    "at": "of",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 40,
+    "y": 420,
+    "w": 140,
+    "rot": -8,
+    "until": "Here's"
+   },
+   {
+    "at": "biggest",
+    "kind": "logo",
+    "brand": "walmart",
+    "x": 860,
+    "y": 430,
+    "w": 170,
+    "rot": 8,
+    "until": "Here's",
+    "bare": true
+   },
+   {
+    "at": "names",
+    "kind": "logo",
+    "brand": "1password",
+    "x": 60,
+    "y": 640,
+    "w": 140,
+    "rot": 6,
+    "until": "Here's"
+   },
+   {
+    "at": "tech",
+    "kind": "logo",
+    "brand": "microsoft",
+    "x": 860,
+    "y": 640,
+    "w": 160,
+    "rot": -6,
+    "until": "Here's",
+    "bare": true
+   },
+   {
+    "at": "meeting.",
+    "kind": "burst",
+    "text": "NO MEETING",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#F26B1D",
+    "rot": -8,
+    "until": "1Password"
+   }
+  ],
   "branded": true,
   "look": "pixel"
  }

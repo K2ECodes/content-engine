@@ -344,6 +344,39 @@
         "y": 270,
         "w": 190,
         "until": "Soon,"
+      },
+      {
+        "at": "just",
+        "kind": "logo",
+        "brand": "amazon",
+        "x": 800,
+        "y": 640,
+        "w": 150,
+        "rot": 8,
+        "bare": true,
+        "until": "Amazon"
+      },
+      {
+        "at": "agents",
+        "kind": "logo",
+        "brand": "google",
+        "x": 90,
+        "y": 640,
+        "w": 150,
+        "rot": -8,
+        "bare": true,
+        "until": "Amazon"
+      },
+      {
+        "at": "shop",
+        "kind": "logo",
+        "brand": "shopify",
+        "x": 90,
+        "y": 1150,
+        "w": 150,
+        "rot": 0,
+        "bare": true,
+        "until": "Amazon"
       }
     ],
     "bgLogos": [

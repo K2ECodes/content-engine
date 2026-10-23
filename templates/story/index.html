@@ -168,7 +168,8 @@
   /* Face plate (HeyGen take, transcoded to webm by render.mjs) */
   .face { position: absolute; overflow: hidden; opacity: 0; z-index: 3; }
   .face video { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; transform-origin: 50% 45%; }
-  .face.full { left: 0; right: 0; top: -170px; height: 1350px; }
+  .face.full { inset: 0; }
+  .face.full video { object-position: 50% 22%; }
   .face.full.cut, .face.split.cut { background: transparent; }
   .facebg { position: absolute; inset: 0; z-index: 2; opacity: 0; background-size: cover; background-position: 50% 40%; filter: blur(2px) saturate(1.1); transform: scale(1.04); }
   .face.cut::after { display: none; }
@@ -352,6 +353,7 @@ window.renderPost = (data) => {
       prevWorld = s.world;
     }
     sceneIn(tl, el, s);
+    if (s.type === 'person') tl.set('#cv .mark', { opacity: 0 }, s.t).set('#cv .mark', { opacity: 1 }, s.end);
     const px = document.getElementById('px' + i), sp = document.getElementById('sp' + i);
     if (px) tl.set(px, { opacity: 1 }, s.t).set(px, { opacity: 0 }, s.end).fromTo(px, { scale: 1.0 }, { scale: 1.06, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t);
     if (sp) { tl.set(sp, { opacity: 1 }, s.t).set(sp, { opacity: 0 }, s.end); tl.fromTo(sp.querySelectorAll('img'), { y: 400 }, { y: 0, duration: 0.3, ease: 'back.out(1.8)', stagger: 0.08, immediateRender: false }, s.t + 0.05); window.sfx.push({ t: s.t + 0.1, kind: 'pop' }); }

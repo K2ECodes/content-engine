@@ -18,7 +18,8 @@ The AI Employee Accelerator, Sun Nov 1, 11 AM Eastern (your clocks go back 1 hou
 #AI #AIagents #AIsecurity #Cybersecurity #Microsoft #Logistics #3PL #Warehousing #SupplyChain #Ecommerce #Automation #Founders
 
 ## Script
-Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, the bank, all with 1 master key. Now 1 bad instruction can touch everything. Satya Nadella put it simply. Separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that leaves the building. Emails, refunds, payments. Fast inside, gated at the door. On Sunday, I'm building an AI employee live, with these exact rules. Join me at the AI Employee Accelerator. The link is in the post.
+
+Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system and the bank, all with 1 master key. Now 1 bad instruction can touch everything. Satya Nadella said it plainly. Separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. On Sunday, I'm building an AI employee live with these exact rules. Join me at the AI Employee Accelerator. It's in my bio.
 
 ## On-screen
 TechCrunch headline · insider threat paragraph · agent-access card (Email, Warehouse system, Bank: FULL, 1 KEY) · 1 bad instruction can touch everything · Nadella quote · MY RULES · every agent checklist · waiting for a yes (Customer emails, Refunds, Payments) + APPROVED · 11 AM ET Sunday · JOIN LIVE, contentsystems.ai/workshop
@@ -36,3 +37,4 @@ Animated story reel voiced by Korede: a TechCrunch article on Microsoft calling 
 
 - Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
 - People (person scene on 'Satya', then the TechCrunch quote screenshot): Satya Nadella, Microsoft CEO, photo by Brian Smale and Microsoft, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-8-2.jpg (cropped).
+- Script rewrite 2026-10-23 (Korede: natural, no filler or forced metaphors, CTA 'comment AI and I'll send it to you free' / 'it's in my bio'), re-voiced in his HeyGen clone (free), tightened, re-transcribed, re-anchored. Previous audio and words in old-v1/.

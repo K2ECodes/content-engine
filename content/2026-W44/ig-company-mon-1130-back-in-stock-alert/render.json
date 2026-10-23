@@ -3,8 +3,8 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "Google now pings shoppers the second your product is back in stock. But it only knows what your data tells it. 3 checks so that alert actually fires. First, compare your warehouse count to your store count today. Warehouse says 40, store says 0? Google says sold out, and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make your price and shipping time match everywhere. 16 in 100 shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping that in sync is what we build at Content Systems.ai. Want us to check yours? Free quote, link in bio.",
-  "say": "Google now pings shoppers the second your product is back in stock. But it only knows what your data tells it. Three checks, so that alert actually fires. First, compare your warehouse count to your store count, today. Warehouse says forty, store says zero? Google says sold out, and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make your price and shipping time match everywhere. Sixteen in a hundred shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping that in sync is what we build at Kuhn-tent Systems dot A I. Want us to check yours? Free quote, link in bio.",
+  "script": "Google now pings shoppers the second your product's back in stock. But it only knows what your data tells it. Here are 3 checks so that alert actually goes out. First, compare your warehouse count to your store count today. If the warehouse says 40 and the store says 0, Google shows sold out and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make sure your price and shipping time match everywhere. 16 in 100 shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping all that in sync is what we build at Content Systems.ai. Want us to check your store for free? It's in our bio.",
+  "say": "Google now pings shoppers the second your product's back in stock. But it only knows what your data tells it. Here are three checks, so that alert actually goes out. First, compare your warehouse count to your store count today. If the warehouse says forty, and the store says zero, Google shows sold out and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make sure your price and shipping time match everywhere. Sixteen in a hundred shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping all that in sync is what we build at Kuhn-tent Systems dot A I. Want us to check your store for free? It's in our bio.",
   "music": {
    "file": "audio/music.mp3",
    "volume": 0.1,
@@ -57,7 +57,7 @@
     "rows": [
      {
       "text": "Warehouse",
-      "at": "Warehouse",
+      "at": "warehouse#2",
       "chip": "40 units",
       "chipKind": "ok"
      },
@@ -182,11 +182,11 @@
     "world": "light",
     "type": "list",
     "title": "Free quote",
-    "badge": "Link in bio",
+    "badge": "In our bio",
     "rows": [
      {
       "text": "We check your store data",
-      "at": "check",
+      "at": "check#2",
       "chip": "Free",
       "chipKind": "ok"
      }
@@ -211,6 +211,49 @@
    ]
   },
   "pops": [
+   {
+    "at": "Google",
+    "kind": "logo",
+    "brand": "google",
+    "x": 40,
+    "y": 420,
+    "w": 170,
+    "rot": -8,
+    "until": "But",
+    "bare": true
+   },
+   {
+    "at": "now",
+    "kind": "logo",
+    "brand": "shopify",
+    "x": 860,
+    "y": 430,
+    "w": 140,
+    "rot": 8,
+    "until": "But"
+   },
+   {
+    "at": "pings",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 60,
+    "y": 640,
+    "w": 160,
+    "rot": 6,
+    "until": "But",
+    "bare": true
+   },
+   {
+    "at": "shoppers",
+    "kind": "logo",
+    "brand": "amazon",
+    "x": 860,
+    "y": 640,
+    "w": 170,
+    "rot": -6,
+    "until": "But",
+    "bare": true
+   },
    {
     "at": "Google#2",
     "kind": "logo",
@@ -241,6 +284,30 @@
     "size": 60,
     "color": "#E8B84B",
     "rot": 12
+   },
+   {
+    "at": "never",
+    "kind": "burst",
+    "text": "NO ALERT",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#F26B1D",
+    "rot": -8,
+    "until": "Second,#2"
+   },
+   {
+    "at": "hour.",
+    "kind": "burst",
+    "text": "EVERY HOUR",
+    "x": 800,
+    "y": 290,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": 10,
+    "until": "Third,"
    }
   ],
   "branded": true

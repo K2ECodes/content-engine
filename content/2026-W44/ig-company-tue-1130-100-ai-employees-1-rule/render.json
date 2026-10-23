@@ -3,8 +3,8 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try it today. List every AI tool your team uses, and next to each, write which of those 4 it can do alone. If it can do any, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. Link in bio.",
-  "say": "We run on over a hundred AI employees. Not one of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But four things always wait for a person's yes. Money going out. A message to a customer. A quote, or a contract. Deleting data. Try it today. List every AI tool your team uses, and next to each, write which of those four it can do alone. If it can do any, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at eleven A M Eastern, we'll set up your first AI employee live, with the yes built in. Link in bio.",
+  "script": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those 4 it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio.",
+  "say": "We run on over a hundred AI employees. Not one of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But four things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those four it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at eleven A M Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio.",
   "music": {
    "file": "audio/music.mp3",
    "volume": 0.1,
@@ -148,7 +148,7 @@
     "bg": "bg/monitors.png"
    },
    {
-    "at": "This",
+    "at": "This Sunday",
     "world": "light",
     "type": "list",
     "title": "The AI Employee Accelerator",
@@ -174,10 +174,10 @@
     "bg": "bg/approve.png"
    },
    {
-    "at": "Link",
+    "at": "It's in",
     "world": "dark",
     "type": "word",
-    "text": "Link in bio",
+    "text": "In our bio",
     "bg": "bg/monitors.png"
    }
   ],
@@ -198,6 +198,48 @@
   },
   "pops": [
    {
+    "at": "We",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 40,
+    "y": 420,
+    "w": 160,
+    "rot": -8,
+    "until": "Here's",
+    "bare": true
+   },
+   {
+    "at": "run",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 860,
+    "y": 430,
+    "w": 140,
+    "rot": 8,
+    "until": "Here's"
+   },
+   {
+    "at": "AI",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 60,
+    "y": 640,
+    "w": 160,
+    "rot": 6,
+    "until": "Here's",
+    "bare": true
+   },
+   {
+    "at": "employees.",
+    "kind": "logo",
+    "brand": "slack",
+    "x": 860,
+    "y": 640,
+    "w": 140,
+    "rot": -6,
+    "until": "Here's"
+   },
+   {
     "at": "draft",
     "kind": "sprite",
     "sprite": "robot",
@@ -215,6 +257,30 @@
     "w": 160,
     "rot": -8,
     "until": "Sunday"
+   },
+   {
+    "at": "refund",
+    "kind": "burst",
+    "text": "REFUND?",
+    "x": 40,
+    "y": 590,
+    "w": 230,
+    "size": 50,
+    "color": "#F26B1D",
+    "rot": -8,
+    "until": "Here's"
+   },
+   {
+    "at": "step.",
+    "kind": "burst",
+    "text": "YES STEP",
+    "x": 800,
+    "y": 290,
+    "w": 230,
+    "size": 50,
+    "color": "#E8B84B",
+    "rot": 10,
+    "until": "Anthropic's"
    }
   ],
   "branded": true

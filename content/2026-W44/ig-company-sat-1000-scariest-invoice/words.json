@@ -67,7 +67,7 @@
   },
   {
    "w": "Peak",
-   "start": 4.28,
+   "start": 4.32,
    "end": 4.44
   },
   {
@@ -92,544 +92,554 @@
   },
   {
    "w": "and",
-   "start": 5.72,
-   "end": 5.84
+   "start": 5.68,
+   "end": 5.82
   },
   {
    "w": "that's",
-   "start": 5.84,
+   "start": 5.82,
    "end": 6.06
   },
   {
    "w": "when",
    "start": 6.06,
-   "end": 6.14
+   "end": 6.16
   },
   {
    "w": "fees",
-   "start": 6.14,
-   "end": 6.38
+   "start": 6.16,
+   "end": 6.44
   },
   {
-   "w": "slip.",
-   "start": 6.38,
-   "end": 6.66
+   "w": "slip",
+   "start": 6.44,
+   "end": 6.72
+  },
+  {
+   "w": "through.",
+   "start": 6.72,
+   "end": 7.0
   },
   {
    "w": "Here",
-   "start": 7.06,
-   "end": 7.22
+   "start": 7.34,
+   "end": 7.48
   },
   {
    "w": "are",
-   "start": 7.22,
-   "end": 7.36
+   "start": 7.48,
+   "end": 7.6
   },
   {
    "w": "3",
-   "start": 7.36,
-   "end": 7.54
+   "start": 7.6,
+   "end": 7.78
   },
   {
    "w": "to",
-   "start": 7.54,
-   "end": 7.66
-  },
-  {
-   "w": "check",
-   "start": 7.66,
+   "start": 7.78,
    "end": 7.88
   },
   {
-   "w": "this",
+   "w": "check",
    "start": 7.88,
    "end": 8.06
   },
   {
-   "w": "week.",
+   "w": "this",
    "start": 8.06,
-   "end": 8.26
+   "end": 8.22
+  },
+  {
+   "w": "week.",
+   "start": 8.22,
+   "end": 8.42
   },
   {
    "w": "Rush",
-   "start": 8.7,
-   "end": 8.78
+   "start": 8.86,
+   "end": 9.0
   },
   {
    "w": "orders",
-   "start": 8.78,
-   "end": 9.12
+   "start": 9.0,
+   "end": 9.3
   },
   {
    "w": "packed",
-   "start": 9.12,
-   "end": 9.46
+   "start": 9.3,
+   "end": 9.62
   },
   {
    "w": "after",
-   "start": 9.46,
-   "end": 9.78
+   "start": 9.62,
+   "end": 9.94
   },
   {
    "w": "cutoff.",
-   "start": 9.78,
-   "end": 10.18
+   "start": 9.94,
+   "end": 10.34
   },
   {
    "w": "Log",
-   "start": 10.38,
-   "end": 10.6
+   "start": 10.58,
+   "end": 10.82
   },
   {
    "w": "each",
-   "start": 10.6,
-   "end": 10.96
+   "start": 10.82,
+   "end": 11.16
   },
   {
    "w": "one",
-   "start": 10.96,
-   "end": 11.18
-  },
-  {
-   "w": "with",
-   "start": 11.18,
-   "end": 11.3
-  },
-  {
-   "w": "the",
-   "start": 11.3,
+   "start": 11.16,
    "end": 11.4
   },
   {
-   "w": "client's",
+   "w": "with",
    "start": 11.4,
-   "end": 11.74
+   "end": 11.54
+  },
+  {
+   "w": "the",
+   "start": 11.54,
+   "end": 11.66
+  },
+  {
+   "w": "client's",
+   "start": 11.66,
+   "end": 12.04
   },
   {
    "w": "name",
-   "start": 11.74,
-   "end": 11.96
+   "start": 12.04,
+   "end": 12.22
   },
   {
    "w": "the",
-   "start": 11.96,
-   "end": 12.28
+   "start": 12.5,
+   "end": 12.58
   },
   {
    "w": "same",
-   "start": 12.28,
-   "end": 12.52
+   "start": 12.58,
+   "end": 12.82
   },
   {
    "w": "day,",
-   "start": 12.52,
-   "end": 12.74
+   "start": 12.82,
+   "end": 13.04
   },
   {
    "w": "not",
-   "start": 13.12,
-   "end": 13.28
+   "start": 13.4,
+   "end": 13.46
   },
   {
    "w": "at",
-   "start": 13.28,
-   "end": 13.42
+   "start": 13.46,
+   "end": 13.6
   },
   {
    "w": "month",
-   "start": 13.42,
-   "end": 13.56
+   "start": 13.6,
+   "end": 13.74
   },
   {
    "w": "end.",
-   "start": 13.56,
-   "end": 13.78
+   "start": 13.74,
+   "end": 13.98
   },
   {
    "w": "Retailer",
-   "start": 14.12,
-   "end": 14.52
+   "start": 14.34,
+   "end": 14.76
   },
   {
    "w": "prep.",
-   "start": 14.52,
-   "end": 14.68
+   "start": 14.76,
+   "end": 14.94
   },
   {
    "w": "Relabeling",
-   "start": 15.16,
-   "end": 15.64
+   "start": 15.36,
+   "end": 15.84
   },
   {
    "w": "and",
-   "start": 15.64,
-   "end": 15.8
+   "start": 15.84,
+   "end": 16.04
   },
   {
    "w": "retailer",
-   "start": 15.8,
-   "end": 16.08
-  },
-  {
-   "w": "stickers",
-   "start": 16.08,
+   "start": 16.04,
    "end": 16.4
   },
   {
-   "w": "are",
+   "w": "stickers",
    "start": 16.4,
-   "end": 16.7
+   "end": 16.76
+  },
+  {
+   "w": "are",
+   "start": 16.76,
+   "end": 17.04
   },
   {
    "w": "usually",
-   "start": 16.7,
-   "end": 16.96
+   "start": 17.04,
+   "end": 17.34
   },
   {
    "w": "priced",
-   "start": 16.96,
-   "end": 17.28
+   "start": 17.34,
+   "end": 17.68
   },
   {
    "w": "per",
-   "start": 17.28,
-   "end": 17.52
+   "start": 17.68,
+   "end": 17.92
   },
   {
    "w": "unit,",
-   "start": 17.52,
-   "end": 17.82
+   "start": 17.92,
+   "end": 18.2
   },
   {
    "w": "so",
-   "start": 18.02,
-   "end": 18.18
-  },
-  {
-   "w": "count",
-   "start": 18.18,
+   "start": 18.42,
    "end": 18.5
   },
   {
-   "w": "the",
+   "w": "count",
    "start": 18.5,
-   "end": 18.66
+   "end": 18.74
+  },
+  {
+   "w": "the",
+   "start": 18.74,
+   "end": 18.88
   },
   {
    "w": "units.",
-   "start": 18.66,
-   "end": 18.84
+   "start": 18.88,
+   "end": 19.08
   },
   {
    "w": "And",
-   "start": 19.42,
-   "end": 19.58
+   "start": 19.66,
+   "end": 19.8
   },
   {
    "w": "early",
-   "start": 19.58,
-   "end": 19.9
+   "start": 19.8,
+   "end": 20.08
   },
   {
    "w": "holiday",
-   "start": 19.9,
-   "end": 20.28
+   "start": 20.08,
+   "end": 20.4
   },
   {
    "w": "stock.",
-   "start": 20.28,
-   "end": 20.58
+   "start": 20.4,
+   "end": 20.72
   },
   {
    "w": "If",
    "start": 21.1,
-   "end": 21.22
+   "end": 21.18
   },
   {
    "w": "a",
-   "start": 21.22,
-   "end": 21.32
+   "start": 21.18,
+   "end": 21.3
   },
   {
    "w": "brand",
-   "start": 21.32,
-   "end": 21.5
+   "start": 21.3,
+   "end": 21.44
   },
   {
    "w": "sent",
-   "start": 21.5,
-   "end": 21.74
+   "start": 21.44,
+   "end": 21.72
   },
   {
    "w": "it",
-   "start": 21.74,
+   "start": 21.72,
    "end": 21.88
   },
   {
    "w": "in",
    "start": 21.88,
-   "end": 21.98
+   "end": 22.02
   },
   {
    "w": "October,",
-   "start": 21.98,
-   "end": 22.32
+   "start": 22.02,
+   "end": 22.34
   },
   {
    "w": "its",
-   "start": 22.76,
-   "end": 22.9
+   "start": 22.86,
+   "end": 23.02
   },
   {
    "w": "free",
-   "start": 22.9,
-   "end": 23.12
+   "start": 23.02,
+   "end": 23.24
   },
   {
    "w": "storage",
-   "start": 23.12,
-   "end": 23.44
+   "start": 23.24,
+   "end": 23.58
   },
   {
    "w": "could",
-   "start": 23.44,
-   "end": 23.64
+   "start": 23.58,
+   "end": 23.76
   },
   {
    "w": "run",
-   "start": 23.64,
-   "end": 23.84
+   "start": 23.76,
+   "end": 23.94
   },
   {
    "w": "out",
-   "start": 23.84,
-   "end": 23.98
+   "start": 23.94,
+   "end": 24.06
   },
   {
    "w": "in",
-   "start": 23.98,
-   "end": 24.1
+   "start": 24.06,
+   "end": 24.18
   },
   {
    "w": "November.",
-   "start": 24.1,
-   "end": 24.4
+   "start": 24.18,
+   "end": 24.46
   },
   {
    "w": "Check",
-   "start": 24.74,
-   "end": 24.98
+   "start": 24.88,
+   "end": 25.18
   },
   {
    "w": "every",
-   "start": 24.98,
-   "end": 25.42
+   "start": 25.18,
+   "end": 25.58
   },
   {
    "w": "expiry",
-   "start": 25.42,
-   "end": 25.82
+   "start": 25.58,
+   "end": 25.96
   },
   {
    "w": "date",
-   "start": 25.82,
-   "end": 26.08
+   "start": 25.96,
+   "end": 26.2
   },
   {
    "w": "now.",
-   "start": 26.08,
-   "end": 26.34
+   "start": 26.2,
+   "end": 26.44
   },
   {
    "w": "At",
-   "start": 26.34,
-   "end": 26.74
+   "start": 26.44,
+   "end": 26.84
   },
   {
    "w": "month",
-   "start": 26.74,
-   "end": 26.94
+   "start": 26.84,
+   "end": 27.08
   },
   {
    "w": "end,",
-   "start": 26.94,
-   "end": 27.22
+   "start": 27.08,
+   "end": 27.38
   },
   {
    "w": "nobody",
-   "start": 27.54,
-   "end": 27.82
+   "start": 27.68,
+   "end": 28.06
   },
   {
    "w": "remembers",
-   "start": 27.82,
-   "end": 28.18
+   "start": 28.06,
+   "end": 28.42
   },
   {
    "w": "who",
-   "start": 28.18,
-   "end": 28.46
+   "start": 28.42,
+   "end": 28.7
   },
   {
    "w": "stayed",
-   "start": 28.46,
-   "end": 28.66
-  },
-  {
-   "w": "late",
-   "start": 28.66,
+   "start": 28.7,
    "end": 28.9
   },
   {
-   "w": "on",
+   "w": "late",
    "start": 28.9,
-   "end": 29.02
+   "end": 29.14
+  },
+  {
+   "w": "on",
+   "start": 29.14,
+   "end": 29.26
   },
   {
    "w": "the",
-   "start": 29.02,
-   "end": 29.12
+   "start": 29.26,
+   "end": 29.36
   },
   {
    "w": "3rd.",
-   "start": 29.12,
-   "end": 29.38
+   "start": 29.36,
+   "end": 29.6
   },
   {
    "w": "So",
-   "start": 29.7,
-   "end": 29.86
+   "start": 29.98,
+   "end": 30.14
   },
   {
    "w": "check",
-   "start": 29.86,
-   "end": 30.08
+   "start": 30.14,
+   "end": 30.38
   },
   {
    "w": "daily",
-   "start": 30.08,
-   "end": 30.4
+   "start": 30.38,
+   "end": 30.66
   },
   {
    "w": "in",
-   "start": 30.4,
-   "end": 30.58
+   "start": 30.66,
+   "end": 30.86
   },
   {
    "w": "peak.",
-   "start": 30.58,
-   "end": 30.76
+   "start": 30.86,
+   "end": 31.12
   },
   {
    "w": "That",
-   "start": 31.18,
-   "end": 31.3
-  },
-  {
-   "w": "daily",
-   "start": 31.3,
+   "start": 31.36,
    "end": 31.54
   },
   {
-   "w": "check",
+   "w": "daily",
    "start": 31.54,
-   "end": 31.84
+   "end": 31.8
+  },
+  {
+   "w": "check",
+   "start": 31.8,
+   "end": 32.08
   },
   {
    "w": "is",
-   "start": 31.84,
-   "end": 32.06
+   "start": 32.08,
+   "end": 32.24
   },
   {
    "w": "what",
-   "start": 32.06,
-   "end": 32.18
+   "start": 32.24,
+   "end": 32.38
   },
   {
    "w": "we",
-   "start": 32.18,
-   "end": 32.28
+   "start": 32.38,
+   "end": 32.48
   },
   {
    "w": "automate",
-   "start": 32.28,
-   "end": 32.62
+   "start": 32.48,
+   "end": 32.8
   },
   {
    "w": "at",
-   "start": 32.62,
-   "end": 32.88
+   "start": 32.8,
+   "end": 33.0
   },
   {
    "w": "Content",
-   "start": 32.88,
-   "end": 33.64
+   "start": 33.0,
+   "end": 33.68
   },
   {
    "w": "Systems.ai.",
-   "start": 33.64,
-   "end": 34.4
+   "start": 33.68,
+   "end": 34.36
   },
   {
    "w": "Our",
-   "start": 34.96,
-   "end": 35.12
+   "start": 34.8,
+   "end": 34.92
   },
   {
    "w": "free",
-   "start": 35.12,
-   "end": 35.34
+   "start": 34.92,
+   "end": 35.12
   },
   {
    "w": "calculator",
-   "start": 35.34,
-   "end": 35.7
+   "start": 35.12,
+   "end": 35.5
   },
   {
    "w": "shows",
-   "start": 35.7,
-   "end": 36.06
+   "start": 35.5,
+   "end": 35.84
   },
   {
    "w": "what",
-   "start": 36.06,
-   "end": 36.26
+   "start": 35.84,
+   "end": 36.04
   },
   {
    "w": "it",
-   "start": 36.26,
-   "end": 36.34
+   "start": 36.04,
+   "end": 36.12
   },
   {
    "w": "adds",
-   "start": 36.34,
-   "end": 36.5
+   "start": 36.12,
+   "end": 36.3
   },
   {
    "w": "up",
-   "start": 36.5,
-   "end": 36.66
+   "start": 36.3,
+   "end": 36.46
   },
   {
    "w": "to.",
-   "start": 36.66,
-   "end": 36.82
+   "start": 36.46,
+   "end": 36.62
   },
   {
-   "w": "Link",
-   "start": 37.18,
-   "end": 37.38
+   "w": "It's",
+   "start": 36.84,
+   "end": 36.98
   },
   {
    "w": "in",
-   "start": 37.38,
-   "end": 37.5
+   "start": 36.98,
+   "end": 37.04
+  },
+  {
+   "w": "our",
+   "start": 37.04,
+   "end": 37.14
   },
   {
    "w": "bio.",
-   "start": 37.5,
-   "end": 37.7
+   "start": 37.14,
+   "end": 37.38
   }
  ],
- "text": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. Link in bio."
+ "text": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip through. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. It's in our bio."
 }

@@ -13,7 +13,8 @@ Takes 5 minutes. A surprise bill takes longer.
 #AI #AItools #cybersecurity #technews #OpenAI
 
 ## Script
-A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. 5 minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack.
+
+A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys, and spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts going off overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys and remove people who've left. It takes 5 minutes, and it beats a surprise bill. Want my AI starter pack? Comment AI and I'll send it to you free.
 
 ## On-screen
 TechCrunch headline · OpenCode Console card (Attackers get in, Saved AI keys, Keys get spent) + BILLED · TechCrunch spend alerts paragraph · CHECK 3 · Claude docs spend limits · api-keys, 1 per tool · who can use them (You, Key from 2025, Ex-teammate) · today, 5 minutes checklist + DONE · AI keyword box
@@ -32,3 +33,4 @@ Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in
 
 - Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
 - No person scene: no real person is named in this story, and putting a lab CEO next to a hack would imply involvement.
+- Script rewrite 2026-10-23 (Korede: natural, no filler or forced metaphors, CTA 'comment AI and I'll send it to you free' / 'it's in my bio'), re-voiced in his HeyGen clone (free), tightened, re-transcribed, re-anchored. Previous audio and words in old-v1/.
