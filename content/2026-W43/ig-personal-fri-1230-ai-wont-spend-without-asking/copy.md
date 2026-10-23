@@ -1,5 +1,5 @@
 ## Caption
-Anthropic just shipped an AI that won't spend your money without asking. Comment AI and I'll send you the 5 starter skills I give every new AI employee.
+Anthropic just shipped an AI that won't spend your money without asking. Comment AI and I'll send you the 5 starter skills I give every new AI employee, free.
 
 Claude Duet works in the background, and before it pays for anything, it waits for your yes. That approval step is the real feature. It's how we build every system at Content Systems.ai: the AI does the work, a person signs off on anything that leaves the building.
 
