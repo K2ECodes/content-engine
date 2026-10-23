@@ -191,5 +191,12 @@
     "bg": "#000000",
     "fg": "#FFFFFF",
     "tile": "#FFFFFF"
+  },
+  "gmail": {
+    "name": "Gmail",
+    "logo": "gmail.svg",
+    "bg": "#EA4335",
+    "fg": "#FFFFFF",
+    "tile": "#FFFFFF"
   }
 }

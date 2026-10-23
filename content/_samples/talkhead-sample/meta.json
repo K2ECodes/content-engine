@@ -1,0 +1,16 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "operational-clarity",
+  "execution": "checklist",
+  "topic": "claude-connectors-only-what-you-use",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "slot": "2026-11-02T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [],
+  "cta_keyword": "AI",
+  "freebie": "AI Employee Starter Pack"
+}

@@ -3,7 +3,7 @@
 //
 //   node scripts/render.mjs <post-dir> [--fps 30] [--frames-only]
 //
-// render.json: { "template": "static" | "carousel" | "pixel" | "video" | "split" | "story" | "arena", "data": { ... } }
+// render.json: { "template": "static" | "carousel" | "pixel" | "video" | "split" | "story" | "arena" | "talkhead", "data": { ... } }
 // Aspect comes from meta.json (1:1, 4:5, 9:16). Icons are Lucide names (lucide.dev), resolved here
 // into inline SVG under the key "<name>Svg" (icon -> iconSvg, loopIcon -> loopIconSvg).
 //
@@ -16,6 +16,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { spawn, spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { chromium } from 'playwright';
@@ -522,6 +523,148 @@ async function renderArena(browser, spec, dir, fps) {
   return ['video.mp4', 'poster.png'];
 }
 
+// ---------- talkhead template (research/style-talking-head-pro.md) ----------
+// Real recorded footage (4K or 1080p, vertical or landscape, any fps). ffmpeg cuts video and audio together from an EDL
+// (pauses trimmed from the word timings, plus manual `cuts`), crops a 9:16 column around the face and writes JPEG frames
+// at the output fps. Chromium only shows those frames (it can't decode H.264/HEVC), so zooms, layouts and graphics stay HTML.
+const TH_GRID = 1 / 30;   // cut points snap to a 30 fps grid, so video and audio lose exactly the same time at every cut
+function probeFootage(f) {
+  const r = spawnSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height:stream_side_data=rotation:stream_tags=rotate', '-of', 'json', f]);
+  const s = JSON.parse(String(r.stdout)).streams?.[0];
+  if (!s) throw new Error(`talkhead: no video stream in ${f}`);
+  const rot = Math.abs(Number(s.side_data_list?.find((x) => x.rotation !== undefined)?.rotation ?? s.tags?.rotate ?? 0)) % 180;
+  return rot === 90 ? { w: s.height, h: s.width } : { w: s.width, h: s.height };   // ffmpeg autorotates on decode
+}
+function buildEdl(words, { from = 0, to = Infinity, max = 0.3, keep = 0.16, head = 0.08, tail = 0.22, cuts = [] } = {}) {
+  const ws = words.filter((w) => w.start >= from - 0.01 && w.end <= to + 0.01);
+  if (!ws.length) throw new Error('talkhead: no words inside from/to');
+  let segs = [];
+  const before = words.filter((w) => w.end <= ws[0].start + 0.01 && !ws.includes(w)).at(-1);
+  let a = Math.max(from - head, ws[0].start - head, before ? before.end + 0.03 : 0);
+  for (let i = 1; i < ws.length; i++) {
+    const gap = ws[i].start - ws[i - 1].end;
+    if (gap > max) { segs.push([a, ws[i - 1].end + keep / 2]); a = ws[i].start - keep / 2; }
+  }
+  const after = words.find((w) => w.start > ws.at(-1).end - 0.01 && !ws.includes(w));   // never run into the next word
+  segs.push([a, Math.min(ws.at(-1).end + tail, after ? after.start - 0.03 : Infinity, to === Infinity ? Infinity : Math.max(to, ws.at(-1).end) + tail)]);
+  for (const [ca, cb] of cuts) segs = segs.flatMap(([x, y]) => (cb <= x || ca >= y ? [[x, y]] : [[x, ca], [cb, y]].filter(([p, q]) => q - p > 0.05)));
+  const q = (t) => Math.round(t / TH_GRID) * TH_GRID;
+  segs = segs.map(([x, y]) => [q(x), q(y)]).filter(([x, y]) => y - x >= TH_GRID * 2);
+  const map = (t) => { let acc = 0; for (const [x, y] of segs) { if (t < x) return null; if (t <= y) return acc + (t - x); acc += y - x; } return null; };
+  const cutWords = ws.map((w) => { const s = map(w.start), e = map(w.end); return s == null ? null : { ...w, start: +s.toFixed(3), end: +(e ?? s + 0.15).toFixed(3) }; }).filter(Boolean);
+  return { segs, words: cutWords, duration: segs.reduce((n, [x, y]) => n + y - x, 0), map };
+}
+function resolveTalkhead(dir, spec, fps) {
+  const d = structuredClone(spec.data);
+  const footage = path.resolve(dir, d.footage);
+  const srcWords = JSON.parse(fs.readFileSync(path.resolve(dir, d.words), 'utf8')).words;
+  const anchor = (a, label) => (a === undefined ? undefined : typeof a === 'number' ? a : wordTime(srcWords, a, label));
+  const tight = d.tighten === false ? { max: 1e9 } : d.tighten || {};
+  // `to` is the last word kept: its phrase end (a "word#n" anchor of 1 or more words) or seconds
+  const toEnd = (a) => { if (a === undefined) return Infinity; if (typeof a === 'number') return a; const s = wordTime(srcWords, a, 'to'), k = srcWords.findIndex((w) => w.start === s); return srcWords[k + String(a).split('#')[0].trim().split(/\s+/).length - 1].end; };
+  const edl = buildEdl(srcWords, { ...tight, from: anchor(d.from, 'from') ?? 0, to: toEnd(d.to), cuts: d.cuts || [] });
+  const words = edl.words;
+  const T = (a, label, lead = 0.05) => Math.max(0, wordTime(words, a, label) - lead);
+
+  // 9:16 column around the face (frame.cx, frame.eyes are fractions of the source frame).
+  const src = probeFootage(footage), fr = { cx: 0.5, eyes: 0.38, ...(d.frame || {}) };   // frame.head: top of the head (default eyes - 0.2); frame.base < 1 insets tight footage
+  let colW = Math.round(src.h * 9 / 16), colH = src.h;
+  if (colW > src.w) { colW = src.w; colH = Math.round(src.w * 16 / 9); }
+  colW -= colW % 2; colH -= colH % 2;
+  const colX = Math.round(Math.min(Math.max(0, fr.cx * src.w - colW / 2), src.w - colW));
+  const colY = Math.round(Math.min(Math.max(0, fr.eyes * src.h - colH * 0.36), src.h - colH));
+  const OW = Math.min(1296, Math.max(1080, colW)) & ~1, OH = Math.round(OW * 16 / 9) & ~1;
+  const frames = { base: Math.min(1, Math.max(0.75, fr.base ?? 1)), w: OW, h: OH, ex: ((fr.cx * src.w - colX) / colW) * OW, ey: ((fr.eyes * src.h - colY) / colH) * OH, hy: (((fr.head ?? fr.eyes - 0.2) * src.h - colY) / colH) * OH };
+
+  // Cache the cut frames + voice by everything that changes them.
+  const key = crypto.createHash('sha1').update(JSON.stringify([edl.segs, fps, colW, colH, colX, colY, OW, fs.statSync(footage).mtimeMs])).digest('hex').slice(0, 10);
+  const work = path.join(dir, '.talkhead', key), fdir = path.join(work, 'frames'), voice = path.join(work, 'voice.wav');
+  const count = Math.ceil(edl.duration * fps - 1e-6);
+  if (!fs.existsSync(voice) || !fs.existsSync(fdir) || fs.readdirSync(fdir).length < count) {
+    fs.rmSync(path.join(dir, '.talkhead'), { recursive: true, force: true });
+    fs.mkdirSync(fdir, { recursive: true });
+    const sel = edl.segs.map(([x, y]) => `between(t,${(x - 0.0005).toFixed(4)},${(y - 0.0005).toFixed(4)})`).join('+');
+    const n = edl.segs.length;
+    const fc = [`[0:v]fps=30,select='${sel}',setpts=N/30/TB,fps=${fps},crop=${colW}:${colH}:${colX}:${colY},scale=${OW}:${OH}:flags=lanczos,format=yuvj420p[v]`,
+      `[0:a]aresample=48000,asplit=${n}${edl.segs.map((_, i) => `[a${i}]`).join('')}`,
+      ...edl.segs.map(([x, y], i) => `[a${i}]atrim=${x.toFixed(4)}:${y.toFixed(4)},asetpts=PTS-STARTPTS,afade=t=in:d=0.008,afade=t=out:st=${Math.max(0, y - x - 0.008).toFixed(4)}:d=0.008[c${i}]`),
+      `${edl.segs.map((_, i) => `[c${i}]`).join('')}concat=n=${n}:v=0:a=1[a]`].join(';');
+    console.log(`  cutting ${n} segments (${edl.duration.toFixed(2)}s) from ${path.basename(footage)} ${src.w}x${src.h} -> ${OW}x${OH} frames at ${fps}fps`);
+    const r = spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', footage, '-filter_complex', fc, '-map', '[v]', '-q:v', '3', path.join(fdir, '%05d.jpg'), '-map', '[a]', '-ac', '2', voice], { stdio: 'inherit' });
+    if (r.status !== 0) throw new Error('talkhead: ffmpeg cut failed');
+  }
+  frames.count = fs.readdirSync(fdir).filter((f) => f.endsWith('.jpg')).length;
+  frames.url = pathToFileURL(fdir).href + '/';
+  fs.writeFileSync(path.join(dir, 'edl.json'), JSON.stringify({ footage: d.footage, segments: edl.segs.map(([x, y]) => [+x.toFixed(3), +y.toFixed(3)]), duration: +edl.duration.toFixed(3), column: { x: colX, y: colY, w: colW, h: colH } }, null, 1) + '\n');
+  fs.writeFileSync(path.join(dir, 'words-cut.json'), JSON.stringify({ words }, null, 1) + '\n');
+
+  const BRANDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'));
+  const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, logoUrl: pathToFileURL(path.join(ROOT, 'assets/logos', b.logo)).href }; };
+  const lum = (hex) => { const v = parseInt(String(hex).replace('#', '').slice(0, 6), 16); return (0.299 * (v >> 16 & 255) + 0.587 * (v >> 8 & 255) + 0.114 * (v & 255)) / 255; };
+  const accent = d.accent || (d.brand ? brand(d.brand).accent || brand(d.brand).bg : '#E8B84B');
+  const tail = d.tail ?? (d.cta && !d.cta.at ? 2.6 : 0.5);
+  const out = {
+    duration: edl.duration + tail, fps, words, frames, accent, accentFg: lum(accent) > 0.6 ? '#111111' : '#FFFFFF',
+    keys: d.keys || [], handle: d.handle || '@growthsanj', safeGuides: d.safeGuides, posterAt: d.posterAt,
+  };
+  out.beats = (d.beats || [{ layout: 'close' }]).map((b, i) => ({ ...b, t: i === 0 && b.at === undefined ? 0 : T(b.at, `beat ${i}`, 0.06), layout: b.layout || 'close' })).sort((a, b) => a.t - b.t);
+  if (out.beats[0].t > 0) out.beats.unshift({ t: 0, layout: 'close' });
+  if (d.cta) {
+    // CTA: spoken keyword line (cta.at) or, with no anchor, a card held over the tail after the last word.
+    const ct = d.cta.at !== undefined ? T(d.cta.at, 'cta', 0.05) : edl.duration + 0.1;
+    out.cta = { t: ct, kwT: d.cta.keywordAt !== undefined ? T(d.cta.keywordAt, 'cta keyword', 0.03) : undefined, keyword: d.cta.keyword, lead: d.cta.lead ?? (d.cta.keyword ? 'comment' : 'follow') };
+    out.beats = out.beats.filter((b) => b.t < ct - 0.05).concat([{ t: ct, layout: 'close', z: d.cta.z ?? 1.08 }]);
+  }
+  out.beats.forEach((b, i) => { b.end = out.beats[i + 1]?.t ?? out.duration; });
+  out.beats.forEach((b, i) => {
+    const m = b.media; if (!m) return;
+    if (m.kind === 'logos') { m.b = m.brands.map(brand); if (m.ats) m.ts = m.ats.map((a, k) => T(a, `beat ${i} logo ${k}`, 0.03)); }
+    if ((m.kind === 'shot' || m.kind === 'broll') && m.src) {
+      const f = path.resolve(dir, m.src);
+      if (/\.(mp4|mov|m4v|webm)$/i.test(f)) {
+        // B-roll video: pre-extract its frames for the beat's length at the output fps
+        const bdir = path.join(work, `broll-${i}`);
+        if (!fs.existsSync(bdir) || !fs.readdirSync(bdir).length) {
+          fs.mkdirSync(bdir, { recursive: true });
+          spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(m.from ?? 0), '-i', f, '-t', String(b.end - b.t + 0.2), '-vf', `fps=${fps},scale=900:-2`, '-q:v', '3', path.join(bdir, '%05d.jpg')], { stdio: 'inherit' });
+        }
+        m.seq = { url: pathToFileURL(bdir).href + '/', count: fs.readdirSync(bdir).length };
+        m.srcUrl = `${m.seq.url}00001.jpg`;
+      } else m.srcUrl = pathToFileURL(f).href;
+    }
+  });
+  out.punches = (d.punches || []).map((p, i) => ({ ...p, t: T(p.at, `punch ${i}`, 0.04), end: p.until !== undefined ? T(p.until, `punch ${i} until`, 0.04) : undefined }));
+  out.pops = (d.pops || []).map((p, i) => ({ ...p, t: T(p.at, `pop ${i}`, 0.03), end: p.until !== undefined ? T(p.until, `pop ${i} until`) : undefined, ...(p.kind === 'logo' ? { b: brand(p.brand) } : {}) }));
+  if (d.title) out.title = { top: d.title.top, hi: d.title.hi, t: 0, end: d.title.until !== undefined ? T(d.title.until, 'title until', 0.06) : (out.beats[1]?.t ?? 3) };
+  if (d.music?.at !== undefined) d.music = { ...d.music, t: T(d.music.at, 'music', 0.15) };
+  out.music = d.music;
+  return { data: out, voiceSrc: voice };
+}
+
+async function renderTalkhead(browser, spec, dir, fps) {
+  const { data, voiceSrc } = resolveTalkhead(dir, spec, fps);
+  const { page } = await openTemplate(browser, 'talkhead', data, '9:16');
+  const duration = data.duration, frames = Math.round(duration * fps);
+  const sfx = await page.evaluate(() => window.sfx);
+  const silent = path.join(dir, 'video-silent.mp4');
+  const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
+    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg exited ${c}`)))));
+  for (let f = 0; f < frames; f++) {
+    await page.evaluate((t) => window.seek(t), f / fps);
+    const buf = await page.screenshot({ type: 'jpeg', quality: 94 });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+    if (f % fps === 0) process.stdout.write(`\r  frame ${f}/${frames}`);
+  }
+  ff.stdin.end();
+  await done;
+  process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
+  const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.2);
+  spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
+  return ['video.mp4', 'poster.png'];
+}
+
 async function main(argv) {
   const dir = path.resolve(argv.find((a) => !a.startsWith('--')) || '');
   const fps = Number(argv[argv.indexOf('--fps') + 1]) || 30;
@@ -541,6 +684,7 @@ async function main(argv) {
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)
       : spec.template === 'arena' ? await renderArena(browser, spec, dir, fps)
+      : spec.template === 'talkhead' ? await renderTalkhead(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
     meta.media = files;
     fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
@@ -550,4 +694,5 @@ async function main(argv) {
   }
 }
 
-main(process.argv.slice(2)).catch((e) => { console.error(e.message); process.exit(1); });
+export { resolveTalkhead, openTemplate };
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main(process.argv.slice(2)).catch((e) => { console.error(e.message); process.exit(1); });

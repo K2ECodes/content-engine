@@ -173,8 +173,10 @@
   /* Face plate (HeyGen take, transcoded to webm by render.mjs) */
   .face { position: absolute; overflow: hidden; opacity: 0; z-index: 5; }
   .face video { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; transform-origin: 50% 45%; }
-  .face.full { inset: 0; }
-  .face.full video { object-position: 50% 22%; }
+  .face.full { inset: 0; background: #0B0F0C; }
+  .face.full video.plain, .face.full video.cutv { position: absolute; left: 0; top: 250px; width: 100%; height: 1250px; object-position: 50% 30%; }
+  .face video.blurfill { display: none; }
+  .face.full:not(.cut) video.blurfill { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(40px) brightness(.6) saturate(1.2); transform: scale(1.2); }
   .face.full.cut, .face.split.cut { background: transparent; }
   .facebg { position: absolute; inset: 0; z-index: 2; opacity: 0; background-size: cover; background-position: 50% 40%; filter: blur(2px) saturate(1.1); transform: scale(1.04); }
   .face.cut::after { display: none; }
@@ -205,9 +207,9 @@
   /* Liquid glass is the default material for every card and panel (Korede, 2026-10-23; see templates/_base/glass.css).
      Same material on every look: on solid stop-motion colours, pixel worlds and cinema photos it reads as a tinted pane. */
   .card, .brandp, .vs .side, .person .q, .bigword, .shot, .badge, .flow .node, .flow .ctr { -webkit-backdrop-filter: blur(26px) saturate(1.9); backdrop-filter: blur(26px) saturate(1.9); position: relative; isolation: isolate; }
-  .dark .card, .card.d, .card { background: linear-gradient(180deg, rgba(34,40,38,.64) 0%, rgba(10,14,12,.52) 100%); border: 1.5px solid rgba(255,255,255,.24); color: #F7F4EE;
+  .dark .card, .card.d, .card { background: linear-gradient(180deg, rgba(28,34,31,.86) 0%, rgba(8,12,10,.80) 100%); border: 1.5px solid rgba(255,255,255,.28); color: #F7F4EE;
     box-shadow: inset 0 1.5px 0 rgba(255,255,255,.55), inset 0 -2px 8px rgba(255,255,255,.05), inset 0 0 30px rgba(255,255,255,.06), 0 26px 64px rgba(0,0,0,.34); }
-  .light .card, .card.l { background: linear-gradient(180deg, rgba(255,255,255,.78) 0%, rgba(255,255,255,.56) 100%); border: 1.5px solid rgba(255,255,255,.8); color: #14201A;
+  .light .card, .card.l { background: linear-gradient(180deg, rgba(255,255,255,.93) 0%, rgba(255,255,255,.84) 100%); border: 1.5px solid rgba(255,255,255,.9); color: #14201A;
     box-shadow: inset 0 2px 0 #FFFFFF, inset 0 -2px 8px rgba(255,255,255,.3), inset 0 0 30px rgba(255,255,255,.25), 0 24px 60px rgba(10,20,14,.2); }
   .card .win-bar { border-bottom-color: rgba(255,255,255,.14); }
   .brandp, .vs .side { box-shadow: inset 0 2px 0 rgba(255,255,255,.55), inset 0 0 0 1.5px rgba(255,255,255,.22), inset 0 0 40px rgba(255,255,255,.10), 0 30px 70px rgba(0,0,0,.4); }
@@ -220,6 +222,7 @@
   /* specular sheen sweep, driven by --gx from the timeline (seek-safe) */
   .card::after, .brandp::after, .vs .side::after, .bigword::after, .flow .node::after, .badge::after { content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 3;
     background: linear-gradient(112deg, transparent calc(var(--gx, -40%) - 18%), rgba(255,255,255,.22) var(--gx, -40%), transparent calc(var(--gx, -40%) + 14%)); mix-blend-mode: screen; }
+  .pixel-look .card { background: linear-gradient(180deg, rgba(28,34,31,.88), rgba(8,12,10,.82)) !important; color: #F7F4EE !important; border-color: rgba(255,255,255,.3) !important; }
   /* safe zones (Korede): all content inside x 60 to 940 and y 230 to 1500 */
   .foot { right: 150px; bottom: 440px; }
   .face.pip { right: 150px; bottom: 430px; }
@@ -437,11 +440,11 @@ window.renderPost = (data) => {
   const lines = sentences(data.words);
   const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
 
-  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}"><div class="canvas${data.branded ? ' branded' : ''}" id="cv">
+  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}${data.look === 'pixel' ? ' pixel-look' : ''}"><div class="canvas${data.branded ? ' branded' : ''}" id="cv">
     <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div><div id="wipe"></div>
     <div class="vibe" id="vibe" style="${data.look === 'pixel' ? 'display:none' : ''}">${data.stop !== false ? Array.from({ length: 22 }, (_, k) => `<i class="scrap" style="left:${(k * 211) % 1040}px;top:${(k * 389) % 1880}px;background:${SCRAP_COLORS[k % 4]};transform:rotate(${(k * 47) % 180}deg)"></i>`).join('') : ''}<div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${i % 2 ? 950 : 30}px;top:${340 + ((i * 131) % 420)}px"><img src="${b.logoUrl}"></div>`).join('')}</div>
-    ${data.face ? `<div class="facebg" id="fbg"></div><div class="face" id="face"><video id="fv" class="plain" src="${esc(data.face.src)}" muted playsinline preload="auto"></video>${data.face.cutSrc ? `<video id="fvc" class="cutv" src="${esc(data.face.cutSrc)}" muted playsinline preload="auto"></video>` : ''}</div>` : ''}
+    ${data.face ? `<div class="facebg" id="fbg"></div><div class="face" id="face"><video class="blurfill" src="${esc(data.face.src)}" muted playsinline preload="auto"></video><video id="fv" class="plain" src="${esc(data.face.src)}" muted playsinline preload="auto"></video>${data.face.cutSrc ? `<video id="fvc" class="cutv" src="${esc(data.face.cutSrc)}" muted playsinline preload="auto"></video>` : ''}</div>` : ''}
     ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
     ${data.look === 'pixel' ? data.scenes.map((s, i) => `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>`).join('') : ''}
     ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;${k.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>` : '').join('')}

@@ -1,0 +1,140 @@
+{
+  "template": "talkhead",
+  "data": {
+    "footage": "../../../tmp/twin-footage.mp4",
+    "words": "words-full.json",
+    "from": "Turn on the ones you generally#2",
+    "to": "this client?",
+    "tighten": {
+      "max": 0.3,
+      "keep": 0.16
+    },
+    "frame": {
+      "cx": 0.52,
+      "eyes": 0.47,
+      "head": 0.2,
+      "base": 0.84
+    },
+    "brand": "claude",
+    "handle": "@koredekola",
+    "title": {
+      "top": "Only connect what",
+      "hi": "you actually use",
+      "until": "Only"
+    },
+    "keys": [
+      "inside.",
+      "payments.",
+      "actually",
+      "impressive",
+      "nothing.",
+      "browser",
+      "watching.",
+      "askable,",
+      "promise"
+    ],
+    "beats": [
+      {
+        "layout": "stack",
+        "media": {
+          "kind": "logos",
+          "brands": [
+            "gmail",
+            "google",
+            "notion",
+            "slack",
+            "shopify"
+          ],
+          "ats": [
+            "Email,",
+            "calendar,",
+            "documents,",
+            "tools,",
+            "payments."
+          ]
+        }
+      },
+      {
+        "at": "Only",
+        "layout": "close"
+      },
+      {
+        "at": "because a connector",
+        "layout": "full",
+        "media": {
+          "kind": "text",
+          "text": "A connector for *show*",
+          "sub": "is 1 more place to search and find nothing"
+        }
+      },
+      {
+        "at": "And on the desktop",
+        "layout": "stack",
+        "media": {
+          "kind": "shot",
+          "src": "assets/claude-chrome.png",
+          "chrome": "phone",
+          "pan": 220
+        }
+      },
+      {
+        "at": "navigates,",
+        "layout": "close",
+        "z": 1.06
+      },
+      {
+        "at": "Which actually means",
+        "layout": "full",
+        "media": {
+          "kind": "text",
+          "text": "Ask what was never *askable*"
+        }
+      },
+      {
+        "at": "like what did",
+        "layout": "close"
+      }
+    ],
+    "punches": [
+      {
+        "at": "actually#1",
+        "z": 1.15,
+        "until": "because"
+      },
+      {
+        "at": "watching.",
+        "z": 1.14,
+        "mode": "cut"
+      },
+      {
+        "at": "promise",
+        "z": 1.18
+      }
+    ],
+    "pops": [
+      {
+        "kind": "emoji",
+        "emoji": "👀",
+        "at": "watching.",
+        "x": 760,
+        "y": 420,
+        "w": 150
+      },
+      {
+        "kind": "text",
+        "text": "side panel",
+        "at": "side panel",
+        "until": "navigates,",
+        "x": 120,
+        "y": 300
+      }
+    ],
+    "cta": {
+      "keyword": "AI"
+    },
+    "music": {
+      "file": "assets/music.mp3",
+      "volume": 0.07
+    }
+  }
+}

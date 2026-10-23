@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Playfair+Display:ital,wght@1,700;1,800&display=block">
+<link rel="stylesheet" href="../_base/glass.css">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  /* Talking-head pro reel (research/style-talking-head-pro.md). Real recorded footage, 1080x1920.
+     The footage arrives as pre-cut JPEG frames (ffmpeg EDL in scripts/render.mjs); this page frames, zooms and decorates them. */
+  :root { --acc: #D97757; --acc-fg: #fff; --sans: 'Inter', system-ui, sans-serif; --serif: 'Playfair Display', Georgia, serif; }
+  .canvas { width: 1080px; height: 1920px; background: #0B0C0E; }
+  .L { position: absolute; inset: 0; visibility: hidden; overflow: hidden; }
+  .L.on { visibility: visible; }
+
+  /* close: footage full frame, eyes on the upper third */
+  #Lc img.ft { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  /* frame.base < 1 (footage shot too tight): the frame floats on its own blurred copy with feathered edges */
+  #Lc .bgwrap { position: absolute; inset: -80px; overflow: hidden; display: none; }
+  #Lc.inset .bgwrap { display: block; }
+  #Lc .bgwrap img { position: absolute; left: 0; top: 0; width: 270px; height: 480px; transform-origin: 0 0; transform: scale(4.6); filter: blur(9px) saturate(1.1) brightness(.6); }
+  #Lc.inset img.ft { -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%), linear-gradient(180deg, transparent 0, #000 6%, #000 90%, transparent 100%); -webkit-mask-composite: source-in; mask-composite: intersect; }
+  #Lc::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 52%, rgba(0,0,0,.38) 100%); pointer-events: none; }
+
+  /* stack: light backdrop, headline + media card on top, footage card at the bottom */
+  #Ls { background: linear-gradient(170deg, #F4F6F7 0%, #ECEFF1 55%, #F3F0EA 100%); }
+  #Ls .tint { position: absolute; inset: 0; background: radial-gradient(70% 45% at 85% 10%, color-mix(in srgb, var(--acc) 16%, transparent), transparent 70%); }
+  #Ls .leaf { position: absolute; border-radius: 50% 0 50% 0; background: rgba(40,52,60,.07); filter: blur(22px); }
+  #Ls .fcard { position: absolute; left: 60px; width: 960px; bottom: -60px; border-radius: 52px; overflow: hidden; background: #222; box-shadow: 0 30px 80px rgba(20,30,40,.22), 0 0 0 1.5px rgba(255,255,255,.7) inset; }
+  #Ls .fcard img.ft { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+
+  /* full: blurred, dimmed footage behind a full-screen graphic */
+  #Lf .bgwrap { position: absolute; inset: -80px; overflow: hidden; }
+  #Lf img.ft { position: absolute; left: 0; top: 0; width: 270px; height: 480px; transform-origin: 0 0; transform: scale(4.6); filter: blur(9px) saturate(1.2) brightness(.42); }
+  #Lf .shade { position: absolute; inset: 0; background: radial-gradient(80% 60% at 50% 40%, rgba(0,0,0,.1), rgba(0,0,0,.6)); }
+
+  /* headline (hook) */
+  #title { position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; z-index: 4; }
+  #title .t1 { font: 800 68px/1.08 var(--sans); color: #111; letter-spacing: -.02em; }
+  #title .t1 span { display: inline-block; margin: 0 .12em; opacity: 0; }
+  #title .hi { display: inline-block; margin-top: 12px; padding: 4px 26px 10px; border-radius: 10px; background: var(--acc); color: var(--acc-fg); font: italic 800 86px/1.05 var(--serif); transform-origin: left center; }
+  #title .hi b { font-weight: inherit; opacity: 0; display: inline-block; }
+
+  /* media cards */
+  .mc { position: absolute; left: 60px; width: 960px; display: flex; align-items: center; justify-content: center; opacity: 0; z-index: 3; }
+  .frame { position: relative; border-radius: 30px; overflow: hidden; background: #0E0F12; border: 3px solid var(--acc); box-shadow: 0 0 0 1px rgba(255,255,255,.08) inset, 0 0 46px color-mix(in srgb, var(--acc) 55%, transparent), 0 26px 70px rgba(0,0,0,.35); }
+  .frame .chrome { height: 54px; display: flex; align-items: center; gap: 12px; padding: 0 22px; background: #16181C; border-bottom: 1px solid rgba(255,255,255,.08); font: 600 24px/1 var(--sans); color: rgba(255,255,255,.7); }
+  .frame .chrome i { width: 15px; height: 15px; border-radius: 50%; background: #555; }
+  .frame .chrome i:nth-child(1) { background: #FF5F57; } .frame .chrome i:nth-child(2) { background: #FEBC2E; } .frame .chrome i:nth-child(3) { background: #28C840; }
+  .frame .chrome span { margin-left: 12px; padding: 8px 18px; border-radius: 10px; background: rgba(255,255,255,.07); }
+  .frame .vp { position: relative; overflow: hidden; }
+  .frame .vp img { position: absolute; left: 0; top: 0; width: 100%; }
+  .frame.phone { border-radius: 64px; border: 12px solid #0A0A0A; box-shadow: 0 0 0 3px var(--acc), 0 0 46px color-mix(in srgb, var(--acc) 55%, transparent), 0 26px 70px rgba(0,0,0,.35); }
+  .frame.broll .vp img { height: 100%; object-fit: cover; }
+  .tiles { display: flex; flex-wrap: wrap; gap: 34px; justify-content: center; align-items: center; }
+  .tile { opacity: 0; width: var(--tw, 210px); height: var(--tw, 210px); border-radius: 26%; display: grid; place-items: center; }
+  .tile img { width: 58%; height: 58%; object-fit: contain; }
+  .tile.l .nm { position: absolute; bottom: -54px; left: -40px; right: -40px; text-align: center; font: 700 32px/1 var(--sans); }
+  .tcard { padding: 56px 64px; border-radius: 44px; text-align: center; max-width: 900px; }
+  .tcard .big { font: 900 104px/1.02 var(--sans); letter-spacing: -.03em; }
+  .tcard .big em, .stat .lbl em { font: italic 800 1.05em/1 var(--serif); color: var(--acc); letter-spacing: 0; }
+  .tcard .sub { margin-top: 22px; font: 600 42px/1.2 var(--sans); opacity: .8; }
+  .stat { text-align: center; padding: 50px 70px; border-radius: 44px; }
+  .stat .v { font: 900 220px/1 var(--sans); color: var(--acc); letter-spacing: -.04em; text-shadow: 0 0 40px color-mix(in srgb, var(--acc) 50%, transparent); }
+  .stat .lbl { margin-top: 10px; font: 700 50px/1.1 var(--sans); }
+  .cred { position: absolute; right: 18px; bottom: -40px; font: 500 20px/1 var(--sans); color: rgba(255,255,255,.55); }
+  .lightcaps .cred { color: rgba(0,0,0,.45); }
+
+  /* captions: 1 to 3 words, blur-in, keywords in italic serif accent */
+  #caps { position: absolute; left: 60px; right: 60px; top: 1200px; height: 150px; text-align: center; z-index: 6; }
+  #caps .ch { position: absolute; left: 0; right: 0; top: 0; opacity: 0; }
+  #caps .w { display: inline-block; margin: 0 .14em; opacity: 0; font: 800 70px/1.15 var(--sans); letter-spacing: -.02em; color: #fff; text-shadow: 0 4px 18px rgba(0,0,0,.55), 0 1px 2px rgba(0,0,0,.6); }
+  #caps .w.k { font: italic 800 84px/1.05 var(--serif); letter-spacing: 0; color: var(--acc); text-shadow: 0 0 26px color-mix(in srgb, var(--acc) 70%, transparent), 0 2px 4px rgba(0,0,0,.5); }
+  .lightcaps #caps .w { color: #111; text-shadow: none; }
+  .lightcaps #caps .w.k { color: var(--acc); text-shadow: 0 2px 0 rgba(0,0,0,.18), 0 0 1px rgba(0,0,0,.4); }
+
+  /* pops */
+  .pop { position: absolute; z-index: 5; opacity: 0; display: grid; place-items: center; }
+  .pop.emoji { font-size: var(--s); line-height: 1; filter: drop-shadow(0 10px 18px rgba(0,0,0,.35)); }
+  .pop.logo { border-radius: 30%; }
+  .pop.logo img { width: 62%; height: 62%; object-fit: contain; }
+  .pop.text { padding: 18px 30px; border-radius: 26px; font: 800 var(--s)/1.1 var(--sans); white-space: nowrap; }
+
+  /* CTA */
+  #cta { position: absolute; left: 60px; right: 60px; top: 1160px; text-align: center; z-index: 7; opacity: 0; }
+  #cta .lead { font: italic 700 66px/1 var(--serif); color: #fff; text-shadow: 0 4px 18px rgba(0,0,0,.6); opacity: 0; }
+  #cta .kw { margin-top: 4px; font: 900 136px/1 var(--sans); letter-spacing: -.03em; color: var(--acc); text-shadow: 0 0 34px color-mix(in srgb, var(--acc) 85%, transparent), 0 0 80px color-mix(in srgb, var(--acc) 45%, transparent), 0 4px 6px rgba(0,0,0,.5); opacity: 0; }
+  #cta .kw.small { font-size: 96px; }
+  #cta .pill { display: inline-flex; align-items: center; gap: 22px; margin-top: 22px; padding: 12px 14px 12px 28px; border-radius: 999px; font: 700 38px/1 var(--sans); opacity: 0; }
+  #cta .pill .fb { padding: 14px 26px; border-radius: 999px; background: var(--acc); color: var(--acc-fg); font: 800 36px/1 var(--sans); }
+  .safeg i { position: absolute; background: rgba(255,0,0,.18); z-index: 20; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const clean = (w) => w.toLowerCase().replace(/[^\w$€.%']/g, '').replace(/\.$/, '');
+const em = (s) => esc(s).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const SAFE = { x0: 60, x1: 940, y0: 230, y1: 1500 };
+
+// Layout geometry. Stack: title 250..440, media card, caption band, footage card from STACK_TOP down.
+const STACK_TOP = 900;
+const REGION = {
+  stack: (hasTitle) => ({ top: hasTitle ? 462 : 262, bottom: 780 }),
+  full: () => ({ top: 290, bottom: 1150 }),
+  close: () => ({ top: 300, bottom: 900 }),
+};
+const CAP_TOP = { stack: 796, full: 1190, close: 1300 };
+
+// Caption chunks: 1 to 3 words, broken on punctuation, long words and pauses (the reference shows 1 to 3 words at a time).
+function chunk(words) {
+  const out = []; let cur = [], chars = 0;
+  words.forEach((w, i) => {
+    const prev = words[i - 1];
+    if (cur.length && (cur.length >= 3 || /[.,?!:;]$/.test(prev.w) || w.start - prev.end > 0.3 || chars + w.w.length > 16)) { out.push(cur); cur = []; chars = 0; }
+    cur.push({ ...w, i }); chars += w.w.length + 1;
+  });
+  if (cur.length) out.push(cur);
+  return out;
+}
+
+function mediaHtml(m, region, onLight) {
+  const h = region.bottom - region.top;
+  if (m.kind === 'shot' || m.kind === 'broll') {
+    const phone = m.chrome === 'phone';
+    const w = phone ? Math.min(560, Math.round((h - 24) * 0.5)) : Math.min(900, m.w ?? 900);
+    const vh = h - (m.chrome === 'browser' ? 54 : 0) - (phone ? 24 : 0);
+    return `<div class="frame${phone ? ' phone' : ''}${m.kind === 'broll' ? ' broll' : ''}" style="width:${w}px">${m.chrome === 'browser' ? `<div class="chrome"><i></i><i></i><i></i><span>${esc(m.domain || '')}</span></div>` : ''}<div class="vp" style="height:${vh}px"><img class="mimg" src="${esc(m.srcUrl || '')}"></div></div>${m.credit ? `<div class="cred">${esc(m.credit)}</div>` : ''}`;
+  }
+  if (m.kind === 'logos') return `<div class="tiles" style="--tw:${m.b.length > 3 ? 168 : 210}px;max-width:${m.b.length > 3 ? 640 : 900}px">${m.b.map((b, k) => `<div class="tile glass${onLight ? '' : ' dark'}" data-k="${k}" style="background:${b.tile}"><img src="${b.logoUrl}"></div>`).join('')}</div>`;
+  if (m.kind === 'text') return `<div class="tcard glass${onLight ? '' : ' dark'}"><div class="big">${em(m.text)}</div>${m.sub ? `<div class="sub">${em(m.sub)}</div>` : ''}</div>`;
+  if (m.kind === 'stat') return `<div class="stat glass${onLight ? '' : ' dark'}"><div class="v" data-v="${esc(m.value)}">${esc(m.value)}</div>${m.label ? `<div class="lbl">${em(m.label)}</div>` : ''}</div>`;
+  throw new Error(`talkhead: unknown media kind "${m.kind}"`);
+}
+
+window.renderPost = (data) => {
+  window.duration = data.duration;
+  window.sfx = [];
+  const D = window.D = data;
+  const cv = document.documentElement;
+  cv.style.setProperty('--acc', data.accent); cv.style.setProperty('--acc-fg', data.accentFg);
+  const keys = new Set((data.keys || []).map(clean));
+  const chunks = chunk(data.words);
+  const F = data.frames;
+  const f1 = `${F.url}00001.jpg`;
+  const leaves = Array.from({ length: 6 }, (_, k) => `<i class="leaf" style="left:${-120 + (k * 233) % 1000}px;top:${-80 + (k * 197) % 760}px;width:${260 + (k % 3) * 120}px;height:${90 + (k % 2) * 60}px;transform:rotate(${-40 + k * 23}deg)"></i>`).join('');
+  const beatHtml = data.beats.map((b, i) => {
+    if (!b.media) return '';
+    const region = REGION[b.layout](b.layout === 'stack' && data.title && b.t < data.title.end);
+    return `<div class="mc" id="m${i}" style="top:${region.top}px;height:${region.bottom - region.top}px">${mediaHtml(b.media, region, b.layout === 'stack')}</div>`;
+  }).join('');
+  document.getElementById('root').innerHTML = `<div class="canvas" id="cv">
+    <div class="L" id="Lf"><div class="bgwrap"><img class="ft" src="${f1}"></div><div class="shade"></div></div>
+    <div class="L" id="Ls"><div class="tint"></div>${leaves}<div class="fcard" style="top:${STACK_TOP}px"><img class="ft" src="${f1}" style="width:${F.w}px;height:${F.h}px"></div></div>
+    <div class="L${(data.frames.base ?? 1) < 1 ? ' inset' : ''}" id="Lc"><div class="bgwrap"><img class="bgi" src="${f1}"></div><img class="ft" src="${f1}" style="width:${F.w}px;height:${F.h}px"></div>
+    ${data.title ? `<div id="title"><div class="t1">${data.title.top.split(/\s+/).map((w) => `<span>${esc(w)}</span>`).join(' ')}</div><div class="hi">${data.title.hi.split(/\s+/).map((w) => `<b>${esc(w)}</b>`).join(' ')}</div></div>` : ''}
+    ${beatHtml}
+    <div id="caps">${chunks.map((c, ci) => `<div class="ch" id="c${ci}">${c.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' k' : ''}" id="w${w.i}">${esc(w.w.replace(/[,;:]$/, ''))}</span>`).join(' ')}</div>`).join('')}</div>
+    ${data.pops.map((p, i) => {
+      const w = p.w ?? (p.kind === 'emoji' ? 150 : 170);
+      const x = clamp(p.x ?? 760, SAFE.x0, SAFE.x1 - (p.kind === 'text' ? 300 : w)), y = clamp(p.y ?? 300, SAFE.y0, SAFE.y1 - (p.kind === 'text' ? 100 : w));
+      return `<div class="pop ${p.kind}${p.kind !== 'emoji' ? ' glass' : ''}" id="p${i}" style="left:${x}px;top:${y}px;--s:${p.kind === 'text' ? (p.size ?? 52) + 'px' : w + 'px'};${p.kind === 'logo' ? `width:${w}px;height:${w}px;background:${p.b.tile};` : ''}">${p.kind === 'emoji' ? esc(p.emoji) : p.kind === 'logo' ? `<img src="${p.b.logoUrl}">` : em(p.text)}</div>`;
+    }).join('')}
+    ${data.cta ? `<div id="cta"><div class="lead">${esc(data.cta.lead)}</div><div class="kw${data.cta.keyword ? '' : ' small'}">${esc(data.cta.keyword ? `“${data.cta.keyword}”` : data.handle)}</div>${data.cta.keyword ? `<div class="pill glass dark"><span>${esc(data.handle)}</span><span class="fb">Follow</span></div>` : ''}</div>` : ''}
+    ${data.safeGuides ? '<div class="safeg"><i style="left:0;top:0;width:1080px;height:230px"></i><i style="left:0;top:1500px;width:1080px;height:420px"></i><i style="left:940px;top:230px;width:140px;height:1270px"></i><i style="left:0;top:230px;width:60px;height:1270px"></i></div>' : ''}
+  </div>`;
+
+  const tl = window.tl = gsap.timeline({ paused: true });
+  const cam = window.cam = { z: 1 };
+  const S = (t, kind, vol) => window.sfx.push({ t: Math.max(0, t), kind, ...(vol ? { vol } : {}) });
+
+  // Background life on the stack backdrop: leaves drift, accent tint breathes.
+  document.querySelectorAll('#Ls .leaf').forEach((l, k) => tl.to(l, { x: (k % 2 ? 1 : -1) * 70, y: 40, rotation: `+=${k % 2 ? 8 : -8}`, duration: data.duration, ease: 'sine.inOut' }, 0));
+
+  // Beats: hard cut between layouts (whoosh), media card blurs in, camera zoom resets to the beat's z.
+  data.beats.forEach((b, i) => {
+    if (i > 0 && data.beats[i - 1].layout !== b.layout) S(b.t, 'whoosh', 0.1);
+    tl.set(cam, { z: Math.min(1.2, b.z ?? 1) }, b.t);
+    const m = document.getElementById(`m${i}`);
+    if (!m) return;
+    tl.set(m, { opacity: 1 }, b.t).set(m, { opacity: 0 }, b.end);
+    const inner = m.firstElementChild;
+    tl.fromTo(inner, { scale: 0.9, filter: 'blur(14px)', opacity: 0 }, { scale: 1, filter: 'blur(0px)', opacity: 1, duration: 0.32, ease: 'back.out(1.5)', immediateRender: false }, b.t);
+    tl.to(inner, { scale: 1.035, duration: Math.max(0.5, b.end - b.t - 0.32), ease: 'none' }, b.t + 0.32);
+    const med = b.media;
+    S(b.t + 0.02, med.kind === 'shot' ? 'shutter' : 'pop', med.kind === 'shot' ? 0.06 : 0.1);
+    if (med.kind === 'shot') {
+      // slow scroll down the screenshot while it is on screen
+      const img = m.querySelector('.mimg'), vp = m.querySelector('.vp');
+      img.addEventListener('load', () => { const over = img.offsetHeight - vp.offsetHeight; if (over > 0) tl.fromTo(img, { y: 0 }, { y: -Math.min(over, med.pan ?? 160), duration: Math.max(1, b.end - b.t), ease: 'none', immediateRender: false }, b.t); }, { once: true });
+    }
+    if (med.kind === 'logos') m.querySelectorAll('.tile').forEach((el, k) => {
+      const t = med.ts?.[k] ?? b.t + 0.12 * k;
+      tl.fromTo(el, { scale: 0.3, rotation: -14, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.4, ease: 'back.out(2.2)', immediateRender: false }, t);
+      tl.to(el, { y: k % 2 ? 14 : -14, duration: 1.4, ease: 'sine.inOut', yoyo: true, repeat: Math.ceil((b.end - t) / 1.4) }, t + 0.4);
+      if (k) S(t, 'pop', 0.09);
+    });
+    if (med.kind === 'stat') {
+      const v = m.querySelector('.v'), raw = String(med.value), num = parseFloat(raw.replace(/[^\d.]/g, ''));
+      if (Number.isFinite(num)) {
+        const pre = raw.match(/^[^\d]*/)[0], suf = raw.match(/[^\d.]*$/)[0], dec = (raw.split('.')[1] || '').replace(/\D/g, '').length, o = { n: 0 };
+        tl.fromTo(o, { n: 0 }, { n: num, duration: 0.7, ease: 'power3.out', immediateRender: false, onUpdate: () => { v.textContent = pre + o.n.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suf; } }, b.t + 0.1);
+        S(b.t + 0.1, 'roll', 0.1);
+      }
+    }
+  });
+
+  // Punch-ins on chosen words: push (0.3 s ease) or hard cut, back out at `until` (or at the next beat).
+  data.punches.forEach((p) => {
+    const z = Math.min(1.2, p.z ?? 1.12);
+    if (p.mode === 'cut') tl.set(cam, { z }, p.t); else tl.to(cam, { z, duration: 0.3, ease: 'power2.out' }, p.t);
+    S(p.t, 'tap', 0.07);
+    if (p.end !== undefined) tl.to(cam, { z: 1, duration: 0.25, ease: 'power2.inOut' }, p.end);
+  });
+
+  // Headline: words blur in one by one, then the accent box wipes and its words land.
+  if (data.title) {
+    const T = data.title;
+    const ws = document.querySelectorAll('#title .t1 span');
+    ws.forEach((el, k) => tl.fromTo(el, { opacity: 0, filter: 'blur(10px)', y: 10 }, { opacity: 1, filter: 'blur(0px)', y: 0, duration: 0.18, ease: 'power2.out', immediateRender: false }, T.t + k * 0.09));
+    const hiT = T.t + ws.length * 0.09 + 0.08;
+    tl.fromTo('#title .hi', { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: 'power3.out', immediateRender: false }, hiT);
+    tl.fromTo('#title .hi b', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.18, stagger: 0.07, immediateRender: false }, hiT + 0.12);
+    S(hiT, 'pop', 0.11);
+    tl.set('#title', { opacity: 0 }, T.end);
+  }
+
+  // Captions.
+  chunks.forEach((c, ci) => {
+    const on = Math.max(0, c[0].start - 0.04), next = chunks[ci + 1];
+    const off = Math.min(next ? next[0].start - 0.04 : 1e9, c.at(-1).end + 0.7, data.cta ? data.cta.t : 1e9);
+    if (off <= on) return;
+    tl.set(`#c${ci}`, { opacity: 1 }, on).set(`#c${ci}`, { opacity: 0 }, off);
+    c.forEach((w) => tl.fromTo(`#w${w.i}`, { opacity: 0, filter: 'blur(8px)', y: 8, scale: 0.96 }, { opacity: 1, filter: 'blur(0px)', y: 0, scale: 1, duration: 0.14, ease: 'power2.out', immediateRender: false }, Math.max(0, w.start - 0.04)));
+  });
+
+  // Pops (emoji, logo tiles, text chips) anchored to words.
+  data.pops.forEach((p, i) => {
+    const el = `#p${i}`, end = p.end ?? p.t + 1.6;
+    tl.fromTo(el, { opacity: 0, scale: 0.2, rotation: -16 }, { opacity: 1, scale: 1, rotation: p.rot ?? 0, duration: 0.38, ease: 'back.out(2.4)', immediateRender: false }, p.t);
+    tl.to(el, { y: -26, duration: Math.max(0.3, end - p.t - 0.4), ease: 'sine.inOut' }, p.t + 0.38);
+    tl.to(el, { opacity: 0, scale: 0.6, filter: 'blur(8px)', duration: 0.18, ease: 'power2.in' }, end);
+    S(p.t, 'pop', 0.11);
+  });
+
+  // CTA on the close shot: lead word, glowing keyword, handle pill.
+  if (data.cta) {
+    const t = data.cta.t;
+    tl.set('#cta', { opacity: 1 }, t);
+    tl.fromTo('#cta .lead', { opacity: 0, y: 20, filter: 'blur(8px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.2, immediateRender: false }, t);
+    const kt = data.cta.kwT ?? t + 0.35;
+    tl.fromTo('#cta .kw', { opacity: 0, scale: 1.6, filter: 'blur(12px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.3, ease: 'back.out(1.8)', immediateRender: false }, kt);
+    tl.to('#cta .kw', { scale: 1.06, duration: 0.6, ease: 'sine.inOut', yoyo: true, repeat: 5 }, kt + 0.3);
+    S(kt, 'ding', 0.12);
+    if (data.cta.keyword) { tl.fromTo('#cta .pill', { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.3, ease: 'back.out(1.6)', immediateRender: false }, kt + 0.45); S(kt + 0.45, 'tap', 0.1); }
+  }
+  tl.seek(0);
+};
+
+// Camera: place the footage frame for the active layout. Close: cover the frame, scale about the eyes and move them toward
+// the upper third (y 640) as the zoom grows, never exposing an edge. Stack: eyes ~300 px into the footage card.
+function layoutAt(t) { const B = window.D.beats; let k = 0; for (let i = 0; i < B.length; i++) if (B[i].t <= t + 1e-6) k = i; return B[k]; }
+function placeClose(img, z) {
+  const F = window.D.frames, s = (1080 / F.w) * z * (F.base ?? 1), W = F.w * s, H = F.h * s;
+  const tx = clamp(540 - F.ex * s, Math.min(0, 1080 - W), Math.max(0, 1080 - W));
+  // y: eyes toward 640, never exposing a top/bottom edge on a full-cover frame (an inset frame may slide up into its
+  // headroom), and the top of the head never above y 230
+  const hi = Math.max(0, 1920 - H), lo = Math.max(H < 1920 ? -0.3 * H : 1920 - H, 230 - F.hy * s);
+  const ty = Math.min(hi, Math.max(lo, 640 - F.ey * s));
+  img.style.transform = `translate(${tx}px,${ty}px) scale(${s})`;
+}
+function placeStack(img, z) {
+  const F = window.D.frames, s = (960 / F.w) * z, W = F.w * s, H = F.h * s, ch = 1920 - STACK_TOP + 60;
+  const tx = clamp(480 - F.ex * s, 960 - W, 0), ty = clamp(380 - F.ey * s, Math.min(0, ch - H), 0);
+  img.style.transform = `translate(${tx}px,${ty}px) scale(${s})`;
+}
+
+window.seek = async (t) => {
+  const D = window.D;
+  window.tl.seek(t, false);
+  const b = layoutAt(t), lay = b.layout;
+  for (const [id, l] of [['Lc', 'close'], ['Ls', 'stack'], ['Lf', 'full']]) document.getElementById(id).classList.toggle('on', l === lay);
+  document.getElementById('cv').classList.toggle('lightcaps', lay === 'stack');
+  document.getElementById('caps').style.top = `${CAP_TOP[lay]}px`;
+  const title = document.getElementById('title'); if (title) title.style.visibility = lay === 'stack' ? 'visible' : 'hidden';
+  // footage frame for this time (held on the last frame through the tail)
+  const F = D.frames, idx = clamp(Math.floor(t * D.fps + 1e-6) + 1, 1, F.count);
+  const src = `${F.url}${String(idx).padStart(5, '0')}.jpg`;
+  const img = document.querySelector(`#L${lay[0]} img.ft`);
+  if (lay === 'close') placeClose(img, window.cam.z); else if (lay === 'stack') placeStack(img, window.cam.z);
+  const waits = [];
+  if (!img.src.endsWith(src)) { img.src = src; waits.push(img.decode().catch(() => {})); }
+  const bgi = lay === 'close' && (F.base ?? 1) < 1 ? document.querySelector('#Lc .bgi') : null;
+  if (bgi && !bgi.src.endsWith(src)) { bgi.src = src; waits.push(bgi.decode().catch(() => {})); }
+  // B-roll cards play their own pre-extracted frames
+  D.beats.forEach((bb, i) => {
+    if (bb.media?.kind !== 'broll' || !bb.media.seq || t < bb.t || t > bb.end) return;
+    const q = bb.media.seq, k = clamp(Math.floor((t - bb.t) * D.fps) + 1, 1, q.count);
+    const el = document.querySelector(`#m${i} .mimg`), s2 = `${q.url}${String(k).padStart(5, '0')}.jpg`;
+    if (!el.src.endsWith(s2)) { el.src = s2; waits.push(el.decode().catch(() => {})); }
+  });
+  await Promise.all(waits);
+};
+</script>
+</body>
+</html>
