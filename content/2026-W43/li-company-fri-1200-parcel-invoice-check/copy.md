@@ -33,3 +33,5 @@ Sources (research/weekly/2026-W44.md section 2.1, 2.2):
 - Bluffworks' $200,000 back invoice and switch to Cart.com: https://www.supplychaindive.com/news/bluffworks-targets-lower-fulfillment-costs-after-provider-switch/833337/ (Oct 20 2026). Bluffworks isn't our client, so naming it is fine.
 - The 6 line items are standard carrier invoice charge types, matching contentsystems.ai/ecommerce ("Surcharges and weight adjustments add up quietly", "We compare what you were charged against your contract rates and order data"). No frequency stats claimed.
 - The $2,500 a month / $30K a year figure is illustrative (5,000 orders x $0.50), labelled as such in the caption and on the slide.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): Supply Chain Dive, Bluffworks provider switch (Oct 20 2026); Supply Chain Dive, FedEx/UPS record Q4 prices (Oct 16 2026).

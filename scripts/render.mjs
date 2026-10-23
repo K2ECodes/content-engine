@@ -3,7 +3,7 @@
 //
 //   node scripts/render.mjs <post-dir> [--fps 30] [--frames-only]
 //
-// render.json: { "template": "static" | "carousel" | "video", "data": { ... } }
+// render.json: { "template": "static" | "carousel" | "pixel" | "video" | "split" | "story" | "arena", "data": { ... } }
 // Aspect comes from meta.json (1:1, 4:5, 9:16). Icons are Lucide names (lucide.dev), resolved here
 // into inline SVG under the key "<name>Svg" (icon -> iconSvg, loopIcon -> loopIconSvg).
 //
@@ -175,7 +175,20 @@ const SFX = {
   scratch: 'anoisesrc=d=0.32:c=brown:a=0.8,highpass=f=900,lowpass=f=4500,afade=t=in:d=0.05,afade=t=out:st=0.16:d=0.16',
   roll: 'anoisesrc=d=0.6:c=pink:a=0.35,bandpass=f=1500:w=1200,tremolo=f=30:d=0.8,afade=t=out:st=0.3:d=0.3',
   print: 'anoisesrc=d=0.28:c=white:a=0.3,bandpass=f=2500:w=2000,tremolo=f=45:d=0.9,afade=t=out:st=0.18:d=0.1',
+  pop: 'sine=f=520:d=0.09,asetrate=48000*1.0,volume=1.2,afade=t=out:st=0.02:d=0.07,vibrato=f=18:d=0.4',
   whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
+  // 8-bit cues for templates/arena (square waves and noise, research/style-fire-reel.md 11.9)
+  blip: "aevalsrc='0.5*sgn(sin(2*PI*880*t))*exp(-18*t)':s=48000:d=0.12",
+  beep: "aevalsrc='0.45*sgn(sin(2*PI*1320*t))*lt(t,0.11)':s=48000:d=0.14",
+  coin: "aevalsrc='0.45*sgn(sin(2*PI*if(lt(t,0.07),988,1319)*t))*exp(-5*t)':s=48000:d=0.4",
+  dash: "aevalsrc='0.35*sgn(sin(2*PI*(1400*t-2500*t*t)))*exp(-9*t)':s=48000:d=0.22",
+  punch: "aevalsrc='0.7*(random(0)*2-1)*exp(-40*t)+0.8*sin(2*PI*90*t)*exp(-22*t)':s=48000:d=0.2",
+  explode: 'anoisesrc=d=0.6:c=brown:a=0.9,acrusher=bits=6:mode=lin,lowpass=f=2200,afade=t=out:st=0.05:d=0.55',
+  powerup: "aevalsrc='0.4*sgn(sin(2*PI*440*pow(2,floor(t*16)/6)*t))*(1-t/0.62)':s=48000:d=0.6",
+  bell: "aevalsrc='0.45*sgn(sin(2*PI*660*t))*exp(-5*t)+0.3*sin(2*PI*1320*t)*exp(-3*t)':s=48000:d=0.6",
+  charge: "aevalsrc='0.3*sgn(sin(2*PI*(200+450*t)*t))*(0.6+0.4*sgn(sin(2*PI*12*t)))':s=48000:d=0.8",
+  beam: "aevalsrc='0.35*sgn(sin(2*PI*(900-300*t)*t))*exp(-1.5*t)+0.35*(random(0)*2-1)*exp(-3*t)':s=48000:d=0.7",
+  fanfare: "aevalsrc='0.4*sgn(sin(2*PI*if(lt(t,0.14),523,if(lt(t,0.28),659,if(lt(t,0.42),784,1047)))*t))*if(lt(t,0.42),1,exp(-2.2*(t-0.42)))':s=48000:d=1.2",
 };
 function sfxFile(kind) {
   const dir = path.join(ROOT, 'assets/sfx');
@@ -225,6 +238,18 @@ function probeSeconds(f) {
   return Number(String(r.stdout).trim()) || 0;
 }
 
+// Find where the beat actually kicks in: first point where the 2 s loudness reaches 70 in 100 of the track's peak 2 s loudness.
+function findDrop(file) {
+  const r = spawnSync('ffmpeg', ['-v', 'error', '-i', file, '-ac', '1', '-ar', '8000', '-f', 'f32le', '-']);
+  const x = new Float32Array(r.stdout.buffer, r.stdout.byteOffset, Math.floor(r.stdout.length / 4));
+  const win = 2000, rms = [];
+  for (let i = 0; i + win <= x.length; i += win) { let sum = 0; for (let k = i; k < i + win; k++) sum += x[k] * x[k]; rms.push(Math.sqrt(sum / win)); }
+  const avg = rms.map((_, i) => (rms.slice(i, i + 8).reduce((a, b) => a + b, 0) / Math.min(8, rms.length - i)));
+  const peak = Math.max(...avg.slice(0, Math.min(avg.length, 240)));
+  const idx = avg.findIndex((v) => v >= peak * 0.7);
+  return Math.max(0, idx * 0.25 - 0.1);
+}
+
 function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) {
 // Audio: voice first, short dry SFX about 20 dB under, optional music bed ducked under speech.
   const ain = [], af = [], mix = [];
@@ -236,13 +261,19 @@ function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) 
     if (!cues.length) continue;
     ain.push('-i', sfxFile(k));
     af.push(`[${n}:a]asplit=${cues.length}${cues.map((_, i) => `[${k}${i}]`).join('')}`);
-    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[${k}${i}]adelay=${ms}|${ms},volume=0.12[${k}d${i}]`); mix.push(`[${k}d${i}]`); });
+    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[${k}${i}]adelay=${ms}|${ms},volume=${c.vol ?? 0.12}[${k}d${i}]`); mix.push(`[${k}d${i}]`); });
     n++;
   }
   let musicLabel = null;
   if (music?.file) {
-    ain.push('-i', path.join(dir, music.file));
-    af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:${duration},volume=${music.volume ?? 0.07},afade=t=out:st=${Math.max(0, lastWordEnd)}:d=0.3[bed]`);
+    const mfile = path.join(dir, music.file);
+    const start = music.t ?? 0;                       // when the bed comes in (seconds into the video)
+    // Land the track's beat drop early in the video (default 2 s in, or on music.dropAt's word), with a short natural lead-in.
+    const dropT = music.dropT ?? 2.0;
+    const offset = music.offset !== undefined && music.offset !== 'drop' ? Number(music.offset) : Math.max(0, findDrop(mfile) - Math.max(0, dropT - start));
+    ain.push('-i', mfile);
+    const ms = Math.round(start * 1000);
+    af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=${offset}:${offset + duration},asetpts=PTS-STARTPTS,volume=${music.volume ?? 0.11},afade=t=in:d=0.08,adelay=${ms}|${ms},afade=t=out:st=${Math.max(0, lastWordEnd + (music.tail ?? 0.6))}:d=0.6[bed]`);
     musicLabel = '[bed]'; n++;
   }
   const parts = [];
@@ -309,7 +340,7 @@ function resolveStory(dir, spec) {
   const d = structuredClone(spec.data);
   const words = JSON.parse(fs.readFileSync(path.join(dir, d.words), 'utf8')).words;
   const faceSrc = d.face?.src ? path.join(dir, d.face.src) : null;
-  const voiceSrc = d.audio ? path.join(dir, d.audio) : faceSrc;
+  const voiceSrc = d.audio ? path.join(dir, d.audio) : faceSrc;   // a talk-segments plate is video only; the voice comes from audio/vo.wav
   d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 1.8));
   d.words = words;
   const T = (a, label, lead = 0.05) => Math.max(0, wordTime(words, a, label) - lead);
@@ -320,10 +351,20 @@ function resolveStory(dir, spec) {
     if (o.totalAt !== undefined) o.totalT = T(o.totalAt, `scene ${i} total`);
     if (o.stamp) o.stamp = { ...o.stamp, t: T(o.stamp.at, `scene ${i} stamp`) };
     if (o.click) o.click = { ...o.click, t: T(o.click.at, `scene ${i} click`) };
+    if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;
     return o;
   }).sort((a, b) => a.t - b.t);
   d.scenes.forEach((sc, i) => { sc.end = d.scenes[i + 1]?.t ?? d.duration; });
-  if (faceSrc) d.faceCuts = (d.faceCuts || []).map((c, i) => ({ ...c, t: c.at === undefined ? 0 : T(c.at, `faceCut ${i}`, 0.08) })).sort((a, b) => a.t - b.t);
+  if (d.music?.at !== undefined) d.music = { ...d.music, t: T(d.music.at, 'music', 0.15) };
+  if (d.music?.dropAt !== undefined) d.music = { ...d.music, dropT: T(d.music.dropAt, 'music drop', 0.05) };
+  const BRANDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'));
+  const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, logoUrl: pathToFileURL(path.join(ROOT, 'assets/logos', b.logo)).href }; };
+  d.scenes.forEach((sc) => { if (sc.brand) sc.b = brand(sc.brand); if (sc.type === 'vs') { sc.lb = brand(sc.left); sc.rb = brand(sc.right); } });
+  d.pops = (d.pops || []).map((p, i) => ({ ...p, t: T(p.at, `pop ${i}`, 0.03), end: p.until !== undefined ? T(p.until, `pop ${i} until`) : undefined,
+    ...(p.kind === 'logo' ? { b: brand(p.brand) } : {}), ...(p.kind === 'sprite' ? { srcUrl: pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${p.sprite}.png`)).href } : {}) }));
+  d.stickers = (d.stickers || []).map((k, i) => ({ ...k, srcUrl: pathToFileURL(path.resolve(dir, k.src)).href,
+    t: k.at === undefined ? 0 : T(k.at, `sticker ${i}`), end: k.until === undefined ? d.duration : T(k.until, `sticker ${i} until`) }));
+  if (faceSrc) d.faceCuts = (d.faceCuts || []).map((c, i) => ({ ...c, t: c.at === undefined ? 0 : T(c.at, `faceCut ${i}`, 0.08), pushT: c.pushAt !== undefined ? T(c.pushAt, `faceCut ${i} push`, 0.05) : undefined })).sort((a, b) => a.t - b.t);
   return { data: d, voiceSrc, faceSrc };
 }
 
@@ -334,10 +375,18 @@ async function renderStory(browser, spec, dir, fps) {
     const webm = path.join(dir, '.face.webm');
     if (!fs.existsSync(webm) || fs.statSync(webm).mtimeMs < fs.statSync(faceSrc).mtimeMs)
       spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', faceSrc, '-an', '-c:v', 'libvpx-vp9', '-b:v', '6M', '-deadline', 'realtime', '-cpu-used', '8', webm], { stdio: 'inherit' });
-    data.face = { src: pathToFileURL(webm).href };
+    data.face = { ...(data.face || {}), src: pathToFileURL(webm).href };
+    if (spec.data.face?.mask) {
+      // Cutout: the still-base lip-sync keeps the silhouette fixed, so 1 alpha mask from the still works for every frame.
+      const cut = path.join(dir, '.face-cut.webm');
+      const mask = path.resolve(dir, spec.data.face.mask);
+      if (!fs.existsSync(cut) || fs.statSync(cut).mtimeMs < fs.statSync(faceSrc).mtimeMs)
+        spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', faceSrc, '-loop', '1', '-i', mask, '-filter_complex', '[1:v]alphaextract,scale=1920:1080[a];[0:v]scale=1920:1080,format=yuva420p[v];[v][a]alphamerge,format=yuva420p[o]', '-map', '[o]', '-shortest', '-an', '-c:v', 'libvpx-vp9', '-pix_fmt', 'yuva420p', '-b:v', '6M', '-deadline', 'realtime', '-cpu-used', '8', '-auto-alt-ref', '0', cut], { stdio: 'inherit' });
+      data.face = { ...data.face, cutSrc: pathToFileURL(cut).href };
+    }
   }
   const { page } = await openTemplate(browser, 'story', data, '9:16');
-  if (faceSrc) await page.evaluate(() => new Promise((r) => { const v = window.faceVideo; v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); }));
+  if (faceSrc) await page.evaluate(() => Promise.all(window.faceVideos.map((v) => new Promise((r) => { v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); }))));
   const duration = data.duration, frames = Math.round(duration * fps);
   const sfx = await page.evaluate(() => window.sfx);
   const silent = path.join(dir, 'video-silent.mp4');
@@ -348,8 +397,11 @@ async function renderStory(browser, spec, dir, fps) {
     const t = f / fps;
     await page.evaluate(async (t) => {
       window.seek(t);
-      const v = window.faceVideo;
-      if (v) { const target = Math.min(t, (v.duration || t) - 0.04); if (Math.abs(v.currentTime - target) > 0.001) { await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; }); } }
+      for (const v of window.faceVideos || []) {
+        if (getComputedStyle(v).display === 'none' || getComputedStyle(v.parentElement).opacity === '0') continue;
+        const target = Math.min(t, (v.duration || t) - 0.04);
+        if (Math.abs(v.currentTime - target) > 0.001) await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; });
+      }
     }, t);
     const buf = await page.screenshot({ type: 'png' });
     if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
@@ -362,6 +414,50 @@ async function renderStory(browser, spec, dir, fps) {
   const out = path.join(dir, 'video.mp4');
   const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.6);
   spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', out, '-frames:v', '1', path.join(dir, 'poster.png')]);
+  return ['video.mp4', 'poster.png'];
+}
+
+// ---------- arena template (research/style-fire-reel.md) ----------
+// Every `at` / `<name>At` in a beat (at any depth) is a spoken-word anchor, resolved to `t` / `<name>T` in seconds.
+function resolveArena(dir, spec) {
+  const d = structuredClone(spec.data);
+  const words = JSON.parse(fs.readFileSync(path.join(dir, d.words), 'utf8')).words;
+  const voiceSrc = d.audio ? path.join(dir, d.audio) : null;
+  d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 2.6));
+  d.words = words;
+  const walk = (o, label) => {
+    for (const [k, v] of Object.entries(o)) {
+      if ((k === 'at' || /At$/.test(k)) && (typeof v === 'string' || typeof v === 'number'))
+        o[k === 'at' ? 't' : k.slice(0, -2) + 'T'] = Math.max(0, wordTime(words, v, `${label} ${k}`) - (k === 'at' ? 0.06 : 0.02));
+      else if (v && typeof v === 'object' && !Array.isArray(v)) walk(v, `${label} ${k}`);
+    }
+  };
+  d.beats = d.beats.map((b, i) => { const o = structuredClone(b); walk(o, `beat ${i}`); if (o.t === undefined) o.t = 0; return o; }).sort((a, b) => a.t - b.t);
+  return { data: d, voiceSrc };
+}
+
+async function renderArena(browser, spec, dir, fps) {
+  const { data, voiceSrc } = resolveArena(dir, spec);
+  const { page } = await openTemplate(browser, 'arena', data, '9:16');
+  const duration = data.duration, frames = Math.round(duration * fps);
+  const sfx = await page.evaluate(() => window.sfx);
+  const silent = path.join(dir, 'video-silent.mp4');
+  const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'png', '-i', '-',
+    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg exited ${c}`)))));
+  for (let f = 0; f < frames; f++) {
+    await page.evaluate((t) => { window.seek(t); }, f / fps);
+    const buf = await page.screenshot({ type: 'png' });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+    if (f % fps === 0) process.stdout.write(`\r  frame ${f}/${frames}`);
+  }
+  ff.stdin.end();
+  await done;
+  process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
+  // The bed keeps playing under the CONTINUE countdown, so it fades at the very end, not at the last word.
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: duration - 0.35, duration });
+  const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.6);
+  spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
   return ['video.mp4', 'poster.png'];
 }
 
@@ -379,10 +475,11 @@ async function main(argv) {
     console.log(`render ${path.relative(ROOT, dir)} · ${spec.template} · ${aspect}`);
     const files = spec.template === 'static' ? await renderStatic(browser, data, aspect, dir)
       : spec.template === 'carousel' ? await renderCarousel(browser, data, aspect, dir)
-      : spec.template === 'pixel' ? await renderCarousel(browser, data, '4:5', dir, 'pixel')
+      : spec.template === 'pixel' ? await renderCarousel(browser, { ...data, slides: data.slides.map((sl) => ({ ...sl, collage: (sl.collage || []).map((c) => ({ ...c, srcUrl: pathToFileURL(path.resolve(dir, c.src)).href })) })) }, '4:5', dir, 'pixel')
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)
+      : spec.template === 'arena' ? await renderArena(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
     meta.media = files;
     fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');

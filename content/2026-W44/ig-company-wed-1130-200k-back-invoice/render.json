@@ -1,17 +1,84 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "dark",
-    "headline": "A brand just got a *$200,000* back invoice",
-    "sub": "Peak volume hides billing errors. Find yours before your provider does.",
-    "stats": [
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
+    "slides": [
       {
-        "value": "Record",
-        "label": "parcel prices this quarter"
-      },
-      {
-        "value": "4 wks",
-        "label": "to Black Friday"
+        "world": "day",
+        "headline": [
+          "A *$200,000*",
+          "back invoice"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/bluffworks.png",
+            "x": 70,
+            "y": 330,
+            "w": 420,
+            "h": 230,
+            "rot": -6,
+            "pos": "center top"
+          },
+          {
+            "src": "shots/parcel.png",
+            "x": 570,
+            "y": 320,
+            "w": 420,
+            "h": 230,
+            "rot": 5,
+            "pos": "center top"
+          }
+        ],
+        "bursts": [
+          {
+            "text": "record\nparcel rates",
+            "x": 20,
+            "y": 520,
+            "w": 230,
+            "size": 30,
+            "color": "#FFE066",
+            "rot": -12
+          },
+          {
+            "text": "Black Friday\n4 weeks out",
+            "x": 830,
+            "y": 500,
+            "w": 240,
+            "size": 27,
+            "color": "#9CCAA0",
+            "rot": 10
+          },
+          {
+            "text": "more\nlines",
+            "x": 860,
+            "y": 140,
+            "w": 170,
+            "size": 40,
+            "color": "#FF4FD8",
+            "rot": 14
+          }
+        ],
+        "cta": {
+          "keyword": "LINK IN BIO",
+          "y": 640,
+          "line": "free hidden-cost calculator",
+          "pill": false
+        },
+        "sprites": [
+          {
+            "name": "ghost",
+            "x": 40,
+            "h": 170
+          },
+          {
+            "name": "korede-shrug",
+            "x": 900,
+            "h": 150,
+            "flip": true
+          }
+        ]
       }
     ]
   }

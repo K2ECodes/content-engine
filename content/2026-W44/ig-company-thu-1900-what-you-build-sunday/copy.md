@@ -10,10 +10,12 @@ Sun Nov 1, 11 AM Eastern, live on Zoom. US clocks go back 1 hour that morning, s
 #AIforbusiness #smallbusiness #automation #businessowner #ecommerce
 
 ## Alt text
-7-slide carousel. Dark cover: Build your first AI employee on Sunday. 4 steps you'll do live: pick the job, teach it once, watch it work, say yes. A slide with the details: Sunday Nov 1 at 11 AM Eastern, live on Zoom, $97 or $197. A dark CTA to save a seat, link in bio.
+7-slide pixel-art carousel with Korede and Sanjana in a platformer world. Cover: Build your first AI employee. 4 steps: pick the job, teach it once, watch it work, say yes. A night slide with the details: Sunday Nov 1, 11 AM Eastern, live on Zoom, $97 GA or $197 VIP. A CTA to save a seat, link in bio.
 
 ## Notes
 Workshop facts from config/offers.json: The AI Employee Accelerator, 2026-11-01 11:00 America/New_York, $97 GA, $197 VIP, contentsystems.ai/workshop. DST ends 2 AM Nov 1 (research/weekly/2026-W44.md section 5).
 Proof bank: 100+ AI employees, approval gate on outbound actions.
 I didn't describe what VIP adds, because it isn't documented anywhere in the repo. Korede can add a line if he wants.
 CTA: workshop, link in bio. No freebie.
+Pixel-world render (templates/pixel); the old classic render is kept as render.classic.json.
+Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/workshop.png = https://contentsystems.ai/workshop; shots/uber.png = https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/.

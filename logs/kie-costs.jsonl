@@ -79,3 +79,16 @@
 {"ts":"2026-10-23T06:36:58.310Z","model":"nano-banana-2","taskId":"53c94b41f4612baf134fc942e48ec6c6","state":"success","credits":12,"usd":0.06,"label":"pixel kit sky-night"}
 {"ts":"2026-10-23T06:36:58.315Z","model":"nano-banana-2","taskId":"1b91192c719273013035d435058ed7a9","state":"success","credits":12,"usd":0.06,"label":"pixel kit props"}
 {"ts":"2026-10-23T06:38:30.977Z","model":"nano-banana-2","taskId":"fa499957dfc72ac924d13943f28ddd16","state":"success","credits":12,"usd":0.06,"label":"pixel kit cast"}
+{"ts":"2026-10-23T06:50:54.987Z","model":"google/gemini-3-8-flash-tts","taskId":"e8e055b5eaa94222906c2116a9e89f33","state":"success","credits":1.26,"usd":0.0063,"label":"ig-company-arena-3pl-billing vo"}
+{"ts":"2026-10-23T06:51:08.268Z","model":"ai-music-api/generate","taskId":"fd8dcf9d173d20392edcfb9db65a1909","state":"success","credits":12,"usd":0.06,"label":"ig-company-arena-3pl-billing music"}
+{"ts":"2026-10-23T06:54:33.384Z","model":"volcengine/video-to-video-lip-sync","taskId":"b02906833ba94263952b44396b8fcec2","state":"success","credits":312,"usd":1.56,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents lipsync"}
+{"ts":"2026-10-23T06:56:28.576Z","model":"recraft/remove-background","taskId":"3c6c5bea1451515097301bd226447c6e","state":"success","credits":1,"usd":0.005,"label":"korede cutout"}
+{"ts":"2026-10-23T07:01:56.109Z","model":"ai-music-api/generate","taskId":"eec56c81cc304a53b101d0e2552232b9","state":"success","credits":12,"usd":0.06,"label":"personal rage beat"}
+{"ts":"2026-10-23T07:05:26.011Z","model":"ai-music-api/generate","taskId":"efb18b37b669590a50602c8ad5fd0df9","state":"success","credits":12,"usd":0.06,"label":"li-personal-tue-0800-agents-insider-threat music"}
+{"ts":"2026-10-23T07:05:26.020Z","model":"ai-music-api/generate","taskId":"7d2b70344c4fc455523a680484a044c8","state":"success","credits":12,"usd":0.06,"label":"ig-personal-sun-0930-openai-on-google-cloud music"}
+{"ts":"2026-10-23T07:05:26.309Z","model":"ai-music-api/generate","taskId":"aee10bbf3cd41b5f481a77fcea26a7aa","state":"success","credits":12,"usd":0.06,"label":"ig-personal-tue-1230-ai-keys-bill music"}
+{"ts":"2026-10-23T07:07:41.636Z","model":"nano-banana-2","taskId":"e07851879f1992ce44389db59164fa43","state":"success","credits":8,"usd":0.04,"label":"pixel kit sky-sunset"}
+{"ts":"2026-10-23T07:08:40.046Z","model":"nano-banana-2","taskId":"8da830c7bd617c82dac3732a611078ae","state":"success","credits":8,"usd":0.04,"label":"pixel kit sky-neon"}
+{"ts":"2026-10-23T07:09:10.940Z","model":"nano-banana-2","taskId":"0b75b90695e684d19c8a7a5f0a7ceabc","state":"success","credits":12,"usd":0.06,"label":"pixel kit cast2"}
+{"ts":"2026-10-23T07:30:35.577Z","model":"volcengine/video-to-video-lip-sync","taskId":"cf993f5772d701ffd59919b37eb988d0","state":"success","credits":40,"usd":0.2,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 0"}
+{"ts":"2026-10-23T07:32:17.827Z","model":"volcengine/video-to-video-lip-sync","taskId":"4cfd360700f5d20537199ef172e01d95","state":"success","credits":32,"usd":0.16,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 1"}

@@ -1,17 +1,84 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "dark",
-    "headline": "More AI tools.\n*Less control.*",
-    "sub": "The fix isn't another tool. It's 1 place where your team's know-how lives.",
-    "stats": [
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
+    "slides": [
       {
-        "value": "57 in 100",
-        "label": "managers have more AI tools than last year"
-      },
-      {
-        "value": "29 in 100",
-        "label": "say their setup is right"
+        "world": "neon",
+        "headline": [
+          "More AI tools.",
+          "*Less control.*"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/survey.png",
+            "x": 70,
+            "y": 310,
+            "w": 440,
+            "h": 220,
+            "rot": -5,
+            "pos": "center -441px"
+          },
+          {
+            "src": "shots/survey.png",
+            "x": 580,
+            "y": 320,
+            "w": 390,
+            "h": 220,
+            "rot": 6,
+            "pos": "center -41px"
+          }
+        ],
+        "bursts": [
+          {
+            "text": "57 in 100\nmore tools",
+            "x": 10,
+            "y": 520,
+            "w": 230,
+            "size": 32,
+            "color": "#FFE066",
+            "rot": -12
+          },
+          {
+            "text": "29 in 100\nset up right",
+            "x": 840,
+            "y": 510,
+            "w": 230,
+            "size": 30,
+            "color": "#FF4FD8",
+            "rot": 10
+          },
+          {
+            "text": "1,700\nmanagers",
+            "x": 860,
+            "y": 130,
+            "w": 180,
+            "size": 34,
+            "color": "#3FF2FF",
+            "rot": 14
+          }
+        ],
+        "cta": {
+          "keyword": "LINK IN BIO",
+          "y": 585,
+          "line": "join the newsletter",
+          "pill": false
+        },
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 30,
+            "h": 150
+          },
+          {
+            "name": "sanjana-shrug",
+            "x": 890,
+            "h": 150,
+            "flip": true
+          }
+        ]
       }
     ]
   }

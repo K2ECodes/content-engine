@@ -1,0 +1,705 @@
+{
+ "words": [
+  {
+   "w": "Walmart",
+   "start": 0.0,
+   "end": 0.52
+  },
+  {
+   "w": "just",
+   "start": 0.52,
+   "end": 0.76
+  },
+  {
+   "w": "let",
+   "start": 0.76,
+   "end": 0.92
+  },
+  {
+   "w": "AI",
+   "start": 0.92,
+   "end": 1.1
+  },
+  {
+   "w": "agents",
+   "start": 1.1,
+   "end": 1.44
+  },
+  {
+   "w": "shop",
+   "start": 1.44,
+   "end": 1.68
+  },
+  {
+   "w": "its",
+   "start": 1.68,
+   "end": 1.86
+  },
+  {
+   "w": "entire",
+   "start": 1.86,
+   "end": 2.14
+  },
+  {
+   "w": "store.",
+   "start": 2.14,
+   "end": 2.42
+  },
+  {
+   "w": "Amazon",
+   "start": 2.76,
+   "end": 3.06
+  },
+  {
+   "w": "said",
+   "start": 3.06,
+   "end": 3.36
+  },
+  {
+   "w": "no.",
+   "start": 3.36,
+   "end": 3.56
+  },
+  {
+   "w": "And",
+   "start": 4.02,
+   "end": 4.1
+  },
+  {
+   "w": "I",
+   "start": 4.1,
+   "end": 4.2
+  },
+  {
+   "w": "think",
+   "start": 4.2,
+   "end": 4.28
+  },
+  {
+   "w": "1",
+   "start": 4.28,
+   "end": 4.48
+  },
+  {
+   "w": "of",
+   "start": 4.48,
+   "end": 4.54
+  },
+  {
+   "w": "them",
+   "start": 4.54,
+   "end": 4.64
+  },
+  {
+   "w": "is",
+   "start": 4.64,
+   "end": 4.74
+  },
+  {
+   "w": "making",
+   "start": 4.74,
+   "end": 4.9
+  },
+  {
+   "w": "a",
+   "start": 4.9,
+   "end": 5.08
+  },
+  {
+   "w": "huge",
+   "start": 5.08,
+   "end": 5.26
+  },
+  {
+   "w": "mistake.",
+   "start": 5.26,
+   "end": 5.62
+  },
+  {
+   "w": "Here's",
+   "start": 5.9,
+   "end": 6.06
+  },
+  {
+   "w": "what",
+   "start": 6.06,
+   "end": 6.14
+  },
+  {
+   "w": "happened.",
+   "start": 6.14,
+   "end": 6.38
+  },
+  {
+   "w": "Walmart",
+   "start": 6.92,
+   "end": 7.14
+  },
+  {
+   "w": "opened",
+   "start": 7.14,
+   "end": 7.44
+  },
+  {
+   "w": "a",
+   "start": 7.44,
+   "end": 7.58
+  },
+  {
+   "w": "gateway",
+   "start": 7.58,
+   "end": 7.84
+  },
+  {
+   "w": "so",
+   "start": 7.84,
+   "end": 8.08
+  },
+  {
+   "w": "outside",
+   "start": 8.08,
+   "end": 8.38
+  },
+  {
+   "w": "AI",
+   "start": 8.38,
+   "end": 8.66
+  },
+  {
+   "w": "assistants",
+   "start": 8.66,
+   "end": 8.98
+  },
+  {
+   "w": "can",
+   "start": 8.98,
+   "end": 9.26
+  },
+  {
+   "w": "browse,",
+   "start": 9.26,
+   "end": 9.54
+  },
+  {
+   "w": "build",
+   "start": 10.0,
+   "end": 10.16
+  },
+  {
+   "w": "a",
+   "start": 10.16,
+   "end": 10.28
+  },
+  {
+   "w": "cart,",
+   "start": 10.28,
+   "end": 10.48
+  },
+  {
+   "w": "and",
+   "start": 10.66,
+   "end": 10.68
+  },
+  {
+   "w": "check",
+   "start": 10.68,
+   "end": 10.84
+  },
+  {
+   "w": "out",
+   "start": 10.84,
+   "end": 11.08
+  },
+  {
+   "w": "with",
+   "start": 11.08,
+   "end": 11.48
+  },
+  {
+   "w": "spending",
+   "start": 11.48,
+   "end": 11.74
+  },
+  {
+   "w": "limits",
+   "start": 11.74,
+   "end": 12.1
+  },
+  {
+   "w": "and",
+   "start": 12.1,
+   "end": 12.32
+  },
+  {
+   "w": "an",
+   "start": 12.32,
+   "end": 12.42
+  },
+  {
+   "w": "approval",
+   "start": 12.42,
+   "end": 12.66
+  },
+  {
+   "w": "step.",
+   "start": 12.66,
+   "end": 12.96
+  },
+  {
+   "w": "Amazon",
+   "start": 13.6,
+   "end": 13.92
+  },
+  {
+   "w": "is",
+   "start": 13.92,
+   "end": 14.16
+  },
+  {
+   "w": "still",
+   "start": 14.16,
+   "end": 14.3
+  },
+  {
+   "w": "blocking",
+   "start": 14.3,
+   "end": 14.58
+  },
+  {
+   "w": "them.",
+   "start": 14.58,
+   "end": 14.78
+  },
+  {
+   "w": "Meanwhile,",
+   "start": 15.28,
+   "end": 15.56
+  },
+  {
+   "w": "Google",
+   "start": 15.7,
+   "end": 15.84
+  },
+  {
+   "w": "launched",
+   "start": 15.84,
+   "end": 16.2
+  },
+  {
+   "w": "1",
+   "start": 16.2,
+   "end": 16.44
+  },
+  {
+   "w": "cart",
+   "start": 16.44,
+   "end": 16.68
+  },
+  {
+   "w": "that",
+   "start": 16.68,
+   "end": 16.84
+  },
+  {
+   "w": "works",
+   "start": 16.84,
+   "end": 17.0
+  },
+  {
+   "w": "across",
+   "start": 17.0,
+   "end": 17.28
+  },
+  {
+   "w": "every",
+   "start": 17.28,
+   "end": 17.56
+  },
+  {
+   "w": "store,",
+   "start": 17.56,
+   "end": 17.84
+  },
+  {
+   "w": "and",
+   "start": 18.22,
+   "end": 18.42
+  },
+  {
+   "w": "Meta",
+   "start": 18.42,
+   "end": 18.64
+  },
+  {
+   "w": "says",
+   "start": 18.64,
+   "end": 18.8
+  },
+  {
+   "w": "its",
+   "start": 18.8,
+   "end": 18.94
+  },
+  {
+   "w": "assistant",
+   "start": 18.94,
+   "end": 19.26
+  },
+  {
+   "w": "Muse",
+   "start": 19.26,
+   "end": 19.54
+  },
+  {
+   "w": "has",
+   "start": 19.54,
+   "end": 19.72
+  },
+  {
+   "w": "over",
+   "start": 19.72,
+   "end": 19.9
+  },
+  {
+   "w": "10M",
+   "start": 19.9,
+   "end": 20.5
+  },
+  {
+   "w": "users,",
+   "start": 20.5,
+   "end": 20.86
+  },
+  {
+   "w": "and",
+   "start": 21.14,
+   "end": 21.34
+  },
+  {
+   "w": "shopping",
+   "start": 21.34,
+   "end": 21.6
+  },
+  {
+   "w": "is",
+   "start": 21.6,
+   "end": 21.78
+  },
+  {
+   "w": "1",
+   "start": 21.78,
+   "end": 21.88
+  },
+  {
+   "w": "of",
+   "start": 21.88,
+   "end": 21.96
+  },
+  {
+   "w": "the",
+   "start": 21.96,
+   "end": 22.02
+  },
+  {
+   "w": "top",
+   "start": 22.02,
+   "end": 22.26
+  },
+  {
+   "w": "things",
+   "start": 22.26,
+   "end": 22.46
+  },
+  {
+   "w": "they",
+   "start": 22.46,
+   "end": 22.6
+  },
+  {
+   "w": "use",
+   "start": 22.6,
+   "end": 22.76
+  },
+  {
+   "w": "it",
+   "start": 22.76,
+   "end": 22.88
+  },
+  {
+   "w": "for.",
+   "start": 22.88,
+   "end": 23.02
+  },
+  {
+   "w": "So",
+   "start": 23.46,
+   "end": 23.64
+  },
+  {
+   "w": "the",
+   "start": 23.64,
+   "end": 23.76
+  },
+  {
+   "w": "shopper",
+   "start": 23.76,
+   "end": 24.1
+  },
+  {
+   "w": "is",
+   "start": 24.1,
+   "end": 24.18
+  },
+  {
+   "w": "changing.",
+   "start": 24.18,
+   "end": 24.46
+  },
+  {
+   "w": "Soon",
+   "start": 25.0,
+   "end": 25.3
+  },
+  {
+   "w": "you",
+   "start": 25.3,
+   "end": 25.44
+  },
+  {
+   "w": "won't",
+   "start": 25.44,
+   "end": 25.58
+  },
+  {
+   "w": "open",
+   "start": 25.58,
+   "end": 25.78
+  },
+  {
+   "w": "5",
+   "start": 25.78,
+   "end": 26.08
+  },
+  {
+   "w": "tabs",
+   "start": 26.08,
+   "end": 26.38
+  },
+  {
+   "w": "to",
+   "start": 26.38,
+   "end": 26.54
+  },
+  {
+   "w": "compare",
+   "start": 26.54,
+   "end": 26.78
+  },
+  {
+   "w": "prices.",
+   "start": 26.78,
+   "end": 27.1
+  },
+  {
+   "w": "Your",
+   "start": 27.68,
+   "end": 27.8
+  },
+  {
+   "w": "AI",
+   "start": 27.8,
+   "end": 28.02
+  },
+  {
+   "w": "will.",
+   "start": 28.02,
+   "end": 28.24
+  },
+  {
+   "w": "The",
+   "start": 28.84,
+   "end": 29.08
+  },
+  {
+   "w": "stores",
+   "start": 29.08,
+   "end": 29.32
+  },
+  {
+   "w": "that",
+   "start": 29.32,
+   "end": 29.48
+  },
+  {
+   "w": "let",
+   "start": 29.48,
+   "end": 29.6
+  },
+  {
+   "w": "it",
+   "start": 29.6,
+   "end": 29.72
+  },
+  {
+   "w": "in",
+   "start": 29.72,
+   "end": 29.86
+  },
+  {
+   "w": "get",
+   "start": 29.86,
+   "end": 29.98
+  },
+  {
+   "w": "the",
+   "start": 29.98,
+   "end": 30.1
+  },
+  {
+   "w": "sale.",
+   "start": 30.1,
+   "end": 30.36
+  },
+  {
+   "w": "The",
+   "start": 30.96,
+   "end": 31.02
+  },
+  {
+   "w": "ones",
+   "start": 31.02,
+   "end": 31.16
+  },
+  {
+   "w": "that",
+   "start": 31.16,
+   "end": 31.32
+  },
+  {
+   "w": "block",
+   "start": 31.32,
+   "end": 31.56
+  },
+  {
+   "w": "it",
+   "start": 31.56,
+   "end": 31.72
+  },
+  {
+   "w": "just",
+   "start": 31.72,
+   "end": 31.88
+  },
+  {
+   "w": "disappear",
+   "start": 31.88,
+   "end": 32.26
+  },
+  {
+   "w": "from",
+   "start": 32.26,
+   "end": 32.46
+  },
+  {
+   "w": "the",
+   "start": 32.46,
+   "end": 32.54
+  },
+  {
+   "w": "list.",
+   "start": 32.54,
+   "end": 32.78
+  },
+  {
+   "w": "Walmart",
+   "start": 33.26,
+   "end": 33.74
+  },
+  {
+   "w": "or",
+   "start": 33.74,
+   "end": 33.98
+  },
+  {
+   "w": "Amazon,",
+   "start": 33.98,
+   "end": 34.24
+  },
+  {
+   "w": "who",
+   "start": 34.7,
+   "end": 34.78
+  },
+  {
+   "w": "wins",
+   "start": 34.78,
+   "end": 34.98
+  },
+  {
+   "w": "this?",
+   "start": 34.98,
+   "end": 35.24
+  },
+  {
+   "w": "Tell",
+   "start": 35.74,
+   "end": 35.9
+  },
+  {
+   "w": "me",
+   "start": 35.9,
+   "end": 36.02
+  },
+  {
+   "w": "below",
+   "start": 36.02,
+   "end": 36.26
+  },
+  {
+   "w": "and",
+   "start": 36.26,
+   "end": 36.74
+  },
+  {
+   "w": "comment",
+   "start": 36.74,
+   "end": 37.0
+  },
+  {
+   "w": "AI",
+   "start": 37.0,
+   "end": 37.38
+  },
+  {
+   "w": "for",
+   "start": 37.38,
+   "end": 37.66
+  },
+  {
+   "w": "my",
+   "start": 37.66,
+   "end": 37.8
+  },
+  {
+   "w": "free",
+   "start": 37.8,
+   "end": 38.04
+  },
+  {
+   "w": "AI",
+   "start": 38.04,
+   "end": 38.34
+  },
+  {
+   "w": "starter",
+   "start": 38.34,
+   "end": 38.6
+  },
+  {
+   "w": "pack.",
+   "start": 38.6,
+   "end": 38.88
+  }
+ ],
+ "text": "Walmart just let AI agents shop its entire store. Amazon said no. And I think one of them is making a huge mistake. Here's what happened. Walmart opened a gateway so outside AI assistants can browse, build a cart, and check out with spending limits and an approval step. Amazon is still blocking them. Meanwhile, Google launched one cart that works across every store, and Meta says its assistant muse has over 10 million users, and shopping is one of the top things they use it for. So the shopper is changing. Soon you won't open five tabs to compare prices. Your AI will. The stores that let it in get the sale. The ones that block it just disappear from the list. Walmart or Amazon, who wins this? Tell me below and comment AI for my free AI starter pack."
+}

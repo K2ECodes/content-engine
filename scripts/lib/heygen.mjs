@@ -126,3 +126,26 @@ export async function trainTwin({ file, name, groupId }) {
   if (groupId) body.avatar_group_id = groupId;
   return call('POST', '/v3/avatars', body);
 }
+
+// ---- Free voice path (research/talking-head-pipeline.md) ----
+// Instant clone from a real recording (free during preview), then TTS with heygen-voice-1-turbo-free (free until 2026-11-30).
+export async function instantVoice({ file, name }) {
+  const asset = await uploadAsset(file);
+  const d = await call('POST', '/v3/models/audio/voices', { mode: 'instant', name, language: 'en', similarity: 'max', remove_background_noise: true, audio: [{ type: 'asset_id', asset_id: asset }] }, { 'Idempotency-Key': `ce-voice-${path.basename(file)}` });
+  const id = d.voice_id || d.id;
+  for (let i = 0; i < 60; i++) {
+    const v = await call('GET', `/v3/models/audio/voices/${id}`);
+    if (/active|ready|completed/i.test(v.status || '')) return id;
+    if (/fail/i.test(v.status || '')) throw new Error(`voice clone failed: ${JSON.stringify(v.error || v.status)}`);
+    await new Promise((r) => setTimeout(r, 5000));
+  }
+  return id;
+}
+
+export async function freeSpeech(text, { voiceId, out, expressiveness = 0.5 }) {
+  const d = await call('POST', '/v3/models/audio/tts', { model: 'heygen-voice-1-turbo-free', voice_id: voiceId, text, language: 'en', expressiveness_boost: expressiveness });
+  const r = await fetch(d.audio_url);
+  if (!r.ok) throw new Error(`speech download ${r.status}`);
+  fs.writeFileSync(out, Buffer.from(await r.arrayBuffer()));
+  return { file: out, duration: d.duration };
+}

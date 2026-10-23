@@ -1,0 +1,457 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=block" rel="stylesheet">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  /* Arena reel: a pixel fighting-game explainer in the brand's 8-bit world (research/style-fire-reel.md). 1080x1920, locked camera. */
+  :root { --boss: #C9503C; --cap: #0A120D; }
+  .canvas { width: 1080px; height: 1920px; font-family: 'Silkscreen', monospace; color: var(--cream); background: #041036; }
+  .px, .canvas img { image-rendering: pixelated; }
+  .sky { position: absolute; inset: 0; background: url(../../assets/pixel/arena-night.png) 0 0 / 1080px 1920px no-repeat; image-rendering: pixelated; }
+  .tint { position: absolute; inset: 0; opacity: 0; background: radial-gradient(ellipse 620px 760px at 800px 1060px, rgba(201,80,60,.55), rgba(201,80,60,.12) 60%, rgba(60,10,10,.35)); mix-blend-mode: screen; }
+  .tint2 { position: absolute; inset: 0; opacity: 0; background: rgba(90,20,20,.28); mix-blend-mode: multiply; }
+  .ring { position: absolute; left: 90px; width: 900px; height: 110px; top: 1250px; border: 3px dashed rgba(245,240,232,.18); border-radius: 450px / 55px; }
+  .lamp { position: absolute; top: 1206px; width: 14px; height: 14px; background: var(--gold); box-shadow: 0 0 24px 8px rgba(232,184,75,.35); }
+
+  /* HUD */
+  .hud { position: absolute; left: 40px; right: 40px; top: 150px; height: 150px; z-index: 8; }
+  .hud .panel { position: absolute; inset: 0; background: rgba(23,40,28,.88); border: 4px solid var(--cream); box-shadow: 8px 8px 0 rgba(0,0,0,.55); }
+  .bar { position: absolute; top: 26px; height: 34px; width: 410px; background: #0A120D; border: 4px solid rgba(245,240,232,.9); }
+  .bar.p { left: 24px; } .bar.e { right: 24px; }
+  .bar i { position: absolute; inset: 0; transform-origin: left; }
+  .bar.e i { transform-origin: right; }
+  .bar i.ghost { background: var(--cream); }
+  .bar.p i.fill { background: var(--gold); box-shadow: inset 0 -8px 0 rgba(0,0,0,.18); }
+  .bar.e i.fill { background: var(--orange); box-shadow: inset 0 -8px 0 rgba(0,0,0,.18); }
+  .hud .rnd { position: absolute; left: 50%; top: 18px; width: 120px; margin-left: -60px; text-align: center; font: 700 22px/1 'Silkscreen'; color: var(--gold); }
+  .hud .rnd b { display: block; margin-top: 6px; font-size: 36px; color: var(--cream); }
+  .hud .nm { position: absolute; top: 80px; font: 700 28px/1 'Silkscreen'; white-space: nowrap; }
+  .hud .nm.p { left: 24px; color: var(--sage); }
+  .hud .nm.e { right: 24px; color: var(--cream); text-align: right; }
+  .hud .cnt { position: absolute; right: 24px; top: 116px; font: 700 26px/1 'Silkscreen'; color: var(--gold); white-space: nowrap; }
+  .hud .cnt span { display: inline-block; }
+  .hud .cl { position: absolute; left: 24px; top: 116px; font: 400 20px/1 'Silkscreen'; color: rgba(245,240,232,.55); }
+
+  /* Fighters */
+  .actor { position: absolute; z-index: 4; }
+  .actor img { position: absolute; bottom: 0; }
+  .shadow { position: absolute; height: 22px; border-radius: 50%; background: rgba(0,0,0,.4); z-index: 3; }
+  .enemy { position: absolute; z-index: 4; }
+  .enemy .body { position: absolute; inset: 0; }
+  .enemy .body img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .enemy .eyes { position: absolute; left: 0; right: 0; display: flex; justify-content: center; gap: 34px; }
+  .enemy .eyes i { width: 30px; height: 30px; background: #0A120D; position: relative; box-shadow: inset -10px -10px 0 #0A120D, inset 10px 10px 0 #fff; }
+  .enemy .eyes i::before { content: ''; position: absolute; top: -18px; left: -6px; width: 42px; height: 10px; background: #0A120D; transform: rotate(18deg); }
+  .enemy .eyes i:last-child::before { transform: rotate(-18deg); }
+  .enemy.boss .eyes { left: 30px; right: 30px; gap: 70px; padding: 22px 0 18px; background: #160606; border: 4px solid #0A120D; }
+  .enemy.boss .eyes i { width: 46px; height: 34px; background: #ff4a3c; box-shadow: 0 0 26px 10px rgba(255,74,60,.75); }
+  .enemy.boss .eyes i::before { display: none; }
+  .enemy .plate { position: absolute; left: 50%; bottom: calc(100% + 26px); transform: translateX(-50%); white-space: nowrap; font: 700 30px/1 'Silkscreen'; color: var(--cream); background: rgba(10,18,13,.92); border: 3px solid var(--orange); padding: 10px 14px 8px; }
+  .wall { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; }
+  .wall img { position: static !important; width: 100% !important; height: 100% !important; }
+  .piece { position: absolute; z-index: 5; opacity: 0; background-repeat: repeat; image-rendering: pixelated; }
+  .ghostimg { position: absolute; z-index: 3; opacity: 0; filter: brightness(1.7) sepia(1) hue-rotate(-10deg) saturate(3); }
+
+  /* FX */
+  .spark { position: absolute; width: 200px; height: 200px; margin: -100px 0 0 -100px; z-index: 7; opacity: 0; }
+  .ko { position: absolute; z-index: 9; font: 700 110px/1 'Silkscreen'; color: var(--gold); text-shadow: 6px 6px 0 #0A120D, -3px -3px 0 #0A120D, 3px -3px 0 #0A120D, -3px 3px 0 #0A120D; opacity: 0; white-space: nowrap; }
+  .coinpop { position: absolute; z-index: 7; width: 70px; opacity: 0; }
+  .flash { position: absolute; inset: 0; background: var(--cream); opacity: 0; z-index: 20; pointer-events: none; }
+  .orb { position: absolute; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 0; background: var(--gold); box-shadow: 0 0 30px 14px rgba(232,184,75,.65); z-index: 7; opacity: 0; }
+  .orb.big { width: 110px; height: 110px; margin: -55px 0 0 -55px; background: var(--cream); box-shadow: 0 0 50px 24px rgba(232,184,75,.8), 0 0 0 10px var(--gold); }
+  .pring { position: absolute; border: 6px solid var(--gold); border-radius: 50%; z-index: 3; opacity: 0; }
+  .beam { position: absolute; height: 140px; right: 0; z-index: 6; transform-origin: left center; transform: scaleX(0); opacity: 0;
+          background: linear-gradient(180deg, var(--orange) 0%, #F3D88A 22%, var(--cream) 40%, var(--cream) 60%, #F3D88A 78%, var(--orange) 100%);
+          box-shadow: 0 0 50px 16px rgba(232,184,75,.6); display: flex; align-items: center; padding-left: 40px; font: 700 50px/1 'Silkscreen'; color: var(--ink); white-space: nowrap; }
+  .ret { position: absolute; z-index: 8; opacity: 0; }
+  .ret i { position: absolute; width: 56px; height: 56px; border: 0 solid var(--gold); }
+  .ret i:nth-child(1) { left: 0; top: 0; border-width: 8px 0 0 8px; }
+  .ret i:nth-child(2) { right: 0; top: 0; border-width: 8px 8px 0 0; }
+  .ret i:nth-child(3) { left: 0; bottom: 0; border-width: 0 0 8px 8px; }
+  .ret i:nth-child(4) { right: 0; bottom: 0; border-width: 0 8px 8px 0; }
+  .ret b { position: absolute; left: 50%; top: -60px; transform: translateX(-50%); white-space: nowrap; font: 700 34px/1 'Silkscreen'; color: var(--gold); text-shadow: 4px 4px 0 #0A120D; }
+  .scan { position: absolute; height: 8px; background: #ff6a4c; box-shadow: 0 0 20px 6px rgba(255,90,60,.7); z-index: 8; opacity: 0; }
+  .weak { position: absolute; z-index: 9; background: var(--boss); color: var(--cream); font: 700 30px/1.15 'Silkscreen'; padding: 12px 16px 10px; border: 4px solid var(--cream); box-shadow: 6px 6px 0 #0A120D; opacity: 0; white-space: nowrap; }
+
+  /* Cards and popups */
+  .title { position: absolute; left: 0; right: 0; top: 380px; text-align: center; z-index: 9; opacity: 0; }
+  .title h1 { font: 700 128px/1 'Silkscreen'; color: var(--cream); text-shadow: 8px 8px 0 #0A120D, -4px -4px 0 #0A120D, 4px -4px 0 #0A120D, -4px 4px 0 #0A120D; }
+  .title h2 { margin-top: 26px; font: 700 66px/1 'Silkscreen'; color: var(--orange); text-shadow: 5px 5px 0 #0A120D; opacity: 0; }
+  .title.boss h1 { color: #FF7A5C; }
+  .pop { position: absolute; left: 140px; right: 140px; z-index: 9; background: rgba(10,18,13,.94); border: 5px solid var(--gold); box-shadow: 8px 8px 0 rgba(0,0,0,.6); text-align: center; padding: 18px 20px 20px; opacity: 0; transform-origin: center top; }
+  .pop.bad { border-color: var(--orange); }
+  .pop small { display: block; font: 700 26px/1 'Silkscreen'; letter-spacing: .25em; color: var(--orange); }
+  .pop.good small { color: var(--sage); }
+  .pop .typed { display: block; margin-top: 14px; min-height: 64px; font: 700 64px/1 'Silkscreen'; color: var(--cream); }
+  .pop.bad .typed { color: var(--orange); }
+
+  .win { position: absolute; left: 0; right: 0; top: 380px; z-index: 9; text-align: center; opacity: 0; }
+  .win h1 { display: inline-block; font: 700 150px/1 'Silkscreen'; color: var(--gold); transform: rotate(-6deg); text-shadow: 8px 8px 0 #0A120D, -4px -4px 0 #0A120D, 4px -4px 0 #0A120D, -4px 4px 0 #0A120D; }
+  .wcard { position: absolute; left: 110px; right: 110px; top: 610px; z-index: 9; background: rgba(23,40,28,.95); border: 5px solid var(--gold); box-shadow: 10px 10px 0 rgba(0,0,0,.6); padding: 30px 34px 26px; opacity: 0; }
+  .wcard .ln { font: 700 40px/1.35 'Silkscreen'; color: var(--cream); min-height: 1.35em; }
+  .wcard .ln::before { content: '> '; color: var(--sage); }
+  .wcard .ln:first-child { color: var(--gold); }
+  .wcard .wm { display: flex; align-items: center; justify-content: space-between; margin: 22px -34px -26px; padding: 16px 34px; background: var(--cream); }
+  .wcard .wm img { height: 30px; }
+  .wcard .wm span { font: 400 18px/1 'Silkscreen'; color: rgba(23,40,28,.6); }
+
+  .cont { position: absolute; left: 0; right: 0; top: 360px; z-index: 9; text-align: center; opacity: 0; }
+  .cont h1 { font: 700 112px/1 'Silkscreen'; color: var(--cream); text-shadow: 8px 8px 0 #0A120D; }
+  .cont .dig { display: inline-block; margin-top: 18px; font: 700 210px/1 'Silkscreen'; color: var(--gold); text-shadow: 10px 10px 0 #0A120D; }
+  .cbox { position: absolute; left: 110px; right: 110px; top: 700px; z-index: 9; display: flex; align-items: center; gap: 22px; background: var(--cream); color: var(--ink); border: 6px solid var(--gold); box-shadow: 10px 10px 0 rgba(0,0,0,.6); padding: 22px 26px; font: 700 52px/1 'Silkscreen'; opacity: 0; }
+  .cbox .av { width: 64px; height: 64px; flex: none; background: url(../../assets/brand/mark.png) center / 70% no-repeat, var(--ink); }
+  .cbox .typed { flex: 1; }
+  .cbox .typed:empty::before { content: attr(data-ph); color: rgba(23,40,28,.4); font-size: 34px; }
+  .cbox .typed::after { content: '_'; color: var(--orange); }
+  .cbox .post { font-size: 30px; color: var(--orange); }
+  .dm { position: absolute; left: 50%; top: 850px; transform: translateX(-50%); z-index: 9; white-space: nowrap; background: var(--sage); color: var(--ink); font: 700 34px/1 'Silkscreen'; padding: 18px 26px 16px; border: 4px solid var(--ink); box-shadow: 6px 6px 0 rgba(0,0,0,.6); opacity: 0; }
+  .cwm { position: absolute; left: 0; right: 0; top: 1560px; z-index: 9; text-align: center; opacity: 0; }
+  .cwm img { height: 70px; padding: 14px 22px; background: var(--cream); border: 4px solid var(--ink); box-shadow: 6px 6px 0 rgba(0,0,0,.5); }
+
+  /* Captions: sliding 3-word window */
+  .caps { position: absolute; left: 0; right: 0; top: 1400px; text-align: center; z-index: 12; }
+  .caps span { display: inline-block; background: var(--cap); padding: 16px 22px 12px; font: 700 50px/1 'Silkscreen'; text-transform: uppercase; letter-spacing: .03em; color: #fff; box-shadow: 6px 6px 0 rgba(0,0,0,.45); }
+  .caps span:empty { display: none; }
+  .caps b { color: var(--gold); font-weight: 700; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+/* data (anchors resolved to seconds by scripts/render.mjs, see .claude/skills/arena-reel/SKILL.md):
+{
+  duration, words: [{w, start, end}],
+  player: { name: 'KOREDE', sprite: 'korede' | 'sanjana' },
+  counter: { label: 'RECOVERED', prefix: '$', suffix: '' },        // live HUD counter, ticks on each KO's `add`
+  foot: 'Illustrative numbers',                                     // small HUD note, optional
+  beats: [                                                          // every `at` / `xxxAt` is a spoken word, resolved to `t` / `xxxT`
+    { type: 'round', t, title: 'ROUND 1', sub: 'FIGHT', enemy: { name, sprite: 'box'|'brick'|'qblock'|'bubble'|..., eyes: true },
+      dashT?, hitT?, koT, add?: 3100, flash?: true },              // dash + afterimages, hit (white flash, hit-stop, spark), KO (silhouette, shatter, shake)
+    { type: 'popup', t, title: 'WORK DONE', text: '$250K', kind: 'good'|'bad', slot: 0|1, outT? },   // unlock box, text types on the word
+    { type: 'powerup', t, title: 'POWER UP', text: 'BILLING SYSTEM', outT? },                         // pixel bulb arcs in, rings, unlock box
+    { type: 'boss', t, title: 'FINAL ROUND', sub: 'BOSS', enemy: { name }, reticleT, reticle: 'TARGET LOCKED',
+      weak: { t, text }, chargeT, beam: { t, text }, koT, add?, flash?: true },
+    { type: 'win', t, title: 'YOU WIN', lines: ['...', '...'], foot },
+    { type: 'continue', t, keyword: 'SYSTEMS', typeT?, placeholder, dm: 'DM SENT', dmT?, from: 9 }  // countdown runs to the last frame
+  ]
+}
+window.sfx collects {t, kind, vol} cues: dash punch explode coin powerup bell blip charge beam fanfare beep. */
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const SP = '../../assets/pixel/sprites/';
+const GROUND = 1300, HERO_H = 400, HERO_X = 130, ENEMY_CX = 790, FR = 1 / 30;
+// Pose widths differ: arms stick out. Offsets (source px) keep the body still when the pose swaps.
+const POSES = {
+  korede: { stand: [276, 0], point: [413, 0], cheer: [413, -68], shrug: [493, -108], laptop: [402, 0], h: 655 },
+  sanjana: { stand: [253, 0], point: [414, 0], cheer: [402, -74], shrug: [448, -97], laptop: [368, 0], h: 666 },
+};
+const PROPS = { box: [441, 447], brick: [448, 443], qblock: [448, 445], bubble: [480, 442], coin: [400, 441], chart: [481, 468], laptop: [481, 431], trophy: [440, 447], flag: [442, 461], bulb: [362, 481], button: [480, 241], cursor: [280, 441] };
+const STAR = '<svg viewBox="-50 -50 100 100"><path d="M0-48L9-14 34-34 14-9 48 0 14 9 34 34 9 14 0 48-9 14-34 34-14 9-48 0-14-9-34-34-9-14z" fill="#F5F0E8" stroke="#E8B84B" stroke-width="5"/></svg>';
+const money = (v, c) => `${c.prefix ?? ''}${Math.round(v).toLocaleString('en-US')}${c.suffix ?? ''}`;
+
+window.renderPost = (data) => {
+  window.duration = data.duration;
+  const sfx = window.sfx = [];
+  const cue = (t, kind, vol) => { if (t >= 0 && t < data.duration) sfx.push({ t: +t.toFixed(3), kind, ...(vol ? { vol } : {}) }); };
+  const P = data.player || { name: 'KOREDE', sprite: 'korede' };
+  const pose = POSES[P.sprite] || POSES.korede, sc = HERO_H / pose.h;
+  const beats = data.beats;
+  const fights = beats.filter((b) => b.type === 'round' || b.type === 'boss');
+  const html = [], dyn = { typed: [], counter: [], labels: [] };
+
+  // ---- static world + HUD
+  html.push(`<div class="sky"></div><div class="tint" id="tint"></div><div class="tint2" id="tint2"></div><div class="ring"></div>`);
+  [40, 230, 420, 640, 840, 1030].forEach((x) => html.push(`<i class="lamp" style="left:${x}px"></i>`));
+  html.push(`<div class="hud" id="hud"><div class="panel"></div>
+    <div class="bar p"><i class="ghost"></i><i class="fill" id="hpP"></i></div>
+    <div class="rnd">RND<b id="rnd">1</b></div>
+    <div class="bar e"><i class="ghost" id="hpEg"></i><i class="fill" id="hpE"></i></div>
+    <div class="nm p">${esc(P.name)}</div><div class="nm e" id="enm"></div>
+    ${data.foot ? `<div class="cl">${esc(data.foot)}</div>` : ''}
+    ${data.counter ? `<div class="cnt">${esc(data.counter.label)} <span id="cnt">${money(data.counter.from || 0, data.counter)}</span></div>` : ''}</div>`);
+
+  // ---- hero (stacked poses) + shadow
+  const heroImgs = Object.keys(pose).filter((k) => k !== 'h').map((k) => `<img id="pose-${k}" src="${SP}${P.sprite}-${k}.png" style="left:${pose[k][1] * sc}px;height:${HERO_H}px;opacity:${k === 'stand' ? 1 : 0}">`).join('');
+  html.push(`<div class="shadow" id="hshadow" style="left:${HERO_X + 10}px;top:${GROUND - 14}px;width:${pose.stand[0] * sc - 20}px"></div>`);
+  html.push(`<div class="actor" id="hero" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;width:${pose.stand[0] * sc}px;height:${HERO_H}px">${heroImgs}</div>`);
+
+  // ---- enemies
+  fights.forEach((b, i) => {
+    const boss = b.type === 'boss', e = b.enemy || {};
+    let w, h, body, bg, bgSize;
+    if (boss) { w = 400; h = 540; bg = `${SP}brick.png`; bgSize = `${w / 2}px ${h / 3}px`; body = `<div class="wall">${`<img src="${bg}">`.repeat(6)}</div>`; }
+    else { const [sw, sh] = PROPS[e.sprite] || PROPS.box; h = e.h || 280; w = Math.round(sw * h / sh); bg = `${SP}${e.sprite || 'box'}.png`; bgSize = `${w}px ${h}px`; body = `<img src="${bg}">`; }
+    const left = ENEMY_CX - w / 2, top = GROUND - h + 4;
+    Object.assign(b, { _w: w, _h: h, _left: left, _top: top, _i: i });
+    html.push(`<div class="shadow" id="esh${i}" style="left:${left + 10}px;top:${GROUND - 14}px;width:${w - 20}px;opacity:0"></div>`);
+    html.push(`<div class="enemy${boss ? ' boss' : ''}" id="en${i}" style="left:${left}px;top:${top}px;width:${w}px;height:${h}px;opacity:0">
+      <div class="body" id="eb${i}">${body}${e.eyes === false ? '' : `<div class="eyes" style="top:${Math.round(h * (boss ? 0.14 : 0.36))}px"><i></i><i></i></div>`}</div>
+      ${!boss && e.plate !== false ? `<div class="plate">${esc(e.name)}</div>` : ''}</div>`);
+    // shatter pieces: the sprite cut into a grid
+    const C = boss ? 6 : 6, R = boss ? 8 : 6, pw = w / C, ph = h / R;
+    for (let r = 0; r < R; r++) for (let c = 0; c < C; c++)
+      html.push(`<div class="piece p${i}" style="left:${left + c * pw}px;top:${top + r * ph}px;width:${Math.ceil(pw)}px;height:${Math.ceil(ph)}px;background-image:url(${bg});background-size:${bgSize};background-position:${-c * pw}px ${-r * ph}px"></div>`);
+    html.push(`<div class="spark" id="spk${i}" style="left:${left + 10}px;top:${GROUND - h * 0.55}px">${STAR}</div>`);
+    html.push(`<div class="ko" id="ko${i}" style="left:${ENEMY_CX - 110}px;top:${top - 40}px">K.O.</div>`);
+    html.push(`<img class="coinpop" id="coin${i}" src="${SP}coin.png" style="left:${ENEMY_CX - 35}px;top:${top}px">`);
+    html.push(`<div class="title${boss ? ' boss' : ''}" id="tt${i}"><h1>${esc(b.title)}</h1>${b.sub ? `<h2>${esc(b.sub)}</h2>` : ''}</div>`);
+    for (let g = 0; g < 5; g++) html.push(`<img class="ghostimg g${i}" src="${SP}${P.sprite}-point.png" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;height:${HERO_H}px">`);
+    if (boss) {
+      html.push(`<div class="ret" id="ret" style="left:${left - 40}px;top:${top - 30}px;width:${w + 80}px;height:${h * 0.55}px"><i></i><i></i><i></i><i></i><b>${esc(b.reticle || 'TARGET LOCKED')}</b></div>`);
+      html.push(`<div class="scan" id="scan" style="left:${left - 30}px;width:${w + 60}px;top:${top}px"></div>`);
+      if (b.weak) html.push(`<div class="weak" id="weak" style="right:${1080 - left + 24}px;top:${top + 40}px">${esc(b.weak.text).replace(/: /, ':<br>')}</div>`);
+      html.push(`<div class="orb big" id="chg" style="left:${HERO_X + pose.point[0] * sc - 4}px;top:${GROUND - HERO_H * 0.66}px"></div>`);
+      html.push(`<div class="beam" id="beam" style="left:${HERO_X + pose.point[0] * sc}px;top:${GROUND - HERO_H * 0.66 - 70}px">${esc(b.beam?.text || '')}</div>`);
+    }
+  });
+
+  // ---- popups, power-up, win, continue
+  beats.forEach((b, i) => {
+    if (b.type === 'popup' || b.type === 'powerup') html.push(`<div class="pop ${b.kind || (b.type === 'powerup' ? 'good' : '')}" id="pop${i}" style="top:${640 + (b.slot || 0) * 180}px"><small>${esc(b.title || 'POWER UP')}</small><span class="typed" id="pt${i}"></span></div>`);
+    if (b.type === 'powerup') {
+      html.push(`<img id="bulb${i}" src="${SP}bulb.png" style="position:absolute;z-index:7;width:110px;opacity:0;left:0;top:0">`);
+      for (let k = 0; k < 3; k++) html.push(`<div class="pring pr${i}" style="left:${HERO_X + pose.stand[0] * sc / 2 - 130 - k * 60}px;top:${GROUND - 30 - k * 14}px;width:${260 + k * 120}px;height:${60 + k * 28}px"></div>`);
+    }
+    if (b.type === 'win') {
+      html.push(`<div class="win" id="win"><h1>${esc(b.title || 'YOU WIN')}</h1></div>`);
+      html.push(`<div class="wcard" id="wcard">${(b.lines || []).map((l, k) => `<div class="ln" id="wl${k}"></div>`).join('')}<div class="wm"><img src="../../assets/brand/wordmark.png" alt="">${b.foot ? `<span>${esc(b.foot)}</span>` : ''}</div></div>`);
+      html.push(`<img id="trophy" src="${SP}trophy.png" style="position:absolute;z-index:5;left:${HERO_X + 250}px;top:${GROUND - 150}px;height:150px;opacity:0">`);
+    }
+    if (b.type === 'continue') {
+      html.push(`<div class="cont" id="cont"><h1>CONTINUE?</h1><span class="dig" id="dig">${b.from ?? 9}</span></div>`);
+      html.push(`<div class="cbox" id="cbox"><span class="av"></span><span class="typed" id="ctyped" data-ph="${esc(b.placeholder || 'Add a comment')}"></span><span class="post">POST</span></div>`);
+      if (b.dm) html.push(`<div class="dm" id="dm">${esc(b.dm)}</div>`);
+      html.push(`<div class="cwm" id="cwm"><img src="../../assets/brand/wordmark.png" alt=""></div>`);
+    }
+  });
+  html.push(`<div class="caps"><span id="cap"></span></div><div class="flash" id="flash"></div>`);
+  document.getElementById('root').innerHTML = `<div class="canvas" id="cv">${html.join('')}</div>`;
+
+  const $ = (id) => document.getElementById(id);
+  // fit the beam text inside the beam
+  const bmEl = $('beam');
+  let fitted = !bmEl;
+  const fitBeam = () => { for (let fs = 50; fs > 24 && bmEl.scrollWidth > bmEl.clientWidth; fs -= 2) bmEl.style.fontSize = fs + 'px'; fitted = document.fonts.status === 'loaded'; };
+  const tl = gsap.timeline({ paused: true });
+  const D = data.duration;
+  const heroImgsEl = [...$('hero').querySelectorAll('img')];
+  const setPose = (name, t) => heroImgsEl.forEach((im) => tl.set(im, { opacity: im.id === `pose-${name}` ? 1 : 0 }, t));
+  const nextT = (i, pred = () => true) => { for (let k = i + 1; k < beats.length; k++) if (pred(beats[k])) return beats[k].t; return D; };
+
+  // idle bob for the hero, the whole video (finite repeat, seek-safe)
+  tl.to($('hero'), { y: -6, duration: 0.4, ease: 'steps(1)', yoyo: true, repeat: Math.floor(D / 0.4) }, 0);
+  document.querySelectorAll('.lamp').forEach((l, k) => tl.to(l, { opacity: 0.55, duration: 0.12 + (k % 3) * 0.05, ease: 'steps(1)', yoyo: true, repeat: Math.floor(D / (0.12 + (k % 3) * 0.05)) }, k * 0.07));
+  tl.set($('hpP'), { scaleX: 1 }, 0).set($('hpE'), { scaleX: 1 }, 0).set($('hpEg'), { scaleX: 1 }, 0);
+
+  const flash = (t) => { tl.set($('flash'), { opacity: 0.85 }, t).set($('flash'), { opacity: 0.5 }, t + FR).set($('flash'), { opacity: 0 }, t + 2 * FR); };
+  const shake = (t) => { const cv = $('cv'); [8, -8, 6, -4, 0].forEach((x, k) => tl.set(cv, { x, y: k % 2 ? -4 : 4 }, t + k * FR)); tl.set(cv, { y: 0 }, t + 5 * FR); };
+  const hpTo = (v, t) => { tl.to($('hpE'), { scaleX: v, duration: 0.2, ease: 'steps(5)' }, t).to($('hpEg'), { scaleX: v, duration: 0.3, ease: 'steps(6)' }, t + 0.3); };
+  const typeIn = (el, text, t0, cps = 16, blips = true) => { dyn.typed.push({ el, text, t0, cps }); if (blips) for (let k = 0; k < text.length; k += 2) cue(t0 + k / cps, 'blip', 0.05); };
+  let total = data.counter?.from || 0;
+  dyn.counter.push({ t: 0, from: total, to: total });
+
+  const dash = (b, t) => {
+    const dx = b._left - HERO_X - pose.point[0] * sc + 30;
+    setPose('point', t);
+    tl.to($('hero'), { x: dx, duration: 0.18, ease: 'power3.in' }, t).to($('hshadow'), { x: dx, duration: 0.18, ease: 'power3.in' }, t);
+    document.querySelectorAll(`.g${b._i}`).forEach((g, k) => {
+      const at = t + (k + 1) * 0.03;
+      tl.set(g, { x: dx * gsap.parseEase('power3.in')((k + 1) / 6), opacity: 0.5 - k * 0.05 }, at).to(g, { opacity: 0, duration: 0.15 }, at + 0.02);
+    });
+    cue(t, 'dash', 0.1);
+    return dx;
+  };
+  const hit = (b, t, hp) => {
+    const eb = $(`eb${b._i}`), sp = $(`spk${b._i}`);
+    tl.set(eb, { filter: 'brightness(0) invert(1)' }, t).set(eb, { filter: 'none' }, t + 2 * FR);
+    tl.fromTo(sp, { opacity: 1, scale: 0, rotation: 0 }, { scale: 1.2, rotation: 25, duration: 0.08, ease: 'power2.out', immediateRender: false }, t)
+      .to(sp, { scale: 0, opacity: 0, duration: 0.08 }, t + 0.1);
+    // hit-stop: everything holds for 3 frames, then the knockback
+    tl.to($(`en${b._i}`), { x: 26, duration: 0.06, ease: 'steps(2)' }, t + 0.1).to($(`en${b._i}`), { x: 0, duration: 0.1, ease: 'steps(2)' }, t + 0.22);
+    hpTo(hp, t);
+    cue(t, 'punch', 0.16);
+  };
+  const ko = (b, t) => {
+    const en = $(`en${b._i}`), eb = $(`eb${b._i}`);
+    tl.set(eb, { filter: 'brightness(0) invert(1)' }, t).set(en, { opacity: 0 }, t + 4 * FR).set($(`esh${b._i}`), { opacity: 0 }, t + 4 * FR);
+    document.querySelectorAll(`.p${b._i}`).forEach((p, k) => {
+      const a = (k * 137.5) * Math.PI / 180, d = ((k * 53) % 260) + 160;
+      tl.fromTo(p, { opacity: 1, x: 0, y: 0, rotation: 0 }, { x: Math.cos(a) * d, y: Math.sin(a) * d * 0.8 - 60, rotation: k * 37, duration: 0.6, ease: 'power2.out', immediateRender: false }, t + 4 * FR)
+        .to(p, { y: `+=${120 + (k % 5) * 30}`, opacity: 0, duration: 0.35, ease: 'power1.in' }, t + 4 * FR + 0.45);
+    });
+    hpTo(0, t);
+    shake(t + 4 * FR);
+    if (b.flash) flash(t);
+    const k = $(`ko${b._i}`);
+    tl.fromTo(k, { opacity: 0, scale: 2.4 }, { opacity: 1, scale: 1, duration: 0.12, ease: 'power4.in', immediateRender: false }, t + 0.15).to(k, { opacity: 0, duration: 0.01 }, t + 0.85);
+    cue(t + 4 * FR, 'explode', 0.18);
+    if (b.add) {
+      const c = $(`coin${b._i}`);
+      tl.fromTo(c, { opacity: 1, y: 0 }, { y: -200, duration: 0.35, ease: 'power2.out', immediateRender: false }, t + 0.25).to(c, { opacity: 0, duration: 0.1 }, t + 0.6);
+      dyn.counter.push({ t: t + 0.3, from: total, to: total + b.add }); total += b.add;
+      cue(t + 0.3, 'coin', 0.1);
+    }
+  };
+  const titleCard = (b, t, out) => {
+    const tt = $(`tt${b._i}`), h1 = tt.querySelector('h1'), h2 = tt.querySelector('h2');
+    tl.set(tt, { opacity: 1 }, t).fromTo(h1, { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: 'power4.in', immediateRender: false }, t);
+    [6, -6, 4, 0].forEach((y, k) => tl.set($('hud'), { y }, t + 0.12 + k * FR));
+    if (h2) [1, 0, 1].forEach((o, k) => tl.set(h2, { opacity: o }, t + 0.45 + k * 2 * FR));
+    [0, 1, 0].forEach((o, k) => tl.set(tt, { opacity: o }, out - 0.3 + k * 0.1));
+    cue(t, 'bell', 0.14); if (h2) cue(t + 0.45, 'blip', 0.08);
+  };
+  const enemyIn = (b, t, end) => {
+    const en = $(`en${b._i}`);
+    tl.set(en, { opacity: 1 }, t).set($(`esh${b._i}`), { opacity: 1 }, t);
+    if (t > 0.2) tl.fromTo(en, { y: -1100 }, { y: 0, duration: 0.3, ease: 'bounce.out', immediateRender: false }, t);
+    tl.to($(`eb${b._i}`), { y: -6, duration: 0.45, ease: 'steps(1)', yoyo: true, repeat: Math.max(1, Math.floor((end - t) / 0.45)) }, t + 0.3);
+    tl.set($('hpE'), { scaleX: 1 }, t).set($('hpEg'), { scaleX: 1 }, t);
+    dyn.labels.push({ t, name: (b.enemy || {}).name || '', rnd: String(fights.indexOf(b) + 1) });
+    if (t > 0.2) cue(t + 0.25, 'punch', 0.08);
+  };
+
+  beats.forEach((b, i) => {
+    if (b.type === 'round') {
+      const koT = b.koT ?? b.t + 1.5, hitT = b.hitT ?? Math.max(b.t + 0.3, koT - 0.45), dashT = b.dashT ?? Math.max(b.t + 0.05, hitT - 0.22);
+      enemyIn(b, b.t, koT);
+      titleCard(b, b.t, Math.max(b.t + 0.9, Math.min(koT + 0.5, nextT(i) - 0.05)));
+      const dx = dash(b, dashT);
+      hit(b, hitT, 0.45);
+      ko(b, koT);
+      tl.to($('hero'), { x: 0, duration: 0.25, ease: 'power2.out' }, koT + 0.4).to($('hshadow'), { x: 0, duration: 0.25, ease: 'power2.out' }, koT + 0.4);
+      setPose('stand', koT + 0.4);
+    }
+    if (b.type === 'popup' || b.type === 'powerup') {
+      const el = $(`pop${i}`), out = b.outT ?? (b.type === 'powerup' ? b.t + 2.4 : nextT(i, (x) => x.type !== 'popup'));
+      const t0 = b.type === 'powerup' ? b.t + 0.7 : b.t;
+      tl.set(el, { opacity: 1 }, t0).fromTo(el, { scaleY: 0 }, { scaleY: 1, duration: 0.12, ease: 'steps(4)', immediateRender: false }, t0);
+      typeIn($(`pt${i}`), b.text, t0 + 0.1);
+      [0, 1, 0].forEach((o, k) => tl.set(el, { opacity: o }, out - 0.3 + k * 0.1));
+      if (b.type === 'powerup') {
+        const bulb = $(`bulb${i}`), hx = HERO_X + pose.stand[0] * sc / 2 - 55, hy = GROUND - HERO_H - 40;
+        tl.set(bulb, { opacity: 1, x: 900, y: 500, scale: 1 }, b.t)
+          .to(bulb, { x: 560, duration: 0.5, ease: 'none' }, b.t).to(bulb, { y: GROUND - 200, duration: 0.5, ease: 'power1.in' }, b.t)
+          .to(bulb, { x: hx, duration: 0.3, ease: 'none' }, b.t + 0.5).to(bulb, { y: hy, duration: 0.3, ease: 'power1.out' }, b.t + 0.5)
+          .to(bulb, { scale: 0, duration: 0.12 }, b.t + 0.8);
+        document.querySelectorAll(`.pr${i}`).forEach((r, k) => tl.fromTo(r, { opacity: 0.95, scale: 0.4 }, { opacity: 0, scale: 1.1, duration: 0.55, immediateRender: false }, b.t + 0.85 + k * 0.1));
+        setPose('cheer', b.t + 0.85); setPose('stand', b.t + 1.6);
+        tl.set($('hero'), { filter: 'drop-shadow(0 0 14px rgba(232,184,75,.9))' }, b.t + 0.85);
+        tl.to($('hpP'), { scaleX: 1, duration: 0.3, ease: 'steps(5)' }, b.t + 0.85);
+        cue(b.t + 0.5, 'coin', 0.08); cue(b.t + 0.85, 'powerup', 0.12);
+      }
+    }
+    if (b.type === 'boss') {
+      const koT = b.koT ?? (b.beam?.t ?? b.t + 4) + 0.5;
+      enemyIn(b, b.t, koT);
+      titleCard(b, b.t, Math.min(b.t + 1.8, nextT(i) - 0.05));
+      tl.to($('tint'), { opacity: 1, duration: 0.3 }, b.t).to($('tint2'), { opacity: 1, duration: 0.3 }, b.t).to($('hpE'), { background: '#C9503C', duration: 0.01 }, b.t);
+      setPose('shrug', b.t + 0.3); setPose('stand', b.t + 1.2);
+      flash(b.t + 0.28); shake(b.t + 0.3);
+      if (b.reticleT !== undefined) {
+        const r = $('ret'), rt = b.reticleT;
+        tl.set(r, { opacity: 1 }, rt).fromTo(r, { scale: 1.35 }, { scale: 1, duration: 0.15, ease: 'back.out(2)', immediateRender: false }, rt);
+        [0, 1].forEach((o, k) => tl.set(r, { opacity: o }, rt + 0.2 + k * 2 * FR));
+        tl.set(r, { opacity: 0 }, (b.weak?.t ?? rt + 1.2) + 0.9);
+        cue(rt, 'blip', 0.1); cue(rt + 0.15, 'blip', 0.1);
+      }
+      if (b.weak) {
+        const s = $('scan'), w = $('weak'), wt = b.weak.t;
+        tl.set(s, { opacity: 1, y: 0 }, wt).to(s, { y: b._h, duration: 0.45, ease: 'none' }, wt).set(s, { opacity: 0 }, wt + 0.46);
+        tl.fromTo(w, { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.1, ease: 'steps(2)', immediateRender: false }, wt + 0.2);
+        tl.set(w, { opacity: 0 }, (b.chargeT ?? wt + 1.5) + 0.2);
+        hit(b, wt + 0.45, 0.6);
+        cue(wt, 'charge', 0.05);
+      }
+      if (b.chargeT !== undefined) {
+        const c = $('chg'), ct = b.chargeT, bt = b.beam?.t ?? ct + 0.8;
+        setPose('point', ct);
+        tl.fromTo(c, { opacity: 1, scale: 0 }, { scale: 1, duration: Math.max(0.3, bt - ct), ease: 'power1.in', immediateRender: false }, ct);
+        for (let f = ct; f < bt; f += 1 / 6) tl.set(c, { opacity: 0.55 }, f).set(c, { opacity: 1 }, f + 1 / 12);
+        tl.set(c, { opacity: 0 }, bt + 0.05);
+        cue(ct, 'charge', 0.1);
+      }
+      if (b.beam) {
+        const bm = $('beam'), bt = b.beam.t;
+        tl.set(bm, { opacity: 1 }, bt).fromTo(bm, { scaleX: 0 }, { scaleX: 1, duration: 0.1, ease: 'none', immediateRender: false }, bt)
+          .fromTo(bm, { scaleY: 1 }, { scaleY: 0.86, duration: 0.05, yoyo: true, repeat: Math.floor((koT + 0.4 - bt) / 0.05), ease: 'steps(1)', immediateRender: false }, bt + 0.1)
+          .to(bm, { scaleY: 0, opacity: 0, duration: 0.15 }, koT + 0.45);
+        hpTo(0.2, bt + 0.1);
+        cue(bt, 'beam', 0.14);
+      }
+      ko(b, koT);
+      tl.to($('tint'), { opacity: 0, duration: 0.4 }, koT + 0.3).to($('tint2'), { opacity: 0, duration: 0.4 }, koT + 0.3);
+      setPose('stand', koT + 0.5);
+    }
+    if (b.type === 'win') {
+      const w = $('win'), h1 = w.querySelector('h1'), card = $('wcard'), out = nextT(i);
+      tl.set(w, { opacity: 1 }, b.t).fromTo(h1, { scale: 0, rotation: -30 }, { scale: 1, rotation: -6, duration: 0.25, ease: 'back.out(2.5)', immediateRender: false }, b.t)
+        .fromTo(card, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.2, ease: 'steps(4)', immediateRender: false }, b.t + 0.35)
+        .set([w, card], { opacity: 0 }, out - 0.05);
+      let tt = b.t + 0.4;
+      (b.lines || []).forEach((l, k) => { typeIn($(`wl${k}`), l, tt, 40); tt += l.length / 40 + 0.1; });
+      setPose('cheer', b.t);
+      tl.fromTo($('trophy'), { opacity: 0, y: -260 }, { opacity: 1, y: 0, duration: 0.35, ease: 'bounce.out', immediateRender: false }, b.t + 0.1).set($('trophy'), { opacity: 0 }, out - 0.05);
+      tl.set($('hero'), { filter: 'none' }, out);
+      setPose('stand', out);
+      cue(b.t, 'fanfare', 0.14);
+    }
+    if (b.type === 'continue') {
+      const from = b.from ?? 9, span = D - b.t, step = Math.min(1, span / (from - 1.5));
+      const dig = $('dig');
+      tl.set($('cont'), { opacity: 1 }, b.t).fromTo($('cont'), { scale: 1.3 }, { scale: 1, duration: 0.12, ease: 'power4.in', immediateRender: false }, b.t)
+        .fromTo($('cbox'), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: 'steps(3)', immediateRender: false }, b.t + 0.25)
+        .set($('cwm'), { opacity: 1 }, b.t + 0.25);
+      dyn.countdown = { t0: b.t, from, step, el: dig };
+      for (let k = 0; b.t + k * step < D - 0.05; k++) {
+        const at = b.t + k * step;
+        tl.fromTo(dig, { scale: 1.35 }, { scale: 1, duration: 0.15, ease: 'power2.out', immediateRender: false }, at);
+        cue(at, 'beep', 0.14);
+      }
+      const typeT = b.typeT ?? b.t + 0.6;
+      typeIn($('ctyped'), b.keyword, typeT, 14);
+      const dmT = b.dmT ?? typeT + b.keyword.length / 14 + 0.5;
+      if (b.dm) { tl.fromTo($('dm'), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: 'back.out(1.8)', immediateRender: false }, dmT); cue(dmT, 'coin', 0.1); }
+      setPose('point', b.t); setPose('stand', b.t + 1.2);
+    }
+  });
+
+  // ---- captions: sliding 3-word window, newest word gold
+  const W = data.words, capStates = [];
+  let runStart = 0;
+  W.forEach((w, i) => {
+    if (i > 0 && w.start - W[i - 1].end > 0.5) runStart = i;
+    const from = Math.max(runStart, i - 2);
+    const txt = W.slice(from, i + 1).map((x, k, a) => (k === a.length - 1 ? `<b>${esc(x.w)}</b>` : esc(x.w))).join(' ');
+    const gapAfter = W[i + 1] ? W[i + 1].start - w.end : 99;
+    capStates.push({ t: w.start - 0.02, end: gapAfter > 0.5 ? w.end + 0.3 : W[i + 1].start - 0.02, html: txt });
+  });
+  const cap = $('cap');
+  let lastCap = null;
+
+  const update = (t) => {
+    if (!fitted) fitBeam();
+    const cs = capStates.findLast((c) => c.t <= t);
+    const h = cs && t < cs.end ? cs.html : '';
+    if (h !== lastCap) { cap.innerHTML = h; lastCap = h; }
+    dyn.typed.forEach((d) => { const n = Math.max(0, Math.min(d.text.length, Math.floor((t - d.t0) * d.cps + 1e-6))); const s = t < d.t0 ? '' : d.text.slice(0, n); if (d.el.textContent !== s) d.el.textContent = s; });
+    if (data.counter) {
+      const c = dyn.counter.findLast((x) => x.t <= t);
+      const p = Math.min(1, (t - c.t) / 0.3), v = c.from + (c.to - c.from) * Math.floor(p * 6) / 6;
+      $('cnt').textContent = money(v, data.counter);
+      gsap.set($('cnt'), { scale: p < 1 ? 1.35 : 1, transformOrigin: 'right center' });
+    }
+    const lb = dyn.labels.findLast((x) => x.t <= t);
+    $('enm').textContent = lb ? lb.name : '';
+    $('rnd').textContent = lb ? lb.rnd : '1';
+    if (dyn.countdown) { const c = dyn.countdown; c.el.textContent = String(Math.max(1, c.from - Math.max(0, Math.floor((t - c.t0) / c.step)))); }
+  };
+
+  tl.set({}, {}, D);
+  window.seek = (t) => { tl.seek(t, false); update(t); };
+  window.seek(0);
+};
+</script>
+</body>
+</html>

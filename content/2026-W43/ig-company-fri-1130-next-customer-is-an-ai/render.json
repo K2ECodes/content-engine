@@ -4,60 +4,70 @@
     "handle": "@contentsystems.ai",
     "slides": [
       {
-        "world": "day",
+        "world": "sunset",
         "headline": [
           "Your next customer",
           "might be *an AI*"
         ],
-        "card": {
-          "y": 440,
-          "accent": true,
-          "kind": "rows",
-          "title": "AI shopping assistants, Oct 2026",
-          "rows": [
-            {
-              "k": "Walmart:",
-              "v": "lets them shop"
-            },
-            {
-              "k": "Google:",
-              "v": "1 cart, every store"
-            },
-            {
-              "k": "Meta Muse:",
-              "v": "10M+ users"
-            }
-          ]
-        },
-        "notes": [
+        "collage": [
           {
-            "text": "some spend\n$200+ an order",
-            "x": 620,
-            "y": 800,
-            "w": 380,
-            "accent": true,
-            "arrow": {
-              "x1": 690,
-              "y1": 805,
-              "x2": 600,
-              "y2": 745,
-              "bend": -30
-            }
+            "src": "shots/walmart.png",
+            "x": 40,
+            "y": 350,
+            "w": 330,
+            "rot": -7,
+            "h": 360
+          },
+          {
+            "src": "shots/google.png",
+            "x": 380,
+            "y": 320,
+            "w": 330,
+            "rot": 4,
+            "h": 360
+          },
+          {
+            "src": "shots/meta.png",
+            "x": 710,
+            "y": 360,
+            "w": 330,
+            "rot": -3,
+            "h": 360
+          }
+        ],
+        "bursts": [
+          {
+            "text": "NEW",
+            "x": 800,
+            "y": 250,
+            "w": 200,
+            "size": 60,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "$200+\nper order",
+            "x": 400,
+            "y": 850,
+            "w": 250,
+            "size": 40,
+            "color": "#9CCAA0",
+            "rot": -12
           }
         ],
         "sprites": [
           {
-            "name": "korede-shrug",
-            "x": 120,
-            "h": 290
+            "name": "shopper",
+            "x": 60,
+            "h": 270
           },
           {
-            "name": "qblock",
-            "x": 420,
-            "h": 120,
-            "y": 880
+            "name": "robot",
+            "x": 800,
+            "h": 250
           }
-        ]
+        ],
+        "underline": false
       },
       {
         "world": "day",
@@ -93,11 +103,16 @@
             "name": "box",
             "x": 360,
             "h": 110
+          },
+          {
+            "name": "cat",
+            "x": 820,
+            "h": 150
           }
         ]
       },
       {
-        "world": "day",
+        "world": "sunset",
         "headline": [
           "2. Real",
           "*stock levels*"
@@ -124,8 +139,8 @@
         },
         "sprites": [
           {
-            "name": "korede-laptop",
-            "x": 700,
+            "name": "worker",
+            "x": 740,
             "h": 290,
             "flip": true
           }
@@ -165,9 +180,14 @@
         },
         "sprites": [
           {
-            "name": "sanjana-cheer",
-            "x": 720,
+            "name": "shopper",
+            "x": 740,
             "h": 290
+          },
+          {
+            "name": "robot",
+            "x": 120,
+            "h": 260
           }
         ],
         "notes": [
@@ -181,7 +201,7 @@
         ]
       },
       {
-        "world": "day",
+        "world": "night",
         "headline": [
           "4. Returns",
           "*in plain words*"
@@ -199,6 +219,11 @@
             "name": "korede-point",
             "x": 110,
             "h": 280
+          },
+          {
+            "name": "box-monster",
+            "x": 800,
+            "h": 200
           }
         ],
         "notes": [
@@ -229,15 +254,14 @@
         "sprites": [
           {
             "name": "sanjana-laptop",
-            "x": 700,
+            "x": 740,
             "h": 290,
             "flip": true
           },
           {
-            "name": "bubble",
+            "name": "robot",
             "x": 420,
-            "h": 120,
-            "y": 880
+            "h": 200
           }
         ],
         "notes": [
@@ -251,7 +275,7 @@
         ]
       },
       {
-        "world": "night",
+        "world": "neon",
         "headline": [
           "We keep your store",
           "*AI ready*"
@@ -305,41 +329,53 @@
         ]
       },
       {
-        "world": "night",
+        "world": "neon",
         "headline": [
-          "Comment",
-          "*“SYSTEMS”*"
+          "Want the",
+          "*free check?*"
         ],
-        "card": {
-          "y": 470,
-          "kind": "code",
-          "text": "you get: *the agent-ready check*\n30 tick boxes in 7 areas\nfree, sent to your DMs"
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SYSTEMS",
+          "y": 300,
+          "line": "comment it, we'll DM you"
         },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 820,
+            "y": 200,
+            "w": 200,
+            "size": 58,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "30 ticks\n7 areas",
+            "x": 40,
+            "y": 210,
+            "w": 220,
+            "size": 36,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
         "sprites": [
           {
             "name": "korede-cheer",
-            "x": 110,
-            "h": 290
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 420,
+            "h": 240
           },
           {
             "name": "sanjana-cheer",
-            "x": 720,
-            "h": 290
-          },
-          {
-            "name": "coin",
-            "x": 470,
-            "h": 90,
-            "y": 930
-          }
-        ],
-        "notes": [
-          {
-            "text": "free, of course",
-            "x": 330,
-            "y": 800,
-            "w": 420,
-            "accent": true
+            "x": 740,
+            "h": 270
           }
         ]
       }

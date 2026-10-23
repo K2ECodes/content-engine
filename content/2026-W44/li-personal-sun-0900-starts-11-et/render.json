@@ -1,17 +1,73 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "dark",
-    "headline": "Live today at *11 AM Eastern*",
-    "sub": "The AI Employee Accelerator on Zoom. Clocks went back 1 hour overnight, so check yours.",
-    "stats": [
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
+    "slides": [
       {
-        "value": "4 PM",
-        "label": "London"
-      },
-      {
-        "value": "5 PM",
-        "label": "Berlin"
+        "world": "night",
+        "headline": [
+          "Live today at",
+          "*11 AM Eastern*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "GRAB A SEAT",
+          "y": 300,
+          "line": "last seats, link in post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "8AM PT\n4PM UK\n5PM BERLIN",
+            "x": 700,
+            "y": 770,
+            "w": 210,
+            "size": 30,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "CLOCKS\nWENT BACK",
+            "x": 170,
+            "y": 770,
+            "w": 210,
+            "size": 38,
+            "color": "#FFE066",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 10,
+            "h": 250
+          },
+          {
+            "name": "robot",
+            "x": 880,
+            "h": 230
+          }
+        ],
+        "collage": [
+          {
+            "src": "shots/duet.png",
+            "x": 245,
+            "y": 810,
+            "w": 300,
+            "h": 220,
+            "rot": -6
+          },
+          {
+            "src": "shots/walmart.png",
+            "x": 535,
+            "y": 820,
+            "w": 300,
+            "h": 220,
+            "rot": 5
+          }
+        ]
       }
     ]
   }

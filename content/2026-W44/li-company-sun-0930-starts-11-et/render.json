@@ -1,17 +1,83 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "light",
-    "headline": "We go live at *11 AM Eastern* today",
-    "sub": "US clocks went back 1 hour overnight. The AI Employee Accelerator, live on Zoom.",
-    "stats": [
+    "handle": "Content Systems.ai",
+    "platform": "linkedin",
+    "slides": [
       {
-        "value": "$97",
-        "label": "GA seat"
-      },
-      {
-        "value": "$197",
-        "label": "VIP seat"
+        "world": "day",
+        "headline": [
+          "We go live at",
+          "*11 AM Eastern*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SAVE A SEAT",
+          "y": 300,
+          "line": "on Zoom, link in the post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "TODAY",
+            "x": 700,
+            "y": 770,
+            "w": 210,
+            "size": 54,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "$97 GA\n$197 VIP",
+            "x": 170,
+            "y": 770,
+            "w": 210,
+            "size": 40,
+            "color": "#9CCAA0",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 15,
+            "h": 250
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 870,
+            "h": 250,
+            "flip": true
+          }
+        ],
+        "collage": [
+          {
+            "src": "shots/duet.png",
+            "x": 215,
+            "y": 820,
+            "w": 245,
+            "h": 220,
+            "rot": -8
+          },
+          {
+            "src": "shots/retaildive-walmart.png",
+            "x": 420,
+            "y": 800,
+            "w": 245,
+            "h": 220,
+            "rot": 3,
+            "pos": "center -4px"
+          },
+          {
+            "src": "shots/msft.png",
+            "x": 625,
+            "y": 825,
+            "w": 245,
+            "h": 220,
+            "rot": -4
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,53 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "4 rules my AI employee *can't break*",
+        "sub": "I'm building 1 live on Sunday. These go in before it does anything."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "banknote",
+        "title": "Asks before it pays",
+        "body": "Refunds, payments, credits. Always a person's yes.",
+        "cost": "It can still prepare the refund"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "send",
+        "title": "Asks before it sends",
+        "body": "Anything a customer will read waits for approval.",
+        "cost": "Drafting is free. Sending isn't."
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "file-signature",
+        "title": "Never signs",
+        "body": "Quotes, contracts and rate changes go to a person.",
+        "cost": "It can still build the quote"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "trash-2",
+        "title": "Never deletes",
+        "body": "It can flag, archive and suggest. Removing data stays human.",
+        "cost": "Our 100+ AI employees run on the same 4"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Watch me build 1 *live on Sunday*",
+        "keyword": "NOV 1",
+        "sub": "The AI Employee Accelerator · 11 AM Eastern · $97 GA, $197 VIP · contentsystems.ai/workshop"
+      }
+    ]
+  }
+}

@@ -1,44 +1,285 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "Your SOP binder now works in *70+ AI tools*",
-        "sub": "Agent Skills became an open standard this week."
+        "world": "day",
+        "headline": [
+          "Your SOPs now",
+          "work in *70+ tools*"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/skills.png",
+            "x": 50,
+            "y": 320,
+            "w": 440,
+            "h": 380,
+            "rot": -6,
+            "pos": "center top"
+          },
+          {
+            "src": "shots/replit.png",
+            "x": 585,
+            "y": 340,
+            "w": 440,
+            "h": 380,
+            "rot": 5
+          }
+        ],
+        "bursts": [
+          {
+            "text": "OPEN\nSTANDARD",
+            "x": 845,
+            "y": 260,
+            "w": 210,
+            "size": 40,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "280M\nINSTALLS",
+            "x": 410,
+            "y": 830,
+            "w": 240,
+            "size": 46,
+            "color": "#FF4FD8",
+            "rot": -10
+          },
+          {
+            "text": "1M\nSKILLS",
+            "x": 15,
+            "y": 570,
+            "w": 190,
+            "size": 50,
+            "color": "#3FF2FF",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 40,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 700,
+            "h": 240
+          },
+          {
+            "name": "cat",
+            "x": 900,
+            "h": 130
+          }
+        ],
+        "size": "s"
       },
       {
-        "type": "point",
-        "number": "01",
-        "icon": "folder-open",
-        "title": "A skill is an SOP",
-        "body": "Written steps plus files, so an AI does 1 job your way.",
-        "cost": "Written for an AI, not a new hire"
+        "world": "sunset",
+        "headline": [
+          "A skill is",
+          "*an SOP*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Written steps",
+            "Plus the files it needs",
+            "1 job, done *your way*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "written for an AI,\nnot a new hire",
+            "x": 520,
+            "y": 860,
+            "w": 480,
+            "accent": false
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 30,
+            "h": 270
+          },
+          {
+            "name": "worker",
+            "x": 220,
+            "h": 250
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "02",
-        "icon": "lock-open",
-        "title": "Not locked in",
-        "body": "70+ platforms support it, from ChatGPT to VS Code.",
-        "cost": "1M skills · nearly 280M installs"
+        "world": "night",
+        "headline": [
+          "You're not",
+          "*locked in*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Model A",
+              "p": "today"
+            },
+            {
+              "h": "Model B",
+              "p": "next year",
+              "hi": true
+            }
+          ],
+          "foot": "the skill moves with you"
+        },
+        "notes": [
+          {
+            "text": "build on what\nyou can carry",
+            "x": 100,
+            "y": 860,
+            "w": 420,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 600,
+            "h": 230
+          },
+          {
+            "name": "korede-shrug",
+            "x": 800,
+            "h": 260,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "03",
-        "icon": "brain",
-        "title": "Know-how stays",
-        "body": "Your best rep's way with a WISMO email becomes a file the team runs.",
-        "cost": "Readable, editable, no black box"
+        "world": "neon",
+        "headline": [
+          "Know-how",
+          "*stays*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "quote",
+          "text": "Your best rep's way with a [WISMO email] becomes a file the team runs.",
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "readable, editable,\nno black box",
+            "x": 520,
+            "y": 850,
+            "w": 480
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 30,
+            "h": 260
+          },
+          {
+            "name": "korede-stand",
+            "x": 260,
+            "h": 270
+          }
+        ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Get my *5 starter skills*",
-        "keyword": "AI",
-        "sub": "Comment AI · plus the sheet that says what needs a yes"
+        "world": "day",
+        "headline": [
+          "5 skills I",
+          "*install first*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 420,
+          "kind": "code",
+          "text": "1. *quote reply*\n2. *WISMO answer*\n3. *carrier claim*\n4. *returns triage*\n5. *daily ops brief*"
+        },
+        "notes": [
+          {
+            "text": "+ what each\nneeds a yes for",
+            "x": 100,
+            "y": 880,
+            "w": 420
+          }
+        ],
+        "sprites": [
+          {
+            "name": "robot",
+            "x": 600,
+            "h": 240
+          },
+          {
+            "name": "korede-laptop",
+            "x": 810,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "Want the",
+          "*5 starter skills?*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "AI",
+          "y": 300,
+          "line": "comment it, I'll send them"
+        },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 865,
+            "y": 505,
+            "w": 180,
+            "size": 46,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "+ THE\nYES SHEET",
+            "x": 268,
+            "y": 850,
+            "w": 175,
+            "size": 34,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 450,
+            "h": 240
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       }
     ]
   }

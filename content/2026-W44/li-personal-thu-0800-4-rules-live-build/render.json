@@ -1,52 +1,370 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "4 rules my AI employee *can't break*",
-        "sub": "I'm building 1 live on Sunday. These go in before it does anything."
+        "world": "night",
+        "headline": [
+          "4 rules my AI",
+          "*can't break*"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/msft.png",
+            "x": 40,
+            "y": 350,
+            "w": 330,
+            "h": 350,
+            "rot": -7
+          },
+          {
+            "src": "shots/opencode.png",
+            "x": 375,
+            "y": 325,
+            "w": 330,
+            "h": 350,
+            "rot": 4
+          },
+          {
+            "src": "shots/walmart.png",
+            "x": 710,
+            "y": 355,
+            "w": 330,
+            "h": 350,
+            "rot": -3
+          }
+        ],
+        "bursts": [
+          {
+            "text": "INSIDER\nTHREAT?",
+            "x": 840,
+            "y": 290,
+            "w": 210,
+            "size": 42,
+            "color": "#FF4FD8",
+            "rot": 12
+          },
+          {
+            "text": "$1,000+\nROGUE\nCHARGES",
+            "x": 410,
+            "y": 820,
+            "w": 230,
+            "size": 36,
+            "color": "#FFE066",
+            "rot": -8
+          },
+          {
+            "text": "BUILT LIVE\nSUNDAY",
+            "x": 15,
+            "y": 590,
+            "w": 220,
+            "size": 34,
+            "color": "#9CCAA0",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 40,
+            "h": 260
+          },
+          {
+            "name": "evil-robot",
+            "x": 700,
+            "h": 240
+          },
+          {
+            "name": "ghost",
+            "x": 880,
+            "h": 200
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "01",
-        "icon": "banknote",
-        "title": "Asks before it pays",
-        "body": "Refunds, payments, credits. Always a person's yes.",
-        "cost": "It can still prepare the refund"
+        "world": "day",
+        "headline": [
+          "1. Asks before",
+          "*money moves*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "AI",
+              "p": "preps the refund"
+            },
+            {
+              "h": "You",
+              "p": "say yes",
+              "hi": true
+            }
+          ],
+          "foot": "refunds, payments, credits"
+        },
+        "notes": [
+          {
+            "text": "always a\nperson's yes",
+            "x": 580,
+            "y": 850,
+            "w": 400,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 30,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 240,
+            "h": 240
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "02",
-        "icon": "send",
-        "title": "Asks before it sends",
-        "body": "Anything a customer will read waits for approval.",
-        "cost": "Drafting is free. Sending isn't."
+        "world": "sunset",
+        "headline": [
+          "2. Asks before",
+          "*a customer hears*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Drafting",
+              "p": "is free"
+            },
+            {
+              "h": "Sending",
+              "p": "needs a yes",
+              "hi": true
+            }
+          ],
+          "foot": "anything a customer will read",
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "drafting is free,\nsending isn't",
+            "x": 90,
+            "y": 860,
+            "w": 480,
+            "accent": false
+          }
+        ],
+        "sprites": [
+          {
+            "name": "shopper",
+            "x": 590,
+            "h": 250
+          },
+          {
+            "name": "korede-laptop",
+            "x": 855,
+            "h": 260,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "03",
-        "icon": "file-signature",
-        "title": "Never signs",
-        "body": "Quotes, contracts and rate changes go to a person.",
-        "cost": "It can still build the quote"
+        "world": "neon",
+        "headline": [
+          "3. It never",
+          "*signs*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Quotes:",
+              "v": "to a person"
+            },
+            {
+              "k": "Contracts:",
+              "v": "to a person"
+            },
+            {
+              "k": "Rates:",
+              "v": "to a person"
+            }
+          ]
+        },
+        "notes": [
+          {
+            "text": "it can still\nbuild the quote",
+            "x": 560,
+            "y": 850,
+            "w": 420,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 30,
+            "h": 260
+          },
+          {
+            "name": "robot",
+            "x": 260,
+            "h": 220
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "04",
-        "icon": "trash-2",
-        "title": "Never deletes",
-        "body": "It can flag, archive and suggest. Removing data stays human.",
-        "cost": "Our 100+ AI employees run on the same 4"
+        "world": "day",
+        "headline": [
+          "4. It never",
+          "*deletes*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "It can *flag*",
+            "It can *archive*",
+            "Removing data stays *human*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "everything else\nruns on its own",
+            "x": 90,
+            "y": 860,
+            "w": 440
+          }
+        ],
+        "sprites": [
+          {
+            "name": "ghost",
+            "x": 620,
+            "h": 230
+          },
+          {
+            "name": "korede-shrug",
+            "x": 820,
+            "h": 260,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Watch me build 1 *live on Sunday*",
-        "keyword": "NOV 1",
-        "sub": "The AI Employee Accelerator · 11 AM Eastern · $97 GA, $197 VIP · contentsystems.ai/workshop"
+        "world": "night",
+        "headline": [
+          "Rules first,",
+          "*then scale*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Us:",
+              "v": "100+ AI employees"
+            },
+            {
+              "k": "Rules:",
+              "v": "the same 4"
+            },
+            {
+              "k": "Result:",
+              "v": "output I trust"
+            }
+          ],
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "they don't\nslow us down",
+            "x": 560,
+            "y": 840,
+            "w": 420
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 30,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 220,
+            "h": 230
+          },
+          {
+            "name": "trophy",
+            "x": 400,
+            "h": 100,
+            "y": 1000
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "Watch me build 1",
+          "*live on Sunday*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SUN 11AM ET",
+          "y": 300,
+          "line": "Nov 1 on Zoom, link in post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "$97 GA\n$197 VIP",
+            "x": 865,
+            "y": 505,
+            "w": 180,
+            "size": 38,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "RULES\nFIRST",
+            "x": 268,
+            "y": 850,
+            "w": 175,
+            "size": 34,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 450,
+            "h": 240
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       }
     ]
   }

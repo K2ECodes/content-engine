@@ -1,0 +1,80 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "The parcel invoice check *most brands skip*",
+        "sub": "Shipping prices are at a record this quarter. 6 lines to check before peak eats your margin."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "fuel",
+        "title": "Fuel surcharges",
+        "body": "Since 2021, 72 in 100 of the rise came from carrier pricing, not diesel.",
+        "cost": "Check: surcharge rate vs your contract"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "calendar",
+        "title": "Peak surcharges",
+        "body": "They run on set dates. Make sure they start and stop when they should.",
+        "cost": "Check: billed dates vs the carrier's schedule"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "map-pin",
+        "title": "Address corrections",
+        "body": "A fee each time the carrier fixes an address. Was it really wrong?",
+        "cost": "Check: corrected addresses vs your orders"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "house",
+        "title": "Residential fees",
+        "body": "Easy to charge on a business address by mistake.",
+        "cost": "Check: fee type vs the ship-to address"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "ruler",
+        "title": "Dimensional weight",
+        "body": "Billed on box size, not weight. 1 wrong measurement repeats on every order.",
+        "cost": "Check: billed size vs your real boxes"
+      },
+      {
+        "type": "point",
+        "number": "06",
+        "icon": "copy",
+        "title": "Duplicate charges",
+        "body": "The same parcel billed twice. Small on 1 invoice, real across a season.",
+        "cost": "Illustrative: 50 cents x 5,000 orders = $2,500 a month"
+      },
+      {
+        "type": "layers",
+        "title": "What a system *does for you*",
+        "layers": [
+          { "icon": "receipt", "name": "Collect", "desc": "Every carrier and 3PL invoice, every cycle", "chips": ["Carriers", "3PL"] },
+          { "icon": "scan-search", "name": "Match", "desc": "Each line checked against your rates and orders", "chips": ["Your contract"] },
+          { "icon": "flag", "name": "Flag", "desc": "Overcharges listed with the proof", "chips": ["Before you pay"] },
+          { "icon": "user-check", "name": "Approve", "desc": "Your team decides what to dispute", "chips": ["Your yes"] }
+        ],
+        "loop": "It runs every billing cycle, so peak volume can't hide errors.",
+        "loopIcon": "refresh-cw"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "What are hidden fees *costing you*?",
+        "sub": "Try the free hidden-cost calculator at contentsystems.ai/ecommerce"
+      }
+    ]
+  }
+}

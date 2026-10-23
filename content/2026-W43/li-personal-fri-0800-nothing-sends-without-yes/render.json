@@ -1,56 +1,325 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "The best AI feature this week is a *yes button*",
-        "sub": "Claude Duet works in the background, then asks before it pays. That pause protects your money."
-      },
-      {
-        "type": "point",
-        "number": "01",
-        "icon": "credit-card",
-        "title": "It asks before it pays",
-        "body": "Duet can buy through Stripe Link or Shop Pay. Every payment waits for your approval.",
-        "cost": "It won't trade securities or move money"
-      },
-      {
-        "type": "point",
-        "number": "02",
-        "icon": "send",
-        "title": "And before it sends",
-        "body": "A refund, a quote, a client email. Drafted by AI, sent by you.",
-        "cost": "The cost of 1 wrong send is bigger than the time saved"
-      },
-      {
-        "type": "point",
-        "number": "03",
-        "icon": "shield-check",
-        "title": "4 moments need a yes",
-        "body": "Money going out. Messages to customers. Quotes and contracts. Deleting data.",
-        "cost": "Everything else can run on its own"
-      },
-      {
-        "type": "layers",
-        "title": "How we build *every system*",
-        "layers": [
-          { "icon": "bot", "name": "AI does the work", "desc": "Drafts, checks and prepares in the background", "chips": ["Always on"] },
-          { "icon": "scan-search", "name": "You see it", "desc": "What's about to go out, with the reason why", "chips": ["1 screen"] },
-          { "icon": "user-check", "name": "You say yes", "desc": "Nothing leaves without a person's approval", "chips": ["Your yes"] },
-          { "icon": "refresh-cw", "name": "It learns", "desc": "Every no sharpens the rules for next time", "chips": ["Weekly"] }
+        "world": "neon",
+        "headline": [
+          "The best AI feature",
+          "is a *yes button*"
         ],
-        "loop": "Our own company runs on 100+ AI employees. Same rule.",
-        "loopIcon": "building-2"
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/duet.png",
+            "x": 40,
+            "y": 330,
+            "w": 330,
+            "h": 360,
+            "rot": -7
+          },
+          {
+            "src": "shots/walmart.png",
+            "x": 375,
+            "y": 305,
+            "w": 330,
+            "h": 360,
+            "rot": 4
+          },
+          {
+            "src": "shots/msft.png",
+            "x": 710,
+            "y": 335,
+            "w": 330,
+            "h": 360,
+            "rot": -3
+          }
+        ],
+        "bursts": [
+          {
+            "text": "ASKS\nFIRST",
+            "x": 840,
+            "y": 255,
+            "w": 200,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "NEW",
+            "x": 20,
+            "y": 255,
+            "w": 180,
+            "size": 56,
+            "color": "#FF4FD8",
+            "rot": -12
+          },
+          {
+            "text": "1 PAUSE,\nYOUR MONEY",
+            "x": 400,
+            "y": 800,
+            "w": 250,
+            "size": 38,
+            "color": "#3FF2FF",
+            "rot": -8
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 40,
+            "h": 260
+          },
+          {
+            "name": "robot",
+            "x": 690,
+            "h": 230
+          },
+          {
+            "name": "evil-robot",
+            "x": 860,
+            "h": 230
+          }
+        ],
+        "size": "s"
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Build your first AI employee *with a yes button*",
-        "keyword": "NOV 1",
-        "sub": "The AI Employee Accelerator · live on Zoom · 11 AM ET · contentsystems.ai/workshop"
+        "world": "day",
+        "headline": [
+          "It asks",
+          "*before it pays*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Every payment *waits*",
+            "Won't trade securities",
+            "Won't *move money*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "your approval,\nevery time",
+            "x": 100,
+            "y": 870,
+            "w": 420,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "shopper",
+            "x": 610,
+            "h": 250,
+            "flip": true
+          },
+          {
+            "name": "korede-point",
+            "x": 860,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "sunset",
+        "headline": [
+          "And before",
+          "*it sends*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "AI",
+              "p": "drafts it"
+            },
+            {
+              "h": "You",
+              "p": "send it",
+              "hi": true
+            }
+          ],
+          "foot": "refund, quote, client email"
+        },
+        "notes": [
+          {
+            "text": "1 wrong send\ncosts more",
+            "x": 560,
+            "y": 850,
+            "w": 400,
+            "accent": false
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 40,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 240,
+            "h": 240
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "4 moments",
+          "*need a yes*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Money:",
+              "v": "going out"
+            },
+            {
+              "k": "Messages:",
+              "v": "to customers"
+            },
+            {
+              "k": "Quotes:",
+              "v": "and contracts"
+            },
+            {
+              "k": "Data:",
+              "v": "being deleted"
+            }
+          ]
+        },
+        "notes": [
+          {
+            "text": "everything else\nruns on its own",
+            "x": 540,
+            "y": 850,
+            "w": 460
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 40,
+            "h": 270
+          },
+          {
+            "name": "korede-stand",
+            "x": 270,
+            "h": 270
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "How we build",
+          "*every system*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "AI",
+              "p": "does it"
+            },
+            {
+              "h": "You",
+              "p": "check it"
+            },
+            {
+              "h": "Yes",
+              "p": "it goes",
+              "hi": true
+            }
+          ],
+          "foot": "our 100+ AI employees, same rule",
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "it's why\nI trust them",
+            "x": 560,
+            "y": 840,
+            "w": 400
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 40,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 270,
+            "h": 250
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "Build your first",
+          "*AI employee*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SUN 11AM ET",
+          "y": 300,
+          "line": "Nov 1 on Zoom, link in post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "LIVE",
+            "x": 865,
+            "y": 505,
+            "w": 180,
+            "size": 46,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "YES STEP\nINCLUDED",
+            "x": 268,
+            "y": 850,
+            "w": 175,
+            "size": 34,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 450,
+            "h": 240
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       }
     ]
   }

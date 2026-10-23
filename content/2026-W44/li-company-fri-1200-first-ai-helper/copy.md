@@ -30,3 +30,5 @@ Sources (research/weekly/2026-W44.md 1.9):
 - Nielsen for Monday.com survey of 1,700 directors and senior managers in 7 countries: 58 in 100 expect to oversee more AI agents than humans within a year, 29 in 100 call setup fully optimized and centralized, 57 in 100 have more tools: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
 
 Judgement calls: "AI helpers" instead of "agents" for the plain-language rule. The 4-line plan teases the AI employee owner sheet (ig-company freebie) without giving it away. AEO opener describes the workshop offer (ai-workshops: "Build your first AI employees").
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Monday.com manager survey (Oct 21 2026).

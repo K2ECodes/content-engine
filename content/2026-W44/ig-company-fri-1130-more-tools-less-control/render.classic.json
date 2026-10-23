@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "More AI tools.\n*Less control.*",
+    "sub": "The fix isn't another tool. It's 1 place where your team's know-how lives.",
+    "stats": [
+      {
+        "value": "57 in 100",
+        "label": "managers have more AI tools than last year"
+      },
+      {
+        "value": "29 in 100",
+        "label": "say their setup is right"
+      }
+    ]
+  }
+}

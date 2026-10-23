@@ -1,24 +1,26 @@
 ## Caption
-Turn 1 warehouse SOP into an AI skill in 20 minutes. Here's the order I do it in.
-Comment AI and I'll send you my AI Employee Starter Pack: 5 skills I install first for an ops team.
+Turn 1 thing you do every week into an AI skill in 20 minutes. Here's the order I do it in.
+Comment AI and I'll send you my AI Employee Starter Pack: 5 starter skills you can copy.
 
-Most warehouses already have the hard part. The SOP binder. The "how we answer where's my order" doc. The returns rules someone wrote in 2022.
+Most of us already have the hard part. The weekly update email you write the same way every time. The messy notes you turn into a plan. The question you answer 10 times a month.
 
-A skill is that SOP in a format AI can run. And as of last week it's an open standard, so 70+ AI tools read the same skill.
+A skill is that routine in a format AI can run. And as of last week it's an open standard, so 70+ AI tools read the same skill.
 
-I start with 1 job that happens every day, write it like I'm training a new hire, add real examples, mark where it needs a person's yes, then test it on yesterday's work.
+I pick 1 thing I repeat, write it like I'm training a new hire, add 3 real examples, mark where it needs my yes, then test it on last week's work.
 
-The pack has quote replies, order updates, carrier claims, returns triage and a daily ops brief, plus the sheet on what each 1 can do alone.
+Save this for your first skill, and comment AI for the pack.
 
-#AI #ClaudeAI #AIagents #automation #smallbusiness
+#AI #ClaudeAI #AItools #productivity #automation
 
 ## Alt text
-7-slide square carousel from @koredekola. Dark cover: Turn 1 warehouse SOP into an AI skill in 20 minutes. 5 timed steps: pick a daily SOP, write it for a new hire, add 3 real examples, mark where it needs a yes, test it on yesterday's work. A dark CTA to comment AI for the starter pack.
+8-slide carousel from @koredekola in a pixel-art platformer world. Cover: Turn a routine into an AI skill, 20 minutes, 5 steps. 5 timed steps: pick 1 thing you repeat, write it for a new hire, add 3 real examples, mark where it needs a yes, test it on last week. A night slide: skills are now an open standard that 70+ AI tools read. A CTA to comment AI for the AI Employee Starter Pack.
 
 ## Notes
-Sources (research/weekly/2026-W44.md 1.7, 3.2):
-- Agent Skills donated to the Linux Foundation's AAIF, 70+ platforms: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation (Oct 22 2026). "Last week" is true for a Sat Oct 31 post.
-- Skill-pack lead magnets pull the biggest comment counts (creator research Oct 14).
-Freebie: AI Employee Starter Pack (keyword AI): 5 starter Claude skills (quote reply, WISMO answer, carrier claim, returns triage, daily ops brief) plus the permission sheet. To build and list in config/offers.json before approval.
-The step timings (3, 5, 5, 3, 4 minutes) are Korede's process framing; adjust if his real order differs. Steps name the order, not the full method, per "don't give full frameworks away".
-Halloween is Saturday, but the plan keeps Halloween to the ig-company video, so this post doesn't reference it.
+Rewritten 2026-10-23 for the new ig-personal direction: general AI how-to, "I" voice, no warehouse or company selling. Examples swapped from warehouse SOPs to everyday routines (weekly update email, notes into a plan, a repeated question).
+Sources:
+- Anthropic donated Agent Skills to the Linux Foundation's Agentic AI Foundation, 70+ platforms: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation (Oct 22 2026). "Last week" is true for a Sat Oct 31 post. Slide quote is our paraphrase, credited to Anthropic.
+The step timings (0 to 3, 3 to 8, 8 to 13, 13 to 16, 16 to 20 minutes) are Korede's process framing; adjust if his real order differs.
+Freebie: AI Employee Starter Pack (keyword AI, built, config/offers.json). Its 5 skills are ops-flavoured; consider a general-audience version for @koredekola.
+Halloween is Saturday; not referenced.
+Old classic render kept as render.classic.json.
+Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/aaif.png = https://aaif.io; shots/github.png = https://github.com/anthropics/skills.

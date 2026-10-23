@@ -36,3 +36,5 @@ Sources (all in window, checked in research/weekly/2026-W44.md section 1.1, 1.2,
 - "100+ AI employees" is from the proof bank (our own company).
 - Judgement calls: Duet's "sends" behaviour is described by the sources as "asks for approval when needed", so the "before it sends" slide speaks to how we build rather than claiming Duet gates every message. The 4 yes moments come from research topic 2 checklist, shown as a teaser, not the full permission sheet.
 - Workshop: Nov 1 is the day US clocks go back. 11 AM ET is already EST, so no change needed in this post. Reminder posts should mention it.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Microsoft agents as insider threats (Oct 19 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).

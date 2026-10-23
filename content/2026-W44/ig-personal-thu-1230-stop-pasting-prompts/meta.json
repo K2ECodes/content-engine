@@ -5,9 +5,9 @@
   "pillar": "tools-vs-systems",
   "execution": "mistakes",
   "topic": "skills-as-sops",
-  "lead": false,
-  "cta_type": "workshop",
-  "cta_keyword": null,
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
   "slot": "2026-10-29T12:30",
   "timezone": "America/New_York",
   "status": "draft",
@@ -17,7 +17,6 @@
     "slide-03.png",
     "slide-04.png",
     "slide-05.png",
-    "slide-06.png",
-    "slide-07.png"
+    "slide-06.png"
   ]
 }

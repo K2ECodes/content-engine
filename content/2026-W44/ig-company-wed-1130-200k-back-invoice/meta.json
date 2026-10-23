@@ -1,7 +1,7 @@
 {
   "channel": "ig-company",
   "format": "static",
-  "aspect": "1:1",
+  "aspect": "4:5",
   "pillar": "operational-clarity",
   "execution": "proof",
   "topic": "peak-invoices",
@@ -12,6 +12,6 @@
   "timezone": "America/New_York",
   "status": "draft",
   "media": [
-    "static.png"
+    "slide-01.png"
   ]
 }

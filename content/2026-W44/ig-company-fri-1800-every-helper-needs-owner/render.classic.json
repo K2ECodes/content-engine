@@ -1,0 +1,67 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Every AI helper needs *an owner*",
+        "sub": "Without 1, nobody notices when it drifts. 3 questions settle it."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "user-check",
+        "title": "Who checks its work?",
+        "body": "1 named person checks it every day. Not \"the team\".",
+        "cost": "Ask: whose name is on it?"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "02",
+        "icon": "hand",
+        "title": "What can it do alone?",
+        "body": "A tracking question, yes. A refund, no. Write the line down.",
+        "cost": "Ask: where does it need a yes?"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "clipboard-check",
+        "title": "What does it report?",
+        "body": "A short daily note: what it handled, what it passed on.",
+        "cost": "Ask: what lands in your inbox?"
+      },
+      {
+        "type": "layers",
+        "title": "1 page per *helper*",
+        "layers": [
+          {
+            "icon": "zap",
+            "name": "What it does",
+            "desc": "The job, in 1 line"
+          },
+          {
+            "icon": "user-check",
+            "name": "Who approves",
+            "desc": "A name and a limit"
+          },
+          {
+            "icon": "inbox",
+            "name": "What it reports",
+            "desc": "Every day, to its owner"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want the *owner sheet*?",
+        "keyword": "SYSTEMS",
+        "sub": "Comment it and we'll DM you."
+      }
+    ]
+  }
+}

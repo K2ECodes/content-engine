@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "30 engineers.\n2 weeks.\n*30,000 people.*",
+    "sub": "Uber's AI rollout worked because experts sat next to the work. Most warehouses skip that part.",
+    "stats": [
+      {
+        "value": "2 weeks",
+        "label": "engineers paired with each team"
+      },
+      {
+        "value": "8 in 10",
+        "label": "early adopters weren't engineers"
+      }
+    ]
+  }
+}

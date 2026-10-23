@@ -1,0 +1,86 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "handle": "@koredekola",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Stop pasting the same prompt *every morning*",
+        "sub": "5 minutes a day is 20 hours a year. Save it once as a skill instead."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "repeat",
+        "title": "You retype the context",
+        "body": "The chat forgets your business every day. A skill remembers your rules, prices and tone.",
+        "cost": "Fix: write it once, load it every time"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "users",
+        "title": "Everyone has a version",
+        "body": "4 people, 4 prompts, 4 different answers to the same customer.",
+        "cost": "Fix: 1 skill the whole team runs"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "user-round",
+        "title": "It lives in 1 head",
+        "body": "When that person is off, the process is off too.",
+        "cost": "Fix: the skill is the SOP, written down"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "lock",
+        "title": "It's stuck in 1 tool",
+        "body": "Anthropic just gave skills to the Linux Foundation. 70+ AI tools read the same format.",
+        "cost": "Fix: build once, use it anywhere"
+      },
+      {
+        "type": "layers",
+        "title": "What a skill *holds*",
+        "layers": [
+          {
+            "icon": "list-checks",
+            "name": "Steps",
+            "desc": "How you do the job, in order",
+            "chips": [
+              "SKILL.md"
+            ]
+          },
+          {
+            "icon": "file-text",
+            "name": "Examples",
+            "desc": "What a good answer looks like",
+            "chips": [
+              "Real ones"
+            ]
+          },
+          {
+            "icon": "folder",
+            "name": "Files",
+            "desc": "Rates, templates, policies",
+            "chips": [
+              "Your data"
+            ]
+          }
+        ],
+        "loop": "On Sunday I build 3 of these live, from a blank page.",
+        "loopIcon": "monitor-play"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Watch me build *3 skills* live",
+        "sub": "Sun Nov 1, 11 AM Eastern. $97 GA, $197 VIP. Link in bio."
+      }
+    ]
+  }
+}

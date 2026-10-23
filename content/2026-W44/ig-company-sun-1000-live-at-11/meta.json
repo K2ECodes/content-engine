@@ -1,7 +1,7 @@
 {
   "channel": "ig-company",
   "format": "static",
-  "aspect": "9:16",
+  "aspect": "4:5",
   "pillar": "tools-vs-systems",
   "execution": "checklist",
   "topic": "approval-gate",
@@ -12,6 +12,6 @@
   "timezone": "America/New_York",
   "status": "draft",
   "media": [
-    "static.png"
+    "slide-01.png"
   ]
 }

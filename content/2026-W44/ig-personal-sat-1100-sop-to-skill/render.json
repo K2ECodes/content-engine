@@ -1,62 +1,364 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
     "handle": "@koredekola",
+    "platform": "instagram",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "1 warehouse SOP to an AI skill in *20 min*",
-        "sub": "Here's the order I do it in."
+        "world": "night",
+        "headline": [
+          "Turn a routine",
+          "into *an AI skill*"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/aaif.png",
+            "x": 60,
+            "y": 350,
+            "w": 440,
+            "h": 370,
+            "rot": -6,
+            "pos": "center top"
+          },
+          {
+            "src": "shots/github.png",
+            "x": 560,
+            "y": 370,
+            "w": 440,
+            "h": 370,
+            "rot": 5,
+            "pos": "center top"
+          }
+        ],
+        "bursts": [
+          {
+            "text": "20 min",
+            "x": 410,
+            "y": 790,
+            "w": 230,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": -8
+          },
+          {
+            "text": "5 steps",
+            "x": 850,
+            "y": 310,
+            "w": 180,
+            "size": 44,
+            "color": "#FF4FD8",
+            "rot": 14
+          },
+          {
+            "text": "open\nstandard",
+            "x": 20,
+            "y": 310,
+            "w": 200,
+            "size": 38,
+            "color": "#3FF2FF",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 800,
+            "h": 240,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "01",
-        "icon": "target",
-        "title": "Pick a daily SOP",
-        "body": "Something that happens every day, like \"where's my order\" replies.",
-        "cost": "Minutes 0 to 3"
+        "world": "sunset",
+        "headline": [
+          "1. Pick 1 thing",
+          "*you repeat*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Your weekly *update email*",
+            "Notes into *a plan*",
+            "The same *question, again*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "minutes\n0 to 3",
+            "x": 530,
+            "y": 832,
+            "w": 480,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "box-monster",
+            "x": 297,
+            "h": 190
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "02",
-        "icon": "square-pen",
-        "title": "Write it for a new hire",
-        "body": "The steps, in order, in plain words. No jargon.",
-        "cost": "Minutes 3 to 8"
+        "world": "day",
+        "headline": [
+          "2. Write it",
+          "*for a new hire*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 440,
+          "kind": "code",
+          "text": "1. what it's for\n2. the steps, in order\n3. *plain words, no jargon*"
+        },
+        "notes": [
+          {
+            "text": "minutes\n3 to 8",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "cat",
+            "x": 883,
+            "h": 150,
+            "flip": true
+          },
+          {
+            "name": "korede-laptop",
+            "x": 693,
+            "h": 270,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "theme": "dark",
-        "number": "03",
-        "icon": "file-text",
-        "title": "Add 3 real examples",
-        "body": "Good answers your team already sent. They teach tone faster than rules.",
-        "cost": "Minutes 8 to 13"
+        "world": "neon",
+        "headline": [
+          "3. Add 3",
+          "*real examples*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Good ones *you sent*",
+            "They teach *your tone*",
+            "Faster than *rules*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "minutes\n8 to 13",
+            "x": 412,
+            "y": 802,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "robot",
+            "x": 70,
+            "h": 240
+          },
+          {
+            "name": "korede-stand",
+            "x": 264,
+            "h": 270
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "04",
-        "icon": "hand",
-        "title": "Mark the yes points",
-        "body": "Refunds, promises, anything that leaves the building.",
-        "cost": "Minutes 13 to 16"
+        "world": "sunset",
+        "headline": [
+          "4. Mark where",
+          "*it needs a yes*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Anything it *sends*",
+            "Anything it *buys*",
+            "Anything it *posts*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "minutes\n13 to 16",
+            "x": 60,
+            "y": 832,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 820,
+            "h": 250,
+            "flip": true
+          },
+          {
+            "name": "korede-point",
+            "x": 626,
+            "h": 270,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "05",
-        "icon": "flask-conical",
-        "title": "Test on yesterday",
-        "body": "Run it on real work from yesterday. Compare with what your team did.",
-        "cost": "Minutes 16 to 20"
+        "world": "day",
+        "headline": [
+          "5. Test it on",
+          "*last week*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Run",
+              "p": "last week's work"
+            },
+            {
+              "h": "Compare",
+              "p": "with what you did",
+              "hi": true
+            }
+          ],
+          "foot": "fix what it got wrong"
+        },
+        "notes": [
+          {
+            "text": "minutes\n16 to 20",
+            "x": 468,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 264,
+            "h": 240
+          }
+        ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Want my *5 starter skills*?",
-        "keyword": "AI",
-        "sub": "Comment it and I'll DM you the pack."
+        "world": "night",
+        "headline": [
+          "Write it once,",
+          "*use it anywhere*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "accent": true,
+          "kind": "quote",
+          "text": "[70+ AI tools] now read skills, an open standard as of this month.",
+          "who": "Anthropic, Oct 22 2026"
+        },
+        "notes": [
+          {
+            "text": "handed to the\nLinux Foundation",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-stand",
+            "x": 896,
+            "h": 270,
+            "flip": true
+          },
+          {
+            "name": "bulb",
+            "x": 774,
+            "h": 130
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "Want my",
+          "*5 free skills?*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "AI",
+          "y": 300,
+          "line": "comment it, I'll DM you"
+        },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 860,
+            "y": 100,
+            "w": 190,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "copy\n+ paste",
+            "x": 20,
+            "y": 110,
+            "w": 200,
+            "size": 42,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "cat",
+            "x": 120,
+            "h": 150
+          },
+          {
+            "name": "korede-cheer",
+            "x": 430,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 760,
+            "h": 240,
+            "flip": true
+          }
+        ]
       }
     ]
   }

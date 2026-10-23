@@ -1,83 +1,339 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "Build your first *AI employee* on Sunday",
-        "sub": "Hand it the work that eats your week. You still say yes to what matters."
-      },
-      {
-        "type": "point",
-        "number": "01",
-        "icon": "target",
-        "title": "Pick the job",
-        "body": "The 1 task that eats hours: customer emails, quotes, order updates.",
-        "cost": "You leave with: your first job chosen"
-      },
-      {
-        "type": "point",
-        "number": "02",
-        "icon": "book-open",
-        "title": "Teach it once",
-        "body": "Your rules, your prices, your tone. Written down 1 time.",
-        "cost": "You leave with: instructions it follows"
-      },
-      {
-        "type": "point",
-        "theme": "dark",
-        "number": "03",
-        "icon": "zap",
-        "title": "Watch it work",
-        "body": "It drafts the reply, the quote or the update in seconds.",
-        "cost": "You leave with: a working AI employee"
-      },
-      {
-        "type": "point",
-        "number": "04",
-        "icon": "user-check",
-        "title": "Say yes",
-        "body": "Anything that sends, pays or promises waits for you first.",
-        "cost": "You leave with: your approval step built in"
-      },
-      {
-        "type": "layers",
-        "title": "The *details*",
-        "layers": [
+        "world": "day",
+        "headline": [
+          "Build your first",
+          "*AI employee*"
+        ],
+        "underline": false,
+        "collage": [
           {
-            "icon": "calendar",
-            "name": "Sunday, Nov 1",
-            "desc": "11 AM Eastern. Clocks go back 1 hour that morning",
-            "chips": [
-              "4 PM London"
-            ]
+            "src": "shots/workshop.png",
+            "x": 60,
+            "y": 350,
+            "w": 440,
+            "h": 370,
+            "rot": -6,
+            "pos": "center top"
           },
           {
-            "icon": "video",
-            "name": "Live on Zoom",
-            "desc": "Build along with us, ask as you go",
-            "chips": [
-              "Hands-on"
-            ]
+            "src": "shots/uber.png",
+            "x": 560,
+            "y": 370,
+            "w": 440,
+            "h": 370,
+            "rot": 5
+          }
+        ],
+        "bursts": [
+          {
+            "text": "Sun Nov 1\n11 AM ET",
+            "x": 400,
+            "y": 780,
+            "w": 250,
+            "size": 40,
+            "color": "#FFE066",
+            "rot": -8
           },
           {
-            "icon": "ticket",
-            "name": "$97 or $197",
-            "desc": "General admission or VIP",
-            "chips": [
-              "GA",
-              "VIP"
-            ]
+            "text": "LIVE",
+            "x": 860,
+            "y": 310,
+            "w": 170,
+            "size": 56,
+            "color": "#FF4FD8",
+            "rot": 14
+          },
+          {
+            "text": "on\nZoom",
+            "x": 20,
+            "y": 310,
+            "w": 180,
+            "size": 46,
+            "color": "#3FF2FF",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 800,
+            "h": 240,
+            "flip": true
           }
         ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Save your seat for *Sunday*",
-        "sub": "The AI Employee Accelerator. Link in bio."
+        "world": "sunset",
+        "headline": [
+          "1. Pick",
+          "*the job*"
+        ],
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Customer *emails*",
+            "*Quotes*",
+            "Order *updates*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "the 1 that\neats your week",
+            "x": 495,
+            "y": 832,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "sanjana-point",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "box-monster",
+            "x": 262,
+            "h": 190
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "2. Teach it",
+          "*once*"
+        ],
+        "card": {
+          "y": 440,
+          "kind": "code",
+          "text": "*your rules*\nyour prices\nyour tone\nwritten down 1 time"
+        },
+        "notes": [
+          {
+            "text": "instructions\nit follows",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "robot",
+            "x": 840,
+            "h": 240,
+            "flip": true
+          },
+          {
+            "name": "korede-laptop",
+            "x": 650,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "3. Watch",
+          "*it work*"
+        ],
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "You",
+              "p": "hand it the job"
+            },
+            {
+              "h": "It",
+              "p": "drafts in seconds",
+              "hi": true
+            }
+          ],
+          "foot": "the reply, the quote or the update"
+        },
+        "notes": [
+          {
+            "text": "a working\nAI employee",
+            "x": 447,
+            "y": 802,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "sanjana-laptop",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 243,
+            "h": 240
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "4. Say",
+          "*yes*"
+        ],
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Anything that *sends*",
+            "Anything that *pays*",
+            "Anything that *promises*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "waits for you\nfirst",
+            "x": 60,
+            "y": 858,
+            "w": 482,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 803,
+            "h": 270,
+            "flip": true
+          },
+          {
+            "name": "korede-shrug",
+            "x": 576,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "Sunday,",
+          "*Nov 1*"
+        ],
+        "card": {
+          "y": 430,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Time:",
+              "v": "11 AM Eastern"
+            },
+            {
+              "k": "London:",
+              "v": "4 PM"
+            },
+            {
+              "k": "Where:",
+              "v": "live on Zoom"
+            },
+            {
+              "k": "Price:",
+              "v": "$97 GA, $197 VIP"
+            }
+          ],
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "clocks go back\n1 hour that day",
+            "x": 300,
+            "y": 815,
+            "w": 480
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-stand",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "cat",
+            "x": 470,
+            "h": 120
+          },
+          {
+            "name": "sanjana-stand",
+            "x": 800,
+            "h": 270
+          }
+        ]
+      },
+      {
+        "world": "sunset",
+        "headline": [
+          "Save your seat",
+          "for *Sunday*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "LINK IN BIO",
+          "y": 330,
+          "line": "Sun Nov 1, 11 AM ET",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "$97 GA",
+            "x": 860,
+            "y": 100,
+            "w": 190,
+            "size": 46,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "live on\nZoom",
+            "x": 20,
+            "y": 110,
+            "w": 200,
+            "size": 42,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 430,
+            "h": 240
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 760,
+            "h": 270
+          }
+        ]
       }
     ]
   }

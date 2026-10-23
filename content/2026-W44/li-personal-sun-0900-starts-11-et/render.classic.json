@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "headline": "Live today at *11 AM Eastern*",
+    "sub": "The AI Employee Accelerator on Zoom. Clocks went back 1 hour overnight, so check yours.",
+    "stats": [
+      {
+        "value": "4 PM",
+        "label": "London"
+      },
+      {
+        "value": "5 PM",
+        "label": "Berlin"
+      }
+    ]
+  }
+}

@@ -1,17 +1,73 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "light",
-    "headline": "Your next team member might be an *AI helper*. Who manages it?",
-    "sub": "We'll set up the first 1 live on Sunday, with a person approving every step.",
-    "stats": [
+    "handle": "Content Systems.ai",
+    "platform": "linkedin",
+    "slides": [
       {
-        "value": "58 in 100",
-        "label": "managers expect more AI helpers than people"
-      },
-      {
-        "value": "29 in 100",
-        "label": "say their AI setup is right"
+        "world": "neon",
+        "headline": [
+          "Who manages",
+          "your *AI helper*?"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SUN 11AM ET",
+          "y": 300,
+          "line": "built live, link in the post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "58 IN 100\nEXPECT\nMORE AI",
+            "x": 700,
+            "y": 770,
+            "w": 210,
+            "size": 34,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "29 IN 100\nSAY SETUP\nIS RIGHT",
+            "x": 170,
+            "y": 770,
+            "w": 210,
+            "size": 32,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 15,
+            "h": 240
+          },
+          {
+            "name": "sanjana-stand",
+            "x": 900,
+            "h": 250
+          }
+        ],
+        "collage": [
+          {
+            "src": "shots/monday.png",
+            "x": 245,
+            "y": 810,
+            "w": 300,
+            "h": 220,
+            "rot": -6
+          },
+          {
+            "src": "shots/duet.png",
+            "x": 535,
+            "y": 820,
+            "w": 300,
+            "h": 220,
+            "rot": 5
+          }
+        ]
       }
     ]
   }

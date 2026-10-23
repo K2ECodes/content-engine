@@ -1,17 +1,84 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "dark",
-    "headline": "Only *13 in 100* logistics execs see AI in their numbers",
-    "sub": "Most of the rest started with a chatbot, not the money leak.",
-    "stats": [
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
+    "slides": [
       {
-        "value": "1 job",
-        "label": "with a number before you start"
-      },
-      {
-        "value": "2x",
-        "label": "trust in AI support when a person is reachable"
+        "world": "sunset",
+        "headline": [
+          "Only *13 in 100*",
+          "see AI pay off"
+        ],
+        "underline": false,
+        "cta": {
+          "keyword": "BOOK A CALL",
+          "y": 330,
+          "line": "30 min, link in the post",
+          "pill": false
+        },
+        "bursts": [
+          {
+            "text": "87 IN 100\nDON'T\nSEE IT",
+            "x": 700,
+            "y": 790,
+            "w": 210,
+            "size": 34,
+            "color": "#FF4FD8",
+            "rot": 12
+          },
+          {
+            "text": "START\nWITH THE\nMONEY LEAK",
+            "x": 170,
+            "y": 790,
+            "w": 210,
+            "size": 32,
+            "color": "#FFE066",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 15,
+            "h": 240
+          },
+          {
+            "name": "worker",
+            "x": 865,
+            "h": 240,
+            "flip": true
+          }
+        ],
+        "collage": [
+          {
+            "src": "shots/evos.png",
+            "x": 215,
+            "y": 845,
+            "w": 245,
+            "h": 200,
+            "rot": -8,
+            "pos": "center -68px"
+          },
+          {
+            "src": "shots/motive.png",
+            "x": 420,
+            "y": 825,
+            "w": 245,
+            "h": 200,
+            "rot": 3,
+            "pos": "center -60px"
+          },
+          {
+            "src": "shots/samsara.png",
+            "x": 625,
+            "y": 850,
+            "w": 245,
+            "h": 200,
+            "rot": -4,
+            "pos": "center -60px"
+          }
+        ]
       }
     ]
   }

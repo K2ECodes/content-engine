@@ -1,66 +1,302 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "Every AI helper needs *an owner*",
-        "sub": "Without 1, nobody notices when it drifts. 3 questions settle it."
-      },
-      {
-        "type": "point",
-        "number": "01",
-        "icon": "user-check",
-        "title": "Who checks its work?",
-        "body": "1 named person checks it every day. Not \"the team\".",
-        "cost": "Ask: whose name is on it?"
-      },
-      {
-        "type": "point",
-        "theme": "dark",
-        "number": "02",
-        "icon": "hand",
-        "title": "What can it do alone?",
-        "body": "A tracking question, yes. A refund, no. Write the line down.",
-        "cost": "Ask: where does it need a yes?"
-      },
-      {
-        "type": "point",
-        "number": "03",
-        "icon": "clipboard-check",
-        "title": "What does it report?",
-        "body": "A short daily note: what it handled, what it passed on.",
-        "cost": "Ask: what lands in your inbox?"
-      },
-      {
-        "type": "layers",
-        "title": "1 page per *helper*",
-        "layers": [
+        "world": "sunset",
+        "headline": [
+          "Every AI helper",
+          "needs *an owner*"
+        ],
+        "underline": false,
+        "collage": [
           {
-            "icon": "zap",
-            "name": "What it does",
-            "desc": "The job, in 1 line"
+            "src": "shots/microsoft.png",
+            "x": 60,
+            "y": 350,
+            "w": 440,
+            "h": 370,
+            "rot": -6
           },
           {
-            "icon": "user-check",
-            "name": "Who approves",
-            "desc": "A name and a limit"
+            "src": "shots/survey.png",
+            "x": 560,
+            "y": 370,
+            "w": 440,
+            "h": 370,
+            "rot": 5
+          }
+        ],
+        "bursts": [
+          {
+            "text": "58 in 100\nmanagers",
+            "x": 400,
+            "y": 780,
+            "w": 250,
+            "size": 40,
+            "color": "#FFE066",
+            "rot": -8
           },
           {
-            "icon": "inbox",
-            "name": "What it reports",
-            "desc": "Every day, to its owner"
+            "text": "who's\nin charge?",
+            "x": 840,
+            "y": 310,
+            "w": 200,
+            "size": 36,
+            "color": "#FF4FD8",
+            "rot": 14
+          },
+          {
+            "text": "more AI\nthan people",
+            "x": 20,
+            "y": 310,
+            "w": 210,
+            "size": 32,
+            "color": "#3FF2FF",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 60,
+            "h": 250
+          },
+          {
+            "name": "boss",
+            "x": 800,
+            "h": 270,
+            "flip": true
           }
         ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Want the *owner sheet*?",
-        "keyword": "SYSTEMS",
-        "sub": "Comment it and we'll DM you."
+        "world": "day",
+        "headline": [
+          "1. Who checks",
+          "*its work?*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "1 named person",
+            "Checks it *every day*",
+            "Not “the team”"
+          ]
+        },
+        "notes": [
+          {
+            "text": "whose name\nis on it?",
+            "x": 486,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "sanjana-point",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "evil-robot",
+            "x": 262,
+            "h": 250
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "2. What can it",
+          "*do alone?*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Alone",
+              "p": "a tracking question"
+            },
+            {
+              "h": "Needs yes",
+              "p": "a refund",
+              "hi": true
+            }
+          ],
+          "foot": "write the line down"
+        },
+        "notes": [
+          {
+            "text": "where does it\nneed a yes?",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "robot",
+            "x": 840,
+            "h": 240,
+            "flip": true
+          },
+          {
+            "name": "korede-laptop",
+            "x": 650,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "3. What does",
+          "it *report?*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "What it *handled*",
+            "What it *passed on*",
+            "Every day, to its *owner*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "a short\ndaily note",
+            "x": 404,
+            "y": 802,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "sanjana-laptop",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "cat",
+            "x": 243,
+            "h": 150
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "1 page",
+          "per *helper*"
+        ],
+        "card": {
+          "y": 440,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Job",
+              "p": "in 1 line"
+            },
+            {
+              "h": "Owner",
+              "p": "a name and a limit",
+              "hi": true
+            },
+            {
+              "h": "Report",
+              "p": "every day"
+            }
+          ],
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "how we run\nour own company",
+            "x": 300,
+            "y": 800,
+            "w": 480
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-stand",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 460,
+            "h": 150
+          },
+          {
+            "name": "sanjana-stand",
+            "x": 800,
+            "h": 270
+          }
+        ]
+      },
+      {
+        "world": "sunset",
+        "headline": [
+          "Want the",
+          "*owner sheet?*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SYSTEMS",
+          "y": 300,
+          "line": "comment it, we'll DM you"
+        },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 860,
+            "y": 100,
+            "w": 190,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "1 page per\nAI helper",
+            "x": 20,
+            "y": 110,
+            "w": 200,
+            "size": 34,
+            "color": "#9CCAA0",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "korede-cheer",
+            "x": 430,
+            "h": 270
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 760,
+            "h": 270
+          }
+        ]
       }
     ]
   }

@@ -30,6 +30,60 @@ async function main(argv) {
     // node scripts/heygen.mjs train <footage.mp4> "<name>" [--group <avatar_group_id>]
     const r = await hg.trainTwin({ file: path.resolve(a1), name: argv[2], groupId: arg(argv, 'group') });
     console.log(JSON.stringify({ look: r.avatar_item?.id, group: r.avatar_group?.id, voice: r.avatar_item?.default_voice_id, status: r.avatar_item?.status }, null, 2));
+  } else if (cmd === 'voice-clone') {
+    // node scripts/heygen.mjs voice-clone <clean-speech.mp3> "<name>"   (free instant clone)
+    console.log('voice_id', await hg.instantVoice({ file: path.resolve(a1), name: argv[2] || 'Korede instant' }));
+  } else if (cmd === 'kie-plate') {
+    // node scripts/heygen.mjs kie-plate <post-dir>: free HeyGen speech in Korede's instant voice + kie lip-sync of the base clip
+    const dir = path.resolve(a1);
+    const spec = JSON.parse(fs.readFileSync(path.join(dir, 'render.json'), 'utf8')).data;
+    const kie = await import('./lib/kie.mjs');
+    const voiceId = readEnv('HEYGEN_INSTANT_VOICE_ID');
+    if (!voiceId) throw new Error('HEYGEN_INSTANT_VOICE_ID missing (run voice-clone)');
+    fs.mkdirSync(path.join(dir, 'audio'), { recursive: true });
+    const sp = await hg.freeSpeech(spec.heygen?.say || spec.say || spec.script, { voiceId, out: path.join(dir, 'audio', 'vo.wav') });
+    console.log(`speech ${sp.duration}s`);
+    const base = path.resolve(spec.heygen?.base || readEnv('TALKING_HEAD_BASE') || 'assets/talking-head/korede-base-16x9.mp4');
+    const tmpPlate = path.join(dir, 'plate-lipsync.mp4');
+    await kie.lipsync({ video: base, audio: sp.file, out: tmpPlate, seconds: sp.duration, label: `${path.basename(dir)} lipsync` });
+    // kie returns the dub; mux our clean WAV back in so the voice is lossless.
+    const { spawnSync } = await import('node:child_process');
+    spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', tmpPlate, '-i', sp.file, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', path.join(dir, 'plate.mp4')], { stdio: 'inherit' });
+    console.log('wrote plate.mp4');
+  } else if (cmd === 'talk-segments') {
+    // node scripts/heygen.mjs talk-segments <post-dir> 0-5.4,23.3-28.1,33.1-38.8
+    // Lip-syncs only the windows where Korede is on screen (cheap), from audio/vo.wav, on the still base,
+    // and builds a full-length plate.mp4 (video only): still frame elsewhere, talking inside the windows.
+    const dir = path.resolve(a1);
+    const wins = argv[2].split(',').map((w) => w.split('-').map(Number));
+    const kie = await import('./lib/kie.mjs');
+    const { spawnSync } = await import('node:child_process');
+    const ff = (args) => { const r = spawnSync('ffmpeg', ['-v', 'error', '-y', ...args], { stdio: 'inherit' }); if (r.status) throw new Error('ffmpeg failed'); };
+    const vo = path.join(dir, 'audio', 'vo.wav');
+    const total = Number(spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vo]).stdout.toString());
+    const base = path.resolve(readEnv('TALKING_HEAD_BASE') || 'assets/talking-head/korede-base-still-16x9.mp4');
+    const still = path.resolve('assets/talking-head/korede-still.png');
+    const segDir = path.join(dir, 'talk'); fs.mkdirSync(segDir, { recursive: true });
+    const parts = []; let cursor = 0;
+    for (const [i, [a, b]] of wins.entries()) {
+      const wav = path.join(segDir, `seg${i}.wav`), mp4 = path.join(segDir, `seg${i}.mp4`);
+      ff(['-ss', String(a), '-to', String(b), '-i', vo, '-ac', '1', '-ar', '44100', wav]);
+      if (!fs.existsSync(mp4)) await kie.lipsync({ video: base, audio: wav, out: mp4, seconds: b - a, label: `${path.basename(dir)} talk ${i}` });
+      if (a > cursor) parts.push({ still: true, d: a - cursor });
+      parts.push({ file: mp4, d: b - a });
+      cursor = b;
+    }
+    if (total > cursor) parts.push({ still: true, d: total - cursor });
+    const norm = parts.map((p, i) => {
+      const out = path.join(segDir, `part${i}.mp4`);
+      if (p.still) ff(['-loop', '1', '-i', still, '-t', p.d.toFixed(3), '-r', '25', '-vf', 'scale=1920:1080,format=yuv420p', '-c:v', 'libx264', '-crf', '16', out]);
+      else ff(['-i', p.file, '-t', p.d.toFixed(3), '-an', '-r', '25', '-vf', 'scale=1920:1080,format=yuv420p', '-c:v', 'libx264', '-crf', '16', out]);
+      return out;
+    });
+    const list = path.join(segDir, 'list.txt');
+    fs.writeFileSync(list, norm.map((f) => `file '${f}'`).join('\n'));
+    ff(['-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', path.join(dir, 'plate.mp4')]);
+    console.log(`wrote plate.mp4 (${total.toFixed(1)}s, talking in ${wins.map((w) => w.join('-')).join(', ')})`);
   } else if (cmd === 'look') {
     const l = await hg.getLook(a1);
     console.log(JSON.stringify({ id: l.id, name: l.name, status: l.status, error: l.error, group: l.group_id, engines: l.supported_api_engines, orientation: l.preferred_orientation, size: `${l.image_width}x${l.image_height}` }, null, 2));

@@ -26,11 +26,25 @@ function key() {
 }
 
 async function call(method, url, body) {
-  const res = await fetch(BASE + url, {
-    method,
-    headers: { Authorization: `Bearer ${key()}`, 'Content-Type': 'application/json' },
-    body: body ? JSON.stringify(body) : undefined,
-  });
+  let res;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      res = await fetch(BASE + url, {
+        method,
+        headers: { Authorization: `Bearer ${key()}`, 'Content-Type': 'application/json' },
+        body: body ? JSON.stringify(body) : undefined,
+      });
+      break;
+    } catch (e) {
+      // fetch only throws when no response arrived (DNS, reset, timeout), so retrying is safe.
+      if (attempt >= 5) throw e;
+      await new Promise((r) => setTimeout(r, 3000 * attempt));
+    }
+  }
+  return parse(res, url);
+}
+
+async function parse(res, url) {
   const json = await res.json().catch(() => ({ code: res.status, msg: `non-JSON response (HTTP ${res.status})` }));
   // kie returns errors as HTTP 200 with a body code.
   if (json.code !== 200) throw new Error(`kie ${url}: ${json.code} ${json.msg || ''}`.trim());
@@ -81,7 +95,8 @@ export async function runTask(model, input, { label = '', estimateUsd = 0, timeo
 }
 
 export async function download(url, out) {
-  const res = await fetch(url);
+  let res;
+  for (let i = 1; ; i++) { try { res = await fetch(url); break; } catch (e) { if (i >= 5) throw e; await sleep(3000 * i); } }
   if (!res.ok) throw new Error(`download ${res.status} ${url}`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, Buffer.from(await res.arrayBuffer()));
@@ -172,5 +187,32 @@ export async function image(prompt, { model = 'nano-banana-2', aspect = '9:16', 
   const d = await runTask(model, input, { label, estimateUsd: 18 * USD_PER_CREDIT });
   const url = d.result.resultUrls?.[0];
   if (!url) throw new Error('image: no URL in result');
+  return download(url, out);
+}
+
+// Upload a local file to kie's temporary storage (free, deleted after 24 h). Returns a public URL.
+export async function upload(file, uploadPath = 'content-engine') {
+  const form = new FormData();
+  form.append('file', new Blob([fs.readFileSync(file)]), path.basename(file));
+  form.append('uploadPath', uploadPath);
+  form.append('fileName', `${Date.now()}-${path.basename(file)}`);
+  let res;
+  for (let i = 1; ; i++) {
+    try { res = await fetch('https://kieai.redpandaai.co/api/file-stream-upload', { method: 'POST', headers: { Authorization: `Bearer ${key()}` }, body: form }); break; }
+    catch (e) { if (i >= 5) throw e; await sleep(3000 * i); }
+  }
+  const j = await res.json();
+  if (!j.success && j.code !== 200) throw new Error(`kie upload: ${j.code} ${j.msg || ''}`);
+  return j.data.downloadUrl;
+}
+
+// Re-dub a talking-head base clip to new audio (volcengine lite, 8 credits/s), ping-pong looped.
+export async function lipsync({ video, audio, out, seconds, label }) {
+  const [video_url, audio_url] = await Promise.all([upload(video), upload(audio)]);
+  const d = await withRetry(() => runTask('volcengine/video-to-video-lip-sync',
+    { mode: 'lite', video_url, audio_url, align_audio: true, align_audio_reverse: true },
+    { label, estimateUsd: (seconds || 45) * 8 * USD_PER_CREDIT, timeoutMs: 40 * 60e3 }));
+  const url = d.result.resultUrls?.[0];
+  if (!url) throw new Error('lipsync: no video URL');
   return download(url, out);
 }

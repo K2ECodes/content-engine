@@ -1,70 +1,432 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "Check these *6 lines* before Black Friday",
-        "sub": "Shipping prices just hit a record. Most of the rise is carrier pricing, not fuel."
+        "world": "neon",
+        "headline": [
+          "Check 6 lines",
+          "*before Black Friday*"
+        ],
+        "size": "s",
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/parcel.png",
+            "x": 60,
+            "y": 330,
+            "w": 440,
+            "h": 340,
+            "rot": -6,
+            "pos": "center bottom"
+          },
+          {
+            "src": "shots/bluffworks.png",
+            "x": 560,
+            "y": 350,
+            "w": 440,
+            "h": 340,
+            "rot": 5,
+            "pos": "center top"
+          }
+        ],
+        "bursts": [
+          {
+            "text": "record\nhigh rates",
+            "x": 820,
+            "y": 310,
+            "w": 210,
+            "size": 38,
+            "color": "#3FF2FF",
+            "rot": 12
+          },
+          {
+            "text": "$200,000\nback bill",
+            "x": 400,
+            "y": 730,
+            "w": 250,
+            "size": 40,
+            "color": "#FF4FD8",
+            "rot": -8
+          },
+          {
+            "text": "mostly\npricing",
+            "x": 20,
+            "y": 310,
+            "w": 200,
+            "size": 40,
+            "color": "#FFE066",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "ghost",
+            "x": 60,
+            "h": 220
+          },
+          {
+            "name": "box-monster",
+            "x": 760,
+            "h": 190
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "01",
-        "icon": "fuel",
-        "title": "Fuel surcharge",
-        "body": "Since 2021, 72 in 100 dollars of the increase came from carrier pricing, not diesel.",
-        "cost": "Check: the rate vs the carrier's table that week"
+        "world": "day",
+        "headline": [
+          "1. Fuel",
+          "*surcharge*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "accent": true,
+          "kind": "quote",
+          "text": "Since 2021, [72 in 100] dollars of the rise came from carrier pricing, not diesel.",
+          "who": "TD Cowen and AFS Freight Index, Oct 2026"
+        },
+        "notes": [
+          {
+            "text": "check the rate vs\nthat week's table",
+            "x": 488,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 70,
+            "h": 250
+          },
+          {
+            "name": "korede-point",
+            "x": 284,
+            "h": 270
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "02",
-        "icon": "house",
-        "title": "Home and area fees",
-        "body": "Extra charges for homes and remote zip codes. Business addresses get them too, by mistake.",
-        "cost": "Check: only addresses that qualify"
+        "world": "sunset",
+        "headline": [
+          "2. Home and",
+          "*area fees*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Homes and *remote zips*",
+            "Business addresses *too*",
+            "Check: only the ones that *qualify*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "often added\nby mistake",
+            "x": 60,
+            "y": 832,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 821,
+            "h": 270,
+            "flip": true
+          },
+          {
+            "name": "ghost",
+            "x": 626,
+            "h": 220,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "point",
-        "theme": "dark",
-        "number": "03",
-        "icon": "map-pin",
-        "title": "Address corrections",
-        "body": "A fee every time the carrier fixes an address. Some were never wrong.",
-        "cost": "Check: corrections vs addresses that changed"
+        "world": "night",
+        "headline": [
+          "3. Address",
+          "*corrections*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Fee",
+              "p": "carrier fixed it"
+            },
+            {
+              "h": "Check",
+              "p": "was it wrong?",
+              "hi": true
+            }
+          ],
+          "foot": "some were never wrong"
+        },
+        "notes": [
+          {
+            "text": "match them to\nreal changes",
+            "x": 476,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "box-monster",
+            "x": 70,
+            "h": 190
+          },
+          {
+            "name": "sanjana-laptop",
+            "x": 293,
+            "h": 270
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "04",
-        "icon": "ruler",
-        "title": "Billed box size",
-        "body": "Big, light boxes are billed by size, not weight. 1 wrong box size repeats on every order.",
-        "cost": "Check: billed size vs the box you ship"
+        "world": "day",
+        "headline": [
+          "4. Billed",
+          "*box size*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Big box",
+              "p": "light item"
+            },
+            {
+              "h": "Billed",
+              "p": "by size, not weight",
+              "hi": true
+            }
+          ],
+          "foot": "1 wrong size repeats on every order"
+        },
+        "notes": [
+          {
+            "text": "billed size vs\nthe box you ship",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 807,
+            "h": 270,
+            "flip": true
+          },
+          {
+            "name": "box",
+            "x": 674,
+            "h": 110
+          }
+        ]
       },
       {
-        "type": "point",
-        "number": "05",
-        "icon": "warehouse",
-        "title": "Storage and peak fees",
-        "body": "Your 3PL's peak rates should match your contract, starting on the right date.",
-        "cost": "Check: dates and rates vs the contract"
+        "world": "sunset",
+        "headline": [
+          "5. Storage and",
+          "*peak fees*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 440,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Rates:",
+              "v": "match the contract"
+            },
+            {
+              "k": "Start:",
+              "v": "the right date"
+            }
+          ],
+          "title": "your 3PL's peak rates"
+        },
+        "notes": [
+          {
+            "text": "check both\nagainst the contract",
+            "x": 467,
+            "y": 740,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "ghost",
+            "x": 70,
+            "h": 220
+          },
+          {
+            "name": "sanjana-point",
+            "x": 265,
+            "h": 270
+          }
+        ]
       },
       {
-        "type": "point",
-        "theme": "dark",
-        "number": "06",
-        "icon": "copy",
-        "title": "Double and late charges",
-        "body": "The same package billed twice, or months later. A brand just got a $200,000 back invoice.",
-        "cost": "Check: every tracking number billed once"
+        "world": "day",
+        "headline": [
+          "6. Double and",
+          "*late charges*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Same package, *billed twice*",
+            "Billed *months later*",
+            "Check: each tracking number *once*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "1 brand got a\n$200,000 back invoice",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 803,
+            "h": 270,
+            "flip": true
+          },
+          {
+            "name": "korede-laptop",
+            "x": 613,
+            "h": 270,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Want the *peak invoice check*?",
-        "keyword": "SYSTEMS",
-        "sub": "All 6 lines, ready to print. Comment it and we'll DM you."
+        "world": "night",
+        "headline": [
+          "We check",
+          "*every line*"
+        ],
+        "card": {
+          "y": 430,
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "Read",
+              "p": "every invoice"
+            },
+            {
+              "h": "Match",
+              "p": "vs what you agreed",
+              "hi": true
+            },
+            {
+              "h": "Flag",
+              "p": "you approve"
+            }
+          ],
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "caught the week\nit happens",
+            "x": 300,
+            "y": 740,
+            "w": 480
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-stand",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 450,
+            "h": 200
+          },
+          {
+            "name": "sanjana-stand",
+            "x": 800,
+            "h": 270
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "Want the",
+          "*invoice check?*"
+        ],
+        "size": "s",
+        "underline": false,
+        "cta": {
+          "keyword": "SYSTEMS",
+          "y": 300,
+          "line": "comment it, we'll DM you"
+        },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 860,
+            "y": 100,
+            "w": 190,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "all 6\nlines",
+            "x": 20,
+            "y": 110,
+            "w": 200,
+            "size": 44,
+            "color": "#FF4FD8",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "korede-cheer",
+            "x": 430,
+            "h": 270
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 760,
+            "h": 270
+          }
+        ]
       }
     ]
   }

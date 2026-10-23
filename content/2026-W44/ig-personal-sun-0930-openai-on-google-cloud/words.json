@@ -1,0 +1,580 @@
+{
+ "words": [
+  {
+   "w": "OpenAI's",
+   "start": 0.0,
+   "end": 0.78
+  },
+  {
+   "w": "models",
+   "start": 0.78,
+   "end": 1.0
+  },
+  {
+   "w": "are",
+   "start": 1.0,
+   "end": 1.16
+  },
+  {
+   "w": "coming",
+   "start": 1.16,
+   "end": 1.34
+  },
+  {
+   "w": "to",
+   "start": 1.34,
+   "end": 1.5
+  },
+  {
+   "w": "Google",
+   "start": 1.5,
+   "end": 1.68
+  },
+  {
+   "w": "Cloud.",
+   "start": 1.68,
+   "end": 2.02
+  },
+  {
+   "w": "Yes,",
+   "start": 2.42,
+   "end": 2.64
+  },
+  {
+   "w": "Google,",
+   "start": 2.9,
+   "end": 3.2
+  },
+  {
+   "w": "the",
+   "start": 3.66,
+   "end": 3.78
+  },
+  {
+   "w": "company",
+   "start": 3.78,
+   "end": 4.04
+  },
+  {
+   "w": "building",
+   "start": 4.04,
+   "end": 4.36
+  },
+  {
+   "w": "Gemini.",
+   "start": 4.36,
+   "end": 4.74
+  },
+  {
+   "w": "Here's",
+   "start": 5.22,
+   "end": 5.46
+  },
+  {
+   "w": "the",
+   "start": 5.46,
+   "end": 5.56
+  },
+  {
+   "w": "news.",
+   "start": 5.56,
+   "end": 5.74
+  },
+  {
+   "w": "OpenAI's",
+   "start": 6.3,
+   "end": 6.78
+  },
+  {
+   "w": "frontier",
+   "start": 6.78,
+   "end": 6.98
+  },
+  {
+   "w": "models",
+   "start": 6.98,
+   "end": 7.42
+  },
+  {
+   "w": "and",
+   "start": 7.42,
+   "end": 7.68
+  },
+  {
+   "w": "Codex",
+   "start": 7.68,
+   "end": 8.14
+  },
+  {
+   "w": "are",
+   "start": 8.14,
+   "end": 8.32
+  },
+  {
+   "w": "heading",
+   "start": 8.32,
+   "end": 8.48
+  },
+  {
+   "w": "into",
+   "start": 8.48,
+   "end": 8.68
+  },
+  {
+   "w": "Google",
+   "start": 8.68,
+   "end": 8.92
+  },
+  {
+   "w": "Cloud's",
+   "start": 8.92,
+   "end": 9.36
+  },
+  {
+   "w": "Model Garden",
+   "start": 9.36,
+   "end": 9.94
+  },
+  {
+   "w": "next",
+   "start": 9.94,
+   "end": 10.44
+  },
+  {
+   "w": "to",
+   "start": 10.44,
+   "end": 10.6
+  },
+  {
+   "w": "200+",
+   "start": 10.6,
+   "end": 10.9
+  },
+  {
+   "w": "other",
+   "start": 10.9,
+   "end": 11.1
+  },
+  {
+   "w": "models.",
+   "start": 11.1,
+   "end": 11.44
+  },
+  {
+   "w": "Companies",
+   "start": 11.98,
+   "end": 12.26
+  },
+  {
+   "w": "can",
+   "start": 12.26,
+   "end": 12.46
+  },
+  {
+   "w": "buy",
+   "start": 12.46,
+   "end": 12.64
+  },
+  {
+   "w": "them",
+   "start": 12.64,
+   "end": 12.8
+  },
+  {
+   "w": "through",
+   "start": 12.8,
+   "end": 12.92
+  },
+  {
+   "w": "the",
+   "start": 12.92,
+   "end": 13.04
+  },
+  {
+   "w": "Google",
+   "start": 13.04,
+   "end": 13.2
+  },
+  {
+   "w": "Cloud",
+   "start": 13.2,
+   "end": 13.5
+  },
+  {
+   "w": "Marketplace",
+   "start": 13.5,
+   "end": 13.94
+  },
+  {
+   "w": "with",
+   "start": 13.94,
+   "end": 14.46
+  },
+  {
+   "w": "money",
+   "start": 14.46,
+   "end": 14.66
+  },
+  {
+   "w": "they've",
+   "start": 14.66,
+   "end": 14.9
+  },
+  {
+   "w": "already",
+   "start": 14.9,
+   "end": 15.16
+  },
+  {
+   "w": "committed",
+   "start": 15.16,
+   "end": 15.42
+  },
+  {
+   "w": "to",
+   "start": 15.42,
+   "end": 15.6
+  },
+  {
+   "w": "Google.",
+   "start": 15.6,
+   "end": 15.8
+  },
+  {
+   "w": "And",
+   "start": 16.32,
+   "end": 16.6
+  },
+  {
+   "w": "they're",
+   "start": 16.6,
+   "end": 16.7
+  },
+  {
+   "w": "coming",
+   "start": 16.7,
+   "end": 16.88
+  },
+  {
+   "w": "to",
+   "start": 16.88,
+   "end": 17.02
+  },
+  {
+   "w": "the",
+   "start": 17.02,
+   "end": 17.12
+  },
+  {
+   "w": "Gemini",
+   "start": 17.12,
+   "end": 17.42
+  },
+  {
+   "w": "Agent",
+   "start": 17.42,
+   "end": 17.7
+  },
+  {
+   "w": "soon.",
+   "start": 17.7,
+   "end": 17.98
+  },
+  {
+   "w": "Microsoft",
+   "start": 18.4,
+   "end": 18.8
+  },
+  {
+   "w": "is",
+   "start": 18.8,
+   "end": 19.04
+  },
+  {
+   "w": "still",
+   "start": 19.04,
+   "end": 19.2
+  },
+  {
+   "w": "OpenAI's",
+   "start": 19.2,
+   "end": 19.78
+  },
+  {
+   "w": "main",
+   "start": 19.78,
+   "end": 19.92
+  },
+  {
+   "w": "cloud",
+   "start": 19.92,
+   "end": 20.16
+  },
+  {
+   "w": "partner.",
+   "start": 20.16,
+   "end": 20.46
+  },
+  {
+   "w": "So",
+   "start": 21.1,
+   "end": 21.34
+  },
+  {
+   "w": "what",
+   "start": 21.34,
+   "end": 21.46
+  },
+  {
+   "w": "does",
+   "start": 21.46,
+   "end": 21.56
+  },
+  {
+   "w": "it",
+   "start": 21.56,
+   "end": 21.66
+  },
+  {
+   "w": "mean",
+   "start": 21.66,
+   "end": 21.76
+  },
+  {
+   "w": "for",
+   "start": 21.76,
+   "end": 21.94
+  },
+  {
+   "w": "you?",
+   "start": 21.94,
+   "end": 22.08
+  },
+  {
+   "w": "The",
+   "start": 22.58,
+   "end": 22.7
+  },
+  {
+   "w": "model",
+   "start": 22.7,
+   "end": 22.96
+  },
+  {
+   "w": "is",
+   "start": 22.96,
+   "end": 23.12
+  },
+  {
+   "w": "becoming",
+   "start": 23.12,
+   "end": 23.4
+  },
+  {
+   "w": "a",
+   "start": 23.4,
+   "end": 23.62
+  },
+  {
+   "w": "menu",
+   "start": 23.62,
+   "end": 23.78
+  },
+  {
+   "w": "choice.",
+   "start": 23.78,
+   "end": 24.1
+  },
+  {
+   "w": "You'll",
+   "start": 24.76,
+   "end": 25.0
+  },
+  {
+   "w": "pick",
+   "start": 25.0,
+   "end": 25.12
+  },
+  {
+   "w": "the",
+   "start": 25.12,
+   "end": 25.28
+  },
+  {
+   "w": "best",
+   "start": 25.28,
+   "end": 25.5
+  },
+  {
+   "w": "model",
+   "start": 25.5,
+   "end": 25.78
+  },
+  {
+   "w": "for",
+   "start": 25.78,
+   "end": 25.94
+  },
+  {
+   "w": "each",
+   "start": 25.94,
+   "end": 26.12
+  },
+  {
+   "w": "job,",
+   "start": 26.12,
+   "end": 26.46
+  },
+  {
+   "w": "not",
+   "start": 26.72,
+   "end": 26.9
+  },
+  {
+   "w": "1",
+   "start": 26.9,
+   "end": 27.14
+  },
+  {
+   "w": "company",
+   "start": 27.14,
+   "end": 27.48
+  },
+  {
+   "w": "for",
+   "start": 27.48,
+   "end": 27.66
+  },
+  {
+   "w": "everything.",
+   "start": 27.66,
+   "end": 27.98
+  },
+  {
+   "w": "Rivals",
+   "start": 28.54,
+   "end": 28.82
+  },
+  {
+   "w": "on",
+   "start": 28.82,
+   "end": 28.98
+  },
+  {
+   "w": "stage,",
+   "start": 28.98,
+   "end": 29.26
+  },
+  {
+   "w": "partners",
+   "start": 29.7,
+   "end": 29.98
+  },
+  {
+   "w": "in",
+   "start": 29.98,
+   "end": 30.14
+  },
+  {
+   "w": "the",
+   "start": 30.14,
+   "end": 30.22
+  },
+  {
+   "w": "cloud.",
+   "start": 30.22,
+   "end": 30.46
+  },
+  {
+   "w": "Would",
+   "start": 31.2,
+   "end": 31.52
+  },
+  {
+   "w": "you",
+   "start": 31.52,
+   "end": 31.66
+  },
+  {
+   "w": "use",
+   "start": 31.66,
+   "end": 31.84
+  },
+  {
+   "w": "OpenAI",
+   "start": 31.84,
+   "end": 32.26
+  },
+  {
+   "w": "models",
+   "start": 32.26,
+   "end": 32.64
+  },
+  {
+   "w": "inside",
+   "start": 32.64,
+   "end": 32.96
+  },
+  {
+   "w": "Google?",
+   "start": 32.96,
+   "end": 33.24
+  },
+  {
+   "w": "Comment",
+   "start": 33.66,
+   "end": 34.02
+  },
+  {
+   "w": "AI,",
+   "start": 34.02,
+   "end": 34.32
+  },
+  {
+   "w": "and",
+   "start": 34.88,
+   "end": 34.96
+  },
+  {
+   "w": "I'll",
+   "start": 34.96,
+   "end": 35.1
+  },
+  {
+   "w": "send",
+   "start": 35.1,
+   "end": 35.24
+  },
+  {
+   "w": "you",
+   "start": 35.24,
+   "end": 35.36
+  },
+  {
+   "w": "my",
+   "start": 35.36,
+   "end": 35.5
+  },
+  {
+   "w": "free",
+   "start": 35.5,
+   "end": 35.8
+  },
+  {
+   "w": "AI",
+   "start": 35.8,
+   "end": 36.12
+  },
+  {
+   "w": "starter",
+   "start": 36.12,
+   "end": 36.4
+  },
+  {
+   "w": "pack.",
+   "start": 36.4,
+   "end": 36.7
+  }
+ ],
+ "text": "OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and codecs are heading into Google Cloud's model garden next to 200 other models. The companies can buy them through the Google Cloud marketplace with money they've already committed to Google. And they're coming to the Gemini agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."
+}

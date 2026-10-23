@@ -1,0 +1,32 @@
+{
+  "template": "arena",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": { "file": "audio/music.mp3", "volume": 0.09 },
+    "script": "We just knocked out an $8K billing leak. Your warehouse did $250K of work last month. The invoices said $242K. First, storage that ran past the free period. Never billed. Then special handling the team did on the floor. Never billed. Then a kitting job somebody quoted in an email. Gone. But the real boss is month-end billing, because nobody checks the work against the contract. So we built a system that does. Every day it reads what happened in the warehouse, matches it to each client's rates and flags what's missing. Your team approves every line. Then it's billed. That's $8K back on the invoice. Want the checklist? Comment SYSTEMS and we'll send it.",
+    "player": { "name": "KOREDE", "sprite": "korede" },
+    "counter": { "label": "RECOVERED", "prefix": "$" },
+    "foot": "Illustrative numbers",
+    "posterAt": 1.0,
+    "beats": [
+      { "type": "round", "title": "ROUND 1", "sub": "FIGHT", "enemy": { "name": "BILLING LEAK", "sprite": "qblock", "eyes": false },
+        "dashAt": "just", "hitAt": "knocked", "koAt": "$8K#1", "flash": true },
+      { "type": "popup", "at": "$250K", "title": "WORK DONE", "text": "$250K", "kind": "good", "slot": 0 },
+      { "type": "popup", "at": "$242K", "title": "BILLED", "text": "$242K", "kind": "bad", "slot": 1 },
+      { "type": "round", "at": "First", "title": "ROUND 2", "sub": "FIGHT", "enemy": { "name": "STORAGE OVERAGE", "sprite": "box" },
+        "hitAt": "free", "koAt": "billed#1", "add": 3100 },
+      { "type": "round", "at": "Then#1", "title": "ROUND 3", "sub": "FIGHT", "enemy": { "name": "SPECIAL HANDLING", "sprite": "brick" },
+        "hitAt": "floor", "koAt": "billed#2", "add": 2400 },
+      { "type": "round", "at": "Then#2", "title": "ROUND 4", "sub": "FIGHT", "enemy": { "name": "KITTING QUOTE", "sprite": "bubble" },
+        "hitAt": "email", "koAt": "Gone", "add": 2500 },
+      { "type": "boss", "at": "But", "title": "FINAL ROUND", "sub": "BOSS", "enemy": { "name": "MONTH-END BILLING" },
+        "reticleAt": "reads", "reticle": "TARGET LOCKED",
+        "weak": { "at": "matches", "text": "WEAK POINT: NO CONTRACT CHECK" },
+        "chargeAt": "team#2", "beam": { "at": "every#2", "text": "EVERY LINE APPROVED" }, "koAt": "billed#3", "flash": true },
+      { "type": "powerup", "at": "system", "title": "POWER UP", "text": "BILLING SYSTEM", "outAt": "reads" },
+      { "type": "win", "at": "That's", "title": "YOU WIN", "lines": ["$8K BACK ON THE INVOICE", "EVERY LINE APPROVED"], "foot": "Illustrative numbers" },
+      { "type": "continue", "at": "Want", "keyword": "SYSTEMS", "typeAt": "SYSTEMS", "dm": "DM SENT: THE CHECKLIST", "from": 9 }
+    ]
+  }
+}

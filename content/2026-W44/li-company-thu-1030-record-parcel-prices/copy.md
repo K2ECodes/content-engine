@@ -34,3 +34,5 @@ Sources (research/weekly/2026-W44.md 2.2):
 - The 4 slip points are positioning from contentsystems.ai/logistics (unbilled storage and accessorial fees, month-end billing), not client results.
 
 Judgement calls: angled at the 3PL billing side so it doesn't repeat W43's brand-side parcel invoice carousel. Avoided "accessorials" in the caption for the 1-read test.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): Modern Retail, Deloitte holiday budgets (Oct 19 2026); Supply Chain Dive, FedEx/UPS record Q4 prices (Oct 16 2026).

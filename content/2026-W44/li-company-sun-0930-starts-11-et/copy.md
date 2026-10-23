@@ -29,3 +29,5 @@ Sources (research/weekly/2026-W44.md 1.1, 1.2, 1.8): Claude Duet approval step (
 Time check: 11 AM EST = 8 AM PST = 4 PM GMT (UK) = 5 PM CET.
 
 Judgement calls: "shipped ways to keep a person in charge of AI" instead of "approval gates" for the 1-read test. Light theme so it reads differently from Korede's dark Sunday card 30 minutes earlier.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Microsoft agents as insider threats (Oct 19 2026); Retail Dive, Walmart welcomes external AI agents (Oct 22 2026).

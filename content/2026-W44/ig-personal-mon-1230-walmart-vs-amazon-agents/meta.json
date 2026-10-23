@@ -1,0 +1,18 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "belief-shift",
+  "execution": "proof",
+  "topic": "walmart-vs-amazon-ai-agents",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-10-26T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

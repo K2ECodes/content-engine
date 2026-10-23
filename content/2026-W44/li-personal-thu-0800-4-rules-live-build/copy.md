@@ -37,3 +37,5 @@ Sources (research/weekly/2026-W44.md 1.2, 1.8, 1.10):
 - 100+ AI employees: proof bank.
 
 Judgement calls: the 4 rules are the research topic 2 checklist (money out, customer messages, quotes and contracts, data deletion) rewritten as rules. Different framing from the W43 Duet carousel so it doesn't repeat.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Microsoft agents as insider threats (Oct 19 2026); TechCrunch, OpenCode charges breach (Oct 19 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).

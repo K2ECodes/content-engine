@@ -40,3 +40,5 @@ Sources (research/weekly/2026-W44.md 1.2, 1.3, 1.4):
 - Google Universal Cart live in the US: https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/ (Oct 15 2026).
 
 Judgement calls: hook changed "fulfilment SLA" to "fulfillment promise" (US spelling, plainer). "We build" describes positioning from contentsystems.ai/ecommerce, not a client result. Agent Profiles with spending limits roll out next month, so the caption says "inside limits the shopper sets" as a feature of the gateway, not as live today.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Google Universal Cart (Oct 15 2026); Retail Dive, Walmart welcomes external AI agents (Oct 22 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).

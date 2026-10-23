@@ -1,0 +1,45 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Your SOP binder now works in *70+ AI tools*",
+        "sub": "Agent Skills became an open standard this week."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "folder-open",
+        "title": "A skill is an SOP",
+        "body": "Written steps plus files, so an AI does 1 job your way.",
+        "cost": "Written for an AI, not a new hire"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "lock-open",
+        "title": "Not locked in",
+        "body": "70+ platforms support it, from ChatGPT to VS Code.",
+        "cost": "1M skills · nearly 280M installs"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "brain",
+        "title": "Know-how stays",
+        "body": "Your best rep's way with a WISMO email becomes a file the team runs.",
+        "cost": "Readable, editable, no black box"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Get my *5 starter skills*",
+        "keyword": "AI",
+        "sub": "Comment AI · plus the sheet that says what needs a yes"
+      }
+    ]
+  }
+}

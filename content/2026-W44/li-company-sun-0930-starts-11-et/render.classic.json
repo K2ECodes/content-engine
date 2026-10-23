@@ -1,0 +1,18 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "light",
+    "headline": "We go live at *11 AM Eastern* today",
+    "sub": "US clocks went back 1 hour overnight. The AI Employee Accelerator, live on Zoom.",
+    "stats": [
+      {
+        "value": "$97",
+        "label": "GA seat"
+      },
+      {
+        "value": "$197",
+        "label": "VIP seat"
+      }
+    ]
+  }
+}

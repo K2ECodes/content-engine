@@ -1,85 +1,310 @@
 {
-  "template": "carousel",
+  "template": "pixel",
   "data": {
-    "theme": "light",
     "handle": "@koredekola",
+    "platform": "instagram",
     "slides": [
       {
-        "type": "cover",
-        "theme": "dark",
-        "headline": "Stop pasting the same prompt *every morning*",
-        "sub": "5 minutes a day is 20 hours a year. Save it once as a skill instead."
-      },
-      {
-        "type": "point",
-        "number": "01",
-        "icon": "repeat",
-        "title": "You retype the context",
-        "body": "The chat forgets your business every day. A skill remembers your rules, prices and tone.",
-        "cost": "Fix: write it once, load it every time"
-      },
-      {
-        "type": "point",
-        "number": "02",
-        "icon": "users",
-        "title": "Everyone has a version",
-        "body": "4 people, 4 prompts, 4 different answers to the same customer.",
-        "cost": "Fix: 1 skill the whole team runs"
-      },
-      {
-        "type": "point",
-        "theme": "dark",
-        "number": "03",
-        "icon": "user-round",
-        "title": "It lives in 1 head",
-        "body": "When that person is off, the process is off too.",
-        "cost": "Fix: the skill is the SOP, written down"
-      },
-      {
-        "type": "point",
-        "number": "04",
-        "icon": "lock",
-        "title": "It's stuck in 1 tool",
-        "body": "Anthropic just gave skills to the Linux Foundation. 70+ AI tools read the same format.",
-        "cost": "Fix: build once, use it anywhere"
-      },
-      {
-        "type": "layers",
-        "title": "What a skill *holds*",
-        "layers": [
+        "world": "sunset",
+        "headline": [
+          "Stop pasting",
+          "*the same prompt*"
+        ],
+        "underline": false,
+        "collage": [
           {
-            "icon": "list-checks",
-            "name": "Steps",
-            "desc": "How you do the job, in order",
-            "chips": [
-              "SKILL.md"
-            ]
+            "src": "shots/skills.png",
+            "x": 60,
+            "y": 350,
+            "w": 440,
+            "h": 370,
+            "rot": -6,
+            "pos": "center top"
           },
           {
-            "icon": "file-text",
-            "name": "Examples",
-            "desc": "What a good answer looks like",
-            "chips": [
-              "Real ones"
-            ]
-          },
-          {
-            "icon": "folder",
-            "name": "Files",
-            "desc": "Rates, templates, policies",
-            "chips": [
-              "Your data"
-            ]
+            "src": "shots/duet.png",
+            "x": 560,
+            "y": 370,
+            "w": 440,
+            "h": 370,
+            "rot": 5
           }
         ],
-        "loop": "On Sunday I build 3 of these live, from a blank page.",
-        "loopIcon": "monitor-play"
+        "bursts": [
+          {
+            "text": "20 hrs\na year",
+            "x": 400,
+            "y": 780,
+            "w": 240,
+            "size": 46,
+            "color": "#FFE066",
+            "rot": -8
+          },
+          {
+            "text": "WTF",
+            "x": 860,
+            "y": 310,
+            "w": 170,
+            "size": 54,
+            "color": "#FF4FD8",
+            "rot": 14
+          },
+          {
+            "text": "70+\ntools",
+            "x": 20,
+            "y": 310,
+            "w": 190,
+            "size": 46,
+            "color": "#3FF2FF",
+            "rot": -12
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 60,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 800,
+            "h": 240,
+            "flip": true
+          }
+        ]
       },
       {
-        "type": "cta",
-        "theme": "dark",
-        "headline": "Watch me build *3 skills* live",
-        "sub": "Sun Nov 1, 11 AM Eastern. $97 GA, $197 VIP. Link in bio."
+        "world": "day",
+        "headline": [
+          "1. It forgets",
+          "*your context*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "kind": "checks",
+          "items": [
+            "Who *you* are",
+            "How you *write*",
+            "What you *already said*"
+          ]
+        },
+        "notes": [
+          {
+            "text": "every new chat\nstarts from 0",
+            "x": 60,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 820,
+            "h": 250,
+            "flip": true
+          },
+          {
+            "name": "korede-laptop",
+            "x": 630,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "2. 3 versions",
+          "*of 1 prompt*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 440,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "v1:",
+              "v": "the good one"
+            },
+            {
+              "k": "v2:",
+              "v": "the longer one"
+            },
+            {
+              "k": "v3:",
+              "v": "final FINAL"
+            }
+          ],
+          "title": "my notes app"
+        },
+        "notes": [
+          {
+            "text": "which 1\nworked again?",
+            "x": 425,
+            "y": 858,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "cat",
+            "x": 264,
+            "h": 150
+          }
+        ]
+      },
+      {
+        "world": "neon",
+        "headline": [
+          "3. Stuck in",
+          "*1 app*"
+        ],
+        "size": "s",
+        "card": {
+          "y": 430,
+          "accent": true,
+          "kind": "quote",
+          "text": "[70+ AI tools] now read skills, an open standard as of this month.",
+          "who": "Anthropic, Oct 22 2026"
+        },
+        "notes": [
+          {
+            "text": "write it once,\nuse it anywhere",
+            "x": 60,
+            "y": 802,
+            "w": 500,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "robot",
+            "x": 840,
+            "h": 240,
+            "flip": true
+          },
+          {
+            "name": "korede-stand",
+            "x": 702,
+            "h": 270,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "world": "day",
+        "headline": [
+          "Save it once",
+          "as *a skill*"
+        ],
+        "card": {
+          "y": 440,
+          "kind": "rows",
+          "rows": [
+            {
+              "k": "Steps:",
+              "v": "how you do it"
+            },
+            {
+              "k": "Examples:",
+              "v": "what good looks like"
+            },
+            {
+              "k": "Files:",
+              "v": "your notes and docs"
+            }
+          ],
+          "title": "1 folder the AI loads when needed",
+          "accent": true
+        },
+        "notes": [
+          {
+            "text": "no more\npasting",
+            "x": 640,
+            "y": 840,
+            "w": 360,
+            "accent": true
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 70,
+            "h": 270
+          },
+          {
+            "name": "robot",
+            "x": 300,
+            "h": 240
+          },
+          {
+            "name": "bulb",
+            "x": 520,
+            "h": 130,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "world": "night",
+        "headline": [
+          "Want my",
+          "*starter pack?*"
+        ],
+        "size": "xs",
+        "underline": false,
+        "cta": {
+          "keyword": "AI",
+          "y": 300,
+          "line": "comment it, I'll DM you"
+        },
+        "bursts": [
+          {
+            "text": "FREE",
+            "x": 860,
+            "y": 100,
+            "w": 190,
+            "size": 50,
+            "color": "#FFE066",
+            "rot": 12
+          },
+          {
+            "text": "5 skills\nto copy",
+            "x": 20,
+            "y": 110,
+            "w": 200,
+            "size": 40,
+            "color": "#9CCAA0",
+            "rot": -10
+          }
+        ],
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 90,
+            "h": 270
+          },
+          {
+            "name": "coin",
+            "x": 470,
+            "h": 90,
+            "y": 880
+          },
+          {
+            "name": "robot",
+            "x": 760,
+            "h": 240,
+            "flip": true
+          }
+        ]
       }
     ]
   }

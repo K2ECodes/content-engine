@@ -34,3 +34,5 @@ Sources (research/weekly/2026-W44.md 1.6, 1.9):
 - Nielsen for Monday.com: 57 in 100 have more tools, 29 in 100 call setup fully optimized: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
 
 Judgement calls: "3 months later 4 people use it" is framed as the typical pattern, not a stat. "When I start with a 3PL" describes Korede's method; no client result claimed.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): OpenAI, Uber ChatGPT Work rollout (Oct 22 2026); TechCrunch, same article, "30 AI engineers ... 2 weeks" passage; TechCrunch, Uber puts 30,000 on ChatGPT Work (Oct 22 2026).

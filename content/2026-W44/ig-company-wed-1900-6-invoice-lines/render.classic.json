@@ -1,0 +1,71 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "Check these *6 lines* before Black Friday",
+        "sub": "Shipping prices just hit a record. Most of the rise is carrier pricing, not fuel."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "fuel",
+        "title": "Fuel surcharge",
+        "body": "Since 2021, 72 in 100 dollars of the increase came from carrier pricing, not diesel.",
+        "cost": "Check: the rate vs the carrier's table that week"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "house",
+        "title": "Home and area fees",
+        "body": "Extra charges for homes and remote zip codes. Business addresses get them too, by mistake.",
+        "cost": "Check: only addresses that qualify"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "03",
+        "icon": "map-pin",
+        "title": "Address corrections",
+        "body": "A fee every time the carrier fixes an address. Some were never wrong.",
+        "cost": "Check: corrections vs addresses that changed"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "ruler",
+        "title": "Billed box size",
+        "body": "Big, light boxes are billed by size, not weight. 1 wrong box size repeats on every order.",
+        "cost": "Check: billed size vs the box you ship"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "warehouse",
+        "title": "Storage and peak fees",
+        "body": "Your 3PL's peak rates should match your contract, starting on the right date.",
+        "cost": "Check: dates and rates vs the contract"
+      },
+      {
+        "type": "point",
+        "theme": "dark",
+        "number": "06",
+        "icon": "copy",
+        "title": "Double and late charges",
+        "body": "The same package billed twice, or months later. A brand just got a $200,000 back invoice.",
+        "cost": "Check: every tracking number billed once"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Want the *peak invoice check*?",
+        "keyword": "SYSTEMS",
+        "sub": "All 6 lines, ready to print. Comment it and we'll DM you."
+      }
+    ]
+  }
+}

@@ -1,17 +1,84 @@
 {
-  "template": "static",
+  "template": "pixel",
   "data": {
-    "theme": "dark",
-    "headline": "We go live at *11 AM Eastern* today",
-    "sub": "Your clocks went back 1 hour last night. The AI Employee Accelerator, live on Zoom. Link in bio.",
-    "stats": [
+    "handle": "@contentsystems.ai",
+    "platform": "instagram",
+    "slides": [
       {
-        "value": "$97",
-        "label": "general admission"
-      },
-      {
-        "value": "$197",
-        "label": "VIP"
+        "world": "neon",
+        "headline": [
+          "We go live at",
+          "*11 AM Eastern*"
+        ],
+        "underline": false,
+        "collage": [
+          {
+            "src": "shots/workshop.png",
+            "x": 70,
+            "y": 310,
+            "w": 420,
+            "h": 220,
+            "rot": -6,
+            "pos": "center top"
+          },
+          {
+            "src": "shots/home.png",
+            "x": 570,
+            "y": 320,
+            "w": 410,
+            "h": 220,
+            "rot": 5,
+            "pos": "center top"
+          }
+        ],
+        "bursts": [
+          {
+            "text": "4 PM UK\n5 PM Berlin",
+            "x": 10,
+            "y": 500,
+            "w": 230,
+            "size": 32,
+            "color": "#FFE066",
+            "rot": -12
+          },
+          {
+            "text": "$97 GA\n$197 VIP",
+            "x": 840,
+            "y": 500,
+            "w": 220,
+            "size": 36,
+            "color": "#FF4FD8",
+            "rot": 10
+          },
+          {
+            "text": "clocks\nback 1 hr",
+            "x": 860,
+            "y": 120,
+            "w": 180,
+            "size": 32,
+            "color": "#3FF2FF",
+            "rot": 14
+          }
+        ],
+        "cta": {
+          "keyword": "LINK IN BIO",
+          "y": 585,
+          "line": "last seats, on Zoom",
+          "pill": false
+        },
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 30,
+            "h": 150
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 900,
+            "h": 150,
+            "flip": true
+          }
+        ]
       }
     ]
   }

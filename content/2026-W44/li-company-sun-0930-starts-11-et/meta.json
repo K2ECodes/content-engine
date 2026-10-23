@@ -1,7 +1,7 @@
 {
   "channel": "li-company",
   "format": "static",
-  "aspect": "1:1",
+  "aspect": "4:5",
   "pillar": "tools-vs-systems",
   "execution": "checklist",
   "topic": "workshop-sunday-reminder",
@@ -12,6 +12,6 @@
   "timezone": "America/New_York",
   "status": "draft",
   "media": [
-    "static.png"
+    "slide-01.png"
   ]
 }

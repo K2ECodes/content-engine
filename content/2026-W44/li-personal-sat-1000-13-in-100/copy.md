@@ -37,3 +37,5 @@ Sources (research/weekly/2026-W44.md 2.1):
 - Money leaks list is positioning from contentsystems.ai/logistics, not client results.
 
 Judgement calls: the hook's "most of the rest started with a chatbot" is Korede's POV, not a BCG finding, so the body attributes only the 13 in 100 to BCG and frames the rest as "in my experience". Plan said "logistics execs"; source says executives at 30 leading logistics companies, stated in the body. Slot is Halloween Saturday; kept it straight, the playful post is ig-company's.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): FreightWaves, Evos raise / BCG stat (Oct 16 2026); FreightWaves, Motive AI Agents (Oct 22 2026); FreightWaves, Samsara Agent Studio GA (Oct 13 2026).

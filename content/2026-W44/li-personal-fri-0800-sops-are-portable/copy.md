@@ -36,3 +36,5 @@ Sources (research/weekly/2026-W44.md 1.7, 1.11):
 - Replit makes OpenAI its default over Anthropic, citing cost among other reasons: https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/ (Oct 16 to 17 2026).
 
 Judgement calls: "WISMO" kept on Korede's channel (his audience knows it). Replit line is phrased as the source states it, cost "among other reasons".
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Replit switches default to OpenAI (Oct 17 2026); Anthropic, Agent Skills donated to the Agentic AI Foundation (Oct 22 2026).

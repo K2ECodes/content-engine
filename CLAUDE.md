@@ -3,6 +3,7 @@
 Plans, produces and queues social content for Content Systems.ai. Owner: Korede Kolawole (co-founder, CTO). Read this before every session. Rules marked LINT are enforced by `npm run lint`; a post that fails lint never gets queued.
 
 ## Company
+- Pronunciation: "Content" in Content Systems.ai is said con-TENT (as in being content in life). In every TTS / `say` field write "Kun-TENT Systems dot A I"; captions and copy keep "Content Systems.ai".
 - Content Systems.ai builds AI systems and phased AI transformations for logistics/3PL companies and e-commerce brands, plus AI education (workshops, webinars) for business owners.
 - Goal: the go-to name and thought leader in AI for logistics and e-commerce.
 - Tagline: "Purposeful Systems. Lasting Contentment."
@@ -18,7 +19,11 @@ Plans, produces and queues social content for Content Systems.ai. Owner: Korede 
 
 ### Channel strategy
 - **Korede's LinkedIn (`li-personal`)**: a mix of POV on what's happening in tech and AI right now (fed by `research/daily`), founder stories, and top-of-funnel plus freebie carousels. Tech language is fine here when it's explained.
-- **Korede's Instagram (`ig-personal`)**: AI creator content in the style of the reference creators (research/creators.md, style-stilesai.md, style-nick-saraev.md). Talking heads use only the new retouched HeyGen look (HEYGEN_LOOK_ID in .env).
+- **Korede's LinkedIn (`li-personal`) is a content overload**: a mix of his personal-brand AI posts and Content Systems.ai posts.
+- **Korede's Instagram (`ig-personal`)**: NOT Content Systems.ai selling. Only AI news, updates and fun top-of-funnel AI videos featuring him. CTA: comment AI or follow/save.
+- **Talking heads (Korede's rules, 2026-10-23)**: base = a still frame from the start of a clean HeyGen take (`assets/talking-head/korede-base-still-16x9.mp4`), lip-synced on kie.ai to free HeyGen speech in his instant voice (`node scripts/heygen.mjs kie-plate <post>`), so his head never sways. Never crop his face: full-frame shots use the 4:5 face box, zoom max 1.15, punch-ins only on chosen words (`pushAt`). Never use a still photo or paper cutout of Korede in videos. He wants real moving green-screen video: the lip-synced take with the alpha mask (`face.mask: assets/talking-head/korede-cutout.png`, which only works because the base is a still frame so the silhouette never moves), placed in arenas and worlds (`faceCuts[].bg`: pixel-day, pixel-night or an image). Use real screenshots of the news he's talking about (`node scripts/shot.mjs <url> <png> --mobile`, `shot` scenes), credited in Notes.
+- **Music**: personal-brand videos use dark rage-trap / Opium-style type beats (generate via Suno with style words, no artist names). At queue time also pick a trending Instagram audio where it fits (Schedchie `search_instagram_audio`). Company videos keep calm modern electronic beds.
+- Older note:  AI creator content in the style of the reference creators (research/creators.md, style-stilesai.md, style-nick-saraev.md). Talking heads use only the new retouched HeyGen look (HEYGEN_LOOK_ID in .env).
 - **Company LinkedIn and Instagram (`li-company`, `ig-company`)**: plain language, top of funnel. Talk about what a system does for people and how it can help them, not how it works. Anyone should understand it on 1 read, so no tech jargon (LINT warns). Write for AEO: open with a direct, quotable answer ("Content Systems.ai helps 3PLs bill for the work they already do"), name who it's for and the outcome, so AI search can cite us.
 - From the creator research (`research/creators.md`): put the comment keyword in the first 3 lines, not buried at the end; carousels are the default IG format, video for demos and explainers; lead hooks with a money or time outcome; stick to 2 standing comment keywords and reuse them; 1 voice per account ("we" on company channels, "I" on Korede's), no personal hashtags on company accounts.
 

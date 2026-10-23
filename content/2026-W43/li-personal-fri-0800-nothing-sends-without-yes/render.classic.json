@@ -1,0 +1,57 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "headline": "The best AI feature this week is a *yes button*",
+        "sub": "Claude Duet works in the background, then asks before it pays. That pause protects your money."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "credit-card",
+        "title": "It asks before it pays",
+        "body": "Duet can buy through Stripe Link or Shop Pay. Every payment waits for your approval.",
+        "cost": "It won't trade securities or move money"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "send",
+        "title": "And before it sends",
+        "body": "A refund, a quote, a client email. Drafted by AI, sent by you.",
+        "cost": "The cost of 1 wrong send is bigger than the time saved"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "shield-check",
+        "title": "4 moments need a yes",
+        "body": "Money going out. Messages to customers. Quotes and contracts. Deleting data.",
+        "cost": "Everything else can run on its own"
+      },
+      {
+        "type": "layers",
+        "title": "How we build *every system*",
+        "layers": [
+          { "icon": "bot", "name": "AI does the work", "desc": "Drafts, checks and prepares in the background", "chips": ["Always on"] },
+          { "icon": "scan-search", "name": "You see it", "desc": "What's about to go out, with the reason why", "chips": ["1 screen"] },
+          { "icon": "user-check", "name": "You say yes", "desc": "Nothing leaves without a person's approval", "chips": ["Your yes"] },
+          { "icon": "refresh-cw", "name": "It learns", "desc": "Every no sharpens the rules for next time", "chips": ["Weekly"] }
+        ],
+        "loop": "Our own company runs on 100+ AI employees. Same rule.",
+        "loopIcon": "building-2"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "headline": "Build your first AI employee *with a yes button*",
+        "keyword": "NOV 1",
+        "sub": "The AI Employee Accelerator · live on Zoom · 11 AM ET · contentsystems.ai/workshop"
+      }
+    ]
+  }
+}

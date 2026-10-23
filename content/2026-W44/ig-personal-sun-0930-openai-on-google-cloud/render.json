@@ -1,0 +1,167 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.07
+    },
+    "script": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack.",
+    "keys": [
+      "google",
+      "gemini",
+      "menu",
+      "rivals",
+      "partners"
+    ],
+    "strikes": [],
+    "posterAt": 1.2,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "shot",
+        "src": "shots/c-openai.png",
+        "url": "openai.com",
+        "h": 690,
+        "pan": 0
+      },
+      {
+        "at": "Yes",
+        "world": "light",
+        "type": "word",
+        "text": "GOOGLE?"
+      },
+      {
+        "at": "Here's",
+        "world": "dark",
+        "type": "list",
+        "title": "OpenAI on Google Cloud",
+        "rows": [
+          {
+            "text": "Frontier models",
+            "chip": "IN",
+            "chipKind": "ok",
+            "at": "frontier"
+          },
+          {
+            "text": "Codex",
+            "chip": "IN",
+            "chipKind": "ok",
+            "at": "codex"
+          }
+        ]
+      },
+      {
+        "at": "Cloud's",
+        "world": "light",
+        "type": "shot",
+        "src": "shots/c-garden.png",
+        "url": "cloud.google.com/model-garden",
+        "h": 680,
+        "pan": 15,
+        "caption": "200+ models in 1 place"
+      },
+      {
+        "at": "Companies",
+        "world": "dark",
+        "type": "checklist",
+        "title": "how companies buy",
+        "rows": [
+          {
+            "text": "Google Cloud Marketplace",
+            "at": "marketplace"
+          },
+          {
+            "text": "Money already committed",
+            "at": "committed"
+          },
+          {
+            "text": "Gemini Agent, soon",
+            "at": "gemini#2"
+          }
+        ]
+      },
+      {
+        "at": "Microsoft",
+        "world": "light",
+        "type": "shot",
+        "src": "shots/c-microsoft.png",
+        "url": "openai.com",
+        "h": 381,
+        "pan": 10,
+        "caption": "Microsoft is still the main partner"
+      },
+      {
+        "at": "So",
+        "world": "dark",
+        "type": "word",
+        "text": "MENU"
+      },
+      {
+        "at": "You'll",
+        "world": "light",
+        "type": "list",
+        "title": "pick per job",
+        "rows": [
+          {
+            "text": "Coding",
+            "chip": "Model A",
+            "chipKind": "ok",
+            "at": "best"
+          },
+          {
+            "text": "Support emails",
+            "chip": "Model B",
+            "chipKind": "ok",
+            "at": "job"
+          },
+          {
+            "text": "Research",
+            "chip": "Model C",
+            "chipKind": "ok",
+            "at": "company"
+          }
+        ]
+      },
+      {
+        "at": "Rivals",
+        "world": "dark",
+        "type": "stat",
+        "value": "Rivals",
+        "label": "on stage, partners in the cloud"
+      },
+      {
+        "at": "Would",
+        "world": "light",
+        "type": "list",
+        "title": "your call",
+        "rows": [
+          {
+            "text": "OpenAI inside Google",
+            "chip": "YES",
+            "chipKind": "ok",
+            "at": "use"
+          },
+          {
+            "text": "Stick to 1 company",
+            "chip": "NO",
+            "chipKind": "bad",
+            "at": "inside"
+          }
+        ]
+      },
+      {
+        "at": "Comment",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "AI",
+        "prompt": "AI",
+        "dm": "Sent: your free AI starter pack"
+      }
+    ],
+    "heygen": {
+      "say": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to two hundred other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."
+    }
+  }
+}

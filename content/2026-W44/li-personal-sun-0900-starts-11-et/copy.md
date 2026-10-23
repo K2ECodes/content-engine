@@ -31,3 +31,5 @@ Offer: The AI Employee Accelerator, Sun Nov 1 11 AM ET, $97 GA / $197 VIP, https
 Time check: US DST ends 2 AM Nov 1 2026, so 11 AM is EST (UTC-5). UK left BST on Oct 25, so London is GMT: 4 PM. Berlin CET: 5 PM. Pacific PST: 8 AM.
 
 Judgement calls: "Last seats" is a soft urgency line, not a claim about seat counts. Kept the session outline at the level of the offer promise ("Build your first AI employees") without inventing agenda details beyond the approval rules. Signature sign-off sits after the CTA line.
+
+Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).
