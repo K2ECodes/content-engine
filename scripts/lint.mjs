@@ -139,7 +139,7 @@ function lintCaption(caption, meta, file) {
   return issues;
 }
 
-const REQUIRED_META = ['channel', 'format', 'pillar', 'execution', 'topic', 'lead', 'cta_type', 'slot', 'timezone', 'status'];
+const REQUIRED_META = ['channel', 'format', 'aspect', 'pillar', 'execution', 'topic', 'lead', 'cta_type', 'slot', 'timezone', 'status'];
 const FORMATS = ['static', 'carousel', 'video'];
 
 function lintMeta(meta, file) {
@@ -150,6 +150,7 @@ function lintMeta(meta, file) {
   if (meta.format && !FORMATS.includes(meta.format)) push(`unknown format "${meta.format}"`);
   if (meta.pillar && !CHANNELS.pillars.includes(meta.pillar)) push(`unknown pillar "${meta.pillar}"`);
   if (meta.execution && !CHANNELS.executions.includes(meta.execution)) push(`unknown execution "${meta.execution}"`);
+  if (meta.aspect && !['1:1', '4:5', '9:16'].includes(meta.aspect)) push(`aspect "${meta.aspect}" must be 1:1, 4:5 or 9:16`);
   if (meta.cta_type && !CHANNELS.ctaTypes.includes(meta.cta_type)) push(`unknown cta_type "${meta.cta_type}"`);
   if (meta.lead && meta.cta_type && meta.cta_type !== 'comment-keyword') push('lead posts use cta_type "comment-keyword"');
   if (meta.status && !CHANNELS.statuses.includes(meta.status)) push(`unknown status "${meta.status}"`);
@@ -157,6 +158,16 @@ function lintMeta(meta, file) {
   if (meta.timezone && meta.timezone !== CHANNELS.timezone) push(`timezone must be ${CHANNELS.timezone}`);
   if (meta.lead !== undefined && typeof meta.lead !== 'boolean') push('"lead" must be true or false');
   return issues;
+}
+
+// On-media text lives in render.json. Lint every string except structural keys.
+const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt)$/i;
+function lintRenderJson(node, file, keyPath = '') {
+  if (Array.isArray(node)) return node.flatMap((v, i) => lintRenderJson(v, file, `${keyPath}[${i}]`));
+  if (node && typeof node === 'object')
+    return Object.entries(node).flatMap(([k, v]) => (STRUCTURAL_KEYS.test(k) ? [] : lintRenderJson(v, file, keyPath ? `${keyPath}.${k}` : k)));
+  if (typeof node !== 'string') return [];
+  return lintText(node, { file }).map((i) => ({ ...i, line: 0, col: 0, file: `${file} ${keyPath}` }));
 }
 
 export function lintPostDir(dir) {
@@ -177,6 +188,15 @@ export function lintPostDir(dir) {
       issues.push(...lintMeta(meta, rel(metaPath)));
     } catch (e) {
       issues.push({ file: rel(metaPath), line: 0, col: 0, level: 'error', rule: 'meta', message: `invalid JSON: ${e.message}` });
+    }
+  }
+
+  const renderPath = path.join(dir, 'render.json');
+  if (fs.existsSync(renderPath)) {
+    try {
+      issues.push(...lintRenderJson(JSON.parse(fs.readFileSync(renderPath, 'utf8')), rel(renderPath)));
+    } catch (e) {
+      issues.push({ file: rel(renderPath), line: 0, col: 0, level: 'error', rule: 'meta', message: `invalid JSON: ${e.message}` });
     }
   }
 

@@ -1,0 +1,18 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "tools-vs-systems",
+  "execution": "mistakes",
+  "lead": false,
+  "cta_type": "calculator",
+  "cta_keyword": null,
+  "slot": "2026-10-28T19:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "topic": "3pl-unbilled-revenue",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

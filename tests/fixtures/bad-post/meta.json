@@ -1,3 +1,14 @@
-{ "channel": "ig-company", "format": "reel", "pillar": "belief-shift", "execution": "proof",
-  "topic": "wms", "lead": true, "cta_keyword": "SYSTEMS", "slot": "2026-10-26 11:30",
-  "timezone": "America/New_York", "status": "draft" }
+{
+  "channel": "ig-company",
+  "format": "reel",
+  "pillar": "belief-shift",
+  "execution": "proof",
+  "topic": "wms",
+  "lead": true,
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-10-26 11:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "aspect": "4:5",
+  "cta_type": "comment-keyword"
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<style>
+  .statement { justify-content: center; gap: 44px; padding-bottom: 90px; }
+  .statement .headline { font-size: var(--hl, 104px); max-width: 15ch; }
+  .statement .sub { max-width: 30ch; }
+  .rule { width: 120px; height: 3px; background: var(--accent); }
+
+  .stats { display: flex; gap: 28px; margin-top: 12px; }
+  .stat { flex: 1; padding: 28px 30px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); backdrop-filter: blur(6px); }
+  .stat .v { font: 700 72px/1 var(--f-head); color: var(--accent); }
+  .stat .l { margin-top: 14px; font: 400 19px/1.35 var(--f-label); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+
+  /* Corner mark */
+  .mark { position: absolute; top: 72px; right: 80px; width: 64px; opacity: .9; }
+
+  /* 1:1 tightens the type */
+  .a-1x1 { --pad: 80px; }
+  .a-1x1 .statement { gap: 32px; }
+  .a-1x1 .statement .headline { --hl: 88px; }
+  .a-1x1 .sub { font-size: 30px; }
+  .a-9x16 .statement .headline { --hl: 112px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { theme, eyebrow, headline (use *word* for accent), sub, stats: [{value, label}] }
+window.renderPost = (data, opts) => {
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
+  const stats = (data.stats || []).map((s) => `<div class="stat"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div>`).join('');
+  document.getElementById('root').innerHTML = `
+    <div class="canvas theme-${data.theme || 'dark'} a-${opts.aspect.replace(':', 'x')}">
+      ${(data.theme || 'dark') === 'dark' ? '<div class="bg-marble"></div>' : '<div class="bg-grid"></div>'}
+      <img class="mark" src="../../assets/brand/mark.png" alt="">
+      <div class="content statement">
+        <div class="eyebrow">${esc(data.eyebrow)}</div>
+        <div class="headline">${accent(data.headline)}</div>
+        <div class="rule"></div>
+        ${data.sub ? `<div class="sub">${accent(data.sub)}</div>` : ''}
+        ${stats ? `<div class="stats">${stats}</div>` : ''}
+      </div>
+      <div class="brandbar"><img class="lockup" src="../../assets/brand/lockup-horizontal.png" alt=""><span class="handle">${esc(data.handle || 'contentsystems.ai')}</span></div>
+    </div>`;
+};
+</script>
+</body>
+</html>

@@ -4,7 +4,9 @@
   "private": true,
   "description": "Plans, produces and queues social content for Content Systems.ai",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "plan": "node scripts/plan.mjs",
     "render": "node scripts/render.mjs",
@@ -13,5 +15,10 @@
     "queue": "node scripts/queue.mjs",
     "report": "node scripts/report.mjs",
     "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "gsap": "^3.15.0",
+    "lucide-static": "^1.61.0",
+    "playwright": "^1.64.1"
   }
 }

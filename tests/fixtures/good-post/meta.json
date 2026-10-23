@@ -9,5 +9,6 @@
   "slot": "2026-10-26T11:30",
   "timezone": "America/New_York",
   "status": "draft",
-  "cta_type": "comment-keyword"
+  "cta_type": "comment-keyword",
+  "aspect": "4:5"
 }

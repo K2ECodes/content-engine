@@ -1,0 +1,17 @@
+{
+  "channel": "li-personal",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "belief-shift",
+  "execution": "mistakes",
+  "lead": false,
+  "cta_type": "calculator",
+  "cta_keyword": null,
+  "slot": "2026-10-26T08:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "topic": "3pl-unbilled-revenue",
+  "media": [
+    "static.png"
+  ]
+}

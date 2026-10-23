@@ -8,12 +8,18 @@
     },
     "free-quote": {
       "label": "Free quote with your top AI opportunities",
-      "urls": { "logistics": "https://contentsystems.ai/logistics", "ecommerce": "https://contentsystems.ai/ecommerce" },
+      "urls": {
+        "logistics": "https://contentsystems.ai/logistics",
+        "ecommerce": "https://contentsystems.ai/ecommerce"
+      },
       "captures": "name, company, work email, phone, WMS, orders per day, pain points"
     },
     "calculator": {
       "label": "Lost-revenue / hidden-cost calculator, then free quote",
-      "urls": { "logistics": "https://contentsystems.ai/logistics", "ecommerce": "https://contentsystems.ai/ecommerce" },
+      "urls": {
+        "logistics": "https://contentsystems.ai/logistics",
+        "ecommerce": "https://contentsystems.ai/ecommerce"
+      },
       "captures": "same form as free-quote, warmer intent"
     },
     "call": {
@@ -44,6 +50,15 @@
   },
   "leadMagnets": {
     "_readme": "Freebies promised by comment-keyword posts. status 'to-build' means it must exist before the post is approved.",
-    "items": []
+    "items": [
+      {
+        "keyword": "LEAKS",
+        "name": "3PL leak audit checklist",
+        "status": "to-build",
+        "used_by": [
+          "ig-company-tue-1130-5-fees-never-billed"
+        ]
+      }
+    ]
   }
 }

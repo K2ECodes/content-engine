@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  .scene { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 0 var(--pad); opacity: 0; }
+  /* Keep content clear of platform UI: top 220px, bottom 420px on 9:16 */
+  .a-9x16 .scene { padding-top: 220px; padding-bottom: 420px; }
+
+  .hook .line { font: 700 128px/.98 var(--f-head); overflow: hidden; }
+  .hook .line span { display: inline-block; }
+  .hook .line em { font-style: normal; color: var(--gold); }
+  .hook .eyebrow { margin-bottom: 40px; }
+
+  .scene .title { font: 700 76px/1 var(--f-head); margin: 28px 0 48px; }
+  .scene .title em { font-style: normal; color: var(--gold); }
+
+  .nodes { display: flex; flex-direction: column; }
+  .node { display: flex; align-items: center; gap: 28px; padding: 26px 30px; border-radius: 22px; background: rgba(245,240,232,.06); border: 1px solid rgba(232,184,75,.25); backdrop-filter: blur(8px); }
+  .node .ico { width: 76px; height: 76px; padding: 18px; border-radius: 18px; background: rgba(232,184,75,.14); color: var(--gold); flex: none; }
+  .node .lbl { font: 700 46px/1.05 var(--f-head); }
+  .node .sub { margin-top: 6px; font: 400 22px/1.3 var(--f-data); color: var(--muted); }
+  .node.hl { border-color: var(--gold); background: rgba(232,184,75,.14); }
+  .gap { height: 22px; }
+  .conn { position: relative; height: 54px; margin-left: 67px; width: 3px; background: rgba(232,184,75,.25); }
+  .conn i { position: absolute; inset: 0; background: var(--gold); transform-origin: top; transform: scaleY(0); }
+
+  .stat .num { font: 700 230px/1 var(--f-head); color: var(--gold); letter-spacing: -.01em; }
+  .stat .lbl { margin-top: 30px; font: 600 50px/1.15 var(--f-head); max-width: 18ch; }
+  .stat .note { margin-top: 36px; font: 400 24px/1.4 var(--f-data); color: var(--muted); max-width: 40ch; }
+
+  .cta { align-items: flex-start; }
+  .cta .mark { width: 150px; margin-bottom: 50px; }
+  .cta .headline { font-size: 96px; }
+  .cta .keyword { margin-top: 44px; font: 900 110px/1 var(--f-display); letter-spacing: .06em; color: var(--ink); background: var(--gold); padding: 30px 44px 24px; border-radius: 18px; }
+  .cta .sub { margin-top: 36px; }
+
+  .captions { position: absolute; left: var(--pad); right: var(--pad); bottom: 300px; display: flex; justify-content: center; }
+  .a-1x1 .captions, .a-4x5 .captions { bottom: 130px; }
+  .cap { opacity: 0; position: absolute; bottom: 0; max-width: 100%; text-align: center; font: 600 40px/1.25 var(--f-head); color: var(--cream); background: rgba(23,40,28,.82); border: 1px solid rgba(232,184,75,.3); padding: 16px 26px; border-radius: 14px; }
+  .cap b { color: var(--gold); font-weight: 700; }
+
+  .progress { position: absolute; left: 0; top: 0; height: 6px; width: 100%; background: var(--gold); transform-origin: left; transform: scaleX(0); }
+  .wm { position: absolute; top: 80px; right: 72px; width: 54px; opacity: .85; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { scenes: [{type, start, end, ...}], captions: [{start, end, text}] }
+// Scene types: hook {eyebrow, lines[]}, flow {eyebrow, title, nodes[{label, sub, iconSvg}], connectors, highlight}, stat {value, prefix, suffix, label, note}, cta {headline, keyword, sub}
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
+const capfmt = (s) => esc(s).replace(/\*(.+?)\*/g, '<b>$1</b>');
+
+const BUILD = {
+  hook: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div>${s.lines.map((l) => `<div class="line"><span>${accent(l)}</span></div>`).join('')}`,
+  flow: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div><div class="title">${accent(s.title)}</div><div class="nodes">${s.nodes.map((n, i) =>
+      `${i ? (s.connectors ? '<div class="conn"><i></i></div>' : '<div class="gap"></div>') : ''}<div class="node"><div class="ico icon">${n.iconSvg || ''}</div><div><div class="lbl">${esc(n.label)}</div>${n.sub ? `<div class="sub">${esc(n.sub)}</div>` : ''}</div></div>`).join('')}</div>`,
+  stat: (s) => `<div class="eyebrow">${esc(s.eyebrow)}</div><div class="num">${esc(s.prefix || '')}<span class="v">0</span>${esc(s.suffix || '')}</div><div class="lbl">${accent(s.label)}</div>${s.note ? `<div class="note">${esc(s.note)}</div>` : ''}`,
+  cta: (s) => `<img class="mark" src="../../assets/brand/mark.png" alt=""><div class="headline">${accent(s.headline)}</div>${s.keyword ? `<div class="keyword">${esc(s.keyword)}</div>` : ''}${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}`,
+};
+
+// Each animator adds tweens for one scene, starting at s.start.
+const ANIMATE = {
+  hook: (tl, el, s) => tl.from(el.querySelectorAll('.line span'), { yPercent: 110, duration: .7, ease: 'power3.out', stagger: .32 }, s.start + .15)
+    .from(el.querySelector('.eyebrow'), { opacity: 0, x: -30, duration: .5 }, s.start),
+  flow: (tl, el, s) => {
+    const nodes = el.querySelectorAll('.node'), conns = el.querySelectorAll('.conn i');
+    const step = Math.min(.75, (s.end - s.start - 1.6) / nodes.length);
+    tl.from(el.querySelectorAll('.eyebrow, .title'), { opacity: 0, y: 24, duration: .5, stagger: .12 }, s.start);
+    nodes.forEach((n, i) => {
+      const t = s.start + .5 + i * step;
+      if (i && conns[i - 1]) tl.to(conns[i - 1], { scaleY: 1, duration: step * .5, ease: 'none' }, t - step * .45);
+      tl.from(n, { opacity: 0, x: -40, scale: .96, duration: .45, ease: 'back.out(1.6)' }, t);
+      if (s.highlight) tl.set(n, { borderColor: '#E8B84B', backgroundColor: 'rgba(232,184,75,.14)' }, t + .05)
+        .set(n, { borderColor: 'rgba(232,184,75,.25)', backgroundColor: 'rgba(245,240,232,.06)' }, t + step);
+    });
+  },
+  stat: (tl, el, s) => {
+    const v = el.querySelector('.v'), o = { n: 0 };
+    tl.from(el.querySelector('.num'), { opacity: 0, scale: .9, duration: .5, ease: 'power2.out' }, s.start)
+      .to(o, { n: s.value, duration: 1.8, ease: 'power2.out', onUpdate: () => { v.textContent = Math.round(o.n).toLocaleString('en-US'); } }, s.start + .1)
+      .from(el.querySelectorAll('.lbl, .note, .eyebrow'), { opacity: 0, y: 20, duration: .5, stagger: .15 }, s.start + .6);
+  },
+  cta: (tl, el, s) => tl.from(el.querySelector('.mark'), { opacity: 0, y: 30, rotate: -8, duration: .6, ease: 'back.out(1.7)' }, s.start)
+    .from(el.querySelectorAll('.headline, .keyword, .sub'), { opacity: 0, y: 30, duration: .5, stagger: .2 }, s.start + .3),
+};
+
+window.renderPost = (data, opts) => {
+  const scenes = data.scenes;
+  window.duration = Math.max(...scenes.map((s) => s.end));
+  document.getElementById('root').innerHTML = `
+    <div class="canvas theme-dark a-${opts.aspect.replace(':', 'x')}">
+      <div class="bg-marble"></div>
+      <img class="wm" src="../../assets/brand/mark.png" alt="">
+      ${scenes.map((s, i) => `<div class="scene ${s.type}" id="s${i}">${BUILD[s.type](s)}</div>`).join('')}
+      <div class="captions">${(data.captions || []).map((c, i) => `<div class="cap" id="c${i}">${capfmt(c.text)}</div>`).join('')}</div>
+      <div class="progress"></div>
+    </div>`;
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo('.bg-marble', { scale: 1 }, { scale: 1.1, duration: window.duration, ease: 'none' }, 0);
+  tl.to('.progress', { scaleX: 1, duration: window.duration, ease: 'none' }, 0);
+  scenes.forEach((s, i) => {
+    const el = document.getElementById('s' + i);
+    tl.set(el, { opacity: 1 }, s.start);
+    ANIMATE[s.type](tl, el, s);
+    if (i < scenes.length - 1) tl.to(el, { opacity: 0, y: -40, duration: .35, ease: 'power2.in' }, s.end - .35);
+  });
+  (data.captions || []).forEach((c, i) => {
+    const el = document.getElementById('c' + i);
+    tl.fromTo(el, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .25 }, c.start).to(el, { opacity: 0, duration: .2 }, c.end - .2);
+  });
+  tl.set({}, {}, window.duration);
+  window.seek = (t) => tl.seek(t, false);
+  window.seek(0);
+};
+</script>
+</body>
+</html>

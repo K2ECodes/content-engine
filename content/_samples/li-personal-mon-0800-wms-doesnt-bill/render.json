@@ -1,0 +1,19 @@
+{
+  "template": "static",
+  "data": {
+    "theme": "dark",
+    "eyebrow": "3PL billing · belief shift",
+    "headline": "Your WMS records the work. It doesn't *bill* it.",
+    "sub": "If you believe month-end billing catches everything, it's costing you revenue you already earned.",
+    "stats": [
+      {
+        "value": "$90K",
+        "label": "a year missed at 3 in 100 dollars on $250K a month"
+      },
+      {
+        "value": "0",
+        "label": "new tools needed to catch it"
+      }
+    ]
+  }
+}

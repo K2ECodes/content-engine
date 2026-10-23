@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<style>
+  .topbar { position: absolute; top: 60px; left: var(--pad); right: var(--pad); display: flex; justify-content: space-between; align-items: center; }
+  .topbar .series { font: 700 18px/1 var(--f-label); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+  .topbar .count { font: 600 20px/1 var(--f-data); color: var(--accent); }
+  .content { top: 150px; bottom: 140px; }
+
+  /* cover */
+  .cover { justify-content: center; gap: 40px; }
+  .cover .headline { font-size: 112px; max-width: 13ch; }
+  .cover .sub { max-width: 32ch; }
+  .swipe { display: flex; align-items: center; gap: 14px; font: 700 20px/1 var(--f-label); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+  .swipe span { display: inline-block; width: 64px; height: 2px; background: currentColor; position: relative; }
+  .swipe span::after { content: ''; position: absolute; right: 0; top: -6px; border: 7px solid transparent; border-left: 10px solid currentColor; border-right: 0; }
+
+  /* point */
+  .point { justify-content: center; gap: 34px; }
+  .point .num { font: 700 200px/.8 var(--f-head); color: transparent; -webkit-text-stroke: 2px var(--accent); }
+  .point .row { display: flex; align-items: center; gap: 26px; }
+  .point .ico { width: 84px; height: 84px; padding: 20px; border-radius: 22px; background: var(--ink); color: var(--gold); flex: none; }
+  .theme-dark .point .ico { background: rgba(232,184,75,.12); }
+  .point .title { font: 700 76px/1 var(--f-head); }
+  .point .body { font: 500 40px/1.34 var(--f-head); color: var(--muted); max-width: 30ch; }
+  .point .cost { align-self: flex-start; padding: 16px 22px; border-left: 4px solid var(--accent); background: var(--card); font: 600 25px/1.35 var(--f-data); box-shadow: 0 1px 0 var(--line); }
+
+  /* layers: stacked system diagram */
+  .layers { gap: 0; justify-content: center; }
+  .layers .title { font: 700 62px/1 var(--f-head); margin: 18px 0 26px; }
+  .layers .title em { font-style: normal; color: var(--accent); }
+  .layer { display: flex; gap: 22px; align-items: center; padding: 20px 24px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); box-shadow: 0 10px 30px -18px rgba(23,40,28,.35); }
+  .layer .n { font: 700 17px/1 var(--f-label); letter-spacing: .14em; color: var(--accent); width: 28px; flex: none; }
+  .layer .ico { width: 62px; height: 62px; padding: 15px; border-radius: 16px; background: var(--ink); color: var(--gold); flex: none; }
+  .layer .name { font: 700 34px/1 var(--f-head); }
+  .layer .desc { margin-top: 6px; font: 500 23px/1.3 var(--f-head); color: var(--muted); }
+  .layer .chips { margin-left: auto; display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+  .layer .chip { font: 400 15px/1 var(--f-data); padding: 7px 10px; border-radius: 8px; background: rgba(156,202,160,.22); color: var(--fg); white-space: nowrap; }
+  .arrow { height: 30px; display: flex; justify-content: center; color: var(--accent); }
+  .arrow svg { width: 26px; height: 30px; }
+  .loop { margin-top: 22px; display: flex; align-items: center; gap: 16px; padding: 18px 24px; border-radius: 18px; border: 2px dashed var(--accent); }
+  .loop .ico { width: 40px; height: 40px; color: var(--accent); flex: none; }
+  .loop .t { font: 600 26px/1.3 var(--f-head); }
+
+  /* cta */
+  .cta { justify-content: center; gap: 36px; }
+  .cta .headline { font-size: 88px; max-width: 14ch; }
+  .keyword { align-self: flex-start; font: 900 92px/1 var(--f-display); letter-spacing: .06em; color: var(--ink); background: var(--gold); padding: 26px 38px 22px; border-radius: 16px; }
+  .cta .sub { max-width: 32ch; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { theme, series, slides: [ {type: 'cover'|'point'|'layers'|'cta', ...} ] }
+// icons arrive pre-resolved as SVG strings in slide.iconSvg / layer.iconSvg (see scripts/render.mjs).
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const accent = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
+const ARROW = '<svg viewBox="0 0 26 30"><path d="M13 2v24M4 18l9 9 9-9" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>';
+
+const SLIDES = {
+  cover: (s) => `<div class="content cover">
+      <div class="eyebrow">${esc(s.eyebrow)}</div>
+      <div class="headline">${accent(s.headline)}</div>
+      ${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}
+      <div class="swipe">Swipe <span></span></div></div>`,
+  point: (s) => `<div class="content point">
+      <div class="num">${esc(s.number)}</div>
+      <div class="row">${s.iconSvg ? `<div class="ico icon">${s.iconSvg}</div>` : ''}<div class="title">${accent(s.title)}</div></div>
+      <div class="body">${accent(s.body)}</div>
+      ${s.cost ? `<div class="cost">${accent(s.cost)}</div>` : ''}</div>`,
+  layers: (s) => `<div class="content layers">
+      <div class="eyebrow">${esc(s.eyebrow)}</div>
+      <div class="title">${accent(s.title)}</div>
+      ${s.layers.map((l, i) => `${i ? `<div class="arrow">${ARROW}</div>` : ''}
+        <div class="layer"><div class="n">${String(i + 1).padStart(2, '0')}</div>
+          <div class="ico icon">${l.iconSvg || ''}</div>
+          <div><div class="name">${esc(l.name)}</div><div class="desc">${esc(l.desc)}</div></div>
+          ${l.chips ? `<div class="chips">${l.chips.map((c) => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : ''}
+        </div>`).join('')}
+      ${s.loop ? `<div class="loop"><div class="ico icon">${s.loopIconSvg || ''}</div><div class="t">${accent(s.loop)}</div></div>` : ''}</div>`,
+  cta: (s) => `<div class="content cta">
+      <div class="eyebrow">${esc(s.eyebrow)}</div>
+      <div class="headline">${accent(s.headline)}</div>
+      ${s.keyword ? `<div class="keyword">${esc(s.keyword)}</div>` : ''}
+      ${s.sub ? `<div class="sub">${accent(s.sub)}</div>` : ''}</div>`,
+};
+
+let DATA, OPTS;
+window.renderPost = (data, opts) => { DATA = data; OPTS = opts; window.slideCount = data.slides.length; window.showSlide(0); };
+window.showSlide = (i) => {
+  const s = DATA.slides[i];
+  const theme = s.theme || DATA.theme || 'light';
+  const total = String(DATA.slides.length).padStart(2, '0');
+  document.getElementById('root').innerHTML = `
+    <div class="canvas theme-${theme} a-${OPTS.aspect.replace(':', 'x')}">
+      ${theme === 'dark' ? '<div class="bg-marble"></div>' : '<div class="bg-grid"></div>'}
+      <div class="topbar"><span class="series">${esc(DATA.series)}</span><span class="count">${String(i + 1).padStart(2, '0')} / ${total}</span></div>
+      ${SLIDES[s.type](s)}
+      <div class="brandbar"><img class="lockup" src="../../assets/brand/lockup-horizontal.png" alt=""><span class="handle">${esc(DATA.handle || 'contentsystems.ai')}</span></div>
+    </div>`;
+};
+</script>
+</body>
+</html>

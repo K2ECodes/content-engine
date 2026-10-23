@@ -1,0 +1,106 @@
+{
+  "template": "carousel",
+  "data": {
+    "theme": "light",
+    "series": "3PL billing checklist",
+    "slides": [
+      {
+        "type": "cover",
+        "theme": "dark",
+        "eyebrow": "Before your next close",
+        "headline": "5 fees your 3PL *earned* and never billed",
+        "sub": "Check these before month-end. Most slip through without anyone noticing."
+      },
+      {
+        "type": "point",
+        "number": "01",
+        "icon": "warehouse",
+        "title": "Storage overages",
+        "body": "Pallets roll past the free period. Nobody flags the day it tips over.",
+        "cost": "Check: storage days vs contract, per client"
+      },
+      {
+        "type": "point",
+        "number": "02",
+        "icon": "tag",
+        "title": "Accessorials",
+        "body": "Special handling, relabels, inserts. Done on the floor, never keyed in.",
+        "cost": "Check: floor notes vs invoice lines"
+      },
+      {
+        "type": "point",
+        "number": "03",
+        "icon": "boxes",
+        "title": "Kitting and projects",
+        "body": "Quoted in an email thread, done over a weekend, forgotten by billing.",
+        "cost": "Check: email quotes vs project charges"
+      },
+      {
+        "type": "point",
+        "number": "04",
+        "icon": "clipboard-list",
+        "title": "Receiving fixes",
+        "body": "Missing ASNs and count corrections cost labor. Most contracts let you charge for it.",
+        "cost": "Check: receiving exceptions vs fees billed"
+      },
+      {
+        "type": "point",
+        "number": "05",
+        "icon": "file-warning",
+        "title": "Disputed invoices",
+        "body": "Rebuilt from spreadsheets, disputed by clients, credited to keep the peace.",
+        "cost": "Check: credits issued vs disputes resolved"
+      },
+      {
+        "type": "layers",
+        "eyebrow": "The fix",
+        "title": "A system, not *a spreadsheet*",
+        "layers": [
+          {
+            "icon": "database",
+            "name": "Collect",
+            "desc": "Every billable event from your WMS and inbox",
+            "chips": [
+              "WMS events",
+              "Email quotes"
+            ]
+          },
+          {
+            "icon": "scan-search",
+            "name": "Match",
+            "desc": "Each event checked against the client's rates",
+            "chips": [
+              "Rate cards"
+            ]
+          },
+          {
+            "icon": "flag",
+            "name": "Flag",
+            "desc": "Missing charges surfaced before invoicing",
+            "chips": [
+              "Daily"
+            ]
+          },
+          {
+            "icon": "user-check",
+            "name": "Approve",
+            "desc": "Your team signs off on every line",
+            "chips": [
+              "Human gate"
+            ]
+          }
+        ],
+        "loop": "Every month the rules get sharper, so less slips through.",
+        "loopIcon": "refresh-cw"
+      },
+      {
+        "type": "cta",
+        "theme": "dark",
+        "eyebrow": "Free checklist",
+        "headline": "Want the full *leak audit*?",
+        "keyword": "LEAKS",
+        "sub": "Comment the word and we'll DM it to you."
+      }
+    ]
+  }
+}
