@@ -492,7 +492,7 @@ window.renderPost = (data) => {
     const el = document.getElementById('s' + i);
     if (s.world !== prevWorld) {
       tl.set(wd, { opacity: s.world === 'dark' ? 1 : 0 }, s.t).set(wl, { opacity: s.world === 'light' ? 1 : 0 }, s.t)
-        .set(cv, { attr: { class: `canvas ${s.world}-on` } }, s.t);
+        .set(cv, { attr: { class: `canvas ${data.branded ? 'branded ' : ''}tf-${(data.coldOpen && data.coldOpen.font) || 'ig'} ${s.world}-on` } }, s.t);
       if (prevWorld && (s.tr || data.tr) === 'cut') { tl.fromTo(cv, { filter: 'blur(10px)' }, { filter: 'blur(0px)', duration: 0.1, immediateRender: false }, s.t); window.sfx.push({ t: s.t, kind: 'whoosh' }); }
       prevWorld = s.world;
     }
@@ -539,7 +539,7 @@ window.renderPost = (data) => {
       window.sfx.push({ t: s.click.t, kind: 'click' });
     }
   });
-  if (data.scenes[0]?.world) tl.set(cv, { attr: { class: `canvas ${data.scenes[0].world}-on` } }, 0).set(wd, { opacity: data.scenes[0].world === 'dark' ? 1 : 0 }, 0).set(wl, { opacity: data.scenes[0].world === 'light' ? 1 : 0 }, 0);
+  if (data.scenes[0]?.world) tl.set(cv, { attr: { class: `canvas ${data.branded ? 'branded ' : ''}tf-${(data.coldOpen && data.coldOpen.font) || 'ig'} ${data.scenes[0].world}-on` } }, 0).set(wd, { opacity: data.scenes[0].world === 'dark' ? 1 : 0 }, 0).set(wl, { opacity: data.scenes[0].world === 'light' ? 1 : 0 }, 0);
 
   // Face layouts (hard cuts) and punch-ins.
   if (data.face) {

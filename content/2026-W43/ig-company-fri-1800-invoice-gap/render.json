@@ -363,41 +363,6 @@
     "w": 140,
     "rot": -6,
     "until": "missing"
-   },
-   {
-    "at": "Comment",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 290,
-    "w": 220,
-    "size": 60,
-    "color": "#E8B84B",
-    "rot": 12
-   },
-   {
-    "at": "Search",
-    "kind": "burst",
-    "text": "QUOTE?",
-    "x": 800,
-    "y": 290,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": 10,
-    "until": "invoice#2"
-   },
-   {
-    "at": "Getting",
-    "kind": "burst",
-    "text": "BILL IT",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": -8,
-    "until": "That's#2"
    }
   ],
   "branded": true,
