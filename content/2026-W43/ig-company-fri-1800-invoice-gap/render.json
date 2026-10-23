@@ -153,7 +153,7 @@
      "kind": "bad",
      "at": "problem.",
      "x": 250,
-     "y": 760
+     "y": 520
     },
     "bg": "bg/desk.png"
    },
@@ -188,7 +188,7 @@
      "kind": "ok",
      "at": "Systems.ai",
      "x": 560,
-     "y": 700
+     "y": 520
     },
     "bg": "bg/warehouse.png"
    },
@@ -245,8 +245,8 @@
     "at": "Search",
     "kind": "text",
     "text": "Search: quote",
-    "x": 560,
-    "y": 760,
+    "x": 690,
+    "y": 230,
     "size": 60,
     "rot": -6,
     "until": "invoice#2"

@@ -337,16 +337,6 @@
         "until": "Meanwhile,"
       },
       {
-        "at": "Amazon",
-        "kind": "logo",
-        "brand": "amazon",
-        "x": 780,
-        "y": 250,
-        "w": 150,
-        "rot": 8,
-        "until": "Here's"
-      },
-      {
         "at": "shopper",
         "kind": "sprite",
         "sprite": "shopper",

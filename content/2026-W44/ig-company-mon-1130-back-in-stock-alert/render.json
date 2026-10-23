@@ -79,7 +79,7 @@
      "kind": "bad",
      "at": "never",
      "x": 300,
-     "y": 780
+     "y": 520
     },
     "bg": "bg/warehouse.png"
    },
@@ -180,7 +180,7 @@
      "kind": "ok",
      "at": "Systems.ai",
      "x": 560,
-     "y": 720
+     "y": 520
     },
     "bg": "bg/warehouse.png"
    },

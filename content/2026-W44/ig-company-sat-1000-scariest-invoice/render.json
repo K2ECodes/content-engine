@@ -48,7 +48,7 @@
      "kind": "bad",
      "at": "never",
      "x": 280,
-     "y": 700
+     "y": 520
     },
     "bg": "bg/spooky.png"
    },
@@ -188,7 +188,7 @@
      "kind": "ok",
      "at": "Systems.ai",
      "x": 560,
-     "y": 720
+     "y": 520
     },
     "bg": "bg/conveyor.png"
    },

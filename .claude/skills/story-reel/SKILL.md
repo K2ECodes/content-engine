@@ -45,7 +45,7 @@ Example: `content/_samples/ig-company-fri-1130-invoice-gap/`.
 
 ## Placement (Reels/TikTok safe zones, Korede's rule: "psychologically perfect")
 - UI covers the top ~220px, bottom ~420px and right ~120px. Nothing important there.
-- Captions live in the lower-middle sweet spot (y 1180 to 1360, about 2/3 down, centred) where the eye rests; cards sit above them (y 240 to 1150). On `split` the captions move to the seam (y 845); on `corner` they sit just above Korede's head (y 860). The template does this automatically.
+- Captions sit just below the middle (top y 1010, about 53 in 100 down), above the thumb zone (Korede: lower captions sit under his thumb); cards sit above them (y 260 to 980). On `split` the captions move to the seam (y 845); on `corner` they sit just above Korede's head (y 860). The template does this automatically.
 - Korede's eyes sit on the upper-third line (y about 640) in `full` shots, face centred, never cropped; punch-ins max 1.15 and only on chosen words (`pushAt`).
 - Talking cutout of Korede: real lip-synced video only (`node scripts/heygen.mjs talk-segments <post> 0-5.7,23.3-28.2,...` lip-syncs only the windows he's on screen, cheap). `faceCuts[].cut: true` uses the cutout (with `bg` pixel-day|pixel-night|pixel-sunset|pixel-neon for `full`), `cut: false` the normal studio shot. Mix them: not every video or moment is a cutout; use plain `split` at some points. Layouts: full, split, corner (cutout bottom-right over the cards), pip, none.
 - Music: personal = dark rage-trap type beat, company = calm modern electronic. `music.volume` about 0.11 (well under the voice, ducked). The beat drop lands early: default 2 s in, or `music.dropAt: "<word>"` on the hook's turn. No long intro with the drop mid-video.

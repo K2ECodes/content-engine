@@ -231,10 +231,10 @@
         "at": "waits",
         "kind": "burst",
         "text": "WAIT",
-        "x": 620,
+        "x": 690,
         "y": 290,
-        "w": 300,
-        "size": 46,
+        "w": 270,
+        "size": 40,
         "color": "#FFE066",
         "rot": -10,
         "until": "That's"
