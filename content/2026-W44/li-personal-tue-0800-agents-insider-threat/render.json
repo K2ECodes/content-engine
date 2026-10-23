@@ -26,8 +26,14 @@
         "url": "techcrunch.com",
         "h": 624,
         "pan": 20,
-        "bg": "bg/corridor.png",
-        "bgc": "#17281C"
+        "px": "night",
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 760,
+            "h": 280
+          }
+        ]
       },
       {
         "at": "And",
@@ -38,8 +44,19 @@
         "h": 700,
         "pan": 15,
         "caption": "An agent you pay for, acting like a rogue employee",
-        "bg": "bg/corridor.png",
-        "bgc": "#C1272D"
+        "px": "night",
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 70,
+            "h": 280
+          },
+          {
+            "name": "boss",
+            "x": 780,
+            "h": 300
+          }
+        ]
       },
       {
         "at": "Someone",
@@ -67,8 +84,19 @@
             "at": "bank"
           }
         ],
-        "bg": "bg/master-key.png",
-        "bgc": "#F2B705"
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 760,
+            "h": 220
+          }
+        ]
       },
       {
         "at": "Now",
@@ -76,8 +104,19 @@
         "type": "stat",
         "value": "1",
         "label": "bad instruction can touch everything",
-        "bg": "bg/master-key.png",
-        "bgc": "#17281C"
+        "px": "neon",
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 770,
+            "h": 280
+          },
+          {
+            "name": "korede-shrug",
+            "x": 60,
+            "h": 300
+          }
+        ]
       },
       {
         "at": "Satya",
@@ -86,9 +125,15 @@
         "photo": "people/satya-nadella.jpg",
         "name": "Satya Nadella",
         "role": "Microsoft CEO",
-        "bg": "bg/turnstile.png",
         "color": "#00A4EF",
-        "bgc": "#C1272D"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          }
+        ]
       },
       {
         "at": "separate",
@@ -98,16 +143,33 @@
         "url": "techcrunch.com",
         "h": 790,
         "pan": 15,
-        "bg": "bg/turnstile.png",
-        "bgc": "#F2B705"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "So",
         "world": "light",
         "type": "word",
         "text": "MY RULES",
-        "bg": "bg/master-key.png",
-        "bgc": "#17281C"
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 380,
+            "h": 320
+          }
+        ]
       },
       {
         "at": "Each",
@@ -128,8 +190,19 @@
             "at": "approves"
           }
         ],
-        "bg": "bg/turnstile.png",
-        "bgc": "#C1272D"
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "Emails",
@@ -164,8 +237,19 @@
           "x": 260,
           "y": 830
         },
-        "bg": "bg/corridor.png",
-        "bgc": "#F2B705"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "shopper",
+            "x": 790,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "On",
@@ -173,8 +257,19 @@
         "type": "stat",
         "value": "11 AM ET",
         "label": "Sunday, building an AI employee live",
-        "bg": "bg/live-studio.png",
-        "bgc": "#17281C"
+        "px": "sunset",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       },
       {
         "at": "Join",
@@ -183,8 +278,14 @@
         "keyword": "JOIN LIVE",
         "prompt": "contentsystems.ai/workshop",
         "dm": "Seat saved · Sun 11 AM ET",
-        "bg": "bg/live-studio.png",
-        "bgc": "#C1272D"
+        "px": "day",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 380,
+            "h": 320
+          }
+        ]
       }
     ],
     "heygen": {
@@ -197,7 +298,7 @@
       "microsoft"
     ],
     "hook": {
-      "style": "blast",
+      "style": "slam",
       "brands": [
         "microsoft",
         "openai",
@@ -219,9 +320,9 @@
         "at": "threats.",
         "kind": "burst",
         "text": "INSIDER\nTHREAT",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
+        "x": 720,
+        "y": 560,
+        "w": 240,
         "size": 38,
         "color": "#FFE066",
         "rot": -10,
@@ -249,14 +350,15 @@
         "at": "live",
         "kind": "burst",
         "text": "LIVE",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
+        "x": 720,
+        "y": 560,
+        "w": 240,
         "size": 38,
         "color": "#9CCAA0",
         "rot": 10,
         "until": "Join"
       }
-    ]
+    ],
+    "look": "pixel"
   }
 }

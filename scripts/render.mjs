@@ -176,6 +176,7 @@ const SFX = {
   roll: 'anoisesrc=d=0.6:c=pink:a=0.35,bandpass=f=1500:w=1200,tremolo=f=30:d=0.8,afade=t=out:st=0.3:d=0.3',
   print: 'anoisesrc=d=0.28:c=white:a=0.3,bandpass=f=2500:w=2000,tremolo=f=45:d=0.9,afade=t=out:st=0.18:d=0.1',
   blast: 'anoisesrc=d=0.12:c=white:a=0.9,highpass=f=600,lowpass=f=6000,afade=t=out:st=0.02:d=0.1',
+  shutter: 'anoisesrc=d=0.14:c=white:a=0.9,highpass=f=1800,afade=t=out:st=0.03:d=0.11,aecho=0.8:0.5:40:0.35',
   pop: 'sine=f=520:d=0.09,asetrate=48000*1.0,volume=1.2,afade=t=out:st=0.02:d=0.07,vibrato=f=18:d=0.4',
   whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
   // 8-bit cues for templates/arena (square waves and noise, research/style-fire-reel.md 11.9)

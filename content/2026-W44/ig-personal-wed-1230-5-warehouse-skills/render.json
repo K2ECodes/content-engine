@@ -31,8 +31,19 @@
         "suffix": "+",
         "label": "AI tools run the same skills",
         "landAt": "70+",
-        "bg": "bg/library.png",
-        "bgc": "#17281C"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "Over",
@@ -41,8 +52,19 @@
         "value": "1M",
         "label": "skills, nearly 280M installs",
         "foot": "Anthropic, Oct 22 2026",
-        "bg": "bg/blueprint.png",
-        "bgc": "#F26B1D"
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 760,
+            "h": 220
+          }
+        ]
       },
       {
         "world": "dark",
@@ -50,10 +72,21 @@
         "photo": "people/dario-amodei.jpg",
         "name": "Dario Amodei",
         "role": "Anthropic CEO",
-        "bg": "bg/library.png",
         "color": "#D97757",
-        "bgc": "#F2B705",
-        "at": "Here's"
+        "at": "Here's",
+        "px": "sunset",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       },
       {
         "at": "A skill",
@@ -81,8 +114,19 @@
             "at": "actually"
           }
         ],
-        "bg": "bg/blueprint.png",
-        "bgc": "#17281C"
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 770,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "Write",
@@ -110,8 +154,14 @@
             "at": "Cursor"
           }
         ],
-        "bg": "bg/blueprint.png",
-        "bgc": "#F26B1D"
+        "px": "neon",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 380,
+            "h": 320
+          }
+        ]
       },
       {
         "at": "No",
@@ -138,16 +188,38 @@
             "at": "morning"
           }
         ],
-        "bg": "bg/desk-sunrise.png",
-        "bgc": "#F2B705"
+        "px": "day",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "So",
         "world": "dark",
         "type": "word",
         "text": "FIRST 5",
-        "bg": "bg/library.png",
-        "bgc": "#17281C"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 760,
+            "h": 220
+          }
+        ]
       },
       {
         "at": "1",
@@ -169,8 +241,19 @@
             "at": "doesn't"
           }
         ],
-        "bg": "bg/desk-sunrise.png",
-        "bgc": "#F26B1D"
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       },
       {
         "at": "2",
@@ -191,8 +274,19 @@
             "at": "list"
           }
         ],
-        "bg": "bg/desk-sunrise.png",
-        "bgc": "#F2B705"
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 770,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "3",
@@ -219,8 +313,14 @@
           "text": "Weekly report",
           "val": "Ready"
         },
-        "bg": "bg/blueprint.png",
-        "bgc": "#17281C"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 380,
+            "h": 320
+          }
+        ]
       },
       {
         "at": "4",
@@ -242,8 +342,19 @@
             "at": "sources"
           }
         ],
-        "bg": "bg/library.png",
-        "bgc": "#F26B1D"
+        "px": "night",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "5#2",
@@ -269,8 +380,19 @@
           "x": 140,
           "y": 1165
         },
-        "bg": "bg/desk-sunrise.png",
-        "bgc": "#F2B705"
+        "px": "day",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 760,
+            "h": 220
+          }
+        ]
       },
       {
         "at": "And every",
@@ -299,8 +421,19 @@
           "x": 170,
           "y": 820
         },
-        "bg": "bg/approve-button.png",
-        "bgc": "#17281C"
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       },
       {
         "at": "Comment",
@@ -309,8 +442,19 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Starter pack sent to your DMs",
-        "bg": "bg/approve-button.png",
-        "bgc": "#F26B1D"
+        "px": "sunset",
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 770,
+            "h": 260
+          }
+        ]
       }
     ],
     "bgLogos": [
@@ -350,9 +494,9 @@
         "at": "280M",
         "kind": "burst",
         "text": "280M",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
+        "x": 720,
+        "y": 560,
+        "w": 240,
         "size": 38,
         "color": "#FFE066",
         "rot": -10,
@@ -416,6 +560,7 @@
         "color": "#9CCAA0",
         "rot": 12
       }
-    ]
+    ],
+    "look": "pixel"
   }
 }

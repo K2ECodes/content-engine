@@ -25,8 +25,14 @@
         "url": "techcrunch.com",
         "h": 624,
         "pan": 20,
-        "bg": "bg/hacker-room.png",
-        "bgc": "#17281C"
+        "px": "night",
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 760,
+            "h": 280
+          }
+        ]
       },
       {
         "at": "Here's",
@@ -61,8 +67,19 @@
           "x": 260,
           "y": 830
         },
-        "bg": "bg/hacker-room.png",
-        "bgc": "#C1272D"
+        "px": "neon",
+        "sprites": [
+          {
+            "name": "evil-robot",
+            "x": 70,
+            "h": 280
+          },
+          {
+            "name": "ghost",
+            "x": 800,
+            "h": 180
+          }
+        ]
       },
       {
         "at": "OpenAI",
@@ -73,16 +90,38 @@
         "h": 660,
         "pan": 0,
         "caption": "Spend alerts firing overnight",
-        "bg": "bg/bill.png",
-        "bgc": "#F2B705"
+        "px": "night",
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "coin",
+            "x": 820,
+            "h": 120
+          }
+        ]
       },
       {
         "at": "If",
         "world": "light",
         "type": "word",
         "text": "CHECK 3",
-        "bg": "bg/keys.png",
-        "bgc": "#17281C"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "First",
@@ -93,8 +132,19 @@
         "h": 740,
         "pan": 0,
         "caption": "1. Set a spending limit",
-        "bg": "bg/bill.png",
-        "bgc": "#C1272D"
+        "px": "day",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
       },
       {
         "at": "Second",
@@ -119,8 +169,19 @@
             "at": "leak"
           }
         ],
-        "bg": "bg/keys.png",
-        "bgc": "#F2B705"
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       },
       {
         "at": "Third",
@@ -147,8 +208,19 @@
             "at": "remove"
           }
         ],
-        "bg": "bg/hacker-room.png",
-        "bgc": "#17281C"
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 300
+          },
+          {
+            "name": "ghost",
+            "x": 800,
+            "h": 180
+          }
+        ]
       },
       {
         "at": "5",
@@ -176,8 +248,14 @@
           "x": 300,
           "y": 830
         },
-        "bg": "bg/bill.png",
-        "bgc": "#C1272D"
+        "px": "day",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 380,
+            "h": 320
+          }
+        ]
       },
       {
         "at": "Comment",
@@ -186,8 +264,19 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Sent: your free AI starter pack",
-        "bg": "bg/hacker-room.png",
-        "bgc": "#F2B705"
+        "px": "sunset",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
       }
     ],
     "heygen": {
@@ -206,22 +295,23 @@
       "claude"
     ],
     "hook": {
-      "style": "slam",
+      "style": "zoom",
       "brands": [
         "anthropic",
         "claude",
         "openai",
         "google"
-      ]
+      ],
+      "src": "shots/c-headline.png"
     },
     "pops": [
       {
         "at": "$1,000",
         "kind": "burst",
         "text": "$1,000+",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
+        "x": 720,
+        "y": 560,
+        "w": 240,
         "size": 38,
         "color": "#FFE066",
         "rot": -10,
@@ -270,9 +360,9 @@
         "at": "overnight.",
         "kind": "burst",
         "text": "OOPS",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
+        "x": 720,
+        "y": 560,
+        "w": 240,
         "size": 38,
         "color": "#FF5A4E",
         "rot": 10,
@@ -296,6 +386,7 @@
         "w": 200,
         "until": "Comment"
       }
-    ]
+    ],
+    "look": "pixel"
   }
 }

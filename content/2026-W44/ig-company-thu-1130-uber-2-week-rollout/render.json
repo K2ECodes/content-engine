@@ -256,6 +256,7 @@
     "rot": 12
    }
   ],
-  "branded": true
+  "branded": true,
+  "stop": false
  }
 }

@@ -117,6 +117,8 @@
   .pop { position: absolute; z-index: 6; opacity: 0; transform-origin: 50% 50%; }
   .pop.logo { border-radius: 30%; display: grid; place-items: center; box-shadow: 0 14px 30px rgba(0,0,0,.35); }
   .pop.logo img { width: 66%; height: 66%; object-fit: contain; }
+  .pop.logo.bare { background: none !important; box-shadow: none; border-radius: 0; }
+  .pop.logo.bare img { width: 100%; height: 100%; filter: drop-shadow(0 0 2px #fff) drop-shadow(0 10px 18px rgba(0,0,0,.55)); }
   .pop.sprite img { width: 100%; image-rendering: pixelated; filter: drop-shadow(0 10px 14px rgba(0,0,0,.35)); }
   .pop.burst { display: grid; place-items: center; text-align: center; font: 400 var(--bs, 46px)/0.95 'Anton', var(--f-head); text-transform: uppercase; color: var(--ink); }
   .pop.burst svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
@@ -270,11 +272,11 @@ const ANIMATE = {
   },
   stat: () => {},
   word: () => {},
-  person: (tl, el, s) => { tl.fromTo(el.querySelector('.ph'), { scale: 0.3, rotation: -12 }, { scale: 1, rotation: 0, duration: 0.4, ease: 'back.out(1.8)', immediateRender: false }, s.t).fromTo(el.querySelectorAll('.nm,.rl,.q'), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, stagger: 0.12, immediateRender: false }, s.t + 0.25); window.sfx.push({ t: s.t, kind: 'whoosh' }); },
+  person: (tl, el, s) => { window.sfx.push({ t: s.t + 0.02, kind: 'shutter' }); tl.fromTo('#flash', { opacity: 0.95 }, { opacity: 0, duration: 0.22, immediateRender: false }, s.t + 0.02); tl.fromTo(el.querySelector('.ph'), { scale: 0.3, rotation: -12 }, { scale: 1, rotation: 0, duration: 0.4, ease: 'back.out(1.8)', immediateRender: false }, s.t).fromTo(el.querySelectorAll('.nm,.rl,.q'), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, stagger: 0.12, immediateRender: false }, s.t + 0.25); window.sfx.push({ t: s.t, kind: 'whoosh' }); },
   brand: (tl, el, s) => { tl.fromTo(el.querySelector('.tile'), { rotation: -20, scale: 0.4 }, { rotation: 0, scale: 1, duration: 0.45, ease: 'back.out(2.2)', immediateRender: false }, s.t + 0.05); window.sfx.push({ t: s.t + 0.1, kind: 'pop' }); },
   vs: (tl, el, s) => { const sides = el.querySelectorAll('.side'); tl.fromTo(sides[0], { x: -500 }, { x: 0, duration: 0.35, ease: 'power3.out', immediateRender: false }, s.t).fromTo(sides[1], { x: 500 }, { x: 0, duration: 0.35, ease: 'power3.out', immediateRender: false }, s.t + 0.15)
     .fromTo(el.querySelector('.mid'), { scale: 3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: 'power4.in', immediateRender: false }, s.t + 0.45); window.sfx.push({ t: s.t, kind: 'whoosh' }, { t: s.t + 0.7, kind: 'thud' }); },
-  shot: (tl, el, s) => { const img = el.querySelector('.shot img'); tl.fromTo(img, { scale: 1.0, y: 0 }, { scale: 1.12, y: -(s.pan ?? 60), duration: Math.max(1, s.end - s.t), ease: 'none' }, s.t); },
+  shot: (tl, el, s) => { window.sfx.push({ t: s.t + 0.02, kind: 'shutter' }); tl.fromTo('#flash', { opacity: 0.8 }, { opacity: 0, duration: 0.2, immediateRender: false }, s.t + 0.02); const img = el.querySelector('.shot img'); tl.fromTo(img, { scale: 1.0, y: 0 }, { scale: 1.12, y: -(s.pan ?? 60), duration: Math.max(1, s.end - s.t), ease: 'none' }, s.t); },
   cta: (tl, el, s) => {
     const tx = el.querySelector('.typed'), msg = s.prompt || s.keyword, o = { n: 0 };
     tl.to(o, { n: msg.length, duration: msg.length / 12, ease: `steps(${msg.length})`, onUpdate: () => { tx.textContent = msg.slice(0, Math.round(o.n)); } }, s.t + 0.5);
@@ -312,7 +314,7 @@ window.renderPost = (data) => {
     <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
     <div class="caps">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
     ${(data.stickers || []).map((k, i) => `<img class="sticker" id="k${i}" src="${esc(k.srcUrl)}" style="left:${k.x ?? 640}px;top:${k.y ?? 1180}px;height:${k.h ?? 520}px">`).join('')}
-    ${(data.pops || []).map((p, i) => `<div class="pop ${p.kind}" id="p${i}" style="left:${p.x}px;top:${p.y}px;width:${p.w ?? 200}px;${p.kind === 'logo' ? `height:${p.w ?? 200}px;background:${p.b.tile};` : ''}${p.kind === 'burst' ? `height:${p.w ?? 200}px;--bs:${p.size ?? 44}px;` : ''}${p.kind === 'text' ? `--bs:${p.size ?? 64}px;` : ''}">${p.kind === 'logo' ? `<img src="${p.b.logoUrl}">` : p.kind === 'sprite' ? `<img src="${p.srcUrl}">` : p.kind === 'burst' ? `${burst(p.color || '#FFE066')}<span>${esc(p.text).replace(/\n/g, '<br>')}</span>` : esc(p.text)}</div>`).join('')}
+    ${(data.pops || []).map((p, i) => `<div class="pop ${p.kind}${p.bare ? ' bare' : ''}" id="p${i}" style="left:${p.x}px;top:${p.y}px;width:${p.w ?? 200}px;${p.kind === 'logo' ? `height:${p.w ?? 200}px;background:${p.b.tile};` : ''}${p.kind === 'burst' ? `height:${p.w ?? 200}px;--bs:${p.size ?? 44}px;` : ''}${p.kind === 'text' ? `--bs:${p.size ?? 64}px;` : ''}">${p.kind === 'logo' ? `<img src="${p.b.logoUrl}">` : p.kind === 'sprite' ? `<img src="${p.srcUrl}">` : p.kind === 'burst' ? `${burst(p.color || '#FFE066')}<span>${esc(p.text).replace(/\n/g, '<br>')}</span>` : esc(p.text)}</div>`).join('')}
     ${data.hook ? `<div class="hook" id="hook">
       <div class="gun"><i style="left:0;top:40px;width:240px;height:70px;border-radius:10px"></i><i style="left:200px;top:52px;width:180px;height:30px;border-radius:6px"></i><i style="left:40px;top:100px;width:60px;height:60px;border-radius:8px"></i></div>
       <div class="flash" id="hflash" style="left:330px;top:1130px"></div>
@@ -325,6 +327,7 @@ window.renderPost = (data) => {
       <div class="glitch" id="hgl"></div>
       ${data.hook.targets.map((_, i) => `<svg class="crack" id="hc${i}" viewBox="0 0 260 40"><path d="M0 20 L60 12 L90 30 L140 8 L180 28 L260 18" stroke="#000" stroke-width="5" fill="none"/></svg><div class="dust" id="hd${i}"></div>`).join('')}
     </div>` : ''}
+    <div id="flash" style="position:absolute;inset:0;background:#fff;opacity:0;z-index:9;pointer-events:none"></div>
     <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
     <img class="mark" src="../../assets/brand/mark.png" alt="">
     ${data.branded ? `<div class="badge" id="badge"><img class="b" src="../../assets/brand/mark.png"><img class="w" src="../../assets/brand/wordmark.png"></div>` : ''}

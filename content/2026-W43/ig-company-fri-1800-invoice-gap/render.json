@@ -32,14 +32,38 @@
     "prefix": "$",
     "label": "of work that never made the invoice",
     "landAt": "$8K",
-    "bg": "bg/warehouse.png"
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 770,
+      "h": 220
+     }
+    ]
    },
    {
     "at": "It",
     "world": "light",
     "type": "word",
     "text": "3 places",
-    "bg": "bg/warehouse.png"
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "korede-shrug",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "worker",
+      "x": 780,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "First,",
@@ -70,7 +94,19 @@
       "at": "check"
      }
     ],
-    "bg": "bg/warehouse.png"
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "box",
+      "x": 800,
+      "h": 160
+     }
+    ]
    },
    {
     "at": "Second,",
@@ -95,7 +131,20 @@
       "at": "Friday."
      }
     ],
-    "bg": "bg/warehouse.png"
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "worker",
+      "x": 790,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "Third,",
@@ -117,7 +166,19 @@
       "at": "rush"
      }
     ],
-    "bg": "bg/desk.png"
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
    },
    {
     "at": "Search",
@@ -155,14 +216,38 @@
      "x": 250,
      "y": 520
     },
-    "bg": "bg/desk.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "evil-robot",
+      "x": 770,
+      "h": 280
+     }
+    ]
    },
    {
     "at": "handoff",
     "world": "dark",
     "type": "word",
     "text": "Handoff",
-    "bg": "bg/desk.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 770,
+      "h": 220
+     }
+    ]
    },
    {
     "at": "That's#2",
@@ -190,7 +275,19 @@
      "x": 560,
      "y": 520
     },
-    "bg": "bg/warehouse.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
    },
    {
     "at": "Comment",
@@ -199,7 +296,19 @@
     "keyword": "SYSTEMS",
     "prompt": "SYSTEMS",
     "dm": "3PL billing checklist sent",
-    "bg": "bg/desk.png"
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 120,
+      "h": 320
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 700,
+      "h": 320
+     }
+    ]
    }
   ],
   "bgLogos": [
@@ -224,24 +333,6 @@
   },
   "pops": [
    {
-    "at": "pallet",
-    "kind": "sprite",
-    "sprite": "box",
-    "x": 840,
-    "y": 250,
-    "w": 170,
-    "until": "Second,"
-   },
-   {
-    "at": "Ask",
-    "kind": "sprite",
-    "sprite": "worker",
-    "x": 860,
-    "y": 200,
-    "w": 190,
-    "until": "Third,"
-   },
-   {
     "at": "Search",
     "kind": "text",
     "text": "Search: quote",
@@ -263,6 +354,7 @@
     "rot": 12
    }
   ],
-  "branded": true
+  "branded": true,
+  "look": "pixel"
  }
 }

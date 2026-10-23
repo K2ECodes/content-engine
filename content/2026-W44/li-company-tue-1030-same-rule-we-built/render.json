@@ -31,7 +31,19 @@
     "world": "dark",
     "type": "word",
     "text": "1 rule",
-    "bg": "bg/keys.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "evil-robot",
+      "x": 770,
+      "h": 280
+     }
+    ]
    },
    {
     "at": "Anthropic's",
@@ -40,7 +52,20 @@
     "brand": "anthropic",
     "title": "Anthropic",
     "sub": "Asks before it pays",
-    "bg": "bg/card.png"
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 90,
+      "h": 260
+     },
+     {
+      "name": "sanjana-point",
+      "x": 780,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "So",
@@ -56,7 +81,19 @@
       "chipKind": "ok"
      }
     ],
-    "bg": "bg/card.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "coin",
+      "x": 820,
+      "h": 120
+     }
+    ]
    },
    {
     "at": "Walmart",
@@ -65,7 +102,19 @@
     "brand": "walmart",
     "title": "Walmart",
     "sub": "Shoppers set a spending limit",
-    "bg": "bg/card.png"
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 80,
+      "h": 280
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
    },
    {
     "at": "So#2",
@@ -87,7 +136,20 @@
       "chipKind": "bad"
      }
     ],
-    "bg": "bg/card.png"
+    "px": "day",
+    "sprites": [
+     {
+      "name": "sanjana-shrug",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "boss",
+      "x": 790,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "1Password",
@@ -96,7 +158,19 @@
     "brand": "1password",
     "title": "1Password",
     "sub": "AI logs in, never sees the password",
-    "bg": "bg/keys.png"
+    "px": "night",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 90,
+      "h": 260
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
    },
    {
     "at": "So#3",
@@ -111,7 +185,20 @@
       "chipKind": "bad"
      }
     ],
-    "bg": "bg/keys.png"
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 80,
+      "h": 280
+     },
+     {
+      "name": "korede-shrug",
+      "x": 780,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "Microsoft",
@@ -121,8 +208,15 @@
     "name": "Satya Nadella",
     "role": "Microsoft CEO",
     "quote": "We need to separate the supply of intelligence from the authority over it.",
-    "bg": "bg/keys.png",
-    "color": "#E8B84B"
+    "color": "#E8B84B",
+    "px": "night",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "So#4",
@@ -135,7 +229,20 @@
       "at": "access"
      }
     ],
-    "bg": "bg/keys.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 90,
+      "h": 260
+     },
+     {
+      "name": "worker",
+      "x": 790,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "AI does",
@@ -163,7 +270,19 @@
      "x": 420,
      "y": 520
     },
-    "bg": "bg/card.png"
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
    },
    {
     "at": "Every",
@@ -176,7 +295,20 @@
       "at": "starts"
      }
     ],
-    "bg": "bg/keys.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "korede-laptop",
+      "x": 760,
+      "h": 300,
+      "flip": true
+     }
+    ]
    },
    {
     "at": "We'll",
@@ -196,7 +328,19 @@
       "chipKind": "ok"
      }
     ],
-    "bg": "bg/card.png"
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 120,
+      "h": 320
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 700,
+      "h": 320
+     }
+    ]
    }
   ],
   "bgLogos": [
@@ -219,17 +363,8 @@
    ],
    "text": "1 RULE"
   },
-  "pops": [
-   {
-    "at": "helper",
-    "kind": "sprite",
-    "sprite": "robot",
-    "x": 850,
-    "y": 250,
-    "w": 160,
-    "until": "AI does"
-   }
-  ],
-  "branded": true
+  "pops": [],
+  "branded": true,
+  "look": "pixel"
  }
 }
