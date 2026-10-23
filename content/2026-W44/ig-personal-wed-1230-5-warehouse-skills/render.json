@@ -26,22 +26,13 @@
     "scenes": [
       {
         "world": "dark",
-        "type": "person",
-        "photo": "people/dario-amodei.jpg",
-        "name": "Dario Amodei",
-        "role": "Anthropic CEO",
-        "bg": "bg/library.png",
-        "color": "#D97757"
-      },
-      {
-        "world": "dark",
         "type": "odometer",
         "value": "70",
         "suffix": "+",
         "label": "AI tools run the same skills",
         "landAt": "70+",
-        "at": "70+",
-        "bg": "bg/library.png"
+        "bg": "bg/library.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Over",
@@ -50,14 +41,19 @@
         "value": "1M",
         "label": "skills, nearly 280M installs",
         "foot": "Anthropic, Oct 22 2026",
-        "bg": "bg/blueprint.png"
+        "bg": "bg/blueprint.png",
+        "bgc": "#F26B1D"
       },
       {
-        "at": "Here's",
         "world": "dark",
-        "type": "word",
-        "text": "HUGE",
-        "bg": "bg/library.png"
+        "type": "person",
+        "photo": "people/dario-amodei.jpg",
+        "name": "Dario Amodei",
+        "role": "Anthropic CEO",
+        "bg": "bg/library.png",
+        "color": "#D97757",
+        "bgc": "#F2B705",
+        "at": "Here's"
       },
       {
         "at": "A skill",
@@ -85,7 +81,8 @@
             "at": "actually"
           }
         ],
-        "bg": "bg/blueprint.png"
+        "bg": "bg/blueprint.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Write",
@@ -113,7 +110,8 @@
             "at": "Cursor"
           }
         ],
-        "bg": "bg/blueprint.png"
+        "bg": "bg/blueprint.png",
+        "bgc": "#F26B1D"
       },
       {
         "at": "No",
@@ -140,14 +138,16 @@
             "at": "morning"
           }
         ],
-        "bg": "bg/desk-sunrise.png"
+        "bg": "bg/desk-sunrise.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "So",
         "world": "dark",
         "type": "word",
         "text": "FIRST 5",
-        "bg": "bg/library.png"
+        "bg": "bg/library.png",
+        "bgc": "#17281C"
       },
       {
         "at": "1",
@@ -169,7 +169,8 @@
             "at": "doesn't"
           }
         ],
-        "bg": "bg/desk-sunrise.png"
+        "bg": "bg/desk-sunrise.png",
+        "bgc": "#F26B1D"
       },
       {
         "at": "2",
@@ -190,7 +191,8 @@
             "at": "list"
           }
         ],
-        "bg": "bg/desk-sunrise.png"
+        "bg": "bg/desk-sunrise.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "3",
@@ -217,7 +219,8 @@
           "text": "Weekly report",
           "val": "Ready"
         },
-        "bg": "bg/blueprint.png"
+        "bg": "bg/blueprint.png",
+        "bgc": "#17281C"
       },
       {
         "at": "4",
@@ -239,7 +242,8 @@
             "at": "sources"
           }
         ],
-        "bg": "bg/library.png"
+        "bg": "bg/library.png",
+        "bgc": "#F26B1D"
       },
       {
         "at": "5#2",
@@ -265,7 +269,8 @@
           "x": 140,
           "y": 1165
         },
-        "bg": "bg/desk-sunrise.png"
+        "bg": "bg/desk-sunrise.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "And every",
@@ -294,7 +299,8 @@
           "x": 170,
           "y": 820
         },
-        "bg": "bg/approve-button.png"
+        "bg": "bg/approve-button.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Comment",
@@ -303,7 +309,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Starter pack sent to your DMs",
-        "bg": "bg/approve-button.png"
+        "bg": "bg/approve-button.png",
+        "bgc": "#F26B1D"
       }
     ],
     "bgLogos": [
@@ -343,10 +350,10 @@
         "at": "280M",
         "kind": "burst",
         "text": "280M",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "Here's"

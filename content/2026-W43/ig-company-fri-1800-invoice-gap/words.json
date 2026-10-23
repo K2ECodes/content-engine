@@ -23,7 +23,7 @@
   {
    "w": "work.",
    "start": 0.94,
-   "end": 1.16
+   "end": 1.14
   },
   {
    "w": "So",
@@ -58,11 +58,11 @@
   {
    "w": "the",
    "start": 3.24,
-   "end": 3.34
+   "end": 3.36
   },
   {
    "w": "invoice?",
-   "start": 3.34,
+   "start": 3.36,
    "end": 3.54
   },
   {
@@ -102,7 +102,7 @@
   },
   {
    "w": "storage",
-   "start": 6.52,
+   "start": 6.54,
    "end": 6.72
   },
   {
@@ -123,7 +123,7 @@
   {
    "w": "period.",
    "start": 7.34,
-   "end": 7.68
+   "end": 7.66
   },
   {
    "w": "Pull",
@@ -203,16 +203,16 @@
   {
    "w": "bill.",
    "start": 11.14,
-   "end": 11.26
+   "end": 11.24
   },
   {
    "w": "Second,",
-   "start": 11.74,
+   "start": 11.76,
    "end": 12.06
   },
   {
    "w": "special",
-   "start": 12.5,
+   "start": 12.52,
    "end": 12.7
   },
   {
@@ -222,8 +222,8 @@
   },
   {
    "w": "Relabels,",
-   "start": 13.7,
-   "end": 14.14
+   "start": 13.68,
+   "end": 14.12
   },
   {
    "w": "reboxing,",
@@ -302,8 +302,8 @@
   },
   {
    "w": "Third,",
-   "start": 19.28,
-   "end": 19.56
+   "start": 19.3,
+   "end": 19.58
   },
   {
    "w": "jobs",
@@ -382,7 +382,7 @@
   },
   {
    "w": "Search",
-   "start": 24.46,
+   "start": 24.44,
    "end": 24.6
   },
   {
@@ -413,11 +413,11 @@
   {
    "w": "match",
    "start": 25.88,
-   "end": 26.08
+   "end": 26.1
   },
   {
    "w": "each",
-   "start": 26.08,
+   "start": 26.1,
    "end": 26.3
   },
   {
@@ -442,22 +442,22 @@
   },
   {
    "w": "The",
-   "start": 27.36,
-   "end": 27.5
+   "start": 26.92,
+   "end": 27.48
   },
   {
    "w": "work",
-   "start": 27.5,
-   "end": 27.68
+   "start": 27.48,
+   "end": 27.66
   },
   {
    "w": "isn't",
-   "start": 27.68,
-   "end": 27.9
+   "start": 27.66,
+   "end": 27.94
   },
   {
    "w": "the",
-   "start": 27.9,
+   "start": 27.94,
    "end": 28.02
   },
   {
@@ -467,12 +467,12 @@
   },
   {
    "w": "The",
-   "start": 28.76,
-   "end": 28.88
+   "start": 28.78,
+   "end": 28.86
   },
   {
    "w": "handoff",
-   "start": 28.88,
+   "start": 28.86,
    "end": 29.2
   },
   {
@@ -483,16 +483,16 @@
   {
    "w": "billing",
    "start": 29.34,
-   "end": 29.52
+   "end": 29.54
   },
   {
    "w": "is.",
-   "start": 29.52,
-   "end": 29.8
+   "start": 29.54,
+   "end": 29.78
   },
   {
    "w": "That's",
-   "start": 30.12,
+   "start": 30.1,
    "end": 30.32
   },
   {
@@ -513,52 +513,52 @@
   {
    "w": "automate",
    "start": 30.74,
-   "end": 31.12
+   "end": 31.1
   },
   {
    "w": "at",
-   "start": 31.12,
+   "start": 31.1,
    "end": 31.3
   },
   {
    "w": "Content",
    "start": 31.3,
-   "end": 32.03
+   "end": 31.96
   },
   {
    "w": "Systems.ai.",
-   "start": 32.03,
-   "end": 32.76
+   "start": 31.96,
+   "end": 32.62
   },
   {
    "w": "Comment",
-   "start": 33.28,
-   "end": 33.58
+   "start": 33.06,
+   "end": 33.44
   },
   {
    "w": "SYSTEMS",
-   "start": 33.58,
-   "end": 33.98
+   "start": 33.44,
+   "end": 33.82
   },
   {
    "w": "for",
-   "start": 33.98,
-   "end": 34.32
+   "start": 33.82,
+   "end": 34.12
   },
   {
    "w": "the",
-   "start": 34.32,
-   "end": 34.42
+   "start": 34.12,
+   "end": 34.2
   },
   {
    "w": "free",
-   "start": 34.42,
-   "end": 34.6
+   "start": 34.2,
+   "end": 34.38
   },
   {
    "w": "checklist.",
-   "start": 34.6,
-   "end": 34.9
+   "start": 34.38,
+   "end": 34.66
   }
  ],
  "text": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Content Systems.ai. Comment SYSTEMS for the free checklist."

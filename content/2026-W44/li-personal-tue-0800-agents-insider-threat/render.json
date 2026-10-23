@@ -26,7 +26,8 @@
         "url": "techcrunch.com",
         "h": 624,
         "pan": 20,
-        "bg": "bg/corridor.png"
+        "bg": "bg/corridor.png",
+        "bgc": "#17281C"
       },
       {
         "at": "And",
@@ -37,7 +38,8 @@
         "h": 700,
         "pan": 15,
         "caption": "An agent you pay for, acting like a rogue employee",
-        "bg": "bg/corridor.png"
+        "bg": "bg/corridor.png",
+        "bgc": "#C1272D"
       },
       {
         "at": "Someone",
@@ -65,7 +67,8 @@
             "at": "bank"
           }
         ],
-        "bg": "bg/master-key.png"
+        "bg": "bg/master-key.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Now",
@@ -73,7 +76,8 @@
         "type": "stat",
         "value": "1",
         "label": "bad instruction can touch everything",
-        "bg": "bg/master-key.png"
+        "bg": "bg/master-key.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Satya",
@@ -83,7 +87,8 @@
         "name": "Satya Nadella",
         "role": "Microsoft CEO",
         "bg": "bg/turnstile.png",
-        "color": "#00A4EF"
+        "color": "#00A4EF",
+        "bgc": "#C1272D"
       },
       {
         "at": "separate",
@@ -93,14 +98,16 @@
         "url": "techcrunch.com",
         "h": 790,
         "pan": 15,
-        "bg": "bg/turnstile.png"
+        "bg": "bg/turnstile.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "So",
         "world": "light",
         "type": "word",
         "text": "MY RULES",
-        "bg": "bg/master-key.png"
+        "bg": "bg/master-key.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Each",
@@ -121,7 +128,8 @@
             "at": "approves"
           }
         ],
-        "bg": "bg/turnstile.png"
+        "bg": "bg/turnstile.png",
+        "bgc": "#C1272D"
       },
       {
         "at": "Emails",
@@ -156,7 +164,8 @@
           "x": 260,
           "y": 830
         },
-        "bg": "bg/corridor.png"
+        "bg": "bg/corridor.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "On",
@@ -164,7 +173,8 @@
         "type": "stat",
         "value": "11 AM ET",
         "label": "Sunday, building an AI employee live",
-        "bg": "bg/live-studio.png"
+        "bg": "bg/live-studio.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Join",
@@ -173,7 +183,8 @@
         "keyword": "JOIN LIVE",
         "prompt": "contentsystems.ai/workshop",
         "dm": "Seat saved · Sun 11 AM ET",
-        "bg": "bg/live-studio.png"
+        "bg": "bg/live-studio.png",
+        "bgc": "#C1272D"
       }
     ],
     "heygen": {
@@ -208,10 +219,10 @@
         "at": "threats.",
         "kind": "burst",
         "text": "INSIDER\nTHREAT",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "Someone"
@@ -238,10 +249,10 @@
         "at": "live",
         "kind": "burst",
         "text": "LIVE",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#9CCAA0",
         "rot": 10,
         "until": "Join"

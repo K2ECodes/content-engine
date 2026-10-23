@@ -31,3 +31,4 @@ Animated explainer that flips between dark green and cream. Anthropic, Walmart, 
 - Aspect 9:16 (story template renders 9:16 only; LinkedIn plays it fine). Workshop facts from config/offers.json.
 - Scene backgrounds (per-scene `bg`): bg/keys.png, bg/card.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.
 - Person card: Satya Nadella, Microsoft CEO, quote "We need to separate the supply of intelligence from the authority over it." (TechCrunch Oct 19 2026, link above). Photo people/nadella.jpg: Wikimedia Commons "MS-Exec-Nadella-Satya-2017-08-31-22 (cropped).jpg", Brian Smale and Microsoft, CC BY-SA 4.0.
+- Re-voiced 2026-10-23 with the corrected pronunciation ("Kuhn-tent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).

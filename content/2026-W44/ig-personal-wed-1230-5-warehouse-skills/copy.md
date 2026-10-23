@@ -34,5 +34,5 @@ Fast animated explainer flipping between dark green and cream. A counter rolls t
 Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).
 
 - Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
-- People (person scene, no quote): Dario Amodei, Anthropic CEO, photo by UK Prime Minister, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg (cropped).
+- People (person scene on 'Here's why that's huge', since the opening mention sits under the breaking hook; no quote): Dario Amodei, Anthropic CEO, photo by UK Prime Minister, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg (cropped).
 - Re-voiced 2026-10-23 in Korede's own HeyGen instant clone (freeSpeech, free), tightened, re-transcribed; old Jett narrator audio and words kept in old-jett/.

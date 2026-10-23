@@ -25,7 +25,8 @@
         "url": "techcrunch.com",
         "h": 624,
         "pan": 20,
-        "bg": "bg/hacker-room.png"
+        "bg": "bg/hacker-room.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Here's",
@@ -60,7 +61,8 @@
           "x": 260,
           "y": 830
         },
-        "bg": "bg/hacker-room.png"
+        "bg": "bg/hacker-room.png",
+        "bgc": "#C1272D"
       },
       {
         "at": "OpenAI",
@@ -71,14 +73,16 @@
         "h": 660,
         "pan": 0,
         "caption": "Spend alerts firing overnight",
-        "bg": "bg/bill.png"
+        "bg": "bg/bill.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "If",
         "world": "light",
         "type": "word",
         "text": "CHECK 3",
-        "bg": "bg/keys.png"
+        "bg": "bg/keys.png",
+        "bgc": "#17281C"
       },
       {
         "at": "First",
@@ -89,7 +93,8 @@
         "h": 740,
         "pan": 0,
         "caption": "1. Set a spending limit",
-        "bg": "bg/bill.png"
+        "bg": "bg/bill.png",
+        "bgc": "#C1272D"
       },
       {
         "at": "Second",
@@ -114,7 +119,8 @@
             "at": "leak"
           }
         ],
-        "bg": "bg/keys.png"
+        "bg": "bg/keys.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Third",
@@ -141,7 +147,8 @@
             "at": "remove"
           }
         ],
-        "bg": "bg/hacker-room.png"
+        "bg": "bg/hacker-room.png",
+        "bgc": "#17281C"
       },
       {
         "at": "5",
@@ -169,7 +176,8 @@
           "x": 300,
           "y": 830
         },
-        "bg": "bg/bill.png"
+        "bg": "bg/bill.png",
+        "bgc": "#C1272D"
       },
       {
         "at": "Comment",
@@ -178,7 +186,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Sent: your free AI starter pack",
-        "bg": "bg/hacker-room.png"
+        "bg": "bg/hacker-room.png",
+        "bgc": "#F2B705"
       }
     ],
     "heygen": {
@@ -210,10 +219,10 @@
         "at": "$1,000",
         "kind": "burst",
         "text": "$1,000+",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "Here's"
@@ -261,10 +270,10 @@
         "at": "overnight.",
         "kind": "burst",
         "text": "OOPS",
-        "x": 640,
-        "y": 420,
-        "w": 300,
-        "size": 46,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FF5A4E",
         "rot": 10,
         "until": "If"

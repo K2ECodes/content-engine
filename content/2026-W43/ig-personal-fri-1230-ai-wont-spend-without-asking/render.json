@@ -24,7 +24,8 @@
         "name": "Dario Amodei",
         "role": "Anthropic CEO",
         "bg": "bg/wallet-lasers.png",
-        "color": "#D97757"
+        "color": "#D97757",
+        "bgc": "#17281C"
       },
       {
         "world": "dark",
@@ -33,14 +34,16 @@
         "name": "Dario Amodei",
         "role": "Anthropic CEO",
         "color": "#D97757",
-        "at": "that"
+        "at": "that",
+        "bgc": "#F26B1D"
       },
       {
         "at": "called",
         "world": "dark",
         "type": "word",
         "text": "Claude Duet",
-        "bg": "bg/wallet-lasers.png"
+        "bg": "bg/wallet-lasers.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "works",
@@ -66,7 +69,8 @@
           "x": 640,
           "y": 1120
         },
-        "bg": "bg/robot-pay.png"
+        "bg": "bg/robot-pay.png",
+        "bgc": "#17281C"
       },
       {
         "at": "That's",
@@ -86,7 +90,8 @@
             "text": "Waits for your yes",
             "at": "yes."
           }
-        ]
+        ],
+        "bgc": "#F26B1D"
       },
       {
         "at": "risk",
@@ -107,7 +112,8 @@
             "at": "you."
           }
         ],
-        "bg": "bg/robot-pay.png"
+        "bg": "bg/robot-pay.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "single",
@@ -134,7 +140,8 @@
           "x": 300,
           "y": 800
         },
-        "bg": "bg/wallet-lasers.png"
+        "bg": "bg/wallet-lasers.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Want",
@@ -153,7 +160,8 @@
             "chip": "Approved",
             "at": "step"
           }
-        ]
+        ],
+        "bgc": "#F26B1D"
       },
       {
         "at": "Comment",
@@ -162,7 +170,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Starter skills sent",
-        "bg": "bg/robot-pay.png"
+        "bg": "bg/robot-pay.png",
+        "bgc": "#F2B705"
       }
     ],
     "faceCuts": [
@@ -231,10 +240,10 @@
         "at": "waits",
         "kind": "burst",
         "text": "WAIT",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "That's"

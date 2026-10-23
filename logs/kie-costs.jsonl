@@ -283,3 +283,6 @@
 {"ts":"2026-10-23T10:20:59.168Z","model":"kling-4.0/reference-to-video","taskId":"2be575624b60ee2db3a54620f1dadca1","state":"success","credits":612,"usd":3.06,"label":"swap k4 full locker 18s"}
 {"ts":"2026-10-23T10:28:21.174Z","model":"kling-4.0/reference-to-video","taskId":"d08e089ae3036c838118c4d027bdfad3","state":"success","credits":510,"usd":2.55,"label":"swap k4 depw 15s"}
 {"ts":"2026-10-23T10:31:18.896Z","model":"kling-4.0/reference-to-video","taskId":"c56904b691a281f25a99d90687a31289","state":"success","credits":510,"usd":2.55,"label":"swap k4 gas 15s"}
+{"ts":"2026-10-23T18:48:38.474Z","model":"nano-banana-2","taskId":"8c27ccecc585c51aae11162d6879bb9c","state":"success","credits":8,"usd":0.04,"label":"pixel world world-factory"}
+{"ts":"2026-10-23T18:48:51.529Z","model":"nano-banana-2","taskId":"fee930c4e1ad6ae307d9f5ef23e1d66a","state":"success","credits":8,"usd":0.04,"label":"pixel world world-warehouse"}
+{"ts":"2026-10-23T18:48:51.532Z","model":"nano-banana-2","taskId":"9cfbf2b16ecb402ee6ae9fcf205fa9e3","state":"success","credits":8,"usd":0.04,"label":"pixel world world-hq"}

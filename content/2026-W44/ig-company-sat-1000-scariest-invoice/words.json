@@ -227,7 +227,7 @@
   },
   {
    "w": "not",
-   "start": 13.1,
+   "start": 13.12,
    "end": 13.28
   },
   {
@@ -302,7 +302,7 @@
   },
   {
    "w": "so",
-   "start": 18.0,
+   "start": 18.02,
    "end": 18.18
   },
   {
@@ -458,11 +458,11 @@
   {
    "w": "nobody",
    "start": 27.54,
-   "end": 27.84
+   "end": 27.82
   },
   {
    "w": "remembers",
-   "start": 27.84,
+   "start": 27.82,
    "end": 28.18
   },
   {
@@ -508,11 +508,11 @@
   {
    "w": "daily",
    "start": 30.08,
-   "end": 30.38
+   "end": 30.4
   },
   {
    "w": "in",
-   "start": 30.38,
+   "start": 30.4,
    "end": 30.58
   },
   {
@@ -533,11 +533,11 @@
   {
    "w": "check",
    "start": 31.54,
-   "end": 31.82
+   "end": 31.84
   },
   {
    "w": "is",
-   "start": 31.82,
+   "start": 31.84,
    "end": 32.06
   },
   {
@@ -553,82 +553,82 @@
   {
    "w": "automate",
    "start": 32.28,
-   "end": 32.6
+   "end": 32.62
   },
   {
    "w": "at",
-   "start": 32.6,
-   "end": 32.82
+   "start": 32.62,
+   "end": 32.88
   },
   {
    "w": "Content",
-   "start": 32.82,
-   "end": 33.57
+   "start": 32.88,
+   "end": 33.64
   },
   {
    "w": "Systems.ai.",
-   "start": 33.57,
-   "end": 34.32
+   "start": 33.64,
+   "end": 34.4
   },
   {
    "w": "Our",
-   "start": 34.88,
-   "end": 35.02
+   "start": 34.96,
+   "end": 35.12
   },
   {
    "w": "free",
-   "start": 35.02,
-   "end": 35.22
+   "start": 35.12,
+   "end": 35.34
   },
   {
    "w": "calculator",
-   "start": 35.22,
-   "end": 35.6
+   "start": 35.34,
+   "end": 35.7
   },
   {
    "w": "shows",
-   "start": 35.6,
-   "end": 35.98
+   "start": 35.7,
+   "end": 36.06
   },
   {
    "w": "what",
-   "start": 35.98,
-   "end": 36.16
+   "start": 36.06,
+   "end": 36.26
   },
   {
    "w": "it",
-   "start": 36.16,
-   "end": 36.24
+   "start": 36.26,
+   "end": 36.34
   },
   {
    "w": "adds",
-   "start": 36.24,
-   "end": 36.4
+   "start": 36.34,
+   "end": 36.5
   },
   {
    "w": "up",
-   "start": 36.4,
-   "end": 36.58
+   "start": 36.5,
+   "end": 36.66
   },
   {
    "w": "to.",
-   "start": 36.58,
-   "end": 36.72
+   "start": 36.66,
+   "end": 36.82
   },
   {
    "w": "Link",
-   "start": 37.06,
-   "end": 37.24
-  },
-  {
-   "w": "in",
-   "start": 37.24,
+   "start": 37.18,
    "end": 37.38
   },
   {
-   "w": "bio.",
+   "w": "in",
    "start": 37.38,
-   "end": 37.6
+   "end": 37.5
+  },
+  {
+   "w": "bio.",
+   "start": 37.5,
+   "end": 37.7
   }
  ],
  "text": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. Link in bio."

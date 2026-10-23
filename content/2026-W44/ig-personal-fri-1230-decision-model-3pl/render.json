@@ -39,7 +39,8 @@
             "at": "chatbot"
           }
         ],
-        "bg": "bg/rail-switch.png"
+        "bg": "bg/rail-switch.png",
+        "bgc": "#17281C"
       },
       {
         "at": "OpenAI's",
@@ -49,7 +50,8 @@
         "name": "Sam Altman",
         "role": "OpenAI CEO",
         "bg": "bg/speed-tunnel.png",
-        "color": "#10A37F"
+        "color": "#10A37F",
+        "bgc": "#0B6E4F"
       },
       {
         "at": "picks",
@@ -59,7 +61,8 @@
         "suffix": " ms",
         "label": "per decision, OpenAI's claim",
         "landAt": "100",
-        "bg": "bg/speed-tunnel.png"
+        "bg": "bg/speed-tunnel.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Chat",
@@ -68,7 +71,8 @@
         "value": "1 to 3 s",
         "label": "for a chat model to answer",
         "foot": "OpenAI, Oct 22 2026",
-        "bg": "bg/sorting.png"
+        "bg": "bg/sorting.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Speak",
@@ -92,7 +96,8 @@
             "at": "0.13"
           }
         ],
-        "bg": "bg/speed-tunnel.png"
+        "bg": "bg/speed-tunnel.png",
+        "bgc": "#0B6E4F"
       },
       {
         "at": "Most",
@@ -113,14 +118,16 @@
             "at": "choosing"
           }
         ],
-        "bg": "bg/sorting.png"
+        "bg": "bg/sorting.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "So",
         "world": "light",
         "type": "word",
         "text": "3 SPOTS",
-        "bg": "bg/rail-switch.png"
+        "bg": "bg/rail-switch.png",
+        "bgc": "#17281C"
       },
       {
         "at": "1#2",
@@ -142,7 +149,8 @@
             "at": "team"
           }
         ],
-        "bg": "bg/rail-switch.png"
+        "bg": "bg/rail-switch.png",
+        "bgc": "#0B6E4F"
       },
       {
         "at": "2",
@@ -170,7 +178,8 @@
             "at": "next"
           }
         ],
-        "bg": "bg/sorting.png"
+        "bg": "bg/sorting.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "3#2",
@@ -198,7 +207,8 @@
             "at": "fine"
           }
         ],
-        "bg": "bg/speed-tunnel.png"
+        "bg": "bg/speed-tunnel.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Low",
@@ -225,7 +235,8 @@
           "x": 830,
           "y": 1110
         },
-        "bg": "bg/control-room.png"
+        "bg": "bg/control-room.png",
+        "bgc": "#0B6E4F"
       },
       {
         "at": "The chat",
@@ -249,7 +260,8 @@
           "x": 560,
           "y": 830
         },
-        "bg": "bg/control-room.png"
+        "bg": "bg/control-room.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Comment",
@@ -258,7 +270,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Starter pack sent to your DMs",
-        "bg": "bg/rail-switch.png"
+        "bg": "bg/rail-switch.png",
+        "bgc": "#17281C"
       }
     ],
     "bgLogos": [
@@ -299,10 +312,10 @@
         "at": "milliseconds.",
         "kind": "burst",
         "text": "100 MS",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "Chat"
@@ -320,10 +333,10 @@
         "at": "blink.",
         "kind": "burst",
         "text": "BLINK",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#9CCAA0",
         "rot": 10,
         "until": "Low"

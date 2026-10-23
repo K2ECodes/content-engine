@@ -28,11 +28,11 @@
   {
    "w": "30,000",
    "start": 1.32,
-   "end": 2.08
+   "end": 2.06
   },
   {
    "w": "staff.",
-   "start": 2.08,
+   "start": 2.06,
    "end": 2.38
   },
   {
@@ -112,7 +112,7 @@
   },
   {
    "w": "start",
-   "start": 7.02,
+   "start": 7.0,
    "end": 7.32
   },
   {
@@ -243,11 +243,11 @@
   {
    "w": "Hand",
    "start": 14.58,
-   "end": 14.82
+   "end": 14.84
   },
   {
    "w": "it",
-   "start": 14.82,
+   "start": 14.84,
    "end": 14.96
   },
   {
@@ -328,11 +328,11 @@
   {
    "w": "AI",
    "start": 19.6,
-   "end": 19.98
+   "end": 19.96
   },
   {
    "w": "engineers",
-   "start": 19.98,
+   "start": 19.96,
    "end": 20.28
   },
   {
@@ -368,7 +368,7 @@
   {
    "w": "work.",
    "start": 22.0,
-   "end": 22.26
+   "end": 22.28
   },
   {
    "w": "Step",
@@ -378,7 +378,7 @@
   {
    "w": "3,",
    "start": 22.74,
-   "end": 23.04
+   "end": 23.06
   },
   {
    "w": "automate",
@@ -442,12 +442,12 @@
   },
   {
    "w": "Buying",
-   "start": 28.38,
-   "end": 29.16
+   "start": 28.8,
+   "end": 29.18
   },
   {
    "w": "licenses",
-   "start": 29.16,
+   "start": 29.18,
    "end": 29.54
   },
   {
@@ -473,11 +473,11 @@
   {
    "w": "isn't",
    "start": 30.56,
-   "end": 31.06
+   "end": 31.04
   },
   {
    "w": "a",
-   "start": 31.06,
+   "start": 31.04,
    "end": 31.06
   },
   {
@@ -487,12 +487,12 @@
   },
   {
    "w": "It's",
-   "start": 31.7,
-   "end": 31.86
+   "start": 31.76,
+   "end": 31.84
   },
   {
    "w": "how",
-   "start": 31.86,
+   "start": 31.84,
    "end": 31.96
   },
   {
@@ -523,72 +523,72 @@
   {
    "w": "Content",
    "start": 33.18,
-   "end": 34.01
+   "end": 33.94
   },
   {
    "w": "Systems.ai.",
-   "start": 34.01,
-   "end": 34.84
+   "start": 33.94,
+   "end": 34.7
   },
   {
    "w": "Bring",
-   "start": 35.22,
-   "end": 35.36
+   "start": 35.28,
+   "end": 35.56
   },
   {
    "w": "your",
-   "start": 35.36,
-   "end": 35.5
+   "start": 35.56,
+   "end": 35.7
   },
   {
    "w": "biggest",
-   "start": 35.5,
-   "end": 35.82
+   "start": 35.7,
+   "end": 35.98
   },
   {
    "w": "bottleneck",
-   "start": 35.82,
-   "end": 36.4
+   "start": 35.98,
+   "end": 36.54
   },
   {
    "w": "to",
-   "start": 36.4,
-   "end": 36.52
+   "start": 36.54,
+   "end": 36.66
   },
   {
    "w": "our",
-   "start": 36.52,
-   "end": 36.62
+   "start": 36.66,
+   "end": 36.76
   },
   {
    "w": "free",
-   "start": 36.62,
-   "end": 36.84
+   "start": 36.76,
+   "end": 36.98
   },
   {
    "w": "office",
-   "start": 36.84,
-   "end": 37.1
+   "start": 36.98,
+   "end": 37.26
   },
   {
    "w": "hours.",
-   "start": 37.1,
-   "end": 37.38
+   "start": 37.26,
+   "end": 37.54
   },
   {
    "w": "Link",
-   "start": 37.76,
-   "end": 37.96
-  },
-  {
-   "w": "in",
    "start": 37.96,
    "end": 38.08
   },
   {
-   "w": "bio.",
+   "w": "in",
    "start": 38.08,
-   "end": 38.3
+   "end": 38.2
+  },
+  {
+   "w": "bio.",
+   "start": 38.2,
+   "end": 38.44
   }
  ],
  "text": "Uber just gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it. Step 1, start small. Uber ran a pilot with about 1,000 people, and 8 in 10 of them weren't engineers. So don't hand AI to your tech person. Hand it to ops. Step 2, sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work. Step 3, automate that first. Data reports, training in new languages, dashboards. Then scale. Buying licenses and sending a login isn't a rollout. It's how we roll out AI at Content Systems.ai. Bring your biggest bottleneck to our free office hours. Link in bio."

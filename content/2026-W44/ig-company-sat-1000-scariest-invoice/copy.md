@@ -26,3 +26,4 @@ Animated explainer that flips between dark green and cream. Carrier logos slam d
 - Halloween is a light hook only (the 1 Halloween post this week). Different angle from the W43 invoice-gap video: peak-specific fees and a daily (not month-end) check.
 - CTA: calculator, contentsystems.ai/logistics (link in bio).
 - Scene backgrounds (per-scene `bg`): bg/spooky.png, bg/conveyor.png, generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images.
+- Re-voiced 2026-10-23 with the corrected pronunciation ("Kuhn-tent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).

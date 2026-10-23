@@ -25,7 +25,8 @@
         "url": "openai.com",
         "h": 690,
         "pan": 0,
-        "bg": "bg/datacenter.png"
+        "bg": "bg/datacenter.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Yes",
@@ -35,7 +36,8 @@
         "name": "Sundar Pichai",
         "role": "Google CEO",
         "bg": "bg/cloud-towers.png",
-        "color": "#8AB4F8"
+        "color": "#8AB4F8",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "OpenAI's#2",
@@ -45,7 +47,8 @@
         "name": "Sam Altman",
         "role": "OpenAI CEO",
         "bg": "bg/datacenter.png",
-        "color": "#10A37F"
+        "color": "#10A37F",
+        "bgc": "#F2B705"
       },
       {
         "at": "Cloud's",
@@ -56,7 +59,8 @@
         "h": 680,
         "pan": 15,
         "caption": "200+ models in 1 place",
-        "bg": "bg/datacenter.png"
+        "bg": "bg/datacenter.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Companies",
@@ -77,7 +81,8 @@
             "at": "gemini#2"
           }
         ],
-        "bg": "bg/cloud-towers.png"
+        "bg": "bg/cloud-towers.png",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "Microsoft",
@@ -88,14 +93,16 @@
         "h": 381,
         "pan": 10,
         "caption": "Microsoft is still the main partner",
-        "bg": "bg/cloud-towers.png"
+        "bg": "bg/cloud-towers.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "So",
         "world": "dark",
         "type": "word",
         "text": "MENU",
-        "bg": "bg/menu-wall.png"
+        "bg": "bg/menu-wall.png",
+        "bgc": "#17281C"
       },
       {
         "at": "You'll",
@@ -122,7 +129,8 @@
             "at": "company"
           }
         ],
-        "bg": "bg/menu-wall.png"
+        "bg": "bg/menu-wall.png",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "Rivals",
@@ -130,7 +138,8 @@
         "type": "stat",
         "value": "Rivals",
         "label": "on stage, partners in the cloud",
-        "bg": "bg/boxing-ring.png"
+        "bg": "bg/boxing-ring.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Would",
@@ -151,7 +160,8 @@
             "at": "inside"
           }
         ],
-        "bg": "bg/boxing-ring.png"
+        "bg": "bg/boxing-ring.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Comment",
@@ -160,7 +170,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Sent: your free AI starter pack",
-        "bg": "bg/datacenter.png"
+        "bg": "bg/datacenter.png",
+        "bgc": "#2D5BE3"
       }
     ],
     "heygen": {
@@ -205,16 +216,16 @@
         "y": 250,
         "w": 160,
         "rot": 8,
-        "until": "Here's"
+        "until": "Yes"
       },
       {
-        "at": "Google,",
+        "at": "Google#2",
         "kind": "burst",
         "text": "GOOGLE?",
-        "x": 690,
-        "y": 290,
-        "w": 270,
-        "size": 40,
+        "x": 40,
+        "y": 1230,
+        "w": 250,
+        "size": 38,
         "color": "#FFE066",
         "rot": -10,
         "until": "Here's"

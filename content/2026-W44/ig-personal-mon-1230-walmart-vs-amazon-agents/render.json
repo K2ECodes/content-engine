@@ -19,7 +19,8 @@
         "url": "techcrunch.com",
         "caption": "Walmart: AI agents welcome",
         "h": 980,
-        "pan": 120
+        "pan": 120,
+        "bgc": "#17281C"
       },
       {
         "at": "Amazon",
@@ -29,7 +30,8 @@
         "right": "amazon",
         "ltag": "LETS AI SHOP",
         "rtag": "BLOCKS AI",
-        "bg": "bg/arena.png"
+        "bg": "bg/arena.png",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "Walmart#2",
@@ -39,7 +41,8 @@
         "name": "John Furner",
         "role": "Walmart CEO",
         "bg": "bg/aisle.png",
-        "color": "#FFC220"
+        "color": "#FFC220",
+        "bgc": "#F2B705"
       },
       {
         "at": "assistants",
@@ -64,7 +67,8 @@
             "at": "approval"
           }
         ],
-        "bg": "bg/robot-shopper.png"
+        "bg": "bg/robot-shopper.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Amazon#2",
@@ -74,7 +78,8 @@
         "name": "Andy Jassy",
         "role": "Amazon CEO",
         "bg": "bg/gate.png",
-        "color": "#FF9900"
+        "color": "#FF9900",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "Meanwhile,",
@@ -85,7 +90,8 @@
         "caption": "Google: 1 cart, every store",
         "h": 980,
         "pan": 120,
-        "bg": "bg/phone-carts.png"
+        "bg": "bg/phone-carts.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "Meta",
@@ -96,7 +102,8 @@
         "caption": "Meta Muse: 10M+ users",
         "h": 980,
         "pan": 120,
-        "bg": "bg/phone-carts.png"
+        "bg": "bg/phone-carts.png",
+        "bgc": "#17281C"
       },
       {
         "at": "So the shopper",
@@ -105,7 +112,8 @@
         "value": "10M+",
         "label": "people asking an AI to shop",
         "foot": "Meta, Oct 2026",
-        "bg": "bg/robot-shopper.png"
+        "bg": "bg/robot-shopper.png",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "Soon",
@@ -130,7 +138,8 @@
           "x": 760,
           "y": 1150
         },
-        "bg": "bg/aisle.png"
+        "bg": "bg/aisle.png",
+        "bgc": "#F2B705"
       },
       {
         "at": "stores",
@@ -150,7 +159,8 @@
             "at": "disappear"
           }
         ],
-        "bg": "bg/gate.png"
+        "bg": "bg/gate.png",
+        "bgc": "#17281C"
       },
       {
         "at": "Walmart#3",
@@ -159,7 +169,8 @@
         "left": "walmart",
         "right": "amazon",
         "ltag": "?",
-        "rtag": "?"
+        "rtag": "?",
+        "bgc": "#2D5BE3"
       },
       {
         "at": "comment",
@@ -168,7 +179,8 @@
         "keyword": "AI",
         "prompt": "AI",
         "dm": "Starter pack sent",
-        "bg": "bg/aisle.png"
+        "bg": "bg/aisle.png",
+        "bgc": "#F2B705"
       }
     ],
     "audio": "audio/vo.wav",
@@ -254,7 +266,7 @@
         "kind": "sprite",
         "sprite": "evil-robot",
         "x": 760,
-        "y": 760,
+        "y": 600,
         "w": 220,
         "until": "Meanwhile,"
       },
@@ -292,7 +304,7 @@
         "kind": "sprite",
         "sprite": "robot",
         "x": 780,
-        "y": 760,
+        "y": 600,
         "w": 220,
         "until": "The stores"
       },
@@ -301,7 +313,7 @@
         "kind": "sprite",
         "sprite": "ghost",
         "x": 800,
-        "y": 760,
+        "y": 620,
         "w": 200,
         "until": "Walmart#3"
       },
