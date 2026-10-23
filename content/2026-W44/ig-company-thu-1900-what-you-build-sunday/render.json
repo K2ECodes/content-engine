@@ -32,7 +32,7 @@
         ],
         "bursts": [
           {
-            "text": "Sun Nov 1\n11 AM ET",
+            "text": "built\nwith you",
             "x": 400,
             "y": 780,
             "w": 250,
@@ -201,7 +201,7 @@
           "items": [
             "Given on *day 1*",
             "Same for *every 1*",
-            "Shown live on *Sunday*"
+            "Shown *live* in the workshop"
           ]
         },
         "notes": [
@@ -231,20 +231,16 @@
       {
         "world": "night",
         "headline": [
-          "Sunday,",
-          "*Nov 1*"
+          "How it",
+          "*runs*"
         ],
         "card": {
           "y": 430,
           "kind": "rows",
           "rows": [
             {
-              "k": "Time:",
-              "v": "11 AM Eastern"
-            },
-            {
-              "k": "London:",
-              "v": "4 PM"
+              "k": "Length:",
+              "v": "120 minutes"
             },
             {
               "k": "Where:",
@@ -253,13 +249,17 @@
             {
               "k": "Replay:",
               "v": "included"
+            },
+            {
+              "k": "Next date:",
+              "v": "in our bio"
             }
           ],
           "accent": true
         },
         "notes": [
           {
-            "text": "clocks go back\n1 hour that day",
+            "text": "comment WORKSHOP\nfor the details",
             "x": 300,
             "y": 815,
             "w": 480
@@ -286,20 +286,20 @@
       {
         "world": "sunset",
         "headline": [
-          "Save your seat",
-          "for *Sunday*"
+          "Want in on",
+          "the *next 1*?"
         ],
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "LINK IN BIO",
+          "keyword": "WORKSHOP",
           "y": 330,
-          "line": "Sun Nov 1, 11 AM ET",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {
-            "text": "$97 GA",
+            "text": "LIVE",
             "x": 860,
             "y": 100,
             "w": 190,

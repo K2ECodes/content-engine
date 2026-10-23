@@ -7,8 +7,8 @@
       {
         "world": "neon",
         "headline": [
-          "We go live at",
-          "*11 AM Eastern*"
+          "Who answers",
+          "*your 2 AM lead?*"
         ],
         "underline": false,
         "collage": [
@@ -33,7 +33,7 @@
         ],
         "bursts": [
           {
-            "text": "4 PM UK\n5 PM Berlin",
+            "text": "LIVE\nON ZOOM",
             "x": 10,
             "y": 500,
             "w": 230,
@@ -51,7 +51,7 @@
             "rot": 10
           },
           {
-            "text": "clocks\nback 1 hr",
+            "text": "replay\nincluded",
             "x": 860,
             "y": 120,
             "w": 180,
@@ -61,10 +61,10 @@
           }
         ],
         "cta": {
-          "keyword": "LINK IN BIO",
+          "keyword": "WORKSHOP",
           "y": 585,
-          "line": "build 2 AI employees live",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "sprites": [
           {

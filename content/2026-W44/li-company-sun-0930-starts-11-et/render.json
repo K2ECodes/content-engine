@@ -7,20 +7,20 @@
       {
         "world": "day",
         "headline": [
-          "We go live at",
-          "*11 AM Eastern*"
+          "2 AI employees",
+          "*in 120 minutes*"
         ],
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "SAVE A SEAT",
+          "keyword": "WORKSHOP",
           "y": 300,
-          "line": "2 AI employees by 1 PM ET",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {
-            "text": "TODAY",
+            "text": "LIVE",
             "x": 700,
             "y": 770,
             "w": 210,

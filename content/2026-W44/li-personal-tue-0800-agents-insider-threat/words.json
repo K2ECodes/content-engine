@@ -51,13 +51,13 @@
    "end": 2.72
   },
   {
-   "w": "threats.",
+   "w": "threats,",
    "start": 2.72,
    "end": 3.08
   },
   {
-   "w": "And",
-   "start": 3.48,
+   "w": "and",
+   "start": 3.38,
    "end": 3.56
   },
   {
@@ -78,11 +78,11 @@
   {
    "w": "see",
    "start": 4.14,
-   "end": 4.3
+   "end": 4.32
   },
   {
    "w": "make",
-   "start": 4.3,
+   "start": 4.32,
    "end": 4.6
   },
   {
@@ -112,7 +112,7 @@
   },
   {
    "w": "Someone",
-   "start": 6.44,
+   "start": 6.46,
    "end": 6.66
   },
   {
@@ -151,13 +151,13 @@
    "end": 8.2
   },
   {
-   "w": "system",
+   "w": "system,",
    "start": 8.2,
    "end": 8.58
   },
   {
    "w": "and",
-   "start": 8.64,
+   "start": 8.66,
    "end": 8.72
   },
   {
@@ -172,7 +172,7 @@
   },
   {
    "w": "all",
-   "start": 9.22,
+   "start": 9.2,
    "end": 9.52
   },
   {
@@ -188,15 +188,15 @@
   {
    "w": "master",
    "start": 9.84,
-   "end": 10.1
+   "end": 10.12
   },
   {
    "w": "key.",
-   "start": 10.1,
+   "start": 10.12,
    "end": 10.34
   },
   {
-   "w": "Now",
+   "w": "Now,",
    "start": 10.64,
    "end": 10.74
   },
@@ -232,7 +232,7 @@
   },
   {
    "w": "Satya",
-   "start": 12.8,
+   "start": 12.76,
    "end": 13.06
   },
   {
@@ -243,20 +243,20 @@
   {
    "w": "said",
    "start": 13.38,
-   "end": 13.56
+   "end": 13.58
   },
   {
    "w": "it",
-   "start": 13.56,
+   "start": 13.58,
    "end": 13.7
   },
   {
-   "w": "plainly.",
+   "w": "plainly,",
    "start": 13.7,
-   "end": 14.08
+   "end": 14.1
   },
   {
-   "w": "Separate",
+   "w": "separate",
    "start": 14.54,
    "end": 14.78
   },
@@ -268,11 +268,11 @@
   {
    "w": "supply",
    "start": 15.04,
-   "end": 15.32
+   "end": 15.34
   },
   {
    "w": "of",
-   "start": 15.32,
+   "start": 15.34,
    "end": 15.48
   },
   {
@@ -313,21 +313,21 @@
   {
    "w": "here's",
    "start": 17.38,
-   "end": 17.6
+   "end": 17.62
   },
   {
    "w": "how",
-   "start": 17.6,
-   "end": 17.74
+   "start": 17.62,
+   "end": 17.72
   },
   {
    "w": "I",
-   "start": 17.74,
-   "end": 17.86
+   "start": 17.72,
+   "end": 17.84
   },
   {
    "w": "build",
-   "start": 17.86,
+   "start": 17.84,
    "end": 18.02
   },
   {
@@ -338,16 +338,16 @@
   {
    "w": "Content",
    "start": 18.16,
-   "end": 18.71
+   "end": 18.655
   },
   {
    "w": "Systems.ai.",
-   "start": 18.71,
+   "start": 18.655,
    "end": 19.26
   },
   {
    "w": "Each",
-   "start": 19.7,
+   "start": 19.72,
    "end": 19.92
   },
   {
@@ -393,193 +393,233 @@
   {
    "w": "gets",
    "start": 22.06,
-   "end": 22.22
+   "end": 22.18
   },
   {
    "w": "its",
-   "start": 22.22,
-   "end": 22.32
+   "start": 22.18,
+   "end": 22.3
   },
   {
    "w": "own",
-   "start": 22.32,
-   "end": 22.46
+   "start": 22.3,
+   "end": 22.44
   },
   {
    "w": "key.",
-   "start": 22.46,
+   "start": 22.44,
    "end": 22.7
   },
   {
    "w": "And",
-   "start": 23.16,
-   "end": 23.36
+   "start": 23.04,
+   "end": 23.24
   },
   {
    "w": "a",
-   "start": 23.36,
-   "end": 23.44
+   "start": 23.24,
+   "end": 23.34
   },
   {
    "w": "person",
-   "start": 23.44,
-   "end": 23.66
+   "start": 23.34,
+   "end": 23.52
   },
   {
    "w": "approves",
-   "start": 23.66,
-   "end": 24.02
+   "start": 23.52,
+   "end": 23.92
   },
   {
    "w": "anything",
-   "start": 24.02,
-   "end": 24.34
+   "start": 23.92,
+   "end": 24.26
   },
   {
    "w": "that",
-   "start": 24.34,
-   "end": 24.62
+   "start": 24.26,
+   "end": 24.56
   },
   {
    "w": "goes",
-   "start": 24.62,
-   "end": 24.78
+   "start": 24.56,
+   "end": 24.72
   },
   {
    "w": "out.",
-   "start": 24.78,
-   "end": 24.98
+   "start": 24.72,
+   "end": 24.96
   },
   {
    "w": "Emails,",
-   "start": 25.34,
-   "end": 25.66
+   "start": 25.36,
+   "end": 25.76
   },
   {
    "w": "refunds,",
    "start": 26.06,
-   "end": 26.62
+   "end": 26.7
   },
   {
    "w": "payments.",
-   "start": 26.66,
-   "end": 26.9
+   "start": 26.84,
+   "end": 27.08
   },
   {
-   "w": "On",
-   "start": 27.4,
+   "w": "In",
+   "start": 27.54,
    "end": 27.66
   },
   {
-   "w": "Sunday,",
+   "w": "my",
    "start": 27.66,
-   "end": 28.0
-  },
-  {
-   "w": "I'm",
-   "start": 28.38,
-   "end": 28.5
-  },
-  {
-   "w": "building",
-   "start": 28.5,
-   "end": 28.66
-  },
-  {
-   "w": "an",
-   "start": 28.66,
-   "end": 28.82
-  },
-  {
-   "w": "AI",
-   "start": 28.82,
-   "end": 29.08
-  },
-  {
-   "w": "employee",
-   "start": 29.08,
-   "end": 29.4
+   "end": 27.8
   },
   {
    "w": "live",
-   "start": 29.4,
-   "end": 29.78
+   "start": 27.8,
+   "end": 28.0
   },
   {
-   "w": "with",
-   "start": 29.78,
-   "end": 30.04
+   "w": "workshop,",
+   "start": 28.0,
+   "end": 28.4
   },
   {
-   "w": "these",
-   "start": 30.04,
-   "end": 30.18
+   "w": "I",
+   "start": 28.6,
+   "end": 28.66
   },
   {
-   "w": "exact",
-   "start": 30.18,
-   "end": 30.52
+   "w": "build",
+   "start": 28.66,
+   "end": 28.8
   },
   {
-   "w": "rules.",
-   "start": 30.52,
-   "end": 30.88
-  },
-  {
-   "w": "Join",
-   "start": 31.26,
-   "end": 31.52
-  },
-  {
-   "w": "me",
-   "start": 31.52,
-   "end": 31.68
-  },
-  {
-   "w": "at",
-   "start": 31.68,
-   "end": 31.78
-  },
-  {
-   "w": "the",
-   "start": 31.78,
-   "end": 31.86
+   "w": "an",
+   "start": 28.8,
+   "end": 28.94
   },
   {
    "w": "AI",
-   "start": 31.86,
-   "end": 32.1
+   "start": 28.94,
+   "end": 29.14
   },
   {
-   "w": "Employee",
-   "start": 32.1,
-   "end": 32.38
+   "w": "employee",
+   "start": 29.14,
+   "end": 29.54
   },
   {
-   "w": "Accelerator.",
-   "start": 32.38,
-   "end": 32.78
+   "w": "with",
+   "start": 29.54,
+   "end": 29.82
   },
   {
-   "w": "It's",
+   "w": "these",
+   "start": 29.82,
+   "end": 30.04
+  },
+  {
+   "w": "exact",
+   "start": 30.04,
+   "end": 30.34
+  },
+  {
+   "w": "rules",
+   "start": 30.34,
+   "end": 30.68
+  },
+  {
+   "w": "with",
+   "start": 30.68,
+   "end": 31.28
+  },
+  {
+   "w": "you.",
+   "start": 31.28,
+   "end": 31.48
+  },
+  {
+   "w": "Want",
+   "start": 31.74,
+   "end": 32.06
+  },
+  {
+   "w": "in,",
+   "start": 32.06,
+   "end": 32.24
+  },
+  {
+   "w": "comment",
+   "start": 32.4,
+   "end": 32.68
+  },
+  {
+   "w": "workshop,",
+   "start": 32.68,
+   "end": 33.0
+  },
+  {
+   "w": "and",
+   "start": 33.24,
+   "end": 33.3
+  },
+  {
+   "w": "I'll",
    "start": 33.3,
-   "end": 33.48
+   "end": 33.4
   },
   {
-   "w": "in",
-   "start": 33.48,
+   "w": "send",
+   "start": 33.4,
    "end": 33.52
   },
   {
-   "w": "my",
+   "w": "you",
    "start": 33.52,
-   "end": 33.64
+   "end": 33.62
   },
   {
-   "w": "bio.",
-   "start": 33.64,
-   "end": 33.86
+   "w": "the",
+   "start": 33.62,
+   "end": 33.72
+  },
+  {
+   "w": "details.",
+   "start": 33.72,
+   "end": 34.04
+  },
+  {
+   "w": "The",
+   "start": 34.58,
+   "end": 34.66
+  },
+  {
+   "w": "next",
+   "start": 34.66,
+   "end": 34.8
+  },
+  {
+   "w": "date's",
+   "start": 34.8,
+   "end": 35.08
+  },
+  {
+   "w": "in",
+   "start": 35.08,
+   "end": 35.12
+  },
+  {
+   "w": "my",
+   "start": 35.12,
+   "end": 35.22
+  },
+  {
+   "w": "profile.",
+   "start": 35.22,
+   "end": 35.48
   }
  ],
- "text": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, and the bank, all with one master key. Now, one bad instruction can touch everything. Satya Nadella said it plainly, separate the supply of intelligence from the authority over it. So here's how I build at contentsystems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out, emails, refunds, payments. On Sunday, I'm building an AI employee live with these exact rules. Join me at the AI employee accelerator. It's in my bio."
+ "text": "Microsoft just told companies to treat AI agents like insider threats, and most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, and the bank, all with 1 master key. Now, 1 bad instruction can touch everything. Satya Nadella said it plainly, separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. In my live workshop, I build an AI employee with these exact rules with you. Want in, comment workshop, and I'll send you the details. The next date's in my profile."
 }

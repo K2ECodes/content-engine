@@ -197,7 +197,7 @@
             },
             {
               "k": "Reveal:",
-              "v": "Sunday, live"
+              "v": "in the workshop"
             }
           ]
         },
@@ -240,7 +240,7 @@
             },
             {
               "h": "? ? ?",
-              "p": "you'll see Sunday",
+              "p": "you'll see it live",
               "hi": true
             }
           ],
@@ -325,19 +325,19 @@
         "world": "neon",
         "headline": [
           "Build 2 with me",
-          "*live on Sunday*"
+          "*in our workshop*"
         ],
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "SUN 11AM ET",
+          "keyword": "WORKSHOP",
           "y": 300,
-          "line": "Nov 1 on Zoom, link in bio",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {
-            "text": "$97 GA\n$197 VIP",
+            "text": "LIVE",
             "x": 865,
             "y": 505,
             "w": 180,

@@ -7,29 +7,29 @@
       {
         "world": "night",
         "headline": [
-          "Live today at",
-          "*11 AM Eastern*"
+          "Who answers",
+          "*your 2 AM lead?*"
         ],
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "GRAB A SEAT",
+          "keyword": "WORKSHOP",
           "y": 300,
-          "line": "you leave with 2 AI employees",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {
-            "text": "8AM PT\n4PM UK\n5PM BERLIN",
+            "text": "LIVE\nON ZOOM",
             "x": 700,
             "y": 770,
             "w": 210,
-            "size": 30,
+            "size": 38,
             "color": "#3FF2FF",
             "rot": 12
           },
           {
-            "text": "CLOCKS\nWENT BACK",
+            "text": "REPLAY\nINCLUDED",
             "x": 170,
             "y": 770,
             "w": 210,

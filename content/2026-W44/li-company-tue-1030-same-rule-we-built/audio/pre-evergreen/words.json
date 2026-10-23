@@ -1,0 +1,645 @@
+{
+ "words": [
+  {
+   "w": "4",
+   "start": 0.05,
+   "end": 0.49
+  },
+  {
+   "w": "of",
+   "start": 0.49,
+   "end": 0.61
+  },
+  {
+   "w": "the",
+   "start": 0.61,
+   "end": 0.71
+  },
+  {
+   "w": "biggest",
+   "start": 0.71,
+   "end": 0.95
+  },
+  {
+   "w": "names",
+   "start": 0.95,
+   "end": 1.21
+  },
+  {
+   "w": "in",
+   "start": 1.21,
+   "end": 1.39
+  },
+  {
+   "w": "tech",
+   "start": 1.39,
+   "end": 1.61
+  },
+  {
+   "w": "shipped",
+   "start": 1.61,
+   "end": 1.93
+  },
+  {
+   "w": "the",
+   "start": 1.93,
+   "end": 2.13
+  },
+  {
+   "w": "same",
+   "start": 2.13,
+   "end": 2.41
+  },
+  {
+   "w": "AI",
+   "start": 2.41,
+   "end": 2.69
+  },
+  {
+   "w": "rule",
+   "start": 2.69,
+   "end": 2.95
+  },
+  {
+   "w": "this",
+   "start": 2.95,
+   "end": 3.13
+  },
+  {
+   "w": "month.",
+   "start": 3.13,
+   "end": 3.37
+  },
+  {
+   "w": "Here's",
+   "start": 3.61,
+   "end": 3.83
+  },
+  {
+   "w": "what",
+   "start": 3.83,
+   "end": 3.93
+  },
+  {
+   "w": "each",
+   "start": 3.93,
+   "end": 4.05
+  },
+  {
+   "w": "one",
+   "start": 4.05,
+   "end": 4.19
+  },
+  {
+   "w": "teaches",
+   "start": 4.19,
+   "end": 4.43
+  },
+  {
+   "w": "you.",
+   "start": 4.43,
+   "end": 4.65
+  },
+  {
+   "w": "Anthropic's",
+   "start": 4.93,
+   "end": 5.41
+  },
+  {
+   "w": "new",
+   "start": 5.41,
+   "end": 5.53
+  },
+  {
+   "w": "assistant",
+   "start": 5.53,
+   "end": 5.87
+  },
+  {
+   "w": "asks",
+   "start": 5.87,
+   "end": 6.29
+  },
+  {
+   "w": "before",
+   "start": 6.29,
+   "end": 6.57
+  },
+  {
+   "w": "it",
+   "start": 6.57,
+   "end": 6.75
+  },
+  {
+   "w": "pays.",
+   "start": 6.75,
+   "end": 6.93
+  },
+  {
+   "w": "So",
+   "start": 7.41,
+   "end": 7.51
+  },
+  {
+   "w": "money",
+   "start": 7.51,
+   "end": 7.71
+  },
+  {
+   "w": "going",
+   "start": 7.71,
+   "end": 7.93
+  },
+  {
+   "w": "out",
+   "start": 7.93,
+   "end": 8.21
+  },
+  {
+   "w": "always",
+   "start": 8.21,
+   "end": 8.69
+  },
+  {
+   "w": "needs",
+   "start": 8.69,
+   "end": 8.97
+  },
+  {
+   "w": "a",
+   "start": 8.97,
+   "end": 9.11
+  },
+  {
+   "w": "yes.",
+   "start": 9.11,
+   "end": 9.31
+  },
+  {
+   "w": "Walmart",
+   "start": 9.69,
+   "end": 9.97
+  },
+  {
+   "w": "lets",
+   "start": 9.97,
+   "end": 10.25
+  },
+  {
+   "w": "shoppers",
+   "start": 10.25,
+   "end": 10.63
+  },
+  {
+   "w": "set",
+   "start": 10.63,
+   "end": 10.81
+  },
+  {
+   "w": "a",
+   "start": 10.81,
+   "end": 10.91
+  },
+  {
+   "w": "spending",
+   "start": 10.91,
+   "end": 11.17
+  },
+  {
+   "w": "limit",
+   "start": 11.17,
+   "end": 11.45
+  },
+  {
+   "w": "for",
+   "start": 11.45,
+   "end": 11.65
+  },
+  {
+   "w": "an",
+   "start": 11.65,
+   "end": 11.75
+  },
+  {
+   "w": "AI.",
+   "start": 11.75,
+   "end": 11.91
+  },
+  {
+   "w": "So",
+   "start": 12.37,
+   "end": 12.51
+  },
+  {
+   "w": "routine",
+   "start": 12.51,
+   "end": 12.85
+  },
+  {
+   "w": "stuff",
+   "start": 12.85,
+   "end": 13.23
+  },
+  {
+   "w": "gets",
+   "start": 13.23,
+   "end": 13.41
+  },
+  {
+   "w": "a",
+   "start": 13.41,
+   "end": 13.55
+  },
+  {
+   "w": "limit,",
+   "start": 13.55,
+   "end": 13.73
+  },
+  {
+   "w": "not",
+   "start": 13.93,
+   "end": 14.09
+  },
+  {
+   "w": "a",
+   "start": 14.09,
+   "end": 14.19
+  },
+  {
+   "w": "meeting.",
+   "start": 14.19,
+   "end": 14.35
+  },
+  {
+   "w": "1Password",
+   "start": 14.75,
+   "end": 15.27
+  },
+  {
+   "w": "lets",
+   "start": 15.27,
+   "end": 15.55
+  },
+  {
+   "w": "AI",
+   "start": 15.55,
+   "end": 15.83
+  },
+  {
+   "w": "log",
+   "start": 15.83,
+   "end": 16.17
+  },
+  {
+   "w": "in",
+   "start": 16.17,
+   "end": 16.39
+  },
+  {
+   "w": "without",
+   "start": 16.39,
+   "end": 16.61
+  },
+  {
+   "w": "ever",
+   "start": 16.61,
+   "end": 16.93
+  },
+  {
+   "w": "seeing",
+   "start": 16.93,
+   "end": 17.15
+  },
+  {
+   "w": "the",
+   "start": 17.15,
+   "end": 17.31
+  },
+  {
+   "w": "password.",
+   "start": 17.31,
+   "end": 17.63
+  },
+  {
+   "w": "So",
+   "start": 17.99,
+   "end": 18.15
+  },
+  {
+   "w": "never",
+   "start": 18.15,
+   "end": 18.59
+  },
+  {
+   "w": "paste",
+   "start": 18.59,
+   "end": 18.93
+  },
+  {
+   "w": "passwords",
+   "start": 18.93,
+   "end": 19.41
+  },
+  {
+   "w": "into",
+   "start": 19.41,
+   "end": 19.71
+  },
+  {
+   "w": "an",
+   "start": 19.71,
+   "end": 19.83
+  },
+  {
+   "w": "AI",
+   "start": 19.83,
+   "end": 20.01
+  },
+  {
+   "w": "tool.",
+   "start": 20.01,
+   "end": 20.33
+  },
+  {
+   "w": "And",
+   "start": 20.57,
+   "end": 20.71
+  },
+  {
+   "w": "Microsoft",
+   "start": 20.71,
+   "end": 20.95
+  },
+  {
+   "w": "says",
+   "start": 20.95,
+   "end": 21.35
+  },
+  {
+   "w": "to",
+   "start": 21.35,
+   "end": 21.51
+  },
+  {
+   "w": "watch",
+   "start": 21.51,
+   "end": 21.73
+  },
+  {
+   "w": "AI",
+   "start": 21.73,
+   "end": 22.07
+  },
+  {
+   "w": "like",
+   "start": 22.07,
+   "end": 22.31
+  },
+  {
+   "w": "an",
+   "start": 22.31,
+   "end": 22.41
+  },
+  {
+   "w": "insider",
+   "start": 22.41,
+   "end": 22.77
+  },
+  {
+   "w": "with",
+   "start": 22.77,
+   "end": 22.97
+  },
+  {
+   "w": "the",
+   "start": 22.97,
+   "end": 23.07
+  },
+  {
+   "w": "keys.",
+   "start": 23.07,
+   "end": 23.31
+  },
+  {
+   "w": "So",
+   "start": 23.59,
+   "end": 23.77
+  },
+  {
+   "w": "give",
+   "start": 23.77,
+   "end": 23.91
+  },
+  {
+   "w": "each",
+   "start": 23.91,
+   "end": 24.21
+  },
+  {
+   "w": "AI",
+   "start": 24.21,
+   "end": 24.51
+  },
+  {
+   "w": "helper",
+   "start": 24.51,
+   "end": 24.81
+  },
+  {
+   "w": "only",
+   "start": 24.81,
+   "end": 25.19
+  },
+  {
+   "w": "the",
+   "start": 25.19,
+   "end": 25.37
+  },
+  {
+   "w": "access",
+   "start": 25.37,
+   "end": 25.67
+  },
+  {
+   "w": "its",
+   "start": 25.67,
+   "end": 25.89
+  },
+  {
+   "w": "job",
+   "start": 25.89,
+   "end": 26.15
+  },
+  {
+   "w": "needs.",
+   "start": 26.15,
+   "end": 26.43
+  },
+  {
+   "w": "AI",
+   "start": 26.73,
+   "end": 26.95
+  },
+  {
+   "w": "does",
+   "start": 26.95,
+   "end": 27.17
+  },
+  {
+   "w": "the",
+   "start": 27.17,
+   "end": 27.31
+  },
+  {
+   "w": "work.",
+   "start": 27.31,
+   "end": 27.53
+  },
+  {
+   "w": "A",
+   "start": 27.87,
+   "end": 27.97
+  },
+  {
+   "w": "person",
+   "start": 27.97,
+   "end": 28.21
+  },
+  {
+   "w": "owns",
+   "start": 28.21,
+   "end": 28.47
+  },
+  {
+   "w": "the",
+   "start": 28.47,
+   "end": 28.63
+  },
+  {
+   "w": "yes.",
+   "start": 28.63,
+   "end": 28.85
+  },
+  {
+   "w": "Every",
+   "start": 28.85,
+   "end": 29.41
+  },
+  {
+   "w": "system",
+   "start": 29.41,
+   "end": 29.69
+  },
+  {
+   "w": "we",
+   "start": 29.69,
+   "end": 29.85
+  },
+  {
+   "w": "build",
+   "start": 29.85,
+   "end": 30.09
+  },
+  {
+   "w": "at",
+   "start": 30.09,
+   "end": 30.21
+  },
+  {
+   "w": "Content",
+   "start": 30.21,
+   "end": 30.86
+  },
+  {
+   "w": "Systems.ai",
+   "start": 30.86,
+   "end": 31.51
+  },
+  {
+   "w": "starts",
+   "start": 31.51,
+   "end": 32.05
+  },
+  {
+   "w": "there.",
+   "start": 32.05,
+   "end": 32.35
+  },
+  {
+   "w": "We'll",
+   "start": 32.77,
+   "end": 32.91
+  },
+  {
+   "w": "set",
+   "start": 32.91,
+   "end": 33.03
+  },
+  {
+   "w": "this",
+   "start": 33.03,
+   "end": 33.21
+  },
+  {
+   "w": "up",
+   "start": 33.21,
+   "end": 33.35
+  },
+  {
+   "w": "live",
+   "start": 33.35,
+   "end": 33.55
+  },
+  {
+   "w": "this",
+   "start": 33.55,
+   "end": 33.81
+  },
+  {
+   "w": "Sunday",
+   "start": 33.81,
+   "end": 34.09
+  },
+  {
+   "w": "at",
+   "start": 34.09,
+   "end": 34.31
+  },
+  {
+   "w": "11",
+   "start": 34.31,
+   "end": 34.63
+  },
+  {
+   "w": "AM",
+   "start": 34.63,
+   "end": 35.17
+  },
+  {
+   "w": "Eastern.",
+   "start": 35.21,
+   "end": 35.49
+  },
+  {
+   "w": "It's",
+   "start": 35.77,
+   "end": 35.91
+  },
+  {
+   "w": "in",
+   "start": 35.91,
+   "end": 35.99
+  },
+  {
+   "w": "our",
+   "start": 35.99,
+   "end": 36.07
+  },
+  {
+   "w": "profile.",
+   "start": 36.07,
+   "end": 36.35
+  }
+ ],
+ "text": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday at 11 AM Eastern. It's in our profile."
+}

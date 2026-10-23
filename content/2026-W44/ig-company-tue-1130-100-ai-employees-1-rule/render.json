@@ -1,356 +1,352 @@
 {
- "template": "story",
- "data": {
-  "words": "words.json",
-  "audio": "audio/vo.wav",
-  "script": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those 4 it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio.",
-  "say": "We run on over a hundred AI employees. Not one of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But four things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those four it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at eleven A M Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio.",
-  "music": {
-   "file": "audio/music.mp3",
-   "volume": 0.1,
-   "dropAt": "Not"
-  },
-  "keys": [
-   "100",
-   "refund",
-   "rule",
-   "4",
-   "yes",
-   "alone",
-   "pays",
-   "sunday"
-  ],
-  "strikes": [
-   "own"
-  ],
-  "posterAt": 3.4,
-  "scenes": [
-   {
-    "world": "dark",
-    "type": "odometer",
-    "value": "100",
-    "suffix": "+",
-    "label": "AI employees run our company",
-    "landAt": "employees.",
-    "bg": "bg/monitors.png"
-   },
-   {
-    "at": "Not",
-    "world": "light",
-    "type": "list",
-    "title": "Refund request",
-    "badge": "Waiting",
-    "rows": [
-     {
-      "text": "AI drafted it",
-      "at": "send",
-      "chip": "Done",
-      "chipKind": "ok"
-     },
-     {
-      "text": "Send it alone?",
-      "at": "own.",
-      "chip": "Never",
-      "chipKind": "bad"
-     }
-    ],
-    "bg": "bg/monitors.png"
-   },
-   {
-    "at": "Here's",
-    "world": "dark",
-    "type": "word",
-    "text": "1 rule",
-    "bg": "bg/monitors.png"
-   },
-   {
-    "at": "Let",
-    "world": "light",
-    "type": "list",
-    "title": "AI can draft",
-    "rows": [
-     {
-      "text": "Emails, quotes, replies",
-      "at": "draft",
-      "chip": "Anything",
-      "chipKind": "ok"
-     }
-    ],
-    "bg": "bg/monitors.png"
-   },
-   {
-    "at": "But",
-    "world": "dark",
-    "type": "checklist",
-    "title": "Always waits for a yes",
-    "rows": [
-     {
-      "text": "Money going out",
-      "at": "Money"
-     },
-     {
-      "text": "A message to a customer",
-      "at": "message"
-     },
-     {
-      "text": "A quote or contract",
-      "at": "quote"
-     },
-     {
-      "text": "Deleting data",
-      "at": "Deleting"
-     }
-    ],
-    "bg": "bg/approve.png"
-   },
-   {
-    "at": "Try",
-    "world": "light",
-    "type": "list",
-    "title": "Your AI tools",
-    "badge": "Acts alone?",
-    "rows": [
-     {
-      "text": "Email helper",
-      "at": "List",
-      "chip": "Sends alone",
-      "chipKind": "bad"
-     },
-     {
-      "text": "Support bot",
-      "at": "write",
-      "chip": "Refunds alone",
-      "chipKind": "bad"
-     },
-     {
-      "text": "Add a yes step",
-      "at": "add",
-      "chip": "Fixed",
-      "chipKind": "ok"
-     }
-    ],
-    "stamp": {
-     "text": "APPROVED",
-     "kind": "ok",
-     "at": "step.",
-     "x": 420,
-     "y": 520
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "script": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those 4 it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. In our live workshop, we'll set up your first AI employee with you, with the yes built in. Want in? Comment WORKSHOP and we'll send you the details. The next date's in our bio.",
+    "say": "We run on over a hundred AI employees. Not one of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But four things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those four it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. In our live workshop, we'll set up your first AI employee with you, with the yes built in. Want in? Comment workshop and we'll send you the details. The next date's in our bio.",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.1,
+      "dropAt": "Not"
     },
-    "bg": "bg/approve.png"
-   },
-   {
-    "at": "Anthropic's",
-    "world": "dark",
-    "type": "brand",
-    "brand": "anthropic",
-    "title": "Anthropic",
-    "sub": "Its new assistant asks before it pays",
-    "bg": "bg/monitors.png"
-   },
-   {
-    "at": "This Sunday",
-    "world": "light",
-    "type": "list",
-    "title": "The AI Employee Accelerator",
-    "rows": [
-     {
-      "text": "Sunday, Nov 1",
-      "at": "Sunday",
-      "val": "11 AM ET"
-     },
-     {
-      "text": "Your first AI employee",
-      "at": "set",
-      "chip": "Live",
-      "chipKind": "ok"
-     },
-     {
-      "text": "The yes",
-      "at": "built",
-      "chip": "Built in",
-      "chipKind": "ok"
-     }
+    "keys": [
+      "100",
+      "refund",
+      "rule",
+      "4",
+      "yes",
+      "alone",
+      "pays",
+      "workshop"
     ],
-    "bg": "bg/approve.png"
-   },
-   {
-    "at": "It's in",
-    "world": "dark",
-    "type": "word",
-    "text": "In our bio",
-    "bg": "bg/monitors.png"
-   }
-  ],
-  "bgLogos": [
-   "anthropic",
-   "claude",
-   "anthropic",
-   "claude",
-   "anthropic"
-  ],
-  "pops": [
-   {
-    "at": "We",
-    "kind": "logo",
-    "brand": "claude",
-    "x": 40,
-    "y": 420,
-    "w": 160,
-    "rot": -8,
-    "until": "Here's",
-    "bare": true
-   },
-   {
-    "at": "run",
-    "kind": "logo",
-    "brand": "anthropic",
-    "x": 860,
-    "y": 430,
-    "w": 140,
-    "rot": 8,
-    "until": "Here's"
-   },
-   {
-    "at": "AI",
-    "kind": "logo",
-    "brand": "openai",
-    "x": 60,
-    "y": 640,
-    "w": 160,
-    "rot": 6,
-    "until": "Here's",
-    "bare": true
-   },
-   {
-    "at": "employees.",
-    "kind": "logo",
-    "brand": "slack",
-    "x": 860,
-    "y": 640,
-    "w": 140,
-    "rot": -6,
-    "until": "Here's"
-   },
-   {
-    "at": "draft",
-    "kind": "sprite",
-    "sprite": "robot",
-    "x": 850,
-    "y": 250,
-    "w": 160,
-    "until": "But"
-   },
-   {
-    "at": "pays.",
-    "kind": "logo",
-    "brand": "claude",
-    "x": 60,
-    "y": 250,
-    "w": 160,
-    "rot": -8,
-    "until": "Sunday"
-   },
-   {
-    "at": "refund",
-    "kind": "burst",
-    "text": "REFUND?",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#F26B1D",
-    "rot": -8,
-    "until": "Here's"
-   },
-   {
-    "at": "step.",
-    "kind": "burst",
-    "text": "YES STEP",
-    "x": 800,
-    "y": 290,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": 10,
-    "until": "Anthropic's"
-   }
-  ],
-  "branded": true,
-  "coldOpen": {
-   "until": "Here's",
-   "set": "office",
-   "titles": [
-    {
-     "text": [
-      "We run on",
-      "*100+ AI employees.*"
-     ]
-    },
-    {
-     "at": "Not",
-     "text": [
-      "Not 1 can send",
-      "*a refund alone.*"
-     ]
+    "strikes": [
+      "own"
+    ],
+    "posterAt": 3.4,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "100",
+        "suffix": "+",
+        "label": "AI employees run our company",
+        "landAt": "employees.",
+        "bg": "bg/monitors.png"
+      },
+      {
+        "at": "Not",
+        "world": "light",
+        "type": "list",
+        "title": "Refund request",
+        "badge": "Waiting",
+        "rows": [
+          {
+            "text": "AI drafted it",
+            "at": "send",
+            "chip": "Done",
+            "chipKind": "ok"
+          },
+          {
+            "text": "Send it alone?",
+            "at": "own.",
+            "chip": "Never",
+            "chipKind": "bad"
+          }
+        ],
+        "bg": "bg/monitors.png"
+      },
+      {
+        "at": "Here's",
+        "world": "dark",
+        "type": "word",
+        "text": "1 rule",
+        "bg": "bg/monitors.png"
+      },
+      {
+        "at": "Let",
+        "world": "light",
+        "type": "list",
+        "title": "AI can draft",
+        "rows": [
+          {
+            "text": "Emails, quotes, replies",
+            "at": "draft",
+            "chip": "Anything",
+            "chipKind": "ok"
+          }
+        ],
+        "bg": "bg/monitors.png"
+      },
+      {
+        "at": "But",
+        "world": "dark",
+        "type": "checklist",
+        "title": "Always waits for a yes",
+        "rows": [
+          {
+            "text": "Money going out",
+            "at": "Money"
+          },
+          {
+            "text": "A message to a customer",
+            "at": "message"
+          },
+          {
+            "text": "A quote or contract",
+            "at": "quote"
+          },
+          {
+            "text": "Deleting data",
+            "at": "Deleting"
+          }
+        ],
+        "bg": "bg/approve.png"
+      },
+      {
+        "at": "Try",
+        "world": "light",
+        "type": "list",
+        "title": "Your AI tools",
+        "badge": "Acts alone?",
+        "rows": [
+          {
+            "text": "Email helper",
+            "at": "List",
+            "chip": "Sends alone",
+            "chipKind": "bad"
+          },
+          {
+            "text": "Support bot",
+            "at": "write",
+            "chip": "Refunds alone",
+            "chipKind": "bad"
+          },
+          {
+            "text": "Add a yes step",
+            "at": "add",
+            "chip": "Fixed",
+            "chipKind": "ok"
+          }
+        ],
+        "stamp": {
+          "text": "APPROVED",
+          "kind": "ok",
+          "at": "step.",
+          "x": 420,
+          "y": 520
+        },
+        "bg": "bg/approve.png"
+      },
+      {
+        "at": "Anthropic's",
+        "world": "dark",
+        "type": "brand",
+        "brand": "anthropic",
+        "title": "Anthropic",
+        "sub": "Its new assistant asks before it pays",
+        "bg": "bg/monitors.png"
+      },
+      {
+        "at": "In our",
+        "world": "light",
+        "type": "list",
+        "title": "Our live AI workshop",
+        "rows": [
+          {
+            "text": "Your first AI employee",
+            "at": "set",
+            "chip": "Live",
+            "chipKind": "ok"
+          },
+          {
+            "text": "The yes",
+            "at": "built",
+            "chip": "Built in",
+            "chipKind": "ok"
+          }
+        ],
+        "bg": "bg/approve.png"
+      },
+      {
+        "at": "Want",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "WORKSHOP",
+        "dm": "Next date in our bio",
+        "bg": "bg/monitors.png"
+      }
+    ],
+    "bgLogos": [
+      "anthropic",
+      "claude",
+      "anthropic",
+      "claude",
+      "anthropic"
+    ],
+    "pops": [
+      {
+        "at": "We",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 40,
+        "y": 420,
+        "w": 160,
+        "rot": -8,
+        "until": "Here's",
+        "bare": true
+      },
+      {
+        "at": "run",
+        "kind": "logo",
+        "brand": "anthropic",
+        "x": 860,
+        "y": 430,
+        "w": 140,
+        "rot": 8,
+        "until": "Here's"
+      },
+      {
+        "at": "AI",
+        "kind": "logo",
+        "brand": "openai",
+        "x": 60,
+        "y": 640,
+        "w": 160,
+        "rot": 6,
+        "until": "Here's",
+        "bare": true
+      },
+      {
+        "at": "employees.",
+        "kind": "logo",
+        "brand": "slack",
+        "x": 860,
+        "y": 640,
+        "w": 140,
+        "rot": -6,
+        "until": "Here's"
+      },
+      {
+        "at": "draft",
+        "kind": "sprite",
+        "sprite": "robot",
+        "x": 850,
+        "y": 250,
+        "w": 160,
+        "until": "But"
+      },
+      {
+        "at": "pays.",
+        "kind": "logo",
+        "brand": "claude",
+        "x": 60,
+        "y": 250,
+        "w": 160,
+        "rot": -8,
+        "until": "In our"
+      },
+      {
+        "at": "refund",
+        "kind": "burst",
+        "text": "REFUND?",
+        "x": 40,
+        "y": 590,
+        "w": 230,
+        "size": 50,
+        "color": "#F26B1D",
+        "rot": -8,
+        "until": "Here's"
+      },
+      {
+        "at": "step.",
+        "kind": "burst",
+        "text": "YES STEP",
+        "x": 800,
+        "y": 290,
+        "w": 230,
+        "size": 50,
+        "color": "#E8B84B",
+        "rot": 10,
+        "until": "Anthropic's"
+      }
+    ],
+    "branded": true,
+    "coldOpen": {
+      "until": "Here's",
+      "set": "office",
+      "titles": [
+        {
+          "text": [
+            "We run on",
+            "*100+ AI employees.*"
+          ]
+        },
+        {
+          "at": "Not",
+          "text": [
+            "Not 1 can send",
+            "*a refund alone.*"
+          ]
+        }
+      ],
+      "accent": [
+        "100+",
+        "own."
+      ],
+      "actors": [
+        {
+          "thing": "crowd",
+          "brand": "claude",
+          "n": 6,
+          "x": 500,
+          "y": 470,
+          "scale": 1.15,
+          "z": -1
+        },
+        {
+          "brand": "claude",
+          "x": 250,
+          "y": 660
+        },
+        {
+          "thing": "button",
+          "text": "REFUND",
+          "x": 760,
+          "scale": 1.25,
+          "y": 660
+        }
+      ],
+      "beats": [
+        {
+          "at": "100+",
+          "actor": 0,
+          "do": "celebrate"
+        },
+        {
+          "at": "Not",
+          "actor": 1,
+          "do": "sneak",
+          "from": "left"
+        },
+        {
+          "at": "send",
+          "actor": 1,
+          "do": "point",
+          "dir": "right"
+        },
+        {
+          "at": "refund",
+          "actor": 2,
+          "do": "shake",
+          "say": "Needs a yes"
+        },
+        {
+          "at": "own.",
+          "actor": 1,
+          "do": "sad"
+        }
+      ]
     }
-   ],
-   "accent": [
-    "100+",
-    "own."
-   ],
-   "actors": [
-    {
-     "thing": "crowd",
-     "brand": "claude",
-     "n": 6,
-     "x": 500,
-     "y": 470,
-     "scale": 1.15,
-     "z": -1
-    },
-    {
-     "brand": "claude",
-     "x": 250,
-     "y": 660
-    },
-    {
-     "thing": "button",
-     "text": "REFUND",
-     "x": 760,
-     "scale": 1.25,
-     "y": 660
-    }
-   ],
-   "beats": [
-    {
-     "at": "100+",
-     "actor": 0,
-     "do": "celebrate"
-    },
-    {
-     "at": "Not",
-     "actor": 1,
-     "do": "sneak",
-     "from": "left"
-    },
-    {
-     "at": "send",
-     "actor": 1,
-     "do": "point",
-     "dir": "right"
-    },
-    {
-     "at": "refund",
-     "actor": 2,
-     "do": "shake",
-     "say": "Needs a yes"
-    },
-    {
-     "at": "own.",
-     "actor": 1,
-     "do": "sad"
-    }
-   ]
   }
- }
 }

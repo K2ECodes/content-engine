@@ -41,15 +41,16 @@
     "workshop": {
       "label": "The AI Employee Accelerator, live on Zoom",
       "url": "https://contentsystems.ai/workshop",
-      "date": "2026-11-01T11:00",
+      "next_date": "2026-11-01T11:00",
       "timezone": "America/New_York",
       "price": "$97 GA, $197 VIP",
       "captures": "paid registration",
-      "share": "2 to 3 posts per channel per week while a date is open"
+      "share": "Evergreen: never put a date or time in copy or media. CTA is the comment-keyword WORKSHOP (lead post) plus 'check the link in our bio for the next date' (LinkedIn: profile).",
+      "note": "next_date is internal only (for the bio link page and DMs), never quoted in posts."
     }
   },
   "leadMagnets": {
-    "_readme": "Freebies promised by comment-keyword posts. status 'to-build' means it must exist before the post is approved.",
+    "_readme": "Freebies promised by comment-keyword posts. status 'to-build' means it must exist before the post is approved; 'manual' means there's no file, we answer the DM by hand.",
     "items": [
       {
         "keyword": "LEAKS",
@@ -207,6 +208,33 @@
         "offer": null,
         "next_step": "Follow @koredekola, comment AI for the Starter Pack",
         "note": "Sent together with the AI Employee Starter Pack on the SOPs-are-portable posts. No company selling (ig-personal rule)."
+      },
+      {
+        "keyword": "WORKSHOP",
+        "name": "Next AI workshop: details + sign-up link",
+        "delivers": "next workshop details + sign-up link",
+        "status": "manual",
+        "delivery": "sent by DM (no file); reply with the next date and the contentsystems.ai/workshop link",
+        "url": "https://contentsystems.ai/workshop",
+        "used_by": [
+          "li-personal-fri-0800-nothing-sends-without-yes",
+          "ig-company-tue-1130-100-ai-employees-1-rule",
+          "li-company-tue-1030-same-rule-we-built",
+          "li-personal-tue-0800-agents-insider-threat",
+          "li-personal-thu-0800-4-rules-live-build",
+          "ig-company-thu-1900-what-you-build-sunday",
+          "li-company-fri-1200-first-ai-helper",
+          "li-personal-sun-0900-starts-11-et",
+          "li-company-sun-0930-starts-11-et",
+          "ig-company-sun-1000-live-at-11"
+        ],
+        "channels": [
+          "li-personal",
+          "li-company",
+          "ig-company"
+        ],
+        "offer": "ai-workshops",
+        "note": "Evergreen workshop CTA (Korede, 2026-10-24): comment WORKSHOP + next date in bio; posts never mention a date."
       }
     ]
   },

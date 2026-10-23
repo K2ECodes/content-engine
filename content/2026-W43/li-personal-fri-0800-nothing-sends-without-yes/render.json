@@ -240,7 +240,7 @@
               "p": "no exceptions"
             },
             {
-              "h": "Sunday",
+              "h": "Workshop",
               "p": "see it live",
               "hi": true
             }
@@ -278,10 +278,10 @@
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "SUN 11AM ET",
+          "keyword": "WORKSHOP",
           "y": 300,
-          "line": "Nov 1 on Zoom, link in bio",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {

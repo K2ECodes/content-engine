@@ -5,8 +5,8 @@
   "pillar": "tools-vs-systems",
   "execution": "proof",
   "topic": "approval-gate",
-  "lead": false,
-  "cta_type": "workshop",
+  "lead": true,
+  "cta_type": "comment-keyword",
   "offer": "ai-workshops",
   "slot": "2026-10-27T11:30",
   "timezone": "America/New_York",
@@ -14,5 +14,6 @@
   "media": [
     "video.mp4",
     "poster.png"
-  ]
+  ],
+  "cta_keyword": "WORKSHOP"
 }

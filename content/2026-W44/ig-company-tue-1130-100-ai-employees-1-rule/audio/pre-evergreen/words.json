@@ -1,0 +1,620 @@
+{
+ "words": [
+  {
+   "w": "We",
+   "start": 0.0,
+   "end": 0.38
+  },
+  {
+   "w": "run",
+   "start": 0.38,
+   "end": 0.56
+  },
+  {
+   "w": "on",
+   "start": 0.56,
+   "end": 0.7
+  },
+  {
+   "w": "100+",
+   "start": 0.7,
+   "end": 1.32
+  },
+  {
+   "w": "AI",
+   "start": 1.32,
+   "end": 1.54
+  },
+  {
+   "w": "employees.",
+   "start": 1.54,
+   "end": 1.96
+  },
+  {
+   "w": "Not",
+   "start": 2.5,
+   "end": 2.62
+  },
+  {
+   "w": "1",
+   "start": 2.62,
+   "end": 2.84
+  },
+  {
+   "w": "of",
+   "start": 2.84,
+   "end": 2.92
+  },
+  {
+   "w": "them",
+   "start": 2.92,
+   "end": 3.04
+  },
+  {
+   "w": "can",
+   "start": 3.04,
+   "end": 3.18
+  },
+  {
+   "w": "send",
+   "start": 3.18,
+   "end": 3.34
+  },
+  {
+   "w": "a",
+   "start": 3.34,
+   "end": 3.46
+  },
+  {
+   "w": "refund",
+   "start": 3.46,
+   "end": 3.64
+  },
+  {
+   "w": "on",
+   "start": 3.64,
+   "end": 3.86
+  },
+  {
+   "w": "its",
+   "start": 3.86,
+   "end": 4.0
+  },
+  {
+   "w": "own.",
+   "start": 4.0,
+   "end": 4.18
+  },
+  {
+   "w": "Here's",
+   "start": 4.52,
+   "end": 4.74
+  },
+  {
+   "w": "the",
+   "start": 4.74,
+   "end": 4.84
+  },
+  {
+   "w": "rule,",
+   "start": 4.84,
+   "end": 5.02
+  },
+  {
+   "w": "so",
+   "start": 5.16,
+   "end": 5.3
+  },
+  {
+   "w": "you",
+   "start": 5.3,
+   "end": 5.4
+  },
+  {
+   "w": "can",
+   "start": 5.4,
+   "end": 5.5
+  },
+  {
+   "w": "copy",
+   "start": 5.5,
+   "end": 5.74
+  },
+  {
+   "w": "it.",
+   "start": 5.74,
+   "end": 5.92
+  },
+  {
+   "w": "Let",
+   "start": 6.52,
+   "end": 6.64
+  },
+  {
+   "w": "AI",
+   "start": 6.64,
+   "end": 6.9
+  },
+  {
+   "w": "draft",
+   "start": 6.9,
+   "end": 7.22
+  },
+  {
+   "w": "anything.",
+   "start": 7.22,
+   "end": 7.54
+  },
+  {
+   "w": "But",
+   "start": 8.02,
+   "end": 8.12
+  },
+  {
+   "w": "4",
+   "start": 8.12,
+   "end": 8.22
+  },
+  {
+   "w": "things",
+   "start": 8.22,
+   "end": 8.58
+  },
+  {
+   "w": "always",
+   "start": 8.58,
+   "end": 8.96
+  },
+  {
+   "w": "wait",
+   "start": 8.96,
+   "end": 9.2
+  },
+  {
+   "w": "for",
+   "start": 9.2,
+   "end": 9.34
+  },
+  {
+   "w": "a",
+   "start": 9.34,
+   "end": 9.44
+  },
+  {
+   "w": "person's",
+   "start": 9.44,
+   "end": 9.76
+  },
+  {
+   "w": "yes.",
+   "start": 9.76,
+   "end": 9.94
+  },
+  {
+   "w": "Money",
+   "start": 10.3,
+   "end": 10.44
+  },
+  {
+   "w": "going",
+   "start": 10.44,
+   "end": 10.64
+  },
+  {
+   "w": "out.",
+   "start": 10.64,
+   "end": 10.88
+  },
+  {
+   "w": "A",
+   "start": 11.18,
+   "end": 11.24
+  },
+  {
+   "w": "message",
+   "start": 11.24,
+   "end": 11.46
+  },
+  {
+   "w": "to",
+   "start": 11.46,
+   "end": 11.66
+  },
+  {
+   "w": "a",
+   "start": 11.66,
+   "end": 11.76
+  },
+  {
+   "w": "customer.",
+   "start": 11.76,
+   "end": 12.02
+  },
+  {
+   "w": "A",
+   "start": 12.48,
+   "end": 12.54
+  },
+  {
+   "w": "quote",
+   "start": 12.54,
+   "end": 12.8
+  },
+  {
+   "w": "or",
+   "start": 12.8,
+   "end": 13.32
+  },
+  {
+   "w": "a",
+   "start": 13.32,
+   "end": 13.44
+  },
+  {
+   "w": "contract.",
+   "start": 13.44,
+   "end": 13.72
+  },
+  {
+   "w": "Deleting",
+   "start": 14.18,
+   "end": 14.42
+  },
+  {
+   "w": "data.",
+   "start": 14.42,
+   "end": 14.7
+  },
+  {
+   "w": "Try",
+   "start": 15.22,
+   "end": 15.4
+  },
+  {
+   "w": "this",
+   "start": 15.4,
+   "end": 15.58
+  },
+  {
+   "w": "today.",
+   "start": 15.58,
+   "end": 15.82
+  },
+  {
+   "w": "List",
+   "start": 16.26,
+   "end": 16.38
+  },
+  {
+   "w": "every",
+   "start": 16.38,
+   "end": 16.66
+  },
+  {
+   "w": "AI",
+   "start": 16.66,
+   "end": 16.9
+  },
+  {
+   "w": "tool",
+   "start": 16.9,
+   "end": 17.18
+  },
+  {
+   "w": "your",
+   "start": 17.18,
+   "end": 17.34
+  },
+  {
+   "w": "team",
+   "start": 17.34,
+   "end": 17.54
+  },
+  {
+   "w": "uses,",
+   "start": 17.54,
+   "end": 17.84
+  },
+  {
+   "w": "and",
+   "start": 17.84,
+   "end": 18.16
+  },
+  {
+   "w": "next",
+   "start": 18.16,
+   "end": 18.38
+  },
+  {
+   "w": "to",
+   "start": 18.38,
+   "end": 18.52
+  },
+  {
+   "w": "each",
+   "start": 18.52,
+   "end": 18.66
+  },
+  {
+   "w": "one,",
+   "start": 18.66,
+   "end": 18.9
+  },
+  {
+   "w": "write",
+   "start": 18.9,
+   "end": 19.32
+  },
+  {
+   "w": "which",
+   "start": 19.32,
+   "end": 19.56
+  },
+  {
+   "w": "of",
+   "start": 19.56,
+   "end": 19.66
+  },
+  {
+   "w": "those",
+   "start": 19.66,
+   "end": 19.8
+  },
+  {
+   "w": "4",
+   "start": 19.8,
+   "end": 20.08
+  },
+  {
+   "w": "it",
+   "start": 20.08,
+   "end": 20.24
+  },
+  {
+   "w": "can",
+   "start": 20.24,
+   "end": 20.34
+  },
+  {
+   "w": "do",
+   "start": 20.34,
+   "end": 20.48
+  },
+  {
+   "w": "alone.",
+   "start": 20.48,
+   "end": 20.7
+  },
+  {
+   "w": "If",
+   "start": 21.0,
+   "end": 21.14
+  },
+  {
+   "w": "it",
+   "start": 21.14,
+   "end": 21.22
+  },
+  {
+   "w": "can",
+   "start": 21.22,
+   "end": 21.3
+  },
+  {
+   "w": "do",
+   "start": 21.3,
+   "end": 21.42
+  },
+  {
+   "w": "any",
+   "start": 21.42,
+   "end": 21.58
+  },
+  {
+   "w": "of",
+   "start": 21.58,
+   "end": 21.72
+  },
+  {
+   "w": "them,",
+   "start": 21.72,
+   "end": 21.88
+  },
+  {
+   "w": "add",
+   "start": 22.1,
+   "end": 22.24
+  },
+  {
+   "w": "a",
+   "start": 22.24,
+   "end": 22.34
+  },
+  {
+   "w": "yes",
+   "start": 22.34,
+   "end": 22.5
+  },
+  {
+   "w": "step.",
+   "start": 22.5,
+   "end": 22.7
+  },
+  {
+   "w": "Anthropic's",
+   "start": 23.12,
+   "end": 23.54
+  },
+  {
+   "w": "new",
+   "start": 23.54,
+   "end": 23.64
+  },
+  {
+   "w": "assistant",
+   "start": 23.64,
+   "end": 23.94
+  },
+  {
+   "w": "works",
+   "start": 23.94,
+   "end": 24.22
+  },
+  {
+   "w": "the",
+   "start": 24.22,
+   "end": 24.38
+  },
+  {
+   "w": "same",
+   "start": 24.38,
+   "end": 24.6
+  },
+  {
+   "w": "way.",
+   "start": 24.6,
+   "end": 24.78
+  },
+  {
+   "w": "It",
+   "start": 25.12,
+   "end": 25.24
+  },
+  {
+   "w": "asks",
+   "start": 25.24,
+   "end": 25.54
+  },
+  {
+   "w": "before",
+   "start": 25.54,
+   "end": 25.88
+  },
+  {
+   "w": "it",
+   "start": 25.88,
+   "end": 26.1
+  },
+  {
+   "w": "pays.",
+   "start": 26.1,
+   "end": 26.3
+  },
+  {
+   "w": "This",
+   "start": 26.3,
+   "end": 27.22
+  },
+  {
+   "w": "Sunday",
+   "start": 27.22,
+   "end": 27.54
+  },
+  {
+   "w": "at",
+   "start": 27.54,
+   "end": 27.72
+  },
+  {
+   "w": "11",
+   "start": 27.72,
+   "end": 27.96
+  },
+  {
+   "w": "AM",
+   "start": 27.96,
+   "end": 28.2
+  },
+  {
+   "w": "Eastern,",
+   "start": 28.2,
+   "end": 28.5
+  },
+  {
+   "w": "we'll",
+   "start": 28.96,
+   "end": 29.08
+  },
+  {
+   "w": "set",
+   "start": 29.08,
+   "end": 29.22
+  },
+  {
+   "w": "up",
+   "start": 29.22,
+   "end": 29.34
+  },
+  {
+   "w": "your",
+   "start": 29.34,
+   "end": 29.46
+  },
+  {
+   "w": "first",
+   "start": 29.46,
+   "end": 29.7
+  },
+  {
+   "w": "AI",
+   "start": 29.7,
+   "end": 29.98
+  },
+  {
+   "w": "employee",
+   "start": 29.98,
+   "end": 30.38
+  },
+  {
+   "w": "live,",
+   "start": 30.38,
+   "end": 30.76
+  },
+  {
+   "w": "with",
+   "start": 31.1,
+   "end": 31.18
+  },
+  {
+   "w": "the",
+   "start": 31.18,
+   "end": 31.3
+  },
+  {
+   "w": "yes",
+   "start": 31.3,
+   "end": 31.58
+  },
+  {
+   "w": "built",
+   "start": 31.58,
+   "end": 31.86
+  },
+  {
+   "w": "in.",
+   "start": 31.86,
+   "end": 32.1
+  },
+  {
+   "w": "It's",
+   "start": 32.5,
+   "end": 32.62
+  },
+  {
+   "w": "in",
+   "start": 32.62,
+   "end": 32.7
+  },
+  {
+   "w": "our",
+   "start": 32.7,
+   "end": 32.82
+  },
+  {
+   "w": "bio.",
+   "start": 32.82,
+   "end": 33.02
+  }
+ ],
+ "text": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try this today. List every AI tool your team uses, and next to each one, write which of those 4 it can do alone. If it can do any of them, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. It's in our bio."
+}

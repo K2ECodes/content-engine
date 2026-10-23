@@ -12,15 +12,17 @@ A 10-minute Monday check: list every AI tool your team uses and write what it ca
 
 Our own company runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes.
 
-This Sunday we'll set it up live with business owners at The AI Employee Accelerator on Zoom. Sun Nov 1, 11 AM Eastern (US clocks go back 1 hour that morning). 120 minutes, replay included. $97 GA, $197 VIP. It's in our profile: contentsystems.ai/workshop
+We set it up live with business owners in our AI workshop on Zoom. 120 minutes, replay included.
+
+Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our profile for the next date.
 
 #AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship
 
 ## Script
-4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday at 11 AM Eastern. It's in our profile.
+4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. Want us to set this up with you, live? Comment WORKSHOP and we'll send you the details. The next date's in our profile.
 
 ## Alt text
-Animated explainer that flips between dark green and cream. Anthropic, Walmart, 1Password and Microsoft logos slam down and "1 RULE" lands. Then a card for each company with its lesson: Anthropic asks before it pays (money out always needs a yes), Walmart spending limits (a limit, not a meeting), 1Password logs in without seeing the password (never paste passwords into AI tools), Microsoft's insider with the keys (only the access its job needs). A card shows AI does the work and a person owns the yes, stamped APPROVED, and the video ends on the workshop card for Sunday Nov 1 at 11 AM ET.
+Animated explainer that flips between dark green and cream. Anthropic, Walmart, 1Password and Microsoft logos slam down and "1 RULE" lands. Then a card for each company with its lesson: Anthropic asks before it pays (money out always needs a yes), Walmart spending limits (a limit, not a meeting), 1Password logs in without seeing the password (never paste passwords into AI tools), Microsoft's insider with the keys (only the access its job needs). A card shows AI does the work and a person owns the yes, stamped APPROVED, and the video ends on a Comment WORKSHOP box with the next date in our profile.
 
 ## Notes
 - Voice: fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID).
@@ -33,3 +35,4 @@ Animated explainer that flips between dark green and cream. Anthropic, Walmart, 
 - Person card: Satya Nadella, Microsoft CEO, quote "We need to separate the supply of intelligence from the authority over it." (TechCrunch Oct 19 2026, link above). Photo people/nadella.jpg: Wikimedia Commons "MS-Exec-Nadella-Satya-2017-08-31-22 (cropped).jpg", Brian Smale and Microsoft, CC BY-SA 4.0.
 - Re-voiced 2026-10-23 with the corrected pronunciation ("Cunntent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).
 - Script pass 2026-10-23 (Korede's "Scripts" rule): smoother wording, CTA now "it's in our bio" / "comment SYSTEMS and we'll send it to you free" (LinkedIn: "it's in our profile"); re-voiced in the same voice, re-tightened, re-transcribed and re-anchored. Opening logo burst (tile and bare logos) plus word-timed bursts that act out key lines.
+- Evergreen rewrite 2026-10-24 (Korede: workshops should feel always on, never mention a date): CTA is now comment WORKSHOP + next date in bio/profile, lead post. Script CTA rewritten, re-voiced free in the same voice, tightened, re-transcribed and re-anchored (previous audio and words in audio/pre-evergreen/). video.mp4 is stale until the render queue re-renders it. Date facts above are historical.

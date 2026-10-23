@@ -13,10 +13,10 @@
         "size": "s",
         "underline": false,
         "cta": {
-          "keyword": "SUN 11AM ET",
+          "keyword": "WORKSHOP",
           "y": 300,
-          "line": "build your first 2 on Sunday",
-          "pill": false
+          "line": "next date in our bio",
+          "pill": true
         },
         "bursts": [
           {
