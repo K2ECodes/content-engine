@@ -23,6 +23,7 @@
   .burst svg polygon { stroke: var(--ink); stroke-width: 6; stroke-linejoin: round; }
   .burst span { position: relative; padding: 0 10px; }
   .igcta { position: absolute; left: 70px; right: 70px; z-index: 5; }
+  .igcta .cmtlbl { text-align: center; font: 700 70px/1 'Silkscreen'; color: var(--hl); text-shadow: var(--hls); margin-bottom: 18px; }
   .igcta .big { font: 700 150px/1 'Silkscreen'; text-align: center; color: var(--ink); background: var(--gold); border: 10px solid var(--ink); box-shadow: 14px 14px 0 var(--ink); padding: 34px 0 22px; letter-spacing: .02em; }
   .neon .igcta .big { background: #3FF2FF; box-shadow: 14px 14px 0 #FF4FD8; }
   .igcta .bar { margin-top: 44px; display: flex; align-items: center; gap: 20px; background: #fff; border: 6px solid var(--ink); border-radius: 60px; padding: 18px 26px; box-shadow: 8px 8px 0 var(--ink); }
@@ -122,7 +123,7 @@ window.showSlide = (i) => {
   GRASS = GRASS_BY_WORLD[world] ?? 1108;
   const collage = (s.collage || []).map((c) => `<div class="collage" style="left:${c.x}px;top:${c.y}px;width:${c.w ?? 460}px;--ch:${c.h ?? 400}px;--cp:${c.pos ?? '50% 62%'};transform:rotate(${c.rot ?? 0}deg)"><div class="tape"></div><img src="${esc(c.srcUrl || c.src)}"></div>`).join('');
   const bursts = (s.bursts || []).map((b) => `<div class="burst" style="left:${b.x}px;top:${b.y}px;width:${b.w ?? 230}px;height:${b.w ?? 230}px;--bs:${b.size ?? 46}px;transform:rotate(${b.rot ?? -10}deg)">${burstSvg(b.color || '#FFE066')}<span>${esc(b.text).replace(/\n/g, '<br>')}</span></div>`).join('');
-  const igcta = s.cta ? `<div class="igcta" style="top:${s.cta.y ?? 300}px"><div class="big" style="font-size:${Math.min(150, Math.floor(820 / Math.max(3, s.cta.keyword.length)))}px">${esc(s.cta.keyword)}</div><div class="bar"><div class="av"></div><b>${esc(s.cta.keyword)}</b><span class="post">Post</span></div><div class="dm">${esc(s.cta.line || "comment it, we'll DM you")}${s.cta.pill !== false && !/\s/.test(s.cta.keyword) ? ' <span class="pill">DM SENT</span>' : ''}</div></div>` : '';
+  const igcta = s.cta ? `<div class="igcta" style="top:${s.cta.y ?? 300}px">${s.cta.pill !== false && !/\s/.test(s.cta.keyword) ? '<div class="cmtlbl">COMMENT</div>' : ''}<div class="big" style="font-size:${Math.min(150, Math.floor(820 / Math.max(3, s.cta.keyword.length)))}px">${esc(s.cta.keyword)}</div><div class="bar"><div class="av"></div><b>${esc(s.cta.keyword)}</b><span class="post">Post</span></div><div class="dm">${esc(s.cta.line || "comment it, we'll DM you")}${s.cta.pill !== false && !/\s/.test(s.cta.keyword) ? ' <span class="pill">DM SENT</span>' : ''}</div></div>` : '';
   const hl = (s.headline || []).map((l) => `<div>${acc(l)}</div>`).join('');
   const card = s.card ? `<div class="card${s.card.accent ? ' acc' : ''}" style="top:${s.card.y ?? 470}px">${s.card.title ? `<div class="t">${esc(s.card.title)}</div>` : ''}${CARDS[s.card.kind](s.card)}</div>` : '';
   const notes = (s.notes || []).map((n) => `<div class="note${n.accent ? ' acc' : ''}" style="left:${n.x}px;top:${n.y}px;width:${n.w ?? 380}px">${esc(n.text).replace(/\n/g, '<br>')}${n.arrow ? arrow({ ...n.arrow, x1: n.arrow.x1 - n.x, y1: n.arrow.y1 - n.y, x2: n.arrow.x2 - n.x, y2: n.arrow.y2 - n.y }) : ''}</div>`).join('');

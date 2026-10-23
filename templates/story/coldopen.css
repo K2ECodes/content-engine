@@ -2,7 +2,13 @@
 .co { position: absolute; inset: 0; z-index: 12; overflow: hidden; background: radial-gradient(ellipse 80% 55% at 50% 42%, #FBFAF7 0%, #EFECE6 70%, #E8E4DC 100%); --ink-co: #1B1B1B; }
 .co-title { position: absolute; left: 60px; right: 140px; top: 262px; height: 260px; text-align: center; z-index: 30; }
 .co-title .tset { position: absolute; left: 0; right: 0; top: 0; opacity: 0; }
-.co-title .tl { font: 400 110px/0.98 'Instrument Serif', 'Playfair Display', serif; color: var(--ink-co); letter-spacing: -0.01em; }
+.co-title .tl { font: 900 104px/0.98 'Fraunces', 'Playfair Display', serif; font-variation-settings: 'opsz' 144; color: var(--ink-co); letter-spacing: -0.025em; }
+.co-title .tl.l2 { font: italic 500 100px/1 'Instrument Serif', serif; letter-spacing: -0.005em; }
+/* title font sets: serif (default: heavy Fraunces line 1 + light italic accent), cs (Content Systems coded: Unbounded + Space Grotesk, gold accent on ink), grotesk (Inter 900 + italic serif accent) */
+.tf-cs .co-title .tl { font: 800 88px/1.02 'Unbounded', 'Orbitron', sans-serif; letter-spacing: -0.02em; text-transform: uppercase; }
+.tf-cs .co-title .tl.l2 { font: 700 84px/1.05 'Space Grotesk', sans-serif; text-transform: none; font-style: normal; background: #17281C; color: #F2C14E; display: inline-block; padding: 4px 22px 10px; border-radius: 16px; }
+.tf-grotesk .co-title .tl { font: 900 100px/0.98 'Inter', sans-serif; letter-spacing: -0.045em; }
+.tf-grotesk .co-title .tl.l2 { font: italic 400 104px/1 'Instrument Serif', serif; letter-spacing: 0; }
 .co-title .tl em, .co-title .tl.l2 { font-style: italic; color: var(--acc); }
 .co-title .tl.l2 em { color: var(--acc); }
 .co-title .tl:not(.l2) em { color: var(--acc); }

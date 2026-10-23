@@ -1,486 +1,487 @@
 {
- "template": "story",
- "data": {
-  "words": "words.json",
-  "audio": "audio/vo.wav",
-  "music": {
-   "file": "audio/music.mp3",
-   "volume": 0.1,
-   "dropAt": "So"
-  },
-  "script": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Content Systems.ai. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
-  "say": "Your warehouse did the work. So why is eight thousand dollars missing from the invoice? It usually hides in three places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Cunntent Systems dot A I. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
-  "keys": [
-   "$8k",
-   "missing",
-   "3",
-   "bill",
-   "twice",
-   "quote",
-   "handoff",
-   "systems"
-  ],
-  "strikes": [
-   "problem"
-  ],
-  "posterAt": 2.9,
-  "scenes": [
-   {
-    "world": "dark",
-    "type": "odometer",
-    "value": "8,000",
-    "prefix": "$",
-    "label": "of work that never made the invoice",
-    "landAt": "$8K",
-    "px": "warehouse",
-    "sprites": [
-     {
-      "name": "korede-point",
-      "x": 60,
-      "h": 300
-     },
-     {
-      "name": "box-monster",
-      "x": 770,
-      "h": 220
-     }
-    ]
-   },
-   {
-    "at": "It",
-    "world": "light",
-    "type": "word",
-    "text": "3 places",
-    "px": "warehouse",
-    "sprites": [
-     {
-      "name": "korede-shrug",
-      "x": 70,
-      "h": 300
-     },
-     {
-      "name": "worker",
-      "x": 780,
-      "h": 300
-     }
-    ]
-   },
-   {
-    "at": "First,",
-    "world": "dark",
-    "type": "list",
-    "title": "Storage report",
-    "badge": "Free: 30 days",
-    "rows": [
-     {
-      "text": "Pallet A-112",
-      "val": "41 days",
-      "chip": "Bill it",
-      "chipKind": "bad",
-      "at": "pallet"
-     },
-     {
-      "text": "Pallet A-118",
-      "val": "37 days",
-      "chip": "Bill it",
-      "chipKind": "bad",
-      "at": "older"
-     },
-     {
-      "text": "Pallet B-204",
-      "val": "12 days",
-      "chip": "Free",
-      "chipKind": "ok",
-      "at": "check"
-     }
-    ],
-    "px": "warehouse",
-    "sprites": [
-     {
-      "name": "worker",
-      "x": 80,
-      "h": 300
-     },
-     {
-      "name": "box",
-      "x": 800,
-      "h": 160
-     }
-    ]
-   },
-   {
-    "at": "Second,",
-    "world": "light",
-    "type": "checklist",
-    "title": "Ask your shift leads",
-    "rows": [
-     {
-      "text": "Relabels",
-      "at": "Relabels,"
-     },
-     {
-      "text": "Reboxing",
-      "at": "reboxing,"
-     },
-     {
-      "text": "Touched twice",
-      "at": "twice."
-     },
-     {
-      "text": "Every Friday",
-      "at": "Friday."
-     }
-    ],
-    "px": "factory",
-    "sprites": [
-     {
-      "name": "sanjana-point",
-      "x": 70,
-      "h": 300
-     },
-     {
-      "name": "worker",
-      "x": 790,
-      "h": 300,
-      "flip": true
-     }
-    ]
-   },
-   {
-    "at": "Third,",
-    "world": "dark",
-    "type": "list",
-    "title": "Inbox search: quote",
-    "badge": "2 found",
-    "rows": [
-     {
-      "text": "Kitting job",
-      "chip": "Not billed",
-      "chipKind": "bad",
-      "at": "Kitting"
-     },
-     {
-      "text": "Rush order",
-      "chip": "Not billed",
-      "chipKind": "bad",
-      "at": "rush"
-     }
-    ],
-    "px": "factory",
-    "sprites": [
-     {
-      "name": "korede-laptop",
-      "x": 70,
-      "h": 300
-     },
-     {
-      "name": "cat",
-      "x": 800,
-      "h": 150
-     }
-    ]
-   },
-   {
-    "at": "Search",
-    "world": "light",
-    "type": "receipt",
-    "lines": [
-     {
-      "text": "Storage past free days",
-      "val": "$3,100",
-      "miss": true,
-      "at": "Search"
-     },
-     {
-      "text": "Relabels, reboxing",
-      "val": "$2,400",
-      "miss": true,
-      "at": "match"
-     },
-     {
-      "text": "Kitting by email",
-      "val": "$2,500",
-      "miss": true,
-      "at": "invoice#2"
-     }
-    ],
-    "total": {
-     "text": "Never billed",
-     "val": "$8,000"
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.1,
+      "dropAt": "So"
     },
-    "totalAt": "work#3",
-    "stamp": {
-     "text": "MISSED",
-     "kind": "bad",
-     "at": "problem.",
-     "x": 250,
-     "y": 520
-    },
-    "px": "hq",
-    "sprites": [
-     {
-      "name": "korede-point",
-      "x": 60,
-      "h": 300
-     },
-     {
-      "name": "evil-robot",
-      "x": 770,
-      "h": 280
-     }
-    ]
-   },
-   {
-    "at": "Getting",
-    "world": "dark",
-    "type": "word",
-    "text": "To billing",
-    "px": "hq",
-    "sprites": [
-     {
-      "name": "boss",
-      "x": 90,
-      "h": 300
-     },
-     {
-      "name": "box-monster",
-      "x": 770,
-      "h": 220
-     }
-    ]
-   },
-   {
-    "at": "That's#2",
-    "world": "light",
-    "type": "checklist",
-    "title": "Every day, automatically",
-    "rows": [
-     {
-      "text": "Storage days checked",
-      "at": "check#2"
-     },
-     {
-      "text": "Floor work logged",
-      "at": "automate"
-     },
-     {
-      "text": "Quotes matched",
-      "at": "Content"
-     }
+    "script": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Content Systems.ai. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
+    "say": "Your warehouse did the work. So why is eight thousand dollars missing from the invoice? It usually hides in three places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted by email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. Getting it to billing is. That's the check we automate at Cunntent Systems dot A I. Want the full checklist? Comment SYSTEMS and we'll send it to you free.",
+    "keys": [
+      "$8k",
+      "missing",
+      "3",
+      "bill",
+      "twice",
+      "quote",
+      "handoff",
+      "systems"
     ],
-    "stamp": {
-     "text": "DONE",
-     "kind": "ok",
-     "at": "Systems.ai",
-     "x": 560,
-     "y": 520
-    },
-    "px": "hq",
-    "sprites": [
-     {
-      "name": "sanjana-laptop",
-      "x": 70,
-      "h": 300
-     },
-     {
-      "name": "robot",
-      "x": 780,
-      "h": 260
-     }
-    ]
-   },
-   {
-    "at": "Comment",
-    "world": "dark",
-    "type": "cta",
-    "keyword": "SYSTEMS",
-    "prompt": "SYSTEMS",
-    "dm": "3PL billing checklist sent",
-    "px": "day",
-    "sprites": [
-     {
-      "name": "korede-cheer",
-      "x": 120,
-      "h": 320
-     },
-     {
-      "name": "sanjana-cheer",
-      "x": 700,
-      "h": 320
-     }
-    ]
-   }
-  ],
-  "bgLogos": [
-   "fedex",
-   "ups",
-   "dhl",
-   "usps",
-   "shopify",
-   "fedex",
-   "ups",
-   "dhl"
-  ],
-  "pops": [
-   {
-    "at": "Your",
-    "kind": "logo",
-    "brand": "amazon",
-    "x": 40,
-    "y": 420,
-    "w": 170,
-    "rot": -8,
-    "until": "missing",
-    "bare": true
-   },
-   {
-    "at": "warehouse",
-    "kind": "logo",
-    "brand": "shopify",
-    "x": 850,
-    "y": 430,
-    "w": 140,
-    "rot": 8,
-    "until": "missing"
-   },
-   {
-    "at": "did",
-    "kind": "logo",
-    "brand": "fedex",
-    "x": 60,
-    "y": 640,
-    "w": 170,
-    "rot": 6,
-    "until": "missing",
-    "bare": true
-   },
-   {
-    "at": "work.",
-    "kind": "logo",
-    "brand": "ups",
-    "x": 860,
-    "y": 640,
-    "w": 140,
-    "rot": -6,
-    "until": "missing"
-   },
-   {
-    "at": "Comment",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 290,
-    "w": 220,
-    "size": 60,
-    "color": "#E8B84B",
-    "rot": 12
-   },
-   {
-    "at": "Search",
-    "kind": "burst",
-    "text": "QUOTE?",
-    "x": 800,
-    "y": 290,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": 10,
-    "until": "invoice#2"
-   },
-   {
-    "at": "Getting",
-    "kind": "burst",
-    "text": "BILL IT",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": -8,
-    "until": "That's#2"
-   }
-  ],
-  "branded": true,
-  "look": "pixel",
-  "coldOpen": {
-   "until": "It",
-   "set": "warehouse",
-   "titleColor": "#E0762E",
-   "titles": [
-    {
-     "text": [
-      "Your warehouse",
-      "*did the work.*"
-     ]
-    },
-    {
-     "at": "So",
-     "text": [
-      "So why is $8K",
-      "*missing?*"
-     ]
+    "strikes": [
+      "problem"
+    ],
+    "posterAt": 2.9,
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "8,000",
+        "prefix": "$",
+        "label": "of work that never made the invoice",
+        "landAt": "$8K",
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 770,
+            "h": 220
+          }
+        ]
+      },
+      {
+        "at": "It",
+        "world": "light",
+        "type": "word",
+        "text": "3 places",
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "korede-shrug",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "worker",
+            "x": 780,
+            "h": 300
+          }
+        ]
+      },
+      {
+        "at": "First,",
+        "world": "dark",
+        "type": "list",
+        "title": "Storage report",
+        "badge": "Free: 30 days",
+        "rows": [
+          {
+            "text": "Pallet A-112",
+            "val": "41 days",
+            "chip": "Bill it",
+            "chipKind": "bad",
+            "at": "pallet"
+          },
+          {
+            "text": "Pallet A-118",
+            "val": "37 days",
+            "chip": "Bill it",
+            "chipKind": "bad",
+            "at": "older"
+          },
+          {
+            "text": "Pallet B-204",
+            "val": "12 days",
+            "chip": "Free",
+            "chipKind": "ok",
+            "at": "check"
+          }
+        ],
+        "px": "warehouse",
+        "sprites": [
+          {
+            "name": "worker",
+            "x": 80,
+            "h": 300
+          },
+          {
+            "name": "box",
+            "x": 800,
+            "h": 160
+          }
+        ]
+      },
+      {
+        "at": "Second,",
+        "world": "light",
+        "type": "checklist",
+        "title": "Ask your shift leads",
+        "rows": [
+          {
+            "text": "Relabels",
+            "at": "Relabels,"
+          },
+          {
+            "text": "Reboxing",
+            "at": "reboxing,"
+          },
+          {
+            "text": "Touched twice",
+            "at": "twice."
+          },
+          {
+            "text": "Every Friday",
+            "at": "Friday."
+          }
+        ],
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "sanjana-point",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "worker",
+            "x": 790,
+            "h": 300,
+            "flip": true
+          }
+        ]
+      },
+      {
+        "at": "Third,",
+        "world": "dark",
+        "type": "list",
+        "title": "Inbox search: quote",
+        "badge": "2 found",
+        "rows": [
+          {
+            "text": "Kitting job",
+            "chip": "Not billed",
+            "chipKind": "bad",
+            "at": "Kitting"
+          },
+          {
+            "text": "Rush order",
+            "chip": "Not billed",
+            "chipKind": "bad",
+            "at": "rush"
+          }
+        ],
+        "px": "factory",
+        "sprites": [
+          {
+            "name": "korede-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "cat",
+            "x": 800,
+            "h": 150
+          }
+        ]
+      },
+      {
+        "at": "Search",
+        "world": "light",
+        "type": "receipt",
+        "lines": [
+          {
+            "text": "Storage past free days",
+            "val": "$3,100",
+            "miss": true,
+            "at": "Search"
+          },
+          {
+            "text": "Relabels, reboxing",
+            "val": "$2,400",
+            "miss": true,
+            "at": "match"
+          },
+          {
+            "text": "Kitting by email",
+            "val": "$2,500",
+            "miss": true,
+            "at": "invoice#2"
+          }
+        ],
+        "total": {
+          "text": "Never billed",
+          "val": "$8,000"
+        },
+        "totalAt": "work#3",
+        "stamp": {
+          "text": "MISSED",
+          "kind": "bad",
+          "at": "problem.",
+          "x": 250,
+          "y": 520
+        },
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "korede-point",
+            "x": 60,
+            "h": 300
+          },
+          {
+            "name": "evil-robot",
+            "x": 770,
+            "h": 280
+          }
+        ]
+      },
+      {
+        "at": "Getting",
+        "world": "dark",
+        "type": "word",
+        "text": "To billing",
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "boss",
+            "x": 90,
+            "h": 300
+          },
+          {
+            "name": "box-monster",
+            "x": 770,
+            "h": 220
+          }
+        ]
+      },
+      {
+        "at": "That's#2",
+        "world": "light",
+        "type": "checklist",
+        "title": "Every day, automatically",
+        "rows": [
+          {
+            "text": "Storage days checked",
+            "at": "check#2"
+          },
+          {
+            "text": "Floor work logged",
+            "at": "automate"
+          },
+          {
+            "text": "Quotes matched",
+            "at": "Content"
+          }
+        ],
+        "stamp": {
+          "text": "DONE",
+          "kind": "ok",
+          "at": "Systems.ai",
+          "x": 560,
+          "y": 520
+        },
+        "px": "hq",
+        "sprites": [
+          {
+            "name": "sanjana-laptop",
+            "x": 70,
+            "h": 300
+          },
+          {
+            "name": "robot",
+            "x": 780,
+            "h": 260
+          }
+        ]
+      },
+      {
+        "at": "Comment",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "SYSTEMS",
+        "prompt": "SYSTEMS",
+        "dm": "3PL billing checklist sent",
+        "px": "day",
+        "sprites": [
+          {
+            "name": "korede-cheer",
+            "x": 120,
+            "h": 320
+          },
+          {
+            "name": "sanjana-cheer",
+            "x": 700,
+            "h": 320
+          }
+        ]
+      }
+    ],
+    "bgLogos": [
+      "fedex",
+      "ups",
+      "dhl",
+      "usps",
+      "shopify",
+      "fedex",
+      "ups",
+      "dhl"
+    ],
+    "pops": [
+      {
+        "at": "Your",
+        "kind": "logo",
+        "brand": "amazon",
+        "x": 40,
+        "y": 420,
+        "w": 170,
+        "rot": -8,
+        "until": "missing",
+        "bare": true
+      },
+      {
+        "at": "warehouse",
+        "kind": "logo",
+        "brand": "shopify",
+        "x": 850,
+        "y": 430,
+        "w": 140,
+        "rot": 8,
+        "until": "missing"
+      },
+      {
+        "at": "did",
+        "kind": "logo",
+        "brand": "fedex",
+        "x": 60,
+        "y": 640,
+        "w": 170,
+        "rot": 6,
+        "until": "missing",
+        "bare": true
+      },
+      {
+        "at": "work.",
+        "kind": "logo",
+        "brand": "ups",
+        "x": 860,
+        "y": 640,
+        "w": 140,
+        "rot": -6,
+        "until": "missing"
+      },
+      {
+        "at": "Comment",
+        "kind": "burst",
+        "text": "FREE",
+        "x": 800,
+        "y": 290,
+        "w": 220,
+        "size": 60,
+        "color": "#E8B84B",
+        "rot": 12
+      },
+      {
+        "at": "Search",
+        "kind": "burst",
+        "text": "QUOTE?",
+        "x": 800,
+        "y": 290,
+        "w": 230,
+        "size": 50,
+        "color": "#E8B84B",
+        "rot": 10,
+        "until": "invoice#2"
+      },
+      {
+        "at": "Getting",
+        "kind": "burst",
+        "text": "BILL IT",
+        "x": 40,
+        "y": 590,
+        "w": 230,
+        "size": 50,
+        "color": "#E8B84B",
+        "rot": -8,
+        "until": "That's#2"
+      }
+    ],
+    "branded": true,
+    "look": "pixel",
+    "coldOpen": {
+      "until": "It",
+      "set": "warehouse",
+      "titleColor": "#E0762E",
+      "titles": [
+        {
+          "text": [
+            "Your warehouse",
+            "*did the work.*"
+          ]
+        },
+        {
+          "at": "So",
+          "text": [
+            "So why is $8K",
+            "*missing?*"
+          ]
+        }
+      ],
+      "accent": [
+        "work.",
+        "missing"
+      ],
+      "actors": [
+        {
+          "thing": "box",
+          "limbs": true,
+          "props": [
+            "sweat"
+          ],
+          "x": 230
+        },
+        {
+          "thing": "invoice",
+          "text": "$0",
+          "x": 500
+        },
+        {
+          "thing": "bag",
+          "limbs": true,
+          "text": "$8K",
+          "x": 770,
+          "scale": 1.25
+        }
+      ],
+      "beats": [
+        {
+          "at": "Your",
+          "actor": 0,
+          "do": "jump"
+        },
+        {
+          "at": "work.",
+          "actor": 0,
+          "do": "celebrate"
+        },
+        {
+          "at": "So",
+          "actor": 1,
+          "do": "drop"
+        },
+        {
+          "at": "$8K",
+          "actor": 2,
+          "do": "squash",
+          "say": "Bye."
+        },
+        {
+          "at": "missing",
+          "actor": 2,
+          "do": "run-out",
+          "dir": "right"
+        },
+        {
+          "at": "invoice?",
+          "actor": 1,
+          "do": "panic"
+        }
+      ],
+      "font": "cs"
     }
-   ],
-   "accent": [
-    "work.",
-    "missing"
-   ],
-   "actors": [
-    {
-     "thing": "box",
-     "limbs": true,
-     "props": [
-      "sweat"
-     ],
-     "x": 230
-    },
-    {
-     "thing": "invoice",
-     "text": "$0",
-     "x": 500
-    },
-    {
-     "thing": "bag",
-     "limbs": true,
-     "text": "$8K",
-     "x": 770,
-     "scale": 1.25
-    }
-   ],
-   "beats": [
-    {
-     "at": "Your",
-     "actor": 0,
-     "do": "jump"
-    },
-    {
-     "at": "work.",
-     "actor": 0,
-     "do": "celebrate"
-    },
-    {
-     "at": "So",
-     "actor": 1,
-     "do": "drop"
-    },
-    {
-     "at": "$8K",
-     "actor": 2,
-     "do": "squash",
-     "say": "Bye."
-    },
-    {
-     "at": "missing",
-     "actor": 2,
-     "do": "run-out",
-     "dir": "right"
-    },
-    {
-     "at": "invoice?",
-     "actor": 1,
-     "do": "panic"
-    }
-   ]
   }
- }
 }

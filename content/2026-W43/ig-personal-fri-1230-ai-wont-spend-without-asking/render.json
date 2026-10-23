@@ -2,7 +2,8 @@
   "template": "story",
   "data": {
     "face": {
-      "src": "plate.mp4"
+      "src": "plate.mp4",
+      "mask": "plate-mask.mp4"
     },
     "words": "words.json",
     "heygen": {
@@ -172,17 +173,23 @@
       {
         "at": "that",
         "layout": "full",
-        "zoom": 1.0
+        "zoom": 1.0,
+        "cut": true,
+        "bg": "loft"
       },
       {
         "at": "called",
-        "layout": "corner"
+        "layout": "corner",
+        "cut": true,
+        "bg": "city-dusk",
+        "zoom": 1.0
       },
       {
         "at": "That's",
         "layout": "full",
         "zoom": 1.0,
-        "push": true
+        "cut": true,
+        "bg": "library"
       },
       {
         "at": "risk",
@@ -191,11 +198,16 @@
       {
         "at": "Want",
         "layout": "full",
-        "zoom": 1.06
+        "zoom": 1.0,
+        "cut": true,
+        "bg": "studio"
       },
       {
         "at": "Comment",
-        "layout": "corner"
+        "layout": "corner",
+        "cut": true,
+        "bg": "loft",
+        "zoom": 1.0
       }
     ],
     "keys": [
