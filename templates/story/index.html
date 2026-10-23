@@ -234,7 +234,8 @@
   /* flow: step-by-step diagram (nodes + arrows + counters), built on the spoken word */
   .flow { position: relative; width: 1000px; height: 720px; --fe: rgba(255,255,255,.78); --ft: #FFFFFF; }
   .light .flow, .flow.on-light { --fe: rgba(23,40,28,.5); --ft: #17281C; }
-  .flow .ftitle { position: absolute; left: 0; right: 0; top: 0; text-align: center; font: 400 76px/0.98 'Instrument Serif', serif; color: var(--ft); }
+  .scene > .flow { zoom: .82; margin-left: -96px; }   /* bigger than other cards, centred in the safe zone (x 60 to 940) */
+  .flow .ftitle { position: absolute; left: 0; right: 0; top: 0; text-align: center; font: 400 100px/0.96 'Instrument Serif', serif; color: var(--ft); }
   .flow .ftitle em { color: var(--fa, #E8B84B); }
   .flow svg.edges { position: absolute; inset: 0; width: 1000px; height: 720px; overflow: visible; }
   .flow svg.edges line { stroke: var(--fe); stroke-width: 5; stroke-linecap: round; }
@@ -547,7 +548,7 @@ window.renderPost = (data) => {
       if (i > 0) window.sfx.push({ t: c.t, kind: 'whoosh' });
       const lb = document.getElementById('flb' + i);
       if (lb && c.layout !== 'none') {
-        const pos = { full: [500, 318], split: [500, 990], corner: [580, 1064], pip: [780, 1140] }[c.layout] || [500, 990];
+        const pos = { full: [500, 318], split: [500, 1052], corner: [580, 1064], pip: [780, 1140] }[c.layout] || [500, 990];
         lb.style.left = pos[0] + 'px'; lb.style.top = pos[1] + 'px';
         const lt = Math.max(c.t + 0.08, data.coldOpen ? data.coldOpen.end + 0.25 : 0);
         tl.fromTo(lb, { opacity: 1, clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 0.28, ease: 'power3.out', immediateRender: false }, lt).set(lb, { opacity: 0 }, Math.min(end, lt + (c.labelFor ?? 2.6)));
