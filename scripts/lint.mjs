@@ -169,7 +169,7 @@ function lintMeta(meta, file) {
 }
 
 // On-media text lives in render.json. Lint every string except structural keys.
-const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt|voice|voSay|style|title)$/i;
+const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt|voice|voSay|style|title|at|words|audio|src|file|hot|good)$/i;
 function lintRenderJson(node, file, keyPath = '') {
   if (Array.isArray(node)) return node.flatMap((v, i) => lintRenderJson(v, file, `${keyPath}[${i}]`));
   if (node && typeof node === 'object')

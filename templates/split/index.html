@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  /* Split reel (style study: research/style-stilesai.md). Cream canvas y 0-768, camera plate y 768-1920.
+     Rendered with a transparent background; render.mjs composites a video plate underneath with FFmpeg.
+     Image plates are drawn here. */
+  html, body { background: transparent; }
+  .canvas { background: transparent; }
+  .board { position: absolute; left: 0; top: 0; width: 1080px; height: 768px; background: var(--cream); overflow: hidden; }
+  .board.full { height: 1920px; }
+  .plate-img { position: absolute; left: 0; top: 768px; width: 1080px; height: 1152px; overflow: hidden; background: var(--ink); }
+  .plate-img img { width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 40%; }
+
+  .beat { position: absolute; left: 64px; right: 64px; top: 120px; height: 580px; display: flex; flex-direction: column; justify-content: center; opacity: 0; color: var(--ink); }
+  .board.full .beat { top: 160px; height: 1300px; }
+  .board.full .t-hero .num { font-size: 280px; }
+
+  .t-hero .num { font: 700 230px/0.9 var(--f-head); letter-spacing: -.02em; }
+  .t-hero .lbl { margin-top: 18px; font: 600 38px/1.2 var(--f-head); max-width: 22ch; }
+
+  .card { border: 2px solid var(--ink); background: #fff; }
+  .card .bar-top { height: 12px; background: var(--ink); }
+  .card .in { padding: 30px 34px; }
+  .card h3 { font: 700 52px/1.05 var(--f-head); }
+  .card p { margin-top: 14px; font: 600 34px/1.3 var(--f-head); color: rgba(23,40,28,.78); }
+
+  .meter .row { display: flex; justify-content: space-between; align-items: baseline; font: 600 34px/1 var(--f-head); margin-bottom: 18px; }
+  .meter .row b { font: 700 40px/1 var(--f-data); }
+  .meter .track { height: 46px; border: 2px solid var(--ink); background: rgba(23,40,28,.08); }
+  .meter .fill { height: 100%; width: 100%; background: var(--ink); transform-origin: left; transform: scaleX(0); }
+  .meter.alarm .fill { background: var(--orange); }
+  .meter.alarm .row b { color: var(--orange); }
+  .meter + .meter { margin-top: 44px; }
+
+  .list .item { display: flex; align-items: center; gap: 22px; padding: 18px 0; border-bottom: 2px solid rgba(23,40,28,.15); font: 600 38px/1.15 var(--f-head); opacity: .25; }
+  .list .box { width: 44px; height: 44px; border: 3px solid var(--ink); flex: none; position: relative; background: #fff; }
+  .list .box svg { position: absolute; inset: 4px; stroke: var(--ink); stroke-width: 5; fill: none; stroke-dasharray: 40; stroke-dashoffset: 40; }
+  .list .item.on { opacity: 1; }
+
+  .grid { display: grid; gap: 8px; }
+  .grid i { display: block; aspect-ratio: 1; background: rgba(23,40,28,.15); }
+  .grid i.hit { background: var(--ink); }
+  .grid-cap { margin-top: 24px; font: 600 36px/1.2 var(--f-head); }
+
+  .note { position: absolute; right: 70px; top: 520px; font: italic 600 50px/1.1 var(--f-quote); color: var(--orange); transform: rotate(-5deg); opacity: 0; max-width: 520px; text-align: right; }
+
+  .t-cta .typed { font: 700 120px/1 var(--f-display); letter-spacing: .06em; color: var(--ink); min-height: 120px; }
+  .t-cta .caret { display: inline-block; width: 10px; height: 104px; margin-left: 10px; background: var(--orange); vertical-align: -6px; }
+  .t-cta .chips { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 16px; }
+  .t-cta .chip { font: 700 28px/1 var(--f-data); padding: 16px 22px; border: 2px solid var(--ink); background: #fff; opacity: 0; }
+  .t-cta .chip.free { background: var(--sage); }
+  .t-cta .say { margin-top: 36px; font: 600 40px/1.2 var(--f-head); opacity: 0; }
+
+  .foot { position: absolute; right: 64px; bottom: 26px; font: 400 22px/1 var(--f-label); color: rgba(23,40,28,.6); }
+  .board.full .foot { bottom: 260px; }
+  .mark { position: absolute; right: 56px; top: 56px; width: 64px; }
+
+  .cap { position: absolute; left: 50%; top: 728px; height: 80px; padding: 0 28px; transform: translateX(-50%); display: flex; align-items: center; white-space: nowrap;
+         background: var(--ink); color: var(--cream); font: 700 48px/1 var(--f-data); letter-spacing: .1em; text-transform: uppercase; opacity: 0; }
+  .cap.low { top: 1500px; }
+  .cap.hot { background: var(--orange); color: var(--ink); }
+  .cap.good { background: var(--sage); color: var(--ink); }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data (times already resolved by render.mjs):
+//   words: [{w, start, end}], duration
+//   plate: { kind: 'image', src } | { kind: 'video' } | null
+//   beats: [{ t, type, full?, overlay?, ...}]  hero {value, prefix, suffix, decimals, label} | card {title, body}
+//          meter {rows: [{label, value, alarm}]} | list {items: [{text, t}]} | grid {cells, hits, caption}
+//          note {text} (overlay: draws over the current beat) | cta {keyword, chips[], say}
+//   foot: source footnote text; hot: [words] orange captions; good: [words] sage captions
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const TICK = '<svg viewBox="0 0 36 36"><path d="M6 19l8 8L30 9"/></svg>';
+
+function chunk(words) {
+  const out = [];
+  let cur = [];
+  const flush = () => { if (cur.length) out.push(cur); cur = []; };
+  words.forEach((w, i) => {
+    const next = words[i + 1];
+    cur.push(w);
+    const text = cur.map((x) => x.w).join(' ');
+    const gap = next ? next.start - w.end : 9;
+    if (cur.length >= 3 || text.length >= 14 || /[.,?;:]$/.test(w.w) || gap > 0.45) flush();
+  });
+  flush();
+  return out;
+}
+
+const BUILD = {
+  hero: (b) => `<div class="num"><span class="v">0</span></div><div class="lbl">${esc(b.label)}</div>`,
+  card: (b) => `<div class="card"><div class="bar-top"></div><div class="in"><h3>${esc(b.title)}</h3>${b.body ? `<p>${esc(b.body)}</p>` : ''}</div></div>`,
+  meter: (b) => b.rows.map((r) => `<div class="meter${r.alarm ? ' alarm' : ''}"><div class="row"><span>${esc(r.label)}</span><b><span class="mv">0</span>${esc(r.unit ?? '')}</b></div><div class="track"><div class="fill"></div></div></div>`).join(''),
+  list: (b) => `<div class="list">${b.items.map((it) => `<div class="item"><div class="box">${TICK}</div><span>${esc(it.text)}</span></div>`).join('')}</div>`,
+  grid: (b) => `<div class="grid" style="grid-template-columns: repeat(${b.cols || 10}, 1fr)">${Array.from({ length: b.cells }, () => '<i></i>').join('')}</div>${b.caption ? `<div class="grid-cap">${esc(b.caption)}</div>` : ''}`,
+  cta: (b) => `<div class="typed"><span class="tx"></span><span class="caret"></span></div><div class="chips">${(b.chips || []).map((c, i) => `<span class="chip${/^free$/i.test(c) ? ' free' : ''}">${esc(c)}</span>`).join('')}</div>${b.say ? `<div class="say">${esc(b.say)}</div>` : ''}`,
+};
+
+const fmt = (n, d) => n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+
+const ANIMATE = {
+  hero: (tl, el, b) => {
+    const v = el.querySelector('.v'), o = { n: 0 }, d = b.decimals ?? (String(b.value).split('.')[1] || '').length;
+    const land = b.land ?? b.t + 0.6;
+    tl.to(o, { n: b.value, duration: Math.max(0.3, land - b.t), ease: 'power3.out', onUpdate: () => { v.textContent = (b.prefix || '') + fmt(o.n, d) + (b.suffix || ''); } }, b.t);
+    window.sfx.push({ t: land, kind: 'tick' });
+  },
+  card: () => {},
+  meter: (tl, el, b) => el.querySelectorAll('.meter').forEach((m, i) => {
+    const r = b.rows[i], o = { n: 0 }, mv = m.querySelector('.mv'), at = b.t + 0.15 + i * 0.35;
+    tl.to(m.querySelector('.fill'), { scaleX: Math.min(1, r.value / (r.max || 100)), duration: 0.4, ease: 'power2.inOut' }, at)
+      .to(o, { n: r.value, duration: 0.4, ease: 'power2.inOut', onUpdate: () => { mv.textContent = fmt(o.n, r.decimals || 0); } }, at);
+    if (r.alarm) window.sfx.push({ t: at + 0.4, kind: 'thud' });
+  }),
+  list: (tl, el, b) => el.querySelectorAll('.item').forEach((it, i) => {
+    const t = b.items[i].t ?? b.t + 0.3 + i * 0.6;
+    tl.set(it, { attr: { class: 'item on' } }, t).to(it.querySelector('svg'), { strokeDashoffset: 0, duration: 0.2, ease: 'power1.out' }, t);
+    window.sfx.push({ t, kind: 'click' });
+  }),
+  grid: (tl, el, b) => {
+    const cells = [...el.querySelectorAll('.grid i')];
+    tl.from(cells, { opacity: 0, duration: 0.12, stagger: 0.01 }, b.t);
+    const hits = cells.slice(0, b.hits || 0);
+    tl.set(hits, { backgroundColor: '#17281C' }, b.t + 0.2 + cells.length * 0.01);
+  },
+  cta: (tl, el, b) => {
+    const tx = el.querySelector('.tx'), word = b.keyword, cps = 9;
+    const o = { n: 0 };
+    tl.to(o, { n: word.length, duration: word.length / cps, ease: `steps(${word.length})`, onUpdate: () => { tx.textContent = word.slice(0, Math.round(o.n)); } }, b.t);
+    for (let i = 0; i < word.length; i++) window.sfx.push({ t: b.t + (i + 1) / cps, kind: 'key' });
+    const after = b.t + word.length / cps + 0.25;
+    tl.to(el.querySelectorAll('.chip'), { opacity: 1, y: 0, duration: 0.2, stagger: 0.25 }, after);
+    if (el.querySelector('.say')) tl.to(el.querySelector('.say'), { opacity: 1, duration: 0.25 }, after + (b.chips || []).length * 0.25);
+    const caret = el.querySelector('.caret');
+    for (let t = b.t; t < window.duration; t += 0.5) tl.set(caret, { opacity: Math.round((t - b.t) / 0.5) % 2 ? 0 : 1 }, t);
+  },
+};
+
+window.renderPost = (data, opts) => {
+  window.duration = data.duration;
+  window.sfx = [];
+  const beats = data.beats.filter((b) => b.type !== 'note');
+  const notes = data.beats.filter((b) => b.type === 'note');
+  const chunks = chunk(data.words);
+  const hot = new Set((data.hot || []).map((w) => w.toUpperCase()));
+  const good = new Set((data.good || []).map((w) => w.toUpperCase()));
+  const capClass = (c) => { const ws = c.map((w) => w.w.replace(/[^\w$]/g, '').toUpperCase()); return ws.some((w) => hot.has(w)) ? ' hot' : ws.some((w) => good.has(w)) ? ' good' : ''; };
+
+  document.getElementById('root').innerHTML = `
+    <div class="canvas">
+      ${data.plate?.kind === 'image' ? `<div class="plate-img"><img src="${esc(data.plate.src)}"></div>` : ''}
+      <div class="board" id="board">
+        <img class="mark" src="../../assets/brand/mark.png" alt="">
+        ${beats.map((b, i) => `<div class="beat t-${b.type}" id="b${i}">${BUILD[b.type](b)}</div>`).join('')}
+        ${notes.map((n, i) => `<div class="note" id="n${i}">${esc(n.text)}</div>`).join('')}
+        ${data.foot ? `<div class="foot">${esc(data.foot)}</div>` : ''}
+      </div>
+      ${chunks.map((c, i) => `<div class="cap${capClass(c)}" id="c${i}">${esc(c.map((w) => w.w).join(' '))}</div>`).join('')}
+    </div>`;
+
+  const tl = gsap.timeline({ paused: true });
+  const board = document.getElementById('board'), mark = board.querySelector('.mark');
+  if (data.plate?.kind === 'image') tl.fromTo('.plate-img img', { scale: 1 }, { scale: 1.04, duration: data.duration, ease: 'none' }, 0);
+
+  beats.forEach((b, i) => {
+    const el = document.getElementById('b' + i), end = beats[i + 1]?.t ?? data.duration;
+    tl.set(board, { attr: { class: b.full ? 'board full' : 'board' } }, b.t);
+    tl.fromTo(el, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.18, ease: 'power2.out' }, b.t);
+    tl.set(el, { opacity: 0 }, end);
+    tl.fromTo(mark, { y: 0 }, { y: -10, duration: 0.12, yoyo: true, repeat: 1, ease: 'power1.out' }, b.t);
+    ANIMATE[b.type](tl, el, b);
+  });
+  if (beats[0] && beats[0].t > 0) tl.set(board, { attr: { class: 'board' } }, 0);
+  notes.forEach((n, i) => {
+    const el = document.getElementById('n' + i), owner = [...beats].reverse().find((b) => b.t <= n.t), next = beats.find((b) => b.t > n.t);
+    tl.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.2 }, n.t).set(el, { opacity: 0 }, next?.t ?? data.duration);
+    window.sfx.push({ t: n.t, kind: 'scratch' });
+  });
+
+  chunks.forEach((c, i) => {
+    const el = document.getElementById('c' + i);
+    const show = Math.max(0, c[0].start - 0.1);
+    const hide = chunks[i + 1] ? Math.max(show + 0.05, chunks[i + 1][0].start - 0.1) : Math.min(data.duration, c.at(-1).end + 0.4);
+    const gapHide = Math.min(hide, c.at(-1).end + 0.8);
+    const active = [...beats].reverse().find((b) => b.t <= show + 0.05);
+    if (active?.full) el.classList.add('low');
+    tl.set(el, { opacity: 1 }, show).set(el, { opacity: 0 }, gapHide);
+  });
+
+  tl.set({}, {}, data.duration);
+  window.seek = (t) => { tl.seek(t, false); };
+  window.seek(0);
+};
+</script>
+</body>
+</html>

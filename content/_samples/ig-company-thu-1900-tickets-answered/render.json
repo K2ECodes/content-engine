@@ -1,0 +1,114 @@
+{
+  "template": "split",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "plate": {
+      "src": "plate.png"
+    },
+    "script": "72 out of 100 support tickets. Answered without anyone on the team touching them. That's an apparel brand we work with in Berlin. Their team was drowning in where is my order emails, sizing questions and refund requests, in 4 languages. So we built a system that answers the routine ones on its own, around the clock. When a customer tries to cancel, it offers a better option first. 1 in 4 of them stayed. That's €180K a year they kept. And anything tricky goes to a person, with the full story ready. Want the same for your store? Comment SYSTEMS and we'll send you how it works.",
+    "hot": [
+      "DROWNING"
+    ],
+    "good": [
+      "STAYED",
+      "KEPT",
+      "SYSTEMS"
+    ],
+    "foot": "Client result, anonymised",
+    "beats": [
+      {
+        "at": "72",
+        "type": "hero",
+        "value": 72,
+        "suffix": "/100",
+        "label": "support tickets answered without a person"
+      },
+      {
+        "at": "touching",
+        "type": "note",
+        "text": "0 people needed"
+      },
+      {
+        "at": "Berlin",
+        "type": "card",
+        "title": "An apparel brand in Berlin",
+        "body": "Online store, 4 languages, a small support team."
+      },
+      {
+        "at": "drowning",
+        "type": "list",
+        "full": true,
+        "items": [
+          {
+            "text": "Where is my order?",
+            "at": "where"
+          },
+          {
+            "text": "Sizing questions",
+            "at": "sizing"
+          },
+          {
+            "text": "Refund requests",
+            "at": "refund"
+          },
+          {
+            "text": "In 4 languages",
+            "at": "four"
+          }
+        ]
+      },
+      {
+        "at": "system",
+        "type": "meter",
+        "rows": [
+          {
+            "label": "Answered on its own",
+            "value": 72,
+            "unit": "/100"
+          },
+          {
+            "label": "Handed to a person",
+            "value": 28,
+            "unit": "/100"
+          }
+        ]
+      },
+      {
+        "at": "cancel",
+        "type": "grid",
+        "cells": 40,
+        "cols": 10,
+        "hits": 10,
+        "caption": "1 in 4 who tried to cancel stayed"
+      },
+      {
+        "at": "180,000",
+        "type": "hero",
+        "full": true,
+        "value": 180,
+        "prefix": "€",
+        "suffix": "K",
+        "label": "a year they kept"
+      },
+      {
+        "at": "tricky",
+        "type": "card",
+        "title": "Tricky cases go to a person",
+        "body": "With the full story ready."
+      },
+      {
+        "at": "Comment",
+        "type": "cta",
+        "full": true,
+        "keyword": "SYSTEMS",
+        "chips": [
+          "How it works",
+          "Setup steps",
+          "Free"
+        ],
+        "say": "Comment the word, we'll DM it"
+      }
+    ]
+  }
+}

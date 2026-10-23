@@ -30,3 +30,5 @@
 {"ts":"2026-10-23T04:40:35.044Z","model":"google/gemini-3-1-flash-tts","taskId":"cd1bef42f2c1063c26846eb310679de8","state":"fail","credits":0,"usd":0,"label":"ig-company-wed-1900-warehouse-did-the-work vo-05"}
 {"ts":"2026-10-23T04:40:50.016Z","model":"google/gemini-3-1-flash-tts","taskId":"037252f05b5d28cda048e667ee453ddc","state":"success","credits":0.38,"usd":0.0019,"label":"ig-company-wed-1900-warehouse-did-the-work vo-05"}
 {"ts":"2026-10-23T04:41:12.359Z","model":"ai-music-api/generate","taskId":"59afca3d47e50d2a1ace6ccb330f5765","state":"success","credits":12,"usd":0.06,"label":"ig-company-wed-1900-warehouse-did-the-work music"}
+{"ts":"2026-10-23T04:53:39.663Z","model":"google/gemini-3-1-flash-tts","taskId":"cbbb727847c05810d210797a53f59bf7","state":"success","credits":2.86,"usd":0.0143,"label":"split sample vo"}
+{"ts":"2026-10-23T04:54:07.903Z","model":"nano-banana-2","taskId":"eefcd6522b480507a8f69147516fd32d","state":"success","credits":8,"usd":0.04,"label":"split sample plate"}
