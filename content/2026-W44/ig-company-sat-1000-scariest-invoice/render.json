@@ -1,229 +1,265 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1
-    },
-    "script": "The scariest thing in your warehouse this Halloween isn't a ghost. It's the invoice you never sent. Peak season just started. Volume's up, the team's flat out, and that's when fees go missing. A pallet that sat past its free storage. A rush order packed after cutoff. Relabeling for a retailer. Your team did the work. Nobody billed it. Each one looks small. Together, they can add up to thousands a month. Not because your team is careless. Because nobody has time to check every job against every contract in November. A system can. It reads the day's work, matches it to the contract, and puts the missing fees in front of you to approve. Find out what you're leaving on the floor. Our free calculator is in the bio.",
-    "keys": [
-      "scariest",
-      "never",
-      "missing",
-      "billed",
-      "small",
-      "thousands",
-      "nobody",
-      "system",
-      "approve",
-      "free"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. Link in bio.",
+  "say": "The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are three to check this week. Rush orders packed after cutoff. Log each one with the client's name, the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the third. So check daily in peak. That daily check is what we automate at Kun-TENT Systems dot A I. Our free calculator shows what it adds up to. Link in bio.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "invoice"
+  },
+  "keys": [
+   "scariest",
+   "never",
+   "early",
+   "cutoff",
+   "unit",
+   "expiry",
+   "daily",
+   "free"
+  ],
+  "strikes": [
+   "remembers"
+  ],
+  "posterAt": 3.2,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "list",
+    "title": "Warehouse check · Oct 31",
+    "rows": [
+     {
+      "text": "Ghosts",
+      "at": "scariest",
+      "chip": "0 found",
+      "chipKind": "ok"
+     },
+     {
+      "text": "Unsent invoices",
+      "at": "invoice",
+      "chip": "3 found",
+      "chipKind": "bad"
+     }
     ],
-    "strikes": [
-      "ghost",
-      "careless"
+    "stamp": {
+     "text": "MISSED",
+     "kind": "bad",
+     "at": "never",
+     "x": 280,
+     "y": 700
+    }
+   },
+   {
+    "at": "Peak",
+    "world": "light",
+    "type": "stat",
+    "value": "28 in 100",
+    "label": "of holiday budgets spent by end of October",
+    "foot": "Deloitte via Modern Retail, Oct 2026"
+   },
+   {
+    "at": "Here",
+    "world": "dark",
+    "type": "word",
+    "text": "3 to check"
+   },
+   {
+    "at": "Rush",
+    "world": "light",
+    "type": "list",
+    "title": "After cutoff · today",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Client A",
+      "at": "Rush",
+      "chip": "14 orders",
+      "chipKind": "wait"
+     },
+     {
+      "text": "Client B",
+      "at": "Log",
+      "chip": "6 orders",
+      "chipKind": "wait"
+     },
+     {
+      "text": "Logged",
+      "at": "same",
+      "chip": "Same day",
+      "chipKind": "ok"
+     }
+    ]
+   },
+   {
+    "at": "Retailer",
+    "world": "dark",
+    "type": "list",
+    "title": "Retailer prep",
+    "badge": "Per unit",
+    "rows": [
+     {
+      "text": "Relabels",
+      "at": "Relabeling",
+      "val": "400"
+     },
+     {
+      "text": "Retailer stickers",
+      "at": "stickers",
+      "val": "400"
+     },
+     {
+      "text": "Billed",
+      "at": "count",
+      "chip": "Count them",
+      "chipKind": "bad"
+     }
+    ]
+   },
+   {
+    "at": "And early",
+    "world": "light",
+    "type": "list",
+    "title": "Free storage ends",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Sent Oct 6",
+      "at": "October,",
+      "chip": "Ends Nov 5",
+      "chipKind": "bad"
+     },
+     {
+      "text": "Sent Oct 20",
+      "at": "November.",
+      "chip": "Ends Nov 19",
+      "chipKind": "bad"
+     },
+     {
+      "text": "Every date",
+      "at": "expiry",
+      "chip": "Check now",
+      "chipKind": "wait"
+     }
+    ]
+   },
+   {
+    "at": "at#2",
+    "world": "dark",
+    "type": "word",
+    "text": "Month end?"
+   },
+   {
+    "at": "So#2",
+    "world": "light",
+    "type": "word",
+    "text": "Daily"
+   },
+   {
+    "at": "That",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Every day in peak",
+    "rows": [
+     {
+      "text": "Rush orders logged",
+      "at": "daily#2"
+     },
+     {
+      "text": "Units counted",
+      "at": "automate"
+     },
+     {
+      "text": "Expiry dates checked",
+      "at": "Content"
+     }
     ],
-    "posterAt": 4.5,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "list",
-        "title": "Warehouse check · Oct 31",
-        "rows": [
-          {
-            "text": "Spiders",
-            "at": "scariest",
-            "chip": "2 found",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Ghosts",
-            "at": "ghost",
-            "chip": "0 found",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Unsent invoices",
-            "at": "invoice",
-            "chip": "3 found",
-            "chipKind": "bad"
-          }
-        ]
-      },
-      {
-        "at": "peak",
-        "world": "light",
-        "type": "list",
-        "title": "Peak season",
-        "rows": [
-          {
-            "text": "Orders",
-            "at": "volume's",
-            "chip": "Up",
-            "chipKind": "wait"
-          },
-          {
-            "text": "Your team",
-            "at": "team's",
-            "chip": "Flat out",
-            "chipKind": "wait"
-          },
-          {
-            "text": "Fees",
-            "at": "missing",
-            "chip": "Missing",
-            "chipKind": "bad"
-          }
-        ]
-      },
-      {
-        "at": "a pallet",
-        "world": "dark",
-        "type": "receipt",
-        "lines": [
-          {
-            "text": "Storage overage",
-            "val": "$1,240",
-            "miss": true,
-            "at": "pallet"
-          },
-          {
-            "text": "Rush after cutoff",
-            "val": "$380",
-            "miss": true,
-            "at": "rush"
-          },
-          {
-            "text": "Relabeling",
-            "val": "$620",
-            "miss": true,
-            "at": "relabeling"
-          }
-        ],
-        "total": {
-          "text": "Never billed",
-          "val": "$2,240"
-        },
-        "totalAt": "nobody",
-        "stamp": {
-          "text": "MISSED",
-          "kind": "bad",
-          "at": "billed",
-          "x": 260,
-          "y": 760
-        }
-      },
-      {
-        "at": "each",
-        "world": "light",
-        "type": "stat",
-        "value": "$380",
-        "label": "looks small",
-        "foot": "Illustrative numbers"
-      },
-      {
-        "at": "together",
-        "world": "dark",
-        "type": "odometer",
-        "value": "8,960",
-        "prefix": "$",
-        "label": "a month, never billed (example)",
-        "landAt": "thousands"
-      },
-      {
-        "at": "not because",
-        "world": "light",
-        "type": "list",
-        "title": "Who checks every job?",
-        "rows": [
-          {
-            "text": "Ops team",
-            "at": "nobody#2",
-            "chip": "No time",
-            "chipKind": "bad"
-          },
-          {
-            "text": "Billing",
-            "at": "check",
-            "chip": "No time",
-            "chipKind": "bad"
-          },
-          {
-            "text": "Account manager",
-            "at": "november",
-            "chip": "No time",
-            "chipKind": "bad"
-          }
-        ]
-      },
-      {
-        "at": "a system",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Every day, automatically",
-        "rows": [
-          {
-            "text": "Read the day's work",
-            "at": "reads"
-          },
-          {
-            "text": "Match it to the contract",
-            "at": "matches"
-          },
-          {
-            "text": "Missing fees, ready for you",
-            "at": "puts"
-          }
-        ],
-        "click": {
-          "at": "front",
-          "x": 640,
-          "y": 1180
-        },
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "approve",
-          "x": 160,
-          "y": 780
-        }
-      },
-      {
-        "at": "find",
-        "world": "light",
-        "type": "stat",
-        "value": "Free",
-        "label": "calculator: what's left on your floor"
-      },
-      {
-        "at": "our",
-        "world": "dark",
-        "type": "word",
-        "text": "Link in bio"
-      }
-    ],
-    "bgLogos": [
-      "shopify",
-      "fedex",
-      "ups",
-      "dhl",
-      "usps",
-      "amazon",
-      "shopify",
-      "fedex",
-      "ups",
-      "dhl"
-    ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "shopify",
-        "fedex",
-        "ups",
-        "dhl"
-      ]
-    },
-    "branded": true
-  }
+    "stamp": {
+     "text": "DONE",
+     "kind": "ok",
+     "at": "Systems.ai",
+     "x": 560,
+     "y": 720
+    }
+   },
+   {
+    "at": "Our",
+    "world": "light",
+    "type": "list",
+    "title": "Free calculator",
+    "badge": "Link in bio",
+    "rows": [
+     {
+      "text": "What it adds up to",
+      "at": "adds",
+      "chip": "Try it",
+      "chipKind": "ok"
+     }
+    ]
+   }
+  ],
+  "bgLogos": [
+   "fedex",
+   "ups",
+   "dhl",
+   "usps",
+   "amazon",
+   "fedex",
+   "ups",
+   "dhl"
+  ],
+  "hook": {
+   "style": "slam",
+   "brands": [
+    "fedex",
+    "ups",
+    "dhl",
+    "usps",
+    "amazon"
+   ],
+   "text": "BOO"
+  },
+  "pops": [
+   {
+    "at": "Peak",
+    "kind": "sprite",
+    "sprite": "ghost",
+    "x": 840,
+    "y": 250,
+    "w": 170,
+    "until": "Here"
+   },
+   {
+    "at": "holiday",
+    "kind": "sprite",
+    "sprite": "box",
+    "x": 850,
+    "y": 250,
+    "w": 160,
+    "until": "Check#2"
+   },
+   {
+    "at": "late",
+    "kind": "sprite",
+    "sprite": "worker",
+    "x": 860,
+    "y": 200,
+    "w": 180,
+    "until": "That"
+   },
+   {
+    "at": "Our",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 800,
+    "y": 290,
+    "w": 220,
+    "size": 60,
+    "color": "#E8B84B",
+    "rot": 12
+   }
+  ],
+  "branded": true
+ }
 }

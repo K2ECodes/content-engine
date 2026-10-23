@@ -59,7 +59,7 @@ async function main(argv) {
     const kie = await import('./lib/kie.mjs');
     const { spawnSync } = await import('node:child_process');
     const ff = (args) => { const r = spawnSync('ffmpeg', ['-v', 'error', '-y', ...args], { stdio: 'inherit' }); if (r.status) throw new Error('ffmpeg failed'); };
-    const vo = path.join(dir, 'audio', 'vo.wav');
+    const vo = path.join(dir, argv.includes('--audio') ? argv[argv.indexOf('--audio') + 1] : 'audio/vo.wav');
     const total = Number(spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', vo]).stdout.toString());
     const base = path.resolve(readEnv('TALKING_HEAD_BASE') || 'assets/talking-head/korede-base-still-16x9.mp4');
     const still = path.resolve('assets/talking-head/natural-frames/001.jpg');

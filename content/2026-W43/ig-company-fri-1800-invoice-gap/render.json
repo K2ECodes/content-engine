@@ -1,241 +1,259 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "So"
+  },
+  "script": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Content Systems.ai. Comment SYSTEMS for the free checklist.",
+  "say": "Your warehouse did the work. So why is eight thousand dollars missing from the invoice? It usually hides in three places. First, storage past the free period. Pull every pallet that's older than its free days, and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote, and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Kun-TENT Systems dot A I. Comment SYSTEMS for the free checklist.",
+  "keys": [
+   "$8k",
+   "missing",
+   "3",
+   "bill",
+   "twice",
+   "quote",
+   "handoff",
+   "systems"
+  ],
+  "strikes": [
+   "problem"
+  ],
+  "posterAt": 2.9,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "odometer",
+    "value": "8,000",
+    "prefix": "$",
+    "label": "of work that never made the invoice",
+    "landAt": "$8K"
+   },
+   {
+    "at": "It",
+    "world": "light",
+    "type": "word",
+    "text": "3 places"
+   },
+   {
+    "at": "First,",
+    "world": "dark",
+    "type": "list",
+    "title": "Storage report",
+    "badge": "Free: 30 days",
+    "rows": [
+     {
+      "text": "Pallet A-112",
+      "val": "41 days",
+      "chip": "Bill it",
+      "chipKind": "bad",
+      "at": "pallet"
+     },
+     {
+      "text": "Pallet A-118",
+      "val": "37 days",
+      "chip": "Bill it",
+      "chipKind": "bad",
+      "at": "older"
+     },
+     {
+      "text": "Pallet B-204",
+      "val": "12 days",
+      "chip": "Free",
+      "chipKind": "ok",
+      "at": "check"
+     }
+    ]
+   },
+   {
+    "at": "Second,",
+    "world": "light",
+    "type": "checklist",
+    "title": "Ask your shift leads",
+    "rows": [
+     {
+      "text": "Relabels",
+      "at": "Relabels,"
+     },
+     {
+      "text": "Reboxing",
+      "at": "reboxing,"
+     },
+     {
+      "text": "Touched twice",
+      "at": "twice."
+     },
+     {
+      "text": "Every Friday",
+      "at": "Friday."
+     }
+    ]
+   },
+   {
+    "at": "Third,",
+    "world": "dark",
+    "type": "list",
+    "title": "Inbox search: quote",
+    "badge": "2 found",
+    "rows": [
+     {
+      "text": "Kitting job",
+      "chip": "Not billed",
+      "chipKind": "bad",
+      "at": "Kitting"
+     },
+     {
+      "text": "Rush order",
+      "chip": "Not billed",
+      "chipKind": "bad",
+      "at": "rush"
+     }
+    ]
+   },
+   {
+    "at": "Search",
+    "world": "light",
+    "type": "receipt",
+    "lines": [
+     {
+      "text": "Storage past free days",
+      "val": "$3,100",
+      "miss": true,
+      "at": "Search"
+     },
+     {
+      "text": "Relabels, reboxing",
+      "val": "$2,400",
+      "miss": true,
+      "at": "match"
+     },
+     {
+      "text": "Kitting by email",
+      "val": "$2,500",
+      "miss": true,
+      "at": "invoice#2"
+     }
+    ],
+    "total": {
+     "text": "Never billed",
+     "val": "$8,000"
     },
-    "script": "Your warehouse did $250K of work last month. Your invoices only said $242K. So where did the rest go? Storage that ran past the free period. Special handling the team did on the floor. A kitting job somebody quoted in an email. None of it made the bill. Not because anyone's careless. Because nobody's checking the work against the contract. So we built a system that does. Every day it reads what happened in the warehouse, matches it to each client's rate, and flags what's missing. Your team approves every line. Then it's billed. Want to see what you're missing? Comment SYSTEMS and we'll send you the checklist.",
-    "keys": [
-      "$250,000",
-      "$242,000",
-      "missing",
-      "system",
-      "systems"
+    "totalAt": "work#3",
+    "stamp": {
+     "text": "MISSED",
+     "kind": "bad",
+     "at": "problem.",
+     "x": 250,
+     "y": 760
+    }
+   },
+   {
+    "at": "handoff",
+    "world": "dark",
+    "type": "word",
+    "text": "Handoff"
+   },
+   {
+    "at": "That's#2",
+    "world": "light",
+    "type": "checklist",
+    "title": "Every day, automatically",
+    "rows": [
+     {
+      "text": "Storage days checked",
+      "at": "check#2"
+     },
+     {
+      "text": "Floor work logged",
+      "at": "automate"
+     },
+     {
+      "text": "Quotes matched",
+      "at": "Content"
+     }
     ],
-    "strikes": [
-      "careless"
-    ],
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "odometer",
-        "value": "250,000",
-        "prefix": "$",
-        "label": "of work done last month",
-        "landAt": "$250,000"
-      },
-      {
-        "at": "invoices",
-        "world": "light",
-        "type": "stat",
-        "value": "$242K",
-        "label": "on the invoices",
-        "foot": "Illustrative numbers"
-      },
-      {
-        "at": "rest",
-        "world": "dark",
-        "type": "word",
-        "text": "$8K?"
-      },
-      {
-        "at": "Storage",
-        "world": "light",
-        "type": "receipt",
-        "lines": [
-          {
-            "text": "Storage overage",
-            "val": "$3,100",
-            "miss": true,
-            "at": "Storage"
-          },
-          {
-            "text": "Special handling",
-            "val": "$2,400",
-            "miss": true,
-            "at": "Special"
-          },
-          {
-            "text": "Kitting project",
-            "val": "$2,500",
-            "miss": true,
-            "at": "kitting"
-          }
-        ],
-        "total": {
-          "text": "Not billed",
-          "val": "$8,000"
-        },
-        "totalAt": "None",
-        "stamp": {
-          "text": "MISSED",
-          "kind": "bad",
-          "at": "bill.",
-          "x": 260,
-          "y": 760
-        }
-      },
-      {
-        "at": "Not",
-        "world": "dark",
-        "type": "list",
-        "title": "Who checks the contract?",
-        "rows": [
-          {
-            "text": "Ops team",
-            "chip": "No",
-            "chipKind": "bad",
-            "at": "nobody"
-          },
-          {
-            "text": "Billing",
-            "chip": "No",
-            "chipKind": "bad",
-            "at": "checking"
-          },
-          {
-            "text": "The WMS",
-            "chip": "No",
-            "chipKind": "bad",
-            "at": "contract."
-          }
-        ]
-      },
-      {
-        "at": "system",
-        "world": "light",
-        "type": "checklist",
-        "title": "Every day, automatically",
-        "rows": [
-          {
-            "text": "Read the warehouse activity",
-            "at": "reads"
-          },
-          {
-            "text": "Match each client's rates",
-            "at": "matches"
-          },
-          {
-            "text": "Flag what's missing",
-            "at": "flags"
-          }
-        ],
-        "click": {
-          "at": "flags",
-          "x": 700,
-          "y": 1180
-        }
-      },
-      {
-        "at": "approves",
-        "world": "dark",
-        "type": "list",
-        "title": "Ready to bill",
-        "badge": "3 lines",
-        "rows": [
-          {
-            "text": "Storage overage",
-            "val": "$3,100",
-            "chip": "Approved",
-            "at": "approves"
-          },
-          {
-            "text": "Special handling",
-            "val": "$2,400",
-            "chip": "Approved",
-            "at": "every"
-          },
-          {
-            "text": "Kitting project",
-            "val": "$2,500",
-            "chip": "Approved",
-            "at": "line."
-          }
-        ],
-        "stamp": {
-          "text": "BILLED",
-          "kind": "ok",
-          "at": "billed.",
-          "x": 300,
-          "y": 820
-        }
-      },
-      {
-        "at": "Want",
-        "world": "dark",
-        "type": "cta",
-        "keyword": "SYSTEMS",
-        "prompt": "SYSTEMS",
-        "dm": "Checklist sent to your DMs"
-      }
-    ],
-    "bgLogos": [
-      "fedex",
-      "ups",
-      "dhl",
-      "usps",
-      "shopify",
-      "amazon",
-      "fedex",
-      "ups",
-      "dhl",
-      "shopify"
-    ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "fedex",
-        "ups",
-        "dhl",
-        "usps",
-        "shopify",
-        "amazon"
-      ],
-      "text": "$8K GONE?"
-    },
-    "pops": [
-      {
-        "at": "Storage",
-        "kind": "sprite",
-        "sprite": "box-monster",
-        "x": 800,
-        "y": 760,
-        "w": 200,
-        "until": "None"
-      },
-      {
-        "at": "nobody",
-        "kind": "sprite",
-        "sprite": "ghost",
-        "x": 80,
-        "y": 760,
-        "w": 180,
-        "until": "So#2"
-      },
-      {
-        "at": "system",
-        "kind": "sprite",
-        "sprite": "robot",
-        "x": 820,
-        "y": 760,
-        "w": 200,
-        "until": "approves"
-      },
-      {
-        "at": "Comment",
-        "kind": "burst",
-        "text": "FREE",
-        "x": 800,
-        "y": 300,
-        "w": 220,
-        "size": 60,
-        "color": "#E8B84B",
-        "rot": 12
-      }
-    ],
-    "branded": true
-  }
+    "stamp": {
+     "text": "DONE",
+     "kind": "ok",
+     "at": "Systems.ai",
+     "x": 560,
+     "y": 700
+    }
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "3PL billing checklist sent"
+   }
+  ],
+  "bgLogos": [
+   "fedex",
+   "ups",
+   "dhl",
+   "usps",
+   "shopify",
+   "fedex",
+   "ups",
+   "dhl"
+  ],
+  "hook": {
+   "style": "blast",
+   "brands": [
+    "fedex",
+    "ups",
+    "dhl",
+    "usps"
+   ],
+   "text": "$8K GONE?"
+  },
+  "pops": [
+   {
+    "at": "pallet",
+    "kind": "sprite",
+    "sprite": "box",
+    "x": 840,
+    "y": 250,
+    "w": 170,
+    "until": "Second,"
+   },
+   {
+    "at": "Ask",
+    "kind": "sprite",
+    "sprite": "worker",
+    "x": 860,
+    "y": 200,
+    "w": 190,
+    "until": "Third,"
+   },
+   {
+    "at": "Search",
+    "kind": "text",
+    "text": "Search: quote",
+    "x": 560,
+    "y": 760,
+    "size": 60,
+    "rot": -6,
+    "until": "invoice#2"
+   },
+   {
+    "at": "Comment",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 800,
+    "y": 290,
+    "w": 220,
+    "size": 60,
+    "color": "#E8B84B",
+    "rot": 12
+   }
+  ],
+  "branded": true
+ }
 }

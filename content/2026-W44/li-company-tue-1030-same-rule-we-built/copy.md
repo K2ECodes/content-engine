@@ -1,31 +1,31 @@
 ## Caption
-Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and none of them sends, pays or signs anything without a person's yes.
+Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and every one of them starts with the same rule: AI does the work, a person owns the yes.
 
-This month, 4 of the biggest names in tech shipped the same rule:
+This month 4 of the biggest names in tech shipped that rule. Each one teaches something you can apply this week:
 
-· Anthropic's new AI assistant, Duet, asks before it pays for anything.
-· Walmart lets shoppers approve what an AI buys for them, or set a spending limit.
-· 1Password lets an AI log in for you only after you approve it, and the AI never sees the password.
-· Microsoft told companies to watch their AI helpers the way they'd watch an insider with the keys.
+· Anthropic's new assistant, Duet, asks before it pays for anything. Lesson: money going out always needs a yes.
+· Walmart lets shoppers set a spending limit for an AI that buys for them. Lesson: routine, low-value actions get a limit, not a meeting.
+· 1Password lets an AI log in for you without ever seeing the password. Lesson: never paste passwords into an AI tool.
+· Microsoft told companies to watch AI helpers like an insider with the keys. Lesson: give each AI helper only the access its job needs.
 
-We didn't have to change a thing, because that's where we started. Our own company runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes. And that yes is only 1 of the rules every 1 of them gets on day 1.
+A 10-minute check for Monday: list every AI tool your team uses and write what it can do without asking. Anything that moves money, messages a customer or touches account access without a yes is your first fix.
 
-This Sunday we open the doors on all of it. At The AI Employee Accelerator, live on Zoom, business owners set up Claude properly on their own account and build their first 2 AI employees. 1 answers a new lead in seconds, even at 2 AM. 1 keeps track of competitors, so you're not the last to know. Then you see the 100+ that run our company.
+Our own company runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes.
 
-Sun Nov 1, 11 AM Eastern. US clocks go back 1 hour that morning. 120 minutes, replay included. $97 GA, $197 VIP: https://contentsystems.ai/workshop
+This Sunday we'll set this up live with business owners at The AI Employee Accelerator on Zoom. Sun Nov 1, 11 AM Eastern (US clocks go back 1 hour that morning). 120 minutes, replay included. $97 GA, $197 VIP: https://contentsystems.ai/workshop
 
 #AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship
 
 ## Script
-4 of the biggest names in tech just shipped the same rule. We've built it into every system since day 1. Nothing sends, pays or signs without a person's yes. Anthropic's new assistant asks before it pays. Walmart lets shoppers approve what an AI buys. 1Password lets AI log in only after you say yes. And Microsoft told companies to watch their AI like an insider with the keys. Our own company runs on 100+ AI employees. They write, answer leads and onboard clients all day. Not 1 of them sends a thing to a customer without a person's yes. The AI does the work, you keep the final say. This Sunday at 11 AM Eastern, we'll show business owners how to set up their first AI employee with that rule built in. Grab your seat, link in the post.
+4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday, 11 AM Eastern. Link in the post.
 
 ## Alt text
-Fast animated explainer that flips between dark green and cream. A big 4 appears, then "1 RULE". A receipt prints send, pay and sign, each on HOLD until "your yes". App cards show Anthropic and Walmart asking first, an AI sign-in that never shows the password, and a "who holds the keys" list. A counter rolls to 100+ AI employees, drafts wait for approval, a 0 shows nothing sent without a yes, a cursor ticks "You make the call" and an APPROVED stamp lands. It ends on 11 AM this Sunday and a workshop link typing into a box.
+Animated explainer that flips between dark green and cream. Anthropic, Walmart, 1Password and Microsoft logos slam down and "1 RULE" lands. Then a card for each company with its lesson: Anthropic asks before it pays (money out always needs a yes), Walmart spending limits (a limit, not a meeting), 1Password logs in without seeing the password (never paste passwords into AI tools), Microsoft's insider with the keys (only the access its job needs). A card shows AI does the work and a person owns the yes, stamped APPROVED, and the video ends on the workshop card for Sunday Nov 1 at 11 AM ET.
 
 ## Notes
+- Voice: fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID).
+- Value rewrite 2026-10-23 (Korede: "value, not an ad, we don't want people to just swipe"): script rebuilt as a mini-lesson (hook with a specific, concrete checks an operator can run today, 1 light pitch line after the main point, soft CTA in the last ~4 s). Wordmark only at the end (branded). Audio: free HeyGen speech in the fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID), tightened with scripts/tighten.mjs, transcribed with faster-whisper and aligned to the script. Music bed kept (audio/music.mp3, volume 0.1).
 - Sources: Claude Duet asks for approval before payments (TechCrunch, Oct 22 2026, https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/). Walmart Agent Profiles with per-transaction approval or spending limits (research/weekly/2026-W44.md 1.2, TechCrunch Oct 21, Retail Dive Oct 22). 1Password for Agents, login after user approval without seeing the password (TechCrunch, Oct 22 2026, https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/). Microsoft insider-threat framing (TechCrunch, Oct 19 2026, https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/).
-- Proof: 100+ AI employees and the approval gate on outbound actions are from the proof bank. "Customer emails / Refunds / Payments, AI alone" on the keys card is an illustration of the risk, not a client.
-- Aspect 9:16 per plan (story template renders 9:16 only; LinkedIn plays it fine).
-- Workshop facts from config/offers.json (Sun Nov 1, 11 AM ET, $97 GA, $197 VIP). Clock change line per plan.
-- Voice: Gemini 3.8 "Brio" via ttsCreator. Music: Suno V6 instrumental (audio/music.mp3; music-2.mp3 is the unused alt take).
-- Curiosity rewrite 2026-10-23 (caption only, video unchanged): caption now teases that the yes is only 1 of the rules, and the workshop line matches the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay). The VO still says "their first AI employee" (singular); close enough, flag if Korede wants a re-voice.
+- The "lessons" are our operator takeaways, not claims made by those companies.
+- Proof: 100+ AI employees and the approval gate on outbound actions (proof bank).
+- Aspect 9:16 (story template renders 9:16 only; LinkedIn plays it fine). Workshop facts from config/offers.json.

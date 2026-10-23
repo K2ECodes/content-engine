@@ -1,0 +1,17 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "belief-shift",
+  "execution": "proof",
+  "topic": "ai-swap-millionaire-in-30-days",
+  "lead": false,
+  "cta_type": "comment-keyword",
+  "slot": "2026-10-28T20:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

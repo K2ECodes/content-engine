@@ -1,226 +1,249 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1
-    },
-    "script": "Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks. Here's what happened. They started with a pilot of about 1,000 people. 8 in 10 of them weren't engineers. Then 30 AI engineers sat with each team, found the boring parts of their jobs and automated them. Data reports. Training in new languages. Dashboards. 2 weeks per team. Then they scaled. Most companies do the opposite. They buy licenses for everyone, send a login, and wonder why nobody uses it. You don't need 30 engineers. You need someone next to your team for 2 weeks. On your real work. Bring your biggest bottleneck to our free office hours. Link in bio.",
-    "keys": [
-      "30000",
-      "secret",
-      "30",
-      "weeks",
-      "1000",
-      "8",
-      "boring",
-      "scaled",
-      "opposite",
-      "nobody",
-      "someone",
-      "free"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "Uber just gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it. Step 1, start small. Uber ran a pilot with about 1,000 people, and 8 in 10 of them weren't engineers. So don't hand AI to your tech person. Hand it to ops. Step 2, sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work. Step 3, automate that first. Data reports, training in new languages, dashboards. Then scale. Buying licenses and sending a login isn't a rollout. It's how we roll out AI at Content Systems.ai. Bring your biggest bottleneck to our free office hours. Link in bio.",
+  "say": "Uber just gave AI to thirty thousand staff. The tool wasn't the trick. The rollout was, and you can copy it. Step one, start small. Uber ran a pilot with about a thousand people, and eight in ten of them weren't engineers. So don't hand AI to your tech person. Hand it to ops. Step two, sit next to each team for two weeks. Uber paired thirty AI engineers with teams, to find the boring work. Step three, automate that first. Data reports, training in new languages, dashboards. Then scale. Buying licenses and sending a login isn't a rollout. It's how we roll out AI at Kun-TENT Systems dot A I. Bring your biggest bottleneck to our free office hours. Link in bio.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "staff."
+  },
+  "keys": [
+   "30000",
+   "rollout",
+   "small",
+   "8",
+   "ops",
+   "2",
+   "boring",
+   "first",
+   "bottleneck"
+  ],
+  "strikes": [
+   "tool",
+   "login"
+  ],
+  "posterAt": 2.6,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "odometer",
+    "value": "30,000",
+    "label": "Uber staff now on AI",
+    "landAt": "staff."
+   },
+   {
+    "at": "The",
+    "world": "light",
+    "type": "list",
+    "title": "What made it work",
+    "rows": [
+     {
+      "text": "The tool",
+      "at": "tool",
+      "chip": "No",
+      "chipKind": "bad"
+     },
+     {
+      "text": "The rollout",
+      "at": "rollout",
+      "chip": "Yes",
+      "chipKind": "ok"
+     }
+    ]
+   },
+   {
+    "at": "Step",
+    "world": "dark",
+    "type": "brand",
+    "brand": "uber",
+    "title": "Start small",
+    "sub": "Pilot: about 1,000 people"
+   },
+   {
+    "at": "8",
+    "world": "light",
+    "type": "stat",
+    "value": "8 in 10",
+    "label": "of the pilot weren't engineers",
+    "foot": "TechCrunch, Oct 22 2026"
+   },
+   {
+    "at": "So",
+    "world": "dark",
+    "type": "list",
+    "title": "Who gets AI first",
+    "rows": [
+     {
+      "text": "Your tech person",
+      "at": "tech",
+      "chip": "No",
+      "chipKind": "bad"
+     },
+     {
+      "text": "Your ops team",
+      "at": "ops.",
+      "chip": "Yes",
+      "chipKind": "ok"
+     }
+    ]
+   },
+   {
+    "at": "Step#2",
+    "world": "light",
+    "type": "stat",
+    "value": "2 weeks",
+    "label": "sitting next to each team"
+   },
+   {
+    "at": "Uber#3",
+    "world": "dark",
+    "type": "odometer",
+    "value": "30",
+    "label": "AI engineers paired with teams",
+    "landAt": "30"
+   },
+   {
+    "at": "Step#3",
+    "world": "light",
+    "type": "checklist",
+    "title": "Automate the boring work",
+    "rows": [
+     {
+      "text": "Data reports",
+      "at": "Data"
+     },
+     {
+      "text": "Training in new languages",
+      "at": "training"
+     },
+     {
+      "text": "Dashboards",
+      "at": "dashboards."
+     }
     ],
-    "strikes": [
-      "tool",
-      "login"
-    ],
-    "posterAt": 1.6,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "odometer",
-        "value": "30,000",
-        "label": "Uber staff getting AI",
-        "landAt": "30,000"
-      },
-      {
-        "at": "secret",
-        "world": "light",
-        "type": "word",
-        "text": "Not tools"
-      },
-      {
-        "at": "it was",
-        "world": "dark",
-        "type": "stat",
-        "value": "30",
-        "label": "AI experts sitting next to teams",
-        "foot": "TechCrunch, Oct 22 2026"
-      },
-      {
-        "at": "2",
-        "world": "light",
-        "type": "word",
-        "text": "2 weeks"
-      },
-      {
-        "at": "they started",
-        "world": "dark",
-        "type": "list",
-        "title": "Uber pilot",
-        "rows": [
-          {
-            "text": "People in the pilot",
-            "at": "pilot",
-            "val": "1,000"
-          },
-          {
-            "text": "Weren't engineers",
-            "at": "8",
-            "val": "8 in 10"
-          }
-        ]
-      },
-      {
-        "at": "then",
-        "world": "light",
-        "type": "checklist",
-        "title": "Team by team",
-        "rows": [
-          {
-            "text": "Sit with the team",
-            "at": "sat"
-          },
-          {
-            "text": "Find the boring parts",
-            "at": "boring"
-          },
-          {
-            "text": "Automate them",
-            "at": "automated"
-          }
-        ],
-        "click": {
-          "at": "automated",
-          "x": 600,
-          "y": 1180
-        }
-      },
-      {
-        "at": "data",
-        "world": "dark",
-        "type": "list",
-        "title": "What they handed to AI",
-        "rows": [
-          {
-            "text": "Data reports",
-            "at": "data",
-            "chip": "Done",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Training, new languages",
-            "at": "training",
-            "chip": "Done",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Dashboards",
-            "at": "dashboards",
-            "chip": "Done",
-            "chipKind": "ok"
-          }
-        ]
-      },
-      {
-        "at": "2#2",
-        "world": "light",
-        "type": "stat",
-        "value": "2 weeks",
-        "label": "per team, then scale",
-        "foot": "TechCrunch, Oct 22 2026"
-      },
-      {
-        "at": "most",
-        "world": "dark",
-        "type": "list",
-        "title": "Most companies",
-        "rows": [
-          {
-            "text": "Licenses for everyone",
-            "at": "buy",
-            "chip": "Bought",
-            "chipKind": "ok"
-          },
-          {
-            "text": "A login by email",
-            "at": "send",
-            "chip": "Sent",
-            "chipKind": "ok"
-          },
-          {
-            "text": "People using it",
-            "at": "nobody",
-            "chip": "Nobody",
-            "chipKind": "bad"
-          }
-        ],
-        "stamp": {
-          "text": "MISSED",
-          "kind": "bad",
-          "at": "uses",
-          "x": 300,
-          "y": 820
-        }
-      },
-      {
-        "at": "don't need",
-        "world": "light",
-        "type": "word",
-        "text": "Not 30"
-      },
-      {
-        "at": "you need",
-        "world": "dark",
-        "type": "checklist",
-        "title": "What you need",
-        "rows": [
-          {
-            "text": "Someone next to your team",
-            "at": "someone"
-          },
-          {
-            "text": "For 2 weeks",
-            "at": "2#3"
-          },
-          {
-            "text": "On your real work",
-            "at": "real"
-          }
-        ],
-        "stamp": {
-          "text": "DONE",
-          "kind": "ok",
-          "at": "work",
-          "x": 600,
-          "y": 840
-        }
-      },
-      {
-        "at": "bring",
-        "world": "light",
-        "type": "cta",
-        "keyword": "FREE",
-        "prompt": "Bottleneck: month-end billing",
-        "dm": "Seat saved · link in bio"
-      }
-    ],
-    "bgLogos": [
-      "uber",
-      "uber",
-      "uber",
-      "uber"
-    ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "uber",
-        "shopify",
-        "fedex"
-      ]
-    },
-    "branded": true
-  }
+    "stamp": {
+     "text": "DONE",
+     "kind": "ok",
+     "at": "scale.",
+     "x": 560,
+     "y": 720
+    }
+   },
+   {
+    "at": "Buying",
+    "world": "dark",
+    "type": "list",
+    "title": "Not a rollout",
+    "rows": [
+     {
+      "text": "Buy licenses",
+      "at": "licenses",
+      "chip": "Skip",
+      "chipKind": "bad"
+     },
+     {
+      "text": "Send a login",
+      "at": "login",
+      "chip": "Skip",
+      "chipKind": "bad"
+     }
+    ]
+   },
+   {
+    "at": "It's",
+    "world": "light",
+    "type": "checklist",
+    "title": "How we roll out AI",
+    "rows": [
+     {
+      "text": "Pilot 1 team",
+      "at": "how"
+     },
+     {
+      "text": "2 weeks beside them",
+      "at": "roll"
+     },
+     {
+      "text": "Then scale",
+      "at": "Content"
+     }
+    ]
+   },
+   {
+    "at": "Bring",
+    "world": "dark",
+    "type": "list",
+    "title": "Free office hours",
+    "badge": "Link in bio",
+    "rows": [
+     {
+      "text": "Your biggest bottleneck",
+      "at": "bottleneck",
+      "chip": "Bring it",
+      "chipKind": "ok"
+     }
+    ]
+   }
+  ],
+  "bgLogos": [
+   "uber",
+   "chatgpt",
+   "uber",
+   "chatgpt",
+   "uber"
+  ],
+  "hook": {
+   "style": "zoom",
+   "src": "shots/tc-uber-head.png",
+   "brands": [
+    "uber",
+    "chatgpt"
+   ]
+  },
+  "pops": [
+   {
+    "at": "pilot",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 850,
+    "y": 250,
+    "w": 160,
+    "rot": 8,
+    "until": "So"
+   },
+   {
+    "at": "sit",
+    "kind": "sprite",
+    "sprite": "worker",
+    "x": 860,
+    "y": 200,
+    "w": 180,
+    "until": "Step#3"
+   },
+   {
+    "at": "automate",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 850,
+    "y": 250,
+    "w": 160,
+    "until": "Buying"
+   },
+   {
+    "at": "Bring",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 800,
+    "y": 290,
+    "w": 220,
+    "size": 60,
+    "color": "#E8B84B",
+    "rot": 12
+   }
+  ],
+  "branded": true
+ }
 }

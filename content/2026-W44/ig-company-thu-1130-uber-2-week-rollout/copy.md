@@ -1,21 +1,25 @@
 ## Caption
-Uber is giving AI to all 30,000 staff. The secret wasn't the tool. It was 30 experts sitting next to teams for 2 weeks.
+Uber gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it.
 
-It started with a pilot of about 1,000 people, and 8 in 10 of them weren't engineers. Then the experts sat with each team, found the boring parts of the job and handed them to AI: data reports, training in new languages, dashboards. 2 weeks per team, then scale.
+1. Start small. Uber's pilot had about 1,000 people, and 8 in 10 weren't engineers. Give AI to your ops team, not just your tech person.
+2. Sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work.
+3. Automate that first. Data reports, training in new languages, dashboards. Then scale.
 
-Most companies do the opposite. Buy licenses for everyone, send a login, wonder why nobody uses it.
-
-You don't need 30 engineers. You need someone next to your team for 2 weeks, on your real work. That's how Content Systems.ai rolls out AI for 3PLs and e-commerce brands.
+Buying licenses and sending a login isn't a rollout. Content Systems.ai rolls out AI the same way for 3PLs and e-commerce brands: 1 team, 2 weeks, real work.
 
 Bring your biggest bottleneck to our free office hours. Link in bio.
 
 #operations #smallbusiness #ecommerce #logistics #teamwork
 
+## Script
+Uber just gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it. Step 1, start small. Uber ran a pilot with about 1,000 people, and 8 in 10 of them weren't engineers. So don't hand AI to your tech person. Hand it to ops. Step 2, sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work. Step 3, automate that first. Data reports, training in new languages, dashboards. Then scale. Buying licenses and sending a login isn't a rollout. It's how we roll out AI at Content Systems.ai. Bring your biggest bottleneck to our free office hours. Link in bio.
+
 ## Alt text
-Animated explainer that flips between dark green and cream. A counter rolls to 30,000 Uber staff, a stat shows 30 AI experts next to teams, "2 weeks" in a gold block, a pilot card shows 1,000 people and 8 in 10 non-engineers, a checklist ticks sit with the team, find the boring parts, automate them, a "most companies" card gets stamped MISSED, a "what you need" checklist gets stamped DONE, and a comment box types a bottleneck before an office hours seat is saved.
+Animated explainer that flips between dark green and cream. A TechCrunch headline about Uber putting 30,000 employees on ChatGPT Work zooms in with Uber and ChatGPT logos, a counter rolls to 30,000, a card says the tool no and the rollout yes, an Uber card says start small with a pilot of about 1,000 people, a stat shows 8 in 10 weren't engineers, a card gives AI to the ops team first, "2 weeks" next to each team, a counter rolls to 30 AI engineers, a checklist ticks data reports, training in new languages and dashboards stamped DONE, a card skips buying licenses and sending a login, and the video ends on free office hours and "Link in bio".
 
 ## Notes
-- Sources: Uber expands ChatGPT Work from a 1,000-person pilot to about 30,000 staff, 30 AI engineers paired with teams for 2 weeks, about 8 in 10 pilot adopters non-engineers, TechCrunch Oct 22 2026, https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/ and https://openai.com/index/uber-chatgpt-work-rollout/
-- "Data reports" paraphrases the source's "operations data analysis"; "training in new languages" paraphrases "localizing training".
-- CTA: office-hours (contentsystems.ai/office-hours), link in bio. Plan lists ai-partner as the offer; the link in bio should point to office hours on the day.
-- Voice: Gemini 3.8 Brio via kie.ai. Music: Suno V6 instrumental.
+- Voice: fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID).
+- Value rewrite 2026-10-23 (Korede: "value, not an ad, we don't want people to just swipe"): script rebuilt as a mini-lesson (hook with a specific, concrete checks an operator can run today, 1 light pitch line after the main point, soft CTA in the last ~4 s). Wordmark only at the end (branded). Audio: free HeyGen speech in the fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID), tightened with scripts/tighten.mjs, transcribed with faster-whisper and aligned to the script. Music bed kept (audio/music.mp3, volume 0.1).
+- Sources: Uber expands ChatGPT Work from a 1,000-person pilot to about 30,000 staff, 30 AI engineers paired with teams for 2 weeks, about 8 in 10 pilot adopters non-engineers, TechCrunch Oct 22 2026, https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/ (headline screenshot shots/tc-uber-head.png) and https://openai.com/index/uber-chatgpt-work-rollout/
+- "Data reports" paraphrases the source's "operations data analysis"; "training in new languages" paraphrases "localizing training". "Hand it to ops" is our advice drawn from the 8 in 10 figure.
+- CTA: office-hours (contentsystems.ai/office-hours), link in bio.

@@ -1,22 +1,27 @@
 ## Caption
-The scariest thing in your warehouse this Halloween isn't a ghost. It's the invoice you never sent.
+The scariest thing in your warehouse this Halloween is the invoice you never sent.
 
-Peak season has started. Volume's up, the team's flat out, and that's when fees go missing: a pallet past its free storage, a rush order packed after cutoff, relabeling for a retailer. Your team did the work. Nobody billed it.
+Peak started early this year (Deloitte: 28 in 100 of holiday budgets spent by the end of October), and peak is when fees slip. 3 to check this week:
+· Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end.
+· Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units.
+· Early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now.
 
-Each one looks small. Together they can add up to thousands a month. Not because anyone's careless, but because nobody has time to check every job against every contract in November.
+At month end, nobody remembers who stayed late on the 3rd. Check daily in peak. Content Systems.ai automates that daily check for 3PLs.
 
-Content Systems.ai builds the system that does. It reads the day's work, matches it to each contract and puts the missing fees in front of you to approve.
+See what it adds up to with our free calculator. Link in bio.
 
-Find out what you're leaving on the floor. Our free calculator is in the link in bio.
+#3PL #logistics #warehouse #fulfillment #peakseason
 
-#3PL #logistics #warehouse #fulfillment #halloween
+## Script
+The scariest thing in your warehouse this Halloween? The invoice you never sent. Peak started early this year, and that's when fees slip. Here are 3 to check this week. Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end. Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units. And early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now. At month end, nobody remembers who stayed late on the 3rd. So check daily in peak. That daily check is what we automate at Content Systems.ai. Our free calculator shows what it adds up to. Link in bio.
 
 ## Alt text
-Animated explainer that flips between dark green and cream. A warehouse check finds 0 ghosts and 3 unsent invoices, a peak season card shows fees missing, a receipt prints storage overage, a rush after cutoff and relabeling, totals $2,240 never billed and is stamped MISSED, a counter rolls to $8,960 a month as an example, a checklist reads the work, matches the contract and is stamped APPROVED, and the video ends on the free calculator and "Link in bio".
+Animated explainer that flips between dark green and cream. Carrier logos slam down with cracks and "BOO" appears, a warehouse check finds 0 ghosts and 3 unsent invoices stamped MISSED, a stat card shows 28 in 100 of holiday budgets spent by the end of October, "3 to check" in a gold block, an after-cutoff card logs rush orders by client, a retailer prep card counts relabels and stickers per unit, a free storage card shows end dates in November, "Month end?" and "Daily" in gold blocks, a daily peak checklist is stamped DONE, and the video ends on the free calculator and "Link in bio".
 
 ## Notes
-- Every dollar figure is illustrative (labelled "Illustrative numbers" on the $380 card and "example" on the $8,960 counter). The receipt lines are positioning from contentsystems.ai/logistics (unbilled storage and accessorial fees), not client results.
-- Source for "peak season has started": Deloitte via Modern Retail Oct 19 2026, https://www.modernretail.co/operations/nearly-30-of-holiday-budgets-expected-to-be-spent-by-the-end-of-october/
-- Halloween is a light hook only (the 1 Halloween post this week). Different angle from the retired W43 "invoice never saw it" video: Halloween framing, peak-season pressure and a monthly roll-up.
+- Voice: fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID).
+- Value rewrite 2026-10-23 (Korede: "value, not an ad, we don't want people to just swipe"): script rebuilt as a mini-lesson (hook with a specific, concrete checks an operator can run today, 1 light pitch line after the main point, soft CTA in the last ~4 s). Wordmark only at the end (branded). Audio: free HeyGen speech in the fixed AI male narrator clone (HEYGEN_NARRATOR_VOICE_ID), tightened with scripts/tighten.mjs, transcribed with faster-whisper and aligned to the script. Music bed kept (audio/music.mp3, volume 0.1).
+- Source for "peak started early": Deloitte via Modern Retail Oct 19 2026, 28 in 100 of holiday budgets spent by end of October, https://www.modernretail.co/operations/nearly-30-of-holiday-budgets-expected-to-be-spent-by-the-end-of-october/
+- Order counts, unit counts and the Oct 6 / Oct 20 ship dates are illustrative (badges "Example"); "usually priced per unit" and "could run out" are hedged on purpose. The fee types are positioning from contentsystems.ai/logistics, not client results.
+- Halloween is a light hook only (the 1 Halloween post this week). Different angle from the W43 invoice-gap video: peak-specific fees and a daily (not month-end) check.
 - CTA: calculator, contentsystems.ai/logistics (link in bio).
-- Voice: Gemini 3.8 Brio via kie.ai. Music: Suno V6 instrumental (playful, light Halloween plucks).

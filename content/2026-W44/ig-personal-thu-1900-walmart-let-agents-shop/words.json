@@ -2,7 +2,7 @@
  "words": [
   {
    "w": "Walmart",
-   "start": 0,
+   "start": 0.0,
    "end": 0.5
   },
   {
@@ -18,453 +18,453 @@
   {
    "w": "AI",
    "start": 0.92,
-   "end": 1.1
+   "end": 1.08
   },
   {
    "w": "agents",
-   "start": 1.1,
+   "start": 1.08,
    "end": 1.44
   },
   {
-   "w": "shop",
+   "w": "shop.",
    "start": 1.44,
-   "end": 1.74
+   "end": 1.72
   },
   {
    "w": "Amazon",
-   "start": 1.74,
-   "end": 2.2
+   "start": 1.98,
+   "end": 2.22
   },
   {
    "w": "said",
-   "start": 2.2,
+   "start": 2.22,
    "end": 2.6
   },
   {
-   "w": "no",
+   "w": "no.",
    "start": 2.6,
    "end": 2.86
   },
   {
    "w": "Walmart",
-   "start": 2.86,
-   "end": 3.325
+   "start": 3.08,
+   "end": 3.34
   },
   {
    "w": "launched",
-   "start": 3.325,
-   "end": 3.685
+   "start": 3.34,
+   "end": 3.76
   },
   {
    "w": "Agent",
-   "start": 3.685,
-   "end": 4.005
+   "start": 3.76,
+   "end": 3.96
   },
   {
-   "w": "Gateway",
-   "start": 4.005,
-   "end": 4.325
+   "w": "Gateway.",
+   "start": 3.96,
+   "end": 4.32
   },
   {
-   "w": "approved",
-   "start": 4.325,
-   "end": 4.985
+   "w": "Approved",
+   "start": 4.78,
+   "end": 5.1
   },
   {
    "w": "AI",
-   "start": 4.985,
-   "end": 5.285
+   "start": 5.1,
+   "end": 5.26
   },
   {
    "w": "agents",
-   "start": 5.285,
-   "end": 5.625
+   "start": 5.26,
+   "end": 5.64
   },
   {
    "w": "can",
-   "start": 5.625,
-   "end": 5.805
+   "start": 5.64,
+   "end": 5.8
   },
   {
    "w": "search",
-   "start": 5.805,
-   "end": 6.025
+   "start": 5.8,
+   "end": 6.02
   },
   {
    "w": "the",
-   "start": 6.025,
-   "end": 6.205
+   "start": 6.02,
+   "end": 6.2
   },
   {
    "w": "store",
-   "start": 6.205,
-   "end": 6.425
+   "start": 6.2,
+   "end": 6.42
   },
   {
    "w": "and",
-   "start": 6.425,
-   "end": 6.585
+   "start": 6.42,
+   "end": 6.58
   },
   {
    "w": "buy",
-   "start": 6.585,
-   "end": 6.785
+   "start": 6.58,
+   "end": 6.78
   },
   {
    "w": "for",
-   "start": 6.785,
-   "end": 6.945
+   "start": 6.78,
+   "end": 6.94
   },
   {
-   "w": "you",
-   "start": 6.945,
-   "end": 7.145
+   "w": "you.",
+   "start": 6.94,
+   "end": 7.12
   },
   {
-   "w": "you",
-   "start": 7.145,
-   "end": 7.485
+   "w": "You",
+   "start": 7.4,
+   "end": 7.48
   },
   {
    "w": "set",
-   "start": 7.485,
-   "end": 7.625
+   "start": 7.48,
+   "end": 7.62
   },
   {
    "w": "a",
-   "start": 7.625,
-   "end": 7.745
+   "start": 7.62,
+   "end": 7.72
   },
   {
    "w": "spending",
-   "start": 7.745,
-   "end": 7.905
+   "start": 7.72,
+   "end": 7.94
   },
   {
-   "w": "limit",
-   "start": 7.905,
-   "end": 8.225
+   "w": "limit,",
+   "start": 7.94,
+   "end": 8.34
   },
   {
    "w": "or",
-   "start": 8.225,
-   "end": 8.665
+   "start": 8.34,
+   "end": 8.66
   },
   {
    "w": "approve",
-   "start": 8.665,
-   "end": 8.945
+   "start": 8.66,
+   "end": 9.0
   },
   {
    "w": "every",
-   "start": 8.945,
-   "end": 9.205
+   "start": 9.0,
+   "end": 9.2
   },
   {
-   "w": "order",
-   "start": 9.205,
-   "end": 9.485
+   "w": "order.",
+   "start": 9.2,
+   "end": 9.48
   },
   {
-   "w": "the",
-   "start": 9.485,
-   "end": 9.872
+   "w": "The",
+   "start": 9.8,
+   "end": 9.86
   },
   {
    "w": "agent",
-   "start": 9.872,
-   "end": 10.112
+   "start": 9.86,
+   "end": 10.1
   },
   {
    "w": "never",
-   "start": 10.112,
-   "end": 10.392
+   "start": 10.1,
+   "end": 10.38
   },
   {
    "w": "sees",
-   "start": 10.392,
-   "end": 10.632
+   "start": 10.38,
+   "end": 10.68
   },
   {
    "w": "your",
-   "start": 10.632,
-   "end": 10.792
+   "start": 10.68,
+   "end": 10.78
   },
   {
-   "w": "card",
-   "start": 10.792,
-   "end": 11.052
+   "w": "card.",
+   "start": 10.78,
+   "end": 11.02
   },
   {
-   "w": "break",
-   "start": 11.052,
-   "end": 11.444
+   "w": "Break",
+   "start": 11.34,
+   "end": 11.46
   },
   {
    "w": "the",
-   "start": 11.444,
-   "end": 11.604
+   "start": 11.46,
+   "end": 11.6
   },
   {
-   "w": "rules",
-   "start": 11.604,
-   "end": 11.884
+   "w": "rules,",
+   "start": 11.6,
+   "end": 11.84
   },
   {
    "w": "and",
-   "start": 11.884,
-   "end": 12.284
+   "start": 11.84,
+   "end": 12.28
   },
   {
    "w": "it's",
-   "start": 12.284,
-   "end": 12.444
+   "start": 12.28,
+   "end": 12.44
   },
   {
-   "w": "blocked",
-   "start": 12.444,
-   "end": 12.704
+   "w": "blocked.",
+   "start": 12.44,
+   "end": 12.86
   },
   {
    "w": "Amazon",
-   "start": 12.704,
-   "end": 13.524
+   "start": 13.26,
+   "end": 13.5
   },
   {
    "w": "went",
-   "start": 13.524,
-   "end": 13.764
+   "start": 13.5,
+   "end": 13.78
   },
   {
    "w": "the",
-   "start": 13.764,
-   "end": 13.884
+   "start": 13.78,
+   "end": 13.9
   },
   {
    "w": "other",
-   "start": 13.884,
-   "end": 14.004
+   "start": 13.9,
+   "end": 14.02
   },
   {
-   "w": "way",
-   "start": 14.004,
-   "end": 14.264
+   "w": "way.",
+   "start": 14.02,
+   "end": 14.22
   },
   {
-   "w": "it's",
-   "start": 14.264,
-   "end": 14.718
+   "w": "It's",
+   "start": 14.6,
+   "end": 14.72
   },
   {
    "w": "blocking",
-   "start": 14.718,
-   "end": 14.938
+   "start": 14.72,
+   "end": 15.06
   },
   {
    "w": "AI",
-   "start": 14.938,
-   "end": 15.238
+   "start": 15.06,
+   "end": 15.24
   },
   {
    "w": "agents",
-   "start": 15.238,
-   "end": 15.578
+   "start": 15.24,
+   "end": 15.58
   },
   {
    "w": "from",
-   "start": 15.578,
-   "end": 15.738
+   "start": 15.58,
+   "end": 15.74
   },
   {
-   "w": "buying",
-   "start": 15.738,
-   "end": 16.018
+   "w": "buying,",
+   "start": 15.74,
+   "end": 16.06
   },
   {
    "w": "and",
-   "start": 16.018,
-   "end": 16.518
+   "start": 16.06,
+   "end": 16.52
   },
   {
    "w": "it",
-   "start": 16.518,
-   "end": 16.598
+   "start": 16.52,
+   "end": 16.6
   },
   {
    "w": "already",
-   "start": 16.598,
-   "end": 16.778
+   "start": 16.6,
+   "end": 16.78
   },
   {
    "w": "blocked",
-   "start": 16.778,
-   "end": 17.078
+   "start": 16.78,
+   "end": 17.14
   },
   {
    "w": "Meta's",
-   "start": 17.078,
-   "end": 17.378
+   "start": 17.14,
+   "end": 17.42
   },
   {
-   "w": "agent",
-   "start": 17.378,
-   "end": 17.598
+   "w": "agent.",
+   "start": 17.42,
+   "end": 17.58
   },
   {
-   "w": "meanwhile",
-   "start": 17.598,
-   "end": 18.291
+   "w": "Meanwhile,",
+   "start": 18.02,
+   "end": 18.3
   },
   {
    "w": "Walmart",
-   "start": 18.291,
-   "end": 18.731
+   "start": 18.3,
+   "end": 18.7
   },
   {
    "w": "plugs",
-   "start": 18.731,
-   "end": 19.031
+   "start": 18.7,
+   "end": 19.04
   },
   {
    "w": "into",
-   "start": 19.031,
-   "end": 19.251
+   "start": 19.04,
+   "end": 19.22
   },
   {
    "w": "ChatGPT",
-   "start": 19.251,
-   "end": 19.991
+   "start": 19.22,
+   "end": 19.98
   },
   {
    "w": "and",
-   "start": 19.991,
-   "end": 20.211
+   "start": 19.98,
+   "end": 20.2
   },
   {
-   "w": "Gemini",
-   "start": 20.211,
-   "end": 20.571
+   "w": "Gemini.",
+   "start": 20.2,
+   "end": 20.58
   },
   {
-   "w": "so",
-   "start": 20.571,
-   "end": 20.97
+   "w": "So",
+   "start": 20.9,
+   "end": 21.0
   },
   {
    "w": "who",
-   "start": 20.97,
-   "end": 21.13
+   "start": 21.0,
+   "end": 21.14
   },
   {
-   "w": "wins",
-   "start": 21.13,
-   "end": 21.37
+   "w": "wins?",
+   "start": 21.14,
+   "end": 21.32
   },
   {
    "w": "Walmart",
-   "start": 21.37,
-   "end": 22.23
+   "start": 21.84,
+   "end": 22.26
   },
   {
    "w": "bet",
-   "start": 22.23,
-   "end": 22.45
+   "start": 22.26,
+   "end": 22.48
   },
   {
    "w": "on",
-   "start": 22.45,
-   "end": 22.59
+   "start": 22.48,
+   "end": 22.58
   },
   {
-   "w": "agents",
-   "start": 22.59,
-   "end": 22.91
+   "w": "agents.",
+   "start": 22.58,
+   "end": 22.92
   },
   {
    "w": "Amazon",
-   "start": 22.91,
-   "end": 23.57
+   "start": 23.34,
+   "end": 23.6
   },
   {
    "w": "bet",
-   "start": 23.57,
-   "end": 23.83
+   "start": 23.6,
+   "end": 23.84
   },
   {
    "w": "on",
-   "start": 23.83,
-   "end": 23.97
+   "start": 23.84,
+   "end": 23.98
   },
   {
    "w": "its",
-   "start": 23.97,
-   "end": 24.09
+   "start": 23.98,
+   "end": 24.1
   },
   {
    "w": "own",
-   "start": 24.09,
-   "end": 24.25
+   "start": 24.1,
+   "end": 24.24
   },
   {
-   "w": "store",
-   "start": 24.25,
-   "end": 24.53
+   "w": "store.",
+   "start": 24.24,
+   "end": 24.5
   },
   {
-   "w": "comment",
-   "start": 24.53,
-   "end": 25.15
+   "w": "Comment",
+   "start": 24.88,
+   "end": 25.16
   },
   {
    "w": "AI",
-   "start": 25.15,
-   "end": 25.47
+   "start": 25.16,
+   "end": 25.46
   },
   {
    "w": "and",
-   "start": 25.47,
-   "end": 25.87
+   "start": 25.46,
+   "end": 25.86
   },
   {
    "w": "I'll",
-   "start": 25.87,
-   "end": 25.97
+   "start": 25.86,
+   "end": 25.98
   },
   {
    "w": "send",
-   "start": 25.97,
-   "end": 26.13
+   "start": 25.98,
+   "end": 26.12
   },
   {
    "w": "you",
-   "start": 26.13,
-   "end": 26.27
+   "start": 26.12,
+   "end": 26.28
   },
   {
    "w": "my",
-   "start": 26.27,
-   "end": 26.41
+   "start": 26.28,
+   "end": 26.4
   },
   {
    "w": "free",
-   "start": 26.41,
-   "end": 26.73
+   "start": 26.4,
+   "end": 26.72
   },
   {
    "w": "AI",
-   "start": 26.73,
-   "end": 27.07
+   "start": 26.72,
+   "end": 27.1
   },
   {
    "w": "starter",
-   "start": 27.07,
-   "end": 27.39
+   "start": 27.1,
+   "end": 27.5
   },
   {
-   "w": "pack",
-   "start": 27.39,
-   "end": 27.65
+   "w": "pack.",
+   "start": 27.5,
+   "end": 27.66
   }
  ],
- "text": "Walmart just let AI agents shop Amazon said no Walmart launched Agent Gateway approved AI agents can search the store and buy for you you set a spending limit or approve every order the agent never sees your card break the rules and it's blocked Amazon went the other way it's blocking AI agents from buying and it already blocked Meta's agent meanwhile Walmart plugs into ChatGPT and Gemini so who wins Walmart bet on agents Amazon bet on its own store comment AI and I'll send you my free AI starter pack"
+ "text": "Walmart Just Let AI Agents Shop, Amazon Said No, Walmart Launched Agent Gateway, Approved AI Agents Can Search The Store And Buy For You, You Set A Spending Limit Or Approve Every Order, The Agent Never Sees Your Card, Break The Rules And It's Blocked, Amazon Went The Other Way, It's Blocking AI Agents From Buying And It Already Blocked Meta's Agent, Meanwhile Walmart Plugs Into ChatGPT And Gemini, So Who Wins, Walmart Bed On Agents, Amazon Bed On Its Own Store, Comment AI And I'll Send You My Free AI Starter Pack."
 }

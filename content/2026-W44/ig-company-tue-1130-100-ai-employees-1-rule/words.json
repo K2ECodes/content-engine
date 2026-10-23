@@ -2,644 +2,599 @@
  "words": [
   {
    "w": "We",
-   "start": 0,
-   "end": 0.32
+   "start": 0.0,
+   "end": 0.38
   },
   {
    "w": "run",
-   "start": 0.32,
-   "end": 0.5
-  },
-  {
-   "w": "our",
-   "start": 0.5,
-   "end": 0.6
-  },
-  {
-   "w": "company",
-   "start": 0.6,
-   "end": 0.9
+   "start": 0.38,
+   "end": 0.56
   },
   {
    "w": "on",
-   "start": 0.9,
-   "end": 1.1
+   "start": 0.56,
+   "end": 0.7
   },
   {
    "w": "100+",
-   "start": 1.1,
-   "end": 2.02
+   "start": 0.7,
+   "end": 1.32
   },
   {
    "w": "AI",
-   "start": 2.02,
-   "end": 2.34
+   "start": 1.32,
+   "end": 1.56
   },
   {
    "w": "employees.",
-   "start": 2.34,
-   "end": 2.88
+   "start": 1.56,
+   "end": 1.92
   },
   {
    "w": "Not",
-   "start": 3.296,
-   "end": 3.536
+   "start": 2.5,
+   "end": 2.62
   },
   {
    "w": "1",
-   "start": 3.536,
-   "end": 3.856
+   "start": 2.62,
+   "end": 2.84
   },
   {
    "w": "of",
-   "start": 3.856,
-   "end": 3.976
+   "start": 2.84,
+   "end": 2.92
   },
   {
    "w": "them",
-   "start": 3.976,
-   "end": 4.136
+   "start": 2.92,
+   "end": 3.04
   },
   {
    "w": "can",
-   "start": 4.136,
-   "end": 4.336
+   "start": 3.04,
+   "end": 3.16
   },
   {
    "w": "send",
-   "start": 4.336,
-   "end": 4.516
+   "start": 3.16,
+   "end": 3.34
   },
   {
    "w": "a",
-   "start": 4.516,
-   "end": 4.636
+   "start": 3.34,
+   "end": 3.46
   },
   {
    "w": "refund",
-   "start": 4.636,
-   "end": 4.836
-  },
-  {
-   "w": "without",
-   "start": 4.836,
-   "end": 5.176
-  },
-  {
-   "w": "a",
-   "start": 5.176,
-   "end": 5.296
-  },
-  {
-   "w": "person",
-   "start": 5.296,
-   "end": 5.556
-  },
-  {
-   "w": "saying",
-   "start": 5.556,
-   "end": 5.916
-  },
-  {
-   "w": "yes.",
-   "start": 5.916,
-   "end": 6.356
-  },
-  {
-   "w": "Content,",
-   "start": 7.036,
-   "end": 7.516
-  },
-  {
-   "w": "lead",
-   "start": 7.896,
-   "end": 8.016
-  },
-  {
-   "w": "replies,",
-   "start": 8.016,
-   "end": 8.436
-  },
-  {
-   "w": "onboarding,",
-   "start": 8.776,
-   "end": 9.376
-  },
-  {
-   "w": "ads.",
-   "start": 9.596,
-   "end": 9.816
-  },
-  {
-   "w": "They",
-   "start": 10.316,
-   "end": 10.456
-  },
-  {
-   "w": "draft",
-   "start": 10.456,
-   "end": 10.756
-  },
-  {
-   "w": "all",
-   "start": 10.756,
-   "end": 11.136
-  },
-  {
-   "w": "day.",
-   "start": 11.136,
-   "end": 11.416
-  },
-  {
-   "w": "But",
-   "start": 11.676,
-   "end": 11.896
-  },
-  {
-   "w": "anything",
-   "start": 11.896,
-   "end": 12.176
-  },
-  {
-   "w": "that",
-   "start": 12.176,
-   "end": 12.436
-  },
-  {
-   "w": "leaves",
-   "start": 12.436,
-   "end": 12.676
-  },
-  {
-   "w": "the",
-   "start": 12.676,
-   "end": 12.856
-  },
-  {
-   "w": "building",
-   "start": 12.856,
-   "end": 13.136
-  },
-  {
-   "w": "waits",
-   "start": 13.136,
-   "end": 13.556
-  },
-  {
-   "w": "for",
-   "start": 13.556,
-   "end": 13.776
-  },
-  {
-   "w": "a",
-   "start": 13.776,
-   "end": 13.896
-  },
-  {
-   "w": "yes.",
-   "start": 13.896,
-   "end": 14.116
-  },
-  {
-   "w": "Money",
-   "start": 14.443,
-   "end": 14.723
-  },
-  {
-   "w": "going",
-   "start": 14.723,
-   "end": 14.943
-  },
-  {
-   "w": "out.",
-   "start": 14.943,
-   "end": 15.263
-  },
-  {
-   "w": "A",
-   "start": 15.503,
-   "end": 15.563
-  },
-  {
-   "w": "message",
-   "start": 15.563,
-   "end": 15.763
-  },
-  {
-   "w": "to",
-   "start": 15.763,
-   "end": 15.963
-  },
-  {
-   "w": "a",
-   "start": 15.963,
-   "end": 16.063
-  },
-  {
-   "w": "customer.",
-   "start": 16.063,
-   "end": 16.363
-  },
-  {
-   "w": "A",
-   "start": 16.703,
-   "end": 16.763
-  },
-  {
-   "w": "quote",
-   "start": 16.763,
-   "end": 17.023
-  },
-  {
-   "w": "or",
-   "start": 17.023,
-   "end": 17.243
-  },
-  {
-   "w": "a",
-   "start": 17.243,
-   "end": 17.343
-  },
-  {
-   "w": "contract.",
-   "start": 17.343,
-   "end": 17.703
-  },
-  {
-   "w": "Deleting",
-   "start": 18.123,
-   "end": 18.483
-  },
-  {
-   "w": "data.",
-   "start": 18.483,
-   "end": 18.903
-  },
-  {
-   "w": "That's",
-   "start": 19.207,
-   "end": 19.567
-  },
-  {
-   "w": "the",
-   "start": 19.567,
-   "end": 19.667
-  },
-  {
-   "w": "rule.",
-   "start": 19.667,
-   "end": 19.867
-  },
-  {
-   "w": "And",
-   "start": 20.063,
-   "end": 20.283
-  },
-  {
-   "w": "this",
-   "start": 20.283,
-   "end": 20.443
-  },
-  {
-   "w": "week,",
-   "start": 20.443,
-   "end": 20.643
-  },
-  {
-   "w": "the",
-   "start": 20.803,
-   "end": 20.863
-  },
-  {
-   "w": "biggest",
-   "start": 20.863,
-   "end": 21.163
-  },
-  {
-   "w": "names",
-   "start": 21.163,
-   "end": 21.483
-  },
-  {
-   "w": "in",
-   "start": 21.483,
-   "end": 21.643
-  },
-  {
-   "w": "AI",
-   "start": 21.643,
-   "end": 21.863
-  },
-  {
-   "w": "shipped",
-   "start": 21.863,
-   "end": 22.243
-  },
-  {
-   "w": "the",
-   "start": 22.243,
-   "end": 22.443
-  },
-  {
-   "w": "same",
-   "start": 22.443,
-   "end": 22.863
-  },
-  {
-   "w": "rule.",
-   "start": 22.863,
-   "end": 23.263
-  },
-  {
-   "w": "Anthropic's",
-   "start": 23.557,
-   "end": 24.077
-  },
-  {
-   "w": "new",
-   "start": 24.077,
-   "end": 24.177
-  },
-  {
-   "w": "assistant",
-   "start": 24.177,
-   "end": 24.477
-  },
-  {
-   "w": "asks",
-   "start": 24.477,
-   "end": 24.877
-  },
-  {
-   "w": "before",
-   "start": 24.877,
-   "end": 25.157
-  },
-  {
-   "w": "it",
-   "start": 25.157,
-   "end": 25.317
-  },
-  {
-   "w": "sends,",
-   "start": 25.317,
-   "end": 25.677
-  },
-  {
-   "w": "pays",
-   "start": 25.897,
-   "end": 26.037
-  },
-  {
-   "w": "or",
-   "start": 26.037,
-   "end": 26.277
-  },
-  {
-   "w": "signs.",
-   "start": 26.277,
-   "end": 26.637
-  },
-  {
-   "w": "Walmart",
-   "start": 26.637,
-   "end": 27.417
-  },
-  {
-   "w": "puts",
-   "start": 27.417,
-   "end": 27.717
-  },
-  {
-   "w": "spending",
-   "start": 27.717,
-   "end": 28.037
-  },
-  {
-   "w": "limits",
-   "start": 28.037,
-   "end": 28.317
+   "start": 3.46,
+   "end": 3.64
   },
   {
    "w": "on",
-   "start": 28.317,
-   "end": 28.477
+   "start": 3.64,
+   "end": 3.86
   },
   {
-   "w": "shopping",
-   "start": 28.477,
-   "end": 28.777
+   "w": "its",
+   "start": 3.86,
+   "end": 4.0
   },
   {
-   "w": "assistants.",
-   "start": 28.777,
-   "end": 29.157
+   "w": "own.",
+   "start": 4.0,
+   "end": 4.18
   },
   {
-   "w": "So",
-   "start": 29.444,
-   "end": 29.747
+   "w": "Here's",
+   "start": 4.52,
+   "end": 4.74
   },
   {
    "w": "the",
-   "start": 29.747,
-   "end": 29.887
+   "start": 4.74,
+   "end": 4.84
   },
   {
-   "w": "question",
-   "start": 29.887,
-   "end": 30.147
+   "w": "rule,",
+   "start": 4.84,
+   "end": 5.02
   },
   {
-   "w": "isn't",
-   "start": 30.147,
-   "end": 30.467
+   "w": "so",
+   "start": 5.14,
+   "end": 5.32
   },
   {
-   "w": "whether",
-   "start": 30.467,
-   "end": 30.647
-  },
-  {
-   "w": "AI",
-   "start": 30.647,
-   "end": 30.907
+   "w": "you",
+   "start": 5.32,
+   "end": 5.4
   },
   {
    "w": "can",
-   "start": 30.907,
-   "end": 31.267
+   "start": 5.4,
+   "end": 5.5
   },
   {
-   "w": "do",
-   "start": 31.267,
-   "end": 31.527
+   "w": "copy",
+   "start": 5.5,
+   "end": 5.74
   },
   {
-   "w": "the",
-   "start": 31.527,
-   "end": 31.647
+   "w": "it.",
+   "start": 5.74,
+   "end": 5.92
   },
   {
-   "w": "work.",
-   "start": 31.647,
-   "end": 31.887
+   "w": "Let",
+   "start": 6.54,
+   "end": 6.64
   },
   {
-   "w": "It's",
-   "start": 32.167,
-   "end": 32.487
+   "w": "AI",
+   "start": 6.64,
+   "end": 6.9
   },
   {
-   "w": "who",
-   "start": 32.487,
-   "end": 32.767
+   "w": "draft",
+   "start": 6.9,
+   "end": 7.22
   },
   {
-   "w": "says",
-   "start": 32.767,
-   "end": 33.087
+   "w": "anything.",
+   "start": 7.22,
+   "end": 7.54
+  },
+  {
+   "w": "But",
+   "start": 8.02,
+   "end": 8.13
+  },
+  {
+   "w": "4",
+   "start": 8.13,
+   "end": 8.24
+  },
+  {
+   "w": "things",
+   "start": 8.24,
+   "end": 8.58
+  },
+  {
+   "w": "always",
+   "start": 8.58,
+   "end": 8.96
+  },
+  {
+   "w": "wait",
+   "start": 8.96,
+   "end": 9.2
+  },
+  {
+   "w": "for",
+   "start": 9.2,
+   "end": 9.32
+  },
+  {
+   "w": "a",
+   "start": 9.32,
+   "end": 9.44
+  },
+  {
+   "w": "person's",
+   "start": 9.44,
+   "end": 9.76
   },
   {
    "w": "yes.",
-   "start": 33.087,
-   "end": 33.447
+   "start": 9.76,
+   "end": 9.94
   },
   {
-   "w": "This",
-   "start": 33.766,
-   "end": 33.966
+   "w": "Money",
+   "start": 10.34,
+   "end": 10.44
   },
   {
-   "w": "Sunday,",
-   "start": 33.966,
-   "end": 34.206
+   "w": "going",
+   "start": 10.44,
+   "end": 10.64
   },
   {
-   "w": "we'll",
-   "start": 34.346,
-   "end": 34.446
+   "w": "out.",
+   "start": 10.64,
+   "end": 10.88
   },
   {
-   "w": "set",
-   "start": 34.446,
-   "end": 34.546
+   "w": "A",
+   "start": 11.18,
+   "end": 11.24
   },
   {
-   "w": "up",
-   "start": 34.546,
-   "end": 34.666
+   "w": "message",
+   "start": 11.24,
+   "end": 11.46
+  },
+  {
+   "w": "to",
+   "start": 11.46,
+   "end": 11.66
+  },
+  {
+   "w": "a",
+   "start": 11.66,
+   "end": 11.76
+  },
+  {
+   "w": "customer.",
+   "start": 11.76,
+   "end": 12.02
+  },
+  {
+   "w": "A",
+   "start": 12.48,
+   "end": 12.54
+  },
+  {
+   "w": "quote",
+   "start": 12.54,
+   "end": 12.8
+  },
+  {
+   "w": "or",
+   "start": 12.8,
+   "end": 13.32
+  },
+  {
+   "w": "a",
+   "start": 13.32,
+   "end": 13.44
+  },
+  {
+   "w": "contract.",
+   "start": 13.44,
+   "end": 13.74
+  },
+  {
+   "w": "Deleting",
+   "start": 14.18,
+   "end": 14.46
+  },
+  {
+   "w": "data.",
+   "start": 14.46,
+   "end": 14.72
+  },
+  {
+   "w": "Try",
+   "start": 15.08,
+   "end": 15.24
+  },
+  {
+   "w": "it",
+   "start": 15.24,
+   "end": 15.34
+  },
+  {
+   "w": "today.",
+   "start": 15.34,
+   "end": 15.54
+  },
+  {
+   "w": "List",
+   "start": 16.08,
+   "end": 16.22
+  },
+  {
+   "w": "every",
+   "start": 16.22,
+   "end": 16.48
+  },
+  {
+   "w": "AI",
+   "start": 16.48,
+   "end": 16.7
+  },
+  {
+   "w": "tool",
+   "start": 16.7,
+   "end": 16.96
   },
   {
    "w": "your",
-   "start": 34.666,
-   "end": 34.766
+   "start": 16.96,
+   "end": 17.12
   },
   {
-   "w": "first",
-   "start": 34.766,
-   "end": 35.006
+   "w": "team",
+   "start": 17.12,
+   "end": 17.3
   },
   {
-   "w": "AI",
-   "start": 35.006,
-   "end": 35.266
+   "w": "uses,",
+   "start": 17.3,
+   "end": 17.6
   },
   {
-   "w": "employee",
-   "start": 35.266,
-   "end": 35.606
+   "w": "and",
+   "start": 17.96,
+   "end": 18.14
   },
   {
-   "w": "live",
-   "start": 35.606,
-   "end": 36.166
+   "w": "next",
+   "start": 18.14,
+   "end": 18.34
   },
   {
-   "w": "with",
-   "start": 36.166,
-   "end": 36.626
+   "w": "to",
+   "start": 18.34,
+   "end": 18.52
   },
   {
-   "w": "the",
-   "start": 36.626,
-   "end": 36.766
+   "w": "each,",
+   "start": 18.52,
+   "end": 18.72
+  },
+  {
+   "w": "write",
+   "start": 19.06,
+   "end": 19.2
+  },
+  {
+   "w": "which",
+   "start": 19.2,
+   "end": 19.44
+  },
+  {
+   "w": "of",
+   "start": 19.44,
+   "end": 19.56
+  },
+  {
+   "w": "those",
+   "start": 19.56,
+   "end": 19.7
+  },
+  {
+   "w": "4",
+   "start": 19.7,
+   "end": 19.98
+  },
+  {
+   "w": "it",
+   "start": 19.98,
+   "end": 20.08
+  },
+  {
+   "w": "can",
+   "start": 20.08,
+   "end": 20.16
+  },
+  {
+   "w": "do",
+   "start": 20.16,
+   "end": 20.3
+  },
+  {
+   "w": "alone.",
+   "start": 20.3,
+   "end": 20.52
+  },
+  {
+   "w": "If",
+   "start": 20.94,
+   "end": 21.08
+  },
+  {
+   "w": "it",
+   "start": 21.08,
+   "end": 21.14
+  },
+  {
+   "w": "can",
+   "start": 21.14,
+   "end": 21.24
+  },
+  {
+   "w": "do",
+   "start": 21.24,
+   "end": 21.36
+  },
+  {
+   "w": "any,",
+   "start": 21.36,
+   "end": 21.58
+  },
+  {
+   "w": "add",
+   "start": 21.86,
+   "end": 21.96
+  },
+  {
+   "w": "a",
+   "start": 21.96,
+   "end": 22.04
   },
   {
    "w": "yes",
-   "start": 36.766,
-   "end": 37.006
+   "start": 22.04,
+   "end": 22.2
   },
   {
-   "w": "built",
-   "start": 37.006,
-   "end": 37.306
+   "w": "step.",
+   "start": 22.2,
+   "end": 22.38
   },
   {
-   "w": "in.",
-   "start": 37.306,
-   "end": 37.546
+   "w": "Anthropic's",
+   "start": 22.76,
+   "end": 23.16
   },
   {
-   "w": "The",
-   "start": 38.012,
-   "end": 38.072
+   "w": "new",
+   "start": 23.16,
+   "end": 23.24
   },
   {
-   "w": "AI",
-   "start": 38.072,
-   "end": 38.372
+   "w": "assistant",
+   "start": 23.24,
+   "end": 23.52
   },
   {
-   "w": "Employee",
-   "start": 38.372,
-   "end": 38.872
+   "w": "works",
+   "start": 23.52,
+   "end": 23.76
   },
   {
-   "w": "Accelerator.",
-   "start": 38.872,
-   "end": 39.392
+   "w": "the",
+   "start": 23.76,
+   "end": 23.92
   },
   {
-   "w": "November",
-   "start": 39.772,
-   "end": 39.912
+   "w": "same",
+   "start": 23.92,
+   "end": 24.12
   },
   {
-   "w": "1.",
-   "start": 39.912,
-   "end": 40.492
+   "w": "way.",
+   "start": 24.12,
+   "end": 24.3
+  },
+  {
+   "w": "It",
+   "start": 24.72,
+   "end": 24.84
+  },
+  {
+   "w": "asks",
+   "start": 24.84,
+   "end": 25.2
+  },
+  {
+   "w": "before",
+   "start": 25.2,
+   "end": 25.54
+  },
+  {
+   "w": "it",
+   "start": 25.54,
+   "end": 25.76
+  },
+  {
+   "w": "pays.",
+   "start": 25.76,
+   "end": 25.94
+  },
+  {
+   "w": "This",
+   "start": 25.94,
+   "end": 26.76
+  },
+  {
+   "w": "Sunday",
+   "start": 26.76,
+   "end": 27.08
+  },
+  {
+   "w": "at",
+   "start": 27.08,
+   "end": 27.34
   },
   {
    "w": "11",
-   "start": 40.552,
-   "end": 40.792
+   "start": 27.34,
+   "end": 27.58
   },
   {
    "w": "AM",
-   "start": 40.792,
-   "end": 41.072
+   "start": 27.58,
+   "end": 27.82
   },
   {
-   "w": "Eastern.",
-   "start": 41.172,
-   "end": 41.252
+   "w": "Eastern,",
+   "start": 27.82,
+   "end": 28.14
+  },
+  {
+   "w": "we'll",
+   "start": 28.6,
+   "end": 28.72
+  },
+  {
+   "w": "set",
+   "start": 28.72,
+   "end": 28.86
+  },
+  {
+   "w": "up",
+   "start": 28.86,
+   "end": 28.98
+  },
+  {
+   "w": "your",
+   "start": 28.98,
+   "end": 29.08
+  },
+  {
+   "w": "first",
+   "start": 29.08,
+   "end": 29.34
+  },
+  {
+   "w": "AI",
+   "start": 29.34,
+   "end": 29.64
+  },
+  {
+   "w": "employee",
+   "start": 29.64,
+   "end": 30.04
+  },
+  {
+   "w": "live,",
+   "start": 30.04,
+   "end": 30.42
+  },
+  {
+   "w": "with",
+   "start": 30.42,
+   "end": 30.84
+  },
+  {
+   "w": "the",
+   "start": 30.84,
+   "end": 30.94
+  },
+  {
+   "w": "yes",
+   "start": 30.94,
+   "end": 31.12
+  },
+  {
+   "w": "built",
+   "start": 31.12,
+   "end": 31.36
+  },
+  {
+   "w": "in.",
+   "start": 31.36,
+   "end": 31.56
   },
   {
    "w": "Link",
-   "start": 41.692,
-   "end": 41.812
+   "start": 31.9,
+   "end": 31.99
   },
   {
    "w": "in",
-   "start": 41.812,
-   "end": 41.932
+   "start": 31.99,
+   "end": 32.08
   },
   {
    "w": "bio.",
-   "start": 41.932,
-   "end": 42.192
+   "start": 32.08,
+   "end": 32.36
   }
  ],
- "text": "We run our company on 100+ AI employees. Not 1 of them can send a refund without a person saying yes. Content, lead replies, onboarding, ads. They draft all day. But anything that leaves the building waits for a yes. Money going out. A message to a customer. A quote or a contract. Deleting data. That's the rule. And this week, the biggest names in AI shipped the same rule. Anthropic's new assistant asks before it sends, pays or signs. Walmart puts spending limits on shopping assistants. So the question isn't whether AI can do the work. It's who says yes. This Sunday, we'll set up your first AI employee live with the yes built in. The AI Employee Accelerator. November 1. 11 AM Eastern. Link in bio."
+ "text": "We run on 100+ AI employees. Not 1 of them can send a refund on its own. Here's the rule, so you can copy it. Let AI draft anything. But 4 things always wait for a person's yes. Money going out. A message to a customer. A quote or a contract. Deleting data. Try it today. List every AI tool your team uses, and next to each, write which of those 4 it can do alone. If it can do any, add a yes step. Anthropic's new assistant works the same way. It asks before it pays. This Sunday at 11 AM Eastern, we'll set up your first AI employee live, with the yes built in. Link in bio."
 }

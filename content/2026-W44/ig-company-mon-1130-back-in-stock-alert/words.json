@@ -2,674 +2,599 @@
  "words": [
   {
    "w": "Google",
-   "start": 0,
-   "end": 0.42
+   "start": 0.0,
+   "end": 0.48
   },
   {
    "w": "now",
-   "start": 0.42,
-   "end": 0.66
+   "start": 0.48,
+   "end": 0.74
   },
   {
-   "w": "tells",
-   "start": 0.66,
-   "end": 0.92
+   "w": "pings",
+   "start": 0.74,
+   "end": 1.14
   },
   {
    "w": "shoppers",
-   "start": 0.92,
-   "end": 1.32
+   "start": 1.14,
+   "end": 1.58
   },
   {
    "w": "the",
-   "start": 1.32,
-   "end": 1.54
+   "start": 1.58,
+   "end": 1.82
   },
   {
    "w": "second",
-   "start": 1.54,
-   "end": 1.94
+   "start": 1.82,
+   "end": 2.18
   },
   {
    "w": "your",
-   "start": 1.94,
-   "end": 2.12
+   "start": 2.18,
+   "end": 2.36
   },
   {
    "w": "product",
-   "start": 2.12,
-   "end": 2.42
+   "start": 2.36,
+   "end": 2.62
   },
   {
    "w": "is",
-   "start": 2.42,
-   "end": 2.6
+   "start": 2.62,
+   "end": 2.8
   },
   {
    "w": "back",
-   "start": 2.6,
-   "end": 2.78
+   "start": 2.8,
+   "end": 2.96
   },
   {
    "w": "in",
-   "start": 2.78,
-   "end": 2.94
+   "start": 2.96,
+   "end": 3.08
   },
   {
    "w": "stock.",
-   "start": 2.94,
-   "end": 3.2
+   "start": 3.08,
+   "end": 3.3
   },
   {
    "w": "But",
-   "start": 3.418,
-   "end": 3.596
-  },
-  {
-   "w": "only",
-   "start": 3.596,
-   "end": 3.896
-  },
-  {
-   "w": "if",
-   "start": 3.896,
-   "end": 4.036
-  },
-  {
-   "w": "your",
-   "start": 4.036,
-   "end": 4.136
-  },
-  {
-   "w": "stock",
-   "start": 4.136,
-   "end": 4.476
-  },
-  {
-   "w": "count",
-   "start": 4.476,
-   "end": 4.736
-  },
-  {
-   "w": "is",
-   "start": 4.736,
-   "end": 4.896
-  },
-  {
-   "w": "right.",
-   "start": 4.896,
-   "end": 5.176
-  },
-  {
-   "w": "Here's",
-   "start": 5.416,
-   "end": 5.696
-  },
-  {
-   "w": "the",
-   "start": 5.696,
-   "end": 5.776
-  },
-  {
-   "w": "problem.",
-   "start": 5.776,
-   "end": 6.016
-  },
-  {
-   "w": "Your",
-   "start": 6.376,
-   "end": 6.596
-  },
-  {
-   "w": "warehouse",
-   "start": 6.596,
-   "end": 6.896
-  },
-  {
-   "w": "says",
-   "start": 6.896,
-   "end": 7.196
-  },
-  {
-   "w": "40",
-   "start": 7.196,
-   "end": 7.616
-  },
-  {
-   "w": "units.",
-   "start": 7.616,
-   "end": 7.936
-  },
-  {
-   "w": "Your",
-   "start": 8.335,
-   "end": 8.416
-  },
-  {
-   "w": "store",
-   "start": 8.416,
-   "end": 8.696
-  },
-  {
-   "w": "says",
-   "start": 8.696,
-   "end": 9.015
-  },
-  {
-   "w": "0.",
-   "start": 9.015,
-   "end": 9.396
-  },
-  {
-   "w": "So",
-   "start": 9.835,
-   "end": 9.995
-  },
-  {
-   "w": "Google",
-   "start": 9.995,
-   "end": 10.196
-  },
-  {
-   "w": "says",
-   "start": 10.196,
-   "end": 10.476
-  },
-  {
-   "w": "sold",
-   "start": 10.476,
-   "end": 10.936
-  },
-  {
-   "w": "out,",
-   "start": 10.936,
-   "end": 11.155
-  },
-  {
-   "w": "and",
-   "start": 11.308,
-   "end": 11.545
-  },
-  {
-   "w": "the",
-   "start": 11.545,
-   "end": 11.625
-  },
-  {
-   "w": "alert",
-   "start": 11.625,
-   "end": 11.845
-  },
-  {
-   "w": "never",
-   "start": 11.845,
-   "end": 12.105
-  },
-  {
-   "w": "goes",
-   "start": 12.105,
-   "end": 12.285
-  },
-  {
-   "w": "out.",
-   "start": 12.285,
-   "end": 12.505
-  },
-  {
-   "w": "That",
-   "start": 12.739,
-   "end": 12.899
-  },
-  {
-   "w": "shopper",
-   "start": 12.899,
-   "end": 13.339
-  },
-  {
-   "w": "buys",
-   "start": 13.339,
-   "end": 13.659
-  },
-  {
-   "w": "from",
-   "start": 13.659,
-   "end": 13.839
-  },
-  {
-   "w": "someone",
-   "start": 13.839,
-   "end": 14.099
-  },
-  {
-   "w": "else.",
-   "start": 14.099,
-   "end": 14.319
-  },
-  {
-   "w": "And",
-   "start": 14.57,
-   "end": 14.774
-  },
-  {
-   "w": "it's",
-   "start": 14.774,
-   "end": 14.854
-  },
-  {
-   "w": "not",
-   "start": 14.854,
-   "end": 14.994
-  },
-  {
-   "w": "just",
-   "start": 14.994,
-   "end": 15.134
-  },
-  {
-   "w": "Google.",
-   "start": 15.134,
-   "end": 15.414
-  },
-  {
-   "w": "16",
-   "start": 15.647,
-   "end": 16.147
-  },
-  {
-   "w": "in",
-   "start": 16.147,
-   "end": 16.447
-  },
-  {
-   "w": "100",
-   "start": 16.447,
-   "end": 16.847
-  },
-  {
-   "w": "shoppers",
-   "start": 16.847,
-   "end": 17.447
-  },
-  {
-   "w": "now",
-   "start": 17.447,
-   "end": 17.687
-  },
-  {
-   "w": "start",
-   "start": 17.687,
-   "end": 17.907
-  },
-  {
-   "w": "their",
-   "start": 17.907,
-   "end": 18.107
-  },
-  {
-   "w": "search",
-   "start": 18.107,
-   "end": 18.367
-  },
-  {
-   "w": "in",
-   "start": 18.367,
-   "end": 18.547
-  },
-  {
-   "w": "ChatGPT.",
-   "start": 18.547,
-   "end": 19.407
-  },
-  {
-   "w": "These",
-   "start": 19.614,
-   "end": 19.843
-  },
-  {
-   "w": "assistants",
-   "start": 19.843,
-   "end": 20.183
-  },
-  {
-   "w": "don't",
-   "start": 20.183,
-   "end": 20.623
-  },
-  {
-   "w": "browse",
-   "start": 20.623,
-   "end": 20.923
-  },
-  {
-   "w": "your",
-   "start": 20.923,
-   "end": 21.123
-  },
-  {
-   "w": "site.",
-   "start": 21.123,
-   "end": 21.443
-  },
-  {
-   "w": "They",
-   "start": 21.803,
-   "end": 21.943
-  },
-  {
-   "w": "read",
-   "start": 21.943,
-   "end": 22.203
-  },
-  {
-   "w": "your",
-   "start": 22.203,
-   "end": 22.383
-  },
-  {
-   "w": "data.",
-   "start": 22.383,
-   "end": 22.783
-  },
-  {
-   "w": "So",
-   "start": 23.24,
-   "end": 23.46
-  },
-  {
-   "w": "3",
-   "start": 23.46,
-   "end": 23.86
-  },
-  {
-   "w": "things",
-   "start": 23.86,
-   "end": 24.2
-  },
-  {
-   "w": "have",
-   "start": 24.2,
-   "end": 24.34
-  },
-  {
-   "w": "to",
-   "start": 24.34,
-   "end": 24.46
-  },
-  {
-   "w": "match.",
-   "start": 24.46,
-   "end": 24.7
-  },
-  {
-   "w": "Every",
-   "start": 25.04,
-   "end": 25.24
-  },
-  {
-   "w": "hour.",
-   "start": 25.24,
-   "end": 25.52
-  },
-  {
-   "w": "The",
-   "start": 25.833,
-   "end": 25.873
-  },
-  {
-   "w": "stock",
-   "start": 25.873,
-   "end": 26.073
-  },
-  {
-   "w": "count.",
-   "start": 26.073,
-   "end": 26.313
-  },
-  {
-   "w": "The",
-   "start": 26.536,
-   "end": 26.636
-  },
-  {
-   "w": "shipping",
-   "start": 26.636,
-   "end": 26.836
-  },
-  {
-   "w": "time.",
-   "start": 26.836,
-   "end": 27.116
-  },
-  {
-   "w": "The",
-   "start": 27.452,
-   "end": 27.512
-  },
-  {
-   "w": "price.",
-   "start": 27.512,
-   "end": 27.812
-  },
-  {
-   "w": "Get",
-   "start": 28.381,
-   "end": 28.521
-  },
-  {
-   "w": "that",
-   "start": 28.521,
-   "end": 28.641
-  },
-  {
-   "w": "right,",
-   "start": 28.641,
-   "end": 28.921
-  },
-  {
-   "w": "and",
-   "start": 29.181,
-   "end": 29.281
-  },
-  {
-   "w": "Google",
-   "start": 29.281,
-   "end": 29.461
-  },
-  {
-   "w": "sends",
-   "start": 29.461,
-   "end": 29.701
-  },
-  {
-   "w": "the",
-   "start": 29.701,
-   "end": 29.841
-  },
-  {
-   "w": "shopper",
-   "start": 29.841,
-   "end": 30.161
-  },
-  {
-   "w": "to",
-   "start": 30.161,
-   "end": 30.241
-  },
-  {
-   "w": "you.",
-   "start": 30.241,
-   "end": 30.401
-  },
-  {
-   "w": "Get",
-   "start": 30.611,
-   "end": 30.831
+   "start": 3.46,
+   "end": 3.7
   },
   {
    "w": "it",
-   "start": 30.831,
-   "end": 30.911
+   "start": 3.7,
+   "end": 3.8
   },
   {
-   "w": "wrong,",
-   "start": 30.911,
-   "end": 31.191
+   "w": "only",
+   "start": 3.8,
+   "end": 4.02
   },
   {
-   "w": "and",
-   "start": 31.431,
-   "end": 31.531
+   "w": "knows",
+   "start": 4.02,
+   "end": 4.28
   },
   {
-   "w": "you",
-   "start": 31.531,
-   "end": 31.851
+   "w": "what",
+   "start": 4.28,
+   "end": 4.44
   },
   {
-   "w": "don't",
-   "start": 31.851,
-   "end": 31.991
+   "w": "your",
+   "start": 4.44,
+   "end": 4.54
   },
   {
-   "w": "even",
-   "start": 31.991,
-   "end": 32.111
+   "w": "data",
+   "start": 4.54,
+   "end": 4.74
   },
   {
-   "w": "know",
-   "start": 32.111,
-   "end": 32.311
+   "w": "tells",
+   "start": 4.74,
+   "end": 4.96
   },
   {
-   "w": "you",
-   "start": 32.311,
-   "end": 32.431
+   "w": "it.",
+   "start": 4.96,
+   "end": 5.14
   },
   {
-   "w": "lost",
-   "start": 32.431,
-   "end": 32.651
+   "w": "3",
+   "start": 5.48,
+   "end": 5.68
   },
   {
-   "w": "the",
-   "start": 32.651,
-   "end": 32.811
+   "w": "checks",
+   "start": 5.68,
+   "end": 5.92
   },
   {
-   "w": "sale.",
-   "start": 32.811,
-   "end": 33.031
-  },
-  {
-   "w": "We",
-   "start": 33.42,
-   "end": 33.6
-  },
-  {
-   "w": "build",
-   "start": 33.6,
-   "end": 33.8
-  },
-  {
-   "w": "the",
-   "start": 33.8,
-   "end": 33.92
-  },
-  {
-   "w": "system",
-   "start": 33.92,
-   "end": 34.22
+   "w": "so",
+   "start": 6.2,
+   "end": 6.44
   },
   {
    "w": "that",
-   "start": 34.22,
-   "end": 34.34
+   "start": 6.44,
+   "end": 6.6
   },
   {
-   "w": "keeps",
-   "start": 34.34,
-   "end": 34.58
+   "w": "alert",
+   "start": 6.6,
+   "end": 6.82
   },
   {
-   "w": "them",
-   "start": 34.58,
-   "end": 34.72
+   "w": "actually",
+   "start": 6.82,
+   "end": 7.32
   },
   {
-   "w": "in",
-   "start": 34.72,
-   "end": 34.82
+   "w": "fires.",
+   "start": 7.32,
+   "end": 7.58
   },
   {
-   "w": "sync,",
-   "start": 34.82,
-   "end": 35.12
+   "w": "First,",
+   "start": 8.26,
+   "end": 8.42
+  },
+  {
+   "w": "compare",
+   "start": 8.84,
+   "end": 9.12
+  },
+  {
+   "w": "your",
+   "start": 9.12,
+   "end": 9.38
+  },
+  {
+   "w": "warehouse",
+   "start": 9.38,
+   "end": 9.64
+  },
+  {
+   "w": "count",
+   "start": 9.64,
+   "end": 9.96
+  },
+  {
+   "w": "to",
+   "start": 9.96,
+   "end": 10.18
+  },
+  {
+   "w": "your",
+   "start": 10.18,
+   "end": 10.28
+  },
+  {
+   "w": "store",
+   "start": 10.28,
+   "end": 10.48
+  },
+  {
+   "w": "count",
+   "start": 10.48,
+   "end": 10.72
+  },
+  {
+   "w": "today.",
+   "start": 11.08,
+   "end": 11.18
+  },
+  {
+   "w": "Warehouse",
+   "start": 11.48,
+   "end": 11.78
+  },
+  {
+   "w": "says",
+   "start": 11.78,
+   "end": 12.08
+  },
+  {
+   "w": "40,",
+   "start": 12.08,
+   "end": 12.4
+  },
+  {
+   "w": "store",
+   "start": 12.86,
+   "end": 13.0
+  },
+  {
+   "w": "says",
+   "start": 13.0,
+   "end": 13.24
+  },
+  {
+   "w": "0?",
+   "start": 13.24,
+   "end": 13.54
+  },
+  {
+   "w": "Google",
+   "start": 13.98,
+   "end": 14.2
+  },
+  {
+   "w": "says",
+   "start": 14.2,
+   "end": 14.5
+  },
+  {
+   "w": "sold",
+   "start": 14.5,
+   "end": 14.76
+  },
+  {
+   "w": "out,",
+   "start": 14.76,
+   "end": 15.04
   },
   {
    "w": "and",
-   "start": 35.34,
-   "end": 35.48
+   "start": 15.26,
+   "end": 15.34
   },
   {
-   "w": "flags",
-   "start": 35.48,
-   "end": 35.74
+   "w": "the",
+   "start": 15.34,
+   "end": 15.46
   },
   {
-   "w": "anything",
-   "start": 35.74,
-   "end": 36.12
+   "w": "alert",
+   "start": 15.46,
+   "end": 15.68
   },
   {
-   "w": "that",
-   "start": 36.12,
-   "end": 36.44
+   "w": "never",
+   "start": 15.68,
+   "end": 15.92
   },
   {
-   "w": "doesn't",
-   "start": 36.44,
-   "end": 36.68
+   "w": "goes",
+   "start": 15.92,
+   "end": 16.12
   },
   {
-   "w": "match.",
-   "start": 36.68,
-   "end": 36.96
+   "w": "out.",
+   "start": 16.12,
+   "end": 16.36
   },
   {
-   "w": "Want",
-   "start": 37.407,
-   "end": 37.587
+   "w": "Second,",
+   "start": 16.56,
+   "end": 16.86
+  },
+  {
+   "w": "check",
+   "start": 17.22,
+   "end": 17.38
+  },
+  {
+   "w": "how",
+   "start": 17.38,
+   "end": 17.56
+  },
+  {
+   "w": "often",
+   "start": 17.56,
+   "end": 17.86
+  },
+  {
+   "w": "your",
+   "start": 17.86,
+   "end": 18.02
+  },
+  {
+   "w": "stock",
+   "start": 18.02,
+   "end": 18.28
+  },
+  {
+   "w": "syncs.",
+   "start": 18.28,
+   "end": 18.58
+  },
+  {
+   "w": "Once",
+   "start": 19.12,
+   "end": 19.36
   },
   {
    "w": "a",
-   "start": 37.587,
-   "end": 37.647
+   "start": 19.36,
+   "end": 19.54
   },
   {
-   "w": "free",
-   "start": 37.647,
-   "end": 37.747
+   "w": "night",
+   "start": 19.54,
+   "end": 19.68
   },
   {
-   "w": "quote?",
-   "start": 37.747,
-   "end": 37.927
+   "w": "is",
+   "start": 19.68,
+   "end": 19.9
   },
   {
-   "w": "Link",
-   "start": 38.204,
-   "end": 38.324
+   "w": "too",
+   "start": 19.9,
+   "end": 20.12
+  },
+  {
+   "w": "slow",
+   "start": 20.12,
+   "end": 20.38
   },
   {
    "w": "in",
-   "start": 38.324,
-   "end": 38.464
+   "start": 20.38,
+   "end": 20.56
+  },
+  {
+   "w": "peak.",
+   "start": 20.56,
+   "end": 20.76
+  },
+  {
+   "w": "Aim",
+   "start": 21.16,
+   "end": 21.32
+  },
+  {
+   "w": "for",
+   "start": 21.32,
+   "end": 21.5
+  },
+  {
+   "w": "every",
+   "start": 21.5,
+   "end": 21.78
+  },
+  {
+   "w": "hour.",
+   "start": 21.78,
+   "end": 22.02
+  },
+  {
+   "w": "Third,",
+   "start": 22.34,
+   "end": 22.56
+  },
+  {
+   "w": "make",
+   "start": 23.12,
+   "end": 23.28
+  },
+  {
+   "w": "your",
+   "start": 23.28,
+   "end": 23.48
+  },
+  {
+   "w": "price",
+   "start": 23.48,
+   "end": 23.84
+  },
+  {
+   "w": "and",
+   "start": 23.84,
+   "end": 24.02
+  },
+  {
+   "w": "shipping",
+   "start": 24.02,
+   "end": 24.28
+  },
+  {
+   "w": "time",
+   "start": 24.28,
+   "end": 24.58
+  },
+  {
+   "w": "match",
+   "start": 24.58,
+   "end": 24.92
+  },
+  {
+   "w": "everywhere.",
+   "start": 24.92,
+   "end": 25.4
+  },
+  {
+   "w": "16",
+   "start": 25.4,
+   "end": 26.12
+  },
+  {
+   "w": "in",
+   "start": 26.12,
+   "end": 26.34
+  },
+  {
+   "w": "100",
+   "start": 26.34,
+   "end": 26.62
+  },
+  {
+   "w": "shoppers",
+   "start": 26.62,
+   "end": 27.08
+  },
+  {
+   "w": "now",
+   "start": 27.08,
+   "end": 27.28
+  },
+  {
+   "w": "start",
+   "start": 27.28,
+   "end": 27.46
+  },
+  {
+   "w": "in",
+   "start": 27.46,
+   "end": 27.64
+  },
+  {
+   "w": "ChatGPT,",
+   "start": 27.64,
+   "end": 28.46
+  },
+  {
+   "w": "and",
+   "start": 28.74,
+   "end": 28.84
+  },
+  {
+   "w": "assistants",
+   "start": 28.84,
+   "end": 29.12
+  },
+  {
+   "w": "read",
+   "start": 29.12,
+   "end": 29.52
+  },
+  {
+   "w": "your",
+   "start": 29.52,
+   "end": 29.68
+  },
+  {
+   "w": "data,",
+   "start": 29.68,
+   "end": 29.98
+  },
+  {
+   "w": "not",
+   "start": 30.24,
+   "end": 30.36
+  },
+  {
+   "w": "your",
+   "start": 30.36,
+   "end": 30.54
+  },
+  {
+   "w": "homepage.",
+   "start": 30.54,
+   "end": 31.0
+  },
+  {
+   "w": "Keeping",
+   "start": 31.32,
+   "end": 31.54
+  },
+  {
+   "w": "that",
+   "start": 31.54,
+   "end": 31.76
+  },
+  {
+   "w": "in",
+   "start": 31.76,
+   "end": 31.88
+  },
+  {
+   "w": "sync",
+   "start": 31.88,
+   "end": 32.12
+  },
+  {
+   "w": "is",
+   "start": 32.12,
+   "end": 32.3
+  },
+  {
+   "w": "what",
+   "start": 32.3,
+   "end": 32.44
+  },
+  {
+   "w": "we",
+   "start": 32.44,
+   "end": 32.58
+  },
+  {
+   "w": "build",
+   "start": 32.58,
+   "end": 32.86
+  },
+  {
+   "w": "at",
+   "start": 32.86,
+   "end": 32.98
+  },
+  {
+   "w": "Content",
+   "start": 32.98,
+   "end": 33.69
+  },
+  {
+   "w": "Systems.ai.",
+   "start": 33.69,
+   "end": 34.4
+  },
+  {
+   "w": "Want",
+   "start": 34.78,
+   "end": 34.94
+  },
+  {
+   "w": "us",
+   "start": 34.94,
+   "end": 35.1
+  },
+  {
+   "w": "to",
+   "start": 35.1,
+   "end": 35.16
+  },
+  {
+   "w": "check",
+   "start": 35.16,
+   "end": 35.36
+  },
+  {
+   "w": "yours?",
+   "start": 35.36,
+   "end": 35.58
+  },
+  {
+   "w": "Free",
+   "start": 35.92,
+   "end": 36.16
+  },
+  {
+   "w": "quote,",
+   "start": 36.16,
+   "end": 36.4
+  },
+  {
+   "w": "link",
+   "start": 36.68,
+   "end": 36.82
+  },
+  {
+   "w": "in",
+   "start": 36.82,
+   "end": 36.98
   },
   {
    "w": "bio.",
-   "start": 38.464,
-   "end": 38.644
+   "start": 36.98,
+   "end": 37.2
   }
  ],
- "text": "Google now tells shoppers the second your product is back in stock. But only if your stock count is right. Here's the problem. Your warehouse says 40 units. Your store says 0. So Google says sold out, and the alert never goes out. That shopper buys from someone else. And it's not just Google. 16 in 100 shoppers now start their search in ChatGPT. These assistants don't browse your site. They read your data. So 3 things have to match. Every hour. The stock count. The shipping time. The price. Get that right, and Google sends the shopper to you. Get it wrong, and you don't even know you lost the sale. We build the system that keeps them in sync, and flags anything that doesn't match. Want a free quote? Link in bio."
+ "text": "Google now pings shoppers the second your product is back in stock. But it only knows what your data tells it. 3 checks so that alert actually fires. First, compare your warehouse count to your store count today. Warehouse says 40, store says 0? Google says sold out, and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make your price and shipping time match everywhere. 16 in 100 shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping that in sync is what we build at Content Systems.ai. Want us to check yours? Free quote, link in bio."
 }

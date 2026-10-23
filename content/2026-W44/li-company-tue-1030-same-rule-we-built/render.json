@@ -1,270 +1,221 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1
-    },
-    "tail": 2.6,
-    "script": "4 of the biggest names in tech just shipped the same rule. We've built it into every system since day 1. Nothing sends, pays or signs without a person's yes. Anthropic's new assistant asks before it pays. Walmart lets shoppers approve what an AI buys. 1Password lets AI log in only after you say yes. And Microsoft told companies to watch their AI like an insider with the keys. Our own company runs on 100+ AI employees. They write, answer leads and onboard clients all day. Not 1 of them sends a thing to a customer without a person's yes. The AI does the work, you keep the final say. This Sunday at 11 AM Eastern, we'll show business owners how to set up their first AI employee with that rule built in. Grab your seat, link in the post.",
-    "keys": [
-      "4",
-      "rule",
-      "yes",
-      "insider",
-      "100",
-      "final",
-      "11",
-      "sunday"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. We'll set this up live this Sunday, 11 AM Eastern. Link in the post.",
+  "say": "Four of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. One Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says, watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Kun-TENT Systems dot A I starts there. We'll set this up live this Sunday, eleven A M Eastern. Link in the post.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "rule"
+  },
+  "tail": 2.4,
+  "keys": [
+   "4",
+   "same",
+   "yes",
+   "limit",
+   "never",
+   "insider",
+   "access",
+   "owns",
+   "sunday"
+  ],
+  "strikes": [
+   "meeting"
+  ],
+  "posterAt": 2.8,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "word",
+    "text": "1 rule"
+   },
+   {
+    "at": "Anthropic's",
+    "world": "light",
+    "type": "brand",
+    "brand": "anthropic",
+    "title": "Anthropic",
+    "sub": "Asks before it pays"
+   },
+   {
+    "at": "So",
+    "world": "dark",
+    "type": "list",
+    "title": "Money out",
+    "vb": "#191919",
+    "rows": [
+     {
+      "text": "Needs a yes",
+      "at": "needs",
+      "chip": "Always",
+      "chipKind": "ok"
+     }
+    ]
+   },
+   {
+    "at": "Walmart",
+    "world": "light",
+    "type": "brand",
+    "brand": "walmart",
+    "title": "Walmart",
+    "sub": "Shoppers set a spending limit"
+   },
+   {
+    "at": "So#2",
+    "world": "dark",
+    "type": "list",
+    "title": "Routine stuff",
+    "vb": "#0071DC",
+    "rows": [
+     {
+      "text": "A spending limit",
+      "at": "limit,",
+      "chip": "Yes",
+      "chipKind": "ok"
+     },
+     {
+      "text": "A meeting",
+      "at": "meeting.",
+      "chip": "No",
+      "chipKind": "bad"
+     }
+    ]
+   },
+   {
+    "at": "1Password",
+    "world": "light",
+    "type": "brand",
+    "brand": "1password",
+    "title": "1Password",
+    "sub": "AI logs in, never sees the password"
+   },
+   {
+    "at": "So#3",
+    "world": "dark",
+    "type": "list",
+    "title": "Passwords",
+    "rows": [
+     {
+      "text": "Pasted into AI tools",
+      "at": "paste",
+      "chip": "Never",
+      "chipKind": "bad"
+     }
+    ]
+   },
+   {
+    "at": "Microsoft",
+    "world": "light",
+    "type": "brand",
+    "brand": "microsoft",
+    "title": "Microsoft",
+    "sub": "Watch AI like an insider with the keys"
+   },
+   {
+    "at": "So#4",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Each AI helper gets",
+    "rows": [
+     {
+      "text": "Only the access its job needs",
+      "at": "access"
+     }
+    ]
+   },
+   {
+    "at": "AI does",
+    "world": "light",
+    "type": "list",
+    "title": "Who does what",
+    "rows": [
+     {
+      "text": "AI",
+      "at": "does",
+      "chip": "Does the work",
+      "chipKind": "ok"
+     },
+     {
+      "text": "A person",
+      "at": "owns",
+      "chip": "Owns the yes",
+      "chipKind": "wait"
+     }
     ],
-    "strikes": [
-      "sends"
-    ],
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "stat",
-        "value": "4",
-        "label": "of the biggest names in tech",
-        "foot": "October 2026"
-      },
-      {
-        "at": "same",
-        "world": "light",
-        "type": "word",
-        "text": "1 RULE"
-      },
-      {
-        "at": "We've",
-        "world": "dark",
-        "type": "stat",
-        "value": "Day 1",
-        "label": "built into every system we make"
-      },
-      {
-        "at": "Nothing",
-        "world": "light",
-        "type": "receipt",
-        "lines": [
-          {
-            "text": "Send an email",
-            "val": "HOLD",
-            "miss": true,
-            "at": "sends"
-          },
-          {
-            "text": "Pay a bill",
-            "val": "HOLD",
-            "miss": true,
-            "at": "pays"
-          },
-          {
-            "text": "Sign a quote",
-            "val": "HOLD",
-            "miss": true,
-            "at": "signs"
-          }
-        ],
-        "total": {
-          "text": "Needs",
-          "val": "Your yes"
-        },
-        "totalAt": "person's"
-      },
-      {
-        "at": "Anthropic's",
-        "world": "dark",
-        "type": "list",
-        "title": "Shipped this month",
-        "badge": "Oct 2026",
-        "rows": [
-          {
-            "text": "Anthropic",
-            "chip": "Asks first",
-            "chipKind": "ok",
-            "at": "Anthropic's"
-          },
-          {
-            "text": "Walmart",
-            "chip": "You approve",
-            "chipKind": "ok",
-            "at": "Walmart"
-          }
-        ]
-      },
-      {
-        "at": "1Password",
-        "world": "light",
-        "type": "list",
-        "title": "AI sign-in request",
-        "rows": [
-          {
-            "text": "Password shown",
-            "chip": "Never",
-            "chipKind": "bad",
-            "at": "log"
-          },
-          {
-            "text": "Your approval",
-            "chip": "Required",
-            "chipKind": "ok",
-            "at": "yes#2"
-          }
-        ]
-      },
-      {
-        "at": "Microsoft",
-        "world": "dark",
-        "type": "list",
-        "title": "Who holds the keys?",
-        "rows": [
-          {
-            "text": "Customer emails",
-            "chip": "AI alone",
-            "chipKind": "bad",
-            "at": "companies"
-          },
-          {
-            "text": "Refunds",
-            "chip": "AI alone",
-            "chipKind": "bad",
-            "at": "watch"
-          },
-          {
-            "text": "Payments",
-            "chip": "AI alone",
-            "chipKind": "bad",
-            "at": "insider"
-          }
-        ]
-      },
-      {
-        "at": "Our",
-        "world": "light",
-        "type": "odometer",
-        "value": "100",
-        "suffix": "+",
-        "label": "AI employees run our company",
-        "landAt": "100+"
-      },
-      {
-        "at": "They",
-        "world": "dark",
-        "type": "list",
-        "title": "Today's drafts",
-        "badge": "Waiting",
-        "rows": [
-          {
-            "text": "Content",
-            "chip": "Draft",
-            "chipKind": "wait",
-            "at": "write"
-          },
-          {
-            "text": "Lead replies",
-            "chip": "Draft",
-            "chipKind": "wait",
-            "at": "answer"
-          },
-          {
-            "text": "Client onboarding",
-            "chip": "Draft",
-            "chipKind": "wait",
-            "at": "onboard"
-          }
-        ]
-      },
-      {
-        "at": "Not",
-        "world": "light",
-        "type": "stat",
-        "value": "0",
-        "label": "sent to a customer without a yes",
-        "foot": "Our own AI team"
-      },
-      {
-        "at": "The AI",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Ready to send",
-        "rows": [
-          {
-            "text": "AI did the work",
-            "at": "work"
-          },
-          {
-            "text": "You make the call",
-            "at": "final"
-          }
-        ],
-        "click": {
-          "at": "final",
-          "x": 140,
-          "y": 1105
-        },
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "say#2",
-          "x": 170,
-          "y": 820
-        }
-      },
-      {
-        "at": "This",
-        "world": "light",
-        "type": "stat",
-        "value": "11 AM",
-        "label": "this Sunday, Eastern time, live"
-      },
-      {
-        "at": "business",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Live on Zoom, Sunday",
-        "rows": [
-          {
-            "text": "Your first AI employee",
-            "at": "set"
-          },
-          {
-            "text": "Approval rule built in",
-            "at": "rule#2"
-          }
-        ]
-      },
-      {
-        "at": "Grab",
-        "world": "light",
-        "type": "cta",
-        "keyword": "SUNDAY",
-        "prompt": "contentsystems.ai/workshop",
-        "dm": "Seat saved for Sunday"
-      }
-    ],
-    "bgLogos": [
-      "anthropic",
-      "walmart",
-      "microsoft",
-      "1password",
-      "anthropic",
-      "walmart",
-      "microsoft",
-      "1password",
-      "anthropic",
-      "walmart"
-    ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "anthropic",
-        "walmart",
-        "microsoft",
-        "1password"
-      ]
-    },
-    "branded": true
-  }
+    "stamp": {
+     "text": "APPROVED",
+     "kind": "ok",
+     "at": "yes#2",
+     "x": 300,
+     "y": 760
+    }
+   },
+   {
+    "at": "Every",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Every system we build",
+    "rows": [
+     {
+      "text": "Starts with the yes",
+      "at": "starts"
+     }
+    ]
+   },
+   {
+    "at": "We'll",
+    "world": "light",
+    "type": "list",
+    "title": "The AI Employee Accelerator",
+    "rows": [
+     {
+      "text": "Sunday, Nov 1",
+      "at": "Sunday,",
+      "val": "11 AM ET"
+     },
+     {
+      "text": "Live on Zoom",
+      "at": "Link",
+      "chip": "Link in post",
+      "chipKind": "ok"
+     }
+    ]
+   }
+  ],
+  "bgLogos": [
+   "anthropic",
+   "walmart",
+   "1password",
+   "microsoft",
+   "anthropic",
+   "walmart",
+   "1password",
+   "microsoft"
+  ],
+  "hook": {
+   "style": "slam",
+   "brands": [
+    "anthropic",
+    "walmart",
+    "1password",
+    "microsoft"
+   ],
+   "text": "1 RULE"
+  },
+  "pops": [
+   {
+    "at": "helper",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 850,
+    "y": 250,
+    "w": 160,
+    "until": "AI does"
+   }
+  ],
+  "branded": true
+ }
 }

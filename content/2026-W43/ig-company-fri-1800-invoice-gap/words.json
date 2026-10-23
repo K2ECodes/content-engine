@@ -3,568 +3,563 @@
   {
    "w": "Your",
    "start": 0.0,
-   "end": 0.36
+   "end": 0.38
   },
   {
    "w": "warehouse",
-   "start": 0.36,
-   "end": 0.64
+   "start": 0.38,
+   "end": 0.66
   },
   {
    "w": "did",
-   "start": 0.64,
+   "start": 0.66,
    "end": 0.84
   },
   {
-   "w": "$250,000",
+   "w": "the",
    "start": 0.84,
-   "end": 1.84
+   "end": 0.94
   },
   {
-   "w": "of",
-   "start": 1.84,
-   "end": 2.16
-  },
-  {
-   "w": "work",
-   "start": 2.16,
-   "end": 2.32
-  },
-  {
-   "w": "last",
-   "start": 2.32,
-   "end": 2.56
-  },
-  {
-   "w": "month.",
-   "start": 2.56,
-   "end": 2.82
-  },
-  {
-   "w": "Your",
-   "start": 3.08,
-   "end": 3.14
-  },
-  {
-   "w": "invoices?",
-   "start": 3.14,
-   "end": 3.56
-  },
-  {
-   "w": "$242,000.",
-   "start": 4.18,
-   "end": 4.58
+   "w": "work.",
+   "start": 0.94,
+   "end": 1.16
   },
   {
    "w": "So",
-   "start": 4.9,
-   "end": 5.1
+   "start": 1.54,
+   "end": 1.72
   },
   {
-   "w": "where",
-   "start": 5.1,
-   "end": 5.22
+   "w": "why",
+   "start": 1.72,
+   "end": 1.94
   },
   {
-   "w": "did",
-   "start": 5.22,
-   "end": 5.3
+   "w": "is",
+   "start": 1.94,
+   "end": 2.08
+  },
+  {
+   "w": "$8K",
+   "start": 2.08,
+   "end": 2.6
+  },
+  {
+   "w": "missing",
+   "start": 2.6,
+   "end": 3.02
+  },
+  {
+   "w": "from",
+   "start": 3.02,
+   "end": 3.24
   },
   {
    "w": "the",
-   "start": 5.3,
-   "end": 5.42
+   "start": 3.24,
+   "end": 3.34
   },
   {
-   "w": "rest",
-   "start": 5.42,
-   "end": 5.56
+   "w": "invoice?",
+   "start": 3.34,
+   "end": 3.54
   },
   {
-   "w": "go?",
-   "start": 5.56,
-   "end": 5.74
+   "w": "It",
+   "start": 4.1,
+   "end": 4.2
   },
   {
-   "w": "Storage",
-   "start": 6.16,
-   "end": 6.5
+   "w": "usually",
+   "start": 4.2,
+   "end": 4.44
   },
   {
-   "w": "that",
-   "start": 6.5,
-   "end": 6.7
+   "w": "hides",
+   "start": 4.44,
+   "end": 4.72
   },
   {
-   "w": "ran",
-   "start": 6.7,
-   "end": 6.86
+   "w": "in",
+   "start": 4.72,
+   "end": 4.86
+  },
+  {
+   "w": "3",
+   "start": 4.86,
+   "end": 5.02
+  },
+  {
+   "w": "places.",
+   "start": 5.02,
+   "end": 5.36
+  },
+  {
+   "w": "First,",
+   "start": 5.78,
+   "end": 5.96
+  },
+  {
+   "w": "storage",
+   "start": 6.52,
+   "end": 6.72
   },
   {
    "w": "past",
-   "start": 6.86,
-   "end": 7.08
+   "start": 6.72,
+   "end": 7.0
   },
   {
    "w": "the",
-   "start": 7.08,
-   "end": 7.26
+   "start": 7.0,
+   "end": 7.2
   },
   {
    "w": "free",
-   "start": 7.26,
-   "end": 7.42
+   "start": 7.2,
+   "end": 7.34
   },
   {
    "w": "period.",
-   "start": 7.42,
-   "end": 7.76
+   "start": 7.34,
+   "end": 7.68
   },
   {
-   "w": "Special",
-   "start": 8.14,
-   "end": 8.48
-  },
-  {
-   "w": "handling",
-   "start": 8.48,
-   "end": 8.92
-  },
-  {
-   "w": "the",
-   "start": 8.92,
-   "end": 9.14
-  },
-  {
-   "w": "team",
-   "start": 9.14,
-   "end": 9.32
-  },
-  {
-   "w": "did",
-   "start": 9.32,
-   "end": 9.42
-  },
-  {
-   "w": "on",
-   "start": 9.42,
-   "end": 9.54
-  },
-  {
-   "w": "the",
-   "start": 9.54,
-   "end": 9.62
-  },
-  {
-   "w": "floor.",
-   "start": 9.62,
-   "end": 9.84
-  },
-  {
-   "w": "A",
-   "start": 10.22,
-   "end": 10.36
-  },
-  {
-   "w": "kitting",
-   "start": 10.36,
-   "end": 10.5
-  },
-  {
-   "w": "job",
-   "start": 10.5,
-   "end": 10.78
-  },
-  {
-   "w": "somebody",
-   "start": 10.78,
-   "end": 11.04
-  },
-  {
-   "w": "quoted",
-   "start": 11.04,
-   "end": 11.3
-  },
-  {
-   "w": "in",
-   "start": 11.3,
-   "end": 11.5
-  },
-  {
-   "w": "an",
-   "start": 11.5,
-   "end": 11.62
-  },
-  {
-   "w": "email.",
-   "start": 11.62,
-   "end": 11.82
-  },
-  {
-   "w": "None",
-   "start": 12.3,
-   "end": 12.4
-  },
-  {
-   "w": "of",
-   "start": 12.4,
-   "end": 12.5
-  },
-  {
-   "w": "it",
-   "start": 12.5,
-   "end": 12.58
-  },
-  {
-   "w": "made",
-   "start": 12.58,
-   "end": 12.7
-  },
-  {
-   "w": "the",
-   "start": 12.7,
-   "end": 12.82
-  },
-  {
-   "w": "bill.",
-   "start": 12.82,
-   "end": 13.02
-  },
-  {
-   "w": "And",
-   "start": 13.4,
-   "end": 13.48
-  },
-  {
-   "w": "not",
-   "start": 13.48,
-   "end": 13.62
-  },
-  {
-   "w": "because",
-   "start": 13.62,
-   "end": 13.82
-  },
-  {
-   "w": "anyone",
-   "start": 13.82,
-   "end": 14.06
-  },
-  {
-   "w": "is",
-   "start": 14.06,
-   "end": 14.22
-  },
-  {
-   "w": "careless.",
-   "start": 14.22,
-   "end": 14.48
-  },
-  {
-   "w": "Because",
-   "start": 15.04,
-   "end": 15.22
-  },
-  {
-   "w": "nobody",
-   "start": 15.22,
-   "end": 15.56
-  },
-  {
-   "w": "is",
-   "start": 15.56,
-   "end": 15.74
-  },
-  {
-   "w": "checking",
-   "start": 15.74,
-   "end": 15.96
-  },
-  {
-   "w": "the",
-   "start": 15.96,
-   "end": 16.12
-  },
-  {
-   "w": "work",
-   "start": 16.12,
-   "end": 16.28
-  },
-  {
-   "w": "against",
-   "start": 16.28,
-   "end": 16.54
-  },
-  {
-   "w": "the",
-   "start": 16.54,
-   "end": 16.68
-  },
-  {
-   "w": "contract.",
-   "start": 16.68,
-   "end": 17.06
-  },
-  {
-   "w": "So",
-   "start": 17.52,
-   "end": 17.7
-  },
-  {
-   "w": "we",
-   "start": 17.7,
-   "end": 17.82
-  },
-  {
-   "w": "built",
-   "start": 17.82,
-   "end": 18.0
-  },
-  {
-   "w": "a",
-   "start": 18.0,
-   "end": 18.1
-  },
-  {
-   "w": "system",
-   "start": 18.1,
-   "end": 18.34
-  },
-  {
-   "w": "that",
-   "start": 18.34,
-   "end": 18.52
-  },
-  {
-   "w": "does.",
-   "start": 18.52,
-   "end": 18.72
-  },
-  {
-   "w": "Every",
-   "start": 19.32,
-   "end": 19.52
-  },
-  {
-   "w": "day",
-   "start": 19.52,
-   "end": 19.74
-  },
-  {
-   "w": "it",
-   "start": 19.74,
-   "end": 19.86
-  },
-  {
-   "w": "reads",
-   "start": 19.86,
-   "end": 20.02
-  },
-  {
-   "w": "what",
-   "start": 20.02,
-   "end": 20.16
-  },
-  {
-   "w": "happened",
-   "start": 20.16,
-   "end": 20.42
-  },
-  {
-   "w": "in",
-   "start": 20.42,
-   "end": 20.56
-  },
-  {
-   "w": "the",
-   "start": 20.56,
-   "end": 20.64
-  },
-  {
-   "w": "warehouse,",
-   "start": 20.64,
-   "end": 20.94
-  },
-  {
-   "w": "matches",
-   "start": 21.32,
-   "end": 21.7
-  },
-  {
-   "w": "it",
-   "start": 21.7,
-   "end": 21.88
-  },
-  {
-   "w": "to",
-   "start": 21.88,
-   "end": 21.96
-  },
-  {
-   "w": "each",
-   "start": 21.96,
-   "end": 22.12
-  },
-  {
-   "w": "client",
-   "start": 22.12,
-   "end": 22.36
-  },
-  {
-   "w": "rate,",
-   "start": 22.36,
-   "end": 22.64
-  },
-  {
-   "w": "and",
-   "start": 22.9,
-   "end": 23.06
-  },
-  {
-   "w": "flags",
-   "start": 23.06,
-   "end": 23.32
-  },
-  {
-   "w": "what",
-   "start": 23.32,
-   "end": 23.52
-  },
-  {
-   "w": "is",
-   "start": 23.52,
-   "end": 23.62
-  },
-  {
-   "w": "missing.",
-   "start": 23.62,
-   "end": 23.86
-  },
-  {
-   "w": "Your",
-   "start": 24.34,
-   "end": 24.48
-  },
-  {
-   "w": "team",
-   "start": 24.48,
-   "end": 24.68
-  },
-  {
-   "w": "approves",
-   "start": 24.68,
-   "end": 25.06
+   "w": "Pull",
+   "start": 7.98,
+   "end": 8.04
   },
   {
    "w": "every",
-   "start": 25.06,
-   "end": 25.34
+   "start": 8.04,
+   "end": 8.26
   },
   {
-   "w": "line.",
-   "start": 25.34,
-   "end": 25.64
+   "w": "pallet",
+   "start": 8.26,
+   "end": 8.6
   },
   {
-   "w": "Then",
-   "start": 25.88,
-   "end": 26.04
+   "w": "that's",
+   "start": 8.6,
+   "end": 8.78
   },
   {
-   "w": "it",
-   "start": 26.04,
-   "end": 26.14
+   "w": "older",
+   "start": 8.78,
+   "end": 9.0
   },
   {
-   "w": "gets",
-   "start": 26.14,
-   "end": 26.26
+   "w": "than",
+   "start": 9.0,
+   "end": 9.16
   },
   {
-   "w": "billed.",
-   "start": 26.26,
-   "end": 26.64
+   "w": "its",
+   "start": 9.16,
+   "end": 9.3
   },
   {
-   "w": "Want",
-   "start": 26.82,
-   "end": 26.96
+   "w": "free",
+   "start": 9.3,
+   "end": 9.48
   },
   {
-   "w": "to",
-   "start": 26.96,
-   "end": 27.04
-  },
-  {
-   "w": "see",
-   "start": 27.04,
-   "end": 27.14
-  },
-  {
-   "w": "what",
-   "start": 27.14,
-   "end": 27.26
-  },
-  {
-   "w": "you",
-   "start": 27.26,
-   "end": 27.36
-  },
-  {
-   "w": "are",
-   "start": 27.36,
-   "end": 27.46
-  },
-  {
-   "w": "missing?",
-   "start": 27.46,
-   "end": 27.7
-  },
-  {
-   "w": "Comment",
-   "start": 27.7,
-   "end": 28.3
-  },
-  {
-   "w": "SYSTEMS",
-   "start": 28.3,
-   "end": 28.78
+   "w": "days",
+   "start": 9.48,
+   "end": 9.74
   },
   {
    "w": "and",
-   "start": 29.44,
-   "end": 29.5
+   "start": 9.74,
+   "end": 10.16
   },
   {
-   "w": "we",
-   "start": 29.5,
-   "end": 29.6
+   "w": "check",
+   "start": 10.16,
+   "end": 10.36
   },
   {
-   "w": "will",
-   "start": 29.6,
-   "end": 29.74
+   "w": "it's",
+   "start": 10.36,
+   "end": 10.56
   },
   {
-   "w": "send",
-   "start": 29.74,
-   "end": 29.96
+   "w": "on",
+   "start": 10.56,
+   "end": 10.64
   },
   {
-   "w": "you",
-   "start": 29.96,
-   "end": 30.08
+   "w": "this",
+   "start": 10.64,
+   "end": 10.8
+  },
+  {
+   "w": "month's",
+   "start": 10.8,
+   "end": 11.14
+  },
+  {
+   "w": "bill.",
+   "start": 11.14,
+   "end": 11.26
+  },
+  {
+   "w": "Second,",
+   "start": 11.74,
+   "end": 12.06
+  },
+  {
+   "w": "special",
+   "start": 12.5,
+   "end": 12.7
+  },
+  {
+   "w": "handling.",
+   "start": 12.7,
+   "end": 13.08
+  },
+  {
+   "w": "Relabels,",
+   "start": 13.7,
+   "end": 14.14
+  },
+  {
+   "w": "reboxing,",
+   "start": 14.42,
+   "end": 14.8
+  },
+  {
+   "w": "anything",
+   "start": 15.32,
+   "end": 15.54
   },
   {
    "w": "the",
-   "start": 30.08,
-   "end": 30.18
+   "start": 15.54,
+   "end": 15.78
+  },
+  {
+   "w": "floor",
+   "start": 15.78,
+   "end": 15.96
+  },
+  {
+   "w": "touched",
+   "start": 15.96,
+   "end": 16.24
+  },
+  {
+   "w": "twice.",
+   "start": 16.24,
+   "end": 16.54
+  },
+  {
+   "w": "Ask",
+   "start": 17.08,
+   "end": 17.26
+  },
+  {
+   "w": "your",
+   "start": 17.26,
+   "end": 17.42
+  },
+  {
+   "w": "shift",
+   "start": 17.42,
+   "end": 17.6
+  },
+  {
+   "w": "leads",
+   "start": 17.6,
+   "end": 17.82
+  },
+  {
+   "w": "for",
+   "start": 17.82,
+   "end": 18.02
+  },
+  {
+   "w": "that",
+   "start": 18.02,
+   "end": 18.16
+  },
+  {
+   "w": "list",
+   "start": 18.16,
+   "end": 18.38
+  },
+  {
+   "w": "every",
+   "start": 18.38,
+   "end": 18.64
+  },
+  {
+   "w": "Friday.",
+   "start": 18.64,
+   "end": 18.92
+  },
+  {
+   "w": "Third,",
+   "start": 19.28,
+   "end": 19.56
+  },
+  {
+   "w": "jobs",
+   "start": 20.06,
+   "end": 20.24
+  },
+  {
+   "w": "quoted",
+   "start": 20.24,
+   "end": 20.54
+  },
+  {
+   "w": "in",
+   "start": 20.54,
+   "end": 20.72
+  },
+  {
+   "w": "an",
+   "start": 20.72,
+   "end": 20.86
+  },
+  {
+   "w": "email.",
+   "start": 20.86,
+   "end": 21.02
+  },
+  {
+   "w": "Kitting",
+   "start": 21.6,
+   "end": 21.88
+  },
+  {
+   "w": "and",
+   "start": 21.88,
+   "end": 22.04
+  },
+  {
+   "w": "rush",
+   "start": 22.04,
+   "end": 22.22
+  },
+  {
+   "w": "work",
+   "start": 22.22,
+   "end": 22.46
+  },
+  {
+   "w": "agreed",
+   "start": 22.46,
+   "end": 22.66
+  },
+  {
+   "w": "by",
+   "start": 22.66,
+   "end": 22.88
+  },
+  {
+   "w": "email",
+   "start": 22.88,
+   "end": 23.16
+  },
+  {
+   "w": "rarely",
+   "start": 23.16,
+   "end": 23.54
+  },
+  {
+   "w": "reach",
+   "start": 23.54,
+   "end": 23.82
+  },
+  {
+   "w": "billing.",
+   "start": 23.82,
+   "end": 24.04
+  },
+  {
+   "w": "Search",
+   "start": 24.46,
+   "end": 24.6
+  },
+  {
+   "w": "your",
+   "start": 24.6,
+   "end": 24.74
+  },
+  {
+   "w": "inbox",
+   "start": 24.74,
+   "end": 24.98
+  },
+  {
+   "w": "for",
+   "start": 24.98,
+   "end": 25.2
+  },
+  {
+   "w": "quote",
+   "start": 25.2,
+   "end": 25.42
+  },
+  {
+   "w": "and",
+   "start": 25.42,
+   "end": 25.88
+  },
+  {
+   "w": "match",
+   "start": 25.88,
+   "end": 26.08
+  },
+  {
+   "w": "each",
+   "start": 26.08,
+   "end": 26.3
+  },
+  {
+   "w": "one",
+   "start": 26.3,
+   "end": 26.48
+  },
+  {
+   "w": "to",
+   "start": 26.48,
+   "end": 26.6
+  },
+  {
+   "w": "an",
+   "start": 26.6,
+   "end": 26.7
+  },
+  {
+   "w": "invoice.",
+   "start": 26.7,
+   "end": 26.92
+  },
+  {
+   "w": "The",
+   "start": 27.36,
+   "end": 27.5
+  },
+  {
+   "w": "work",
+   "start": 27.5,
+   "end": 27.68
+  },
+  {
+   "w": "isn't",
+   "start": 27.68,
+   "end": 27.9
+  },
+  {
+   "w": "the",
+   "start": 27.9,
+   "end": 28.02
+  },
+  {
+   "w": "problem.",
+   "start": 28.02,
+   "end": 28.36
+  },
+  {
+   "w": "The",
+   "start": 28.76,
+   "end": 28.88
+  },
+  {
+   "w": "handoff",
+   "start": 28.88,
+   "end": 29.2
+  },
+  {
+   "w": "to",
+   "start": 29.2,
+   "end": 29.34
+  },
+  {
+   "w": "billing",
+   "start": 29.34,
+   "end": 29.52
+  },
+  {
+   "w": "is.",
+   "start": 29.52,
+   "end": 29.8
+  },
+  {
+   "w": "That's",
+   "start": 30.12,
+   "end": 30.32
+  },
+  {
+   "w": "the",
+   "start": 30.32,
+   "end": 30.42
+  },
+  {
+   "w": "check",
+   "start": 30.42,
+   "end": 30.58
+  },
+  {
+   "w": "we",
+   "start": 30.58,
+   "end": 30.74
+  },
+  {
+   "w": "automate",
+   "start": 30.74,
+   "end": 31.12
+  },
+  {
+   "w": "at",
+   "start": 31.12,
+   "end": 31.3
+  },
+  {
+   "w": "Content",
+   "start": 31.3,
+   "end": 32.03
+  },
+  {
+   "w": "Systems.ai.",
+   "start": 32.03,
+   "end": 32.76
+  },
+  {
+   "w": "Comment",
+   "start": 33.28,
+   "end": 33.58
+  },
+  {
+   "w": "SYSTEMS",
+   "start": 33.58,
+   "end": 33.98
+  },
+  {
+   "w": "for",
+   "start": 33.98,
+   "end": 34.32
+  },
+  {
+   "w": "the",
+   "start": 34.32,
+   "end": 34.42
+  },
+  {
+   "w": "free",
+   "start": 34.42,
+   "end": 34.6
   },
   {
    "w": "checklist.",
-   "start": 30.18,
-   "end": 30.46
+   "start": 34.6,
+   "end": 34.9
   }
  ],
- "text": "Your warehouse did $250,000 of work last month. Your invoices? 242. So where did the rest go? Stores that ran past the free period. Special handling the team did on the floor. A kidding job somebody quoted in an email. None of it made the bill. And not because anyone is careless. Because nobody is checking the work against the contract. So we built a system that does. Every day it reads what happened in the warehouse, matches it to each client rate, and flags what is missing. Your team approves every line. Then it gets billed. Want to see what you are missing? Comment systems, and we will send you the checklist."
+ "text": "Your warehouse did the work. So why is $8K missing from the invoice? It usually hides in 3 places. First, storage past the free period. Pull every pallet that's older than its free days and check it's on this month's bill. Second, special handling. Relabels, reboxing, anything the floor touched twice. Ask your shift leads for that list every Friday. Third, jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for quote and match each one to an invoice. The work isn't the problem. The handoff to billing is. That's the check we automate at Content Systems.ai. Comment SYSTEMS for the free checklist."
 }

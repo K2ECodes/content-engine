@@ -1,172 +1,206 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1
-    },
-    "script": "Launching a support bot for Black Friday? Here are the 5 moments it has to hand the customer to a person. An apparel brand we work with in Berlin lets AI answer 72 in 100 support tickets in 4 languages. The other 28 go to a person, on purpose. An angry customer. Someone who wants to cancel. A refund over your limit. A question the bot isn't sure about. And anyone who asks for a human. Skip these and people stop trusting the bot. With a human option, 55 in 100 trust AI to fix their issue. Without one, just 26. And that Berlin brand? It still saves 1 in 4 customers who try to cancel. Comment SYSTEMS and we'll send you the full handoff map.",
-    "keys": [
-      "5",
-      "person",
-      "72",
-      "28",
-      "purpose",
-      "human",
-      "55",
-      "26",
-      "1",
-      "systems"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when a human option exists. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and still saves 1 in 4 customers who try to cancel. Comment SYSTEMS for the handoff map.",
+  "say": "Shoppers trust a support bot twice as much when it can do one thing. Hand them to a person. In a survey of three thousand shoppers, fifty-five in a hundred trust AI when a human option exists. Without one, just twenty-six. So before Black Friday, make sure your bot hands off in five moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Kun-TENT Systems dot A I. An apparel brand we work with in Berlin lets AI answer seventy-two in a hundred tickets, and still saves one in four customers who try to cancel. Comment SYSTEMS for the handoff map.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "twice"
+  },
+  "keys": [
+   "person",
+   "55",
+   "26",
+   "5",
+   "cancel",
+   "human",
+   "72",
+   "systems"
+  ],
+  "strikes": [
+   "without"
+  ],
+  "posterAt": 4.4,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "list",
+    "title": "Support chat",
+    "rows": [
+     {
+      "text": "Bot",
+      "at": "do",
+      "chip": "Can't help",
+      "chipKind": "bad"
+     },
+     {
+      "text": "Talk to a person",
+      "at": "Hand",
+      "chip": "Connected",
+      "chipKind": "ok"
+     }
     ],
-    "strikes": [
-      "trusting"
-    ],
-    "posterAt": 1.6,
-    "scenes": [
-      {
-        "world": "light",
-        "type": "list",
-        "title": "Support inbox",
-        "badge": "Black Friday",
-        "rows": [
-          {
-            "text": "Where's my order?",
-            "at": "support",
-            "chip": "Bot",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Change my address",
-            "at": "moments",
-            "chip": "Bot",
-            "chipKind": "ok"
-          },
-          {
-            "text": "Cancel my order",
-            "at": "hand",
-            "chip": "To a person",
-            "chipKind": "wait"
-          }
-        ],
-        "stamp": {
-          "text": "SENT",
-          "kind": "ok",
-          "at": "person",
-          "x": 560,
-          "y": 820
-        }
-      },
-      {
-        "at": "an apparel",
-        "world": "dark",
-        "type": "odometer",
-        "value": "72",
-        "suffix": " in 100",
-        "label": "tickets answered by AI, in 4 languages",
-        "landAt": "72"
-      },
-      {
-        "at": "the other",
-        "world": "light",
-        "type": "stat",
-        "value": "28",
-        "label": "go to a person, on purpose",
-        "foot": "Apparel brand in Berlin we work with"
-      },
-      {
-        "at": "an angry",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Hand it to a person",
-        "rows": [
-          {
-            "text": "Angry customer",
-            "at": "angry"
-          },
-          {
-            "text": "Wants to cancel",
-            "at": "cancel"
-          },
-          {
-            "text": "Refund over your limit",
-            "at": "refund"
-          },
-          {
-            "text": "Bot isn't sure",
-            "at": "sure"
-          },
-          {
-            "text": "Asks for a human",
-            "at": "asks"
-          }
-        ],
-        "click": {
-          "at": "human",
-          "x": 640,
-          "y": 1360
-        }
-      },
-      {
-        "at": "skip",
-        "world": "light",
-        "type": "word",
-        "text": "No trust"
-      },
-      {
-        "at": "with a human",
-        "world": "dark",
-        "type": "stat",
-        "value": "55 in 100",
-        "label": "trust AI when a person is an option",
-        "foot": "Five9 survey, Oct 2026"
-      },
-      {
-        "at": "without",
-        "world": "light",
-        "type": "stat",
-        "value": "26 in 100",
-        "label": "trust it when there's no person",
-        "foot": "Five9 survey, Oct 2026"
-      },
-      {
-        "at": "and that",
-        "world": "dark",
-        "type": "stat",
-        "value": "1 in 4",
-        "label": "customers who try to cancel, kept",
-        "foot": "Apparel brand in Berlin we work with"
-      },
-      {
-        "at": "comment",
-        "world": "light",
-        "type": "cta",
-        "keyword": "SYSTEMS",
-        "prompt": "SYSTEMS",
-        "dm": "Handoff map sent to your DMs"
-      }
-    ],
-    "bgLogos": [
-      "shopify",
-      "fedex",
-      "ups",
-      "dhl",
-      "usps",
-      "amazon",
-      "shopify",
-      "fedex",
-      "ups",
-      "dhl"
-    ],
-    "hook": {
-      "style": "blast",
-      "brands": [
-        "shopify",
-        "fedex",
-        "ups"
-      ]
-    },
-    "branded": true
-  }
+    "stamp": {
+     "text": "SENT",
+     "kind": "ok",
+     "at": "person.",
+     "x": 540,
+     "y": 700
+    }
+   },
+   {
+    "at": "In",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/rd-five9-head.png",
+    "url": "retaildive.com · Oct 22 2026",
+    "caption": "Five9 survey, 3,000 shoppers",
+    "h": 560,
+    "pan": 20
+   },
+   {
+    "at": "55",
+    "world": "dark",
+    "type": "list",
+    "title": "Trust AI to fix it",
+    "badge": "Five9, Oct 2026",
+    "rows": [
+     {
+      "text": "With a human option",
+      "at": "55",
+      "val": "55 in 100"
+     },
+     {
+      "text": "Without one",
+      "at": "26.",
+      "val": "26 in 100"
+     }
+    ]
+   },
+   {
+    "at": "So",
+    "world": "light",
+    "type": "word",
+    "text": "5 moments"
+   },
+   {
+    "at": "angry",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Hand to a person",
+    "rows": [
+     {
+      "text": "Angry customer",
+      "at": "angry"
+     },
+     {
+      "text": "Wants to cancel",
+      "at": "cancel."
+     },
+     {
+      "text": "Refund over your limit",
+      "at": "refund"
+     },
+     {
+      "text": "Bot isn't sure",
+      "at": "question"
+     },
+     {
+      "text": "Asks for a human",
+      "at": "asks"
+     }
+    ]
+   },
+   {
+    "at": "That's",
+    "world": "light",
+    "type": "list",
+    "title": "Every support bot we build",
+    "rows": [
+     {
+      "text": "5 handoffs built in",
+      "at": "build",
+      "chip": "Always",
+      "chipKind": "ok"
+     }
+    ]
+   },
+   {
+    "at": "apparel",
+    "world": "dark",
+    "type": "odometer",
+    "value": "72",
+    "suffix": " in 100",
+    "label": "tickets answered by AI · apparel brand, Berlin",
+    "landAt": "72"
+   },
+   {
+    "at": "still",
+    "world": "light",
+    "type": "stat",
+    "value": "1 in 4",
+    "label": "customers who try to cancel, saved",
+    "foot": "Apparel brand we work with, Berlin"
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Handoff map sent"
+   }
+  ],
+  "bgLogos": [
+   "shopify",
+   "instagram",
+   "shopify",
+   "instagram"
+  ],
+  "hook": {
+   "style": "breaking",
+   "brands": [
+    "shopify",
+    "instagram"
+   ],
+   "tag": "NEW SURVEY",
+   "ticker": "Shoppers trust a support bot twice as much when it can hand them to a person",
+   "text": "2X"
+  },
+  "pops": [
+   {
+    "at": "In",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 850,
+    "y": 250,
+    "w": 160,
+    "until": "55"
+   },
+   {
+    "at": "angry",
+    "kind": "sprite",
+    "sprite": "shopper",
+    "x": 860,
+    "y": 200,
+    "w": 170,
+    "until": "That's"
+   },
+   {
+    "at": "Comment",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 800,
+    "y": 290,
+    "w": 220,
+    "size": 60,
+    "color": "#E8B84B",
+    "rot": 12
+   }
+  ],
+  "branded": true
+ }
 }
