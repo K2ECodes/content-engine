@@ -186,6 +186,15 @@
       "google",
       "anthropic",
       "claude"
-    ]
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "anthropic",
+        "claude",
+        "openai",
+        "google"
+      ]
+    }
   }
 }

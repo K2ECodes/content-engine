@@ -164,6 +164,14 @@
       "microsoft",
       "microsoft",
       "microsoft"
-    ]
+    ],
+    "hook": {
+      "style": "blast",
+      "brands": [
+        "microsoft",
+        "openai",
+        "claude"
+      ]
+    }
   }
 }

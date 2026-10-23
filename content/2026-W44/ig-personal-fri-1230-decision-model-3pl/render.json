@@ -244,6 +244,14 @@
       "openai",
       "openai",
       "openai"
-    ]
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "openai",
+        "claude",
+        "gemini"
+      ]
+    }
   }
 }

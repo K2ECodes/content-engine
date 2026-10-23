@@ -37,3 +37,4 @@ Sources (research/weekly/2026-W44.md 1.2, 1.3, 1.4, 2.1):
 Judgement calls: "AI shopping assistant" instead of "agent" for the 1-read test. The 4 items are a teaser; the full check (with owner per item) is the freebie.
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): Modern Retail, Feedvisor/PartnerCentric research (Oct 22 2026); TechCrunch, Meta Muse 10M users (Oct 21 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).
+Keyword SYSTEMS sends: assets/freebies/agent-ready-check-brands-3pls.pdf (built, listed in config/offers.json leadMagnets).

@@ -175,6 +175,7 @@ const SFX = {
   scratch: 'anoisesrc=d=0.32:c=brown:a=0.8,highpass=f=900,lowpass=f=4500,afade=t=in:d=0.05,afade=t=out:st=0.16:d=0.16',
   roll: 'anoisesrc=d=0.6:c=pink:a=0.35,bandpass=f=1500:w=1200,tremolo=f=30:d=0.8,afade=t=out:st=0.3:d=0.3',
   print: 'anoisesrc=d=0.28:c=white:a=0.3,bandpass=f=2500:w=2000,tremolo=f=45:d=0.9,afade=t=out:st=0.18:d=0.1',
+  blast: 'anoisesrc=d=0.12:c=white:a=0.9,highpass=f=600,lowpass=f=6000,afade=t=out:st=0.02:d=0.1',
   pop: 'sine=f=520:d=0.09,asetrate=48000*1.0,volume=1.2,afade=t=out:st=0.02:d=0.07,vibrato=f=18:d=0.4',
   whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
   // 8-bit cues for templates/arena (square waves and noise, research/style-fire-reel.md 11.9)
@@ -361,6 +362,7 @@ function resolveStory(dir, spec) {
   const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, logoUrl: pathToFileURL(path.join(ROOT, 'assets/logos', b.logo)).href }; };
   d.scenes.forEach((sc) => { if (sc.brand) sc.b = brand(sc.brand); if (sc.type === 'vs') { sc.lb = brand(sc.left); sc.rb = brand(sc.right); } });
   d.bgLogos = (d.bgLogos || []).map((id) => brand(id));
+  if (d.hook) d.hook = { ...d.hook, targets: (d.hook.brands || []).slice(0, 6).map((id) => brand(id)), srcUrl: d.hook.src ? pathToFileURL(path.resolve(dir, d.hook.src)).href : undefined };
   d.pops = (d.pops || []).map((p, i) => ({ ...p, t: T(p.at, `pop ${i}`, 0.03), end: p.until !== undefined ? T(p.until, `pop ${i} until`) : undefined,
     ...(p.kind === 'logo' ? { b: brand(p.brand) } : {}), ...(p.kind === 'sprite' ? { srcUrl: pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${p.sprite}.png`)).href } : {}) }));
   d.stickers = (d.stickers || []).map((k, i) => ({ ...k, srcUrl: pathToFileURL(path.resolve(dir, k.src)).href,
@@ -432,10 +434,11 @@ function resolveArena(dir, spec) {
     for (const [k, v] of Object.entries(o)) {
       if ((k === 'at' || /At$/.test(k)) && (typeof v === 'string' || typeof v === 'number'))
         o[k === 'at' ? 't' : k.slice(0, -2) + 'T'] = Math.max(0, wordTime(words, v, `${label} ${k}`) - (k === 'at' ? 0.06 : 0.02));
-      else if (v && typeof v === 'object' && !Array.isArray(v)) walk(v, `${label} ${k}`);
+      else if (v && typeof v === 'object') walk(v, `${label} ${k}`);
     }
   };
-  d.beats = d.beats.map((b, i) => { const o = structuredClone(b); walk(o, `beat ${i}`); if (o.t === undefined) o.t = 0; return o; }).sort((a, b) => a.t - b.t);
+  d.beats = d.beats.map((b, i) => { const o = structuredClone(b); walk(o, `beat ${i}`); if (o.t === undefined) o.t = (o.hits?.[0]?.t ?? 0); return o; }).sort((a, b) => a.t - b.t);
+  d.brands = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'));   // logo fighters (brand mode)
   return { data: d, voiceSrc };
 }
 

@@ -56,12 +56,14 @@
         "name": "3PL billing leak checklist",
         "status": "built",
         "used_by": [
-          "ig-company-tue-1130-5-fees-never-billed"
+          "ig-company-tue-1130-5-fees-never-billed",
+          "ig-company-fri-1800-invoice-gap"
         ],
         "file": "assets/freebies/3pl-billing-leak-checklist.pdf",
         "source": "assets/freebies/src/3pl-billing-leak-checklist.html",
         "note": "Also sent for SYSTEMS on 3PL posts (video \"Your warehouse did the work. The invoice never saw it\").",
-        "offer": "logistics-systems"
+        "offer": "logistics-systems",
+        "pages": 4
       },
       {
         "keyword": "SYSTEMS",
@@ -76,7 +78,8 @@
           "ig-company"
         ],
         "offer": "ecommerce-systems",
-        "note": "SYSTEMS is shared: send this on e-commerce posts, the 3PL billing leak checklist on 3PL posts."
+        "note": "SYSTEMS is shared: send this on e-commerce posts, the 3PL billing leak checklist on 3PL posts.",
+        "pages": 4
       },
       {
         "keyword": "AI",
@@ -89,7 +92,121 @@
           "ig-personal"
         ],
         "offer": "ai-workshops",
-        "used_by": []
+        "used_by": [
+          "ig-personal-fri-1230-ai-wont-spend-without-asking",
+          "ig-personal-mon-1230-walmart-vs-amazon-agents",
+          "ig-personal-tue-1230-ai-keys-bill",
+          "ig-personal-wed-1230-5-warehouse-skills",
+          "ig-personal-thu-1230-stop-pasting-prompts",
+          "ig-personal-thu-1900-walmart-let-agents-shop",
+          "ig-personal-fri-1230-decision-model-3pl",
+          "ig-personal-sat-1100-sop-to-skill",
+          "ig-personal-sat-1800-openai-took-replit",
+          "ig-personal-sun-0930-openai-on-google-cloud",
+          "li-personal-wed-0800-uber-30-engineers",
+          "li-personal-fri-0800-sops-are-portable",
+          "ig-company-fri-1500-sops-portable-stopmotion"
+        ],
+        "note": "Also sent for SYSTEMS on ig-company-fri-1500-sops-portable-stopmotion (caption promises \"the 5 skills we install first\"). On the 2 SOP posts it goes out with the SOP-to-skill sheet.",
+        "pages": 4
+      },
+      {
+        "status": "built",
+        "keyword": "SYSTEMS",
+        "name": "Approval sheet: 4 things AI should never send without your yes",
+        "file": "assets/freebies/approval-sheet.pdf",
+        "source": "assets/freebies/src/approval-sheet.html",
+        "pages": 3,
+        "used_by": [
+          "ig-company-tue-1900-never-send-without-yes"
+        ],
+        "channels": [
+          "ig-company"
+        ],
+        "offer": "ecommerce-systems",
+        "note": "Callout points to both contentsystems.ai/logistics and /ecommerce (refunds and customer emails plus freight bookings)."
+      },
+      {
+        "status": "built",
+        "keyword": "SYSTEMS",
+        "name": "Peak invoice check: 6 lines for carrier and 3PL invoices before Black Friday",
+        "file": "assets/freebies/peak-invoice-check.pdf",
+        "source": "assets/freebies/src/peak-invoice-check.html",
+        "pages": 4,
+        "used_by": [
+          "ig-company-wed-1900-6-invoice-lines"
+        ],
+        "channels": [
+          "ig-company"
+        ],
+        "offer": "ecommerce-systems"
+      },
+      {
+        "status": "built",
+        "keyword": "SYSTEMS",
+        "name": "AI helper owner sheet: every AI helper needs an owner",
+        "file": "assets/freebies/ai-helper-owner-sheet.pdf",
+        "source": "assets/freebies/src/ai-helper-owner-sheet.html",
+        "pages": 3,
+        "used_by": [
+          "ig-company-fri-1800-every-helper-needs-owner"
+        ],
+        "channels": [
+          "ig-company"
+        ],
+        "offer": "ai-partner"
+      },
+      {
+        "status": "built",
+        "keyword": "SYSTEMS",
+        "name": "Support handoff map: 5 moments a support bot must hand to a person",
+        "file": "assets/freebies/support-handoff-map.pdf",
+        "source": "assets/freebies/src/support-handoff-map.html",
+        "pages": 3,
+        "used_by": [
+          "ig-company-sun-1830-5-handoff-moments"
+        ],
+        "channels": [
+          "ig-company"
+        ],
+        "offer": "ecommerce-systems"
+      },
+      {
+        "status": "built",
+        "keyword": "SYSTEMS",
+        "name": "Agent-ready check for brands and 3PLs (what an AI shopping assistant reads, and who owns each fact)",
+        "file": "assets/freebies/agent-ready-check-brands-3pls.pdf",
+        "source": "assets/freebies/src/agent-ready-check-brands-3pls.html",
+        "pages": 3,
+        "used_by": [
+          "li-company-mon-1200-warehouse-agent-ready",
+          "ig-company-mon-1900-why-ai-skipped-you"
+        ],
+        "channels": [
+          "li-company",
+          "ig-company"
+        ],
+        "offer": "ecommerce-systems",
+        "note": "Different from the W43 agent-ready store checklist: this 1 splits each fact between brand and warehouse. Callout also lists contentsystems.ai/logistics."
+      },
+      {
+        "status": "built",
+        "keyword": "AI",
+        "name": "SOP-to-skill sheet: turn 1 SOP into an AI skill (template plus worked example)",
+        "file": "assets/freebies/sop-to-skill-sheet.pdf",
+        "source": "assets/freebies/src/sop-to-skill-sheet.html",
+        "pages": 3,
+        "used_by": [
+          "li-personal-fri-0800-sops-are-portable",
+          "ig-personal-sat-1100-sop-to-skill"
+        ],
+        "channels": [
+          "li-personal",
+          "ig-personal"
+        ],
+        "offer": null,
+        "next_step": "Follow @koredekola, comment AI for the Starter Pack",
+        "note": "Sent together with the AI Employee Starter Pack on the SOPs-are-portable posts. No company selling (ig-personal rule)."
       }
     ]
   },

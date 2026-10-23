@@ -25,3 +25,4 @@ Animated story reel voiced by Korede: OpenAI's announcement that its models are 
 - Voice: Korede's instant clone via HeyGen free speech (audio/vo.wav), no lip-sync tonight. No stills or cutouts of Korede in the video: his moving green-screen take comes after the kie top-up.
 - Talking head pending kie.ai top-up: swap to `node scripts/heygen.mjs kie-plate` (data.heygen.say is ready in render.json).
 - Music: kie Suno V6 dark rage-trap bed at 0.07 (alt take music-2.mp3). $0.06. Sunday slot 09:30 ET, the US clock change is that morning, so double-check the queue time in Schedchie.
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).

@@ -116,6 +116,59 @@
   .caps span { display: inline-block; background: var(--cap); padding: 16px 22px 12px; font: 700 50px/1 'Silkscreen'; text-transform: uppercase; letter-spacing: .03em; color: #fff; box-shadow: 6px 6px 0 rgba(0,0,0,.45); }
   .caps span:empty { display: none; }
   .caps b { color: var(--gold); font-weight: 700; }
+
+  /* Brand mode: logo fighters (player/opponent/enemy `brand`), cut-paper stop motion, crowd, rain, stamps */
+  .glow { position: absolute; inset: 0; opacity: .55; mix-blend-mode: screen; pointer-events: none; }
+  .hud .nm .ic { display: inline-block; width: 30px; height: 30px; margin: -4px 10px 0 0; vertical-align: middle; background: #fff center / 70% no-repeat; border: 3px solid currentColor; }
+  .hud .nm.e .ic { margin: -4px 0 0 10px; }
+  .fighter { position: absolute; z-index: 4; }
+  .paper, .pp { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .tile { position: absolute; left: 0; top: 0; box-sizing: border-box; border: 8px solid #FFFDF6; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .tile img { position: static !important; object-fit: contain; image-rendering: auto; }
+  .teyes { position: absolute; left: 0; right: 0; top: 9%; display: flex; justify-content: center; gap: 20%; }
+  .teyes i { position: relative; width: 13%; aspect-ratio: 1; background: #fff; border: 3px solid #0A120D; box-shadow: inset -9px -7px 0 #0A120D; }
+  .teyes i::before { content: ''; position: absolute; left: -20%; top: -45%; width: 140%; height: 26%; background: #0A120D; transform: rotate(20deg); }
+  .teyes i:last-child::before { transform: rotate(-20deg); }
+  .glove { position: absolute; width: 74px; height: 64px; border: 5px solid #0A120D; box-shadow: inset -10px -10px 0 rgba(0,0,0,.28), inset 6px 6px 0 rgba(255,255,255,.35); z-index: 2; }
+  .leg { position: absolute; width: 34px; height: 54px; background: #0A120D; }
+  .leg::after { content: ''; position: absolute; bottom: 0; left: -8px; width: 50px; height: 14px; background: #0A120D; }
+  .ghosttile { filter: none !important; }
+  .bplate { position: absolute; left: 50%; bottom: calc(100% + 22px); transform: translateX(-50%); white-space: nowrap; font: 700 30px/1 'Silkscreen'; color: #fff; background: rgba(10,10,14,.92); border: 4px solid; padding: 10px 14px 8px; box-shadow: 5px 5px 0 rgba(0,0,0,.5); }
+  .prize { position: absolute; z-index: 5; width: 150px; }
+  .prize .ring { position: absolute; left: -14px; top: -14px; width: 178px; height: 178px; border: 8px solid; box-shadow: 0 0 34px 8px rgba(255,255,255,.25); }
+  .prize .plab { position: absolute; left: 50%; top: 176px; transform: translateX(-50%); white-space: nowrap; font: 700 26px/1 'Silkscreen'; color: #fff; background: rgba(10,10,14,.92); border: 4px solid var(--gold); padding: 8px 12px 6px; }
+  .prize .plab span { display: none; }
+  .crown { position: absolute; left: 50%; top: -64px; margin-left: -40px; width: 80px; height: 44px; background: var(--gold); clip-path: polygon(0 100%, 0 20%, 25% 60%, 50% 0, 75% 60%, 100% 20%, 100% 100%); }
+  .fan { position: absolute; z-index: 6; }
+  .rain, .proj, .ally { position: absolute; z-index: 3; opacity: 0; }
+  .proj { z-index: 7; }
+  .stamp { position: absolute; z-index: 10; opacity: 0; white-space: nowrap; font: 700 78px/1 'Silkscreen'; padding: 16px 26px 10px; background: rgba(10,10,14,.94); border: 8px solid; box-shadow: 10px 10px 0 rgba(0,0,0,.6); text-shadow: 4px 4px 0 #000; }
+  .stamp.sm { font-size: 40px; padding: 10px 16px 6px; border-width: 5px; }
+  .combo { position: absolute; right: 60px; top: 330px; z-index: 10; opacity: 0; font: 700 64px/1 'Silkscreen'; color: var(--gold); text-shadow: 6px 6px 0 #0A120D, -3px -3px 0 #0A120D; white-space: nowrap; }
+  .combo small { display: block; font-size: 30px; color: #fff; text-align: right; }
+  .shield { position: absolute; z-index: 6; opacity: 0; border: 12px solid; box-shadow: 0 0 40px 10px currentColor, inset 0 0 40px 6px currentColor; }
+  .bub { position: absolute; z-index: 11; opacity: 0; white-space: nowrap; font: 700 36px/1 'Silkscreen'; color: #0A120D; background: #fff; border: 4px solid #0A120D; padding: 10px 14px 6px; box-shadow: 5px 5px 0 rgba(0,0,0,.5); }
+  .wlogo { display: flex; align-items: center; gap: 14px; font: 700 30px/1 'Silkscreen'; color: var(--ink); }
+  .wlogo .tile { position: relative; border-width: 4px; }
+  /* strict palette (brand mode): dark world, only the fighters' colours carry hue; other logos turn white-on-ink */
+  .canvas.bm .sky { filter: saturate(.18) brightness(.5) contrast(1.15); }
+  .canvas.bm .lamp { background: #F5F0E8; box-shadow: 0 0 18px 6px rgba(245,240,232,.18); }
+  .canvas.bm .pop { border-color: #F5F0E8; }
+  .canvas.bm .pop small, .canvas.bm .pop.good small { color: rgba(245,240,232,.7); }
+  .canvas.bm .pop.bad { border-color: var(--bad, #F5F0E8); }
+  .canvas.bm .pop.bad .typed { color: var(--bad, #F5F0E8); }
+  .tile.mono { background: #17171F !important; }
+  .canvas.bm .proj img { filter: grayscale(1) brightness(1.25) contrast(1.1); }
+  .tile.mono img { filter: brightness(0) invert(1); }
+  .gun { position: absolute; width: 104px; height: 34px; background: #2B2B36; border: 5px solid #0A120D; opacity: 0; z-index: 3; box-shadow: inset 0 -8px 0 rgba(0,0,0,.35); }
+  .gun::before { content: ''; position: absolute; right: -36px; top: 3px; width: 30px; height: 14px; background: #4A4A5A; border: 4px solid #0A120D; }
+  .gun::after { content: ''; position: absolute; left: 16px; top: 24px; width: 20px; height: 30px; background: #2B2B36; border: 4px solid #0A120D; }
+  .gun b { position: absolute; left: 8px; top: 5px; width: 62px; height: 8px; }
+  .bolt { position: absolute; z-index: 7; width: 54px; height: 16px; opacity: 0; border: 3px solid #fff; }
+  .rocket { position: absolute; z-index: 7; width: 130px; height: 46px; opacity: 0; }
+  .rocket i { position: absolute; }
+  .mflash { position: absolute; z-index: 8; width: 90px; height: 90px; margin: -45px 0 0 -45px; opacity: 0; }
+  .handle { display: inline-block; font: 700 40px/1 'Silkscreen'; color: #fff; background: rgba(10,10,14,.9); border: 4px solid #fff; padding: 14px 22px 10px; box-shadow: 6px 6px 0 rgba(0,0,0,.5); }
 </style>
 </head>
 <body>
@@ -138,10 +191,40 @@
     { type: 'continue', t, keyword: 'SYSTEMS', typeT?, placeholder, dm: 'DM SENT', dmT?, from: 9 }  // countdown runs to the last frame
   ]
 }
+Brand mode (logo battles, render.mjs passes config/brands.json as data.brands). A fighter spec is { brand, name?, tile?, color?, logo?, eyes? }:
+  player: { brand: 'openai', color: '#10A37F' }, opponent: { brand: 'claude' }   // opponent = default enemy for rounds without `enemy`
+  enemy: { brand: 'amazon', tile: '#232F3E' } on any round/boss also works. tile = logo tile colour, color = HUD bar, gloves, plate, flashes.
+  stopMotion: 10 (fps of the cut-paper wobble, default 10 in brand mode, 0 = off), popTop: 640 (popup slot 0 y), handle: '@koredekola'
+  prize: { brand: 'replit', owner: 'enemy'|'player', label: 'DEFAULT: CLAUDE' }      // floating trophy logo between the fighters
+  crowd: { brands: ['google', 'meta', ...], y: 1550 }                               // front-row logo fans, bobbing at stop-motion fps
+  round extras: ko: false (no shatter: stagger + dizzy, enemy stays), koText: 'STOLEN', hp: 0.2 (enemy hp after a soft KO), flash: true | '#hex' | brand id
+  new beats (all word-anchored):
+    { type: 'title', t, title: 'ROUND 2', sub: '?', outT? }                            // title card only
+    { type: 'steal', t, to: 'player'|'enemy', label: 'DEFAULT: OPENAI' }               // prize zips to the new owner in stop motion
+    { type: 'counter', t, hitT?, hp: 0.6, text?: 'NO' }                               // current enemy dashes and hits the player
+    { type: 'combo', hits: [{ at, text }], hp: 0.25 }                                  // jab per word, HIT xN counter, small label per hit
+    { type: 'revive', t, hp: 0.7, text?: 'NOT A K.O.' }                               // soft-KO'd enemy gets back up
+    { type: 'rain', t, brands: [...], count: 14, outT? }                               // logos rain down in stepped frames
+    { type: 'cheer', t, brands?: [...], text?: 'OOOH' }                                // crowd jumps, optional bubble
+    { type: 'throw', t, hitT?, brand | sprite, target: 'player'|'enemy', result: 'block'|'join', text?, from: 'left'|'right'|'top' }
+    { type: 'stamp', t, text, brand?|color?, x: 540, y: 800, rot: -6, size: 'sm'?, outT? }
+    { type: 'clash', t, hitT?, text? }                                                 // both fighters collide mid-ring, split-colour flash
+    { type: 'blast', t, hitT, from?: 'enemy', shots: 7, rocket?: true, hp?: 0.3, hp0?: 1, text?, quiet?: true }   // pixel blaster barrage (+ rocket on hitT); quiet = the round's KO does the boom
+  round extras: dash: false (no dash/punch, e.g. when a blast does the damage). palette: 'full' turns off the strict palette, keep: [brand ids] stay in colour, badColor: bad-popup colour
+  powerup extras: brand (logo arcs in instead of the bulb), side: 'enemy' (powers the enemy). win extras: brand (winner colours + logo).
 window.sfx collects {t, kind, vol} cues: dash punch explode coin powerup bell blip charge beam fanfare beep. */
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const SP = '../../assets/pixel/sprites/';
-const GROUND = 1300, HERO_H = 400, HERO_X = 130, ENEMY_CX = 790, FR = 1 / 30;
+const GROUND = 1300, HERO_X = 130, ENEMY_CX = 790, FR = 1 / 30;
+let HERO_H = 400;
+const TILE = 250, LEGS = 52, LOGOS = '../../assets/logos/';
+const lum = (hex) => { const n = parseInt(String(hex).replace('#', '').padEnd(6, '0').slice(0, 6), 16); const c = [n >> 16, (n >> 8) & 255, n & 255].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }); return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]; };
+const hash = (n) => { const x = Math.sin(n * 12.9898 + 78.233) * 43758.5453; return x - Math.floor(x); };
+// a logo on a cut-paper tile; eyes = angry pixel eyes above the logo
+const tileHTML = (B, s, { eyes = true, mirror = false } = {}) => `<div class="tile${B.mono ? ' mono' : ''}" style="width:${s}px;height:${s}px;background:${B.tile};box-shadow:inset 0 0 0 ${Math.max(3, Math.round(s * 0.03))}px ${B.color}">${eyes ? `<div class="teyes"${mirror ? ' style="transform:scaleX(-1)"' : ''}><i></i><i></i></div>` : ''}<img src="${B.logo}" style="${eyes ? `margin-top:${Math.round(s * 0.16)}px;` : ''}width:${eyes ? 52 : 64}%;height:${eyes ? 52 : 64}%"></div>`;
+// a logo fighter: legs, tile, back glove + front glove facing the opponent
+const fighterHTML = (B, mirror, s = TILE, cls = 'paper') => { const side = mirror ? 'left' : 'right';
+  return `<div class="${cls}"><i class="leg" style="left:${s * 0.26}px;top:${s - 4}px"></i><i class="leg" style="left:${s * 0.6}px;top:${s - 4}px"></i>${tileHTML(B, s, { eyes: B.eyes !== false, mirror })}<i class="glove gb" style="background:${B.color};${side}:-30px;top:${s * 0.6}px"></i><i class="glove gf" style="background:${B.color};${side}:-48px;top:${s * 0.34}px"></i><i class="gun" style="left:${mirror ? -100 : s - 4}px;top:${s * 0.34 + 10}px"><b style="background:${B.color}"></b></i></div>`; };
 // Pose widths differ: arms stick out. Offsets (source px) keep the body still when the pose swaps.
 const POSES = {
   korede: { stand: [276, 0], point: [413, 0], cheer: [413, -68], shrug: [493, -108], laptop: [402, 0], h: 655 },
@@ -156,48 +239,82 @@ window.renderPost = (data) => {
   const sfx = window.sfx = [];
   const cue = (t, kind, vol) => { if (t >= 0 && t < data.duration) sfx.push({ t: +t.toFixed(3), kind, ...(vol ? { vol } : {}) }); };
   const P = data.player || { name: 'KOREDE', sprite: 'korede' };
-  const pose = POSES[P.sprite] || POSES.korede, sc = HERO_H / pose.h;
+  const BR = data.brands || {};
+  // strict palette: only the fighters (and the prize) keep their colours; every other logo is white on ink
+  const KEEP = P.brand && data.palette !== 'full' ? new Set([P.brand, data.opponent?.brand, data.prize?.brand, ...(data.keep || []), ...data.beats.map((b) => b.enemy?.brand)].filter(Boolean)) : null;
+  const brandOf = (spec) => {
+    if (!spec) return null;
+    const o = typeof spec === 'string' ? { brand: spec } : spec;
+    if (!o.brand) return null;
+    const b = BR[o.brand]; if (!b) throw new Error(`arena: unknown brand "${o.brand}" (config/brands.json)`);
+    const color = o.color || (lum(b.bg) > 0.1 ? b.bg : (b.accent || b.fg));
+    const mono = !!KEEP && !KEEP.has(o.brand);
+    return { id: o.brand, name: (o.name || b.name).toUpperCase(), logo: LOGOS + (o.logo || b.logo), tile: mono ? '#17171F' : (o.tile || b.tile), bg: b.bg, color: mono ? '#F5F0E8' : color, eyes: o.eyes, mono };
+  };
+  const colorOf = (c, fb) => (!c || c === true ? fb : String(c).startsWith('#') ? c : (brandOf(c)?.color || fb));
+  const HB = brandOf(P);                                 // brand mode when the player is a logo
+  const OPP = data.opponent || null;
+  const SM = HB ? (data.stopMotion ?? 10) : (data.stopMotion || 0);
+  const POP_TOP = data.popTop ?? 640;
+  const pose = HB ? { stand: [TILE, 0], point: [TILE + 60, 0], cheer: [TILE, 0], shrug: [TILE, 0], laptop: [TILE, 0], h: TILE + LEGS } : (POSES[P.sprite] || POSES.korede);
+  if (HB) HERO_H = TILE + LEGS;
+  const sc = HB ? 1 : HERO_H / pose.h;
   const beats = data.beats;
   const fights = beats.filter((b) => b.type === 'round' || b.type === 'boss');
   const html = [], dyn = { typed: [], counter: [], labels: [] };
+  fights.forEach((b) => { const e = b.enemy || {}; b._B = brandOf(e.brand ? e : (!e.sprite && b.type !== 'boss' && OPP) ? { ...OPP, ...e } : null); });
+  const firstE = fights[0]?._B;
 
   // ---- static world + HUD
   html.push(`<div class="sky"></div><div class="tint" id="tint"></div><div class="tint2" id="tint2"></div><div class="ring"></div>`);
+  if (HB) html.push(`<div class="glow" id="glowP" style="background:radial-gradient(ellipse 560px 900px at 160px 1150px, ${HB.color}, transparent 70%)"></div><div class="glow" id="glowE" style="background:radial-gradient(ellipse 560px 900px at 920px 1150px, ${firstE?.color || '#C9503C'}, transparent 70%)"></div>`);
   [40, 230, 420, 640, 840, 1030].forEach((x) => html.push(`<i class="lamp" style="left:${x}px"></i>`));
-  html.push(`<div class="hud" id="hud"><div class="panel"></div>
-    <div class="bar p"><i class="ghost"></i><i class="fill" id="hpP"></i></div>
+  const icon = (B) => (B ? `<i class="ic" style="background-image:url(${B.logo});background-color:${B.tile}"></i>` : '');
+  html.push(`<div class="hud" id="hud"><div class="panel"${HB ? ' style="background:rgba(10,10,16,.9)"' : ''}></div>
+    <div class="bar p"><i class="ghost"></i><i class="fill" id="hpP"${HB ? ` style="background:${HB.color}"` : ''}></i></div>
     <div class="rnd">RND<b id="rnd">1</b></div>
-    <div class="bar e"><i class="ghost" id="hpEg"></i><i class="fill" id="hpE"></i></div>
-    <div class="nm p">${esc(P.name)}</div><div class="nm e" id="enm"></div>
+    <div class="bar e"><i class="ghost" id="hpEg"></i><i class="fill" id="hpE"${firstE ? ` style="background:${firstE.color}"` : ''}></i></div>
+    <div class="nm p"${HB ? ` style="color:${HB.color}"` : ''}>${icon(HB)}${esc(HB ? (P.name || HB.name) : P.name)}</div><div class="nm e" id="enm"></div>
     ${data.foot ? `<div class="cl">${esc(data.foot)}</div>` : ''}
     ${data.counter ? `<div class="cnt">${esc(data.counter.label)} <span id="cnt">${money(data.counter.from || 0, data.counter)}</span></div>` : ''}</div>`);
 
-  // ---- hero (stacked poses) + shadow
-  const heroImgs = Object.keys(pose).filter((k) => k !== 'h').map((k) => `<img id="pose-${k}" src="${SP}${P.sprite}-${k}.png" style="left:${pose[k][1] * sc}px;height:${HERO_H}px;opacity:${k === 'stand' ? 1 : 0}">`).join('');
+  // ---- hero (stacked poses, or a logo fighter in brand mode) + shadow
   html.push(`<div class="shadow" id="hshadow" style="left:${HERO_X + 10}px;top:${GROUND - 14}px;width:${pose.stand[0] * sc - 20}px"></div>`);
-  html.push(`<div class="actor" id="hero" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;width:${pose.stand[0] * sc}px;height:${HERO_H}px">${heroImgs}</div>`);
+  if (HB) html.push(`<div class="fighter" id="hero" style="left:${HERO_X}px;top:${GROUND - HERO_H}px;width:${TILE}px;height:${HERO_H}px">${fighterHTML(HB, false)}<div class="bplate" style="border-color:${HB.color}">${esc(P.name || HB.name)}</div></div>`);
+  else {
+    const heroImgs = Object.keys(pose).filter((k) => k !== 'h').map((k) => `<img id="pose-${k}" src="${SP}${P.sprite}-${k}.png" style="left:${pose[k][1] * sc}px;height:${HERO_H}px;opacity:${k === 'stand' ? 1 : 0}">`).join('');
+    html.push(`<div class="actor" id="hero" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;width:${pose.stand[0] * sc}px;height:${HERO_H}px">${heroImgs}</div>`);
+  }
 
   // ---- enemies
   fights.forEach((b, i) => {
     const boss = b.type === 'boss', e = b.enemy || {};
     let w, h, body, bg, bgSize;
-    if (boss) { w = 400; h = 540; bg = `${SP}brick.png`; bgSize = `${w / 2}px ${h / 3}px`; body = `<div class="wall">${`<img src="${bg}">`.repeat(6)}</div>`; }
+    const EB = b._B;
+    if (EB) { const s = boss ? 340 : TILE; w = s; h = s + LEGS; body = fighterHTML(EB, true, s); b._s = s; }
+    else if (boss) { w = 400; h = 540; bg = `${SP}brick.png`; bgSize = `${w / 2}px ${h / 3}px`; body = `<div class="wall">${`<img src="${bg}">`.repeat(6)}</div>`; }
     else { const [sw, sh] = PROPS[e.sprite] || PROPS.box; h = e.h || 280; w = Math.round(sw * h / sh); bg = `${SP}${e.sprite || 'box'}.png`; bgSize = `${w}px ${h}px`; body = `<img src="${bg}">`; }
-    const left = ENEMY_CX - w / 2, top = GROUND - h + 4;
+    const left = ENEMY_CX - w / 2, top = GROUND - h + (EB ? 0 : 4);
+    if (EB && !e.name) e.name = EB.name;
+    b.enemy = e;
     Object.assign(b, { _w: w, _h: h, _left: left, _top: top, _i: i });
     html.push(`<div class="shadow" id="esh${i}" style="left:${left + 10}px;top:${GROUND - 14}px;width:${w - 20}px;opacity:0"></div>`);
     html.push(`<div class="enemy${boss ? ' boss' : ''}" id="en${i}" style="left:${left}px;top:${top}px;width:${w}px;height:${h}px;opacity:0">
-      <div class="body" id="eb${i}">${body}${e.eyes === false ? '' : `<div class="eyes" style="top:${Math.round(h * (boss ? 0.14 : 0.36))}px"><i></i><i></i></div>`}</div>
-      ${!boss && e.plate !== false ? `<div class="plate">${esc(e.name)}</div>` : ''}</div>`);
-    // shatter pieces: the sprite cut into a grid
-    const C = boss ? 6 : 6, R = boss ? 8 : 6, pw = w / C, ph = h / R;
+      <div class="body" id="eb${i}">${body}${EB || e.eyes === false ? '' : `<div class="eyes" style="top:${Math.round(h * (boss ? 0.14 : 0.36))}px"><i></i><i></i></div>`}</div>
+      ${EB && e.plate !== false ? `<div class="bplate" style="border-color:${EB.color}">${esc(e.name)}</div>` : !boss && e.plate !== false ? `<div class="plate">${esc(e.name)}</div>` : ''}</div>`);
+    // shatter pieces: the sprite (or the logo tile) cut into a grid
+    const C = boss ? 6 : 6, R = boss ? 8 : 6, pw = w / C, ph = (EB ? w : h) / R;
     for (let r = 0; r < R; r++) for (let c = 0; c < C; c++)
-      html.push(`<div class="piece p${i}" style="left:${left + c * pw}px;top:${top + r * ph}px;width:${Math.ceil(pw)}px;height:${Math.ceil(ph)}px;background-image:url(${bg});background-size:${bgSize};background-position:${-c * pw}px ${-r * ph}px"></div>`);
+      html.push(EB
+        ? `<div class="piece p${i}" style="left:${left + c * pw}px;top:${top + r * ph}px;width:${Math.ceil(pw)}px;height:${Math.ceil(ph)}px;overflow:hidden"><div style="position:absolute;left:${-c * pw}px;top:${-r * ph}px;width:${w}px;height:${w}px">${tileHTML(EB, w, { eyes: EB.eyes !== false, mirror: true })}</div></div>`
+        : `<div class="piece p${i}" style="left:${left + c * pw}px;top:${top + r * ph}px;width:${Math.ceil(pw)}px;height:${Math.ceil(ph)}px;background-image:url(${bg});background-size:${bgSize};background-position:${-c * pw}px ${-r * ph}px"></div>`);
     html.push(`<div class="spark" id="spk${i}" style="left:${left + 10}px;top:${GROUND - h * 0.55}px">${STAR}</div>`);
-    html.push(`<div class="ko" id="ko${i}" style="left:${ENEMY_CX - 110}px;top:${top - 40}px">K.O.</div>`);
+    html.push(`<div class="ko" id="ko${i}" style="left:${ENEMY_CX - 420}px;width:840px;text-align:center;top:${top - 40}px;${(b.koText || '').length > 5 ? 'font-size:84px;' : ''}">${esc(b.koText || 'K.O.')}</div>`);
     html.push(`<img class="coinpop" id="coin${i}" src="${SP}coin.png" style="left:${ENEMY_CX - 35}px;top:${top}px">`);
     html.push(`<div class="title${boss ? ' boss' : ''}" id="tt${i}"><h1>${esc(b.title)}</h1>${b.sub ? `<h2>${esc(b.sub)}</h2>` : ''}</div>`);
-    for (let g = 0; g < 5; g++) html.push(`<img class="ghostimg g${i}" src="${SP}${P.sprite}-point.png" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;height:${HERO_H}px">`);
+    for (let g = 0; g < 5; g++) html.push(HB
+      ? `<div class="ghostimg ghosttile g${i}" style="left:${HERO_X}px;top:${GROUND - HERO_H}px;width:${TILE}px;height:${TILE}px">${tileHTML(HB, TILE, { eyes: false })}</div>`
+      : `<img class="ghostimg g${i}" src="${SP}${P.sprite}-point.png" style="left:${HERO_X}px;top:${GROUND - HERO_H + 6}px;height:${HERO_H}px">`);
     if (boss) {
       html.push(`<div class="ret" id="ret" style="left:${left - 40}px;top:${top - 30}px;width:${w + 80}px;height:${h * 0.55}px"><i></i><i></i><i></i><i></i><b>${esc(b.reticle || 'TARGET LOCKED')}</b></div>`);
       html.push(`<div class="scan" id="scan" style="left:${left - 30}px;width:${w + 60}px;top:${top}px"></div>`);
@@ -208,26 +325,88 @@ window.renderPost = (data) => {
   });
 
   // ---- popups, power-up, win, continue
+  const pCenter = () => [HERO_X + TILE / 2, GROUND - HERO_H + TILE / 2];
+  const stampHTML = (id, text, color, x, y, sm) => `<div style="position:absolute;left:${x}px;top:${y}px;width:0;height:0;z-index:10"><div class="stamp${sm ? ' sm' : ''}" id="${id}" style="border-color:${color};color:${color === '#FFFFFF' || lum(color) < 0.05 ? '#fff' : color}">${esc(text)}</div></div>`;
+  let allyK = 0;
   beats.forEach((b, i) => {
-    if (b.type === 'popup' || b.type === 'powerup') html.push(`<div class="pop ${b.kind || (b.type === 'powerup' ? 'good' : '')}" id="pop${i}" style="top:${640 + (b.slot || 0) * 180}px"><small>${esc(b.title || 'POWER UP')}</small><span class="typed" id="pt${i}"></span></div>`);
+    if (b.type === 'popup' || b.type === 'powerup') html.push(`<div class="pop ${b.kind || (b.type === 'powerup' ? 'good' : '')}" id="pop${i}" style="top:${POP_TOP + (b.slot || 0) * 180}px"><small>${esc(b.title || 'POWER UP')}</small><span class="typed" id="pt${i}"></span></div>`);
     if (b.type === 'powerup') {
-      html.push(`<img id="bulb${i}" src="${SP}bulb.png" style="position:absolute;z-index:7;width:110px;opacity:0;left:0;top:0">`);
-      for (let k = 0; k < 3; k++) html.push(`<div class="pring pr${i}" style="left:${HERO_X + pose.stand[0] * sc / 2 - 130 - k * 60}px;top:${GROUND - 30 - k * 14}px;width:${260 + k * 120}px;height:${60 + k * 28}px"></div>`);
+      const PB = brandOf(b.brand);
+      html.push(PB ? `<div id="bulb${i}" style="position:absolute;z-index:7;width:120px;height:120px;opacity:0;left:0;top:0">${tileHTML(PB, 120, { eyes: false })}</div>`
+        : `<img id="bulb${i}" src="${SP}bulb.png" style="position:absolute;z-index:7;width:110px;opacity:0;left:0;top:0">`);
+      const cx = b.side === 'enemy' ? ENEMY_CX : HERO_X + pose.stand[0] * sc / 2;
+      for (let k = 0; k < 3; k++) html.push(`<div class="pring pr${i}" style="left:${cx - 130 - k * 60}px;top:${GROUND - 30 - k * 14}px;width:${260 + k * 120}px;height:${60 + k * 28}px${PB ? `;border-color:${PB.color}` : ''}"></div>`);
     }
     if (b.type === 'win') {
-      html.push(`<div class="win" id="win"><h1>${esc(b.title || 'YOU WIN')}</h1></div>`);
-      html.push(`<div class="wcard" id="wcard">${(b.lines || []).map((l, k) => `<div class="ln" id="wl${k}"></div>`).join('')}<div class="wm"><img src="../../assets/brand/wordmark.png" alt="">${b.foot ? `<span>${esc(b.foot)}</span>` : ''}</div></div>`);
-      html.push(`<img id="trophy" src="${SP}trophy.png" style="position:absolute;z-index:5;left:${HERO_X + 250}px;top:${GROUND - 150}px;height:150px;opacity:0">`);
+      const WB = brandOf(b.brand);
+      const wt = b.title || 'YOU WIN', wfs = wt.length > 7 ? Math.floor(Math.min(150, 1000 / wt.length)) : 0;
+      html.push(`<div class="win" id="win"><h1 style="white-space:nowrap;${WB ? `color:${WB.color};` : ''}${wfs ? `font-size:${wfs}px;` : ''}">${esc(wt)}</h1></div>`);
+      const wm = WB ? `<span class="wlogo">${tileHTML(WB, 54, { eyes: false })}${esc(WB.name)}</span><span>${esc(b.foot || data.handle || '')}</span>`
+        : `<img src="../../assets/brand/wordmark.png" alt="">${b.foot ? `<span>${esc(b.foot)}</span>` : ''}`;
+      html.push(`<div class="wcard" id="wcard"${WB ? ` style="border-color:${WB.color}"` : ''}>${(b.lines || []).map((l, k) => `<div class="ln" id="wl${k}"${WB && k === 0 ? ` style="color:${WB.color}"` : ''}></div>`).join('')}<div class="wm">${wm}</div></div>`);
+      html.push(`<img id="trophy" src="${SP}trophy.png" style="position:absolute;z-index:5;left:${HERO_X + (HB ? 290 : 250)}px;top:${GROUND - 150}px;height:150px;opacity:0">`);
     }
     if (b.type === 'continue') {
       html.push(`<div class="cont" id="cont"><h1>CONTINUE?</h1><span class="dig" id="dig">${b.from ?? 9}</span></div>`);
-      html.push(`<div class="cbox" id="cbox"><span class="av"></span><span class="typed" id="ctyped" data-ph="${esc(b.placeholder || 'Add a comment')}"></span><span class="post">POST</span></div>`);
+      const av = data.handle ? ` style="background:${HB ? HB.color : 'var(--ink)'};color:#fff;font-size:40px;display:flex;align-items:center;justify-content:center">${esc(data.handle.replace('@', '')[0].toUpperCase())}` : '>';
+      html.push(`<div class="cbox" id="cbox"><span class="av"${av}</span><span class="typed" id="ctyped" data-ph="${esc(b.placeholder || 'Add a comment')}"></span><span class="post">POST</span></div>`);
       if (b.dm) html.push(`<div class="dm" id="dm">${esc(b.dm)}</div>`);
-      html.push(`<div class="cwm" id="cwm"><img src="../../assets/brand/wordmark.png" alt=""></div>`);
+      html.push(`<div class="cwm" id="cwm">${data.handle ? `<span class="handle">${esc(data.handle)}</span>` : '<img src="../../assets/brand/wordmark.png" alt="">'}</div>`);
     }
+    // ---- brand-mode beats
+    if (b.type === 'title') { b._i = `b${i}`; html.push(`<div class="title" id="ttb${i}"><h1>${esc(b.title)}</h1>${b.sub ? `<h2>${esc(b.sub)}</h2>` : ''}</div>`); }
+    const fc = b.brand ? brandOf(b.brand).color : (b.color || HB?.color || '#E8B84B');
+    if (b.type === 'stamp') html.push(stampHTML(`st${i}`, b.text, fc, b.x ?? 540, b.y ?? 800, b.size === 'sm'));
+    if (b.type === 'counter' || b.type === 'revive' || b.type === 'clash') {
+      const fb = fights.filter((f) => f.t <= b.t + 1e-6).at(-1);
+      b._f = fb;
+      const col = b.type === 'clash' ? (HB?.color || '#E8B84B') : (fb?._B?.color || '#C9503C');
+      if (b.text) html.push(stampHTML(`st${i}`, b.text, b.color || col, b.type === 'counter' ? (b.text.length > 4 ? 540 : 300) : b.type === 'clash' ? 540 : ENEMY_CX - 40, b.type === 'clash' ? 760 : b.type === 'counter' && b.text.length > 4 ? 640 : 820, false));
+      if (b.type === 'clash') html.push(`<div class="spark" id="cspk${i}" style="left:540px;top:${GROUND - HERO_H * 0.62}px;width:320px;height:320px;margin:-160px 0 0 -160px">${STAR}</div>`);
+    }
+    if (b.type === 'combo') {
+      html.push(`<div class="combo" id="combo${i}"><small>HIT</small>x<span id="cn${i}">1</span></div>`);
+      (b.hits || []).forEach((h, k) => html.push(stampHTML(`hl${i}_${k}`, h.text || '', fc, ENEMY_CX - 60 + (k % 2) * 40, 700 + k * 72, true)));
+    }
+    if (b.type === 'rain') {
+      const list = b.brands || [], n = b.count ?? 14;
+      for (let k = 0; k < n && list.length; k++) {
+        const RB = brandOf(list[k % list.length]), s = Math.round(88 + hash(i * 31 + k) * 50);
+        html.push(`<div class="rain r${i}" style="left:${Math.round(20 + hash(i * 97 + k * 13) * (1040 - s))}px;top:0;width:${s}px;height:${s}px"><div class="paper">${tileHTML(RB, s, { eyes: hash(k + i) > 0.5 })}</div></div>`);
+      }
+    }
+    if (b.type === 'throw') {
+      const TB = brandOf(b.brand), s = TB ? 110 : 130;
+      html.push(`<div class="proj" id="pj${i}" style="left:0;top:0;width:${s}px;height:${s}px"><div class="paper">${TB ? tileHTML(TB, s) : `<img src="${SP}${b.sprite || 'robot'}.png" style="width:100%;height:100%;object-fit:contain">`}</div></div>`);
+      b._s = s;
+      const tgtB = b.target === 'player' ? HB : (fights.filter((f) => f.t <= b.t + 1e-6).at(-1)?._B);
+      const col = b.color || tgtB?.color || '#E8B84B';
+      if (b.result !== 'join') html.push(`<div class="shield" id="sh${i}" style="color:${col};border-color:${col};left:${(b.target === 'player' ? HERO_X : ENEMY_CX - TILE / 2) - 30}px;top:${GROUND - HERO_H - 30}px;width:${TILE + 60}px;height:${HERO_H + 40}px"></div>`);
+      else { b._slot = allyK++; }
+      if (b.text) html.push(stampHTML(`st${i}`, b.text, col, b.target === 'player' ? HERO_X + TILE / 2 + 40 : ENEMY_CX - 40, b.result === 'join' ? 1060 : 860, true));
+    }
+    if (b.type === 'blast') {
+      const fb = fights.filter((f) => f.t <= b.t + 1e-6).at(-1), col = b.from === 'enemy' ? (fb?._B?.color || '#C9503C') : (HB?.color || '#E8B84B');
+      b._n = b.shots ?? 7;
+      for (let k = 0; k < b._n; k++) html.push(`<i class="bolt" id="bl${i}_${k}" style="left:0;top:0;background:${col};box-shadow:0 0 18px 6px ${col}"></i>`);
+      html.push(`<div class="mflash" id="mf${i}" style="left:0;top:0">${STAR}</div><div class="spark" id="im${i}" style="left:0;top:0">${STAR}</div>`);
+      if (b.rocket) html.push(`<div class="rocket" id="rk${i}" style="left:0;top:0"><i style="left:0;top:8px;width:34px;height:30px;background:#fff;clip-path:polygon(0 50%,100% 0,100% 100%)"></i><i style="left:6px;top:14px;width:30px;height:18px;background:${col}"></i><i style="left:30px;top:2px;width:76px;height:42px;background:#E9E9EF;border:5px solid #0A120D;box-sizing:border-box"></i><i style="left:40px;top:-6px;width:22px;height:58px;background:${col};border:4px solid #0A120D;box-sizing:border-box;z-index:-1"></i><i style="left:100px;top:2px;width:30px;height:42px;background:${col};border:5px solid #0A120D;box-sizing:border-box;clip-path:polygon(0 0,100% 50%,0 100%)"></i></div>`);
+      if (b.text) html.push(stampHTML(`st${i}`, b.text, b.color || col, b.from === 'enemy' ? 300 : ENEMY_CX - 40, 820, false));
+    }
+    if (b.type === 'cheer' && b.text) html.push(`<div class="bub" id="bub${i}" style="left:60px;top:${(data.crowd?.y ?? 1550) - 70}px">${esc(b.text)}</div>`);
   });
+  if (data.prize) {
+    const PZ = brandOf(data.prize), own = data.prize.owner === 'player' ? HB : firstE;
+    const labels = [data.prize.label || PZ.name, ...beats.filter((b) => b.type === 'steal').map((b) => b.label || '')];
+    html.push(`<div class="prize" id="prize" style="left:${540 - 75}px;top:${data.prize.y ?? 790}px;height:150px"><div class="paper"><i class="crown"></i><div class="ring" id="pzring" style="border-color:${own?.color || '#E8B84B'}"></div>${tileHTML(PZ, 150, { eyes: false })}</div><div class="plab" id="plab">${labels.map((l, k) => `<span id="pl${k}"${k === 0 ? ' style="display:inline"' : ''}>${esc(l)}</span>`).join('')}</div></div>`);
+  }
+  if (data.crowd) {
+    const list = data.crowd.brands || [], n = list.length, y = data.crowd.y ?? 1550, s = data.crowd.size ?? 92;
+    list.forEach((id, k) => html.push(`<div class="fan" id="fan${k}" style="left:${Math.round(30 + (n > 1 ? k * (860 - s) / (n - 1) : 400))}px;top:${y}px;width:${s}px;height:${s}px"><div class="paper" data-bob="1">${tileHTML(brandOf(id), s)}</div></div>`));
+  }
+  if (HB) html.push(`<div class="spark" id="pspk" style="left:${HERO_X + TILE - 30}px;top:${GROUND - HERO_H * 0.6}px">${STAR}</div><div class="flash" id="flashL" style="right:50%"></div><div class="flash" id="flashR" style="left:50%"></div>`);
   html.push(`<div class="caps"><span id="cap"></span></div><div class="flash" id="flash"></div>`);
-  document.getElementById('root').innerHTML = `<div class="canvas" id="cv">${html.join('')}</div>`;
+  document.getElementById('root').innerHTML = `<div class="canvas${HB ? ' bm' : ''}" id="cv"${HB && data.badColor ? ` style="--bad:${data.badColor}"` : ''}>${html.join('')}</div>`;
 
   const $ = (id) => document.getElementById(id);
   // fit the beam text inside the beam
@@ -237,15 +416,35 @@ window.renderPost = (data) => {
   const tl = gsap.timeline({ paused: true });
   const D = data.duration;
   const heroImgsEl = [...$('hero').querySelectorAll('img')];
-  const setPose = (name, t) => heroImgsEl.forEach((im) => tl.set(im, { opacity: im.id === `pose-${name}` ? 1 : 0 }, t));
+  // brand mode: poses are glove positions [front, back] (x toward the opponent)
+  const GP = { stand: [[0, 0], [0, 0]], point: [[64, 0], [-6, 8]], cheer: [[-30, -120], [36, -110]], shrug: [[30, -40], [44, -30]], laptop: [[0, 0], [0, 0]], jab: [[100, -6], [-10, 10]], jab2: [[10, 4], [96, -20]] };
+  const gloves = (root) => ({ gf: root.querySelector('.gf'), gb: root.querySelector('.gb') });
+  const posePaper = (root, name, t, dir = 1) => { const g = gloves(root), p = GP[name] || GP.stand; if (!g.gf) return; tl.set(g.gf, { x: p[0][0] * dir, y: p[0][1] }, t).set(g.gb, { x: p[1][0] * dir, y: p[1][1] }, t); };
+  const setPose = (name, t) => (HB ? posePaper($('hero'), name, t) : heroImgsEl.forEach((im) => tl.set(im, { opacity: im.id === `pose-${name}` ? 1 : 0 }, t)));
+  const SMF = SM || 10, stepE = (dur) => `steps(${Math.max(2, Math.round(dur * SMF))})`;
+  const enemyAt = (t) => fights.filter((f) => f.t <= t + 1e-6).at(-1);
+  const glowPulse = (id, t) => { if (HB) tl.set($(id), { opacity: 1 }, t).set($(id), { opacity: 0.55 }, t + 0.2); };
   const nextT = (i, pred = () => true) => { for (let k = i + 1; k < beats.length; k++) if (pred(beats[k])) return beats[k].t; return D; };
 
   // idle bob for the hero, the whole video (finite repeat, seek-safe)
   tl.to($('hero'), { y: -6, duration: 0.4, ease: 'steps(1)', yoyo: true, repeat: Math.floor(D / 0.4) }, 0);
   document.querySelectorAll('.lamp').forEach((l, k) => tl.to(l, { opacity: 0.55, duration: 0.12 + (k % 3) * 0.05, ease: 'steps(1)', yoyo: true, repeat: Math.floor(D / (0.12 + (k % 3) * 0.05)) }, k * 0.07));
   tl.set($('hpP'), { scaleX: 1 }, 0).set($('hpE'), { scaleX: 1 }, 0).set($('hpEg'), { scaleX: 1 }, 0);
+  if ($('pzring')) tl.to($('pzring'), { opacity: 0.45, duration: 0.2, ease: 'steps(1)', yoyo: true, repeat: Math.floor(D / 0.2) }, 0);
 
-  const flash = (t) => { tl.set($('flash'), { opacity: 0.85 }, t).set($('flash'), { opacity: 0.5 }, t + FR).set($('flash'), { opacity: 0 }, t + 2 * FR); };
+  const flash = (t, col) => {
+    const f = $('flash');
+    if (!col) { tl.set(f, { backgroundColor: '#F5F0E8', opacity: 0.85 }, t).set(f, { opacity: 0.5 }, t + FR).set(f, { opacity: 0 }, t + 2 * FR); return; }
+    tl.set(f, { backgroundColor: col, opacity: 0.9 }, t).set(f, { backgroundColor: '#F5F0E8', opacity: 0.6 }, t + FR).set(f, { backgroundColor: col, opacity: 0.5 }, t + 2 * FR).set(f, { opacity: 0 }, t + 4 * FR);
+  };
+  const flashFor = (v, fb) => (v === true ? (HB ? fb : null) : colorOf(v, fb));
+  const stampIn = (el, t, out, rot = -6) => {
+    if (!el) return;
+    tl.set(el, { xPercent: -50, yPercent: -50, rotation: rot }, 0);
+    tl.set(el, { opacity: 1 }, t).fromTo(el, { scale: 3.2 }, { scale: 1, duration: 0.15, ease: 'steps(3)', immediateRender: false }, t);
+    if (out !== undefined && out !== null) [0, 1, 0].forEach((o, k) => tl.set(el, { opacity: o }, out - 0.2 + k * 0.07));
+    cue(t + 0.12, 'punch', 0.1);
+  };
   const shake = (t) => { const cv = $('cv'); [8, -8, 6, -4, 0].forEach((x, k) => tl.set(cv, { x, y: k % 2 ? -4 : 4 }, t + k * FR)); tl.set(cv, { y: 0 }, t + 5 * FR); };
   const hpTo = (v, t) => { tl.to($('hpE'), { scaleX: v, duration: 0.2, ease: 'steps(5)' }, t).to($('hpEg'), { scaleX: v, duration: 0.3, ease: 'steps(6)' }, t + 0.3); };
   const typeIn = (el, text, t0, cps = 16, blips = true) => { dyn.typed.push({ el, text, t0, cps }); if (blips) for (let k = 0; k < text.length; k += 2) cue(t0 + k / cps, 'blip', 0.05); };
@@ -255,7 +454,8 @@ window.renderPost = (data) => {
   const dash = (b, t) => {
     const dx = b._left - HERO_X - pose.point[0] * sc + 30;
     setPose('point', t);
-    tl.to($('hero'), { x: dx, duration: 0.18, ease: 'power3.in' }, t).to($('hshadow'), { x: dx, duration: 0.18, ease: 'power3.in' }, t);
+    const de = SM ? 'steps(3)' : 'power3.in';
+    tl.to($('hero'), { x: dx, duration: 0.2, ease: de }, t).to($('hshadow'), { x: dx, duration: 0.2, ease: de }, t);
     document.querySelectorAll(`.g${b._i}`).forEach((g, k) => {
       const at = t + (k + 1) * 0.03;
       tl.set(g, { x: dx * gsap.parseEase('power3.in')((k + 1) / 6), opacity: 0.5 - k * 0.05 }, at).to(g, { opacity: 0, duration: 0.15 }, at + 0.02);
@@ -271,10 +471,24 @@ window.renderPost = (data) => {
     // hit-stop: everything holds for 3 frames, then the knockback
     tl.to($(`en${b._i}`), { x: 26, duration: 0.06, ease: 'steps(2)' }, t + 0.1).to($(`en${b._i}`), { x: 0, duration: 0.1, ease: 'steps(2)' }, t + 0.22);
     hpTo(hp, t);
+    if (HB) { posePaper($('hero'), 'jab', t - 2 * FR); posePaper($('hero'), 'point', t + 0.14); glowPulse('glowP', t); }
     cue(t, 'punch', 0.16);
   };
   const ko = (b, t) => {
     const en = $(`en${b._i}`), eb = $(`eb${b._i}`);
+    const fcol = flashFor(b.flash, HB?.color);
+    if (b.ko === false) {   // soft KO: stagger, stays dizzy
+      tl.set(en, { transformOrigin: '50% 100%' }, 0);
+      tl.set(eb, { filter: 'brightness(0) invert(1)' }, t).set(eb, { filter: 'none' }, t + 3 * FR);
+      tl.to(en, { x: 150, rotation: 16, duration: 0.3, ease: 'steps(3)' }, t + 3 * FR).to(en, { x: 70, rotation: 9, duration: 0.3, ease: 'steps(3)' }, t + 0.6);
+      hpTo(b.hp ?? 0.15, t); shake(t + 3 * FR);
+      if (b.flash) flash(t, fcol);
+      if (HB) { tl.set($('cv'), { scale: 1.05 }, t + 3 * FR).set($('cv'), { scale: 1 }, t + 9 * FR); glowPulse('glowP', t); }
+      const k = $(`ko${b._i}`);
+      tl.fromTo(k, { opacity: 0, scale: 2.4, rotation: 0 }, { opacity: 1, scale: 1, rotation: -5, duration: 0.12, ease: 'steps(3)', immediateRender: false }, t + 0.15).to(k, { opacity: 0, duration: 0.01 }, t + 1.05);
+      cue(t, 'explode', 0.16); cue(t + 0.15, 'punch', 0.12);
+      return;
+    }
     tl.set(eb, { filter: 'brightness(0) invert(1)' }, t).set(en, { opacity: 0 }, t + 4 * FR).set($(`esh${b._i}`), { opacity: 0 }, t + 4 * FR);
     document.querySelectorAll(`.p${b._i}`).forEach((p, k) => {
       const a = (k * 137.5) * Math.PI / 180, d = ((k * 53) % 260) + 160;
@@ -283,7 +497,8 @@ window.renderPost = (data) => {
     });
     hpTo(0, t);
     shake(t + 4 * FR);
-    if (b.flash) flash(t);
+    if (b.flash) flash(t, fcol);
+    if (HB) tl.set($('cv'), { scale: 1.05 }, t + 4 * FR).set($('cv'), { scale: 1 }, t + 10 * FR);
     const k = $(`ko${b._i}`);
     tl.fromTo(k, { opacity: 0, scale: 2.4 }, { opacity: 1, scale: 1, duration: 0.12, ease: 'power4.in', immediateRender: false }, t + 0.15).to(k, { opacity: 0, duration: 0.01 }, t + 0.85);
     cue(t + 4 * FR, 'explode', 0.18);
@@ -303,13 +518,16 @@ window.renderPost = (data) => {
     cue(t, 'bell', 0.14); if (h2) cue(t + 0.45, 'blip', 0.08);
   };
   const enemyIn = (b, t, end) => {
-    const en = $(`en${b._i}`);
+    const en = $(`en${b._i}`), fi = fights.indexOf(b), prev = fights[fi - 1];
+    const stay = prev && prev.ko === false && prev._B && b._B && prev._B.id === b._B.id;   // same opponent keeps standing
+    if (prev && prev.ko === false) tl.set($(`en${prev._i}`), { opacity: 0 }, t).set($(`esh${prev._i}`), { opacity: 0 }, t);
     tl.set(en, { opacity: 1 }, t).set($(`esh${b._i}`), { opacity: 1 }, t);
-    if (t > 0.2) tl.fromTo(en, { y: -1100 }, { y: 0, duration: 0.3, ease: 'bounce.out', immediateRender: false }, t);
+    if (t > 0.2 && !stay) tl.fromTo(en, { y: -1100 }, { y: 0, duration: 0.3, ease: SM ? 'steps(4)' : 'bounce.out', immediateRender: false }, t);
+    if (b._B) { tl.set($('hpE'), { backgroundColor: b._B.color }, t); if (HB) tl.set($('glowE'), { background: `radial-gradient(ellipse 560px 900px at 920px 1150px, ${b._B.color}, transparent 70%)` }, t); }
     tl.to($(`eb${b._i}`), { y: -6, duration: 0.45, ease: 'steps(1)', yoyo: true, repeat: Math.max(1, Math.floor((end - t) / 0.45)) }, t + 0.3);
     tl.set($('hpE'), { scaleX: 1 }, t).set($('hpEg'), { scaleX: 1 }, t);
-    dyn.labels.push({ t, name: (b.enemy || {}).name || '', rnd: String(fights.indexOf(b) + 1) });
-    if (t > 0.2) cue(t + 0.25, 'punch', 0.08);
+    dyn.labels.push({ t, name: (b.enemy || {}).name || '', B: b._B, rnd: String(fights.indexOf(b) + 1) });
+    if (t > 0.2 && !stay) cue(t + 0.25, 'punch', 0.08);
   };
 
   beats.forEach((b, i) => {
@@ -317,8 +535,7 @@ window.renderPost = (data) => {
       const koT = b.koT ?? b.t + 1.5, hitT = b.hitT ?? Math.max(b.t + 0.3, koT - 0.45), dashT = b.dashT ?? Math.max(b.t + 0.05, hitT - 0.22);
       enemyIn(b, b.t, koT);
       titleCard(b, b.t, Math.max(b.t + 0.9, Math.min(koT + 0.5, nextT(i) - 0.05)));
-      const dx = dash(b, dashT);
-      hit(b, hitT, 0.45);
+      if (b.dash !== false) { dash(b, dashT); hit(b, hitT, 0.45); }
       ko(b, koT);
       tl.to($('hero'), { x: 0, duration: 0.25, ease: 'power2.out' }, koT + 0.4).to($('hshadow'), { x: 0, duration: 0.25, ease: 'power2.out' }, koT + 0.4);
       setPose('stand', koT + 0.4);
@@ -330,15 +547,26 @@ window.renderPost = (data) => {
       typeIn($(`pt${i}`), b.text, t0 + 0.1);
       [0, 1, 0].forEach((o, k) => tl.set(el, { opacity: o }, out - 0.3 + k * 0.1));
       if (b.type === 'powerup') {
-        const bulb = $(`bulb${i}`), hx = HERO_X + pose.stand[0] * sc / 2 - 55, hy = GROUND - HERO_H - 40;
+        const onE = b.side === 'enemy', fe = onE ? enemyAt(b.t) : null;
+        const bulb = $(`bulb${i}`), hx = onE ? ENEMY_CX - 60 : HERO_X + pose.stand[0] * sc / 2 - 55, hy = onE ? fe._top - 60 : GROUND - HERO_H - 40;
         tl.set(bulb, { opacity: 1, x: 900, y: 500, scale: 1 }, b.t)
-          .to(bulb, { x: 560, duration: 0.5, ease: 'none' }, b.t).to(bulb, { y: GROUND - 200, duration: 0.5, ease: 'power1.in' }, b.t)
-          .to(bulb, { x: hx, duration: 0.3, ease: 'none' }, b.t + 0.5).to(bulb, { y: hy, duration: 0.3, ease: 'power1.out' }, b.t + 0.5)
+          .to(bulb, { x: 560, duration: 0.5, ease: SM ? 'steps(5)' : 'none' }, b.t).to(bulb, { y: GROUND - 200, duration: 0.5, ease: SM ? 'steps(5)' : 'power1.in' }, b.t)
+          .to(bulb, { x: hx, duration: 0.3, ease: SM ? 'steps(3)' : 'none' }, b.t + 0.5).to(bulb, { y: hy, duration: 0.3, ease: SM ? 'steps(3)' : 'power1.out' }, b.t + 0.5)
           .to(bulb, { scale: 0, duration: 0.12 }, b.t + 0.8);
         document.querySelectorAll(`.pr${i}`).forEach((r, k) => tl.fromTo(r, { opacity: 0.95, scale: 0.4 }, { opacity: 0, scale: 1.1, duration: 0.55, immediateRender: false }, b.t + 0.85 + k * 0.1));
-        setPose('cheer', b.t + 0.85); setPose('stand', b.t + 1.6);
-        tl.set($('hero'), { filter: 'drop-shadow(0 0 14px rgba(232,184,75,.9))' }, b.t + 0.85);
-        tl.to($('hpP'), { scaleX: 1, duration: 0.3, ease: 'steps(5)' }, b.t + 0.85);
+        if (onE) {
+          const PB = brandOf(b.brand), col = PB?.color || fe._B?.color || '#E8B84B';
+          posePaper($(`en${fe._i}`), 'cheer', b.t + 0.85, -1); posePaper($(`en${fe._i}`), 'stand', b.t + 1.6, -1);
+          tl.to($(`en${fe._i}`), { x: 0, rotation: 0, duration: 0.3, ease: 'steps(3)' }, b.t + 0.85);
+          tl.set($(`eb${fe._i}`), { filter: `drop-shadow(0 0 22px ${col})` }, b.t + 0.85);
+          tl.to([$('hpE'), $('hpEg')], { scaleX: 1, duration: 0.3, ease: 'steps(5)' }, b.t + 0.85);
+          if (b.flash !== false && HB) flash(b.t + 0.85, col);
+          glowPulse('glowE', b.t + 0.85);
+        } else {
+          setPose('cheer', b.t + 0.85); setPose('stand', b.t + 1.6);
+          tl.set($('hero'), { filter: `drop-shadow(0 0 14px ${HB ? HB.color : 'rgba(232,184,75,.9)'})` }, b.t + 0.85);
+          tl.to($('hpP'), { scaleX: 1, duration: 0.3, ease: 'steps(5)' }, b.t + 0.85);
+        }
         cue(b.t + 0.5, 'coin', 0.08); cue(b.t + 0.85, 'powerup', 0.12);
       }
     }
@@ -392,6 +620,8 @@ window.renderPost = (data) => {
       let tt = b.t + 0.4;
       (b.lines || []).forEach((l, k) => { typeIn($(`wl${k}`), l, tt, 40); tt += l.length / 40 + 0.1; });
       setPose('cheer', b.t);
+      if (b.brand && HB) flash(b.t, brandOf(b.brand).color);
+      if ($('prize')) tl.set($('prize'), { opacity: 0 }, b.t).set($('prize'), { opacity: 1 }, out);
       tl.fromTo($('trophy'), { opacity: 0, y: -260 }, { opacity: 1, y: 0, duration: 0.35, ease: 'bounce.out', immediateRender: false }, b.t + 0.1).set($('trophy'), { opacity: 0 }, out - 0.05);
       tl.set($('hero'), { filter: 'none' }, out);
       setPose('stand', out);
@@ -414,6 +644,184 @@ window.renderPost = (data) => {
       const dmT = b.dmT ?? typeT + b.keyword.length / 14 + 0.5;
       if (b.dm) { tl.fromTo($('dm'), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.2, ease: 'back.out(1.8)', immediateRender: false }, dmT); cue(dmT, 'coin', 0.1); }
       setPose('point', b.t); setPose('stand', b.t + 1.2);
+      if ($('prize')) tl.set($('prize'), { opacity: 0 }, b.t);
+      if (data.handle) document.querySelectorAll('.fan').forEach((f, k) => tl.to(f, { y: 420, duration: 0.2, ease: 'steps(2)' }, b.t + 0.1 + k * 0.03));
+      document.querySelectorAll('.ally').forEach((a) => tl.set(a, { opacity: 0 }, b.t));
+    }
+
+    // ---- brand-mode beats
+    if (b.type === 'title') {
+      titleCard(b, b.t, b.outT ?? Math.min(b.t + 1.6, nextT(i) - 0.05));
+      if (b.rnd) dyn.labels.push({ t: b.t, keep: true, rnd: String(b.rnd) });
+    }
+    if (b.type === 'stamp') {
+      stampIn($(`st${i}`), b.t, b.outT ?? b.t + 1.6, b.rot ?? -6);
+      shake(b.t + 0.15);
+      if (b.flash) flash(b.t, flashFor(b.flash, colorOf(b.brand || b.color, HB?.color)));
+    }
+    if (b.type === 'steal') {
+      const pz = $('prize'), toE = b.to === 'enemy', cx = (toE ? ENEMY_CX : HERO_X + TILE / 2) - 540;
+      const col = toE ? (enemyAt(b.t)?._B?.color || '#C9503C') : (HB?.color || '#E8B84B');
+      const k = beats.filter((x) => x.type === 'steal').indexOf(b) + 1;
+      tl.to(pz, { x: cx, duration: 0.3, ease: 'steps(3)' }, b.t).to(pz, { y: -110, duration: 0.15, ease: 'steps(2)' }, b.t).to(pz, { y: 0, duration: 0.15, ease: 'steps(2)' }, b.t + 0.15)
+        .to(pz, { rotation: `+=360`, duration: 0.3, ease: 'steps(4)' }, b.t)
+        .set($('pzring'), { borderColor: col }, b.t + 0.3)
+        .set($(`pl${k - 1}`), { display: 'none' }, b.t + 0.3).set($(`pl${k}`), { display: 'inline' }, b.t + 0.3)
+        .to(pz, { x: 0, duration: 0.3, ease: 'steps(3)' }, b.t + 0.9);
+      flash(b.t + 0.3, HB ? col : null);
+      cue(b.t, 'dash', 0.12); cue(b.t + 0.3, 'coin', 0.14);
+    }
+    if (b.type === 'counter') {
+      const f = b._f, en = $(`en${f._i}`), hitT = b.hitT ?? b.t + 0.3, ex = HERO_X + TILE + 70 - f._left;
+      const col = f._B?.color || '#C9503C';
+      tl.to(en, { x: ex, rotation: 0, duration: 0.2, ease: SM ? 'steps(3)' : 'power3.in' }, hitT - 0.22);
+      posePaper(en, 'jab', hitT - 2 * FR, -1); posePaper(en, 'stand', hitT + 0.3, -1);
+      tl.set($('hero'), { filter: 'brightness(0) invert(1)' }, hitT).set($('hero'), { filter: 'none' }, hitT + 2 * FR);
+      if ($('pspk')) tl.fromTo($('pspk'), { opacity: 1, scale: 0, rotation: 0 }, { scale: 1.2, rotation: 25, duration: 0.08, immediateRender: false }, hitT).to($('pspk'), { scale: 0, opacity: 0, duration: 0.08 }, hitT + 0.1);
+      tl.to($('hero'), { x: -40, duration: 0.06, ease: 'steps(2)' }, hitT + 0.1).to($('hero'), { x: 0, duration: 0.12, ease: 'steps(2)' }, hitT + 0.3);
+      tl.to($('hpP'), { scaleX: b.hp ?? 0.6, duration: 0.2, ease: 'steps(5)' }, hitT);
+      tl.to(en, { x: 0, duration: 0.25, ease: SM ? 'steps(3)' : 'power2.out' }, hitT + 0.4);
+      shake(hitT + 0.05); flash(hitT, HB ? col : null); glowPulse('glowE', hitT);
+      stampIn($(`st${i}`), hitT + 0.05, b.outT ?? hitT + 1.2, 6);
+      cue(hitT - 0.22, 'dash', 0.1); cue(hitT, 'punch', 0.16);
+    }
+    if (b.type === 'combo') {
+      const f = enemyAt(b.hits[0].t), hits = b.hits, n = hits.length, last = hits[n - 1].t, el = $(`combo${i}`), cn = $(`cn${i}`);
+      dash(f, Math.max(b.t ?? 0, hits[0].t - 0.24));
+      hits.forEach((h, k) => {
+        hit(f, h.t, 1 - (k + 1) / n * (1 - (b.hp ?? 0.25)));
+        posePaper($('hero'), k % 2 ? 'jab2' : 'jab', h.t - 2 * FR); posePaper($('hero'), 'point', h.t + 0.14);
+        (dyn.combos ||= []).push({ el: cn, t: h.t, n: k + 1 });
+        tl.fromTo(el, { scale: 1.6 }, { scale: 1, duration: 0.12, ease: 'steps(2)', immediateRender: false }, h.t);
+        stampIn($(`hl${i}_${k}`), h.t, last + 0.9, k % 2 ? 5 : -5);
+        if (k === n - 1) flash(h.t, HB ? HB.color : null);
+      });
+      tl.set(el, { opacity: 1, transformOrigin: 'right center' }, hits[0].t).set(el, { opacity: 0 }, last + 1);
+      tl.to($('hero'), { x: 0, duration: 0.25, ease: SM ? 'steps(3)' : 'power2.out' }, last + 0.4).to($('hshadow'), { x: 0, duration: 0.25 }, last + 0.4);
+      setPose('stand', last + 0.4);
+      cue(last + 0.05, 'explode', 0.12);
+    }
+    if (b.type === 'revive') {
+      const f = b._f, en = $(`en${f._i}`), col = f._B?.color || '#C9503C';
+      if (f.ko !== false) {   // shattered: the pixels fly back together
+        document.querySelectorAll(`.p${f._i}`).forEach((pc) => tl.to(pc, { x: 0, y: 0, rotation: 0, opacity: 1, duration: 0.3, ease: 'steps(4)' }, b.t).set(pc, { opacity: 0 }, b.t + 0.32));
+        tl.set(en, { opacity: 1 }, b.t + 0.32).set($(`esh${f._i}`), { opacity: 1 }, b.t + 0.32).set($(`eb${f._i}`), { filter: 'none' }, b.t + 0.32);
+      }
+      tl.to(en, { x: 0, rotation: 0, duration: 0.3, ease: 'steps(3)' }, b.t);
+      posePaper(en, 'cheer', b.t + 0.3, -1); posePaper(en, 'stand', b.t + 1.1, -1);
+      tl.set($(`eb${f._i}`), { filter: `drop-shadow(0 0 20px ${col})` }, b.t + 0.3);
+      tl.to($('hpEg'), { scaleX: b.hp ?? 0.7, duration: 0.01 }, b.t + 0.3).to($('hpE'), { scaleX: b.hp ?? 0.7, duration: 0.35, ease: 'steps(6)' }, b.t + 0.3);
+      if (HB) flash(b.t + 0.3, col);
+      glowPulse('glowE', b.t + 0.3);
+      stampIn($(`st${i}`), b.textT ?? b.t + 0.3, b.outT ?? b.t + 1.8, 5);
+      cue(b.t + 0.3, 'powerup', 0.12);
+    }
+    if (b.type === 'rain') {
+      const out = b.outT ?? b.t + 2.4;
+      document.querySelectorAll(`.r${i}`).forEach((el, k) => {
+        const s = parseFloat(el.style.width), t0 = b.t + k * 0.05, fall = 0.5 + hash(k * 3 + i) * 0.4, land = GROUND - s - hash(k * 7 + i) * 140;
+        tl.set(el, { opacity: 1, y: -s - 40, rotation: (hash(k * 5 + i) - 0.5) * 50 }, t0)
+          .to(el, { y: land, duration: fall, ease: stepE(fall) }, t0)
+          .to(el, { y: land - 40, duration: 0.1, ease: 'steps(1)' }, t0 + fall).to(el, { y: land, duration: 0.1, ease: 'steps(1)' }, t0 + fall + 0.1)
+          .to(el, { scale: 0, duration: 0.2, ease: 'steps(2)' }, out + k * 0.02).set(el, { opacity: 0 }, out + k * 0.02 + 0.2);
+        if (k % 3 === 0) cue(t0 + fall, 'blip', 0.05);
+      });
+      cue(b.t, 'coin', 0.1);
+    }
+    if (b.type === 'cheer') {
+      const ids = (data.crowd?.brands || []).map((id, k) => (!b.brands || b.brands.includes(id) ? k : -1)).filter((k) => k >= 0);
+      ids.forEach((k, n) => { const fan = $(`fan${k}`), d = (n % 3) * 0.05;
+        [0, 0.3].forEach((o) => tl.to(fan, { y: -56, duration: 0.1, ease: 'steps(1)' }, b.t + d + o).to(fan, { y: 0, duration: 0.1, ease: 'steps(1)' }, b.t + d + o + 0.15)); });
+      const bub = $(`bub${i}`);
+      if (bub && ids.length) { const fl = parseFloat($(`fan${ids[0]}`).style.left); tl.set(bub, { x: fl - 60, opacity: 1 }, b.t).fromTo(bub, { scale: 0 }, { scale: 1, duration: 0.1, ease: 'steps(2)', immediateRender: false }, b.t).set(bub, { opacity: 0 }, b.outT ?? b.t + 1.4); }
+      cue(b.t, 'coin', 0.08); cue(b.t + 0.3, 'blip', 0.06);
+    }
+    if (b.type === 'throw') {
+      const el = $(`pj${i}`), s = b._s, hitT = b.hitT ?? b.t + 0.45, t0 = Math.max(0, Math.min(b.t, hitT - 0.3)), fl = hitT - t0;
+      const toP = b.target === 'player', f = toP ? null : enemyAt(hitT);
+      const [tx, ty] = toP ? pCenter() : [ENEMY_CX, f._top + (f._s || f._h) / 2];
+      const [sx, sy] = b.from === 'left' ? [-s, 560] : b.from === 'right' ? [1080, 560] : [tx + (toP ? 260 : -260), -s];
+      tl.set(el, { opacity: 1, x: sx - s / 2, y: sy, rotation: 0 }, t0)
+        .to(el, { x: tx - s / 2, duration: fl, ease: stepE(fl) }, t0).to(el, { y: ty - s / 2, duration: fl, ease: stepE(fl) }, t0)
+        .to(el, { rotation: toP ? 360 : -360, duration: fl, ease: stepE(fl) }, t0);
+      cue(t0, 'dash', 0.1);
+      if (b.result === 'join') {
+        const ax = 396 + (b._slot % 3) * 92, ay = GROUND - s * 0.8 - 6 - Math.floor(b._slot / 3) * 90;
+        tl.to(el, { x: ax - s * 0.1, y: ay - s * 0.1, scale: 0.8, duration: 0.25, ease: 'steps(3)' }, hitT + 0.05).set(el, { zIndex: 3 }, hitT + 0.3);
+        el.classList.add('ally');
+        if (b.outT) tl.set(el, { opacity: 0 }, b.outT);
+        tl.set($('hero'), { filter: `drop-shadow(0 0 16px ${brandOf(b.brand)?.color || '#E8B84B'})` }, hitT).set($('hero'), { filter: 'none' }, hitT + 0.5);
+        if (toP) setPose('cheer', hitT), setPose('stand', hitT + 0.6);
+        glowPulse(toP ? 'glowP' : 'glowE', hitT);
+        cue(hitT, 'powerup', 0.1);
+      } else {
+        const sh = $(`sh${i}`);
+        [1, 0.3, 1, 0.3, 1, 0].forEach((o, k) => tl.set(sh, { opacity: o }, hitT + k * 2 * FR));
+        tl.to(el, { x: toP ? 1100 : -300, y: -260, rotation: '+=720', duration: 0.5, ease: 'steps(5)' }, hitT + 0.02).set(el, { opacity: 0 }, hitT + 0.55);
+        if (!toP) posePaper($(`en${f._i}`), 'shrug', hitT, -1), posePaper($(`en${f._i}`), 'stand', hitT + 0.6, -1);
+        else setPose('shrug', hitT), setPose('stand', hitT + 0.6);
+        shake(hitT);
+        cue(hitT, 'punch', 0.14); cue(hitT + 0.05, 'beep', 0.08);
+      }
+      stampIn($(`st${i}`), hitT + 0.05, b.stampOutT ?? hitT + 1.2, toP ? -5 : 5);
+    }
+    if (b.type === 'blast') {
+      const fromE = b.from === 'enemy', f = enemyAt(b.t), end = b.hitT ?? b.t + 1.2, dir = fromE ? -1 : 1;
+      const shooter = fromE ? $(`en${f._i}`) : $('hero'), gun = shooter.querySelector('.gun');
+      const sTop = fromE ? f._top : GROUND - HERO_H, sS = fromE ? f._s : TILE;
+      const mx = fromE ? f._left - 150 : HERO_X + TILE + 140, my = sTop + sS * 0.34 + 22;
+      const [tx, ty] = fromE ? pCenter() : [ENEMY_CX, f._top + f._s / 2];
+      const body = fromE ? $('hero') : $(`eb${f._i}`), tgt = fromE ? $('hero') : $(`en${f._i}`), bar = fromE ? $('hpP') : $('hpE');
+      const col = fromE ? (f._B?.color || '#C9503C') : (HB?.color || '#E8B84B');
+      if (fromE) tl.set(gun, { scaleX: -1 }, 0);
+      tl.set(gun, { opacity: 1 }, Math.max(0, b.t - 0.1)).fromTo(gun, { scale: 0 }, { scale: 1, duration: 0.1, ease: 'steps(2)', immediateRender: false }, Math.max(0, b.t - 0.1)).set(gun, { opacity: 0 }, b.outT ?? end + 0.6);
+      if (fromE) tl.set(gun, { scaleX: -1 }, Math.max(0, b.t - 0.1) + 0.11);
+      const n = b._n, shotsEnd = b.rocket ? end - 0.4 : end - 0.12, gap = Math.max(0.07, (shotsEnd - b.t) / Math.max(1, n - 1));
+      const hp0 = b.hp0 ?? 1, hp1 = b.hp ?? (b.rocket ? 0.3 : 0.5), steps = n + (b.rocket ? 1 : 0);
+      const mf = $(`mf${i}`), im = $(`im${i}`);
+      for (let k = 0; k < n; k++) {
+        const ts = b.t + k * gap, ti = ts + 0.12, sp = (hash(i * 13 + k) - 0.5) * 90, bl = $(`bl${i}_${k}`);
+        tl.set(mf, { opacity: 1, x: mx, y: my, scale: 0.5 + hash(k + i) * 0.5, rotation: k * 33 }, ts).set(mf, { opacity: 0 }, ts + 2 * FR);
+        tl.set(bl, { opacity: 1, x: mx - 27, y: my - 8, rotation: 0 }, ts).to(bl, { x: tx - 27, y: ty + sp - 8, duration: 0.12, ease: 'steps(3)' }, ts).set(bl, { opacity: 0 }, ti);
+        tl.set(gun, { x: -12 * dir }, ts).set(gun, { x: 0 }, ts + 2 * FR);
+        tl.set(body, { filter: 'brightness(0) invert(1)' }, ti).set(body, { filter: 'none' }, ti + FR);
+        tl.set(im, { opacity: 1, x: tx, y: ty + sp, scale: 0.35, rotation: k * 40 }, ti).set(im, { scale: 0.6 }, ti + FR).set(im, { opacity: 0 }, ti + 3 * FR);
+        tl.set(tgt, { x: 14 * dir }, ti).set(tgt, { x: 0 }, ti + 2 * FR);
+        tl.set(bar, { scaleX: hp0 - (hp0 - hp1) * (k + 1) / steps }, ti);
+        cue(ts, 'dash', 0.07); if (k % 2) cue(ti, 'punch', 0.06);
+      }
+      if (!fromE) tl.set($('hpEg'), { scaleX: hp1 }, shotsEnd + 0.4);
+      if (b.rocket) {
+        const rk = $(`rk${i}`), lt = end - 0.36;
+        tl.set(rk, { opacity: 1, x: mx - 20, y: my - 23, scaleX: -dir }, lt).to(rk, { x: tx - 65, duration: 0.34, ease: 'steps(5)' }, lt)
+          .to(rk, { y: ty - 90, duration: 0.17, ease: 'steps(3)' }, lt).to(rk, { y: ty - 23, duration: 0.17, ease: 'steps(2)' }, lt + 0.17).set(rk, { opacity: 0 }, end);
+        tl.set(im, { opacity: 1, x: tx, y: ty, scale: 1.2, rotation: 0 }, end).set(im, { scale: 2.6, rotation: 20 }, end + FR).set(im, { scale: 3.2, opacity: 0.6 }, end + 3 * FR).set(im, { opacity: 0 }, end + 5 * FR);
+        tl.set(bar, { scaleX: hp1 }, end);
+        if (!b.quiet) { shake(end); flash(end, HB ? col : null); cue(end, 'explode', 0.16); }
+        cue(lt, 'charge', 0.08);
+      }
+      stampIn($(`st${i}`), end + 0.05, b.stampOutT ?? end + 1.1, fromE ? -6 : 6);
+    }
+    if (b.type === 'clash') {
+      const f = b._f, en = $(`en${f._i}`), hitT = b.hitT ?? b.t + 0.3, dx = 470 - TILE - HERO_X, ex = 610 - f._left;
+      const de = SM ? 'steps(3)' : 'power3.in';
+      tl.to($('hero'), { x: dx, duration: 0.2, ease: de }, hitT - 0.2).to(en, { x: ex, rotation: 0, duration: 0.2, ease: de }, hitT - 0.2);
+      posePaper($('hero'), 'jab', hitT - 2 * FR); posePaper(en, 'jab', hitT - 2 * FR, -1);
+      const sp = $(`cspk${i}`);
+      tl.fromTo(sp, { opacity: 1, scale: 0, rotation: 0 }, { scale: 1.3, rotation: 40, duration: 0.1, immediateRender: false }, hitT).to(sp, { scale: 0, opacity: 0, duration: 0.12 }, hitT + 0.2);
+      if (HB) {
+        const L = $('flashL'), R = $('flashR'), ec = f._B?.color || '#C9503C';
+        tl.set(L, { backgroundColor: HB.color, opacity: 0.85 }, hitT).set(R, { backgroundColor: ec, opacity: 0.85 }, hitT)
+          .set([L, R], { opacity: 0.4 }, hitT + 2 * FR).set([L, R], { opacity: 0 }, hitT + 4 * FR);
+        tl.set($('cv'), { scale: 1.06 }, hitT + FR).set($('cv'), { scale: 1 }, hitT + 8 * FR);
+      } else flash(hitT);
+      tl.to($('hero'), { x: dx - 60, duration: 0.1, ease: 'steps(2)' }, hitT + 0.1).to(en, { x: ex + 60, duration: 0.1, ease: 'steps(2)' }, hitT + 0.1)
+        .to($('hero'), { x: 0, duration: 0.3, ease: 'steps(3)' }, hitT + 0.6).to(en, { x: 0, duration: 0.3, ease: 'steps(3)' }, hitT + 0.6);
+      posePaper($('hero'), 'stand', hitT + 0.6); posePaper(en, 'stand', hitT + 0.6, -1);
+      if (b.hp !== undefined) tl.to($('hpP'), { scaleX: b.hp, duration: 0.2, ease: 'steps(4)' }, hitT), hpTo(b.hp, hitT);
+      shake(hitT + 0.03);
+      stampIn($(`st${i}`), hitT + 0.1, b.outT ?? hitT + 1.4, -4);
+      cue(hitT - 0.2, 'dash', 0.1); cue(hitT, 'explode', 0.16); cue(hitT, 'punch', 0.16);
     }
   });
 
@@ -429,6 +837,7 @@ window.renderPost = (data) => {
   });
   const cap = $('cap');
   let lastCap = null;
+  const papers = SM ? [...document.querySelectorAll('.paper')] : [];
 
   const update = (t) => {
     if (!fitted) fitBeam();
@@ -442,9 +851,18 @@ window.renderPost = (data) => {
       $('cnt').textContent = money(v, data.counter);
       gsap.set($('cnt'), { scale: p < 1 ? 1.35 : 1, transformOrigin: 'right center' });
     }
-    const lb = dyn.labels.findLast((x) => x.t <= t);
-    $('enm').textContent = lb ? lb.name : '';
-    $('rnd').textContent = lb ? lb.rnd : '1';
+    const lb = dyn.labels.findLast((x) => x.t <= t && !x.keep), lr = dyn.labels.findLast((x) => x.t <= t);
+    const en = lb ? (lb.B ? `<span style="color:${lb.B.color}">${esc(lb.name)}${icon(lb.B)}</span>` : esc(lb.name)) : '';
+    if ($('enm').innerHTML !== en) $('enm').innerHTML = en;
+    $('rnd').textContent = lr ? lr.rnd : '1';
+    if (SM) {   // cut-paper stop motion: every logo tile re-poses SM times a second
+      const k = Math.floor(t * SM + 1e-6), J = data.jitter ?? 1;
+      papers.forEach((p, j) => {
+        const r = (hash(k * 131 + j * 7) - 0.5) * 3 * J, dx = (hash(k * 57 + j * 3) - 0.5) * 6 * J, dy = (hash(k * 17 + j * 11) - 0.5) * 6 * J + (p.dataset.bob && (k + j) % 4 < 2 ? -10 : 0);
+        p.style.transform = `translate(${dx.toFixed(1)}px,${dy.toFixed(1)}px) rotate(${r.toFixed(2)}deg)`;
+      });
+    }
+    (dyn.combos || []).forEach((c) => { if (c.t <= t && c.el.textContent !== String(c.n) && !dyn.combos.some((x) => x.el === c.el && x.t <= t && x.n > c.n)) c.el.textContent = String(c.n); });
     if (dyn.countdown) { const c = dyn.countdown; c.el.textContent = String(Math.max(1, c.from - Math.max(0, Math.floor((t - c.t0) / c.step)))); }
   };
 

@@ -24,3 +24,4 @@ Freebie: AI Employee Starter Pack (keyword AI, built, config/offers.json). Its 5
 Halloween is Saturday; not referenced.
 Old classic render kept as render.classic.json.
 Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/aaif.png = https://aaif.io; shots/github.png = https://github.com/anthropics/skills.
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf + assets/freebies/sop-to-skill-sheet.pdf (the SOP-to-skill sheet goes with the Starter Pack on this post; both built and listed in config/offers.json leadMagnets).

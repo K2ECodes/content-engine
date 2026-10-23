@@ -12,3 +12,4 @@ Animated explainer that flips between dark green and cream. A counter rolls to $
 
 ## Notes
 Illustrative numbers (calculator example), labelled on screen. Style: research/style-nick-saraev.md. Voice: Gemini Charon. Music: Suno V6 instrumental.
+Keyword SYSTEMS sends: assets/freebies/3pl-billing-leak-checklist.pdf (built, listed in config/offers.json leadMagnets).

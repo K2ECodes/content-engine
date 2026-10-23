@@ -214,6 +214,16 @@
       "fedex",
       "ups",
       "dhl"
-    ]
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "shopify",
+        "fedex",
+        "ups",
+        "dhl"
+      ]
+    },
+    "branded": true
   }
 }

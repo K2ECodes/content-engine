@@ -1,25 +1,25 @@
 ## Caption
-The AI Employee Accelerator starts at 11 AM Eastern today. US clocks went back 1 hour overnight.
+Content Systems.ai runs The AI Employee Accelerator, a live workshop where business owners build their first 2 AI employees. It starts at 11 AM Eastern today. US clocks went back 1 hour overnight.
 
-Content Systems.ai runs live workshops that help business owners set up their first AI employee, with a person approving anything it sends.
+What happens in the next 120 minutes:
 
-Today's session in short:
+· You set up Claude properly on your own account, not the default way most people start.
+· You build AI employee 1. It answers a new lead in seconds, including the 1 that comes in at 2 AM while you're asleep.
+· You build AI employee 2. It keeps track of what your competitors change, so you're not the last to know.
+· You see inside the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
 
-· When: 11 AM Eastern, live on Zoom. That's 8 AM Pacific, 4 PM London, 5 PM Berlin.
-· What you'll build: your first AI employee, for 1 real job in your business.
-· The rule it runs on: it does the work, and you say yes before anything goes to a customer or moves money.
-· Who it's for: owners and operators. No coding needed.
+Who it's for: owners and operators. No coding needed.
 
-Why the yes matters: this month Anthropic, Walmart and Microsoft all shipped ways to keep a person in charge of AI. Every system we build has had that step from day 1, and our own company runs on 100+ AI employees with the same rule.
+Why that rule matters this month: Anthropic, Walmart and Microsoft all shipped ways to keep a person in charge of AI. We've worked that way since day 1. You'll see how it looks across 100+ AI employees.
 
-Bring 1 task that eats your week. A quote reply, an order status email, a weekly report.
+That's 8 AM Pacific, 4 PM London, 5 PM Berlin. The replay's included if you can't stay for all of it.
 
 Seats are still open, $97 GA or $197 VIP: contentsystems.ai/workshop
 
 #AI #AIEmployees #Workshop #SmallBusiness #BusinessOwners #Automation #Operations #Ecommerce #Logistics #Entrepreneurs #LiveWorkshop
 
 ## Alt text
-Square cream card with the Content Systems.ai bulb mark. Headline: We go live at 11 AM Eastern today. Subline: US clocks went back 1 hour overnight, The AI Employee Accelerator on Zoom. 2 stats: $97 GA seat, $197 VIP seat.
+Portrait pixel-art graphic in a daytime platformer world: We go live at 11 AM Eastern. A big SAVE A SEAT box with the line 2 AI employees by 1 PM ET. Starbursts: Today, and replay included.
 
 ## Notes
 Offer: The AI Employee Accelerator, Sun Nov 1 11 AM ET, $97 GA / $197 VIP, https://contentsystems.ai/workshop.
@@ -31,3 +31,4 @@ Time check: 11 AM EST = 8 AM PST = 4 PM GMT (UK) = 5 PM CET.
 Judgement calls: "shipped ways to keep a person in charge of AI" instead of "approval gates" for the 1-read test. Light theme so it reads differently from Korede's dark Sunday card 30 minutes earlier.
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Microsoft agents as insider threats (Oct 19 2026); Retail Dive, Walmart welcomes external AI agents (Oct 22 2026).
+Curiosity rewrite 2026-10-23: agenda now matches the workshop promise (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay). The 1 rule is teased, not spelled out. 11 AM plus 120 minutes is 1 PM ET.

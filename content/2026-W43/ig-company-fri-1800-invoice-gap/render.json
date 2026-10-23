@@ -173,16 +173,69 @@
       }
     ],
     "bgLogos": [
-      "shopify",
       "fedex",
       "ups",
       "dhl",
       "usps",
-      "amazon",
       "shopify",
+      "amazon",
       "fedex",
       "ups",
-      "dhl"
-    ]
+      "dhl",
+      "shopify"
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "fedex",
+        "ups",
+        "dhl",
+        "usps",
+        "shopify",
+        "amazon"
+      ],
+      "text": "$8K GONE?"
+    },
+    "pops": [
+      {
+        "at": "Storage",
+        "kind": "sprite",
+        "sprite": "box-monster",
+        "x": 800,
+        "y": 760,
+        "w": 200,
+        "until": "None"
+      },
+      {
+        "at": "nobody",
+        "kind": "sprite",
+        "sprite": "ghost",
+        "x": 80,
+        "y": 760,
+        "w": 180,
+        "until": "So#2"
+      },
+      {
+        "at": "system",
+        "kind": "sprite",
+        "sprite": "robot",
+        "x": 820,
+        "y": 760,
+        "w": 200,
+        "until": "approves"
+      },
+      {
+        "at": "Comment",
+        "kind": "burst",
+        "text": "FREE",
+        "x": 800,
+        "y": 300,
+        "w": 220,
+        "size": 60,
+        "color": "#E8B84B",
+        "rot": 12
+      }
+    ],
+    "branded": true
   }
 }

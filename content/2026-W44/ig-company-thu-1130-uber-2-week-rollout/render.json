@@ -212,6 +212,15 @@
       "uber",
       "uber",
       "uber"
-    ]
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "uber",
+        "shopify",
+        "fedex"
+      ]
+    },
+    "branded": true
   }
 }

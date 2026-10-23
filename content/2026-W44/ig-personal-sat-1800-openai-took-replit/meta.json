@@ -1,0 +1,19 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "tools-vs-systems",
+  "execution": "proof",
+  "topic": "replit-default-model-openai",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "freebie": "AI Employee Starter Pack",
+  "slot": "2026-10-31T18:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

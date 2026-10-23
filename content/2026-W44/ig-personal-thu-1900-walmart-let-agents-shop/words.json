@@ -1,0 +1,470 @@
+{
+ "words": [
+  {
+   "w": "Walmart",
+   "start": 0.0,
+   "end": 0.48
+  },
+  {
+   "w": "just",
+   "start": 0.48,
+   "end": 0.76
+  },
+  {
+   "w": "let",
+   "start": 0.76,
+   "end": 0.92
+  },
+  {
+   "w": "AI",
+   "start": 0.92,
+   "end": 1.1
+  },
+  {
+   "w": "agents",
+   "start": 1.1,
+   "end": 1.44
+  },
+  {
+   "w": "shop,",
+   "start": 1.44,
+   "end": 1.72
+  },
+  {
+   "w": "Amazon",
+   "start": 1.94,
+   "end": 2.12
+  },
+  {
+   "w": "said",
+   "start": 2.12,
+   "end": 2.52
+  },
+  {
+   "w": "no,",
+   "start": 2.52,
+   "end": 2.76
+  },
+  {
+   "w": "Walmart",
+   "start": 3.0,
+   "end": 3.18
+  },
+  {
+   "w": "launched",
+   "start": 3.18,
+   "end": 3.54
+  },
+  {
+   "w": "Agent",
+   "start": 3.54,
+   "end": 3.82
+  },
+  {
+   "w": "Gateway,",
+   "start": 3.82,
+   "end": 4.16
+  },
+  {
+   "w": "approved",
+   "start": 4.6,
+   "end": 4.86
+  },
+  {
+   "w": "AI",
+   "start": 4.86,
+   "end": 5.12
+  },
+  {
+   "w": "agents",
+   "start": 5.12,
+   "end": 5.48
+  },
+  {
+   "w": "can",
+   "start": 5.48,
+   "end": 5.64
+  },
+  {
+   "w": "search",
+   "start": 5.64,
+   "end": 5.86
+  },
+  {
+   "w": "the",
+   "start": 5.86,
+   "end": 6.06
+  },
+  {
+   "w": "store",
+   "start": 6.06,
+   "end": 6.26
+  },
+  {
+   "w": "and",
+   "start": 6.26,
+   "end": 6.42
+  },
+  {
+   "w": "buy",
+   "start": 6.42,
+   "end": 6.62
+  },
+  {
+   "w": "for",
+   "start": 6.62,
+   "end": 6.78
+  },
+  {
+   "w": "you,",
+   "start": 6.78,
+   "end": 6.94
+  },
+  {
+   "w": "you",
+   "start": 7.24,
+   "end": 7.32
+  },
+  {
+   "w": "set",
+   "start": 7.32,
+   "end": 7.46
+  },
+  {
+   "w": "a",
+   "start": 7.46,
+   "end": 7.56
+  },
+  {
+   "w": "spending",
+   "start": 7.56,
+   "end": 7.76
+  },
+  {
+   "w": "limit",
+   "start": 7.76,
+   "end": 8.1
+  },
+  {
+   "w": "or",
+   "start": 8.1,
+   "end": 8.5
+  },
+  {
+   "w": "approve",
+   "start": 8.5,
+   "end": 8.78
+  },
+  {
+   "w": "every",
+   "start": 8.78,
+   "end": 9.04
+  },
+  {
+   "w": "order,",
+   "start": 9.04,
+   "end": 9.32
+  },
+  {
+   "w": "the",
+   "start": 9.58,
+   "end": 9.62
+  },
+  {
+   "w": "agent",
+   "start": 9.62,
+   "end": 9.86
+  },
+  {
+   "w": "never",
+   "start": 9.86,
+   "end": 10.14
+  },
+  {
+   "w": "sees",
+   "start": 10.14,
+   "end": 10.38
+  },
+  {
+   "w": "your",
+   "start": 10.38,
+   "end": 10.54
+  },
+  {
+   "w": "card,",
+   "start": 10.54,
+   "end": 10.8
+  },
+  {
+   "w": "break",
+   "start": 11.04,
+   "end": 11.12
+  },
+  {
+   "w": "the",
+   "start": 11.12,
+   "end": 11.28
+  },
+  {
+   "w": "rules",
+   "start": 11.28,
+   "end": 11.52
+  },
+  {
+   "w": "and",
+   "start": 11.52,
+   "end": 11.98
+  },
+  {
+   "w": "it's",
+   "start": 11.98,
+   "end": 12.12
+  },
+  {
+   "w": "blocked,",
+   "start": 12.12,
+   "end": 12.34
+  },
+  {
+   "w": "Amazon",
+   "start": 12.78,
+   "end": 12.96
+  },
+  {
+   "w": "went",
+   "start": 12.96,
+   "end": 13.24
+  },
+  {
+   "w": "the",
+   "start": 13.24,
+   "end": 13.34
+  },
+  {
+   "w": "other",
+   "start": 13.34,
+   "end": 13.48
+  },
+  {
+   "w": "way,",
+   "start": 13.48,
+   "end": 13.7
+  },
+  {
+   "w": "it's",
+   "start": 14.0,
+   "end": 14.1
+  },
+  {
+   "w": "blocking",
+   "start": 14.1,
+   "end": 14.34
+  },
+  {
+   "w": "AI",
+   "start": 14.34,
+   "end": 14.62
+  },
+  {
+   "w": "agents",
+   "start": 14.62,
+   "end": 14.98
+  },
+  {
+   "w": "from",
+   "start": 14.98,
+   "end": 15.12
+  },
+  {
+   "w": "buying",
+   "start": 15.12,
+   "end": 15.4
+  },
+  {
+   "w": "and",
+   "start": 15.4,
+   "end": 15.88
+  },
+  {
+   "w": "it",
+   "start": 15.88,
+   "end": 15.98
+  },
+  {
+   "w": "already",
+   "start": 15.98,
+   "end": 16.16
+  },
+  {
+   "w": "blocked",
+   "start": 16.16,
+   "end": 16.46
+  },
+  {
+   "w": "Meta's",
+   "start": 16.46,
+   "end": 16.76
+  },
+  {
+   "w": "agent,",
+   "start": 16.76,
+   "end": 16.96
+  },
+  {
+   "w": "meanwhile",
+   "start": 17.12,
+   "end": 17.34
+  },
+  {
+   "w": "Walmart",
+   "start": 17.34,
+   "end": 17.78
+  },
+  {
+   "w": "plugs",
+   "start": 17.78,
+   "end": 18.12
+  },
+  {
+   "w": "into",
+   "start": 18.12,
+   "end": 18.32
+  },
+  {
+   "w": "ChatGPT",
+   "start": 18.32,
+   "end": 19.06
+  },
+  {
+   "w": "and",
+   "start": 19.06,
+   "end": 19.3
+  },
+  {
+   "w": "Gemini,",
+   "start": 19.3,
+   "end": 19.64
+  },
+  {
+   "w": "so",
+   "start": 19.92,
+   "end": 20.0
+  },
+  {
+   "w": "who",
+   "start": 20.0,
+   "end": 20.14
+  },
+  {
+   "w": "wins,",
+   "start": 20.14,
+   "end": 20.36
+  },
+  {
+   "w": "Walmart",
+   "start": 20.78,
+   "end": 21.08
+  },
+  {
+   "w": "bet",
+   "start": 21.08,
+   "end": 21.3
+  },
+  {
+   "w": "on",
+   "start": 21.3,
+   "end": 21.44
+  },
+  {
+   "w": "agents,",
+   "start": 21.44,
+   "end": 21.7
+  },
+  {
+   "w": "Amazon",
+   "start": 22.2,
+   "end": 22.44
+  },
+  {
+   "w": "bet",
+   "start": 22.44,
+   "end": 22.68
+  },
+  {
+   "w": "on",
+   "start": 22.68,
+   "end": 22.82
+  },
+  {
+   "w": "its",
+   "start": 22.82,
+   "end": 22.94
+  },
+  {
+   "w": "own",
+   "start": 22.94,
+   "end": 23.08
+  },
+  {
+   "w": "store,",
+   "start": 23.08,
+   "end": 23.36
+  },
+  {
+   "w": "comment",
+   "start": 23.78,
+   "end": 24.0
+  },
+  {
+   "w": "AI",
+   "start": 24.0,
+   "end": 24.32
+  },
+  {
+   "w": "and",
+   "start": 24.32,
+   "end": 24.7
+  },
+  {
+   "w": "I'll",
+   "start": 24.7,
+   "end": 24.82
+  },
+  {
+   "w": "send",
+   "start": 24.82,
+   "end": 24.98
+  },
+  {
+   "w": "you",
+   "start": 24.98,
+   "end": 25.12
+  },
+  {
+   "w": "my",
+   "start": 25.12,
+   "end": 25.26
+  },
+  {
+   "w": "free",
+   "start": 25.26,
+   "end": 25.56
+  },
+  {
+   "w": "AI",
+   "start": 25.56,
+   "end": 25.92
+  },
+  {
+   "w": "starter",
+   "start": 25.92,
+   "end": 26.22
+  },
+  {
+   "w": "pack.",
+   "start": 26.22,
+   "end": 26.52
+  }
+ ],
+ "text": "Walmart just let AI agents shop, Amazon said no, Walmart launched Agent Gateway, approved AI agents can search the store and buy for you, you set a spending limit or approve every order, the agent never sees your card, break the rules and it's blocked, Amazon went the other way, it's blocking AI agents from buying and it already blocked Meta's agent, meanwhile Walmart plugs into ChatGPT and Gemini, so who wins, Walmart bet on agents, Amazon bet on its own store, comment AI and I'll send you my free AI starter pack."
+}

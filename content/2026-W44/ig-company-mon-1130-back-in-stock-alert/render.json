@@ -239,6 +239,17 @@
       "google",
       "shopify",
       "chatgpt"
-    ]
+    ],
+    "hook": {
+      "style": "breaking",
+      "brands": [
+        "chatgpt",
+        "google",
+        "shopify"
+      ],
+      "tag": "OPS ALERT",
+      "ticker": "Google now tells shoppers the second your product is back in stock. But only if your stock count is right. Her"
+    },
+    "branded": true
   }
 }

@@ -62,643 +62,643 @@
   },
   {
    "w": "We've",
-   "start": 3.567,
-   "end": 3.767
+   "start": 3.647,
+   "end": 3.847
   },
   {
    "w": "built",
-   "start": 3.767,
-   "end": 3.907
-  },
-  {
-   "w": "it",
-   "start": 3.907,
+   "start": 3.847,
    "end": 3.987
   },
   {
-   "w": "into",
+   "w": "it",
    "start": 3.987,
-   "end": 4.147
+   "end": 4.067
+  },
+  {
+   "w": "into",
+   "start": 4.067,
+   "end": 4.227
   },
   {
    "w": "every",
-   "start": 4.147,
-   "end": 4.527
+   "start": 4.227,
+   "end": 4.607
   },
   {
    "w": "system",
-   "start": 4.527,
-   "end": 4.927
+   "start": 4.607,
+   "end": 5.007
   },
   {
    "w": "since",
-   "start": 4.927,
-   "end": 5.127
+   "start": 5.007,
+   "end": 5.207
   },
   {
    "w": "day",
-   "start": 5.127,
-   "end": 5.347
+   "start": 5.207,
+   "end": 5.427
   },
   {
    "w": "1.",
-   "start": 5.347,
-   "end": 5.647
+   "start": 5.427,
+   "end": 5.727
   },
   {
    "w": "Nothing",
-   "start": 6.007,
-   "end": 6.187
+   "start": 6.087,
+   "end": 6.267
   },
   {
    "w": "sends,",
-   "start": 6.187,
-   "end": 6.547
+   "start": 6.267,
+   "end": 6.627
   },
   {
    "w": "pays,",
-   "start": 6.947,
-   "end": 7.147
+   "start": 7.027,
+   "end": 7.227
   },
   {
    "w": "or",
-   "start": 7.367,
-   "end": 7.427
+   "start": 7.447,
+   "end": 7.507
   },
   {
    "w": "signs",
-   "start": 7.427,
-   "end": 7.787
+   "start": 7.507,
+   "end": 7.867
   },
   {
    "w": "without",
-   "start": 7.787,
-   "end": 8.187
+   "start": 7.867,
+   "end": 8.267
   },
   {
    "w": "a",
-   "start": 8.187,
-   "end": 8.347
+   "start": 8.267,
+   "end": 8.427
   },
   {
    "w": "person's",
-   "start": 8.347,
-   "end": 8.787
+   "start": 8.427,
+   "end": 8.867
   },
   {
    "w": "yes.",
-   "start": 8.787,
-   "end": 9.027
+   "start": 8.867,
+   "end": 9.107
   },
   {
    "w": "Anthropic's",
-   "start": 9.735,
-   "end": 10.005
+   "start": 9.895,
+   "end": 10.165
   },
   {
    "w": "new",
-   "start": 10.065,
-   "end": 10.185
+   "start": 10.225,
+   "end": 10.345
   },
   {
    "w": "assistant",
-   "start": 10.185,
-   "end": 10.505
+   "start": 10.345,
+   "end": 10.665
   },
   {
    "w": "asks",
-   "start": 10.505,
-   "end": 10.925
+   "start": 10.665,
+   "end": 11.085
   },
   {
    "w": "before",
-   "start": 10.925,
-   "end": 11.225
+   "start": 11.085,
+   "end": 11.385
   },
   {
    "w": "it",
-   "start": 11.225,
-   "end": 11.405
+   "start": 11.385,
+   "end": 11.565
   },
   {
    "w": "pays.",
-   "start": 11.405,
-   "end": 11.605
+   "start": 11.565,
+   "end": 11.765
   },
   {
    "w": "Walmart",
-   "start": 11.943,
-   "end": 12.183
+   "start": 12.325,
+   "end": 12.565
   },
   {
    "w": "lets",
-   "start": 12.183,
-   "end": 12.443
+   "start": 12.565,
+   "end": 12.825
   },
   {
    "w": "shoppers",
-   "start": 12.443,
-   "end": 12.803
+   "start": 12.825,
+   "end": 13.185
   },
   {
    "w": "approve",
-   "start": 12.803,
-   "end": 13.183
+   "start": 13.185,
+   "end": 13.565
   },
   {
    "w": "what",
-   "start": 13.183,
-   "end": 13.383
+   "start": 13.565,
+   "end": 13.765
   },
   {
    "w": "an",
-   "start": 13.383,
-   "end": 13.503
+   "start": 13.765,
+   "end": 13.885
   },
   {
    "w": "AI",
-   "start": 13.503,
-   "end": 13.663
+   "start": 13.885,
+   "end": 14.045
   },
   {
    "w": "buys.",
-   "start": 13.663,
-   "end": 14.023
+   "start": 14.045,
+   "end": 14.405
   },
   {
    "w": "1Password",
-   "start": 14.326,
-   "end": 14.966
+   "start": 14.788,
+   "end": 15.428
   },
   {
    "w": "lets",
-   "start": 14.966,
-   "end": 15.246
+   "start": 15.428,
+   "end": 15.708
   },
   {
    "w": "AI",
-   "start": 15.246,
-   "end": 15.506
+   "start": 15.708,
+   "end": 15.968
   },
   {
    "w": "log",
-   "start": 15.506,
-   "end": 15.826
+   "start": 15.968,
+   "end": 16.288
   },
   {
    "w": "in",
-   "start": 15.826,
-   "end": 15.986
+   "start": 16.288,
+   "end": 16.448
   },
   {
    "w": "only",
-   "start": 15.986,
-   "end": 16.306
+   "start": 16.448,
+   "end": 16.768
   },
   {
    "w": "after",
-   "start": 16.306,
-   "end": 16.566
+   "start": 16.768,
+   "end": 17.028
   },
   {
    "w": "you",
-   "start": 16.566,
-   "end": 16.726
+   "start": 17.028,
+   "end": 17.188
   },
   {
    "w": "say",
-   "start": 16.726,
-   "end": 16.886
+   "start": 17.188,
+   "end": 17.348
   },
   {
    "w": "yes.",
-   "start": 16.886,
-   "end": 17.206
+   "start": 17.348,
+   "end": 17.668
   },
   {
    "w": "And",
-   "start": 17.38,
-   "end": 17.577
+   "start": 17.881,
+   "end": 18.119
   },
   {
    "w": "Microsoft",
-   "start": 17.577,
-   "end": 17.817
+   "start": 18.119,
+   "end": 18.359
   },
   {
    "w": "told",
-   "start": 17.817,
-   "end": 18.217
+   "start": 18.359,
+   "end": 18.759
   },
   {
    "w": "companies",
-   "start": 18.217,
-   "end": 18.577
+   "start": 18.759,
+   "end": 19.119
   },
   {
    "w": "to",
-   "start": 18.577,
-   "end": 18.737
+   "start": 19.119,
+   "end": 19.279
   },
   {
    "w": "watch",
-   "start": 18.737,
-   "end": 18.957
+   "start": 19.279,
+   "end": 19.499
   },
   {
    "w": "their",
-   "start": 18.957,
-   "end": 19.157
+   "start": 19.499,
+   "end": 19.699
   },
   {
    "w": "AI",
-   "start": 19.157,
-   "end": 19.477
+   "start": 19.699,
+   "end": 20.019
   },
   {
    "w": "like",
-   "start": 19.477,
-   "end": 19.677
+   "start": 20.019,
+   "end": 20.219
   },
   {
    "w": "an",
-   "start": 19.677,
-   "end": 19.797
+   "start": 20.219,
+   "end": 20.339
   },
   {
    "w": "insider",
-   "start": 19.797,
-   "end": 20.177
+   "start": 20.339,
+   "end": 20.719
   },
   {
    "w": "with",
-   "start": 20.177,
-   "end": 20.397
+   "start": 20.719,
+   "end": 20.939
   },
   {
    "w": "the",
-   "start": 20.397,
-   "end": 20.537
+   "start": 20.939,
+   "end": 21.079
   },
   {
    "w": "keys.",
-   "start": 20.537,
-   "end": 20.837
+   "start": 21.079,
+   "end": 21.379
   },
   {
    "w": "Our",
-   "start": 21.102,
-   "end": 21.291
+   "start": 21.683,
+   "end": 21.913
   },
   {
    "w": "own",
-   "start": 21.291,
-   "end": 21.431
+   "start": 21.913,
+   "end": 22.053
   },
   {
    "w": "company",
-   "start": 21.431,
-   "end": 21.711
+   "start": 22.053,
+   "end": 22.333
   },
   {
    "w": "runs",
-   "start": 21.711,
-   "end": 21.951
+   "start": 22.333,
+   "end": 22.573
   },
   {
    "w": "on",
-   "start": 21.951,
-   "end": 22.111
+   "start": 22.573,
+   "end": 22.733
   },
   {
    "w": "100+",
-   "start": 22.111,
-   "end": 22.811
+   "start": 22.733,
+   "end": 23.433
   },
   {
    "w": "AI",
-   "start": 22.811,
-   "end": 23.091
+   "start": 23.433,
+   "end": 23.713
   },
   {
    "w": "employees.",
-   "start": 23.091,
-   "end": 23.531
+   "start": 23.713,
+   "end": 24.153
   },
   {
    "w": "They",
-   "start": 23.866,
-   "end": 24.006
+   "start": 24.693,
+   "end": 24.833
   },
   {
    "w": "write,",
-   "start": 24.006,
-   "end": 24.286
+   "start": 24.833,
+   "end": 25.113
   },
   {
    "w": "answer",
-   "start": 24.546,
-   "end": 24.706
+   "start": 25.373,
+   "end": 25.533
   },
   {
    "w": "leads,",
-   "start": 24.706,
-   "end": 25.006
+   "start": 25.533,
+   "end": 25.833
   },
   {
    "w": "and",
-   "start": 25.146,
-   "end": 25.206
+   "start": 25.973,
+   "end": 26.033
   },
   {
    "w": "onboard",
-   "start": 25.206,
-   "end": 25.426
+   "start": 26.033,
+   "end": 26.253
   },
   {
    "w": "clients",
-   "start": 25.426,
-   "end": 25.866
+   "start": 26.253,
+   "end": 26.693
   },
   {
    "w": "all",
-   "start": 25.866,
-   "end": 26.166
+   "start": 26.693,
+   "end": 26.993
   },
   {
    "w": "day.",
-   "start": 26.166,
-   "end": 26.426
+   "start": 26.993,
+   "end": 27.253
   },
   {
    "w": "Not",
-   "start": 26.604,
-   "end": 26.799
+   "start": 27.505,
+   "end": 27.705
   },
   {
    "w": "1",
-   "start": 26.799,
-   "end": 27.079
+   "start": 27.705,
+   "end": 27.985
   },
   {
    "w": "of",
-   "start": 27.079,
-   "end": 27.159
+   "start": 27.985,
+   "end": 28.065
   },
   {
    "w": "them",
-   "start": 27.159,
-   "end": 27.259
+   "start": 28.065,
+   "end": 28.165
   },
   {
    "w": "sends",
-   "start": 27.259,
-   "end": 27.459
+   "start": 28.165,
+   "end": 28.365
   },
   {
    "w": "a",
-   "start": 27.459,
-   "end": 27.599
+   "start": 28.365,
+   "end": 28.505
   },
   {
    "w": "thing",
-   "start": 27.599,
-   "end": 27.799
+   "start": 28.505,
+   "end": 28.705
   },
   {
    "w": "to",
-   "start": 27.799,
-   "end": 27.919
+   "start": 28.705,
+   "end": 28.825
   },
   {
    "w": "a",
-   "start": 27.919,
-   "end": 28.019
+   "start": 28.825,
+   "end": 28.925
   },
   {
    "w": "customer",
-   "start": 28.019,
-   "end": 28.279
+   "start": 28.925,
+   "end": 29.185
   },
   {
    "w": "without",
-   "start": 28.279,
-   "end": 28.559
+   "start": 29.185,
+   "end": 29.465
   },
   {
    "w": "a",
-   "start": 28.559,
-   "end": 28.679
+   "start": 29.465,
+   "end": 29.585
   },
   {
    "w": "person's",
-   "start": 28.679,
-   "end": 29.099
+   "start": 29.585,
+   "end": 30.005
   },
   {
    "w": "yes.",
-   "start": 29.099,
-   "end": 29.279
+   "start": 30.005,
+   "end": 30.185
   },
   {
    "w": "The",
-   "start": 29.638,
-   "end": 29.758
+   "start": 30.625,
+   "end": 30.745
   },
   {
    "w": "AI",
-   "start": 29.758,
-   "end": 29.958
+   "start": 30.745,
+   "end": 30.945
   },
   {
    "w": "does",
-   "start": 29.958,
-   "end": 30.238
+   "start": 30.945,
+   "end": 31.225
   },
   {
    "w": "the",
-   "start": 30.238,
-   "end": 30.398
+   "start": 31.225,
+   "end": 31.385
   },
   {
    "w": "work,",
-   "start": 30.398,
-   "end": 30.638
+   "start": 31.385,
+   "end": 31.625
   },
   {
    "w": "you",
-   "start": 30.978,
-   "end": 31.178
+   "start": 31.965,
+   "end": 32.165
   },
   {
    "w": "keep",
-   "start": 31.178,
-   "end": 31.378
+   "start": 32.165,
+   "end": 32.365
   },
   {
    "w": "the",
-   "start": 31.378,
-   "end": 31.498
+   "start": 32.365,
+   "end": 32.485
   },
   {
    "w": "final",
-   "start": 31.498,
-   "end": 31.698
+   "start": 32.485,
+   "end": 32.685
   },
   {
    "w": "say.",
-   "start": 31.698,
-   "end": 31.978
+   "start": 32.685,
+   "end": 32.965
   },
   {
    "w": "This",
-   "start": 32.111,
-   "end": 32.351
+   "start": 33.388,
+   "end": 33.628
   },
   {
    "w": "Sunday",
-   "start": 32.351,
-   "end": 32.611
+   "start": 33.628,
+   "end": 33.888
   },
   {
    "w": "at",
-   "start": 32.611,
-   "end": 32.831
+   "start": 33.888,
+   "end": 34.108
   },
   {
    "w": "11",
-   "start": 32.831,
-   "end": 33.051
+   "start": 34.108,
+   "end": 34.328
   },
   {
    "w": "AM",
-   "start": 33.051,
-   "end": 33.231
+   "start": 34.328,
+   "end": 34.508
   },
   {
    "w": "Eastern,",
-   "start": 33.231,
-   "end": 33.531
+   "start": 34.508,
+   "end": 34.808
   },
   {
    "w": "we'll",
-   "start": 33.771,
-   "end": 33.851
+   "start": 35.048,
+   "end": 35.128
   },
   {
    "w": "show",
-   "start": 33.851,
-   "end": 33.991
+   "start": 35.128,
+   "end": 35.268
   },
   {
    "w": "business",
-   "start": 33.991,
-   "end": 34.211
+   "start": 35.268,
+   "end": 35.488
   },
   {
    "w": "owners",
-   "start": 34.211,
-   "end": 34.511
+   "start": 35.488,
+   "end": 35.788
   },
   {
    "w": "how",
-   "start": 34.511,
-   "end": 34.711
+   "start": 35.788,
+   "end": 35.988
   },
   {
    "w": "to",
-   "start": 34.711,
-   "end": 34.771
+   "start": 35.988,
+   "end": 36.048
   },
   {
    "w": "set",
-   "start": 34.771,
-   "end": 34.931
+   "start": 36.048,
+   "end": 36.208
   },
   {
    "w": "up",
-   "start": 34.931,
-   "end": 35.051
+   "start": 36.208,
+   "end": 36.328
   },
   {
    "w": "their",
-   "start": 35.051,
-   "end": 35.191
+   "start": 36.328,
+   "end": 36.468
   },
   {
    "w": "first",
-   "start": 35.191,
-   "end": 35.471
+   "start": 36.468,
+   "end": 36.748
   },
   {
    "w": "AI",
-   "start": 35.471,
-   "end": 35.851
+   "start": 36.748,
+   "end": 37.128
   },
   {
    "w": "employee",
-   "start": 35.851,
-   "end": 36.291
+   "start": 37.128,
+   "end": 37.568
   },
   {
    "w": "with",
-   "start": 36.291,
-   "end": 36.646
+   "start": 37.568,
+   "end": 38.002
   },
   {
    "w": "that",
-   "start": 36.646,
-   "end": 36.766
+   "start": 38.002,
+   "end": 38.122
   },
   {
    "w": "rule",
-   "start": 36.766,
-   "end": 36.906
+   "start": 38.122,
+   "end": 38.262
   },
   {
    "w": "built",
-   "start": 36.906,
-   "end": 37.126
+   "start": 38.262,
+   "end": 38.482
   },
   {
    "w": "in.",
-   "start": 37.126,
-   "end": 37.346
+   "start": 38.482,
+   "end": 38.702
   },
   {
    "w": "Grab",
-   "start": 37.548,
-   "end": 37.688
+   "start": 38.984,
+   "end": 39.124
   },
   {
    "w": "your",
-   "start": 37.688,
-   "end": 37.828
+   "start": 39.124,
+   "end": 39.264
   },
   {
    "w": "seat,",
-   "start": 37.828,
-   "end": 38.008
+   "start": 39.264,
+   "end": 39.444
   },
   {
    "w": "link",
-   "start": 38.097,
-   "end": 38.297
+   "start": 39.613,
+   "end": 39.813
   },
   {
    "w": "in",
-   "start": 38.297,
-   "end": 38.397
+   "start": 39.813,
+   "end": 39.913
   },
   {
    "w": "the",
-   "start": 38.397,
-   "end": 38.437
+   "start": 39.913,
+   "end": 39.953
   },
   {
    "w": "post.",
-   "start": 38.437,
-   "end": 38.617
+   "start": 39.953,
+   "end": 40.133
   }
  ],
  "text": "4 of the biggest names in tech just shipped the same rule. We've built it into every system since day 1. Nothing sends, pays, or signs without a person's yes. Anthropic's new assistant asks before it pays. Walmart lets shoppers approve what an AI buys. 1Password lets AI log in only after you say yes. And Microsoft told companies to watch their AI like an insider with the keys. Our own company runs on 100+ AI employees. They write, answer leads, and onboard clients all day. Not 1 of them sends a thing to a customer without a person's yes. The AI does the work, you keep the final say. This Sunday at 11 AM Eastern, we'll show business owners how to set up their first AI employee with that rule built in. Grab your seat, link in the post."

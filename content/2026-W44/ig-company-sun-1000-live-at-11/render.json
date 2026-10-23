@@ -42,7 +42,7 @@
             "rot": -12
           },
           {
-            "text": "$97 GA\n$197 VIP",
+            "text": "LEADS\nAT 2 AM?",
             "x": 840,
             "y": 500,
             "w": 220,
@@ -63,7 +63,7 @@
         "cta": {
           "keyword": "LINK IN BIO",
           "y": 585,
-          "line": "last seats, on Zoom",
+          "line": "build 2 AI employees live",
           "pill": false
         },
         "sprites": [

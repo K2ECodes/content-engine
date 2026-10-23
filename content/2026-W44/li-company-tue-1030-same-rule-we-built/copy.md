@@ -8,13 +8,11 @@ This month, 4 of the biggest names in tech shipped the same rule:
 · 1Password lets an AI log in for you only after you approve it, and the AI never sees the password.
 · Microsoft told companies to watch their AI helpers the way they'd watch an insider with the keys.
 
-We didn't have to change a thing, because that's where we started. Our own company runs on 100+ AI employees. They write, answer leads and onboard clients all day. Not 1 of them sends anything to a customer until a person says yes.
+We didn't have to change a thing, because that's where we started. Our own company runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes. And that yes is only 1 of the rules every 1 of them gets on day 1.
 
-That's the split that works. The AI does the work. You keep the final say.
+This Sunday we open the doors on all of it. At The AI Employee Accelerator, live on Zoom, business owners set up Claude properly on their own account and build their first 2 AI employees. 1 answers a new lead in seconds, even at 2 AM. 1 keeps track of competitors, so you're not the last to know. Then you see the 100+ that run our company.
 
-This Sunday, Nov 1, at 11 AM Eastern, we're running The AI Employee Accelerator, live on Zoom. We'll show business owners how to set up their first AI employee with that rule built in from minute 1. US clocks go back 1 hour that morning, so check yours.
-
-$97 general admission, $197 VIP. Grab your seat: https://contentsystems.ai/workshop
+Sun Nov 1, 11 AM Eastern. US clocks go back 1 hour that morning. 120 minutes, replay included. $97 GA, $197 VIP: https://contentsystems.ai/workshop
 
 #AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship
 
@@ -30,3 +28,4 @@ Fast animated explainer that flips between dark green and cream. A big 4 appears
 - Aspect 9:16 per plan (story template renders 9:16 only; LinkedIn plays it fine).
 - Workshop facts from config/offers.json (Sun Nov 1, 11 AM ET, $97 GA, $197 VIP). Clock change line per plan.
 - Voice: Gemini 3.8 "Brio" via ttsCreator. Music: Suno V6 instrumental (audio/music.mp3; music-2.mp3 is the unused alt take).
+- Curiosity rewrite 2026-10-23 (caption only, video unchanged): caption now teases that the yes is only 1 of the rules, and the workshop line matches the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay). The VO still says "their first AI employee" (singular); close enough, flag if Korede wants a re-voice.

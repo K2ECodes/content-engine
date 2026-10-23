@@ -229,6 +229,16 @@
       "walmart",
       "anthropic",
       "walmart"
-    ]
+    ],
+    "hook": {
+      "style": "breaking",
+      "brands": [
+        "anthropic",
+        "walmart"
+      ],
+      "tag": "OPS ALERT",
+      "ticker": "We run our company on 100+ AI employees. Not 1 of them can send a refund without a person saying yes. Content,"
+    },
+    "branded": true
   }
 }

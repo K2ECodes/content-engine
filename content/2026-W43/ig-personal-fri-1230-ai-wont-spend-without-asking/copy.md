@@ -12,3 +12,4 @@ Korede talking to camera, cut with animated cards: Claude Duet, a checklist that
 
 ## Notes
 Source: Anthropic Claude Duet preview, Oct 21 to 22 2026 (research/weekly/2026-W44.md). Talking head: HeyGen retouched look cc998c10, Avatar III. Freebie to build before approval: AI Employee Starter Pack (5 starter Claude skills plus a permission sheet).
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).

@@ -24,3 +24,4 @@ Sources:
 Freebie: AI Employee Starter Pack (keyword AI, built, config/offers.json). Its 5 skills are ops-flavoured (quote replies, order updates and so on); consider a general-audience version for @koredekola.
 Old classic render kept as render.classic.json.
 Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/skills.png = https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation; shots/duet.png = https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/.
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).

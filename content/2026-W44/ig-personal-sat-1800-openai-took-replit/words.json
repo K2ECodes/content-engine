@@ -1,0 +1,450 @@
+{
+ "words": [
+  {
+   "w": "OpenAI",
+   "start": 0.0,
+   "end": 0.64
+  },
+  {
+   "w": "just",
+   "start": 0.64,
+   "end": 0.92
+  },
+  {
+   "w": "took",
+   "start": 0.92,
+   "end": 1.08
+  },
+  {
+   "w": "Replit",
+   "start": 1.08,
+   "end": 1.4
+  },
+  {
+   "w": "from",
+   "start": 1.4,
+   "end": 1.56
+  },
+  {
+   "w": "Claude.",
+   "start": 1.56,
+   "end": 1.94
+  },
+  {
+   "w": "Replit",
+   "start": 2.28,
+   "end": 2.58
+  },
+  {
+   "w": "CEO",
+   "start": 2.58,
+   "end": 2.86
+  },
+  {
+   "w": "said",
+   "start": 2.86,
+   "end": 3.22
+  },
+  {
+   "w": "it",
+   "start": 3.22,
+   "end": 3.3
+  },
+  {
+   "w": "on",
+   "start": 3.3,
+   "end": 3.42
+  },
+  {
+   "w": "stage",
+   "start": 3.42,
+   "end": 3.68
+  },
+  {
+   "w": "at",
+   "start": 3.68,
+   "end": 3.88
+  },
+  {
+   "w": "TechCrunch",
+   "start": 3.88,
+   "end": 4.32
+  },
+  {
+   "w": "Disrupt.",
+   "start": 4.32,
+   "end": 4.68
+  },
+  {
+   "w": "OpenAI",
+   "start": 5.1,
+   "end": 5.6
+  },
+  {
+   "w": "is",
+   "start": 5.6,
+   "end": 5.88
+  },
+  {
+   "w": "now",
+   "start": 5.88,
+   "end": 6.0
+  },
+  {
+   "w": "the",
+   "start": 6.0,
+   "end": 6.12
+  },
+  {
+   "w": "default",
+   "start": 6.12,
+   "end": 6.4
+  },
+  {
+   "w": "model",
+   "start": 6.4,
+   "end": 6.68
+  },
+  {
+   "w": "inside",
+   "start": 6.68,
+   "end": 7.0
+  },
+  {
+   "w": "Replit.",
+   "start": 7.0,
+   "end": 7.42
+  },
+  {
+   "w": "His",
+   "start": 7.74,
+   "end": 7.82
+  },
+  {
+   "w": "reasons?",
+   "start": 7.82,
+   "end": 8.1
+  },
+  {
+   "w": "Cost,",
+   "start": 8.6,
+   "end": 8.88
+  },
+  {
+   "w": "partnership,",
+   "start": 9.28,
+   "end": 9.54
+  },
+  {
+   "w": "performance.",
+   "start": 9.84,
+   "end": 10.14
+  },
+  {
+   "w": "He",
+   "start": 10.66,
+   "end": 10.74
+  },
+  {
+   "w": "even",
+   "start": 10.74,
+   "end": 10.92
+  },
+  {
+   "w": "said",
+   "start": 10.92,
+   "end": 11.08
+  },
+  {
+   "w": "ChatGPT",
+   "start": 11.08,
+   "end": 11.72
+  },
+  {
+   "w": "is",
+   "start": 11.72,
+   "end": 11.82
+  },
+  {
+   "w": "better",
+   "start": 11.82,
+   "end": 12.0
+  },
+  {
+   "w": "now.",
+   "start": 12.0,
+   "end": 12.24
+  },
+  {
+   "w": "But",
+   "start": 12.42,
+   "end": 12.5
+  },
+  {
+   "w": "this",
+   "start": 12.5,
+   "end": 12.64
+  },
+  {
+   "w": "isn't",
+   "start": 12.64,
+   "end": 12.86
+  },
+  {
+   "w": "a",
+   "start": 12.86,
+   "end": 12.96
+  },
+  {
+   "w": "knockout.",
+   "start": 12.96,
+   "end": 13.32
+  },
+  {
+   "w": "You",
+   "start": 13.68,
+   "end": 13.76
+  },
+  {
+   "w": "can",
+   "start": 13.76,
+   "end": 13.86
+  },
+  {
+   "w": "still",
+   "start": 13.86,
+   "end": 14.06
+  },
+  {
+   "w": "pick",
+   "start": 14.06,
+   "end": 14.24
+  },
+  {
+   "w": "Claude",
+   "start": 14.24,
+   "end": 14.58
+  },
+  {
+   "w": "in",
+   "start": 14.58,
+   "end": 14.66
+  },
+  {
+   "w": "Replit.",
+   "start": 14.66,
+   "end": 15.04
+  },
+  {
+   "w": "It's",
+   "start": 15.38,
+   "end": 15.48
+  },
+  {
+   "w": "just",
+   "start": 15.48,
+   "end": 15.58
+  },
+  {
+   "w": "not",
+   "start": 15.58,
+   "end": 15.72
+  },
+  {
+   "w": "the",
+   "start": 15.72,
+   "end": 15.86
+  },
+  {
+   "w": "default",
+   "start": 15.86,
+   "end": 16.12
+  },
+  {
+   "w": "anymore,",
+   "start": 16.12,
+   "end": 16.42
+  },
+  {
+   "w": "and",
+   "start": 16.88,
+   "end": 16.96
+  },
+  {
+   "w": "most",
+   "start": 16.96,
+   "end": 17.12
+  },
+  {
+   "w": "people",
+   "start": 17.12,
+   "end": 17.32
+  },
+  {
+   "w": "never",
+   "start": 17.32,
+   "end": 17.54
+  },
+  {
+   "w": "change",
+   "start": 17.54,
+   "end": 17.76
+  },
+  {
+   "w": "the",
+   "start": 17.76,
+   "end": 17.92
+  },
+  {
+   "w": "default.",
+   "start": 17.92,
+   "end": 18.2
+  },
+  {
+   "w": "So",
+   "start": 18.62,
+   "end": 18.72
+  },
+  {
+   "w": "round",
+   "start": 18.72,
+   "end": 18.92
+  },
+  {
+   "w": "1",
+   "start": 18.92,
+   "end": 19.16
+  },
+  {
+   "w": "goes",
+   "start": 19.16,
+   "end": 19.34
+  },
+  {
+   "w": "to",
+   "start": 19.34,
+   "end": 19.5
+  },
+  {
+   "w": "OpenAI.",
+   "start": 19.5,
+   "end": 19.9
+  },
+  {
+   "w": "Round",
+   "start": 20.34,
+   "end": 20.46
+  },
+  {
+   "w": "2?",
+   "start": 20.46,
+   "end": 20.72
+  },
+  {
+   "w": "Anthropic",
+   "start": 21.02,
+   "end": 21.36
+  },
+  {
+   "w": "just",
+   "start": 21.36,
+   "end": 21.58
+  },
+  {
+   "w": "launched",
+   "start": 21.58,
+   "end": 21.78
+  },
+  {
+   "w": "Claude",
+   "start": 21.78,
+   "end": 22.14
+  },
+  {
+   "w": "Duet.",
+   "start": 22.14,
+   "end": 22.38
+  },
+  {
+   "w": "Who",
+   "start": 22.64,
+   "end": 22.72
+  },
+  {
+   "w": "takes",
+   "start": 22.72,
+   "end": 22.9
+  },
+  {
+   "w": "the",
+   "start": 22.9,
+   "end": 23.02
+  },
+  {
+   "w": "next",
+   "start": 23.02,
+   "end": 23.16
+  },
+  {
+   "w": "round?",
+   "start": 23.16,
+   "end": 23.36
+  },
+  {
+   "w": "Comment",
+   "start": 23.68,
+   "end": 23.92
+  },
+  {
+   "w": "AI",
+   "start": 23.92,
+   "end": 24.18
+  },
+  {
+   "w": "and",
+   "start": 24.18,
+   "end": 24.54
+  },
+  {
+   "w": "I'll",
+   "start": 24.54,
+   "end": 24.64
+  },
+  {
+   "w": "send",
+   "start": 24.64,
+   "end": 24.8
+  },
+  {
+   "w": "you",
+   "start": 24.8,
+   "end": 24.92
+  },
+  {
+   "w": "my",
+   "start": 24.92,
+   "end": 25.06
+  },
+  {
+   "w": "free",
+   "start": 25.06,
+   "end": 25.32
+  },
+  {
+   "w": "AI",
+   "start": 25.32,
+   "end": 25.58
+  },
+  {
+   "w": "starter",
+   "start": 25.58,
+   "end": 25.86
+  },
+  {
+   "w": "pack.",
+   "start": 25.86,
+   "end": 26.14
+  }
+ ],
+ "text": "OpenAI just took Replit from Claude. Replit CEO set it on stage at TechCrunch Disrupt. OpenAI is now the default model inside Replit. His reasons? Cost, partnership, performance. He even said ChatGPT is better now. But this isn't a knockout. You can still pick Claude and Replit. It's just not the default anymore, and most people never change the default. So round one goes to OpenAI. Round two, Anthropic just launched Claude Duet. Who takes the next round? Comment AI and I'll send you my free AI starter pack."
+}

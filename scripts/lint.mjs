@@ -87,7 +87,7 @@ function maskSource(src) {
       out = out.slice(0, s.start) + blank(s.body) + out.slice(s.end);
     }
   }
-  return out.replace(/https?:\/\/\S+/g, blank);
+  return out.replace(/https?:\/\/\S+/g, blank).replace(/<!doctype[^>]*>|<!--[\s\S]*?-->/gi, blank);
 }
 
 export function lintText(src, { file = '<text>' } = {}) {
@@ -169,7 +169,7 @@ function lintMeta(meta, file) {
 }
 
 // On-media text lives in render.json. Lint every string except structural keys.
-const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt|voice|voSay|style|title|at|words|audio|src|file|hot|good|say|mask|bg|url|pushAt|landAt|totalAt|world|name|color|rot|brand|left|right|kind|sprite|until|pos|bgLogos)$/i;
+const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt|voice|voSay|style|title|at|words|audio|src|file|hot|good|say|mask|bg|url|pushAt|landAt|totalAt|world|name|color|rot|brand|left|right|kind|sprite|until|pos|bgLogos|brands|dur|tag)$/i;
 function lintRenderJson(node, file, keyPath = '') {
   if (Array.isArray(node)) return node.flatMap((v, i) => lintRenderJson(v, file, `${keyPath}[${i}]`));
   if (node && typeof node === 'object')

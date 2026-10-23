@@ -16,10 +16,10 @@
   .vibe { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; }
   .blob { position: absolute; width: 900px; height: 900px; border-radius: 50%; filter: blur(110px); opacity: .55; mix-blend-mode: screen; }
   .light-on .blob { mix-blend-mode: multiply; opacity: .32; }
-  .blob.b1 { background: #E8B84B; left: -300px; top: 100px; }
-  .blob.b2 { background: #FF6A1A; right: -350px; top: 700px; }
-  .blob.b3 { background: #19D3A2; left: 120px; bottom: -380px; }
-  .blob.b4 { background: var(--vb, #7C5CFF); right: -200px; top: -250px; opacity: .6; }
+  .blob.b1 { background: #E8B84B; left: -300px; top: 100px; opacity: .4; }
+  .blob.b2 { background: var(--vb, #C98A3C); right: -350px; top: 700px; }
+  .blob.b3 { background: #2E6B45; left: 120px; bottom: -380px; }
+  .blob.b4 { background: var(--vb, #C98A3C); right: -200px; top: -250px; opacity: .5; }
   .flogo { position: absolute; width: 120px; height: 120px; border-radius: 30%; display: grid; place-items: center; opacity: .38; box-shadow: 0 10px 24px rgba(0,0,0,.3); }
   .flogo img { width: 64%; height: 64%; object-fit: contain; }
   .ray { position: absolute; left: 50%; top: 45%; width: 2400px; height: 2400px; margin: -1200px 0 0 -1200px; background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.05) 0 8deg, transparent 8deg 22deg); border-radius: 50%; }
@@ -119,6 +119,24 @@
   .pop.burst svg polygon { stroke: var(--ink); stroke-width: 6; stroke-linejoin: round; }
   .pop.burst span { position: relative; }
   .pop.text { font: 700 var(--bs, 64px)/1 'Caveat', cursive; color: var(--gold); text-shadow: 0 4px 0 var(--ink); white-space: nowrap; }
+  .hook { position: absolute; inset: 0; z-index: 7; pointer-events: none; }
+  .hook .tgt { position: absolute; width: 200px; height: 200px; border-radius: 30%; display: grid; place-items: center; box-shadow: 0 16px 34px rgba(0,0,0,.45); }
+  .hook .tgt img { width: 64%; height: 64%; object-fit: contain; }
+  .hook .shard { position: absolute; width: 34px; height: 34px; border-radius: 4px; }
+  .hook .bolt { position: absolute; width: 70px; height: 14px; border-radius: 7px; background: #FFE066; box-shadow: 0 0 18px #FFB000, 0 0 4px #fff; }
+  .hook .gun { position: absolute; left: -40px; top: 1120px; width: 380px; height: 150px; }
+  .hook .gun i { position: absolute; background: #1b1b1b; border: 5px solid #000; }
+  .hook .flash { position: absolute; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle, #fff 0 20%, #FFE066 35%, rgba(255,140,0,0) 70%); opacity: 0; }
+  .hook .ko { position: absolute; left: 0; right: 0; top: 760px; text-align: center; font: 900 170px/1 var(--f-display); color: var(--gold); text-shadow: 0 8px 0 #000; opacity: 0; }
+  .hook .bar { position: absolute; left: -20px; right: -20px; top: 300px; height: 150px; background: #D7261E; color: #fff; display: flex; align-items: center; gap: 30px; padding: 0 60px; font: 900 96px/1 var(--f-display); letter-spacing: .04em; opacity: 0; box-shadow: 0 10px 0 #000; }
+  .hook .bar span { font: 700 44px/1 var(--f-head); background: #fff; color: #D7261E; padding: 10px 18px; letter-spacing: 0; }
+  .hook .ticker { position: absolute; left: 0; right: 0; top: 450px; height: 70px; background: #111; color: #fff; font: 700 40px/70px var(--f-head); white-space: nowrap; overflow: hidden; opacity: 0; }
+  .hook .ticker b { display: inline-block; padding-left: 1080px; }
+  .hook .glitch { position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgba(255,255,255,.08) 0 3px, transparent 3px 7px); opacity: 0; mix-blend-mode: overlay; }
+  .hook .shotz { position: absolute; left: 90px; right: 90px; top: 360px; border: 8px solid #fff; border-radius: 18px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.6); opacity: 0; }
+  .hook .shotz img { width: 100%; display: block; }
+  .hook .crack { position: absolute; width: 260px; height: 40px; opacity: 0; }
+  .hook .dust { position: absolute; width: 360px; height: 120px; border-radius: 50%; background: radial-gradient(ellipse, rgba(245,240,232,.75), rgba(245,240,232,0) 70%); opacity: 0; }
   .stamp { position: absolute; z-index: 6; font: 900 96px/1 var(--f-display); letter-spacing: .06em; padding: 18px 34px 12px; border: 8px solid; border-radius: 10px; transform: rotate(-8deg); opacity: 0; }
   .stamp.ok { color: #5f9a66; border-color: #5f9a66; }
   .stamp.bad { color: var(--orange); border-color: var(--orange); }
@@ -142,6 +160,10 @@
   .face.corner video { object-position: 50% 28%; }
   .face.corner:not(.cut) { border-radius: 40px 0 0 0; border: 4px solid var(--gold); border-right: 0; border-bottom: 0; }
   .mark { position: absolute; right: 60px; top: 70px; width: 56px; z-index: 6; }
+  .badge { position: absolute; left: 40px; top: 1540px; z-index: 6; display: flex; align-items: center; gap: 16px; padding: 14px 24px 14px 16px; border-radius: 18px; background: rgba(23,40,28,.92); border: 3px solid var(--gold); box-shadow: 0 10px 30px rgba(0,0,0,.4), 0 0 24px rgba(232,184,75,.35); }
+  .badge img.b { width: 46px; filter: drop-shadow(0 0 10px rgba(156,202,160,.8)); }
+  .badge img.w { height: 26px; }
+  .branded .mark { width: 92px; top: 60px; right: 50px; filter: drop-shadow(0 0 16px rgba(156,202,160,.9)); }
   .scenes { position: absolute; inset: 0; z-index: 4; }
   .sticker { position: absolute; z-index: 5; opacity: 0; transform-origin: 50% 100%; filter: drop-shadow(0 0 3px rgba(0,0,0,.6)) drop-shadow(0 20px 30px rgba(0,0,0,.4)); }
   .scenes.split .scene { top: 230px; bottom: 1110px; }
@@ -253,7 +275,7 @@ window.renderPost = (data) => {
   const lines = sentences(data.words);
   const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
 
-  document.getElementById('root').innerHTML = `<div class="canvas" id="cv">
+  document.getElementById('root').innerHTML = `<div class="canvas${data.branded ? ' branded' : ''}" id="cv">
     <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div>
     <div class="vibe" id="vibe"><div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${(i * 263 + 60) % 960}px;top:${(i * 431 + 200) % 1700}px"><img src="${b.logoUrl}"></div>`).join('')}</div>
@@ -262,8 +284,21 @@ window.renderPost = (data) => {
     <div class="caps">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
     ${(data.stickers || []).map((k, i) => `<img class="sticker" id="k${i}" src="${esc(k.srcUrl)}" style="left:${k.x ?? 640}px;top:${k.y ?? 1180}px;height:${k.h ?? 520}px">`).join('')}
     ${(data.pops || []).map((p, i) => `<div class="pop ${p.kind}" id="p${i}" style="left:${p.x}px;top:${p.y}px;width:${p.w ?? 200}px;${p.kind === 'logo' ? `height:${p.w ?? 200}px;background:${p.b.tile};` : ''}${p.kind === 'burst' ? `height:${p.w ?? 200}px;--bs:${p.size ?? 44}px;` : ''}${p.kind === 'text' ? `--bs:${p.size ?? 64}px;` : ''}">${p.kind === 'logo' ? `<img src="${p.b.logoUrl}">` : p.kind === 'sprite' ? `<img src="${p.srcUrl}">` : p.kind === 'burst' ? `${burst(p.color || '#FFE066')}<span>${esc(p.text).replace(/\n/g, '<br>')}</span>` : esc(p.text)}</div>`).join('')}
+    ${data.hook ? `<div class="hook" id="hook">
+      <div class="gun"><i style="left:0;top:40px;width:240px;height:70px;border-radius:10px"></i><i style="left:200px;top:52px;width:180px;height:30px;border-radius:6px"></i><i style="left:40px;top:100px;width:60px;height:60px;border-radius:8px"></i></div>
+      <div class="flash" id="hflash" style="left:330px;top:1130px"></div>
+      ${data.hook.targets.map((b, i) => `<div class="tgt" id="ht${i}" style="background:${b.tile};left:${560 + (i % 2) * 230 - (i > 1 ? 120 : 0)}px;top:${380 + i * 230}px"><img src="${b.logoUrl}"></div>`).join('')}
+      ${Array.from({ length: data.hook.targets.length * 6 }, (_, k) => `<div class="shard" id="hs${k}" style="background:${data.hook.targets[Math.floor(k / 6)].bg};opacity:0"></div>`).join('')}
+      ${Array.from({ length: 10 }, (_, k) => `<div class="bolt" id="hb${k}" style="opacity:0"></div>`).join('')}
+      ${data.hook.text ? `<div class="ko" id="hko">${esc(data.hook.text)}</div>` : ''}
+      ${data.hook.style === 'breaking' ? `<div class="bar" id="hbar">BREAKING <span>${esc(data.hook.tag || 'AI NEWS')}</span></div><div class="ticker" id="htick"><b>${esc(data.hook.ticker || '')}</b></div>` : ''}
+      ${data.hook.style === 'zoom' && data.hook.srcUrl ? `<div class="shotz" id="hshot"><img src="${data.hook.srcUrl}"></div>` : ''}
+      <div class="glitch" id="hgl"></div>
+      ${data.hook.targets.map((_, i) => `<svg class="crack" id="hc${i}" viewBox="0 0 260 40"><path d="M0 20 L60 12 L90 30 L140 8 L180 28 L260 18" stroke="#000" stroke-width="5" fill="none"/></svg><div class="dust" id="hd${i}"></div>`).join('')}
+    </div>` : ''}
     <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
     <img class="mark" src="../../assets/brand/mark.png" alt="">
+    ${data.branded ? `<div class="badge" id="badge"><img class="b" src="../../assets/brand/mark.png"><img class="w" src="../../assets/brand/wordmark.png"></div>` : ''}
   </div>`;
 
   const tl = gsap.timeline({ paused: true });
@@ -337,6 +372,70 @@ window.renderPost = (data) => {
     tl.to(line, { opacity: 0, y: -12, filter: 'blur(6px)', duration: 0.18 }, Math.max(start + 0.2, end - 0.18));
   });
 
+  const HS = data.hook?.style || 'blast';
+  if (data.hook && HS !== 'blast') {
+    const H = data.hook, n = H.targets.length;
+    document.querySelector('#hook .gun').style.display = 'none';
+    let end = 1.5;
+    if (HS === 'slam') {
+      H.targets.forEach((b, i) => { const el = document.getElementById('ht' + i), t0 = 0.05 + i * 0.32, y = parseFloat(el.style.top);
+        el.style.top = `${720 - (i % 2) * 220}px`; el.style.width = el.style.height = n > 4 ? '170px' : '200px'; el.style.left = `${40 + i * (860 / Math.max(1, n))}px`;
+        tl.fromTo(el, { y: -1400, rotation: -20 + i * 13 }, { y: 0, rotation: (i % 2 ? 6 : -6), duration: 0.28, ease: 'power3.in', immediateRender: false }, t0)
+          .fromTo('#cv', { y: 0 }, { y: 18, duration: 0.04, yoyo: true, repeat: 3, immediateRender: false }, t0 + 0.28);
+        const c = document.getElementById('hc' + i), d = document.getElementById('hd' + i);
+        c.style.left = el.style.left; c.style.top = (parseFloat(el.style.top) + 205) + 'px'; d.style.left = (parseFloat(el.style.left) - 80) + 'px'; d.style.top = (parseFloat(el.style.top) + 150) + 'px';
+        tl.set(c, { opacity: 1 }, t0 + 0.28).fromTo(d, { opacity: .9, scale: .4 }, { opacity: 0, scale: 1.4, duration: .5, immediateRender: false }, t0 + 0.28);
+        window.sfx.push({ t: t0 + 0.28, kind: 'thud' }); });
+      end = 0.1 + n * 0.32 + 0.6;
+      tl.set(H.targets.map((_, i) => '#ht' + i + ',#hc' + i).join(','), { opacity: 0 }, end);
+    } else if (HS === 'breaking') {
+      tl.fromTo('#hbar', { opacity: 1, x: -1200 }, { x: 0, duration: 0.2, ease: 'power4.out', immediateRender: false }, 0)
+        .fromTo('#htick', { opacity: 1 }, { opacity: 1, duration: 0.01, immediateRender: false }, 0.15)
+        .fromTo('#htick b', { x: 0 }, { x: -1800, duration: 2.2, ease: 'none', immediateRender: false }, 0.15);
+      H.targets.forEach((b, i) => { const el = document.getElementById('ht' + i); el.style.left = `${440 - (n - 1) * 115 + i * 230}px`; el.style.top = '760px';
+        tl.fromTo(el, { scale: 3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: 'power3.in', immediateRender: false }, 0.3 + i * 0.2); window.sfx.push({ t: 0.3 + i * 0.2 + 0.18, kind: 'pop' }); });
+      for (let k = 0; k < 4; k++) tl.set('#hgl', { opacity: k % 2 ? 0 : .9 }, 0.2 + k * 0.05).set('#cv', { x: k % 2 ? 0 : 10 }, 0.2 + k * 0.05);
+      window.sfx.push({ t: 0.02, kind: 'whoosh' }, { t: 0.2, kind: 'thud' });
+      end = 1.9;
+      tl.set('#hbar,#htick', { opacity: 0 }, end).set(H.targets.map((_, i) => '#ht' + i).join(','), { opacity: 0 }, end);
+    } else if (HS === 'zoom') {
+      tl.fromTo('#hshot', { opacity: 1, scale: 0.3, rotation: -8 }, { scale: 1, rotation: 2, duration: 0.35, ease: 'back.out(1.6)', immediateRender: false }, 0)
+        .to('#hshot', { scale: 1.12, duration: 1.2, ease: 'none' }, 0.35);
+      for (let k = 0; k < 3; k++) tl.set('#hgl', { opacity: .9 }, 0.35 + k * 0.4).set('#hgl', { opacity: 0 }, 0.4 + k * 0.4);
+      H.targets.forEach((b, i) => { const el = document.getElementById('ht' + i); el.style.left = (i % 2 ? 760 : 80) + 'px'; el.style.top = (230 + Math.floor(i / 2) * 900) + 'px';
+        tl.fromTo(el, { scale: 0, rotation: -30 }, { scale: 0.8, rotation: i % 2 ? 10 : -10, duration: 0.25, ease: 'back.out(2.5)', immediateRender: false }, 0.5 + i * 0.15); window.sfx.push({ t: 0.5 + i * 0.15, kind: 'pop' }); });
+      window.sfx.push({ t: 0.0, kind: 'whoosh' });
+      end = 1.7;
+      tl.set('#hshot', { opacity: 0 }, end).set(H.targets.map((_, i) => '#ht' + i).join(','), { opacity: 0 }, end);
+    }
+    if (H.text) tl.fromTo('#hko', { opacity: 0, scale: 2.4 }, { opacity: 1, scale: 1, duration: 0.18, ease: 'power4.in', immediateRender: false }, end - 0.35).to('#hko', { opacity: 0, duration: 0.15 }, end + 0.3);
+    tl.set('#hook', { opacity: 0 }, end + 0.45);
+    window.hookEnd = end + 0.45;
+  }
+  if (data.hook && HS === 'blast') {
+    const H = data.hook, n = H.targets.length, per = (H.dur ?? 1.6) / (n + 0.6);
+    tl.fromTo('#hook .gun', { x: -300 }, { x: 0, duration: 0.18, ease: 'power3.out', immediateRender: false }, 0);
+    H.targets.forEach((b, i) => {
+      const t0 = 0.15 + i * per, el = document.getElementById('ht' + i), r = el.getBoundingClientRect();
+      const tx = parseFloat(el.style.left) + 80, ty = parseFloat(el.style.top) + 90;
+      for (let k = 0; k < 2; k++) {
+        const bolt = document.getElementById('hb' + ((i * 2 + k) % 10));
+        tl.fromTo(bolt, { opacity: 1, left: 370, top: 1175, rotation: Math.atan2(ty - 1175, tx - 370) * 57.3 }, { left: tx, top: ty, duration: 0.12, ease: 'none', immediateRender: false }, t0 + k * 0.07).set(bolt, { opacity: 0 }, t0 + k * 0.07 + 0.12);
+        tl.fromTo('#hflash', { opacity: 1, scale: 0.6 }, { opacity: 0, scale: 1.3, duration: 0.08, immediateRender: false }, t0 + k * 0.07);
+        tl.fromTo('#hook .gun', { x: -14 }, { x: 0, duration: 0.06, immediateRender: false }, t0 + k * 0.07);
+        window.sfx.push({ t: t0 + k * 0.07, kind: 'blast' });
+      }
+      const hit = t0 + 0.2;
+      tl.fromTo(el, { filter: 'brightness(1)' }, { filter: 'brightness(3)', duration: 0.05, yoyo: true, repeat: 1, immediateRender: false }, hit).set(el, { opacity: 0 }, hit + 0.12);
+      for (let k = 0; k < 6; k++) { const sh = document.getElementById('hs' + (i * 6 + k)), a = (k / 6) * Math.PI * 2;
+        tl.fromTo(sh, { opacity: 1, left: tx, top: ty, rotation: 0 }, { left: tx + Math.cos(a) * 260, top: ty + Math.sin(a) * 260 + 160, rotation: 220, opacity: 0, duration: 0.55, ease: 'power2.out', immediateRender: false }, hit + 0.1); }
+      window.sfx.push({ t: hit + 0.1, kind: 'thud' });
+    });
+    const end = 0.15 + n * per + 0.25;
+    if (H.text) tl.fromTo('#hko', { opacity: 0, scale: 2.4 }, { opacity: 1, scale: 1, duration: 0.18, ease: 'power4.in', immediateRender: false }, end - 0.2).to('#hko', { opacity: 0, duration: 0.15 }, end + 0.45);
+    tl.set('#hook', { opacity: 0 }, end + 0.6);
+    window.hookEnd = end + 0.6;
+  }
   (data.pops || []).forEach((p, i) => {
     const el = document.getElementById('p' + i), end = p.end ?? p.t + 1.6;
     tl.fromTo(el, { opacity: 0, scale: 0.2, rotation: (p.rot ?? 0) - 25 }, { opacity: 1, scale: 1, rotation: p.rot ?? 0, duration: 0.28, ease: 'back.out(2.6)', immediateRender: false }, p.t);
@@ -351,6 +450,8 @@ window.renderPost = (data) => {
     tl.set(el, { opacity: 0 }, k.end);
     window.sfx.push({ t: k.t, kind: 'tick' });
   });
+  if (data.branded) { tl.set('#badge', { opacity: 0 }, 0).fromTo('#badge', { opacity: 1, x: -500 }, { x: 0, duration: 0.4, ease: 'back.out(1.6)', immediateRender: false }, Math.max(0, data.duration - 3.2)); tl.to('#cv .mark', { rotation: 360, duration: 0.8, ease: 'back.out(1.4)' }, 0.1); }
+  if (data.hook && window.hookEnd) { tl.set('#scs', { opacity: 0 }, 0).set('#scs', { opacity: 1 }, window.hookEnd); tl.set('.caps', { opacity: 0 }, 0).set('.caps', { opacity: 1 }, Math.min(window.hookEnd, 1.2)); }
   tl.set({}, {}, data.duration);
   window.faceVideo = data.face ? document.getElementById('fv') : null;
   window.faceVideos = data.face ? [...document.querySelectorAll('#face video')] : [];

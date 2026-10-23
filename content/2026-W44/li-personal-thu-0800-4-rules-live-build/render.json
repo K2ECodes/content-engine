@@ -179,8 +179,8 @@
       {
         "world": "neon",
         "headline": [
-          "3. It never",
-          "*signs*"
+          "Rules 3 and 4",
+          "*stay locked*"
         ],
         "size": "s",
         "card": {
@@ -188,22 +188,22 @@
           "kind": "rows",
           "rows": [
             {
-              "k": "Quotes:",
-              "v": "to a person"
+              "k": "Rule 3:",
+              "v": "protects your deals"
             },
             {
-              "k": "Contracts:",
-              "v": "to a person"
+              "k": "Rule 4:",
+              "v": "protects your data"
             },
             {
-              "k": "Rates:",
-              "v": "to a person"
+              "k": "Reveal:",
+              "v": "Sunday, live"
             }
           ]
         },
         "notes": [
           {
-            "text": "it can still\nbuild the quote",
+            "text": "the 2 I'd never\nrun without",
             "x": 560,
             "y": 850,
             "w": 420,
@@ -226,22 +226,29 @@
       {
         "world": "day",
         "headline": [
-          "4. It never",
-          "*deletes*"
+          "What happens",
+          "*at 2 AM*"
         ],
         "size": "s",
         "card": {
           "y": 430,
-          "kind": "checks",
-          "items": [
-            "It can *flag*",
-            "It can *archive*",
-            "Removing data stays *human*"
-          ]
+          "kind": "flow",
+          "steps": [
+            {
+              "h": "2 AM",
+              "p": "a lead comes in"
+            },
+            {
+              "h": "? ? ?",
+              "p": "you'll see Sunday",
+              "hi": true
+            }
+          ],
+          "foot": "AI employee 1, built live"
         },
         "notes": [
           {
-            "text": "everything else\nruns on its own",
+            "text": "you're asleep.\nit isn't.",
             "x": 90,
             "y": 860,
             "w": 440
@@ -317,7 +324,7 @@
       {
         "world": "neon",
         "headline": [
-          "Watch me build 1",
+          "Build 2 with me",
           "*live on Sunday*"
         ],
         "size": "s",

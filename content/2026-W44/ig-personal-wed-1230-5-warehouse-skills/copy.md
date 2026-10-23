@@ -31,3 +31,4 @@ Fast animated explainer flipping between dark green and cream. A counter rolls t
 - Call notes items and report lines on screen are made-up examples, not data.
 - Lead post: comment keyword plus a "save this" nudge, no "link in bio" (no company offer allowed on this account).
 - Faceless narrator: Gemini 3.8 "Jett" (company uses Brio). Music: Suno V6 instrumental (music-2.mp3 unused alt).
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).

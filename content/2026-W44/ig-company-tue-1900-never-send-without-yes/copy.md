@@ -25,3 +25,4 @@ Freebie: "Approval sheet: the 4 actions that always need a yes" (money out, cust
 Customer-email slide is nuanced on purpose: the Berlin case answers 72 in 100 tickets without a person, so we say routine answers can go alone and promises, discounts and apologies wait.
 Pixel-world render (templates/pixel); the old classic render is kept as render.classic.json.
 Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/duet.png = https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/; shots/microsoft.png = https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/; shots/walmart.png = https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/.
+Keyword SYSTEMS sends: assets/freebies/approval-sheet.pdf (built, listed in config/offers.json leadMagnets).

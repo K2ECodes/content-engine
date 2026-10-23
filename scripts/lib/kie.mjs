@@ -107,7 +107,7 @@ export async function download(url, out) {
 // ElevenLabs is preferred; Gemini TTS is the fallback (ElevenLabs on kie returned 500s on 2026-10-23).
 export const VOICES = {
   male: { eleven: 'nPczCjzI2devNBz1zQrb', gemini: 'Charon' },   // Brian / Charon
-  female: { eleven: '56AoDkrOh6qfVPDXZ7Pt', gemini: 'Kore' },   // Cassidy / Kore
+  female: { eleven: '56AoDkrOh6qfVPDXZ7Pt', gemini: 'Kore', gemini38: 'Tavi' },   // Cassidy / Kore / Tavi (3.8 alt: Kore)
 };
 
 async function ttsEleven(text, voice, { label, speed, stability, style }) {

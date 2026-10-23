@@ -9,7 +9,7 @@ import { spawnSync } from 'node:child_process';
 const [src] = process.argv.slice(2);
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i >= 0 ? process.argv[i + 1] : d; };
 const out = arg('out', src.replace(/\.(wav|mp3)$/i, '-tight.wav'));
-const keep = Number(arg('keep', 0.16)), max = Number(arg('max', 0.3)), noise = arg('noise', '-35');
+const keep = Number(arg('keep', 0.24)), max = Number(arg('max', 0.4)), noise = arg('noise', '-35');
 
 const dur = (f) => Number(spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).stdout.toString());
 const det = spawnSync('ffmpeg', ['-i', src, '-af', `silencedetect=noise=${noise}dB:d=${max}`, '-f', 'null', '-'], { encoding: 'utf8' }).stderr;
@@ -17,13 +17,22 @@ const starts = [...det.matchAll(/silence_start: ([\d.]+)/g)].map((m) => Number(m
 const ends = [...det.matchAll(/silence_end: ([\d.]+)/g)].map((m) => Number(m[1]));
 
 // Keep segments: speech plus keep/2 of silence on each side of every long pause.
+// Section breaks keep a real beat: pauses already longer than --breakOver (0.75 s), or right before any --beatBefore word
+// (e.g. --beatBefore "Round,Step,But" with --words), keep --beat (0.45 s) instead of --keep.
+const beat = Number(arg('beat', 0.45)), breakOver = Number(arg('breakOver', 0.75));
+const beatWords = (arg('beatBefore', '') || '').split(',').map((w) => w.trim().toLowerCase()).filter(Boolean);
+let wordList = [];
+if (arg('words')) { const fs0 = await import('node:fs'); wordList = JSON.parse(fs0.readFileSync(arg('words'), 'utf8')).words; }
 const total = dur(src), segs = [];
 let cursor = 0;
 starts.forEach((s, i) => {
   const e = ends[i] ?? total;
   if (s <= 0.05) { cursor = Math.max(cursor, e - keep / 2); return; }        // trim leading silence
-  segs.push([cursor, s + keep / 2]);
-  cursor = e - keep / 2;
+  const next = wordList.find((w) => w.start >= e - 0.15);
+  const isBeat = e - s > breakOver || (next && beatWords.includes(next.w.toLowerCase().replace(/[^a-z0-9]/g, '')));
+  const k = isBeat ? beat : keep;
+  segs.push([cursor, s + k / 2]);
+  cursor = e - k / 2;
 });
 if (cursor < total) segs.push([cursor, Math.min(total, cursor + (total - cursor))]);
 

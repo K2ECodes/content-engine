@@ -3,617 +3,617 @@
   {
    "w": "Microsoft",
    "start": 0,
-   "end": 0.274
+   "end": 0.5
   },
   {
    "w": "just",
-   "start": 0.274,
-   "end": 0.574
+   "start": 0.5,
+   "end": 0.8
   },
   {
    "w": "told",
-   "start": 0.574,
-   "end": 0.734
+   "start": 0.8,
+   "end": 0.96
   },
   {
    "w": "companies",
-   "start": 0.734,
-   "end": 1.054
+   "start": 0.96,
+   "end": 1.28
   },
   {
    "w": "to",
-   "start": 1.054,
-   "end": 1.234
+   "start": 1.28,
+   "end": 1.46
   },
   {
    "w": "treat",
-   "start": 1.234,
-   "end": 1.414
+   "start": 1.46,
+   "end": 1.64
   },
   {
    "w": "AI",
-   "start": 1.414,
-   "end": 1.674
+   "start": 1.64,
+   "end": 1.9
   },
   {
    "w": "agents",
-   "start": 1.674,
-   "end": 2.054
+   "start": 1.9,
+   "end": 2.28
   },
   {
    "w": "like",
-   "start": 2.054,
-   "end": 2.274
+   "start": 2.28,
+   "end": 2.5
   },
   {
    "w": "insider",
-   "start": 2.274,
-   "end": 2.614
+   "start": 2.5,
+   "end": 2.84
   },
   {
    "w": "threats.",
-   "start": 2.614,
-   "end": 2.974
+   "start": 2.84,
+   "end": 3.2
   },
   {
    "w": "And",
-   "start": 3.334,
-   "end": 3.614
+   "start": 3.56,
+   "end": 3.84
   },
   {
    "w": "most",
-   "start": 3.614,
-   "end": 3.814
+   "start": 3.84,
+   "end": 4.04
   },
   {
    "w": "setups",
-   "start": 3.814,
-   "end": 4.014
+   "start": 4.04,
+   "end": 4.24
   },
   {
    "w": "I",
-   "start": 4.014,
-   "end": 4.214
+   "start": 4.24,
+   "end": 4.44
   },
   {
    "w": "see",
-   "start": 4.214,
-   "end": 4.354
+   "start": 4.44,
+   "end": 4.58
   },
   {
    "w": "make",
-   "start": 4.354,
-   "end": 4.534
+   "start": 4.58,
+   "end": 4.76
   },
   {
    "w": "that",
-   "start": 4.534,
-   "end": 4.694
+   "start": 4.76,
+   "end": 4.92
   },
   {
    "w": "worse.",
-   "start": 4.694,
-   "end": 4.894
+   "start": 4.92,
+   "end": 5.12
   },
   {
    "w": "Here's",
-   "start": 5.154,
-   "end": 5.394
+   "start": 5.56,
+   "end": 5.8
   },
   {
    "w": "the",
-   "start": 5.394,
-   "end": 5.454
+   "start": 5.8,
+   "end": 5.86
   },
   {
    "w": "mistake.",
-   "start": 5.454,
-   "end": 5.694
+   "start": 5.86,
+   "end": 6.1
   },
   {
    "w": "Someone",
-   "start": 5.911,
-   "end": 6.216
+   "start": 6.382,
+   "end": 6.702
   },
   {
    "w": "connects",
-   "start": 6.216,
-   "end": 6.496
+   "start": 6.702,
+   "end": 6.982
   },
   {
    "w": "an",
-   "start": 6.496,
-   "end": 6.636
+   "start": 6.982,
+   "end": 7.122
   },
   {
    "w": "agent",
-   "start": 6.636,
-   "end": 6.836
+   "start": 7.122,
+   "end": 7.322
   },
   {
    "w": "to",
-   "start": 6.836,
-   "end": 7.016
+   "start": 7.322,
+   "end": 7.502
   },
   {
    "w": "email,",
-   "start": 7.016,
-   "end": 7.216
+   "start": 7.502,
+   "end": 7.702
   },
   {
    "w": "the",
-   "start": 7.587,
-   "end": 7.647
+   "start": 8.222,
+   "end": 8.282
   },
   {
    "w": "warehouse",
-   "start": 7.647,
-   "end": 7.867
+   "start": 8.282,
+   "end": 8.502
   },
   {
    "w": "system,",
-   "start": 7.867,
-   "end": 8.227
+   "start": 8.502,
+   "end": 8.862
   },
   {
    "w": "the",
-   "start": 8.547,
-   "end": 8.607
+   "start": 9.182,
+   "end": 9.242
   },
   {
    "w": "bank,",
-   "start": 8.607,
-   "end": 8.847
+   "start": 9.242,
+   "end": 9.482
   },
   {
    "w": "all",
-   "start": 9.247,
-   "end": 9.447
+   "start": 9.882,
+   "end": 10.082
   },
   {
    "w": "with",
-   "start": 9.447,
-   "end": 9.647
+   "start": 10.082,
+   "end": 10.282
   },
   {
    "w": "1",
-   "start": 9.647,
-   "end": 9.867
+   "start": 10.282,
+   "end": 10.502
   },
   {
    "w": "master",
-   "start": 9.867,
-   "end": 10.167
+   "start": 10.502,
+   "end": 10.802
   },
   {
    "w": "key.",
-   "start": 10.167,
-   "end": 10.427
+   "start": 10.802,
+   "end": 11.062
   },
   {
    "w": "Now,",
-   "start": 10.658,
-   "end": 10.758
+   "start": 11.583,
+   "end": 11.683
   },
   {
    "w": "1",
-   "start": 10.798,
-   "end": 10.978
+   "start": 11.723,
+   "end": 11.903
   },
   {
    "w": "bad",
-   "start": 10.978,
-   "end": 11.138
+   "start": 11.903,
+   "end": 12.063
   },
   {
    "w": "instruction",
-   "start": 11.138,
-   "end": 11.518
+   "start": 12.063,
+   "end": 12.443
   },
   {
    "w": "can",
-   "start": 11.518,
-   "end": 11.758
+   "start": 12.443,
+   "end": 12.683
   },
   {
    "w": "touch",
-   "start": 11.758,
-   "end": 11.978
+   "start": 12.683,
+   "end": 12.903
   },
   {
    "w": "everything.",
-   "start": 11.978,
-   "end": 12.378
+   "start": 12.903,
+   "end": 13.303
   },
   {
    "w": "Satya",
-   "start": 12.878,
-   "end": 13.098
+   "start": 13.803,
+   "end": 14.023
   },
   {
    "w": "Nadella",
-   "start": 13.098,
-   "end": 13.458
+   "start": 14.023,
+   "end": 14.383
   },
   {
    "w": "put",
-   "start": 13.458,
-   "end": 13.658
+   "start": 14.383,
+   "end": 14.583
   },
   {
    "w": "it",
-   "start": 13.658,
-   "end": 13.758
+   "start": 14.583,
+   "end": 14.683
   },
   {
    "w": "simply,",
-   "start": 13.758,
-   "end": 14.018
+   "start": 14.683,
+   "end": 14.943
   },
   {
    "w": "separate",
-   "start": 14.618,
-   "end": 14.898
+   "start": 15.543,
+   "end": 15.823
   },
   {
    "w": "the",
-   "start": 14.898,
-   "end": 15.218
+   "start": 15.823,
+   "end": 16.143
   },
   {
    "w": "supply",
-   "start": 15.218,
-   "end": 15.558
+   "start": 16.143,
+   "end": 16.483
   },
   {
    "w": "of",
-   "start": 15.558,
-   "end": 15.698
+   "start": 16.483,
+   "end": 16.623
   },
   {
    "w": "intelligence",
-   "start": 15.698,
-   "end": 16.158
+   "start": 16.623,
+   "end": 17.083
   },
   {
    "w": "from",
-   "start": 16.158,
-   "end": 16.618
+   "start": 17.083,
+   "end": 17.543
   },
   {
    "w": "the",
-   "start": 16.618,
-   "end": 16.758
+   "start": 17.543,
+   "end": 17.683
   },
   {
    "w": "authority",
-   "start": 16.758,
-   "end": 17.138
+   "start": 17.683,
+   "end": 18.063
   },
   {
    "w": "over",
-   "start": 17.138,
-   "end": 17.438
+   "start": 18.063,
+   "end": 18.363
   },
   {
    "w": "it.",
-   "start": 17.438,
-   "end": 17.638
+   "start": 18.363,
+   "end": 18.563
   },
   {
    "w": "So",
-   "start": 18.018,
-   "end": 18.158
+   "start": 18.943,
+   "end": 19.083
   },
   {
    "w": "here's",
-   "start": 18.158,
-   "end": 18.398
+   "start": 19.083,
+   "end": 19.323
   },
   {
    "w": "how",
-   "start": 18.398,
-   "end": 18.498
+   "start": 19.323,
+   "end": 19.423
   },
   {
    "w": "I",
-   "start": 18.498,
-   "end": 18.598
+   "start": 19.423,
+   "end": 19.523
   },
   {
    "w": "build",
-   "start": 18.598,
-   "end": 18.758
+   "start": 19.523,
+   "end": 19.683
   },
   {
    "w": "at",
-   "start": 18.758,
-   "end": 18.878
+   "start": 19.683,
+   "end": 19.803
   },
   {
    "w": "Content Systems.ai.",
-   "start": 18.878,
-   "end": 19.998
+   "start": 19.803,
+   "end": 20.923
   },
   {
    "w": "Each",
-   "start": 20.458,
-   "end": 20.798
+   "start": 21.383,
+   "end": 21.723
   },
   {
    "w": "agent",
-   "start": 20.798,
-   "end": 21.098
+   "start": 21.723,
+   "end": 22.023
   },
   {
    "w": "only",
-   "start": 21.098,
-   "end": 21.478
+   "start": 22.023,
+   "end": 22.403
   },
   {
    "w": "sees",
-   "start": 21.478,
-   "end": 21.738
+   "start": 22.403,
+   "end": 22.663
   },
   {
    "w": "what",
-   "start": 21.738,
-   "end": 21.918
+   "start": 22.663,
+   "end": 22.843
   },
   {
    "w": "its",
-   "start": 21.918,
-   "end": 22.038
+   "start": 22.843,
+   "end": 22.963
   },
   {
    "w": "job",
-   "start": 22.038,
-   "end": 22.258
+   "start": 22.963,
+   "end": 23.183
   },
   {
    "w": "needs.",
-   "start": 22.258,
-   "end": 22.578
+   "start": 23.183,
+   "end": 23.503
   },
   {
    "w": "It",
-   "start": 22.856,
-   "end": 22.976
+   "start": 23.861,
+   "end": 23.981
   },
   {
    "w": "gets",
-   "start": 22.976,
-   "end": 23.116
+   "start": 23.981,
+   "end": 24.121
   },
   {
    "w": "its",
-   "start": 23.116,
-   "end": 23.236
+   "start": 24.121,
+   "end": 24.241
   },
   {
    "w": "own",
-   "start": 23.236,
-   "end": 23.376
+   "start": 24.241,
+   "end": 24.381
   },
   {
    "w": "key.",
-   "start": 23.376,
-   "end": 23.616
+   "start": 24.381,
+   "end": 24.621
   },
   {
    "w": "And",
-   "start": 23.856,
-   "end": 24.076
+   "start": 24.941,
+   "end": 25.161
   },
   {
    "w": "a",
-   "start": 24.076,
-   "end": 24.156
+   "start": 25.161,
+   "end": 25.241
   },
   {
    "w": "person",
-   "start": 24.156,
-   "end": 24.376
+   "start": 25.241,
+   "end": 25.461
   },
   {
    "w": "approves",
-   "start": 24.376,
-   "end": 24.796
+   "start": 25.461,
+   "end": 25.881
   },
   {
    "w": "anything",
-   "start": 24.796,
-   "end": 25.036
+   "start": 25.881,
+   "end": 26.121
   },
   {
    "w": "that",
-   "start": 25.036,
-   "end": 25.336
+   "start": 26.121,
+   "end": 26.421
   },
   {
    "w": "leaves",
-   "start": 25.336,
-   "end": 25.496
+   "start": 26.421,
+   "end": 26.581
   },
   {
    "w": "the",
-   "start": 25.496,
-   "end": 25.636
+   "start": 26.581,
+   "end": 26.721
   },
   {
    "w": "building.",
-   "start": 25.636,
-   "end": 25.856
+   "start": 26.721,
+   "end": 26.941
   },
   {
    "w": "Emails,",
-   "start": 26.105,
-   "end": 26.545
+   "start": 27.361,
+   "end": 27.801
   },
   {
    "w": "refunds,",
-   "start": 26.825,
-   "end": 27.425
+   "start": 28.081,
+   "end": 28.681
   },
   {
    "w": "payments.",
-   "start": 27.485,
-   "end": 27.705
+   "start": 28.741,
+   "end": 28.961
   },
   {
    "w": "Fast",
-   "start": 28.185,
-   "end": 28.425
+   "start": 29.441,
+   "end": 29.681
   },
   {
    "w": "inside,",
-   "start": 28.425,
-   "end": 28.825
+   "start": 29.681,
+   "end": 30.081
   },
   {
    "w": "gated",
-   "start": 29.165,
-   "end": 29.365
+   "start": 30.421,
+   "end": 30.621
   },
   {
    "w": "at",
-   "start": 29.365,
-   "end": 29.505
+   "start": 30.621,
+   "end": 30.761
   },
   {
    "w": "the",
-   "start": 29.505,
-   "end": 29.585
+   "start": 30.761,
+   "end": 30.841
   },
   {
    "w": "door.",
-   "start": 29.585,
-   "end": 29.785
+   "start": 30.841,
+   "end": 31.041
   },
   {
    "w": "On",
-   "start": 30.345,
-   "end": 30.525
+   "start": 31.601,
+   "end": 31.781
   },
   {
    "w": "Sunday,",
-   "start": 30.525,
-   "end": 30.805
+   "start": 31.781,
+   "end": 32.061
   },
   {
    "w": "I'm",
-   "start": 31.005,
-   "end": 31.125
+   "start": 32.261,
+   "end": 32.381
   },
   {
    "w": "building",
-   "start": 31.125,
-   "end": 31.305
+   "start": 32.381,
+   "end": 32.561
   },
   {
    "w": "an",
-   "start": 31.305,
-   "end": 31.485
+   "start": 32.561,
+   "end": 32.741
   },
   {
    "w": "AI",
-   "start": 31.485,
-   "end": 31.645
+   "start": 32.741,
+   "end": 32.901
   },
   {
    "w": "employee",
-   "start": 31.645,
-   "end": 31.985
+   "start": 32.901,
+   "end": 33.241
   },
   {
    "w": "live",
-   "start": 31.985,
-   "end": 32.385
+   "start": 33.241,
+   "end": 33.641
   },
   {
    "w": "with",
-   "start": 32.385,
-   "end": 32.825
+   "start": 33.641,
+   "end": 34.081
   },
   {
    "w": "these",
-   "start": 32.825,
-   "end": 33.025
+   "start": 34.081,
+   "end": 34.281
   },
   {
    "w": "exact",
-   "start": 33.025,
-   "end": 33.345
+   "start": 34.281,
+   "end": 34.601
   },
   {
    "w": "rules.",
-   "start": 33.345,
-   "end": 33.685
+   "start": 34.601,
+   "end": 34.941
   },
   {
    "w": "Join",
-   "start": 34.013,
-   "end": 34.173
+   "start": 35.349,
+   "end": 35.509
   },
   {
    "w": "me",
-   "start": 34.173,
-   "end": 34.393
+   "start": 35.509,
+   "end": 35.729
   },
   {
    "w": "at",
-   "start": 34.393,
-   "end": 34.553
+   "start": 35.729,
+   "end": 35.889
   },
   {
    "w": "the",
-   "start": 34.553,
-   "end": 34.653
+   "start": 35.889,
+   "end": 35.989
   },
   {
    "w": "AI",
-   "start": 34.653,
-   "end": 34.973
+   "start": 35.989,
+   "end": 36.309
   },
   {
    "w": "Employee",
-   "start": 34.973,
-   "end": 35.313
+   "start": 36.309,
+   "end": 36.649
   },
   {
    "w": "Accelerator.",
-   "start": 35.313,
-   "end": 35.833
+   "start": 36.649,
+   "end": 37.169
   },
   {
    "w": "The",
-   "start": 36.393,
-   "end": 36.453
+   "start": 37.729,
+   "end": 37.789
   },
   {
    "w": "link",
-   "start": 36.453,
-   "end": 36.633
+   "start": 37.789,
+   "end": 37.969
   },
   {
    "w": "is",
-   "start": 36.633,
-   "end": 36.753
+   "start": 37.969,
+   "end": 38.089
   },
   {
    "w": "in",
-   "start": 36.753,
-   "end": 36.853
+   "start": 38.089,
+   "end": 38.189
   },
   {
    "w": "the",
-   "start": 36.853,
-   "end": 36.933
+   "start": 38.189,
+   "end": 38.269
   },
   {
    "w": "post.",
-   "start": 36.933,
-   "end": 37.133
+   "start": 38.269,
+   "end": 38.469
   }
  ],
  "text": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system, the bank, all with one master key. Now, one bad instruction can touch everything. Sacha Nadella put it simply, separate the supply of intelligence from the authority over it. So here's how I built at contentsystems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that leaves the building. Emails, refunds, payments, fast inside, gated at the door. On Sunday, I'm building an AI employee live with these exact rules. Join me at the AI employee accelerator. The link is in the post."

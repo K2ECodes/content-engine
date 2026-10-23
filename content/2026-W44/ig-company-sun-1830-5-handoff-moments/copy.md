@@ -20,3 +20,4 @@ Animated explainer that flips between cream and dark green. A Black Friday suppo
 - Freebie: "Support handoff map: 5 moments a bot passes to a person" (keyword SYSTEMS). It is NOT yet listed in config/offers.json leadMagnets and must be built and added before approval (not edited by this agent, config is off limits).
 - Sunday is workshop day; this evening slot runs after the live session ends.
 - Voice: Gemini 3.8 Brio via kie.ai. Music: Suno V6 instrumental.
+Keyword SYSTEMS sends: assets/freebies/support-handoff-map.pdf (built, listed in config/offers.json leadMagnets).

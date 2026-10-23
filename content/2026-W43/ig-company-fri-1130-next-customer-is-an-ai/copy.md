@@ -26,3 +26,4 @@ Sources (research/weekly/2026-W44.md sections 1.2, 1.3, 1.4, 2.1):
 - 33 in 100 shoppers say shipping and return policies often or always change what they buy (Feedvisor and PartnerCentric): https://www.modernretail.co/ai-strategies/ai-boosts-discovery-but-reviews-still-seal-the-deal-new-research-shows/ (Oct 22 2026)
 - Freebie: SYSTEMS now promises an "agent-ready store check". Added to config/offers.json leadMagnets as to-build. Must exist before approval. The research file also earmarks SYSTEMS for the AI Employee Starter Pack, so the DM could send both.
 - The 5 points are positioning and common sense from the sources, not client results.
+Keyword SYSTEMS sends: assets/freebies/agent-ready-store-checklist.pdf (built, listed in config/offers.json leadMagnets).

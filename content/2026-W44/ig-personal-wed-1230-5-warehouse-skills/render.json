@@ -293,6 +293,16 @@
       "claude",
       "chatgpt",
       "anthropic"
-    ]
+    ],
+    "hook": {
+      "style": "breaking",
+      "brands": [
+        "anthropic",
+        "claude",
+        "chatgpt"
+      ],
+      "tag": "AI NEWS",
+      "ticker": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M "
+    }
   }
 }

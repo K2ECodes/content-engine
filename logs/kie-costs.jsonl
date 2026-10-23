@@ -172,3 +172,54 @@
 {"ts":"2026-10-23T07:50:52.288Z","model":"nano-banana-2","taskId":"bfe57b90c74e18de3dd55bcf377043d7","state":"success","credits":12,"usd":0.06,"label":"th bg studio-plants"}
 {"ts":"2026-10-23T07:52:55.126Z","model":"nano-banana-2","taskId":"e3aafa581e9be6c26176f91158fe9738","state":"success","credits":12,"usd":0.06,"label":"th bg library"}
 {"ts":"2026-10-23T07:54:43.707Z","model":"volcengine/video-to-video-lip-sync","taskId":"22d333ba379bf6476c10f37d7d30c320","state":"success","credits":40,"usd":0.2,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 2"}
+{"ts":"2026-10-23T07:57:21.436Z","model":"volcengine/video-to-video-lip-sync","taskId":"77e1f9f460619c0a0f9fba31386179c9","state":"success","credits":40,"usd":0.2,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 0"}
+{"ts":"2026-10-23T07:57:25.550Z","model":"ai-music-api/generate","taskId":"1ddc2ef6c2155acc972a0d9afe047e84","state":"success","credits":12,"usd":0.06,"label":"ig-personal-thu-1900-walmart-let-agents-shop music"}
+{"ts":"2026-10-23T07:57:26.446Z","model":"ai-music-api/generate","taskId":"61990e963204ee6439ec18dc6d803bd6","state":"success","credits":12,"usd":0.06,"label":"ig-personal-sat-1800-openai-took-replit music"}
+{"ts":"2026-10-23T07:57:55.586Z","model":"google/gemini-3-8-flash-tts","taskId":"ed26157d55de390baef5b541e96fb593","state":"success","credits":0.94,"usd":0.0047,"label":"sops-portable-stopmotion vo"}
+{"ts":"2026-10-23T07:58:04.628Z","model":"ai-music-api/generate","taskId":"853a383bcb765930b83d01f89644ee9b","state":"success","credits":12,"usd":0.06,"label":"sops-portable-stopmotion music"}
+{"ts":"2026-10-23T08:02:41.328Z","model":"volcengine/video-to-video-lip-sync","taskId":"dfa0a79d8597e2711a1f7648fdf71f07","state":"success","credits":24,"usd":0.12,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 1"}
+{"ts":"2026-10-23T08:25:07.661Z","model":"volcengine/video-to-video-lip-sync","taskId":"3acbceaadddb0b62e9576117a3f73451","state":"success","credits":40,"usd":0.2,"label":"ig-personal-mon-1230-walmart-vs-amazon-agents talk 2"}
+{"ts":"2026-10-23T08:33:03.892Z","model":"google/gemini-3-8-flash-tts","taskId":"f519d2b8340b510013fa06ad552c1612","state":"success","credits":0.22,"usd":0.0011,"label":"audition Despina"}
+{"ts":"2026-10-23T08:33:03.896Z","model":"google/gemini-3-8-flash-tts","taskId":"b6e4aa06d5188b76ad0023072e0c478d","state":"success","credits":0.2,"usd":0.001,"label":"audition Leda"}
+{"ts":"2026-10-23T08:33:04.071Z","model":"google/gemini-3-8-flash-tts","taskId":"09df61606b4882fc1467f33dba96a1bd","state":"success","credits":0.22,"usd":0.0011,"label":"audition Tavi"}
+{"ts":"2026-10-23T08:33:04.114Z","model":"google/gemini-3-8-flash-tts","taskId":"f55f421c883785a795c97cc4e3f84b7a","state":"success","credits":0.21,"usd":0.001,"label":"audition Zeno"}
+{"ts":"2026-10-23T08:33:04.280Z","model":"google/gemini-3-8-flash-tts","taskId":"5a39d693d0c337e1c957f9768b050c8a","state":"success","credits":0.22,"usd":0.0011,"label":"audition Kore"}
+{"ts":"2026-10-23T08:33:05.327Z","model":"google/gemini-3-8-flash-tts","taskId":"a22e966f4ae487191e6734405643b093","state":"success","credits":0.24,"usd":0.0012,"label":"audition Autonoe"}
+{"ts":"2026-10-23T08:33:09.851Z","model":"google/gemini-3-8-flash-tts","taskId":"b2f4a779ab692888e185c3c1cfcb2976","state":"success","credits":0.22,"usd":0.0011,"label":"audition Nika"}
+{"ts":"2026-10-23T08:33:17.002Z","model":"google/gemini-3-8-flash-tts","taskId":"4e010583111124f2df0fab948226e399","state":"fail","credits":0,"usd":0,"label":""}
+{"ts":"2026-10-23T08:33:28.303Z","model":"google/gemini-3-8-flash-tts","taskId":"c20899fa61cd99a6b5ac42b404231558","state":"fail","credits":0,"usd":0,"label":""}
+{"ts":"2026-10-23T08:33:43.902Z","model":"google/gemini-3-8-flash-tts","taskId":"be1a4e06cc5246f5d6dea4067081e262","state":"fail","credits":0,"usd":0,"label":""}
+{"ts":"2026-10-23T08:33:57.888Z","model":"google/gemini-3-8-flash-tts","taskId":"d70166901101d58151d30bb647100fa3","state":"fail","credits":0,"usd":0,"label":""}
+{"ts":"2026-10-23T08:34:15.764Z","model":"google/gemini-3-8-flash-tts","taskId":"605727a84ff6c030f393a89ca2020f7f","state":"success","credits":1.06,"usd":0.0053,"label":""}
+{"ts":"2026-10-23T08:35:19.050Z","model":"nano-banana-2","taskId":"04370a34e5a5ed28f4be73a218e90399","state":"success","credits":8,"usd":0.04,"label":"ai-slop still test-desk.png"}
+{"ts":"2026-10-23T08:36:22.745Z","model":"google/gemini-3-8-flash-tts","taskId":"90f0abab8de2dd319e84c047bd042fba","state":"success","credits":0.08,"usd":0.0004,"label":"ai-slop vo r1-boss"}
+{"ts":"2026-10-23T08:36:30.209Z","model":"google/gemini-3-8-flash-tts","taskId":"39ba6a7de7ef4309ef043551d46d563b","state":"success","credits":0.08,"usd":0.0004,"label":"ai-slop vo r2-ai"}
+{"ts":"2026-10-23T08:36:38.212Z","model":"google/gemini-3-8-flash-tts","taskId":"5888ad33ab123d1127cdb5cd6aba85e9","state":"success","credits":0.12,"usd":0.0006,"label":"ai-slop vo r2-ai2"}
+{"ts":"2026-10-23T08:36:45.665Z","model":"google/gemini-3-8-flash-tts","taskId":"737aa8752ce962458794d753f8dc86f8","state":"success","credits":0.18,"usd":0.0009,"label":"ai-slop vo r3-n1"}
+{"ts":"2026-10-23T08:36:53.296Z","model":"google/gemini-3-8-flash-tts","taskId":"fcfeec20a70abf9cbb2abf2ba6d310c5","state":"fail","credits":0,"usd":0,"label":"ai-slop vo r3-n2"}
+{"ts":"2026-10-23T08:37:04.882Z","model":"google/gemini-3-8-flash-tts","taskId":"3b316f07281dc6cd78740e4fabaf3fae","state":"success","credits":0.19,"usd":0.0009,"label":"ai-slop vo r3-n2"}
+{"ts":"2026-10-23T08:37:12.599Z","model":"google/gemini-3-8-flash-tts","taskId":"a1e3c2fd83456be7acd173a324b9d6fa","state":"fail","credits":0,"usd":0,"label":"ai-slop vo r3-n3"}
+{"ts":"2026-10-23T08:37:23.714Z","model":"google/gemini-3-8-flash-tts","taskId":"477083341753db45cdbfcf4e6e2faf62","state":"fail","credits":0,"usd":0,"label":"ai-slop vo r3-n3"}
+{"ts":"2026-10-23T08:37:38.820Z","model":"google/gemini-3-8-flash-tts","taskId":"4e344e4d4770cb3de209adfd47fd2e88","state":"success","credits":0.09,"usd":0.0004,"label":"ai-slop vo r3-n3"}
+{"ts":"2026-10-23T08:38:09.851Z","model":"google/gemini-3-8-flash-tts","taskId":"11f0010282cd7ed9db34027df9334f86","state":"fail","credits":0,"usd":0,"label":"audition Aoede"}
+{"ts":"2026-10-23T08:38:20.092Z","model":"ai-music-api/generate","taskId":"a950e14a29a01120c4770cebc6fba01b","state":"success","credits":12,"usd":0.06,"label":"ai-slop music trap"}
+{"ts":"2026-10-23T08:38:25.486Z","model":"nano-banana-2","taskId":"8ff98b21193db46b41628d1cca4e8058","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r3-printer.png"}
+{"ts":"2026-10-23T08:38:25.858Z","model":"nano-banana-2","taskId":"929dc991f37b04f71151c0baa07fb257","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r2-phone.png"}
+{"ts":"2026-10-23T08:38:26.862Z","model":"google/gemini-3-8-flash-tts","taskId":"a46aa592127bbbedba2f49ba25e2e4d2","state":"success","credits":0.19,"usd":0.0009,"label":"audition Aoede"}
+{"ts":"2026-10-23T08:38:33.702Z","model":"ai-music-api/generate","taskId":"70e1e5d412ef7391cc1d5593c2b09c53","state":"success","credits":12,"usd":0.06,"label":"ai-slop music horror"}
+{"ts":"2026-10-23T08:38:54.653Z","model":"nano-banana-2","taskId":"6368d7be6524e6e7625b7597ca1bf0b3","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r1-asleep.png"}
+{"ts":"2026-10-23T08:39:06.982Z","model":"nano-banana-2","taskId":"842b3eabc036d14f4586cf6279432d3b","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r3-close.png"}
+{"ts":"2026-10-23T08:40:57.023Z","model":"nano-banana-2","taskId":"a62c4df7eeb0839d67383750fea4dd49","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r3-laptop.png"}
+{"ts":"2026-10-23T08:40:57.385Z","model":"grok-imagine/image-to-video","taskId":"9b41b9b48468a324201d455ee0de8480","state":"fail","credits":0,"usd":0,"label":"ai-slop clip r1-asleep.mp4"}
+{"ts":"2026-10-23T08:40:58.378Z","model":"grok-imagine/image-to-video","taskId":"c13280eea9c128ff791a07ec430a1511","state":"fail","credits":0,"usd":0,"label":"ai-slop clip r2-stare.mp4"}
+{"ts":"2026-10-23T08:40:58.952Z","model":"grok-imagine/image-to-video","taskId":"fc36059a8b15fdfd9af07553015737fe","state":"fail","credits":0,"usd":0,"label":"ai-slop clip r3-printer.mp4"}
+{"ts":"2026-10-23T08:41:28.367Z","model":"nano-banana-2","taskId":"758d677e8da46e03bfa3fd5862f68cdd","state":"success","credits":8,"usd":0.04,"label":"ai-slop still r3-laptop.png"}
+{"ts":"2026-10-23T08:42:45.853Z","model":"kling/ai-avatar-standard","taskId":"06acaebfd160622bf180932bc3443970","state":"success","credits":16,"usd":0.08,"label":"ai-slop avatar r3-talk.mp4"}
+{"ts":"2026-10-23T08:43:14.412Z","model":"kling/ai-avatar-standard","taskId":"96a148546c9975d48bba2f2035b3e1f5","state":"success","credits":32,"usd":0.16,"label":"ai-slop avatar r2-talk.mp4"}
+{"ts":"2026-10-23T08:43:14.986Z","model":"kling/ai-avatar-standard","taskId":"e243835489567a03a9ec2acf984e151e","state":"success","credits":32,"usd":0.16,"label":"ai-slop avatar r1-talk.mp4"}
+{"ts":"2026-10-23T08:43:36.175Z","model":"grok-imagine/image-to-video","taskId":"50ac79ef96ca9b6a80f47057739327da","state":"fail","credits":0,"usd":0,"label":"ai-slop clip r2-stare.mp4"}
+{"ts":"2026-10-23T08:43:46.705Z","model":"grok-imagine/image-to-video","taskId":"6fab54f1bd73aa66e6e13a70f47671f7","state":"fail","credits":0,"usd":0,"label":"ai-slop clip r1-asleep.mp4"}
+{"ts":"2026-10-23T08:45:39.273Z","model":"bytedance/seedance-2-mini","taskId":"045c8f8807274ca18f23ba279d3ad4fa","state":"success","credits":41,"usd":0.205,"label":"ai-slop clip r1-asleep.mp4"}
+{"ts":"2026-10-23T08:47:55.178Z","model":"bytedance/seedance-2-mini","taskId":"8de8ca18c738bc1777e98c01877d98a7","state":"success","credits":41,"usd":0.205,"label":"ai-slop clip r3-laptop.mp4"}
+{"ts":"2026-10-23T08:47:57.438Z","model":"bytedance/seedance-2-mini","taskId":"aa02c91bdbb6dfb2dc2d057de82abba0","state":"success","credits":41,"usd":0.205,"label":"ai-slop clip r2-stare.mp4"}
+{"ts":"2026-10-23T08:48:11.743Z","model":"bytedance/seedance-2-mini","taskId":"b81f6e6237c0ebc569d3cde13b7d29a5","state":"success","credits":41,"usd":0.205,"label":"ai-slop clip r3-printer.mp4"}

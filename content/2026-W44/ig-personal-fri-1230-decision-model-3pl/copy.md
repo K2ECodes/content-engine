@@ -26,3 +26,4 @@ Fast animated explainer flipping between dark green and cream. "Pick a lane" get
 - Confidence scores on screen are made-up examples, labelled "Example" on every card.
 - Lead post: comment keyword is the CTA, with a save/follow nudge. No "link in bio" (no company offer on this account).
 - Faceless narrator: Gemini 3.8 "Jett". Music: Suno V6 instrumental (music-2.mp3 unused alt).
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in config/offers.json leadMagnets).

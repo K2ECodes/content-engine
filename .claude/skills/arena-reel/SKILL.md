@@ -1,6 +1,6 @@
 ---
 name: arena-reel
-description: Make a Content Systems.ai "arena" reel, a 9:16 pixel-art fighting-game explainer in the brand's 8-bit night world (pixel Korede vs problems as enemies, HUD, rounds, boss, YOU WIN, CONTINUE countdown CTA), voiceover-led and word-timed. Use for high-energy explainer videos with a list of problems and 1 main fix, especially comment-keyword lead posts. Renders via templates/arena.
+description: Make an "arena" reel (Content Systems.ai explainers, or logo-battle AI-news reels for Korede where company logos fight in brand colours), a 9:16 pixel-art fighting-game explainer in the brand's 8-bit night world (pixel Korede vs problems as enemies, HUD, rounds, boss, YOU WIN, CONTINUE countdown CTA), voiceover-led and word-timed. Use for high-energy explainer videos with a list of problems and 1 main fix, especially comment-keyword lead posts. Renders via templates/arena.
 ---
 
 # Arena reel
@@ -18,7 +18,7 @@ Map before writing:
 | YOU WIN | The result in 1 short line + 1 proof line | 2 s |
 | CONTINUE? | Comment-keyword CTA. Countdown keeps ticking about 2.5 s after the last word | 4 to 5 s |
 
-Rules: short sentences, a pause only where the game state changes. House style from CLAUDE.md applies to the script and every on-screen string (no dashes, no exclamation marks, no percent signs, numerals, no eyebrow labels, never print pillar or execution names). Enemy names are content, not categories. Proof-bank numbers only; anything else is labelled `"foot": "Illustrative numbers"`. No third-party logos as fighters.
+Rules: short sentences, a pause only where the game state changes. House style from CLAUDE.md applies to the script and every on-screen string (no dashes, no exclamation marks, no percent signs, numerals, no eyebrow labels, never print pillar or execution names). Enemy names are content, not categories. Proof-bank numbers only; anything else is labelled `"foot": "Illustrative numbers"`. Company posts: no third-party logos as fighters. Korede's AI-news posts (ig-personal): logo battles are the point, see section 6.
 
 ## 2. Voiceover and music (kie.ai, about $0.07 total)
 ```js
@@ -62,3 +62,19 @@ Then read the words and fix what Whisper misheard (it hears "billed" as "built",
 3. Listen once: voice on top, SFX present but under the voice, bed audible under the countdown.
 4. `node scripts/render.mjs <post>` (30 fps final), `npm run lint -- <post>`.
 5. meta.json: `format: video`, `aspect: 9:16`, `lead: true`, `cta_type: comment-keyword`, `cta_keyword`, `status: draft`.
+
+## 6. Brand mode: logo battles (ig-personal AI news)
+"Claude just took X from Y" style reels: the fighters are company logos (config/brands.json, files in assets/logos) on cut-paper tiles with angry pixel eyes, boxing gloves and legs, in brand colours. Example: `content/2026-W44/ig-personal-sat-1800-openai-took-replit/` (also `ig-personal-thu-1900-walmart-let-agents-shop`).
+
+- Turn it on with `"player": { "brand": "openai", "color": "#10A37F" }` and `"opponent": { "brand": "claude" }` (default enemy for every round without `enemy`). Per fighter: `tile` (tile colour, e.g. Amazon `#232F3E` because its smile logo is white), `color` (HUD bar, gloves, plate, glow, flashes; default = brand bg, or accent/fg when the bg is too dark), `name`, `logo`, `eyes: false`. render.mjs passes brands.json as `data.brands`.
+- Face: Korede's talking cutout is optional here; only add it where it fits (twist or CTA) if the post has a plate, never a still photo.
+- Look: left glow in the player's colour, right glow in the enemy's, pixel name plates and HUD names in brand colour, KO/hit flashes in the attacker's colour (`flash: true`, `'#hex'` or a brand id). `stopMotion: 10` (default in brand mode) re-poses every logo tile 10 times a second (cut-paper wobble); dashes, rain, throws, stamps and the prize move on `steps()` eases.
+- Extras: `handle: "@koredekola"` (replaces the Content Systems.ai wordmark on the win card and CTA, never use the CS wordmark or bulb on ig-personal), `popTop: 380` (popups higher, clear of the prize), `prize: { brand, owner, label, y: 720 }` (crowned trophy logo between the fighters), `crowd: { brands: [...] }` (front-row fans that bob and leave at CONTINUE).
+- Fair fights: `ko: false` on a round = stagger and stay dizzy with `koText` ("STOLEN", "OPEN") and `hp`, instead of shattering. Only shatter a logo when the news really is a knockout. Give the twist its own beat (`revive`, a `title` "ROUND 2", an enemy `powerup` with `side: "enemy"`).
+- New beats, all word-anchored (data format at the top of templates/arena/index.html): `title`, `steal` (prize changes owner, label swaps), `counter` (enemy hits back), `combo` (`hits: [{ at, text }]`, a jab and label per spoken word, HIT xN), `blast`, `revive`, `rain` (logos fall in stepped frames), `cheer` (crowd jumps, optional bubble), `throw` (a logo or pixel sprite flies at a fighter: `result: "join"` = ally at its feet, `"block"` = shield flash and bounce), `stamp` (big slammed label, `size: "sm"`), `clash` (both collide mid-ring, split-colour flash). `powerup` takes `brand` (logo arcs in instead of the bulb), `win` takes `brand`.
+- Hook (Korede, 2026-10-23): the first 1 to 2 s is a huge arcade hit. Use `blast` (`{ type: "blast", at: <first word>, hitAt: <hook's last word>, shots: 8, rocket: true, quiet: true }`, `from: "enemy"` to fire back): a pixel blaster pops into the glove, bolts fly in stepped frames with muzzle flashes, every bolt flashes the target white and steps its health bar down, the rocket lands on the KO word. Pair it with a `round` that has `dash: false` and its `koAt` on the same word. Cartoon only: pixel bolts and rockets, no realistic guns, no gore.
+- Palette (strict by default in brand mode): the pixel world is desaturated to a dark base and only the fighters and the prize keep colour; every other logo (crowd, rain, allies) is white on ink, pixel sprites go grey. Max 3 hues a frame: dark base + the 2 fighters' colours. `badColor` sets bad-popup colour (use the opponent's), `keep: [ids]` keeps an extra logo in colour, `palette: "full"` turns it off.
+- Shatter (`ko` default) removes the logo until a `revive`, which flies the pixels back together. Only shatter when the logo isn't needed on screen until the revive; otherwise `ko: false`.
+- Truth rules: logos only for companies in the story; a rule-breaker or generic agent is a pixel sprite (`robot`, `evil-robot`), never a real brand. Crowd logos are spectators, not claims.
+- Density: something lands on every 1 to 1.5 s (a hit, stamp, throw, rain or cheer). Contact sheet at 2 fps; any 3 identical frames in a row is a dead spot, add a beat.
+- Voice for ig-personal: Korede's free cloned voice (`freeSpeech` in scripts/lib/heygen.mjs, voice 2119a56717374a708188f84e99e8f2c4, pace with punctuation only), then `node scripts/tighten.mjs <post>/audio/vo.wav` and use `audio/vo-tight.wav`; transcribe the tight file. Music: 1 kie `music()` call, dark rage trap style, keep the punchier variation, `music.volume` about 0.17 (bed about 9 dB under the voice before ducking).

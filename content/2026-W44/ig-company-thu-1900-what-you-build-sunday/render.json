@@ -8,7 +8,7 @@
         "world": "day",
         "headline": [
           "Build your first",
-          "*AI employee*"
+          "*2 AI employees*"
         ],
         "underline": false,
         "collage": [
@@ -76,21 +76,21 @@
       {
         "world": "sunset",
         "headline": [
-          "1. Pick",
-          "*the job*"
+          "Employee 1:",
+          "*the 2 AM lead*"
         ],
         "card": {
           "y": 430,
           "kind": "checks",
           "items": [
-            "Customer *emails*",
-            "*Quotes*",
-            "Order *updates*"
+            "A lead comes in at *2 AM*",
+            "You're *asleep*",
+            "It's answered in *seconds*"
           ]
         },
         "notes": [
           {
-            "text": "the 1 that\neats your week",
+            "text": "what it says\nyou'll see live",
             "x": 495,
             "y": 832,
             "w": 500,
@@ -113,17 +113,17 @@
       {
         "world": "night",
         "headline": [
-          "2. Teach it",
-          "*once*"
+          "Employee 2:",
+          "*the watcher*"
         ],
         "card": {
           "y": 440,
           "kind": "code",
-          "text": "*your rules*\nyour prices\nyour tone\nwritten down 1 time"
+          "text": "*tracking:*\nyour competitors\nwhile you work\nso you're not last to know"
         },
         "notes": [
           {
-            "text": "instructions\nit follows",
+            "text": "built live,\non your account",
             "x": 60,
             "y": 858,
             "w": 500,
@@ -148,28 +148,28 @@
       {
         "world": "neon",
         "headline": [
-          "3. Watch",
-          "*it work*"
+          "The setup",
+          "*most skip*"
         ],
         "card": {
           "y": 430,
           "kind": "flow",
           "steps": [
             {
-              "h": "You",
-              "p": "hand it the job"
+              "h": "Default",
+              "p": "how most start"
             },
             {
-              "h": "It",
-              "p": "drafts in seconds",
+              "h": "Yours",
+              "p": "Claude set up properly",
               "hi": true
             }
           ],
-          "foot": "the reply, the quote or the update"
+          "foot": "on your own account, done together"
         },
         "notes": [
           {
-            "text": "a working\nAI employee",
+            "text": "do this first,\nthen build",
             "x": 447,
             "y": 802,
             "w": 500,
@@ -192,21 +192,21 @@
       {
         "world": "day",
         "headline": [
-          "4. Say",
-          "*yes*"
+          "The 1 rule",
+          "*all 100+ follow*"
         ],
         "card": {
           "y": 430,
           "kind": "checks",
           "items": [
-            "Anything that *sends*",
-            "Anything that *pays*",
-            "Anything that *promises*"
+            "Given on *day 1*",
+            "Same for *every 1*",
+            "Shown live on *Sunday*"
           ]
         },
         "notes": [
           {
-            "text": "waits for you\nfirst",
+            "text": "the reason\nwe trust them",
             "x": 60,
             "y": 858,
             "w": 482,
@@ -251,8 +251,8 @@
               "v": "live on Zoom"
             },
             {
-              "k": "Price:",
-              "v": "$97 GA, $197 VIP"
+              "k": "Replay:",
+              "v": "included"
             }
           ],
           "accent": true

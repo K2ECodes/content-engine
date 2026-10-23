@@ -7,14 +7,13 @@ Here's the mistake. Someone connects 1 agent to email, the warehouse system and 
 
 Microsoft's point isn't that models are evil. It's that they're unpredictable. Satya Nadella put it in 1 line: separate the supply of intelligence from the authority over it.
 
-That's how I build at Content Systems.ai:
-· Each agent only sees what its job needs. The quoting agent never sees payroll.
-· Each agent gets its own key, so you can switch 1 off without breaking the rest.
-· A person approves anything that leaves the building. Customer emails, refunds, payments.
+I build every AI employee at Content Systems.ai on 3 rules. 2 of them are about what it can see and touch. The 3rd is the 1 that lets me sleep, and it's in the video.
 
-Fast inside, gated at the door. Our own company runs on 100+ AI employees with that rule.
+Fast inside, gated at the door. Our own company runs on 100+ AI employees that way.
 
-On Sunday I'm building an AI employee live with these exact rules. The AI Employee Accelerator, Sun Nov 1, 11 AM Eastern (your clocks go back 1 hour that morning). Save your seat: contentsystems.ai/workshop
+On Sunday I'll open it up. You'll set up Claude properly on your own account, build your first 2 AI employees with me, and see the 100+ running. The first answers a new lead in seconds. Ask yourself who answers yours at 2 AM right now. The second keeps track of your competitors.
+
+The AI Employee Accelerator, Sun Nov 1, 11 AM Eastern (your clocks go back 1 hour that morning), 120 minutes on Zoom, replay included. Save your seat: contentsystems.ai/workshop
 
 #AI #AIagents #AIsecurity #Cybersecurity #Microsoft #Logistics #3PL #Warehousing #SupplyChain #Ecommerce #Automation #Founders
 
@@ -33,3 +32,4 @@ Animated story reel voiced by Korede: a TechCrunch article on Microsoft calling 
 - Talking head pending kie.ai top-up: swap to `node scripts/heygen.mjs kie-plate` (data.heygen.say is ready in render.json).
 - Music: kie Suno V6 dark rage-trap bed, audio/music.mp3 at 0.07 (alt take music-2.mp3). $0.06.
 - CTA: workshop (plan row Tue 08:00). li-personal mix post, mentions Content Systems.ai.
+- Curiosity rewrite 2026-10-23 (caption only, video unchanged): the caption no longer lists the 3 rules, it points to the video, and the workshop line matches the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay).

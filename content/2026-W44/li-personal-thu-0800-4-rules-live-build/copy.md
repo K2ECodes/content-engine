@@ -1,31 +1,27 @@
 ## Caption
-On Sunday I'll build an AI employee live. Before it does anything, it gets 4 rules it can't break.
+On Sunday I'll build 2 AI employees live. Before either does anything, it gets 4 rules it can't break.
 
 This month made the case for me. Microsoft told companies to treat AI agents like insider threats. A breach at an AI coding tool ran up charges on people's AI accounts, some over $1,000. Walmart is adding spending limits for shopping agents.
 
 The model isn't the risk. Access without rules is.
 
-So here are the 4 rules every AI employee I build gets on day 1:
+2 of the rules are the ones you'd guess:
 
-1. It asks before money moves. Refunds, payments, credits. Always a person's yes.
+1. It asks before money moves. Refunds, payments, credits.
 2. It asks before a customer hears from it. Drafting is free, sending isn't.
-3. It never signs. Quotes, contracts and rate changes go to a person.
-4. It never deletes. It can flag, archive and suggest. Removing data stays human.
 
-Everything else it can do on its own: read the inbox, sort the requests, pull the numbers, draft the reply.
+Rules 3 and 4 protect your deals and your data. They're the quiet ones, and the 2 I'd never run without. You'll see all 4 running inside our own 100+ AI employees on Sunday.
 
-Our own company runs on 100+ AI employees with these rules. They don't slow us down. They're why I trust the output enough to scale it.
+Then the 2 we build together. The first answers a new lead in seconds. Think about what happens in your business right now when a lead comes in at 2 AM. The second keeps track of your competitors, so you're not the last to know. We set up Claude properly on your own account first, so both run on your setup, not mine.
 
-On Sunday at The AI Employee Accelerator I'll build 1 from scratch with you, rules first, live on Zoom.
-
-Sun Nov 1, 11 AM Eastern (US clocks go back that morning). $97 GA, $197 VIP: contentsystems.ai/workshop
+The AI Employee Accelerator. Sun Nov 1, 11 AM Eastern (US clocks go back that morning), 120 minutes on Zoom, replay included. $97 GA, $197 VIP: contentsystems.ai/workshop
 
 From the build, Korede
 
 #AI #AIagents #AIEmployees #Automation #AIsecurity #SmallBusiness #BusinessOwners #Operations #Ecommerce #Logistics #3PL #Workshop
 
 ## Alt text
-6-slide carousel. Dark cover: 4 rules my AI employee can't break. 4 cream slides: asks before it pays, asks before it sends, never signs, never deletes, each with what it can still do alone. Dark CTA: watch me build 1 live on Sunday, The AI Employee Accelerator, Nov 1 at 11 AM Eastern, $97 GA or $197 VIP, contentsystems.ai/workshop.
+7-slide carousel. Night cover: 4 rules my AI can't break. Rule 1, asks before money moves. Rule 2, asks before a customer hears from it. A slide where rules 3 and 4 stay locked until Sunday. A slide on what happens when a lead comes in at 2 AM. Rules first, then scale: 100+ AI employees on the same 4. CTA: build 2 with me live on Sunday, The AI Employee Accelerator, Nov 1 at 11 AM Eastern.
 
 ## Notes
 Offer: The AI Employee Accelerator, Sun Nov 1 11 AM ET (EST, clocks go back that morning), $97 GA / $197 VIP, https://contentsystems.ai/workshop.
@@ -39,3 +35,4 @@ Sources (research/weekly/2026-W44.md 1.2, 1.8, 1.10):
 Judgement calls: the 4 rules are the research topic 2 checklist (money out, customer messages, quotes and contracts, data deletion) rewritten as rules. Different framing from the W43 Duet carousel so it doesn't repeat.
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Microsoft agents as insider threats (Oct 19 2026); TechCrunch, OpenCode charges breach (Oct 19 2026); TechCrunch, Walmart vs Amazon agents (Oct 21 2026).
+Curiosity rewrite 2026-10-23: rules 3 (never signs) and 4 (never deletes) are no longer spelled out; slide 4 locks them and slide 5 now teases the 2 AM lead employee the workshop builds. Caption matches the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+, replay).

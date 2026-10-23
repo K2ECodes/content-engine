@@ -255,6 +255,16 @@
       "1password",
       "anthropic",
       "walmart"
-    ]
+    ],
+    "hook": {
+      "style": "slam",
+      "brands": [
+        "anthropic",
+        "walmart",
+        "microsoft",
+        "1password"
+      ]
+    },
+    "branded": true
   }
 }

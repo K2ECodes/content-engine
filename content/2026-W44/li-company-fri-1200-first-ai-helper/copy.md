@@ -1,27 +1,26 @@
 ## Caption
-Content Systems.ai teaches business owners to set up their first AI helper, with a person approving every step.
+Content Systems.ai teaches business owners to set up their first AI employees, so they get time back without losing control.
 
 Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58 in 100 managers expect exactly that within a year. Only 29 in 100 say their AI setup is right today, and 57 in 100 have more AI tools than last year.
 
 More tools, more checking, less control. That's what the survey describes.
 
-The answer isn't another tool. It's a simple plan for each AI helper you add:
+We run our own company on 100+ AI employees, and that isn't our week. Not because our tools are better. Because every AI employee we add gets 4 things before it does any work. 1 of them is a rule about what it's never allowed to send on its own. The other 3 are why we can keep adding them without losing track.
 
-· 1 job, written down. What it does and what it doesn't.
-· 1 owner. The person who checks its work.
-· 1 rule for sending. Anything that goes to a customer or moves money waits for a yes.
-· 1 daily note. What it did, so nobody has to guess.
+On Sunday we open it up, live on Zoom, at The AI Employee Accelerator:
 
-On Sunday we'll show business owners how to set up the first 1, live on Zoom, at The AI Employee Accelerator. You'll leave with your first AI helper built and the rules it runs by.
+· Set up Claude properly on your own account
+· Build your first 2 AI employees: 1 answers a new lead in seconds, even at 2 AM, 1 keeps track of your competitors
+· See the 100+ that run Content Systems.ai
 
-Sun Nov 1, 11 AM Eastern. US clocks go back 1 hour that morning, so 11 AM Eastern is the time to set. $97 GA, $197 VIP.
+Sun Nov 1, 11 AM Eastern. US clocks go back 1 hour that morning, so 11 AM Eastern is the time to set. 120 minutes, replay included. $97 GA, $197 VIP.
 
 Save your seat: contentsystems.ai/workshop
 
 #SmallBusiness #BusinessOwners #AI #Management #Leadership #Operations #Workshop #Ecommerce #Logistics #FutureOfWork #Productivity #Entrepreneurs
 
 ## Alt text
-Cream card with the Content Systems.ai bulb mark. Headline: Your next team member might be an AI helper. Who manages it? Subline: we'll set up the first 1 live on Sunday, with a person approving every step. 2 stats: 58 in 100 managers expect to oversee more AI helpers than people, 29 in 100 say their setup is right.
+Portrait pixel-art graphic in a neon city world: Who manages your AI helper? A big SUN 11AM ET box with the line build your first 2 on Sunday. Starbursts: 58 in 100 managers expect more AI, 29 in 100 say their setup is right. Taped screenshots of the TechCrunch survey story and Claude Duet, pixel Korede and Sanjana.
 
 ## Notes
 Offer: The AI Employee Accelerator, Sun Nov 1 11 AM ET, $97 GA / $197 VIP, https://contentsystems.ai/workshop.
@@ -32,3 +31,4 @@ Sources (research/weekly/2026-W44.md 1.9):
 Judgement calls: "AI helpers" instead of "agents" for the plain-language rule. The 4-line plan teases the AI employee owner sheet (ig-company freebie) without giving it away. AEO opener describes the workshop offer (ai-workshops: "Build your first AI employees").
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Claude Duet (Oct 22 2026); TechCrunch, Monday.com manager survey (Oct 21 2026).
+Curiosity rewrite 2026-10-23: the 4-line plan (job, owner, sending rule, daily note) is no longer listed. The caption names that there are 4 things, reveals only that 1 is a sending rule, and keeps the other 3 for the session. Workshop bullets match the offer (set up Claude, 2 AI employees: lead response and competitor tracking, see the 100+).

@@ -38,3 +38,4 @@ Sources (research/weekly/2026-W44.md 1.7, 1.11):
 Judgement calls: "WISMO" kept on Korede's channel (his audience knows it). Replit line is phrased as the source states it, cost "among other reasons".
 
 Screenshots on the cover/collage (shots/, commentary use, credited here): TechCrunch, Replit switches default to OpenAI (Oct 17 2026); Anthropic, Agent Skills donated to the Agentic AI Foundation (Oct 22 2026).
+Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf + assets/freebies/sop-to-skill-sheet.pdf (the SOP-to-skill sheet goes with the Starter Pack on this post; both built and listed in config/offers.json leadMagnets).

@@ -21,3 +21,4 @@ Proof bank: 100+ AI employees in our own company.
 Freebie: "AI employee owner sheet" (keyword SYSTEMS): 1 page per AI helper, what it does, who approves, what it reports each day. To build and list in config/offers.json before approval.
 Pixel-world render (templates/pixel); the old classic render is kept as render.classic.json.
 Restyle 2026-10-23 (loud meme cover and CTA, rotating worlds and cast). Cover screenshots, taken with scripts/shot.mjs, commentary use: shots/survey.png = https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/; shots/microsoft.png = https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/.
+Keyword SYSTEMS sends: assets/freebies/ai-helper-owner-sheet.pdf (built, listed in config/offers.json leadMagnets).
