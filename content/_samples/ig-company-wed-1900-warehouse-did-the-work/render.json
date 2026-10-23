@@ -11,7 +11,8 @@
           "Your warehouse",
           "did the work.",
           "You never *billed* it."
-        ]
+        ],
+        "vo": "Your warehouse did the work. You never billed it."
       },
       {
         "type": "flow",
@@ -40,7 +41,8 @@
             "label": "Receiving fixes",
             "sub": "labor nobody charges for"
           }
-        ]
+        ],
+        "vo": "Storage overages. Accessorials. Kitting. Receiving fixes. Done on the floor, and never invoiced."
       },
       {
         "type": "stat",
@@ -49,7 +51,9 @@
         "value": 90000,
         "prefix": "$",
         "label": "a year, *earned* and never invoiced",
-        "note": "Illustrative: $250K billed a month, 3 in 100 dollars missed."
+        "note": "Illustrative: $250K billed a month, 3 in 100 dollars missed.",
+        "vo": "On $250K a month, missing 3 in every 100 dollars is $90K a year.",
+        "voSay": "On two hundred fifty thousand dollars a month, missing 3 in every 100 is ninety thousand a year."
       },
       {
         "type": "flow",
@@ -79,27 +83,23 @@
             "label": "You approve",
             "sub": "every line, by a person"
           }
-        ]
+        ],
+        "vo": "A system checks every event against the contract, flags the gap, and you approve every line."
       },
       {
         "type": "cta",
         "start": 21,
         "end": 25,
         "headline": "What's *your* number?",
-        "sub": "Run the free calculator. Link in bio."
+        "sub": "Run the free calculator. Link in bio.",
+        "vo": "What's your number? Run the free calculator. Link in bio."
       }
     ],
-    "captions": [
-      {
-        "start": 4.3,
-        "end": 10.3,
-        "text": "Done on the floor. *Never invoiced.*"
-      },
-      {
-        "start": 15.3,
-        "end": 20.8,
-        "text": "Every event checked against the contract. *You approve every line.*"
-      }
-    ]
+    "voice": "male",
+    "music": {
+      "title": "Warehouse Pulse",
+      "style": "minimal modern corporate electronic, warm analog synth pads, soft pulsing bass, light percussion, calm and confident, 100 bpm, no vocals",
+      "volume": 0.16
+    }
   }
 }

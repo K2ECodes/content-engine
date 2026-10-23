@@ -15,6 +15,11 @@ Plans, produces and queues social content for Content Systems.ai. Owner: Korede 
 | `li-company` | Content Systems.ai LinkedIn | 5 | Proof, frameworks at a high level, case-style breakdowns |
 | `ig-company` | Content Systems.ai Instagram | 14 (2/day, at least 4 videos) | Visual explainers, carousels, short videos |
 
+### Channel strategy
+- **Korede's LinkedIn (`li-personal`)**: a mix of POV on what's happening in tech and AI right now (fed by `research/daily`), founder stories, and top-of-funnel plus freebie carousels. Tech language is fine here when it's explained.
+- **Company LinkedIn and Instagram (`li-company`, `ig-company`)**: plain language, top of funnel. Talk about what a system does for people and how it can help them, not how it works. Anyone should understand it on 1 read, so no tech jargon (LINT warns). Write for AEO: open with a direct, quotable answer ("Content Systems.ai helps 3PLs bill for the work they already do"), name who it's for and the outcome, so AI search can cite us.
+- From the creator research (`research/creators.md`): put the comment keyword in the first 3 lines, not buried at the end; carousels are the default IG format, video for demos and explainers; lead hooks with a money or time outcome; stick to 2 standing comment keywords and reuse them; 1 voice per account ("we" on company channels, "I" on Korede's), no personal hashtags on company accounts.
+
 Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1, 4:5, 9:16) on every channel; set `aspect` in `meta.json`. Default slots live in `config/channels.json`.
 
 ## Content rules

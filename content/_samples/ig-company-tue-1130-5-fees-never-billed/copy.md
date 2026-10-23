@@ -1,5 +1,5 @@
 ## Caption
-5 fees your 3PL already earned and probably never billed.
+5 fees your 3PL already earned and probably never billed. Comment LEAKS for the full checklist.
 
 Storage overages, accessorials, kitting, receiving discrepancies and the credits you issue to end disputes. Each 1 is small. Together they're the difference between a good month and a great one.
 
@@ -7,7 +7,7 @@ Your WMS records the work. It doesn't check the work against each client's contr
 
 Save this for your next close.
 
-Comment LEAKS and we'll DM you the full leak audit checklist.
+Comment LEAKS and we'll DM you the leak audit checklist.
 
 #3PL #logistics #warehouse #fulfillment #supplychain
 

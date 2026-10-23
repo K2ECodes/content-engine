@@ -57,5 +57,38 @@
     "now go",
     "the best is yet to come",
     "onwards and upwards"
-  ]
+  ],
+  "companyJargon": {
+    "_readme": "Warned on li-company and ig-company captions and media. Explain the outcome instead.",
+    "channels": [
+      "li-company",
+      "ig-company"
+    ],
+    "terms": [
+      "LLM",
+      "LLMs",
+      "agentic",
+      "RAG",
+      "API",
+      "APIs",
+      "MCP",
+      "tokens",
+      "fine-tune",
+      "fine-tuning",
+      "embeddings",
+      "vector",
+      "orchestration",
+      "pipeline",
+      "prompt engineering",
+      "GPT",
+      "model weights",
+      "inference",
+      "integration layer",
+      "data layer",
+      "schema",
+      "webhook",
+      "SaaS stack",
+      "tech stack"
+    ]
+  }
 }

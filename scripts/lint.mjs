@@ -130,6 +130,12 @@ function lintCaption(caption, meta, file) {
       push('warn', 'cta', `cta_keyword "${meta.cta_keyword}" should be 1 uppercase word`);
   }
 
+  if (meta.cta_keyword) {
+    const head = caption.split('\n').filter((l) => l.trim()).slice(0, 3).join(' ');
+    if (!new RegExp(`\\b${escapeRe(meta.cta_keyword)}\\b`).test(head))
+      push('warn', 'cta', `put "${meta.cta_keyword}" in the first 3 lines, before the "more" cut`);
+  }
+
   const lastLines = caption.split('\n').map((l) => l.trim())
     .filter((l) => l && !/^(#[\p{L}\p{N}_]+\s*)+$/u.test(l)).slice(-2).join(' ');
   for (const p of STYLE.motivationalCloserPatterns) {
@@ -163,7 +169,7 @@ function lintMeta(meta, file) {
 }
 
 // On-media text lives in render.json. Lint every string except structural keys.
-const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt)$/i;
+const STRUCTURAL_KEYS = /^(template|theme|aspect|type|.*icon|posterAt|voice|voSay|style|title)$/i;
 function lintRenderJson(node, file, keyPath = '') {
   if (Array.isArray(node)) return node.flatMap((v, i) => lintRenderJson(v, file, `${keyPath}[${i}]`));
   if (node && typeof node === 'object')
@@ -175,6 +181,13 @@ function lintRenderJson(node, file, keyPath = '') {
     });
   if (typeof node !== 'string') return [];
   return lintText(node, { file }).map((i) => ({ ...i, line: 0, col: 0, file: `${file} ${keyPath}` }));
+}
+
+function lintJargon(text, meta, file) {
+  const j = STYLE.companyJargon;
+  if (!j || !j.channels.includes(meta.channel)) return [];
+  const re = new RegExp(`\\b(${j.terms.map(escapeRe).join('|')})\\b`, 'gi');
+  return [...text.matchAll(re)].map((m) => ({ file, line: 0, col: 0, level: 'warn', rule: 'jargon', message: `"${m[0]}" is jargon on a company channel. Say what it does for them` }));
 }
 
 export function lintPostDir(dir) {
@@ -212,6 +225,8 @@ export function lintPostDir(dir) {
     issues.push({ file: rel(copyPath), line: 0, col: 0, level: 'error', rule: 'structure', message: 'missing "## Caption" section' });
   } else if (meta) {
     issues.push(...lintCaption(caption.body.trim(), meta, rel(copyPath)));
+    issues.push(...lintJargon(caption.body, meta, rel(copyPath)));
+    if (fs.existsSync(renderPath)) issues.push(...lintJargon(fs.readFileSync(renderPath, 'utf8'), meta, rel(renderPath)));
   }
   return issues;
 }
