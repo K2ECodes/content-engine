@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  /* Story reel: motion-graphics-led, word-timed (research/style-nick-saraev.md). 1080x1920. */
+  .canvas { width: 1080px; height: 1920px; }
+  .world { position: absolute; inset: 0; }
+  .world.dark { background: var(--ink); }
+  .world.dark::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(245,240,232,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(245,240,232,.05) 1px, transparent 1px); background-size: 90px 90px; }
+  .world.dark::after { content: ''; position: absolute; left: 50%; top: -200px; width: 1400px; height: 1500px; transform: translateX(-50%); background: radial-gradient(ellipse at 50% 0%, rgba(245,240,232,.09), transparent 60%); }
+  .world.light { background: var(--cream); }
+  .world.light::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(23,40,28,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(23,40,28,.06) 1px, transparent 1px); background-size: 90px 90px; }
+  .dust { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); opacity: .3; }
+
+  /* Captions */
+  .caps { position: absolute; left: 60px; right: 60px; top: 220px; text-align: center; font: 700 80px/1.05 var(--f-head); z-index: 5; }
+  .caps .line { position: absolute; left: 0; right: 0; top: 0; }
+  .caps .w { display: inline-block; margin: 0 .12em; position: relative; opacity: 0; }
+  .dark-on .caps { color: var(--cream); }
+  .light-on .caps { color: var(--ink); }
+  .caps .w.box::before { content: ''; position: absolute; inset: -6px -12px; border: 3px solid var(--kc); background: color-mix(in srgb, var(--kc) 18%, transparent); border-radius: 4px; transform-origin: left; transform: scaleX(var(--bx, 0)); }
+  .caps .w.strike::after { content: ''; position: absolute; left: -4px; right: -4px; top: 52%; height: 6px; background: var(--orange); transform-origin: left; transform: scaleX(var(--sx, 0)); }
+  .dark-on { --kc: var(--gold); }
+  .light-on { --kc: var(--orange); }
+
+  /* Scenes */
+  .scene { position: absolute; left: 0; right: 0; top: 520px; bottom: 260px; display: flex; align-items: center; justify-content: center; opacity: 0; }
+  .card { width: 900px; border-radius: 24px; overflow: hidden; }
+  .dark .card, .card.d { background: #1F3426; border: 1px solid rgba(156,202,160,.25); box-shadow: 0 0 40px rgba(232,184,75,.08) inset, 0 30px 80px rgba(0,0,0,.35); color: var(--cream); }
+  .light .card, .card.l { background: #fff; border: 1px solid rgba(23,40,28,.12); box-shadow: 0 24px 60px rgba(23,40,28,.12); color: var(--ink); }
+  .win-bar { display: flex; align-items: center; gap: 12px; padding: 26px 32px; border-bottom: 1px solid rgba(127,127,127,.18); font: 700 32px/1 var(--f-data); }
+  .win-bar i { width: 18px; height: 18px; border-radius: 50%; background: rgba(127,127,127,.35); display: inline-block; }
+  .win-bar span { margin-left: 14px; }
+  .win-bar b { margin-left: auto; font: 700 24px/1 var(--f-data); color: var(--sage); }
+  .rows { padding: 12px 32px 26px; }
+  .r { display: flex; align-items: center; gap: 24px; padding: 26px 0; border-bottom: 1px solid rgba(127,127,127,.14); font: 600 46px/1.1 var(--f-head); opacity: 0; }
+  .r .dot { width: 60px; height: 60px; border-radius: 50%; background: rgba(156,202,160,.35); flex: none; display: grid; place-items: center; font: 700 22px var(--f-data); }
+  .r .val { margin-left: auto; font: 700 38px/1 var(--f-data); }
+  .chip { font: 700 28px/1 var(--f-data); padding: 12px 18px; border-radius: 999px; }
+  .chip.ok { background: var(--sage); color: var(--ink); }
+  .chip.bad { background: var(--orange); color: var(--ink); }
+  .chip.wait { background: rgba(232,184,75,.25); color: inherit; }
+  .r .tick { width: 54px; height: 54px; border-radius: 10px; border: 3px solid currentColor; flex: none; position: relative; opacity: .8; }
+  .r .tick svg { position: absolute; inset: 3px; stroke: var(--sage); stroke-width: 6; fill: none; stroke-dasharray: 40; stroke-dashoffset: 40; }
+
+  .odo { padding: 46px 40px 40px; text-align: center; }
+  .odo .digits { display: inline-flex; gap: 6px; font: 700 190px/1 var(--f-data); color: var(--gold); }
+  .light .odo .digits { color: var(--orange); }
+  .odo .d { display: inline-block; height: 1em; overflow: hidden; }
+  .odo .d .col { display: flex; flex-direction: column; }
+  .odo .d .col span { height: 1em; }
+  .odo .lbl { margin-top: 22px; font: 600 46px/1.2 var(--f-head); opacity: .8; }
+
+  .receipt-wrap { position: relative; width: 900px; height: 1100px; }
+  .printer { position: absolute; left: 0; right: 0; top: 0; height: 120px; border-radius: 24px; background: #2A4432; border: 1px solid rgba(156,202,160,.3); box-shadow: 0 20px 50px rgba(0,0,0,.3); z-index: 2; }
+  .light .printer { background: var(--ink); }
+  .printer::after { content: ''; position: absolute; left: 70px; right: 70px; bottom: 26px; height: 10px; border-radius: 5px; background: #0d1a11; }
+  .paper { position: absolute; left: 70px; right: 70px; top: 100px; background: #FBF8F2; color: var(--ink); clip-path: inset(0 0 100% 0); padding: 60px 44px 70px; font: 600 38px/1.7 var(--f-data); box-shadow: 0 20px 40px rgba(0,0,0,.25);
+           mask-image: linear-gradient(#000 96%, transparent); }
+  .paper .ln { display: flex; justify-content: space-between; }
+  .paper .ln.miss { color: var(--orange); }
+  .paper .tot { margin-top: 28px; padding-top: 22px; border-top: 3px dashed rgba(23,40,28,.4); display: flex; justify-content: space-between; font-size: 50px; font-weight: 700; }
+
+  .bigword { font: 900 150px/1 var(--f-display); letter-spacing: .04em; padding: 40px 60px 34px; border-radius: 18px; background: var(--gold); color: var(--ink); box-shadow: 0 0 80px rgba(232,184,75,.35); }
+  .cta-stack { display: flex; flex-direction: column; align-items: center; gap: 50px; }
+  .cbox { width: 900px; padding: 32px 34px; border-radius: 22px; font: 600 44px/1.2 var(--f-head); display: flex; align-items: center; gap: 18px; }
+  .cbox .avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--sage); flex: none; }
+  .cbox .typed::after { content: '|'; color: var(--orange); margin-left: 4px; }
+  .dm { opacity: 0; }
+
+  .stat-card { padding: 54px 50px; text-align: center; }
+  .stat-card .v { font: 700 200px/1 var(--f-head); color: var(--gold); }
+  .light .stat-card .v { color: var(--orange); }
+  .stat-card .l { margin-top: 18px; font: 600 40px/1.2 var(--f-head); }
+  .foot { position: absolute; right: 80px; bottom: 300px; font: 400 20px/1 var(--f-label); opacity: .55; }
+  .dark .foot { color: var(--cream); }
+
+  .stamp { position: absolute; z-index: 6; font: 900 96px/1 var(--f-display); letter-spacing: .06em; padding: 18px 34px 12px; border: 8px solid; border-radius: 10px; transform: rotate(-8deg); opacity: 0; }
+  .stamp.ok { color: #5f9a66; border-color: #5f9a66; }
+  .stamp.bad { color: var(--orange); border-color: var(--orange); }
+
+  .cursor { position: absolute; z-index: 7; width: 54px; height: 54px; opacity: 0; filter: drop-shadow(0 4px 6px rgba(0,0,0,.35)); }
+  .ripple { position: absolute; z-index: 6; width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%; border: 4px solid var(--gold); opacity: 0; }
+
+  /* Face plate (HeyGen take, transcoded to webm by render.mjs) */
+  .face { position: absolute; overflow: hidden; opacity: 0; z-index: 3; }
+  .face video { width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 38%; }
+  .face.full { inset: 0; }
+  .face.split { left: 0; right: 0; top: 860px; bottom: 0; }
+  .face.pip { right: 60px; bottom: 300px; width: 300px; height: 300px; border-radius: 40px; border: 3px solid var(--gold); }
+  .mark { position: absolute; right: 60px; top: 70px; width: 56px; z-index: 6; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data (resolved by render.mjs): { duration, words:[{w,start,end}], scenes:[{t, end, world, type, ...}], keys:[word], strikes:[word], face:{src}|null, faceCuts:[{t, layout, zoom}] }
+// Scene types: list {title, badge, rows:[{text, val, chip, chipKind, t}]} | checklist {title, rows:[{text,t}]} | odometer {value, prefix, suffix, label, land}
+//              receipt {lines:[{text, val, miss, t}], total:{text,val}, totalT} | stat {value, label, foot} | word {text} | cta {keyword, prompt, dm}
+// Overlays (scene.stamp {text, kind, t}, scene.click {t, x, y})
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const TICK = '<svg viewBox="0 0 36 36"><path d="M6 19l8 8L30 9"/></svg>';
+const CURSOR = '<svg viewBox="0 0 24 24"><path d="M4 2l16 10.5-7 1.5 4 7.5-3 1.5-4-7.5-6 5z" fill="#F5F0E8" stroke="#17281C" stroke-width="1.5"/></svg>';
+const cardCls = (sc) => '';
+
+const BUILD = {
+  list: (s) => `<div class="card"><div class="win-bar"><i></i><i></i><i></i><span>${esc(s.title)}</span>${s.badge ? `<b>${esc(s.badge)}</b>` : ''}</div><div class="rows">${s.rows.map((r) =>
+    `<div class="r"><div class="dot">${esc((r.text || '?')[0])}</div><span>${esc(r.text)}</span>${r.val ? `<span class="val">${esc(r.val)}</span>` : ''}${r.chip ? `<span class="chip ${r.chipKind || 'ok'}">${esc(r.chip)}</span>` : ''}</div>`).join('')}</div></div>`,
+  checklist: (s) => `<div class="card"><div class="win-bar"><i></i><i></i><i></i><span>${esc(s.title)}</span></div><div class="rows">${s.rows.map((r) =>
+    `<div class="r"><div class="tick">${TICK}</div><span>${esc(r.text)}</span></div>`).join('')}</div></div>`,
+  odometer: (s) => { const str = String(s.value); return `<div class="card"><div class="odo"><div class="digits" style="font-size:${Math.min(190, Math.floor(1180 / (str.length + (s.prefix || '').length + (s.suffix || '').length)))}px">${esc(s.prefix || '')}${[...str].map((ch) => /\d/.test(ch)
+    ? `<span class="d"><span class="col">${Array.from({ length: 20 }, (_, i) => `<span>${i % 10}</span>`).join('')}</span></span>` : `<span>${esc(ch)}</span>`).join('')}${esc(s.suffix || '')}</div><div class="lbl">${esc(s.label)}</div></div></div>`; },
+  receipt: (s) => `<div class="receipt-wrap"><div class="printer"></div><div class="paper">${s.lines.map((l) => `<div class="ln${l.miss ? ' miss' : ''}"><span>${esc(l.text)}</span><span>${esc(l.val)}</span></div>`).join('')}${s.total ? `<div class="tot"><span>${esc(s.total.text)}</span><span>${esc(s.total.val)}</span></div>` : ''}</div></div>`,
+  stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
+  word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
+  cta: (s) => `<div class="cta-stack"><div class="bigword">${esc(s.keyword)}</div><div class="card cbox"><div class="avatar"></div><span class="typed"></span></div>${s.dm ? `<div class="card cbox dm"><span>${esc(s.dm)}</span><span class="chip ok" style="margin-left:auto">SENT</span></div>` : ''}</div>`,
+};
+
+function sceneIn(tl, el, s) {
+  tl.set(el, { opacity: 1 }, s.t);
+  const inner = el.firstElementChild;
+  tl.fromTo(inner, { scale: 0.92, opacity: 0, filter: 'blur(12px)' }, { scale: 1, opacity: 1, filter: 'blur(0px)', duration: 0.3, ease: 'back.out(1.4)', immediateRender: false }, s.t);
+  tl.fromTo(el, { scale: 1 }, { scale: 1.04, duration: Math.max(0.5, s.end - s.t), ease: 'none' }, s.t);
+  tl.set(el, { opacity: 0 }, s.end);
+  window.sfx.push({ t: s.t, kind: 'tick' });
+}
+
+const ANIMATE = {
+  list: (tl, el, s) => el.querySelectorAll('.r').forEach((r, i) => {
+    const t = s.rows[i].t ?? s.t + 0.35 + i * 0.35;
+    tl.fromTo(r, { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.22, ease: 'power2.out' }, t);
+  }),
+  checklist: (tl, el, s) => el.querySelectorAll('.r').forEach((r, i) => {
+    const t = s.rows[i].t ?? s.t + 0.35 + i * 0.5;
+    tl.fromTo(r, { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.2 }, t - 0.15).to(r.querySelector('svg'), { strokeDashoffset: 0, duration: 0.2 }, t);
+    window.sfx.push({ t, kind: 'click' });
+  }),
+  odometer: (tl, el, s) => {
+    const str = String(s.value), cols = el.querySelectorAll('.d .col');
+    let k = 0;
+    [...str].forEach((ch) => { if (!/\d/.test(ch)) return; const col = cols[k++]; const target = 10 + Number(ch);
+      tl.fromTo(col, { y: 0 }, { y: `-${target}em`, duration: Math.max(0.5, (s.land ?? s.t + 0.8) - s.t - 0.05 * (cols.length - k)), ease: 'power3.out' }, s.t + 0.05 * k); });
+    window.sfx.push({ t: s.t + 0.1, kind: 'roll' }, { t: s.land ?? s.t + 0.8, kind: 'tick' });
+  },
+  receipt: (tl, el, s) => {
+    const paper = el.querySelector('.paper'), n = s.lines.length + (s.total ? 2 : 0);
+    const end = s.totalT ?? s.end - 0.6;
+    s.lines.forEach((l, i) => { const t = l.t ?? s.t + 0.3 + i * ((end - s.t - 0.3) / n);
+      tl.to(paper, { clipPath: `inset(0 0 ${Math.round(100 - ((i + 1) / n) * 100)}% 0)`, duration: 0.25, ease: 'none' }, t); window.sfx.push({ t, kind: 'print' }); });
+    tl.to(paper, { clipPath: 'inset(0 0 0% 0)', duration: 0.3, ease: 'none' }, end);
+    window.sfx.push({ t: end, kind: 'print' });
+  },
+  stat: () => {},
+  word: () => {},
+  cta: (tl, el, s) => {
+    const tx = el.querySelector('.typed'), msg = s.prompt || s.keyword, o = { n: 0 };
+    tl.to(o, { n: msg.length, duration: msg.length / 12, ease: `steps(${msg.length})`, onUpdate: () => { tx.textContent = msg.slice(0, Math.round(o.n)); } }, s.t + 0.5);
+    for (let i = 0; i < msg.length; i += 2) window.sfx.push({ t: s.t + 0.5 + i / 12, kind: 'key' });
+    const dm = el.querySelector('.dm');
+    if (dm) { const t = s.t + 0.6 + msg.length / 12 + 0.3; tl.fromTo(dm, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.25, ease: 'back.out(1.6)' }, t); window.sfx.push({ t, kind: 'tick' }); }
+  },
+};
+
+function sentences(words) {
+  const out = []; let cur = [];
+  words.forEach((w, i) => { cur.push({ ...w, i }); const txt = cur.map((x) => x.w).join(' ');
+    if (/[.?]$/.test(w.w) || (/[,;:]$/.test(w.w) && cur.length >= 5) || cur.length >= 9 || txt.length > 46) { out.push(cur); cur = []; } });
+  if (cur.length) out.push(cur);
+  return out;
+}
+
+window.renderPost = (data) => {
+  window.duration = data.duration;
+  window.sfx = [];
+  const keys = new Set((data.keys || []).map((k) => k.toLowerCase()));
+  const strikes = new Set((data.strikes || []).map((k) => k.toLowerCase()));
+  const clean = (w) => w.toLowerCase().replace(/[^\w$€.%]/g, '').replace(/\.$/, '');
+  const lines = sentences(data.words);
+  const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
+
+  document.getElementById('root').innerHTML = `<div class="canvas" id="cv">
+    <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div>
+    ${data.face ? `<div class="face" id="face"><video id="fv" src="${esc(data.face.src)}" muted playsinline preload="auto"></video></div>` : ''}
+    ${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}
+    <div class="caps">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
+    <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
+    <img class="mark" src="../../assets/brand/mark.png" alt="">
+  </div>`;
+
+  const tl = gsap.timeline({ paused: true });
+  const cv = document.getElementById('cv'), wd = document.getElementById('wd'), wl = document.getElementById('wl');
+  tl.to('.dust', { y: '-=60', duration: data.duration, ease: 'none' }, 0);
+
+  // Worlds follow scenes; captions follow the world.
+  let prevWorld = null;
+  data.scenes.forEach((s, i) => {
+    const el = document.getElementById('s' + i);
+    if (s.world !== prevWorld) {
+      tl.set(wd, { opacity: s.world === 'dark' ? 1 : 0 }, s.t).set(wl, { opacity: s.world === 'light' ? 1 : 0 }, s.t)
+        .set(cv, { attr: { class: `canvas ${s.world}-on` } }, s.t);
+      if (prevWorld) { tl.fromTo(cv, { filter: 'blur(10px)' }, { filter: 'blur(0px)', duration: 0.1, immediateRender: false }, s.t); window.sfx.push({ t: s.t, kind: 'whoosh' }); }
+      prevWorld = s.world;
+    }
+    sceneIn(tl, el, s);
+    ANIMATE[s.type](tl, el, s);
+    if (s.stamp) {
+      const st = el.querySelector('.stamp');
+      tl.fromTo(st, { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: 'power4.in' }, s.stamp.t)
+        .to(el.firstElementChild, { x: 6, duration: 0.033, yoyo: true, repeat: 3 }, s.stamp.t + 0.12);
+      window.sfx.push({ t: s.stamp.t + 0.12, kind: 'thud' });
+    }
+    if (s.click) {
+      const cur = document.getElementById('cur'), rip = document.getElementById('rip');
+      tl.fromTo(cur, { opacity: 0, left: s.click.x + 220, top: s.click.y + 260 }, { opacity: 1, left: s.click.x, top: s.click.y, duration: 0.5, ease: 'power2.inOut' }, s.click.t - 0.5)
+        .to(cur, { scale: 0.85, duration: 0.05, yoyo: true, repeat: 1 }, s.click.t)
+        .fromTo(rip, { opacity: 0.9, scale: 0.2, left: s.click.x + 10, top: s.click.y + 10 }, { opacity: 0, scale: 1.4, duration: 0.4 }, s.click.t)
+        .set(cur, { opacity: 0 }, s.end);
+      window.sfx.push({ t: s.click.t, kind: 'click' });
+    }
+  });
+  if (data.scenes[0]?.world) tl.set(cv, { attr: { class: `canvas ${data.scenes[0].world}-on` } }, 0).set(wd, { opacity: data.scenes[0].world === 'dark' ? 1 : 0 }, 0).set(wl, { opacity: data.scenes[0].world === 'light' ? 1 : 0 }, 0);
+
+  // Face layouts (hard cuts) and punch-ins.
+  if (data.face) {
+    const face = document.getElementById('face'), v = document.getElementById('fv');
+    (data.faceCuts || []).forEach((c, i) => {
+      const end = data.faceCuts[i + 1]?.t ?? data.duration;
+      tl.set(face, { attr: { class: `face ${c.layout}` }, opacity: c.layout === 'none' ? 0 : 1 }, c.t).set(v, { scale: c.zoom || 1 }, c.t);
+      if (c.push) tl.to(v, { scale: (c.zoom || 1) * 1.08, duration: 0.25, ease: 'power2.out' }, c.t + (c.pushAt ?? 0.3));
+    });
+  }
+
+  // Captions: word-by-word build, older words dim, line clears on sentence end.
+  lines.forEach((ln, li) => {
+    const line = document.getElementById('l' + li), start = ln[0].start - 0.03, end = lines[li + 1] ? lines[li + 1][0].start - 0.05 : Math.min(data.duration, ln.at(-1).end + 0.8);
+    tl.set(line, { opacity: 1, y: 0, filter: 'blur(0px)' }, Math.max(0, start - 0.01));
+    ln.forEach((w, k) => {
+      const el = document.getElementById('w' + w.i);
+      tl.fromTo(el, { opacity: 0, filter: 'blur(8px)', y: -8 }, { opacity: 1, filter: 'blur(0px)', y: 0, duration: 0.15, ease: 'power2.out' }, Math.max(0, w.start - 0.03));
+      if (ln[k + 1]) tl.to(el, { opacity: 0.45, duration: 0.2 }, ln[k + 1].start);
+      if (el.classList.contains('box')) tl.fromTo(el, { '--bx': 0 }, { '--bx': 1, duration: 0.2 }, w.start);
+      if (el.classList.contains('strike')) tl.fromTo(el, { '--sx': 0 }, { '--sx': 1, duration: 0.2 }, w.end - 0.05);
+    });
+    tl.to(line, { opacity: 0, y: -12, filter: 'blur(6px)', duration: 0.18 }, Math.max(start + 0.2, end - 0.18));
+  });
+
+  tl.set({}, {}, data.duration);
+  window.faceVideo = data.face ? document.getElementById('fv') : null;
+  window.seek = (t) => { tl.seek(t, false); };
+  window.seek(0);
+};
+</script>
+</body>
+</html>

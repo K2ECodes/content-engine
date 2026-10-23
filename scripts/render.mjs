@@ -173,6 +173,9 @@ const SFX = {
   click: 'anoisesrc=d=0.025:c=white:a=0.7,highpass=f=2500,afade=t=out:st=0:d=0.025',
   key: 'anoisesrc=d=0.03:c=pink:a=0.6,bandpass=f=3200:w=1800,afade=t=out:st=0:d=0.03',
   scratch: 'anoisesrc=d=0.32:c=brown:a=0.8,highpass=f=900,lowpass=f=4500,afade=t=in:d=0.05,afade=t=out:st=0.16:d=0.16',
+  roll: 'anoisesrc=d=0.6:c=pink:a=0.35,bandpass=f=1500:w=1200,tremolo=f=30:d=0.8,afade=t=out:st=0.3:d=0.3',
+  print: 'anoisesrc=d=0.28:c=white:a=0.3,bandpass=f=2500:w=2000,tremolo=f=45:d=0.9,afade=t=out:st=0.18:d=0.1',
+  whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
 };
 function sfxFile(kind) {
   const dir = path.join(ROOT, 'assets/sfx');
@@ -222,6 +225,45 @@ function probeSeconds(f) {
   return Number(String(r.stdout).trim()) || 0;
 }
 
+function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) {
+// Audio: voice first, short dry SFX about 20 dB under, optional music bed ducked under speech.
+  const ain = [], af = [], mix = [];
+  let n = 1; // input 0 is the silent video
+  if (voiceSrc) { ain.push('-i', voiceSrc); af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo[vo]`); n++; }
+  const kinds = [...new Set(sfx.map((c) => c.kind))];
+  for (const k of kinds) {
+    const cues = sfx.filter((c) => c.kind === k && c.t < duration);
+    if (!cues.length) continue;
+    ain.push('-i', sfxFile(k));
+    af.push(`[${n}:a]asplit=${cues.length}${cues.map((_, i) => `[${k}${i}]`).join('')}`);
+    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[${k}${i}]adelay=${ms}|${ms},volume=0.12[${k}d${i}]`); mix.push(`[${k}d${i}]`); });
+    n++;
+  }
+  let musicLabel = null;
+  if (music?.file) {
+    ain.push('-i', path.join(dir, music.file));
+    af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:${duration},volume=${music.volume ?? 0.07},afade=t=out:st=${Math.max(0, lastWordEnd)}:d=0.3[bed]`);
+    musicLabel = '[bed]'; n++;
+  }
+  const parts = [];
+  if (voiceSrc) { af.push('[vo]asplit=2[vo1][key]'); parts.push('[vo1]'); }
+  if (mix.length) { af.push(`${mix.join('')}amix=inputs=${mix.length}:normalize=0[sfx]`); parts.push('[sfx]'); }
+  if (musicLabel) {
+    if (voiceSrc) { af.push(`${musicLabel}[key]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[duck]`); parts.push('[duck]'); }
+    else parts.push(musicLabel);
+  } else if (voiceSrc) af.push('[key]anullsink');
+  const out = path.join(dir, 'video.mp4');
+  if (!parts.length) { fs.renameSync(silent, out); }
+  else {
+    af.push(`${parts.join('')}amix=inputs=${parts.length}:normalize=0,loudnorm=I=-14:TP=-1:LRA=9[aout]`);
+    const r = spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', silent, ...ain, '-filter_complex', af.join(';'), '-map', '0:v', '-map', '[aout]',
+      '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', String(duration), '-movflags', '+faststart', out], { stdio: 'inherit' });
+    if (r.status !== 0) throw new Error('ffmpeg split audio mix failed');
+    fs.rmSync(silent);
+    console.log(`  mixed voice + ${sfx.length} sfx cues${musicLabel ? ' + music' : ''}`);
+  }
+}
+
 async function renderSplit(browser, spec, dir, fps) {
   const { data, voiceSrc } = resolveSplit(dir, spec);
   const { page } = await openTemplate(browser, 'split', data, '9:16');
@@ -252,47 +294,74 @@ async function renderSplit(browser, spec, dir, fps) {
   await done;
   process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
 
-  // Audio: voice first, short dry SFX about 20 dB under, optional music bed ducked under speech.
-  const ain = [], af = [], mix = [];
-  let n = 1; // input 0 is the silent video
-  if (voiceSrc) { ain.push('-i', voiceSrc); af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo[vo]`); n++; }
-  const kinds = [...new Set(sfx.map((c) => c.kind))];
-  for (const k of kinds) {
-    const cues = sfx.filter((c) => c.kind === k && c.t < duration);
-    if (!cues.length) continue;
-    ain.push('-i', sfxFile(k));
-    af.push(`[${n}:a]asplit=${cues.length}${cues.map((_, i) => `[${k}${i}]`).join('')}`);
-    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[${k}${i}]adelay=${ms}|${ms},volume=0.12[${k}d${i}]`); mix.push(`[${k}d${i}]`); });
-    n++;
-  }
-  let musicLabel = null;
-  if (data.music?.file) {
-    ain.push('-i', path.join(dir, data.music.file));
-    af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:${duration},volume=${data.music.volume ?? 0.07},afade=t=out:st=${Math.max(0, data.words.at(-1).end)}:d=0.3[bed]`);
-    musicLabel = '[bed]'; n++;
-  }
-  const parts = [];
-  if (voiceSrc) { af.push('[vo]asplit=2[vo1][key]'); parts.push('[vo1]'); }
-  if (mix.length) { af.push(`${mix.join('')}amix=inputs=${mix.length}:normalize=0[sfx]`); parts.push('[sfx]'); }
-  if (musicLabel) {
-    if (voiceSrc) { af.push(`${musicLabel}[key]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[duck]`); parts.push('[duck]'); }
-    else parts.push(musicLabel);
-  } else if (voiceSrc) af.push('[key]anullsink');
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
   const out = path.join(dir, 'video.mp4');
-  if (!parts.length) { fs.renameSync(silent, out); }
-  else {
-    af.push(`${parts.join('')}amix=inputs=${parts.length}:normalize=0,loudnorm=I=-14:TP=-1:LRA=9[aout]`);
-    const r = spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', silent, ...ain, '-filter_complex', af.join(';'), '-map', '0:v', '-map', '[aout]',
-      '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', String(duration), '-movflags', '+faststart', out], { stdio: 'inherit' });
-    if (r.status !== 0) throw new Error('ffmpeg split audio mix failed');
-    fs.rmSync(silent);
-    console.log(`  mixed voice + ${sfx.length} sfx cues${musicLabel ? ' + music' : ''}`);
-  }
   // Poster: first beat fully in.
   await page.evaluate((t) => { window.seek(t); }, data.posterAt ?? Math.min(duration - 0.1, (data.beats[0]?.t ?? 0) + 0.7));
   await page.screenshot({ path: path.join(dir, 'poster-overlay.png'), omitBackground: true });
   spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(data.posterAt ?? Math.min(duration - 0.1, (data.beats[0]?.t ?? 0) + 0.7)), '-i', out, '-frames:v', '1', path.join(dir, 'poster.png')]);
   fs.rmSync(path.join(dir, 'poster-overlay.png'));
+  return ['video.mp4', 'poster.png'];
+}
+
+// ---------- story template (research/style-nick-saraev.md) ----------
+function resolveStory(dir, spec) {
+  const d = structuredClone(spec.data);
+  const words = JSON.parse(fs.readFileSync(path.join(dir, d.words), 'utf8')).words;
+  const faceSrc = d.face?.src ? path.join(dir, d.face.src) : null;
+  const voiceSrc = d.audio ? path.join(dir, d.audio) : faceSrc;
+  d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 1.8));
+  d.words = words;
+  const T = (a, label, lead = 0.05) => Math.max(0, wordTime(words, a, label) - lead);
+  d.scenes = d.scenes.map((sc, i) => {
+    const o = { ...sc, t: i === 0 && sc.at === undefined ? 0 : T(sc.at, `scene ${i}`, 0.12) };
+    for (const key of ['rows', 'lines']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
+    if (o.landAt !== undefined) o.land = wordTime(words, o.landAt, `scene ${i} land`);
+    if (o.totalAt !== undefined) o.totalT = T(o.totalAt, `scene ${i} total`);
+    if (o.stamp) o.stamp = { ...o.stamp, t: T(o.stamp.at, `scene ${i} stamp`) };
+    if (o.click) o.click = { ...o.click, t: T(o.click.at, `scene ${i} click`) };
+    return o;
+  }).sort((a, b) => a.t - b.t);
+  d.scenes.forEach((sc, i) => { sc.end = d.scenes[i + 1]?.t ?? d.duration; });
+  if (faceSrc) d.faceCuts = (d.faceCuts || []).map((c, i) => ({ ...c, t: c.at === undefined ? 0 : T(c.at, `faceCut ${i}`, 0.08) })).sort((a, b) => a.t - b.t);
+  return { data: d, voiceSrc, faceSrc };
+}
+
+async function renderStory(browser, spec, dir, fps) {
+  const { data, voiceSrc, faceSrc } = resolveStory(dir, spec);
+  if (faceSrc) {
+    // Headless Chromium can't decode H.264, so hand it a VP9 copy of the HeyGen take.
+    const webm = path.join(dir, '.face.webm');
+    if (!fs.existsSync(webm) || fs.statSync(webm).mtimeMs < fs.statSync(faceSrc).mtimeMs)
+      spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', faceSrc, '-an', '-c:v', 'libvpx-vp9', '-b:v', '6M', '-deadline', 'realtime', '-cpu-used', '8', webm], { stdio: 'inherit' });
+    data.face = { src: pathToFileURL(webm).href };
+  }
+  const { page } = await openTemplate(browser, 'story', data, '9:16');
+  if (faceSrc) await page.evaluate(() => new Promise((r) => { const v = window.faceVideo; v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); }));
+  const duration = data.duration, frames = Math.round(duration * fps);
+  const sfx = await page.evaluate(() => window.sfx);
+  const silent = path.join(dir, 'video-silent.mp4');
+  const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'png', '-i', '-',
+    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg exited ${c}`)))));
+  for (let f = 0; f < frames; f++) {
+    const t = f / fps;
+    await page.evaluate(async (t) => {
+      window.seek(t);
+      const v = window.faceVideo;
+      if (v) { const target = Math.min(t, (v.duration || t) - 0.04); if (Math.abs(v.currentTime - target) > 0.001) { await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; }); } }
+    }, t);
+    const buf = await page.screenshot({ type: 'png' });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+    if (f % fps === 0) process.stdout.write(`\r  frame ${f}/${frames}`);
+  }
+  ff.stdin.end();
+  await done;
+  process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
+  const out = path.join(dir, 'video.mp4');
+  const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.6);
+  spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', out, '-frames:v', '1', path.join(dir, 'poster.png')]);
   return ['video.mp4', 'poster.png'];
 }
 
@@ -312,6 +381,7 @@ async function main(argv) {
       : spec.template === 'carousel' ? await renderCarousel(browser, data, aspect, dir)
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
+      : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
     meta.media = files;
     fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');

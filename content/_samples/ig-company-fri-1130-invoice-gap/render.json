@@ -1,0 +1,176 @@
+{
+  "template": "story",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.1
+    },
+    "script": "Your warehouse did $250K of work last month. Your invoices only said $242K. So where did the rest go? Storage that ran past the free period. Special handling the team did on the floor. A kitting job somebody quoted in an email. None of it made the bill. Not because anyone's careless. Because nobody's checking the work against the contract. So we built a system that does. Every day it reads what happened in the warehouse, matches it to each client's rate, and flags what's missing. Your team approves every line. Then it's billed. Want to see what you're missing? Comment SYSTEMS and we'll send you the checklist.",
+    "keys": [
+      "$250,000",
+      "$242,000",
+      "missing",
+      "system",
+      "systems"
+    ],
+    "strikes": [
+      "careless"
+    ],
+    "scenes": [
+      {
+        "world": "dark",
+        "type": "odometer",
+        "value": "250,000",
+        "prefix": "$",
+        "label": "of work done last month",
+        "landAt": "$250,000"
+      },
+      {
+        "at": "invoices",
+        "world": "light",
+        "type": "stat",
+        "value": "$242K",
+        "label": "on the invoices",
+        "foot": "Illustrative numbers"
+      },
+      {
+        "at": "rest",
+        "world": "dark",
+        "type": "word",
+        "text": "$8K?"
+      },
+      {
+        "at": "Storage",
+        "world": "light",
+        "type": "receipt",
+        "lines": [
+          {
+            "text": "Storage overage",
+            "val": "$3,100",
+            "miss": true,
+            "at": "Storage"
+          },
+          {
+            "text": "Special handling",
+            "val": "$2,400",
+            "miss": true,
+            "at": "Special"
+          },
+          {
+            "text": "Kitting project",
+            "val": "$2,500",
+            "miss": true,
+            "at": "kitting"
+          }
+        ],
+        "total": {
+          "text": "Not billed",
+          "val": "$8,000"
+        },
+        "totalAt": "None",
+        "stamp": {
+          "text": "MISSED",
+          "kind": "bad",
+          "at": "bill.",
+          "x": 260,
+          "y": 760
+        }
+      },
+      {
+        "at": "Not",
+        "world": "dark",
+        "type": "list",
+        "title": "Who checks the contract?",
+        "rows": [
+          {
+            "text": "Ops team",
+            "chip": "No",
+            "chipKind": "bad",
+            "at": "nobody"
+          },
+          {
+            "text": "Billing",
+            "chip": "No",
+            "chipKind": "bad",
+            "at": "checking"
+          },
+          {
+            "text": "The WMS",
+            "chip": "No",
+            "chipKind": "bad",
+            "at": "contract."
+          }
+        ]
+      },
+      {
+        "at": "system",
+        "world": "light",
+        "type": "checklist",
+        "title": "Every day, automatically",
+        "rows": [
+          {
+            "text": "Read the warehouse activity",
+            "at": "reads"
+          },
+          {
+            "text": "Match each client's rates",
+            "at": "matches"
+          },
+          {
+            "text": "Flag what's missing",
+            "at": "flags"
+          }
+        ],
+        "click": {
+          "at": "flags",
+          "x": 700,
+          "y": 1180
+        }
+      },
+      {
+        "at": "approves",
+        "world": "dark",
+        "type": "list",
+        "title": "Ready to bill",
+        "badge": "3 lines",
+        "rows": [
+          {
+            "text": "Storage overage",
+            "val": "$3,100",
+            "chip": "Approved",
+            "at": "approves"
+          },
+          {
+            "text": "Special handling",
+            "val": "$2,400",
+            "chip": "Approved",
+            "at": "every"
+          },
+          {
+            "text": "Kitting project",
+            "val": "$2,500",
+            "chip": "Approved",
+            "at": "line."
+          }
+        ],
+        "stamp": {
+          "text": "BILLED",
+          "kind": "ok",
+          "at": "billed.",
+          "x": 300,
+          "y": 820
+        }
+      },
+      {
+        "at": "Want",
+        "world": "dark",
+        "type": "cta",
+        "keyword": "SYSTEMS",
+        "prompt": "SYSTEMS",
+        "dm": "Checklist sent to your DMs"
+      }
+    ]
+  }
+}

@@ -123,6 +123,22 @@ async function withRetry(fn, tries = 3) {
   }
 }
 
+// Gemini 3.8 takes a free-text delivery direction per turn; voices are named by use case, gender undocumented (auditioned).
+export const CREATOR_STYLE = 'Young guy in his late 20s narrating a viral Instagram explainer reel. Energetic, confident and conversational, quick pace, punchy emphasis on numbers, warm and natural, never announcer-like.';
+async function ttsGemini38(text, voice, { label, styleText = CREATOR_STYLE }) {
+  const name = VOICES[voice]?.gemini38 || voice;
+  const d = await runTask('google/gemini-3-8-flash-tts', {
+    speakers: [{ speaker_id: 'Speaker 1', voice_name: name }],
+    dialogue_turns: [{ speaker_id: 'Speaker 1', style: styleText, text }],
+  }, { label, estimateUsd: 0.03 });
+  return d.result.resultUrls?.[0];
+}
+export async function ttsCreator(text, { voice = 'male', out, label, styleText }) {
+  const url = await withRetry(() => ttsGemini38(text, voice, { label, styleText }));
+  const ext = path.extname(new URL(url).pathname) || '.wav';
+  return download(url, out.replace(/\.[a-z0-9]+$/i, '') + ext);
+}
+
 // provider: 'auto' (ElevenLabs, then Gemini; skips ElevenLabs for the rest of the run once it fails) | 'eleven' | 'gemini'
 let elevenDown = false;
 export async function tts(text, { voice = 'male', out, label, provider = process.env.KIE_TTS_PROVIDER || 'auto', speed = 1, stability = 0.5, style = 0, geminiStyle }) {

@@ -32,3 +32,20 @@
 {"ts":"2026-10-23T04:41:12.359Z","model":"ai-music-api/generate","taskId":"59afca3d47e50d2a1ace6ccb330f5765","state":"success","credits":12,"usd":0.06,"label":"ig-company-wed-1900-warehouse-did-the-work music"}
 {"ts":"2026-10-23T04:53:39.663Z","model":"google/gemini-3-1-flash-tts","taskId":"cbbb727847c05810d210797a53f59bf7","state":"success","credits":2.86,"usd":0.0143,"label":"split sample vo"}
 {"ts":"2026-10-23T04:54:07.903Z","model":"nano-banana-2","taskId":"eefcd6522b480507a8f69147516fd32d","state":"success","credits":8,"usd":0.04,"label":"split sample plate"}
+{"ts":"2026-10-23T05:28:16.208Z","model":"google/gemini-3-1-flash-tts","taskId":"2bba6dcb1e49c19868dfe100654bb8d9","state":"success","credits":3.21,"usd":0.0161,"label":"story sample vo"}
+{"ts":"2026-10-23T05:28:29.204Z","model":"ai-music-api/generate","taskId":"ea64e1aea904afc42559ffe1a1c57a6b","state":"success","credits":12,"usd":0.06,"label":"story sample music"}
+{"ts":"2026-10-23T05:39:26.885Z","model":"google/gemini-3-8-flash-tts","taskId":"7ec93532896a97ec8803cd6ae1c28fcf","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:26.963Z","model":"google/gemini-3-8-flash-tts","taskId":"9c338077c6b303880ebfcd7ea880276b","state":"success","credits":0.26,"usd":0.0013,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:26.967Z","model":"google/gemini-3-8-flash-tts","taskId":"283ef4a21ebf9eec9092f974f2a4237c","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:26.979Z","model":"google/gemini-3-8-flash-tts","taskId":"d70c2281b2ce7f40f2ec621586c3cb2b","state":"success","credits":0.24,"usd":0.0012,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.306Z","model":"google/gemini-3-8-flash-tts","taskId":"07cf19e246c38fc81da816fb70d7d020","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.402Z","model":"google/gemini-3-8-flash-tts","taskId":"a0e386e1350b5d1b6cebb07adf28cbdf","state":"success","credits":0.24,"usd":0.0012,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.403Z","model":"google/gemini-3-8-flash-tts","taskId":"3d7be00e3abef2c23e6b4eff14cc71e3","state":"success","credits":0.26,"usd":0.0013,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.422Z","model":"google/gemini-3-8-flash-tts","taskId":"8eba9d734a66a29e896bd468977bd396","state":"success","credits":0.25,"usd":0.0013,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.500Z","model":"google/gemini-3-8-flash-tts","taskId":"7cf99e3459197ccbb1b37e250787b5f7","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:27.502Z","model":"google/gemini-3-8-flash-tts","taskId":"926644744d4dae7bdd07dd166d84a949","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:38.303Z","model":"google/gemini-3-8-flash-tts","taskId":"baf20b577efa1dcb1b1e88537b5a64b2","state":"success","credits":0.23,"usd":0.0011,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:38.304Z","model":"google/gemini-3-8-flash-tts","taskId":"d9c759aaa6aadbba907734566d8afde3","state":"success","credits":0.23,"usd":0.0011,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:38.634Z","model":"google/gemini-3-8-flash-tts","taskId":"e9c01ab3922e5302fed836dc4b27f930","state":"success","credits":0.26,"usd":0.0013,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:38.641Z","model":"google/gemini-3-8-flash-tts","taskId":"01ab0b2d4988fb36bade48ceb4e846f0","state":"fail","credits":0,"usd":0,"label":"creator voice audition"}
+{"ts":"2026-10-23T05:39:43.766Z","model":"google/gemini-3-8-flash-tts","taskId":"61d3702e9447beab65dac7f976c68679","state":"success","credits":0.24,"usd":0.0012,"label":"creator voice audition"}

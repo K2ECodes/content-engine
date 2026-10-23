@@ -26,6 +26,13 @@ async function main(argv) {
   } else if (cmd === 'voices') {
     const v = await hg.voices();
     for (const x of v.data || v) console.log(`${x.voice_id}  ${x.name}  ${x.language}  ${x.gender}`);
+  } else if (cmd === 'train') {
+    // node scripts/heygen.mjs train <footage.mp4> "<name>" [--group <avatar_group_id>]
+    const r = await hg.trainTwin({ file: path.resolve(a1), name: argv[2], groupId: arg(argv, 'group') });
+    console.log(JSON.stringify({ look: r.avatar_item?.id, group: r.avatar_group?.id, voice: r.avatar_item?.default_voice_id, status: r.avatar_item?.status }, null, 2));
+  } else if (cmd === 'look') {
+    const l = await hg.getLook(a1);
+    console.log(JSON.stringify({ id: l.id, name: l.name, status: l.status, error: l.error, group: l.group_id, engines: l.supported_api_engines, orientation: l.preferred_orientation, size: `${l.image_width}x${l.image_height}` }, null, 2));
   } else if (cmd === 'plate') {
     const dir = path.resolve(a1);
     const spec = JSON.parse(fs.readFileSync(path.join(dir, 'render.json'), 'utf8')).data;

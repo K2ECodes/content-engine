@@ -106,3 +106,23 @@ export async function avatarVideo({ lookId, script, audio, voiceId, engine = 'av
     }
   }
 }
+
+// Upload a large file with direct upload (up to 200 MB video), returns asset_id.
+export async function directUpload(file, contentType = 'video/mp4') {
+  const size = fs.statSync(file).size;
+  const d = await call('POST', '/v3/assets/direct-uploads', { filename: path.basename(file), content_type: contentType, size_bytes: size });
+  const res = await fetch(d.upload_url, { method: 'PUT', headers: d.upload_headers || { 'Content-Type': contentType }, body: fs.readFileSync(file) });
+  if (!res.ok) throw new Error(`direct upload PUT ${res.status}`);
+  await call('POST', `/v3/assets/${d.asset_id}/complete`, {});
+  return d.asset_id;
+}
+
+export const getLook = (id) => call('GET', `/v3/avatars/looks/${id}`);
+
+// Train a digital twin from footage. Pass groupId to add it as a new look of an existing character (same person).
+export async function trainTwin({ file, name, groupId }) {
+  const asset_id = await directUpload(file);
+  const body = { type: 'digital_twin', name, file: { type: 'asset_id', asset_id } };
+  if (groupId) body.avatar_group_id = groupId;
+  return call('POST', '/v3/avatars', body);
+}
