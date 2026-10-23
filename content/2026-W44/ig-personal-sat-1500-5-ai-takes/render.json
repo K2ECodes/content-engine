@@ -18,11 +18,13 @@
         "blocks": [
           {
             "text": "5 AI takes",
-            "size": 120
+            "style": "acc",
+            "size": 116
           },
           {
             "text": "people *won't like.*",
-            "size": 104
+            "style": "white",
+            "size": 100
           }
         ],
         "blocksY": 90,
@@ -41,13 +43,19 @@
           "bright": 0.4
         },
         "label": "Take 1.",
-        "labelY": 150,
+        "labelY": 100,
         "quote": {
           "text": "If your AI can't say\n*I don't know*,\nit's guessing.",
-          "sub": "Ask it what it's unsure about. Watch what happens.",
-          "y": 250,
-          "size": 80
-        }
+          "y": 190,
+          "size": 100
+        },
+        "ann": [
+          {
+            "k": "Try this",
+            "v": "ask it what it's unsure about before you trust the answer."
+          }
+        ],
+        "annY": 1030
       },
       {
         "kind": "quote",
@@ -58,13 +66,19 @@
           "bright": 0.4
         },
         "label": "Take 2.",
-        "labelY": 150,
+        "labelY": 100,
         "quote": {
           "text": "Agents that act\nwithout asking\naren't brave.\n*They're a liability.*",
-          "sub": "Speed is cheap. Undoing a wrong email isn't.",
-          "y": 250,
-          "size": 80
-        }
+          "y": 190,
+          "size": 100
+        },
+        "ann": [
+          {
+            "k": "Try this",
+            "v": "let it draft. Keep the send button yours."
+          }
+        ],
+        "annY": 1030
       },
       {
         "kind": "quote",
@@ -75,13 +89,19 @@
           "bright": 0.4
         },
         "label": "Take 3.",
-        "labelY": 150,
+        "labelY": 100,
         "quote": {
           "text": "Prompting isn't\nthe skill.\n*Knowing your\nbusiness is.*",
-          "sub": "The best prompt is just your process written down.",
-          "y": 250,
-          "size": 80
-        }
+          "y": 190,
+          "size": 100
+        },
+        "ann": [
+          {
+            "k": "Try this",
+            "v": "write your process down once. That's the prompt."
+          }
+        ],
+        "annY": 1030
       },
       {
         "kind": "quote",
@@ -92,13 +112,19 @@
           "bright": 0.4
         },
         "label": "Take 4.",
-        "labelY": 150,
+        "labelY": 100,
         "quote": {
           "text": "You don't need\n10 AI tools.\n*You need 1 that\nknows your work.*",
-          "sub": "Every extra tool is another place your context lives.",
-          "y": 250,
-          "size": 80
-        }
+          "y": 190,
+          "size": 100
+        },
+        "ann": [
+          {
+            "k": "Try this",
+            "v": "list your tools. Cut the ones that don't know your work."
+          }
+        ],
+        "annY": 1030
       },
       {
         "kind": "quote",
@@ -109,13 +135,31 @@
           "bright": 0.4
         },
         "label": "Take 5.",
-        "labelY": 150,
+        "labelY": 100,
         "quote": {
           "text": "The best AI feature\nthis year is\n*a yes button.*",
-          "sub": "The tools that ask before they act are the ones I trust.",
-          "y": 250,
-          "size": 80
-        }
+          "y": 190,
+          "size": 100
+        },
+        "frames": [
+          {
+            "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
+            "x": 120,
+            "y": 0,
+            "w": 680,
+            "h": 380,
+            "pos": "50% 8%"
+          }
+        ],
+        "fh": 380,
+        "bodyY": 600,
+        "ann": [
+          {
+            "k": "Try this",
+            "v": "pick tools that ask before they act. Claude Duet waits for your yes."
+          }
+        ],
+        "annY": 1030
       },
       {
         "kind": "cta",
@@ -130,11 +174,13 @@
         "blocks": [
           {
             "text": "Comment *AI*",
-            "size": 120
+            "style": "white",
+            "size": 116
           },
           {
             "text": "for my starter pack.",
-            "size": 72
+            "style": "acc",
+            "size": 76
           }
         ],
         "blocksY": 90,

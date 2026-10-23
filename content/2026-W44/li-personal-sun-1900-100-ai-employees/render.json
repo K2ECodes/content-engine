@@ -24,11 +24,13 @@
         "blocks": [
           {
             "text": "We hired *100+*",
-            "size": 110
+            "style": "white",
+            "size": 100
           },
           {
             "text": "AI employees.",
-            "size": 110
+            "style": "acc",
+            "size": 100
           }
         ],
         "blocksY": 60,
@@ -41,13 +43,13 @@
       {
         "kind": "body",
         "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
           "pos": "50% 50%",
           "blur": true
         },
         "label": "What they do",
         "title": "The work we\nused to *do by hand*",
-        "bodyY": 540,
+        "bodyY": 470,
         "list": [
           {
             "n": "1",
@@ -65,18 +67,21 @@
             "n": "4",
             "text": "Run our ads"
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010
       },
       {
         "kind": "body",
         "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
           "pos": "50% 50%",
           "blur": true
         },
         "label": "The 1 rule",
         "title": "Nothing goes out\nwithout a *yes*.",
-        "bodyY": 560,
+        "bodyY": 470,
         "list": [
           {
             "n": "1",
@@ -100,18 +105,21 @@
             "k": "Why",
             "v": "1 wrong email costs more than the time it saved."
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010
       },
       {
         "kind": "body",
         "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
           "pos": "50% 50%",
           "blur": true
         },
         "label": "What they still can't do",
         "title": "4 jobs that\nstay *human*",
-        "bodyY": 540,
+        "bodyY": 470,
         "list": [
           {
             "n": "1",
@@ -129,23 +137,27 @@
             "n": "4",
             "text": "Own it when something breaks"
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010
       },
       {
         "kind": "quote",
         "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana.jpg",
-          "pos": "90% 50%",
+          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
+          "pos": "66% 0%",
+          "size": "auto 1350px",
           "dim": {
-            "top": 0.8,
-            "bot": 0.5
+            "top": 0.5,
+            "bot": 0.45
           }
         },
         "quote": {
-          "text": "AI does the work.\n*People own it.*",
-          "sub": "Korede Kolawole, co-founder, Content Systems.ai",
-          "y": 130,
-          "size": 88
+          "text": "AI does\nthe work.\n*People\nown it.*",
+          "sub": "Korede Kolawole,\nco-founder,\nContent Systems.ai",
+          "y": 200,
+          "size": 96
         }
       },
       {
@@ -167,11 +179,13 @@
         "blocks": [
           {
             "text": "Comment *AI*",
-            "size": 120
+            "style": "white",
+            "size": 110
           },
           {
             "text": "for our starter pack.",
-            "size": 66
+            "style": "acc",
+            "size": 72
           }
         ],
         "blocksY": 60,

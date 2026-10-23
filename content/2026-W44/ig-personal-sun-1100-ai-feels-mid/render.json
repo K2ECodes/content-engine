@@ -24,14 +24,16 @@
         "blocks": [
           {
             "text": "Your AI isn't dumb.",
-            "size": 96
+            "style": "acc",
+            "size": 92
           },
           {
             "text": "You're using it *wrong.*",
-            "size": 96
+            "style": "white",
+            "size": 92
           }
         ],
-        "blocksY": 100,
+        "blocksY": 90,
         "pay": {
           "text": "*4 fixes* that changed how I use it.",
           "y": 1010,
@@ -47,7 +49,7 @@
         },
         "label": "Fix 1.",
         "title": "Give it *files*,\nnot one-liners",
-        "bodyY": 560,
+        "bodyY": 430,
         "list": [
           {
             "text": "\"Write me a reply\"",
@@ -66,7 +68,10 @@
             "k": "Why it works",
             "v": "it stops guessing who you are."
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010
       },
       {
         "kind": "body",
@@ -77,31 +82,39 @@
         },
         "label": "Fix 2.",
         "title": "Make it *ask*\nbefore it acts",
-        "bodyY": 560,
-        "list": [
-          {
-            "n": "1",
-            "text": "It drafts the email"
-          },
-          {
-            "n": "2",
-            "text": "You tap yes"
-          },
-          {
-            "n": "3",
-            "text": "Then it sends"
-          }
-        ],
+        "bodyY": 430,
         "ann": [
           {
             "k": "Looks like",
-            "v": "nothing sends or spends without your yes."
+            "v": "Claude Duet drafts the email, you approve it. Microsoft warns agents can act like insider threats."
           },
           {
             "k": "Why it works",
             "v": "nothing embarrassing goes out."
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010,
+        "frames": [
+          {
+            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/duet.png",
+            "x": 0,
+            "y": 110,
+            "w": 450,
+            "h": 440,
+            "pos": "50% 59%"
+          },
+          {
+            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png",
+            "x": 470,
+            "y": 0,
+            "w": 450,
+            "h": 440,
+            "pos": "50% 63%"
+          }
+        ],
+        "fh": 560
       },
       {
         "kind": "body",
@@ -112,21 +125,39 @@
         },
         "label": "Fix 3.",
         "title": "Turn repeats\ninto *skills*",
-        "bodyY": 560,
-        "stat": {
-          "value": "70+",
-          "label": "AI tools now read the same skills format"
-        },
+        "bodyY": 430,
         "ann": [
           {
             "k": "Looks like",
-            "v": "the prompt you paste every morning, saved once as a folder it loads itself."
+            "v": "the prompt you paste every morning, saved once as a skill. 70+ AI tools now read the format."
           },
           {
             "k": "Why it works",
             "v": "you stop re-explaining."
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010,
+        "frames": [
+          {
+            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
+            "x": 0,
+            "y": 70,
+            "w": 450,
+            "h": 470,
+            "pos": "50% 0%"
+          },
+          {
+            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif.png",
+            "x": 470,
+            "y": 0,
+            "w": 450,
+            "h": 540,
+            "pos": "50% 0%"
+          }
+        ],
+        "fh": 560
       },
       {
         "kind": "body",
@@ -137,7 +168,7 @@
         },
         "label": "Fix 4.",
         "title": "Make it *check*\nits own work",
-        "bodyY": 560,
+        "bodyY": 430,
         "list": [
           {
             "n": "1",
@@ -161,7 +192,10 @@
             "k": "Why it works",
             "v": "it catches the mistakes you'd catch."
           }
-        ]
+        ],
+        "labelY": 100,
+        "titleY": 170,
+        "annY": 1010
       },
       {
         "kind": "cta",
@@ -182,14 +216,16 @@
         "blocks": [
           {
             "text": "Comment *AI*",
-            "size": 120
+            "style": "white",
+            "size": 116
           },
           {
-            "text": "and I'll send my starter pack.",
-            "size": 60
+            "text": "I'll send my starter pack.",
+            "style": "acc",
+            "size": 70
           }
         ],
-        "blocksY": 100,
+        "blocksY": 90,
         "pay": {
           "text": "5 skills you can *copy today.*",
           "y": 1030,

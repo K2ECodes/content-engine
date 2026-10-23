@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../_base/brand.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Instrument+Serif:ital@0;1&display=block" rel="stylesheet">
+<style>
+  /* Korede's personal-brand photo carousel (research/style-personal-carousel.md, ref @mr.pynk).
+     1 photo per carousel: cutout of Korede on the cover (optionally over a swapped clean background),
+     the same photo blurred and darkened behind every inner slide, crisp cards on top. 1080x1350.
+     Type: Inter 600-700 tight (-0.05em) + Instrument Serif italic for accent words. No bursts, no stickers. */
+  .canvas { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--bgc, #0f1a13); --a: var(--acc, #E8B84B); --at: var(--acct, #17281C);
+    font-family: 'Inter', sans-serif; color: #fff; }
+  .ph { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
+  .ph.blur { inset: -80px; filter: blur(var(--bl, 26px)) brightness(var(--br, .55)) saturate(1.05); }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,12,10,var(--top, .6)) 0%, rgba(8,12,10,0) 40%, rgba(8,12,10,0) 62%, rgba(8,12,10,var(--bot, .7)) 100%); }
+  .cut { position: absolute; z-index: 3; filter: drop-shadow(0 30px 50px rgba(0,0,0,.5)); }
+  .k { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; color: var(--a); font-size: 1.1em; }
+  .blocks { position: absolute; left: 70px; right: 70px; z-index: 5; text-align: center; }
+  .blocks { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .blk { font: 700 var(--fs, 104px)/1.0 'Inter'; letter-spacing: -0.05em; padding: 14px 28px 20px; box-shadow: 0 14px 34px rgba(0,0,0,.35); white-space: nowrap; }
+  .blk.acc { background: var(--a); color: var(--at); }
+  .blk.acc .k { color: #fff; }
+  .blk.white { background: #fff; color: #111; }
+  .blk.white .k { color: #A8761B; }
+  .blk.ink { background: #111; color: #fff; }
+  .blk.bare { color: #fff; text-shadow: 0 4px 30px rgba(0,0,0,.45); box-shadow: none; padding: 0; }
+  .blk:nth-child(2) { transform: translateX(var(--off, 30px)); }
+  .pay { position: absolute; left: 110px; right: 110px; z-index: 6; background: #F7F3EA; border: 6px solid var(--a); padding: 28px 34px 32px; text-align: center; font: 700 50px/1.12 'Inter'; letter-spacing: -0.04em; color: #111; box-shadow: 0 20px 50px rgba(0,0,0,.35); }
+  .pay .k { color: #A8761B; }
+  .pay u { text-decoration: none; background: linear-gradient(var(--a), var(--a)) 0 92% / 100% 8px no-repeat; }
+
+  .label { position: absolute; left: 80px; z-index: 5; font: 700 28px/1 'Inter'; letter-spacing: 0.02em; text-transform: uppercase; background: var(--a); color: var(--at); padding: 14px 22px; }
+  .title { position: absolute; left: 80px; right: 80px; z-index: 5; font: 700 var(--ts, 92px)/1.02 'Inter'; letter-spacing: -0.05em; color: #fff; }
+  .body { position: absolute; left: 80px; right: 80px; z-index: 5; display: flex; flex-direction: column; gap: 26px; }
+  .stat { display: flex; align-items: center; gap: 30px; }
+  .stat b { font: 700 210px/0.9 'Inter'; letter-spacing: -0.06em; color: var(--a); }
+  .stat span { font: 600 42px/1.18 'Inter'; letter-spacing: -0.03em; color: #fff; max-width: 9em; }
+  .list { display: flex; flex-direction: column; gap: 16px; }
+  .list .i { display: flex; gap: 24px; align-items: center; background: #F7F3EA; border-left: 10px solid var(--a); padding: 30px 32px; font: 600 40px/1.15 'Inter'; letter-spacing: -0.035em; color: #111; box-shadow: 0 14px 34px rgba(0,0,0,.28); }
+  .list .i em { font: 700 30px/1 'Inter'; font-style: normal; width: 56px; height: 56px; flex: none; display: grid; place-items: center; border-radius: 50%; background: var(--a); color: var(--at); letter-spacing: 0; }
+  .list .i.off { background: rgba(250,247,240,.35); color: rgba(255,255,255,.75); text-decoration: line-through; text-decoration-thickness: 3px; }
+  .list .i .k { color: #A8761B; }
+  .frames { position: relative; height: var(--fh, 520px); }
+  .frame { position: absolute; background: #fff; padding: 10px; box-shadow: 0 20px 44px rgba(0,0,0,.5); }
+  .frame img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: var(--p, 50% 30%); }
+  .ann { position: absolute; left: 80px; right: 80px; top: var(--ay, 1000px); z-index: 6; background: #F7F3EA; border: 5px solid var(--a); padding: 22px 28px; font: 600 32px/1.32 'Inter'; letter-spacing: -0.03em; color: #111; }
+  .ann div + div { margin-top: 10px; }
+  .ann b { color: #A8761B; font-weight: 700; }
+  .prog { position: absolute; left: 0; bottom: 0; height: 10px; z-index: 8; background: var(--a); }
+  .quote { position: absolute; left: 80px; right: 80px; z-index: 5; text-shadow: 0 4px 26px rgba(0,0,0,.55); font: 700 var(--qs, 84px)/1.04 'Inter'; letter-spacing: -0.05em; color: #fff; }
+  .quote small { display: block; margin-top: 34px; font: 500 36px/1.35 'Inter'; letter-spacing: -0.02em; color: rgba(255,255,255,.78); }
+  .text { font: 500 46px/1.3 'Inter'; letter-spacing: -0.03em; color: #fff; }
+  .text p + p { margin-top: 26px; }
+  .text mark { background: none; color: var(--a); font-weight: 700; }
+
+  .foot { position: absolute; left: 56px; right: 56px; bottom: 40px; z-index: 7; display: flex; align-items: center; justify-content: space-between; color: rgba(255,255,255,.9); font: 600 28px/1 'Inter'; letter-spacing: -0.02em; text-shadow: 0 2px 10px rgba(0,0,0,.5); }
+  .foot .h { display: flex; align-items: center; gap: 12px; }
+  .foot svg { width: 32px; height: 32px; stroke: currentColor; fill: none; stroke-width: 2; }
+  .count { position: absolute; top: 40px; right: 56px; z-index: 7; font: 600 26px/1 'Inter'; color: rgba(255,255,255,.75); }
+  .wm { position: absolute; left: 0; right: 0; bottom: 100px; z-index: 7; display: flex; justify-content: center; }
+  .wm img { height: 70px; filter: brightness(0) invert(1) drop-shadow(0 3px 10px rgba(0,0,0,.5)); }
+  .swipe { position: absolute; right: 56px; bottom: 100px; z-index: 7; font: 600 28px/1 'Inter'; color: #fff; background: rgba(0,0,0,.4); padding: 14px 22px; border-radius: 40px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { handle, platform: instagram|linkedin, accent, slides: [ {
+//   kind: cover|body|quote|text|cta,
+//   photo: { src (repo path), pos "50% 30%", size "cover", blur: true, dim: {top, bot} }, bgc,
+//   cut: { src, x, y, h, flip },
+//   blocks: [{ text ("*k*" = accent word), style: acc|white|ink|bare, size }], blocksY, off,
+//   pay: { text ("_u_" underline), y }, label, title, titleY, bodyY,
+//   stat: { value, label }, list: [{ n, text, off }], frames: [{ src, x, y, w, h, rot, pos }], fh, ann: [{ k, v }],
+//   quote: { text, sub, y }, text: [para], swipe, wordmark } ] }
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const fmt = (s) => esc(s).replace(/\*(.+?)\*/g, '<span class="k">$1</span>').replace(/_(.+?)_/g, '<u>$1</u>').replace(/\[(.+?)\]/g, '<mark>$1</mark>').replace(/\n/g, '<br>');
+const R = (p) => /^(https?|file|data):/.test(p) ? p : `../../${p}`;
+const ICONS = {
+  ig: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>',
+  li: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>',
+  bm: '<svg viewBox="0 0 24 24" style="fill:currentColor"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+};
+let DATA;
+window.renderPost = (data) => { DATA = data; window.slideCount = data.slides.length; window.showSlide(0); };
+window.showSlide = (i) => {
+  const s = DATA.slides[i], A = s.accent || DATA.accent || '#E8B84B';
+  const ph = s.photo ? `<div class="ph${s.photo.blur ? ' blur' : ''}" style="background-image:url('${R(s.photo.src)}');background-position:${s.photo.pos || '50% 30%'};background-size:${s.photo.size || 'cover'};${s.photo.blur && s.photo.blur !== true ? `--bl:${s.photo.blur}px` : ''}${s.photo.bright ? `;--br:${s.photo.bright}` : ''}"></div><div class="shade" style="--top:${s.photo.dim?.top ?? .55};--bot:${s.photo.dim?.bot ?? .7}"></div>` : '';
+  const cut = s.cut ? `<img class="cut" src="${R(s.cut.src)}" style="left:${s.cut.x}px;top:${s.cut.y}px;height:${s.cut.h}px;${s.cut.flip ? 'transform:scaleX(-1)' : ''}">` : '';
+  const blocks = s.blocks ? `<div class="blocks" style="top:${s.blocksY ?? 110}px;--off:${s.off ?? 30}px">${s.blocks.map((b) => `<div class="blk ${b.style || 'acc'}" style="${b.size ? `--fs:${b.size}px` : ''}">${fmt(b.text)}</div>`).join('')}</div>` : '';
+  const pay = s.pay ? `<div class="pay" style="top:${s.pay.y ?? 930}px;${s.pay.size ? `font-size:${s.pay.size}px` : ''}">${fmt(s.pay.text)}</div>` : '';
+  const label = s.label ? `<div class="label" style="top:${s.labelY ?? 120}px">${esc(s.label)}</div>` : '';
+  const title = s.title ? `<div class="title" style="top:${s.titleY ?? 210}px;${s.titleSize ? `--ts:${s.titleSize}px` : ''}">${fmt(s.title)}</div>` : '';
+  let body = '';
+  if (s.stat) body += `<div class="stat"><b>${esc(s.stat.value)}</b><span>${esc(s.stat.label)}</span></div>`;
+  if (s.list) body += `<div class="list">${s.list.map((it) => `<div class="i${it.off ? ' off' : ''}">${it.n !== undefined ? `<em>${esc(it.n)}</em>` : ''}<span>${fmt(it.text)}</span></div>`).join('')}</div>`;
+  if (s.frames) body += `<div class="frames" style="--fh:${s.fh ?? 520}px">${s.frames.map((f) => `<div class="frame" style="left:${f.x}px;top:${f.y}px;width:${f.w}px;height:${f.h}px;transform:rotate(${f.rot ?? 0}deg);--p:${f.pos || '50% 30%'}"><img src="${R(f.src)}"></div>`).join('')}</div>`;
+  if (s.text) body += `<div class="text">${s.text.map((p) => `<p>${fmt(p)}</p>`).join('')}</div>`;
+  const annEl = s.ann ? `<div class="ann" style="--ay:${s.annY ?? 1010}px">${s.ann.map((a) => `<div><b>${esc(a.k)}:</b> ${esc(a.v)}</div>`).join('')}</div>` : '';
+  const bodyEl = body ? `<div class="body" style="top:${s.bodyY ?? 470}px">${body}</div>` : '';
+  const quote = s.quote ? `<div class="quote" style="top:${s.quote.y ?? 160}px;${s.quote.size ? `--qs:${s.quote.size}px` : ''}">${esc(s.quote.text).replace(/\*([\s\S]+?)\*/g, '<span class=\"k\">$1</span>').replace(/\n/g, '<br>')}${s.quote.sub ? `<small>${esc(s.quote.sub).replace(/\n/g, '<br>')}</small>` : ''}</div>` : '';
+  document.getElementById('root').innerHTML = `
+    <div class="canvas" style="--acc:${A};--acct:${s.accentText || DATA.accentText || '#17281C'};${s.bgc ? `--bgc:${s.bgc}` : ''}">
+      ${ph}${cut}${blocks}${label}${title}${bodyEl}${annEl}${quote}${pay}<div class="prog" style="width:${((i + 1) / DATA.slides.length) * 100}%"></div>
+      <div class="count">${i + 1}/${DATA.slides.length}</div>
+      ${s.swipe ? `<div class="swipe">${esc(s.swipe)} &rarr;</div>` : ''}
+      ${s.wordmark ? `<div class="wm"${s.wmTop ? ` style="top:${s.wmTop}px;bottom:auto"` : ''}>` + '<img src="../../assets/brand/lockup-horizontal.png" alt=""></div>' : ''}
+      <div class="foot"><span class="h">${DATA.platform === 'linkedin' ? ICONS.li : ICONS.ig}${esc(DATA.handle || '@koredekola')}</span><span class="h">save for later ${ICONS.bm}</span></div>
+    </div>`;
+};
+</script>
+</body>
+</html>

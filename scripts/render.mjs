@@ -680,6 +680,7 @@ async function main(argv) {
     const files = spec.template === 'static' ? await renderStatic(browser, data, aspect, dir)
       : spec.template === 'carousel' ? await renderCarousel(browser, data, aspect, dir)
       : spec.template === 'pixel' ? await renderCarousel(browser, { ...data, brandsCfg: JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8')), slides: data.slides.map((sl) => ({ ...sl, ...(sl.bgPhoto ? { bgPhoto: pathToFileURL(path.resolve(dir, sl.bgPhoto)).href } : {}), collage: (sl.collage || []).map((c) => ({ ...c, srcUrl: pathToFileURL(path.resolve(dir, c.src)).href })) })) }, '4:5', dir, 'pixel')
+      : spec.template === 'photo' ? await renderCarousel(browser, data, '4:5', dir, 'photo-carousel')
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)
