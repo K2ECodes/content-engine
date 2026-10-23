@@ -282,8 +282,8 @@
         "at": "tabs",
         "kind": "text",
         "text": "5 tabs = pain",
-        "x": 560,
-        "y": 860,
+        "x": 140,
+        "y": 700,
         "size": 70,
         "until": "Your"
       },

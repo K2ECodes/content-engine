@@ -1,0 +1,695 @@
+{
+ "words": [
+  {
+   "w": "Anthropic",
+   "start": 0.0,
+   "end": 0.7
+  },
+  {
+   "w": "just",
+   "start": 0.7,
+   "end": 1.06
+  },
+  {
+   "w": "gave",
+   "start": 1.06,
+   "end": 1.48
+  },
+  {
+   "w": "Agent",
+   "start": 1.48,
+   "end": 2.0
+  },
+  {
+   "w": "Skills",
+   "start": 2.0,
+   "end": 2.24
+  },
+  {
+   "w": "away.",
+   "start": 2.24,
+   "end": 2.64
+  },
+  {
+   "w": "70+",
+   "start": 2.64,
+   "end": 3.84
+  },
+  {
+   "w": "AI",
+   "start": 3.84,
+   "end": 4.22
+  },
+  {
+   "w": "tools",
+   "start": 4.22,
+   "end": 4.62
+  },
+  {
+   "w": "now",
+   "start": 4.62,
+   "end": 4.96
+  },
+  {
+   "w": "run",
+   "start": 4.96,
+   "end": 5.2
+  },
+  {
+   "w": "the",
+   "start": 5.2,
+   "end": 5.36
+  },
+  {
+   "w": "same",
+   "start": 5.36,
+   "end": 5.66
+  },
+  {
+   "w": "skill",
+   "start": 5.66,
+   "end": 5.92
+  },
+  {
+   "w": "files.",
+   "start": 5.92,
+   "end": 6.32
+  },
+  {
+   "w": "Over",
+   "start": 6.32,
+   "end": 6.96
+  },
+  {
+   "w": "1M",
+   "start": 6.96,
+   "end": 7.64
+  },
+  {
+   "w": "skills,",
+   "start": 7.64,
+   "end": 8.06
+  },
+  {
+   "w": "nearly",
+   "start": 8.3,
+   "end": 8.52
+  },
+  {
+   "w": "280M",
+   "start": 8.52,
+   "end": 9.8
+  },
+  {
+   "w": "installs.",
+   "start": 9.8,
+   "end": 10.72
+  },
+  {
+   "w": "Here's",
+   "start": 10.72,
+   "end": 11.1
+  },
+  {
+   "w": "why",
+   "start": 11.1,
+   "end": 11.26
+  },
+  {
+   "w": "that's",
+   "start": 11.26,
+   "end": 11.5
+  },
+  {
+   "w": "huge.",
+   "start": 11.5,
+   "end": 11.72
+  },
+  {
+   "w": "A",
+   "start": 12.16,
+   "end": 12.34
+  },
+  {
+   "w": "skill",
+   "start": 12.34,
+   "end": 12.6
+  },
+  {
+   "w": "is",
+   "start": 12.6,
+   "end": 12.86
+  },
+  {
+   "w": "a",
+   "start": 12.86,
+   "end": 13.0
+  },
+  {
+   "w": "saved",
+   "start": 13.0,
+   "end": 13.32
+  },
+  {
+   "w": "how-to",
+   "start": 13.32,
+   "end": 13.78
+  },
+  {
+   "w": "your",
+   "start": 13.78,
+   "end": 14.02
+  },
+  {
+   "w": "AI",
+   "start": 14.02,
+   "end": 14.34
+  },
+  {
+   "w": "can",
+   "start": 14.34,
+   "end": 14.6
+  },
+  {
+   "w": "actually",
+   "start": 14.6,
+   "end": 15.06
+  },
+  {
+   "w": "run.",
+   "start": 15.06,
+   "end": 15.42
+  },
+  {
+   "w": "Write",
+   "start": 15.72,
+   "end": 16.06
+  },
+  {
+   "w": "it",
+   "start": 16.06,
+   "end": 16.2
+  },
+  {
+   "w": "once,",
+   "start": 16.2,
+   "end": 16.44
+  },
+  {
+   "w": "use",
+   "start": 16.72,
+   "end": 16.9
+  },
+  {
+   "w": "it",
+   "start": 16.9,
+   "end": 17.02
+  },
+  {
+   "w": "in",
+   "start": 17.02,
+   "end": 17.1
+  },
+  {
+   "w": "Claude,",
+   "start": 17.1,
+   "end": 17.5
+  },
+  {
+   "w": "ChatGPT,",
+   "start": 17.62,
+   "end": 18.3
+  },
+  {
+   "w": "or",
+   "start": 18.52,
+   "end": 18.56
+  },
+  {
+   "w": "Cursor.",
+   "start": 18.56,
+   "end": 19.02
+  },
+  {
+   "w": "No",
+   "start": 19.3,
+   "end": 19.54
+  },
+  {
+   "w": "more",
+   "start": 19.54,
+   "end": 19.76
+  },
+  {
+   "w": "pasting",
+   "start": 19.76,
+   "end": 20.18
+  },
+  {
+   "w": "the",
+   "start": 20.18,
+   "end": 20.32
+  },
+  {
+   "w": "same",
+   "start": 20.32,
+   "end": 20.5
+  },
+  {
+   "w": "prompt",
+   "start": 20.5,
+   "end": 20.82
+  },
+  {
+   "w": "every",
+   "start": 20.82,
+   "end": 21.18
+  },
+  {
+   "w": "morning.",
+   "start": 21.18,
+   "end": 21.46
+  },
+  {
+   "w": "So",
+   "start": 21.92,
+   "end": 22.12
+  },
+  {
+   "w": "here",
+   "start": 22.12,
+   "end": 22.52
+  },
+  {
+   "w": "are",
+   "start": 22.52,
+   "end": 22.64
+  },
+  {
+   "w": "the",
+   "start": 22.64,
+   "end": 22.68
+  },
+  {
+   "w": "5",
+   "start": 22.68,
+   "end": 22.88
+  },
+  {
+   "w": "I'd",
+   "start": 22.88,
+   "end": 23.12
+  },
+  {
+   "w": "set",
+   "start": 23.12,
+   "end": 23.26
+  },
+  {
+   "w": "up",
+   "start": 23.26,
+   "end": 23.4
+  },
+  {
+   "w": "first.",
+   "start": 23.4,
+   "end": 23.64
+  },
+  {
+   "w": "1,",
+   "start": 24.06,
+   "end": 24.4
+  },
+  {
+   "w": "inbox",
+   "start": 24.78,
+   "end": 25.04
+  },
+  {
+   "w": "triage.",
+   "start": 25.04,
+   "end": 25.54
+  },
+  {
+   "w": "It",
+   "start": 25.88,
+   "end": 26.0
+  },
+  {
+   "w": "sorts",
+   "start": 26.0,
+   "end": 26.22
+  },
+  {
+   "w": "what",
+   "start": 26.22,
+   "end": 26.44
+  },
+  {
+   "w": "needs",
+   "start": 26.44,
+   "end": 26.74
+  },
+  {
+   "w": "you",
+   "start": 26.74,
+   "end": 26.9
+  },
+  {
+   "w": "from",
+   "start": 26.9,
+   "end": 27.12
+  },
+  {
+   "w": "what",
+   "start": 27.12,
+   "end": 27.26
+  },
+  {
+   "w": "doesn't.",
+   "start": 27.26,
+   "end": 27.88
+  },
+  {
+   "w": "2,",
+   "start": 27.88,
+   "end": 28.16
+  },
+  {
+   "w": "meeting",
+   "start": 28.68,
+   "end": 28.8
+  },
+  {
+   "w": "notes.",
+   "start": 28.8,
+   "end": 29.14
+  },
+  {
+   "w": "Every",
+   "start": 29.6,
+   "end": 29.82
+  },
+  {
+   "w": "call",
+   "start": 29.82,
+   "end": 30.08
+  },
+  {
+   "w": "becomes",
+   "start": 30.08,
+   "end": 30.36
+  },
+  {
+   "w": "a",
+   "start": 30.36,
+   "end": 30.56
+  },
+  {
+   "w": "task",
+   "start": 30.56,
+   "end": 30.72
+  },
+  {
+   "w": "list.",
+   "start": 30.72,
+   "end": 30.98
+  },
+  {
+   "w": "3,",
+   "start": 31.44,
+   "end": 31.74
+  },
+  {
+   "w": "the",
+   "start": 32.14,
+   "end": 32.16
+  },
+  {
+   "w": "weekly",
+   "start": 32.16,
+   "end": 32.4
+  },
+  {
+   "w": "report.",
+   "start": 32.4,
+   "end": 32.86
+  },
+  {
+   "w": "It",
+   "start": 33.2,
+   "end": 33.28
+  },
+  {
+   "w": "pulls",
+   "start": 33.28,
+   "end": 33.46
+  },
+  {
+   "w": "the",
+   "start": 33.46,
+   "end": 33.64
+  },
+  {
+   "w": "numbers",
+   "start": 33.64,
+   "end": 33.86
+  },
+  {
+   "w": "and",
+   "start": 33.86,
+   "end": 34.12
+  },
+  {
+   "w": "drafts",
+   "start": 34.12,
+   "end": 34.54
+  },
+  {
+   "w": "it.",
+   "start": 34.54,
+   "end": 34.64
+  },
+  {
+   "w": "4,",
+   "start": 35.08,
+   "end": 35.42
+  },
+  {
+   "w": "research",
+   "start": 35.78,
+   "end": 36.06
+  },
+  {
+   "w": "brief.",
+   "start": 36.06,
+   "end": 36.36
+  },
+  {
+   "w": "1",
+   "start": 36.78,
+   "end": 36.98
+  },
+  {
+   "w": "question",
+   "start": 36.98,
+   "end": 37.28
+  },
+  {
+   "w": "in,",
+   "start": 37.28,
+   "end": 37.54
+  },
+  {
+   "w": "sources",
+   "start": 37.76,
+   "end": 37.96
+  },
+  {
+   "w": "out.",
+   "start": 37.96,
+   "end": 38.3
+  },
+  {
+   "w": "5,",
+   "start": 38.78,
+   "end": 39.14
+  },
+  {
+   "w": "the",
+   "start": 39.5,
+   "end": 39.54
+  },
+  {
+   "w": "daily",
+   "start": 39.54,
+   "end": 39.86
+  },
+  {
+   "w": "brief.",
+   "start": 39.86,
+   "end": 40.2
+  },
+  {
+   "w": "What's",
+   "start": 40.58,
+   "end": 40.84
+  },
+  {
+   "w": "late,",
+   "start": 40.84,
+   "end": 41.08
+  },
+  {
+   "w": "what's",
+   "start": 41.28,
+   "end": 41.52
+  },
+  {
+   "w": "stuck,",
+   "start": 41.52,
+   "end": 41.68
+  },
+  {
+   "w": "what",
+   "start": 41.92,
+   "end": 42.02
+  },
+  {
+   "w": "needs",
+   "start": 42.02,
+   "end": 42.26
+  },
+  {
+   "w": "you.",
+   "start": 42.26,
+   "end": 42.44
+  },
+  {
+   "w": "And",
+   "start": 42.82,
+   "end": 42.92
+  },
+  {
+   "w": "every",
+   "start": 42.92,
+   "end": 43.24
+  },
+  {
+   "w": "1",
+   "start": 43.24,
+   "end": 43.42
+  },
+  {
+   "w": "of",
+   "start": 43.42,
+   "end": 43.52
+  },
+  {
+   "w": "them",
+   "start": 43.52,
+   "end": 43.62
+  },
+  {
+   "w": "waits",
+   "start": 43.62,
+   "end": 43.82
+  },
+  {
+   "w": "for",
+   "start": 43.82,
+   "end": 44.0
+  },
+  {
+   "w": "my",
+   "start": 44.0,
+   "end": 44.2
+  },
+  {
+   "w": "yes",
+   "start": 44.2,
+   "end": 44.54
+  },
+  {
+   "w": "before",
+   "start": 44.54,
+   "end": 44.82
+  },
+  {
+   "w": "it",
+   "start": 44.82,
+   "end": 45.02
+  },
+  {
+   "w": "sends.",
+   "start": 45.02,
+   "end": 45.24
+  },
+  {
+   "w": "Comment",
+   "start": 45.72,
+   "end": 46.1
+  },
+  {
+   "w": "AI",
+   "start": 46.1,
+   "end": 46.52
+  },
+  {
+   "w": "and",
+   "start": 46.52,
+   "end": 46.98
+  },
+  {
+   "w": "I'll",
+   "start": 46.98,
+   "end": 47.12
+  },
+  {
+   "w": "send",
+   "start": 47.12,
+   "end": 47.28
+  },
+  {
+   "w": "you",
+   "start": 47.28,
+   "end": 47.4
+  },
+  {
+   "w": "my",
+   "start": 47.4,
+   "end": 47.5
+  },
+  {
+   "w": "starter",
+   "start": 47.5,
+   "end": 47.76
+  },
+  {
+   "w": "pack,",
+   "start": 47.76,
+   "end": 48.1
+  },
+  {
+   "w": "plus",
+   "start": 48.1,
+   "end": 48.38
+  },
+  {
+   "w": "the",
+   "start": 48.38,
+   "end": 48.56
+  },
+  {
+   "w": "permission",
+   "start": 48.56,
+   "end": 48.82
+  },
+  {
+   "w": "sheet.",
+   "start": 48.82,
+   "end": 49.12
+  }
+ ],
+ "text": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that's huge. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT, or Cursor. No more pasting the same prompt every morning. So here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Comment AI and I'll send you my starter pack, plus the permission sheet."
+}

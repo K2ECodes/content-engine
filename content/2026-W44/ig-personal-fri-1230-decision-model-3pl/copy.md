@@ -30,3 +30,4 @@ Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, listed in
 
 - Visual upgrade 2026-10-23: every scene has a full-bleed `bg` (AI-generated on kie.ai nano-banana-2, 1K, $0.04 each, in bg/), word-timed logo, pixel-sprite and meme-burst pops added.
 - People (person scene, no quote): Sam Altman, OpenAI CEO, photo by TechCrunch, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg.
+- Re-voiced 2026-10-23 in Korede's own HeyGen instant clone (freeSpeech, free), tightened, re-transcribed; old Jett narrator audio and words kept in old-jett/.

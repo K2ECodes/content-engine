@@ -28,7 +28,7 @@
   .dust { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); opacity: .3; }
 
   /* Captions */
-  .caps { position: absolute; left: 60px; right: 150px; top: 1010px; text-align: center; font: 700 90px/1.05 var(--f-head); -webkit-text-stroke: 3px #0B140E; paint-order: stroke fill; text-shadow: 0 6px 0 #0B140E, 0 0 18px rgba(0,0,0,.5); transition: none; z-index: 5; }
+  .caps { position: absolute; left: 60px; right: 150px; top: 860px; text-align: center; font: 700 90px/1.05 var(--f-head); -webkit-text-stroke: 3px #0B140E; paint-order: stroke fill; text-shadow: 0 6px 0 #0B140E, 0 0 18px rgba(0,0,0,.5); transition: none; z-index: 5; }
   .caps .line { position: absolute; left: 0; right: 0; top: 0; }
   .caps .w { display: inline-block; margin: 0 .12em; position: relative; opacity: 0; }
   .dark-on .caps { color: #FFFFFF; }
@@ -39,8 +39,11 @@
   .light-on { --kc: #17281C; }
 
   /* Scenes */
-  .scene { position: absolute; left: 0; right: 0; top: 260px; bottom: 940px; display: flex; align-items: center; justify-content: center; opacity: 0; }
-  .scene > * { zoom: .78; }
+  .scene { position: absolute; left: 0; right: 0; top: 330px; bottom: 1110px; display: flex; align-items: center; justify-content: center; opacity: 0; }
+  .scene > * { zoom: .7; }
+  .scenes.lower .scene { top: 1120px; bottom: 360px; }
+  .world.solid { transition: none; }
+  .scrap { position: absolute; width: 26px; height: 18px; border-radius: 3px; opacity: .9; box-shadow: 0 2px 0 rgba(0,0,0,.25); }
   .card { width: 900px; border-radius: 24px; overflow: hidden; }
   .dark .card, .card.d { background: #1F3426; border: 1px solid rgba(156,202,160,.25); box-shadow: 0 0 40px rgba(232,184,75,.08) inset, 0 30px 80px rgba(0,0,0,.35); color: var(--cream); }
   .light .card, .card.l { background: #fff; border: 1px solid rgba(23,40,28,.12); box-shadow: 0 24px 60px rgba(23,40,28,.12); color: var(--ink); }
@@ -95,7 +98,7 @@
   .shot .bar { display: flex; align-items: center; gap: 10px; padding: 16px 22px; background: #EDE7DC; font: 600 24px/1 var(--f-data); color: #444; }
   .shot .bar i { width: 14px; height: 14px; border-radius: 50%; background: rgba(0,0,0,.2); display: inline-block; }
   .shot .bar span { margin-left: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-  .shot .img { height: var(--sh, 760px); overflow: hidden; }
+  .shot .img { height: min(var(--sh, 760px), 620px); overflow: hidden; }
   .shot .img img { width: 100%; display: block; transform-origin: 50% 0; }
   .shot-cap { margin-top: 26px; text-align: center; font: 700 44px/1.15 var(--f-head); color: var(--cream); text-shadow: 0 3px 10px rgba(0,0,0,.6); }
   .light .shot-cap { color: var(--ink); text-shadow: none; }
@@ -140,6 +143,9 @@
   .hook .dust { position: absolute; width: 360px; height: 120px; border-radius: 50%; background: radial-gradient(ellipse, rgba(245,240,232,.75), rgba(245,240,232,0) 70%); opacity: 0; }
   .sbg { position: absolute; inset: 0; z-index: 3; opacity: 0; overflow: hidden; }
   .sbg img { width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 40%; }
+  .stopm .sbg { inset: auto; left: 130px; right: 130px; top: 330px; height: 900px; border: 18px solid #FBF7EE; border-bottom-width: 70px; border-radius: 6px; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
+  .stopm .sbg::before { content: ''; position: absolute; top: -34px; left: 50%; width: 210px; height: 56px; margin-left: -105px; background: rgba(255,224,102,.85); transform: rotate(-4deg); z-index: 2; }
+  .stopm .sbg::after { display: none; }
   .sbg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,16,11,.55) 0%, rgba(8,16,11,.15) 30%, rgba(8,16,11,.25) 55%, rgba(8,16,11,.85) 100%); }
   .person { width: 900px; display: flex; flex-direction: column; align-items: center; text-align: center; }
   .person .ph { width: 520px; height: 520px; border-radius: 50%; overflow: hidden; border: 10px solid var(--pc, #FFC93C); box-shadow: 0 0 0 10px #0B140E, 0 30px 70px rgba(0,0,0,.6); background: #222; }
@@ -198,6 +204,10 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 const TICK = '<svg viewBox="0 0 36 36"><path d="M6 19l8 8L30 9"/></svg>';
 const CURSOR = '<svg viewBox="0 0 24 24"><path d="M4 2l16 10.5-7 1.5 4 7.5-3 1.5-4-7.5-6 5z" fill="#F5F0E8" stroke="#17281C" stroke-width="1.5"/></svg>';
 const cardCls = (sc) => '';
+// Stop-motion house style (Korede: "those have dopamine"): bold solid colour per scene, 12 fps stepped motion, paper jitter, scraps.
+const PALETTE = ['#17281C', '#F26B1D', '#F2B705', '#0B6E4F', '#E83E8C', '#2D5BE3', '#17281C', '#C1272D'];
+const LIGHTISH = new Set(['#F2B705']);
+const SCRAP_COLORS = ['#F5F0E8', '#F2B705', '#17281C', '#9CCAA0'];
 const burst = (color) => { const pts = []; for (let i = 0; i < 24; i++) { const r = i % 2 ? 40 : 50, a = (i / 24) * Math.PI * 2; pts.push(`${50 + r * Math.cos(a)},${50 + r * Math.sin(a)}`); } return `<svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon points="${pts.join(' ')}" fill="${color}"/></svg>`; };
 const BGS = { 'pixel-day': '../../assets/pixel/sky-day.png', 'pixel-night': '../../assets/pixel/sky-night.png', 'pixel-sunset': '../../assets/pixel/sky-sunset.png', 'pixel-neon': '../../assets/pixel/sky-neon.png',
   loft: '../../assets/talking-head/backgrounds/loft-office.png', library: '../../assets/talking-head/backgrounds/library.png',
@@ -287,9 +297,9 @@ window.renderPost = (data) => {
   const lines = sentences(data.words);
   const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
 
-  document.getElementById('root').innerHTML = `<div class="canvas${data.branded ? ' branded' : ''}" id="cv">
+  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}"><div class="canvas${data.branded ? ' branded' : ''}" id="cv">
     <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div>
-    <div class="vibe" id="vibe"><div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
+    <div class="vibe" id="vibe">${data.stop !== false ? Array.from({ length: 22 }, (_, k) => `<i class="scrap" style="left:${(k * 211) % 1040}px;top:${(k * 389) % 1880}px;background:${SCRAP_COLORS[k % 4]};transform:rotate(${(k * 47) % 180}deg)"></i>`).join('') : ''}<div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${i % 2 ? 900 : 30}px;top:${330 + ((i * 197) % 760)}px"><img src="${b.logoUrl}"></div>`).join('')}</div>
     ${data.face ? `<div class="facebg" id="fbg"></div><div class="face" id="face"><video id="fv" class="plain" src="${esc(data.face.src)}" muted playsinline preload="auto"></video>${data.face.cutSrc ? `<video id="fvc" class="cutv" src="${esc(data.face.cutSrc)}" muted playsinline preload="auto"></video>` : ''}</div>` : ''}
     ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
@@ -312,7 +322,7 @@ window.renderPost = (data) => {
     <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
     <img class="mark" src="../../assets/brand/mark.png" alt="">
     ${data.branded ? `<div class="badge" id="badge"><img class="b" src="../../assets/brand/mark.png"><img class="w" src="../../assets/brand/wordmark.png"></div>` : ''}
-  </div>`;
+  </div></div>`;
 
   const tl = gsap.timeline({ paused: true });
   const cv = document.getElementById('cv'), wd = document.getElementById('wd'), wl = document.getElementById('wl');
@@ -333,7 +343,9 @@ window.renderPost = (data) => {
       prevWorld = s.world;
     }
     sceneIn(tl, el, s);
+    if (data.stop !== false) { const c = s.bgc || PALETTE[i % PALETTE.length]; tl.set('#wd', { background: c, opacity: 1 }, s.t).set('#wl', { opacity: 0 }, s.t).set('#cv', { attr: { class: `canvas ${data.branded ? 'branded ' : ''}${LIGHTISH.has(c) ? 'light-on' : 'dark-on'}` } }, s.t); }
     const sb = document.getElementById('sb' + i);
+    if (sb && data.stop !== false) tl.set(sb, { rotation: (i % 2 ? 3 : -3) }, s.t);
     if (sb) { tl.set(sb, { opacity: 1 }, s.t).set(sb, { opacity: 0 }, s.end).fromTo(sb.querySelector('img'), { scale: 1.0 }, { scale: 1.14, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t); }
     const vb = s.b?.bg || s.lb?.bg || s.vb;
     if (vb) tl.set(document.getElementById('vibe'), { '--vb': vb }, s.t);
@@ -365,6 +377,7 @@ window.renderPost = (data) => {
       const isCut = !!(data.face.cutSrc && c.cut);
       const vids = document.querySelectorAll('#face video');
       tl.set(fbg, { opacity: isCut && bgUrl && c.layout === 'full' ? 1 : 0, backgroundImage: bgUrl ? `url(${bgUrl})` : 'none' }, c.t);
+      tl.set('#cv .mark', { opacity: c.layout === 'full' ? 0 : 1 }, c.t);
       tl.set(face, { attr: { class: `face ${c.layout}${isCut ? ' cut' : ''}` }, opacity: c.layout === 'none' ? 0 : 1 }, c.t).set(vids, { scale: Math.min(c.zoom || 1, 1.15) }, c.t)
         .set(document.getElementById('scs'), { attr: { class: `scenes ${c.layout === 'split' ? 'split' : c.layout === 'full' ? 'full' : c.layout === 'corner' ? 'corner' : ''}` } }, c.t)
         .set(document.querySelector('.caps'), { attr: { class: `caps${c.layout === 'split' ? ' seam' : c.layout === 'corner' ? ' above' : ''}` } }, c.t);
@@ -470,7 +483,16 @@ window.renderPost = (data) => {
   tl.set({}, {}, data.duration);
   window.faceVideo = data.face ? document.getElementById('fv') : null;
   window.faceVideos = data.face ? [...document.querySelectorAll('#face video')] : [];
-  window.seek = (t) => { tl.seek(t, false); };
+  const STEP = data.stop !== false ? 12 : 0;
+  window.seek = (t) => {
+    const ts = STEP ? Math.floor(t * STEP) / STEP : t;
+    tl.seek(ts, false);
+    if (STEP) {
+      const k = Math.floor(t * STEP);
+      document.querySelectorAll('.scene > *, .pop, .tgt').forEach((el, j) => { el.style.translate = `${((k * 13 + j * 7) % 5) - 2}px ${((k * 7 + j * 3) % 5) - 2}px`; el.style.rotate = `${(((k * 31 + j * 17) % 7) - 3) * 0.35}deg`; });
+      document.querySelectorAll('.scrap').forEach((el, j) => { el.style.translate = `0 ${-((k * (2 + j % 3)) % 1900)}px`; });
+    }
+  };
   window.seek(0);
 };
 </script>

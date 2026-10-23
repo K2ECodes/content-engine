@@ -43,13 +43,6 @@
       "chipKind": "ok"
      }
     ],
-    "stamp": {
-     "text": "SENT",
-     "kind": "ok",
-     "at": "person.",
-     "x": 540,
-     "y": 520
-    },
     "bg": "bg/shopper.png"
    },
    {

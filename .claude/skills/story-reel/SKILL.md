@@ -36,7 +36,7 @@ New scene every 3 to 5 s; rows/ticks every 0.8 to 1.2 s.
 
 ## 5b. Real-world proof
 Find the articles, posts and pages the script talks about and screenshot them: `node scripts/shot.mjs <url> <post>/shots/<name>.png --mobile --scroll 60`, then crop to the headline area (`ffmpeg -i x.png -vf "crop=iw:ih*0.56:0:ih*0.20" x-crop.png`) and add `shot` scenes {src, url (shown in the bar), caption, h 980, pan 120}. Credit sources in Notes. Never use still photos or paper cutouts of Korede: only real moving video of him (lip-synced plate, optionally cut out with `face.mask`).
-Pronunciation: write the company name as "Kun-TENT Systems dot A I" in any TTS text.
+Pronunciation: write the company name as "Kuhn-tent Systems dot A I" in any TTS text.
 
 ## 6. Render and review
 `npm run render -- <post> --fps 10` to check, then full `npm run render -- <post>` (about 10 min). Pull frames at each scene into a strip and LOOK: nothing overflows a card, captions don't collide, stamps land on cards, the face isn't covered in split. `npm run lint -- <post>`.
@@ -45,7 +45,7 @@ Example: `content/_samples/ig-company-fri-1130-invoice-gap/`.
 
 ## Placement (Reels/TikTok safe zones, Korede's rule: "psychologically perfect")
 - UI covers the top ~220px, bottom ~420px and right ~120px. Nothing important there.
-- Captions sit just below the middle (top y 1010, about 53 in 100 down), above the thumb zone (Korede: lower captions sit under his thumb); cards sit above them (y 260 to 980). On `split` the captions move to the seam (y 845); on `corner` they sit just above Korede's head (y 860). The template does this automatically.
+- Captions sit in the middle (top y 860), above the thumb zone (Korede: lower captions sit under his thumb); cards sit above them (y 260 to 980). On `split` the captions move to the seam (y 845); on `corner` they sit just above Korede's head (y 860). The template does this automatically.
 - Korede's eyes sit on the upper-third line (y about 640) in `full` shots, face centred, never cropped; punch-ins max 1.15 and only on chosen words (`pushAt`).
 - Talking cutout of Korede: real lip-synced video only (`node scripts/heygen.mjs talk-segments <post> 0-5.7,23.3-28.2,...` lip-syncs only the windows he's on screen, cheap). `faceCuts[].cut: true` uses the cutout (with `bg` pixel-day|pixel-night|pixel-sunset|pixel-neon for `full`), `cut: false` the normal studio shot. Mix them: not every video or moment is a cutout; use plain `split` at some points. Layouts: full, split, corner (cutout bottom-right over the cards), pip, none.
 - Music: personal = dark rage-trap type beat, company = calm modern electronic. `music.volume` about 0.11 (well under the voice, ducked). The beat drop lands early: default 2 s in, or `music.dropAt: "<word>"` on the hook's turn. No long intro with the drop mid-video.

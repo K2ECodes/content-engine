@@ -1,0 +1,590 @@
+{
+ "words": [
+  {
+   "w": "Not",
+   "start": 0,
+   "end": 0.44
+  },
+  {
+   "w": "every",
+   "start": 0.44,
+   "end": 0.78
+  },
+  {
+   "w": "AI",
+   "start": 0.78,
+   "end": 1.08
+  },
+  {
+   "w": "step",
+   "start": 1.08,
+   "end": 1.36
+  },
+  {
+   "w": "needs",
+   "start": 1.36,
+   "end": 1.64
+  },
+  {
+   "w": "a",
+   "start": 1.64,
+   "end": 1.82
+  },
+  {
+   "w": "chatbot.",
+   "start": 1.82,
+   "end": 2.34
+  },
+  {
+   "w": "OpenAI's",
+   "start": 2.76,
+   "end": 3.32
+  },
+  {
+   "w": "new",
+   "start": 3.32,
+   "end": 3.44
+  },
+  {
+   "w": "decision",
+   "start": 3.44,
+   "end": 3.82
+  },
+  {
+   "w": "model",
+   "start": 3.82,
+   "end": 4.18
+  },
+  {
+   "w": "picks",
+   "start": 4.18,
+   "end": 4.48
+  },
+  {
+   "w": "between",
+   "start": 4.48,
+   "end": 4.8
+  },
+  {
+   "w": "options",
+   "start": 4.8,
+   "end": 5.28
+  },
+  {
+   "w": "in",
+   "start": 5.28,
+   "end": 5.52
+  },
+  {
+   "w": "about",
+   "start": 5.52,
+   "end": 5.68
+  },
+  {
+   "w": "100",
+   "start": 5.68,
+   "end": 6.22
+  },
+  {
+   "w": "milliseconds.",
+   "start": 6.22,
+   "end": 6.72
+  },
+  {
+   "w": "Chat",
+   "start": 7.3,
+   "end": 7.58
+  },
+  {
+   "w": "models",
+   "start": 7.58,
+   "end": 7.88
+  },
+  {
+   "w": "take",
+   "start": 7.88,
+   "end": 8.12
+  },
+  {
+   "w": "1",
+   "start": 8.12,
+   "end": 8.36
+  },
+  {
+   "w": "to",
+   "start": 8.36,
+   "end": 8.44
+  },
+  {
+   "w": "3",
+   "start": 8.44,
+   "end": 8.68
+  },
+  {
+   "w": "seconds.",
+   "start": 8.68,
+   "end": 8.98
+  },
+  {
+   "w": "Sounds",
+   "start": 9.42,
+   "end": 9.68
+  },
+  {
+   "w": "small.",
+   "start": 9.68,
+   "end": 9.98
+  },
+  {
+   "w": "Speak",
+   "start": 10.34,
+   "end": 10.64
+  },
+  {
+   "w": "says",
+   "start": 10.64,
+   "end": 10.94
+  },
+  {
+   "w": "the",
+   "start": 10.94,
+   "end": 11.1
+  },
+  {
+   "w": "wait",
+   "start": 11.1,
+   "end": 11.26
+  },
+  {
+   "w": "between",
+   "start": 11.26,
+   "end": 11.5
+  },
+  {
+   "w": "steps",
+   "start": 11.5,
+   "end": 11.84
+  },
+  {
+   "w": "fell",
+   "start": 11.84,
+   "end": 12.06
+  },
+  {
+   "w": "from",
+   "start": 12.06,
+   "end": 12.26
+  },
+  {
+   "w": "1.4",
+   "start": 12.26,
+   "end": 13.2
+  },
+  {
+   "w": "seconds",
+   "start": 13.2,
+   "end": 13.54
+  },
+  {
+   "w": "to",
+   "start": 13.54,
+   "end": 13.76
+  },
+  {
+   "w": "0.13.",
+   "start": 13.76,
+   "end": 14.74
+  },
+  {
+   "w": "Most",
+   "start": 15.02,
+   "end": 15.34
+  },
+  {
+   "w": "AI",
+   "start": 15.34,
+   "end": 15.56
+  },
+  {
+   "w": "work",
+   "start": 15.56,
+   "end": 15.86
+  },
+  {
+   "w": "isn't",
+   "start": 15.86,
+   "end": 16.14
+  },
+  {
+   "w": "writing.",
+   "start": 16.14,
+   "end": 16.4
+  },
+  {
+   "w": "It's",
+   "start": 16.66,
+   "end": 16.84
+  },
+  {
+   "w": "choosing.",
+   "start": 16.84,
+   "end": 17.2
+  },
+  {
+   "w": "So",
+   "start": 17.64,
+   "end": 17.76
+  },
+  {
+   "w": "here's",
+   "start": 17.76,
+   "end": 18.02
+  },
+  {
+   "w": "where",
+   "start": 18.02,
+   "end": 18.12
+  },
+  {
+   "w": "it",
+   "start": 18.12,
+   "end": 18.24
+  },
+  {
+   "w": "fits.",
+   "start": 18.24,
+   "end": 18.4
+  },
+  {
+   "w": "1,",
+   "start": 18.88,
+   "end": 19.06
+  },
+  {
+   "w": "routing.",
+   "start": 19.48,
+   "end": 19.72
+  },
+  {
+   "w": "Which",
+   "start": 20.06,
+   "end": 20.26
+  },
+  {
+   "w": "inbox,",
+   "start": 20.26,
+   "end": 20.56
+  },
+  {
+   "w": "which",
+   "start": 20.88,
+   "end": 20.98
+  },
+  {
+   "w": "team,",
+   "start": 20.98,
+   "end": 21.24
+  },
+  {
+   "w": "with",
+   "start": 21.58,
+   "end": 21.64
+  },
+  {
+   "w": "a",
+   "start": 21.64,
+   "end": 21.78
+  },
+  {
+   "w": "confidence",
+   "start": 21.78,
+   "end": 22.04
+  },
+  {
+   "w": "score.",
+   "start": 22.04,
+   "end": 22.42
+  },
+  {
+   "w": "2,",
+   "start": 22.619,
+   "end": 22.86
+  },
+  {
+   "w": "picking.",
+   "start": 23.26,
+   "end": 23.48
+  },
+  {
+   "w": "Which",
+   "start": 23.656,
+   "end": 23.816
+  },
+  {
+   "w": "reply,",
+   "start": 23.816,
+   "end": 24.176
+  },
+  {
+   "w": "which",
+   "start": 24.376,
+   "end": 24.496
+  },
+  {
+   "w": "tool,",
+   "start": 24.496,
+   "end": 24.796
+  },
+  {
+   "w": "which",
+   "start": 25.056,
+   "end": 25.096
+  },
+  {
+   "w": "next",
+   "start": 25.096,
+   "end": 25.316
+  },
+  {
+   "w": "step?",
+   "start": 25.316,
+   "end": 25.576
+  },
+  {
+   "w": "3,",
+   "start": 25.852,
+   "end": 26.052
+  },
+  {
+   "w": "flagging.",
+   "start": 26.472,
+   "end": 26.852
+  },
+  {
+   "w": "Spam,",
+   "start": 27.092,
+   "end": 27.552
+  },
+  {
+   "w": "urgent",
+   "start": 27.832,
+   "end": 28.052
+  },
+  {
+   "w": "or",
+   "start": 28.052,
+   "end": 28.372
+  },
+  {
+   "w": "fine,",
+   "start": 28.372,
+   "end": 28.692
+  },
+  {
+   "w": "in",
+   "start": 29.012,
+   "end": 29.032
+  },
+  {
+   "w": "a",
+   "start": 29.032,
+   "end": 29.112
+  },
+  {
+   "w": "blink.",
+   "start": 29.112,
+   "end": 29.332
+  },
+  {
+   "w": "Low",
+   "start": 29.685,
+   "end": 29.885
+  },
+  {
+   "w": "confidence?",
+   "start": 29.885,
+   "end": 30.225
+  },
+  {
+   "w": "It",
+   "start": 30.625,
+   "end": 30.645
+  },
+  {
+   "w": "goes",
+   "start": 30.645,
+   "end": 30.765
+  },
+  {
+   "w": "to",
+   "start": 30.765,
+   "end": 30.905
+  },
+  {
+   "w": "a",
+   "start": 30.905,
+   "end": 30.985
+  },
+  {
+   "w": "person.",
+   "start": 30.985,
+   "end": 31.225
+  },
+  {
+   "w": "The",
+   "start": 31.449,
+   "end": 31.589
+  },
+  {
+   "w": "chat",
+   "start": 31.589,
+   "end": 31.789
+  },
+  {
+   "w": "model",
+   "start": 31.789,
+   "end": 32.049
+  },
+  {
+   "w": "still",
+   "start": 32.049,
+   "end": 32.289
+  },
+  {
+   "w": "writes",
+   "start": 32.289,
+   "end": 32.529
+  },
+  {
+   "w": "the",
+   "start": 32.529,
+   "end": 32.689
+  },
+  {
+   "w": "reply.",
+   "start": 32.689,
+   "end": 32.989
+  },
+  {
+   "w": "The",
+   "start": 33.389,
+   "end": 33.449
+  },
+  {
+   "w": "decision",
+   "start": 33.449,
+   "end": 33.789
+  },
+  {
+   "w": "model",
+   "start": 33.789,
+   "end": 34.109
+  },
+  {
+   "w": "just",
+   "start": 34.109,
+   "end": 34.309
+  },
+  {
+   "w": "picks",
+   "start": 34.309,
+   "end": 34.509
+  },
+  {
+   "w": "the",
+   "start": 34.509,
+   "end": 34.709
+  },
+  {
+   "w": "lane,",
+   "start": 34.709,
+   "end": 34.969
+  },
+  {
+   "w": "fast.",
+   "start": 35.269,
+   "end": 35.529
+  },
+  {
+   "w": "Comment",
+   "start": 35.843,
+   "end": 36.15
+  },
+  {
+   "w": "AI",
+   "start": 36.15,
+   "end": 36.43
+  },
+  {
+   "w": "and",
+   "start": 36.43,
+   "end": 36.79
+  },
+  {
+   "w": "I'll",
+   "start": 36.79,
+   "end": 36.89
+  },
+  {
+   "w": "send",
+   "start": 36.89,
+   "end": 37.01
+  },
+  {
+   "w": "you",
+   "start": 37.01,
+   "end": 37.11
+  },
+  {
+   "w": "my",
+   "start": 37.11,
+   "end": 37.21
+  },
+  {
+   "w": "starter",
+   "start": 37.21,
+   "end": 37.45
+  },
+  {
+   "w": "pack,",
+   "start": 37.45,
+   "end": 37.75
+  },
+  {
+   "w": "with",
+   "start": 37.97,
+   "end": 38.11
+  },
+  {
+   "w": "the",
+   "start": 38.11,
+   "end": 38.21
+  },
+  {
+   "w": "permission",
+   "start": 38.21,
+   "end": 38.47
+  },
+  {
+   "w": "sheet",
+   "start": 38.47,
+   "end": 38.77
+  },
+  {
+   "w": "for",
+   "start": 38.77,
+   "end": 38.95
+  },
+  {
+   "w": "each",
+   "start": 38.95,
+   "end": 39.07
+  },
+  {
+   "w": "step.",
+   "start": 39.07,
+   "end": 39.31
+  }
+ ],
+ "text": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says the wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1, routing. Which inbox, which team, with a confidence score. 2, picking. Which reply, which tool, which next step? 3, flagging. Spam, urgent or fine, in a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack, with the permission sheet for each step."
+}

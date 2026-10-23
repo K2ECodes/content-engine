@@ -2,589 +2,589 @@
  "words": [
   {
    "w": "Not",
-   "start": 0,
-   "end": 0.44
+   "start": 0.0,
+   "end": 0.4
   },
   {
    "w": "every",
-   "start": 0.44,
-   "end": 0.78
+   "start": 0.4,
+   "end": 0.66
   },
   {
    "w": "AI",
-   "start": 0.78,
-   "end": 1.08
+   "start": 0.66,
+   "end": 0.9
   },
   {
    "w": "step",
-   "start": 1.08,
-   "end": 1.36
+   "start": 0.9,
+   "end": 1.12
   },
   {
    "w": "needs",
-   "start": 1.36,
-   "end": 1.64
+   "start": 1.12,
+   "end": 1.32
   },
   {
    "w": "a",
-   "start": 1.64,
-   "end": 1.82
+   "start": 1.32,
+   "end": 1.48
   },
   {
    "w": "chatbot.",
-   "start": 1.82,
-   "end": 2.34
+   "start": 1.48,
+   "end": 1.8
   },
   {
    "w": "OpenAI's",
-   "start": 2.76,
-   "end": 3.32
+   "start": 2.26,
+   "end": 2.78
   },
   {
    "w": "new",
-   "start": 3.32,
-   "end": 3.44
+   "start": 2.78,
+   "end": 2.88
   },
   {
    "w": "decision",
-   "start": 3.44,
-   "end": 3.82
+   "start": 2.88,
+   "end": 3.12
   },
   {
    "w": "model",
-   "start": 3.82,
-   "end": 4.18
+   "start": 3.12,
+   "end": 3.42
   },
   {
    "w": "picks",
-   "start": 4.18,
-   "end": 4.48
+   "start": 3.42,
+   "end": 3.64
   },
   {
    "w": "between",
-   "start": 4.48,
-   "end": 4.8
+   "start": 3.64,
+   "end": 3.9
   },
   {
    "w": "options",
-   "start": 4.8,
-   "end": 5.28
+   "start": 3.9,
+   "end": 4.26
   },
   {
    "w": "in",
-   "start": 5.28,
-   "end": 5.52
+   "start": 4.26,
+   "end": 4.44
   },
   {
    "w": "about",
-   "start": 5.52,
-   "end": 5.68
+   "start": 4.44,
+   "end": 4.64
   },
   {
    "w": "100",
-   "start": 5.68,
-   "end": 6.22
+   "start": 4.64,
+   "end": 5.04
   },
   {
    "w": "milliseconds.",
-   "start": 6.22,
-   "end": 6.72
+   "start": 5.04,
+   "end": 5.46
   },
   {
    "w": "Chat",
-   "start": 7.3,
-   "end": 7.58
+   "start": 5.94,
+   "end": 6.14
   },
   {
    "w": "models",
-   "start": 7.58,
-   "end": 7.88
+   "start": 6.14,
+   "end": 6.38
   },
   {
    "w": "take",
-   "start": 7.88,
-   "end": 8.12
+   "start": 6.38,
+   "end": 6.58
   },
   {
    "w": "1",
-   "start": 8.12,
-   "end": 8.36
+   "start": 6.58,
+   "end": 6.78
   },
   {
    "w": "to",
-   "start": 8.36,
-   "end": 8.44
+   "start": 6.78,
+   "end": 6.88
   },
   {
    "w": "3",
-   "start": 8.44,
-   "end": 8.68
+   "start": 6.88,
+   "end": 7.1
   },
   {
    "w": "seconds.",
-   "start": 8.68,
-   "end": 8.98
+   "start": 7.1,
+   "end": 7.4
   },
   {
    "w": "Sounds",
-   "start": 9.42,
-   "end": 9.68
+   "start": 7.94,
+   "end": 8.06
   },
   {
    "w": "small.",
-   "start": 9.68,
-   "end": 9.98
+   "start": 8.06,
+   "end": 8.42
   },
   {
    "w": "Speak",
-   "start": 10.34,
-   "end": 10.64
+   "start": 8.76,
+   "end": 8.9
   },
   {
    "w": "says",
-   "start": 10.64,
-   "end": 10.94
+   "start": 8.9,
+   "end": 9.24
   },
   {
    "w": "the",
-   "start": 10.94,
-   "end": 11.1
+   "start": 9.4,
+   "end": 9.42
   },
   {
    "w": "wait",
-   "start": 11.1,
-   "end": 11.26
+   "start": 9.42,
+   "end": 9.58
   },
   {
    "w": "between",
-   "start": 11.26,
-   "end": 11.5
+   "start": 9.58,
+   "end": 9.78
   },
   {
    "w": "steps",
-   "start": 11.5,
-   "end": 11.84
+   "start": 9.78,
+   "end": 10.12
   },
   {
    "w": "fell",
-   "start": 11.84,
-   "end": 12.06
+   "start": 10.12,
+   "end": 10.4
   },
   {
    "w": "from",
-   "start": 12.06,
-   "end": 12.26
+   "start": 10.4,
+   "end": 10.62
   },
   {
    "w": "1.4",
-   "start": 12.26,
-   "end": 13.2
+   "start": 10.62,
+   "end": 11.18
   },
   {
    "w": "seconds",
-   "start": 13.2,
-   "end": 13.54
+   "start": 11.18,
+   "end": 11.48
   },
   {
    "w": "to",
-   "start": 13.54,
-   "end": 13.76
+   "start": 11.48,
+   "end": 11.74
   },
   {
    "w": "0.13.",
-   "start": 13.76,
-   "end": 14.74
+   "start": 11.74,
+   "end": 12.54
   },
   {
    "w": "Most",
-   "start": 15.02,
-   "end": 15.34
+   "start": 13.08,
+   "end": 13.36
   },
   {
    "w": "AI",
-   "start": 15.34,
-   "end": 15.56
+   "start": 13.36,
+   "end": 13.56
   },
   {
    "w": "work",
-   "start": 15.56,
-   "end": 15.86
+   "start": 13.56,
+   "end": 13.9
   },
   {
    "w": "isn't",
-   "start": 15.86,
-   "end": 16.14
+   "start": 13.9,
+   "end": 14.22
   },
   {
    "w": "writing.",
-   "start": 16.14,
-   "end": 16.4
+   "start": 14.22,
+   "end": 14.44
   },
   {
    "w": "It's",
-   "start": 16.66,
-   "end": 16.84
+   "start": 14.88,
+   "end": 14.96
   },
   {
    "w": "choosing.",
-   "start": 16.84,
-   "end": 17.2
+   "start": 14.96,
+   "end": 15.22
   },
   {
    "w": "So",
-   "start": 17.64,
-   "end": 17.76
+   "start": 15.72,
+   "end": 15.82
   },
   {
    "w": "here's",
-   "start": 17.76,
-   "end": 18.02
+   "start": 15.82,
+   "end": 16.04
   },
   {
    "w": "where",
-   "start": 18.02,
-   "end": 18.12
+   "start": 16.04,
+   "end": 16.14
   },
   {
    "w": "it",
-   "start": 18.12,
-   "end": 18.24
+   "start": 16.14,
+   "end": 16.26
   },
   {
    "w": "fits.",
+   "start": 16.26,
+   "end": 16.44
+  },
+  {
+   "w": "1,",
+   "start": 16.98,
+   "end": 17.18
+  },
+  {
+   "w": "routing.",
+   "start": 17.72,
+   "end": 17.94
+  },
+  {
+   "w": "Which",
    "start": 18.24,
    "end": 18.4
   },
   {
-   "w": "1,",
-   "start": 18.88,
-   "end": 19.06
-  },
-  {
-   "w": "routing.",
-   "start": 19.48,
-   "end": 19.72
-  },
-  {
-   "w": "Which",
-   "start": 20.06,
-   "end": 20.26
-  },
-  {
    "w": "inbox,",
-   "start": 20.26,
-   "end": 20.56
+   "start": 18.4,
+   "end": 18.74
   },
   {
    "w": "which",
-   "start": 20.88,
-   "end": 20.98
+   "start": 19.12,
+   "end": 19.22
   },
   {
    "w": "team,",
-   "start": 20.98,
-   "end": 21.24
+   "start": 19.22,
+   "end": 19.5
   },
   {
    "w": "with",
-   "start": 21.58,
-   "end": 21.64
+   "start": 19.9,
+   "end": 19.96
   },
   {
    "w": "a",
-   "start": 21.64,
-   "end": 21.78
+   "start": 19.96,
+   "end": 20.08
   },
   {
    "w": "confidence",
-   "start": 21.78,
-   "end": 22.04
+   "start": 20.08,
+   "end": 20.3
   },
   {
    "w": "score.",
-   "start": 22.04,
-   "end": 22.42
+   "start": 20.3,
+   "end": 20.7
   },
   {
    "w": "2,",
-   "start": 22.619,
-   "end": 22.86
+   "start": 20.92,
+   "end": 21.2
   },
   {
    "w": "picking.",
-   "start": 23.26,
-   "end": 23.48
+   "start": 21.76,
+   "end": 21.92
   },
   {
    "w": "Which",
-   "start": 23.656,
-   "end": 23.816
+   "start": 22.3,
+   "end": 22.58
   },
   {
    "w": "reply,",
-   "start": 23.816,
-   "end": 24.176
+   "start": 22.58,
+   "end": 22.84
   },
   {
    "w": "which",
-   "start": 24.376,
-   "end": 24.496
+   "start": 23.24,
+   "end": 23.4
   },
   {
    "w": "tool,",
-   "start": 24.496,
-   "end": 24.796
+   "start": 23.4,
+   "end": 23.68
   },
   {
    "w": "which",
-   "start": 25.056,
-   "end": 25.096
+   "start": 24.04,
+   "end": 24.14
   },
   {
    "w": "next",
-   "start": 25.096,
-   "end": 25.316
-  },
-  {
-   "w": "step?",
-   "start": 25.316,
-   "end": 25.576
-  },
-  {
-   "w": "3,",
-   "start": 25.852,
-   "end": 26.052
-  },
-  {
-   "w": "flagging.",
-   "start": 26.472,
-   "end": 26.852
-  },
-  {
-   "w": "Spam,",
-   "start": 27.092,
-   "end": 27.552
-  },
-  {
-   "w": "urgent",
-   "start": 27.832,
-   "end": 28.052
-  },
-  {
-   "w": "or",
-   "start": 28.052,
-   "end": 28.372
-  },
-  {
-   "w": "fine,",
-   "start": 28.372,
-   "end": 28.692
-  },
-  {
-   "w": "in",
-   "start": 29.012,
-   "end": 29.032
-  },
-  {
-   "w": "a",
-   "start": 29.032,
-   "end": 29.112
-  },
-  {
-   "w": "blink.",
-   "start": 29.112,
-   "end": 29.332
-  },
-  {
-   "w": "Low",
-   "start": 29.685,
-   "end": 29.885
-  },
-  {
-   "w": "confidence?",
-   "start": 29.885,
-   "end": 30.225
-  },
-  {
-   "w": "It",
-   "start": 30.625,
-   "end": 30.645
-  },
-  {
-   "w": "goes",
-   "start": 30.645,
-   "end": 30.765
-  },
-  {
-   "w": "to",
-   "start": 30.765,
-   "end": 30.905
-  },
-  {
-   "w": "a",
-   "start": 30.905,
-   "end": 30.985
-  },
-  {
-   "w": "person.",
-   "start": 30.985,
-   "end": 31.225
-  },
-  {
-   "w": "The",
-   "start": 31.449,
-   "end": 31.589
-  },
-  {
-   "w": "chat",
-   "start": 31.589,
-   "end": 31.789
-  },
-  {
-   "w": "model",
-   "start": 31.789,
-   "end": 32.049
-  },
-  {
-   "w": "still",
-   "start": 32.049,
-   "end": 32.289
-  },
-  {
-   "w": "writes",
-   "start": 32.289,
-   "end": 32.529
-  },
-  {
-   "w": "the",
-   "start": 32.529,
-   "end": 32.689
-  },
-  {
-   "w": "reply.",
-   "start": 32.689,
-   "end": 32.989
-  },
-  {
-   "w": "The",
-   "start": 33.389,
-   "end": 33.449
-  },
-  {
-   "w": "decision",
-   "start": 33.449,
-   "end": 33.789
-  },
-  {
-   "w": "model",
-   "start": 33.789,
-   "end": 34.109
-  },
-  {
-   "w": "just",
-   "start": 34.109,
-   "end": 34.309
-  },
-  {
-   "w": "picks",
-   "start": 34.309,
-   "end": 34.509
-  },
-  {
-   "w": "the",
-   "start": 34.509,
-   "end": 34.709
-  },
-  {
-   "w": "lane,",
-   "start": 34.709,
-   "end": 34.969
-  },
-  {
-   "w": "fast.",
-   "start": 35.269,
-   "end": 35.529
-  },
-  {
-   "w": "Comment",
-   "start": 35.843,
-   "end": 36.15
-  },
-  {
-   "w": "AI",
-   "start": 36.15,
-   "end": 36.43
-  },
-  {
-   "w": "and",
-   "start": 36.43,
-   "end": 36.79
-  },
-  {
-   "w": "I'll",
-   "start": 36.79,
-   "end": 36.89
-  },
-  {
-   "w": "send",
-   "start": 36.89,
-   "end": 37.01
-  },
-  {
-   "w": "you",
-   "start": 37.01,
-   "end": 37.11
-  },
-  {
-   "w": "my",
-   "start": 37.11,
-   "end": 37.21
-  },
-  {
-   "w": "starter",
-   "start": 37.21,
-   "end": 37.45
-  },
-  {
-   "w": "pack,",
-   "start": 37.45,
-   "end": 37.75
-  },
-  {
-   "w": "with",
-   "start": 37.97,
-   "end": 38.11
-  },
-  {
-   "w": "the",
-   "start": 38.11,
-   "end": 38.21
-  },
-  {
-   "w": "permission",
-   "start": 38.21,
-   "end": 38.47
-  },
-  {
-   "w": "sheet",
-   "start": 38.47,
-   "end": 38.77
-  },
-  {
-   "w": "for",
-   "start": 38.77,
-   "end": 38.95
-  },
-  {
-   "w": "each",
-   "start": 38.95,
-   "end": 39.07
+   "start": 24.14,
+   "end": 24.34
   },
   {
    "w": "step.",
-   "start": 39.07,
-   "end": 39.31
+   "start": 24.34,
+   "end": 24.6
+  },
+  {
+   "w": "3,",
+   "start": 24.88,
+   "end": 25.2
+  },
+  {
+   "w": "flagging.",
+   "start": 25.68,
+   "end": 26.04
+  },
+  {
+   "w": "Spam,",
+   "start": 26.38,
+   "end": 26.74
+  },
+  {
+   "w": "urgent",
+   "start": 27.08,
+   "end": 27.3
+  },
+  {
+   "w": "or",
+   "start": 27.3,
+   "end": 27.46
+  },
+  {
+   "w": "fine,",
+   "start": 27.46,
+   "end": 27.72
+  },
+  {
+   "w": "in",
+   "start": 28.0,
+   "end": 28.1
+  },
+  {
+   "w": "a",
+   "start": 28.1,
+   "end": 28.2
+  },
+  {
+   "w": "blink.",
+   "start": 28.2,
+   "end": 28.34
+  },
+  {
+   "w": "Low",
+   "start": 28.34,
+   "end": 28.88
+  },
+  {
+   "w": "confidence?",
+   "start": 28.88,
+   "end": 29.28
+  },
+  {
+   "w": "It",
+   "start": 29.8,
+   "end": 29.88
+  },
+  {
+   "w": "goes",
+   "start": 29.88,
+   "end": 30.04
+  },
+  {
+   "w": "to",
+   "start": 30.04,
+   "end": 30.22
+  },
+  {
+   "w": "a",
+   "start": 30.22,
+   "end": 30.3
+  },
+  {
+   "w": "person.",
+   "start": 30.3,
+   "end": 30.58
+  },
+  {
+   "w": "The",
+   "start": 31.04,
+   "end": 31.12
+  },
+  {
+   "w": "chat",
+   "start": 31.12,
+   "end": 31.3
+  },
+  {
+   "w": "model",
+   "start": 31.3,
+   "end": 31.6
+  },
+  {
+   "w": "still",
+   "start": 31.6,
+   "end": 31.82
+  },
+  {
+   "w": "writes",
+   "start": 31.82,
+   "end": 32.06
+  },
+  {
+   "w": "the",
+   "start": 32.06,
+   "end": 32.2
+  },
+  {
+   "w": "reply.",
+   "start": 32.2,
+   "end": 32.5
+  },
+  {
+   "w": "The",
+   "start": 32.9,
+   "end": 32.98
+  },
+  {
+   "w": "decision",
+   "start": 32.98,
+   "end": 33.24
+  },
+  {
+   "w": "model",
+   "start": 33.24,
+   "end": 33.58
+  },
+  {
+   "w": "just",
+   "start": 33.58,
+   "end": 33.8
+  },
+  {
+   "w": "picks",
+   "start": 33.8,
+   "end": 34.02
+  },
+  {
+   "w": "the",
+   "start": 34.02,
+   "end": 34.22
+  },
+  {
+   "w": "lane,",
+   "start": 34.22,
+   "end": 34.42
+  },
+  {
+   "w": "fast.",
+   "start": 34.56,
+   "end": 34.88
+  },
+  {
+   "w": "Comment",
+   "start": 35.28,
+   "end": 35.58
+  },
+  {
+   "w": "AI",
+   "start": 35.58,
+   "end": 35.84
+  },
+  {
+   "w": "and",
+   "start": 35.84,
+   "end": 36.22
+  },
+  {
+   "w": "I'll",
+   "start": 36.22,
+   "end": 36.34
+  },
+  {
+   "w": "send",
+   "start": 36.34,
+   "end": 36.46
+  },
+  {
+   "w": "you",
+   "start": 36.46,
+   "end": 36.58
+  },
+  {
+   "w": "my",
+   "start": 36.58,
+   "end": 36.7
+  },
+  {
+   "w": "starter",
+   "start": 36.7,
+   "end": 36.9
+  },
+  {
+   "w": "pack,",
+   "start": 36.9,
+   "end": 37.2
+  },
+  {
+   "w": "with",
+   "start": 37.2,
+   "end": 37.62
+  },
+  {
+   "w": "the",
+   "start": 37.62,
+   "end": 37.74
+  },
+  {
+   "w": "permission",
+   "start": 37.74,
+   "end": 37.98
+  },
+  {
+   "w": "sheet",
+   "start": 37.98,
+   "end": 38.28
+  },
+  {
+   "w": "for",
+   "start": 38.28,
+   "end": 38.48
+  },
+  {
+   "w": "each",
+   "start": 38.48,
+   "end": 38.64
+  },
+  {
+   "w": "step.",
+   "start": 38.64,
+   "end": 38.92
   }
  ],
- "text": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says the wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1, routing. Which inbox, which team, with a confidence score. 2, picking. Which reply, which tool, which next step? 3, flagging. Spam, urgent or fine, in a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack, with the permission sheet for each step."
+ "text": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. Chat models take 1 to 3 seconds. Sounds small. Speak says, the weight between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. So here's where it fits. 1. Routing. Which inbox? Which team? With a confidence score. 2. Picking. Which reply? Which tool? Which next step? 3. Flagging. Spam? Urgent or fine? In a blink. Low confidence? It goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast. Comment AI and I'll send you my starter pack with the permission sheet for each step."
 }
