@@ -1,459 +1,431 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Content Systems.ai",
-    "platform": "linkedin",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#4D148C",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
+    "brandbar": [
+     "fedex",
+     "ups"
+    ],
+    "headline": [
+     "Your shipping bill",
+     "hides *6 fees*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(most brands pay all 6 without checking)",
+     "y": 600
+    },
+    "tree": {
+     "y": 690,
+     "up": true,
+     "many": [
       {
-        "world": "sunset",
-        "headline": [
-          "The invoice check",
-          "*most brands skip*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/fedex.png",
-            "x": 50,
-            "y": 350,
-            "w": 440,
-            "h": 370,
-            "rot": -6,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/bluffworks.png",
-            "x": 585,
-            "y": 370,
-            "w": 440,
-            "h": 370,
-            "rot": 5,
-            "pos": "center top"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "RECORD\nQ4 RATES",
-            "x": 850,
-            "y": 560,
-            "w": 210,
-            "size": 40,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "UP 43.3\nIN 100",
-            "x": 400,
-            "y": 830,
-            "w": 240,
-            "size": 46,
-            "color": "#3FF2FF",
-            "rot": -8
-          },
-          {
-            "text": "6 LINES\nTO CHECK",
-            "x": 15,
-            "y": 590,
-            "w": 210,
-            "size": 40,
-            "color": "#FF4FD8",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "ghost",
-            "x": 40,
-            "h": 250
-          },
-          {
-            "name": "sanjana-shrug",
-            "x": 670,
-            "h": 270
-          },
-          {
-            "name": "box-monster",
-            "x": 845,
-            "h": 200
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "1. Fuel",
-          "*surcharges*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "quote",
-          "text": "Since 2021, [72 in 100] of the fuel surcharge rise came from carrier pricing, not diesel.",
-          "who": "TD Cowen/AFS Freight Index, Oct 2026",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "check the rate\nvs your contract",
-            "x": 540,
-            "y": 860,
-            "w": 460
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 50,
-            "h": 280
-          },
-          {
-            "name": "ghost",
-            "x": 290,
-            "h": 220
-          }
-        ]
+       "q": true
       },
       {
-        "world": "neon",
-        "headline": [
-          "2. Peak",
-          "*surcharges*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Carrier",
-              "p": "sets the dates"
-            },
-            {
-              "h": "Invoice",
-              "p": "billed dates",
-              "hi": true
-            }
-          ],
-          "foot": "do they match?"
-        },
-        "notes": [
-          {
-            "text": "billed outside\ntheir dates?",
-            "x": 100,
-            "y": 860,
-            "w": 420,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 580,
-            "h": 200
-          },
-          {
-            "name": "sanjana-point",
-            "x": 820,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "3. Address",
-          "*corrections*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "A fee *each time* it's fixed",
-            "Was the address *really* wrong?",
-            "Check it vs *your orders*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "small fee,\nevery parcel",
-            "x": 560,
-            "y": 860,
-            "w": 400,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 30,
-            "h": 250
-          },
-          {
-            "name": "evil-robot",
-            "x": 300,
-            "h": 230
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "4. Residential",
-          "*fees*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Business",
-              "p": "ship-to address"
-            },
-            {
-              "h": "Home",
-              "p": "fee billed",
-              "hi": true
-            }
-          ],
-          "foot": "easy to charge by mistake"
-        },
-        "notes": [
-          {
-            "text": "check fee type\nvs ship-to",
-            "x": 100,
-            "y": 860,
-            "w": 420,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 610,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "korede-shrug",
-            "x": 830,
-            "h": 260,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "5. Dimensional",
-          "*weight*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Billed on:",
-              "v": "box size"
-            },
-            {
-              "k": "Not on:",
-              "v": "weight"
-            },
-            {
-              "k": "1 error:",
-              "v": "every order"
-            }
-          ]
-        },
-        "notes": [
-          {
-            "text": "measure your\nreal boxes",
-            "x": 560,
-            "y": 850,
-            "w": 400,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 40,
-            "h": 280
-          },
-          {
-            "name": "box-monster",
-            "x": 260,
-            "h": 200
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "6. Duplicate",
-          "*charges*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Overcharge:",
-              "v": "50 cents"
-            },
-            {
-              "k": "Orders:",
-              "v": "5,000 a month"
-            },
-            {
-              "k": "Leak:",
-              "v": "$2,500 a month"
-            }
-          ],
-          "title": "Illustrative, not a client result",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "that's $30K\na year",
-            "x": 100,
-            "y": 860,
-            "w": 400,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "coin",
-            "x": 545,
-            "h": 80,
-            "y": 980
-          },
-          {
-            "name": "ghost",
-            "x": 630,
-            "h": 240
-          },
-          {
-            "name": "sanjana-point",
-            "x": 830,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "A system checks",
-          "*every line*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Match",
-              "p": "your rates"
-            },
-            {
-              "h": "Flag",
-              "p": "with proof",
-              "hi": true
-            },
-            {
-              "h": "Approve",
-              "p": "your yes"
-            }
-          ],
-          "foot": "every carrier and 3PL invoice",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "before you pay",
-            "x": 330,
-            "y": 745,
-            "w": 420,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 100,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 450,
-            "h": 240
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 790,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "What are hidden",
-          "fees *costing you*?"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "CALCULATOR",
-          "y": 300,
-          "line": "free, link in bio",
-          "pill": false
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 865,
-            "y": 505,
-            "w": 180,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "YOUR\nNUMBERS",
-            "x": 268,
-            "y": 850,
-            "w": 175,
-            "size": 34,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "ghost",
-            "x": 450,
-            "h": 230
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 118,
+     "spread": 30,
+     "gap": 64,
+     "one": {
+      "text": "Your *bill*"
+     },
+     "oneSize": 250
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 800,
+      "y": 960,
+      "w": 200,
+      "accent": true,
+      "arrow": {
+       "x1": 830,
+       "y1": 1030,
+       "x2": 700,
+       "y2": 1060,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Fuel",
+     "*surcharges*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Since 2021, [72 in 100] of the fuel surcharge rise came from carrier pricing, not diesel.",
+     "who": "TD Cowen/AFS Freight Index, Oct 2026",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "check the rate\nvs your contract",
+      "x": 540,
+      "y": 860,
+      "w": 460
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 50,
+      "h": 280
+     },
+     {
+      "name": "ghost",
+      "x": 290,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "2. Peak",
+     "*surcharges*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Carrier",
+       "p": "sets the dates"
+      },
+      {
+       "h": "Invoice",
+       "p": "billed dates",
+       "hi": true
+      }
+     ],
+     "foot": "do they match?"
+    },
+    "notes": [
+     {
+      "text": "billed outside\ntheir dates?",
+      "x": 100,
+      "y": 860,
+      "w": 420,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 580,
+      "h": 200
+     },
+     {
+      "name": "sanjana-point",
+      "x": 820,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Address",
+     "*corrections*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "A fee *each time* it's fixed",
+      "Was the address *really* wrong?",
+      "Check it vs *your orders*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "small fee,\nevery parcel",
+      "x": 560,
+      "y": 860,
+      "w": 400,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "evil-robot",
+      "x": 300,
+      "h": 230
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "4. Residential",
+     "*fees*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Business",
+       "p": "ship-to address"
+      },
+      {
+       "h": "Home",
+       "p": "fee billed",
+       "hi": true
+      }
+     ],
+     "foot": "easy to charge by mistake"
+    },
+    "notes": [
+     {
+      "text": "check fee type\nvs ship-to",
+      "x": 100,
+      "y": 860,
+      "w": 420,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 610,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "korede-shrug",
+      "x": 830,
+      "h": 260,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "5. Dimensional",
+     "*weight*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Billed on:",
+       "v": "box size"
+      },
+      {
+       "k": "Not on:",
+       "v": "weight"
+      },
+      {
+       "k": "1 error:",
+       "v": "every order"
+      }
+     ]
+    },
+    "notes": [
+     {
+      "text": "measure your\nreal boxes",
+      "x": 560,
+      "y": 850,
+      "w": 400,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 40,
+      "h": 280
+     },
+     {
+      "name": "box-monster",
+      "x": 260,
+      "h": 200
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "6. Duplicate",
+     "*charges*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Overcharge:",
+       "v": "50 cents"
+      },
+      {
+       "k": "Orders:",
+       "v": "5,000 a month"
+      },
+      {
+       "k": "Leak:",
+       "v": "$2,500 a month"
+      }
+     ],
+     "title": "Illustrative, not a client result",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "that's $30K\na year",
+      "x": 100,
+      "y": 860,
+      "w": 400,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "coin",
+      "x": 545,
+      "h": 80,
+      "y": 980
+     },
+     {
+      "name": "ghost",
+      "x": 630,
+      "h": 240
+     },
+     {
+      "name": "sanjana-point",
+      "x": 830,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "A system checks",
+     "*every line*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Match",
+       "p": "your rates"
+      },
+      {
+       "h": "Flag",
+       "p": "with proof",
+       "hi": true
+      },
+      {
+       "h": "Approve",
+       "p": "your yes"
+      }
+     ],
+     "foot": "every carrier and 3PL invoice",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "before you pay",
+      "x": 330,
+      "y": 745,
+      "w": 420,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 100,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 450,
+      "h": 240
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 790,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "What are hidden",
+     "fees *costing you*?"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "CALCULATOR",
+     "y": 300,
+     "line": "free, link in bio",
+     "pill": false
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "ghost",
+      "x": 450,
+      "h": 230
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

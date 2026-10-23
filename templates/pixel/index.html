@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../_base/brand.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=block" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Silkscreen:wght@400;700&display=block" rel="stylesheet">
 <style>
   /* Content Systems.ai pixel-world carousel: the 8-bit platformer world from the brand's "Our Story" posts,
@@ -77,11 +78,36 @@
   .note svg path { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 
   .foot { position: absolute; left: 44px; right: 44px; bottom: 22px; display: flex; align-items: center; justify-content: space-between; color: var(--foot); font: 700 40px/1 'Caveat', cursive; white-space: nowrap; }
-  .wmrow { position: absolute; left: 0; right: 0; bottom: 104px; display: flex; justify-content: center; }
-  .wmrow img { height: 30px; padding: 10px 18px; border-radius: 8px; background: rgba(23,40,28,.9); box-shadow: 0 4px 0 rgba(0,0,0,.35); }
+  .wmrow { position: absolute; left: 0; right: 0; bottom: 92px; display: flex; justify-content: center; }
+  .wmrow img { height: 80px; padding: 12px 26px; border-radius: 14px; background: #F5F0E8; border: 4px solid #17281C; box-shadow: 0 6px 0 rgba(0,0,0,.35); }
+  .paper .wmrow img { background: transparent; border: 0; box-shadow: none; padding: 0; height: 84px; }
   .foot .h { display: flex; align-items: center; gap: 14px; }
   .foot svg { width: 42px; height: 42px; stroke: currentColor; fill: none; stroke-width: 2; }
   
+
+  /* Albert-style cover (world "paper"): cream page, faded photo, brand bar, huge 2-colour headline, handwritten aside, mystery diagram. */
+  .paper { --hl: #17281C; --acc: #C2591F; --note: #17281C; --foot: #17281C; --hls: none; }
+  .paper .sky { background: #F4EFE8 !important; }
+  .bgph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: .2; filter: saturate(.6) blur(1.5px); }
+  .paper .bgwash { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(248,244,238,.7), rgba(248,244,238,.35) 45%, rgba(248,244,238,.75)); }
+  .bbar { position: absolute; left: 0; right: 0; top: 64px; display: flex; justify-content: center; align-items: center; gap: 22px; z-index: 5; font: 800 58px/1 'Inter', sans-serif; color: var(--hl); letter-spacing: -.01em; }
+  .bbar img { height: 84px; width: 84px; object-fit: contain; }
+  .bbar .plus { font: 400 54px/1 'Anton'; opacity: .45; }
+  .hl.xl { font-size: 158px; line-height: .93; letter-spacing: -.005em; }
+  .hl.withbar { top: 170px; }
+  .hand { position: absolute; left: 0; right: 0; text-align: center; z-index: 5; font: 700 70px/1.05 'Caveat', cursive; color: var(--note); }
+  .tree { position: absolute; left: 0; right: 0; z-index: 4; }
+  .tree svg.wires { position: absolute; left: 0; top: 0; overflow: visible; }
+  .tree svg.wires path { fill: none; stroke: var(--hl); stroke-width: 7; stroke-linejoin: round; }
+  .tnode { position: absolute; background: #fff; border: 9px solid var(--tb, #A9C4F0); box-shadow: 0 10px 0 rgba(23,40,28,.12); display: grid; place-items: center; text-align: center; }
+  .tnode img.lg { width: 62%; height: 62%; object-fit: contain; }
+  .tnode img.sp { height: 78%; image-rendering: pixelated; }
+  .tnode .q { font: 400 1em/1 'Anton'; color: var(--acc); }
+  .tnode .lbl { position: absolute; left: 0; right: 0; bottom: -46px; font: 700 30px/1 var(--f-data); color: var(--ink); }
+  .tnode .tx { font: 400 64px/1 'Anton'; text-transform: uppercase; color: var(--ink); padding: 0 10px; }
+  .collage.clean { padding: 0; border-radius: 18px; overflow: hidden; border: 6px solid #fff; }
+  .collage.clean img { border-radius: 0; }
+  .collage.clean .tape { display: none; }
   .count { position: absolute; top: 30px; right: 40px; font: 700 22px/1 'Silkscreen'; color: var(--hl); opacity: .55; }
 </style>
 </head>
@@ -116,12 +142,36 @@ const arrow = (a) => { const mx = (a.x1 + a.x2) / 2 + (a.bend ?? 60), my = (a.y1
   const p1 = [a.x2 - h * Math.cos(ang - 0.5), a.y2 - h * Math.sin(ang - 0.5)], p2 = [a.x2 - h * Math.cos(ang + 0.5), a.y2 - h * Math.sin(ang + 0.5)];
   return `<svg style="left:0;top:0;width:1px;height:1px"><path d="M${a.x1} ${a.y1} Q${mx} ${my} ${a.x2} ${a.y2}"/><path d="M${p1[0]} ${p1[1]} L${a.x2} ${a.y2} L${p2[0]} ${p2[1]}"/></svg>`; };
 
+
+let BRANDS = {};
+const logoUrl = (id) => `../../assets/logos/${(BRANDS[id] && BRANDS[id].logo) || id + '.svg'}`;
+const nodeHtml = (n, size) => {
+  const inner = n.q ? `<span class="q" style="font-size:${Math.round(size * 0.62)}px">?</span>`
+    : n.brand ? `<img class="lg" src="${logoUrl(n.brand)}">` : n.sprite ? `<img class="sp" style="height:${Math.round(size * 0.74)}px" src="../../assets/pixel/sprites/${n.sprite}.png">`
+    : n.img ? `<img class="lg" style="width:100%;height:100%;object-fit:cover" src="${esc(n.img)}">` : `<span class="tx">${acc(n.text)}</span>`;
+  return inner + (n.label ? `<span class="lbl">${esc(n.label)}</span>` : '');
+};
+// tree: { y, one: node, many: [nodes], oneSize 300, manySize 200, gap 70, up: true = many on top converging into one below }
+const treeHtml = (t) => {
+  const W = 1080, os = t.oneSize ?? 300, ms = t.manySize ?? 200, gap = t.gap ?? 90, n = t.many.length;
+  const span = n * ms + (n - 1) * (t.spread ?? 60), x0 = (W - span) / 2;
+  const up = !!t.up, yOne = up ? ms + gap : 0, yMany = up ? 0 : os + gap;
+  const cx = W / 2, midY = up ? ms + gap / 2 : os + gap / 2;
+  let wires = '', nodes = '';
+  t.many.forEach((m, i) => {
+    const mx = x0 + i * (ms + (t.spread ?? 60)), mcx = mx + ms / 2;
+    wires += up ? `<path d="M${mcx} ${ms} V${midY} H${cx} V${yOne}"/>` : `<path d="M${cx} ${os} V${midY} H${mcx} V${yMany}"/>`;
+    nodes += `<div class="tnode" style="left:${mx}px;top:${yMany}px;width:${ms}px;height:${ms}px">${nodeHtml(m, ms)}</div>`;
+  });
+  nodes += `<div class="tnode" style="left:${cx - os / 2}px;top:${yOne}px;width:${os}px;height:${os}px;--tb:${t.oneBorder || 'var(--acc)'}">${nodeHtml(t.one, os)}</div>`;
+  return `<div class="tree" style="top:${t.y}px;--tb:${t.border || 'color-mix(in srgb, var(--acc) 38%, white)'}"><svg class="wires" width="1" height="1">${wires}</svg>${nodes}</div>`;
+};
 let DATA;
-window.renderPost = (data) => { DATA = data; window.slideCount = data.slides.length; window.showSlide(0); };
+window.renderPost = (data) => { DATA = data; BRANDS = data.brandsCfg || {}; window.slideCount = data.slides.length; window.showSlide(0); };
 window.showSlide = (i) => {
   const s = DATA.slides[i], world = s.world || 'day';
   GRASS = GRASS_BY_WORLD[world] ?? 1108;
-  const collage = (s.collage || []).map((c) => `<div class="collage" style="left:${c.x}px;top:${c.y}px;width:${c.w ?? 460}px;--ch:${c.h ?? 400}px;--cp:${c.pos ?? '50% 62%'};transform:rotate(${c.rot ?? 0}deg)"><div class="tape"></div><img src="${esc(c.srcUrl || c.src)}"></div>`).join('');
+  const collage = (s.collage || []).map((c) => `<div class="collage${c.clean || s.world === 'paper' ? ' clean' : ''}" style="left:${c.x}px;top:${c.y}px;width:${c.w ?? 460}px;--ch:${c.h ?? 400}px;--cp:${c.pos ?? '50% 62%'};transform:rotate(${c.rot ?? 0}deg)"><div class="tape"></div><img src="${esc(c.srcUrl || c.src)}"></div>`).join('');
   const bursts = (s.bursts || []).map((b) => `<div class="burst" style="left:${b.x}px;top:${b.y}px;width:${b.w ?? 230}px;height:${b.w ?? 230}px;--bs:${b.size ?? 46}px;transform:rotate(${b.rot ?? -10}deg)">${burstSvg(b.color || '#FFE066')}<span>${esc(b.text).replace(/\n/g, '<br>')}</span></div>`).join('');
   const igcta = s.cta ? `<div class="igcta" style="top:${s.cta.y ?? 300}px">${s.cta.pill !== false && !/\s/.test(s.cta.keyword) ? '<div class="cmtlbl">COMMENT</div>' : ''}<div class="big" style="font-size:${Math.min(150, Math.floor(820 / Math.max(3, s.cta.keyword.length)))}px">${esc(s.cta.keyword)}</div><div class="bar"><div class="av"></div><b>${esc(s.cta.keyword)}</b><span class="post">Post</span></div><div class="dm">${esc(s.cta.line || "comment it, we'll DM you")}${s.cta.pill !== false && !/\s/.test(s.cta.keyword) ? ' <span class="pill">DM SENT</span>' : ''}</div></div>` : '';
   const hl = (s.headline || []).map((l) => `<div>${acc(l)}</div>`).join('');
@@ -129,16 +179,21 @@ window.showSlide = (i) => {
   const notes = (s.notes || []).map((n) => `<div class="note${n.accent ? ' acc' : ''}" style="left:${n.x}px;top:${n.y}px;width:${n.w ?? 380}px">${esc(n.text).replace(/\n/g, '<br>')}${n.arrow ? arrow({ ...n.arrow, x1: n.arrow.x1 - n.x, y1: n.arrow.y1 - n.y, x2: n.arrow.x2 - n.x, y2: n.arrow.y2 - n.y }) : ''}</div>`).join('');
   const sprites = (s.sprites || []).map((p) => `<img class="sprite" src="../../assets/pixel/sprites/${p.name}.png" style="left:${p.x}px;height:${p.h}px;${p.y !== undefined ? `top:${p.y}px` : `bottom:${1350 - GRASS - (p.sink ?? 6)}px`};${p.flip ? 'transform:scaleX(-1)' : ''}">`).join('');
   document.getElementById('root').innerHTML = `
-    <div class="canvas ${world}">
+    <div class="canvas ${world}" style="${s.accent ? `--acc:${s.accent};` : ''}">
       <div class="sky" style="background-image:url(../../assets/pixel/sky-${world}.png)"></div>
+      ${s.bgPhoto ? `<div class="bgph" style="background-image:url(${esc(s.bgPhoto)})"></div><div class="bgwash"></div>` : ''}
+      ${s.brandbar ? `<div class="bbar">${s.brandbar.map((b, k) => `${k ? '<span class="plus">+</span>' : ''}<img src="${logoUrl(b)}">${s.brandbar.length === 1 ? esc((BRANDS[b] || {}).name || b) : ''}`).join('')}</div>` : ''}
       <div class="count">${i + 1}/${DATA.slides.length}</div>
-      <div class="hl ${s.size || ''}">${hl}${s.underline !== false && hl ? '<svg class="uline" viewBox="0 0 600 28" preserveAspectRatio="none"><path d="M6 18 C150 6, 420 6, 594 14"/><path d="M60 25 C220 16, 400 17, 520 22" style="stroke-width:4"/></svg>' : ''}</div>
+      <div class="hl ${s.size || ''}${s.brandbar ? ' withbar' : ''}">${hl}${s.underline !== false && hl ? '<svg class="uline" viewBox="0 0 600 28" preserveAspectRatio="none"><path d="M6 18 C150 6, 420 6, 594 14"/><path d="M60 25 C220 16, 400 17, 520 22" style="stroke-width:4"/></svg>' : ''}</div>
       ${card}
       ${s.kw ? `<div class="kw" style="top:${s.kw.y ?? 520}px">${esc(s.kw.text)}</div>` : ''}
+      ${s.hand ? `<div class="hand" style="top:${s.hand.y}px">${esc(s.hand.text)}</div>` : ''}
+      ${s.tree ? treeHtml(s.tree) : ''}
       ${collage}${sprites}${igcta}${notes}${bursts}
-      <div class="wmrow"><img src="../../assets/brand/wordmark.png" alt=""></div>
+      <div class="wmrow"><img src="../../assets/brand/lockup-horizontal.png" alt=""></div>
       <div class="foot"><span class="h">${DATA.platform === 'linkedin' ? ICONS.li : ICONS.ig}${esc(DATA.handle || '@contentsystems.ai')}</span><span class="h">save for later ${ICONS.bm}</span></div>
     </div>`;
+  document.querySelectorAll('.hl > div').forEach((l) => { l.style.whiteSpace = 'nowrap'; let fs = parseFloat(getComputedStyle(l).fontSize); while (l.scrollWidth > 960 && fs > 60) { fs -= 4; l.style.fontSize = fs + 'px'; } });
 };
 </script>
 </body>

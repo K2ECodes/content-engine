@@ -1,326 +1,283 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Korede Kolawole",
-    "platform": "linkedin",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#D97757",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
+    "brandbar": [
+     "claude",
+     "amazon",
+     "microsoft"
+    ],
+    "headline": [
+     "All 3 just bet",
+     "on *1 AI feature*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(and it's not a smarter model)",
+     "y": 600
+    },
+    "tree": {
+     "y": 700,
+     "up": true,
+     "many": [
       {
-        "world": "neon",
-        "headline": [
-          "The best AI feature",
-          "is a *yes button*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/duet.png",
-            "x": 40,
-            "y": 330,
-            "w": 330,
-            "h": 360,
-            "rot": -7
-          },
-          {
-            "src": "shots/walmart.png",
-            "x": 375,
-            "y": 305,
-            "w": 330,
-            "h": 360,
-            "rot": 4
-          },
-          {
-            "src": "shots/msft.png",
-            "x": 710,
-            "y": 335,
-            "w": 330,
-            "h": 360,
-            "rot": -3
-          }
-        ],
-        "bursts": [
-          {
-            "text": "ASKS\nFIRST",
-            "x": 840,
-            "y": 255,
-            "w": 200,
-            "size": 50,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "NEW",
-            "x": 20,
-            "y": 255,
-            "w": 180,
-            "size": 56,
-            "color": "#FF4FD8",
-            "rot": -12
-          },
-          {
-            "text": "1 PAUSE,\nYOUR MONEY",
-            "x": 400,
-            "y": 800,
-            "w": 250,
-            "size": 38,
-            "color": "#3FF2FF",
-            "rot": -8
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-shrug",
-            "x": 40,
-            "h": 260
-          },
-          {
-            "name": "robot",
-            "x": 690,
-            "h": 230
-          },
-          {
-            "name": "evil-robot",
-            "x": 860,
-            "h": 230
-          }
-        ],
-        "size": "s"
+       "brand": "claude"
       },
       {
-        "world": "day",
-        "headline": [
-          "It asks",
-          "*before it pays*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Every payment *waits*",
-            "Won't trade securities",
-            "Won't *move money*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "your approval,\nevery time",
-            "x": 100,
-            "y": 870,
-            "w": 420,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 610,
-            "h": 250,
-            "flip": true
-          },
-          {
-            "name": "korede-point",
-            "x": 860,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "brand": "amazon"
       },
       {
-        "world": "sunset",
-        "headline": [
-          "And before",
-          "*it sends*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "AI",
-              "p": "drafts it"
-            },
-            {
-              "h": "You",
-              "p": "send it",
-              "hi": true
-            }
-          ],
-          "foot": "refund, quote, client email"
-        },
-        "notes": [
-          {
-            "text": "1 wrong send\ncosts more",
-            "x": 560,
-            "y": 850,
-            "w": 400,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 40,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 240,
-            "h": 240
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "4 moments",
-          "*need a yes*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Money:",
-              "v": "going out"
-            },
-            {
-              "k": "Messages:",
-              "v": "to customers"
-            },
-            {
-              "k": "No. 3:",
-              "v": "? ? ?"
-            },
-            {
-              "k": "No. 4:",
-              "v": "? ? ?"
-            }
-          ]
-        },
-        "notes": [
-          {
-            "text": "2 you'd guess,\n2 you wouldn't",
-            "x": 540,
-            "y": 850,
-            "w": 460
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 40,
-            "h": 270
-          },
-          {
-            "name": "korede-stand",
-            "x": 270,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "The 1 rule",
-          "*all 100+ follow*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Day 1",
-              "p": "it's set"
-            },
-            {
-              "h": "Every 1",
-              "p": "no exceptions"
-            },
-            {
-              "h": "Workshop",
-              "p": "see it live",
-              "hi": true
-            }
-          ],
-          "foot": "inside our 100+ AI employees",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "it's why\nI trust them",
-            "x": 560,
-            "y": 840,
-            "w": 400
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 40,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 270,
-            "h": 250
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Build your first",
-          "*2 AI employees*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "WORKSHOP",
-          "y": 300,
-          "line": "next date in our bio",
-          "pill": true
-        },
-        "bursts": [
-          {
-            "text": "LIVE",
-            "x": 865,
-            "y": 505,
-            "w": 180,
-            "size": 46,
-            "color": "#3FF2FF",
-            "rot": 12
-          },
-          {
-            "text": "LEADS\nAT 2 AM?",
-            "x": 268,
-            "y": 850,
-            "w": 175,
-            "size": 34,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 450,
-            "h": 240
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
+       "brand": "microsoft"
       }
+     ],
+     "manySize": 150,
+     "gap": 64,
+     "one": {
+      "q": true
+     },
+     "oneSize": 250,
+     "spread": 70
+    },
+    "notes": [
+     {
+      "text": "swipe to\nsee it",
+      "x": 735,
+      "y": 930,
+      "w": 260,
+      "accent": true,
+      "arrow": {
+       "x1": 760,
+       "y1": 1000,
+       "x2": 685,
+       "y2": 1040,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "It asks",
+     "*before it pays*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Every payment *waits*",
+      "Won't trade securities",
+      "Won't *move money*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "your approval,\nevery time",
+      "x": 100,
+      "y": 870,
+      "w": 420,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 610,
+      "h": 250,
+      "flip": true
+     },
+     {
+      "name": "korede-point",
+      "x": 860,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "And before",
+     "*it sends*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "AI",
+       "p": "drafts it"
+      },
+      {
+       "h": "You",
+       "p": "send it",
+       "hi": true
+      }
+     ],
+     "foot": "refund, quote, client email"
+    },
+    "notes": [
+     {
+      "text": "1 wrong send\ncosts more",
+      "x": 560,
+      "y": 850,
+      "w": 400,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 40,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 240,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "4 moments",
+     "*need a yes*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Money:",
+       "v": "going out"
+      },
+      {
+       "k": "Messages:",
+       "v": "to customers"
+      },
+      {
+       "k": "No. 3:",
+       "v": "? ? ?"
+      },
+      {
+       "k": "No. 4:",
+       "v": "? ? ?"
+      }
+     ]
+    },
+    "notes": [
+     {
+      "text": "2 you'd guess,\n2 you wouldn't",
+      "x": 540,
+      "y": 850,
+      "w": 460
+     }
+    ],
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 40,
+      "h": 270
+     },
+     {
+      "name": "korede-stand",
+      "x": 270,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "The 1 rule",
+     "*all 100+ follow*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Day 1",
+       "p": "it's set"
+      },
+      {
+       "h": "Every 1",
+       "p": "no exceptions"
+      },
+      {
+       "h": "Workshop",
+       "p": "see it live",
+       "hi": true
+      }
+     ],
+     "foot": "inside our 100+ AI employees",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "it's why\nI trust them",
+      "x": 560,
+      "y": 840,
+      "w": 400
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 40,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 270,
+      "h": 250
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Build your first",
+     "*2 AI employees*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 300,
+     "line": "next date in our bio",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 450,
+      "h": 240
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   }
+  ]
+ }
 }

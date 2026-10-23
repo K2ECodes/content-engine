@@ -1,384 +1,361 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#1A6FD8",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "brandbar": [
+     "walmart",
+     "google",
+     "meta"
+    ],
+    "headline": [
+     "Your next customer",
+     "*isn't human*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(it checks 5 things before it buys)",
+     "y": 600
+    },
+    "tree": {
+     "y": 690,
+     "one": {
+      "sprite": "robot"
+     },
+     "oneSize": 230,
+     "gap": 66,
+     "many": [
       {
-        "world": "sunset",
-        "headline": [
-          "Your next customer",
-          "might be *an AI*"
-        ],
-        "collage": [
-          {
-            "src": "shots/walmart.png",
-            "x": 40,
-            "y": 350,
-            "w": 330,
-            "rot": -7,
-            "h": 360
-          },
-          {
-            "src": "shots/google.png",
-            "x": 380,
-            "y": 320,
-            "w": 330,
-            "rot": 4,
-            "h": 360
-          },
-          {
-            "src": "shots/meta.png",
-            "x": 710,
-            "y": 360,
-            "w": 330,
-            "rot": -3,
-            "h": 360
-          }
-        ],
-        "bursts": [
-          {
-            "text": "NEW",
-            "x": 800,
-            "y": 250,
-            "w": 200,
-            "size": 60,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "$200+\nper order",
-            "x": 400,
-            "y": 850,
-            "w": 250,
-            "size": 40,
-            "color": "#9CCAA0",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 60,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 800,
-            "h": 250
-          }
-        ],
-        "underline": false
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "1. Clear",
-          "*product info*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Sizes and materials",
-            "What's in the box",
-            "Who it's *for*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "if it isn't written down,\nit can't recommend it",
-            "x": 470,
-            "y": 830,
-            "w": 540
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-point",
-            "x": 110,
-            "h": 280
-          },
-          {
-            "name": "box",
-            "x": 360,
-            "h": 110
-          },
-          {
-            "name": "cat",
-            "x": 820,
-            "h": 150
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "2. Real",
-          "*stock levels*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "bars",
-          "title": "what the assistant sees",
-          "bars": [
-            {
-              "label": "12",
-              "name": "store says",
-              "value": 12
-            },
-            {
-              "label": "0",
-              "name": "warehouse has",
-              "value": 0.5,
-              "hot": true
-            }
-          ],
-          "foot": "wrong counts mean missed back-in-stock alerts"
-        },
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 740,
-            "h": 290,
-            "flip": true
-          }
-        ],
-        "notes": [
-          {
-            "text": "same item,\n2 answers",
-            "x": 120,
-            "y": 870,
-            "w": 360,
-            "accent": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "3. Honest",
-          "*delivery dates*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Vague",
-              "p": "ships soon"
-            },
-            {
-              "h": "Clear",
-              "p": "arrives Thu",
-              "hi": true
-            }
-          ],
-          "foot": "assistants compare these side by side"
-        },
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 740,
-            "h": 290
-          },
-          {
-            "name": "robot",
-            "x": 120,
-            "h": 260
-          }
-        ],
-        "notes": [
-          {
-            "text": "a real date\nwins the sale",
-            "x": 110,
-            "y": 860,
-            "w": 420,
-            "accent": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "4. Returns",
-          "*in plain words*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "accent": true,
-          "kind": "quote",
-          "text": "[33 in 100] shoppers say shipping and returns often change what they buy.",
-          "who": "Feedvisor and PartnerCentric survey, Oct 2026"
-        },
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 110,
-            "h": 280
-          },
-          {
-            "name": "box-monster",
-            "x": 800,
-            "h": 200
-          }
-        ],
-        "notes": [
-          {
-            "text": "1 clear page,\nno fine print",
-            "x": 560,
-            "y": 860,
-            "w": 420
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "5. Questions",
-          "*answered once*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Fit and sizing",
-            "Care and washing",
-            "Warranty and *returns*"
-          ]
-        },
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 740,
-            "h": 290,
-            "flip": true
-          },
-          {
-            "name": "robot",
-            "x": 420,
-            "h": 200
-          }
-        ],
-        "notes": [
-          {
-            "text": "your top 10,\non your site",
-            "x": 90,
-            "y": 880,
-            "w": 360,
-            "accent": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "We keep your store",
-          "*AI ready*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "accent": true,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Check",
-              "p": "every page"
-            },
-            {
-              "h": "Match",
-              "p": "stock + dates",
-              "hi": true
-            },
-            {
-              "h": "Flag",
-              "p": "you approve"
-            }
-          ]
-        },
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 120,
-            "h": 280
-          },
-          {
-            "name": "bulb",
-            "x": 420,
-            "h": 150,
-            "y": 890
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 720,
-            "h": 280
-          }
-        ],
-        "notes": [
-          {
-            "text": "human or AI,\nthey can buy",
-            "x": 560,
-            "y": 760,
-            "w": 420
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Want the",
-          "*free check?*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll DM you"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 820,
-            "y": 200,
-            "w": 200,
-            "size": 58,
-            "color": "#3FF2FF",
-            "rot": 12
-          },
-          {
-            "text": "30 ticks\n7 areas",
-            "x": 40,
-            "y": 210,
-            "w": 220,
-            "size": 36,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 420,
-            "h": 240
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 740,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 128,
+     "spread": 34
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 860,
+      "y": 760,
+      "w": 180,
+      "accent": true,
+      "arrow": {
+       "x1": 930,
+       "y1": 830,
+       "x2": 950,
+       "y2": 930,
+       "bend": -40
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Clear",
+     "*product info*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Sizes and materials",
+      "What's in the box",
+      "Who it's *for*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "if it isn't written down,\nit can't recommend it",
+      "x": 470,
+      "y": 830,
+      "w": 540
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 110,
+      "h": 280
+     },
+     {
+      "name": "box",
+      "x": 360,
+      "h": 110
+     },
+     {
+      "name": "cat",
+      "x": 820,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. Real",
+     "*stock levels*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "bars",
+     "title": "what the assistant sees",
+     "bars": [
+      {
+       "label": "12",
+       "name": "store says",
+       "value": 12
+      },
+      {
+       "label": "0",
+       "name": "warehouse has",
+       "value": 0.5,
+       "hot": true
+      }
+     ],
+     "foot": "wrong counts mean missed back-in-stock alerts"
+    },
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 740,
+      "h": 290,
+      "flip": true
+     }
+    ],
+    "notes": [
+     {
+      "text": "same item,\n2 answers",
+      "x": 120,
+      "y": 870,
+      "w": 360,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "3. Honest",
+     "*delivery dates*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Vague",
+       "p": "ships soon"
+      },
+      {
+       "h": "Clear",
+       "p": "arrives Thu",
+       "hi": true
+      }
+     ],
+     "foot": "assistants compare these side by side"
+    },
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 740,
+      "h": 290
+     },
+     {
+      "name": "robot",
+      "x": 120,
+      "h": 260
+     }
+    ],
+    "notes": [
+     {
+      "text": "a real date\nwins the sale",
+      "x": 110,
+      "y": 860,
+      "w": 420,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "4. Returns",
+     "*in plain words*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "accent": true,
+     "kind": "quote",
+     "text": "[33 in 100] shoppers say shipping and returns often change what they buy.",
+     "who": "Feedvisor and PartnerCentric survey, Oct 2026"
+    },
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 110,
+      "h": 280
+     },
+     {
+      "name": "box-monster",
+      "x": 800,
+      "h": 200
+     }
+    ],
+    "notes": [
+     {
+      "text": "1 clear page,\nno fine print",
+      "x": 560,
+      "y": 860,
+      "w": 420
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "5. Questions",
+     "*answered once*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Fit and sizing",
+      "Care and washing",
+      "Warranty and *returns*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 740,
+      "h": 290,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 420,
+      "h": 200
+     }
+    ],
+    "notes": [
+     {
+      "text": "your top 10,\non your site",
+      "x": 90,
+      "y": 880,
+      "w": 360,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "We keep your store",
+     "*AI ready*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "accent": true,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Check",
+       "p": "every page"
+      },
+      {
+       "h": "Match",
+       "p": "stock + dates",
+       "hi": true
+      },
+      {
+       "h": "Flag",
+       "p": "you approve"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 120,
+      "h": 280
+     },
+     {
+      "name": "bulb",
+      "x": 420,
+      "h": 150,
+      "y": 890
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 720,
+      "h": 280
+     }
+    ],
+    "notes": [
+     {
+      "text": "human or AI,\nthey can buy",
+      "x": 560,
+      "y": 760,
+      "w": 420
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*free check?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 420,
+      "h": 240
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 740,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }
