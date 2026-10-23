@@ -353,16 +353,6 @@
    "1password",
    "microsoft"
   ],
-  "hook": {
-   "style": "slam",
-   "brands": [
-    "anthropic",
-    "walmart",
-    "1password",
-    "microsoft"
-   ],
-   "text": "1 RULE"
-  },
   "pops": [
    {
     "at": "of",
@@ -420,6 +410,123 @@
    }
   ],
   "branded": true,
-  "look": "pixel"
+  "look": "pixel",
+  "coldOpen": {
+   "until": "Here's",
+   "set": "stage",
+   "titleColor": "#C98A3C",
+   "titles": [
+    {
+     "text": [
+      "4 tech giants.",
+      "*1 AI rule.*"
+     ]
+    }
+   ],
+   "accent": [
+    "same",
+    "rule"
+   ],
+   "actors": [
+    {
+     "brand": "anthropic",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 170,
+     "scale": 0.95
+    },
+    {
+     "brand": "walmart",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 370,
+     "scale": 0.95
+    },
+    {
+     "brand": "1password",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 590,
+     "scale": 0.95
+    },
+    {
+     "brand": "microsoft",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 830,
+     "scale": 0.95
+    }
+   ],
+   "beats": [
+    {
+     "at": "4",
+     "actor": 0,
+     "do": "drop"
+    },
+    {
+     "at": "biggest",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "names",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "tech",
+     "actor": 3,
+     "do": "drop"
+    },
+    {
+     "at": "same",
+     "actor": 0,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 1,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 2,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 3,
+     "do": "raise"
+    },
+    {
+     "at": "month.",
+     "actor": 0,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 1,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 2,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 3,
+     "do": "squash"
+    }
+   ]
+  }
  }
 }

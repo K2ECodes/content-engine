@@ -321,16 +321,6 @@
    "ups",
    "dhl"
   ],
-  "hook": {
-   "style": "blast",
-   "brands": [
-    "fedex",
-    "ups",
-    "dhl",
-    "usps"
-   ],
-   "text": "$8K GONE?"
-  },
   "pops": [
    {
     "at": "Your",
@@ -411,6 +401,86 @@
    }
   ],
   "branded": true,
-  "look": "pixel"
+  "look": "pixel",
+  "coldOpen": {
+   "until": "It",
+   "set": "warehouse",
+   "titleColor": "#E0762E",
+   "titles": [
+    {
+     "text": [
+      "Your warehouse",
+      "*did the work.*"
+     ]
+    },
+    {
+     "at": "So",
+     "text": [
+      "So why is $8K",
+      "*missing?*"
+     ]
+    }
+   ],
+   "accent": [
+    "work.",
+    "missing"
+   ],
+   "actors": [
+    {
+     "thing": "box",
+     "limbs": true,
+     "props": [
+      "sweat"
+     ],
+     "x": 230
+    },
+    {
+     "thing": "invoice",
+     "text": "$0",
+     "x": 500
+    },
+    {
+     "thing": "bag",
+     "limbs": true,
+     "text": "$8K",
+     "x": 770,
+     "scale": 1.25
+    }
+   ],
+   "beats": [
+    {
+     "at": "Your",
+     "actor": 0,
+     "do": "jump"
+    },
+    {
+     "at": "work.",
+     "actor": 0,
+     "do": "celebrate"
+    },
+    {
+     "at": "So",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "$8K",
+     "actor": 2,
+     "do": "squash",
+     "say": "Bye."
+    },
+    {
+     "at": "missing",
+     "actor": 2,
+     "do": "run-out",
+     "dir": "right"
+    },
+    {
+     "at": "invoice?",
+     "actor": 1,
+     "do": "panic"
+    }
+   ]
+  }
  }
 }

@@ -162,16 +162,6 @@
    "shopify",
    "instagram"
   ],
-  "hook": {
-   "style": "breaking",
-   "brands": [
-    "shopify",
-    "instagram"
-   ],
-   "tag": "NEW SURVEY",
-   "ticker": "Shoppers trust a support bot twice as much when it can hand them to a person",
-   "text": "2X"
-  },
   "pops": [
    {
     "at": "Shoppers",
@@ -270,6 +260,86 @@
    }
   ],
   "branded": true,
-  "stop": false
+  "stop": false,
+  "coldOpen": {
+   "until": "In",
+   "set": "office",
+   "titleColor": "#5E8E3E",
+   "titles": [
+    {
+     "text": [
+      "Shoppers trust bots",
+      "*twice as much...*"
+     ]
+    },
+    {
+     "at": "Hand",
+     "text": [
+      "when they hand you",
+      "*to a person.*"
+     ]
+    }
+   ],
+   "accent": [
+    "twice",
+    "person."
+   ],
+   "actors": [
+    {
+     "thing": "person",
+     "limbs": true,
+     "color": "#D97757",
+     "x": 200,
+     "scale": 1.3
+    },
+    {
+     "thing": "bot",
+     "limbs": true,
+     "color": "#9FC3EA",
+     "x": 500
+    },
+    {
+     "thing": "person",
+     "limbs": true,
+     "color": "#3E6FB0",
+     "props": [
+      "headset"
+     ],
+     "x": 790,
+     "scale": 1.3
+    }
+   ],
+   "beats": [
+    {
+     "at": "support",
+     "actor": 1,
+     "do": "wave",
+     "say": "How can I help?"
+    },
+    {
+     "at": "much",
+     "actor": 0,
+     "do": "shake"
+    },
+    {
+     "at": "Hand",
+     "actor": 1,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "person.",
+     "actor": 2,
+     "do": "run-in",
+     "from": "right",
+     "say": "I've got you"
+    },
+    {
+     "at": "person.",
+     "actor": 0,
+     "do": "celebrate"
+    }
+   ]
+  }
  }
 }

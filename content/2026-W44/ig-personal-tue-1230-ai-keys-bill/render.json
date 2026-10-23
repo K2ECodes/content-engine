@@ -295,17 +295,6 @@
       "anthropic",
       "claude"
     ],
-    "hook": {
-      "style": "zoom",
-      "brands": [
-        "openai",
-        "anthropic",
-        "claude",
-        "google",
-        "chatgpt"
-      ],
-      "src": "shots/c-headline.png"
-    },
     "pops": [
       {
         "at": "$1,000",
@@ -420,6 +409,71 @@
         "until": "Second,"
       }
     ],
-    "look": "pixel"
+    "look": "pixel",
+    "coldOpen": {
+      "until": "Here's",
+      "set": "night",
+      "titleColor": "#E0452F",
+      "titles": [
+        {
+          "text": [
+            "A hacked AI tool",
+            "*ran up the bill.*"
+          ]
+        }
+      ],
+      "accent": [
+        "hacked",
+        "$1,000"
+      ],
+      "actors": [
+        {
+          "thing": "laptop",
+          "color": "#FFE1DC",
+          "x": 250,
+          "scale": 1.7
+        },
+        {
+          "thing": "key",
+          "limbs": true,
+          "x": 520,
+          "scale": 1.1
+        },
+        {
+          "thing": "invoice",
+          "text": "$1,000+",
+          "x": 780
+        }
+      ],
+      "beats": [
+        {
+          "at": "hacked",
+          "actor": 0,
+          "do": "shake"
+        },
+        {
+          "at": "ran",
+          "actor": 1,
+          "do": "run-out",
+          "dir": "right"
+        },
+        {
+          "at": "bills",
+          "actor": 2,
+          "do": "drop"
+        },
+        {
+          "at": "$1,000",
+          "actor": 2,
+          "do": "grow",
+          "to": 1.35
+        },
+        {
+          "at": "accounts.",
+          "actor": 0,
+          "do": "panic"
+        }
+      ]
+    }
   }
 }

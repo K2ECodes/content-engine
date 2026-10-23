@@ -392,12 +392,89 @@
       "gemini"
     ],
     "stop": false,
-    "hook": {
-      "style": "zoom",
-      "src": "shots/walmart-crop.png",
-      "brands": [
-        "walmart",
-        "amazon"
+    "coldOpen": {
+      "until": "And",
+      "set": "store",
+      "titles": [
+        {
+          "text": [
+            "Walmart lets AI",
+            "*shop the store.*"
+          ]
+        },
+        {
+          "at": "Amazon",
+          "text": [
+            "Amazon",
+            "*said no.*"
+          ],
+          "color": "#E47911"
+        }
+      ],
+      "accent": [
+        "entire",
+        "no."
+      ],
+      "actors": [
+        {
+          "brand": "walmart",
+          "x": 220
+        },
+        {
+          "thing": "bot",
+          "limbs": true,
+          "color": "#9FC3EA",
+          "props": [
+            "cart"
+          ],
+          "x": 470,
+          "scale": 0.9
+        },
+        {
+          "brand": "amazon",
+          "x": 790
+        }
+      ],
+      "beats": [
+        {
+          "at": "Walmart",
+          "actor": 0,
+          "do": "wave",
+          "say": "Come on in"
+        },
+        {
+          "at": "agents",
+          "actor": 1,
+          "do": "run-in",
+          "from": "left"
+        },
+        {
+          "at": "entire",
+          "actor": 1,
+          "do": "jump"
+        },
+        {
+          "at": "Amazon",
+          "actor": 2,
+          "do": "drop"
+        },
+        {
+          "at": "said",
+          "actor": 2,
+          "do": "point",
+          "dir": "left"
+        },
+        {
+          "at": "no.",
+          "actor": 2,
+          "do": "squash",
+          "say": "No."
+        },
+        {
+          "at": "no.",
+          "actor": 1,
+          "do": "sad"
+        }
       ]
     }
   }

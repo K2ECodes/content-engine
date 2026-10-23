@@ -47,7 +47,8 @@ async function openTemplate(browser, template, data, aspect) {
   await page.addStyleTag({ content: `:root{--w:${w}px;--h:${h}px}` });
   await page.evaluate(([d, o]) => window.renderPost(d, o), [data, { aspect }]);
   await page.evaluate(() => document.fonts.ready);
-  await page.waitForLoadState('networkidle');
+  // long face videos stream for a while; their readiness is awaited per video (renderStory), so a busy network is not fatal
+  await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => console.warn('  network still busy after 30 s (streaming media), continuing'));
   await page.evaluate(() => Promise.all([...document.images].map((i) => i.complete || new Promise((r) => { i.onload = i.onerror = r; }))));
   return { page, w, h };
 }
@@ -179,6 +180,8 @@ const SFX = {
   shutter: 'anoisesrc=d=0.14:c=white:a=0.9,highpass=f=1800,afade=t=out:st=0.03:d=0.11,aecho=0.8:0.5:40:0.35',
   pop: 'sine=f=520:d=0.09,asetrate=48000*1.0,volume=1.2,afade=t=out:st=0.02:d=0.07,vibrato=f=18:d=0.4',
   whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
+  // cold-open character cues (templates/story/coldopen.js)
+  snore: 'anoisesrc=d=1.0:c=brown:a=0.7,lowpass=f=420,tremolo=f=4:d=0.8,afade=t=in:d=0.35,afade=t=out:st=0.55:d=0.45',
   // 8-bit cues for templates/arena (square waves and noise, research/style-fire-reel.md 11.9)
   blip: "aevalsrc='0.5*sgn(sin(2*PI*880*t))*exp(-18*t)':s=48000:d=0.12",
   beep: "aevalsrc='0.45*sgn(sin(2*PI*1320*t))*lt(t,0.11)':s=48000:d=0.14",
@@ -192,9 +195,30 @@ const SFX = {
   beam: "aevalsrc='0.35*sgn(sin(2*PI*(900-300*t)*t))*exp(-1.5*t)+0.35*(random(0)*2-1)*exp(-3*t)':s=48000:d=0.7",
   fanfare: "aevalsrc='0.4*sgn(sin(2*PI*if(lt(t,0.14),523,if(lt(t,0.28),659,if(lt(t,0.42),784,1047)))*t))*if(lt(t,0.42),1,exp(-2.2*(t-0.42)))':s=48000:d=1.2",
 };
+// Recorded SFX kit (assets/sfx/kit/<kit>-<n>.wav, sources in kit/LICENSES.md). A cue kind with kit files plays them,
+// rotating variants by cue index, instead of the synth. SFX_KIT=0 forces the old synths.
+const KIT_ALIAS = { whoosh: 'whoosh-subtle', pop: 'pop', tick: 'tap', click: 'tap', thud: 'impact-soft', blast: 'impact-big', shutter: 'shutter', key: 'keyboard', roll: 'counter-tick' };
+// Kit files peak at -3 dBFS; cue vol (default 0.12) is scaled per kit so, measured as max 100 ms RMS against the VO,
+// whooshes/pops sit about -18 dB under the voice and hits, dings and big whooshes about -12 to -15 dB.
+const KIT_GAIN = { 'whoosh-subtle': 1, tap: 1.1, keyboard: 1, 'counter-tick': 1, pop: 1.2, riser: 1.5, 'whoosh-big': 1.5, ding: 2.8, chime: 2.6, success: 2.8, notify: 2.6, 'impact-soft': 1.2, 'impact-big': 1.8, shutter: 2, boing: 2 };
+// per-variant trims so variants of one kit land at a similar loudness (peak-normalised files differ in energy)
+const KIT_TRIM = { 'ding-1': 1.3, 'chime-2': 1.6, 'success-1': 1.4, 'pop-2': 1.8, 'pop-3': 1.2, 'riser-1': 1.4, 'impact-soft-2': 1.3 };
+const kitCache = {};
+function kitFiles(kind) {
+  const kit = KIT_ALIAS[kind] ?? kind;
+  if (process.env.SFX_KIT === '0') return { kit, files: [] };
+  if (!kitCache[kit]) {
+    const dir = path.join(ROOT, 'assets/sfx/kit');
+    const re = new RegExp(`^${kit.replace(/[^\w-]/g, '')}-(\\d+)\\.wav$`);
+    kitCache[kit] = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => re.test(f)).sort((a, b) => Number(a.match(re)[1]) - Number(b.match(re)[1])).map((f) => path.join(dir, f)) : [];
+  }
+  return { kit, files: kitCache[kit] };
+}
 function sfxFile(kind) {
   const dir = path.join(ROOT, 'assets/sfx');
   const f = path.join(dir, `${kind}.wav`);
+  // a cue kind with neither a kit file nor a synth recipe falls back to its nearest synth cue instead of failing the render
+  if (!fs.existsSync(f) && !SFX[kind]) return sfxFile(/^whoosh|riser/.test(kind) ? 'whoosh' : /ding|chime|success|notify/.test(kind) ? 'tick' : 'pop');
   if (!fs.existsSync(f)) {
     fs.mkdirSync(dir, { recursive: true });
     spawnSync('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', SFX[kind], '-ar', '48000', '-ac', '2', f]);
@@ -257,13 +281,21 @@ function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) 
   const ain = [], af = [], mix = [];
   let n = 1; // input 0 is the silent video
   if (voiceSrc) { ain.push('-i', voiceSrc); af.push(`[${n}:a]aresample=48000,aformat=channel_layouts=stereo[vo]`); n++; }
-  const kinds = [...new Set(sfx.map((c) => c.kind))];
-  for (const k of kinds) {
-    const cues = sfx.filter((c) => c.kind === k && c.t < duration);
-    if (!cues.length) continue;
-    ain.push('-i', sfxFile(k));
-    af.push(`[${n}:a]asplit=${cues.length}${cues.map((_, i) => `[${k}${i}]`).join('')}`);
-    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[${k}${i}]adelay=${ms}|${ms},volume=${c.vol ?? 0.12}[${k}d${i}]`); mix.push(`[${k}d${i}]`); });
+  // Resolve every cue to a file (kit variant rotated by cue index within its kit, else the synth) and a volume, then group by file.
+  const byFile = new Map(), seen = {};
+  for (const c of sfx.filter((c) => c.t < duration).sort((a, b) => a.t - b.t)) {
+    const { kit, files } = kitFiles(c.kind);
+    let file = null, vol = c.vol ?? 0.12;
+    if (files.length) { const i = seen[kit] = (seen[kit] ?? -1) + 1; file = files[i % files.length]; vol = Math.min(0.45, vol * (KIT_GAIN[kit] ?? 1.2) * (KIT_TRIM[path.basename(file, '.wav')] ?? 1)); }
+    else file = sfxFile(c.kind);
+    if (!byFile.has(file)) byFile.set(file, []);
+    byFile.get(file).push({ t: Math.max(0, c.t), vol });
+    if (process.env.SFX_DEBUG) console.log(`  sfx ${c.t.toFixed(2)}s ${c.kind} -> ${path.basename(file)} vol ${vol.toFixed(3)}`);
+  }
+  for (const [file, cues] of byFile) {
+    ain.push('-i', file);
+    af.push(`[${n}:a]asplit=${cues.length}${cues.map((_, i) => `[s${n}_${i}]`).join('')}`);
+    cues.forEach((c, i) => { const ms = Math.round(c.t * 1000); af.push(`[s${n}_${i}]adelay=${ms}|${ms},volume=${c.vol.toFixed(4)}[s${n}d${i}]`); mix.push(`[s${n}d${i}]`); });
     n++;
   }
   let musicLabel = null;
@@ -353,6 +385,9 @@ function resolveStory(dir, spec) {
     if (o.totalAt !== undefined) o.totalT = T(o.totalAt, `scene ${i} total`);
     if (o.stamp) o.stamp = { ...o.stamp, t: T(o.stamp.at, `scene ${i} stamp`) };
     if (o.click) o.click = { ...o.click, t: T(o.click.at, `scene ${i} click`) };
+    if (o.sprites) o.sprites = o.sprites.map((k, j) => ({ ...k, acts: (k.acts || []).map((a, m) => ({ ...a, t: a.at !== undefined ? T(a.at, `scene ${i} sprite ${j} act ${m}`, 0.03) : undefined })) }));
+    for (const key of ['nodes', 'edges', 'pulses']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
+    if (o.counters) o.counters = o.counters.map((c, k) => ({ ...c, t: c.at !== undefined ? T(c.at, `scene ${i} counter ${k}`) : undefined, ticks: (c.ticks || []).map((tk, j) => ({ ...tk, t: T(tk.at, `scene ${i} counter ${k} tick ${j}`, 0.02) })) }));
     if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;
     if (o.bg) o.bgUrl = pathToFileURL(path.resolve(dir, o.bg)).href;
     if (o.type === 'person') { o.photoUrl = pathToFileURL(path.resolve(dir, o.photo)).href; if (o.brand) o.b = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'))[o.brand]; }
@@ -365,6 +400,23 @@ function resolveStory(dir, spec) {
   const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, logoUrl: pathToFileURL(path.join(ROOT, 'assets/logos', b.logo)).href }; };
   d.scenes.forEach((sc) => { if (sc.brand) sc.b = brand(sc.brand); if (sc.type === 'vs') { sc.lb = brand(sc.left); sc.rb = brand(sc.right); } });
   d.bgLogos = (d.bgLogos || []).map((id) => brand(id));
+  d.scenes.forEach((sc) => { (sc.nodes || []).forEach((n) => { if (n.brand) n.b = brand(n.brand); }); });
+  if (d.coldOpen) {
+    // Cold open: 1 visual gag acting out the hook line. Anchors that no longer resolve (after a re-voice) are dropped with a warning, never fatal.
+    const C = d.coldOpen;
+    const tryT = (a, label) => { if (typeof a === 'number') return a; try { return wordTime(words, a, label); } catch (e) { console.warn(`  cold open: ${e.message}`); return null; } };
+    let end = C.until === undefined ? null : tryT(C.until, 'coldOpen until');
+    if (end == null) { const k = words.findIndex((w) => /[.?!]$/.test(w.w)); end = words[k + 1]?.start ?? 3; }
+    C.end = Math.max(0.8, end - 0.06);
+    C.actors = (C.actors || []).map((a) => ({ ...a, ...(a.brand ? { b: brand(a.brand) } : {}), ...(a.sprite ? { srcUrl: pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${a.sprite}.png`)).href } : {}) }));
+    C.beats = (C.beats || []).map((b, i) => { const t = b.at === undefined ? 0 : tryT(b.at, `coldOpen beat ${i}`); return { ...b, t: t == null ? null : Math.max(0, t - (b.lead ?? 0.08)), ...(b.brand ? { b: brand(b.brand) } : {}) }; })
+      .filter((b) => b.t != null && b.t < C.end && C.actors[b.actor]).sort((a, b) => a.t - b.t);
+    if (C.titles) C.titles = C.titles.map((tt, i) => ({ ...tt, t: tt.at === undefined ? 0 : tryT(tt.at, `coldOpen title ${i}`) ?? 0 }));
+    const lum = (hex) => { const n = parseInt(String(hex).replace('#', '').slice(0, 6), 16); return (0.299 * (n >> 16 & 255) + 0.587 * (n >> 8 & 255) + 0.114 * (n & 255)) / 255; };
+    const fb = C.actors.find((a) => a.b)?.b;
+    C.titleColor = C.titleColor || (fb && lum(fb.bg) > 0.15 && lum(fb.bg) < 0.85 ? fb.bg : '#C98A3C');
+    d.hook = null;
+  }
   if (d.hook) d.hook = { ...d.hook, targets: (d.hook.brands || []).slice(0, 6).map((id) => brand(id)), srcUrl: d.hook.src ? pathToFileURL(path.resolve(dir, d.hook.src)).href : undefined };
   d.pops = (d.pops || []).map((p, i) => ({ ...p, t: T(p.at, `pop ${i}`, 0.03), end: p.until !== undefined ? T(p.until, `pop ${i} until`) : undefined,
     ...(p.kind === 'logo' ? { b: brand(p.brand) } : {}), ...(p.kind === 'sprite' ? { srcUrl: pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${p.sprite}.png`)).href } : {}) }));

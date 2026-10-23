@@ -31,6 +31,36 @@ Overlays on any scene: `stamp` {text DONE|BILLED|SENT|MISSED|APPROVED, kind ok|b
 Top level: `keys` [words to box, lowercase, no punctuation], `strikes` [words to strike], `tail`, `posterAt`.
 New scene every 3 to 5 s; rows/ticks every 0.8 to 1.2 s.
 
+- `flow` {title ["How agents", "*use tools*"], nodes: [{text, sub, brand, kind dark|accent, x, y (in a 1000x720 box; omit to auto-place), at}], edges: [{from, to, label, at}], pulses: [{edge, at}] (a dot travels the arrow), counters: [{label, x, y, ticks: [{at, v}]}]} step-by-step diagram: 1 node or arrow per anchored word, counters tick with a pop (the reference's agent → MCP → tools build).
+Transitions: `tr` per scene (or top-level `tr` for all): `push` (default, slide-push with a colour wipe + whoosh), `up` (vertical push), `zoom` (scale-through), `morph` (shared element: the outgoing card flies into the incoming card's box; use it when 2 scenes show the same object, e.g. a receipt that becomes a stat), `fade`, `cut` (old blur-in hard cut). Transitions and the cold open play smooth even in the 12 fps stop-motion look.
+Material: every card, brand panel, quote, screenshot frame, badge and flow node is liquid glass (`templates/_base/glass.css`: backdrop blur + saturate, specular top edge, slow sheen sweep). Add class `glass` (or `glass dark`) to anything new.
+Motion: nothing sits still. Cards drift and tilt, sprites breathe and act on words (`sprites[].acts: [{at, do: hop|wave|point|spin|shake}]`), cold-open characters blink and breathe.
+Safe zones (Korede): everything important inside x 60 to 940 and y 230 to 1500 (IG/TikTok buttons on the right, caption and audio bar at the bottom). Pops, stickers, sprites and cold-open actors are clamped into it; set `"safeGuides": true` in data for a test render to see the zones in red.
+
+## 4b. Cold open (the first 1 to 4 s)
+Every story video opens with ONE visual gag that literally acts out the hook line, like the reference reels (Claude logo in a cowboy hat dozing in a rocking chair, "Your AI is lazy", then tipping over on "it stops working"; a cursor mascot staring at a "RIP MCP" gravestone). Editorial serif title on top (line 2 italic in the accent colour), word-by-word captions bottom-middle in a glass pill, warm illustrated set, smooth squash/tilt/fall/bounce, an SFX on every action. The normal scenes, hook and face are hidden until `until`, then the gag lifts away and the video slides in. It replaces `hook` (delete that key).
+
+```json
+"coldOpen": {
+  "until": "Because",                         // word where the gag ends (first word of sentence 2 is the safe pick; a number = seconds)
+  "set": "desk",                              // desk | stage | graveyard | warehouse | office | store | sky | night
+  "titles": [{ "text": ["Your AI", "*is lazy.*"] }, { "at": "close", "text": ["Close the laptop,", "*it stops.*"], "color": "#D97757" }],
+  "titleColor": "#D97757",                    // optional; defaults to the first brand actor's colour
+  "accent": ["lazy"],                         // caption words set in italic serif
+  "actors": [{ "brand": "claude", "props": ["hat", "chair", "laptop"], "screen": "Working...", "x": 520 }],
+  "beats": [{ "at": "Your", "actor": 0, "do": "sleep" }, { "at": "close", "actor": 0, "do": "close" }, { "at": "stops", "actor": 0, "do": "fall" }]
+}
+```
+- Actors: `brand` (id in config/brands.json: the logo tile becomes a body with blinking eyes, arms, legs), `sprite` (assets/pixel/sprites name), or `thing`: box, invoice (`text` = total), bag (`text`), tombstone (`text`, `sub`, `brand` engraved), key, laptop, cloud (`brand`), bot (`color`), person (`color`), ghost (`text`), button (`text`), sign (`text`), cart, phone, card, crowd (`n`, optional `brand` = a row of mini logo tiles). Things get eyes; add `limbs: true` to give them arms and legs. `x` (60 to 940), `y` (floor 610, smaller = further back), `scale` (default 1.45), `z`, `flip`.
+- Props: hat, chair (sits in a rocking chair, feet on a crate), laptop (big laptop behind, `screen` text), crate, coffee, phone, card, suitcase, box, gift, magnifier (held), cart, crown, mask, glasses, headset, sign (`sign` text, held up), sweat, tombstone.
+- Beats (`do`): sleep (Zs + snore), fall, jump, shake, run-in / run-out / sneak (`from` / `dir` left|right), spin, panic, celebrate (confetti), squash, point (`dir`), drop (falls in from the sky), rise (from the ground), pop-in, grow (`to`), throw (`to` actor index, `n`, `brand` or `item`), close (shuts the laptop), type, look, wave, sad, buzz, raise (the sign), hide. Any beat can `say` a speech bubble. Several beats can share a word.
+- Anchors that stop resolving after a re-voice are dropped with a warning (never fatal); re-check with a preview.
+- 3 example gags:
+  1. "Your AI is lazy. The moment you close your laptop, it stops working." `set: desk`; Claude with hat + chair + laptop sleeps from "Your", `close` on "close", `fall` on "stops" (hat flies, chair tips).
+  2. "The scariest thing in your warehouse this Halloween? The invoice you never sent." `set: graveyard`; a box with limbs, a ghost with "INVOICE" on it `rise`s on "scariest" ("Boo."), the box shakes, panics on "never", faints (`fall`) on "sent".
+  3. "Walmart just let AI agents shop its entire store. Amazon said no." `set: store`; Walmart waves "Come on in", a bot with a cart runs in on "agents" and jumps on "entire", Amazon drops in on "Amazon", points and says "No." while the bot goes `sad`.
+- Talking-head label strip: `faceCuts[].label: "HERE'S HOW TO FIX THAT"` shows a small black strip with white mono text just above the face (`labelFor` seconds, default 2.6). Use it on the first face shot after the gag.
+
 ## 5. Talking head (`faceCuts`)
 `[{layout: full|split|pip|none, zoom 1.0 to 1.25, push true (fast 8 in 100 push on emphasis), at word}]`. Pattern: open `full` zoom 1.15 on the hook line → `split` (cards above, face below) while explaining → `full` zoom 1.0 with `push` on the twist → `pip` (face in corner) over full-screen graphics for numbers/steps → `full` zoom 1.2 for the CTA line, then `pip` over the CTA card. Change layout or zoom every 2.5 to 4 s, never 2 closes in a row. Face on screen 40 to 60 in 100 of the runtime.
 

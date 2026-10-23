@@ -306,6 +306,63 @@
       "anthropic",
       "claude"
     ],
-    "stop": false
+    "stop": false,
+    "coldOpen": {
+      "until": "It's",
+      "set": "office",
+      "titles": [
+        {
+          "text": [
+            "An AI that won't",
+            "*spend without asking.*"
+          ]
+        }
+      ],
+      "accent": [
+        "won't",
+        "asking."
+      ],
+      "actors": [
+        {
+          "brand": "claude",
+          "props": [
+            "card"
+          ],
+          "x": 300
+        },
+        {
+          "thing": "button",
+          "text": "PAY $499",
+          "x": 740,
+          "scale": 1.3
+        }
+      ],
+      "beats": [
+        {
+          "at": "Anthropic",
+          "actor": 0,
+          "do": "run-in",
+          "from": "left"
+        },
+        {
+          "at": "spend",
+          "actor": 0,
+          "do": "point",
+          "dir": "right"
+        },
+        {
+          "at": "without",
+          "actor": 0,
+          "do": "shake"
+        },
+        {
+          "at": "asking.",
+          "actor": 0,
+          "do": "look",
+          "dir": "right",
+          "say": "Okay to pay?"
+        }
+      ]
+    }
   }
 }

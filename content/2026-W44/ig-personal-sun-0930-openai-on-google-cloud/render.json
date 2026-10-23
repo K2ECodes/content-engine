@@ -182,16 +182,6 @@
       "openai",
       "google"
     ],
-    "hook": {
-      "style": "blast",
-      "brands": [
-        "openai",
-        "google",
-        "gemini",
-        "microsoft",
-        "chatgpt"
-      ]
-    },
     "pops": [
       {
         "at": "OpenAI's",
@@ -326,6 +316,62 @@
         "w": 180,
         "until": "Rivals"
       }
-    ]
+    ],
+    "coldOpen": {
+      "until": "Yes,",
+      "set": "sky",
+      "titles": [
+        {
+          "text": [
+            "OpenAI is moving",
+            "*into Google Cloud.*"
+          ],
+          "color": "#4285F4"
+        }
+      ],
+      "accent": [
+        "Cloud."
+      ],
+      "actors": [
+        {
+          "brand": "openai",
+          "props": [
+            "suitcase"
+          ],
+          "x": 260
+        },
+        {
+          "thing": "cloud",
+          "brand": "google",
+          "x": 700,
+          "y": 470,
+          "scale": 1.35
+        }
+      ],
+      "beats": [
+        {
+          "at": "OpenAI's",
+          "actor": 0,
+          "do": "run-in",
+          "from": "left"
+        },
+        {
+          "at": "coming",
+          "actor": 0,
+          "do": "jump"
+        },
+        {
+          "at": "Google",
+          "actor": 1,
+          "do": "squash",
+          "say": "Welcome in"
+        },
+        {
+          "at": "Cloud.",
+          "actor": 0,
+          "do": "celebrate"
+        }
+      ]
+    }
   }
 }

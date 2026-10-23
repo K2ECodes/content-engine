@@ -297,16 +297,6 @@
       "microsoft",
       "microsoft"
     ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "microsoft",
-        "openai",
-        "claude",
-        "anthropic",
-        "google"
-      ]
-    },
     "pops": [
       {
         "at": "Microsoft",
@@ -410,6 +400,65 @@
         "until": "Emails,"
       }
     ],
-    "look": "pixel"
+    "look": "pixel",
+    "coldOpen": {
+      "until": "And",
+      "set": "office",
+      "titleColor": "#0F6CBD",
+      "titles": [
+        {
+          "text": [
+            "Treat AI agents",
+            "*like insider threats.*"
+          ]
+        }
+      ],
+      "accent": [
+        "insider"
+      ],
+      "actors": [
+        {
+          "brand": "microsoft",
+          "props": [
+            "magnifier"
+          ],
+          "x": 250
+        },
+        {
+          "thing": "bot",
+          "limbs": true,
+          "color": "#9FC3EA",
+          "props": [
+            "mask"
+          ],
+          "x": 720
+        }
+      ],
+      "beats": [
+        {
+          "at": "told",
+          "actor": 1,
+          "do": "sneak",
+          "from": "right"
+        },
+        {
+          "at": "treat",
+          "actor": 0,
+          "do": "point",
+          "dir": "right"
+        },
+        {
+          "at": "insider",
+          "actor": 0,
+          "do": "squash",
+          "say": "Insider threat."
+        },
+        {
+          "at": "threats.",
+          "actor": 1,
+          "do": "panic"
+        }
+      ]
+    }
   }
 }

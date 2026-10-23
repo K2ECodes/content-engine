@@ -207,14 +207,6 @@
    "chatgpt",
    "uber"
   ],
-  "hook": {
-   "style": "zoom",
-   "src": "shots/tc-uber-head.png",
-   "brands": [
-    "uber",
-    "chatgpt"
-   ]
-  },
   "pops": [
    {
     "at": "Uber",
@@ -311,6 +303,54 @@
    }
   ],
   "branded": true,
-  "stop": false
+  "stop": false,
+  "coldOpen": {
+   "until": "The",
+   "set": "office",
+   "titles": [
+    {
+     "text": [
+      "Uber gave AI",
+      "*to 30,000 staff.*"
+     ]
+    }
+   ],
+   "accent": [
+    "30,000"
+   ],
+   "actors": [
+    {
+     "brand": "uber",
+     "x": 220
+    },
+    {
+     "thing": "crowd",
+     "n": 4,
+     "x": 660,
+     "scale": 1.15
+    }
+   ],
+   "beats": [
+    {
+     "at": "Uber",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "gave",
+     "actor": 0,
+     "do": "throw",
+     "to": 1,
+     "n": 4,
+     "brand": "chatgpt"
+    },
+    {
+     "at": "staff.",
+     "actor": 1,
+     "do": "celebrate"
+    }
+   ]
+  }
  }
 }

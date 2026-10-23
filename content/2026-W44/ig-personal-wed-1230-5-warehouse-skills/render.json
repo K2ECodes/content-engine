@@ -469,19 +469,6 @@
       "chatgpt",
       "anthropic"
     ],
-    "hook": {
-      "style": "breaking",
-      "brands": [
-        "anthropic",
-        "claude",
-        "chatgpt",
-        "openai",
-        "google",
-        "gemini"
-      ],
-      "tag": "AI NEWS",
-      "ticker": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M "
-    },
     "pops": [
       {
         "at": "Anthropic",
@@ -595,6 +582,72 @@
         "until": "daily"
       }
     ],
-    "look": "pixel"
+    "look": "pixel",
+    "coldOpen": {
+      "until": "70+",
+      "set": "stage",
+      "titleColor": "#D97757",
+      "titles": [
+        {
+          "text": [
+            "Anthropic gave",
+            "*Agent Skills away.*"
+          ]
+        }
+      ],
+      "accent": [
+        "away."
+      ],
+      "actors": [
+        {
+          "brand": "anthropic",
+          "x": 230
+        },
+        {
+          "brand": "chatgpt",
+          "x": 560,
+          "scale": 1.1
+        },
+        {
+          "brand": "gemini",
+          "x": 820,
+          "scale": 1.1
+        }
+      ],
+      "beats": [
+        {
+          "at": "Anthropic",
+          "actor": 0,
+          "do": "run-in",
+          "from": "left"
+        },
+        {
+          "at": "gave",
+          "actor": 0,
+          "do": "throw",
+          "to": 1,
+          "n": 1,
+          "item": "gift"
+        },
+        {
+          "at": "Skills",
+          "actor": 0,
+          "do": "throw",
+          "to": 2,
+          "n": 1,
+          "item": "gift"
+        },
+        {
+          "at": "away.",
+          "actor": 1,
+          "do": "celebrate"
+        },
+        {
+          "at": "away.",
+          "actor": 2,
+          "do": "jump"
+        }
+      ]
+    }
   }
 }

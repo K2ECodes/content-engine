@@ -8,8 +8,9 @@
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const ital = (s) => esc(s).replace(/\*([^*]+)\*/g, '<em>$1</em>');
   const lum = (hex) => { const h = String(hex || '#888').replace('#', ''); const n = parseInt(h.length === 3 ? h.replace(/./g, '$&$&') : h.slice(0, 6), 16); const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255; return (0.299 * r + 0.587 * g + 0.114 * b) / 255; };
-  const GROUND = 560;          // floor line inside the 700px stage
-  const STAGE_TOP = 520;
+  const GROUND = 610;
+  const DS = 1.45;   // default actor scale (the reference characters fill ~half the frame width); GROUND = floor line inside the 790px stage
+  const STAGE_TOP = 490;
 
   // ---------- sets: clean illustrated backdrops, 1080x700 ----------
   const SKY = (a, b, c) => `<div class="co-sky" style="background:linear-gradient(180deg,${a} 0%,${b} 55%,${c} 100%)"></div>`;
@@ -77,8 +78,8 @@
   const pathLogo = (b, filt) => b ? `<img class="lg" src="${b.logoUrl}" style="filter:${filt}">` : '';
   const monoFilter = (b) => lum(b.fg) > 0.5 ? 'brightness(0) invert(1)' : 'brightness(0)';
   const THINGS = {
-    box: { w: 200, h: 170, eyes: [100, 64], art: (a) => `<svg viewBox="0 0 200 170"><rect x="4" y="22" width="192" height="146" rx="10" fill="#C99A62"/><path d="M4 22 L30 4 H170 L196 22Z" fill="#DDB27A"/><rect x="84" y="4" width="32" height="164" fill="#E8C793" opacity=".9"/><rect x="4" y="150" width="192" height="18" rx="8" fill="#000" opacity=".08"/></svg>${a.b ? `<div class="sticker" style="background:${a.b.bg}">${pathLogo(a.b, monoFilter(a.b))}</div>` : ''}` },
-    invoice: { w: 170, h: 220, eyes: [85, 66], art: (a) => `<div class="paper"><b>INVOICE</b><i></i><i></i><i style="width:60%"></i><div class="tot"><span>Total</span><span>${esc(a.text || '$0')}</span></div></div>` },
+    box: { w: 200, h: 170, eyes: [100, 64], art: (a) => `<svg viewBox="0 0 200 170"><rect x="4" y="22" width="192" height="146" rx="10" fill="#C99A62"/><path d="M4 22 L30 4 H170 L196 22Z" fill="#DDB27A"/><rect x="84" y="4" width="32" height="164" fill="#E8C793" opacity=".9"/><rect x="4" y="150" width="192" height="18" rx="8" fill="#000" opacity=".08"/></svg>${a.b ? `<div class="co-stk" style="background:${a.b.bg}">${pathLogo(a.b, monoFilter(a.b))}</div>` : ''}` },
+    invoice: { w: 170, h: 220, eyes: [85, 66], art: (a) => `<div class="co-paper"><b>INVOICE</b><i></i><i></i><i style="width:60%"></i><div class="tot"><span>Total</span><span>${esc(a.text || '$0')}</span></div></div>` },
     bag: { w: 180, h: 200, eyes: [90, 104], art: (a) => `<svg viewBox="0 0 180 200"><path d="M62 40 C50 20 60 6 90 6 C120 6 130 20 118 40Z" fill="#C9A46A"/><rect x="58" y="38" width="64" height="14" rx="7" fill="#8B6A3A"/><path d="M60 50 C10 80 4 196 90 196 C176 196 170 80 120 50Z" fill="#D8B47A"/></svg><span class="bagt">${esc(a.text || '$')}</span>` },
     tombstone: { w: 230, h: 280, art: (a) => `<div class="stone"><span class="rip">RIP</span>${a.b ? pathLogo(a.b, 'brightness(0) opacity(.55)') : ''}<b>${esc(a.text || '')}</b><small>${esc(a.sub || '')}</small></div>` },
     key: { w: 240, h: 120, eyes: [62, 58], art: () => `<svg viewBox="0 0 240 120"><circle cx="62" cy="60" r="54" fill="#E8B84B"/><circle cx="62" cy="60" r="54" fill="none" stroke="#C99A3C" stroke-width="6"/><rect x="108" y="48" width="126" height="24" rx="8" fill="#E8B84B"/><rect x="186" y="66" width="16" height="30" rx="4" fill="#E8B84B"/><rect x="214" y="66" width="16" height="22" rx="4" fill="#E8B84B"/></svg>` },
@@ -115,39 +116,38 @@
     let W = 200, H = 300, body;
     const bc = a.b ? a.b.bg : a.color || '#D97757';
     if (a.thing === 'crowd') {
-      const n = a.n || 6; W = n * 104; H = 170;
-      body = `<div class="crowd">${Array.from({ length: n }, (_, k) => `<div class="mini" id="co${i}m${k}" style="left:${k * 104}px">${a.b ? `<div class="mtile" style="background:${a.b.bg}">${pathLogo(a.b, monoFilter(a.b))}<div class="eyes sm"><i><b></b></i><i><b></b></i></div></div>`
+      const n = a.n || 6; W = n * 128; H = 210;
+      body = `<div class="crowd">${Array.from({ length: n }, (_, k) => `<div class="mini" id="co${i}m${k}" style="left:${k * 128}px">${a.b ? `<div class="mtile" style="background:${a.b.bg}">${pathLogo(a.b, monoFilter(a.b))}<div class="eyes sm"><i><b></b></i><i><b></b></i></div></div>`
         : THINGS.person.art({ color: PERSON_COLORS[k % 6], skin: SKINS[k % 5], hair: HAIRS[(k * 2) % 5] })}</div>`).join('')}</div>`;
     } else if (T) {
       W = T.w; H = T.h + (char ? 70 : 0);
-      body = `<div class="thing t-${a.thing}" style="width:${T.w}px;height:${T.h}px;${char ? 'bottom:70px' : 'bottom:0'}">${T.art(a)}${T.eyes && a.eyes !== false ? `<div class="face" style="left:${T.eyes[0]}px;top:${T.eyes[1]}px">${EYES}</div>` : ''}</div>`;
+      body = `<div class="thing t-${a.thing}" style="width:${T.w}px;height:${T.h}px;${char ? 'bottom:70px' : 'bottom:0'}">${T.art(a)}${T.eyes && a.eyes !== false ? `<div class="co-face" style="left:${T.eyes[0]}px;top:${T.eyes[1]}px">${EYES}${props.has('mask') ? '<div class="mask"></div>' : ''}</div>` : ''}</div>`;
     } else if (a.srcUrl) {
       W = 220; H = a.h || 300;
       body = `<img class="sprite" src="${a.srcUrl}" style="height:${H}px">`;
     } else {
-      body = `<div class="tile" style="background:${bc}">${pathLogo(a.b, a.b ? monoFilter(a.b) : '')}<div class="face" style="left:90px;top:44px">${EYES}</div></div>`;
+      body = `<div class="tile" style="background:${bc}">${pathLogo(a.b, a.b ? monoFilter(a.b) : '')}<div class="co-face" style="left:90px;top:44px">${EYES}${props.has('mask') ? '<div class="mask"></div>' : ''}</div></div>`;
     }
     const limbs = char && !a.srcUrl && a.thing !== 'crowd';
     const lc = lum(bc) < 0.18 ? '#4A4A4A' : `color-mix(in srgb, ${bc} 72%, #000)`;
     const held = [...props].filter((p) => HELD[p]).map((p) => `<div class="held h-${p}">${HELD[p]}</div>`).join('');
     const upperH = H - (limbs ? 70 : 0);
-    return `<div class="actor${props.has('chair') ? ' sit' : ''}" id="co${i}" style="left:${a.x}px;top:${STAGE_TOP + (a.y ?? GROUND)}px;--bc:${bc};--lc:${lc};z-index:${10 + (a.z ?? i)}">
+    return `<div class="actor${props.has('chair') ? ' sit' : ''}" id="co${i}" style="left:${Math.min(940 - W * (a.scale ?? DS) / 2, Math.max(60 + W * (a.scale ?? DS) / 2, a.x))}px;top:${STAGE_TOP + (a.y ?? GROUND)}px;--bc:${bc};--lc:${lc};z-index:${10 + (a.z ?? i)}">
       <div class="shadow" style="width:${Math.max(120, W * 0.8)}px;margin-left:${-Math.max(120, W * 0.8) / 2}px"></div>
       ${props.has('laptop') ? `<div class="biglap" id="co${i}lap"><div class="lid" id="co${i}lid"><div class="ui"><div class="bar"><i></i><i></i><i></i></div><div class="wk">${a.b ? `<img src="${a.b.logoUrl}">` : ''}<span>${esc(a.screen || 'Working...')}</span></div><p><b class="ok"></b>Read inbox.csv</p><p><b class="ok"></b>Edit orders.ts</p><p><b class="sp"></b>Running tests</p><div class="inp">Type / for commands</div></div></div><div class="base"></div></div>` : ''}
       ${props.has('crate') || props.has('chair') ? `<div class="crate">${CRATE}</div>` : ''}
       ${props.has('tombstone') ? `<div class="pstone">${THINGS.tombstone.art({ b: a.b, text: a.text, sub: a.sub })}</div>` : ''}
       <div class="rock" id="co${i}r">${props.has('chair') ? `<div class="chair" id="co${i}ch">${CHAIR}</div>` : ''}
         <div class="fig" id="co${i}f" style="width:${W}px;height:${H}px;margin-left:${-W / 2}px">
-          ${limbs ? `<i class="leg l" id="co${i}ll" style="left:${W / 2 - 34}px"></i><i class="leg r" id="co${i}lr" style="left:${W / 2 + 10}px"></i>` : ''}
+          ${limbs ? `<i class="leg leg-l" id="co${i}ll" style="left:${W / 2 - 34}px"></i><i class="leg leg-r" id="co${i}lr" style="left:${W / 2 + 10}px"></i>` : ''}
           <div class="upper" id="co${i}u" style="height:${upperH}px;bottom:${limbs ? 70 : 0}px">
             <div class="breath" id="co${i}b">
-              ${limbs ? `<i class="arm l" id="co${i}al" style="left:${-2}px;top:${upperH * 0.42}px"></i>` : ''}
+              ${limbs ? `<i class="arm arm-l" id="co${i}al" style="left:${-2}px;top:${upperH * 0.42}px"></i>` : ''}
               ${body.replace('bottom:70px', 'bottom:0')}
-              ${limbs ? `<i class="arm r" id="co${i}ar" style="right:${-2}px;top:${upperH * 0.42}px">${held}</i>` : ''}
+              ${limbs ? `<i class="arm arm-r" id="co${i}ar" style="right:${-2}px;top:${upperH * 0.42}px">${held}</i>` : ''}
               ${props.has('cart') ? `<div class="pcart">${THINGS.cart.art()}</div>` : ''}
               ${props.has('hat') ? `<div class="hat" id="co${i}hat">${HAT}</div>` : ''}
               ${props.has('crown') ? `<div class="crown"><svg viewBox="0 0 100 60"><path d="M6 56 L2 12 L28 32 L50 4 L72 32 L98 12 L94 56Z" fill="#E8B84B" stroke="#B8862A" stroke-width="4"/></svg></div>` : ''}
-              ${props.has('mask') ? `<div class="mask"></div>` : ''}
               ${props.has('glasses') ? `<div class="glasses"><i></i><i></i></div>` : ''}
               ${props.has('headset') ? `<div class="headset"></div>` : ''}
               ${props.has('sign') ? `<div class="psign" id="co${i}sg"><div class="board">${esc(a.sign || 'ASK FIRST')}</div></div>` : ''}
@@ -158,7 +158,7 @@
           </div>
         </div>
       </div>
-      <div class="dust" id="co${i}d"><i></i><i></i><i></i><i></i></div>
+      <div class="co-dust" id="co${i}d"><i></i><i></i><i></i><i></i></div>
     </div>`;
   }
 
@@ -167,21 +167,21 @@
       const C = data.coldOpen;
       const set = (SETS[C.set] || SETS.stage)();
       const titles = C.titles?.length ? C.titles : [{ t: 0, text: C.title || [] }];
-      const tsz = (s) => Math.round(Math.min(124, 980 / Math.max(4, String(s).replace(/\*/g, '').length * 0.44)));
+      const tsz = (s) => Math.round(Math.min(118, 860 / Math.max(4, String(s).replace(/\*/g, '').length * 0.44)));
       const words = data.words.map((w, i) => ({ ...w, i })).filter((w) => w.start < C.end - 0.02);
       const keys = new Set([...(data.keys || []), ...(C.accent || [])].map((k) => k.toLowerCase().replace(/[^\w$€.%+]/g, '').replace(/\.$/, '')));
       const clean = (w) => w.toLowerCase().replace(/[^\w$€.%+]/g, '').replace(/\.$/, '');
       const chunks = []; let cur = [];
-      words.forEach((w) => { cur.push(w); if (/[.?!,;:]$/.test(w.w) || cur.length >= 4) { chunks.push(cur); cur = []; } });
+      words.forEach((w) => { cur.push(w); if (/[.?!,;:]$/.test(w.w) || cur.length >= 4 || cur.map((x) => x.w).join(' ').length > 17) { chunks.push(cur); cur = []; } });
       if (cur.length) chunks.push(cur);
       C._chunks = chunks;
       const bubbles = C.beats.map((b, k) => b.say ? `<div class="bubble" id="cob${k}">${esc(b.say)}</div>` : '').join('');
       return `<div class="co" id="co" style="--acc:${C.titleColor}">
         <div class="co-stage" id="costage">${set}<div class="co-cast">${C.actors.map((a, i) => actorHTML(a, i, data)).join('')}</div>${bubbles}
-          <div class="chips" id="cochips">${Array.from({ length: 10 }, (_, k) => `<div class="chip" id="coc${k}"></div>`).join('')}</div>
+          <div class="chips" id="cochips">${Array.from({ length: 10 }, (_, k) => `<div class="co-chip" id="coc${k}"></div>`).join('')}</div>
           <div class="confetti" id="coconf">${Array.from({ length: 18 }, (_, k) => `<i id="cof${k}" style="background:${[C.titleColor, '#E8B84B', '#FFFFFF', '#2B2B2B'][k % 4]}"></i>`).join('')}</div></div>
-        <div class="co-title">${titles.map((tt, k) => `<div class="tset" id="cot${k}">${(tt.text || []).map((l, j) => `<div class="tl${j ? ' l2' : ''}" style="font-size:${tsz(l) * (j ? 1.08 : 1)}px">${ital(l)}</div>`).join('')}</div>`).join('')}</div>
-        <div class="co-caps">${chunks.map((ch, k) => `<div class="cl" id="cocl${k}">${ch.map((w) => `<span class="${keys.has(clean(w.w)) ? 'acc' : ''}" id="cow${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
+        <div class="co-title">${titles.map((tt, k) => `<div class="tset" id="cot${k}"${tt.color ? ` style="--acc:${tt.color}"` : ''}>${(tt.text || []).map((l, j) => `<div class="tl${j ? ' l2' : ''}" style="font-size:${tsz(l) * (j ? 1.08 : 1)}px">${ital(l)}</div>`).join('')}</div>`).join('')}</div>
+        <div class="co-caps">${chunks.map((ch, k) => `<div class="cl" id="cocl${k}"><div class="glass">${ch.map((w) => `<span class="${keys.has(clean(w.w)) ? 'acc' : ''}" id="cow${w.i}">${esc(w.w)}</span>`).join(' ')}</div></div>`).join('')}</div>
       </div>`;
     },
 
@@ -192,17 +192,19 @@
       // ---- title(s): soft blur-rise in, crossfade on change
       const titles = C.titles?.length ? C.titles : [{ t: 0 }];
       titles.forEach((tt, k) => {
-        const el = $('cot' + k), t0 = k === 0 ? 0.02 : tt.t, t1 = titles[k + 1]?.t ?? END + 1;
+        const el = $('cot' + k), t0 = k === 0 ? 0 : tt.t, t1 = titles[k + 1]?.t ?? END + 1;
         tl.set(el, { opacity: 0 }, 0);
-        tl.fromTo(el.children, { opacity: 0, y: 26, filter: 'blur(10px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.42, stagger: 0.09, ease: 'power3.out', immediateRender: false }, t0);
+        if (k > 0) tl.fromTo(el.children, { opacity: 0, y: 26, filter: 'blur(10px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.42, stagger: 0.09, ease: 'power3.out', immediateRender: false }, t0);
+        else tl.fromTo(el, { scale: 1.04 }, { scale: 1, duration: 0.6, ease: 'power3.out', immediateRender: false }, 0.001);   // frame 1 already shows the hook title
         tl.set(el, { opacity: 1 }, t0);
+        sfx(t0 + 0.06, 'ding', 0.1);
         if (titles[k + 1]) tl.to(el, { opacity: 0, filter: 'blur(8px)', duration: 0.22 }, t1 - 0.04);
       });
       // ---- captions: phrase by phrase, word by word
       C._chunks.forEach((ch, k) => {
-        const el = $('cocl' + k), t0 = ch[0].start - 0.03, t1 = C._chunks[k + 1] ? C._chunks[k + 1][0].start - 0.04 : END;
+        const el = $('cocl' + k), t0 = Math.max(0.001, ch[0].start - 0.03), t1 = C._chunks[k + 1] ? C._chunks[k + 1][0].start - 0.04 : END;
         tl.set(el, { opacity: 0 }, 0).set(el, { opacity: 1 }, t0).set(el, { opacity: 0 }, t1);
-        ch.forEach((w) => tl.fromTo('#cow' + w.i, { opacity: 0, y: 14, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.16, ease: 'power2.out', immediateRender: false }, Math.max(0, w.start - 0.03)));
+        ch.forEach((w) => w.start < 0.12 ? tl.set('#cow' + w.i, { opacity: 1 }, 0.001) : tl.fromTo('#cow' + w.i, { opacity: 0, y: 14, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.16, ease: 'power2.out', immediateRender: false }, w.start - 0.03));
       });
 
       // ---- actors: initial state, idle life
@@ -210,7 +212,7 @@
       const ENTER = new Set(['run-in', 'drop', 'rise', 'pop-in', 'sneak']);
       A.forEach((a, i) => {
         const root = $('co' + i), f = $('co' + i + 'f');
-        tl.set(root, { scale: a.scale ?? 1, transformOrigin: '0 0' }, 0);
+        tl.set(root, { scale: a.scale ?? DS, transformOrigin: '0 0' }, 0);
         if (a.flip) tl.set(f, { scaleX: -1 }, 0);
         const fb = firstBeat(i);
         if (fb && ENTER.has(fb.do)) tl.set(root, { opacity: 0 }, 0);
@@ -267,7 +269,7 @@
           tl.set(rr.querySelectorAll('.eyes'), { opacity: 0 }, impact).set(rr.querySelectorAll('.lids'), { opacity: 0 }, impact).set(rr.querySelectorAll('.xeyes'), { opacity: 1 }, impact).set($('co' + i + 'z'), { opacity: 0 }, t);
           tl.fromTo('#costage', { y: 0 }, { y: 12, duration: 0.05, yoyo: true, repeat: 3, immediateRender: false }, impact);
           dust(i, impact);
-          sfx(t + 0.05, 'whoosh', 0.18); sfx(impact, 'thud', 0.32); if (hat) sfx(t + 0.95, 'tick', 0.12);
+          sfx(t + 0.05, 'whoosh-big', 0.2); sfx(impact, 'thud', 0.34); sfx(impact + 0.02, 'boing', 0.1); if (hat) sfx(t + 0.95, 'tick', 0.12);
         },
         jump(i, t) {
           const f = $('co' + i + 'f');
@@ -291,7 +293,7 @@
           tl.set(root, { opacity: 1 }, t).fromTo(root, { x: from * (from > 0 ? 1300 - a.x : a.x + 260) }, { x: 0, duration: dur, ease: 'power2.out', immediateRender: false }, t);
           tl.fromTo($('co' + i + 'u'), { rotation: -from * 12 }, { rotation: from * 6, duration: dur * 0.85, ease: 'power1.out', immediateRender: false }, t).to($('co' + i + 'u'), { rotation: 0, duration: 0.35, ease: 'elastic.out(1,0.45)' }, t + dur * 0.85);
           walk(i, t, dur * 0.9);
-          sfx(t, 'whoosh', 0.16);
+          sfx(t, 'whoosh-big', 0.16);
         },
         sneak(i, t, d, b) {
           const a = A[i], from = b.from === 'left' ? -1 : b.from === 'right' ? 1 : (a.x > 540 ? 1 : -1), root = $('co' + i);
@@ -323,13 +325,14 @@
           sfx(t, 'pop', 0.16); sfx(t + 0.05, 'roll', 0.12);
         },
         celebrate(i, t) {
+          if (A[i].thing === 'crowd') { const m = $('co' + i).querySelectorAll('.mini'); m.forEach((el, k) => tl.to(el, { y: -70, duration: 0.17, ease: 'power2.out', yoyo: true, repeat: 3 }, t + k * 0.06)); sfx(t, 'success', 0.16); for (let k = 0; k < Math.min(4, m.length); k++) sfx(t + k * 0.06, 'pop', 0.08); return; }
           const al = $('co' + i + 'al'), ar = $('co' + i + 'ar'), f = $('co' + i + 'f');
           if (al) tl.to(al, { rotation: 160, duration: 0.15 }, t).to(ar, { rotation: -160, duration: 0.15 }, t);
           tl.to(f, { y: -90, duration: 0.18, ease: 'power2.out', yoyo: true, repeat: 3 }, t);
           if (!conf) { conf = true; const root = $('co' + i), x = A[i].x;
             document.querySelectorAll('#coconf i').forEach((el, k) => { const ang = -Math.PI / 2 + (k / 17 - 0.5) * 2.2, sp = 260 + (k * 53) % 200;
               tl.fromTo(el, { opacity: 1, left: x, top: (A[i].y ?? GROUND) - 260, rotation: 0 }, { left: x + Math.cos(ang) * sp, top: (A[i].y ?? GROUND) - 260 + Math.sin(ang) * sp + 420, rotation: 540, duration: 1.3, ease: 'power1.out', immediateRender: false }, t + 0.05).to(el, { opacity: 0, duration: 0.2 }, t + 1.2); }); }
-          sfx(t, 'ding', 0.18); sfx(t + 0.05, 'pop', 0.12);
+          sfx(t, 'success', 0.16); sfx(t + 0.05, 'pop', 0.12);
         },
         squash(i, t) {
           const f = $('co' + i + 'f');
@@ -372,7 +375,7 @@
           for (let k = 0; k < n; k++) {
             const el = $('coc' + (chip++ % 10)), t0 = t + 0.22 + k * 0.12, x1 = tx + (k - (n - 1) / 2) * 70 + (A[b.to]?.thing === 'crowd' ? (k * 104 - (n - 1) * 52) : 0);
             el.innerHTML = b.item && HELD[b.item] ? HELD[b.item] : B ? `<span style="background:${B.bg}"><img src="${B.logoUrl}" style="filter:${monoFilter(B)}"></span>` : '';
-            const y0 = (a.y ?? GROUND) - 230 * (a.scale ?? 1), y1 = (A[b.to]?.y ?? GROUND) - 220;
+            const y0 = (a.y ?? GROUND) - 230 * (a.scale ?? DS), y1 = (A[b.to]?.y ?? GROUND) - 220;
             tl.fromTo(el, { opacity: 1, left: a.x, top: y0, rotation: 0, scale: 0.6 }, { left: x1, rotation: 360, scale: 1, duration: 0.55, ease: 'none', immediateRender: false }, t0)
               .fromTo(el, { y: 0 }, { y: -220, duration: 0.27, ease: 'power2.out', yoyo: true, repeat: 1, immediateRender: false }, t0)
               .to(el, { top: y1, duration: 0.55, ease: 'none' }, t0)
@@ -405,14 +408,14 @@
         say() {},
       };
       // sign held from the start if the prop is there and no raise beat
-      A.forEach((a, i) => { if ((a.props || []).includes('sign') && !C.beats.some((b) => b.actor === i && b.do === 'raise')) tl.set($('co' + i + 'ar'), { rotation: -170 }, 0); });
+      A.forEach((a, i) => { if (!(a.props || []).includes('sign')) return; if (C.beats.some((b) => b.actor === i && b.do === 'raise')) tl.set($('co' + i + 'sg'), { opacity: 0 }, 0); else tl.set($('co' + i + 'ar'), { rotation: -170 }, 0); });
       C.beats.forEach((b, k) => {
         const d = Math.max(0.3, next(k) - b.t);
         if (b.do !== 'sleep') wake(b.actor, b.t);
         (ACT[b.do] || ACT.squash)(b.actor, b.t, d, b);
         if (b.say) {
-          const el = $('cob' + k), a = A[b.actor], h = (a.thing && THINGS[a.thing] ? THINGS[a.thing].h : 300) * (a.scale ?? 1);
-          el.style.left = `${Math.min(1040, Math.max(40, a.x + (b.bx ?? 0)))}px`; el.style.top = `${(a.y ?? GROUND) - h - 70 + (b.by ?? 0)}px`;
+          const el = $('cob' + k), a = A[b.actor], h = (a.thing && THINGS[a.thing] ? THINGS[a.thing].h : 300) * (a.scale ?? DS);
+          const bw = 60 + String(b.say).length * 21; el.style.left = `${Math.min(940 - bw / 2, Math.max(60 + bw / 2, a.x + (b.bx ?? 0)))}px`; el.style.top = `${(a.y ?? GROUND) - h - 70 + (b.by ?? 0)}px`;
           const nb = C.beats.slice(k + 1).find((x) => x.actor === b.actor && x.say);
           const t1 = Math.min(nb ? nb.t : END, b.t + (b.hold ?? 2.2));
           tl.fromTo(el, { opacity: 0, scale: 0.3, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.28, ease: 'back.out(2.6)', immediateRender: false }, b.t + 0.04).to(el, { opacity: 0, scale: 0.8, duration: 0.15 }, Math.max(b.t + 0.4, t1 - 0.05));

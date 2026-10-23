@@ -202,14 +202,6 @@
    "shopify",
    "chatgpt"
   ],
-  "hook": {
-   "style": "zoom",
-   "src": "shots/tc-cart-head.png",
-   "brands": [
-    "google",
-    "shopify"
-   ]
-  },
   "pops": [
    {
     "at": "Google",
@@ -310,6 +302,72 @@
     "until": "Third,"
    }
   ],
-  "branded": true
+  "branded": true,
+  "coldOpen": {
+   "until": "But",
+   "set": "store",
+   "titles": [
+    {
+     "text": [
+      "Back in stock?",
+      "*Google pings them.*"
+     ]
+    }
+   ],
+   "accent": [
+    "pings",
+    "stock."
+   ],
+   "actors": [
+    {
+     "brand": "google",
+     "props": [
+      "phone"
+     ],
+     "x": 230
+    },
+    {
+     "thing": "box",
+     "x": 500,
+     "scale": 1.1
+    },
+    {
+     "thing": "person",
+     "limbs": true,
+     "color": "#5E8E3E",
+     "x": 780,
+     "scale": 1.3
+    }
+   ],
+   "beats": [
+    {
+     "at": "Google",
+     "actor": 0,
+     "do": "squash"
+    },
+    {
+     "at": "pings",
+     "actor": 0,
+     "do": "buzz",
+     "say": "Ping."
+    },
+    {
+     "at": "shoppers",
+     "actor": 2,
+     "do": "look",
+     "dir": "left"
+    },
+    {
+     "at": "back",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "stock.",
+     "actor": 2,
+     "do": "celebrate"
+    }
+   ]
+  }
  }
 }

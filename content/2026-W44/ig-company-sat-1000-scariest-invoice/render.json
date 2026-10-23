@@ -336,17 +336,6 @@
    "ups",
    "dhl"
   ],
-  "hook": {
-   "style": "slam",
-   "brands": [
-    "fedex",
-    "ups",
-    "dhl",
-    "usps",
-    "amazon"
-   ],
-   "text": "BOO"
-  },
   "pops": [
    {
     "at": "The",
@@ -427,6 +416,80 @@
    }
   ],
   "branded": true,
-  "look": "pixel"
+  "look": "pixel",
+  "coldOpen": {
+   "until": "Peak",
+   "set": "graveyard",
+   "titleColor": "#D9772B",
+   "titles": [
+    {
+     "text": [
+      "The scariest thing",
+      "*in your warehouse.*"
+     ]
+    },
+    {
+     "at": "The#2",
+     "text": [
+      "The invoice",
+      "*you never sent.*"
+     ]
+    }
+   ],
+   "accent": [
+    "scariest",
+    "never"
+   ],
+   "actors": [
+    {
+     "thing": "box",
+     "limbs": true,
+     "x": 300
+    },
+    {
+     "thing": "ghost",
+     "text": "INVOICE",
+     "x": 660,
+     "y": 540
+    },
+    {
+     "thing": "tombstone",
+     "text": "UNBILLED FEES",
+     "sub": "OCT 31",
+     "x": 860,
+     "scale": 0.62,
+     "z": -1
+    }
+   ],
+   "beats": [
+    {
+     "at": "scariest",
+     "actor": 1,
+     "do": "rise",
+     "say": "Boo."
+    },
+    {
+     "at": "warehouse",
+     "actor": 0,
+     "do": "shake"
+    },
+    {
+     "at": "invoice",
+     "actor": 1,
+     "do": "squash",
+     "say": "Never sent..."
+    },
+    {
+     "at": "never",
+     "actor": 0,
+     "do": "panic"
+    },
+    {
+     "at": "sent.",
+     "actor": 0,
+     "do": "fall"
+    }
+   ]
+  }
  }
 }

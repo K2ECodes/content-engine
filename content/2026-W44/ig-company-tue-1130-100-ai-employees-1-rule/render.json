@@ -188,14 +188,6 @@
    "claude",
    "anthropic"
   ],
-  "hook": {
-   "style": "blast",
-   "brands": [
-    "claude",
-    "anthropic"
-   ],
-   "text": "100+"
-  },
   "pops": [
    {
     "at": "We",
@@ -283,6 +275,82 @@
     "until": "Anthropic's"
    }
   ],
-  "branded": true
+  "branded": true,
+  "coldOpen": {
+   "until": "Here's",
+   "set": "office",
+   "titles": [
+    {
+     "text": [
+      "We run on",
+      "*100+ AI employees.*"
+     ]
+    },
+    {
+     "at": "Not",
+     "text": [
+      "Not 1 can send",
+      "*a refund alone.*"
+     ]
+    }
+   ],
+   "accent": [
+    "100+",
+    "own."
+   ],
+   "actors": [
+    {
+     "thing": "crowd",
+     "brand": "claude",
+     "n": 6,
+     "x": 500,
+     "y": 470,
+     "scale": 1.15,
+     "z": -1
+    },
+    {
+     "brand": "claude",
+     "x": 250,
+     "y": 660
+    },
+    {
+     "thing": "button",
+     "text": "REFUND",
+     "x": 760,
+     "scale": 1.25,
+     "y": 660
+    }
+   ],
+   "beats": [
+    {
+     "at": "100+",
+     "actor": 0,
+     "do": "celebrate"
+    },
+    {
+     "at": "Not",
+     "actor": 1,
+     "do": "sneak",
+     "from": "left"
+    },
+    {
+     "at": "send",
+     "actor": 1,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "refund",
+     "actor": 2,
+     "do": "shake",
+     "say": "Needs a yes"
+    },
+    {
+     "at": "own.",
+     "actor": 1,
+     "do": "sad"
+    }
+   ]
+  }
  }
 }

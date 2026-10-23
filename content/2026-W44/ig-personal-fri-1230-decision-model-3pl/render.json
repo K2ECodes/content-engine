@@ -281,17 +281,6 @@
       "openai",
       "openai"
     ],
-    "hook": {
-      "style": "slam",
-      "brands": [
-        "openai",
-        "chatgpt",
-        "claude",
-        "gemini",
-        "anthropic",
-        "google"
-      ]
-    },
     "pops": [
       {
         "at": "chatbot.",
@@ -414,6 +403,57 @@
         "w": 180,
         "until": "When"
       }
-    ]
+    ],
+    "coldOpen": {
+      "until": "OpenAI's",
+      "set": "stage",
+      "titleColor": "#10A37F",
+      "titles": [
+        {
+          "text": [
+            "Not every AI step",
+            "*needs a chatbot.*"
+          ]
+        }
+      ],
+      "accent": [
+        "chatbot."
+      ],
+      "actors": [
+        {
+          "brand": "chatgpt",
+          "props": [
+            "laptop"
+          ],
+          "screen": "Writing essay...",
+          "x": 420,
+          "scale": 1.25
+        },
+        {
+          "thing": "sign",
+          "text": "LEFT OR RIGHT?",
+          "x": 840,
+          "scale": 0.95
+        }
+      ],
+      "beats": [
+        {
+          "at": "Not",
+          "actor": 1,
+          "do": "pop-in"
+        },
+        {
+          "at": "AI",
+          "actor": 0,
+          "do": "type",
+          "say": "Great question. Let's explore..."
+        },
+        {
+          "at": "chatbot.",
+          "actor": 0,
+          "do": "fall"
+        }
+      ]
+    }
   }
 }
