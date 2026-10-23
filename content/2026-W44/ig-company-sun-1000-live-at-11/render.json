@@ -1,85 +1,56 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
-      {
-        "world": "neon",
-        "headline": [
-          "Who answers",
-          "*your 2 AM lead?*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/workshop.png",
-            "x": 70,
-            "y": 310,
-            "w": 420,
-            "h": 220,
-            "rot": -6,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/home.png",
-            "x": 570,
-            "y": 320,
-            "w": 410,
-            "h": 220,
-            "rot": 5,
-            "pos": "center top"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "LIVE\nON ZOOM",
-            "x": 10,
-            "y": 500,
-            "w": 230,
-            "size": 32,
-            "color": "#FFE066",
-            "rot": -12
-          },
-          {
-            "text": "LEADS\nAT 2 AM?",
-            "x": 840,
-            "y": 500,
-            "w": 220,
-            "size": 36,
-            "color": "#FF4FD8",
-            "rot": 10
-          },
-          {
-            "text": "replay\nincluded",
-            "x": 860,
-            "y": 120,
-            "w": 180,
-            "size": 32,
-            "color": "#3FF2FF",
-            "rot": 14
-          }
-        ],
-        "cta": {
-          "keyword": "WORKSHOP",
-          "y": 585,
-          "line": "next date in our bio",
-          "pill": true
-        },
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 30,
-            "h": 150
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 900,
-            "h": 150,
-            "flip": true
-          }
-        ]
-      }
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "neon",
+    "headline": [
+     "Who answers",
+     "*your 2 AM lead?*"
+    ],
+    "underline": false,
+    "collage": [
+     {
+      "src": "shots/workshop.png",
+      "x": 70,
+      "y": 310,
+      "w": 420,
+      "h": 220,
+      "rot": -6,
+      "pos": "center top"
+     },
+     {
+      "src": "shots/home.png",
+      "x": 570,
+      "y": 320,
+      "w": 410,
+      "h": 220,
+      "rot": 5,
+      "pos": "center top"
+     }
+    ],
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 585,
+     "line": "next date in our bio",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 30,
+      "h": 150
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 900,
+      "h": 150,
+      "flip": true
+     }
     ]
-  }
+   }
+  ]
+ }
 }

@@ -1,0 +1,202 @@
+{
+  "template": "photo",
+  "data": {
+    "handle": "@koredekola",
+    "platform": "instagram",
+    "accent": "#E8B84B",
+    "slides": [
+      {
+        "kind": "cover",
+        "photo": {
+          "src": "assets/talking-head/backgrounds/loft-office.png",
+          "pos": "50% 50%",
+          "dim": {
+            "top": 0.7,
+            "bot": 0.55
+          }
+        },
+        "cut": {
+          "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+          "x": 60,
+          "y": 380,
+          "h": 1400
+        },
+        "blocks": [
+          {
+            "text": "Your AI isn't dumb.",
+            "size": 96
+          },
+          {
+            "text": "You're using it *wrong.*",
+            "size": 96
+          }
+        ],
+        "blocksY": 100,
+        "pay": {
+          "text": "*4 fixes* that changed how I use it.",
+          "y": 1010,
+          "size": 48
+        }
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/white-jacket-lounge.jpg",
+          "pos": "50% 35%",
+          "blur": true
+        },
+        "label": "Fix 1.",
+        "title": "Give it *files*,\nnot one-liners",
+        "bodyY": 560,
+        "list": [
+          {
+            "text": "\"Write me a reply\"",
+            "off": true
+          },
+          {
+            "text": "Your SOP + 3 past replies + your tone"
+          }
+        ],
+        "ann": [
+          {
+            "k": "Looks like",
+            "v": "the stuff you'd hand a new hire on day 1."
+          },
+          {
+            "k": "Why it works",
+            "v": "it stops guessing who you are."
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/white-jacket-lounge.jpg",
+          "pos": "50% 35%",
+          "blur": true
+        },
+        "label": "Fix 2.",
+        "title": "Make it *ask*\nbefore it acts",
+        "bodyY": 560,
+        "list": [
+          {
+            "n": "1",
+            "text": "It drafts the email"
+          },
+          {
+            "n": "2",
+            "text": "You tap yes"
+          },
+          {
+            "n": "3",
+            "text": "Then it sends"
+          }
+        ],
+        "ann": [
+          {
+            "k": "Looks like",
+            "v": "nothing sends or spends without your yes."
+          },
+          {
+            "k": "Why it works",
+            "v": "nothing embarrassing goes out."
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/white-jacket-lounge.jpg",
+          "pos": "50% 35%",
+          "blur": true
+        },
+        "label": "Fix 3.",
+        "title": "Turn repeats\ninto *skills*",
+        "bodyY": 560,
+        "stat": {
+          "value": "70+",
+          "label": "AI tools now read the same skills format"
+        },
+        "ann": [
+          {
+            "k": "Looks like",
+            "v": "the prompt you paste every morning, saved once as a folder it loads itself."
+          },
+          {
+            "k": "Why it works",
+            "v": "you stop re-explaining."
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/white-jacket-lounge.jpg",
+          "pos": "50% 35%",
+          "blur": true
+        },
+        "label": "Fix 4.",
+        "title": "Make it *check*\nits own work",
+        "bodyY": 560,
+        "list": [
+          {
+            "n": "1",
+            "text": "Draft"
+          },
+          {
+            "n": "2",
+            "text": "Compare it to your checklist"
+          },
+          {
+            "n": "3",
+            "text": "Fix what's off"
+          }
+        ],
+        "ann": [
+          {
+            "k": "Looks like",
+            "v": "a second pass before you ever see it."
+          },
+          {
+            "k": "Why it works",
+            "v": "it catches the mistakes you'd catch."
+          }
+        ]
+      },
+      {
+        "kind": "cta",
+        "photo": {
+          "src": "assets/talking-head/backgrounds/city-dusk.png",
+          "pos": "50% 50%",
+          "dim": {
+            "top": 0.7,
+            "bot": 0.55
+          }
+        },
+        "cut": {
+          "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+          "x": 60,
+          "y": 380,
+          "h": 1400
+        },
+        "blocks": [
+          {
+            "text": "Comment *AI*",
+            "size": 120
+          },
+          {
+            "text": "and I'll send my starter pack.",
+            "size": 60
+          }
+        ],
+        "blocksY": 100,
+        "pay": {
+          "text": "5 skills you can *copy today.*",
+          "y": 1030,
+          "size": 48
+        },
+        "wordmark": false
+      }
+    ]
+  }
+}

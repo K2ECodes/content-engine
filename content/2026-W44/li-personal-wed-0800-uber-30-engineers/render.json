@@ -1,85 +1,65 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Korede Kolawole",
-    "platform": "linkedin",
-    "slides": [
-      {
-        "world": "sunset",
-        "headline": [
-          "30 engineers.",
-          "2 weeks.",
-          "*30,000 people.*"
-        ],
-        "size": "xs",
-        "underline": false,
-        "cta": {
-          "keyword": "AI",
-          "y": 310,
-          "line": "comment it, I'll send the pack"
-        },
-        "bursts": [
-          {
-            "text": "1,000 TO\n30,000",
-            "x": 700,
-            "y": 790,
-            "w": 210,
-            "size": 40,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "8 IN 10\nNOT\nENGINEERS",
-            "x": 170,
-            "y": 790,
-            "w": 210,
-            "size": 34,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 10,
-            "h": 240
-          },
-          {
-            "name": "worker",
-            "x": 865,
-            "h": 240,
-            "flip": true
-          }
-        ],
-        "collage": [
-          {
-            "src": "shots/uber.png",
-            "x": 215,
-            "y": 855,
-            "w": 245,
-            "h": 190,
-            "rot": -8
-          },
-          {
-            "src": "shots/uber-2.png",
-            "x": 420,
-            "y": 835,
-            "w": 245,
-            "h": 190,
-            "rot": 3,
-            "pos": "center -161px"
-          },
-          {
-            "src": "shots/openai-uber.png",
-            "x": 625,
-            "y": 860,
-            "w": 245,
-            "h": 190,
-            "rot": -4,
-            "pos": "center top"
-          }
-        ]
-      }
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "sunset",
+    "headline": [
+     "30 engineers.",
+     "2 weeks.",
+     "*30,000 people.*"
+    ],
+    "size": "xs",
+    "underline": false,
+    "cta": {
+     "keyword": "AI",
+     "y": 310,
+     "line": "comment it, I'll send the pack"
+    },
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 10,
+      "h": 240
+     },
+     {
+      "name": "worker",
+      "x": 865,
+      "h": 240,
+      "flip": true
+     }
+    ],
+    "collage": [
+     {
+      "src": "shots/uber.png",
+      "x": 215,
+      "y": 855,
+      "w": 245,
+      "h": 190,
+      "rot": -8
+     },
+     {
+      "src": "shots/uber-2.png",
+      "x": 420,
+      "y": 835,
+      "w": 245,
+      "h": 190,
+      "rot": 3,
+      "pos": "center -161px"
+     },
+     {
+      "src": "shots/openai-uber.png",
+      "x": 625,
+      "y": 860,
+      "w": 245,
+      "h": 190,
+      "rot": -4,
+      "pos": "center top"
+     }
     ]
-  }
+   }
+  ]
+ }
 }

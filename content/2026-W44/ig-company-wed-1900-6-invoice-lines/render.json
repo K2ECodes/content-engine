@@ -1,433 +1,409 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
+    "headline": [
+     "6 lines on your",
+     "*carrier bill*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(check all 6 before peak season)",
+     "y": 600
+    },
+    "brandbar": [
+     "fedex",
+     "ups",
+     "dhl"
+    ],
+    "tree": {
+     "one": {
+      "text": "Your *bill*"
+     },
+     "oneSize": 230,
+     "gap": 70,
+     "many": [
       {
-        "world": "neon",
-        "headline": [
-          "Check 6 lines",
-          "*before Black Friday*"
-        ],
-        "size": "s",
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/parcel.png",
-            "x": 60,
-            "y": 330,
-            "w": 440,
-            "h": 340,
-            "rot": -6,
-            "pos": "center bottom"
-          },
-          {
-            "src": "shots/bluffworks.png",
-            "x": 560,
-            "y": 350,
-            "w": 440,
-            "h": 340,
-            "rot": 5,
-            "pos": "center top"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "record\nhigh rates",
-            "x": 820,
-            "y": 310,
-            "w": 210,
-            "size": 38,
-            "color": "#3FF2FF",
-            "rot": 12
-          },
-          {
-            "text": "$200,000\nback bill",
-            "x": 400,
-            "y": 730,
-            "w": 250,
-            "size": 40,
-            "color": "#FF4FD8",
-            "rot": -8
-          },
-          {
-            "text": "mostly\npricing",
-            "x": 20,
-            "y": 310,
-            "w": 200,
-            "size": 40,
-            "color": "#FFE066",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "ghost",
-            "x": 60,
-            "h": 220
-          },
-          {
-            "name": "box-monster",
-            "x": 760,
-            "h": 190
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "1. Fuel",
-          "*surcharge*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "accent": true,
-          "kind": "quote",
-          "text": "Since 2021, [72 in 100] dollars of the rise came from carrier pricing, not diesel.",
-          "who": "TD Cowen and AFS Freight Index, Oct 2026"
-        },
-        "notes": [
-          {
-            "text": "check the rate vs\nthat week's table",
-            "x": 488,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 70,
-            "h": 250
-          },
-          {
-            "name": "korede-point",
-            "x": 284,
-            "h": 270
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "2. Home and",
-          "*area fees*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Homes and *remote zips*",
-            "Business addresses *too*",
-            "Check: only the ones that *qualify*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "often added\nby mistake",
-            "x": 60,
-            "y": 832,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 821,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "ghost",
-            "x": 626,
-            "h": 220,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "3. Address",
-          "*corrections*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Fee",
-              "p": "carrier fixed it"
-            },
-            {
-              "h": "Check",
-              "p": "was it wrong?",
-              "hi": true
-            }
-          ],
-          "foot": "some were never wrong"
-        },
-        "notes": [
-          {
-            "text": "match them to\nreal changes",
-            "x": 476,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 70,
-            "h": 190
-          },
-          {
-            "name": "sanjana-laptop",
-            "x": 293,
-            "h": 270
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "4. Billed",
-          "*box size*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Big box",
-              "p": "light item"
-            },
-            {
-              "h": "Billed",
-              "p": "by size, not weight",
-              "hi": true
-            }
-          ],
-          "foot": "1 wrong size repeats on every order"
-        },
-        "notes": [
-          {
-            "text": "billed size vs\nthe box you ship",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-shrug",
-            "x": 807,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "box",
-            "x": 674,
-            "h": 110
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "5. Storage and",
-          "*peak fees*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 440,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Rates:",
-              "v": "match the contract"
-            },
-            {
-              "k": "Start:",
-              "v": "the right date"
-            }
-          ],
-          "title": "your 3PL's peak rates"
-        },
-        "notes": [
-          {
-            "text": "check both\nagainst the contract",
-            "x": 467,
-            "y": 740,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "ghost",
-            "x": 70,
-            "h": 220
-          },
-          {
-            "name": "sanjana-point",
-            "x": 265,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "6. Double and",
-          "*late charges*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Same package, *billed twice*",
-            "Billed *months later*",
-            "Check: each tracking number *once*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "1 brand got a\n$200,000 back invoice",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 803,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "korede-laptop",
-            "x": 613,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "We check",
-          "*every line*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Read",
-              "p": "every invoice"
-            },
-            {
-              "h": "Match",
-              "p": "vs what you agreed",
-              "hi": true
-            },
-            {
-              "h": "Flag",
-              "p": "you approve"
-            }
-          ],
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "caught the week\nit happens",
-            "x": 300,
-            "y": 740,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 450,
-            "h": 200
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 800,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Want the",
-          "*invoice check?*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll DM you"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 50,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "all 6\nlines",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 44,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "korede-cheer",
-            "x": 430,
-            "h": 270
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 112,
+     "spread": 28,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 715.0,
+      "y": 695.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 805.0,
+       "y1": 775.0,
+       "x2": 673.0,
+       "y2": 815.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Fuel",
+     "*surcharge*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "accent": true,
+     "kind": "quote",
+     "text": "Since 2021, [72 in 100] dollars of the rise came from carrier pricing, not diesel.",
+     "who": "TD Cowen and AFS Freight Index, Oct 2026"
+    },
+    "notes": [
+     {
+      "text": "check the rate vs\nthat week's table",
+      "x": 488,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 250
+     },
+     {
+      "name": "korede-point",
+      "x": 284,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. Home and",
+     "*area fees*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Homes and *remote zips*",
+      "Business addresses *too*",
+      "Check: only the ones that *qualify*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "often added\nby mistake",
+      "x": 60,
+      "y": 832,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 821,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "ghost",
+      "x": 626,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Address",
+     "*corrections*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Fee",
+       "p": "carrier fixed it"
+      },
+      {
+       "h": "Check",
+       "p": "was it wrong?",
+       "hi": true
+      }
+     ],
+     "foot": "some were never wrong"
+    },
+    "notes": [
+     {
+      "text": "match them to\nreal changes",
+      "x": 476,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 70,
+      "h": 190
+     },
+     {
+      "name": "sanjana-laptop",
+      "x": 293,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "4. Billed",
+     "*box size*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Big box",
+       "p": "light item"
+      },
+      {
+       "h": "Billed",
+       "p": "by size, not weight",
+       "hi": true
+      }
+     ],
+     "foot": "1 wrong size repeats on every order"
+    },
+    "notes": [
+     {
+      "text": "billed size vs\nthe box you ship",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-shrug",
+      "x": 807,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box",
+      "x": 674,
+      "h": 110
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "5. Storage and",
+     "*peak fees*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 440,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Rates:",
+       "v": "match the contract"
+      },
+      {
+       "k": "Start:",
+       "v": "the right date"
+      }
+     ],
+     "title": "your 3PL's peak rates"
+    },
+    "notes": [
+     {
+      "text": "check both\nagainst the contract",
+      "x": 467,
+      "y": 740,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 220
+     },
+     {
+      "name": "sanjana-point",
+      "x": 265,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "6. Double and",
+     "*late charges*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Same package, *billed twice*",
+      "Billed *months later*",
+      "Check: each tracking number *once*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "1 brand got a\n$200,000 back invoice",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 803,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "korede-laptop",
+      "x": 613,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "We check",
+     "*every line*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Read",
+       "p": "every invoice"
+      },
+      {
+       "h": "Match",
+       "p": "vs what you agreed",
+       "hi": true
+      },
+      {
+       "h": "Flag",
+       "p": "you approve"
+      }
+     ],
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "caught the week\nit happens",
+      "x": 300,
+      "y": 740,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 450,
+      "h": 200
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 800,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*invoice check?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "korede-cheer",
+      "x": 430,
+      "h": 270
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

@@ -1,74 +1,54 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Korede Kolawole",
-    "platform": "linkedin",
-    "slides": [
-      {
-        "world": "night",
-        "headline": [
-          "Who answers",
-          "*your 2 AM lead?*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "WORKSHOP",
-          "y": 300,
-          "line": "next date in our bio",
-          "pill": true
-        },
-        "bursts": [
-          {
-            "text": "LIVE\nON ZOOM",
-            "x": 700,
-            "y": 770,
-            "w": 210,
-            "size": 38,
-            "color": "#3FF2FF",
-            "rot": 12
-          },
-          {
-            "text": "REPLAY\nINCLUDED",
-            "x": 170,
-            "y": 770,
-            "w": 210,
-            "size": 38,
-            "color": "#FFE066",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 10,
-            "h": 250
-          },
-          {
-            "name": "robot",
-            "x": 880,
-            "h": 230
-          }
-        ],
-        "collage": [
-          {
-            "src": "shots/duet.png",
-            "x": 245,
-            "y": 810,
-            "w": 300,
-            "h": 220,
-            "rot": -6
-          },
-          {
-            "src": "shots/walmart.png",
-            "x": 535,
-            "y": 820,
-            "w": 300,
-            "h": 220,
-            "rot": 5
-          }
-        ]
-      }
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "night",
+    "headline": [
+     "Who answers",
+     "*your 2 AM lead?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 300,
+     "line": "next date in our bio",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 10,
+      "h": 250
+     },
+     {
+      "name": "robot",
+      "x": 880,
+      "h": 230
+     }
+    ],
+    "collage": [
+     {
+      "src": "shots/duet.png",
+      "x": 245,
+      "y": 810,
+      "w": 300,
+      "h": 220,
+      "rot": -6
+     },
+     {
+      "src": "shots/walmart.png",
+      "x": 535,
+      "y": 820,
+      "w": 300,
+      "h": 220,
+      "rot": 5
+     }
     ]
-  }
+   }
+  ]
+ }
 }

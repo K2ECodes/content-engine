@@ -1,354 +1,312 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Korede Kolawole",
-    "platform": "linkedin",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#0071CE",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "Walmart said yes.",
+     "Amazon said *no*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(here's what the AI shopper reads first)",
+     "y": 545
+    },
+    "brandbar": [
+     "walmart",
+     "amazon"
+    ],
+    "tree": {
+     "one": {
+      "sprite": "robot"
+     },
+     "oneSize": 190,
+     "gap": 56,
+     "many": [
       {
-        "world": "neon",
-        "headline": [
-          "Walmart said *yes*",
-          "Amazon said *no*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/walmart.png",
-            "x": 40,
-            "y": 350,
-            "w": 330,
-            "h": 340,
-            "rot": -7
-          },
-          {
-            "src": "shots/retaildive-walmart.png",
-            "x": 375,
-            "y": 325,
-            "w": 330,
-            "h": 340,
-            "rot": 4,
-            "pos": "center -5px"
-          },
-          {
-            "src": "shots/gcart.png",
-            "x": 710,
-            "y": 355,
-            "w": 330,
-            "h": 340,
-            "rot": -3
-          }
-        ],
-        "bursts": [
-          {
-            "text": "VS",
-            "x": 450,
-            "y": 790,
-            "w": 200,
-            "size": 84,
-            "color": "#FFE066",
-            "rot": -8
-          },
-          {
-            "text": "10M+\nMUSE USERS",
-            "x": 860,
-            "y": 570,
-            "w": 200,
-            "size": 34,
-            "color": "#FF4FD8",
-            "rot": 12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 10,
-            "h": 240
-          },
-          {
-            "name": "korede-shrug",
-            "x": 255,
-            "h": 250
-          },
-          {
-            "name": "robot",
-            "x": 700,
-            "h": 240
-          },
-          {
-            "name": "evil-robot",
-            "x": 870,
-            "h": 230
-          }
-        ]
+       "brand": "walmart",
+       "label": "yes"
       },
       {
-        "world": "day",
-        "headline": [
-          "Walmart",
-          "*opened up*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Agent",
-              "p": "searches"
-            },
-            {
-              "h": "Buys",
-              "p": "in limits",
-              "hi": true
-            },
-            {
-              "h": "Shopper",
-              "p": "sets them"
-            }
-          ],
-          "foot": "Agent Gateway, Oct 21"
-        },
-        "notes": [
-          {
-            "text": "approved agents\nonly",
-            "x": 560,
-            "y": 850,
-            "w": 420,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 30,
-            "h": 250
-          },
-          {
-            "name": "shopper",
-            "x": 230,
-            "h": 250
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "Amazon",
-          "*said no*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Outside:",
-              "v": "can't buy there"
-            },
-            {
-              "k": "In Sept:",
-              "v": "blocked Meta's"
-            }
-          ]
-        },
-        "notes": [
-          {
-            "text": "2 biggest US stores,\nopposite bets",
-            "x": 90,
-            "y": 860,
-            "w": 500,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 640,
-            "h": 240
-          },
-          {
-            "name": "korede-laptop",
-            "x": 840,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "The buyers",
-          "*are real*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "quote",
-          "text": "Over [1 in 4] engaged Muse shoppers spent $200+ per order.",
-          "who": "Meta, Oct 2026",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "Google's Universal\nCart went live too",
-            "x": 520,
-            "y": 850,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 30,
-            "h": 250
-          },
-          {
-            "name": "korede-stand",
-            "x": 300,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "What the agent",
-          "*reads first*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "In stock *right now*?",
-            "When does it *arrive*?",
-            "What does a *return* cost?"
-          ]
-        },
-        "notes": [
-          {
-            "text": "1 wrong answer,\nit buys elsewhere",
-            "x": 90,
-            "y": 870,
-            "w": 480,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 600,
-            "h": 200
-          },
-          {
-            "name": "korede-shrug",
-            "x": 820,
-            "h": 260,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Data a machine",
-          "*can trust*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Stock",
-              "p": "live count"
-            },
-            {
-              "h": "Dates",
-              "p": "real ones",
-              "hi": true
-            },
-            {
-              "h": "Returns",
-              "p": "clear rules"
-            }
-          ],
-          "foot": "brand and 3PL, kept true",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "a person approves\nwhat goes out",
-            "x": 520,
-            "y": 830,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 30,
-            "h": 260
-          },
-          {
-            "name": "robot",
-            "x": 240,
-            "h": 240
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Is your store",
-          "*agent-ready*?"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "FREE QUOTE",
-          "y": 300,
-          "line": "link in bio",
-          "pill": false
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 865,
-            "y": 505,
-            "w": 180,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "BLACK\nFRIDAY\nREADY?",
-            "x": 268,
-            "y": 850,
-            "w": 175,
-            "size": 34,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "shopper",
-            "x": 410,
-            "h": 240
-          },
-          {
-            "name": "robot",
-            "x": 790,
-            "h": 240
-          }
-        ]
+       "brand": "amazon",
+       "label": "no"
       }
+     ],
+     "manySize": 145,
+     "spread": 180,
+     "y": 670
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 695.0,
+      "y": 655.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 785.0,
+       "y1": 735.0,
+       "x2": 653.0,
+       "y2": 775.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Walmart",
+     "*opened up*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Agent",
+       "p": "searches"
+      },
+      {
+       "h": "Buys",
+       "p": "in limits",
+       "hi": true
+      },
+      {
+       "h": "Shopper",
+       "p": "sets them"
+      }
+     ],
+     "foot": "Agent Gateway, Oct 21"
+    },
+    "notes": [
+     {
+      "text": "approved agents\nonly",
+      "x": 560,
+      "y": 850,
+      "w": 420,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "shopper",
+      "x": 230,
+      "h": 250
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Amazon",
+     "*said no*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Outside:",
+       "v": "can't buy there"
+      },
+      {
+       "k": "In Sept:",
+       "v": "blocked Meta's"
+      }
+     ]
+    },
+    "notes": [
+     {
+      "text": "2 biggest US stores,\nopposite bets",
+      "x": 90,
+      "y": 860,
+      "w": 500,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 640,
+      "h": 240
+     },
+     {
+      "name": "korede-laptop",
+      "x": 840,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "The buyers",
+     "*are real*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Over [1 in 4] engaged Muse shoppers spent $200+ per order.",
+     "who": "Meta, Oct 2026",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "Google's Universal\nCart went live too",
+      "x": 520,
+      "y": 850,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "korede-stand",
+      "x": 300,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "What the agent",
+     "*reads first*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "In stock *right now*?",
+      "When does it *arrive*?",
+      "What does a *return* cost?"
+     ]
+    },
+    "notes": [
+     {
+      "text": "1 wrong answer,\nit buys elsewhere",
+      "x": 90,
+      "y": 870,
+      "w": 480,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 600,
+      "h": 200
+     },
+     {
+      "name": "korede-shrug",
+      "x": 820,
+      "h": 260,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Data a machine",
+     "*can trust*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Stock",
+       "p": "live count"
+      },
+      {
+       "h": "Dates",
+       "p": "real ones",
+       "hi": true
+      },
+      {
+       "h": "Returns",
+       "p": "clear rules"
+      }
+     ],
+     "foot": "brand and 3PL, kept true",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "a person approves\nwhat goes out",
+      "x": 520,
+      "y": 830,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 30,
+      "h": 260
+     },
+     {
+      "name": "robot",
+      "x": 240,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Is your store",
+     "*agent-ready*?"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "FREE QUOTE",
+     "y": 300,
+     "line": "link in bio",
+     "pill": false
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "shopper",
+      "x": 410,
+      "h": 240
+     },
+     {
+      "name": "robot",
+      "x": 790,
+      "h": 240
+     }
+    ]
+   }
+  ]
+ }
 }

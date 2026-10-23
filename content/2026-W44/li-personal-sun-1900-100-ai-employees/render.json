@@ -1,0 +1,188 @@
+{
+  "template": "photo",
+  "data": {
+    "handle": "Korede Kolawole",
+    "platform": "linkedin",
+    "accent": "#E8B84B",
+    "slides": [
+      {
+        "kind": "cover",
+        "photo": {
+          "src": "assets/talking-head/backgrounds/library.png",
+          "pos": "50% 50%",
+          "dim": {
+            "top": 0.72,
+            "bot": 0.5
+          }
+        },
+        "cut": {
+          "src": "assets/photos/korede/cutouts/studio-with-sanjana.png",
+          "x": -140,
+          "y": 510,
+          "h": 850
+        },
+        "blocks": [
+          {
+            "text": "We hired *100+*",
+            "size": 110
+          },
+          {
+            "text": "AI employees.",
+            "size": 110
+          }
+        ],
+        "blocksY": 60,
+        "pay": {
+          "text": "Here's what they *still can't* do.",
+          "y": 390,
+          "size": 46
+        }
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "pos": "50% 50%",
+          "blur": true
+        },
+        "label": "What they do",
+        "title": "The work we\nused to *do by hand*",
+        "bodyY": 540,
+        "list": [
+          {
+            "n": "1",
+            "text": "Write and schedule our content"
+          },
+          {
+            "n": "2",
+            "text": "Reply to new leads in minutes"
+          },
+          {
+            "n": "3",
+            "text": "Onboard new clients"
+          },
+          {
+            "n": "4",
+            "text": "Run our ads"
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "pos": "50% 50%",
+          "blur": true
+        },
+        "label": "The 1 rule",
+        "title": "Nothing goes out\nwithout a *yes*.",
+        "bodyY": 560,
+        "list": [
+          {
+            "n": "1",
+            "text": "The AI drafts it"
+          },
+          {
+            "n": "2",
+            "text": "A person taps yes"
+          },
+          {
+            "n": "3",
+            "text": "Then it goes out"
+          }
+        ],
+        "ann": [
+          {
+            "k": "Applies to",
+            "v": "every email, post and payment."
+          },
+          {
+            "k": "Why",
+            "v": "1 wrong email costs more than the time it saved."
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "photo": {
+          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "pos": "50% 50%",
+          "blur": true
+        },
+        "label": "What they still can't do",
+        "title": "4 jobs that\nstay *human*",
+        "bodyY": 540,
+        "list": [
+          {
+            "n": "1",
+            "text": "Earn a client's trust face to face"
+          },
+          {
+            "n": "2",
+            "text": "Decide what's worth building"
+          },
+          {
+            "n": "3",
+            "text": "Say no to the wrong deal"
+          },
+          {
+            "n": "4",
+            "text": "Own it when something breaks"
+          }
+        ]
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/studio-with-sanjana.jpg",
+          "pos": "90% 50%",
+          "dim": {
+            "top": 0.8,
+            "bot": 0.5
+          }
+        },
+        "quote": {
+          "text": "AI does the work.\n*People own it.*",
+          "sub": "Korede Kolawole, co-founder, Content Systems.ai",
+          "y": 130,
+          "size": 88
+        }
+      },
+      {
+        "kind": "cta",
+        "photo": {
+          "src": "assets/talking-head/backgrounds/loft-office.png",
+          "pos": "50% 50%",
+          "dim": {
+            "top": 0.72,
+            "bot": 0.5
+          }
+        },
+        "cut": {
+          "src": "assets/photos/korede/cutouts/studio-with-sanjana.png",
+          "x": -70,
+          "y": 620,
+          "h": 760
+        },
+        "blocks": [
+          {
+            "text": "Comment *AI*",
+            "size": 120
+          },
+          {
+            "text": "for our starter pack.",
+            "size": 66
+          }
+        ],
+        "blocksY": 60,
+        "pay": {
+          "text": "5 skills + *what each may do alone.*",
+          "y": 370,
+          "size": 42
+        },
+        "wordmark": true,
+        "wmTop": 510
+      }
+    ]
+  }
+}

@@ -1,362 +1,326 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#5E8E3E",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
+    "headline": [
+     "A Berlin brand's AI",
+     "answers *72 in 100*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(the other 28 are the smart part)",
+     "y": 545
+    },
+    "brandbar": [
+     "shopify"
+    ],
+    "tree": {
+     "one": {
+      "text": "*100*"
+     },
+     "oneSize": 200,
+     "gap": 56,
+     "many": [
       {
-        "world": "day",
-        "headline": [
-          "72 in 100 tickets",
-          "*without a person*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/five9.png",
-            "x": 60,
-            "y": 350,
-            "w": 440,
-            "h": 370,
-            "rot": -6,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/five9.png",
-            "x": 560,
-            "y": 370,
-            "w": 440,
-            "h": 370,
-            "rot": 5,
-            "pos": "center -240px"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "€180K\nkept",
-            "x": 410,
-            "y": 790,
-            "w": 230,
-            "size": 48,
-            "color": "#FFE066",
-            "rot": -8
-          },
-          {
-            "text": "4\nlanguages",
-            "x": 850,
-            "y": 310,
-            "w": 200,
-            "size": 34,
-            "color": "#FF4FD8",
-            "rot": 14
-          },
-          {
-            "text": "1 in 4\nstayed",
-            "x": 20,
-            "y": 310,
-            "w": 200,
-            "size": 42,
-            "color": "#9CCAA0",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 60,
-            "h": 250
-          },
-          {
-            "name": "robot",
-            "x": 800,
-            "h": 240,
-            "flip": true
-          }
-        ]
+       "sprite": "robot",
+       "label": "72"
       },
       {
-        "world": "sunset",
-        "headline": [
-          "Before,",
-          "*buried* every peak"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Where's my *order*",
-            "Sizing *questions*",
-            "Refund *requests*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "in 4 languages,\nfor a small team",
-            "x": 509,
-            "y": 832,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 70,
-            "h": 190
-          },
-          {
-            "name": "sanjana-shrug",
-            "x": 293,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "72 in 100",
-          "*answered*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Routine",
-              "p": "day and night"
-            },
-            {
-              "h": "Tricky",
-              "p": "to the team",
-              "hi": true
-            }
-          ],
-          "foot": "in the customer's own language"
-        },
-        "notes": [
-          {
-            "text": "the team sees\nwhat needs them",
-            "x": 60,
-            "y": 802,
-            "w": 481,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 769,
-            "h": 250,
-            "flip": true
-          },
-          {
-            "name": "robot",
-            "x": 575,
-            "h": 240,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "1 in 4",
-          "*stayed*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Cancel",
-              "p": "customer asks"
-            },
-            {
-              "h": "Offer",
-              "p": "a better option",
-              "hi": true
-            },
-            {
-              "h": "Stay",
-              "p": "1 in 4 do"
-            }
-          ]
-        },
-        "notes": [
-          {
-            "text": "€180K a year\nthe brand kept",
-            "x": 532,
-            "y": 858,
-            "w": 478,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 70,
-            "h": 250
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 335,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Hard ones go",
-          "*to a person*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "bars",
-          "title": "customers who trust the AI to help",
-          "bars": [
-            {
-              "label": "55",
-              "name": "person on hand",
-              "value": 55
-            },
-            {
-              "label": "26",
-              "name": "no person",
-              "value": 26,
-              "hot": true
-            }
-          ],
-          "foot": "Five9 survey, Oct 2026"
-        },
-        "notes": [
-          {
-            "text": "with the full\nstory ready",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 840,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "bubble",
-            "x": 697,
-            "h": 110
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Paid for itself",
-          "*in Q1*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Built on:",
-              "v": "their own tools"
-            },
-            {
-              "k": "Owned by:",
-              "v": "the brand"
-            },
-            {
-              "k": "To learn:",
-              "v": "no new software"
-            }
-          ],
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "they own\nwhat we built",
-            "x": 300,
-            "y": 720,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "trophy",
-            "x": 460,
-            "h": 120
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 800,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Want this before",
-          "*Black Friday*?"
-        ],
-        "size": "xs",
-        "underline": false,
-        "cta": {
-          "keyword": "LINK IN BIO",
-          "y": 330,
-          "line": "your free quote",
-          "pill": false
-        },
-        "bursts": [
-          {
-            "text": "FREE\nquote",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "4 weeks\nout",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 42,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 90,
-            "h": 250
-          },
-          {
-            "name": "korede-cheer",
-            "x": 440,
-            "h": 270
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true,
+       "label": "28"
       }
+     ],
+     "manySize": 150,
+     "spread": 160,
+     "y": 670
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 700.0,
+      "y": 660.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 790.0,
+       "y1": 740.0,
+       "x2": 658.0,
+       "y2": 780.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Before,",
+     "*buried* every peak"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Where's my *order*",
+      "Sizing *questions*",
+      "Refund *requests*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "in 4 languages,\nfor a small team",
+      "x": 509,
+      "y": 832,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 70,
+      "h": 190
+     },
+     {
+      "name": "sanjana-shrug",
+      "x": 293,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "72 in 100",
+     "*answered*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Routine",
+       "p": "day and night"
+      },
+      {
+       "h": "Tricky",
+       "p": "to the team",
+       "hi": true
+      }
+     ],
+     "foot": "in the customer's own language"
+    },
+    "notes": [
+     {
+      "text": "the team sees\nwhat needs them",
+      "x": 60,
+      "y": 802,
+      "w": 481,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 769,
+      "h": 250,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 575,
+      "h": 240,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1 in 4",
+     "*stayed*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Cancel",
+       "p": "customer asks"
+      },
+      {
+       "h": "Offer",
+       "p": "a better option",
+       "hi": true
+      },
+      {
+       "h": "Stay",
+       "p": "1 in 4 do"
+      }
+     ]
+    },
+    "notes": [
+     {
+      "text": "€180K a year\nthe brand kept",
+      "x": 532,
+      "y": 858,
+      "w": 478,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 70,
+      "h": 250
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 335,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Hard ones go",
+     "*to a person*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "bars",
+     "title": "customers who trust the AI to help",
+     "bars": [
+      {
+       "label": "55",
+       "name": "person on hand",
+       "value": 55
+      },
+      {
+       "label": "26",
+       "name": "no person",
+       "value": 26,
+       "hot": true
+      }
+     ],
+     "foot": "Five9 survey, Oct 2026"
+    },
+    "notes": [
+     {
+      "text": "with the full\nstory ready",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 840,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "bubble",
+      "x": 697,
+      "h": 110
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Paid for itself",
+     "*in Q1*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Built on:",
+       "v": "their own tools"
+      },
+      {
+       "k": "Owned by:",
+       "v": "the brand"
+      },
+      {
+       "k": "To learn:",
+       "v": "no new software"
+      }
+     ],
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "they own\nwhat we built",
+      "x": 300,
+      "y": 720,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "trophy",
+      "x": 460,
+      "h": 120
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 800,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Want this before",
+     "*Black Friday*?"
+    ],
+    "size": "xs",
+    "underline": false,
+    "cta": {
+     "keyword": "LINK IN BIO",
+     "y": 330,
+     "line": "your free quote",
+     "pill": false
+    },
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 90,
+      "h": 250
+     },
+     {
+      "name": "korede-cheer",
+      "x": 440,
+      "h": 270
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

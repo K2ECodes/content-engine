@@ -1,0 +1,149 @@
+{
+  "template": "photo",
+  "data": {
+    "handle": "@koredekola",
+    "platform": "instagram",
+    "accent": "#E8B84B",
+    "slides": [
+      {
+        "kind": "cover",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "dim": {
+            "top": 0.55,
+            "bot": 0.55
+          }
+        },
+        "blocks": [
+          {
+            "text": "5 AI takes",
+            "size": 120
+          },
+          {
+            "text": "people *won't like.*",
+            "size": 104
+          }
+        ],
+        "blocksY": 90,
+        "pay": {
+          "text": "*Take 3* is the one nobody wants to hear.",
+          "y": 1010,
+          "size": 46
+        }
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "blur": true,
+          "bright": 0.4
+        },
+        "label": "Take 1.",
+        "labelY": 150,
+        "quote": {
+          "text": "If your AI can't say\n*I don't know*,\nit's guessing.",
+          "sub": "Ask it what it's unsure about. Watch what happens.",
+          "y": 250,
+          "size": 80
+        }
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "blur": true,
+          "bright": 0.4
+        },
+        "label": "Take 2.",
+        "labelY": 150,
+        "quote": {
+          "text": "Agents that act\nwithout asking\naren't brave.\n*They're a liability.*",
+          "sub": "Speed is cheap. Undoing a wrong email isn't.",
+          "y": 250,
+          "size": 80
+        }
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "blur": true,
+          "bright": 0.4
+        },
+        "label": "Take 3.",
+        "labelY": 150,
+        "quote": {
+          "text": "Prompting isn't\nthe skill.\n*Knowing your\nbusiness is.*",
+          "sub": "The best prompt is just your process written down.",
+          "y": 250,
+          "size": 80
+        }
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "blur": true,
+          "bright": 0.4
+        },
+        "label": "Take 4.",
+        "labelY": 150,
+        "quote": {
+          "text": "You don't need\n10 AI tools.\n*You need 1 that\nknows your work.*",
+          "sub": "Every extra tool is another place your context lives.",
+          "y": 250,
+          "size": 80
+        }
+      },
+      {
+        "kind": "quote",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "blur": true,
+          "bright": 0.4
+        },
+        "label": "Take 5.",
+        "labelY": 150,
+        "quote": {
+          "text": "The best AI feature\nthis year is\n*a yes button.*",
+          "sub": "The tools that ask before they act are the ones I trust.",
+          "y": 250,
+          "size": 80
+        }
+      },
+      {
+        "kind": "cta",
+        "photo": {
+          "src": "assets/photos/korede/laptop-rooftop.jpg",
+          "pos": "50% 62%",
+          "dim": {
+            "top": 0.55,
+            "bot": 0.55
+          }
+        },
+        "blocks": [
+          {
+            "text": "Comment *AI*",
+            "size": 120
+          },
+          {
+            "text": "for my starter pack.",
+            "size": 72
+          }
+        ],
+        "blocksY": 90,
+        "pay": {
+          "text": "5 skills that make your AI *useful.*",
+          "y": 1010,
+          "size": 46
+        }
+      }
+    ]
+  }
+}

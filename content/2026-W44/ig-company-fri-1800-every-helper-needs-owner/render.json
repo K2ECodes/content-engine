@@ -1,303 +1,267 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
+    "headline": [
+     "Every AI helper",
+     "needs *3 answers*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(can yours answer all 3?)",
+     "y": 520
+    },
+    "tree": {
+     "one": {
+      "sprite": "robot"
+     },
+     "oneSize": 230,
+     "gap": 70,
+     "many": [
       {
-        "world": "sunset",
-        "headline": [
-          "Every AI helper",
-          "needs *an owner*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/microsoft.png",
-            "x": 60,
-            "y": 350,
-            "w": 440,
-            "h": 370,
-            "rot": -6
-          },
-          {
-            "src": "shots/survey.png",
-            "x": 560,
-            "y": 370,
-            "w": 440,
-            "h": 370,
-            "rot": 5
-          }
-        ],
-        "bursts": [
-          {
-            "text": "58 in 100\nmanagers",
-            "x": 400,
-            "y": 780,
-            "w": 250,
-            "size": 40,
-            "color": "#FFE066",
-            "rot": -8
-          },
-          {
-            "text": "who's\nin charge?",
-            "x": 840,
-            "y": 310,
-            "w": 200,
-            "size": 36,
-            "color": "#FF4FD8",
-            "rot": 14
-          },
-          {
-            "text": "more AI\nthan people",
-            "x": 20,
-            "y": 310,
-            "w": 210,
-            "size": 32,
-            "color": "#3FF2FF",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 60,
-            "h": 250
-          },
-          {
-            "name": "boss",
-            "x": 800,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "1. Who checks",
-          "*its work?*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "1 named person",
-            "Checks it *every day*",
-            "Not “the team”"
-          ]
-        },
-        "notes": [
-          {
-            "text": "whose name\nis on it?",
-            "x": 486,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-point",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "evil-robot",
-            "x": 262,
-            "h": 250
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "2. What can it",
-          "*do alone?*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Alone",
-              "p": "a tracking question"
-            },
-            {
-              "h": "Needs yes",
-              "p": "a refund",
-              "hi": true
-            }
-          ],
-          "foot": "write the line down"
-        },
-        "notes": [
-          {
-            "text": "where does it\nneed a yes?",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 840,
-            "h": 240,
-            "flip": true
-          },
-          {
-            "name": "korede-laptop",
-            "x": 650,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "3. What does",
-          "it *report?*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "What it *handled*",
-            "What it *passed on*",
-            "Every day, to its *owner*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "a short\ndaily note",
-            "x": 404,
-            "y": 802,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "cat",
-            "x": 243,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "1 page",
-          "per *helper*"
-        ],
-        "card": {
-          "y": 440,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Job",
-              "p": "in 1 line"
-            },
-            {
-              "h": "Owner",
-              "p": "a name and a limit",
-              "hi": true
-            },
-            {
-              "h": "Report",
-              "p": "every day"
-            }
-          ],
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "how we run\nour own company",
-            "x": 300,
-            "y": 800,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 460,
-            "h": 150
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 800,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "Want the",
-          "*owner sheet?*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll DM you"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 50,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "1 page per\nAI helper",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 34,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "korede-cheer",
-            "x": 430,
-            "h": 270
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 170,
+     "spread": 60,
+     "y": 610
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 715.0,
+      "y": 615.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 805.0,
+       "y1": 695.0,
+       "x2": 673.0,
+       "y2": 735.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Who checks",
+     "*its work?*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "1 named person",
+      "Checks it *every day*",
+      "Not “the team”"
+     ]
+    },
+    "notes": [
+     {
+      "text": "whose name\nis on it?",
+      "x": 486,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "evil-robot",
+      "x": 262,
+      "h": 250
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "2. What can it",
+     "*do alone?*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Alone",
+       "p": "a tracking question"
+      },
+      {
+       "h": "Needs yes",
+       "p": "a refund",
+       "hi": true
+      }
+     ],
+     "foot": "write the line down"
+    },
+    "notes": [
+     {
+      "text": "where does it\nneed a yes?",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 840,
+      "h": 240,
+      "flip": true
+     },
+     {
+      "name": "korede-laptop",
+      "x": 650,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "3. What does",
+     "it *report?*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "What it *handled*",
+      "What it *passed on*",
+      "Every day, to its *owner*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "a short\ndaily note",
+      "x": 404,
+      "y": 802,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "cat",
+      "x": 243,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "1 page",
+     "per *helper*"
+    ],
+    "card": {
+     "y": 440,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Job",
+       "p": "in 1 line"
+      },
+      {
+       "h": "Owner",
+       "p": "a name and a limit",
+       "hi": true
+      },
+      {
+       "h": "Report",
+       "p": "every day"
+      }
+     ],
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "how we run\nour own company",
+      "x": 300,
+      "y": 800,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 460,
+      "h": 150
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 800,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Want the",
+     "*owner sheet?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "korede-cheer",
+      "x": 430,
+      "h": 270
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

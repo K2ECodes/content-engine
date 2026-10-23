@@ -1,371 +1,332 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
+    "headline": [
+     "3 things AI should",
+     "*never send alone*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(even Anthropic and Microsoft agree)",
+     "y": 600
+    },
+    "brandbar": [
+     "anthropic",
+     "walmart",
+     "microsoft"
+    ],
+    "tree": {
+     "one": {
+      "text": "*AI*"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
       {
-        "world": "sunset",
-        "headline": [
-          "3 things AI",
-          "*never sends alone*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/duet.png",
-            "x": 40,
-            "y": 360,
-            "w": 330,
-            "h": 360,
-            "rot": -7
-          },
-          {
-            "src": "shots/microsoft.png",
-            "x": 375,
-            "y": 330,
-            "w": 330,
-            "h": 360,
-            "rot": 4
-          },
-          {
-            "src": "shots/walmart.png",
-            "x": 710,
-            "y": 370,
-            "w": 330,
-            "h": 360,
-            "rot": -3
-          }
-        ],
-        "bursts": [
-          {
-            "text": "100+ AI\nemployees",
-            "x": 20,
-            "y": 310,
-            "w": 220,
-            "size": 38,
-            "color": "#9CCAA0",
-            "rot": -12
-          },
-          {
-            "text": "no yes,\nno send",
-            "x": 420,
-            "y": 790,
-            "w": 240,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 8
-          },
-          {
-            "text": "wait\nfor a yes",
-            "x": 840,
-            "y": 310,
-            "w": 200,
-            "size": 36,
-            "color": "#FF4FD8",
-            "rot": 14
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 60,
-            "h": 250
-          },
-          {
-            "name": "korede-point",
-            "x": 790,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "1. Refunds",
-          "*wait for you*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "AI",
-              "p": "preps the refund"
-            },
-            {
-              "h": "You",
-              "p": "click pay",
-              "hi": true
-            }
-          ],
-          "foot": "money out is final"
-        },
-        "notes": [
-          {
-            "text": "AI prepares,\na person pays",
-            "x": 466,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-point",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 262,
-            "h": 240
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "2. Customer",
-          "*emails*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Routine: can go *alone*",
-            "A promise: *waits*",
-            "A discount: *waits*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "AI drafts, you\nsend the hard ones",
-            "x": 60,
-            "y": 858,
-            "w": 485,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 769,
-            "h": 250,
-            "flip": true
-          },
-          {
-            "name": "korede-laptop",
-            "x": 579,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "3. Freight",
-          "*bookings*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "AI",
-              "p": "compares carriers"
-            },
-            {
-              "h": "You",
-              "p": "confirm the booking",
-              "hi": true
-            }
-          ],
-          "foot": "a booking commits a truck and a bill"
-        },
-        "notes": [
-          {
-            "text": "AI shortlists,\na person books",
-            "x": 487,
-            "y": 832,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 283,
-            "h": 240
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "The big names",
-          "*agreed*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 440,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Anthropic:",
-              "v": "asks before it pays"
-            },
-            {
-              "k": "Walmart:",
-              "v": "spending limits"
-            },
-            {
-              "k": "Microsoft:",
-              "v": "watch AI like staff"
-            }
-          ],
-          "title": "This month, Oct 2026",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "our rule\nfrom day 1",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 803,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "korede-point",
-            "x": 609,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "How the",
-          "*yes* works"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Draft",
-              "p": "by the AI"
-            },
-            {
-              "h": "Check",
-              "p": "by you",
-              "hi": true
-            },
-            {
-              "h": "Send",
-              "p": "after a yes"
-            }
-          ],
-          "foot": "every step is on record",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "or change it,\nor say no",
-            "x": 300,
-            "y": 770,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 460,
-            "h": 160
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 800,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Want our",
-          "*approval sheet?*"
-        ],
-        "size": "xs",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll DM you"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 50,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "all 4\nactions",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 42,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "cat",
-            "x": 460,
-            "h": 150
-          },
-          {
-            "name": "korede-cheer",
-            "x": 740,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 170,
+     "spread": 70,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 710.0,
+      "y": 690.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 800.0,
+       "y1": 770.0,
+       "x2": 668.0,
+       "y2": 810.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Refunds",
+     "*wait for you*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "AI",
+       "p": "preps the refund"
+      },
+      {
+       "h": "You",
+       "p": "click pay",
+       "hi": true
+      }
+     ],
+     "foot": "money out is final"
+    },
+    "notes": [
+     {
+      "text": "AI prepares,\na person pays",
+      "x": 466,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 262,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "2. Customer",
+     "*emails*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Routine: can go *alone*",
+      "A promise: *waits*",
+      "A discount: *waits*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "AI drafts, you\nsend the hard ones",
+      "x": 60,
+      "y": 858,
+      "w": 485,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 769,
+      "h": 250,
+      "flip": true
+     },
+     {
+      "name": "korede-laptop",
+      "x": 579,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "3. Freight",
+     "*bookings*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "AI",
+       "p": "compares carriers"
+      },
+      {
+       "h": "You",
+       "p": "confirm the booking",
+       "hi": true
+      }
+     ],
+     "foot": "a booking commits a truck and a bill"
+    },
+    "notes": [
+     {
+      "text": "AI shortlists,\na person books",
+      "x": 487,
+      "y": 832,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 283,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "The big names",
+     "*agreed*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 440,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Anthropic:",
+       "v": "asks before it pays"
+      },
+      {
+       "k": "Walmart:",
+       "v": "spending limits"
+      },
+      {
+       "k": "Microsoft:",
+       "v": "watch AI like staff"
+      }
+     ],
+     "title": "This month, Oct 2026",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "our rule\nfrom day 1",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 803,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "korede-point",
+      "x": 609,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "How the",
+     "*yes* works"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Draft",
+       "p": "by the AI"
+      },
+      {
+       "h": "Check",
+       "p": "by you",
+       "hi": true
+      },
+      {
+       "h": "Send",
+       "p": "after a yes"
+      }
+     ],
+     "foot": "every step is on record",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "or change it,\nor say no",
+      "x": 300,
+      "y": 770,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 460,
+      "h": 160
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 800,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Want our",
+     "*approval sheet?*"
+    ],
+    "size": "xs",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "sanjana-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "cat",
+      "x": 460,
+      "h": 150
+     },
+     {
+      "name": "korede-cheer",
+      "x": 740,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   }
+  ]
+ }
 }

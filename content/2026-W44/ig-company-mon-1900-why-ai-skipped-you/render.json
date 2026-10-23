@@ -1,406 +1,367 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "An AI shopper",
+     "*skipped your store*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(for 1 of these 5 reasons)",
+     "y": 520
+    },
+    "tree": {
+     "up": true,
+     "many": [
       {
-        "world": "neon",
-        "headline": [
-          "Why an AI shopper",
-          "*skipped* you"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/walmart.png",
-            "x": 40,
-            "y": 360,
-            "w": 330,
-            "h": 360,
-            "rot": -7,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/google.png",
-            "x": 375,
-            "y": 330,
-            "w": 330,
-            "h": 360,
-            "rot": 4
-          },
-          {
-            "src": "shots/returns.png",
-            "x": 710,
-            "y": 370,
-            "w": 330,
-            "h": 360,
-            "rot": -3,
-            "pos": "center -10px"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "NEW",
-            "x": 830,
-            "y": 310,
-            "w": 190,
-            "size": 58,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "$200+\nper order",
-            "x": 410,
-            "y": 790,
-            "w": 250,
-            "size": 40,
-            "color": "#FF4FD8",
-            "rot": -10
-          },
-          {
-            "text": "5 things\nit couldn't\nread",
-            "x": 20,
-            "y": 310,
-            "w": 220,
-            "size": 29,
-            "color": "#9CCAA0",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 60,
-            "h": 240
-          },
-          {
-            "name": "korede-shrug",
-            "x": 790,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "1. Stock",
-          "*that lags*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "bars",
-          "title": "same item, today",
-          "bars": [
-            {
-              "label": "0",
-              "name": "store says",
-              "value": 0.5,
-              "hot": true
-            },
-            {
-              "label": "40",
-              "name": "on the shelf",
-              "value": 40
-            }
-          ],
-          "foot": "the back-in-stock alert goes to someone else"
-        },
-        "notes": [
-          {
-            "text": "fix: match it\nevery day",
-            "x": 516,
-            "y": 832,
-            "w": 494,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 70,
-            "h": 190
-          },
-          {
-            "name": "worker",
-            "x": 293,
-            "h": 270
-          }
-        ]
+       "q": true
       },
       {
-        "world": "day",
-        "headline": [
-          "2. “Ships in",
-          "*3 to 7 days*”"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Vague",
-              "p": "ships in 3 to 7 days"
-            },
-            {
-              "h": "Clear",
-              "p": "arrives Thu",
-              "hi": true
-            }
-          ],
-          "foot": "assistants compare dates side by side"
-        },
-        "notes": [
-          {
-            "text": "a real date\nwins the sale",
-            "x": 60,
-            "y": 858,
-            "w": 481,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 769,
-            "h": 250,
-            "flip": true
-          },
-          {
-            "name": "robot",
-            "x": 575,
-            "h": 240,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "3. Hidden",
-          "*returns rules*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "accent": true,
-          "kind": "quote",
-          "text": "[33 in 100] shoppers say shipping and returns change what they buy.",
-          "who": "Feedvisor and PartnerCentric survey, Oct 2026"
-        },
-        "notes": [
-          {
-            "text": "fine print\nreads as a no",
-            "x": 481,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "ghost",
-            "x": 70,
-            "h": 220
-          },
-          {
-            "name": "sanjana-shrug",
-            "x": 265,
-            "h": 270
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "4. Prices",
-          "*that disagree*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "$48",
-              "p": "your site"
-            },
-            {
-              "h": "$52",
-              "p": "marketplace",
-              "hi": true
-            }
-          ],
-          "foot": "same product, 2 prices"
-        },
-        "notes": [
-          {
-            "text": "it trusts\nneither",
-            "x": 60,
-            "y": 832,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 820,
-            "h": 250,
-            "flip": true
-          },
-          {
-            "name": "korede-point",
-            "x": 626,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "5. Details",
-          "*in pictures*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Size chart as an *image*",
-            "Materials in a *photo*",
-            "Fix: write it as *text*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "invisible to a\nshopper that reads",
-            "x": 404,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "cat",
-            "x": 243,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Who fixes",
-          "*what*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Your brand:",
-              "v": "prices, returns"
-            },
-            {
-              "k": "Warehouse:",
-              "v": "stock, ship dates"
-            },
-            {
-              "k": "Your team:",
-              "v": "approves changes"
-            }
-          ],
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "both sides\nin step",
-            "x": 440,
-            "y": 830,
-            "w": 360
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-stand",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "worker",
-            "x": 230,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 800,
-            "h": 240,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Want the",
-          "*free check?*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll DM you"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 50,
-            "color": "#3FF2FF",
-            "rot": 12
-          },
-          {
-            "text": "brands\n+ 3PLs",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 40,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 430,
-            "h": 240
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 740,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 130,
+     "spread": 36,
+     "gap": 66,
+     "one": {
+      "text": "*Skipped*"
+     },
+     "oneSize": 250,
+     "y": 610
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 725.0,
+      "y": 821.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 815.0,
+       "y1": 901.0,
+       "x2": 683.0,
+       "y2": 941.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "1. Stock",
+     "*that lags*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "bars",
+     "title": "same item, today",
+     "bars": [
+      {
+       "label": "0",
+       "name": "store says",
+       "value": 0.5,
+       "hot": true
+      },
+      {
+       "label": "40",
+       "name": "on the shelf",
+       "value": 40
+      }
+     ],
+     "foot": "the back-in-stock alert goes to someone else"
+    },
+    "notes": [
+     {
+      "text": "fix: match it\nevery day",
+      "x": 516,
+      "y": 832,
+      "w": 494,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 70,
+      "h": 190
+     },
+     {
+      "name": "worker",
+      "x": 293,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "2. “Ships in",
+     "*3 to 7 days*”"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Vague",
+       "p": "ships in 3 to 7 days"
+      },
+      {
+       "h": "Clear",
+       "p": "arrives Thu",
+       "hi": true
+      }
+     ],
+     "foot": "assistants compare dates side by side"
+    },
+    "notes": [
+     {
+      "text": "a real date\nwins the sale",
+      "x": 60,
+      "y": 858,
+      "w": 481,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 769,
+      "h": 250,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 575,
+      "h": 240,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Hidden",
+     "*returns rules*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "accent": true,
+     "kind": "quote",
+     "text": "[33 in 100] shoppers say shipping and returns change what they buy.",
+     "who": "Feedvisor and PartnerCentric survey, Oct 2026"
+    },
+    "notes": [
+     {
+      "text": "fine print\nreads as a no",
+      "x": 481,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 220
+     },
+     {
+      "name": "sanjana-shrug",
+      "x": 265,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "4. Prices",
+     "*that disagree*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "$48",
+       "p": "your site"
+      },
+      {
+       "h": "$52",
+       "p": "marketplace",
+       "hi": true
+      }
+     ],
+     "foot": "same product, 2 prices"
+    },
+    "notes": [
+     {
+      "text": "it trusts\nneither",
+      "x": 60,
+      "y": 832,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 820,
+      "h": 250,
+      "flip": true
+     },
+     {
+      "name": "korede-point",
+      "x": 626,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "5. Details",
+     "*in pictures*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Size chart as an *image*",
+      "Materials in a *photo*",
+      "Fix: write it as *text*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "invisible to a\nshopper that reads",
+      "x": 404,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "cat",
+      "x": 243,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Who fixes",
+     "*what*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Your brand:",
+       "v": "prices, returns"
+      },
+      {
+       "k": "Warehouse:",
+       "v": "stock, ship dates"
+      },
+      {
+       "k": "Your team:",
+       "v": "approves changes"
+      }
+     ],
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "both sides\nin step",
+      "x": 440,
+      "y": 830,
+      "w": 360
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-stand",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "worker",
+      "x": 230,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 800,
+      "h": 240,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*free check?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 430,
+      "h": 240
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 740,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

@@ -1,340 +1,303 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "@contentsystems.ai",
-    "platform": "instagram",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#D97757",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
+    "headline": [
+     "Build 2 AI employees",
+     "*in 120 minutes*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(employee 2 is the one nobody builds)",
+     "y": 600
+    },
+    "brandbar": [
+     "claude"
+    ],
+    "tree": {
+     "one": {
+      "sprite": "korede-laptop"
+     },
+     "oneSize": 240,
+     "gap": 70,
+     "many": [
       {
-        "world": "day",
-        "headline": [
-          "Build your first",
-          "*2 AI employees*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/workshop.png",
-            "x": 60,
-            "y": 350,
-            "w": 440,
-            "h": 370,
-            "rot": -6,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/uber.png",
-            "x": 560,
-            "y": 370,
-            "w": 440,
-            "h": 370,
-            "rot": 5
-          }
-        ],
-        "bursts": [
-          {
-            "text": "built\nwith you",
-            "x": 400,
-            "y": 780,
-            "w": 250,
-            "size": 40,
-            "color": "#FFE066",
-            "rot": -8
-          },
-          {
-            "text": "LIVE",
-            "x": 860,
-            "y": 310,
-            "w": 170,
-            "size": 56,
-            "color": "#FF4FD8",
-            "rot": 14
-          },
-          {
-            "text": "on\nZoom",
-            "x": 20,
-            "y": 310,
-            "w": 180,
-            "size": 46,
-            "color": "#3FF2FF",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 800,
-            "h": 240,
-            "flip": true
-          }
-        ]
+       "sprite": "robot"
       },
       {
-        "world": "sunset",
-        "headline": [
-          "Employee 1:",
-          "*the 2 AM lead*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "A lead comes in at *2 AM*",
-            "You're *asleep*",
-            "It's answered in *seconds*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "what it says\nyou'll see live",
-            "x": 495,
-            "y": 832,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-point",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "box-monster",
-            "x": 262,
-            "h": 190
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Employee 2:",
-          "*the watcher*"
-        ],
-        "card": {
-          "y": 440,
-          "kind": "code",
-          "text": "*tracking:*\nyour competitors\nwhile you work\nso you're not last to know"
-        },
-        "notes": [
-          {
-            "text": "built live,\non your account",
-            "x": 60,
-            "y": 858,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 840,
-            "h": 240,
-            "flip": true
-          },
-          {
-            "name": "korede-laptop",
-            "x": 650,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "The setup",
-          "*most skip*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Default",
-              "p": "how most start"
-            },
-            {
-              "h": "Yours",
-              "p": "Claude set up properly",
-              "hi": true
-            }
-          ],
-          "foot": "on your own account, done together"
-        },
-        "notes": [
-          {
-            "text": "do this first,\nthen build",
-            "x": 447,
-            "y": 802,
-            "w": 500,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 70,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 243,
-            "h": 240
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "The 1 rule",
-          "*all 100+ follow*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Given on *day 1*",
-            "Same for *every 1*",
-            "Shown *live* in the workshop"
-          ]
-        },
-        "notes": [
-          {
-            "text": "the reason\nwe trust them",
-            "x": 60,
-            "y": 858,
-            "w": 482,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 803,
-            "h": 270,
-            "flip": true
-          },
-          {
-            "name": "korede-shrug",
-            "x": 576,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "How it",
-          "*runs*"
-        ],
-        "card": {
-          "y": 430,
-          "kind": "rows",
-          "rows": [
-            {
-              "k": "Length:",
-              "v": "120 minutes"
-            },
-            {
-              "k": "Where:",
-              "v": "live on Zoom"
-            },
-            {
-              "k": "Replay:",
-              "v": "included"
-            },
-            {
-              "k": "Next date:",
-              "v": "in our bio"
-            }
-          ],
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "comment WORKSHOP\nfor the details",
-            "x": 300,
-            "y": 815,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "cat",
-            "x": 470,
-            "h": 120
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 800,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "Want in on",
-          "the *next 1*?"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "WORKSHOP",
-          "y": 330,
-          "line": "next date in our bio",
-          "pill": true
-        },
-        "bursts": [
-          {
-            "text": "LIVE",
-            "x": 860,
-            "y": 100,
-            "w": 190,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "live on\nZoom",
-            "x": 20,
-            "y": 110,
-            "w": 200,
-            "size": 42,
-            "color": "#FF4FD8",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 430,
-            "h": 240
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 180,
+     "spread": 140,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 720.0,
+      "y": 700.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 810.0,
+       "y1": 780.0,
+       "x2": 678.0,
+       "y2": 820.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Employee 1:",
+     "*the 2 AM lead*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "A lead comes in at *2 AM*",
+      "You're *asleep*",
+      "It's answered in *seconds*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "what it says\nyou'll see live",
+      "x": 495,
+      "y": 832,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "box-monster",
+      "x": 262,
+      "h": 190
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Employee 2:",
+     "*the watcher*"
+    ],
+    "card": {
+     "y": 440,
+     "kind": "code",
+     "text": "*tracking:*\nyour competitors\nwhile you work\nso you're not last to know"
+    },
+    "notes": [
+     {
+      "text": "built live,\non your account",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 840,
+      "h": 240,
+      "flip": true
+     },
+     {
+      "name": "korede-laptop",
+      "x": 650,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "The setup",
+     "*most skip*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Default",
+       "p": "how most start"
+      },
+      {
+       "h": "Yours",
+       "p": "Claude set up properly",
+       "hi": true
+      }
+     ],
+     "foot": "on your own account, done together"
+    },
+    "notes": [
+     {
+      "text": "do this first,\nthen build",
+      "x": 447,
+      "y": 802,
+      "w": 500,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 243,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "The 1 rule",
+     "*all 100+ follow*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Given on *day 1*",
+      "Same for *every 1*",
+      "Shown *live* in the workshop"
+     ]
+    },
+    "notes": [
+     {
+      "text": "the reason\nwe trust them",
+      "x": 60,
+      "y": 858,
+      "w": 482,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 803,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "korede-shrug",
+      "x": 576,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "How it",
+     "*runs*"
+    ],
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Length:",
+       "v": "120 minutes"
+      },
+      {
+       "k": "Where:",
+       "v": "live on Zoom"
+      },
+      {
+       "k": "Replay:",
+       "v": "included"
+      },
+      {
+       "k": "Next date:",
+       "v": "in our bio"
+      }
+     ],
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "comment WORKSHOP\nfor the details",
+      "x": 300,
+      "y": 815,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "cat",
+      "x": 470,
+      "h": 120
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 800,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Want in on",
+     "the *next 1*?"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 330,
+     "line": "next date in our bio",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 430,
+      "h": 240
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

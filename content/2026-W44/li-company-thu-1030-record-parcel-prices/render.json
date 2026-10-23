@@ -1,269 +1,225 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Content Systems.ai",
-    "platform": "linkedin",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#4D148C",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
+    "headline": [
+     "Parcel prices hit",
+     "*a record*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(and the reason isn't what you think)",
+     "y": 520
+    },
+    "tree": {
+     "up": true,
+     "many": [
       {
-        "world": "sunset",
-        "headline": [
-          "Parcel prices",
-          "hit *a record*"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/fedex.png",
-            "x": 50,
-            "y": 350,
-            "w": 440,
-            "h": 370,
-            "rot": -6,
-            "pos": "center top"
-          },
-          {
-            "src": "shots/deloitte.png",
-            "x": 585,
-            "y": 370,
-            "w": 440,
-            "h": 370,
-            "rot": 5,
-            "pos": "center -83px"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "ALL-TIME\nHIGH",
-            "x": 860,
-            "y": 560,
-            "w": 200,
-            "size": 42,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "UP 43.3\nIN 100",
-            "x": 410,
-            "y": 830,
-            "w": 230,
-            "size": 46,
-            "color": "#3FF2FF",
-            "rot": -8
-          },
-          {
-            "text": "BILLING\nFOR IT?",
-            "x": 15,
-            "y": 590,
-            "w": 210,
-            "size": 40,
-            "color": "#FF4FD8",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 40,
-            "h": 270
-          },
-          {
-            "name": "ghost",
-            "x": 715,
-            "h": 230
-          },
-          {
-            "name": "boss",
-            "x": 880,
-            "h": 230
-          }
-        ]
+       "brand": "fedex"
       },
       {
-        "world": "day",
-        "headline": [
-          "It isn't",
-          "*the fuel*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "quote",
-          "text": "Since 2021, [72 in 100] of the fuel surcharge rise came from carrier pricing, not diesel.",
-          "who": "TD Cowen/AFS Freight Index, Oct 2026",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "your costs moved,\ndid your rates?",
-            "x": 90,
-            "y": 870,
-            "w": 460,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 620,
-            "h": 240
-          },
-          {
-            "name": "korede-point",
-            "x": 830,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "neon",
-        "headline": [
-          "Peak is when",
-          "*it slips*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "Surcharges up, *billing not*",
-            "Storage past the *free period*",
-            "Rush jobs *never recorded*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "busy floor,\nmissed lines",
-            "x": 560,
-            "y": 860,
-            "w": 400,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 30,
-            "h": 260
-          },
-          {
-            "name": "box-monster",
-            "x": 230,
-            "h": 200
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "A system bills",
-          "*every peak charge*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Record",
-              "p": "daily work"
-            },
-            {
-              "h": "Match",
-              "p": "your rates",
-              "hi": true
-            },
-            {
-              "h": "Flag",
-              "p": "the gaps"
-            }
-          ],
-          "foot": "your team approves every line",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "nothing left\non the floor",
-            "x": 340,
-            "y": 745,
-            "w": 400
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-stand",
-            "x": 80,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 330,
-            "h": 200
-          },
-          {
-            "name": "worker",
-            "x": 570,
-            "h": 210
-          },
-          {
-            "name": "korede-stand",
-            "x": 820,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "Find what you're",
-          "*not billing*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "FREE QUOTE",
-          "y": 300,
-          "line": "top AI wins, link in bio",
-          "pill": false
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 865,
-            "y": 505,
-            "w": 180,
-            "size": 46,
-            "color": "#FF4FD8",
-            "rot": 12
-          },
-          {
-            "text": "PEAK IS\nHERE",
-            "x": 268,
-            "y": 850,
-            "w": 175,
-            "size": 34,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 450,
-            "h": 240
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "brand": "ups"
       }
+     ],
+     "manySize": 170,
+     "spread": 160,
+     "gap": 70,
+     "one": {
+      "q": true
+     },
+     "oneSize": 250,
+     "y": 610
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 725.0,
+      "y": 865.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 815.0,
+       "y1": 945.0,
+       "x2": 683.0,
+       "y2": 985.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "It isn't",
+     "*the fuel*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Since 2021, [72 in 100] of the fuel surcharge rise came from carrier pricing, not diesel.",
+     "who": "TD Cowen/AFS Freight Index, Oct 2026",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "your costs moved,\ndid your rates?",
+      "x": 90,
+      "y": 870,
+      "w": 460,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 620,
+      "h": 240
+     },
+     {
+      "name": "korede-point",
+      "x": 830,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Peak is when",
+     "*it slips*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Surcharges up, *billing not*",
+      "Storage past the *free period*",
+      "Rush jobs *never recorded*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "busy floor,\nmissed lines",
+      "x": 560,
+      "y": 860,
+      "w": 400,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 30,
+      "h": 260
+     },
+     {
+      "name": "box-monster",
+      "x": 230,
+      "h": 200
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "A system bills",
+     "*every peak charge*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Record",
+       "p": "daily work"
+      },
+      {
+       "h": "Match",
+       "p": "your rates",
+       "hi": true
+      },
+      {
+       "h": "Flag",
+       "p": "the gaps"
+      }
+     ],
+     "foot": "your team approves every line",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "nothing left\non the floor",
+      "x": 340,
+      "y": 745,
+      "w": 400
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-stand",
+      "x": 80,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 330,
+      "h": 200
+     },
+     {
+      "name": "worker",
+      "x": 570,
+      "h": 210
+     },
+     {
+      "name": "korede-stand",
+      "x": 820,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Find what you're",
+     "*not billing*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "FREE QUOTE",
+     "y": 300,
+     "line": "top AI wins, link in bio",
+     "pill": false
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 450,
+      "h": 240
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }

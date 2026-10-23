@@ -1,84 +1,64 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Content Systems.ai",
-    "platform": "linkedin",
-    "slides": [
-      {
-        "world": "day",
-        "headline": [
-          "2 AI employees",
-          "*in 120 minutes*"
-        ],
-        "size": "s",
-        "underline": false,
-        "cta": {
-          "keyword": "WORKSHOP",
-          "y": 300,
-          "line": "next date in our bio",
-          "pill": true
-        },
-        "bursts": [
-          {
-            "text": "LIVE",
-            "x": 700,
-            "y": 770,
-            "w": 210,
-            "size": 54,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "REPLAY\nINCLUDED",
-            "x": 170,
-            "y": 770,
-            "w": 210,
-            "size": 40,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 15,
-            "h": 250
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 870,
-            "h": 250,
-            "flip": true
-          }
-        ],
-        "collage": [
-          {
-            "src": "shots/duet.png",
-            "x": 215,
-            "y": 820,
-            "w": 245,
-            "h": 220,
-            "rot": -8
-          },
-          {
-            "src": "shots/retaildive-walmart.png",
-            "x": 420,
-            "y": 800,
-            "w": 245,
-            "h": 220,
-            "rot": 3,
-            "pos": "center -4px"
-          },
-          {
-            "src": "shots/msft.png",
-            "x": 625,
-            "y": 825,
-            "w": 245,
-            "h": 220,
-            "rot": -4
-          }
-        ]
-      }
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "day",
+    "headline": [
+     "2 AI employees",
+     "*in 120 minutes*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 300,
+     "line": "next date in our bio",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 15,
+      "h": 250
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 870,
+      "h": 250,
+      "flip": true
+     }
+    ],
+    "collage": [
+     {
+      "src": "shots/duet.png",
+      "x": 215,
+      "y": 820,
+      "w": 245,
+      "h": 220,
+      "rot": -8
+     },
+     {
+      "src": "shots/retaildive-walmart.png",
+      "x": 420,
+      "y": 800,
+      "w": 245,
+      "h": 220,
+      "rot": 3,
+      "pos": "center -4px"
+     },
+     {
+      "src": "shots/msft.png",
+      "x": 625,
+      "y": 825,
+      "w": 245,
+      "h": 220,
+      "rot": -4
+     }
     ]
-  }
+   }
+  ]
+ }
 }

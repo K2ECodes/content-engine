@@ -1,363 +1,316 @@
 {
-  "template": "pixel",
-  "data": {
-    "handle": "Content Systems.ai",
-    "platform": "linkedin",
-    "slides": [
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "4 things AI shoppers",
+     "read from *your 3PL*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "(your brand can't fix them alone)",
+     "y": 520
+    },
+    "tree": {
+     "one": {
+      "sprite": "worker"
+     },
+     "oneSize": 240,
+     "gap": 70,
+     "many": [
       {
-        "world": "day",
-        "headline": [
-          "4 things your",
-          "*warehouse* decides"
-        ],
-        "underline": false,
-        "collage": [
-          {
-            "src": "shots/walmart.png",
-            "x": 40,
-            "y": 330,
-            "w": 330,
-            "h": 360,
-            "rot": -7
-          },
-          {
-            "src": "shots/muse.png",
-            "x": 375,
-            "y": 305,
-            "w": 330,
-            "h": 360,
-            "rot": 4
-          },
-          {
-            "src": "shots/feedvisor.png",
-            "x": 710,
-            "y": 335,
-            "w": 330,
-            "h": 360,
-            "rot": -3,
-            "pos": "center -45px"
-          }
-        ],
-        "bursts": [
-          {
-            "text": "AI\nSHOPPERS",
-            "x": 840,
-            "y": 255,
-            "w": 210,
-            "size": 44,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "10M+\nUSERS",
-            "x": 430,
-            "y": 820,
-            "w": 210,
-            "size": 50,
-            "color": "#FF4FD8",
-            "rot": -10
-          },
-          {
-            "text": "FACTS,\nNOT PHOTOS",
-            "x": 15,
-            "y": 590,
-            "w": 230,
-            "size": 36,
-            "color": "#9CCAA0",
-            "rot": -12
-          }
-        ],
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 40,
-            "h": 270
-          },
-          {
-            "name": "shopper",
-            "x": 680,
-            "h": 250
-          },
-          {
-            "name": "robot",
-            "x": 880,
-            "h": 230
-          }
-        ],
-        "size": "s"
+       "q": true
       },
       {
-        "world": "neon",
-        "headline": [
-          "1. Stock count",
-          "*right now*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Page",
-              "p": "says in stock"
-            },
-            {
-              "h": "Shelf",
-              "p": "says 0",
-              "hi": true
-            }
-          ],
-          "foot": "skipped, or cancelled after the order"
-        },
-        "notes": [
-          {
-            "text": "not as of\nlast night",
-            "x": 100,
-            "y": 870,
-            "w": 400,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "box-monster",
-            "x": 580,
-            "h": 200
-          },
-          {
-            "name": "worker",
-            "x": 820,
-            "h": 270,
-            "flip": true
-          }
-        ]
+       "q": true
       },
       {
-        "world": "sunset",
-        "headline": [
-          "2. A clear",
-          "*delivery date*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Vague",
-              "p": "ships in 3 to 7 days"
-            },
-            {
-              "h": "Clear",
-              "p": "arrives Thursday",
-              "hi": true
-            }
-          ],
-          "foot": "vague dates lose to sure ones"
-        },
-        "notes": [
-          {
-            "text": "sure beats\nsoon",
-            "x": 580,
-            "y": 860,
-            "w": 380,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 30,
-            "h": 250
-          },
-          {
-            "name": "sanjana-point",
-            "x": 300,
-            "h": 260
-          }
-        ]
+       "q": true
       },
       {
-        "world": "night",
-        "headline": [
-          "3. Return",
-          "*rules*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "quote",
-          "text": "[1 in 3] shoppers say shipping and return rules often change what they buy.",
-          "who": "Feedvisor and PartnerCentric survey, Oct 2026",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "who pays, how long,\nwhere it goes",
-            "x": 90,
-            "y": 870,
-            "w": 480
-          }
-        ],
-        "sprites": [
-          {
-            "name": "ghost",
-            "x": 620,
-            "h": 230
-          },
-          {
-            "name": "korede-point",
-            "x": 830,
-            "h": 270,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "world": "day",
-        "headline": [
-          "4. The full",
-          "*shipping cost*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "checks",
-          "items": [
-            "The *full total* at checkout",
-            "No surprise *at the end*",
-            "Total, *not the tag*"
-          ]
-        },
-        "notes": [
-          {
-            "text": "it compares\ntotals",
-            "x": 560,
-            "y": 860,
-            "w": 380,
-            "accent": true
-          }
-        ],
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 30,
-            "h": 270
-          },
-          {
-            "name": "shopper",
-            "x": 200,
-            "h": 250
-          }
-        ]
-      },
-      {
-        "world": "sunset",
-        "headline": [
-          "Brand and 3PL",
-          "*own it together*"
-        ],
-        "size": "s",
-        "card": {
-          "y": 430,
-          "kind": "flow",
-          "steps": [
-            {
-              "h": "Brand",
-              "p": "return rules"
-            },
-            {
-              "h": "3PL",
-              "p": "stock + dates",
-              "hi": true
-            }
-          ],
-          "foot": "it's mostly a warehouse job",
-          "accent": true
-        },
-        "notes": [
-          {
-            "text": "1 check,\nboth sides",
-            "x": 340,
-            "y": 720,
-            "w": 400,
-            "accent": false
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-stand",
-            "x": 80,
-            "h": 270
-          },
-          {
-            "name": "robot",
-            "x": 330,
-            "h": 200
-          },
-          {
-            "name": "worker",
-            "x": 570,
-            "h": 210
-          },
-          {
-            "name": "sanjana-stand",
-            "x": 820,
-            "h": 270
-          }
-        ]
-      },
-      {
-        "world": "night",
-        "headline": [
-          "Want the free",
-          "*agent-ready check?*"
-        ],
-        "size": "xs",
-        "underline": false,
-        "cta": {
-          "keyword": "SYSTEMS",
-          "y": 300,
-          "line": "comment it, we'll send it"
-        },
-        "bursts": [
-          {
-            "text": "FREE",
-            "x": 865,
-            "y": 505,
-            "w": 180,
-            "size": 46,
-            "color": "#FFE066",
-            "rot": 12
-          },
-          {
-            "text": "1 PAGE\nBRAND + 3PL",
-            "x": 268,
-            "y": 850,
-            "w": 175,
-            "size": 34,
-            "color": "#9CCAA0",
-            "rot": -10
-          }
-        ],
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 90,
-            "h": 270
-          },
-          {
-            "name": "worker",
-            "x": 440,
-            "h": 250
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 760,
-            "h": 270
-          }
-        ]
+       "q": true
       }
+     ],
+     "manySize": 140,
+     "spread": 50,
+     "y": 610
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 720.0,
+      "y": 620.0,
+      "w": 220,
+      "accent": true,
+      "arrow": {
+       "x1": 810.0,
+       "y1": 700.0,
+       "x2": 678.0,
+       "y2": 740.0,
+       "bend": -30
+      }
+     }
     ]
-  }
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "1. Stock count",
+     "*right now*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Page",
+       "p": "says in stock"
+      },
+      {
+       "h": "Shelf",
+       "p": "says 0",
+       "hi": true
+      }
+     ],
+     "foot": "skipped, or cancelled after the order"
+    },
+    "notes": [
+     {
+      "text": "not as of\nlast night",
+      "x": 100,
+      "y": 870,
+      "w": 400,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 580,
+      "h": 200
+     },
+     {
+      "name": "worker",
+      "x": 820,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. A clear",
+     "*delivery date*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Vague",
+       "p": "ships in 3 to 7 days"
+      },
+      {
+       "h": "Clear",
+       "p": "arrives Thursday",
+       "hi": true
+      }
+     ],
+     "foot": "vague dates lose to sure ones"
+    },
+    "notes": [
+     {
+      "text": "sure beats\nsoon",
+      "x": 580,
+      "y": 860,
+      "w": 380,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "sanjana-point",
+      "x": 300,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Return",
+     "*rules*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "[1 in 3] shoppers say shipping and return rules often change what they buy.",
+     "who": "Feedvisor and PartnerCentric survey, Oct 2026",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "who pays, how long,\nwhere it goes",
+      "x": 90,
+      "y": 870,
+      "w": 480
+     }
+    ],
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 620,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 830,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "4. The full",
+     "*shipping cost*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "The *full total* at checkout",
+      "No surprise *at the end*",
+      "Total, *not the tag*"
+     ]
+    },
+    "notes": [
+     {
+      "text": "it compares\ntotals",
+      "x": 560,
+      "y": 860,
+      "w": 380,
+      "accent": true
+     }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 30,
+      "h": 270
+     },
+     {
+      "name": "shopper",
+      "x": 200,
+      "h": 250
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Brand and 3PL",
+     "*own it together*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Brand",
+       "p": "return rules"
+      },
+      {
+       "h": "3PL",
+       "p": "stock + dates",
+       "hi": true
+      }
+     ],
+     "foot": "it's mostly a warehouse job",
+     "accent": true
+    },
+    "notes": [
+     {
+      "text": "1 check,\nboth sides",
+      "x": 340,
+      "y": 720,
+      "w": 400,
+      "accent": false
+     }
+    ],
+    "sprites": [
+     {
+      "name": "korede-stand",
+      "x": 80,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 330,
+      "h": 200
+     },
+     {
+      "name": "worker",
+      "x": 570,
+      "h": 210
+     },
+     {
+      "name": "sanjana-stand",
+      "x": 820,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Want the free",
+     "*agent-ready check?*"
+    ],
+    "size": "xs",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll send it"
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "worker",
+      "x": 440,
+      "h": 250
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
 }
