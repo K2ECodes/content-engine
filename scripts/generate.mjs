@@ -32,19 +32,25 @@ async function audio(dir, { local = false } = {}) {
   const data = spec.data;
   const outDir = path.join(dir, 'audio');
   fs.mkdirSync(outDir, { recursive: true });
+  const prevPath = path.join(outDir, 'manifest.json');
+  const prev = fs.existsSync(prevPath) ? JSON.parse(fs.readFileSync(prevPath, 'utf8')) : { scenes: [] };
   const manifest = { voice: data.voice || null, scenes: [], music: null };
 
   for (const [i, s] of data.scenes.entries()) {
     if (!s.vo || !data.voice) continue;
     const name = `vo-${String(i + 1).padStart(2, '0')}`;
     let file;
-    if (local) {
+    const reuse = prev.voice === data.voice && prev.scenes.find((p) => p.index === i && p.text === s.vo && p.say === (s.voSay || s.vo) && fs.existsSync(path.join(dir, p.file)));
+    if (reuse && !local) {
+      file = path.join(dir, reuse.file);
+    } else if (local) {
       file = path.join(outDir, `${name}.aiff`);
       execFileSync('say', ['-v', data.voice === 'female' ? 'Samantha' : 'Daniel', '-o', file, s.voSay || s.vo]);
     } else {
       file = await kie.tts(s.voSay || s.vo, { voice: data.voice, out: path.join(outDir, `${name}.mp3`), label: `${path.basename(dir)} ${name}` });
     }
-    manifest.scenes.push({ index: i, file: path.relative(dir, file), duration: probeDuration(file), text: s.vo });
+    manifest.scenes.push({ index: i, file: path.relative(dir, file), duration: probeDuration(file), text: s.vo, say: s.voSay || s.vo });
+    fs.writeFileSync(prevPath, JSON.stringify({ ...manifest, partial: true }, null, 2) + '\n');
     console.log(`  ${name} ${manifest.scenes.at(-1).duration.toFixed(2)}s`);
   }
 
@@ -52,7 +58,9 @@ async function audio(dir, { local = false } = {}) {
     const voTotal = manifest.scenes.reduce((t, s) => t + s.duration, 0);
     const length = Math.ceil(Math.max(voTotal + data.scenes.length * 0.8, Math.max(...data.scenes.map((s) => s.end))) + 3);
     const file = path.join(outDir, 'music.mp3');
-    if (local) {
+    if (prev.music && fs.existsSync(file) && !local) {
+      // keep the existing bed
+    } else if (local) {
       execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'lavfi', '-i', `anullsrc=r=44100:cl=stereo`, '-t', String(length), file]);
     } else {
       await kie.music({ title: data.music.title || path.basename(dir).slice(0, 80), style: data.music.style, duration: Math.min(360, Math.max(10, length)), out: file, label: `${path.basename(dir)} music` });

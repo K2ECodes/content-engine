@@ -1,0 +1,44 @@
+{
+  "voice": "male",
+  "scenes": [
+    {
+      "index": 0,
+      "file": "audio/vo-01.wav",
+      "duration": 4,
+      "text": "Your warehouse did the work. You never billed it.",
+      "say": "Your warehouse did the work. You never billed it."
+    },
+    {
+      "index": 1,
+      "file": "audio/vo-02.wav",
+      "duration": 8.6,
+      "text": "Storage overages. Accessorials. Kitting. Receiving fixes. Done on the floor, and never invoiced.",
+      "say": "Storage overages. Accessorials. Kitting. Receiving fixes. Done on the floor, and never invoiced."
+    },
+    {
+      "index": 2,
+      "file": "audio/vo-03.wav",
+      "duration": 7.36,
+      "text": "On $250K a month, missing 3 in every 100 dollars is $90K a year.",
+      "say": "On two hundred fifty thousand dollars a month, missing 3 in every 100 is ninety thousand a year."
+    },
+    {
+      "index": 3,
+      "file": "audio/vo-04.wav",
+      "duration": 7.12,
+      "text": "A system checks every event against the contract, flags the gap, and you approve every line.",
+      "say": "A system checks every event against the contract, flags the gap, and you approve every line."
+    },
+    {
+      "index": 4,
+      "file": "audio/vo-05.wav",
+      "duration": 4.76,
+      "text": "What's your number? Run the free calculator. Link in bio.",
+      "say": "What's your number? Run the free calculator. Link in bio."
+    }
+  ],
+  "music": {
+    "file": "audio/music.mp3",
+    "volume": 0.16
+  }
+}

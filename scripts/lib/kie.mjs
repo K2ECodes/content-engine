@@ -88,27 +88,60 @@ export async function download(url, out) {
   return out;
 }
 
-// Voices. kie's docs don't state gender; these were picked by name/descriptor and auditioned.
+// Voices. kie's docs don't state gender; picked by name/descriptor and auditioned (assets/voices/).
+// ElevenLabs is preferred; Gemini TTS is the fallback (ElevenLabs on kie returned 500s on 2026-10-23).
 export const VOICES = {
-  male: 'nPczCjzI2devNBz1zQrb',   // Brian: deep, resonant, comforting
-  female: '56AoDkrOh6qfVPDXZ7Pt', // Cassidy: crisp, direct, clear
+  male: { eleven: 'nPczCjzI2devNBz1zQrb', gemini: 'Charon' },   // Brian / Charon
+  female: { eleven: '56AoDkrOh6qfVPDXZ7Pt', gemini: 'Kore' },   // Cassidy / Kore
 };
-export const resolveVoice = (v) => VOICES[v] || v || VOICES.male;
 
-export async function tts(text, { voice = 'male', out, label, speed = 1, stability = 0.5, style = 0 }) {
+async function ttsEleven(text, voice, { label, speed, stability, style }) {
+  const id = VOICES[voice]?.eleven || voice;
   const d = await runTask('elevenlabs/text-to-speech-multilingual-v2',
-    { text, voice: resolveVoice(voice), stability, similarity_boost: 0.75, style, speed },
+    { text, voice: id, stability, similarity_boost: 0.75, style, speed },
     { label, estimateUsd: (text.length / 1000) * 12 * USD_PER_CREDIT });
-  const url = d.result.resultUrls?.[0];
+  return d.result.resultUrls?.[0];
+}
+
+async function ttsGemini(text, voice, { label, geminiStyle = 'Newscaster' }) {
+  const name = VOICES[voice]?.gemini || voice;
+  const d = await runTask('google/gemini-3-1-flash-tts', {
+    speakers: [{ speaker_id: 'Speaker 1', voice_name: name, accent: 'American (Gen)', style: geminiStyle, pace: 'Natural' }],
+    dialogue_turns: [{ speaker_id: 'Speaker 1', text }],
+  }, { label, estimateUsd: 0.05 });
+  return d.result.resultUrls?.[0];
+}
+
+const TRANSIENT = /\b(500|501|524|429)\b|timeout/i;
+async function withRetry(fn, tries = 3) {
+  for (let i = 1; ; i++) {
+    try { return await fn(); } catch (e) {
+      if (i >= tries || !TRANSIENT.test(e.message)) throw e;
+      console.warn(`  retry ${i}/${tries - 1}: ${e.message}`);
+      await sleep(4000 * i);
+    }
+  }
+}
+
+// provider: 'auto' (ElevenLabs, then Gemini; skips ElevenLabs for the rest of the run once it fails) | 'eleven' | 'gemini'
+let elevenDown = false;
+export async function tts(text, { voice = 'male', out, label, provider = process.env.KIE_TTS_PROVIDER || 'auto', speed = 1, stability = 0.5, style = 0, geminiStyle }) {
+  let url;
+  if (provider === 'eleven' || (provider === 'auto' && !elevenDown)) {
+    try { url = await ttsEleven(text, voice, { label, speed, stability, style }); }
+    catch (e) { if (provider === 'eleven') throw e; elevenDown = true; console.warn(`  ElevenLabs failed (${e.message}), using Gemini`); }
+  }
+  if (!url) url = await withRetry(() => ttsGemini(text, voice, { label, geminiStyle }));
   if (!url) throw new Error('tts: no audio URL in result');
-  return download(url, out);
+  const ext = path.extname(new URL(url).pathname) || '.mp3';
+  return download(url, out.replace(/\.[a-z0-9]+$/i, '') + ext);
 }
 
 // Suno instrumental. Returns paths of the variations (usually 2).
 export async function music({ title, style, negative = 'vocals, singing, voice', duration = 60, out, label }) {
-  const d = await runTask('ai-music-api/generate',
+  const d = await withRetry(() => runTask('ai-music-api/generate',
     { custom_mode: true, instrumental: true, model: 'V6', title, style, negative_tags: negative, duration },
-    { label, estimateUsd: 12 * USD_PER_CREDIT });
+    { label, estimateUsd: 12 * USD_PER_CREDIT }));
   const tracks = d.response?.data || d.result?.data || [];
   const urls = tracks.map((t) => t.audio_url).filter(Boolean);
   if (!urls.length) throw new Error('music: no audio_url in result');

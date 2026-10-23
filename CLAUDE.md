@@ -76,6 +76,9 @@ Every post lives in `content/<YYYY-Www>/<post-id>/`:
 - Videos: branded motion graphics, burned-in captions, voiceover optional later.
 - AI images, footage and B-roll: kie.ai. Key is `KIE_API_KEY` in `.env`. Never print, log or commit it. Read kie.ai's current docs before changing the client; don't guess endpoints, models or parameters. Every generation appends a cost line to `logs/kie-costs.jsonl`.
 
+### When to use Hypit
+Korede's call (2026-10-23): use Hypit when a video needs more than our template. The default path stays `templates/video` (HTML/GSAP, Playwright, FFmpeg) for branded explainers, kinetic text, diagrams and voiceover with music. Reach for Hypit (`hypit` skill) for directed generated material: AI-cast people or presenters, scene-by-scene generated footage, cloning a reference video's edit to new words, word-synced captions on a performance, or multi-shot pieces where picture follows the spoken script. Before first use: Hypit 0.3.1 needs Node 22.15 or newer (this Mac has 22.14), so install a newer Node into ~/.local/opt plus `@hypit/hypit`. Agree its generation account and budget with Korede before any paid Hypit build.
+
 ## Publishing (Schedchie MCP, https://mcp.schedchie.com/mcp)
 - First list tools and connected accounts, confirm with Korede which is `li-personal`, `li-company`, `ig-company`. If any of the 3 is flagged for reconnection, stop and tell him.
 - Approval gate is non-negotiable: every post is created as a held post awaiting approval. Never publish directly, never auto-approve, never use comment, mention or reply tools.
