@@ -32,3 +32,10 @@ Read research/ig-inspiration-2026-10-24.md first. Make BOTH types across a week,
 ## Pipeline
 1. Script (30 to 45 s). 2. Voice: `freeSpeech` (scripts/lib/heygen.mjs), say version with numbers spelled out. 3. `node scripts/tighten.mjs audio/vo-src.wav --out audio/vo.wav --beatBefore "Hour,Day,Week,Month,Year,Comment"`. 4. Transcribe, fix words to numerals. 5. render.json. Anchors are case-insensitive: use `Word#2` when the word appears earlier ("every level", "most people"). 6. Check stills: `STORY_SNAP=1.5,8,20 node scripts/render.mjs <post>` (no video). 7. Lint, then queue the full render.
 Examples: content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over (gamified), ig-personal-tue-1230-what-if-internet-down-30-days and ig-company-wed-1900-what-if-ships-stopped (realistic), ig-personal-sat-1100-what-if-10-nigerian (carousel).
+
+## 3D hook (world3d, 2026-10-24)
+Korede: no face on these videos (no AI lip-sync), and the first 2 s must not read as AI. Open on the low-poly 3D layer (templates/story/world3d.js, Three.js r128 vendored in templates/_base/vendor, seek-driven and deterministic):
+- `data.world3d`: shared look. `kind: "globe"` (low-poly Earth: `pins` [{lat, lon, label, color, size, flag: "ng", delay}], `arcs` [[lat, lon, lat, lon, color]], `ships` + `seaRoutes`, `highlight` {box [lat0, lat1, lon0, lon1], color}, `palette`) or `kind: "city"` (low-poly city: windows, cars, traffic lights; `seed`, `palette`).
+- `scene.w3d` on any scene (usually a `hud` scene for the stage text): the 3D layer shows behind it. Globe: `focus` {lat, lon}, `zoom` [from, to] camera distance (7 to 11 shows the whole Earth), `spin`, `lookY` (0.9 default keeps the globe under the captions), `showPins`, `showArcs`, `drawn`, `arcsOff` (0 to 1: lines go dead grey), `shipsMove` false (anchored), `labels`. City: `orbit`, `height`, `zoom` [from, to], `lightsOff` [from, to], `traffic`, `lightsWork`.
+- Consecutive w3d scenes glide into each other; the layer fades over the next photo scene.
+- Check with `STORY_SNAP=0.5,2,4 node scripts/render.mjs <post>`.

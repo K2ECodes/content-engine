@@ -3,9 +3,6 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "face": {
-   "src": "plate.mp4"
-  },
   "sfxGain": 1.6,
   "tail": 1.8,
   "keys": [
@@ -15,60 +12,32 @@
    "A",
    "B"
   ],
-  "coldOpen": {
-   "until": "Day",
-   "set": "office",
-   "font": "ig",
-   "titles": [
-    {
-     "text": [
-      "You wake up as",
-      "*the CEO of Anthropic*"
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "CEO, day 0",
+    "place": "San Francisco, 6:00 AM",
+    "stat": {
+     "label": "Unread messages",
+     "value": "400",
+     "count": 400
+    },
+    "w3d": {
+     "orbit": [
+      200,
+      250
+     ],
+     "height": [
+      12,
+      4
+     ],
+     "zoom": [
+      18,
+      8
      ]
     }
-   ],
-   "accent": [
-    "Anthropic."
-   ],
-   "actors": [
-    {
-     "sprite": "korede-shrug",
-     "x": 300,
-     "scale": 2.0
-    },
-    {
-     "brand": "anthropic",
-     "props": [
-      "phone"
-     ],
-     "x": 720
-    }
-   ],
-   "beats": [
-    {
-     "at": "wake",
-     "actor": 0,
-     "do": "jump",
-     "say": "Wait, what?"
-    },
-    {
-     "at": "CEO",
-     "actor": 1,
-     "do": "wave"
-    },
-    {
-     "at": "400",
-     "actor": 1,
-     "do": "buzz"
-    },
-    {
-     "at": "messages.",
-     "actor": 0,
-     "do": "panic"
-    }
-   ]
-  },
-  "scenes": [
+   },
    {
     "at": "Day",
     "world": "dark",
@@ -96,18 +65,16 @@
     "text": "A or B?"
    }
   ],
-  "faceCuts": [
-   {
-    "layout": "none"
-   },
-   {
-    "at": "Day",
-    "layout": "none"
-   },
-   {
-    "at": "most",
-    "layout": "split"
+  "world3d": {
+   "kind": "city",
+   "seed": 5,
+   "palette": {
+    "sky": [
+     "#2a2f55",
+     "#f4a259"
+    ],
+    "win": "#ffe2a8"
    }
-  ]
+  }
  }
 }

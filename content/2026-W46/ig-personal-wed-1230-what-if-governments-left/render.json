@@ -3,9 +3,6 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "face": {
-   "src": "plate.mp4"
-  },
   "sfxGain": 1.6,
   "tail": 1.6,
   "keys": [
@@ -14,52 +11,6 @@
    "systems",
    "approval"
   ],
-  "coldOpen": {
-   "until": "never",
-   "set": "office",
-   "font": "editorial",
-   "titles": [
-    {
-     "text": [
-      "What if every government",
-      "*left tomorrow?*"
-     ]
-    }
-   ],
-   "accent": [
-    "tomorrow"
-   ],
-   "actors": [
-    {
-     "thing": "sign",
-     "text": "GONE",
-     "x": 300
-    },
-    {
-     "thing": "crowd",
-     "n": 4,
-     "x": 660
-    }
-   ],
-   "beats": [
-    {
-     "at": "every",
-     "actor": 0,
-     "do": "drop"
-    },
-    {
-     "at": "left",
-     "actor": 1,
-     "do": "panic"
-    },
-    {
-     "at": "never",
-     "actor": 1,
-     "do": "shake",
-     "say": "Now what?"
-    }
-   ]
-  },
   "rail": {
    "meter": "Order restored",
    "accent": "#0B6E4F"
@@ -67,8 +18,23 @@
   "scenes": [
    {
     "world": "dark",
-    "type": "word",
-    "text": "The timeline"
+    "type": "hud",
+    "stage": "No government",
+    "place": "Every city on Earth, tomorrow",
+    "w3d": {
+     "orbit": [
+      20,
+      70
+     ],
+     "height": [
+      10,
+      5
+     ],
+     "zoom": [
+      17,
+      11
+     ]
+    }
    },
    {
     "at": "Day",
@@ -88,7 +54,21 @@
     "title": "The lights *still work*",
     "sub": "Somebody's code is running them.",
     "meter": 15,
-    "emoji": "🚦"
+    "emoji": "🚦",
+    "w3d": {
+     "orbit": [
+      110,
+      140
+     ],
+     "height": [
+      2.2,
+      1.6
+     ],
+     "zoom": [
+      5.5,
+      4.2
+     ]
+    }
    },
    {
     "at": "Day#3",
@@ -147,22 +127,14 @@
     "dm": "5 starter skills sent"
    }
   ],
-  "faceCuts": [
-   {
-    "layout": "none"
-   },
-   {
-    "at": "never",
-    "layout": "split"
-   },
-   {
-    "at": "Day",
-    "layout": "none"
-   },
-   {
-    "at": "beat",
-    "layout": "split"
+  "world3d": {
+   "kind": "city",
+   "palette": {
+    "sky": [
+     "#141a33",
+     "#e38b5b"
+    ]
    }
-  ]
+  }
  }
 }

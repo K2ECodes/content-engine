@@ -3,9 +3,6 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "face": {
-   "src": "plate.mp4"
-  },
   "sfxGain": 1.6,
   "tail": 1.6,
   "keys": [
@@ -13,58 +10,31 @@
    "skills",
    "yes"
   ],
-  "coldOpen": {
-   "until": "Level#2",
-   "set": "stage",
-   "font": "ig",
-   "titles": [
-    {
-     "text": [
-      "Every level of AI,",
-      "*where you get stuck.*"
-     ]
-    }
-   ],
-   "accent": [
-    "stuck."
-   ],
-   "actors": [
-    {
-     "sprite": "korede-point",
-     "x": 260,
-     "scale": 2.0
-    },
-    {
-     "thing": "bot",
-     "color": "#E8B84B",
-     "x": 700
-    }
-   ],
-   "beats": [
-    {
-     "at": "Every",
-     "actor": 1,
-     "do": "drop"
-    },
-    {
-     "at": "people",
-     "actor": 0,
-     "do": "point",
-     "dir": "right"
-    },
-    {
-     "at": "stuck.",
-     "actor": 1,
-     "do": "sad",
-     "say": "Level 2 again"
-    }
-   ]
-  },
   "rail": {
    "meter": "Your AI level",
    "accent": "#E8A80C"
   },
   "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "5 levels",
+    "place": "Most people stop at level 2",
+    "w3d": {
+     "orbit": [
+      0,
+      60
+     ],
+     "height": [
+      0.8,
+      9
+     ],
+     "zoom": [
+      9,
+      13
+     ]
+    }
+   },
    {
     "at": "Level#2",
     "world": "dark",
@@ -132,14 +102,16 @@
     "dm": "5 starter skills sent"
    }
   ],
-  "faceCuts": [
-   {
-    "layout": "none"
-   },
-   {
-    "at": "Most#2",
-    "layout": "split"
+  "world3d": {
+   "kind": "city",
+   "seed": 21,
+   "palette": {
+    "sky": [
+     "#0b0f24",
+     "#3b2a6b"
+    ],
+    "win": "#ffcf66"
    }
-  ]
+  }
  }
 }

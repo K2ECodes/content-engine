@@ -7,9 +7,6 @@
   "capStyle": "doc",
   "tail": 1.4,
   "introSfx": false,
-  "face": {
-   "src": "plate.mp4"
-  },
   "sfxGain": 1.4,
   "keys": [
    "$4,000",
@@ -122,19 +119,6 @@
     "at": "Comment",
     "stage": "A or B?",
     "place": "Part 2 next"
-   }
-  ],
-  "faceCuts": [
-   {
-    "layout": "split"
-   },
-   {
-    "at": "It's",
-    "layout": "none"
-   },
-   {
-    "at": "Comment",
-    "layout": "split"
    }
   ]
  }

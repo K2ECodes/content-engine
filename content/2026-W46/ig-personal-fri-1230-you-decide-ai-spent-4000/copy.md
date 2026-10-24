@@ -13,3 +13,4 @@ Realistic you-decide video narrated by Korede over photoreal stills. A phone sho
 ## Notes
 Realistic format (top of funnel, no offer funnel): photoreal kie.ai nano-banana-2 stills with slow push-in, documentary HUD (stage, place, sourced stat, result tag), italic serif subtitles, calm narration. Modelled on simulif.world, binhle.co and stickitoutstories (research/ig-inspiration-2026-10-24.md).
 Sources: 12 CFR 1005.6 (Regulation E) liability tiers via CFPB eRegulations (consumerfinance.gov/eregulations/1005-6). Part 2 twist (true): if you gave the AI agent your card, the bank may treat its purchases as authorized under Reg E, so the real fix is approval limits before any agent can pay. Not financial advice; US rules only. Face windows 0-4.0 and 27.4-31.0.
+Rework 2026-10-24 (Korede): no face on camera (the AI lip-sync split shots at the start and end are removed).
