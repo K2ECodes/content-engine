@@ -28,7 +28,7 @@
       "size": 96
      }
     ],
-    "blocksY": 300,
+    "blocksY": 80,
     "pay": {
      "text": "*This skill* fixes it. Swipe.",
      "y": 1030,
@@ -251,7 +251,7 @@
       "size": 76
      }
     ],
-    "blocksY": 300,
+    "blocksY": 80,
     "pay": {
      "text": "+ the template sheet. *Free.*",
      "y": 1030,

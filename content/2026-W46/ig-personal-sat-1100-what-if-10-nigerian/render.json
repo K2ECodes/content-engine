@@ -1,182 +1,275 @@
 {
- "template": "pixel",
+ "template": "photo",
  "data": {
   "handle": "@koredekola",
   "platform": "instagram",
+  "theme": "ng",
   "slides": [
    {
-    "world": "paper",
-    "accent": "#008751",
-    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
-    "headline": [
-     "What if everyone became",
-     "*10 in 100 Nigerian?*"
-    ],
-    "size": "xl",
-    "underline": true,
-    "hand": {
-     "text": "a timeline, from a Nigerian",
-     "y": 440
+    "kind": "cover",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/lagos.png",
+     "pos": "50% 40%",
+     "dim": {
+      "top": 0.6,
+      "bot": 0.8
+     }
     },
-    "tree": {
-     "up": true,
-     "many": [
-      {
-       "q": true,
-       "label": "Day 1"
-      },
-      {
-       "q": true,
-       "label": "Week 1"
-      },
-      {
-       "q": true,
-       "label": "Month 1"
-      },
-      {
-       "q": true,
-       "label": "Year 1"
-      }
-     ],
-     "manySize": 140,
-     "spread": 40,
-     "gap": 64,
-     "one": {
-      "q": true
-     },
-     "oneSize": 230,
-     "y": 640
-    },
-    "sprites": [
+    "flags": [
      {
-      "name": "korede-cheer",
-      "x": 80,
-      "h": 250
+      "x": 70,
+      "y": 70,
+      "w": 190,
+      "rot": -5
+     }
+    ],
+    "blocks": [
+     {
+      "text": "What if everyone on Earth",
+      "style": "white",
+      "size": 76
+     },
+     {
+      "text": "became *10% Nigerian?*",
+      "style": "acc",
+      "size": 92
+     }
+    ],
+    "blocksY": 250,
+    "pay": {
+     "text": "I'm Nigerian. Here's what would *actually* happen.",
+     "y": 1010,
+     "size": 46
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/dna.png",
+     "pos": "50% 40%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Day 1",
+    "title": "Every DNA test\nsays *Nigeria*",
+    "bodyY": 520,
+    "stat": {
+     "value": "8.2B",
+     "label": "people with Nigerian roots overnight. Yesterday it was 237M.",
+     "flag": true
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "UN World Population Prospects 2024 (Nigeria 237M, world 8.2B)"
+     }
+    ],
+    "panel": true
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/chat.png",
+     "pos": "50% 45%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Day 2",
+    "title": "The people who\nhated us *are us now*",
+    "bodyY": 560,
+    "list": [
+     {
+      "n": "1",
+      "text": "Hate forums go *quiet*"
+     },
+     {
+      "n": "2",
+      "text": "Family group chats *don't*"
+     },
+     {
+      "n": "3",
+      "text": "An uncle discovers *Afrobeats*"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Why",
+      "v": "it's hard to hate a people you're part of."
      }
     ]
    },
    {
-    "world": "day",
-    "headline": [
-     "Jollof at",
-     "*every lunch*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Day 1",
-     "emoji": "🍛",
-     "text": "Party rice becomes the default. Nobody asks why.",
-     "color": "#008751"
-    }
-   },
-   {
-    "world": "sunset",
-    "headline": [
-     "You greet",
-     "*the whole room*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Day 3",
-     "emoji": "🙋🏾",
-     "text": "Nobody walks in without a good morning. Elders get greeted first.",
-     "color": "#C2591F"
-    }
-   },
-   {
-    "world": "night",
-    "headline": [
-     "Afrobeats on",
-     "*every playlist*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Week 1",
-     "emoji": "🎧",
-     "text": "Burna Boy, Tems and Rema at the top of every chart. Again.",
-     "color": "#008751"
-    }
-   },
-   {
-    "world": "day",
-    "headline": [
-     "Everyone has",
-     "*a side hustle*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Week 2",
-     "emoji": "💼",
-     "text": "A main job, a small business and a plan for the third.",
-     "color": "#C2591F"
-    }
-   },
-   {
-    "world": "sunset",
-    "headline": [
-     "Payments",
-     "*get fast*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Month 1",
-     "emoji": "💸",
-     "text": "Paystack was built in Lagos and bought by Stripe. Everyone wants that speed now.",
-     "color": "#008751"
-    }
-   },
-   {
-    "world": "paper",
-    "accent": "#008751",
-    "headline": [
-     "No",
-     "*wahala*"
-    ],
-    "underline": false,
-    "card": {
-     "y": 420,
-     "kind": "stage",
-     "when": "Year 1",
-     "emoji": "😌",
-     "text": "The official answer to every problem. Then you go and fix it.",
-     "color": "#C2591F"
-    }
-   },
-   {
-    "world": "neon",
-    "headline": [
-     "Want my",
-     "*5 free AI skills?*"
-    ],
-    "size": "s",
-    "underline": false,
-    "cta": {
-     "keyword": "AI",
-     "y": 300,
-     "line": "No wahala, I'll DM you"
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/parent.png",
+     "pos": "50% 35%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
     },
-    "sprites": [
+    "label": "Day 3",
+    "title": "Every parent asks why\nyou're not *a doctor*",
+    "bodyY": 580,
+    "list": [
      {
-      "name": "korede-cheer",
-      "x": 120,
-      "h": 270
+      "n": "1",
+      "text": "Report cards get *read twice*"
      },
      {
-      "name": "robot",
-      "x": 720,
-      "h": 240
+      "n": "2",
+      "text": "Elders get greeted *first*"
+     },
+     {
+      "n": "3",
+      "text": "\"We have food at home\" goes *global*"
+     }
+    ],
+    "ann": [
+     {
+      "k": "The fun part",
+      "v": "Nigerian parenting is now everyone's parenting."
      }
     ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/embassy.png",
+     "pos": "50% 45%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Week 1",
+    "title": "Everyone wants\n*the passport*",
+    "bodyY": 560,
+    "stat": {
+     "value": "No.",
+     "label": "Citizenship abroad needs a Nigerian parent. 10% doesn't count."
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "1999 Constitution of Nigeria, Section 25(1)(c)"
+     }
+    ],
+    "panel": true
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/jollof.png",
+     "pos": "50% 50%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Week 2",
+    "title": "Jollof wars\ngo *global*",
+    "bodyY": 560,
+    "list": [
+     {
+      "n": "1",
+      "text": "London, Paris, Tokyo hold *cook-offs*"
+     },
+     {
+      "n": "2",
+      "text": "Ghana still says theirs is *better*"
+     },
+     {
+      "n": "3",
+      "text": "Texas adds jollof to *BBQ*"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Verdict",
+      "v": "Nigeria's wins. Obviously."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/concert.png",
+     "pos": "50% 55%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Month 1",
+    "title": "Afrobeats is just\n*music* now",
+    "bodyY": 560,
+    "stat": {
+     "value": "1B+",
+     "label": "times listeners found a Nigerian artist on Spotify in 2024. Before any of this."
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "Spotify Loud & Clear Nigeria 2024"
+     }
+    ],
+    "panel": true
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/money.png",
+     "pos": "50% 45%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "Year 1",
+    "title": "Money flows\n*to Lagos*",
+    "bodyY": 560,
+    "stat": {
+     "value": "$21B",
+     "label": "sent home by the Nigerian diaspora in 2024. Now everyone has an auntie in Lagos."
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "World Bank / Central Bank of Nigeria, 2024 remittances"
+     }
+    ],
+    "panel": true
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian/bg/reunion.png",
+     "pos": "50% 50%",
+     "dim": {
+      "top": 0.78,
+      "bot": 0.9
+     }
+    },
+    "label": "10 years later",
+    "title": "Racism doesn't survive\n*the family reunion*",
+    "flags": [
+     {
+      "x": 850,
+      "y": 110,
+      "w": 150,
+      "rot": 6
+     }
+    ],
+    "pay": {
+     "text": "What's the first thing *you'd* do as a 10% Nigerian? Tell me. Follow for part 2.",
+     "y": 960,
+     "size": 44
+    }
    }
   ]
  }

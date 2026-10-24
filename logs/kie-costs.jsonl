@@ -330,3 +330,18 @@
 {"ts":"2026-10-24T06:16:22.148Z","model":"volcengine/video-to-video-lip-sync","taskId":"ca966ceb67e5b987f25d21d9415b6156","state":"success","credits":16,"usd":0.08,"label":"ig-personal-sun-1100-every-level-of-ai talk 0"}
 {"ts":"2026-10-24T06:16:34.708Z","model":"volcengine/video-to-video-lip-sync","taskId":"051a2e2f1f782dce7f1d88b4af9f9a7f","state":"success","credits":24,"usd":0.12,"label":"ig-personal-fri-1230-you-decide-ai-spent-4000 talk 1"}
 {"ts":"2026-10-24T06:18:20.112Z","model":"volcengine/video-to-video-lip-sync","taskId":"fd278f0c79b2f47a61451d797e49f263","state":"success","credits":48,"usd":0.24,"label":"ig-personal-sun-1100-every-level-of-ai talk 1"}
+{"ts":"2026-10-24T14:33:56.354Z","model":"nano-banana-2","taskId":"b376c9e2b743d8eed4478eac507b5fd1","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian lagos"}
+{"ts":"2026-10-24T14:34:20.504Z","model":"nano-banana-2","taskId":"b63b11a47b8ac282b055242931a27b31","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian dna"}
+{"ts":"2026-10-24T14:35:29.482Z","model":"nano-banana-2","taskId":"5e456e92cde262c0d6ee9758c8a3954c","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian chat"}
+{"ts":"2026-10-24T14:36:06.182Z","model":"nano-banana-2","taskId":"339e66c44c7485e62614bdb073cbb3a2","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian parent"}
+{"ts":"2026-10-24T14:36:42.720Z","model":"nano-banana-2","taskId":"b831b5672176ecd0dab815ba5ef70945","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian embassy"}
+{"ts":"2026-10-24T14:37:19.290Z","model":"nano-banana-2","taskId":"679b8a92ed2b5ded84bf93fb74252d13","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian jollof"}
+{"ts":"2026-10-24T14:38:11.330Z","model":"nano-banana-2","taskId":"a6b9d5b39e6d3d1549db4ec49fcee857","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian concert"}
+{"ts":"2026-10-24T14:38:47.799Z","model":"nano-banana-2","taskId":"cf041ae7f6b9aa6818cb5c36cd6e9019","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian money"}
+{"ts":"2026-10-24T14:39:24.366Z","model":"nano-banana-2","taskId":"c06aae02ad4cbc618c0df1de333b0f68","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian reunion"}
+{"ts":"2026-10-24T14:40:30.285Z","model":"nano-banana-2","taskId":"35dcd7fae532d52474c9c9d35bf4ce68","state":"success","credits":12,"usd":0.06,"label":"what-if-10-nigerian concert"}
+{"ts":"2026-10-24T14:42:18.314Z","model":"topaz/image-upscale","taskId":"6012fec7fbe0c8312847752c8fec2a10","state":"fail","credits":0,"usd":0,"label":"upscale lounge"}
+{"ts":"2026-10-24T14:42:29.054Z","model":"topaz/image-upscale","taskId":"792579c9e2554e505032fc4691d55b42","state":"fail","credits":0,"usd":0,"label":"upscale lounge"}
+{"ts":"2026-10-24T14:43:03.944Z","model":"recraft/crisp-upscale","taskId":"cbca5b39ee60c411bcbbda5eaea06486","state":"success","credits":0.5,"usd":0.0025,"label":"upscale lounge"}
+{"ts":"2026-10-24T14:43:30.611Z","model":"recraft/crisp-upscale","taskId":"11938de19f88a2cd0e3dd273326c5de4","state":"success","credits":0.5,"usd":0.0025,"label":"upscale rooftop"}
+{"ts":"2026-10-24T14:43:46.537Z","model":"recraft/crisp-upscale","taskId":"820f606b2df567c31e23207f50d62e40","state":"success","credits":0.5,"usd":0.0025,"label":"upscale studio"}

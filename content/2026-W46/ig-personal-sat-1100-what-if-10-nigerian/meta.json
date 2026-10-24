@@ -5,10 +5,8 @@
   "pillar": "belief-shift",
   "execution": "proof",
   "topic": "what-if-10-nigerian",
-  "lead": true,
+  "lead": false,
   "cta_type": "comment-keyword",
-  "cta_keyword": "AI",
-  "freebie": "AI Employee Starter Pack",
   "slot": "2026-11-14T11:00",
   "timezone": "America/New_York",
   "status": "draft",
@@ -20,6 +18,7 @@
     "slide-05.png",
     "slide-06.png",
     "slide-07.png",
-    "slide-08.png"
+    "slide-08.png",
+    "slide-09.png"
   ]
 }

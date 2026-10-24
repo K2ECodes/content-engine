@@ -1,0 +1,635 @@
+{
+ "words": [
+  {
+   "w": "Shoppers",
+   "start": 0.0,
+   "end": 0.62
+  },
+  {
+   "w": "trust",
+   "start": 0.62,
+   "end": 0.84
+  },
+  {
+   "w": "a",
+   "start": 0.84,
+   "end": 1.0
+  },
+  {
+   "w": "support",
+   "start": 1.0,
+   "end": 1.22
+  },
+  {
+   "w": "bot",
+   "start": 1.22,
+   "end": 1.52
+  },
+  {
+   "w": "twice",
+   "start": 1.52,
+   "end": 1.92
+  },
+  {
+   "w": "as",
+   "start": 1.92,
+   "end": 2.2
+  },
+  {
+   "w": "much",
+   "start": 2.2,
+   "end": 2.42
+  },
+  {
+   "w": "when",
+   "start": 2.42,
+   "end": 2.56
+  },
+  {
+   "w": "it",
+   "start": 2.56,
+   "end": 2.68
+  },
+  {
+   "w": "can",
+   "start": 2.68,
+   "end": 2.78
+  },
+  {
+   "w": "do",
+   "start": 2.78,
+   "end": 2.92
+  },
+  {
+   "w": "1",
+   "start": 2.92,
+   "end": 3.16
+  },
+  {
+   "w": "thing.",
+   "start": 3.16,
+   "end": 3.42
+  },
+  {
+   "w": "Hand",
+   "start": 3.68,
+   "end": 4.0
+  },
+  {
+   "w": "them",
+   "start": 4.0,
+   "end": 4.12
+  },
+  {
+   "w": "to",
+   "start": 4.12,
+   "end": 4.26
+  },
+  {
+   "w": "a",
+   "start": 4.26,
+   "end": 4.38
+  },
+  {
+   "w": "person.",
+   "start": 4.38,
+   "end": 4.66
+  },
+  {
+   "w": "In",
+   "start": 4.92,
+   "end": 5.0
+  },
+  {
+   "w": "a",
+   "start": 5.0,
+   "end": 5.1
+  },
+  {
+   "w": "survey",
+   "start": 5.1,
+   "end": 5.36
+  },
+  {
+   "w": "of",
+   "start": 5.36,
+   "end": 5.56
+  },
+  {
+   "w": "3,000",
+   "start": 5.56,
+   "end": 6.24
+  },
+  {
+   "w": "shoppers,",
+   "start": 6.24,
+   "end": 6.78
+  },
+  {
+   "w": "55",
+   "start": 7.02,
+   "end": 7.32
+  },
+  {
+   "w": "in",
+   "start": 7.32,
+   "end": 7.74
+  },
+  {
+   "w": "100",
+   "start": 7.74,
+   "end": 7.9
+  },
+  {
+   "w": "trust",
+   "start": 7.9,
+   "end": 8.46
+  },
+  {
+   "w": "AI",
+   "start": 8.46,
+   "end": 8.76
+  },
+  {
+   "w": "when",
+   "start": 8.76,
+   "end": 9.06
+  },
+  {
+   "w": "there's",
+   "start": 9.06,
+   "end": 9.24
+  },
+  {
+   "w": "a",
+   "start": 9.24,
+   "end": 9.32
+  },
+  {
+   "w": "human",
+   "start": 9.32,
+   "end": 9.52
+  },
+  {
+   "w": "option.",
+   "start": 9.52,
+   "end": 9.86
+  },
+  {
+   "w": "Without",
+   "start": 10.06,
+   "end": 10.28
+  },
+  {
+   "w": "one,",
+   "start": 10.28,
+   "end": 10.6
+  },
+  {
+   "w": "just",
+   "start": 10.78,
+   "end": 10.92
+  },
+  {
+   "w": "26.",
+   "start": 10.92,
+   "end": 11.36
+  },
+  {
+   "w": "So",
+   "start": 11.84,
+   "end": 12.0
+  },
+  {
+   "w": "before",
+   "start": 12.0,
+   "end": 12.26
+  },
+  {
+   "w": "Black",
+   "start": 12.26,
+   "end": 12.5
+  },
+  {
+   "w": "Friday,",
+   "start": 12.5,
+   "end": 12.86
+  },
+  {
+   "w": "make",
+   "start": 13.24,
+   "end": 13.48
+  },
+  {
+   "w": "sure",
+   "start": 13.48,
+   "end": 13.72
+  },
+  {
+   "w": "your",
+   "start": 13.72,
+   "end": 13.86
+  },
+  {
+   "w": "bot",
+   "start": 13.86,
+   "end": 14.08
+  },
+  {
+   "w": "hands",
+   "start": 14.08,
+   "end": 14.4
+  },
+  {
+   "w": "off",
+   "start": 14.4,
+   "end": 14.64
+  },
+  {
+   "w": "in",
+   "start": 14.64,
+   "end": 14.86
+  },
+  {
+   "w": "5",
+   "start": 14.86,
+   "end": 15.18
+  },
+  {
+   "w": "moments.",
+   "start": 15.18,
+   "end": 15.62
+  },
+  {
+   "w": "An",
+   "start": 16.02,
+   "end": 16.14
+  },
+  {
+   "w": "angry",
+   "start": 16.14,
+   "end": 16.44
+  },
+  {
+   "w": "customer.",
+   "start": 16.44,
+   "end": 16.88
+  },
+  {
+   "w": "Anyone",
+   "start": 17.36,
+   "end": 17.58
+  },
+  {
+   "w": "trying",
+   "start": 17.58,
+   "end": 17.88
+  },
+  {
+   "w": "to",
+   "start": 17.88,
+   "end": 18.0
+  },
+  {
+   "w": "cancel.",
+   "start": 18.0,
+   "end": 18.32
+  },
+  {
+   "w": "A",
+   "start": 18.7,
+   "end": 18.84
+  },
+  {
+   "w": "refund",
+   "start": 18.84,
+   "end": 19.08
+  },
+  {
+   "w": "over",
+   "start": 19.08,
+   "end": 19.42
+  },
+  {
+   "w": "your",
+   "start": 19.42,
+   "end": 19.6
+  },
+  {
+   "w": "limit.",
+   "start": 19.6,
+   "end": 19.86
+  },
+  {
+   "w": "A",
+   "start": 20.22,
+   "end": 20.34
+  },
+  {
+   "w": "question",
+   "start": 20.34,
+   "end": 20.66
+  },
+  {
+   "w": "it",
+   "start": 20.66,
+   "end": 20.88
+  },
+  {
+   "w": "isn't",
+   "start": 20.88,
+   "end": 21.08
+  },
+  {
+   "w": "sure",
+   "start": 21.08,
+   "end": 21.32
+  },
+  {
+   "w": "about.",
+   "start": 21.32,
+   "end": 21.56
+  },
+  {
+   "w": "And",
+   "start": 21.76,
+   "end": 21.94
+  },
+  {
+   "w": "anyone",
+   "start": 21.94,
+   "end": 22.26
+  },
+  {
+   "w": "who",
+   "start": 22.26,
+   "end": 22.48
+  },
+  {
+   "w": "asks",
+   "start": 22.48,
+   "end": 22.74
+  },
+  {
+   "w": "for",
+   "start": 22.74,
+   "end": 23.02
+  },
+  {
+   "w": "a",
+   "start": 23.02,
+   "end": 23.12
+  },
+  {
+   "w": "human.",
+   "start": 23.12,
+   "end": 23.36
+  },
+  {
+   "w": "That's",
+   "start": 23.6,
+   "end": 23.86
+  },
+  {
+   "w": "how",
+   "start": 23.86,
+   "end": 23.96
+  },
+  {
+   "w": "we",
+   "start": 23.96,
+   "end": 24.06
+  },
+  {
+   "w": "build",
+   "start": 24.06,
+   "end": 24.24
+  },
+  {
+   "w": "support",
+   "start": 24.24,
+   "end": 24.44
+  },
+  {
+   "w": "bots",
+   "start": 24.44,
+   "end": 24.86
+  },
+  {
+   "w": "at",
+   "start": 24.86,
+   "end": 25.08
+  },
+  {
+   "w": "Content",
+   "start": 25.08,
+   "end": 25.82
+  },
+  {
+   "w": "Systems.ai.",
+   "start": 25.82,
+   "end": 26.56
+  },
+  {
+   "w": "An",
+   "start": 26.56,
+   "end": 27.08
+  },
+  {
+   "w": "apparel",
+   "start": 27.08,
+   "end": 27.46
+  },
+  {
+   "w": "brand",
+   "start": 27.46,
+   "end": 27.7
+  },
+  {
+   "w": "we",
+   "start": 27.7,
+   "end": 27.84
+  },
+  {
+   "w": "work",
+   "start": 27.84,
+   "end": 28.02
+  },
+  {
+   "w": "with",
+   "start": 28.02,
+   "end": 28.2
+  },
+  {
+   "w": "in",
+   "start": 28.2,
+   "end": 28.28
+  },
+  {
+   "w": "Berlin",
+   "start": 28.28,
+   "end": 28.54
+  },
+  {
+   "w": "lets",
+   "start": 28.54,
+   "end": 28.88
+  },
+  {
+   "w": "AI",
+   "start": 28.88,
+   "end": 29.2
+  },
+  {
+   "w": "answer",
+   "start": 29.2,
+   "end": 29.58
+  },
+  {
+   "w": "72",
+   "start": 29.58,
+   "end": 30.2
+  },
+  {
+   "w": "in",
+   "start": 30.2,
+   "end": 30.44
+  },
+  {
+   "w": "100",
+   "start": 30.44,
+   "end": 30.76
+  },
+  {
+   "w": "tickets,",
+   "start": 30.76,
+   "end": 31.1
+  },
+  {
+   "w": "and",
+   "start": 31.52,
+   "end": 31.62
+  },
+  {
+   "w": "it",
+   "start": 31.62,
+   "end": 31.74
+  },
+  {
+   "w": "still",
+   "start": 31.74,
+   "end": 32.02
+  },
+  {
+   "w": "saves",
+   "start": 32.02,
+   "end": 32.38
+  },
+  {
+   "w": "1",
+   "start": 32.38,
+   "end": 32.7
+  },
+  {
+   "w": "in",
+   "start": 32.7,
+   "end": 32.8
+  },
+  {
+   "w": "4",
+   "start": 32.8,
+   "end": 33.02
+  },
+  {
+   "w": "customers",
+   "start": 33.02,
+   "end": 33.42
+  },
+  {
+   "w": "who",
+   "start": 33.42,
+   "end": 33.64
+  },
+  {
+   "w": "try",
+   "start": 33.64,
+   "end": 33.82
+  },
+  {
+   "w": "to",
+   "start": 33.82,
+   "end": 33.92
+  },
+  {
+   "w": "cancel.",
+   "start": 33.92,
+   "end": 34.22
+  },
+  {
+   "w": "Want",
+   "start": 34.84,
+   "end": 35.08
+  },
+  {
+   "w": "the",
+   "start": 35.08,
+   "end": 35.22
+  },
+  {
+   "w": "handoff",
+   "start": 35.22,
+   "end": 35.54
+  },
+  {
+   "w": "map?",
+   "start": 35.54,
+   "end": 35.78
+  },
+  {
+   "w": "Comment",
+   "start": 36.2,
+   "end": 36.5
+  },
+  {
+   "w": "SYSTEMS",
+   "start": 36.5,
+   "end": 37.2
+  },
+  {
+   "w": "and",
+   "start": 37.2,
+   "end": 37.3
+  },
+  {
+   "w": "we'll",
+   "start": 37.3,
+   "end": 37.46
+  },
+  {
+   "w": "send",
+   "start": 37.46,
+   "end": 37.64
+  },
+  {
+   "w": "it",
+   "start": 37.64,
+   "end": 37.76
+  },
+  {
+   "w": "to",
+   "start": 37.76,
+   "end": 37.9
+  },
+  {
+   "w": "you",
+   "start": 37.9,
+   "end": 37.98
+  },
+  {
+   "w": "free.",
+   "start": 37.98,
+   "end": 38.2
+  }
+ ],
+ "text": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55% trust AI when there's a human option. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72% of tickets, and it still saves 1 in 4 customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free."
+}

@@ -28,7 +28,7 @@
       "size": 90
      }
     ],
-    "blocksY": 132,
+    "blocksY": 80,
     "pay": {
      "text": "The first 3 AI employees *I'd hire.*",
      "y": 1030,
@@ -231,7 +231,7 @@
       "size": 72
      }
     ],
-    "blocksY": 108,
+    "blocksY": 80,
     "pay": {
      "text": "Free. *I'll DM them.*",
      "y": 1040,
