@@ -84,7 +84,7 @@ Use only these numbers unless Korede supplies more. Never invent results.
 - A wellness practice we work with near Boston, 5 locations: 28 hours a week reclaimed per location, $340K a year in admin cost, no-shows from 23 to 12 in 100, 2 new locations with 0 admin hires.
 - A psychiatry practice we work with in Middlesex County, NJ: 40 in 100 more patient capacity with 0 clinical hires, wait time 8 weeks to 4, 92 in 100 insurance verifications autonomous, $480K added annual revenue.
 - A 4-agent real estate team we work with in Austin: lead response from 4 hours to 3 minutes, close rate 3.2x, $14.7M added GCI in year 1, 0 agents hired.
-- Our own company runs on 100+ AI employees (content, lead response, onboarding, ads). Fair game for founder stories.
+- Our own company runs on 100+ AI employees (lead response, onboarding, follow-ups, scheduling). Fair game for founder stories, but never say or show that our content, reels or ads are made with AI (Korede, 2026-10-24): no "these reels came out of that system", no clips of our reels as proof.
 - Logistics angles from contentsystems.ai/logistics (unbilled storage and accessorial fees, month-end billing, WISMO, RFQ speed, receiving by email) and /ecommerce (3PL invoice overcharges, carrier surcharges, stockouts, returns) are positioning, not client results.
 - Every system: human approval gate on outbound actions, built on the client's existing stack, client owns what we build.
 

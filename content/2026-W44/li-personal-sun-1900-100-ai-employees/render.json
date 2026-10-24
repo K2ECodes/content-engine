@@ -44,65 +44,30 @@
      "blur": true
     },
     "label": "What they do",
-    "title": "The work we\nused to *do by hand*",
+    "title": "What they *handle*\nfor us",
     "bodyY": 420,
     "labelY": 100,
     "titleY": 170,
     "annY": 1030,
-    "video": true,
-    "fh": 560,
-    "frames": [
-     {
-      "src": "assets/photos/korede/studio-with-sanjana.jpg",
-      "x": 60,
-      "y": 0,
-      "w": 380,
-      "h": 560,
-      "clips": [
-       {
-        "src": "content/2026-W44/ig-company-fri-1500-sops-portable-stopmotion/video.mp4",
-        "ss": 2.6
-       },
-       {
-        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
-        "ss": 4
-       },
-       {
-        "src": "content/2026-W44/ig-company-fri-1500-sops-portable-stopmotion/video.mp4",
-        "ss": 10.5
-       }
-      ]
-     },
-     {
-      "src": "assets/photos/korede/studio-with-sanjana.jpg",
-      "x": 480,
-      "y": 0,
-      "w": 380,
-      "h": 560,
-      "clips": [
-       {
-        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
-        "ss": 12
-       },
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 4.2
-       },
-       {
-        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
-        "ss": 26
-       }
-      ]
-     }
-    ],
     "ann": [
      {
-      "k": "They do",
-      "v": "our content, lead replies, client onboarding and ads."
+      "k": "They handle",
+      "v": "lead replies, client onboarding, follow-ups and scheduling."
      },
      {
-      "k": "Proof",
-      "v": "these reels came out of that system."
+      "k": "We keep",
+      "v": "every send, every call and every decision."
+     }
+    ],
+    "chat": [
+     {
+      "who": "me",
+      "text": "New lead from the site: 3PL in Ohio, wants a call this week."
+     },
+     {
+      "who": "ai",
+      "label": "AI employee",
+      "text": "Replied in 2 minutes, booked Thursday 10:00. *Waiting for your yes* to send the prep notes."
      }
     ]
    },

@@ -27,7 +27,7 @@
       "size": 86
      }
     ],
-    "blocksY": 300,
+    "blocksY": 120,
     "pay": {
      "text": "*Take 3* hurts the most.",
      "y": 1030,
@@ -104,21 +104,7 @@
       "x": 40,
       "y": 0,
       "w": 400,
-      "h": 440,
-      "clips": [
-       {
-        "src": "content/2026-W44/li-personal-tue-0800-agents-insider-threat/video.mp4",
-        "ss": 1.2
-       },
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 10.2
-       },
-       {
-        "src": "content/2026-W44/li-personal-tue-0800-agents-insider-threat/video.mp4",
-        "ss": 6.5
-       }
-      ]
+      "h": 440
      },
      {
       "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
@@ -129,14 +115,6 @@
       "clips": [
        {
         "src": "../ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png"
-       },
-       {
-        "src": "content/2026-W44/li-personal-tue-0800-agents-insider-threat/video.mp4",
-        "ss": 3.8
-       },
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 0.3
        }
       ]
      }
@@ -254,10 +232,6 @@
         "src": "shots/duet.png"
        },
        {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 4.2
-       },
-       {
         "src": "shots/duet.png"
        }
       ]
@@ -267,21 +241,7 @@
       "x": 480,
       "y": 0,
       "w": 400,
-      "h": 470,
-      "clips": [
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 5.5
-       },
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 0.3
-       },
-       {
-        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
-        "ss": 10.2
-       }
-      ]
+      "h": 470
      }
     ],
     "fh": 470,
@@ -326,6 +286,6 @@
     }
    }
   ],
-  "theme": "blue"
+  "theme": "gold"
  }
 }
