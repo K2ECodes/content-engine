@@ -277,7 +277,7 @@ If you run a 3PL and want to find your first money leak, book 30 minutes with me
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```
 
-## 12. Company IG Halloween reel (re-rendering with % fix, ready ~18:15)
+## 12. Company IG Halloween reel (ready: % fix + upright worker)
 Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
 
 ```
@@ -307,7 +307,7 @@ It's in our bio.
 ```
 
 
-## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1) **HOLD: being reworked (no face, visual hook)**
+## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1) (reworked: 3D hook, no face; ready)
 Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
 
 ```
@@ -332,7 +332,7 @@ The person who sets it up first will.
 #AI #AInews #futureofwork #ClaudeAI #tech
 ```
 
-## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2) **HOLD: being reworked (no face, visual hook)**
+## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2) (reworked: 3D hook, no face; ready)
 Folder: `content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1` · media: video.mp4 · keyword: -
 
 ```
@@ -380,7 +380,7 @@ Tell me below, and follow for part 2.
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
 
-## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35) **HOLD: being reworked (no face, visual hook)**
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35) (reworked: 3D hook, no face; ready)
 Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
 
 ```
@@ -403,7 +403,7 @@ More than 99% of bits of data between continents run through cables on the sea f
 #whatif #internet #tech #technology #AI
 ```
 
-## 17. @koredekola gamified "What if every government left tomorrow?" **HOLD: being reworked (no face, visual hook)**
+## 17. @koredekola gamified "What if every government left tomorrow?" (reworked: 3D hook, no face; ready)
 Folder: `content/2026-W46/ig-personal-wed-1230-what-if-governments-left` · media: video.mp4 · keyword: AI
 
 ```
@@ -426,7 +426,7 @@ Every time.
 #AI #whatif #systems #futureofwork #tech
 ```
 
-## 18. @koredekola gamified "Every level of AI, where you get stuck" **HOLD: being reworked (no face, visual hook)**
+## 18. @koredekola gamified "Every level of AI, where you get stuck" (reworked: 3D hook, no face; ready)
 Folder: `content/2026-W46/ig-personal-sun-1100-every-level-of-ai` · media: video.mp4 · keyword: AI
 
 ```
@@ -472,7 +472,7 @@ Who wins this, Walmart or Amazon?
 #AI #AIagents #ecommerce #Walmart #technews
 ```
 
-## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready) **HOLD: being reworked (no face, visual hook)**
+## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (reworked: 3D globe hook, no face; full render ready ~00:10 Berlin)
 Folder: `content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video` · media: video.mp4 · keyword: -
 
 ```
