@@ -1,35 +1,15 @@
 ## Caption
-Comment "AI" and I'll send you all 5 starter skills plus the permission sheet, free.
+Admin eats most founders' week. Inbox, call prep, follow-ups. Necessary work that never moves the business.
 
-Drowning in admin?
+We run @Content Systems.ai on 100+ AI employees, and every 1 of them started as a small, drafts-only skill. These are the first 3 I'd hire.
 
-These 3 free skills fix it.
+The first sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies. It never sends. The second hands you a 1-page brief 15 minutes before a call: who's in the room, where things stand, 3 questions worth asking. The third turns call notes into a clear email: what you agreed, who does what by when, the next step.
 
-They're the first 3 AI employees I'd hire.
+They're real SKILL.md files. Drop them into Claude, or paste them into a project in any AI chat. No code.
 
-We run Content Systems.ai on 100+ AI employees.
+The draft is the AI's job. The send is yours.
 
-Every 1 of them started as a small, drafts-only skill like these:
-
-Skill 1 sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies.
-
-It never sends.
-
-Skill 2 hands you a 1-page brief 15 minutes before the call: who's in the room, where things stand, 3 questions worth asking.
-
-Skill 3 turns call notes into a clear email: what you agreed, who does what by when, the next step.
-
-They're real SKILL.md files.
-
-Drop them into Claude, or paste them into a project in any AI chat.
-
-No code.
-
-2 more skills and the permission sheet are in the pack too.
-
-The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
-
-From the build, Korede
+I packed them with 2 more skills and the permission sheet that says what each AI employee may do alone. Comment "AI" and I'll send you all 5, free.
 
 #AI #AIEmployees #ArtificialIntelligence #Automation #Founders #Startups #Leadership #FutureOfWork #Operations #Productivity #SmallBusiness #Ecommerce
 

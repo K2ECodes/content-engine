@@ -1,35 +1,17 @@
 ## Caption
-Comment "WORKSHOP" and we'll send you the details for the next live build.
+This month 4 of the biggest names in tech shipped the same rule: AI does the work, a person owns the yes.
 
-Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and every one of them starts with the same rule: AI does the work, a person owns the yes.
+@Anthropic's new assistant, Duet, asks before it pays for anything. @Walmart lets shoppers set a spending limit for an AI that buys for them. @1Password lets an AI log in for you without ever seeing the password. And @Microsoft told companies to watch AI helpers like an insider with the keys.
 
-This month 4 of the biggest names in tech shipped that rule.
+Each one is a lesson you can use this week. Money going out needs a yes. Routine, low-value actions get a limit, not a meeting. Never paste passwords into an AI tool. Give each AI helper only the access its job needs.
 
-Each one teaches something you can apply this week:
+A 10-minute Monday check: list every AI tool your team uses and write what it can do without asking. Anything that moves money, messages a customer or touches account access without a yes is your first fix.
 
-· Anthropic's new assistant, Duet, asks before it pays for anything. Lesson: money going out always needs a yes.
+@Content Systems.ai runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes. We set it up live with business owners in our AI workshop, 120 minutes on Zoom, replay included.
 
-· Walmart lets shoppers set a spending limit for an AI that buys for them. Lesson: routine, low-value actions get a limit, not a meeting.
+Want in on the next one? Comment "WORKSHOP" and we'll send you the details.
 
-· 1Password lets an AI log in for you without ever seeing the password. Lesson: never paste passwords into an AI tool.
-
-· Microsoft told companies to watch AI helpers like an insider with the keys. Lesson: give each AI helper only the access its job needs.
-
-A 10-minute Monday check: list every AI tool your team uses and write what it can do without asking.
-
-Anything that moves money, messages a customer or touches account access without a yes is your first fix.
-
-Our own company runs on 100+ AI employees.
-
-Not 1 of them sends anything to a customer until a person says yes.
-
-We set it up live with business owners in our AI workshop on Zoom.
-
-120 minutes, replay included.
-
-Want in on the next AI workshop?
-
-#AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship
+#AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship #AIsecurity
 
 ## Script
 4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. Want us to set this up with you, live? Comment WORKSHOP and we'll send you the details. The next date's in our profile.

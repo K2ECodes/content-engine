@@ -1,33 +1,17 @@
 ## Caption
-Comment "WORKSHOP" and we'll send you the details.
+What happens when a lead messages your business at 2 AM? At most companies, nothing until morning. By then they've booked someone else.
 
-Content Systems.ai runs a live AI workshop where business owners build their first 2 AI employees.
+@Anthropic, @Walmart and @Microsoft all shipped ways this month to keep a person in charge of AI. We've worked that way since day 1.
 
-Here's what happens in 120 minutes:
+In our live AI workshop, business owners build their first 2 AI employees in 120 minutes. You set up Claude properly on your own account, not the default way most people start. AI employee 1 answers a new lead in seconds, including the 1 that comes in while you're asleep. AI employee 2 keeps track of what your competitors change.
 
-· You set up Claude properly on your own account, not the default way most people start.
+Then we open up the 100+ AI employees that run @Content Systems.ai, and the 1 rule every single 1 of them follows.
 
-· You build AI employee 1. It answers a new lead in seconds, including the 1 that comes in at 2 AM while you're asleep.
+It's for owners and operators. No coding needed, live on Zoom, replay included.
 
-· You build AI employee 2. It keeps track of what your competitors change, so you're not the last to know.
+Want in on the next one? Comment "WORKSHOP" and we'll send you the details.
 
-· You see inside the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
-
-Who it's for: owners and operators.
-
-No coding needed.
-
-Why that rule matters: Anthropic, Walmart and Microsoft all shipped ways to keep a person in charge of AI.
-
-We've worked that way since day 1.
-
-You'll see how it looks across 100+ AI employees.
-
-It's live on Zoom, and the replay's included if you can't stay for all of it.
-
-Want in on the next AI workshop?
-
-#AI #AIEmployees #Workshop #SmallBusiness #BusinessOwners #Automation #Operations #Ecommerce #Logistics #Entrepreneurs #LiveWorkshop
+#AI #AIEmployees #Workshop #SmallBusiness #BusinessOwners #Automation #Operations #Ecommerce #Logistics #Entrepreneurs #LiveWorkshop #Founders
 
 ## Alt text
 Portrait pixel-art graphic in a daytime platformer world: 2 AI employees in 120 minutes. A big COMMENT WORKSHOP box with the line next date in our bio. Starbursts: live, and replay included.

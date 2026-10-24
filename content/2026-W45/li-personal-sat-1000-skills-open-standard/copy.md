@@ -1,27 +1,17 @@
 ## Caption
+The SOP you write this weekend will run in 70+ AI tools. @Anthropic just handed its skills format to the Linux Foundation as an open standard.
+
+A skill is a folder: your process written down, 3 real examples, and the rules for what needs a person's yes. 70+ AI tools already read it, over 1,000,000 have been published, and installs are near 280,000,000.
+
+For a business owner that changes the maths. You're not betting on 1 AI company anymore. You write the process once, and it moves with you.
+
+The ones I'd start with are boring on purpose: sorting the inbox, prepping for calls, writing follow-ups, pulling the weekly numbers, and turning an SOP into a skill. Each 1 is a plain folder you can read, edit and own. No code, no new app.
+
+Write it once. Own it forever.
+
 Comment "AI" and I'll send you the 5 starter skills I install first, free.
 
-The SOP you write this weekend will run in 70+ AI tools.
-
-Anthropic just handed its skills format to the Linux Foundation as an open standard.
-
-A skill is a folder: your process written down, 3 real examples, and the rules for what needs a person's yes.
-
-70+ AI tools already read it, over 1,000,000 have been published, and installs are near 280,000,000.
-
-For a business owner that changes the maths.
-
-You're not betting on 1 AI company anymore.
-
-You write the process once, and it moves with you.
-
-The ones I'd start with are boring on purpose: sorting the inbox, prepping for calls, writing follow-ups, pulling the weekly numbers, and turning an SOP into a skill.
-
-Each 1 is a plain folder you can read, edit and own.
-
-No code, no new app.
-
-#AI #AIagents #Automation #SmallBusiness #BusinessOwners #Founders #Operations #Ecommerce #Logistics #3PL #Productivity
+#AI #AgentSkills #Anthropic #OpenSource #AIagents #Automation #SmallBusiness #BusinessOwners #Founders #Operations #Ecommerce #Productivity
 
 ## Alt text
 Pixel graphic at sunset: Your SOPs now run in 70+ AI tools. A big COMMENT AI box, free: my 5 starter skills. Pixel Korede at a laptop and a robot.

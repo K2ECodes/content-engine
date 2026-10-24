@@ -1,21 +1,15 @@
 ## Caption
-Comment "SYSTEMS" and I'll send you both skills plus the 1-page owner sheet, free.
+58% of managers expect to oversee more AI helpers than people within a year. 46% worry about losing control of what those helpers do. That's from a Nielsen survey of 1,700 managers for @Monday.com, via TechCrunch.
 
-Who's watching your AI helpers?
+So who's watching your AI helpers?
 
-2 free skills fix it.
+We run @Content Systems.ai on 100+ AI employees, and every 1 has a person's name on it.
 
-58% of managers expect to oversee more AI helpers than people within a year, and 46% worry about losing control of what those helpers do (Nielsen survey of 1,700 managers for Monday.com, via TechCrunch).
-
-We run Content Systems.ai on 100+ AI employees, and every 1 has a person's name on it.
-
-Skill 1 writes the owner sheet for each helper: its job, its owner and backup, what it does alone, what needs a yes, what it never does, and its off switch.
-
-Skill 2 has the helper send its owner a 30-second note every day: what it handled, what it passed on, what got corrected, and anything unusual.
+2 skills make that work. The first writes the owner sheet for each helper: its job, its owner and backup, what it does alone, what needs a yes, what it never does, and its off switch. The second has the helper send its owner a 30-second note every day: what it handled, what it passed on, what got corrected, and anything unusual.
 
 A helper that drifts gets noticed by its owner, not a customer.
 
-They're real SKILL.md files for Claude or any AI chat.
+They're real SKILL.md files for Claude or any AI chat. Comment "SYSTEMS" and I'll send you both skills plus the 1-page owner sheet, free.
 
 #AI #ArtificialIntelligence #AIAgents #Management #Leadership #Operations #Automation #FutureOfWork #Founders #SmallBusiness #Ecommerce #Logistics
 

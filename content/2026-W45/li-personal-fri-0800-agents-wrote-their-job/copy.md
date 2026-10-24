@@ -1,29 +1,19 @@
 ## Caption
-Comment "WORKSHOP" and I'll send you the details of my live workshop plus the free AI employee starter pack.
+Left alone with no task, AI agents invented their own job. MIT researchers put 13 copies of an AI agent in a simulated world for 30 hours with nothing to do. They set their own goals, arranged blocks into drawings and made up a version of basketball.
 
-Left alone with no task, AI agents invented their own job.
+It isn't peer reviewed, and calling it play is a stretch. But it's a useful picture.
 
-Yours will too.
+An AI with no job description fills the gap. In a business that looks like a helper answering questions nobody asked, in a tone nobody approved, about prices nobody checked.
 
-MIT researchers put 13 copies of an AI agent in a simulated world for 30 hours with nothing to do.
+Yours will do the same.
 
-They set their own goals, arranged blocks into drawings and made up a version of basketball.
+Every AI employee we run at @Content Systems.ai gets 4 things before it starts: 1 job, 1 owner, a list of what needs a person's yes, and an off switch.
 
-It isn't peer reviewed, and calling it play is a stretch.
+In my workshop you build your first 2 that way, live with me, and see the 100+ running our company.
 
-But it's a useful picture.
+Want in on the next one? Comment "WORKSHOP" and I'll send you the details plus the free AI employee starter pack.
 
-An AI with no job description fills the gap.
-
-In a business that looks like a helper that answers questions nobody asked it to, in a tone nobody approved, about prices nobody checked.
-
-Every AI employee we run at Content Systems.ai gets 4 things before it starts: 1 job, 1 owner, a list of what needs a person's yes, and an off switch.
-
-In the workshop you build your first 2 that way, live with me, and see the 100+ running our company.
-
-Want in on the next AI workshop?
-
-#AI #AIagents #Automation #SmallBusiness #BusinessOwners #Founders #Operations #Ecommerce #Logistics #3PL #Productivity
+#AI #AIagents #MIT #Automation #SmallBusiness #BusinessOwners #Founders #Operations #Ecommerce #Logistics #3PL #Productivity
 
 ## Alt text
 6-slide carousel. Cover on a cream grid page with a plant-filled studio photo: AI left alone invents its own job, free starter pack + build yours properly, live, a pixel robot above 3 question blocks. Slides: 13 agents no task, so they made 1 up, your AI does the same, give it 4 things. CTA: comment WORKSHOP, next date in my profile.

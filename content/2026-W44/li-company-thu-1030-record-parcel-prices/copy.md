@@ -1,35 +1,17 @@
 ## Caption
-Comment "SYSTEMS" and we'll send you our free 3PL billing leak checklist.
-
-Content Systems.ai helps 3PLs bill for every peak charge they already carry.
-
-Parcel prices hit a record this quarter, and most of the rise is carrier pricing, not fuel.
-
-The numbers: the TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline.
+Parcel prices hit a record this quarter, and most of the rise is carrier pricing, not fuel. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline.
 
 Since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel.
 
-For a 3PL that cost lands on you first.
+For a 3PL that cost lands on you first. Whether you get it back depends on what makes it onto the client's invoice.
 
-Whether you get it back depends on what makes it onto the client's invoice.
+Peak is when it slips. Volume jumps, the floor is busy, and extra work gets done without getting written down: surcharges that went up mid-season, storage past the free period, rush orders and relabels never recorded, kitting agreed in an email thread.
 
-Peak is when it slips.
+Deloitte says holiday spending started in October this year. The busy stretch is already here.
 
-Volume jumps, the floor is busy, and extra work gets done without getting written down:
+At @Content Systems.ai we build a system that reads what happened in the warehouse each day, matches it to each client's agreed rates, and lists what's missing before the invoice goes out. Your team approves every line.
 
-· Surcharges that went up mid-season but not in your billing
-
-· Storage that rolled past the free period during the inbound rush
-
-· Rush orders, special packing and relabels done on the floor and never recorded
-
-· Kitting projects agreed in an email thread
-
-Deloitte says holiday spending started in October this year, so the busy stretch is already here.
-
-What a system does for you: it reads what happened in the warehouse each day, matches it to each client's agreed rates, and lists what's missing before the invoice goes out.
-
-Your team approves every line.
+Want the checklist we start with? Comment "SYSTEMS" and we'll send you our free 3PL billing leak checklist.
 
 #3PL #Logistics #Warehousing #Fulfillment #SupplyChain #PeakSeason #Parcel #Shipping #3PLbilling #Ecommerce #Freight #Operations
 

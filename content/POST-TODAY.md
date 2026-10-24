@@ -54,49 +54,23 @@ Save this before Black Friday.
 Folder: `content/2026-W43/li-company-fri-1200-parcel-invoice-check` · media: carousel.pdf · keyword: -
 
 ```
-Content Systems.ai helps e-commerce brands catch shipping overcharges before they pay them.
+Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline.
 
-Parcel pricing is at a record this quarter.
+And it isn't fuel. Since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
 
-The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline.
+Then peak arrives. Invoices get longer, and nobody reads them line by line. These are the lines most brands pay without checking: fuel surcharges above what the contract allows, peak surcharges billed outside their dates, address corrections on addresses that were fine, residential fees on business deliveries, dimensional weight on the wrong box size, and the same parcel charged twice.
 
-And since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
+Each 1 looks small. An illustrative example, not a client result: 5,000 orders a month with 50 cents of overcharges per order is $2,500 a month. That's $30K a year.
 
-Then peak arrives.
+It isn't only carriers either. This month Bluffworks switched fulfillment providers after a $200,000 back invoice.
 
-Invoices get longer and nobody reads them line by line.
-
-These are the lines most brands pay without checking:
-
-· Fuel surcharges above what the contract allows
-
-· Peak surcharges billed outside their dates
-
-· Address correction fees on addresses that were fine
-
-· Residential fees on business deliveries
-
-· Dimensional weight billed on the wrong box size
-
-· The same parcel charged twice
-
-Each 1 looks small.
-
-An illustrative example, not a client result: 5,000 orders a month with 50 cents of overcharges per order is $2,500 a month.
-
-That's $30K a year.
-
-It isn't only carriers.
-
-This month Bluffworks switched fulfillment providers after a $200,000 back invoice.
-
-What a system does for you: it checks every carrier and 3PL invoice against your contract rates and order data, lists what doesn't match with the proof, and your team decides what to dispute.
+At @Content Systems.ai we build a system that checks every carrier and 3PL invoice against your contract rates and order data. It lists what doesn't match, with the proof, and your team decides what to dispute.
 
 Nothing goes out without your approval.
 
 See what hidden fees could be costing you with our free calculator: contentsystems.ai/ecommerce
 
-#ecommerce #shipping #parcel #logistics #fulfillment #3PL #peakseason #BFCM #DTC #supplychain #shopify
+#Ecommerce #Shipping #Parcel #Logistics #Fulfillment #3PL #PeakSeason #BFCM #DTC #SupplyChain #Shopify #FedEx #UPS
 ```
 
 ## 4. Company IG reel
@@ -286,47 +260,19 @@ Save this for your first skill, and comment AI for the pack.
 Folder: `content/2026-W44/li-personal-sat-1000-13-in-100` · media: slide-01.png · keyword: -
 
 ```
-Only 13% of logistics execs say AI shows up in their numbers.
+Only 13% of logistics execs say AI shows up in their numbers. That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month.
 
-Most of the rest started with a chatbot instead of the money leak.
+It matches what I see. The usual first AI project in a warehouse is a chatbot, a writing assistant or a pilot nobody owns. Easy to start, hard to measure. 6 months later the question is "is anyone using it", not "what did it earn".
 
-That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month.
-
-It matches what I see.
-
-The usual first AI project in a warehouse is a chatbot, a writing assistant or a pilot nobody owns.
-
-Easy to start, hard to measure.
-
-6 months later the question is "is anyone using it", not "what did it earn".
-
-In my experience the teams that see results start somewhere less exciting.
-
-They pick the place money leaks:
-
-· Storage that rolls past the free period and never gets billed
-
-· Accessorials done on the floor and never keyed in
-
-· RFQs that sit for a day while the shipper gets 3 other quotes
-
-· WISMO emails eating the CS team's afternoon
+The teams that see results start somewhere less exciting. They pick the place money leaks: storage that rolls past the free period and never gets billed, accessorials done on the floor and never keyed in, RFQs that sit for a day while the shipper gets 3 other quotes, WISMO emails eating the CS team's afternoon.
 
 Each 1 has a number before you start, so you know if it worked.
 
-This month's logistics news points the same way.
+This month's logistics news points the same way. Motive, Samsara and Netradyne all shipped agents tied to a specific job, not a general assistant. And Five9 found people are about twice as likely to trust AI support when a person is reachable.
 
-Motive, Samsara and Netradyne all shipped agents tied to a specific job: a safety alert, a maintenance ticket, a driver call.
-
-Not a general assistant.
-
-The human part still matters.
-
-Five9 found people are about twice as likely to trust AI support when a person is reachable.
+Start with the leak, not the chatbot.
 
 If you run a 3PL and want to find your first money leak, book 30 minutes with me: calendly.com/contentsystems/30min
-
-From the build, Korede
 
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```

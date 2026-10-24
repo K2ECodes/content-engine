@@ -1,41 +1,19 @@
 ## Caption
-Comment "WORKSHOP" and we'll send you the details for our next live build.
-
-Content Systems.ai teaches business owners to set up their first AI employees, so they get time back without losing control.
-
-Most managers will soon oversee more AI helpers than people.
-
-A Nielsen survey for Monday.com this month found 58% of managers expect exactly that within a year.
+Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58% of managers expect exactly that within a year.
 
 Only 29% say their AI setup is right today, and 57% have more AI tools than last year.
 
 More tools, more checking, less control.
 
-That's what the survey describes.
+We run @Content Systems.ai on 100+ AI employees, and that isn't our week. Not because our tools are better. Because every AI employee we add gets 4 things before it does any work.
 
-We run our own company on 100+ AI employees, and that isn't our week.
+1 of them is a rule about what it's never allowed to send on its own. The other 3 are why we can keep adding them without losing track.
 
-Not because our tools are better.
+In our live AI workshop we open it all up. You set up Claude properly on your own account, build your first 2 AI employees with us, and see the 100+ that run our company. 1 of them answers a new lead in seconds, even at 2 AM.
 
-Because every AI employee we add gets 4 things before it does any work.
+Want in on the next one? Comment "WORKSHOP" and we'll send you the details.
 
-1 of them is a rule about what it's never allowed to send on its own.
-
-The other 3 are why we can keep adding them without losing track.
-
-In our live AI workshop we open it up, on Zoom:
-
-· Set up Claude properly on your own account
-
-· Build your first 2 AI employees: 1 answers a new lead in seconds, even at 2 AM, 1 keeps track of your competitors
-
-· See the 100+ that run Content Systems.ai
-
-It's 120 minutes, and the replay's included.
-
-Want in on the next AI workshop?
-
-#SmallBusiness #BusinessOwners #AI #Management #Leadership #Operations #Workshop #Ecommerce #Logistics #FutureOfWork #Productivity #Entrepreneurs
+#SmallBusiness #BusinessOwners #AI #AIEmployees #Management #Leadership #Operations #Workshop #Ecommerce #Logistics #FutureOfWork #Productivity #Entrepreneurs
 
 ## Alt text
 Portrait pixel-art graphic in a neon city world: Who manages your AI helper? A big COMMENT WORKSHOP box with the line next date in our bio. Starbursts: 58% of managers expect more AI, 29% say their setup is right. Taped screenshots of the TechCrunch survey story and Claude Duet, pixel Korede and Sanjana.
