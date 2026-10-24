@@ -1,8 +1,6 @@
 ## Caption
 What if everyone on Earth woke up 10% Nigerian?
 
-I'm Nigerian, so I walked it through.
-
 Day 1 every DNA test says Nigeria.
 
 Week 1 everyone wants the passport, and the embassy says no.
