@@ -1,23 +1,23 @@
 ## Caption
-Your AI isn't dumb. You're just using it like Google.
-Comment AI and I'll send you my starter pack: 5 skills you can copy today.
+Steal my 4 fixes for AI that feels mid. The prompts are in the slides, copy them.
+Comment AI and I'll send you all 5 of my starter prompts free, plus the permission sheet I use.
 
-1 question in, 1 answer out, then you're annoyed it doesn't know you. Same thing happened to me.
+Most people type 1 line, get a generic answer and decide AI is overrated. Same thing happened to me.
 
-4 fixes changed how I use it:
-Give it files, not one-liners.
-Make it ask before it sends or spends.
-Turn the prompt you paste every morning into a skill.
-Make it check its own work.
+These 4 changed how I use it:
+Give it your files, not 1-liners.
+Make it draft and wait for your yes.
+Save the prompt you paste every morning as a skill.
+Make it check its own work before you see it.
 
-Swipe for how each one looks.
+Swipe, copy the lines, try them today.
 
-Comment AI for the pack.
+Comment AI for the full pack.
 
 #AI #ClaudeAI #AItools #productivity #aitips
 
 ## Alt text
-6-slide carousel from @koredekola. Cover: Korede in a white jacket, cut out over a warm loft office, headline Your AI isn't dumb. You're using it wrong. Payoff box: 4 fixes that changed how I use it. 4 slides on the same photo blurred, 1 per fix: give it files, not one-liners; make it ask before it acts (screenshots of TechCrunch on Claude Duet and on Microsoft's agent warning); turn repeats into skills (screenshots of Anthropic's skills announcement and the Agentic AI Foundation); make it check its own work. Each ends with a Looks like and Why it works box. Last slide: Comment AI, I'll send my starter pack.
+6-slide carousel from @koredekola in orange. Cover: Korede in a white jacket, his head in front of the headline Steal my 4 fixes for AI that feels mid, with a Scientists reveal, why your AI feels mid news chip. Payoff box: Copy-paste prompts inside. Fix 1: give it files, with a prompt to copy. Fix 2 (video): make it ask before it acts, screenshots of TechCrunch on Claude Duet and on Microsoft's agent warning, with a rule to copy. Fix 3 (video): turn repeats into skills, screenshots of Anthropic's skills announcement and the Agentic AI Foundation. Fix 4: make it check its own work, with a prompt to copy. Last slide: Comment AI, I'll send all 5 prompts.
 
 ## Notes
 Photo carousel (templates/photo-carousel, research/style-personal-carousel.md, ref @mr.pynk). Real photos of Korede: assets/photos/korede/white-jacket-lounge.jpg and its rembg cutout.

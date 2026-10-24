@@ -61,7 +61,7 @@ async function renderStatic(browser, data, aspect, dir) {
 }
 
 
-// Composite a carousel video slide: still PNG + per-frame clip sequences (mp4 with ss, or png/jpg scrolled top to bottom).
+// Composite a carousel video slide: still PNG + per-frame clip sequences (mp4 with ss, or png/jpg fitted to the frame width and scrolled top to bottom).
 // slide.video: true | { dur }, slide.frames[k].clips: [{ src (repo path or post-relative), ss, dur }], slide.every (s per clip, default 3)
 function videoSlide(dir, png, sl, boxes) {
   const D = (typeof sl.video === 'object' && sl.video.dur) || 9, every = sl.every || 3, FPS = 30;
@@ -80,7 +80,7 @@ function videoSlide(dir, png, sl, boxes) {
       else inputs.push('-ss', String(c.ss || 0), '-t', String(d), '-i', f);
       const tag = `c${k}_${j}`;
       chains.push(/\.(png|jpe?g|webp)$/i.test(f)
-        ? `[${n}:v]scale=${w}:${h}:force_original_aspect_ratio=increase,crop=${w}:${h}:(iw-${w})/2:'(ih-${h})*t/${d}',fps=${FPS},setsar=1,format=yuv420p[${tag}]`
+        ? `[${n}:v]scale=${w}:-2,pad=${w}:'max(ih,${h})':0:0:white,crop=${w}:${h}:0:'(ih-${h})*t/${d}',fps=${FPS},setsar=1,format=yuv420p[${tag}]`
         : `[${n}:v]scale=${w}:${h}:force_original_aspect_ratio=increase,crop=${w}:${h},fps=${FPS},setsar=1,format=yuv420p,trim=duration=${d},setpts=PTS-STARTPTS[${tag}]`);
       segs.push(tag); n++; t += d;
     }

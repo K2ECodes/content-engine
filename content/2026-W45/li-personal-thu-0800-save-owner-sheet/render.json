@@ -1,0 +1,229 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "claude",
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "Save this:",
+      "style": "acc",
+      "size": 116
+     },
+     {
+      "text": "the AI *owner sheet.*",
+      "style": "white",
+      "size": 88
+     }
+    ],
+    "blocksY": 300,
+    "pay": {
+     "text": "3 questions every AI helper *must answer.*",
+     "y": 1030,
+     "size": 42
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Why now",
+    "labelY": 100,
+    "title": "Managers will run\n*more AI than people*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "stat": {
+     "value": "58",
+     "label": "in 100 managers expect to oversee more AI helpers than people within a year."
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "Nielsen survey of 1,700 managers for Monday.com, via TechCrunch, Oct 21 2026."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Question 1",
+    "labelY": 100,
+    "title": "Who *checks*\nits work?",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "form": {
+     "title": "Top of the sheet",
+     "rows": [
+      {
+       "k": "AI helper",
+       "v": "order status replies"
+      },
+      {
+       "k": "Owner",
+       "v": "1 named person"
+      },
+      {
+       "k": "Backup",
+       "v": "when the owner is out"
+      }
+     ]
+    },
+    "ann": [
+     {
+      "k": "The rule",
+      "v": "1 named person, every day. Not \"the team\"."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Question 2",
+    "labelY": 100,
+    "title": "What can it\ndo *alone*?",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "form": {
+     "title": "Its limits",
+     "rows": [
+      {
+       "k": "Does alone",
+       "v": "routine, on record, easy to undo"
+      },
+      {
+       "k": "Needs a yes",
+       "v": "money, promises, anything that leaves"
+      },
+      {
+       "k": "Never does",
+       "v": "no exceptions, even if asked"
+      }
+     ]
+    },
+    "ann": [
+     {
+      "k": "Write it down",
+      "v": "if it isn't on the sheet, it waits for a yes."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Question 3",
+    "labelY": 100,
+    "title": "What does it\n*report*?",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "chat": [
+     {
+      "who": "ai",
+      "label": "Daily note to its owner",
+      "text": "Handled 46 order emails. Passed 3 to you: 2 refunds, 1 upset customer. 1 correction today, instruction updated."
+     }
+    ],
+    "ann": [
+     {
+      "k": "Why",
+      "v": "a helper that drifts gets noticed by its owner, not a customer."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "In the sheet",
+    "labelY": 100,
+    "title": "The part most\nteams *forget*",
+    "titleY": 170,
+    "bodyY": 450,
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "4",
+      "text": "The off switch, in 1 step"
+     },
+     {
+      "n": "+",
+      "text": "A filled-in example"
+     },
+     {
+      "n": "+",
+      "text": "The print-ready page"
+     }
+    ],
+    "ann": [
+     {
+      "k": "How we use it",
+      "v": "1 page per AI helper. 100+ helpers, every 1 has a name on it."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "Comment *SYSTEMS*",
+      "style": "white",
+      "size": 100
+     },
+     {
+      "text": "for the owner sheet.",
+      "style": "acc",
+      "size": 76
+     }
+    ],
+    "blocksY": 300,
+    "pay": {
+     "text": "Free. *I'll DM it.*",
+     "y": 1030,
+     "size": 48
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "gold",
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "54% 80px",
+     "size": "auto 1180px",
+     "dim": {
+      "top": 0.65,
+      "bot": 0.95
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+    },
+    "bgc": "#14110c",
+    "blocks": [
+     {
+      "text": "Free: the sheet",
+      "style": "white",
+      "size": 96
+     },
+     {
+      "text": "our *AI* follows.",
+      "style": "acc",
+      "size": 96
+     }
+    ],
+    "blocksY": 132,
+    "pay": {
+     "text": "4 things that never go out *without a yes.*",
+     "y": 1020,
+     "size": 42
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "01",
+    "labelY": 100,
+    "title": "Money *out*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "approve": {
+     "title": "Waiting for a yes",
+     "main": "Refund on order 2281",
+     "sub": "AI checked the policy and worked out the amount.",
+     "yes": "Approve",
+     "no": "Edit"
+    },
+    "ann": [
+     {
+      "k": "What counts",
+      "v": "refunds, credits, supplier payments, price changes, new discount codes."
+     },
+     {
+      "k": "AI can still",
+      "v": "pull the order, check the policy, line it up for 1 click."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "02",
+    "labelY": 100,
+    "title": "Messages that\n*promise* something",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "chat": [
+     {
+      "who": "ai",
+      "label": "AI draft, waiting for you",
+      "text": "Sorry about the delay. Your order will arrive [Thursday]."
+     }
+    ],
+    "ann": [
+     {
+      "k": "What counts",
+      "v": "delivery dates, discounts, apologies, exceptions to your policy."
+     },
+     {
+      "k": "AI can still",
+      "v": "draft it in your voice and mark the line that makes the promise."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "03",
+    "labelY": 100,
+    "title": "Quotes, bookings\nand *contracts*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "flow": [
+     "AI builds the quote",
+     "You check the rate",
+     {
+      "text": "You sign",
+      "hi": true
+     }
+    ],
+    "ann": [
+     {
+      "k": "Why it waits",
+      "v": "a booking commits a truck and a bill. A quote sets a price you'll be held to."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "Even they agree",
+    "labelY": 100,
+    "title": "The yes is the\n*feature* now",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1000,
+    "logos": [
+     {
+      "id": "claude"
+     },
+     {
+      "id": "walmart"
+     },
+     {
+      "id": "microsoft"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Anthropic",
+      "v": "Duet can buy for you, but every payment waits for your approval."
+     },
+     {
+      "k": "Our company",
+      "v": "100+ AI employees. None moves money without a person saying yes."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "In the sheet",
+    "labelY": 100,
+    "title": "No. 4, and how\nwe *fill it in*",
+    "titleY": 170,
+    "bodyY": 450,
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "4",
+      "text": "The 1 that wipes data"
+     },
+     {
+      "n": "+",
+      "text": "Approver, backup, review date"
+     },
+     {
+      "n": "+",
+      "text": "What the AI may do alone"
+     }
+    ],
+    "ann": [
+     {
+      "k": "How we use it",
+      "v": "1 sheet per AI helper, pinned where the team can see it."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "54% 80px",
+     "size": "auto 1180px",
+     "dim": {
+      "top": 0.75,
+      "bot": 0.95
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+    },
+    "bgc": "#14110c",
+    "blocks": [
+     {
+      "text": "Comment *SYSTEMS*",
+      "style": "white",
+      "size": 100
+     },
+     {
+      "text": "for the full sheet.",
+      "style": "acc",
+      "size": 72
+     }
+    ],
+    "blocksY": 108,
+    "pay": {
+     "text": "Free. *Pin it for your team.*",
+     "y": 1040,
+     "size": 42
+    },
+    "wordmark": true,
+    "wmTop": 905
+   }
+  ]
+ }
+}

@@ -106,7 +106,8 @@
           "ig-personal-sun-0930-openai-on-google-cloud",
           "li-personal-wed-0800-uber-30-engineers",
           "li-personal-fri-0800-sops-are-portable",
-          "ig-company-fri-1500-sops-portable-stopmotion"
+          "ig-company-fri-1500-sops-portable-stopmotion",
+          "ig-personal-thu-1230-monday-ai-setup"
         ],
         "note": "Also sent for SYSTEMS on ig-company-fri-1500-sops-portable-stopmotion (caption promises \"the 5 skills we install first\"). On the 2 SOP posts it goes out with the SOP-to-skill sheet.",
         "pages": 4
@@ -119,7 +120,8 @@
         "source": "assets/freebies/src/approval-sheet.html",
         "pages": 3,
         "used_by": [
-          "ig-company-tue-1900-never-send-without-yes"
+          "ig-company-tue-1900-never-send-without-yes",
+          "li-personal-tue-0800-free-approval-sheet"
         ],
         "channels": [
           "ig-company"
@@ -150,7 +152,8 @@
         "source": "assets/freebies/src/ai-helper-owner-sheet.html",
         "pages": 3,
         "used_by": [
-          "ig-company-fri-1800-every-helper-needs-owner"
+          "ig-company-fri-1800-every-helper-needs-owner",
+          "li-personal-thu-0800-save-owner-sheet"
         ],
         "channels": [
           "ig-company"
@@ -199,7 +202,8 @@
         "pages": 3,
         "used_by": [
           "li-personal-fri-0800-sops-are-portable",
-          "ig-personal-sat-1100-sop-to-skill"
+          "ig-personal-sat-1100-sop-to-skill",
+          "ig-personal-mon-1230-sop-template-free"
         ],
         "channels": [
           "li-personal",

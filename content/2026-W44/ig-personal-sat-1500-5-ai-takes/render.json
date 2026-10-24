@@ -22,14 +22,14 @@
       "size": 116
      },
      {
-      "text": "that'll get me *unfollowed.*",
+      "text": "+ the *fix* for each.",
       "style": "white",
-      "size": 86
+      "size": 90
      }
     ],
     "blocksY": 120,
     "pay": {
-     "text": "*Take 3* hurts the most.",
+     "text": "*Copy them.* Take 3 hurts.",
      "y": 1030,
      "size": 50
     }
@@ -51,8 +51,8 @@
     },
     "ann": [
      {
-      "k": "Try this",
-      "v": "ask it what it's unsure about before you trust the answer."
+      "k": "Copy this",
+      "v": "\"Before you answer, tell me what you're unsure about.\""
      }
     ],
     "annY": 1050,
@@ -90,8 +90,8 @@
     },
     "ann": [
      {
-      "k": "Try this",
-      "v": "let it draft. Keep the send button yours."
+      "k": "Copy this",
+      "v": "\"Draft only. Never send, buy or delete without my yes.\""
      }
     ],
     "annY": 1050,
@@ -137,8 +137,8 @@
     },
     "ann": [
      {
-      "k": "Try this",
-      "v": "write your process down once. That's the prompt."
+      "k": "Copy this",
+      "v": "\"Here's my process: [paste]. Follow it. Ask if a step is missing.\""
      }
     ],
     "annY": 1050,
@@ -172,8 +172,8 @@
     },
     "ann": [
      {
-      "k": "Try this",
-      "v": "list your tools. Cut the ones that don't know your work."
+      "k": "Do this",
+      "v": "list every AI tool you pay for. Keep the ones that know your work."
      }
     ],
     "annY": 1050,
@@ -248,8 +248,8 @@
     "bodyY": 520,
     "ann": [
      {
-      "k": "Try this",
-      "v": "pick tools that ask before they act. Claude Duet waits for your yes."
+      "k": "Copy this",
+      "v": "\"Show me the plan first. Wait for my yes before you act.\""
      }
     ],
     "annY": 1050,
@@ -273,15 +273,15 @@
       "size": 116
      },
      {
-      "text": "for my starter pack.",
+      "text": "for 5 more prompts.",
       "style": "acc",
       "size": 76
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "5 skills that make your AI *useful.*",
-     "y": 1030,
+     "text": "My starter pack, *free.*",
+     "y": 1010,
      "size": 46
     }
    }

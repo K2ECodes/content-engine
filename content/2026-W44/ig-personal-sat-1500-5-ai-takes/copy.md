@@ -1,15 +1,19 @@
 ## Caption
-5 AI takes people won't like. Take 3 is the one nobody wants to hear.
-Comment AI and I'll send you my starter pack: 5 skills that make your AI useful.
+5 AI takes people won't like, plus the line I paste to fix each 1. Copy them.
+Comment AI and I'll send you my starter pack free: 5 more prompts and the permission sheet.
 
-I build with AI every day. These are the things I keep seeing that the hype skips.
+Take 1: if your AI can't say "I don't know", it's guessing.
+Take 2: agents that act without asking aren't brave. They're a liability.
+Take 3 is the 1 that hurts. It's on slide 4.
 
-Tell me which one you disagree with.
+Every slide ends with the exact line to copy into Claude or ChatGPT.
 
-#AI #ClaudeAI #ChatGPT #AItools #techtalk
+Comment AI for the pack.
+
+#AI #ChatGPT #ClaudeAI #aitools #productivity
 
 ## Alt text
-7-slide carousel from @koredekola. Cover: a photo of Korede on a rooftop typing on a laptop, headline 5 AI takes people won't like, payoff box Take 3 is the one nobody wants to hear. 5 slides on the same photo blurred, 1 take each with a Try this box: if your AI can't say I don't know, it's guessing; agents that act without asking aren't brave, they're a liability; prompting isn't the skill, knowing your business is; you don't need 10 AI tools, you need 1 that knows your work; the best AI feature this year is a yes button. Last slide: comment AI for the starter pack.
+7-slide carousel from @koredekola in gold. Cover: Korede at a laptop on a rooftop, his head in front of the headline 5 AI takes + the fix for each. Payoff box: Copy them. Take 3 hurts. Take 1 with a pixel meme, Why would I deceive you?. Take 2 (video): screenshots of TechCrunch on Claude Duet and Microsoft's agent warning. Take 3: a chat where the AI follows the SOP. Take 4: AI tool logos struck through, 1 kept. Take 5 (video): Claude Duet screenshots. Each take ends with a Copy this line. Last slide: Comment AI for 5 more prompts.
 
 ## Notes
 Photo carousel (templates/photo-carousel). Photo: assets/photos/korede/laptop-rooftop.jpg.

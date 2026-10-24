@@ -1,0 +1,207 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "ink",
+  "handle": "@koredekola",
+  "platform": "instagram",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 80px",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.6
+     },
+     "front": "assets/photos/korede/cutouts/white-jacket-lounge-full.png"
+    },
+    "bgc": "#120c09",
+    "news": {
+     "tag": "Grr",
+     "text": "Mondays",
+     "y": 50
+    },
+    "blocks": [
+     {
+      "text": "Steal my Monday",
+      "style": "acc",
+      "size": 96
+     },
+     {
+      "text": "*AI setup.* All free.",
+      "style": "white",
+      "size": 90
+     }
+    ],
+    "blocksY": 140,
+    "pay": {
+     "text": "3 prompts. *Copy them.*",
+     "y": 1010,
+     "size": 48
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Monday, 8:00",
+    "labelY": 100,
+    "title": "Last week's numbers\nin *2 minutes*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "prompt": {
+     "text": "I'll paste this week's numbers and last\nweek's. Tell me:\n1. The 3 that moved most, with the change\n2. 1 likely reason each, marked as a guess\n3. Anything in the data that looks wrong\nShow the math. Never invent a number."
+    },
+    "ann": [
+     {
+      "k": "You check",
+      "v": "1 number against the source, every week."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Monday, 9:00",
+    "labelY": 100,
+    "title": "The inbox, sorted\n*before coffee*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "chat": [
+     {
+      "who": "me",
+      "text": "(pastes 40 emails)"
+     },
+     {
+      "who": "ai",
+      "label": "AI",
+      "text": "Act today: 3. This week: 7. FYI: 30. Flagged: 1 refund request. Replies drafted, nothing sent."
+     }
+    ],
+    "ann": [
+     {
+      "k": "You approve",
+      "v": "every reply before it goes out."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Monday, 10:45",
+    "labelY": 100,
+    "title": "Ready for the\n*11:00 call*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "form": {
+     "title": "The brief it writes",
+     "rows": [
+      {
+       "k": "In the room",
+       "v": "who, and what each cares about"
+      },
+      {
+       "k": "Where it stands",
+       "v": "last thing agreed, open items"
+      },
+      {
+       "k": "Ask them",
+       "v": "3 questions worth asking"
+      }
+     ]
+    },
+    "ann": [
+     {
+      "k": "Paste in",
+      "v": "the invite, past emails and your notes."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "In the pack",
+    "labelY": 100,
+    "title": "2 more, plus\nthe *permission sheet*",
+    "titleY": 170,
+    "bodyY": 450,
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "4",
+      "text": "The follow-up writer"
+     },
+     {
+      "n": "5",
+      "text": "The SOP writer"
+     },
+     {
+      "n": "6",
+      "text": "What each 1 may do alone"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Setup",
+      "v": "10 minutes in Claude or ChatGPT. No code."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 50%",
+     "dim": {
+      "top": 0.7,
+      "bot": 0.55
+     }
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 60,
+     "y": 170,
+     "h": 1400,
+     "front": true
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 116
+     },
+     {
+      "text": "I'll send the whole setup.",
+      "style": "acc",
+      "size": 66
+     }
+    ],
+    "blocksY": 168,
+    "pay": {
+     "text": "Free. *I'll DM it.*",
+     "y": 1030,
+     "size": 48
+    }
+   }
+  ]
+ }
+}

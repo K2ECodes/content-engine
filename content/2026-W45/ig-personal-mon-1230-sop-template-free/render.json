@@ -1,0 +1,257 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "blue",
+  "handle": "@koredekola",
+  "platform": "instagram",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "I'd pay $500",
+      "style": "acc",
+      "size": 116
+     },
+     {
+      "text": "for this. *It's free.*",
+      "style": "white",
+      "size": 88
+     }
+    ],
+    "blocksY": 300,
+    "pay": {
+     "text": "My SOP-to-skill *template.*",
+     "y": 1030,
+     "size": 48
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Why now",
+    "labelY": 100,
+    "title": "Your SOPs can\n*run in 70+ AI tools*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "video": true,
+    "fh": 560,
+    "frames": [
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
+      "x": 40,
+      "y": 0,
+      "w": 400,
+      "h": 540,
+      "pos": "50% 0%",
+      "clips": [
+       {
+        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
+        "dur": 4.5
+       },
+       {
+        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
+        "dur": 4.5
+       }
+      ]
+     },
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
+      "x": 480,
+      "y": 20,
+      "w": 400,
+      "h": 540,
+      "pos": "50% 0%",
+      "clips": [
+       {
+        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
+        "dur": 4.5
+       },
+       {
+        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
+        "dur": 4.5
+       }
+      ]
+     }
+    ],
+    "ann": [
+     {
+      "k": "What changed",
+      "v": "Anthropic made skills an open standard on Oct 22. 1 file, every tool."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Step 1",
+    "labelY": 100,
+    "title": "Pick 1 thing you\n*repeat* every week",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "list": [
+     {
+      "n": "1",
+      "text": "Answering \"where's my order?\""
+     },
+     {
+      "n": "2",
+      "text": "Writing the weekly update"
+     },
+     {
+      "n": "3",
+      "text": "Prepping a sales call"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Takes",
+      "v": "3 minutes. Pick the 1 you explain most."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Step 2",
+    "labelY": 100,
+    "title": "Write it like you're\ntraining a *new hire*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "prompt": {
+     "label": "SKILL.md, fill in the brackets",
+     "text": "---\nname: [job-name]\ndescription: [What it does.\n  Use when [the moment].]\n---\n## Steps\n1. [1 action per step]\n## Rules\n- Needs my yes before: [sending]\n- If unsure: write [ASK ME]"
+    },
+    "ann": [
+     {
+      "k": "The line that matters",
+      "v": "the description. The AI reads it to decide when to use the skill."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Step 3",
+    "labelY": 100,
+    "title": "Add 3 *real*\nexamples",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "flow": [
+     "3 emails you sent",
+     "Same folder",
+     {
+      "text": "It copies your voice",
+      "hi": true
+     }
+    ],
+    "approve": {
+     "title": "Needs your yes",
+     "main": "Send this reply",
+     "sub": "Drafted from your SOP and 3 examples.",
+     "yes": "Send it",
+     "no": "Edit"
+    },
+    "ann": [
+     {
+      "k": "Why",
+      "v": "\"friendly but brief\" means nothing. 3 real emails mean everything."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "In the sheet",
+    "labelY": 100,
+    "title": "The rest of\n*the template*",
+    "titleY": 170,
+    "bodyY": 450,
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "4",
+      "text": "Mark where it needs your yes"
+     },
+     {
+      "n": "5",
+      "text": "The test on last week's work"
+     },
+     {
+      "n": "+",
+      "text": "A worked example, start to finish"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Your first 1",
+      "v": "about 20 minutes."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 116
+     },
+     {
+      "text": "for the full template.",
+      "style": "acc",
+      "size": 76
+     }
+    ],
+    "blocksY": 300,
+    "pay": {
+     "text": "It's free. *I'll DM it.*",
+     "y": 1030,
+     "size": 48
+    }
+   }
+  ]
+ }
+}

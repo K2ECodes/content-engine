@@ -17,19 +17,19 @@
     },
     "blocks": [
      {
-      "text": "Your AI isn't dumb.",
+      "text": "Steal my 4 fixes",
       "style": "acc",
-      "size": 90
+      "size": 96
      },
      {
-      "text": "You're using it *wrong.*",
+      "text": "for AI that feels *mid.*",
       "style": "white",
       "size": 90
      }
     ],
     "blocksY": 140,
     "pay": {
-     "text": "*4 fixes* that changed how I use it.",
+     "text": "*Copy-paste* prompts inside.",
      "y": 1010,
      "size": 48
     },
@@ -61,10 +61,6 @@
     ],
     "ann": [
      {
-      "k": "Looks like",
-      "v": "the stuff you'd hand a new hire on day 1."
-     },
-     {
       "k": "Why it works",
       "v": "it stops guessing who you are."
      }
@@ -72,17 +68,10 @@
     "labelY": 100,
     "titleY": 170,
     "annY": 1050,
-    "chat": [
-     {
-      "who": "me",
-      "text": "Here's our SOP, 3 past replies and our tone. Draft the reply."
-     },
-     {
-      "who": "ai",
-      "label": "AI",
-      "text": "Done. It sounds like *you* this time."
-     }
-    ]
+    "prompt": {
+     "label": "Paste this with your files",
+     "text": "Here's our SOP, 3 past replies and our\ntone guide. Draft the reply in my voice.\nIf you're unsure, write [ASK ME]."
+    }
    },
    {
     "kind": "body",
@@ -96,8 +85,8 @@
     "bodyY": 430,
     "ann": [
      {
-      "k": "Looks like",
-      "v": "Claude Duet drafts the email, you approve it. Microsoft warns agents can act like insider threats."
+      "k": "Copy this rule",
+      "v": "\"Draft only. Never send, buy or delete without my yes.\""
      },
      {
       "k": "Why it works",
@@ -153,8 +142,8 @@
     "bodyY": 430,
     "ann": [
      {
-      "k": "Looks like",
-      "v": "the prompt you paste every morning, saved once as a skill. 70+ AI tools now read the format."
+      "k": "Do this",
+      "v": "save your morning prompt once as a skill: a name, when to use it, the steps."
      },
      {
       "k": "Why it works",
@@ -210,10 +199,6 @@
     "bodyY": 430,
     "ann": [
      {
-      "k": "Looks like",
-      "v": "a second pass before you ever see it."
-     },
-     {
       "k": "Why it works",
       "v": "it catches the mistakes you'd catch."
      }
@@ -229,13 +214,10 @@
       "hi": true
      }
     ],
-    "chat": [
-     {
-      "who": "ai",
-      "label": "AI",
-      "text": "Checked against your 6 rules. Fixed 2: the tone and a wrong price."
-     }
-    ]
+    "prompt": {
+     "label": "Add to the end of any prompt",
+     "text": "Before you show me, check your draft\nagainst my rules and fix what's off.\nThen tell me what you changed."
+    }
    },
    {
     "kind": "cta",
@@ -261,14 +243,14 @@
       "size": 116
      },
      {
-      "text": "I'll send my starter pack.",
+      "text": "I'll send all 5 prompts.",
       "style": "acc",
       "size": 70
      }
     ],
     "blocksY": 168,
     "pay": {
-     "text": "5 skills you can *copy today.*",
+     "text": "+ the permission sheet *I use.*",
      "y": 1030,
      "size": 48
     },

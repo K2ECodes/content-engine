@@ -1,0 +1,23 @@
+{
+  "channel": "ig-personal",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "calm-playbooks",
+  "execution": "checklist",
+  "topic": "sop-to-skill",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-11-02T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.mp4",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png"
+  ]
+}

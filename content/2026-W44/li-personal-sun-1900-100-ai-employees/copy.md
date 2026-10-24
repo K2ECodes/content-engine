@@ -1,28 +1,26 @@
 ## Caption
-Our company runs on 100+ AI employees. There are still 4 jobs I'd never hand them.
+We run Content Systems.ai on 100+ AI employees. These are the 3 I'd hire first, and you can copy them free.
 
-Comment AI and I'll send you the starter pack we began with: 5 skills plus the sheet that says what each one may do alone.
+Comment AI and I'll send you the full starter pack: 5 skills plus the sheet that says what each 1 may do alone.
 
-Sanjana and I built Content Systems.ai to run lean. The AI employees reply to new leads in minutes, onboard new clients, chase follow-ups and keep our calendar running.
+1. Inbox triage, drafts only. It sorts what you paste into act today, this week, FYI and ignore, then drafts the replies. It never sends.
 
-They don't get the final say on anything that leaves the building. Every email, post and payment waits for a person to tap yes. The AI drafts. We decide.
+2. A meeting brief in 3 minutes. Who's in the room, where things stand, 3 questions worth asking, and what you want out of it.
 
-And some work stays human on purpose:
-Sitting across from a client and earning their trust.
-Deciding what's worth building at all.
-Saying no to the wrong deal.
-Owning the outcome when something breaks.
+3. The follow-up writer. Call notes in, a clear email out: what you agreed, who does what by when, and the next step.
 
-That's the split I'd copy if you're starting out. Let AI do the work, keep people on the judgment.
+The instructions for all 3 are on the slides, ready to paste into Claude or ChatGPT.
 
-Comment AI and I'll send the pack.
+The other 2, and the permission sheet I never skip, are in the pack. Every AI employee we run started as a drafts-only skill like these, and none of them sends anything without a person saying yes.
+
+Comment AI and I'll DM it to you.
 
 From the build, Korede
 
 #AI #AIEmployees #ArtificialIntelligence #Automation #Founders #Startups #Leadership #FutureOfWork #Operations #Productivity #SmallBusiness #Ecommerce
 
 ## Alt text
-6-slide carousel from Korede Kolawole. Cover: Korede and his co-founder Sanjana in their studio, headline 100+ AI employees. 0 can do this., payoff box The 4 jobs that stay human. Slide 2: what they handle (lead replies, onboarding, follow-ups, scheduling), shown as a chat. Slide 3: the 1 rule, nothing goes out without a yes. Slide 4: 4 jobs they still can't do. Slide 5: quote, AI does the work, people own it. Slide 6: comment AI for the starter pack.
+6-slide carousel from Korede Kolawole in green. Cover: Korede and his co-founder Sanjana in their studio, their heads in front of the headline 3 AI employees I'd hire first, payoff box All free. Copy the setup. Slide 2: inbox triage, drafts only, with the instruction to copy. Slide 3: a meeting brief in 3 minutes, the brief's fields. Slide 4: the follow-up writer, a 3-step flow and the instruction to copy. Slide 5: what's locked in the pack (weekly numbers summary, SOP writer, the permission sheet). Last slide: Comment AI for all 5 plus the sheet, Content Systems.ai wordmark.
 
 ## Notes
 Photo carousel (templates/photo-carousel). Photos: assets/photos/korede/studio-with-sanjana.jpg (rembg cutout of both) and white-jacket-lounge.jpg.
