@@ -58,7 +58,8 @@
         "status": "built",
         "used_by": [
           "ig-company-tue-1130-5-fees-never-billed",
-          "ig-company-fri-1800-invoice-gap"
+          "ig-company-fri-1800-invoice-gap",
+          "li-company-thu-1030-record-parcel-prices"
         ],
         "file": "assets/freebies/3pl-billing-leak-checklist.pdf",
         "source": "assets/freebies/src/3pl-billing-leak-checklist.html",
@@ -71,7 +72,8 @@
         "name": "Agent-ready store check (what AI shopping assistants look for before they buy)",
         "status": "built",
         "used_by": [
-          "ig-company-fri-1130-next-customer-is-an-ai"
+          "ig-company-fri-1130-next-customer-is-an-ai",
+          "li-personal-mon-0800-walmart-vs-amazon-agents"
         ],
         "file": "assets/freebies/agent-ready-store-checklist.pdf",
         "source": "assets/freebies/src/agent-ready-store-checklist.html",
@@ -168,7 +170,8 @@
         "source": "assets/freebies/src/support-handoff-map.html",
         "pages": 3,
         "used_by": [
-          "ig-company-sun-1830-5-handoff-moments"
+          "ig-company-sun-1830-5-handoff-moments",
+          "ig-company-sat-1700-berlin-72-tickets"
         ],
         "channels": [
           "ig-company"
@@ -238,7 +241,7 @@
           "ig-company"
         ],
         "offer": "ai-workshops",
-        "note": "Evergreen workshop CTA (Korede, 2026-10-24): comment WORKSHOP + next date in bio; posts never mention a date."
+        "note": "Evergreen workshop CTA (Korede, 2026-10-24): comment WORKSHOP + next date in bio; posts never mention a date. From 2026-10-24 the WORKSHOP DM also sends the AI Employee Starter Pack (assets/freebies/ai-employee-starter-pack.pdf), so workshop covers can promise a free starter pack."
       }
     ]
   },

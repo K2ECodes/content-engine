@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
     "headline": [
-     "An AI shopper",
-     "*skipped your store*"
+     "AI shoppers skip",
+     "*your store*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(for 1 of these 5 reasons)",
+     "text": "steal our 5-point agent-ready check, free",
      "y": 520
     },
     "tree": {

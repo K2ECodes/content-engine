@@ -1,6 +1,6 @@
 ## Caption
-Stop pasting the same prompt into your AI every morning. Save it once as a skill.
-Comment AI and I'll send you my AI Employee Starter Pack: 5 starter skills you can copy.
+Still pasting the same prompt into your AI every morning? Save it once as a skill.
+Comment AI and I'll send you my free AI Employee Starter Pack: 5 starter skills you can copy.
 
 I used to keep my best prompts in a notes app. Paste it, re-explain who I am, fix the tone, and do it all again tomorrow. 5 minutes every workday is 20 hours a year.
 

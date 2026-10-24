@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
     "headline": [
-     "Every AI helper",
-     "needs *3 answers*"
+     "Your AI helper",
+     "has *no boss*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(can yours answer all 3?)",
+     "text": "free: the 1-page owner sheet we use",
      "y": 520
     },
     "tree": {

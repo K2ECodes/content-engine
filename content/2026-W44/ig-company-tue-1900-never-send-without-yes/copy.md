@@ -1,6 +1,6 @@
 ## Caption
-3 things AI should never send without a person checking first: refunds, customer emails, freight bookings.
-Comment SYSTEMS and we'll DM you our approval sheet, with the 4th action that always needs a yes.
+Your AI should never send a refund, a customer email or a freight booking alone.
+Comment SYSTEMS and we'll DM you our free approval sheet, with the 4th action that always needs a yes.
 
 We run our own company on 100+ AI employees. They draft, sort, quote and follow up all day. Not 1 of them can move money or make a promise to a customer without a person saying yes.
 

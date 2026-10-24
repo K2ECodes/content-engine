@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
     "headline": [
-     "6 lines on your",
-     "*carrier bill*"
+     "Peak fees hide on",
+     "*your carrier bill*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(check all 6 before peak season)",
+     "text": "free: the 6-line invoice check, ready to print",
      "y": 600
     },
     "brandbar": [

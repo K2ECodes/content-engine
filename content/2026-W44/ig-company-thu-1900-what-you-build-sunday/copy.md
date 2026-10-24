@@ -1,5 +1,6 @@
 ## Caption
-In our live AI workshop you build 2 AI employees. 1 answers the lead that comes in at 2 AM. The other keeps an eye on your competitors.
+Your 2 AM lead waits until 9. In our live AI workshop you build the AI employee that answers it, plus 1 that keeps an eye on your competitors.
+Comment WORKSHOP and we'll send you the details and our free AI Employee Starter Pack.
 
 It's a live, hands-on session for business owners. First you set up Claude properly on your own account. Then you build both AI employees with us. Then we open up the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
 

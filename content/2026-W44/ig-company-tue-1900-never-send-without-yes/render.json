@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
     "headline": [
-     "3 things AI should",
-     "*never send alone*"
+     "Your AI sent",
+     "*a refund alone?*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(even Anthropic and Microsoft agree)",
+     "text": "steal our approval sheet, free",
      "y": 600
     },
     "brandbar": [

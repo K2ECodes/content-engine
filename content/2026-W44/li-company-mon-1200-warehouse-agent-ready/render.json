@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
     "headline": [
-     "4 things AI shoppers",
-     "read from *your 3PL*"
+     "AI shoppers read",
+     "*your 3PL data*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(your brand can't fix them alone)",
+     "text": "free: the agent-ready check for brands and 3PLs",
      "y": 520
     },
     "tree": {

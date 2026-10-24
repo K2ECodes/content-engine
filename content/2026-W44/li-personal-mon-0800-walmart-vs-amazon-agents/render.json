@@ -15,7 +15,7 @@
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(here's what the AI shopper reads first)",
+     "text": "free: the check AI shoppers run on your store",
      "y": 545
     },
     "brandbar": [
@@ -284,10 +284,10 @@
     "size": "s",
     "underline": false,
     "cta": {
-     "keyword": "FREE QUOTE",
+     "keyword": "SYSTEMS",
      "y": 300,
-     "line": "link in bio",
-     "pill": false
+     "line": "comment it, I'll send it",
+     "pill": true
     },
     "sprites": [
      {

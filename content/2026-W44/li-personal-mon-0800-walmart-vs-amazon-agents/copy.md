@@ -1,5 +1,6 @@
 ## Caption
 Walmart just opened its store to AI shopping agents. Amazon is blocking them. Your fulfillment promise is about to be read by a machine.
+Comment SYSTEMS and I'll send you the free agent-ready store check.
 
 What happened in 10 days:
 
@@ -22,7 +23,7 @@ So the Black Friday question isn't open or closed. It's whether your 3PL data is
 
 That's what we build at Content Systems.ai: stock, delivery dates and return rules kept true across brand and 3PL, with a person approving what goes out.
 
-Want to know where your store stands? Get a free quote with your top AI opportunities: contentsystems.ai/ecommerce
+Want to know where your store stands? Comment SYSTEMS and I'll send you the check.
 
 From the build, Korede
 

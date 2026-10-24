@@ -9,13 +9,13 @@
     "accent": "#4D148C",
     "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
     "headline": [
-     "Parcel prices hit",
-     "*a record*"
+     "Parcel prices hit a record.",
+     "*Are you billing it?*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(and the reason isn't what you think)",
+     "text": "free: the 3PL billing leak checklist",
      "y": 520
     },
     "tree": {
@@ -201,10 +201,10 @@
     "size": "s",
     "underline": false,
     "cta": {
-     "keyword": "FREE QUOTE",
+     "keyword": "SYSTEMS",
      "y": 300,
-     "line": "top AI wins, link in bio",
-     "pill": false
+     "line": "comment it, we'll send it",
+     "pill": true
     },
     "sprites": [
      {

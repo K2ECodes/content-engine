@@ -9,13 +9,13 @@
     "accent": "#5E8E3E",
     "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
     "headline": [
-     "A Berlin brand's AI",
-     "answers *72 in 100*"
+     "Drowning in",
+     "*support tickets?*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(the other 28 are the smart part)",
+     "text": "free: the 5 handoffs a bot must give a person",
      "y": 545
     },
     "brandbar": [
@@ -292,16 +292,16 @@
    {
     "world": "night",
     "headline": [
-     "Want this before",
-     "*Black Friday*?"
+     "Want the free",
+     "*handoff map?*"
     ],
     "size": "xs",
     "underline": false,
     "cta": {
-     "keyword": "LINK IN BIO",
+     "keyword": "SYSTEMS",
      "y": 330,
-     "line": "your free quote",
-     "pill": false
+     "line": "comment it, we'll DM you",
+     "pill": true
     },
     "sprites": [
      {

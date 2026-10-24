@@ -9,13 +9,13 @@
     "accent": "#C2591F",
     "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
     "headline": [
-     "Turn 1 routine",
-     "into *an AI skill*"
+     "Same task",
+     "*every week?*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(step 4 is the one people skip)",
+     "text": "5 free AI skills: comment AI",
      "y": 520
     },
     "tree": {

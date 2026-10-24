@@ -1,6 +1,6 @@
 ## Caption
-Turn 1 thing you do every week into an AI skill in 20 minutes. Here's the order I do it in.
-Comment AI and I'll send you my AI Employee Starter Pack: 5 starter skills you can copy.
+Doing the same task every week? Turn it into an AI skill in 20 minutes. Here's the order I do it in.
+Comment AI and I'll send you my free AI Employee Starter Pack: 5 starter skills you can copy.
 
 Most of us already have the hard part. The weekly update email you write the same way every time. The messy notes you turn into a plan. The question you answer 10 times a month.
 

@@ -1,7 +1,7 @@
 ## Caption
 Your SOP binder now works in 70+ AI tools. Anthropic just gave Agent Skills to the Linux Foundation, and it changes how I build for warehouses.
 
-Comment AI and I'll send you the 5 skills I install first for an ops team.
+Comment AI and I'll send you the 5 skills I install first for an ops team, free.
 
 What happened: Agent Skills is now a vendor-neutral standard under the Linux Foundation's Agentic AI Foundation. 70+ agent platforms support it, including ChatGPT, Cursor, GitHub Copilot and VS Code. 1M skills published, nearly 280M installs.
 

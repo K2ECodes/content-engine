@@ -1,6 +1,6 @@
 ## Caption
-An AI shopping assistant just skipped your product. Here's what it couldn't read.
-Comment SYSTEMS and we'll DM you the agent-ready check for brands and their 3PLs.
+AI shopping assistants skip stores for 5 fixable reasons. Steal our agent-ready check and fix yours.
+Comment SYSTEMS and we'll DM you the free agent-ready check for brands and their 3PLs.
 5 mistakes in the slides.
 
 In 10 days, Walmart opened its store to outside AI shopping assistants, Google's new cart started sending back-in-stock alerts, and Meta said some shoppers using its assistant spend $200+ an order.

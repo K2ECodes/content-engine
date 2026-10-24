@@ -1,6 +1,6 @@
 ## Caption
-Shipping prices just hit a record. Check these 6 lines on every invoice before Black Friday.
-Comment SYSTEMS and we'll DM you the peak invoice check, ready to print.
+Peak fees hide on your carrier bill. Check these 6 lines on every invoice before Black Friday.
+Comment SYSTEMS and we'll DM you the free peak invoice check, ready to print.
 
 Ground rates are at an all-time high this quarter. And since 2021, 72 in 100 dollars of the fuel surcharge rise came from carrier pricing, not the price of diesel.
 

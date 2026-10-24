@@ -1,5 +1,6 @@
 ## Caption
 In our live AI workshop I build 2 AI employees with you. Before either does anything, it gets 4 rules it can't break.
+Comment WORKSHOP and I'll send you the details, plus my free AI Employee Starter Pack.
 
 This month made the case for me. Microsoft told companies to treat AI agents like insider threats. A breach at an AI coding tool ran up charges on people's AI accounts, some over $1,000. Walmart is adding spending limits for shopping agents.
 

@@ -1,5 +1,6 @@
 ## Caption
 Content Systems.ai helps 3PLs bill for every peak charge they already carry.
+Comment SYSTEMS and we'll send you our free 3PL billing leak checklist.
 
 Parcel prices hit a record this quarter, and most of the rise is carrier pricing, not fuel.
 
@@ -18,7 +19,7 @@ Deloitte says holiday spending started in October this year, so the busy stretch
 
 What a system does for you: it reads what happened in the warehouse each day, matches it to each client's agreed rates, and lists what's missing before the invoice goes out. Your team approves every line.
 
-Get a free quote with the top AI opportunities in your billing: contentsystems.ai/logistics
+Comment SYSTEMS for the checklist and find what you're not billing before peak.
 
 #3PL #Logistics #Warehousing #Fulfillment #SupplyChain #PeakSeason #Parcel #Shipping #3PLbilling #Ecommerce #Freight #Operations
 

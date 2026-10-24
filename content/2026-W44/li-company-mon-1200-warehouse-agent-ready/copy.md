@@ -1,7 +1,7 @@
 ## Caption
 Content Systems.ai helps brands and their 3PLs stay buyable when the shopper is an AI.
 
-Comment SYSTEMS and we'll send you our Agent-ready check for brands and 3PLs.
+Comment SYSTEMS and we'll send you our free Agent-ready check for brands and 3PLs.
 
 Here are 4 things your warehouse controls that an AI shopping assistant checks before it buys.
 

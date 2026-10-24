@@ -1,5 +1,5 @@
 ## Caption
-Every AI helper on your team needs an owner. 3 questions decide who owns it.
+Your AI helper has no boss. 3 questions fix that, and the 1-page owner sheet we use is free.
 Comment SYSTEMS and we'll DM you the 1-page owner sheet we use.
 
 58 in 100 managers expect to oversee more AI helpers than people within a year. Most haven't decided who checks their work.

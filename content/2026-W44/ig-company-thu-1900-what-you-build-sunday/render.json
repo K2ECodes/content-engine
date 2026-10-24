@@ -9,13 +9,13 @@
     "accent": "#D97757",
     "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
     "headline": [
-     "Build 2 AI employees",
-     "*in 120 minutes*"
+     "Your 2 AM lead",
+     "*waits till 9*"
     ],
     "size": "xl",
     "underline": true,
     "hand": {
-     "text": "(employee 2 is the one nobody builds)",
+     "text": "build the AI that answers it + a free starter pack",
      "y": 600
     },
     "brandbar": [
