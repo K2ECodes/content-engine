@@ -870,5 +870,35 @@
    }
   ],
   "vw": 430
+ },
+ {
+  "id": "approval-gate-chat-gold",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "approval-gate",
+   "acc": "#E8B84B",
+   "title": "AI chat",
+   "cmd": "check this before it goes out: reply to Sam + refund $120",
+   "input": null,
+   "out": [
+    {
+     "t": "2 things need a yes.",
+     "c": "h"
+    },
+    {
+     "t": "Refund $120 is money out. Approver: ops lead."
+    },
+    {
+     "t": "\"Arrives Thursday\" is a promise. Approver: support lead.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Send reply + refund $120",
+    "yes": "Approve",
+    "no": "Edit"
+   }
+  }
  }
 ]

@@ -70,14 +70,14 @@
       "pos": "50% 0%"
      },
      {
-      "src": "assets/demo-clips/posters/draft-only-chat-gold.png",
+      "src": "assets/demo-clips/posters/approval-gate-chat-gold.png",
       "x": 480,
       "y": 0,
       "w": 440,
       "h": 594,
       "clips": [
        {
-        "src": "assets/demo-clips/draft-only-chat-gold.mp4",
+        "src": "assets/demo-clips/approval-gate-chat-gold.mp4",
         "dur": 9
        }
       ],
