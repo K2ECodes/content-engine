@@ -1,0 +1,84 @@
+{
+ "post": "content/2026-W44/ig-personal-sat-2100-reply-all-trailer",
+ "source": "video.mp4",
+ "duration": 20.366667,
+ "created": "2026-10-24T17:36:22.382Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "trials/v01.mp4",
+   "hook": "We gave the AI the company card",
+   "caption": "Comment \"AI\" and I'll send you my AI Employee Starter Pack.\n\nWe gave the AI the company card.\n\nIt was supposed to answer a few emails.\n\nThen we gave it the company card.\n\nMine asks before it sends or spends anything.\n\nThat's the 1 rule in my starter pack.\n\nWould you give your agent the card?\n\n#AI #AIagents #halloween #AIhumor #techmemes",
+   "coverMs": 538,
+   "changes": [
+    "hook \"We gave the AI the company card\"",
+    "zoom 1.046 reframe 0.33/0.24",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.17s",
+    "audio x0.92"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "trials/v02.mp4",
+   "hook": "The scariest 20 seconds of the year",
+   "caption": "Comment \"AI\" and I'll send you my AI Employee Starter Pack.\n\nThe scariest movie of the year is 20 seconds long.\n\nIt was supposed to answer a few emails.\n\nThen we gave it the company card.\n\nMine asks before it sends or spends anything.\n\nThat's the 1 rule in my starter pack.\n\nWould you give your agent the card?\n\n#AI #AIagents #halloween #AIhumor #techmemes",
+   "coverMs": 543,
+   "changes": [
+    "hook \"The scariest 20 seconds of the year\"",
+    "zoom 1.053 reframe 0.83/0.78",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.29s",
+    "audio x1.09 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "trials/v03.mp4",
+   "hook": "It was only supposed to answer emails",
+   "caption": "Comment \"AI\" and I'll send you my AI Employee Starter Pack.\n\nIt was only supposed to answer emails.\n\nIt was supposed to answer a few emails.\n\nThen we gave it the company card.\n\nMine asks before it sends or spends anything.\n\nThat's the 1 rule in my starter pack.\n\nWould you give your agent the card?\n\n#AI #AIagents #halloween #AIhumor #techmemes",
+   "coverMs": 3497,
+   "changes": [
+    "hook \"It was only supposed to answer emails\"",
+    "zoom 1.070 reframe 0.13/0.84",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.3s",
+    "audio x0.9 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "trials/v04.mp4",
+   "hook": "POV: your AI agent hits reply all",
+   "caption": "Comment \"AI\" and I'll send you my AI Employee Starter Pack.\n\nPOV: your AI agent hits reply all.\n\nIt was supposed to answer a few emails.\n\nThen we gave it the company card.\n\nMine asks before it sends or spends anything.\n\nThat's the 1 rule in my starter pack.\n\nWould you give your agent the card?\n\n#AI #AIagents #halloween #AIhumor #techmemes",
+   "coverMs": 1730,
+   "changes": [
+    "hook \"POV: your AI agent hits reply all\"",
+    "zoom 1.040 reframe 0.48/0.64",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.33s",
+    "audio x1.03"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "trials/v05.mp4",
+   "hook": "Never give your AI the company card",
+   "caption": "Comment \"AI\" and I'll send you my AI Employee Starter Pack.\n\nRule 1: never give your AI the company card.\n\nIt was supposed to answer a few emails.\n\nThen we gave it the company card.\n\nMine asks before it sends or spends anything.\n\nThat's the 1 rule in my starter pack.\n\nWould you give your agent the card?\n\n#AI #AIagents #halloween #AIhumor #techmemes",
+   "coverMs": 1579,
+   "changes": [
+    "hook \"Never give your AI the company card\"",
+    "zoom 1.066 reframe 0.15/0.19",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.2s",
+    "audio x1.05 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}
