@@ -22,3 +22,4 @@ hyperframes/**/node_modules/
 assets/talking-head/natural-frames/
 tmp/
 content/**/snap-*.png
+content/**/trials/*-hook.png
