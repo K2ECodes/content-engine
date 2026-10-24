@@ -1,0 +1,145 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.6,
+  "tail": 1.6,
+  "keys": [
+   "stuck.",
+   "skills",
+   "yes"
+  ],
+  "coldOpen": {
+   "until": "Level#2",
+   "set": "stage",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "Every level of AI,",
+      "*where you get stuck.*"
+     ]
+    }
+   ],
+   "accent": [
+    "stuck."
+   ],
+   "actors": [
+    {
+     "sprite": "korede-point",
+     "x": 260,
+     "scale": 2.0
+    },
+    {
+     "thing": "bot",
+     "color": "#E8B84B",
+     "x": 700
+    }
+   ],
+   "beats": [
+    {
+     "at": "Every",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "people",
+     "actor": 0,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "stuck.",
+     "actor": 1,
+     "do": "sad",
+     "say": "Level 2 again"
+    }
+   ]
+  },
+  "rail": {
+   "meter": "Your AI level",
+   "accent": "#E8A80C"
+  },
+  "scenes": [
+   {
+    "at": "Level#2",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 1",
+    "emoji": "🔍",
+    "title": "Ask it *questions*",
+    "sub": "Like a search engine.",
+    "meter": 20
+   },
+   {
+    "at": "Level#3",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 2",
+    "emoji": "✍️",
+    "title": "Give it *examples*",
+    "sub": "Your tone, so it sounds like you.",
+    "meter": 40
+   },
+   {
+    "at": "Level#4",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 3",
+    "emoji": "📁",
+    "title": "Give it *your files*",
+    "sub": "Now it knows your business.",
+    "meter": 60,
+    "px": "hq"
+   },
+   {
+    "at": "Level#5",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 4",
+    "emoji": "🧩",
+    "title": "Turn repeats into *skills*",
+    "sub": "Never explain it twice.",
+    "meter": 80,
+    "accent": "#0B6E4F"
+   },
+   {
+    "at": "Level#6",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 5",
+    "emoji": "✅",
+    "title": "It runs the work, *you say yes*",
+    "sub": "Nothing goes out without you.",
+    "meter": 100
+   },
+   {
+    "at": "Most#2",
+    "world": "dark",
+    "type": "word",
+    "text": "Stuck at level 2?"
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "none"
+   },
+   {
+    "at": "Most#2",
+    "layout": "split"
+   }
+  ]
+ }
+}

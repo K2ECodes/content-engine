@@ -1,0 +1,985 @@
+{
+ "words": [
+  {
+   "w": "Tonight,",
+   "start": 0.0,
+   "end": 0.56
+  },
+  {
+   "w": "every",
+   "start": 0.88,
+   "end": 1.1
+  },
+  {
+   "w": "mosquito",
+   "start": 1.1,
+   "end": 1.6
+  },
+  {
+   "w": "on",
+   "start": 1.6,
+   "end": 1.94
+  },
+  {
+   "w": "Earth",
+   "start": 1.94,
+   "end": 2.28
+  },
+  {
+   "w": "drops",
+   "start": 2.28,
+   "end": 2.64
+  },
+  {
+   "w": "dead.",
+   "start": 2.64,
+   "end": 3.04
+  },
+  {
+   "w": "Most",
+   "start": 3.72,
+   "end": 3.9
+  },
+  {
+   "w": "of",
+   "start": 3.9,
+   "end": 4.1
+  },
+  {
+   "w": "nature",
+   "start": 4.1,
+   "end": 4.48
+  },
+  {
+   "w": "barely",
+   "start": 4.48,
+   "end": 4.94
+  },
+  {
+   "w": "notices,",
+   "start": 4.94,
+   "end": 5.48
+  },
+  {
+   "w": "but",
+   "start": 6.06,
+   "end": 6.22
+  },
+  {
+   "w": "one",
+   "start": 6.22,
+   "end": 6.56
+  },
+  {
+   "w": "flower",
+   "start": 6.56,
+   "end": 6.96
+  },
+  {
+   "w": "will.",
+   "start": 6.96,
+   "end": 7.3
+  },
+  {
+   "w": "Night",
+   "start": 8.54,
+   "end": 8.78
+  },
+  {
+   "w": "one,",
+   "start": 8.78,
+   "end": 9.02
+  },
+  {
+   "w": "no",
+   "start": 9.36,
+   "end": 9.46
+  },
+  {
+   "w": "wine",
+   "start": 9.46,
+   "end": 9.82
+  },
+  {
+   "w": "at",
+   "start": 9.82,
+   "end": 10.04
+  },
+  {
+   "w": "your",
+   "start": 10.04,
+   "end": 10.2
+  },
+  {
+   "w": "ear.",
+   "start": 10.2,
+   "end": 10.48
+  },
+  {
+   "w": "Only",
+   "start": 10.82,
+   "end": 11.1
+  },
+  {
+   "w": "females",
+   "start": 11.1,
+   "end": 11.6
+  },
+  {
+   "w": "bite.",
+   "start": 11.6,
+   "end": 12.02
+  },
+  {
+   "w": "They",
+   "start": 12.52,
+   "end": 12.6
+  },
+  {
+   "w": "need",
+   "start": 12.6,
+   "end": 12.8
+  },
+  {
+   "w": "your",
+   "start": 12.8,
+   "end": 13.02
+  },
+  {
+   "w": "blood",
+   "start": 13.02,
+   "end": 13.34
+  },
+  {
+   "w": "for",
+   "start": 13.34,
+   "end": 13.56
+  },
+  {
+   "w": "their",
+   "start": 13.56,
+   "end": 13.74
+  },
+  {
+   "w": "eggs.",
+   "start": 13.74,
+   "end": 14.16
+  },
+  {
+   "w": "Tonight,",
+   "start": 14.62,
+   "end": 14.88
+  },
+  {
+   "w": "you",
+   "start": 15.18,
+   "end": 15.28
+  },
+  {
+   "w": "sleep",
+   "start": 15.28,
+   "end": 15.62
+  },
+  {
+   "w": "without",
+   "start": 15.62,
+   "end": 16.14
+  },
+  {
+   "w": "a",
+   "start": 16.14,
+   "end": 16.34
+  },
+  {
+   "w": "single",
+   "start": 16.34,
+   "end": 16.62
+  },
+  {
+   "w": "bite.",
+   "start": 16.62,
+   "end": 16.98
+  },
+  {
+   "w": "Week",
+   "start": 19.62,
+   "end": 19.76
+  },
+  {
+   "w": "one,",
+   "start": 19.76,
+   "end": 20.14
+  },
+  {
+   "w": "the",
+   "start": 20.52,
+   "end": 20.6
+  },
+  {
+   "w": "Arctic",
+   "start": 20.6,
+   "end": 20.9
+  },
+  {
+   "w": "summer",
+   "start": 20.9,
+   "end": 21.26
+  },
+  {
+   "w": "swarms",
+   "start": 21.26,
+   "end": 21.84
+  },
+  {
+   "w": "are",
+   "start": 21.84,
+   "end": 22.0
+  },
+  {
+   "w": "gone.",
+   "start": 22.0,
+   "end": 22.28
+  },
+  {
+   "w": "Up",
+   "start": 22.7,
+   "end": 22.82
+  },
+  {
+   "w": "to",
+   "start": 22.82,
+   "end": 23.0
+  },
+  {
+   "w": "10,000,",
+   "start": 23.0,
+   "end": 23.82
+  },
+  {
+   "w": "once",
+   "start": 24.18,
+   "end": 24.5
+  },
+  {
+   "w": "fed",
+   "start": 24.5,
+   "end": 24.8
+  },
+  {
+   "w": "on",
+   "start": 24.8,
+   "end": 24.98
+  },
+  {
+   "w": "one",
+   "start": 24.98,
+   "end": 25.22
+  },
+  {
+   "w": "caribou",
+   "start": 25.22,
+   "end": 25.82
+  },
+  {
+   "w": "at",
+   "start": 25.82,
+   "end": 26.04
+  },
+  {
+   "w": "a",
+   "start": 26.04,
+   "end": 26.14
+  },
+  {
+   "w": "time.",
+   "start": 26.14,
+   "end": 26.46
+  },
+  {
+   "w": "Now",
+   "start": 26.88,
+   "end": 27.12
+  },
+  {
+   "w": "the",
+   "start": 27.12,
+   "end": 27.34
+  },
+  {
+   "w": "herds",
+   "start": 27.34,
+   "end": 27.7
+  },
+  {
+   "w": "graze,",
+   "start": 27.7,
+   "end": 28.26
+  },
+  {
+   "w": "instead",
+   "start": 28.48,
+   "end": 28.8
+  },
+  {
+   "w": "of",
+   "start": 28.8,
+   "end": 29.0
+  },
+  {
+   "w": "running.",
+   "start": 29.0,
+   "end": 29.26
+  },
+  {
+   "w": "Month",
+   "start": 29.26,
+   "end": 30.32
+  },
+  {
+   "w": "one,",
+   "start": 32.08,
+   "end": 32.5
+  },
+  {
+   "w": "pond",
+   "start": 32.8,
+   "end": 33.02
+  },
+  {
+   "w": "fish",
+   "start": 33.02,
+   "end": 33.42
+  },
+  {
+   "w": "and",
+   "start": 33.42,
+   "end": 33.64
+  },
+  {
+   "w": "dragonflies",
+   "start": 33.64,
+   "end": 34.34
+  },
+  {
+   "w": "just",
+   "start": 34.34,
+   "end": 34.78
+  },
+  {
+   "w": "eat",
+   "start": 34.78,
+   "end": 35.08
+  },
+  {
+   "w": "something",
+   "start": 35.08,
+   "end": 35.42
+  },
+  {
+   "w": "else.",
+   "start": 35.42,
+   "end": 35.8
+  },
+  {
+   "w": "But",
+   "start": 36.08,
+   "end": 36.22
+  },
+  {
+   "w": "in",
+   "start": 36.22,
+   "end": 36.38
+  },
+  {
+   "w": "northern",
+   "start": 36.38,
+   "end": 36.68
+  },
+  {
+   "w": "bugs,",
+   "start": 36.68,
+   "end": 37.24
+  },
+  {
+   "w": "one",
+   "start": 37.68,
+   "end": 37.88
+  },
+  {
+   "w": "orchid",
+   "start": 37.88,
+   "end": 38.38
+  },
+  {
+   "w": "waits.",
+   "start": 38.38,
+   "end": 38.64
+  },
+  {
+   "w": "Its",
+   "start": 39.1,
+   "end": 39.24
+  },
+  {
+   "w": "main",
+   "start": 39.24,
+   "end": 39.56
+  },
+  {
+   "w": "pollinator",
+   "start": 39.56,
+   "end": 40.14
+  },
+  {
+   "w": "was",
+   "start": 40.14,
+   "end": 40.78
+  },
+  {
+   "w": "the",
+   "start": 40.78,
+   "end": 40.96
+  },
+  {
+   "w": "mosquito.",
+   "start": 40.96,
+   "end": 41.26
+  },
+  {
+   "w": "Without",
+   "start": 41.92,
+   "end": 42.16
+  },
+  {
+   "w": "them,",
+   "start": 42.16,
+   "end": 42.48
+  },
+  {
+   "w": "it",
+   "start": 42.82,
+   "end": 42.92
+  },
+  {
+   "w": "may",
+   "start": 42.92,
+   "end": 43.08
+  },
+  {
+   "w": "stop",
+   "start": 43.08,
+   "end": 43.36
+  },
+  {
+   "w": "making",
+   "start": 43.36,
+   "end": 43.72
+  },
+  {
+   "w": "seeds.",
+   "start": 43.72,
+   "end": 44.18
+  },
+  {
+   "w": "Wait,",
+   "start": 46.93,
+   "end": 47.13
+  },
+  {
+   "w": "doesn't",
+   "start": 47.41,
+   "end": 47.65
+  },
+  {
+   "w": "chocolate",
+   "start": 47.65,
+   "end": 48.03
+  },
+  {
+   "w": "need",
+   "start": 48.03,
+   "end": 48.41
+  },
+  {
+   "w": "mosquitoes?",
+   "start": 48.41,
+   "end": 48.87
+  },
+  {
+   "w": "No,",
+   "start": 49.59,
+   "end": 49.81
+  },
+  {
+   "w": "cacao",
+   "start": 50.13,
+   "end": 50.33
+  },
+  {
+   "w": "is",
+   "start": 50.33,
+   "end": 50.85
+  },
+  {
+   "w": "pollinated",
+   "start": 50.85,
+   "end": 51.33
+  },
+  {
+   "w": "by",
+   "start": 51.33,
+   "end": 51.73
+  },
+  {
+   "w": "tiny",
+   "start": 51.73,
+   "end": 52.17
+  },
+  {
+   "w": "midges.",
+   "start": 52.17,
+   "end": 52.63
+  },
+  {
+   "w": "Your",
+   "start": 52.99,
+   "end": 53.11
+  },
+  {
+   "w": "chocolate",
+   "start": 53.11,
+   "end": 53.61
+  },
+  {
+   "w": "is",
+   "start": 53.61,
+   "end": 54.07
+  },
+  {
+   "w": "safe.",
+   "start": 54.07,
+   "end": 54.49
+  },
+  {
+   "w": "Year",
+   "start": 57.13,
+   "end": 57.41
+  },
+  {
+   "w": "one,",
+   "start": 57.41,
+   "end": 57.77
+  },
+  {
+   "w": "malaria",
+   "start": 58.27,
+   "end": 58.51
+  },
+  {
+   "w": "killed",
+   "start": 58.51,
+   "end": 59.11
+  },
+  {
+   "w": "610,000",
+   "start": 59.11,
+   "end": 60.91
+  },
+  {
+   "w": "people",
+   "start": 60.91,
+   "end": 61.27
+  },
+  {
+   "w": "in",
+   "start": 61.27,
+   "end": 61.81
+  },
+  {
+   "w": "2024.",
+   "start": 61.81,
+   "end": 62.51
+  },
+  {
+   "w": "Most",
+   "start": 62.51,
+   "end": 63.23
+  },
+  {
+   "w": "were",
+   "start": 63.23,
+   "end": 63.57
+  },
+  {
+   "w": "children",
+   "start": 63.57,
+   "end": 64.09
+  },
+  {
+   "w": "under",
+   "start": 64.09,
+   "end": 64.67
+  },
+  {
+   "w": "5.",
+   "start": 64.67,
+   "end": 65.15
+  },
+  {
+   "w": "Dengue",
+   "start": 65.49,
+   "end": 65.87
+  },
+  {
+   "w": "and",
+   "start": 65.87,
+   "end": 66.03
+  },
+  {
+   "w": "Zika",
+   "start": 66.03,
+   "end": 66.39
+  },
+  {
+   "w": "lose",
+   "start": 66.39,
+   "end": 67.01
+  },
+  {
+   "w": "their",
+   "start": 67.01,
+   "end": 67.33
+  },
+  {
+   "w": "main",
+   "start": 67.33,
+   "end": 67.61
+  },
+  {
+   "w": "carrier",
+   "start": 67.61,
+   "end": 68.01
+  },
+  {
+   "w": "too.",
+   "start": 68.01,
+   "end": 68.45
+  },
+  {
+   "w": "Over",
+   "start": 68.91,
+   "end": 69.07
+  },
+  {
+   "w": "half",
+   "start": 69.07,
+   "end": 69.41
+  },
+  {
+   "w": "a",
+   "start": 69.41,
+   "end": 69.59
+  },
+  {
+   "w": "million",
+   "start": 69.59,
+   "end": 69.79
+  },
+  {
+   "w": "people",
+   "start": 69.79,
+   "end": 70.25
+  },
+  {
+   "w": "a",
+   "start": 70.25,
+   "end": 70.75
+  },
+  {
+   "w": "year",
+   "start": 70.75,
+   "end": 71.01
+  },
+  {
+   "w": "get",
+   "start": 71.01,
+   "end": 71.21
+  },
+  {
+   "w": "to",
+   "start": 71.21,
+   "end": 71.39
+  },
+  {
+   "w": "live.",
+   "start": 71.39,
+   "end": 71.63
+  },
+  {
+   "w": "Year",
+   "start": 74.33,
+   "end": 74.49
+  },
+  {
+   "w": "10,",
+   "start": 74.49,
+   "end": 74.83
+  },
+  {
+   "w": "empty",
+   "start": 75.25,
+   "end": 75.47
+  },
+  {
+   "w": "niches",
+   "start": 75.47,
+   "end": 75.89
+  },
+  {
+   "w": "don't",
+   "start": 75.89,
+   "end": 76.25
+  },
+  {
+   "w": "stay",
+   "start": 76.25,
+   "end": 76.47
+  },
+  {
+   "w": "empty.",
+   "start": 76.47,
+   "end": 76.89
+  },
+  {
+   "w": "One",
+   "start": 77.33,
+   "end": 77.49
+  },
+  {
+   "w": "expert",
+   "start": 77.49,
+   "end": 77.93
+  },
+  {
+   "w": "predicted",
+   "start": 77.93,
+   "end": 78.45
+  },
+  {
+   "w": "a",
+   "start": 78.45,
+   "end": 78.69
+  },
+  {
+   "w": "hiccup,",
+   "start": 78.69,
+   "end": 79.09
+  },
+  {
+   "w": "then",
+   "start": 79.41,
+   "end": 79.59
+  },
+  {
+   "w": "life",
+   "start": 79.59,
+   "end": 79.91
+  },
+  {
+   "w": "moves",
+   "start": 79.91,
+   "end": 80.25
+  },
+  {
+   "w": "on.",
+   "start": 80.25,
+   "end": 80.55
+  },
+  {
+   "w": "Something",
+   "start": 80.93,
+   "end": 81.15
+  },
+  {
+   "w": "else",
+   "start": 81.15,
+   "end": 81.45
+  },
+  {
+   "w": "moves",
+   "start": 81.45,
+   "end": 81.87
+  },
+  {
+   "w": "in,",
+   "start": 81.87,
+   "end": 82.19
+  },
+  {
+   "w": "better",
+   "start": 82.55,
+   "end": 82.83
+  },
+  {
+   "w": "or",
+   "start": 82.83,
+   "end": 83.31
+  },
+  {
+   "w": "worse.",
+   "start": 83.31,
+   "end": 83.61
+  },
+  {
+   "w": "Some",
+   "start": 86.25,
+   "end": 86.41
+  },
+  {
+   "w": "say",
+   "start": 86.41,
+   "end": 86.73
+  },
+  {
+   "w": "they",
+   "start": 86.73,
+   "end": 86.91
+  },
+  {
+   "w": "killed",
+   "start": 86.91,
+   "end": 87.33
+  },
+  {
+   "w": "half",
+   "start": 87.33,
+   "end": 87.89
+  },
+  {
+   "w": "of",
+   "start": 87.89,
+   "end": 88.05
+  },
+  {
+   "w": "all",
+   "start": 88.05,
+   "end": 88.27
+  },
+  {
+   "w": "humans",
+   "start": 88.27,
+   "end": 88.71
+  },
+  {
+   "w": "who",
+   "start": 88.71,
+   "end": 88.97
+  },
+  {
+   "w": "ever",
+   "start": 88.97,
+   "end": 89.23
+  },
+  {
+   "w": "lived.",
+   "start": 89.23,
+   "end": 89.63
+  },
+  {
+   "w": "Critics",
+   "start": 90.01,
+   "end": 90.33
+  },
+  {
+   "w": "call",
+   "start": 90.33,
+   "end": 90.59
+  },
+  {
+   "w": "that",
+   "start": 90.59,
+   "end": 90.83
+  },
+  {
+   "w": "far",
+   "start": 90.83,
+   "end": 91.15
+  },
+  {
+   "w": "too",
+   "start": 91.15,
+   "end": 91.39
+  },
+  {
+   "w": "high.",
+   "start": 91.39,
+   "end": 91.75
+  },
+  {
+   "w": "So",
+   "start": 91.75,
+   "end": 92.33
+  },
+  {
+   "w": "would",
+   "start": 92.33,
+   "end": 92.69
+  },
+  {
+   "w": "you",
+   "start": 92.69,
+   "end": 92.85
+  },
+  {
+   "w": "press",
+   "start": 92.85,
+   "end": 93.09
+  },
+  {
+   "w": "the",
+   "start": 93.09,
+   "end": 93.33
+  },
+  {
+   "w": "button.",
+   "start": 93.33,
+   "end": 93.63
+  },
+  {
+   "w": "Tonight",
+   "start": 94.23,
+   "end": 94.59
+  },
+  {
+   "w": "every",
+   "start": 94.59,
+   "end": 95.13
+  },
+  {
+   "w": "mosquito",
+   "start": 95.13,
+   "end": 95.65
+  },
+  {
+   "w": "on",
+   "start": 95.65,
+   "end": 95.99
+  },
+  {
+   "w": "Earth",
+   "start": 95.99,
+   "end": 96.29
+  },
+  {
+   "w": "drops",
+   "start": 96.29,
+   "end": 96.65
+  },
+  {
+   "w": "dead.",
+   "start": 96.65,
+   "end": 97.05
+  }
+ ],
+ "text": "Tonight, every mosquito on Earth drops dead. Most of nature barely notices, but one flower will. Night one, no wine at your ear. Only females bite. They need your blood for their eggs. Tonight, you sleep without a single bite. Week one, the Arctic summer swarms are gone. Up to 10,000, once fed on one caribou at a time. Now the herds graze, instead of running. Month one, pond fish and dragonflies just eat something else. But in northern bugs, one orchid waits. Its main pollinator was the mosquito. Without them, it may stop making seeds. Wait, doesn't chocolate need mosquitoes? No, cacao is pollinated by tiny midges. Your chocolate is safe. Year one, malaria killed 610,000 people in 2024. Most were children under 5. Dengue and Zika lose their main carrier too. Over half a million people a year get to live. Year 10, empty niches don't stay empty. One expert predicted a hiccup, then life moves on. Something else moves in, better or worse. Some say they killed half of all humans who ever lived. Critics call that far too high. So would you press the button. Tonight every mosquito on Earth drops dead."
+}

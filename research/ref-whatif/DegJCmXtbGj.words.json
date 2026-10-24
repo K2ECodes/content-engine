@@ -1,0 +1,1220 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.44
+  },
+  {
+   "w": "if",
+   "start": 0.44,
+   "end": 0.56
+  },
+  {
+   "w": "a",
+   "start": 0.56,
+   "end": 0.68
+  },
+  {
+   "w": "zombie",
+   "start": 0.68,
+   "end": 1.0
+  },
+  {
+   "w": "outbreak",
+   "start": 1.0,
+   "end": 1.46
+  },
+  {
+   "w": "started",
+   "start": 1.46,
+   "end": 1.98
+  },
+  {
+   "w": "while",
+   "start": 1.98,
+   "end": 2.54
+  },
+  {
+   "w": "you",
+   "start": 2.54,
+   "end": 2.72
+  },
+  {
+   "w": "were",
+   "start": 2.72,
+   "end": 2.84
+  },
+  {
+   "w": "closing",
+   "start": 2.84,
+   "end": 3.18
+  },
+  {
+   "w": "a",
+   "start": 3.18,
+   "end": 3.4
+  },
+  {
+   "w": "supermarket",
+   "start": 3.4,
+   "end": 3.72
+  },
+  {
+   "w": "all",
+   "start": 3.72,
+   "end": 4.54
+  },
+  {
+   "w": "alone?",
+   "start": 4.54,
+   "end": 4.94
+  },
+  {
+   "w": "It's",
+   "start": 5.46,
+   "end": 6.1
+  },
+  {
+   "w": "10.52",
+   "start": 6.1,
+   "end": 6.6
+  },
+  {
+   "w": "at",
+   "start": 6.6,
+   "end": 7.02
+  },
+  {
+   "w": "night.",
+   "start": 7.02,
+   "end": 7.28
+  },
+  {
+   "w": "Eight",
+   "start": 7.84,
+   "end": 7.94
+  },
+  {
+   "w": "minutes",
+   "start": 7.94,
+   "end": 8.22
+  },
+  {
+   "w": "to",
+   "start": 8.22,
+   "end": 8.44
+  },
+  {
+   "w": "closing.",
+   "start": 8.44,
+   "end": 8.8
+  },
+  {
+   "w": "Then",
+   "start": 9.2,
+   "end": 9.54
+  },
+  {
+   "w": "your",
+   "start": 9.54,
+   "end": 9.66
+  },
+  {
+   "w": "phone",
+   "start": 9.66,
+   "end": 9.88
+  },
+  {
+   "w": "starts",
+   "start": 9.88,
+   "end": 10.14
+  },
+  {
+   "w": "screaming.",
+   "start": 10.14,
+   "end": 10.58
+  },
+  {
+   "w": "Emergency",
+   "start": 11.06,
+   "end": 11.58
+  },
+  {
+   "w": "alert.",
+   "start": 11.58,
+   "end": 11.98
+  },
+  {
+   "w": "A",
+   "start": 12.6,
+   "end": 12.64
+  },
+  {
+   "w": "deadly",
+   "start": 12.64,
+   "end": 12.94
+  },
+  {
+   "w": "infection",
+   "start": 12.94,
+   "end": 13.48
+  },
+  {
+   "w": "is",
+   "start": 13.48,
+   "end": 13.72
+  },
+  {
+   "w": "spreading",
+   "start": 13.72,
+   "end": 14.02
+  },
+  {
+   "w": "through",
+   "start": 14.02,
+   "end": 14.34
+  },
+  {
+   "w": "the",
+   "start": 14.34,
+   "end": 14.5
+  },
+  {
+   "w": "city.",
+   "start": 14.5,
+   "end": 14.74
+  },
+  {
+   "w": "Stay",
+   "start": 15.18,
+   "end": 15.42
+  },
+  {
+   "w": "inside.",
+   "start": 15.42,
+   "end": 15.94
+  },
+  {
+   "w": "Do",
+   "start": 16.48,
+   "end": 16.58
+  },
+  {
+   "w": "not",
+   "start": 16.58,
+   "end": 16.82
+  },
+  {
+   "w": "go",
+   "start": 16.82,
+   "end": 17.08
+  },
+  {
+   "w": "out.",
+   "start": 17.08,
+   "end": 17.38
+  },
+  {
+   "w": "Through",
+   "start": 17.98,
+   "end": 18.16
+  },
+  {
+   "w": "the",
+   "start": 18.16,
+   "end": 18.3
+  },
+  {
+   "w": "glass,",
+   "start": 18.3,
+   "end": 18.6
+  },
+  {
+   "w": "you",
+   "start": 19.0,
+   "end": 19.1
+  },
+  {
+   "w": "see",
+   "start": 19.1,
+   "end": 19.3
+  },
+  {
+   "w": "why.",
+   "start": 19.3,
+   "end": 19.58
+  },
+  {
+   "w": "People",
+   "start": 19.96,
+   "end": 20.2
+  },
+  {
+   "w": "are",
+   "start": 20.2,
+   "end": 20.52
+  },
+  {
+   "w": "sprinting",
+   "start": 20.52,
+   "end": 21.02
+  },
+  {
+   "w": "across",
+   "start": 21.02,
+   "end": 21.22
+  },
+  {
+   "w": "the",
+   "start": 21.22,
+   "end": 21.46
+  },
+  {
+   "w": "car",
+   "start": 21.46,
+   "end": 21.68
+  },
+  {
+   "w": "park",
+   "start": 21.68,
+   "end": 21.96
+  },
+  {
+   "w": "and",
+   "start": 21.96,
+   "end": 22.52
+  },
+  {
+   "w": "the",
+   "start": 22.52,
+   "end": 22.62
+  },
+  {
+   "w": "ones",
+   "start": 22.62,
+   "end": 22.8
+  },
+  {
+   "w": "chasing",
+   "start": 22.8,
+   "end": 23.2
+  },
+  {
+   "w": "them",
+   "start": 23.2,
+   "end": 23.44
+  },
+  {
+   "w": "never",
+   "start": 23.44,
+   "end": 23.76
+  },
+  {
+   "w": "get",
+   "start": 23.76,
+   "end": 23.96
+  },
+  {
+   "w": "tired.",
+   "start": 23.96,
+   "end": 24.32
+  },
+  {
+   "w": "Your",
+   "start": 24.94,
+   "end": 25.1
+  },
+  {
+   "w": "first",
+   "start": 25.1,
+   "end": 25.42
+  },
+  {
+   "w": "instinct?",
+   "start": 25.42,
+   "end": 25.88
+  },
+  {
+   "w": "Grab",
+   "start": 26.4,
+   "end": 26.58
+  },
+  {
+   "w": "your",
+   "start": 26.58,
+   "end": 26.76
+  },
+  {
+   "w": "keys",
+   "start": 26.76,
+   "end": 27.04
+  },
+  {
+   "w": "and",
+   "start": 27.04,
+   "end": 27.38
+  },
+  {
+   "w": "drive",
+   "start": 27.38,
+   "end": 27.66
+  },
+  {
+   "w": "home.",
+   "start": 27.66,
+   "end": 28.0
+  },
+  {
+   "w": "Don't.",
+   "start": 28.38,
+   "end": 28.86
+  },
+  {
+   "w": "Every",
+   "start": 29.5,
+   "end": 29.82
+  },
+  {
+   "w": "road",
+   "start": 29.82,
+   "end": 30.18
+  },
+  {
+   "w": "out",
+   "start": 30.18,
+   "end": 30.42
+  },
+  {
+   "w": "of",
+   "start": 30.42,
+   "end": 30.54
+  },
+  {
+   "w": "town",
+   "start": 30.54,
+   "end": 30.86
+  },
+  {
+   "w": "is",
+   "start": 30.86,
+   "end": 31.06
+  },
+  {
+   "w": "already",
+   "start": 31.06,
+   "end": 31.42
+  },
+  {
+   "w": "jammed.",
+   "start": 31.42,
+   "end": 32.04
+  },
+  {
+   "w": "Out",
+   "start": 32.38,
+   "end": 32.58
+  },
+  {
+   "w": "there,",
+   "start": 32.58,
+   "end": 32.82
+  },
+  {
+   "w": "you'd",
+   "start": 32.94,
+   "end": 33.06
+  },
+  {
+   "w": "be",
+   "start": 33.06,
+   "end": 33.2
+  },
+  {
+   "w": "trapped",
+   "start": 33.2,
+   "end": 33.44
+  },
+  {
+   "w": "in",
+   "start": 33.44,
+   "end": 33.66
+  },
+  {
+   "w": "a",
+   "start": 33.66,
+   "end": 33.76
+  },
+  {
+   "w": "car.",
+   "start": 33.76,
+   "end": 34.04
+  },
+  {
+   "w": "Because",
+   "start": 34.5,
+   "end": 34.82
+  },
+  {
+   "w": "without",
+   "start": 34.82,
+   "end": 35.1
+  },
+  {
+   "w": "realizing",
+   "start": 35.1,
+   "end": 35.6
+  },
+  {
+   "w": "it,",
+   "start": 35.6,
+   "end": 35.96
+  },
+  {
+   "w": "you're",
+   "start": 36.18,
+   "end": 36.38
+  },
+  {
+   "w": "standing",
+   "start": 36.38,
+   "end": 36.7
+  },
+  {
+   "w": "in",
+   "start": 36.7,
+   "end": 36.92
+  },
+  {
+   "w": "one",
+   "start": 36.92,
+   "end": 37.04
+  },
+  {
+   "w": "of",
+   "start": 37.04,
+   "end": 37.16
+  },
+  {
+   "w": "the",
+   "start": 37.16,
+   "end": 37.26
+  },
+  {
+   "w": "best",
+   "start": 37.26,
+   "end": 37.5
+  },
+  {
+   "w": "places",
+   "start": 37.5,
+   "end": 37.88
+  },
+  {
+   "w": "to",
+   "start": 37.88,
+   "end": 38.1
+  },
+  {
+   "w": "survive",
+   "start": 38.1,
+   "end": 38.48
+  },
+  {
+   "w": "this.",
+   "start": 38.48,
+   "end": 38.8
+  },
+  {
+   "w": "30,000",
+   "start": 39.28,
+   "end": 39.92
+  },
+  {
+   "w": "products.",
+   "start": 39.92,
+   "end": 40.28
+  },
+  {
+   "w": "A",
+   "start": 40.7,
+   "end": 40.82
+  },
+  {
+   "w": "steel",
+   "start": 40.82,
+   "end": 41.1
+  },
+  {
+   "w": "shutter.",
+   "start": 41.1,
+   "end": 41.46
+  },
+  {
+   "w": "A",
+   "start": 41.98,
+   "end": 42.06
+  },
+  {
+   "w": "loading",
+   "start": 42.06,
+   "end": 42.34
+  },
+  {
+   "w": "dock",
+   "start": 42.34,
+   "end": 42.62
+  },
+  {
+   "w": "you",
+   "start": 42.62,
+   "end": 42.76
+  },
+  {
+   "w": "can",
+   "start": 42.76,
+   "end": 42.88
+  },
+  {
+   "w": "lock.",
+   "start": 42.88,
+   "end": 43.12
+  },
+  {
+   "w": "But",
+   "start": 43.72,
+   "end": 43.88
+  },
+  {
+   "w": "only",
+   "start": 43.88,
+   "end": 44.26
+  },
+  {
+   "w": "if",
+   "start": 44.26,
+   "end": 44.5
+  },
+  {
+   "w": "you",
+   "start": 44.5,
+   "end": 44.6
+  },
+  {
+   "w": "fix",
+   "start": 44.6,
+   "end": 44.84
+  },
+  {
+   "w": "one",
+   "start": 44.84,
+   "end": 45.16
+  },
+  {
+   "w": "problem",
+   "start": 45.16,
+   "end": 45.6
+  },
+  {
+   "w": "in",
+   "start": 45.6,
+   "end": 45.76
+  },
+  {
+   "w": "the",
+   "start": 45.76,
+   "end": 45.86
+  },
+  {
+   "w": "next",
+   "start": 45.86,
+   "end": 46.04
+  },
+  {
+   "w": "five",
+   "start": 46.04,
+   "end": 46.34
+  },
+  {
+   "w": "minutes.",
+   "start": 46.34,
+   "end": 46.62
+  },
+  {
+   "w": "The",
+   "start": 47.44,
+   "end": 47.56
+  },
+  {
+   "w": "whole",
+   "start": 47.56,
+   "end": 47.76
+  },
+  {
+   "w": "front",
+   "start": 47.76,
+   "end": 48.0
+  },
+  {
+   "w": "of",
+   "start": 48.0,
+   "end": 48.16
+  },
+  {
+   "w": "the",
+   "start": 48.16,
+   "end": 48.28
+  },
+  {
+   "w": "shop",
+   "start": 48.28,
+   "end": 48.52
+  },
+  {
+   "w": "is",
+   "start": 48.52,
+   "end": 48.7
+  },
+  {
+   "w": "glass.",
+   "start": 48.7,
+   "end": 49.02
+  },
+  {
+   "w": "Every",
+   "start": 49.4,
+   "end": 49.62
+  },
+  {
+   "w": "light",
+   "start": 49.62,
+   "end": 49.9
+  },
+  {
+   "w": "is",
+   "start": 49.9,
+   "end": 50.08
+  },
+  {
+   "w": "still",
+   "start": 50.08,
+   "end": 50.28
+  },
+  {
+   "w": "on.",
+   "start": 50.28,
+   "end": 50.52
+  },
+  {
+   "w": "And",
+   "start": 50.96,
+   "end": 51.08
+  },
+  {
+   "w": "they've",
+   "start": 51.08,
+   "end": 51.26
+  },
+  {
+   "w": "noticed.",
+   "start": 51.26,
+   "end": 51.56
+  },
+  {
+   "w": "You",
+   "start": 52.22,
+   "end": 52.34
+  },
+  {
+   "w": "slam",
+   "start": 52.34,
+   "end": 52.6
+  },
+  {
+   "w": "the",
+   "start": 52.6,
+   "end": 52.8
+  },
+  {
+   "w": "shutter",
+   "start": 52.8,
+   "end": 53.0
+  },
+  {
+   "w": "button.",
+   "start": 53.0,
+   "end": 53.32
+  },
+  {
+   "w": "It",
+   "start": 53.56,
+   "end": 53.66
+  },
+  {
+   "w": "rolls",
+   "start": 53.66,
+   "end": 53.86
+  },
+  {
+   "w": "down",
+   "start": 53.86,
+   "end": 54.24
+  },
+  {
+   "w": "and",
+   "start": 54.24,
+   "end": 54.6
+  },
+  {
+   "w": "jams.",
+   "start": 54.6,
+   "end": 55.16
+  },
+  {
+   "w": "Knee",
+   "start": 55.56,
+   "end": 55.82
+  },
+  {
+   "w": "height.",
+   "start": 55.82,
+   "end": 56.0
+  },
+  {
+   "w": "Shutters",
+   "start": 56.0,
+   "end": 56.88
+  },
+  {
+   "w": "like",
+   "start": 56.88,
+   "end": 57.1
+  },
+  {
+   "w": "this",
+   "start": 57.1,
+   "end": 57.36
+  },
+  {
+   "w": "have",
+   "start": 57.36,
+   "end": 57.54
+  },
+  {
+   "w": "a",
+   "start": 57.54,
+   "end": 57.64
+  },
+  {
+   "w": "hand",
+   "start": 57.64,
+   "end": 57.9
+  },
+  {
+   "w": "chain.",
+   "start": 57.9,
+   "end": 58.2
+  },
+  {
+   "w": "For",
+   "start": 58.64,
+   "end": 58.72
+  },
+  {
+   "w": "when",
+   "start": 58.72,
+   "end": 58.86
+  },
+  {
+   "w": "the",
+   "start": 58.86,
+   "end": 58.96
+  },
+  {
+   "w": "motor",
+   "start": 58.96,
+   "end": 59.12
+  },
+  {
+   "w": "fails.",
+   "start": 59.12,
+   "end": 59.52
+  },
+  {
+   "w": "40",
+   "start": 60.12,
+   "end": 60.36
+  },
+  {
+   "w": "pulls.",
+   "start": 60.36,
+   "end": 60.68
+  },
+  {
+   "w": "38,",
+   "start": 61.24,
+   "end": 61.76
+  },
+  {
+   "w": "39.",
+   "start": 62.16,
+   "end": 62.58
+  },
+  {
+   "w": "Something",
+   "start": 62.96,
+   "end": 63.12
+  },
+  {
+   "w": "grabs",
+   "start": 63.12,
+   "end": 63.44
+  },
+  {
+   "w": "the",
+   "start": 63.44,
+   "end": 63.68
+  },
+  {
+   "w": "bottom",
+   "start": 63.68,
+   "end": 63.86
+  },
+  {
+   "w": "edge.",
+   "start": 63.86,
+   "end": 64.18
+  },
+  {
+   "w": "Then",
+   "start": 64.42,
+   "end": 64.54
+  },
+  {
+   "w": "let's",
+   "start": 64.54,
+   "end": 64.82
+  },
+  {
+   "w": "go.",
+   "start": 64.82,
+   "end": 65.02
+  },
+  {
+   "w": "40.",
+   "start": 65.5,
+   "end": 65.78
+  },
+  {
+   "w": "The",
+   "start": 66.4,
+   "end": 66.5
+  },
+  {
+   "w": "shutter",
+   "start": 66.5,
+   "end": 66.72
+  },
+  {
+   "w": "hits",
+   "start": 66.72,
+   "end": 67.0
+  },
+  {
+   "w": "the",
+   "start": 67.0,
+   "end": 67.18
+  },
+  {
+   "w": "floor.",
+   "start": 67.18,
+   "end": 67.42
+  },
+  {
+   "w": "Shop",
+   "start": 68.24,
+   "end": 68.44
+  },
+  {
+   "w": "rule",
+   "start": 68.44,
+   "end": 68.7
+  },
+  {
+   "w": "one.",
+   "start": 68.7,
+   "end": 69.06
+  },
+  {
+   "w": "If",
+   "start": 69.48,
+   "end": 69.56
+  },
+  {
+   "w": "they",
+   "start": 69.56,
+   "end": 69.72
+  },
+  {
+   "w": "can",
+   "start": 69.72,
+   "end": 69.88
+  },
+  {
+   "w": "see",
+   "start": 69.88,
+   "end": 70.12
+  },
+  {
+   "w": "you,",
+   "start": 70.12,
+   "end": 70.32
+  },
+  {
+   "w": "they",
+   "start": 70.58,
+   "end": 70.66
+  },
+  {
+   "w": "come.",
+   "start": 70.66,
+   "end": 70.96
+  },
+  {
+   "w": "Lights",
+   "start": 71.72,
+   "end": 71.92
+  },
+  {
+   "w": "off.",
+   "start": 71.92,
+   "end": 72.28
+  },
+  {
+   "w": "In",
+   "start": 73.14,
+   "end": 73.26
+  },
+  {
+   "w": "the",
+   "start": 73.26,
+   "end": 73.38
+  },
+  {
+   "w": "dark,",
+   "start": 73.38,
+   "end": 73.66
+  },
+  {
+   "w": "you",
+   "start": 73.84,
+   "end": 73.9
+  },
+  {
+   "w": "count",
+   "start": 73.9,
+   "end": 74.2
+  },
+  {
+   "w": "what",
+   "start": 74.2,
+   "end": 74.36
+  },
+  {
+   "w": "you've",
+   "start": 74.36,
+   "end": 74.54
+  },
+  {
+   "w": "got.",
+   "start": 74.54,
+   "end": 74.76
+  },
+  {
+   "w": "Food",
+   "start": 75.24,
+   "end": 75.58
+  },
+  {
+   "w": "for",
+   "start": 75.58,
+   "end": 75.8
+  },
+  {
+   "w": "years.",
+   "start": 75.8,
+   "end": 76.1
+  },
+  {
+   "w": "Water",
+   "start": 76.56,
+   "end": 76.72
+  },
+  {
+   "w": "for",
+   "start": 76.72,
+   "end": 76.92
+  },
+  {
+   "w": "months.",
+   "start": 76.92,
+   "end": 77.16
+  },
+  {
+   "w": "For",
+   "start": 77.76,
+   "end": 77.92
+  },
+  {
+   "w": "the",
+   "start": 77.92,
+   "end": 78.04
+  },
+  {
+   "w": "first",
+   "start": 78.04,
+   "end": 78.24
+  },
+  {
+   "w": "time",
+   "start": 78.24,
+   "end": 78.56
+  },
+  {
+   "w": "tonight,",
+   "start": 78.56,
+   "end": 78.92
+  },
+  {
+   "w": "you",
+   "start": 79.32,
+   "end": 79.46
+  },
+  {
+   "w": "breathe.",
+   "start": 79.46,
+   "end": 79.74
+  },
+  {
+   "w": "Then",
+   "start": 80.8,
+   "end": 81.18
+  },
+  {
+   "w": "the",
+   "start": 81.18,
+   "end": 81.34
+  },
+  {
+   "w": "night",
+   "start": 81.34,
+   "end": 81.56
+  },
+  {
+   "w": "guard's",
+   "start": 81.56,
+   "end": 81.98
+  },
+  {
+   "w": "walkie",
+   "start": 81.98,
+   "end": 82.34
+  },
+  {
+   "w": "-talkie",
+   "start": 82.34,
+   "end": 82.72
+  },
+  {
+   "w": "crackles",
+   "start": 82.72,
+   "end": 83.14
+  },
+  {
+   "w": "on",
+   "start": 83.14,
+   "end": 83.24
+  },
+  {
+   "w": "the",
+   "start": 83.24,
+   "end": 83.36
+  },
+  {
+   "w": "counter.",
+   "start": 83.36,
+   "end": 83.66
+  },
+  {
+   "w": "He",
+   "start": 84.22,
+   "end": 84.34
+  },
+  {
+   "w": "went",
+   "start": 84.34,
+   "end": 84.52
+  },
+  {
+   "w": "home",
+   "start": 84.52,
+   "end": 84.76
+  },
+  {
+   "w": "at",
+   "start": 84.76,
+   "end": 84.9
+  },
+  {
+   "w": "10.",
+   "start": 84.9,
+   "end": 85.2
+  },
+  {
+   "w": "Someone",
+   "start": 86.02,
+   "end": 86.38
+  },
+  {
+   "w": "whispers",
+   "start": 86.38,
+   "end": 86.74
+  },
+  {
+   "w": "into",
+   "start": 86.74,
+   "end": 87.02
+  },
+  {
+   "w": "it.",
+   "start": 87.02,
+   "end": 87.16
+  },
+  {
+   "w": "Who",
+   "start": 87.56,
+   "end": 87.88
+  },
+  {
+   "w": "turned",
+   "start": 87.88,
+   "end": 88.1
+  },
+  {
+   "w": "off",
+   "start": 88.1,
+   "end": 88.28
+  },
+  {
+   "w": "the",
+   "start": 88.28,
+   "end": 88.42
+  },
+  {
+   "w": "lights?",
+   "start": 88.42,
+   "end": 88.6
+  }
+ ],
+ "text": "What if a zombie outbreak started while you were closing a supermarket all alone? It's 10.52 at night. Eight minutes to closing. Then your phone starts screaming. Emergency alert. A deadly infection is spreading through the city. Stay inside. Do not go out. Through the glass, you see why. People are sprinting across the car park and the ones chasing them never get tired. Your first instinct? Grab your keys and drive home. Don't. Every road out of town is already jammed. Out there, you'd be trapped in a car. Because without realizing it, you're standing in one of the best places to survive this. 30,000 products. A steel shutter. A loading dock you can lock. But only if you fix one problem in the next five minutes. The whole front of the shop is glass. Every light is still on. And they've noticed. You slam the shutter button. It rolls down and jams. Knee height. Shutters like this have a hand chain. For when the motor fails. 40 pulls. 38, 39. Something grabs the bottom edge. Then let's go. 40. The shutter hits the floor. Shop rule one. If they can see you, they come. Lights off. In the dark, you count what you've got. Food for years. Water for months. For the first time tonight, you breathe. Then the night guard's walkie-talkie crackles on the counter. He went home at 10. Someone whispers into it. Who turned off the lights?"
+}

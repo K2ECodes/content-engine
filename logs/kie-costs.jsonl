@@ -327,3 +327,6 @@
 {"ts":"2026-10-24T06:12:08.017Z","model":"nano-banana-2","taskId":"872209a2e80e130dbbe05f23385cc191","state":"success","credits":12,"usd":0.06,"label":"reply-all likeness printer2.png"}
 {"ts":"2026-10-24T06:12:42.528Z","model":"volcengine/video-to-video-lip-sync","taskId":"e279c3c103000b7131e7a920b9decdd4","state":"success","credits":16,"usd":0.08,"label":"reply-all whisper real face"}
 {"ts":"2026-10-24T06:14:36.796Z","model":"volcengine/video-to-video-lip-sync","taskId":"77a4f816fc45b5bf27db01aa9d0cffe3","state":"success","credits":32,"usd":0.16,"label":"ig-personal-fri-1230-you-decide-ai-spent-4000 talk 0"}
+{"ts":"2026-10-24T06:16:22.148Z","model":"volcengine/video-to-video-lip-sync","taskId":"ca966ceb67e5b987f25d21d9415b6156","state":"success","credits":16,"usd":0.08,"label":"ig-personal-sun-1100-every-level-of-ai talk 0"}
+{"ts":"2026-10-24T06:16:34.708Z","model":"volcengine/video-to-video-lip-sync","taskId":"051a2e2f1f782dce7f1d88b4af9f9a7f","state":"success","credits":24,"usd":0.12,"label":"ig-personal-fri-1230-you-decide-ai-spent-4000 talk 1"}
+{"ts":"2026-10-24T06:18:20.112Z","model":"volcengine/video-to-video-lip-sync","taskId":"fd278f0c79b2f47a61451d797e49f263","state":"success","credits":48,"usd":0.24,"label":"ig-personal-sun-1100-every-level-of-ai talk 1"}
