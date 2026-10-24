@@ -50,7 +50,7 @@ Save this before Black Friday.
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 ```
 
-## 3. Company LinkedIn carousel
+## 3. Company LinkedIn carousel (POSTED via Schedchie Oct 24)
 Folder: `content/2026-W43/li-company-fri-1200-parcel-invoice-check` · media: carousel.pdf · keyword: -
 
 ```

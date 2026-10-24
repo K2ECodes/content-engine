@@ -9,7 +9,7 @@
   "cta_keyword": null,
   "slot": "2026-10-23T12:00",
   "timezone": "America/New_York",
-  "status": "draft",
+  "status": "published",
   "topic": "parcel-invoice-check-peak",
   "media": [
     "slide-01.png",
@@ -21,5 +21,6 @@
     "slide-07.png",
     "slide-08.png",
     "slide-09.png"
-  ]
+  ],
+  "published_at": "2026-10-24"
 }
