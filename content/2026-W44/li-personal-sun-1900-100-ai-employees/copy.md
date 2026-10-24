@@ -5,15 +5,15 @@ Comment AI and I'll send you all 5 starter skills plus the permission sheet, fre
 
 We run Content Systems.ai on 100+ AI employees. Every 1 of them started as a small, drafts-only skill like these:
 
-/inbox-triage sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies. It never sends.
+Skill 1 sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies. It never sends.
 
-/meeting-prep hands you a 1-page brief 15 minutes before the call: who's in the room, where things stand, 3 questions worth asking.
+Skill 2 hands you a 1-page brief 15 minutes before the call: who's in the room, where things stand, 3 questions worth asking.
 
-/follow-up-writer turns call notes into a clear email: what you agreed, who does what by when, the next step.
+Skill 3 turns call notes into a clear email: what you agreed, who does what by when, the next step.
 
 They're real SKILL.md files. Drop them into Claude, or paste them into a project in any AI chat. No code.
 
-/weekly-numbers, /sop-writer and the permission sheet are in the pack too. The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
+2 more skills and the permission sheet are in the pack too. The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
 
 Comment AI and I'll DM it to you.
 

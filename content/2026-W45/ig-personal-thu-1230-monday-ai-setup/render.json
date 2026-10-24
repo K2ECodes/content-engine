@@ -9,7 +9,7 @@
     "kind": "cover",
     "photo": {
      "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 80px",
+     "pos": "50% 0px",
      "dim": {
       "top": 0.55,
       "bot": 0.6
@@ -17,26 +17,21 @@
      "front": "assets/photos/korede/cutouts/white-jacket-lounge-full.png"
     },
     "bgc": "#120c09",
-    "news": {
-     "tag": "Grr",
-     "text": "Mondays",
-     "y": 50
-    },
     "blocks": [
      {
-      "text": "Grr. Mondays.",
+      "text": "Mondays eat",
       "style": "acc",
-      "size": 100
+      "size": 110
      },
      {
-      "text": "*3 skills* fix them.",
+      "text": "your *whole morning?*",
       "style": "white",
-      "size": 90
+      "size": 88
      }
     ],
-    "blocksY": 140,
+    "blocksY": 36,
     "pay": {
-     "text": "Free: */weekly-numbers* + 2 more.",
+     "text": "*3 skills* fix that. Swipe.",
      "y": 1010,
      "size": 46
     }

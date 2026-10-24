@@ -5,11 +5,11 @@ Comment SYSTEMS and I'll send you all 3 skills plus the approval sheet, free.
 
 Content Systems.ai runs on 100+ AI employees. They draft, sort, quote and follow up all day. Not 1 of them moves money or makes a promise without a person saying yes. These 3 skills are how:
 
-/approval-gate checks every draft or action for the 4 things that always wait: money out, messages that promise something, quotes and bookings, and deleting records. The risky 1 becomes an approval request with the approver named. The rest goes.
+Skill 1 checks every draft or action for the 4 things that always wait: money out, messages that promise something, quotes and bookings, and deleting records. The risky 1 becomes an approval request with the approver named. The rest goes.
 
-/promise-check marks every line in a customer reply that promises a date, a refund or an exception, and checks it against your policy.
+Skill 2 marks every line in a customer reply that promises a date, a refund or an exception, and checks it against your policy.
 
-/draft-only prepares the action, the booking, the refund, and waits for your yes.
+Skill 3 prepares the action, the booking, the refund, and waits for your yes.
 
 They're real SKILL.md files for Claude or any AI chat. The approval sheet tells your team who signs off on what.
 

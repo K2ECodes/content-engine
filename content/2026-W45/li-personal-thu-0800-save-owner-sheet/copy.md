@@ -1,5 +1,5 @@
 ## Caption
-Who's watching your AI helpers? These 2 free skills fix it: /helper-owner and /daily-note.
+Who's watching your AI helpers? 2 free skills fix it.
 
 Comment SYSTEMS and I'll send you both skills plus the 1-page owner sheet, free.
 
@@ -7,9 +7,9 @@ Comment SYSTEMS and I'll send you both skills plus the 1-page owner sheet, free.
 
 We run Content Systems.ai on 100+ AI employees, and every 1 has a person's name on it.
 
-/helper-owner writes the owner sheet for each helper: its job, its owner and backup, what it does alone, what needs a yes, what it never does, and its off switch.
+Skill 1 writes the owner sheet for each helper: its job, its owner and backup, what it does alone, what needs a yes, what it never does, and its off switch.
 
-/daily-note has the helper send its owner a 30-second note every day: what it handled, what it passed on, what got corrected, and anything unusual.
+Skill 2 has the helper send its owner a 30-second note every day: what it handled, what it passed on, what got corrected, and anything unusual.
 
 A helper that drifts gets noticed by its owner, not a customer.
 

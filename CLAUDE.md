@@ -58,6 +58,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 - **Personal carousels (Korede, 2026-10-24)**: 1 photo of him per carousel, background swapped now and then, the same photo blurred behind the inner slides with clean visuals on top. Simple, professional, clean.
 - **Memes and hook covers (Korede, 2026-10-24)**: covers must use current, scroll-stopping hook styles; sometimes put a relevant, up-to-date meme (format trending in the last 2 weeks) on the cover or last slide of a carousel, rebuilt with our cast, Korede's photo or a generated image in that format. Personal carousels: Korede's head in front of the title (depth layering, never cropped), a visual on every slide (never an empty slide), varied colour themes (no blue; Korede dislikes it), and video slides where there's footage to show.
 
+- **Never name the skill/tool on the cover or in the caption's first 3 lines (Korede, 2026-10-24)**: say "this skill" / "these 3 skills" and make people swipe for the names; no slash-names in captions at all. No cringe meme captions like "Grr Mondays".
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

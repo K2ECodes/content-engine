@@ -30,7 +30,7 @@
     ],
     "blocksY": 300,
     "pay": {
-     "text": "This free skill fixes it: */sop-to-skill*",
+     "text": "*This skill* fixes it. Swipe.",
      "y": 1030,
      "size": 44
     }
