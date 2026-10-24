@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Spread trial-reel variants over the coming days (research/trial-reels.md, .claude/skills/trial-reels/SKILL.md).
-// Eligible: video posts on ig-personal / ig-company with <post>/trials/manifest.json. Skips variants already in logs/trial-posts.jsonl.
+// Eligible: video posts on ig-personal / ig-company with content/_trials/<post-id>/manifest.json. Skips variants already in logs/trial-posts.jsonl.
 // Rules: max --perDay (3) per account per day at --times (09:00,13:00,19:00 America/New_York), never 2 variants of the same
 // video within 24 h, posts rotate round-robin so every video gets tested.
 //   node scripts/trial-plan.mjs [--start 2026-10-25] [--days 7] [--perDay 3] [--times 09:00,13:00,19:00] [--out tmp/trial-plan.json]
@@ -38,7 +38,7 @@ if (fs.existsSync(logFile)) for (const l of fs.readFileSync(logFile, 'utf8').spl
 const pools = {};
 for (const week of fs.readdirSync(path.join(ROOT, 'content')).filter((w) => /^\d{4}-W\d{2}$/.test(w)).sort()) {
   for (const id of fs.readdirSync(path.join(ROOT, 'content', week)).sort()) {
-    const dir = path.join(ROOT, 'content', week, id), man = path.join(dir, 'trials/manifest.json'), metaF = path.join(dir, 'meta.json');
+    const dir = path.join(ROOT, 'content', week, id), man = path.join(ROOT, 'content/_trials', id, 'manifest.json'), metaF = path.join(dir, 'meta.json');
     if (!fs.existsSync(man) || !fs.existsSync(metaF)) continue;
     const meta = JSON.parse(fs.readFileSync(metaF, 'utf8'));
     if (meta.format !== 'video' || !ACCOUNTS[meta.channel] || meta.trials === 'done') continue;
@@ -57,7 +57,7 @@ for (const [channel, posts] of Object.entries(pools)) {
       const p = posts[(rr + k) % posts.length];
       if (!p.left.length || (lastAt[p.post] && ms - lastAt[p.post] < 24 * 3600e3)) continue;
       const v = p.left.shift();
-      plan.push({ account: ACCOUNTS[channel].name, accountId: ACCOUNTS[channel].id, post: p.post, variant: v.id, file: path.join(p.post, v.file), scheduledTime: when, local: `${ymd} ${hm} ET`,
+      plan.push({ account: ACCOUNTS[channel].name, accountId: ACCOUNTS[channel].id, post: p.post, variant: v.id, file: v.file.startsWith("content/") ? v.file : path.join("content/_trials", path.basename(p.post), path.basename(v.file)), scheduledTime: when, local: `${ymd} ${hm} ET`,
         hook: v.hook, caption: v.caption, coverMs: v.coverMs, trialReel: true, changes: v.changes });
       lastAt[p.post] = ms; rr = (rr + k + 1) % posts.length;
       break;

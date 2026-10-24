@@ -9,7 +9,7 @@ Korede posts the main reels by hand. Schedchie posts **trial reels** of the same
 
 ## 1. Variants (free, local)
 1. Write `<post>/trials.json` for each reel: `hooks` (5 to 10 short hook lines, house style, no em dashes or exclamation marks), `captions` (one full caption per hook in the CLAUDE.md caption style: line 1 `Comment "KEYWORD" and I'll send you ...`, then short single-sentence lines each its own paragraph, @mentions where natural, exactly 5 hashtags), and `hookY` (y in 1920 where the hook pill sits without covering the video's own text: check a frame first).
-2. `node scripts/trial-variants.mjs <post> --n 10` writes `trials/v01.mp4 ...` and `trials/manifest.json`. Every variant changes 3+ elements: hook pill for the first ~2.4 s, zoom 1.03 to 1.08 + reframe, colour grade (6 presets, never the same twice in a row), speed 0.97 to 1.03 (pitch kept), start trim 0.1 to 0.4 s, audio level, often an extra SFX hit, and a different cover frame. Never mirrored.
+2. `node scripts/trial-variants.mjs <post> --n 10` writes `content/_trials/<post-id>/v01.mp4 ...` and `manifest.json` (a separate folder: never post these as main posts). Every variant changes 3+ elements: hook pill for the first ~2.4 s, zoom 1.03 to 1.08 + reframe, colour grade (6 presets, never the same twice in a row), speed 0.97 to 1.03 (pitch kept), start trim 0.1 to 0.4 s, audio level, often an extra SFX hit, and a different cover frame. Never mirrored.
 3. Check 1 frame per variant (ffmpeg tile) before planning: the hook pill must not cover text or faces.
 
 ## 2. Plan
