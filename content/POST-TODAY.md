@@ -1,8 +1,8 @@
 # Post today (Sat Oct 24)
 
-Posting manually, order is a suggestion. Already posted: li-personal-fri-0800-nothing-sends-without-yes.
+Posting manually, order is a suggestion. Already posted: li-personal-fri-0800-nothing-sends-without-yes, ig-personal-fri-1230-ai-wont-spend-without-asking.
 
-## 1. @koredekola reel
+## 1. @koredekola reel (POSTED Oct 24)
 Folder: `content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking` · media: video.mp4 · keyword: AI
 
 ```

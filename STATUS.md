@@ -1,6 +1,6 @@
 ## Posting (updated 2026-10-24)
 - Posting is manual for now (Schedchie not connected). Slots in meta.json are a guide, not rigid.
-- Posted: W43 li-personal-fri-0800-nothing-sends-without-yes (Oct 23).
+- Posted: W43 li-personal-fri-0800-nothing-sends-without-yes (Oct 23); W43 ig-personal-fri-1230-ai-wont-spend-without-asking (Oct 24).
 - Today's picks: content/POST-TODAY.md (W43 leftovers + best Saturday carousels).
 
 ## W45 (Nov 2 to Nov 8), built 2026-10-24 overnight

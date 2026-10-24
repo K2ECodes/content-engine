@@ -10,9 +10,10 @@
   "cta_keyword": "AI",
   "slot": "2026-10-23T12:30",
   "timezone": "America/New_York",
-  "status": "draft",
+  "status": "published",
   "media": [
     "video.mp4",
     "poster.png"
-  ]
+  ],
+  "published_at": "2026-10-24"
 }
