@@ -345,3 +345,10 @@
 {"ts":"2026-10-24T14:43:03.944Z","model":"recraft/crisp-upscale","taskId":"cbca5b39ee60c411bcbbda5eaea06486","state":"success","credits":0.5,"usd":0.0025,"label":"upscale lounge"}
 {"ts":"2026-10-24T14:43:30.611Z","model":"recraft/crisp-upscale","taskId":"11938de19f88a2cd0e3dd273326c5de4","state":"success","credits":0.5,"usd":0.0025,"label":"upscale rooftop"}
 {"ts":"2026-10-24T14:43:46.537Z","model":"recraft/crisp-upscale","taskId":"820f606b2df567c31e23207f50d62e40","state":"success","credits":0.5,"usd":0.0025,"label":"upscale studio"}
+{"ts":"2026-10-24T14:45:57.898Z","model":"volcengine/video-to-video-lip-sync","taskId":"3617263d114236661db91e2813f83f26","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 0"}
+{"ts":"2026-10-24T14:46:36.767Z","model":"volcengine/video-to-video-lip-sync","taskId":"dfa4e1c84c0332bc4ac833255439f0c2","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 0"}
+{"ts":"2026-10-24T14:48:51.258Z","model":"volcengine/video-to-video-lip-sync","taskId":"2a6804c5bbc4155bd43590592f5a4023","state":"success","credits":32,"usd":0.16,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 0"}
+{"ts":"2026-10-24T14:49:47.221Z","model":"volcengine/video-to-video-lip-sync","taskId":"d30e4e2ffa48c9d9882b63d8fca80ecb","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
+{"ts":"2026-10-24T14:50:41.353Z","model":"volcengine/video-to-video-lip-sync","taskId":"a3910e072fc55b3bbb46ca8d06568737","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
+{"ts":"2026-10-24T14:51:39.333Z","model":"volcengine/video-to-video-lip-sync","taskId":"b0699621dd733b29047cb4980f69907a","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
+{"ts":"2026-10-24T14:56:34.455Z","model":"volcengine/video-to-video-lip-sync","taskId":"171a1d0c44f99cf59d0758427c7522a0","state":"success","credits":24,"usd":0.12,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}

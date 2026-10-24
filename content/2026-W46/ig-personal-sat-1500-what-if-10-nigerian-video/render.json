@@ -1,0 +1,200 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "script": "What if everyone on Earth woke up 10% Nigerian? I'm Nigerian. Let me walk you through it. Day 1. Every DNA test says Nigeria. 8.2B people with Nigerian roots. Yesterday, it was 237M. Day 2. The people who hated us are us now. Hate forums go quiet. Family group chats don't. Day 3. Every parent on Earth asks why you're not a doctor yet. Week 1. Everyone wants the passport. The embassy says no. You need a Nigerian parent, and 10% doesn't count. Week 2. Jollof wars go global. Ghana still says theirs is better. Month 1. Afrobeats is just music now. People already found Nigerian artists over 1B times on Spotify last year. Year 1. Money flows to Lagos. The diaspora already sends home $21B a year. Now everyone has an auntie in Lagos. 10 years later. Racism doesn't survive the family reunion. So what's the first thing you'd do as a 10% Nigerian? Follow for part 2.",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.6,
+  "flag": "ng",
+  "hudAccent": "#3DDC84",
+  "keys": [
+   "10%",
+   "8.2",
+   "237",
+   "$21"
+  ],
+  "faceCuts": [
+   {
+    "layout": "split"
+   },
+   {
+    "at": 4.8,
+    "layout": "none"
+   },
+   {
+    "at": 49.1,
+    "layout": "split"
+   }
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/lagos.png",
+    "stage": "10% Nigerian",
+    "place": "Lagos, 6:00 AM",
+    "flagBig": true,
+    "pin": false
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/dna.png",
+    "stage": "Day 1",
+    "place": "Your kitchen",
+    "at": 4.9,
+    "dots": [
+     1,
+     8
+    ],
+    "stat": {
+     "label": "People with Nigerian roots",
+     "value": "8.2B",
+     "source": "UN World Population Prospects"
+    },
+    "result": "Nigeria",
+    "resultAt": 6.7
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/chat.png",
+    "stage": "Day 2",
+    "place": "Every family group chat",
+    "at": 12.8,
+    "dots": [
+     2,
+     8
+    ],
+    "result": "Hate forums: quiet",
+    "resultAt": 16.3
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/parent.png",
+    "stage": "Day 3",
+    "place": "Oslo, report card day",
+    "at": 18.4,
+    "dots": [
+     3,
+     8
+    ],
+    "result": "Not a doctor yet?",
+    "resultAt": 21.2
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/embassy.png",
+    "stage": "Week 1",
+    "place": "Every embassy queue",
+    "at": 21.8,
+    "dots": [
+     4,
+     8
+    ],
+    "stat": {
+     "label": "Citizenship abroad needs",
+     "value": "1 parent",
+     "source": "Constitution of Nigeria, s. 25"
+    },
+    "result": "Denied",
+    "resultAt": 24.7
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/jollof.png",
+    "stage": "Week 2",
+    "place": "A cook-off in London",
+    "at": 27.8,
+    "dots": [
+     5,
+     8
+    ],
+    "result": "Nigeria wins",
+    "resultAt": 31.7
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/concert.png",
+    "stage": "Month 1",
+    "place": "Every stadium",
+    "at": 32.2,
+    "dots": [
+     6,
+     8
+    ],
+    "stat": {
+     "label": "Nigerian artists found on Spotify, 2024",
+     "value": "1B+",
+     "count": 1,
+     "source": "Spotify Loud & Clear"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/money.png",
+    "stage": "Year 1",
+    "place": "Eko Atlantic, Lagos",
+    "at": 38.7,
+    "dots": [
+     7,
+     8
+    ],
+    "stat": {
+     "label": "Sent home by the diaspora, 2024",
+     "value": "$21B",
+     "count": 21,
+     "source": "World Bank / CBN"
+    },
+    "result": "Auntie in Lagos",
+    "resultAt": 44.9
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/reunion.png",
+    "stage": "10 years later",
+    "place": "The family reunion",
+    "at": 45.9,
+    "dots": [
+     8,
+     8
+    ],
+    "result": "Racism: gone",
+    "resultAt": 48.4
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/lagos.png",
+    "stage": "Your move",
+    "place": "What would you do? Part 2 next.",
+    "at": 49.2,
+    "flagBig": true,
+    "pin": false
+   }
+  ]
+ }
+}
