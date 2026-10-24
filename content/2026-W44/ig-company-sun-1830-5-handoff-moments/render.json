@@ -145,7 +145,7 @@
     "world": "dark",
     "type": "odometer",
     "value": "72",
-    "suffix": " in 100",
+    "suffix": "%",
     "label": "tickets answered by AI · apparel brand, Berlin",
     "landAt": "72%",
     "bg": "bg/agent.png",
