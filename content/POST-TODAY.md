@@ -116,3 +116,125 @@ Black Friday is 4 weeks out. Comment SYSTEMS for the handoff map before it hits.
 
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 ```
+
+## 7. @koredekola gamified logo battle reel (OpenAI vs Claude)
+Folder: `content/2026-W44/ig-personal-sat-1800-openai-took-replit` · media: video.mp4 · keyword: AI
+
+```
+OpenAI just took Replit from Claude, at least the default spot. Comment AI and I'll send you my free AI starter pack.
+
+Replit's CEO Amjad Masad said it on stage at TechCrunch Disrupt: OpenAI is now the default model powering Replit Agent. His reasons were cost, partnership and performance, and he said ChatGPT is better now.
+
+But it's not a knockout. You can still pick Claude inside Replit. It's just not the default anymore, and most people never change the default.
+
+Round 2 is already here: Anthropic just launched Claude Duet. Who takes the next round?
+
+#AI #OpenAI #Claude #Replit #technews
+```
+
+## 8. @koredekola AI movie-trailer skit "Reply All"
+Folder: `content/2026-W44/ig-personal-sat-2100-reply-all-trailer` · media: video.mp4 · keyword: AI
+
+```
+The scariest movie of the year is 20 seconds long.
+Comment AI and I'll send you my AI Employee Starter Pack (it asks before it sends anything).
+
+It was supposed to answer a few emails. Then we gave it the company card. Happy Halloween.
+
+Rate the horror: 1 to 10, would you give your agent the card?
+
+#AI #AIagents #halloween #AIhumor #techmemes
+```
+
+## 9. @koredekola AI swap skit
+Folder: `content/2026-W44/ig-personal-fri-2030-swap-boss-catch-you-sleeping` · media: video.mp4 · keyword: -
+
+```
+When your boss catches you sleeping and you wake up with a whole new haircut.
+Same office, same tap on the shoulder, same stare. The only new thing is me.
+
+A few photos of me and 1 viral clip. AI rebuilt every frame, the camera move, the timing, even the hairpiece.
+
+Follow for more AI experiments like this.
+
+#AI #AIvideo #aitools #klingai #officehumor
+```
+
+## 10. @koredekola carousel
+Folder: `content/2026-W44/ig-personal-sat-1100-sop-to-skill` · media: slide-*.png · keyword: AI
+
+```
+Doing the same task every week? Turn it into an AI skill in 20 minutes. Here's the order I do it in.
+Comment AI and I'll send you my free AI Employee Starter Pack: 5 starter skills you can copy.
+
+Most of us already have the hard part. The weekly update email you write the same way every time. The messy notes you turn into a plan. The question you answer 10 times a month.
+
+A skill is that routine in a format AI can run. And as of last week it's an open standard, so 70+ AI tools read the same skill.
+
+I pick 1 thing I repeat, write it like I'm training a new hire, add 3 real examples, mark where it needs my yes, then test it on last week's work.
+
+Save this for your first skill, and comment AI for the pack.
+
+#AI #ClaudeAI #AItools #productivity #automation
+```
+
+## 11. LinkedIn (you) image post
+Folder: `content/2026-W44/li-personal-sat-1000-13-in-100` · media: slide-01.png · keyword: -
+
+```
+Only 13 in 100 logistics execs say AI shows up in their numbers. Most of the rest started with a chatbot instead of the money leak.
+
+That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month. It matches what I see.
+
+The usual first AI project in a warehouse is a chatbot, a writing assistant or a pilot nobody owns. Easy to start, hard to measure. 6 months later the question is "is anyone using it", not "what did it earn".
+
+In my experience the teams that see results start somewhere less exciting. They pick the place money leaks:
+
+· Storage that rolls past the free period and never gets billed
+· Accessorials done on the floor and never keyed in
+· RFQs that sit for a day while the shipper gets 3 other quotes
+· WISMO emails eating the CS team's afternoon
+
+Each 1 has a number before you start, so you know if it worked.
+
+This month's logistics news points the same way. Motive, Samsara and Netradyne all shipped agents tied to a specific job: a safety alert, a maintenance ticket, a driver call. Not a general assistant.
+
+The human part still matters. Five9 found people are about twice as likely to trust AI support when a person is reachable.
+
+If you run a 3PL and want to find your first money leak, book 30 minutes with me: calendly.com/contentsystems/30min
+
+From the build, Korede
+
+#Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
+```
+
+## 12. Company IG Halloween reel (re-rendering now, ready in ~20 min)
+Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
+
+```
+The scariest thing in your warehouse this Halloween is the invoice you never sent.
+
+Peak started early this year (Deloitte: 28 in 100 of holiday budgets spent by the end of October), and peak is when fees slip. 3 to check this week:
+· Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end.
+· Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units.
+· Early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now.
+
+At month end, nobody remembers who stayed late on the 3rd. Check daily in peak. Content Systems.ai automates that daily check for 3PLs.
+
+Our free calculator shows what it adds up to. It's in our bio.
+
+#3PL #logistics #warehouse #fulfillment #peakseason
+```
+
+## 13. @koredekola reel Walmart vs Amazon (rendering after that)
+Folder: `content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents` · media: video.mp4 · keyword: AI
+
+```
+Walmart just let AI agents shop its whole store. Amazon said no. Comment AI and I'll send you my AI starter pack, free.
+
+Walmart's gateway lets outside AI assistants browse, build a cart and check out, with spending limits and an approval step. Google launched 1 cart across every store. Meta says Muse has 10M+ users and shopping is a top use.
+
+The shopper is changing. Who wins this, Walmart or Amazon?
+
+#AI #AIagents #ecommerce #Walmart #technews
+```
