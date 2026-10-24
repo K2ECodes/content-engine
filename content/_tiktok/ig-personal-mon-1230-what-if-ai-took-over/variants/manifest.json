@@ -1,0 +1,39 @@
+{
+ "post": "content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over",
+ "source": "video.mp4",
+ "duration": 35.9,
+ "created": "2026-10-24T22:17:56.081Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-personal-mon-1230-what-if-ai-took-over/variants/v01.mp4",
+   "hook": "AI took over overnight. Day 1:",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I'd set up first, free.\n\nAI took over overnight. Day 1.\n\nHere's the timeline, day 1 to year 1.\n\nYear 1 is the one nobody wants to hear.\n\nDay 1 your inbox is empty.\n\nDay 3 stores start building for AI shoppers.\n\nBy month 1 the people who wrote their work down are running 10 AI employees.\n\nAI won't take your job.\n\nThe person who sets it up first will.\n\n#AI #AInews #futureofwork #ClaudeAI #tech",
+   "coverMs": 3522,
+   "changes": [
+    "hook \"AI took over overnight. Day 1:\"",
+    "zoom 1.052 reframe 0.00/0.35",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.15s",
+    "audio x0.95 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_tiktok/ig-personal-mon-1230-what-if-ai-took-over/variants/v02.mp4",
+   "hook": "Your inbox on AI day 1",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I'd set up first, free.\n\nYour inbox on AI day 1.\n\nHere's the timeline, day 1 to year 1.\n\nYear 1 is the one nobody wants to hear.\n\nDay 1 your inbox is empty.\n\nDay 3 stores start building for AI shoppers.\n\nBy month 1 the people who wrote their work down are running 10 AI employees.\n\nAI won't take your job.\n\nThe person who sets it up first will.\n\n#AI #AInews #futureofwork #ClaudeAI #tech",
+   "coverMs": 700,
+   "changes": [
+    "hook \"Your inbox on AI day 1\"",
+    "zoom 1.060 reframe 0.00/0.40",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.16s",
+    "audio x1.09"
+   ]
+  }
+ ]
+}

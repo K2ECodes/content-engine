@@ -1,0 +1,24 @@
+{
+ "post": "content/2026-W45/ig-personal-tue-1230-agents-left-alone",
+ "source": "video.mp4",
+ "duration": 29.466667,
+ "created": "2026-10-24T22:25:44.999Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-personal-tue-1230-agents-left-alone/variants/v01.mp4",
+   "hook": "13 AI agents, no boss",
+   "caption": "Comment \"AI\" and I'll send you my 5 starter skills with the rules built in, free.\n\n13 AI agents, no boss.\n\nThey invented their own job.\n\nIt's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.\n\nBut the lesson for a business is real: an AI without a job description writes its own.\n\nEvery AI employee I build gets 4 things before it starts.\n\n1 job, 1 owner, a list of what needs my yes, and an off switch.\n\n#AI #AIagents #ClaudeAI #smallbusiness #automation",
+   "coverMs": 952,
+   "changes": [
+    "hook \"13 AI agents, no boss\"",
+    "zoom 1.039 reframe 0.78/0.81",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.28s",
+    "audio x1.07"
+   ]
+  }
+ ]
+}

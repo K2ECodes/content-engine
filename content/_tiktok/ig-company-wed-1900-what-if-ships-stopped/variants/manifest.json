@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W46/ig-company-wed-1900-what-if-ships-stopped",
+ "source": "video.mp4",
+ "duration": 39.166667,
+ "created": "2026-10-24T22:33:25.762Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-company-wed-1900-what-if-ships-stopped/variants/v01.mp4",
+   "hook": "Every ship stopped for 30 days",
+   "caption": "Every ship stopped for 30 days.\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 978,
+   "changes": [
+    "hook \"Every ship stopped for 30 days\"",
+    "zoom 1.040 reframe 0.00/0.19",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.13s",
+    "audio x1.02"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_tiktok/ig-company-wed-1900-what-if-ships-stopped/variants/v02.mp4",
+   "hook": "How long would your stock last?",
+   "caption": "How long would your stock last?\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 3467,
+   "changes": [
+    "hook \"How long would your stock last?\"",
+    "zoom 1.053 reframe 0.00/0.31",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.38s",
+    "audio x1.06"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_tiktok/ig-company-wed-1900-what-if-ships-stopped/variants/v03.mp4",
+   "hook": "Week 2: the ports go quiet",
+   "caption": "Week 2: the ports go quiet.\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 495,
+   "changes": [
+    "hook \"Week 2: the ports go quiet\"",
+    "zoom 1.039 reframe 0.00/0.24",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.17s",
+    "audio x1.07 + chime-1.wav"
+   ]
+  }
+ ]
+}

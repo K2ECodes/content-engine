@@ -1,0 +1,24 @@
+{
+ "post": "content/2026-W44/ig-company-sat-1000-scariest-invoice",
+ "source": "video.mp4",
+ "duration": 39.666667,
+ "created": "2026-10-24T22:26:49.025Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-company-sat-1000-scariest-invoice/variants/v01.mp4",
+   "hook": "Scariest thing in a warehouse",
+   "caption": "Scariest thing in a warehouse.\n\nPeak started early this year (Deloitte: 28% of holiday budgets spent by the end of October), and peak is when fees slip.\n\n3 to check this week:\n\n· Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end.\n\n· Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units.\n\n· Early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now.\n\nAt month end, nobody remembers who stayed late on the 3rd.\n\nCheck daily in peak.\n\nContent Systems.ai automates that daily check for 3PLs.\n\nOur free calculator shows what it adds up to.\n\nIt's in our bio.\n\n#3PL #logistics #warehouse #fulfillment #peakseason",
+   "coverMs": 3714,
+   "changes": [
+    "hook \"Scariest thing in a warehouse\"",
+    "zoom 1.036 reframe 0.91/0.37",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.28s",
+    "audio x0.95 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}

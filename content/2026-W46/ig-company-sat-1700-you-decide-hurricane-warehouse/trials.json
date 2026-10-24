@@ -1,0 +1,16 @@
+{
+ "hooks": [
+  "A hurricane is 48 hours out",
+  "3,000 orders. 1 storm. A or B?",
+  "Ship now or send people home?"
+ ],
+ "captions": [
+  "A hurricane is 48 hours out.\n\nA hurricane watch just went up.\n\n3,000 orders are waiting to ship.\n\nA: run every shift and ship before the storm.\n\nB: stop shipping, move stock up and send your people home.\n\nComment A or B.\n\nPart 2 shows what the storm does to each choice.\n\nForecasters issue a hurricane watch about 48 hours before tropical storm winds arrive (National Hurricane Center).\n\n#logistics #warehouse #3PL #supplychain #hurricane",
+  "3,000 orders. 1 storm. A or B?\n\nA hurricane watch just went up.\n\n3,000 orders are waiting to ship.\n\nA: run every shift and ship before the storm.\n\nB: stop shipping, move stock up and send your people home.\n\nComment A or B.\n\nPart 2 shows what the storm does to each choice.\n\nForecasters issue a hurricane watch about 48 hours before tropical storm winds arrive (National Hurricane Center).\n\n#logistics #warehouse #3PL #supplychain #hurricane",
+  "Ship now or send people home?\n\nA hurricane watch just went up.\n\n3,000 orders are waiting to ship.\n\nA: run every shift and ship before the storm.\n\nB: stop shipping, move stock up and send your people home.\n\nComment A or B.\n\nPart 2 shows what the storm does to each choice.\n\nForecasters issue a hurricane watch about 48 hours before tropical storm winds arrive (National Hurricane Center).\n\n#logistics #warehouse #3PL #supplychain #hurricane"
+ ],
+ "hookY": 1250,
+ "aiLabel": false,
+ "reframeX": 0,
+ "maxZoom": 1.06
+}

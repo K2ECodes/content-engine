@@ -14,5 +14,11 @@
   "media": [
     "video.mp4",
     "poster.png"
+  ],
+  "tiktok_scheduled": [
+    "6add367d3c8ff42965c239dd",
+    "6add36873c8ff42965c23a22",
+    "6add36923c8ff42965c23a66",
+    "6add369d3c8ff42965c23ae0"
   ]
 }

@@ -1,0 +1,24 @@
+{
+ "post": "content/2026-W46/ig-personal-sun-1100-every-level-of-ai",
+ "source": "video.mp4",
+ "duration": 29.766667,
+ "created": "2026-10-24T22:21:26.668Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-personal-sun-1100-every-level-of-ai/variants/v01.mp4",
+   "hook": "Which AI level are you on?",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nWhich AI level are you on?\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
+   "coverMs": 2152,
+   "changes": [
+    "hook \"Which AI level are you on?\"",
+    "zoom 1.057 reframe 0.00/0.44",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.21s",
+    "audio x1 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}

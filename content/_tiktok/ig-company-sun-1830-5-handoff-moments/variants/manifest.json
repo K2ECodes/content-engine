@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W44/ig-company-sun-1830-5-handoff-moments",
+ "source": "video.mp4",
+ "duration": 39.1,
+ "created": "2026-10-24T22:30:17.525Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-company-sun-1830-5-handoff-moments/variants/v01.mp4",
+   "hook": "5 times your bot needs a human",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the handoff map free.\n\n5 times your bot needs a human.\n\nShoppers trust a bot more when it can do that.\n\nIn a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists.\n\nWithout one, 26%.\n\nBefore Black Friday, make sure your bot hands off on:\n\n1. An angry customer\n\n2. Anyone trying to cancel\n\n3. A refund over your limit\n\n4. A question it isn't sure about\n\n5. Anyone who asks for a human\n\nAn apparel brand we work with in Berlin lets AI answer 72% of support tickets in 4 languages and still saves 1 in 4 customers who try to cancel.\n\nThat's how Content Systems.ai builds support for e-commerce brands.\n\n#customerservice #ecommerce #blackfriday #customersupport #onlinestore",
+   "coverMs": 2048,
+   "changes": [
+    "hook \"5 times your bot needs a human\"",
+    "zoom 1.061 reframe 0.24/0.15",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.38s",
+    "audio x0.96 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_tiktok/ig-company-sun-1830-5-handoff-moments/variants/v02.mp4",
+   "hook": "Shoppers trust bots more when",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the handoff map free.\n\nShoppers trust bots more when.\n\nShoppers trust a bot more when it can do that.\n\nIn a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists.\n\nWithout one, 26%.\n\nBefore Black Friday, make sure your bot hands off on:\n\n1. An angry customer\n\n2. Anyone trying to cancel\n\n3. A refund over your limit\n\n4. A question it isn't sure about\n\n5. Anyone who asks for a human\n\nAn apparel brand we work with in Berlin lets AI answer 72% of support tickets in 4 languages and still saves 1 in 4 customers who try to cancel.\n\nThat's how Content Systems.ai builds support for e-commerce brands.\n\n#customerservice #ecommerce #blackfriday #customersupport #onlinestore",
+   "coverMs": 788,
+   "changes": [
+    "hook \"Shoppers trust bots more when\"",
+    "zoom 1.064 reframe 0.77/0.61",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.22s",
+    "audio x1.05 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_tiktok/ig-company-sun-1830-5-handoff-moments/variants/v03.mp4",
+   "hook": "Fix these before Black Friday",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the handoff map free.\n\nFix these before Black Friday.\n\nShoppers trust a bot more when it can do that.\n\nIn a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists.\n\nWithout one, 26%.\n\nBefore Black Friday, make sure your bot hands off on:\n\n1. An angry customer\n\n2. Anyone trying to cancel\n\n3. A refund over your limit\n\n4. A question it isn't sure about\n\n5. Anyone who asks for a human\n\nAn apparel brand we work with in Berlin lets AI answer 72% of support tickets in 4 languages and still saves 1 in 4 customers who try to cancel.\n\nThat's how Content Systems.ai builds support for e-commerce brands.\n\n#customerservice #ecommerce #blackfriday #customersupport #onlinestore",
+   "coverMs": 496,
+   "changes": [
+    "hook \"Fix these before Black Friday\"",
+    "zoom 1.061 reframe 0.78/0.62",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.17s",
+    "audio x1.01 + chime-1.wav"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "post": "content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1",
+ "source": "video.mp4",
+ "duration": 22.033333,
+ "created": "2026-10-24T22:22:16.641Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/variants/v01.mp4",
+   "hook": "You're CEO of Anthropic. Now what?",
+   "caption": "You're CEO of Anthropic. Now what?\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
+   "coverMs": 2886,
+   "changes": [
+    "hook \"You're CEO of Anthropic. Now what?\"",
+    "zoom 1.043 reframe 0.00/0.17",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.32s",
+    "audio x0.91 + ding-1.wav"
+   ]
+  }
+ ]
+}

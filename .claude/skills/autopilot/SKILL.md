@@ -24,3 +24,9 @@ Accounts: TikTok personal `-000yrCy6A18Yz1WwdIOKs3muERuL1mEzsw9`, TikTok company
 
 ## Upload loop
 `upload()` from scripts/lib/kie.mjs gives a public URL -> Schedchie `upload_media(url)` -> `schedule_post`. Verify the first post of each kind with `get_post`. Log every post to `logs/autopilot-posts.jsonl` and add `tiktok_scheduled` / `linkedin_scheduled` to the post's meta.json. Plan file: `tmp/autopilot-plan.json`.
+
+## Notes from the 2026-10-24 top-up
+- The company IG account (@contentsystems.ai) is connected through Instagram sign-in, so `search_instagram_audio` and `instagram_audio_id` are refused there. Company trial reels rely on the music bed already in the video; reconnect it with "Continue with Facebook" to attach catalog tracks.
+- `trials.json` supports `reframeX: 0` and `maxZoom: 1.06` for videos with left-aligned titles (3D what-if hooks) so the variant crop never cuts the title.
+- Light cold-open reels: put the hook pill at `hookY: 1160` (between the characters and the caption pill); dark 3D hooks at `hookY: 1250`.
+- Schedchie image ids from `upload_media` must be copied exactly; a typo fails the whole post ("File not found"), re-upload that slide.

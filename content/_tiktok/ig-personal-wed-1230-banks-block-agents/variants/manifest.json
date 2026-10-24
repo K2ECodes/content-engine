@@ -1,0 +1,24 @@
+{
+ "post": "content/2026-W45/ig-personal-wed-1230-banks-block-agents",
+ "source": "video.mp4",
+ "duration": 28.033333,
+ "created": "2026-10-24T22:26:18.988Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-personal-wed-1230-banks-block-agents/variants/v01.mp4",
+   "hook": "JPMorgan locked AI out",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I start every AI employee with, free.\n\nJPMorgan locked AI out.\n\nHonestly, they're right.\n\nCiti said the same.\n\nBank of America wants a person to approve payments.\n\nSchwab blocks outside agents every week.\n\nBut nobody banned AI from reading.\n\nThey banned it from moving money alone.\n\nThat's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.\n\n#AI #AIagents #fintech #smallbusiness #automation",
+   "coverMs": 1483,
+   "changes": [
+    "hook \"JPMorgan locked AI out\"",
+    "zoom 1.075 reframe 0.61/0.58",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.24s",
+    "audio x1.07 + ding-1.wav"
+   ]
+  }
+ ]
+}
