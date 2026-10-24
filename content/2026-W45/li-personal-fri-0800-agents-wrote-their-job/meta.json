@@ -1,0 +1,22 @@
+{
+  "channel": "li-personal",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "belief-shift",
+  "execution": "mistakes",
+  "topic": "ai-employees",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "WORKSHOP",
+  "slot": "2026-11-06T08:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "channel": "ig-company",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "calm-playbooks",
+  "execution": "proof",
+  "topic": "workshop",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "WORKSHOP",
+  "slot": "2026-11-08T10:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png"
+  ]
+}

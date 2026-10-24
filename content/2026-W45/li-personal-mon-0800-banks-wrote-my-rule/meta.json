@@ -1,0 +1,17 @@
+{
+  "channel": "li-personal",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "belief-shift",
+  "execution": "proof",
+  "topic": "approval-gates",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-11-02T08:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png"
+  ]
+}

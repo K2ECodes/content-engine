@@ -1,0 +1,266 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "Peak tickets",
+     "*bury your team?*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the 5 handoffs a bot must give a person",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "sprite": "sanjana-laptop"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 120,
+     "spread": 30,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704.0,
+      "y": 680,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764.0,
+       "y1": 750,
+       "x2": 664.0,
+       "y2": 800.0,
+       "bend": -20
+      }
+     }
+    ],
+    "brandbar": [
+     "shopify",
+     "gmail"
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Angry",
+     "*customers*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "If they're upset, [a person] answers next.",
+     "who": "handoff 1"
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. Money",
+     "*decisions*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Refunds *over your limit*",
+      "Credits",
+      "Chargebacks"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Broken",
+     "*or missing*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Bot",
+       "p": "collects photos"
+      },
+      {
+       "h": "Person",
+       "p": "decides",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ],
+    "notes": [
+     {
+      "text": "the bot does\nthe legwork",
+      "x": 470,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "4. 2nd time",
+     "*asking*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Same issue:",
+       "v": "asked twice"
+      },
+      {
+       "k": "Then:",
+       "v": "a person"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "5. \"Talk to",
+     "*a human*\""
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "They asked. [Hand it over.] No loops.",
+     "who": "handoff 5"
+    },
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "sanjana-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*handoff map?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

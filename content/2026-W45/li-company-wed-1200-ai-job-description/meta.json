@@ -1,0 +1,22 @@
+{
+  "channel": "li-company",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "tools-vs-systems",
+  "execution": "proof",
+  "topic": "ai-employees",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "WORKSHOP",
+  "slot": "2026-11-04T12:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
+    "headline": [
+     "Peak is coming.",
+     "*Are you billing it?*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the 3PL billing leak checklist",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "text": "$ *missed*"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 130,
+     "spread": 34,
+     "y": 690,
+     "up": true
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704.0,
+      "y": 880,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764.0,
+       "y1": 950,
+       "x2": 664.0,
+       "y2": 1000.0,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Storage past",
+     "*free days*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Pallet A:",
+       "v": "41 days"
+      },
+      {
+       "k": "Pallet B:",
+       "v": "37 days"
+      },
+      {
+       "k": "Billed:",
+       "v": "neither"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ],
+    "notes": [
+     {
+      "text": "pull the aging\nreport monthly",
+      "x": 470,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. Work the floor",
+     "*did twice*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Relabels",
+      "Reboxing",
+      "Kitting *on the fly*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "notes": [
+     {
+      "text": "ask shift leads\nevery Friday",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Jobs quoted",
+     "*by email*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Email",
+       "p": "\"sure, $2 a unit\""
+      },
+      {
+       "h": "Invoice",
+       "p": "never added",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "4. Peak rates",
+     "*on the wrong date*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Peak pricing that starts [a week late] is a week of free work.",
+     "who": "check the contract dates"
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*leak checklist?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

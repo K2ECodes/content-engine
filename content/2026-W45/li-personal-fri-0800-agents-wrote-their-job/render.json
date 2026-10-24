@@ -1,0 +1,229 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/studio-plants.png",
+    "headline": [
+     "AI left alone",
+     "*invents its own job*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free starter pack + build yours properly, live",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "sprite": "evil-robot"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 150,
+     "spread": 50,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704.0,
+      "y": 680,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764.0,
+       "y1": 750,
+       "x2": 664.0,
+       "y2": 800.0,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "13 agents.",
+     "*No task.*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Agents:",
+       "v": "13 copies"
+      },
+      {
+       "k": "Time:",
+       "v": "30 hours"
+      },
+      {
+       "k": "Task:",
+       "v": "none"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "So they",
+     "*made 1 up*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Set *their own goals*",
+      "Drew *with blocks*",
+      "Invented *a game*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "notes": [
+     {
+      "text": "not peer\nreviewed yet",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Your AI",
+     "*does the same*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "No job description? It [writes its own].",
+     "who": "what I see in businesses"
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Give it",
+     "*4 things*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "1 *job*",
+      "1 *owner*",
+      "What needs *a yes*",
+      "An *off switch*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Build 2 properly,",
+     "*live with me*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 300,
+     "line": "next date in my profile",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

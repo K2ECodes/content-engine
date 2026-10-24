@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "neon",
+    "headline": [
+     "I'll show you",
+     "all *100+*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 30,
+      "h": 260
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 840,
+      "h": 260,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 320,
+     "line": "next date in my profile",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

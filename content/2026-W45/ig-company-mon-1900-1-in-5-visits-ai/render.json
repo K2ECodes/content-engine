@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "sunset",
+    "headline": [
+     "1 in 5 holiday visits",
+     "won't be a *person*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 40,
+      "h": 250
+     },
+     {
+      "name": "robot",
+      "x": 840,
+      "h": 230,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 320,
+     "line": "free: the agent-ready store checklist",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

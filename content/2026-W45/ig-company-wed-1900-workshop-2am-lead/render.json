@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "night",
+    "headline": [
+     "Who answers your",
+     "*2 AM lead?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 40,
+      "h": 250
+     },
+     {
+      "name": "robot",
+      "x": 850,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 320,
+     "line": "next date in our bio",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

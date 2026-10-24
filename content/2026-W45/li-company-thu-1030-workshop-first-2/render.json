@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "neon",
+    "headline": [
+     "Your first 2",
+     "*AI employees*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "robot",
+      "x": 860,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "WORKSHOP",
+     "y": 320,
+     "line": "next date in our profile",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

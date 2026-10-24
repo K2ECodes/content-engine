@@ -1,0 +1,17 @@
+{
+  "channel": "ig-company",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "operational-clarity",
+  "execution": "proof",
+  "topic": "agent-shoppers",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-11-02T19:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png"
+  ]
+}

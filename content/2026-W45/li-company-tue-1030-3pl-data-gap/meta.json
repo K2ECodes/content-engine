@@ -1,0 +1,17 @@
+{
+  "channel": "li-company",
+  "format": "static",
+  "aspect": "4:5",
+  "pillar": "belief-shift",
+  "execution": "mistakes",
+  "topic": "3pl-data",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-11-03T10:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png"
+  ]
+}

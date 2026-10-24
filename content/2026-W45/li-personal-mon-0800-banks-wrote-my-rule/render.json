@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "night",
+    "headline": [
+     "JPMorgan just",
+     "wrote *my rule*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "evil-robot",
+      "x": 860,
+      "h": 230,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "AI",
+     "y": 320,
+     "line": "free: my 5 starter skills",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

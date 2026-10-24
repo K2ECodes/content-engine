@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "day",
+    "headline": [
+     "Uber didn't roll out AI",
+     "to *30,000 people*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "korede-laptop",
+      "x": 850,
+      "h": 250,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "AI",
+     "y": 320,
+     "line": "free: my 5 starter skills",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

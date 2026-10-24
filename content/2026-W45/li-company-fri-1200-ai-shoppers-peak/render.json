@@ -1,0 +1,228 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "AI shoppers skip",
+     "*half-finished stores*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the agent-ready store checklist",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "sprite": "robot"
+     },
+     "oneSize": 200,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 120,
+     "spread": 30,
+     "y": 700
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 694.0,
+      "y": 690,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 754.0,
+       "y1": 760,
+       "x2": 654.0,
+       "y2": 800.0,
+       "bend": -20
+      }
+     }
+    ],
+    "brandbar": [
+     "walmart",
+     "amazon",
+     "meta"
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1 in 5",
+     "*holiday visits*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "[20 in 100] holiday visits could come from AI assistants.",
+     "who": "Salesforce projection, via Semafor"
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Walmart:",
+     "*come in*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Approved agents *can buy*",
+      "Spending *limits*",
+      "A *cut-off switch*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "What it",
+     "*reads first*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Sizes *and materials*",
+      "Real *stock*",
+      "Delivery *date*",
+      "Returns *in plain words*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Miss 1 and",
+     "*it moves on*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Missing",
+       "p": "delivery date"
+      },
+      {
+       "h": "Next",
+       "p": "store",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*store checklist?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

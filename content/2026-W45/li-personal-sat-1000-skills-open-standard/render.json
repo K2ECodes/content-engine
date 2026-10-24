@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "sunset",
+    "headline": [
+     "Your SOPs now run",
+     "in *70+ AI tools*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 30,
+      "h": 250
+     },
+     {
+      "name": "robot",
+      "x": 860,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "AI",
+     "y": 320,
+     "line": "free: my 5 starter skills",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

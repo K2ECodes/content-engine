@@ -1,0 +1,37 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "day",
+    "headline": [
+     "Parcel prices",
+     "hit a *record*"
+    ],
+    "size": "s",
+    "underline": false,
+    "sprites": [
+     {
+      "name": "box-monster",
+      "x": 40,
+      "h": 210
+     },
+     {
+      "name": "korede-shrug",
+      "x": 850,
+      "h": 250,
+      "flip": true
+     }
+    ],
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 320,
+     "line": "free: the 6-line invoice check",
+     "pill": true
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/library.png",
+    "headline": [
+     "Banks drew the line.",
+     "*Draw yours.*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the approval sheet we use",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "text": "A *yes*"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 130,
+     "spread": 34,
+     "y": 690,
+     "up": true
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704.0,
+      "y": 880,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764.0,
+       "y1": 950,
+       "x2": 664.0,
+       "y2": 1000.0,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Read",
+     "*yes. Pay, no.*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "JPMorgan: outside AI *can't log in*",
+      "Citi: *can't transact*",
+      "BofA: a person *approves payments*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "1. Money",
+     "*out*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "AI",
+       "p": "prepares it"
+      },
+      {
+       "h": "Person",
+       "p": "approves",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "2. Promises",
+     "*in writing*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Dates",
+      "Discounts",
+      "Exceptions *to policy*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "3. Quotes and",
+     "*bookings*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "AI:",
+       "v": "drafts"
+      },
+      {
+       "k": "Owner:",
+       "v": "checks the rate"
+      },
+      {
+       "k": "Then:",
+       "v": "sent"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "4. Deleting",
+     "*records*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Can't undo it? [A person signs.]",
+     "who": "the 4th rule"
+    },
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "sanjana-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*approval sheet?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

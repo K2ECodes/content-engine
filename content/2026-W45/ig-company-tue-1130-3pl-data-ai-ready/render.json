@@ -1,0 +1,288 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#0B6E4F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "Your 3PL data",
+     "*isn't AI ready*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "steal our 5-point check, free",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "sprite": "worker"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 120,
+     "spread": 30,
+     "y": 690
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704.0,
+      "y": 680,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764.0,
+       "y1": 750,
+       "x2": 664.0,
+       "y2": 800.0,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "1. Stock that",
+     "*matches the shelf*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "bars",
+     "title": "what the AI sees",
+     "bars": [
+      {
+       "label": "40",
+       "name": "system says",
+       "value": 40
+      },
+      {
+       "label": "31",
+       "name": "shelf has",
+       "value": 31,
+       "hot": true
+      }
+     ],
+     "foot": "a wrong count = a wrong answer"
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "2. Order status",
+     "*in 1 place*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "Email",
+       "p": "spreadsheet"
+      },
+      {
+       "h": "1 place",
+       "p": "the AI can read",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "box-monster",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ],
+    "notes": [
+     {
+      "text": "WISMO answers\nneed 1 source",
+      "x": 60,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Rates you",
+     "*agreed*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Storage *per pallet*",
+      "Pick and pack",
+      "Special *handling*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "worker",
+      "x": 290,
+      "h": 270
+     }
+    ],
+    "notes": [
+     {
+      "text": "so billing\nmatches",
+      "x": 470,
+      "y": 858,
+      "w": 500,
+      "accent": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "4. Cut-off times",
+     "*written down*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "Same day:",
+       "v": "before 2 PM"
+      },
+      {
+       "k": "Peak:",
+       "v": "new cut-offs"
+      },
+      {
+       "k": "Holidays:",
+       "v": "listed"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     },
+     {
+      "name": "robot",
+      "x": 620,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "5. Who",
+     "*approves*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Every AI answer that promises something gets [a named owner].",
+     "who": "the 5th check"
+    },
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "sanjana-point",
+      "x": 290,
+      "h": 270
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*5-point check?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}
