@@ -122,6 +122,29 @@
   .chat mark { background: color-mix(in srgb, var(--a) 45%, white); color: #111; padding: 0 4px; }
   .locked .i small { margin-left: auto; flex: none; font: 700 22px/1 'Inter'; text-transform: uppercase; letter-spacing: .05em; background: #111; color: #fff; padding: 10px 14px; display: flex; gap: 8px; align-items: center; }
   .locked .i small svg { width: 20px; height: 20px; fill: none; stroke: #fff; stroke-width: 2.4; }
+
+  /* fill the body box (Korede: no half-empty slides): visuals scale with --vs, set by fitBody() */
+  .body.fill { justify-content: center; gap: calc(26px * var(--vs, 1)); --vs: 1; }
+  .body.fill .prompt pre { font-size: calc(27px * var(--vs)); }
+  .body.fill .prompt .hd { font-size: calc(24px * var(--vs)); }
+  .body.fill .form .r { font-size: calc(32px * var(--vs)); padding: calc(16px * var(--vs)) 0; }
+  .body.fill .form .r span { font-size: calc(36px * var(--vs)); }
+  .body.fill .form .t, .body.fill .approve .t { font-size: calc(26px * var(--vs)); }
+  .body.fill .card { padding: calc(28px * var(--vs)) calc(30px * var(--vs)); }
+  .body.fill .chat .b { font-size: calc(34px * var(--vs)); }
+  .body.fill .flow .st { font-size: calc(34px * var(--vs)); padding: calc(26px * var(--vs)) 14px; }
+  .body.fill .locked .i, .body.fill .list .i { font-size: calc(38px * var(--vs)); padding: calc(26px * var(--vs)) 30px; }
+  .body.fill .approve .m { font-size: calc(44px * var(--vs)); }
+  .body.fill .approve .s { font-size: calc(30px * var(--vs)); }
+  .body.fill .approve .btns i { font-size: calc(32px * var(--vs)); padding: calc(18px * var(--vs)); }
+  .body.fill .logos .lg { font-size: calc(34px * var(--vs)); padding: calc(16px * var(--vs)) 22px calc(16px * var(--vs)) 16px; }
+  .body.fill .logos .lg img { width: calc(52px * var(--vs)); height: calc(52px * var(--vs)); }
+  .body.fill .stat b { font-size: calc(210px * var(--vs)); }
+  .body.fill .stat span { font-size: calc(42px * var(--vs)); }
+  .body.fill .sprites img { height: calc(var(--sh) * var(--vs)) !important; }
+  .body.fill .meme .pn { height: calc(330px * var(--vs)); }
+  .body.fill .meme .pn img { height: calc(250px * var(--vs)); }
+  .body.fill .meme .top { font-size: calc(34px * var(--vs)); }
 </style>
 </head>
 <body>
@@ -147,7 +170,6 @@ const ICONS = {
 const THEMES = {
   gold: { acc: '#E8B84B', at: '#17281C', ad: '#A8761B' },
   claude: { acc: '#E07A55', at: '#1A0E08', ad: '#C2552E' },
-  blue: { acc: '#3D7BFF', at: '#FFFFFF', ad: '#2457D6' },
   emerald: { acc: '#2FCB7A', at: '#0B1F14', ad: '#16935A' },
   ink: { acc: '#F5F0E8', at: '#111111', ad: '#111111' },
 };
@@ -161,7 +183,7 @@ const VIS = {
   chat: (c) => `<div class="card chat">${c.map((m) => `<div class="b ${m.who === 'me' ? 'me' : 'ai'}">${m.who !== 'me' && m.label ? `<div class="who">${esc(m.label)}</div>` : ''}${fmt(m.text)}</div>`).join('')}</div>`,
   flow: (c) => `<div class="flow">${c.map((t, k) => `${k ? '<span class="ar">&rarr;</span>' : ''}<div class="st${typeof t === 'object' && t.hi ? ' hi' : ''}">${fmt(typeof t === 'object' ? t.text : t)}</div>`).join('')}</div>`,
   logos: (c) => `<div class="logos">${c.map((l) => { const o = typeof l === 'object' ? l : { id: l }; return `<div class="lg${o.off ? ' off' : ''}${o.hi ? ' hi' : ''}"><img src="${logoSrc(o.id)}">${esc(o.name || logoName(o.id))}</div>`; }).join('')}</div>`,
-  sprites: (c) => `<div class="sprites">${c.map((p) => `<img src="../../assets/pixel/sprites/${p.name}.png" style="height:${p.h ?? 240}px;${p.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>`,
+  sprites: (c) => `<div class="sprites">${c.map((p) => `<img src="../../assets/pixel/sprites/${p.name}.png" style="--sh:${p.h ?? 240}px;height:${p.h ?? 240}px;${p.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>`,
   approve: (c) => `<div class="card approve"><div class="t">${esc(c.title || 'Waiting for your yes')}</div><div class="m">${fmt(c.main)}</div>${c.sub ? `<div class="s">${fmt(c.sub)}</div>` : ''}<div class="btns"><i class="y">${esc(c.yes || 'Approve')}</i><i>${esc(c.no || 'Edit')}</i></div></div>`,
   meme: (c) => `<div class="meme"><div class="top">${fmt(c.top)}</div>${c.panels.map((p) => `<div class="pn" style="--pbg:${p.bg || '#2b2f3a'}"><img src="../../assets/pixel/sprites/${p.sprite}.png" style="${p.h ? `height:${p.h}px;` : ''}${p.flip ? 'transform:scaleX(-1)' : ''}">${p.cap ? `<div class="cap">${esc(p.cap)}</div>` : ''}</div>`).join('')}</div>`,
 };
@@ -184,7 +206,8 @@ window.showSlide = (i) => {
   Object.keys(VIS).forEach((k) => { if (s[k]) body += VIS[k](s[k]); });
   if (s.text) body += `<div class="text">${s.text.map((p) => `<p>${fmt(p)}</p>`).join('')}</div>`;
   const annEl = s.ann ? `<div class="ann" style="--ay:${s.annY ?? 1010}px">${s.ann.map((a) => `<div><b>${esc(a.k)}:</b> ${esc(a.v)}</div>`).join('')}</div>` : '';
-  const bodyEl = body ? `<div class="body" style="top:${s.bodyY ?? 470}px">${body}</div>` : '';
+  const bodyBottom = s.ann ? (s.annY ?? 1010) - 36 : (s.pay ? (s.pay.y ?? 930) - 36 : 1230);
+  const bodyEl = body ? `<div class="body fill" style="top:${s.bodyY ?? 470}px;height:${bodyBottom - (s.bodyY ?? 470)}px">${body}</div>` : '';
   const quote = s.quote ? `<div class="quote" style="top:${s.quote.y ?? 160}px;${s.quote.size ? `--qs:${s.quote.size}px` : ''}">${esc(s.quote.text).replace(/\*([\s\S]+?)\*/g, '<span class=\"k\">$1</span>').replace(/\n/g, '<br>')}${s.quote.sub ? `<small>${esc(s.quote.sub).replace(/\n/g, '<br>')}</small>` : ''}</div>` : '';
   document.getElementById('root').innerHTML = `
     <div class="canvas" style="--acc:${A};--acct:${s.accentText || (DATA.theme ? TH.at : DATA.accentText) || TH.at};--ad:${TH.ad};${s.bgc ? `--bgc:${s.bgc}` : ''}">
@@ -194,7 +217,21 @@ window.showSlide = (i) => {
       ${s.wordmark ? `<div class="wm"${s.wmTop ? ` style="top:${s.wmTop}px;bottom:auto"` : ''}>` + '<img src="../../assets/brand/lockup-horizontal.png" alt=""></div>' : ''}
       <div class="foot"><span class="h">${DATA.platform === 'linkedin' ? ICONS.li : ICONS.ig}${esc(DATA.handle || '@koredekola')}</span><span class="h">save for later ${ICONS.bm}</span></div>
     </div>`;
+  fitBody();
 };
+// grow the visuals until the body box is full (max 1.6x), never overflow it
+function fitBody() {
+  // the note box never runs into the footer: lift it, and shrink the body box to match
+  const ann = document.querySelector('.ann'), b0 = document.querySelector('.body.fill');
+  if (ann && ann.offsetTop + ann.offsetHeight > 1236) {
+    const top = 1236 - ann.offsetHeight; ann.style.top = top + 'px';
+    if (b0) b0.style.height = Math.max(200, top - 36 - b0.offsetTop) + 'px';
+  }
+  const b = b0; if (!b || b.querySelector('.frames')) return;
+  const avail = b.clientHeight, used = () => [...b.children].reduce((h, c) => h + c.offsetHeight, 0) + (b.children.length - 1) * 26 * (+b.style.getPropertyValue('--vs') || 1);
+  let vs = 1;
+  while (vs < 1.6) { b.style.setProperty('--vs', (vs + 0.05).toFixed(2)); if (used() > avail * 0.94 || b.scrollWidth > b.clientWidth + 2) { b.style.setProperty('--vs', vs.toFixed(2)); break; } vs += 0.05; }
+}
 </script>
 </body>
 </html>

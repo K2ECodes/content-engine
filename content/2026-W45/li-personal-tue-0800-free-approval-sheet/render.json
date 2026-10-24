@@ -97,6 +97,17 @@
       "k": "AI can still",
       "v": "draft it in your voice and mark the line that makes the promise."
      }
+    ],
+    "sprites": [
+     {
+      "name": "robot",
+      "h": 170
+     },
+     {
+      "name": "korede-point",
+      "h": 180,
+      "flip": true
+     }
     ]
    },
    {
@@ -125,7 +136,14 @@
       "k": "Why it waits",
       "v": "a booking commits a truck and a bill. A quote sets a price you'll be held to."
      }
-    ]
+    ],
+    "approve": {
+     "title": "Waiting for a yes",
+     "main": "Book 2 trucks for Friday",
+     "sub": "Quote ready. Rate checked against your contract.",
+     "yes": "Sign",
+     "no": "Edit"
+    }
    },
    {
     "kind": "body",
@@ -159,6 +177,13 @@
      {
       "k": "Our company",
       "v": "100+ AI employees. None moves money without a person saying yes."
+     }
+    ],
+    "chat": [
+     {
+      "who": "ai",
+      "label": "What approval-first looks like",
+      "text": "Ready to pay for this order. Waiting for your yes."
      }
     ]
    },
