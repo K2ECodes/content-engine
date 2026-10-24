@@ -22,7 +22,7 @@ From the build, Korede
 #AI #AIEmployees #ArtificialIntelligence #Automation #Founders #Startups #Leadership #FutureOfWork #Operations #Productivity #SmallBusiness #Ecommerce
 
 ## Alt text
-6-slide carousel from Korede Kolawole. Cover: a photo of Korede and his co-founder Sanjana cut out over a library, headline We hired 100+ AI employees, payoff box Here's what they still can't do. Slide 2: what they handle (lead replies, onboarding, follow-ups, scheduling), shown as a chat. Slide 3: the 1 rule, nothing goes out without a yes. Slide 4: 4 jobs they still can't do. Slide 5: quote, AI does the work, people own it. Slide 6: comment AI for the starter pack.
+6-slide carousel from Korede Kolawole. Cover: Korede and his co-founder Sanjana in their studio, headline 100+ AI employees. 0 can do this., payoff box The 4 jobs that stay human. Slide 2: what they handle (lead replies, onboarding, follow-ups, scheduling), shown as a chat. Slide 3: the 1 rule, nothing goes out without a yes. Slide 4: 4 jobs they still can't do. Slide 5: quote, AI does the work, people own it. Slide 6: comment AI for the starter pack.
 
 ## Notes
 Photo carousel (templates/photo-carousel). Photos: assets/photos/korede/studio-with-sanjana.jpg (rembg cutout of both) and white-jacket-lounge.jpg.
