@@ -160,13 +160,13 @@
      "pos": "66% 0%",
      "size": "auto 1350px",
      "dim": {
-      "top": 0.5,
-      "bot": 0.45
+      "top": 0.62,
+      "bot": 0.5
      }
     },
     "quote": {
      "text": "AI does\nthe work.\n*People\nown it.*",
-     "sub": "Korede Kolawole,\nco-founder,\nContent Systems.ai",
+     "sub": "Korede Kolawole,\nCo-founder and CTO,\nContent Systems.ai",
      "y": 200,
      "size": 96
     }
