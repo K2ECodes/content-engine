@@ -1,202 +1,194 @@
 {
-  "template": "photo",
-  "data": {
-    "handle": "Korede Kolawole",
-    "platform": "linkedin",
-    "accent": "#E8B84B",
-    "slides": [
-      {
-        "kind": "cover",
-        "photo": {
-          "src": "assets/talking-head/backgrounds/library.png",
-          "pos": "50% 50%",
-          "dim": {
-            "top": 0.72,
-            "bot": 0.5
-          }
-        },
-        "cut": {
-          "src": "assets/photos/korede/cutouts/studio-with-sanjana.png",
-          "x": -140,
-          "y": 510,
-          "h": 850
-        },
-        "blocks": [
-          {
-            "text": "We hired *100+*",
-            "style": "white",
-            "size": 100
-          },
-          {
-            "text": "AI employees.",
-            "style": "acc",
-            "size": 100
-          }
-        ],
-        "blocksY": 60,
-        "pay": {
-          "text": "Here's what they *still can't* do.",
-          "y": 390,
-          "size": 46
-        }
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
-          "pos": "50% 50%",
-          "blur": true
-        },
-        "label": "What they do",
-        "title": "The work we\nused to *do by hand*",
-        "bodyY": 470,
-        "list": [
-          {
-            "n": "1",
-            "text": "Write and schedule our content"
-          },
-          {
-            "n": "2",
-            "text": "Reply to new leads in minutes"
-          },
-          {
-            "n": "3",
-            "text": "Onboard new clients"
-          },
-          {
-            "n": "4",
-            "text": "Run our ads"
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
-          "pos": "50% 50%",
-          "blur": true
-        },
-        "label": "The 1 rule",
-        "title": "Nothing goes out\nwithout a *yes*.",
-        "bodyY": 470,
-        "list": [
-          {
-            "n": "1",
-            "text": "The AI drafts it"
-          },
-          {
-            "n": "2",
-            "text": "A person taps yes"
-          },
-          {
-            "n": "3",
-            "text": "Then it goes out"
-          }
-        ],
-        "ann": [
-          {
-            "k": "Applies to",
-            "v": "every email, post and payment."
-          },
-          {
-            "k": "Why",
-            "v": "1 wrong email costs more than the time it saved."
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
-          "pos": "50% 50%",
-          "blur": true
-        },
-        "label": "What they still can't do",
-        "title": "4 jobs that\nstay *human*",
-        "bodyY": 470,
-        "list": [
-          {
-            "n": "1",
-            "text": "Earn a client's trust face to face"
-          },
-          {
-            "n": "2",
-            "text": "Decide what's worth building"
-          },
-          {
-            "n": "3",
-            "text": "Say no to the wrong deal"
-          },
-          {
-            "n": "4",
-            "text": "Own it when something breaks"
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010
-      },
-      {
-        "kind": "quote",
-        "photo": {
-          "src": "assets/photos/korede/studio-with-sanjana-clean.jpg",
-          "pos": "66% 0%",
-          "size": "auto 1350px",
-          "dim": {
-            "top": 0.5,
-            "bot": 0.45
-          }
-        },
-        "quote": {
-          "text": "AI does\nthe work.\n*People\nown it.*",
-          "sub": "Korede Kolawole,\nco-founder,\nContent Systems.ai",
-          "y": 200,
-          "size": 96
-        }
-      },
-      {
-        "kind": "cta",
-        "photo": {
-          "src": "assets/talking-head/backgrounds/loft-office.png",
-          "pos": "50% 50%",
-          "dim": {
-            "top": 0.72,
-            "bot": 0.5
-          }
-        },
-        "cut": {
-          "src": "assets/photos/korede/cutouts/studio-with-sanjana.png",
-          "x": -70,
-          "y": 620,
-          "h": 760
-        },
-        "blocks": [
-          {
-            "text": "Comment *AI*",
-            "style": "white",
-            "size": 110
-          },
-          {
-            "text": "for our starter pack.",
-            "style": "acc",
-            "size": 72
-          }
-        ],
-        "blocksY": 60,
-        "pay": {
-          "text": "5 skills + *what each may do alone.*",
-          "y": 370,
-          "size": 42
-        },
-        "wordmark": true,
-        "wmTop": 510
-      }
-    ]
-  }
+ "template": "photo",
+ "data": {
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "accent": "#E8B84B",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "54% 0%",
+     "size": "auto 1180px",
+     "dim": {
+      "top": 0.65,
+      "bot": 0.95
+     }
+    },
+    "blocks": [
+     {
+      "text": "We hired *100+*",
+      "style": "white",
+      "size": 100
+     },
+     {
+      "text": "AI employees.",
+      "style": "acc",
+      "size": 100
+     }
+    ],
+    "blocksY": 40,
+    "pay": {
+     "text": "Here's what they *still can't* do.",
+     "y": 1010,
+     "size": 46
+    },
+    "bgc": "#14110c"
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "What they do",
+    "title": "The work we\nused to *do by hand*",
+    "bodyY": 470,
+    "list": [
+     {
+      "n": "1",
+      "text": "Write and schedule our content"
+     },
+     {
+      "n": "2",
+      "text": "Reply to new leads in minutes"
+     },
+     {
+      "n": "3",
+      "text": "Onboard new clients"
+     },
+     {
+      "n": "4",
+      "text": "Run our ads"
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "The 1 rule",
+    "title": "Nothing goes out\nwithout a *yes*.",
+    "bodyY": 470,
+    "list": [
+     {
+      "n": "1",
+      "text": "The AI drafts it"
+     },
+     {
+      "n": "2",
+      "text": "A person taps yes"
+     },
+     {
+      "n": "3",
+      "text": "Then it goes out"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Applies to",
+      "v": "every email, post and payment."
+     },
+     {
+      "k": "Why",
+      "v": "1 wrong email costs more than the time it saved."
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "50% 50%",
+     "blur": true
+    },
+    "label": "What they still can't do",
+    "title": "4 jobs that\nstay *human*",
+    "bodyY": 470,
+    "list": [
+     {
+      "n": "1",
+      "text": "Earn a client's trust face to face"
+     },
+     {
+      "n": "2",
+      "text": "Decide what's worth building"
+     },
+     {
+      "n": "3",
+      "text": "Say no to the wrong deal"
+     },
+     {
+      "n": "4",
+      "text": "Own it when something breaks"
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010
+   },
+   {
+    "kind": "quote",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "66% 0%",
+     "size": "auto 1350px",
+     "dim": {
+      "top": 0.5,
+      "bot": 0.45
+     }
+    },
+    "quote": {
+     "text": "AI does\nthe work.\n*People\nown it.*",
+     "sub": "Korede Kolawole,\nco-founder,\nContent Systems.ai",
+     "y": 200,
+     "size": 96
+    }
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "54% 0%",
+     "size": "auto 1180px",
+     "dim": {
+      "top": 0.65,
+      "bot": 0.95
+     }
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 110
+     },
+     {
+      "text": "for our starter pack.",
+      "style": "acc",
+      "size": 72
+     }
+    ],
+    "blocksY": 60,
+    "pay": {
+     "text": "5 skills + *what each may do alone.*",
+     "y": 1040,
+     "size": 42
+    },
+    "wordmark": true,
+    "wmTop": 905,
+    "bgc": "#14110c"
+   }
+  ]
+ }
 }

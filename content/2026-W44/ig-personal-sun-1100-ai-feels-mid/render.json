@@ -1,238 +1,232 @@
 {
-  "template": "photo",
-  "data": {
-    "handle": "@koredekola",
-    "platform": "instagram",
-    "accent": "#E8B84B",
-    "slides": [
-      {
-        "kind": "cover",
-        "photo": {
-          "src": "assets/talking-head/backgrounds/loft-office.png",
-          "pos": "50% 50%",
-          "dim": {
-            "top": 0.7,
-            "bot": 0.55
-          }
-        },
-        "cut": {
-          "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-          "x": 60,
-          "y": 380,
-          "h": 1400
-        },
-        "blocks": [
-          {
-            "text": "Your AI isn't dumb.",
-            "style": "acc",
-            "size": 92
-          },
-          {
-            "text": "You're using it *wrong.*",
-            "style": "white",
-            "size": 92
-          }
-        ],
-        "blocksY": 90,
-        "pay": {
-          "text": "*4 fixes* that changed how I use it.",
-          "y": 1010,
-          "size": 48
-        }
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/white-jacket-lounge.jpg",
-          "pos": "50% 35%",
-          "blur": true
-        },
-        "label": "Fix 1.",
-        "title": "Give it *files*,\nnot one-liners",
-        "bodyY": 430,
-        "list": [
-          {
-            "text": "\"Write me a reply\"",
-            "off": true
-          },
-          {
-            "text": "Your SOP + 3 past replies + your tone"
-          }
-        ],
-        "ann": [
-          {
-            "k": "Looks like",
-            "v": "the stuff you'd hand a new hire on day 1."
-          },
-          {
-            "k": "Why it works",
-            "v": "it stops guessing who you are."
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/white-jacket-lounge.jpg",
-          "pos": "50% 35%",
-          "blur": true
-        },
-        "label": "Fix 2.",
-        "title": "Make it *ask*\nbefore it acts",
-        "bodyY": 430,
-        "ann": [
-          {
-            "k": "Looks like",
-            "v": "Claude Duet drafts the email, you approve it. Microsoft warns agents can act like insider threats."
-          },
-          {
-            "k": "Why it works",
-            "v": "nothing embarrassing goes out."
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010,
-        "frames": [
-          {
-            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/duet.png",
-            "x": 0,
-            "y": 110,
-            "w": 450,
-            "h": 440,
-            "pos": "50% 59%"
-          },
-          {
-            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png",
-            "x": 470,
-            "y": 0,
-            "w": 450,
-            "h": 440,
-            "pos": "50% 63%"
-          }
-        ],
-        "fh": 560
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/white-jacket-lounge.jpg",
-          "pos": "50% 35%",
-          "blur": true
-        },
-        "label": "Fix 3.",
-        "title": "Turn repeats\ninto *skills*",
-        "bodyY": 430,
-        "ann": [
-          {
-            "k": "Looks like",
-            "v": "the prompt you paste every morning, saved once as a skill. 70+ AI tools now read the format."
-          },
-          {
-            "k": "Why it works",
-            "v": "you stop re-explaining."
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010,
-        "frames": [
-          {
-            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
-            "x": 0,
-            "y": 70,
-            "w": 450,
-            "h": 470,
-            "pos": "50% 0%"
-          },
-          {
-            "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif.png",
-            "x": 470,
-            "y": 0,
-            "w": 450,
-            "h": 540,
-            "pos": "50% 0%"
-          }
-        ],
-        "fh": 560
-      },
-      {
-        "kind": "body",
-        "photo": {
-          "src": "assets/photos/korede/white-jacket-lounge.jpg",
-          "pos": "50% 35%",
-          "blur": true
-        },
-        "label": "Fix 4.",
-        "title": "Make it *check*\nits own work",
-        "bodyY": 430,
-        "list": [
-          {
-            "n": "1",
-            "text": "Draft"
-          },
-          {
-            "n": "2",
-            "text": "Compare it to your checklist"
-          },
-          {
-            "n": "3",
-            "text": "Fix what's off"
-          }
-        ],
-        "ann": [
-          {
-            "k": "Looks like",
-            "v": "a second pass before you ever see it."
-          },
-          {
-            "k": "Why it works",
-            "v": "it catches the mistakes you'd catch."
-          }
-        ],
-        "labelY": 100,
-        "titleY": 170,
-        "annY": 1010
-      },
-      {
-        "kind": "cta",
-        "photo": {
-          "src": "assets/talking-head/backgrounds/city-dusk.png",
-          "pos": "50% 50%",
-          "dim": {
-            "top": 0.7,
-            "bot": 0.55
-          }
-        },
-        "cut": {
-          "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-          "x": 60,
-          "y": 380,
-          "h": 1400
-        },
-        "blocks": [
-          {
-            "text": "Comment *AI*",
-            "style": "white",
-            "size": 116
-          },
-          {
-            "text": "I'll send my starter pack.",
-            "style": "acc",
-            "size": 70
-          }
-        ],
-        "blocksY": 90,
-        "pay": {
-          "text": "5 skills you can *copy today.*",
-          "y": 1030,
-          "size": 48
-        },
-        "wordmark": false
-      }
-    ]
-  }
+ "template": "photo",
+ "data": {
+  "handle": "@koredekola",
+  "platform": "instagram",
+  "accent": "#E8B84B",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 0%",
+     "dim": {
+      "top": 0.6,
+      "bot": 0.6
+     }
+    },
+    "blocks": [
+     {
+      "text": "Your AI isn't dumb.",
+      "style": "acc",
+      "size": 92
+     },
+     {
+      "text": "You're using it *wrong.*",
+      "style": "white",
+      "size": 92
+     }
+    ],
+    "blocksY": 90,
+    "pay": {
+     "text": "*4 fixes* that changed how I use it.",
+     "y": 1010,
+     "size": 48
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Fix 1.",
+    "title": "Give it *files*,\nnot one-liners",
+    "bodyY": 430,
+    "list": [
+     {
+      "text": "\"Write me a reply\"",
+      "off": true
+     },
+     {
+      "text": "Your SOP + 3 past replies + your tone"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "the stuff you'd hand a new hire on day 1."
+     },
+     {
+      "k": "Why it works",
+      "v": "it stops guessing who you are."
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Fix 2.",
+    "title": "Make it *ask*\nbefore it acts",
+    "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "Claude Duet drafts the email, you approve it. Microsoft warns agents can act like insider threats."
+     },
+     {
+      "k": "Why it works",
+      "v": "nothing embarrassing goes out."
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010,
+    "frames": [
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/duet.png",
+      "x": 0,
+      "y": 110,
+      "w": 450,
+      "h": 440,
+      "pos": "50% 59%"
+     },
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png",
+      "x": 470,
+      "y": 0,
+      "w": 450,
+      "h": 440,
+      "pos": "50% 63%"
+     }
+    ],
+    "fh": 560
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Fix 3.",
+    "title": "Turn repeats\ninto *skills*",
+    "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "the prompt you paste every morning, saved once as a skill. 70+ AI tools now read the format."
+     },
+     {
+      "k": "Why it works",
+      "v": "you stop re-explaining."
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010,
+    "frames": [
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
+      "x": 0,
+      "y": 70,
+      "w": 450,
+      "h": 470,
+      "pos": "50% 0%"
+     },
+     {
+      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif.png",
+      "x": 470,
+      "y": 0,
+      "w": 450,
+      "h": 540,
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 560
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "Fix 4.",
+    "title": "Make it *check*\nits own work",
+    "bodyY": 430,
+    "list": [
+     {
+      "n": "1",
+      "text": "Draft"
+     },
+     {
+      "n": "2",
+      "text": "Compare it to your checklist"
+     },
+     {
+      "n": "3",
+      "text": "Fix what's off"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "a second pass before you ever see it."
+     },
+     {
+      "k": "Why it works",
+      "v": "it catches the mistakes you'd catch."
+     }
+    ],
+    "labelY": 100,
+    "titleY": 170,
+    "annY": 1010
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 50%",
+     "dim": {
+      "top": 0.7,
+      "bot": 0.55
+     }
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 60,
+     "y": 170,
+     "h": 1400
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 116
+     },
+     {
+      "text": "I'll send my starter pack.",
+      "style": "acc",
+      "size": 70
+     }
+    ],
+    "blocksY": 90,
+    "pay": {
+     "text": "5 skills you can *copy today.*",
+     "y": 1030,
+     "size": 48
+    },
+    "wordmark": false
+   }
+  ]
+ }
 }

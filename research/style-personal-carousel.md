@@ -24,3 +24,14 @@ Files in `research/ref-personal-carousel/`: `embed-01..07.png` (feed view, slide
 - Same grid: `label` + `title` top left, `frames` (2 staggered framed screenshots or photos) or `list` cards in the middle, `ann` box at the bottom (`Looks like` / `Why it works`), progress bar.
 - Type (Korede's call, 2026-10-24): Inter 600 to 700 with tight tracking (-0.05em) plus Instrument Serif italic for accent words, instead of the reference's heavy condensed face. No sticker bursts.
 - Colours: ink-green/gold brand base, gold accent, cream boxes.
+
+## The video slides (2 to 6), watched frame by frame (2026-10-24)
+Each inner slide is a ~10 s video (slide 3 is 7.6 s). Everything in the layout stays still: the blurred cover photo behind, the orange "Skill N." label, the white title, the cream "Looks like / Performs because" box and the orange progress bar. Only the 2 white-framed boxes move. Each one plays a real example clip made with that skill, and the clips change every 2 to 3 s:
+- /ugc-creator: 2 vertical selfie clips of a creator holding the PYNK product, talking to camera.
+- /documentary: 2 landscape clips, stacked and offset (top left, lower right): a mockumentary office, a crowd scene, a man with binoculars.
+- /animation: 2 vertical clips, papercraft worlds unfolding into a library aisle and a PYNK can with cherries, ending on a face.
+- /commercial: 2 landscape cinematic clips: a woman walking a street, a woman on a park bench, then both drinking the can.
+- /skeleton: 2 vertical clips of 3D skeleton characters with their own burned-in captions.
+The first frame fades in. The movement is the proof: you see the output working without reading anything.
+
+Applied to ours: the frame boxes are already there (`frames` in templates/photo-carousel). Follow-up, not built yet: export some inner slides as 8 to 10 s mp4s (IG carousels accept video slides). Put 2 framed clips in each, such as screen recordings of the AI doing the task or short HeyGen/kie clips, and keep the static layout around them. The current render path only writes PNGs, so this needs a small video-export mode in render.mjs.
