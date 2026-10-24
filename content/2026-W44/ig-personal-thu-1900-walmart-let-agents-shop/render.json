@@ -1,269 +1,266 @@
 {
-  "template": "arena",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo-tight.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.17
-    },
-    "script": "Walmart just let AI agents shop. Amazon said no. Walmart launched Agent Gateway. Approved AI agents can search the store and buy for you. You set a spending limit, or approve every order. The agent never sees your card. Break the rules, and it's blocked. Amazon went the other way. It's blocking AI agents from buying, and it already blocked Meta's agent. Meanwhile, Walmart plugs into ChatGPT and Gemini. So who wins? Walmart bet on agents. Amazon bet on its own store. Comment AI and I'll send you my free AI starter pack.",
-    "player": {
-      "brand": "walmart",
-      "tile": "#0071CE",
-      "color": "#FFC220"
-    },
-    "opponent": {
-      "brand": "amazon",
-      "tile": "#232F3E"
-    },
-    "handle": "@koredekola",
-    "popTop": 380,
-    "stopMotion": 10,
-    "crowd": {
-      "brands": [
-        "google",
-        "gemini",
-        "meta",
-        "chatgpt",
-        "perplexity",
-        "microsoft",
-        "shopify"
-      ]
-    },
-    "posterAt": 1.6,
-    "beats": [
-      {
-        "type": "rain",
-        "at": "AI#1",
-        "brands": [
-          "chatgpt",
-          "gemini",
-          "meta",
-          "google"
-        ],
-        "count": 14,
-        "outAt": "Walmart#2"
-      },
-      {
-        "type": "round",
-        "title": "ROUND 1",
-        "sub": "FIGHT",
-        "dash": false,
-        "koAt": "shop",
-        "ko": false,
-        "koText": "OPEN",
-        "hp": 0.4,
-        "flash": true
-      },
-      {
-        "type": "blast",
-        "at": "Walmart#1",
-        "hitAt": "shop",
-        "shots": 8,
-        "rocket": true,
-        "quiet": true
-      },
-      {
-        "type": "blast",
-        "from": "enemy",
-        "at": "Amazon#1",
-        "hitAt": "no",
-        "shots": 6,
-        "hp": 0.55,
-        "text": "NO"
-      },
-      {
-        "type": "powerup",
-        "at": "launched",
-        "brand": "walmart",
-        "title": "POWER UP",
-        "text": "AGENT GATEWAY",
-        "slot": 0,
-        "outAt": "search"
-      },
-      {
-        "type": "throw",
-        "at": "approved",
-        "hitAt": "agents#2",
-        "sprite": "robot",
-        "target": "player",
-        "result": "join",
-        "text": "APPROVED AGENT",
-        "color": "#FFC220"
-      },
-      {
-        "type": "rain",
-        "at": "search",
-        "brands": [
-          "chatgpt",
-          "gemini",
-          "google",
-          "meta"
-        ],
-        "count": 10,
-        "outAt": "never"
-      },
-      {
-        "type": "popup",
-        "at": "search",
-        "title": "AGENTS CAN",
-        "text": "SEARCH + BUY",
-        "kind": "good",
-        "slot": 0,
-        "outAt": "never"
-      },
-      {
-        "type": "popup",
-        "at": "spending",
-        "title": "YOU SET A",
-        "text": "SPEND LIMIT",
-        "kind": "good",
-        "slot": 1,
-        "outAt": "approve"
-      },
-      {
-        "type": "popup",
-        "at": "approve",
-        "title": "OR YOU",
-        "text": "APPROVE IT",
-        "kind": "good",
-        "slot": 1,
-        "outAt": "never"
-      },
-      {
-        "type": "cheer",
-        "at": "order",
-        "brands": [
-          "google",
-          "meta",
-          "chatgpt",
-          "gemini"
-        ],
-        "text": "CHECKOUT"
-      },
-      {
-        "type": "stamp",
-        "at": "never",
-        "text": "CARD HIDDEN",
-        "color": "#FFC220",
-        "y": 560,
-        "outAt": "break",
-        "flash": "#0071CE"
-      },
-      {
-        "type": "cheer",
-        "at": "card",
-        "text": "NICE"
-      },
-      {
-        "type": "throw",
-        "at": "break",
-        "hitAt": "blocked#1",
-        "sprite": "evil-robot",
-        "target": "player",
-        "result": "block",
-        "text": "BLOCKED",
-        "from": "right",
-        "color": "#FFC220"
-      },
-      {
-        "type": "title",
-        "at": "Amazon#2",
-        "title": "ROUND 2",
-        "sub": "AMAZON",
-        "rnd": 2,
-        "outAt": "blocking"
-      },
-      {
-        "type": "throw",
-        "at": "blocking",
-        "hitAt": "buying",
-        "sprite": "robot",
-        "target": "enemy",
-        "result": "block",
-        "text": "NO AGENTS"
-      },
-      {
-        "type": "throw",
-        "at": "already",
-        "hitAt": "Meta's",
-        "brand": "meta",
-        "target": "enemy",
-        "result": "block",
-        "text": "BLOCKED"
-      },
-      {
-        "type": "cheer",
-        "at": "agent#3",
-        "brands": [
-          "google",
-          "gemini",
-          "chatgpt"
-        ],
-        "text": "OOF"
-      },
-      {
-        "type": "throw",
-        "at": "Meanwhile",
-        "hitAt": "ChatGPT",
-        "brand": "chatgpt",
-        "target": "player",
-        "result": "join",
-        "text": "+ CHATGPT",
-        "from": "left"
-      },
-      {
-        "type": "throw",
-        "at": "and#4",
-        "hitAt": "Gemini",
-        "brand": "gemini",
-        "target": "player",
-        "result": "join",
-        "text": "+ GEMINI",
-        "from": "left"
-      },
-      {
-        "type": "cheer",
-        "at": "Gemini"
-      },
-      {
-        "type": "clash",
-        "at": "who",
-        "hitAt": "wins",
-        "text": "WHO WINS?"
-      },
-      {
-        "type": "stamp",
-        "at": "Walmart#4",
-        "text": "BET ON AGENTS",
-        "color": "#FFC220",
-        "x": 320,
-        "y": 560,
-        "size": "sm",
-        "rot": -5,
-        "outAt": "comment"
-      },
-      {
-        "type": "stamp",
-        "at": "Amazon#3",
-        "text": "BET ON ITS STORE",
-        "color": "#FF9900",
-        "x": 720,
-        "y": 700,
-        "size": "sm",
-        "rot": 5,
-        "outAt": "comment"
-      },
-      {
-        "type": "continue",
-        "at": "comment",
-        "keyword": "AI",
-        "typeAt": "AI#4",
-        "dm": "DM SENT: AI STARTER PACK",
-        "from": 9
-      }
+ "template": "arena",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo-tight.wav",
+  "script": "Walmart just let AI agents shop. Amazon said no. Walmart launched Agent Gateway. Approved AI agents can search the store and buy for you. You set a spending limit, or approve every order. The agent never sees your card. Break the rules, and it's blocked. Amazon went the other way. It's blocking AI agents from buying, and it already blocked Meta's agent. Meanwhile, Walmart plugs into ChatGPT and Gemini. So who wins? Walmart bet on agents. Amazon bet on its own store. Comment AI and I'll send you my free AI starter pack.",
+  "player": {
+   "brand": "walmart",
+   "tile": "#0071CE",
+   "color": "#FFC220"
+  },
+  "opponent": {
+   "brand": "amazon",
+   "tile": "#232F3E"
+  },
+  "handle": "@koredekola",
+  "popTop": 380,
+  "stopMotion": 10,
+  "crowd": {
+   "brands": [
+    "google",
+    "gemini",
+    "meta",
+    "chatgpt",
+    "perplexity",
+    "microsoft",
+    "shopify"
+   ]
+  },
+  "posterAt": 1.6,
+  "beats": [
+   {
+    "type": "rain",
+    "at": "AI#1",
+    "brands": [
+     "chatgpt",
+     "gemini",
+     "meta",
+     "google"
     ],
-    "badColor": "#FF9900"
-  }
+    "count": 14,
+    "outAt": "Walmart#2"
+   },
+   {
+    "type": "round",
+    "title": "ROUND 1",
+    "sub": "FIGHT",
+    "dash": false,
+    "koAt": "shop",
+    "ko": false,
+    "koText": "OPEN",
+    "hp": 0.4,
+    "flash": true
+   },
+   {
+    "type": "blast",
+    "at": "Walmart#1",
+    "hitAt": "shop",
+    "shots": 8,
+    "rocket": true,
+    "quiet": true
+   },
+   {
+    "type": "blast",
+    "from": "enemy",
+    "at": "Amazon#1",
+    "hitAt": "no",
+    "shots": 6,
+    "hp": 0.55,
+    "text": "NO"
+   },
+   {
+    "type": "powerup",
+    "at": "launched",
+    "brand": "walmart",
+    "title": "POWER UP",
+    "text": "AGENT GATEWAY",
+    "slot": 0,
+    "outAt": "search"
+   },
+   {
+    "type": "throw",
+    "at": "approved",
+    "hitAt": "agents#2",
+    "sprite": "robot",
+    "target": "player",
+    "result": "join",
+    "text": "APPROVED AGENT",
+    "color": "#FFC220"
+   },
+   {
+    "type": "rain",
+    "at": "search",
+    "brands": [
+     "chatgpt",
+     "gemini",
+     "google",
+     "meta"
+    ],
+    "count": 10,
+    "outAt": "never"
+   },
+   {
+    "type": "popup",
+    "at": "search",
+    "title": "AGENTS CAN",
+    "text": "SEARCH + BUY",
+    "kind": "good",
+    "slot": 0,
+    "outAt": "never"
+   },
+   {
+    "type": "popup",
+    "at": "spending",
+    "title": "YOU SET A",
+    "text": "SPEND LIMIT",
+    "kind": "good",
+    "slot": 1,
+    "outAt": "approve"
+   },
+   {
+    "type": "popup",
+    "at": "approve",
+    "title": "OR YOU",
+    "text": "APPROVE IT",
+    "kind": "good",
+    "slot": 1,
+    "outAt": "never"
+   },
+   {
+    "type": "cheer",
+    "at": "order",
+    "brands": [
+     "google",
+     "meta",
+     "chatgpt",
+     "gemini"
+    ],
+    "text": "CHECKOUT"
+   },
+   {
+    "type": "stamp",
+    "at": "never",
+    "text": "CARD HIDDEN",
+    "color": "#FFC220",
+    "y": 560,
+    "outAt": "break",
+    "flash": "#0071CE"
+   },
+   {
+    "type": "cheer",
+    "at": "card",
+    "text": "NICE"
+   },
+   {
+    "type": "throw",
+    "at": "break",
+    "hitAt": "blocked#1",
+    "sprite": "evil-robot",
+    "target": "player",
+    "result": "block",
+    "text": "BLOCKED",
+    "from": "right",
+    "color": "#FFC220"
+   },
+   {
+    "type": "title",
+    "at": "Amazon#2",
+    "title": "ROUND 2",
+    "sub": "AMAZON",
+    "rnd": 2,
+    "outAt": "blocking"
+   },
+   {
+    "type": "throw",
+    "at": "blocking",
+    "hitAt": "buying",
+    "sprite": "robot",
+    "target": "enemy",
+    "result": "block",
+    "text": "NO AGENTS"
+   },
+   {
+    "type": "throw",
+    "at": "already",
+    "hitAt": "Meta's",
+    "brand": "meta",
+    "target": "enemy",
+    "result": "block",
+    "text": "BLOCKED"
+   },
+   {
+    "type": "cheer",
+    "at": "agent#3",
+    "brands": [
+     "google",
+     "gemini",
+     "chatgpt"
+    ],
+    "text": "OOF"
+   },
+   {
+    "type": "throw",
+    "at": "Meanwhile",
+    "hitAt": "ChatGPT",
+    "brand": "chatgpt",
+    "target": "player",
+    "result": "join",
+    "text": "+ CHATGPT",
+    "from": "left"
+   },
+   {
+    "type": "throw",
+    "at": "and#4",
+    "hitAt": "Gemini",
+    "brand": "gemini",
+    "target": "player",
+    "result": "join",
+    "text": "+ GEMINI",
+    "from": "left"
+   },
+   {
+    "type": "cheer",
+    "at": "Gemini"
+   },
+   {
+    "type": "clash",
+    "at": "who",
+    "hitAt": "wins",
+    "text": "WHO WINS?"
+   },
+   {
+    "type": "stamp",
+    "at": "Walmart#4",
+    "text": "BET ON AGENTS",
+    "color": "#FFC220",
+    "x": 320,
+    "y": 560,
+    "size": "sm",
+    "rot": -5,
+    "outAt": "comment"
+   },
+   {
+    "type": "stamp",
+    "at": "Amazon#3",
+    "text": "BET ON ITS STORE",
+    "color": "#FF9900",
+    "x": 720,
+    "y": 700,
+    "size": "sm",
+    "rot": 5,
+    "outAt": "comment"
+   },
+   {
+    "type": "continue",
+    "at": "comment",
+    "keyword": "AI",
+    "typeAt": "AI#4",
+    "dm": "DM SENT: AI STARTER PACK",
+    "from": 9
+   }
+  ],
+  "badColor": "#FF9900",
+  "sfxGain": 1.6
+ }
 }

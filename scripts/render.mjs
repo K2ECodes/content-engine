@@ -318,7 +318,7 @@ function findDrop(file) {
   return Math.max(0, idx * 0.25 - 0.1);
 }
 
-function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) {
+function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration, sfxGain = 1 }) {
 // Audio: voice first, short dry SFX about 20 dB under, optional music bed ducked under speech.
   const ain = [], af = [], mix = [];
   let n = 1; // input 0 is the silent video
@@ -331,7 +331,7 @@ function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration }) 
     if (files.length) { const i = seen[kit] = (seen[kit] ?? -1) + 1; file = files[i % files.length]; vol = Math.min(0.45, vol * (KIT_GAIN[kit] ?? 1.2) * (KIT_TRIM[path.basename(file, '.wav')] ?? 1)); }
     else file = sfxFile(c.kind);
     if (!byFile.has(file)) byFile.set(file, []);
-    byFile.get(file).push({ t: Math.max(0, c.t), vol });
+    byFile.get(file).push({ t: Math.max(0, c.t), vol: Math.min(0.7, vol * sfxGain) });
     if (process.env.SFX_DEBUG) console.log(`  sfx ${c.t.toFixed(2)}s ${c.kind} -> ${path.basename(file)} vol ${vol.toFixed(3)}`);
   }
   for (const [file, cues] of byFile) {
@@ -401,7 +401,7 @@ async function renderSplit(browser, spec, dir, fps) {
   await done;
   process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
 
-  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration, sfxGain: data.sfxGain ?? 1 });
   const out = path.join(dir, 'video.mp4');
   // Poster: first beat fully in.
   await page.evaluate((t) => { window.seek(t); }, data.posterAt ?? Math.min(duration - 0.1, (data.beats[0]?.t ?? 0) + 0.7));
@@ -419,7 +419,7 @@ function resolveStory(dir, spec) {
   const voiceSrc = d.audio ? path.join(dir, d.audio) : faceSrc;   // a talk-segments plate is video only; the voice comes from audio/vo.wav
   d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 1.8));
   d.words = words;
-  const T = (a, label, lead = 0.05) => Math.max(0, wordTime(words, a, label) - lead);
+  const T = (a, label, lead = 0.05) => typeof a === 'number' ? a : Math.max(0, wordTime(words, a, label) - lead);   // a number = seconds
   d.scenes = d.scenes.map((sc, i) => {
     const o = { ...sc, t: i === 0 && sc.at === undefined ? 0 : T(sc.at, `scene ${i}`, 0.12) };
     for (const key of ['rows', 'lines']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
@@ -431,6 +431,7 @@ function resolveStory(dir, spec) {
     for (const key of ['nodes', 'edges', 'pulses']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
     if (o.counters) o.counters = o.counters.map((c, k) => ({ ...c, t: c.at !== undefined ? T(c.at, `scene ${i} counter ${k}`) : undefined, ticks: (c.ticks || []).map((tk, j) => ({ ...tk, t: T(tk.at, `scene ${i} counter ${k} tick ${j}`, 0.02) })) }));
     if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;
+    if (o.type === 'clip') o.srcUrl = pathToFileURL(o.src.startsWith('assets/') ? path.join(ROOT, o.src) : path.resolve(dir, o.src)).href;
     if (o.bg) o.bgUrl = pathToFileURL(path.resolve(dir, o.bg)).href;
     if (o.type === 'person') { o.photoUrl = pathToFileURL(path.resolve(dir, o.photo)).href; if (o.brand) o.b = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'))[o.brand]; }
     return o;
@@ -489,6 +490,7 @@ async function renderStory(browser, spec, dir, fps) {
   }
   const { page } = await openTemplate(browser, 'story', data, '9:16');
   if (faceSrc) await page.evaluate(() => Promise.all(window.faceVideos.map((v) => new Promise((r) => { v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); }))));
+  await page.evaluate(() => Promise.all((window.clipVideos || []).map((v) => new Promise((r) => { v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); setTimeout(r, 15000); }))));
   const duration = data.duration, frames = Math.round(duration * fps);
   const sfx = await page.evaluate(() => window.sfx);
   const silent = path.join(dir, 'video-silent.mp4');
@@ -504,6 +506,12 @@ async function renderStory(browser, spec, dir, fps) {
         const target = Math.min(t, (v.duration || t) - 0.04);
         if (Math.abs(v.currentTime - target) > 0.001) await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; });
       }
+      for (const v of window.clipVideos || []) {   // screen-recording scenes: play from data-ss while the scene is up
+        const t0 = Number(v.dataset.t0), t1 = Number(v.dataset.t1);
+        if (!(t >= t0 - 0.1 && t <= t1 + 0.1)) continue;
+        const target = Math.max(0, Math.min(Number(v.dataset.ss || 0) + (t - t0), (v.duration || 1) - 0.04));
+        if (Math.abs(v.currentTime - target) > 0.001) await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; });
+      }
     }, t);
     const buf = await page.screenshot({ type: 'png' });
     if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
@@ -512,7 +520,7 @@ async function renderStory(browser, spec, dir, fps) {
   ff.stdin.end();
   await done;
   process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
-  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration, sfxGain: data.sfxGain ?? 1 });
   const out = path.join(dir, 'video.mp4');
   const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.6);
   spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', out, '-frames:v', '1', path.join(dir, 'poster.png')]);
@@ -558,7 +566,7 @@ async function renderArena(browser, spec, dir, fps) {
   await done;
   process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
   // The bed keeps playing under the CONTINUE countdown, so it fades at the very end, not at the last word.
-  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: duration - 0.35, duration });
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: duration - 0.35, duration, sfxGain: data.sfxGain ?? 1 });
   const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.6);
   spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
   return ['video.mp4', 'poster.png'];
@@ -605,7 +613,7 @@ function resolveTalkhead(dir, spec, fps) {
   const toEnd = (a) => { if (a === undefined) return Infinity; if (typeof a === 'number') return a; const s = wordTime(srcWords, a, 'to'), k = srcWords.findIndex((w) => w.start === s); return srcWords[k + String(a).split('#')[0].trim().split(/\s+/).length - 1].end; };
   const edl = buildEdl(srcWords, { ...tight, from: anchor(d.from, 'from') ?? 0, to: toEnd(d.to), cuts: d.cuts || [] });
   const words = edl.words;
-  const T = (a, label, lead = 0.05) => Math.max(0, wordTime(words, a, label) - lead);
+  const T = (a, label, lead = 0.05) => typeof a === 'number' ? a : Math.max(0, wordTime(words, a, label) - lead);   // a number = seconds
 
   // 9:16 column around the face (frame.cx, frame.eyes are fractions of the source frame).
   const src = probeFootage(footage), fr = { cx: 0.5, eyes: 0.38, ...(d.frame || {}) };   // frame.head: top of the head (default eyes - 0.2); frame.base < 1 insets tight footage
@@ -700,7 +708,7 @@ async function renderTalkhead(browser, spec, dir, fps) {
   ff.stdin.end();
   await done;
   process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
-  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration });
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration, sfxGain: data.sfxGain ?? 1 });
   const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.2);
   spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(posterAt), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
   return ['video.mp4', 'poster.png'];

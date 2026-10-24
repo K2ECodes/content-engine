@@ -1,481 +1,469 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "heygen": {
-      "say": "Walmart just let AI agents shop its entire store. Amazon said no. And I think one of them is making a huge mistake. Here's what happened. Walmart opened a gateway so outside AI assistants can browse, build a cart and check out, with spending limits and an approval step. Amazon is still blocking them. Meanwhile Google launched one cart that works across every store, and Meta says its assistant Muse has over ten million users, and shopping is one of the top things they use it for. So the shopper is changing. Soon you won't open five tabs to compare prices. Your AI will. The stores that let it in get the sale. The ones that block it just disappear from the list. Walmart or Amazon, who wins this? Tell me below, and comment AI for my free AI starter pack."
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "heygen": {
+   "say": "Walmart just let AI agents shop its entire store. Amazon said no. And I think one of them is making a huge mistake. Here's what happened. Walmart opened a gateway so outside AI assistants can browse, build a cart and check out, with spending limits and an approval step. Amazon is still blocking them. Meanwhile Google launched one cart that works across every store, and Meta says its assistant Muse has over ten million users, and shopping is one of the top things they use it for. So the shopper is changing. Soon you won't open five tabs to compare prices. Your AI will. The stores that let it in get the sale. The ones that block it just disappear from the list. Walmart or Amazon, who wins this? Tell me below, and comment AI for my free AI starter pack."
+  },
+  "script": "Walmart just let AI agents shop its entire store. Amazon said no. And I think 1 of them is making a huge mistake. Here's what happened. Walmart opened a gateway so outside AI assistants can browse, build a cart and check out, with spending limits and an approval step. Amazon is still blocking them. Meanwhile Google launched 1 cart that works across every store, and Meta says its assistant Muse has 10M+ users, and shopping is 1 of the top things they use it for. So the shopper is changing. Soon you won't open 5 tabs to compare prices. Your AI will. The stores that let it in get the sale. The ones that block it just disappear from the list. Walmart or Amazon, who wins this? Tell me below, and comment AI for my free AI starter pack.",
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/walmart-crop.png",
+    "url": "techcrunch.com",
+    "caption": "Walmart: AI agents welcome",
+    "h": 980,
+    "pan": 120
+   },
+   {
+    "at": "Amazon",
+    "world": "dark",
+    "type": "vs",
+    "left": "walmart",
+    "right": "amazon",
+    "ltag": "LETS AI SHOP",
+    "rtag": "BLOCKS AI",
+    "bg": "bg/arena.png"
+   },
+   {
+    "at": "Walmart#2",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/john-furner.jpg",
+    "name": "John Furner",
+    "role": "Walmart CEO",
+    "bg": "bg/aisle.png",
+    "color": "#FFC220"
+   },
+   {
+    "at": "assistants",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Walmart's agent gateway",
+    "rows": [
+     {
+      "text": "Browse the store",
+      "at": "browse,"
+     },
+     {
+      "text": "Build a cart",
+      "at": "build"
+     },
+     {
+      "text": "Check out",
+      "at": "check"
+     },
+     {
+      "text": "Limits + your approval",
+      "at": "approval"
+     }
+    ],
+    "bg": "bg/robot-shopper.png"
+   },
+   {
+    "at": "Amazon#2",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/andy-jassy.jpg",
+    "name": "Andy Jassy",
+    "role": "Amazon CEO",
+    "bg": "bg/gate.png",
+    "color": "#FF9900"
+   },
+   {
+    "at": "Meanwhile,",
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/google-crop.png",
+    "url": "techcrunch.com",
+    "caption": "Google: 1 cart, every store",
+    "h": 980,
+    "pan": 120,
+    "bg": "bg/phone-carts.png"
+   },
+   {
+    "at": "Meta",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/meta-crop.png",
+    "url": "techcrunch.com",
+    "caption": "Meta Muse: 10M+ users",
+    "h": 980,
+    "pan": 120,
+    "bg": "bg/phone-carts.png"
+   },
+   {
+    "at": "So the shopper",
+    "world": "dark",
+    "type": "stat",
+    "value": "10M+",
+    "label": "people asking an AI to shop",
+    "foot": "Meta, Oct 2026",
+    "bg": "bg/robot-shopper.png"
+   },
+   {
+    "at": "Soon",
+    "world": "light",
+    "type": "list",
+    "title": "Comparing prices",
+    "rows": [
+     {
+      "text": "You, 5 tabs",
+      "chip": "Slow",
+      "chipKind": "bad",
+      "at": "tabs"
+     },
+     {
+      "text": "Your AI",
+      "chip": "Instant",
+      "at": "will."
+     }
+    ],
+    "click": {
+     "at": "will.",
+     "x": 760,
+     "y": 1150
     },
-    "script": "Walmart just let AI agents shop its entire store. Amazon said no. And I think 1 of them is making a huge mistake. Here's what happened. Walmart opened a gateway so outside AI assistants can browse, build a cart and check out, with spending limits and an approval step. Amazon is still blocking them. Meanwhile Google launched 1 cart that works across every store, and Meta says its assistant Muse has 10M+ users, and shopping is 1 of the top things they use it for. So the shopper is changing. Soon you won't open 5 tabs to compare prices. Your AI will. The stores that let it in get the sale. The ones that block it just disappear from the list. Walmart or Amazon, who wins this? Tell me below, and comment AI for my free AI starter pack.",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11,
-      "dropAt": "Amazon"
+    "bg": "bg/aisle.png"
+   },
+   {
+    "at": "stores",
+    "world": "dark",
+    "type": "list",
+    "title": "The new shelf",
+    "rows": [
+     {
+      "text": "Let AI in",
+      "chip": "Gets the sale",
+      "at": "sale."
+     },
+     {
+      "text": "Block it",
+      "chip": "Disappears",
+      "chipKind": "bad",
+      "at": "disappear"
+     }
+    ],
+    "bg": "bg/gate.png"
+   },
+   {
+    "at": "Walmart#3",
+    "world": "light",
+    "type": "vs",
+    "left": "walmart",
+    "right": "amazon",
+    "ltag": "?",
+    "rtag": "?"
+   },
+   {
+    "at": "comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Starter pack sent",
+    "bg": "bg/aisle.png"
+   }
+  ],
+  "audio": "audio/vo.wav",
+  "keys": [
+   "mistake",
+   "approval",
+   "changing"
+  ],
+  "strikes": [
+   "blocking"
+  ],
+  "face": {
+   "src": "plate.mp4"
+  },
+  "faceCuts": [
+   {
+    "layout": "split",
+    "zoom": 1.0,
+    "push": true,
+    "pushAt": "mistake."
+   },
+   {
+    "at": "Amazon",
+    "layout": "split"
+   },
+   {
+    "at": "Here's",
+    "layout": "none"
+   },
+   {
+    "at": "So the shopper",
+    "layout": "split"
+   },
+   {
+    "at": "Your",
+    "layout": "none"
+   },
+   {
+    "at": "Walmart#3",
+    "layout": "split",
+    "zoom": 1.0,
+    "push": true,
+    "pushAt": "wins"
+   },
+   {
+    "at": "comment",
+    "layout": "split"
+   }
+  ],
+  "pops": [
+   {
+    "at": "Walmart",
+    "kind": "logo",
+    "brand": "walmart",
+    "x": 760,
+    "y": 330,
+    "w": 200,
+    "rot": 8,
+    "until": "Amazon"
+   },
+   {
+    "at": "mistake.",
+    "kind": "burst",
+    "text": "HUGE\nMISTAKE?",
+    "x": 620,
+    "y": 380,
+    "w": 300,
+    "size": 46,
+    "color": "#FFE066",
+    "rot": -10,
+    "until": "Here's"
+   },
+   {
+    "at": "blocking",
+    "kind": "sprite",
+    "sprite": "evil-robot",
+    "x": 760,
+    "y": 600,
+    "w": 220,
+    "until": "Meanwhile,"
+   },
+   {
+    "at": "Google",
+    "kind": "logo",
+    "brand": "google",
+    "x": 800,
+    "y": 250,
+    "w": 180,
+    "rot": -8,
+    "until": "Meta"
+   },
+   {
+    "at": "Meta",
+    "kind": "logo",
+    "brand": "meta",
+    "x": 90,
+    "y": 250,
+    "w": 180,
+    "rot": 8,
+    "until": "So the shopper"
+   },
+   {
+    "at": "tabs",
+    "kind": "text",
+    "text": "5 tabs = pain",
+    "x": 140,
+    "y": 700,
+    "size": 70,
+    "until": "Your"
+   },
+   {
+    "at": "will.",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 780,
+    "y": 600,
+    "w": 220,
+    "until": "The stores"
+   },
+   {
+    "at": "disappear",
+    "kind": "sprite",
+    "sprite": "ghost",
+    "x": 800,
+    "y": 620,
+    "w": 200,
+    "until": "Walmart#3"
+   },
+   {
+    "at": "comment",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 800,
+    "y": 300,
+    "w": 220,
+    "size": 60,
+    "color": "#9CCAA0",
+    "rot": 12
+   },
+   {
+    "at": "Walmart#2",
+    "kind": "logo",
+    "brand": "walmart",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "assistants"
+   },
+   {
+    "at": "Amazon#2",
+    "kind": "logo",
+    "brand": "amazon",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "Meanwhile,"
+   },
+   {
+    "at": "shopper",
+    "kind": "sprite",
+    "sprite": "shopper",
+    "x": 90,
+    "y": 270,
+    "w": 190,
+    "until": "Soon,"
+   },
+   {
+    "at": "just",
+    "kind": "logo",
+    "brand": "amazon",
+    "x": 800,
+    "y": 640,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "Amazon"
+   },
+   {
+    "at": "agents",
+    "kind": "logo",
+    "brand": "google",
+    "x": 90,
+    "y": 640,
+    "w": 150,
+    "rot": -8,
+    "bare": true,
+    "until": "Amazon"
+   },
+   {
+    "at": "shop",
+    "kind": "logo",
+    "brand": "shopify",
+    "x": 90,
+    "y": 1150,
+    "w": 150,
+    "rot": 0,
+    "bare": true,
+    "until": "Amazon"
+   }
+  ],
+  "bgLogos": [
+   "walmart",
+   "amazon",
+   "google",
+   "meta",
+   "openai",
+   "claude",
+   "shopify",
+   "walmart",
+   "amazon",
+   "gemini"
+  ],
+  "stop": false,
+  "coldOpen": {
+   "until": "And",
+   "set": "store",
+   "titles": [
+    {
+     "text": [
+      "Walmart lets AI",
+      "*shop the store.*"
+     ]
     },
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/walmart-crop.png",
-        "url": "techcrunch.com",
-        "caption": "Walmart: AI agents welcome",
-        "h": 980,
-        "pan": 120
-      },
-      {
-        "at": "Amazon",
-        "world": "dark",
-        "type": "vs",
-        "left": "walmart",
-        "right": "amazon",
-        "ltag": "LETS AI SHOP",
-        "rtag": "BLOCKS AI",
-        "bg": "bg/arena.png"
-      },
-      {
-        "at": "Walmart#2",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/john-furner.jpg",
-        "name": "John Furner",
-        "role": "Walmart CEO",
-        "bg": "bg/aisle.png",
-        "color": "#FFC220"
-      },
-      {
-        "at": "assistants",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Walmart's agent gateway",
-        "rows": [
-          {
-            "text": "Browse the store",
-            "at": "browse,"
-          },
-          {
-            "text": "Build a cart",
-            "at": "build"
-          },
-          {
-            "text": "Check out",
-            "at": "check"
-          },
-          {
-            "text": "Limits + your approval",
-            "at": "approval"
-          }
-        ],
-        "bg": "bg/robot-shopper.png"
-      },
-      {
-        "at": "Amazon#2",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/andy-jassy.jpg",
-        "name": "Andy Jassy",
-        "role": "Amazon CEO",
-        "bg": "bg/gate.png",
-        "color": "#FF9900"
-      },
-      {
-        "at": "Meanwhile,",
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/google-crop.png",
-        "url": "techcrunch.com",
-        "caption": "Google: 1 cart, every store",
-        "h": 980,
-        "pan": 120,
-        "bg": "bg/phone-carts.png"
-      },
-      {
-        "at": "Meta",
-        "world": "light",
-        "type": "shot",
-        "src": "shots/meta-crop.png",
-        "url": "techcrunch.com",
-        "caption": "Meta Muse: 10M+ users",
-        "h": 980,
-        "pan": 120,
-        "bg": "bg/phone-carts.png"
-      },
-      {
-        "at": "So the shopper",
-        "world": "dark",
-        "type": "stat",
-        "value": "10M+",
-        "label": "people asking an AI to shop",
-        "foot": "Meta, Oct 2026",
-        "bg": "bg/robot-shopper.png"
-      },
-      {
-        "at": "Soon",
-        "world": "light",
-        "type": "list",
-        "title": "Comparing prices",
-        "rows": [
-          {
-            "text": "You, 5 tabs",
-            "chip": "Slow",
-            "chipKind": "bad",
-            "at": "tabs"
-          },
-          {
-            "text": "Your AI",
-            "chip": "Instant",
-            "at": "will."
-          }
-        ],
-        "click": {
-          "at": "will.",
-          "x": 760,
-          "y": 1150
-        },
-        "bg": "bg/aisle.png"
-      },
-      {
-        "at": "stores",
-        "world": "dark",
-        "type": "list",
-        "title": "The new shelf",
-        "rows": [
-          {
-            "text": "Let AI in",
-            "chip": "Gets the sale",
-            "at": "sale."
-          },
-          {
-            "text": "Block it",
-            "chip": "Disappears",
-            "chipKind": "bad",
-            "at": "disappear"
-          }
-        ],
-        "bg": "bg/gate.png"
-      },
-      {
-        "at": "Walmart#3",
-        "world": "light",
-        "type": "vs",
-        "left": "walmart",
-        "right": "amazon",
-        "ltag": "?",
-        "rtag": "?"
-      },
-      {
-        "at": "comment",
-        "world": "dark",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Starter pack sent",
-        "bg": "bg/aisle.png"
-      }
-    ],
-    "audio": "audio/vo.wav",
-    "keys": [
-      "mistake",
-      "approval",
-      "changing"
-    ],
-    "strikes": [
-      "blocking"
-    ],
-    "face": {
-      "src": "plate.mp4",
-      "mask": "plate-mask.mp4"
-    },
-    "faceCuts": [
-      {
-        "layout": "full",
-        "cut": true,
-        "bg": "loft",
-        "zoom": 1.0,
-        "push": true,
-        "pushAt": "mistake."
-      },
-      {
-        "at": "Amazon",
-        "layout": "corner",
-        "cut": true
-      },
-      {
-        "at": "Here's",
-        "layout": "none"
-      },
-      {
-        "at": "So the shopper",
-        "layout": "corner",
-        "cut": false
-      },
-      {
-        "at": "Your",
-        "layout": "none"
-      },
-      {
-        "at": "Walmart#3",
-        "layout": "full",
-        "cut": true,
-        "bg": "city-dusk",
-        "zoom": 1.0,
-        "push": true,
-        "pushAt": "wins"
-      },
-      {
-        "at": "comment",
-        "layout": "corner",
-        "cut": true
-      }
-    ],
-    "pops": [
-      {
-        "at": "Walmart",
-        "kind": "logo",
-        "brand": "walmart",
-        "x": 760,
-        "y": 330,
-        "w": 200,
-        "rot": 8,
-        "until": "Amazon"
-      },
-      {
-        "at": "mistake.",
-        "kind": "burst",
-        "text": "HUGE\nMISTAKE?",
-        "x": 620,
-        "y": 380,
-        "w": 300,
-        "size": 46,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "Here's"
-      },
-      {
-        "at": "blocking",
-        "kind": "sprite",
-        "sprite": "evil-robot",
-        "x": 760,
-        "y": 600,
-        "w": 220,
-        "until": "Meanwhile,"
-      },
-      {
-        "at": "Google",
-        "kind": "logo",
-        "brand": "google",
-        "x": 800,
-        "y": 250,
-        "w": 180,
-        "rot": -8,
-        "until": "Meta"
-      },
-      {
-        "at": "Meta",
-        "kind": "logo",
-        "brand": "meta",
-        "x": 90,
-        "y": 250,
-        "w": 180,
-        "rot": 8,
-        "until": "So the shopper"
-      },
-      {
-        "at": "tabs",
-        "kind": "text",
-        "text": "5 tabs = pain",
-        "x": 140,
-        "y": 700,
-        "size": 70,
-        "until": "Your"
-      },
-      {
-        "at": "will.",
-        "kind": "sprite",
-        "sprite": "robot",
-        "x": 780,
-        "y": 600,
-        "w": 220,
-        "until": "The stores"
-      },
-      {
-        "at": "disappear",
-        "kind": "sprite",
-        "sprite": "ghost",
-        "x": 800,
-        "y": 620,
-        "w": 200,
-        "until": "Walmart#3"
-      },
-      {
-        "at": "comment",
-        "kind": "burst",
-        "text": "FREE",
-        "x": 800,
-        "y": 300,
-        "w": 220,
-        "size": 60,
-        "color": "#9CCAA0",
-        "rot": 12
-      },
-      {
-        "at": "Walmart#2",
-        "kind": "logo",
-        "brand": "walmart",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "assistants"
-      },
-      {
-        "at": "Amazon#2",
-        "kind": "logo",
-        "brand": "amazon",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "Meanwhile,"
-      },
-      {
-        "at": "shopper",
-        "kind": "sprite",
-        "sprite": "shopper",
-        "x": 90,
-        "y": 270,
-        "w": 190,
-        "until": "Soon,"
-      },
-      {
-        "at": "just",
-        "kind": "logo",
-        "brand": "amazon",
-        "x": 800,
-        "y": 640,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "Amazon"
-      },
-      {
-        "at": "agents",
-        "kind": "logo",
-        "brand": "google",
-        "x": 90,
-        "y": 640,
-        "w": 150,
-        "rot": -8,
-        "bare": true,
-        "until": "Amazon"
-      },
-      {
-        "at": "shop",
-        "kind": "logo",
-        "brand": "shopify",
-        "x": 90,
-        "y": 1150,
-        "w": 150,
-        "rot": 0,
-        "bare": true,
-        "until": "Amazon"
-      }
-    ],
-    "bgLogos": [
-      "walmart",
-      "amazon",
-      "google",
-      "meta",
-      "openai",
-      "claude",
-      "shopify",
-      "walmart",
-      "amazon",
-      "gemini"
-    ],
-    "stop": false,
-    "coldOpen": {
-      "until": "And",
-      "set": "store",
-      "titles": [
-        {
-          "text": [
-            "Walmart lets AI",
-            "*shop the store.*"
-          ]
-        },
-        {
-          "at": "Amazon",
-          "text": [
-            "Amazon",
-            "*said no.*"
-          ],
-          "color": "#E47911"
-        }
-      ],
-      "accent": [
-        "entire",
-        "no."
-      ],
-      "actors": [
-        {
-          "brand": "walmart",
-          "x": 220
-        },
-        {
-          "thing": "bot",
-          "limbs": true,
-          "color": "#9FC3EA",
-          "props": [
-            "cart"
-          ],
-          "x": 470,
-          "scale": 0.9
-        },
-        {
-          "brand": "amazon",
-          "x": 790
-        }
-      ],
-      "beats": [
-        {
-          "at": "Walmart",
-          "actor": 0,
-          "do": "wave",
-          "say": "Come on in"
-        },
-        {
-          "at": "agents",
-          "actor": 1,
-          "do": "run-in",
-          "from": "left"
-        },
-        {
-          "at": "entire",
-          "actor": 1,
-          "do": "jump"
-        },
-        {
-          "at": "Amazon",
-          "actor": 2,
-          "do": "drop"
-        },
-        {
-          "at": "said",
-          "actor": 2,
-          "do": "point",
-          "dir": "left"
-        },
-        {
-          "at": "no.",
-          "actor": 2,
-          "do": "squash",
-          "say": "No."
-        },
-        {
-          "at": "no.",
-          "actor": 1,
-          "do": "sad"
-        }
-      ]
+    {
+     "at": "Amazon",
+     "text": [
+      "Amazon",
+      "*said no.*"
+     ],
+     "color": "#E47911"
     }
-  }
+   ],
+   "accent": [
+    "entire",
+    "no."
+   ],
+   "actors": [
+    {
+     "brand": "walmart",
+     "x": 220
+    },
+    {
+     "thing": "bot",
+     "limbs": true,
+     "color": "#9FC3EA",
+     "props": [
+      "cart"
+     ],
+     "x": 470,
+     "scale": 0.9
+    },
+    {
+     "brand": "amazon",
+     "x": 790
+    }
+   ],
+   "beats": [
+    {
+     "at": "Walmart",
+     "actor": 0,
+     "do": "wave",
+     "say": "Come on in"
+    },
+    {
+     "at": "agents",
+     "actor": 1,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "entire",
+     "actor": 1,
+     "do": "jump"
+    },
+    {
+     "at": "Amazon",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "said",
+     "actor": 2,
+     "do": "point",
+     "dir": "left"
+    },
+    {
+     "at": "no.",
+     "actor": 2,
+     "do": "squash",
+     "say": "No."
+    },
+    {
+     "at": "no.",
+     "actor": 1,
+     "do": "sad"
+    }
+   ]
+  },
+  "sfxGain": 1.6
+ }
 }

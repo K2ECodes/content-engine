@@ -1,653 +1,650 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 2.0,
+  "script": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that matters. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT or Cursor. No more pasting the same prompt every morning. Here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Want my AI starter pack? Comment AI and I'll send it to you free.",
+  "keys": [
+   "70",
+   "1m",
+   "matters",
+   "once",
+   "first",
+   "task",
+   "late",
+   "yes",
+   "free"
+  ],
+  "strikes": [
+   "pasting"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "odometer",
+    "value": "70",
+    "suffix": "+",
+    "label": "AI tools run the same skills",
+    "landAt": "70+",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Over",
+    "world": "light",
+    "type": "stat",
+    "value": "1M",
+    "label": "skills, nearly 280M installs",
+    "foot": "Anthropic, Oct 22 2026",
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 760,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "person",
+    "photo": "people/dario-amodei.jpg",
+    "name": "Dario Amodei",
+    "role": "Anthropic CEO",
+    "color": "#D97757",
+    "at": "Here's",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "at": "A skill",
+    "world": "light",
+    "type": "list",
+    "title": "SKILL.md",
+    "badge": "1 file",
+    "rows": [
+     {
+      "text": "Your steps",
+      "chip": "Saved",
+      "chipKind": "ok",
+      "at": "saved"
+     },
+     {
+      "text": "Your rules",
+      "chip": "Saved",
+      "chipKind": "ok",
+      "at": "how-to"
+     },
+     {
+      "text": "Runs on demand",
+      "chip": "Yes",
+      "chipKind": "ok",
+      "at": "actually"
+     }
+    ],
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 770,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Write",
+    "world": "dark",
+    "type": "list",
+    "title": "Same skill, any tool",
+    "badge": "1 file",
+    "rows": [
+     {
+      "text": "Claude",
+      "chip": "Runs",
+      "chipKind": "ok",
+      "at": "Claude"
+     },
+     {
+      "text": "ChatGPT",
+      "chip": "Runs",
+      "chipKind": "ok",
+      "at": "ChatGPT"
+     },
+     {
+      "text": "Cursor",
+      "chip": "Runs",
+      "chipKind": "ok",
+      "at": "Cursor"
+     }
+    ],
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 380,
+      "h": 320
+     }
+    ]
+   },
+   {
+    "at": "No",
+    "world": "light",
+    "type": "list",
+    "title": "Every morning",
+    "rows": [
+     {
+      "text": "Paste the prompt",
+      "chip": "Again",
+      "chipKind": "bad",
+      "at": "pasting"
+     },
+     {
+      "text": "Paste the prompt",
+      "chip": "Again",
+      "chipKind": "bad",
+      "at": "prompt"
+     },
+     {
+      "text": "Paste the prompt",
+      "chip": "Again",
+      "chipKind": "bad",
+      "at": "morning"
+     }
+    ],
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Here are",
+    "world": "dark",
+    "type": "word",
+    "text": "FIRST 5",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 760,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "at": "1",
+    "world": "light",
+    "type": "list",
+    "title": "inbox-triage",
+    "badge": "1 of 5",
+    "rows": [
+     {
+      "text": "Needs you",
+      "chip": "Top",
+      "chipKind": "ok",
+      "at": "needs"
+     },
+     {
+      "text": "Can wait",
+      "chip": "Later",
+      "chipKind": "wait",
+      "at": "doesn't"
+     }
+    ],
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "at": "2",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Call notes, 2 of 5",
+    "rows": [
+     {
+      "text": "Send the deck",
+      "at": "call"
+     },
+     {
+      "text": "Book the follow-up",
+      "at": "task"
+     },
+     {
+      "text": "Update the doc",
+      "at": "list"
+     }
+    ],
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 770,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "3",
+    "world": "light",
+    "type": "receipt",
+    "lines": [
+     {
+      "text": "Numbers",
+      "val": "Pulled",
+      "at": "pulls"
+     },
+     {
+      "text": "Charts",
+      "val": "Built",
+      "at": "numbers"
+     },
+     {
+      "text": "Summary",
+      "val": "Drafted",
+      "at": "drafts"
+     }
+    ],
+    "total": {
+     "text": "Weekly report",
+     "val": "Ready"
     },
-    "tail": 2.0,
-    "script": "Anthropic just gave Agent Skills away. 70+ AI tools now run the same skill files. Over 1M skills, nearly 280M installs. Here's why that matters. A skill is a saved how-to your AI can actually run. Write it once, use it in Claude, ChatGPT or Cursor. No more pasting the same prompt every morning. Here are the 5 I'd set up first. 1, inbox triage. It sorts what needs you from what doesn't. 2, meeting notes. Every call becomes a task list. 3, the weekly report. It pulls the numbers and drafts it. 4, research brief. 1 question in, sources out. 5, the daily brief. What's late, what's stuck, what needs you. And every 1 of them waits for my yes before it sends. Want my AI starter pack? Comment AI and I'll send it to you free.",
-    "keys": [
-      "70",
-      "1m",
-      "matters",
-      "once",
-      "first",
-      "task",
-      "late",
-      "yes",
-      "free"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 380,
+      "h": 320
+     }
+    ]
+   },
+   {
+    "at": "4",
+    "world": "dark",
+    "type": "list",
+    "title": "research-brief",
+    "badge": "4 of 5",
+    "rows": [
+     {
+      "text": "1 question",
+      "chip": "In",
+      "chipKind": "wait",
+      "at": "question"
+     },
+     {
+      "text": "Sources",
+      "chip": "Out",
+      "chipKind": "ok",
+      "at": "sources"
+     }
     ],
-    "strikes": [
-      "pasting"
+    "px": "night",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "5#2",
+    "world": "light",
+    "type": "checklist",
+    "title": "Daily brief, 7 AM",
+    "rows": [
+     {
+      "text": "What's late",
+      "at": "late"
+     },
+     {
+      "text": "What's stuck",
+      "at": "stuck"
+     },
+     {
+      "text": "What needs you",
+      "at": "needs#2"
+     }
     ],
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "odometer",
-        "value": "70",
-        "suffix": "+",
-        "label": "AI tools run the same skills",
-        "landAt": "70+",
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Over",
-        "world": "light",
-        "type": "stat",
-        "value": "1M",
-        "label": "skills, nearly 280M installs",
-        "foot": "Anthropic, Oct 22 2026",
-        "px": "factory",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "box-monster",
-            "x": 760,
-            "h": 220
-          }
-        ]
-      },
-      {
-        "world": "dark",
-        "type": "person",
-        "photo": "people/dario-amodei.jpg",
-        "name": "Dario Amodei",
-        "role": "Anthropic CEO",
-        "color": "#D97757",
-        "at": "Here's",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "A skill",
-        "world": "light",
-        "type": "list",
-        "title": "SKILL.md",
-        "badge": "1 file",
-        "rows": [
-          {
-            "text": "Your steps",
-            "chip": "Saved",
-            "chipKind": "ok",
-            "at": "saved"
-          },
-          {
-            "text": "Your rules",
-            "chip": "Saved",
-            "chipKind": "ok",
-            "at": "how-to"
-          },
-          {
-            "text": "Runs on demand",
-            "chip": "Yes",
-            "chipKind": "ok",
-            "at": "actually"
-          }
-        ],
-        "px": "warehouse",
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 770,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Write",
-        "world": "dark",
-        "type": "list",
-        "title": "Same skill, any tool",
-        "badge": "1 file",
-        "rows": [
-          {
-            "text": "Claude",
-            "chip": "Runs",
-            "chipKind": "ok",
-            "at": "Claude"
-          },
-          {
-            "text": "ChatGPT",
-            "chip": "Runs",
-            "chipKind": "ok",
-            "at": "ChatGPT"
-          },
-          {
-            "text": "Cursor",
-            "chip": "Runs",
-            "chipKind": "ok",
-            "at": "Cursor"
-          }
-        ],
-        "px": "neon",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 380,
-            "h": 320
-          }
-        ]
-      },
-      {
-        "at": "No",
-        "world": "light",
-        "type": "list",
-        "title": "Every morning",
-        "rows": [
-          {
-            "text": "Paste the prompt",
-            "chip": "Again",
-            "chipKind": "bad",
-            "at": "pasting"
-          },
-          {
-            "text": "Paste the prompt",
-            "chip": "Again",
-            "chipKind": "bad",
-            "at": "prompt"
-          },
-          {
-            "text": "Paste the prompt",
-            "chip": "Again",
-            "chipKind": "bad",
-            "at": "morning"
-          }
-        ],
-        "px": "day",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Here are",
-        "world": "dark",
-        "type": "word",
-        "text": "FIRST 5",
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "box-monster",
-            "x": 760,
-            "h": 220
-          }
-        ]
-      },
-      {
-        "at": "1",
-        "world": "light",
-        "type": "list",
-        "title": "inbox-triage",
-        "badge": "1 of 5",
-        "rows": [
-          {
-            "text": "Needs you",
-            "chip": "Top",
-            "chipKind": "ok",
-            "at": "needs"
-          },
-          {
-            "text": "Can wait",
-            "chip": "Later",
-            "chipKind": "wait",
-            "at": "doesn't"
-          }
-        ],
-        "px": "factory",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "2",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Call notes, 2 of 5",
-        "rows": [
-          {
-            "text": "Send the deck",
-            "at": "call"
-          },
-          {
-            "text": "Book the follow-up",
-            "at": "task"
-          },
-          {
-            "text": "Update the doc",
-            "at": "list"
-          }
-        ],
-        "px": "warehouse",
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 770,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "3",
-        "world": "light",
-        "type": "receipt",
-        "lines": [
-          {
-            "text": "Numbers",
-            "val": "Pulled",
-            "at": "pulls"
-          },
-          {
-            "text": "Charts",
-            "val": "Built",
-            "at": "numbers"
-          },
-          {
-            "text": "Summary",
-            "val": "Drafted",
-            "at": "drafts"
-          }
-        ],
-        "total": {
-          "text": "Weekly report",
-          "val": "Ready"
-        },
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 380,
-            "h": 320
-          }
-        ]
-      },
-      {
-        "at": "4",
-        "world": "dark",
-        "type": "list",
-        "title": "research-brief",
-        "badge": "4 of 5",
-        "rows": [
-          {
-            "text": "1 question",
-            "chip": "In",
-            "chipKind": "wait",
-            "at": "question"
-          },
-          {
-            "text": "Sources",
-            "chip": "Out",
-            "chipKind": "ok",
-            "at": "sources"
-          }
-        ],
-        "px": "night",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "5#2",
-        "world": "light",
-        "type": "checklist",
-        "title": "Daily brief, 7 AM",
-        "rows": [
-          {
-            "text": "What's late",
-            "at": "late"
-          },
-          {
-            "text": "What's stuck",
-            "at": "stuck"
-          },
-          {
-            "text": "What needs you",
-            "at": "needs#2"
-          }
-        ],
-        "click": {
-          "at": "needs#2",
-          "x": 140,
-          "y": 1165
-        },
-        "px": "day",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "box-monster",
-            "x": 760,
-            "h": 220
-          }
-        ]
-      },
-      {
-        "at": "And every",
-        "world": "dark",
-        "type": "list",
-        "title": "Outbox",
-        "badge": "Needs my yes",
-        "rows": [
-          {
-            "text": "Weekly report",
-            "chip": "Waiting",
-            "chipKind": "wait",
-            "at": "every#3"
-          },
-          {
-            "text": "Inbox replies",
-            "chip": "Waiting",
-            "chipKind": "wait",
-            "at": "waits"
-          }
-        ],
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "yes",
-          "x": 170,
-          "y": 820
-        },
-        "px": "factory",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "Want",
-        "world": "light",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Starter pack sent to your DMs",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 770,
-            "h": 260
-          }
-        ]
-      }
+    "click": {
+     "at": "needs#2",
+     "x": 140,
+     "y": 1165
+    },
+    "px": "day",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 760,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "at": "And every",
+    "world": "dark",
+    "type": "list",
+    "title": "Outbox",
+    "badge": "Needs my yes",
+    "rows": [
+     {
+      "text": "Weekly report",
+      "chip": "Waiting",
+      "chipKind": "wait",
+      "at": "every#3"
+     },
+     {
+      "text": "Inbox replies",
+      "chip": "Waiting",
+      "chipKind": "wait",
+      "at": "waits"
+     }
     ],
-    "bgLogos": [
-      "anthropic",
-      "claude",
-      "chatgpt",
-      "anthropic",
-      "claude",
-      "chatgpt",
-      "anthropic",
-      "claude",
-      "chatgpt",
-      "anthropic"
-    ],
-    "pops": [
-      {
-        "at": "Anthropic",
-        "kind": "logo",
-        "brand": "anthropic",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "Over"
-      },
-      {
-        "at": "280M",
-        "kind": "burst",
-        "text": "280M",
-        "x": 420,
-        "y": 1130,
-        "w": 240,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "Here's"
-      },
-      {
-        "at": "Claude,",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 780,
-        "y": 240,
-        "w": 150,
-        "rot": 8,
-        "until": "No"
-      },
-      {
-        "at": "ChatGPT,",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 780,
-        "y": 420,
-        "w": 150,
-        "rot": -6,
-        "until": "No"
-      },
-      {
-        "at": "inbox",
-        "kind": "sprite",
-        "sprite": "laptop",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "2,"
-      },
-      {
-        "at": "numbers",
-        "kind": "sprite",
-        "sprite": "chart",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "4,"
-      },
-      {
-        "at": "waits",
-        "kind": "sprite",
-        "sprite": "robot",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Want"
-      },
-      {
-        "at": "Want",
-        "kind": "burst",
-        "text": "FREE",
-        "x": 780,
-        "y": 300,
-        "w": 220,
-        "size": 60,
-        "color": "#9CCAA0",
-        "rot": 12
-      },
-      {
-        "at": "Anthropic",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 90,
-        "y": 600,
-        "w": 150,
-        "rot": -8,
-        "bare": true,
-        "until": "Over"
-      },
-      {
-        "at": "just",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 800,
-        "y": 640,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "Over"
-      },
-      {
-        "at": "question",
-        "kind": "sprite",
-        "sprite": "bubble",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "daily"
-      }
-    ],
-    "look": "pixel",
-    "coldOpen": {
-      "until": "70+",
-      "set": "stage",
-      "titleColor": "#D97757",
-      "titles": [
-        {
-          "text": [
-            "Anthropic gave",
-            "*Agent Skills away.*"
-          ]
-        }
-      ],
-      "accent": [
-        "away."
-      ],
-      "actors": [
-        {
-          "brand": "anthropic",
-          "x": 230
-        },
-        {
-          "brand": "chatgpt",
-          "x": 560,
-          "scale": 1.1
-        },
-        {
-          "brand": "gemini",
-          "x": 820,
-          "scale": 1.1
-        }
-      ],
-      "beats": [
-        {
-          "at": "Anthropic",
-          "actor": 0,
-          "do": "run-in",
-          "from": "left"
-        },
-        {
-          "at": "gave",
-          "actor": 0,
-          "do": "throw",
-          "to": 1,
-          "n": 1,
-          "item": "gift"
-        },
-        {
-          "at": "Skills",
-          "actor": 0,
-          "do": "throw",
-          "to": 2,
-          "n": 1,
-          "item": "gift"
-        },
-        {
-          "at": "away.",
-          "actor": 1,
-          "do": "celebrate"
-        },
-        {
-          "at": "away.",
-          "actor": 2,
-          "do": "jump"
-        }
-      ]
+    "stamp": {
+     "text": "APPROVED",
+     "kind": "ok",
+     "at": "yes",
+     "x": 170,
+     "y": 820
+    },
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Starter pack sent to your DMs",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 770,
+      "h": 260
+     }
+    ]
+   }
+  ],
+  "bgLogos": [
+   "anthropic",
+   "claude",
+   "chatgpt",
+   "anthropic",
+   "claude",
+   "chatgpt",
+   "anthropic",
+   "claude",
+   "chatgpt",
+   "anthropic"
+  ],
+  "pops": [
+   {
+    "at": "Anthropic",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "Over"
+   },
+   {
+    "at": "280M",
+    "kind": "burst",
+    "text": "280M",
+    "x": 420,
+    "y": 1130,
+    "w": 240,
+    "size": 38,
+    "color": "#FFE066",
+    "rot": -10,
+    "until": "Here's"
+   },
+   {
+    "at": "Claude,",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 780,
+    "y": 240,
+    "w": 150,
+    "rot": 8,
+    "until": "No"
+   },
+   {
+    "at": "ChatGPT,",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 780,
+    "y": 420,
+    "w": 150,
+    "rot": -6,
+    "until": "No"
+   },
+   {
+    "at": "inbox",
+    "kind": "sprite",
+    "sprite": "laptop",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "2,"
+   },
+   {
+    "at": "numbers",
+    "kind": "sprite",
+    "sprite": "chart",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "4,"
+   },
+   {
+    "at": "waits",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Want"
+   },
+   {
+    "at": "Want",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 780,
+    "y": 300,
+    "w": 220,
+    "size": 60,
+    "color": "#9CCAA0",
+    "rot": 12
+   },
+   {
+    "at": "Anthropic",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 90,
+    "y": 600,
+    "w": 150,
+    "rot": -8,
+    "bare": true,
+    "until": "Over"
+   },
+   {
+    "at": "just",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 800,
+    "y": 640,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "Over"
+   },
+   {
+    "at": "question",
+    "kind": "sprite",
+    "sprite": "bubble",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "daily"
+   }
+  ],
+  "look": "pixel",
+  "coldOpen": {
+   "until": "70+",
+   "set": "stage",
+   "titleColor": "#D97757",
+   "titles": [
+    {
+     "text": [
+      "Anthropic gave",
+      "*Agent Skills away.*"
+     ]
     }
-  }
+   ],
+   "accent": [
+    "away."
+   ],
+   "actors": [
+    {
+     "brand": "anthropic",
+     "x": 230
+    },
+    {
+     "brand": "chatgpt",
+     "x": 560,
+     "scale": 1.1
+    },
+    {
+     "brand": "gemini",
+     "x": 820,
+     "scale": 1.1
+    }
+   ],
+   "beats": [
+    {
+     "at": "Anthropic",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "gave",
+     "actor": 0,
+     "do": "throw",
+     "to": 1,
+     "n": 1,
+     "item": "gift"
+    },
+    {
+     "at": "Skills",
+     "actor": 0,
+     "do": "throw",
+     "to": 2,
+     "n": 1,
+     "item": "gift"
+    },
+    {
+     "at": "away.",
+     "actor": 1,
+     "do": "celebrate"
+    },
+    {
+     "at": "away.",
+     "actor": 2,
+     "do": "jump"
+    }
+   ]
+  },
+  "sfxGain": 1.6
+ }
 }

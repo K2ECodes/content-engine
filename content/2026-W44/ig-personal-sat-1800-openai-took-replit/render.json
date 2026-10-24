@@ -1,256 +1,253 @@
 {
-  "template": "arena",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo-tight.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.17
-    },
-    "script": "OpenAI just took Replit from Claude. Replit's CEO said it on stage at TechCrunch Disrupt. OpenAI is now the default model inside Replit. His reasons? Cost. Partnership. Performance. He even said ChatGPT is better now. But this isn't a knockout. You can still pick Claude in Replit. It's just not the default anymore, and most people never change the default. So round 1 goes to OpenAI. Round 2? Anthropic just launched Claude Duet. Who takes the next round? Comment AI and I'll send you my free AI starter pack.",
-    "player": {
-      "brand": "openai",
-      "color": "#10A37F"
-    },
-    "opponent": {
-      "brand": "claude"
-    },
-    "handle": "@koredekola",
-    "popTop": 380,
-    "stopMotion": 10,
-    "prize": {
-      "brand": "replit",
-      "owner": "enemy",
-      "label": "DEFAULT: CLAUDE",
-      "y": 720
-    },
-    "crowd": {
-      "brands": [
-        "gemini",
-        "google",
-        "meta",
-        "microsoft",
-        "perplexity",
-        "nvidia",
-        "apple"
-      ]
-    },
-    "posterAt": 1.75,
-    "beats": [
-      {
-        "type": "round",
-        "title": "ROUND 1",
-        "sub": "FIGHT",
-        "dash": false,
-        "koAt": "Claude#1",
-        "koText": "STOLEN",
-        "flash": true,
-        "ko": false,
-        "hp": 0.25
-      },
-      {
-        "type": "blast",
-        "at": "OpenAI#1",
-        "hitAt": "Claude#1",
-        "shots": 9,
-        "rocket": true,
-        "quiet": true
-      },
-      {
-        "type": "steal",
-        "at": "Replit#1",
-        "to": "player",
-        "label": "DEFAULT: OPENAI"
-      },
-      {
-        "type": "cheer",
-        "at": "CEO",
-        "text": "OOOH"
-      },
-      {
-        "type": "popup",
-        "at": "CEO",
-        "title": "REPLIT CEO",
-        "text": "ON STAGE",
-        "kind": "good",
-        "slot": 0,
-        "outAt": "OpenAI#2"
-      },
-      {
-        "type": "popup",
-        "at": "TechCrunch",
-        "title": "TECHCRUNCH DISRUPT",
-        "text": "OCT 16",
-        "kind": "good",
-        "slot": 1,
-        "outAt": "OpenAI#2"
-      },
-      {
-        "type": "rain",
-        "at": "OpenAI#2",
-        "brands": [
-          "openai",
-          "chatgpt"
-        ],
-        "count": 14,
-        "outAt": "reasons"
-      },
-      {
-        "type": "stamp",
-        "at": "default#1",
-        "text": "NEW DEFAULT",
-        "color": "#10A37F",
-        "y": 560,
-        "outAt": "His"
-      },
-      {
-        "type": "combo",
-        "hits": [
-          {
-            "at": "Cost",
-            "text": "COST"
-          },
-          {
-            "at": "partnership",
-            "text": "PARTNERSHIP"
-          },
-          {
-            "at": "performance",
-            "text": "PERFORMANCE"
-          }
-        ],
-        "hp": 0.1
-      },
-      {
-        "type": "throw",
-        "at": "even",
-        "hitAt": "ChatGPT",
-        "brand": "chatgpt",
-        "target": "player",
-        "result": "join",
-        "from": "left"
-      },
-      {
-        "type": "popup",
-        "at": "better",
-        "title": "REPLIT CEO SAYS",
-        "text": "BETTER NOW",
-        "kind": "good",
-        "slot": 0,
-        "outAt": "But"
-      },
-      {
-        "type": "revive",
-        "at": "But",
-        "textAt": "knockout",
-        "text": "NOT A K.O.",
-        "hp": 0.75
-      },
-      {
-        "type": "cheer",
-        "at": "knockout",
-        "brands": [
-          "gemini",
-          "google",
-          "meta"
-        ],
-        "text": "WAIT WHAT"
-      },
-      {
-        "type": "popup",
-        "at": "pick",
-        "title": "IN REPLIT",
-        "text": "CLAUDE STILL IN",
-        "kind": "good",
-        "slot": 0,
-        "outAt": "So"
-      },
-      {
-        "type": "counter",
-        "at": "pick",
-        "hitAt": "Claude#2",
-        "text": "STILL HERE",
-        "hp": 0.8
-      },
-      {
-        "type": "popup",
-        "at": "never",
-        "title": "MOST PEOPLE",
-        "text": "KEEP DEFAULT",
-        "kind": "bad",
-        "slot": 1,
-        "outAt": "So"
-      },
-      {
-        "type": "rain",
-        "at": "people",
-        "brands": [
-          "openai",
-          "chatgpt"
-        ],
-        "count": 10,
-        "outAt": "So"
-      },
-      {
-        "type": "stamp",
-        "at": "default#3",
-        "text": "DEFAULT WINS",
-        "color": "#10A37F",
-        "y": 1080,
-        "size": "sm",
-        "rot": 4,
-        "outAt": "So"
-      },
-      {
-        "type": "win",
-        "at": "So",
-        "title": "OPENAI WINS",
-        "brand": "openai",
-        "lines": [
-          "ROUND 1 ONLY",
-          "REPLIT DEFAULT"
-        ],
-        "foot": "@koredekola"
-      },
-      {
-        "type": "title",
-        "at": "Round#2",
-        "title": "ROUND 2",
-        "sub": "?",
-        "rnd": 2,
-        "outAt": "launched"
-      },
-      {
-        "type": "powerup",
-        "at": "Anthropic",
-        "brand": "claude",
-        "side": "enemy",
-        "title": "NEW MOVE",
-        "text": "CLAUDE DUET",
-        "slot": 0,
-        "outAt": "Comment"
-      },
-      {
-        "type": "cheer",
-        "at": "Duet"
-      },
-      {
-        "type": "clash",
-        "at": "Who",
-        "hitAt": "round#3",
-        "text": "YOUR CALL",
-        "hp": 0.6,
-        "outAt": "Comment"
-      },
-      {
-        "type": "continue",
-        "at": "Comment",
-        "keyword": "AI",
-        "typeAt": "AI#1",
-        "dm": "DM SENT: AI STARTER PACK",
-        "from": 9
-      }
+ "template": "arena",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo-tight.wav",
+  "script": "OpenAI just took Replit from Claude. Replit's CEO said it on stage at TechCrunch Disrupt. OpenAI is now the default model inside Replit. His reasons? Cost. Partnership. Performance. He even said ChatGPT is better now. But this isn't a knockout. You can still pick Claude in Replit. It's just not the default anymore, and most people never change the default. So round 1 goes to OpenAI. Round 2? Anthropic just launched Claude Duet. Who takes the next round? Comment AI and I'll send you my free AI starter pack.",
+  "player": {
+   "brand": "openai",
+   "color": "#10A37F"
+  },
+  "opponent": {
+   "brand": "claude"
+  },
+  "handle": "@koredekola",
+  "popTop": 380,
+  "stopMotion": 10,
+  "prize": {
+   "brand": "replit",
+   "owner": "enemy",
+   "label": "DEFAULT: CLAUDE",
+   "y": 720
+  },
+  "crowd": {
+   "brands": [
+    "gemini",
+    "google",
+    "meta",
+    "microsoft",
+    "perplexity",
+    "nvidia",
+    "apple"
+   ]
+  },
+  "posterAt": 1.75,
+  "beats": [
+   {
+    "type": "round",
+    "title": "ROUND 1",
+    "sub": "FIGHT",
+    "dash": false,
+    "koAt": "Claude#1",
+    "koText": "STOLEN",
+    "flash": true,
+    "ko": false,
+    "hp": 0.25
+   },
+   {
+    "type": "blast",
+    "at": "OpenAI#1",
+    "hitAt": "Claude#1",
+    "shots": 9,
+    "rocket": true,
+    "quiet": true
+   },
+   {
+    "type": "steal",
+    "at": "Replit#1",
+    "to": "player",
+    "label": "DEFAULT: OPENAI"
+   },
+   {
+    "type": "cheer",
+    "at": "CEO",
+    "text": "OOOH"
+   },
+   {
+    "type": "popup",
+    "at": "CEO",
+    "title": "REPLIT CEO",
+    "text": "ON STAGE",
+    "kind": "good",
+    "slot": 0,
+    "outAt": "OpenAI#2"
+   },
+   {
+    "type": "popup",
+    "at": "TechCrunch",
+    "title": "TECHCRUNCH DISRUPT",
+    "text": "OCT 16",
+    "kind": "good",
+    "slot": 1,
+    "outAt": "OpenAI#2"
+   },
+   {
+    "type": "rain",
+    "at": "OpenAI#2",
+    "brands": [
+     "openai",
+     "chatgpt"
     ],
-    "badColor": "#D97757"
-  }
+    "count": 14,
+    "outAt": "reasons"
+   },
+   {
+    "type": "stamp",
+    "at": "default#1",
+    "text": "NEW DEFAULT",
+    "color": "#10A37F",
+    "y": 560,
+    "outAt": "His"
+   },
+   {
+    "type": "combo",
+    "hits": [
+     {
+      "at": "Cost",
+      "text": "COST"
+     },
+     {
+      "at": "partnership",
+      "text": "PARTNERSHIP"
+     },
+     {
+      "at": "performance",
+      "text": "PERFORMANCE"
+     }
+    ],
+    "hp": 0.1
+   },
+   {
+    "type": "throw",
+    "at": "even",
+    "hitAt": "ChatGPT",
+    "brand": "chatgpt",
+    "target": "player",
+    "result": "join",
+    "from": "left"
+   },
+   {
+    "type": "popup",
+    "at": "better",
+    "title": "REPLIT CEO SAYS",
+    "text": "BETTER NOW",
+    "kind": "good",
+    "slot": 0,
+    "outAt": "But"
+   },
+   {
+    "type": "revive",
+    "at": "But",
+    "textAt": "knockout",
+    "text": "NOT A K.O.",
+    "hp": 0.75
+   },
+   {
+    "type": "cheer",
+    "at": "knockout",
+    "brands": [
+     "gemini",
+     "google",
+     "meta"
+    ],
+    "text": "WAIT WHAT"
+   },
+   {
+    "type": "popup",
+    "at": "pick",
+    "title": "IN REPLIT",
+    "text": "CLAUDE STILL IN",
+    "kind": "good",
+    "slot": 0,
+    "outAt": "So"
+   },
+   {
+    "type": "counter",
+    "at": "pick",
+    "hitAt": "Claude#2",
+    "text": "STILL HERE",
+    "hp": 0.8
+   },
+   {
+    "type": "popup",
+    "at": "never",
+    "title": "MOST PEOPLE",
+    "text": "KEEP DEFAULT",
+    "kind": "bad",
+    "slot": 1,
+    "outAt": "So"
+   },
+   {
+    "type": "rain",
+    "at": "people",
+    "brands": [
+     "openai",
+     "chatgpt"
+    ],
+    "count": 10,
+    "outAt": "So"
+   },
+   {
+    "type": "stamp",
+    "at": "default#3",
+    "text": "DEFAULT WINS",
+    "color": "#10A37F",
+    "y": 1080,
+    "size": "sm",
+    "rot": 4,
+    "outAt": "So"
+   },
+   {
+    "type": "win",
+    "at": "So",
+    "title": "OPENAI WINS",
+    "brand": "openai",
+    "lines": [
+     "ROUND 1 ONLY",
+     "REPLIT DEFAULT"
+    ],
+    "foot": "@koredekola"
+   },
+   {
+    "type": "title",
+    "at": "Round#2",
+    "title": "ROUND 2",
+    "sub": "?",
+    "rnd": 2,
+    "outAt": "launched"
+   },
+   {
+    "type": "powerup",
+    "at": "Anthropic",
+    "brand": "claude",
+    "side": "enemy",
+    "title": "NEW MOVE",
+    "text": "CLAUDE DUET",
+    "slot": 0,
+    "outAt": "Comment"
+   },
+   {
+    "type": "cheer",
+    "at": "Duet"
+   },
+   {
+    "type": "clash",
+    "at": "Who",
+    "hitAt": "round#3",
+    "text": "YOUR CALL",
+    "hp": 0.6,
+    "outAt": "Comment"
+   },
+   {
+    "type": "continue",
+    "at": "Comment",
+    "keyword": "AI",
+    "typeAt": "AI#1",
+    "dm": "DM SENT: AI STARTER PACK",
+    "from": 9
+   }
+  ],
+  "badColor": "#D97757",
+  "sfxGain": 1.6
+ }
 }

@@ -12,10 +12,6 @@
    "speed": 1.12
   },
   "script": "Anthropic just shipped an AI that won't spend your money without asking. It's called Claude Duet. It works in the background, and before it pays for anything, it stops and waits for your yes. That's the part people are skipping. The risk with AI agents was never that they're dumb. It's that they act without you. A single approval step fixes that. Want the 5 starter skills I give every new AI employee? Comment AI and I'll send them.",
-  "music": {
-   "file": "audio/music.mp3",
-   "volume": 0.09
-  },
   "scenes": [
    {
     "world": "dark",
@@ -70,41 +66,14 @@
    {
     "at": "That's",
     "world": "light",
-    "type": "checklist",
-    "title": "Claude Duet, preview",
-    "rows": [
-     {
-      "text": "Works in the background",
-      "at": "background,"
-     },
-     {
-      "text": "Stops before it pays",
-      "at": "pays"
-     },
-     {
-      "text": "Waits for your yes",
-      "at": "yes."
-     }
-    ],
-    "px": "neon",
-    "sprites": [
-     {
-      "name": "robot",
-      "x": 640,
-      "h": 300,
-      "acts": [
-       {
-        "at": "skipping.",
-        "do": "shake"
-       }
-      ]
-     },
-     {
-      "name": "korede-shrug",
-      "x": 150,
-      "h": 330
-     }
-    ]
+    "type": "shot",
+    "src": "shots/duet.png",
+    "url": "techcrunch.com",
+    "caption": "Claude Duet, research preview",
+    "h": 900,
+    "pan": 160,
+    "look": "cinema",
+    "tr": "zoom"
    },
    {
     "at": "risk",
@@ -132,47 +101,21 @@
    {
     "at": "single",
     "world": "light",
-    "type": "list",
-    "title": "With 1 approval step",
-    "rows": [
-     {
-      "text": "AI drafts it",
-      "chip": "Auto",
-      "chipKind": "wait",
-      "at": "approval"
-     },
-     {
-      "text": "You say yes",
-      "chip": "Approved",
-      "at": "step"
-     }
-    ],
-    "stamp": {
-     "text": "APPROVED",
-     "kind": "ok",
-     "at": "fixes",
-     "x": 300,
-     "y": 800
-    }
+    "type": "clip",
+    "src": "assets/demo-clips/draft-only-chat-claude.mp4",
+    "url": "AI chat · waiting for your yes",
+    "h": 940,
+    "ss": 0.2
    },
    {
     "at": "Want",
-    "world": "light",
-    "type": "list",
-    "title": "With 1 approval step",
-    "rows": [
-     {
-      "text": "AI drafts it",
-      "chip": "Auto",
-      "chipKind": "wait",
-      "at": "approval"
-     },
-     {
-      "text": "You say yes",
-      "chip": "Approved",
-      "at": "step"
-     }
-    ]
+    "world": "dark",
+    "type": "clip",
+    "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+    "url": "github.com/anthropics/skills",
+    "h": 900,
+    "ss": 0.5,
+    "tr": "up"
    },
    {
     "at": "Comment",
@@ -231,9 +174,8 @@
     "zoom": 1.0
    },
    {
-    "at": "Comment",
-    "layout": "none",
-    "zoom": 1.0
+    "at": 17.58,
+    "layout": "none"
    }
   ],
   "keys": [
@@ -342,13 +284,19 @@
      "props": [
       "card"
      ],
-     "x": 300
+     "x": 210
     },
     {
      "thing": "button",
      "text": "PAY $499",
-     "x": 740,
-     "scale": 1.3
+     "x": 560,
+     "scale": 1.25
+    },
+    {
+     "sprite": "korede-point",
+     "x": 850,
+     "scale": 2.0,
+     "flip": true
     }
    ],
    "beats": [
@@ -375,9 +323,27 @@
      "do": "look",
      "dir": "right",
      "say": "Okay to pay?"
+    },
+    {
+     "at": "shipped",
+     "actor": 2,
+     "do": "rise"
+    },
+    {
+     "at": "without",
+     "actor": 2,
+     "do": "shake",
+     "say": "Wait."
+    },
+    {
+     "at": "asking.",
+     "actor": 2,
+     "do": "point",
+     "dir": "left"
     }
    ],
    "font": "ig"
-  }
+  },
+  "sfxGain": 1.6
  }
 }

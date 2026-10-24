@@ -1,377 +1,374 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11
-    },
-    "script": "OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, using money they've already committed to Google. They're also coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. What does that mean for you? You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI inside Google? Want my AI starter pack? Comment AI and I'll send it to you free.",
-    "keys": [
-      "google",
-      "gemini",
-      "best",
-      "rivals",
-      "partners",
-      "free"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "OpenAI's models are coming to Google Cloud. Yes, Google, the company building Gemini. Here's the news. OpenAI's frontier models and Codex are coming to Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through the Google Cloud Marketplace, using money they've already committed to Google. They're also coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. What does that mean for you? You'll pick the best model for each job, not 1 company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI inside Google? Want my AI starter pack? Comment AI and I'll send it to you free.",
+  "keys": [
+   "google",
+   "gemini",
+   "best",
+   "rivals",
+   "partners",
+   "free"
+  ],
+  "strikes": [],
+  "posterAt": 1.2,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/c-openai.png",
+    "url": "openai.com",
+    "h": 690,
+    "pan": 0,
+    "bg": "bg/datacenter.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "Yes",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/sundar-pichai.jpg",
+    "name": "Sundar Pichai",
+    "role": "Google CEO",
+    "bg": "bg/cloud-towers.png",
+    "color": "#8AB4F8",
+    "bgc": "#2D5BE3"
+   },
+   {
+    "at": "OpenAI's#2",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/sam-altman.jpg",
+    "name": "Sam Altman",
+    "role": "OpenAI CEO",
+    "bg": "bg/datacenter.png",
+    "color": "#10A37F",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "Cloud's",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/c-garden.png",
+    "url": "cloud.google.com/model-garden",
+    "h": 680,
+    "pan": 15,
+    "caption": "200+ models in 1 place",
+    "bg": "bg/datacenter.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "Companies",
+    "world": "dark",
+    "type": "checklist",
+    "title": "how companies buy",
+    "rows": [
+     {
+      "text": "Google Cloud Marketplace",
+      "at": "marketplace"
+     },
+     {
+      "text": "Money already committed",
+      "at": "committed"
+     },
+     {
+      "text": "Gemini Agent, soon",
+      "at": "gemini#2"
+     }
     ],
-    "strikes": [],
-    "posterAt": 1.2,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-openai.png",
-        "url": "openai.com",
-        "h": 690,
-        "pan": 0,
-        "bg": "bg/datacenter.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "Yes",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/sundar-pichai.jpg",
-        "name": "Sundar Pichai",
-        "role": "Google CEO",
-        "bg": "bg/cloud-towers.png",
-        "color": "#8AB4F8",
-        "bgc": "#2D5BE3"
-      },
-      {
-        "at": "OpenAI's#2",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/sam-altman.jpg",
-        "name": "Sam Altman",
-        "role": "OpenAI CEO",
-        "bg": "bg/datacenter.png",
-        "color": "#10A37F",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "Cloud's",
-        "world": "light",
-        "type": "shot",
-        "src": "shots/c-garden.png",
-        "url": "cloud.google.com/model-garden",
-        "h": 680,
-        "pan": 15,
-        "caption": "200+ models in 1 place",
-        "bg": "bg/datacenter.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "Companies",
-        "world": "dark",
-        "type": "checklist",
-        "title": "how companies buy",
-        "rows": [
-          {
-            "text": "Google Cloud Marketplace",
-            "at": "marketplace"
-          },
-          {
-            "text": "Money already committed",
-            "at": "committed"
-          },
-          {
-            "text": "Gemini Agent, soon",
-            "at": "gemini#2"
-          }
-        ],
-        "bg": "bg/cloud-towers.png",
-        "bgc": "#2D5BE3"
-      },
-      {
-        "at": "Microsoft",
-        "world": "light",
-        "type": "shot",
-        "src": "shots/c-microsoft.png",
-        "url": "openai.com",
-        "h": 381,
-        "pan": 10,
-        "caption": "Microsoft is still the main partner",
-        "bg": "bg/cloud-towers.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "You'll",
-        "world": "light",
-        "type": "list",
-        "title": "pick per job",
-        "rows": [
-          {
-            "text": "Coding",
-            "chip": "Model A",
-            "chipKind": "ok",
-            "at": "best"
-          },
-          {
-            "text": "Support emails",
-            "chip": "Model B",
-            "chipKind": "ok",
-            "at": "job"
-          },
-          {
-            "text": "Research",
-            "chip": "Model C",
-            "chipKind": "ok",
-            "at": "company"
-          }
-        ],
-        "bg": "bg/menu-wall.png",
-        "bgc": "#2D5BE3"
-      },
-      {
-        "at": "Rivals",
-        "world": "dark",
-        "type": "stat",
-        "value": "Rivals",
-        "label": "on stage, partners in the cloud",
-        "bg": "bg/boxing-ring.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "Would",
-        "world": "light",
-        "type": "list",
-        "title": "your call",
-        "rows": [
-          {
-            "text": "OpenAI inside Google",
-            "chip": "YES",
-            "chipKind": "ok",
-            "at": "use"
-          },
-          {
-            "text": "Stick to 1 company",
-            "chip": "NO",
-            "chipKind": "bad",
-            "at": "inside"
-          }
-        ],
-        "bg": "bg/boxing-ring.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "Want",
-        "world": "dark",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Sent: your free AI starter pack",
-        "bg": "bg/datacenter.png",
-        "bgc": "#2D5BE3"
-      }
+    "bg": "bg/cloud-towers.png",
+    "bgc": "#2D5BE3"
+   },
+   {
+    "at": "Microsoft",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/c-microsoft.png",
+    "url": "openai.com",
+    "h": 381,
+    "pan": 10,
+    "caption": "Microsoft is still the main partner",
+    "bg": "bg/cloud-towers.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "You'll",
+    "world": "light",
+    "type": "list",
+    "title": "pick per job",
+    "rows": [
+     {
+      "text": "Coding",
+      "chip": "Model A",
+      "chipKind": "ok",
+      "at": "best"
+     },
+     {
+      "text": "Support emails",
+      "chip": "Model B",
+      "chipKind": "ok",
+      "at": "job"
+     },
+     {
+      "text": "Research",
+      "chip": "Model C",
+      "chipKind": "ok",
+      "at": "company"
+     }
     ],
-    "heygen": {
-      "say": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to two hundred other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."
-    },
-    "bgLogos": [
-      "openai",
-      "google",
-      "gemini",
-      "microsoft",
-      "openai",
-      "google",
-      "gemini",
-      "microsoft",
-      "openai",
-      "google"
+    "bg": "bg/menu-wall.png",
+    "bgc": "#2D5BE3"
+   },
+   {
+    "at": "Rivals",
+    "world": "dark",
+    "type": "stat",
+    "value": "Rivals",
+    "label": "on stage, partners in the cloud",
+    "bg": "bg/boxing-ring.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "Would",
+    "world": "light",
+    "type": "list",
+    "title": "your call",
+    "rows": [
+     {
+      "text": "OpenAI inside Google",
+      "chip": "YES",
+      "chipKind": "ok",
+      "at": "use"
+     },
+     {
+      "text": "Stick to 1 company",
+      "chip": "NO",
+      "chipKind": "bad",
+      "at": "inside"
+     }
     ],
-    "pops": [
-      {
-        "at": "OpenAI's",
-        "kind": "logo",
-        "brand": "openai",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "Yes"
-      },
-      {
-        "at": "Google",
-        "kind": "logo",
-        "brand": "google",
-        "x": 780,
-        "y": 250,
-        "w": 160,
-        "rot": 8,
-        "until": "Yes"
-      },
-      {
-        "at": "Google#2",
-        "kind": "burst",
-        "text": "GOOGLE?",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "Here's"
-      },
-      {
-        "at": "Gemini.",
-        "kind": "logo",
-        "brand": "gemini",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "OpenAI's#2"
-      },
-      {
-        "at": "Codex",
-        "kind": "logo",
-        "brand": "openai",
-        "x": 780,
-        "y": 250,
-        "w": 140,
-        "rot": 8,
-        "until": "Cloud's"
-      },
-      {
-        "at": "Microsoft",
-        "kind": "logo",
-        "brand": "microsoft",
-        "x": 90,
-        "y": 240,
-        "w": 160,
-        "rot": -8,
-        "until": "You'll"
-      },
-      {
-        "at": "Rivals",
-        "kind": "sprite",
-        "sprite": "boss",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Would"
-      },
-      {
-        "at": "Want",
-        "kind": "burst",
-        "text": "FREE",
-        "x": 780,
-        "y": 300,
-        "w": 220,
-        "size": 60,
-        "color": "#9CCAA0",
-        "rot": 12
-      },
-      {
-        "at": "OpenAI's",
-        "kind": "logo",
-        "brand": "gemini",
-        "x": 800,
-        "y": 620,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "Yes"
-      },
-      {
-        "at": "models",
-        "kind": "logo",
-        "brand": "microsoft",
-        "x": 90,
-        "y": 1120,
-        "w": 150,
-        "rot": 0,
-        "bare": true,
-        "until": "Yes"
-      },
-      {
-        "at": "coming",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 820,
-        "y": 1120,
-        "w": 150,
-        "rot": -6,
-        "bare": true,
-        "until": "Yes"
-      },
-      {
-        "at": "money",
-        "kind": "sprite",
-        "sprite": "coin",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "They're"
-      },
-      {
-        "at": "best",
-        "kind": "sprite",
-        "sprite": "trophy",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "Rivals"
-      }
-    ],
-    "coldOpen": {
-      "until": "Yes,",
-      "set": "sky",
-      "titles": [
-        {
-          "text": [
-            "OpenAI is moving",
-            "*into Google Cloud.*"
-          ],
-          "color": "#4285F4"
-        }
-      ],
-      "accent": [
-        "Cloud."
-      ],
-      "actors": [
-        {
-          "brand": "openai",
-          "props": [
-            "suitcase"
-          ],
-          "x": 260
-        },
-        {
-          "thing": "cloud",
-          "brand": "google",
-          "x": 700,
-          "y": 470,
-          "scale": 1.35
-        }
-      ],
-      "beats": [
-        {
-          "at": "OpenAI's",
-          "actor": 0,
-          "do": "run-in",
-          "from": "left"
-        },
-        {
-          "at": "coming",
-          "actor": 0,
-          "do": "jump"
-        },
-        {
-          "at": "Google",
-          "actor": 1,
-          "do": "squash",
-          "say": "Welcome in"
-        },
-        {
-          "at": "Cloud.",
-          "actor": 0,
-          "do": "celebrate"
-        }
-      ]
+    "bg": "bg/boxing-ring.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Sent: your free AI starter pack",
+    "bg": "bg/datacenter.png",
+    "bgc": "#2D5BE3"
+   }
+  ],
+  "heygen": {
+   "say": "OpenAI's models are coming to Google Cloud. Yes, Google. The company building Gemini. Here's the news. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to two hundred other models. Companies can buy them through the Google Cloud Marketplace, with money they've already committed to Google. And they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner. So what does it mean for you? The model is becoming a menu choice. You'll pick the best model for each job, not one company for everything. Rivals on stage, partners in the cloud. Would you use OpenAI models inside Google? Comment AI, and I'll send you my free AI starter pack."
+  },
+  "bgLogos": [
+   "openai",
+   "google",
+   "gemini",
+   "microsoft",
+   "openai",
+   "google",
+   "gemini",
+   "microsoft",
+   "openai",
+   "google"
+  ],
+  "pops": [
+   {
+    "at": "OpenAI's",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "Yes"
+   },
+   {
+    "at": "Google",
+    "kind": "logo",
+    "brand": "google",
+    "x": 780,
+    "y": 250,
+    "w": 160,
+    "rot": 8,
+    "until": "Yes"
+   },
+   {
+    "at": "Google#2",
+    "kind": "burst",
+    "text": "GOOGLE?",
+    "x": 40,
+    "y": 1230,
+    "w": 250,
+    "size": 38,
+    "color": "#FFE066",
+    "rot": -10,
+    "until": "Here's"
+   },
+   {
+    "at": "Gemini.",
+    "kind": "logo",
+    "brand": "gemini",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "OpenAI's#2"
+   },
+   {
+    "at": "Codex",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 780,
+    "y": 250,
+    "w": 140,
+    "rot": 8,
+    "until": "Cloud's"
+   },
+   {
+    "at": "Microsoft",
+    "kind": "logo",
+    "brand": "microsoft",
+    "x": 90,
+    "y": 240,
+    "w": 160,
+    "rot": -8,
+    "until": "You'll"
+   },
+   {
+    "at": "Rivals",
+    "kind": "sprite",
+    "sprite": "boss",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Would"
+   },
+   {
+    "at": "Want",
+    "kind": "burst",
+    "text": "FREE",
+    "x": 780,
+    "y": 300,
+    "w": 220,
+    "size": 60,
+    "color": "#9CCAA0",
+    "rot": 12
+   },
+   {
+    "at": "OpenAI's",
+    "kind": "logo",
+    "brand": "gemini",
+    "x": 800,
+    "y": 620,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "Yes"
+   },
+   {
+    "at": "models",
+    "kind": "logo",
+    "brand": "microsoft",
+    "x": 90,
+    "y": 1120,
+    "w": 150,
+    "rot": 0,
+    "bare": true,
+    "until": "Yes"
+   },
+   {
+    "at": "coming",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 820,
+    "y": 1120,
+    "w": 150,
+    "rot": -6,
+    "bare": true,
+    "until": "Yes"
+   },
+   {
+    "at": "money",
+    "kind": "sprite",
+    "sprite": "coin",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "They're"
+   },
+   {
+    "at": "best",
+    "kind": "sprite",
+    "sprite": "trophy",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "Rivals"
+   }
+  ],
+  "coldOpen": {
+   "until": "Yes,",
+   "set": "sky",
+   "titles": [
+    {
+     "text": [
+      "OpenAI is moving",
+      "*into Google Cloud.*"
+     ],
+     "color": "#4285F4"
     }
-  }
+   ],
+   "accent": [
+    "Cloud."
+   ],
+   "actors": [
+    {
+     "brand": "openai",
+     "props": [
+      "suitcase"
+     ],
+     "x": 260
+    },
+    {
+     "thing": "cloud",
+     "brand": "google",
+     "x": 700,
+     "y": 470,
+     "scale": 1.35
+    }
+   ],
+   "beats": [
+    {
+     "at": "OpenAI's",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "coming",
+     "actor": 0,
+     "do": "jump"
+    },
+    {
+     "at": "Google",
+     "actor": 1,
+     "do": "squash",
+     "say": "Welcome in"
+    },
+    {
+     "at": "Cloud.",
+     "actor": 0,
+     "do": "celebrate"
+    }
+   ]
+  },
+  "sfxGain": 1.6
+ }
 }

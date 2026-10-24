@@ -1,479 +1,476 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys, and spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts going off overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys and remove people who've left. It takes 5 minutes, and it beats a surprise bill. Want my AI starter pack? Comment AI and I'll send it to you free.",
+  "keys": [
+   "$1000",
+   "keys",
+   "limit",
+   "separate",
+   "who",
+   "free"
+  ],
+  "strikes": [],
+  "posterAt": 1.2,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/c-headline.png",
+    "url": "techcrunch.com",
+    "h": 624,
+    "pan": 20,
+    "px": "night",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 760,
+      "h": 280
+     }
+    ]
+   },
+   {
+    "at": "Here's",
+    "world": "light",
+    "type": "list",
+    "title": "OpenCode Console",
+    "badge": "HACKED",
+    "rows": [
+     {
+      "text": "Attackers get in",
+      "chip": "BREACH",
+      "chipKind": "bad",
+      "at": "attackers"
+     },
+     {
+      "text": "Saved AI keys",
+      "chip": "EXPOSED",
+      "chipKind": "bad",
+      "at": "saved"
+     },
+     {
+      "text": "Keys get spent",
+      "chip": "$$$",
+      "chipKind": "bad",
+      "at": "spent"
+     }
+    ],
+    "stamp": {
+     "text": "BILLED",
+     "kind": "bad",
+     "at": "keys#2",
+     "x": 260,
+     "y": 830
     },
-    "script": "A hacked AI coding tool just ran up bills of over $1,000 on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys, and spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts going off overnight. If you've ever pasted a key into an AI tool, check 3 settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. 1 key per tool, so 1 leak doesn't open everything. Third, who can use them. Delete old keys and remove people who've left. It takes 5 minutes, and it beats a surprise bill. Want my AI starter pack? Comment AI and I'll send it to you free.",
-    "keys": [
-      "$1000",
-      "keys",
-      "limit",
-      "separate",
-      "who",
-      "free"
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 280
+     },
+     {
+      "name": "ghost",
+      "x": 800,
+      "h": 180
+     }
+    ]
+   },
+   {
+    "at": "OpenAI,",
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/c-charges.png",
+    "url": "techcrunch.com",
+    "h": 660,
+    "pan": 0,
+    "caption": "Spend alerts firing overnight",
+    "px": "night",
+    "sprites": [
+     {
+      "name": "korede-shrug",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "coin",
+      "x": 820,
+      "h": 120
+     }
+    ]
+   },
+   {
+    "at": "If",
+    "world": "light",
+    "type": "word",
+    "text": "CHECK 3",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "First",
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/c-limits.png",
+    "url": "docs.claude.com",
+    "h": 740,
+    "pan": 0,
+    "caption": "1. Set a spending limit",
+    "px": "day",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "at": "Second",
+    "world": "light",
+    "type": "list",
+    "title": "api-keys",
+    "badge": "1 PER TOOL",
+    "rows": [
+     {
+      "text": "Coding tool",
+      "val": "sk-…a1f",
+      "at": "1"
+     },
+     {
+      "text": "Email writer",
+      "val": "sk-…9c2",
+      "at": "per"
+     },
+     {
+      "text": "Notes app",
+      "val": "sk-…77e",
+      "at": "leak"
+     }
     ],
-    "strikes": [],
-    "posterAt": 1.2,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-headline.png",
-        "url": "techcrunch.com",
-        "h": 624,
-        "pan": 20,
-        "px": "night",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 760,
-            "h": 280
-          }
-        ]
-      },
-      {
-        "at": "Here's",
-        "world": "light",
-        "type": "list",
-        "title": "OpenCode Console",
-        "badge": "HACKED",
-        "rows": [
-          {
-            "text": "Attackers get in",
-            "chip": "BREACH",
-            "chipKind": "bad",
-            "at": "attackers"
-          },
-          {
-            "text": "Saved AI keys",
-            "chip": "EXPOSED",
-            "chipKind": "bad",
-            "at": "saved"
-          },
-          {
-            "text": "Keys get spent",
-            "chip": "$$$",
-            "chipKind": "bad",
-            "at": "spent"
-          }
-        ],
-        "stamp": {
-          "text": "BILLED",
-          "kind": "bad",
-          "at": "keys#2",
-          "x": 260,
-          "y": 830
-        },
-        "px": "neon",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 70,
-            "h": 280
-          },
-          {
-            "name": "ghost",
-            "x": 800,
-            "h": 180
-          }
-        ]
-      },
-      {
-        "at": "OpenAI,",
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-charges.png",
-        "url": "techcrunch.com",
-        "h": 660,
-        "pan": 0,
-        "caption": "Spend alerts firing overnight",
-        "px": "night",
-        "sprites": [
-          {
-            "name": "korede-shrug",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "coin",
-            "x": 820,
-            "h": 120
-          }
-        ]
-      },
-      {
-        "at": "If",
-        "world": "light",
-        "type": "word",
-        "text": "CHECK 3",
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "First",
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-limits.png",
-        "url": "docs.claude.com",
-        "h": 740,
-        "pan": 0,
-        "caption": "1. Set a spending limit",
-        "px": "day",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "Second",
-        "world": "light",
-        "type": "list",
-        "title": "api-keys",
-        "badge": "1 PER TOOL",
-        "rows": [
-          {
-            "text": "Coding tool",
-            "val": "sk-…a1f",
-            "at": "1"
-          },
-          {
-            "text": "Email writer",
-            "val": "sk-…9c2",
-            "at": "per"
-          },
-          {
-            "text": "Notes app",
-            "val": "sk-…77e",
-            "at": "leak"
-          }
-        ],
-        "px": "warehouse",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Third",
-        "world": "dark",
-        "type": "list",
-        "title": "who can use them",
-        "rows": [
-          {
-            "text": "You",
-            "chip": "OWNER",
-            "chipKind": "ok",
-            "at": "who"
-          },
-          {
-            "text": "Key from 2025",
-            "chip": "DELETE",
-            "chipKind": "bad",
-            "at": "delete"
-          },
-          {
-            "text": "Ex-teammate",
-            "chip": "REMOVE",
-            "chipKind": "bad",
-            "at": "remove"
-          }
-        ],
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 300
-          },
-          {
-            "name": "ghost",
-            "x": 800,
-            "h": 180
-          }
-        ]
-      },
-      {
-        "at": "5",
-        "world": "light",
-        "type": "checklist",
-        "title": "today, 5 minutes",
-        "rows": [
-          {
-            "text": "Spending limit",
-            "at": "5"
-          },
-          {
-            "text": "Separate keys",
-            "at": "beats"
-          },
-          {
-            "text": "Who can use them",
-            "at": "surprise"
-          }
-        ],
-        "stamp": {
-          "text": "DONE",
-          "kind": "ok",
-          "at": "bill",
-          "x": 300,
-          "y": 830
-        },
-        "px": "day",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 380,
-            "h": 320
-          }
-        ]
-      },
-      {
-        "at": "Want",
-        "world": "dark",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Sent: your free AI starter pack",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      }
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Third",
+    "world": "dark",
+    "type": "list",
+    "title": "who can use them",
+    "rows": [
+     {
+      "text": "You",
+      "chip": "OWNER",
+      "chipKind": "ok",
+      "at": "who"
+     },
+     {
+      "text": "Key from 2025",
+      "chip": "DELETE",
+      "chipKind": "bad",
+      "at": "delete"
+     },
+     {
+      "text": "Ex-teammate",
+      "chip": "REMOVE",
+      "chipKind": "bad",
+      "at": "remove"
+     }
     ],
-    "heygen": {
-      "say": "A hacked AI coding tool just ran up bills of over a thousand dollars on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check three settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. One key per tool, so one leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. Five minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack."
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "ghost",
+      "x": 800,
+      "h": 180
+     }
+    ]
+   },
+   {
+    "at": "5",
+    "world": "light",
+    "type": "checklist",
+    "title": "today, 5 minutes",
+    "rows": [
+     {
+      "text": "Spending limit",
+      "at": "5"
+     },
+     {
+      "text": "Separate keys",
+      "at": "beats"
+     },
+     {
+      "text": "Who can use them",
+      "at": "surprise"
+     }
+    ],
+    "stamp": {
+     "text": "DONE",
+     "kind": "ok",
+     "at": "bill",
+     "x": 300,
+     "y": 830
     },
-    "bgLogos": [
-      "anthropic",
-      "claude",
-      "openai",
-      "google",
-      "anthropic",
-      "claude",
-      "openai",
-      "google",
-      "anthropic",
-      "claude"
-    ],
-    "pops": [
-      {
-        "at": "$1,000",
-        "kind": "burst",
-        "text": "$1,000+",
-        "x": 420,
-        "y": 1130,
-        "w": 240,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "Here's"
-      },
-      {
-        "at": "Attackers",
-        "kind": "sprite",
-        "sprite": "evil-robot",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "OpenAI,"
-      },
-      {
-        "at": "OpenAI,",
-        "kind": "logo",
-        "brand": "openai",
-        "x": 90,
-        "y": 240,
-        "w": 150,
-        "rot": -8,
-        "until": "If"
-      },
-      {
-        "at": "Anthropic,",
-        "kind": "logo",
-        "brand": "anthropic",
-        "x": 90,
-        "y": 420,
-        "w": 150,
-        "rot": 4,
-        "until": "If"
-      },
-      {
-        "at": "Google",
-        "kind": "logo",
-        "brand": "google",
-        "x": 90,
-        "y": 600,
-        "w": 150,
-        "rot": -4,
-        "until": "If"
-      },
-      {
-        "at": "overnight.",
-        "kind": "burst",
-        "text": "OOPS",
-        "x": 420,
-        "y": 1130,
-        "w": 240,
-        "size": 38,
-        "color": "#FF5A4E",
-        "rot": 10,
-        "until": "If"
-      },
-      {
-        "at": "leak",
-        "kind": "sprite",
-        "sprite": "ghost",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Third,"
-      },
-      {
-        "at": "bill.",
-        "kind": "sprite",
-        "sprite": "coin",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Want"
-      },
-      {
-        "at": "A",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 90,
-        "y": 600,
-        "w": 150,
-        "rot": -8,
-        "bare": true,
-        "until": "Here's"
-      },
-      {
-        "at": "hacked",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 800,
-        "y": 640,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "Here's"
-      },
-      {
-        "at": "limit.",
-        "kind": "sprite",
-        "sprite": "flag",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "Second,"
-      }
-    ],
-    "look": "pixel",
-    "coldOpen": {
-      "until": "Here's",
-      "set": "night",
-      "titleColor": "#E0452F",
-      "titles": [
-        {
-          "text": [
-            "A hacked AI tool",
-            "*ran up the bill.*"
-          ]
-        }
-      ],
-      "accent": [
-        "hacked",
-        "$1,000"
-      ],
-      "actors": [
-        {
-          "thing": "laptop",
-          "color": "#FFE1DC",
-          "x": 250,
-          "scale": 1.7
-        },
-        {
-          "thing": "key",
-          "limbs": true,
-          "x": 520,
-          "scale": 1.1
-        },
-        {
-          "thing": "invoice",
-          "text": "$1,000+",
-          "x": 780
-        }
-      ],
-      "beats": [
-        {
-          "at": "hacked",
-          "actor": 0,
-          "do": "shake"
-        },
-        {
-          "at": "ran",
-          "actor": 1,
-          "do": "run-out",
-          "dir": "right"
-        },
-        {
-          "at": "bills",
-          "actor": 2,
-          "do": "drop"
-        },
-        {
-          "at": "$1,000",
-          "actor": 2,
-          "do": "grow",
-          "to": 1.35
-        },
-        {
-          "at": "accounts.",
-          "actor": 0,
-          "do": "panic"
-        }
-      ]
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 380,
+      "h": 320
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Sent: your free AI starter pack",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   }
+  ],
+  "heygen": {
+   "say": "A hacked AI coding tool just ran up bills of over a thousand dollars on people's AI accounts. Here's what happened. Attackers broke into OpenCode's web platform, where users had saved their AI keys. Then they spent on those keys. OpenAI, Anthropic and Google accounts, with spend alerts firing overnight. If you've ever pasted a key into an AI tool, check three settings today. First, a spending limit. Set a monthly cap wherever your account allows it. Second, separate keys. One key per tool, so one leak doesn't open everything. Third, who can use them. Delete old keys, and remove people who've left. Five minutes now beats a surprise bill. Comment AI, and I'll send you my free AI starter pack."
+  },
+  "bgLogos": [
+   "anthropic",
+   "claude",
+   "openai",
+   "google",
+   "anthropic",
+   "claude",
+   "openai",
+   "google",
+   "anthropic",
+   "claude"
+  ],
+  "pops": [
+   {
+    "at": "$1,000",
+    "kind": "burst",
+    "text": "$1,000+",
+    "x": 420,
+    "y": 1130,
+    "w": 240,
+    "size": 38,
+    "color": "#FFE066",
+    "rot": -10,
+    "until": "Here's"
+   },
+   {
+    "at": "Attackers",
+    "kind": "sprite",
+    "sprite": "evil-robot",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "OpenAI,"
+   },
+   {
+    "at": "OpenAI,",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 90,
+    "y": 240,
+    "w": 150,
+    "rot": -8,
+    "until": "If"
+   },
+   {
+    "at": "Anthropic,",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 90,
+    "y": 420,
+    "w": 150,
+    "rot": 4,
+    "until": "If"
+   },
+   {
+    "at": "Google",
+    "kind": "logo",
+    "brand": "google",
+    "x": 90,
+    "y": 600,
+    "w": 150,
+    "rot": -4,
+    "until": "If"
+   },
+   {
+    "at": "overnight.",
+    "kind": "burst",
+    "text": "OOPS",
+    "x": 420,
+    "y": 1130,
+    "w": 240,
+    "size": 38,
+    "color": "#FF5A4E",
+    "rot": 10,
+    "until": "If"
+   },
+   {
+    "at": "leak",
+    "kind": "sprite",
+    "sprite": "ghost",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Third,"
+   },
+   {
+    "at": "bill.",
+    "kind": "sprite",
+    "sprite": "coin",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Want"
+   },
+   {
+    "at": "A",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 90,
+    "y": 600,
+    "w": 150,
+    "rot": -8,
+    "bare": true,
+    "until": "Here's"
+   },
+   {
+    "at": "hacked",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 800,
+    "y": 640,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "Here's"
+   },
+   {
+    "at": "limit.",
+    "kind": "sprite",
+    "sprite": "flag",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "Second,"
+   }
+  ],
+  "look": "pixel",
+  "coldOpen": {
+   "until": "Here's",
+   "set": "night",
+   "titleColor": "#E0452F",
+   "titles": [
+    {
+     "text": [
+      "A hacked AI tool",
+      "*ran up the bill.*"
+     ]
     }
-  }
+   ],
+   "accent": [
+    "hacked",
+    "$1,000"
+   ],
+   "actors": [
+    {
+     "thing": "laptop",
+     "color": "#FFE1DC",
+     "x": 250,
+     "scale": 1.7
+    },
+    {
+     "thing": "key",
+     "limbs": true,
+     "x": 520,
+     "scale": 1.1
+    },
+    {
+     "thing": "invoice",
+     "text": "$1,000+",
+     "x": 780
+    }
+   ],
+   "beats": [
+    {
+     "at": "hacked",
+     "actor": 0,
+     "do": "shake"
+    },
+    {
+     "at": "ran",
+     "actor": 1,
+     "do": "run-out",
+     "dir": "right"
+    },
+    {
+     "at": "bills",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "$1,000",
+     "actor": 2,
+     "do": "grow",
+     "to": 1.35
+    },
+    {
+     "at": "accounts.",
+     "actor": 0,
+     "do": "panic"
+    }
+   ]
+  },
+  "sfxGain": 1.6
+ }
 }

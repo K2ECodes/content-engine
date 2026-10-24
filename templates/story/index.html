@@ -44,7 +44,7 @@
   .light-on { --kc: #17281C; }
 
   /* Scenes */
-  .scene { position: absolute; left: 0; right: 0; top: 320px; bottom: 1110px; display: flex; align-items: center; justify-content: center; opacity: 0; }
+  .scene { position: absolute; left: 0; right: 0; top: 372px; bottom: 1110px; display: flex; align-items: center; justify-content: center; opacity: 0; }
   .scene > * { zoom: .7; }
   .scenes.lower .scene { top: 1120px; bottom: 360px; }
   .world.solid { transition: none; }
@@ -193,17 +193,17 @@
   .face.corner { left: 300px; top: 1040px; width: 780px; height: 880px; z-index: 5; }
   .face.corner video { object-position: 50% 28%; }
   .face.corner:not(.cut) { border-radius: 40px 0 0 0; border: 4px solid var(--gold); border-right: 0; border-bottom: 0; }
-  .mark { position: absolute; left: 50%; margin-left: -32px; top: 245px; width: 64px; z-index: 6; filter: drop-shadow(0 0 10px rgba(0,0,0,.6)); }
+  .mark { position: absolute; left: 50%; margin-left: -42px; top: 236px; width: 84px; z-index: 6; filter: drop-shadow(0 0 10px rgba(0,0,0,.6)); }
   .badge { position: absolute; left: 50%; margin-left: -300px; width: 600px; justify-content: center; top: 1440px; z-index: 6; display: flex; align-items: center; gap: 16px; padding: 14px 24px 14px 16px; border-radius: 18px; background: rgba(23,40,28,.92); border: 3px solid var(--gold); box-shadow: 0 10px 30px rgba(0,0,0,.4), 0 0 24px rgba(232,184,75,.35); }
   .badge img.b { width: 58px; filter: brightness(1.35) saturate(1.3) drop-shadow(0 0 12px rgba(156,202,160,.9)) drop-shadow(0 3px 0 #0B140E); }
   .badge img.lk { height: 96px; filter: brightness(1.18) contrast(1.25) saturate(1.25) drop-shadow(0 0 1.5px rgba(255,255,255,.85)) drop-shadow(0 4px 10px rgba(0,0,0,.35)); }
   .badge img.w { height: 40px; filter: brightness(0) invert(1) drop-shadow(0 0 2px #0B140E) drop-shadow(0 3px 0 #0B140E) drop-shadow(0 6px 14px rgba(0,0,0,.6)); }
-  .branded .mark { width: 78px; top: 240px; left: 50%; margin-left: -39px; filter: drop-shadow(0 0 14px rgba(156,202,160,.9)) drop-shadow(0 4px 6px rgba(0,0,0,.6)); }
+  .branded .mark { width: 100px; top: 236px; left: 50%; margin-left: -50px; filter: drop-shadow(0 0 14px rgba(156,202,160,.9)) drop-shadow(0 4px 6px rgba(0,0,0,.6)); }
   .scenes { position: absolute; inset: 0; z-index: 4; }
   .sticker { position: absolute; z-index: 5; opacity: 0; transform-origin: 50% 100%; filter: drop-shadow(0 0 3px rgba(0,0,0,.6)) drop-shadow(0 20px 30px rgba(0,0,0,.4)); }
-  .scenes.split .scene { top: 230px; bottom: 1110px; }
+  .scenes.split .scene { top: 372px; bottom: 1110px; }
   .scenes.split .scene > * { zoom: .62; }
-  .scenes.corner .scene { top: 230px; bottom: 1100px; }
+  .scenes.corner .scene { top: 372px; bottom: 1100px; }
   .scenes.corner .scene > * { zoom: .66; }
   .caps.seam { top: 845px; }
   .caps.above { top: 860px; }
@@ -221,6 +221,7 @@
   .brandp, .vs .side { box-shadow: inset 0 2px 0 rgba(255,255,255,.55), inset 0 0 0 1.5px rgba(255,255,255,.22), inset 0 0 40px rgba(255,255,255,.10), 0 30px 70px rgba(0,0,0,.4); }
   .bigword { background: linear-gradient(180deg, rgba(240,198,96,.92), rgba(225,170,60,.86)); box-shadow: inset 0 2px 0 rgba(255,255,255,.75), inset 0 0 30px rgba(255,255,255,.2), 0 0 80px rgba(232,184,75,.35), 0 24px 50px rgba(0,0,0,.3); border-radius: 30px; }
   .person .q { background: linear-gradient(180deg, rgba(34,40,38,.62), rgba(10,14,12,.5)); border: 1.5px solid rgba(255,255,255,.22); border-left: 8px solid var(--pc, #FFC93C); box-shadow: inset 0 1.5px 0 rgba(255,255,255,.45), 0 20px 50px rgba(0,0,0,.35); }
+  .shot.clip .img video { display: block; width: 100%; height: var(--sh); object-fit: cover; object-position: top center; background: #0d1210; }
   .shot { border: 10px solid rgba(255,255,255,.42); border-radius: 30px; box-shadow: inset 0 1.5px 0 rgba(255,255,255,.8), 0 30px 80px rgba(0,0,0,.4); }
   .badge { background: none !important; border: 0 !important; box-shadow: none !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; border: 1.5px solid rgba(255,255,255,.3); box-shadow: inset 0 1.5px 0 rgba(255,255,255,.5), 0 10px 30px rgba(0,0,0,.4), 0 0 24px rgba(232,184,75,.25); }
   .flow .node { background: linear-gradient(180deg, rgba(255,255,255,.86), rgba(255,255,255,.66)); border: 1.5px solid rgba(255,255,255,.9); box-shadow: inset 0 2px 0 #fff, 0 16px 34px rgba(0,0,0,.22); }
@@ -274,8 +275,9 @@ const TICK = '<svg viewBox="0 0 36 36"><path d="M6 19l8 8L30 9"/></svg>';
 const CURSOR = '<svg viewBox="0 0 24 24"><path d="M4 2l16 10.5-7 1.5 4 7.5-3 1.5-4-7.5-6 5z" fill="#F5F0E8" stroke="#17281C" stroke-width="1.5"/></svg>';
 const cardCls = (sc) => '';
 // Stop-motion house style (Korede: "those have dopamine"): bold solid colour per scene, 12 fps stepped motion, paper jitter, scraps.
-const PALETTE = ['#17281C', '#F26B1D', '#F2B705', '#0B6E4F', '#E83E8C', '#2D5BE3', '#17281C', '#C1272D'];
-const LIGHTISH = new Set(['#F2B705']);
+// brand-safe stop-motion fields (Korede's 3-hue rule: ink green + gold + 1 orange accent; no pink/blue/red rainbow). data.palette overrides.
+const PALETTE = ['#17281C', '#F26B1D', '#0B6E4F', '#E8A80C', '#17281C', '#C2591F'];
+const LIGHTISH = new Set(['#F2B705', '#E8A80C']);
 const SCRAP_COLORS = ['#F5F0E8', '#F2B705', '#17281C', '#9CCAA0'];
 const PXW = ['factory', 'warehouse', 'hq', 'sunset', 'neon', 'night', 'day'];
 const burst = (color) => { const pts = []; for (let i = 0; i < 24; i++) { const r = i % 2 ? 40 : 50, a = (i / 24) * Math.PI * 2; pts.push(`${50 + r * Math.cos(a)},${50 + r * Math.sin(a)}`); } return `<svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon points="${pts.join(' ')}" fill="${color}"/></svg>`; };
@@ -296,6 +298,7 @@ const BUILD = {
   person: (s) => `<div class="person" style="--pc:${s.b?.bg || s.color || '#FFC93C'}"><div class="ph"><img src="${s.photoUrl}"></div><div class="nm">${esc(s.name)}</div><div class="rl">${esc(s.role)}</div>${s.quote ? `<div class="q">&ldquo;${esc(s.quote)}&rdquo;</div>` : ''}</div>`,
   brand: (s) => `<div class="brandp" style="--bbg:${s.b.bg};--bfg:${s.b.fg};--btile:${s.b.tile}"><div class="tile"><img src="${s.b.logoUrl}"></div><h2>${esc(s.title || s.b.name)}</h2>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div>`,
   vs: (s) => `<div class="vs">${[s.lb, s.rb].map((b, i) => `<div class="side" style="--bbg:${b.bg};--bfg:${b.fg};--btile:${b.tile}"><div class="tile"><img src="${b.logoUrl}"></div><b>${esc(b.name)}</b>${(i ? s.rtag : s.ltag) ? `<span class="tag">${esc(i ? s.rtag : s.ltag)}</span>` : ''}</div>${i ? '' : '<div class="mid">VS</div>'}`).join('')}</div>`,
+  clip: (s) => `<div><div class="shot clip glass" style="--sh:${s.h ?? 860}px"><div class="bar"><i></i><i></i><i></i><span>${esc(s.url || '')}</span></div><div class="img"><video class="clipv" muted playsinline preload="auto" src="${esc(s.srcUrl)}" data-ss="${s.ss ?? 0}"></video></div></div>${s.caption ? `<div class="shot-cap">${esc(s.caption)}</div>` : ''}</div>`,
   shot: (s) => `<div><div class="shot" style="--sh:${s.h ?? 760}px"><div class="bar"><i></i><i></i><i></i><span>${esc(s.url || '')}</span></div><div class="img"><img src="${esc(s.srcUrl)}"></div></div>${s.caption ? `<div class="shot-cap">${esc(s.caption)}</div>` : ''}</div>`,
   flow: (s) => { flowLayout(s); return `<div class="flow${s.onLight ? ' on-light' : ''}" style="--fa:${s.accent || s.b?.bg || '#E8B84B'}">${s.title ? `<div class="ftitle">${(Array.isArray(s.title) ? s.title : [s.title]).map((l) => `<div>${esc(l).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</div>`).join('')}</div>` : ''}
     <svg class="edges" viewBox="0 0 1000 720">${(s.edges || []).map((e, k) => `<line id="fe${k}" x1="${e._x1}" y1="${e._y1}" x2="${e._x2}" y2="${e._y2}" stroke-dasharray="${e._len}" stroke-dashoffset="${e._len}"/><path class="ah" id="fa${k}" d="M0 -11 L20 0 L0 11Z" transform="translate(${e._x2} ${e._y2}) rotate(${e._ang})" opacity="0"/><circle id="fp${k}" r="10" cx="${e._x1}" cy="${e._y1}"/>`).join('')}</svg>
@@ -400,6 +403,7 @@ const ANIMATE = {
   brand: (tl, el, s) => { tl.fromTo(el.querySelector('.tile'), { rotation: -20, scale: 0.4 }, { rotation: 0, scale: 1, duration: 0.45, ease: 'back.out(2.2)', immediateRender: false }, s.t + 0.05); window.sfx.push({ t: s.t + 0.1, kind: 'pop' }); },
   vs: (tl, el, s) => { const sides = el.querySelectorAll('.side'); tl.fromTo(sides[0], { x: -500 }, { x: 0, duration: 0.35, ease: 'power3.out', immediateRender: false }, s.t).fromTo(sides[1], { x: 500 }, { x: 0, duration: 0.35, ease: 'power3.out', immediateRender: false }, s.t + 0.15)
     .fromTo(el.querySelector('.mid'), { scale: 3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.25, ease: 'power4.in', immediateRender: false }, s.t + 0.45); window.sfx.push({ t: s.t, kind: 'whoosh' }, { t: s.t + 0.7, kind: 'thud' }); },
+  clip: (tl, el, s) => { const v = el.querySelector('video'); v.dataset.t0 = s.t; v.dataset.t1 = s.out ?? s.end; window.sfx.push({ t: s.t + 0.02, kind: 'whoosh' }); tl.fromTo(el.querySelector('.shot'), { scale: 0.86, y: 120, opacity: 0 }, { scale: 1, y: 0, opacity: 1, duration: 0.45, ease: 'back.out(1.5)', immediateRender: false }, s.t); },
   shot: (tl, el, s) => { window.sfx.push({ t: s.t + 0.02, kind: 'shutter' }); tl.fromTo('#flash', { opacity: 0.8 }, { opacity: 0, duration: 0.2, immediateRender: false }, s.t + 0.02); const img = el.querySelector('.shot img'); tl.fromTo(img, { scale: 1.0, y: 0 }, { scale: 1.12, y: -(s.pan ?? 60), duration: Math.max(1, s.end - s.t), ease: 'none' }, s.t); },
   flow: (tl, el, s) => {
     const pace = (k, n) => s.t + 0.4 + k * Math.max(0.35, (s.end - s.t - 0.8) / Math.max(1, n));
@@ -503,7 +507,7 @@ window.renderPost = (data) => {
     // mixed looks inside 1 video (Korede 2026-10-24): scene.look "cinema" = full-bleed bg, smooth 30 fps; scene.px = pixel world for that scene only
     if (s.look === 'cinema' || s.smooth) window.smoothWin.push([s.t, s.out]);
     const trD = transition(tl, data, i);
-    if (s.type === 'person') tl.set('#cv .mark', { opacity: 0 }, s.t).set('#cv .mark', { opacity: 1 }, s.end);
+    if (['person', 'shot', 'clip'].includes(s.type)) tl.set('#cv .mark', { opacity: 0 }, s.t).set('#cv .mark', { opacity: 1 }, s.end);
     const px = document.getElementById('px' + i), sp = document.getElementById('sp' + i);
     if (px) tl.set(px, { opacity: 1 }, s.t).set(px, { opacity: 0 }, s.out).fromTo(px, { scale: 1.0 }, { scale: 1.06, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t);
     if (sp) {
@@ -516,7 +520,7 @@ window.renderPost = (data) => {
           else if (a.do === 'shake') { tl.to(img, { x: 10, duration: 0.04, yoyo: true, repeat: 9 }, a.t); window.sfx.push({ t: a.t, kind: 'roll', vol: 0.1 }); }
           else { tl.to(img, { rotation: a.do === 'wave' ? 8 : -6, duration: 0.12, yoyo: true, repeat: a.do === 'wave' ? 5 : 1, ease: 'sine.inOut' }, a.t).to(img, { scale: 1.08, duration: 0.15, yoyo: true, repeat: 1 }, a.t); window.sfx.push({ t: a.t, kind: 'pop', vol: 0.1 }); } }); });
       tl.set(sp, { opacity: 1 }, s.t).set(sp, { opacity: 0 }, s.out); tl.fromTo(sp.querySelectorAll('img'), { y: 400 }, { y: 0, duration: 0.3, ease: 'back.out(1.8)', stagger: 0.08, immediateRender: false }, s.t + 0.05); window.sfx.push({ t: s.t + 0.1, kind: 'pop' }); }
-    if (data.stop !== false && data.look !== 'pixel') { const c = s.bgc || PALETTE[i % PALETTE.length], k = s.tr === 'up' ? 'y' : 'x';
+    if (data.stop !== false && data.look !== 'pixel') { const PAL = data.palette || PALETTE, c = s.bgc || PAL[i % PAL.length], k = s.tr === 'up' ? 'y' : 'x';
       if (trD && (s.tr || data.tr || 'push') !== 'fade') tl.set('#wipe', { backgroundColor: c, opacity: 1, x: 0, y: 0, [k]: k === 'y' ? 1920 : 1080 }, s.t).to('#wipe', { [k]: 0, duration: TR_D, ease: 'power3.inOut' }, s.t).set('#wipe', { opacity: 0 }, s.t + TR_D + 0.01);
       tl.set('#wd', { background: c, opacity: 1 }, s.t + trD).set('#wl', { opacity: 0 }, s.t).set('#cv', { attr: { class: `canvas ${data.branded ? 'branded ' : ''}tf-${(data.coldOpen && data.coldOpen.font) || 'ig'} ${LIGHTISH.has(c) ? 'light-on' : 'dark-on'}` } }, s.t); }
     const sb = document.getElementById('sb' + i);
@@ -682,6 +686,7 @@ window.renderPost = (data) => {
   tl.set({}, {}, data.duration);
   window.faceVideo = data.face ? document.getElementById('fv') : null;
   window.faceVideos = data.face ? [...document.querySelectorAll('#face video')] : [];
+  window.clipVideos = [...document.querySelectorAll('video.clipv')];
   const STEP = data.stop !== false ? 12 : 0;
   window.seek = (t) => {
     const smooth = (window.smoothWin || []).some(([a, b]) => t >= a && t <= b);
@@ -689,7 +694,7 @@ window.renderPost = (data) => {
     tl.seek(Math.max(ts, 0.0005), false);   // never exactly 0: GSAP skips zero-position sets on a fresh timeline
     if (STEP && !smooth) {
       const k = Math.floor(t * STEP);
-      document.querySelectorAll('.scene > *, .pop, .tgt').forEach((el, j) => { el.style.translate = `${((k * 13 + j * 7) % 5) - 2}px ${((k * 7 + j * 3) % 5) - 2}px`; el.style.rotate = `${(((k * 31 + j * 17) % 7) - 3) * 0.35}deg`; });
+      document.querySelectorAll('.scene > *:not(:has(.card, .shot, .flow, .brandp, .bigword, .glass, .vs, .person)), .pop, .tgt').forEach((el, j) => { el.style.translate = `${((k * 13 + j * 7) % 5) - 2}px ${((k * 7 + j * 3) % 5) - 2}px`; el.style.rotate = `${(((k * 31 + j * 17) % 7) - 3) * 0.35}deg`; });
       document.querySelectorAll('.scrap').forEach((el, j) => { el.style.translate = `0 ${-((k * (2 + j % 3)) % 1900)}px`; });
     }
   };

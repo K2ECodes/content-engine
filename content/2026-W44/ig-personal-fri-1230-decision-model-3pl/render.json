@@ -1,459 +1,456 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 2.4,
+  "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. A chat model takes 1 to 3 seconds. Speak says its wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. Here's where that fits. 1, routing. Which inbox, which team, and how sure it is. 2, picking. Which reply, which tool, what happens next. 3, flagging. Spam, urgent or fine, in a blink. When it's not sure, a person decides. The chat model still writes the reply. The decision model picks the lane. Want my AI starter pack? Comment AI and I'll send it to you free.",
+  "keys": [
+   "100",
+   "seconds",
+   "0.13",
+   "choosing",
+   "person",
+   "lane",
+   "free"
+  ],
+  "strikes": [
+   "chatbot"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "list",
+    "title": "Every AI step",
+    "rows": [
+     {
+      "text": "Write a reply",
+      "chip": "Chatbot",
+      "chipKind": "ok",
+      "at": "AI"
+     },
+     {
+      "text": "Pick a lane",
+      "chip": "Chatbot?",
+      "chipKind": "bad",
+      "at": "chatbot"
+     }
+    ],
+    "bg": "bg/rail-switch.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "OpenAI's",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/sam-altman.jpg",
+    "name": "Sam Altman",
+    "role": "OpenAI CEO",
+    "bg": "bg/speed-tunnel.png",
+    "color": "#10A37F",
+    "bgc": "#0B6E4F"
+   },
+   {
+    "at": "picks",
+    "world": "light",
+    "type": "odometer",
+    "value": "100",
+    "suffix": " ms",
+    "label": "per decision, OpenAI's claim",
+    "landAt": "100",
+    "bg": "bg/speed-tunnel.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "A chat",
+    "world": "dark",
+    "type": "stat",
+    "value": "1 to 3 s",
+    "label": "for a chat model to answer",
+    "foot": "OpenAI, Oct 22 2026",
+    "bg": "bg/sorting.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "Speak",
+    "world": "light",
+    "type": "list",
+    "title": "Speak, time between steps",
+    "badge": "Oct 2026",
+    "rows": [
+     {
+      "text": "Before",
+      "val": "1.4 s",
+      "chip": "Slow",
+      "chipKind": "bad",
+      "at": "1.4"
+     },
+     {
+      "text": "Now",
+      "val": "0.13 s",
+      "chip": "Fast",
+      "chipKind": "ok",
+      "at": "0.13"
+     }
+    ],
+    "bg": "bg/speed-tunnel.png",
+    "bgc": "#0B6E4F"
+   },
+   {
+    "at": "Most",
+    "world": "dark",
+    "type": "list",
+    "title": "AI work, honestly",
+    "rows": [
+     {
+      "text": "Writing",
+      "chip": "Some",
+      "chipKind": "wait",
+      "at": "writing"
+     },
+     {
+      "text": "Choosing",
+      "chip": "Most of it",
+      "chipKind": "ok",
+      "at": "choosing"
+     }
+    ],
+    "bg": "bg/sorting.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "Here's",
+    "world": "light",
+    "type": "word",
+    "text": "3 SPOTS",
+    "bg": "bg/rail-switch.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "1#2",
+    "world": "dark",
+    "type": "list",
+    "title": "routing",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Sales inbox",
+      "val": "0.06",
+      "at": "inbox"
+     },
+     {
+      "text": "Support team",
+      "val": "0.91",
+      "chip": "Picked",
+      "chipKind": "ok",
+      "at": "team"
+     }
+    ],
+    "bg": "bg/rail-switch.png",
+    "bgc": "#0B6E4F"
+   },
+   {
+    "at": "2",
+    "world": "light",
+    "type": "list",
+    "title": "picking",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Reply draft",
+      "val": "0.22",
+      "at": "reply"
+     },
+     {
+      "text": "Calendar tool",
+      "val": "0.87",
+      "chip": "Picked",
+      "chipKind": "ok",
+      "at": "tool"
+     },
+     {
+      "text": "Book a call",
+      "chip": "Next",
+      "chipKind": "wait",
+      "at": "next"
+     }
+    ],
+    "bg": "bg/sorting.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "3#2",
+    "world": "dark",
+    "type": "list",
+    "title": "flagging",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Spam",
+      "chip": "Bin",
+      "chipKind": "bad",
+      "at": "Spam"
+     },
+     {
+      "text": "Urgent",
+      "chip": "Now",
+      "chipKind": "wait",
+      "at": "urgent"
+     },
+     {
+      "text": "Fine",
+      "chip": "Later",
+      "chipKind": "ok",
+      "at": "fine"
+     }
+    ],
+    "bg": "bg/speed-tunnel.png",
+    "bgc": "#17281C"
+   },
+   {
+    "at": "When",
+    "world": "light",
+    "type": "list",
+    "title": "Confidence check",
+    "badge": "Example",
+    "rows": [
+     {
+      "text": "Support, 0.91",
+      "chip": "Auto",
+      "chipKind": "ok",
+      "at": "When"
+     },
+     {
+      "text": "Sales, 0.41",
+      "chip": "Person",
+      "chipKind": "wait",
+      "at": "person"
+     }
+    ],
+    "click": {
+     "at": "person",
+     "x": 830,
+     "y": 1110
     },
-    "tail": 2.4,
-    "script": "Not every AI step needs a chatbot. OpenAI's new decision model picks between options in about 100 milliseconds. A chat model takes 1 to 3 seconds. Speak says its wait between steps fell from 1.4 seconds to 0.13. Most AI work isn't writing. It's choosing. Here's where that fits. 1, routing. Which inbox, which team, and how sure it is. 2, picking. Which reply, which tool, what happens next. 3, flagging. Spam, urgent or fine, in a blink. When it's not sure, a person decides. The chat model still writes the reply. The decision model picks the lane. Want my AI starter pack? Comment AI and I'll send it to you free.",
-    "keys": [
-      "100",
-      "seconds",
-      "0.13",
-      "choosing",
-      "person",
-      "lane",
-      "free"
+    "bg": "bg/control-room.png",
+    "bgc": "#0B6E4F"
+   },
+   {
+    "at": "The chat",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Who does what",
+    "rows": [
+     {
+      "text": "Chat model writes the reply",
+      "at": "writes"
+     },
+     {
+      "text": "Decision model picks the lane",
+      "at": "picks#2"
+     }
     ],
-    "strikes": [
-      "chatbot"
-    ],
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "list",
-        "title": "Every AI step",
-        "rows": [
-          {
-            "text": "Write a reply",
-            "chip": "Chatbot",
-            "chipKind": "ok",
-            "at": "AI"
-          },
-          {
-            "text": "Pick a lane",
-            "chip": "Chatbot?",
-            "chipKind": "bad",
-            "at": "chatbot"
-          }
-        ],
-        "bg": "bg/rail-switch.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "OpenAI's",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/sam-altman.jpg",
-        "name": "Sam Altman",
-        "role": "OpenAI CEO",
-        "bg": "bg/speed-tunnel.png",
-        "color": "#10A37F",
-        "bgc": "#0B6E4F"
-      },
-      {
-        "at": "picks",
-        "world": "light",
-        "type": "odometer",
-        "value": "100",
-        "suffix": " ms",
-        "label": "per decision, OpenAI's claim",
-        "landAt": "100",
-        "bg": "bg/speed-tunnel.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "A chat",
-        "world": "dark",
-        "type": "stat",
-        "value": "1 to 3 s",
-        "label": "for a chat model to answer",
-        "foot": "OpenAI, Oct 22 2026",
-        "bg": "bg/sorting.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "Speak",
-        "world": "light",
-        "type": "list",
-        "title": "Speak, time between steps",
-        "badge": "Oct 2026",
-        "rows": [
-          {
-            "text": "Before",
-            "val": "1.4 s",
-            "chip": "Slow",
-            "chipKind": "bad",
-            "at": "1.4"
-          },
-          {
-            "text": "Now",
-            "val": "0.13 s",
-            "chip": "Fast",
-            "chipKind": "ok",
-            "at": "0.13"
-          }
-        ],
-        "bg": "bg/speed-tunnel.png",
-        "bgc": "#0B6E4F"
-      },
-      {
-        "at": "Most",
-        "world": "dark",
-        "type": "list",
-        "title": "AI work, honestly",
-        "rows": [
-          {
-            "text": "Writing",
-            "chip": "Some",
-            "chipKind": "wait",
-            "at": "writing"
-          },
-          {
-            "text": "Choosing",
-            "chip": "Most of it",
-            "chipKind": "ok",
-            "at": "choosing"
-          }
-        ],
-        "bg": "bg/sorting.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "Here's",
-        "world": "light",
-        "type": "word",
-        "text": "3 SPOTS",
-        "bg": "bg/rail-switch.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "1#2",
-        "world": "dark",
-        "type": "list",
-        "title": "routing",
-        "badge": "Example",
-        "rows": [
-          {
-            "text": "Sales inbox",
-            "val": "0.06",
-            "at": "inbox"
-          },
-          {
-            "text": "Support team",
-            "val": "0.91",
-            "chip": "Picked",
-            "chipKind": "ok",
-            "at": "team"
-          }
-        ],
-        "bg": "bg/rail-switch.png",
-        "bgc": "#0B6E4F"
-      },
-      {
-        "at": "2",
-        "world": "light",
-        "type": "list",
-        "title": "picking",
-        "badge": "Example",
-        "rows": [
-          {
-            "text": "Reply draft",
-            "val": "0.22",
-            "at": "reply"
-          },
-          {
-            "text": "Calendar tool",
-            "val": "0.87",
-            "chip": "Picked",
-            "chipKind": "ok",
-            "at": "tool"
-          },
-          {
-            "text": "Book a call",
-            "chip": "Next",
-            "chipKind": "wait",
-            "at": "next"
-          }
-        ],
-        "bg": "bg/sorting.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "3#2",
-        "world": "dark",
-        "type": "list",
-        "title": "flagging",
-        "badge": "Example",
-        "rows": [
-          {
-            "text": "Spam",
-            "chip": "Bin",
-            "chipKind": "bad",
-            "at": "Spam"
-          },
-          {
-            "text": "Urgent",
-            "chip": "Now",
-            "chipKind": "wait",
-            "at": "urgent"
-          },
-          {
-            "text": "Fine",
-            "chip": "Later",
-            "chipKind": "ok",
-            "at": "fine"
-          }
-        ],
-        "bg": "bg/speed-tunnel.png",
-        "bgc": "#17281C"
-      },
-      {
-        "at": "When",
-        "world": "light",
-        "type": "list",
-        "title": "Confidence check",
-        "badge": "Example",
-        "rows": [
-          {
-            "text": "Support, 0.91",
-            "chip": "Auto",
-            "chipKind": "ok",
-            "at": "When"
-          },
-          {
-            "text": "Sales, 0.41",
-            "chip": "Person",
-            "chipKind": "wait",
-            "at": "person"
-          }
-        ],
-        "click": {
-          "at": "person",
-          "x": 830,
-          "y": 1110
-        },
-        "bg": "bg/control-room.png",
-        "bgc": "#0B6E4F"
-      },
-      {
-        "at": "The chat",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Who does what",
-        "rows": [
-          {
-            "text": "Chat model writes the reply",
-            "at": "writes"
-          },
-          {
-            "text": "Decision model picks the lane",
-            "at": "picks#2"
-          }
-        ],
-        "stamp": {
-          "text": "DONE",
-          "kind": "ok",
-          "at": "lane",
-          "x": 560,
-          "y": 830
-        },
-        "bg": "bg/control-room.png",
-        "bgc": "#F2B705"
-      },
-      {
-        "at": "Want",
-        "world": "light",
-        "type": "cta",
-        "keyword": "AI",
-        "prompt": "AI",
-        "dm": "Starter pack sent to your DMs",
-        "bg": "bg/rail-switch.png",
-        "bgc": "#17281C"
-      }
-    ],
-    "bgLogos": [
-      "openai",
-      "openai",
-      "openai",
-      "openai"
-    ],
-    "pops": [
-      {
-        "at": "chatbot.",
-        "kind": "sprite",
-        "sprite": "robot",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "OpenAI's"
-      },
-      {
-        "at": "OpenAI's",
-        "kind": "logo",
-        "brand": "openai",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "A chat"
-      },
-      {
-        "at": "milliseconds.",
-        "kind": "burst",
-        "text": "100 MS",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "A chat"
-      },
-      {
-        "at": "choosing.",
-        "kind": "sprite",
-        "sprite": "chart",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Here's"
-      },
-      {
-        "at": "blink.",
-        "kind": "burst",
-        "text": "BLINK",
-        "x": 40,
-        "y": 1230,
-        "w": 250,
-        "size": 38,
-        "color": "#9CCAA0",
-        "rot": 10,
-        "until": "When"
-      },
-      {
-        "at": "person.",
-        "kind": "sprite",
-        "sprite": "worker",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "The chat"
-      },
-      {
-        "at": "Not",
-        "kind": "logo",
-        "brand": "chatgpt",
-        "x": 90,
-        "y": 560,
-        "w": 150,
-        "rot": -10,
-        "bare": true,
-        "until": "OpenAI's"
-      },
-      {
-        "at": "Not",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 800,
-        "y": 620,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "OpenAI's"
-      },
-      {
-        "at": "every",
-        "kind": "logo",
-        "brand": "gemini",
-        "x": 110,
-        "y": 1120,
-        "w": 150,
-        "rot": 0,
-        "bare": true,
-        "until": "OpenAI's"
-      },
-      {
-        "at": "inbox,",
-        "kind": "sprite",
-        "sprite": "box",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "2,"
-      },
-      {
-        "at": "tool,",
-        "kind": "sprite",
-        "sprite": "cursor",
-        "x": 780,
-        "y": 560,
-        "w": 120,
-        "until": "3,#2"
-      },
-      {
-        "at": "Spam,",
-        "kind": "sprite",
-        "sprite": "evil-robot",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "When"
-      }
-    ],
-    "coldOpen": {
-      "until": "OpenAI's",
-      "set": "stage",
-      "titleColor": "#10A37F",
-      "titles": [
-        {
-          "text": [
-            "Not every AI step",
-            "*needs a chatbot.*"
-          ]
-        }
-      ],
-      "accent": [
-        "chatbot."
-      ],
-      "actors": [
-        {
-          "brand": "chatgpt",
-          "props": [
-            "laptop"
-          ],
-          "screen": "Writing essay...",
-          "x": 420,
-          "scale": 1.25
-        },
-        {
-          "thing": "sign",
-          "text": "LEFT OR RIGHT?",
-          "x": 840,
-          "scale": 0.95
-        }
-      ],
-      "beats": [
-        {
-          "at": "Not",
-          "actor": 1,
-          "do": "pop-in"
-        },
-        {
-          "at": "AI",
-          "actor": 0,
-          "do": "type",
-          "say": "Great question. Let's explore..."
-        },
-        {
-          "at": "chatbot.",
-          "actor": 0,
-          "do": "fall"
-        }
-      ]
+    "stamp": {
+     "text": "DONE",
+     "kind": "ok",
+     "at": "lane",
+     "x": 560,
+     "y": 830
+    },
+    "bg": "bg/control-room.png",
+    "bgc": "#F2B705"
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Starter pack sent to your DMs",
+    "bg": "bg/rail-switch.png",
+    "bgc": "#17281C"
+   }
+  ],
+  "bgLogos": [
+   "openai",
+   "openai",
+   "openai",
+   "openai"
+  ],
+  "pops": [
+   {
+    "at": "chatbot.",
+    "kind": "sprite",
+    "sprite": "robot",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "OpenAI's"
+   },
+   {
+    "at": "OpenAI's",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "A chat"
+   },
+   {
+    "at": "milliseconds.",
+    "kind": "burst",
+    "text": "100 MS",
+    "x": 40,
+    "y": 1230,
+    "w": 250,
+    "size": 38,
+    "color": "#FFE066",
+    "rot": -10,
+    "until": "A chat"
+   },
+   {
+    "at": "choosing.",
+    "kind": "sprite",
+    "sprite": "chart",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Here's"
+   },
+   {
+    "at": "blink.",
+    "kind": "burst",
+    "text": "BLINK",
+    "x": 40,
+    "y": 1230,
+    "w": 250,
+    "size": 38,
+    "color": "#9CCAA0",
+    "rot": 10,
+    "until": "When"
+   },
+   {
+    "at": "person.",
+    "kind": "sprite",
+    "sprite": "worker",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "The chat"
+   },
+   {
+    "at": "Not",
+    "kind": "logo",
+    "brand": "chatgpt",
+    "x": 90,
+    "y": 560,
+    "w": 150,
+    "rot": -10,
+    "bare": true,
+    "until": "OpenAI's"
+   },
+   {
+    "at": "Not",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 800,
+    "y": 620,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "OpenAI's"
+   },
+   {
+    "at": "every",
+    "kind": "logo",
+    "brand": "gemini",
+    "x": 110,
+    "y": 1120,
+    "w": 150,
+    "rot": 0,
+    "bare": true,
+    "until": "OpenAI's"
+   },
+   {
+    "at": "inbox,",
+    "kind": "sprite",
+    "sprite": "box",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "2,"
+   },
+   {
+    "at": "tool,",
+    "kind": "sprite",
+    "sprite": "cursor",
+    "x": 780,
+    "y": 560,
+    "w": 120,
+    "until": "3,#2"
+   },
+   {
+    "at": "Spam,",
+    "kind": "sprite",
+    "sprite": "evil-robot",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "When"
+   }
+  ],
+  "coldOpen": {
+   "until": "OpenAI's",
+   "set": "stage",
+   "titleColor": "#10A37F",
+   "titles": [
+    {
+     "text": [
+      "Not every AI step",
+      "*needs a chatbot.*"
+     ]
     }
-  }
+   ],
+   "accent": [
+    "chatbot."
+   ],
+   "actors": [
+    {
+     "brand": "chatgpt",
+     "props": [
+      "laptop"
+     ],
+     "screen": "Writing essay...",
+     "x": 420,
+     "scale": 1.25
+    },
+    {
+     "thing": "sign",
+     "text": "LEFT OR RIGHT?",
+     "x": 840,
+     "scale": 0.95
+    }
+   ],
+   "beats": [
+    {
+     "at": "Not",
+     "actor": 1,
+     "do": "pop-in"
+    },
+    {
+     "at": "AI",
+     "actor": 0,
+     "do": "type",
+     "say": "Great question. Let's explore..."
+    },
+    {
+     "at": "chatbot.",
+     "actor": 0,
+     "do": "fall"
+    }
+   ]
+  },
+  "sfxGain": 1.6
+ }
 }
