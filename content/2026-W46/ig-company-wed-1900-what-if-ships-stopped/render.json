@@ -19,107 +19,107 @@
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/anchor.png",
-    "kicker": "A thought experiment",
-    "stage": "Every ship stops"
+    "bg": "bg/anchor.jpg",
+    "stage": "Every ship stops",
+    "place": "A thought experiment"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/anchor.png",
+    "bg": "bg/anchor.jpg",
     "at": "Around",
-    "kicker": "The world economy",
     "stage": "30 days",
     "stat": {
      "label": "World trade by volume moved by sea",
      "value": "80 in 100",
      "count": 80,
      "source": "UNCTAD · Review of Maritime Transport"
-    }
+    },
+    "place": "The world economy"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/anchor.png",
+    "bg": "bg/anchor.jpg",
     "at": "Day",
     "dots": [
      1,
      4
     ],
-    "kicker": "Outside every major port",
     "stage": "Day 1",
     "result": "Anchored",
-    "resultAt": "anchor"
+    "resultAt": "anchor",
+    "place": "Outside every major port"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/suez.png",
+    "bg": "bg/suez.jpg",
     "at": "2021,",
-    "kicker": "Suez Canal · March 2021",
     "stage": "6 days",
     "stat": {
      "label": "Goods held up per day",
-     "value": "$9.6 billion",
+     "value": "$9.6B",
      "source": "Lloyd's List"
-    }
+    },
+    "place": "Suez Canal, March 2021"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/factory.png",
+    "bg": "bg/factory.jpg",
     "at": "Week",
     "dots": [
      2,
      4
     ],
-    "kicker": "Factories",
     "stage": "Week 1",
     "result": "Out of parts",
-    "resultAt": "parts."
+    "resultAt": "parts.",
+    "place": "Factories"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/port.png",
+    "bg": "bg/port.jpg",
     "at": "Week#2",
     "dots": [
      3,
      4
     ],
-    "kicker": "Ports and trucks",
     "stage": "Week 2",
     "result": "Nothing to pick up",
-    "resultAt": "pick"
+    "resultAt": "pick",
+    "place": "Ports and trucks"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/store.png",
+    "bg": "bg/store.jpg",
     "at": "Month",
     "dots": [
      4,
      4
     ],
-    "kicker": "Store shelves",
     "stage": "Month 1",
     "result": "Prices climb",
-    "resultAt": "prices"
+    "resultAt": "prices",
+    "place": "Store shelves"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/manager.png",
+    "bg": "bg/manager.jpg",
     "at": "How#2",
-    "kicker": "Your business",
-    "stage": "How many weeks?"
+    "stage": "How many weeks?",
+    "place": "Your business"
    }
   ]
  }

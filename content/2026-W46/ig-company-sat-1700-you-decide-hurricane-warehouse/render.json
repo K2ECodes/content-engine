@@ -19,43 +19,42 @@
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/orders.png",
-    "kicker": "Tampa, Florida",
-    "stage": "Your warehouse"
+    "bg": "bg/orders.jpg",
+    "stage": "Your warehouse",
+    "place": "Tampa, Florida"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/sat.png",
+    "bg": "bg/sat.jpg",
     "at": "hurricane",
-    "kicker": "Gulf of Mexico",
     "stage": "Hurricane watch",
     "stat": {
      "label": "Issued before tropical storm winds",
      "value": "48 hours",
      "count": 48,
      "source": "National Hurricane Center"
-    }
+    },
+    "place": "Gulf of Mexico"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/orders.png",
+    "bg": "bg/orders.jpg",
     "at": "have",
-    "kicker": "Loading dock · 6 PM",
     "stage": "3,000 orders",
     "result": "Waiting to ship",
-    "resultAt": "waiting"
+    "resultAt": "waiting",
+    "place": "Loading dock, 6 PM"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/storm.png",
+    "bg": "bg/storm.jpg",
     "at": "get",
-    "kicker": "Day 1 · your move",
     "stage": "1 move",
     "opts": [
      {
@@ -66,16 +65,17 @@
       "text": "Stop shipping, move stock up, send people home",
       "at": "Option#2"
      }
-    ]
+    ],
+    "place": "Day 1, your move"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/empty.png",
+    "bg": "bg/empty.jpg",
     "at": "Comment",
-    "kicker": "Part 2 next",
-    "stage": "A or B?"
+    "stage": "A or B?",
+    "place": "Part 2 next"
    }
   ]
  }

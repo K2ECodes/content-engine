@@ -303,19 +303,21 @@
   .choice .fine { margin-top: 18px; font: 600 24px/1 'Inter'; color: rgba(255,255,255,.55); }
 
   /* Realistic what-if / you-decide (documentary look, research/ig-inspiration-2026-10-24.md: simulif.world, binhle.co, stickitoutstories). */
+  .doc-look .mark { display: none; }
   .caps.doc { font: italic 400 78px/1.05 'Instrument Serif', serif; letter-spacing: 0; text-shadow: 0 2px 18px rgba(0,0,0,.85), 0 1px 3px rgba(0,0,0,.9); }
   .caps.doc .w.box { background: none; color: #F2C14E; box-shadow: none; }
-  .scene > .hud { zoom: 1; position: absolute; left: 60px; top: -32px; width: 820px; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,.7), 0 1px 2px rgba(0,0,0,.8); }
+  .scene > .hud { zoom: 1; position: absolute; left: 60px; top: -20px; width: 860px; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,.7), 0 1px 2px rgba(0,0,0,.8); }
   .scenes.split .scene > .hud { zoom: 1; }
   .hud .dots { display: flex; align-items: center; gap: 10px; font: 700 22px/1 'Inter'; letter-spacing: .18em; text-transform: uppercase; opacity: .85; }
   .hud .dots i { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,.35); }
   .hud .dots i.on { background: #F2C14E; }
   .hud .kick { margin-top: 26px; font: 700 24px/1 'Inter'; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
-  .hud .stg { margin-top: 6px; font: 800 104px/0.95 'Inter'; letter-spacing: -.04em; text-transform: uppercase; }
-  .hud .sl { margin-top: 26px; font: 700 22px/1 'Inter'; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
-  .hud .sv { margin-top: 4px; font: 800 80px/1 'Inter'; letter-spacing: -.03em; color: #F2C14E; }
-  .hud .src { margin-top: 8px; font: 600 20px/1 'Inter'; letter-spacing: .12em; text-transform: uppercase; opacity: .6; }
-  .hud .res { display: inline-block; margin-top: 30px; padding: 12px 22px 10px; font: 800 34px/1 'Inter'; letter-spacing: .06em; text-transform: uppercase; color: #F2C14E; border: 3px solid #F2C14E; transform: rotate(-2deg); background: rgba(0,0,0,.35); text-shadow: none; }
+  .hud .plc { margin-top: 12px; font: 600 40px/1.1 'Inter'; letter-spacing: -.01em; opacity: .9; }
+  .hud .stg { margin-top: 22px; font: 800 128px/0.92 'Inter'; letter-spacing: -.04em; text-transform: uppercase; }
+  .hud .sl { margin-top: 30px; font: 700 26px/1.1 'Inter'; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+  .hud .sv { margin-top: 6px; font: 800 104px/1 'Inter'; letter-spacing: -.03em; color: #F2C14E; }
+  .hud .src { margin-top: 10px; font: 600 22px/1 'Inter'; letter-spacing: .12em; text-transform: uppercase; opacity: .6; }
+  .hud .res { display: inline-block; margin-top: 30px; padding: 14px 24px 12px; font: 800 42px/1 'Inter'; letter-spacing: .06em; text-transform: uppercase; color: #F2C14E; border: 3px solid #F2C14E; transform: rotate(-2deg); background: rgba(0,0,0,.35); text-shadow: none; }
   .hud .opts { margin-top: 34px; display: grid; gap: 18px; width: 900px; }
   .hud .opt { display: grid; grid-template-columns: 74px 1fr; gap: 20px; align-items: center; padding: 16px 22px 16px 16px; border-radius: 20px; background: rgba(10,14,12,.62); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border: 1.5px solid rgba(255,255,255,.3); font: 700 36px/1.15 'Inter'; letter-spacing: -.02em; }
   .hud .opt b { width: 74px; height: 74px; border-radius: 16px; display: grid; place-items: center; font: 800 44px/1 'Inter'; color: #121a14; background: #F2C14E; text-shadow: none; }
@@ -354,7 +356,7 @@ const BUILD = {
   receipt: (s) => `<div class="receipt-wrap"><div class="printer"></div><div class="paper">${s.lines.map((l) => `<div class="ln${l.miss ? ' miss' : ''}"><span>${esc(l.text)}</span><span>${esc(l.val)}</span></div>`).join('')}${s.total ? `<div class="tot"><span>${esc(s.total.text)}</span><span>${esc(s.total.val)}</span></div>` : ''}</div></div>`,
   stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
   word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
-  hud: (s) => `<div class="hud">${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.kicker ? `<div class="kick">${esc(s.kicker)}</div>` : ''}${s.stage ? `<div class="stg">${esc(s.stage)}</div>` : ''}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
+  hud: (s) => `<div class="hud">${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.stage ? `<div class="stg">${esc(s.stage)}</div>` : ''}${s.place ? `<div class="plc">${esc(s.place)}</div>` : ''}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
   stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
   choice: (s) => `<div class="choice"><div class="qc glass">${s.level ? `<div class="lv">${esc(s.level)}</div>` : ''}<h3>${esc(s.q).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.fine ? `<div class="fine">${esc(s.fine)}</div>` : ''}${s.timer ? '<svg class="ring" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"/><circle class="fg" cx="50" cy="50" r="40"/></svg>' : ''}</div><div class="opts">${['a', 'b'].map((k) => `<div class="opt ${k}"><b>${k.toUpperCase()}</b><span>${esc(s[k].text)}</span><div class="oi">${esc(s[k].emoji || '')}</div></div>`).join('')}</div><div class="vote">${esc(s.vote || 'COMMENT A OR B')}</div></div>`,
   person: (s) => `<div class="person" style="--pc:${s.b?.bg || s.color || '#FFC93C'}"><div class="ph"><img src="${s.photoUrl}"></div><div class="nm">${esc(s.name)}</div><div class="rl">${esc(s.role)}</div>${s.quote ? `<div class="q">&ldquo;${esc(s.quote)}&rdquo;</div>` : ''}</div>`,
@@ -462,7 +464,7 @@ const ANIMATE = {
   stat: () => {},
   word: () => {},
   hud: (tl, el, s) => {
-    const parts = el.querySelectorAll('.dots,.kick,.stg,.sl,.sv,.src');
+    const parts = el.querySelectorAll('.dots,.plc,.stg,.sl,.sv,.src');
     tl.fromTo(parts, { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, stagger: 0.07, ease: 'power3.out', immediateRender: false }, s.t + 0.1);
     const sv = el.querySelector('.sv');
     if (sv && sv.dataset.n !== '') { const n = Number(sv.dataset.n), txt = sv.textContent, o = { v: 0 }, fmt = (v) => txt.replace(/[\d,.]+/, Math.round(v).toLocaleString('en-US'));
@@ -545,7 +547,7 @@ window.renderPost = (data) => {
   const lines = sentences(data.words);
   const dust = Array.from({ length: 24 }, (_, i) => `<i class="dust" style="left:${(i * 137) % 1080}px;top:${(i * 263) % 1920}px"></i>`).join('');
 
-  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}${data.look === 'pixel' ? ' pixel-look' : ''}"><div class="canvas${data.branded ? ' branded' : ''} tf-${(data.coldOpen && data.coldOpen.font) || 'ig'}" id="cv">
+  document.getElementById('root').innerHTML = `<div id="smw" class="${data.stop !== false ? 'stopm' : ''}${data.look === 'pixel' ? ' pixel-look' : ''}${data.capStyle === 'doc' ? ' doc-look' : ''}"><div class="canvas${data.branded ? ' branded' : ''} tf-${(data.coldOpen && data.coldOpen.font) || 'ig'}" id="cv">
     <div class="world dark" id="wd">${dust}</div><div class="world light" id="wl" style="opacity:0"></div><div id="wipe"></div>
     <div class="vibe" id="vibe" style="${data.look === 'pixel' ? 'display:none' : ''}">${data.stop !== false ? Array.from({ length: 22 }, (_, k) => `<i class="scrap" style="left:${(k * 211) % 1040}px;top:${(k * 389) % 1880}px;background:${SCRAP_COLORS[k % 4]};transform:rotate(${(k * 47) % 180}deg)"></i>`).join('') : ''}<div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${i % 2 ? 950 : 30}px;top:${340 + ((i * 131) % 420)}px"><img src="${b.logoUrl}"></div>`).join('')}</div>

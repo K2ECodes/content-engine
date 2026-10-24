@@ -22,21 +22,20 @@
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/cable.png",
-    "kicker": "A thought experiment",
-    "stage": "Internet: off"
+    "bg": "bg/cable.jpg",
+    "stage": "Internet: off",
+    "place": "A thought experiment"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/card.png",
+    "bg": "bg/card.jpg",
     "at": "Hour",
     "dots": [
      1,
      5
     ],
-    "kicker": "Coffee shop · 8:01 AM",
     "stage": "Hour 1",
     "stat": {
      "label": "US payments made in cash",
@@ -45,95 +44,96 @@
      "source": "Federal Reserve · 2025 Diary"
     },
     "result": "Card declined",
-    "resultAt": "stops"
+    "resultAt": "stops",
+    "place": "Coffee shop, 8:01 AM"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/cable.png",
+    "bg": "bg/cable.jpg",
     "at": "Day",
     "dots": [
      2,
      5
     ],
-    "kicker": "The sea floor",
     "stage": "Day 1",
     "stat": {
      "label": "Data between continents on cables",
      "value": "99 in 100",
      "count": 99,
      "source": "TeleGeography"
-    }
+    },
+    "place": "The sea floor"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/paper.png",
+    "bg": "bg/paper.jpg",
     "at": "banks,",
     "dots": [
      2,
      5
     ],
-    "kicker": "Banks · airlines · hospitals",
     "stage": "Day 1",
     "result": "Back to paper",
-    "resultAt": "paper."
+    "resultAt": "paper.",
+    "place": "Banks, airlines, hospitals"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/shelves.png",
+    "bg": "bg/shelves.jpg",
     "at": "Day#2",
     "dots": [
      3,
      5
     ],
-    "kicker": "Your grocery store",
     "stage": "Day 3",
     "result": "Orders by phone",
-    "resultAt": "phone"
+    "resultAt": "phone",
+    "place": "Your grocery store"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/radio.png",
+    "bg": "bg/radio.jpg",
     "at": "Week",
     "dots": [
      4,
      5
     ],
-    "kicker": "Your street",
     "stage": "Week 2",
     "result": "Radio is the news",
-    "resultAt": "radio"
+    "resultAt": "radio",
+    "place": "Your street"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/login.png",
+    "bg": "bg/login.jpg",
     "at": "Day#3",
     "dots": [
      5,
      5
     ],
-    "kicker": "Your desk",
     "stage": "Day 30",
     "result": "Forgot password",
-    "resultAt": "passwords."
+    "resultAt": "passwords.",
+    "place": "Your desk"
    },
    {
     "world": "dark",
     "type": "hud",
     "look": "cinema",
-    "bg": "bg/radio.png",
+    "bg": "bg/radio.jpg",
     "at": "Would",
-    "kicker": "Part 2 next",
-    "stage": "Would you last?"
+    "stage": "Would you last?",
+    "place": "Part 2 next"
    }
   ],
   "faceCuts": [
