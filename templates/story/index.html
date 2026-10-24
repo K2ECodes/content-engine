@@ -263,15 +263,18 @@
   .flow .ctr span { display: block; margin-top: 8px; font: 700 18px/1.1 'JetBrains Mono', monospace; letter-spacing: .06em; color: #6A6A6A; text-transform: uppercase; }
 
   /* What-if timeline + you-decide formats (2026-10-24, research/ig-inspiration-2026-10-24.md). */
+  .scene > .stage { zoom: 1; }
+  .scene > .choice { zoom: 1; }
+  .scenes.split .scene > .stage, .scenes.split .scene > .choice { zoom: .8; }
   .stage { position: relative; width: 900px; }
-  .stage .when { position: absolute; left: -10px; top: -78px; z-index: 3; min-width: 230px; height: 96px; padding: 0 34px; display: grid; place-items: center; font: 900 52px/1 'Inter'; letter-spacing: -.02em; color: #fff; background: var(--sa, #F26B1D); clip-path: polygon(14% 0, 86% 0, 100% 50%, 86% 100%, 14% 100%, 0 50%); text-transform: uppercase; filter: drop-shadow(0 8px 0 rgba(0,0,0,.35)); }
-  .stage .sc { display: grid; grid-template-columns: 230px 1fr; gap: 34px; align-items: center; padding: 56px 40px 40px; border-radius: 34px; background: rgba(255,255,255,.86); color: #121a14; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
-  .stage .ic { width: 230px; height: 230px; border-radius: 40px; display: grid; place-items: center; background: color-mix(in srgb, var(--sa, #F26B1D) 18%, white); font-size: 150px; line-height: 1; }
+  .stage .when { position: absolute; left: -10px; top: -70px; z-index: 3; min-width: 230px; height: 96px; padding: 0 34px; display: grid; place-items: center; font: 900 52px/1 'Inter'; letter-spacing: -.02em; color: #fff; background: var(--sa, #F26B1D); clip-path: polygon(14% 0, 86% 0, 100% 50%, 86% 100%, 14% 100%, 0 50%); text-transform: uppercase; filter: drop-shadow(0 8px 0 rgba(0,0,0,.35)); }
+  .stage .sc { display: grid; grid-template-columns: 250px 1fr; gap: 34px; align-items: center; padding: 64px 40px 44px; border-radius: 34px; background: rgba(255,255,255,.86); color: #121a14; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+  .stage .ic { width: 250px; height: 250px; border-radius: 44px; display: grid; place-items: center; background: color-mix(in srgb, var(--sa, #F26B1D) 18%, white); font-size: 170px; line-height: 1; }
   .stage .ic img { max-width: 78%; max-height: 82%; image-rendering: pixelated; }
   .stage .ic img.lg { image-rendering: auto; }
-  .stage h3 { font: 800 60px/1.02 'Inter'; letter-spacing: -.04em; }
-  .stage h3 em { font: italic 400 66px/1 'Instrument Serif', serif; color: var(--sa, #F26B1D); letter-spacing: 0; }
-  .stage p { margin-top: 14px; font: 600 32px/1.22 'Inter'; letter-spacing: -.02em; color: rgba(18,26,20,.72); }
+  .stage h3 { font: 800 74px/1.0 'Inter'; letter-spacing: -.04em; }
+  .stage h3 em { font: italic 400 82px/1 'Instrument Serif', serif; color: var(--sa, #F26B1D); letter-spacing: 0; }
+  .stage p { margin-top: 16px; font: 600 38px/1.2 'Inter'; letter-spacing: -.02em; color: rgba(18,26,20,.72); }
   .rail { position: absolute; left: 60px; right: 60px; top: 1010px; height: 300px; z-index: 5; opacity: 0; }
   .rail .lane { position: relative; height: 150px; border-radius: 28px; overflow: hidden; background: rgba(12,20,15,.55); -webkit-backdrop-filter: blur(22px) saturate(1.6); backdrop-filter: blur(22px) saturate(1.6); border: 1.5px solid rgba(255,255,255,.28); box-shadow: inset 0 1.5px 0 rgba(255,255,255,.45), 0 20px 50px rgba(0,0,0,.35); }
   .rail .lane::before { content: ''; position: absolute; left: 0; right: 0; top: 74px; height: 4px; background: rgba(255,255,255,.25); }
@@ -290,13 +293,13 @@
   .choice .ring circle { fill: none; stroke-width: 10; }
   .choice .ring .bg { stroke: rgba(255,255,255,.18); }
   .choice .ring .fg { stroke: #E8B84B; stroke-linecap: round; transform: rotate(-90deg); transform-origin: 50% 50%; stroke-dasharray: 251; stroke-dashoffset: 0; }
-  .choice .opts { position: absolute; left: 0; right: 0; top: 620px; display: grid; gap: 26px; }
+  .choice .opts { position: absolute; left: 0; right: 0; top: 560px; display: grid; gap: 26px; }
   .choice .opt { display: grid; grid-template-columns: 120px 1fr 110px; align-items: center; gap: 26px; min-height: 170px; padding: 18px 28px 18px 18px; border-radius: 30px; background: #F5F0E8; color: #121a14; border: 6px solid #121a14; box-shadow: 0 12px 0 #121a14; }
   .choice .opt b { width: 120px; height: 120px; border-radius: 24px; display: grid; place-items: center; font: 400 70px/1 'Silkscreen', monospace; color: #121a14; background: #E8B84B; border: 5px solid #121a14; }
   .choice .opt.b b { background: #9CCAA0; }
   .choice .opt span { font: 800 42px/1.12 'Inter'; letter-spacing: -.03em; }
   .choice .opt .oi { font-size: 84px; line-height: 1; text-align: center; }
-  .choice .vote { position: absolute; left: 50%; top: 1030px; transform: translateX(-50%); white-space: nowrap; padding: 22px 40px 16px; font: 400 64px/1 'Silkscreen', monospace; color: #121a14; background: #E8B84B; border: 7px solid #121a14; box-shadow: 10px 10px 0 #121a14; opacity: 0; }
+  .choice .vote { position: absolute; left: 50%; top: 950px; transform: translateX(-50%); white-space: nowrap; padding: 20px 36px 14px; font: 400 56px/1 'Silkscreen', monospace; color: #121a14; background: #E8B84B; border: 7px solid #121a14; box-shadow: 10px 10px 0 #121a14; opacity: 0; }
   .choice .fine { margin-top: 18px; font: 600 24px/1 'Inter'; color: rgba(255,255,255,.55); }
 </style>
 </head>
@@ -332,8 +335,8 @@ const BUILD = {
   receipt: (s) => `<div class="receipt-wrap"><div class="printer"></div><div class="paper">${s.lines.map((l) => `<div class="ln${l.miss ? ' miss' : ''}"><span>${esc(l.text)}</span><span>${esc(l.val)}</span></div>`).join('')}${s.total ? `<div class="tot"><span>${esc(s.total.text)}</span><span>${esc(s.total.val)}</span></div>` : ''}</div></div>`,
   stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
   word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
-  stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.icon || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
-  choice: (s) => `<div class="choice"><div class="qc glass">${s.level ? `<div class="lv">${esc(s.level)}</div>` : ''}<h3>${esc(s.q).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.fine ? `<div class="fine">${esc(s.fine)}</div>` : ''}${s.timer ? '<svg class="ring" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"/><circle class="fg" cx="50" cy="50" r="40"/></svg>' : ''}</div><div class="opts">${['a', 'b'].map((k) => `<div class="opt ${k}"><b>${k.toUpperCase()}</b><span>${esc(s[k].text)}</span><div class="oi">${esc(s[k].icon || '')}</div></div>`).join('')}</div><div class="vote">${esc(s.vote || 'COMMENT A OR B')}</div></div>`,
+  stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
+  choice: (s) => `<div class="choice"><div class="qc glass">${s.level ? `<div class="lv">${esc(s.level)}</div>` : ''}<h3>${esc(s.q).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.fine ? `<div class="fine">${esc(s.fine)}</div>` : ''}${s.timer ? '<svg class="ring" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"/><circle class="fg" cx="50" cy="50" r="40"/></svg>' : ''}</div><div class="opts">${['a', 'b'].map((k) => `<div class="opt ${k}"><b>${k.toUpperCase()}</b><span>${esc(s[k].text)}</span><div class="oi">${esc(s[k].emoji || '')}</div></div>`).join('')}</div><div class="vote">${esc(s.vote || 'COMMENT A OR B')}</div></div>`,
   person: (s) => `<div class="person" style="--pc:${s.b?.bg || s.color || '#FFC93C'}"><div class="ph"><img src="${s.photoUrl}"></div><div class="nm">${esc(s.name)}</div><div class="rl">${esc(s.role)}</div>${s.quote ? `<div class="q">&ldquo;${esc(s.quote)}&rdquo;</div>` : ''}</div>`,
   brand: (s) => `<div class="brandp" style="--bbg:${s.b.bg};--bfg:${s.b.fg};--btile:${s.b.tile}"><div class="tile"><img src="${s.b.logoUrl}"></div><h2>${esc(s.title || s.b.name)}</h2>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div>`,
   vs: (s) => `<div class="vs">${[s.lb, s.rb].map((b, i) => `<div class="side" style="--bbg:${b.bg};--bfg:${b.fg};--btile:${b.tile}"><div class="tile"><img src="${b.logoUrl}"></div><b>${esc(b.name)}</b>${(i ? s.rtag : s.ltag) ? `<span class="tag">${esc(i ? s.rtag : s.ltag)}</span>` : ''}</div>${i ? '' : '<div class="mid">VS</div>'}`).join('')}</div>`,

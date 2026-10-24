@@ -63,6 +63,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 - **@koredekola + Korede's LinkedIn focus (Korede, 2026-10-24; examples, not a limit: invent any other format that can go viral)**: freebies, open source tools/repos, reverse-engineering (how X built Y, breaking down a viral app/ad/prompt), trending AI and tech news, skills, hot takes, day in the life. Every week mixes all of these, and videos rotate styles (talking head + B-roll, stop-motion, cinema, pixel worlds, logo battles, AI-slop skits/swaps, screen-recording breakdowns, day-in-the-life vlog cuts) and characters (pixel cast, brand-logo characters, robots, Korede). Every new rule in this file applies to every video and post, old and new, on its next render.
 
 
+- **What-if and you-decide videos come in 2 types, equal numbers (Korede, 2026-10-24)**: realistic (grounded, real outcomes and numbers, documentary tone, pure top of funnel: no offer funnel, only follow for part 2 or a comment question) and gamified (pixel cast, game UI, our characters, can funnel to freebies and comment keywords). They serve different purposes; make as many of one as the other.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

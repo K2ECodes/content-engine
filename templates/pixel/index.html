@@ -128,7 +128,14 @@
   .paper .tnode.qb .q { display: none; }
   .paper .tnode .lbl { bottom: -50px; font: 800 30px/1 'Inter', sans-serif; color: #17281C; }
   .tree.up .tnode .lbl { bottom: auto; top: -44px; }
+  .tree.up .tnode.qb { overflow: visible; }
   .paper .note { font: 700 52px/1 'Caveat', cursive; }
+  .pstage { position: relative; text-align: center; padding: 30px 10px 6px; }
+  .pstage .when { position: absolute; left: -30px; top: -80px; padding: 18px 34px 14px; font: 400 54px/1 'Anton'; letter-spacing: .02em; color: #fff; text-transform: uppercase; border: 6px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); transform: rotate(-3deg); }
+  .pstage .emo { font-size: 240px; line-height: 1.1; }
+  .pstage h4 { margin-top: 10px; font: 400 76px/1 'Anton'; text-transform: uppercase; color: var(--ink); }
+  .pstage h4 .a { color: var(--orange); }
+  .pstage p { margin-top: 18px; font: 700 46px/1.25 var(--f-head); color: rgba(23,40,28,.78); }
   .count { position: absolute; top: 30px; right: 40px; font: 700 22px/1 'Silkscreen'; color: var(--hl); opacity: .55; }
 </style>
 </head>
@@ -156,6 +163,7 @@ const CARDS = {
   flow: (c) => `<div class="flow">${c.steps.map((s, i) => `${i ? '<span class="ar">&rarr;</span>' : ''}<div class="n${s.hi ? ' hi' : ''}"><h4>${esc(s.h)}</h4><p>${esc(s.p)}</p></div>`).join('')}</div>${c.foot ? `<div class="flow-foot">${esc(c.foot)}</div>` : ''}`,
   checks: (c) => `<div class="checks">${c.items.map((t) => `<div class="c"><b>&gt;</b><span>${acc(t)}</span></div>`).join('')}</div>`,
   quote: (c) => `<div class="quote">${esc(c.text).replace(/\[(.+?)\]/g, '<mark>$1</mark>')}${c.who ? `<div class="who">${esc(c.who)}</div>` : ''}</div>`,
+  stage: (c) => `<div class="pstage"><div class="when" style="background:${c.color || 'var(--orange)'}">${esc(c.when)}</div><div class="emo">${esc(c.emoji || '')}</div>${c.head ? `<h4>${acc(c.head)}</h4>` : ''}${c.text ? `<p>${esc(c.text)}</p>` : ''}</div>`,
   code: (c) => `<div class="code">${esc(c.text).replace(/\*(.+?)\*/g, '<span class="k">$1</span>')}</div>`,
 };
 const arrow = (a) => { const mx = (a.x1 + a.x2) / 2 + (a.bend ?? 60), my = (a.y1 + a.y2) / 2 - (a.bend ?? 60);
