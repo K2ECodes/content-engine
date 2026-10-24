@@ -62,6 +62,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **@koredekola + Korede's LinkedIn focus (Korede, 2026-10-24)**: freebies, open source tools/repos, reverse-engineering (how X built Y, breaking down a viral app/ad/prompt), trending AI and tech news, skills, hot takes, day in the life. Every week mixes all of these, and videos rotate styles (talking head + B-roll, stop-motion, cinema, pixel worlds, logo battles, AI-slop skits/swaps, screen-recording breakdowns, day-in-the-life vlog cuts) and characters (pixel cast, brand-logo characters, robots, Korede). Every new rule in this file applies to every video and post, old and new, on its next render.
 
+- **What already works on our pages (research/own-pages-2026-10-24.md)**: @koredekola: cinematic lifestyle/identity reels (football, gym, Berlin, laptop + delusion, moving to Germany, B&W quote reels) get 5 to 10x the views of plain talking heads; short 1-line hooks beat long stacked headers. Company: contrarian hooks ("Nobody cares about AI") and tier-list memes (good/bad/best with app logos) win; Sanjana talking heads do well; dark text-only carousels flop.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.
