@@ -13,7 +13,7 @@ You can still pick Claude inside Replit.
 
 It's just not the default anymore, and most people never change the default.
 
-Round 2 is already here: Anthropic just launched Claude Duet.
+Round 2 is already here: @claudeai just launched Claude Duet.
 
 Who takes the next round?
 
