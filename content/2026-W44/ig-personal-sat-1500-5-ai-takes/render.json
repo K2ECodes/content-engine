@@ -300,11 +300,13 @@
     },
     "cut": {
      "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-     "x": 70,
-     "y": 180,
-     "h": 1400,
+     "x": 27,
+     "y": 151,
+     "h": 1527,
      "front": true,
-     "grade": "brightness(.93) sepia(.1)"
+     "grade": "brightness(.93) sepia(.1)",
+     "fullframe": true,
+     "lowered": true
     }
    }
   ],

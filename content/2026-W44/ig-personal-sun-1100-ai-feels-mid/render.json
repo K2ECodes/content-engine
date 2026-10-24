@@ -39,11 +39,13 @@
     },
     "cut": {
      "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-     "x": 70,
-     "y": 185,
-     "h": 1400,
+     "x": 27,
+     "y": 156,
+     "h": 1527,
      "front": true,
-     "grade": "brightness(.97) sepia(.06)"
+     "grade": "brightness(.97) sepia(.06)",
+     "fullframe": true,
+     "lowered": true
     }
    },
    {
@@ -241,11 +243,13 @@
     },
     "cut": {
      "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-     "x": 70,
-     "y": 180,
-     "h": 1400,
+     "x": 27,
+     "y": 151,
+     "h": 1527,
      "front": true,
-     "grade": "brightness(.97) sepia(.06)"
+     "grade": "brightness(.97) sepia(.06)",
+     "fullframe": true,
+     "lowered": true
     },
     "blocks": [
      {
