@@ -1,0 +1,209 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "Peak season is here, and your support inbox is about to triple. AI can answer most of it. Where's my order. Can I change my size. When does it ship. But the brands that keep customers know when the AI should step aside. 5 handoffs. Angry customers go to a person. Money decisions over your limit go to a person. Broken or missing items, the AI collects the photos, a person decides. Anyone asking for the 2nd time. And anyone who says talk to a human. Want the full handoff map? Comment SYSTEMS and we'll send it to you free.",
+  "say": "Peak season is here, and your support inbox is about to triple. AI can answer most of it. Where's my order. Can I change my size. When does it ship. But the brands that keep customers know when the AI should step aside. Five handoffs. Angry customers go to a person. Money decisions over your limit go to a person. Broken or missing items, the AI collects the photos, a person decides. Anyone asking for the second time. And anyone who says talk to a human. Want the full handoff map? Comment SYSTEMS and we'll send it to you free.",
+  "coldOpen": {
+   "until": "AI",
+   "set": "office",
+   "font": "editorial",
+   "titles": [
+    {
+     "text": [
+      "Peak season.",
+      "*Inbox x3.*"
+     ]
+    }
+   ],
+   "accent": [
+    "triple"
+   ],
+   "actors": [
+    {
+     "sprite": "sanjana-laptop",
+     "x": 250,
+     "scale": 1.6
+    },
+    {
+     "thing": "crowd",
+     "n": 5,
+     "x": 680,
+     "scale": 1.0
+    }
+   ],
+   "beats": [
+    {
+     "at": "Peak",
+     "actor": 1,
+     "do": "run-in",
+     "from": "right"
+    },
+    {
+     "at": "inbox",
+     "actor": 0,
+     "do": "panic"
+    },
+    {
+     "at": "triple",
+     "actor": 0,
+     "do": "shake",
+     "say": "Help."
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "AI",
+    "world": "light",
+    "type": "list",
+    "title": "AI answers",
+    "badge": "Most of it",
+    "rows": [
+     {
+      "text": "Where's my order?",
+      "chip": "Answered",
+      "chipKind": "ok",
+      "at": "order"
+     },
+     {
+      "text": "Can I change my size?",
+      "chip": "Answered",
+      "chipKind": "ok",
+      "at": "size"
+     },
+     {
+      "text": "When does it ship?",
+      "chip": "Answered",
+      "chipKind": "ok",
+      "at": "ship"
+     }
+    ]
+   },
+   {
+    "at": "But",
+    "world": "dark",
+    "type": "word",
+    "text": "STEP ASIDE",
+    "bg": "bg/agent.png",
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "5",
+    "world": "light",
+    "type": "checklist",
+    "title": "5 handoffs to a person",
+    "rows": [
+     {
+      "text": "Angry customers",
+      "at": "Angry"
+     },
+     {
+      "text": "Money over your limit",
+      "at": "Money"
+     }
+    ],
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 80,
+      "h": 250,
+      "acts": [
+       {
+        "at": "Money",
+        "do": "shake"
+       }
+      ]
+     },
+     {
+      "name": "sanjana-point",
+      "x": 780,
+      "h": 290
+     }
+    ]
+   },
+   {
+    "at": "Broken",
+    "world": "dark",
+    "type": "clip",
+    "src": "assets/demo-clips/handoff-chat-claude.mp4",
+    "url": "help desk · handoff",
+    "h": 900,
+    "ss": 0.2
+   },
+   {
+    "at": "Anyone",
+    "world": "light",
+    "type": "checklist",
+    "title": "Also to a person",
+    "rows": [
+     {
+      "text": "Asking a 2nd time",
+      "at": "Anyone"
+     },
+     {
+      "text": "\"Talk to a human\"",
+      "at": "talk"
+     }
+    ],
+    "px": "day",
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 90,
+      "h": 280
+     },
+     {
+      "name": "sanjana-laptop",
+      "x": 770,
+      "h": 280
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Handoff map sent",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 300
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "person",
+   "human",
+   "free"
+  ],
+  "strikes": [
+   "triple"
+  ],
+  "bgLogos": [
+   "shopify",
+   "gmail",
+   "shopify",
+   "gmail"
+  ],
+  "branded": true,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1
+  }
+ }
+}

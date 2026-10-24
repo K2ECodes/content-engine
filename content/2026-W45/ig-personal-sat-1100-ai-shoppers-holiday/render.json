@@ -1,0 +1,205 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "I reverse-engineered how an AI shopping assistant picks a store. This holiday, 1 in 5 visits to online stores could be 1 of them. Here's what it does. It reads your product page, not your photos. Sizes, materials, what's in the box. Then it checks real stock. Then a delivery date. Then your returns, in plain words. Miss 1, and it recommends the next store. Walmart just opened its doors to these assistants. Amazon keeps blocking them. Either way, your page has to answer before it asks. Want the checklist I'd use? Comment AI and I'll send it to you free.",
+  "say": "I reverse-engineered how an AI shopping assistant picks a store. This holiday, one in five visits to online stores could be one of them. Here's what it does. It reads your product page, not your photos. Sizes, materials, what's in the box. Then it checks real stock. Then a delivery date. Then your returns, in plain words. Miss one, and it recommends the next store. Walmart just opened its doors to these assistants. Amazon keeps blocking them. Either way, your page has to answer before it asks. Want the checklist I'd use? Comment AI and I'll send it to you free.",
+  "coldOpen": {
+   "until": "This",
+   "set": "store",
+   "font": "editorial",
+   "titles": [
+    {
+     "text": [
+      "How an AI shopper",
+      "*picks a store.*"
+     ]
+    }
+   ],
+   "accent": [
+    "picks"
+   ],
+   "actors": [
+    {
+     "thing": "bot",
+     "color": "#9CCAA0",
+     "props": [
+      "magnifier"
+     ],
+     "x": 250,
+     "scale": 1.3
+    },
+    {
+     "thing": "cart",
+     "x": 520,
+     "scale": 1.1
+    },
+    {
+     "thing": "bag",
+     "text": "STORE C",
+     "x": 800,
+     "scale": 1.2
+    }
+   ],
+   "beats": [
+    {
+     "at": "reverse-engineered",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "shopping",
+     "actor": 0,
+     "do": "look",
+     "dir": "right"
+    },
+    {
+     "at": "picks",
+     "actor": 2,
+     "do": "pop-in"
+    },
+    {
+     "at": "store",
+     "actor": 0,
+     "do": "point",
+     "dir": "right",
+     "say": "This 1."
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "This",
+    "world": "dark",
+    "type": "stat",
+    "value": "1 in 5",
+    "label": "holiday visits could be AI",
+    "foot": "Salesforce projection, via Semafor",
+    "bg": "bg/robot-shopper.png",
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "Here's",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/shopper-check-term-claude.mp4",
+    "url": "how it reads 3 stores",
+    "h": 940,
+    "ss": 0.2
+   },
+   {
+    "at": "Sizes",
+    "world": "dark",
+    "type": "checklist",
+    "title": "What it reads",
+    "rows": [
+     {
+      "text": "Sizes and materials",
+      "at": "Sizes"
+     },
+     {
+      "text": "Real stock",
+      "at": "stock"
+     },
+     {
+      "text": "Delivery date",
+      "at": "delivery"
+     },
+     {
+      "text": "Returns in plain words",
+      "at": "returns"
+     }
+    ],
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 80,
+      "h": 250,
+      "acts": [
+       {
+        "at": "stock",
+        "do": "hop"
+       }
+      ]
+     },
+     {
+      "name": "shopper",
+      "x": 760,
+      "h": 280
+     }
+    ]
+   },
+   {
+    "at": "Miss",
+    "world": "light",
+    "type": "word",
+    "text": "NEXT STORE",
+    "tr": "up"
+   },
+   {
+    "at": "Walmart",
+    "world": "dark",
+    "type": "vs",
+    "left": "walmart",
+    "right": "amazon",
+    "ltag": "Come in",
+    "rtag": "Blocked"
+   },
+   {
+    "at": "Either",
+    "world": "light",
+    "type": "word",
+    "text": "ANSWER FIRST",
+    "bg": "bg/phone.png",
+    "look": "cinema"
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "Checklist sent",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "shopper",
+      "x": 760,
+      "h": 280,
+      "acts": [
+       {
+        "at": "Comment",
+        "do": "wave"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "reads",
+   "stock",
+   "free"
+  ],
+  "strikes": [
+   "photos"
+  ],
+  "bgLogos": [
+   "walmart",
+   "amazon",
+   "shopify",
+   "google"
+  ],
+  "sfxGain": 1.6
+ }
+}

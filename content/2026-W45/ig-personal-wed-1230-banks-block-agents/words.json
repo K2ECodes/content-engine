@@ -1,0 +1,490 @@
+{
+ "words": [
+  {
+   "w": "JPMorgan",
+   "start": 0.0,
+   "end": 0.74
+  },
+  {
+   "w": "just",
+   "start": 0.74,
+   "end": 0.96
+  },
+  {
+   "w": "locked",
+   "start": 0.96,
+   "end": 1.2
+  },
+  {
+   "w": "AI",
+   "start": 1.2,
+   "end": 1.4
+  },
+  {
+   "w": "agents",
+   "start": 1.4,
+   "end": 1.72
+  },
+  {
+   "w": "out",
+   "start": 1.72,
+   "end": 1.9
+  },
+  {
+   "w": "of",
+   "start": 1.9,
+   "end": 1.96
+  },
+  {
+   "w": "your",
+   "start": 1.96,
+   "end": 2.04
+  },
+  {
+   "w": "bank",
+   "start": 2.04,
+   "end": 2.22
+  },
+  {
+   "w": "account.",
+   "start": 2.22,
+   "end": 2.52
+  },
+  {
+   "w": "And",
+   "start": 2.88,
+   "end": 2.94
+  },
+  {
+   "w": "honestly?",
+   "start": 2.94,
+   "end": 3.22
+  },
+  {
+   "w": "They're",
+   "start": 3.7,
+   "end": 3.8
+  },
+  {
+   "w": "right.",
+   "start": 3.8,
+   "end": 3.94
+  },
+  {
+   "w": "Jamie",
+   "start": 4.34,
+   "end": 4.5
+  },
+  {
+   "w": "Dimon",
+   "start": 4.5,
+   "end": 4.82
+  },
+  {
+   "w": "said",
+   "start": 4.82,
+   "end": 4.94
+  },
+  {
+   "w": "outside",
+   "start": 4.94,
+   "end": 5.22
+  },
+  {
+   "w": "agents",
+   "start": 5.22,
+   "end": 5.58
+  },
+  {
+   "w": "won't",
+   "start": 5.58,
+   "end": 5.82
+  },
+  {
+   "w": "log",
+   "start": 5.82,
+   "end": 5.98
+  },
+  {
+   "w": "in",
+   "start": 5.98,
+   "end": 6.12
+  },
+  {
+   "w": "for",
+   "start": 6.12,
+   "end": 6.24
+  },
+  {
+   "w": "customers.",
+   "start": 6.24,
+   "end": 6.56
+  },
+  {
+   "w": "Citi",
+   "start": 7.0,
+   "end": 7.14
+  },
+  {
+   "w": "said",
+   "start": 7.14,
+   "end": 7.32
+  },
+  {
+   "w": "the",
+   "start": 7.32,
+   "end": 7.46
+  },
+  {
+   "w": "same.",
+   "start": 7.46,
+   "end": 7.62
+  },
+  {
+   "w": "Bank",
+   "start": 8.02,
+   "end": 8.12
+  },
+  {
+   "w": "of",
+   "start": 8.12,
+   "end": 8.24
+  },
+  {
+   "w": "America",
+   "start": 8.24,
+   "end": 8.46
+  },
+  {
+   "w": "wants",
+   "start": 8.46,
+   "end": 8.74
+  },
+  {
+   "w": "a",
+   "start": 8.74,
+   "end": 8.9
+  },
+  {
+   "w": "person",
+   "start": 8.9,
+   "end": 9.12
+  },
+  {
+   "w": "to",
+   "start": 9.12,
+   "end": 9.26
+  },
+  {
+   "w": "approve",
+   "start": 9.26,
+   "end": 9.54
+  },
+  {
+   "w": "every",
+   "start": 9.54,
+   "end": 9.76
+  },
+  {
+   "w": "payment.",
+   "start": 9.76,
+   "end": 10.06
+  },
+  {
+   "w": "Schwab",
+   "start": 10.46,
+   "end": 10.66
+  },
+  {
+   "w": "is",
+   "start": 10.66,
+   "end": 10.76
+  },
+  {
+   "w": "blocking",
+   "start": 10.76,
+   "end": 11.02
+  },
+  {
+   "w": "agents",
+   "start": 11.02,
+   "end": 11.42
+  },
+  {
+   "w": "every",
+   "start": 11.42,
+   "end": 11.7
+  },
+  {
+   "w": "single",
+   "start": 11.7,
+   "end": 11.9
+  },
+  {
+   "w": "week.",
+   "start": 11.9,
+   "end": 12.18
+  },
+  {
+   "w": "Notice",
+   "start": 12.6,
+   "end": 12.78
+  },
+  {
+   "w": "what",
+   "start": 12.78,
+   "end": 12.96
+  },
+  {
+   "w": "they",
+   "start": 12.96,
+   "end": 13.08
+  },
+  {
+   "w": "didn't",
+   "start": 13.08,
+   "end": 13.4
+  },
+  {
+   "w": "ban.",
+   "start": 13.4,
+   "end": 13.56
+  },
+  {
+   "w": "AI",
+   "start": 14.0,
+   "end": 14.2
+  },
+  {
+   "w": "can",
+   "start": 14.2,
+   "end": 14.42
+  },
+  {
+   "w": "still",
+   "start": 14.42,
+   "end": 14.62
+  },
+  {
+   "w": "read.",
+   "start": 14.62,
+   "end": 14.86
+  },
+  {
+   "w": "It",
+   "start": 15.22,
+   "end": 15.3
+  },
+  {
+   "w": "just",
+   "start": 15.3,
+   "end": 15.42
+  },
+  {
+   "w": "can't",
+   "start": 15.42,
+   "end": 15.64
+  },
+  {
+   "w": "move",
+   "start": 15.64,
+   "end": 15.76
+  },
+  {
+   "w": "money",
+   "start": 15.76,
+   "end": 15.98
+  },
+  {
+   "w": "alone.",
+   "start": 15.98,
+   "end": 16.2
+  },
+  {
+   "w": "That's",
+   "start": 16.68,
+   "end": 16.98
+  },
+  {
+   "w": "the",
+   "start": 16.98,
+   "end": 17.06
+  },
+  {
+   "w": "exact",
+   "start": 17.06,
+   "end": 17.4
+  },
+  {
+   "w": "rule",
+   "start": 17.4,
+   "end": 17.62
+  },
+  {
+   "w": "I",
+   "start": 17.62,
+   "end": 17.76
+  },
+  {
+   "w": "run",
+   "start": 17.76,
+   "end": 17.9
+  },
+  {
+   "w": "over",
+   "start": 17.9,
+   "end": 18.08
+  },
+  {
+   "w": "100",
+   "start": 18.08,
+   "end": 18.36
+  },
+  {
+   "w": "AI",
+   "start": 18.36,
+   "end": 18.58
+  },
+  {
+   "w": "employees",
+   "start": 18.58,
+   "end": 18.92
+  },
+  {
+   "w": "on.",
+   "start": 18.92,
+   "end": 19.22
+  },
+  {
+   "w": "Draft",
+   "start": 19.58,
+   "end": 19.76
+  },
+  {
+   "w": "everything.",
+   "start": 19.76,
+   "end": 20.12
+  },
+  {
+   "w": "Send",
+   "start": 20.52,
+   "end": 20.6
+  },
+  {
+   "w": "nothing",
+   "start": 20.6,
+   "end": 20.92
+  },
+  {
+   "w": "without",
+   "start": 20.92,
+   "end": 21.16
+  },
+  {
+   "w": "a",
+   "start": 21.16,
+   "end": 21.3
+  },
+  {
+   "w": "yes.",
+   "start": 21.3,
+   "end": 21.5
+  },
+  {
+   "w": "Want",
+   "start": 21.86,
+   "end": 21.98
+  },
+  {
+   "w": "the",
+   "start": 21.98,
+   "end": 22.12
+  },
+  {
+   "w": "5",
+   "start": 22.12,
+   "end": 22.34
+  },
+  {
+   "w": "skills",
+   "start": 22.34,
+   "end": 22.62
+  },
+  {
+   "w": "I",
+   "start": 22.62,
+   "end": 22.76
+  },
+  {
+   "w": "start",
+   "start": 22.76,
+   "end": 22.98
+  },
+  {
+   "w": "every",
+   "start": 22.98,
+   "end": 23.28
+  },
+  {
+   "w": "AI",
+   "start": 23.28,
+   "end": 23.54
+  },
+  {
+   "w": "employee",
+   "start": 23.54,
+   "end": 23.88
+  },
+  {
+   "w": "with?",
+   "start": 23.88,
+   "end": 24.2
+  },
+  {
+   "w": "Comment",
+   "start": 24.62,
+   "end": 24.98
+  },
+  {
+   "w": "AI",
+   "start": 24.98,
+   "end": 25.26
+  },
+  {
+   "w": "and",
+   "start": 25.26,
+   "end": 25.6
+  },
+  {
+   "w": "I'll",
+   "start": 25.6,
+   "end": 25.72
+  },
+  {
+   "w": "send",
+   "start": 25.72,
+   "end": 25.88
+  },
+  {
+   "w": "them",
+   "start": 25.88,
+   "end": 26.02
+  },
+  {
+   "w": "to",
+   "start": 26.02,
+   "end": 26.14
+  },
+  {
+   "w": "you",
+   "start": 26.14,
+   "end": 26.24
+  },
+  {
+   "w": "free.",
+   "start": 26.24,
+   "end": 26.44
+  }
+ ],
+ "text": "JP Morgan just locked AI agents out of your bank account. And honestly? They're right. Jamie Dimon said outside agents won't log in for customers. Citi said the same. Bank of America wants a person to approve every payment. Schwab is blocking agents every single week. Notice what they didn't ban. AI can still read. It just can't move money alone. That's the exact rule I run over 100 AI employees on. Draft everything. Send nothing without a yes. Want the five skills I start every AI employee with? Comment AI and I'll send them to you free."
+}

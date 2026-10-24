@@ -1,0 +1,480 @@
+{
+ "words": [
+  {
+   "w": "The",
+   "start": 0.0,
+   "end": 0.38
+  },
+  {
+   "w": "biggest",
+   "start": 0.38,
+   "end": 0.68
+  },
+  {
+   "w": "banks",
+   "start": 0.68,
+   "end": 1.02
+  },
+  {
+   "w": "in",
+   "start": 1.02,
+   "end": 1.14
+  },
+  {
+   "w": "America",
+   "start": 1.14,
+   "end": 1.44
+  },
+  {
+   "w": "just",
+   "start": 1.44,
+   "end": 1.74
+  },
+  {
+   "w": "said",
+   "start": 1.74,
+   "end": 1.94
+  },
+  {
+   "w": "no",
+   "start": 1.94,
+   "end": 2.2
+  },
+  {
+   "w": "to",
+   "start": 2.2,
+   "end": 2.32
+  },
+  {
+   "w": "AI",
+   "start": 2.32,
+   "end": 2.54
+  },
+  {
+   "w": "agents",
+   "start": 2.54,
+   "end": 2.88
+  },
+  {
+   "w": "moving",
+   "start": 2.88,
+   "end": 3.12
+  },
+  {
+   "w": "money.",
+   "start": 3.12,
+   "end": 3.4
+  },
+  {
+   "w": "JPMorgan,",
+   "start": 3.86,
+   "end": 4.34
+  },
+  {
+   "w": "Citi,",
+   "start": 4.58,
+   "end": 4.78
+  },
+  {
+   "w": "and",
+   "start": 4.94,
+   "end": 5.02
+  },
+  {
+   "w": "Bank",
+   "start": 5.02,
+   "end": 5.22
+  },
+  {
+   "w": "of",
+   "start": 5.22,
+   "end": 5.32
+  },
+  {
+   "w": "America",
+   "start": 5.32,
+   "end": 5.68
+  },
+  {
+   "w": "all",
+   "start": 5.68,
+   "end": 6.06
+  },
+  {
+   "w": "drew",
+   "start": 6.06,
+   "end": 6.26
+  },
+  {
+   "w": "the",
+   "start": 6.26,
+   "end": 6.38
+  },
+  {
+   "w": "same",
+   "start": 6.38,
+   "end": 6.6
+  },
+  {
+   "w": "line.",
+   "start": 6.6,
+   "end": 6.84
+  },
+  {
+   "w": "AI",
+   "start": 7.08,
+   "end": 7.3
+  },
+  {
+   "w": "can",
+   "start": 7.3,
+   "end": 7.6
+  },
+  {
+   "w": "read",
+   "start": 7.6,
+   "end": 7.76
+  },
+  {
+   "w": "your",
+   "start": 7.76,
+   "end": 7.9
+  },
+  {
+   "w": "account.",
+   "start": 7.9,
+   "end": 8.16
+  },
+  {
+   "w": "A",
+   "start": 8.52,
+   "end": 8.6
+  },
+  {
+   "w": "person",
+   "start": 8.6,
+   "end": 8.84
+  },
+  {
+   "w": "approves",
+   "start": 8.84,
+   "end": 9.2
+  },
+  {
+   "w": "the",
+   "start": 9.2,
+   "end": 9.3
+  },
+  {
+   "w": "payment.",
+   "start": 9.3,
+   "end": 9.5
+  },
+  {
+   "w": "Your",
+   "start": 9.92,
+   "end": 10.04
+  },
+  {
+   "w": "AI",
+   "start": 10.04,
+   "end": 10.32
+  },
+  {
+   "w": "helper",
+   "start": 10.32,
+   "end": 10.62
+  },
+  {
+   "w": "should",
+   "start": 10.62,
+   "end": 10.84
+  },
+  {
+   "w": "work",
+   "start": 10.84,
+   "end": 11.02
+  },
+  {
+   "w": "the",
+   "start": 11.02,
+   "end": 11.16
+  },
+  {
+   "w": "same",
+   "start": 11.16,
+   "end": 11.34
+  },
+  {
+   "w": "way.",
+   "start": 11.34,
+   "end": 11.52
+  },
+  {
+   "w": "It",
+   "start": 11.86,
+   "end": 11.94
+  },
+  {
+   "w": "can",
+   "start": 11.94,
+   "end": 12.04
+  },
+  {
+   "w": "draft",
+   "start": 12.04,
+   "end": 12.22
+  },
+  {
+   "w": "the",
+   "start": 12.22,
+   "end": 12.42
+  },
+  {
+   "w": "refund,",
+   "start": 12.42,
+   "end": 12.62
+  },
+  {
+   "w": "the",
+   "start": 13.06,
+   "end": 13.14
+  },
+  {
+   "w": "quote,",
+   "start": 13.14,
+   "end": 13.36
+  },
+  {
+   "w": "and",
+   "start": 13.72,
+   "end": 13.78
+  },
+  {
+   "w": "the",
+   "start": 13.78,
+   "end": 13.88
+  },
+  {
+   "w": "customer",
+   "start": 13.88,
+   "end": 14.12
+  },
+  {
+   "w": "reply.",
+   "start": 14.12,
+   "end": 14.48
+  },
+  {
+   "w": "But",
+   "start": 15.06,
+   "end": 15.18
+  },
+  {
+   "w": "4",
+   "start": 15.18,
+   "end": 15.42
+  },
+  {
+   "w": "things",
+   "start": 15.42,
+   "end": 15.7
+  },
+  {
+   "w": "always",
+   "start": 15.7,
+   "end": 16.06
+  },
+  {
+   "w": "wait",
+   "start": 16.06,
+   "end": 16.32
+  },
+  {
+   "w": "for",
+   "start": 16.32,
+   "end": 16.46
+  },
+  {
+   "w": "a",
+   "start": 16.46,
+   "end": 16.56
+  },
+  {
+   "w": "person.",
+   "start": 16.56,
+   "end": 16.78
+  },
+  {
+   "w": "Money",
+   "start": 17.12,
+   "end": 17.28
+  },
+  {
+   "w": "going",
+   "start": 17.28,
+   "end": 17.48
+  },
+  {
+   "w": "out,",
+   "start": 17.48,
+   "end": 17.74
+  },
+  {
+   "w": "promises",
+   "start": 18.0,
+   "end": 18.26
+  },
+  {
+   "w": "in",
+   "start": 18.26,
+   "end": 18.46
+  },
+  {
+   "w": "writing,",
+   "start": 18.46,
+   "end": 18.68
+  },
+  {
+   "w": "quotes",
+   "start": 19.08,
+   "end": 19.36
+  },
+  {
+   "w": "and",
+   "start": 19.36,
+   "end": 19.68
+  },
+  {
+   "w": "bookings,",
+   "start": 19.68,
+   "end": 20.14
+  },
+  {
+   "w": "and",
+   "start": 20.52,
+   "end": 20.66
+  },
+  {
+   "w": "deleting",
+   "start": 20.66,
+   "end": 20.9
+  },
+  {
+   "w": "records.",
+   "start": 20.9,
+   "end": 21.22
+  },
+  {
+   "w": "Everything",
+   "start": 21.58,
+   "end": 21.84
+  },
+  {
+   "w": "else,",
+   "start": 21.84,
+   "end": 22.14
+  },
+  {
+   "w": "it",
+   "start": 22.4,
+   "end": 22.58
+  },
+  {
+   "w": "handles",
+   "start": 22.58,
+   "end": 22.82
+  },
+  {
+   "w": "on",
+   "start": 22.82,
+   "end": 22.98
+  },
+  {
+   "w": "its",
+   "start": 22.98,
+   "end": 23.08
+  },
+  {
+   "w": "own.",
+   "start": 23.08,
+   "end": 23.26
+  },
+  {
+   "w": "Want",
+   "start": 23.52,
+   "end": 23.64
+  },
+  {
+   "w": "the",
+   "start": 23.64,
+   "end": 23.78
+  },
+  {
+   "w": "approval",
+   "start": 23.78,
+   "end": 24.02
+  },
+  {
+   "w": "sheet",
+   "start": 24.02,
+   "end": 24.26
+  },
+  {
+   "w": "we",
+   "start": 24.26,
+   "end": 24.4
+  },
+  {
+   "w": "use?",
+   "start": 24.4,
+   "end": 24.64
+  },
+  {
+   "w": "Comment",
+   "start": 24.92,
+   "end": 25.22
+  },
+  {
+   "w": "SYSTEMS",
+   "start": 25.22,
+   "end": 25.64
+  },
+  {
+   "w": "and",
+   "start": 25.64,
+   "end": 26.04
+  },
+  {
+   "w": "we'll",
+   "start": 26.04,
+   "end": 26.18
+  },
+  {
+   "w": "send",
+   "start": 26.18,
+   "end": 26.34
+  },
+  {
+   "w": "it",
+   "start": 26.34,
+   "end": 26.46
+  },
+  {
+   "w": "to",
+   "start": 26.46,
+   "end": 26.56
+  },
+  {
+   "w": "you",
+   "start": 26.56,
+   "end": 26.68
+  },
+  {
+   "w": "free.",
+   "start": 26.68,
+   "end": 26.9
+  }
+ ],
+ "text": "The biggest banks in America just said no to AI agents moving money. JP Morgan, Citi, and Bank of America all drew the same line. AI can read your account. A person approves the payment. Your AI helper should work the same way. It can draft the refund, the quote, and the customer reply. But four things always wait for a person. Money going out, promises in writing, quotes and bookings, and deleting records. Everything else, it handles on its own. Want the approval sheet we use? Comment systems and we'll send it to you free."
+}

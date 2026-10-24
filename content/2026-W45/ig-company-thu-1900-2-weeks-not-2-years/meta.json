@@ -1,0 +1,17 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "operational-clarity",
+  "execution": "proof",
+  "topic": "rollouts",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-11-05T19:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4"
+  ]
+}

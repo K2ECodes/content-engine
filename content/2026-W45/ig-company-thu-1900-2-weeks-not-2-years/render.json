@@ -1,0 +1,194 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "Uber just put 30,000 people on AI. But they didn't start with 30,000. They started with 30 engineers who sat with teams for 2 weeks. That's the part most companies skip. They buy the licences and hope. Here's what works for a warehouse or an online store. Pick 1 team and 1 boring job they repeat every day. Build it with their real examples, not a demo. Give it 1 owner and a list of what needs a yes. Then, and only then, add the next team. At Content Systems.ai, that's how every rollout starts. Want the owner sheet we use? Comment SYSTEMS and we'll send it to you free.",
+  "say": "Uber just put thirty thousand people on AI. But they didn't start with thirty thousand. They started with thirty engineers who sat with teams for two weeks. That's the part most companies skip. They buy the licences and hope. Here's what works for a warehouse or an online store. Pick one team and one boring job they repeat every day. Build it with their real examples, not a demo. Give it one owner and a list of what needs a yes. Then, and only then, add the next team. At Cunntent Systems dot A I, that's how every rollout starts. Want the owner sheet we use? Comment SYSTEMS and we'll send it to you free.",
+  "coldOpen": {
+   "until": "They#2",
+   "set": "warehouse",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "30,000 people on AI.",
+      "*Started with 30.*"
+     ]
+    }
+   ],
+   "accent": [
+    "30"
+   ],
+   "actors": [
+    {
+     "brand": "uber",
+     "x": 250,
+     "scale": 1.2
+    },
+    {
+     "thing": "crowd",
+     "n": 6,
+     "x": 640,
+     "scale": 1.0
+    }
+   ],
+   "beats": [
+    {
+     "at": "Uber",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "people",
+     "actor": 1,
+     "do": "pop-in"
+    },
+    {
+     "at": "start",
+     "actor": 0,
+     "do": "shake",
+     "say": "Not yet."
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "They#2",
+    "world": "dark",
+    "type": "odometer",
+    "value": "30",
+    "label": "engineers, 2 weeks, with real teams",
+    "landAt": "engineers",
+    "bg": "bg/team.png",
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "That's",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/tc-uber-head.png",
+    "url": "techcrunch.com",
+    "caption": "TechCrunch, Oct 22 2026",
+    "h": 520,
+    "pan": 0
+   },
+   {
+    "at": "Here's",
+    "world": "dark",
+    "type": "flow",
+    "title": [
+     "How it",
+     "*actually sticks*"
+    ],
+    "accent": "#C2591F",
+    "nodes": [
+     {
+      "text": "1 team",
+      "sub": "1 boring job",
+      "at": "Pick"
+     },
+     {
+      "text": "Real examples",
+      "at": "Build"
+     },
+     {
+      "text": "1 owner",
+      "sub": "needs a yes",
+      "kind": "accent",
+      "at": "Give"
+     },
+     {
+      "text": "Next team",
+      "at": "add"
+     }
+    ],
+    "edges": [
+     {
+      "from": 0,
+      "to": 1,
+      "at": "Build"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "at": "Give"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "at": "add"
+     }
+    ]
+   },
+   {
+    "at": "At",
+    "world": "light",
+    "type": "word",
+    "text": "EVERY ROLLOUT",
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 90,
+      "h": 290
+     },
+     {
+      "name": "worker",
+      "x": 760,
+      "h": 290,
+      "acts": [
+       {
+        "at": "rollout",
+        "do": "wave"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Owner sheet sent",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "sanjana-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "korede-cheer",
+      "x": 760,
+      "h": 300
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "30",
+   "owner",
+   "free"
+  ],
+  "strikes": [
+   "hope"
+  ],
+  "bgLogos": [
+   "uber",
+   "chatgpt",
+   "uber",
+   "openai"
+  ],
+  "branded": true,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1
+  }
+ }
+}

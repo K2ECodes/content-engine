@@ -1,0 +1,228 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "JPMorgan just locked AI agents out of your bank account. And honestly? They're right. Jamie Dimon said outside agents won't log in for customers. Citi said the same. Bank of America wants a person to approve every payment. Schwab is blocking agents every single week. Notice what they didn't ban. AI can still read. It just can't move money alone. That's the exact rule I run 100+ AI employees on. Draft everything. Send nothing without a yes. Want the 5 skills I start every AI employee with? Comment AI and I'll send them to you free.",
+  "say": "JPMorgan just locked AI agents out of your bank account. And honestly? They're right. Jamie Dimon said outside agents won't log in for customers. Citi said the same. Bank of America wants a person to approve every payment. Schwab is blocking agents every single week. Notice what they didn't ban. AI can still read. It just can't move money alone. That's the exact rule I run over a hundred AI employees on. Draft everything. Send nothing without a yes. Want the five skills I start every AI employee with? Comment AI and I'll send them to you free.",
+  "coldOpen": {
+   "until": "They're",
+   "set": "office",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "Locked out",
+      "*of your bank.*"
+     ]
+    }
+   ],
+   "accent": [
+    "locked"
+   ],
+   "actors": [
+    {
+     "thing": "bot",
+     "color": "#9CCAA0",
+     "props": [
+      "card"
+     ],
+     "x": 260,
+     "scale": 1.3
+    },
+    {
+     "thing": "sign",
+     "text": "NO AGENTS",
+     "x": 700,
+     "scale": 1.3
+    }
+   ],
+   "beats": [
+    {
+     "at": "JPMorgan",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "locked",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "account",
+     "actor": 0,
+     "do": "panic",
+     "say": "Hey!"
+    },
+    {
+     "at": "honestly",
+     "actor": 0,
+     "do": "sad"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "They're",
+    "world": "dark",
+    "type": "word",
+    "text": "THEY'RE RIGHT",
+    "bg": "bg/gate.png",
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "Jamie",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/jpm.png",
+    "url": "cybernews.com",
+    "caption": "JPMorgan, Oct 2026",
+    "h": 920,
+    "pan": 120
+   },
+   {
+    "at": "Citi",
+    "world": "dark",
+    "type": "list",
+    "title": "Banks vs outside AI",
+    "badge": "Oct 2026",
+    "rows": [
+     {
+      "text": "JPMorgan",
+      "chip": "Blocked",
+      "chipKind": "bad",
+      "at": "Citi"
+     },
+     {
+      "text": "Citi",
+      "chip": "Blocked",
+      "chipKind": "bad",
+      "at": "same"
+     },
+     {
+      "text": "Bank of America",
+      "chip": "Needs a yes",
+      "chipKind": "wait",
+      "at": "approve"
+     },
+     {
+      "text": "Schwab",
+      "chip": "Weekly blocks",
+      "chipKind": "bad",
+      "at": "Schwab"
+     }
+    ],
+    "px": "night",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 80,
+      "h": 250,
+      "acts": [
+       {
+        "at": "Schwab",
+        "do": "shake"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Notice",
+    "world": "light",
+    "type": "flow",
+    "title": [
+     "What they",
+     "*didn't ban*"
+    ],
+    "accent": "#0B6E4F",
+    "nodes": [
+     {
+      "text": "Read",
+      "sub": "allowed",
+      "at": "read"
+     },
+     {
+      "text": "Move money",
+      "sub": "needs a person",
+      "kind": "accent",
+      "at": "money"
+     }
+    ],
+    "edges": [
+     {
+      "from": 0,
+      "to": 1,
+      "at": "move"
+     }
+    ]
+   },
+   {
+    "at": "That's",
+    "world": "dark",
+    "type": "odometer",
+    "value": "100",
+    "suffix": "+",
+    "label": "AI employees, 1 rule",
+    "landAt": "employees",
+    "bg": "bg/card.png",
+    "look": "cinema"
+   },
+   {
+    "at": "Draft",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/draft-only-chat-claude.mp4",
+    "url": "AI chat · waiting for your yes",
+    "h": 900,
+    "ss": 0.3
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 770,
+      "h": 250,
+      "acts": [
+       {
+        "at": "Comment",
+        "do": "hop"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "right",
+   "read",
+   "yes",
+   "free"
+  ],
+  "strikes": [
+   "alone"
+  ],
+  "bgLogos": [
+   "claude",
+   "openai",
+   "meta",
+   "claude"
+  ],
+  "sfxGain": 1.6
+ }
+}

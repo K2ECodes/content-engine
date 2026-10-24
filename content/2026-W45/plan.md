@@ -35,7 +35,7 @@ Every cover = the problem we fix + the free thing they get. Workshop CTAs are ev
 | Sat | ig-personal | 11:00 | video | ig-personal-sat-1100-ai-shoppers-holiday | #2 | AI |
 | Sat | ig-company | 17:00 | carousel | ig-company-sat-1700-sop-to-ai-skill | #7 | SYSTEMS (SOP-to-skill sheet) |
 | Sun | ig-company | 10:00 | carousel | ig-company-sun-1000-workshop-what-you-build | workshop | WORKSHOP |
-| Sun | ig-personal | 11:00 | carousel | ig-personal-sun-1100-banks-rule-steal-it | #1 | AI |
+| Sun | ig-personal | 11:00 | carousel | ig-personal-sun-1100-free-ai-tools-peak | open-source tools (#7) | AI |
 | Sun | ig-company | 18:30 | video | ig-company-sun-1830-ai-shopper-reads-first | #2 #3 | SYSTEMS (agent-ready store checklist), Korede |
 | Sun | li-personal | 19:00 | static | li-personal-sun-1900-workshop-open-it-up | workshop | WORKSHOP |
 

@@ -1,0 +1,203 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "The biggest banks in America just said no to AI agents moving money. JPMorgan, Citi and Bank of America all drew the same line. AI can read your account. A person approves the payment. Your AI helper should work the same way. It can draft the refund, the quote and the customer reply. But 4 things always wait for a person. Money going out. Promises in writing. Quotes and bookings. And deleting records. Everything else, it handles on its own. Want the approval sheet we use? Comment SYSTEMS and we'll send it to you free.",
+  "say": "The biggest banks in America just said no to AI agents moving money. JPMorgan, Citi and Bank of America all drew the same line. AI can read your account. A person approves the payment. Your AI helper should work the same way. It can draft the refund, the quote and the customer reply. But four things always wait for a person. Money going out. Promises in writing. Quotes and bookings. And deleting records. Everything else, it handles on its own. Want the approval sheet we use? Comment SYSTEMS and we'll send it to you free.",
+  "coldOpen": {
+   "until": "JPMorgan",
+   "set": "office",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "Banks said no",
+      "*to AI moving money.*"
+     ]
+    }
+   ],
+   "accent": [
+    "no"
+   ],
+   "actors": [
+    {
+     "thing": "bot",
+     "color": "#9CCAA0",
+     "x": 260,
+     "scale": 1.3
+    },
+    {
+     "thing": "button",
+     "text": "PAY $2,400",
+     "x": 650,
+     "scale": 1.25
+    }
+   ],
+   "beats": [
+    {
+     "at": "biggest",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "said",
+     "actor": 0,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "no",
+     "actor": 1,
+     "do": "shake",
+     "say": "No."
+    },
+    {
+     "at": "money",
+     "actor": 0,
+     "do": "sad"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "JPMorgan",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/jpm.png",
+    "url": "cybernews.com",
+    "caption": "JPMorgan, Oct 2026",
+    "h": 900,
+    "pan": 120
+   },
+   {
+    "at": "AI#2",
+    "world": "dark",
+    "type": "flow",
+    "title": [
+     "Same line",
+     "*every bank*"
+    ],
+    "accent": "#0B6E4F",
+    "nodes": [
+     {
+      "text": "AI reads",
+      "at": "read"
+     },
+     {
+      "text": "Person approves",
+      "kind": "accent",
+      "at": "approves"
+     }
+    ],
+    "edges": [
+     {
+      "from": 0,
+      "to": 1,
+      "at": "approves"
+     }
+    ]
+   },
+   {
+    "at": "Your#2",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/approval-gate-chat-gold.mp4",
+    "url": "AI helper · waiting for a yes",
+    "h": 920,
+    "ss": 0.3
+   },
+   {
+    "at": "But",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Always wait for a person",
+    "rows": [
+     {
+      "text": "Money going out",
+      "at": "Money going"
+     },
+     {
+      "text": "Promises in writing",
+      "at": "promises"
+     },
+     {
+      "text": "Quotes and bookings",
+      "at": "quotes"
+     },
+     {
+      "text": "Deleting records",
+      "at": "deleting"
+     }
+    ],
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 80,
+      "h": 290
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 240,
+      "acts": [
+       {
+        "at": "deleting",
+        "do": "shake"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "Everything",
+    "world": "light",
+    "type": "word",
+    "text": "THE REST: AI",
+    "bg": "bg/approve.png",
+    "look": "cinema"
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Approval sheet sent",
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 300
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "person",
+   "yes",
+   "free"
+  ],
+  "strikes": [],
+  "bgLogos": [
+   "claude",
+   "openai",
+   "claude",
+   "openai"
+  ],
+  "branded": true,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1
+  }
+ }
+}

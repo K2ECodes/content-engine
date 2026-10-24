@@ -1,0 +1,470 @@
+{
+ "words": [
+  {
+   "w": "Your",
+   "start": 0.0,
+   "end": 0.38
+  },
+  {
+   "w": "next",
+   "start": 0.38,
+   "end": 0.56
+  },
+  {
+   "w": "customer",
+   "start": 0.56,
+   "end": 0.94
+  },
+  {
+   "w": "might",
+   "start": 0.94,
+   "end": 1.12
+  },
+  {
+   "w": "be",
+   "start": 1.12,
+   "end": 1.28
+  },
+  {
+   "w": "an",
+   "start": 1.28,
+   "end": 1.38
+  },
+  {
+   "w": "AI",
+   "start": 1.38,
+   "end": 1.6
+  },
+  {
+   "w": "with",
+   "start": 1.6,
+   "end": 1.86
+  },
+  {
+   "w": "a",
+   "start": 1.86,
+   "end": 1.94
+  },
+  {
+   "w": "spending",
+   "start": 1.94,
+   "end": 2.16
+  },
+  {
+   "w": "limit.",
+   "start": 2.16,
+   "end": 2.44
+  },
+  {
+   "w": "Walmart",
+   "start": 2.8,
+   "end": 2.94
+  },
+  {
+   "w": "just",
+   "start": 2.94,
+   "end": 3.24
+  },
+  {
+   "w": "let",
+   "start": 3.24,
+   "end": 3.4
+  },
+  {
+   "w": "AI",
+   "start": 3.4,
+   "end": 3.62
+  },
+  {
+   "w": "shopping",
+   "start": 3.62,
+   "end": 3.94
+  },
+  {
+   "w": "assistants",
+   "start": 3.94,
+   "end": 4.24
+  },
+  {
+   "w": "buy",
+   "start": 4.24,
+   "end": 4.64
+  },
+  {
+   "w": "in",
+   "start": 4.64,
+   "end": 4.76
+  },
+  {
+   "w": "its",
+   "start": 4.76,
+   "end": 4.86
+  },
+  {
+   "w": "store.",
+   "start": 4.86,
+   "end": 5.08
+  },
+  {
+   "w": "They",
+   "start": 5.46,
+   "end": 5.54
+  },
+  {
+   "w": "get",
+   "start": 5.54,
+   "end": 5.66
+  },
+  {
+   "w": "a",
+   "start": 5.66,
+   "end": 5.74
+  },
+  {
+   "w": "budget,",
+   "start": 5.74,
+   "end": 6.0
+  },
+  {
+   "w": "they",
+   "start": 6.24,
+   "end": 6.3
+  },
+  {
+   "w": "ask",
+   "start": 6.3,
+   "end": 6.5
+  },
+  {
+   "w": "for",
+   "start": 6.5,
+   "end": 6.62
+  },
+  {
+   "w": "approval,",
+   "start": 6.62,
+   "end": 6.94
+  },
+  {
+   "w": "and",
+   "start": 7.34,
+   "end": 7.42
+  },
+  {
+   "w": "they",
+   "start": 7.42,
+   "end": 7.5
+  },
+  {
+   "w": "can",
+   "start": 7.5,
+   "end": 7.6
+  },
+  {
+   "w": "be",
+   "start": 7.6,
+   "end": 7.7
+  },
+  {
+   "w": "switched",
+   "start": 7.7,
+   "end": 7.9
+  },
+  {
+   "w": "off.",
+   "start": 7.9,
+   "end": 8.14
+  },
+  {
+   "w": "These",
+   "start": 8.5,
+   "end": 8.6
+  },
+  {
+   "w": "assistants",
+   "start": 8.6,
+   "end": 8.94
+  },
+  {
+   "w": "don't",
+   "start": 8.94,
+   "end": 9.3
+  },
+  {
+   "w": "scroll",
+   "start": 9.3,
+   "end": 9.52
+  },
+  {
+   "w": "your",
+   "start": 9.52,
+   "end": 9.68
+  },
+  {
+   "w": "photos.",
+   "start": 9.68,
+   "end": 9.92
+  },
+  {
+   "w": "They",
+   "start": 10.42,
+   "end": 10.52
+  },
+  {
+   "w": "read.",
+   "start": 10.52,
+   "end": 10.8
+  },
+  {
+   "w": "4",
+   "start": 11.26,
+   "end": 11.36
+  },
+  {
+   "w": "things",
+   "start": 11.36,
+   "end": 11.58
+  },
+  {
+   "w": "first.",
+   "start": 11.58,
+   "end": 11.84
+  },
+  {
+   "w": "Sizes",
+   "start": 12.4,
+   "end": 12.68
+  },
+  {
+   "w": "and",
+   "start": 12.68,
+   "end": 12.86
+  },
+  {
+   "w": "materials.",
+   "start": 12.86,
+   "end": 13.2
+  },
+  {
+   "w": "Real",
+   "start": 13.72,
+   "end": 13.86
+  },
+  {
+   "w": "stock.",
+   "start": 13.86,
+   "end": 14.14
+  },
+  {
+   "w": "A",
+   "start": 14.64,
+   "end": 14.7
+  },
+  {
+   "w": "delivery",
+   "start": 14.7,
+   "end": 14.96
+  },
+  {
+   "w": "date.",
+   "start": 14.96,
+   "end": 15.24
+  },
+  {
+   "w": "And",
+   "start": 15.74,
+   "end": 15.86
+  },
+  {
+   "w": "returns",
+   "start": 15.86,
+   "end": 16.16
+  },
+  {
+   "w": "in",
+   "start": 16.16,
+   "end": 16.4
+  },
+  {
+   "w": "plain",
+   "start": 16.4,
+   "end": 16.56
+  },
+  {
+   "w": "words.",
+   "start": 16.56,
+   "end": 16.84
+  },
+  {
+   "w": "If",
+   "start": 17.3,
+   "end": 17.4
+  },
+  {
+   "w": "1",
+   "start": 17.4,
+   "end": 17.56
+  },
+  {
+   "w": "is",
+   "start": 17.56,
+   "end": 17.66
+  },
+  {
+   "w": "missing,",
+   "start": 17.66,
+   "end": 17.9
+  },
+  {
+   "w": "they",
+   "start": 18.22,
+   "end": 18.32
+  },
+  {
+   "w": "move",
+   "start": 18.32,
+   "end": 18.48
+  },
+  {
+   "w": "on",
+   "start": 18.48,
+   "end": 18.64
+  },
+  {
+   "w": "to",
+   "start": 18.64,
+   "end": 18.74
+  },
+  {
+   "w": "the",
+   "start": 18.74,
+   "end": 18.82
+  },
+  {
+   "w": "next",
+   "start": 18.82,
+   "end": 18.96
+  },
+  {
+   "w": "store.",
+   "start": 18.96,
+   "end": 19.2
+  },
+  {
+   "w": "Content Systems.ai",
+   "start": 19.78,
+   "end": 20.58
+  },
+  {
+   "w": "helps",
+   "start": 20.58,
+   "end": 21.0
+  },
+  {
+   "w": "online",
+   "start": 21.0,
+   "end": 21.36
+  },
+  {
+   "w": "brands",
+   "start": 21.36,
+   "end": 21.74
+  },
+  {
+   "w": "keep",
+   "start": 21.74,
+   "end": 21.92
+  },
+  {
+   "w": "all",
+   "start": 21.92,
+   "end": 22.16
+  },
+  {
+   "w": "4",
+   "start": 22.16,
+   "end": 22.38
+  },
+  {
+   "w": "complete",
+   "start": 22.38,
+   "end": 22.76
+  },
+  {
+   "w": "and",
+   "start": 22.76,
+   "end": 22.92
+  },
+  {
+   "w": "right.",
+   "start": 22.92,
+   "end": 23.12
+  },
+  {
+   "w": "Want",
+   "start": 23.34,
+   "end": 23.44
+  },
+  {
+   "w": "our",
+   "start": 23.44,
+   "end": 23.58
+  },
+  {
+   "w": "agent-ready",
+   "start": 23.58,
+   "end": 23.8
+  },
+  {
+   "w": "checklist?",
+   "start": 23.98,
+   "end": 24.28
+  },
+  {
+   "w": "Comment",
+   "start": 24.7,
+   "end": 25.0
+  },
+  {
+   "w": "SYSTEMS",
+   "start": 25.0,
+   "end": 25.36
+  },
+  {
+   "w": "and",
+   "start": 25.36,
+   "end": 25.72
+  },
+  {
+   "w": "we'll",
+   "start": 25.72,
+   "end": 25.86
+  },
+  {
+   "w": "send",
+   "start": 25.86,
+   "end": 26.02
+  },
+  {
+   "w": "it",
+   "start": 26.02,
+   "end": 26.12
+  },
+  {
+   "w": "to",
+   "start": 26.12,
+   "end": 26.2
+  },
+  {
+   "w": "you",
+   "start": 26.2,
+   "end": 26.3
+  },
+  {
+   "w": "free.",
+   "start": 26.3,
+   "end": 26.48
+  }
+ ],
+ "text": "Your next customer might be an AI with a spending limit. Walmart just let AI shopping assistants buy in its store. They get a budget, they ask for approval, and they can be switched off. These assistants don't scroll your photos. They read. Four things first. Sizes and materials. Real stock. A delivery date. And returns in plain words. If one is missing, they move on to the next store. ContentSystems.ai helps online brands keep all four complete and right. Want our agent ready checklist? Comment systems and we'll send it to you free."
+}

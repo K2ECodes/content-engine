@@ -3,6 +3,14 @@
 - Posted: W43 li-personal-fri-0800-nothing-sends-without-yes (Oct 23).
 - Today's picks: content/POST-TODAY.md (W43 leftovers + best Saturday carousels).
 
+## W45 (Nov 2 to Nov 8), built 2026-10-24 overnight
+- Research `content/2026-W45/trends.md`, plan `content/2026-W45/plan.md` (33 posts: li-personal 7, li-company 5, ig-company 14 with 4 videos, ig-personal 7 with 4 videos). Lint: 0 errors, 0 warnings.
+- Rendered and checked: 20 pixel posts (company covers = problem we fix + free thing, paper world) and 5 personal photo carousels (Sunday's new 1 = 3 free open-source AI tools, repos verified on the GitHub API).
+- 8 story videos scripted, voiced free on HeyGen (Korede x5, Sanjana x1, narrator x2), tightened, transcribed, house-style fixed, render.json written (cold-open gag + stop-motion/cinema/pixel/clip scenes, real screenshots + screen recordings), all anchors validated. NOT rendered: listed in `tmp/w45-video-queue.txt` with the Sunday carousel's 2 video slides. Render ONE AT A TIME after the W44 queue.
+- Personal reels have no music (sfxGain 1.6). Company reels reuse W44 music beds (no new spend).
+- No lip-synced Korede face in the W45 videos yet (paid kie lip-sync): run `node scripts/heygen.mjs talk-segments <post> <windows>` after Korede approves scripts if he wants his face in.
+- New demo clips: gh-firecrawl, price-watch-chat-claude, handoff-chat-claude, shopper-check-term-claude (assets/demo-clips).
+
 # Status / handoff (updated 2026-10-23 ~13:00 Berlin)
 
 Read CLAUDE.md first (all Korede's rules are there). This file says what's done and what's left.

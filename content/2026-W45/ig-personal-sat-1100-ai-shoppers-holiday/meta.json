@@ -1,0 +1,17 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "operational-clarity",
+  "execution": "checklist",
+  "topic": "agent-shoppers",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-11-07T11:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4"
+  ]
+}

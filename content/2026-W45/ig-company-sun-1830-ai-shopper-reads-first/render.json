@@ -1,0 +1,221 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "Your next customer might be an AI with a spending limit. Walmart just let AI shopping assistants buy in its store. They get a budget, they ask for approval, and they can be switched off. These assistants don't scroll your photos. They read. 4 things first. Sizes and materials. Real stock. A delivery date. And returns in plain words. If 1 is missing, they move on to the next store. Content Systems.ai helps online brands keep all 4 complete and right. Want our agent-ready checklist? Comment SYSTEMS and we'll send it to you free.",
+  "say": "Your next customer might be an AI with a spending limit. Walmart just let AI shopping assistants buy in its store. They get a budget, they ask for approval, and they can be switched off. These assistants don't scroll your photos. They read. Four things first. Sizes and materials. Real stock. A delivery date. And returns in plain words. If one is missing, they move on to the next store. Cunntent Systems dot A I helps online brands keep all four complete and right. Want our agent-ready checklist? Comment SYSTEMS and we'll send it to you free.",
+  "coldOpen": {
+   "until": "Walmart",
+   "set": "store",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "Your next customer",
+      "*has a budget.*"
+     ]
+    }
+   ],
+   "accent": [
+    "budget"
+   ],
+   "actors": [
+    {
+     "thing": "bot",
+     "color": "#9CCAA0",
+     "props": [
+      "card"
+     ],
+     "x": 260,
+     "scale": 1.3
+    },
+    {
+     "thing": "cart",
+     "x": 560,
+     "scale": 1.1
+    },
+    {
+     "thing": "sign",
+     "text": "LIMIT $200",
+     "x": 820,
+     "scale": 1.1
+    }
+   ],
+   "beats": [
+    {
+     "at": "Your",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "spending",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "limit",
+     "actor": 0,
+     "do": "look",
+     "dir": "right",
+     "say": "Within budget."
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "Walmart",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/walmart.png",
+    "url": "techcrunch.com",
+    "caption": "Walmart, Oct 21 2026",
+    "h": 900,
+    "pan": 140
+   },
+   {
+    "at": "They",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Agent rules at Walmart",
+    "rows": [
+     {
+      "text": "A budget",
+      "at": "budget"
+     },
+     {
+      "text": "Asks for approval",
+      "at": "approval"
+     },
+     {
+      "text": "Can be switched off",
+      "at": "switched"
+     }
+    ],
+    "px": "day",
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 90,
+      "h": 290
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 240,
+      "acts": [
+       {
+        "at": "off",
+        "do": "spin"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "These",
+    "world": "light",
+    "type": "word",
+    "text": "THEY READ",
+    "bg": "bg/phone-carts.png",
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "Sizes",
+    "world": "dark",
+    "type": "clip",
+    "src": "assets/demo-clips/shopper-check-term-claude.mp4",
+    "url": "how it reads 3 stores",
+    "h": 920,
+    "ss": 0.2
+   },
+   {
+    "at": "If",
+    "world": "light",
+    "type": "word",
+    "text": "NEXT STORE",
+    "tr": "up"
+   },
+   {
+    "at": 19.78,
+    "world": "dark",
+    "type": "checklist",
+    "title": "We keep all 4 right",
+    "rows": [
+     {
+      "text": "Sizes and materials",
+      "at": "helps"
+     },
+     {
+      "text": "Real stock",
+      "at": "brands"
+     },
+     {
+      "text": "Delivery date",
+      "at": "complete"
+     },
+     {
+      "text": "Returns",
+      "at": "right"
+     }
+    ],
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 90,
+      "h": 290
+     },
+     {
+      "name": "worker",
+      "x": 780,
+      "h": 290
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Store checklist sent",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 300
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "read",
+   "stock",
+   "free"
+  ],
+  "strikes": [
+   "scroll"
+  ],
+  "bgLogos": [
+   "walmart",
+   "shopify",
+   "walmart",
+   "amazon"
+  ],
+  "branded": true,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1
+  }
+ }
+}

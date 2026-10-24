@@ -1,0 +1,17 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "tools-vs-systems",
+  "execution": "checklist",
+  "topic": "sop-to-skill",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-11-06T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4"
+  ]
+}

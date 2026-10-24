@@ -1,0 +1,210 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "The SOP you write this weekend now runs in over 70 AI tools. Anthropic just gave its skills format to the Linux Foundation. A skill is just a folder. Your steps, 3 real examples, and the rules for what needs your yes. Over 1,000,000 have already been published. Here's what that means for you. You stop pasting the same prompt every morning. You write the process once, and it works in Claude, ChatGPT, Cursor, whatever you use next year. Start with the most boring task you repeat every week. Want the 5 skills I install first? Comment AI and I'll send them to you free.",
+  "say": "The SOP you write this weekend now runs in over seventy AI tools. Anthropic just gave its skills format to the Linux Foundation. A skill is just a folder. Your steps, three real examples, and the rules for what needs your yes. Over a million have already been published. Here's what that means for you. You stop pasting the same prompt every morning. You write the process once, and it works in Claude, ChatGPT, Cursor, whatever you use next year. Start with the most boring task you repeat every week. Want the five skills I install first? Comment AI and I'll send them to you free.",
+  "coldOpen": {
+   "until": "Anthropic",
+   "set": "desk",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "1 SOP.",
+      "*70+ AI tools.*"
+     ]
+    }
+   ],
+   "accent": [
+    "70"
+   ],
+   "actors": [
+    {
+     "thing": "sign",
+     "text": "SOP",
+     "x": 260,
+     "scale": 1.3,
+     "limbs": true
+    },
+    {
+     "brand": "claude",
+     "x": 560,
+     "scale": 1.1
+    },
+    {
+     "brand": "chatgpt",
+     "x": 820,
+     "scale": 1.1
+    }
+   ],
+   "beats": [
+    {
+     "at": "SOP",
+     "actor": 0,
+     "do": "run-in",
+     "from": "left"
+    },
+    {
+     "at": "runs",
+     "actor": 0,
+     "do": "throw",
+     "to": 1,
+     "n": 1,
+     "item": "gift"
+    },
+    {
+     "at": "over",
+     "actor": 0,
+     "do": "throw",
+     "to": 2,
+     "n": 1,
+     "item": "gift"
+    },
+    {
+     "at": "tools",
+     "actor": 1,
+     "do": "celebrate"
+    },
+    {
+     "at": "tools",
+     "actor": 2,
+     "do": "jump"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "Anthropic",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/anthropic.png",
+    "url": "anthropic.com",
+    "caption": "Anthropic, Oct 22 2026",
+    "h": 900,
+    "pan": 160,
+    "look": "cinema",
+    "tr": "zoom"
+   },
+   {
+    "at": "skill",
+    "world": "dark",
+    "type": "clip",
+    "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+    "url": "github.com/anthropics/skills",
+    "h": 940,
+    "ss": 0.5
+   },
+   {
+    "at": "Over#2",
+    "world": "light",
+    "type": "stat",
+    "value": "1M+",
+    "label": "skills published",
+    "foot": "Anthropic, Oct 22 2026",
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 290
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 240,
+      "acts": [
+       {
+        "at": "published",
+        "do": "hop"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "at": "You stop",
+    "world": "dark",
+    "type": "list",
+    "title": "Every morning",
+    "rows": [
+     {
+      "text": "Paste the prompt",
+      "chip": "Again",
+      "chipKind": "bad",
+      "at": "pasting"
+     },
+     {
+      "text": "Paste the prompt",
+      "chip": "Again",
+      "chipKind": "bad",
+      "at": "prompt"
+     }
+    ],
+    "tr": "up"
+   },
+   {
+    "at": "write#2",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/sop-to-skill-term-claude.mp4",
+    "url": "skill run",
+    "h": 900,
+    "ss": 0.2
+   },
+   {
+    "at": "Start",
+    "world": "dark",
+    "type": "word",
+    "text": "MOST BORING TASK",
+    "bg": "bg/library.png",
+    "look": "cinema"
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 770,
+      "h": 250,
+      "acts": [
+       {
+        "at": "Comment",
+        "do": "spin"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "keys": [
+   "70",
+   "folder",
+   "once",
+   "free"
+  ],
+  "strikes": [
+   "pasting"
+  ],
+  "bgLogos": [
+   "claude",
+   "chatgpt",
+   "gemini",
+   "anthropic"
+  ],
+  "sfxGain": 1.6
+ }
+}

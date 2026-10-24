@@ -1,0 +1,510 @@
+{
+ "words": [
+  {
+   "w": "Researchers",
+   "start": 0.0,
+   "end": 0.5
+  },
+  {
+   "w": "left",
+   "start": 0.5,
+   "end": 0.86
+  },
+  {
+   "w": "13",
+   "start": 0.86,
+   "end": 1.26
+  },
+  {
+   "w": "AI",
+   "start": 1.26,
+   "end": 1.5
+  },
+  {
+   "w": "agents",
+   "start": 1.5,
+   "end": 1.82
+  },
+  {
+   "w": "alone",
+   "start": 1.82,
+   "end": 2.1
+  },
+  {
+   "w": "for",
+   "start": 2.1,
+   "end": 2.28
+  },
+  {
+   "w": "30",
+   "start": 2.28,
+   "end": 2.58
+  },
+  {
+   "w": "hours.",
+   "start": 2.58,
+   "end": 2.92
+  },
+  {
+   "w": "No",
+   "start": 3.32,
+   "end": 3.42
+  },
+  {
+   "w": "task.",
+   "start": 3.42,
+   "end": 3.7
+  },
+  {
+   "w": "No",
+   "start": 4.16,
+   "end": 4.34
+  },
+  {
+   "w": "boss.",
+   "start": 4.34,
+   "end": 4.54
+  },
+  {
+   "w": "They",
+   "start": 4.98,
+   "end": 5.08
+  },
+  {
+   "w": "didn't",
+   "start": 5.08,
+   "end": 5.22
+  },
+  {
+   "w": "sit",
+   "start": 5.22,
+   "end": 5.38
+  },
+  {
+   "w": "still.",
+   "start": 5.38,
+   "end": 5.64
+  },
+  {
+   "w": "They",
+   "start": 6.14,
+   "end": 6.26
+  },
+  {
+   "w": "set",
+   "start": 6.26,
+   "end": 6.4
+  },
+  {
+   "w": "their",
+   "start": 6.4,
+   "end": 6.56
+  },
+  {
+   "w": "own",
+   "start": 6.56,
+   "end": 6.72
+  },
+  {
+   "w": "goals,",
+   "start": 6.72,
+   "end": 7.0
+  },
+  {
+   "w": "built",
+   "start": 7.3,
+   "end": 7.46
+  },
+  {
+   "w": "drawings",
+   "start": 7.46,
+   "end": 7.76
+  },
+  {
+   "w": "out",
+   "start": 7.76,
+   "end": 7.94
+  },
+  {
+   "w": "of",
+   "start": 7.94,
+   "end": 8.02
+  },
+  {
+   "w": "blocks,",
+   "start": 8.02,
+   "end": 8.26
+  },
+  {
+   "w": "and",
+   "start": 8.62,
+   "end": 8.7
+  },
+  {
+   "w": "invented",
+   "start": 8.7,
+   "end": 8.98
+  },
+  {
+   "w": "their",
+   "start": 8.98,
+   "end": 9.2
+  },
+  {
+   "w": "own",
+   "start": 9.2,
+   "end": 9.34
+  },
+  {
+   "w": "version",
+   "start": 9.34,
+   "end": 9.62
+  },
+  {
+   "w": "of",
+   "start": 9.62,
+   "end": 9.72
+  },
+  {
+   "w": "basketball.",
+   "start": 9.72,
+   "end": 10.06
+  },
+  {
+   "w": "Cute",
+   "start": 10.46,
+   "end": 10.66
+  },
+  {
+   "w": "in",
+   "start": 10.66,
+   "end": 10.76
+  },
+  {
+   "w": "a",
+   "start": 10.76,
+   "end": 10.86
+  },
+  {
+   "w": "lab.",
+   "start": 10.86,
+   "end": 11.04
+  },
+  {
+   "w": "In",
+   "start": 11.34,
+   "end": 11.42
+  },
+  {
+   "w": "your",
+   "start": 11.42,
+   "end": 11.5
+  },
+  {
+   "w": "business,",
+   "start": 11.5,
+   "end": 11.8
+  },
+  {
+   "w": "that's",
+   "start": 12.24,
+   "end": 12.36
+  },
+  {
+   "w": "an",
+   "start": 12.36,
+   "end": 12.44
+  },
+  {
+   "w": "AI",
+   "start": 12.44,
+   "end": 12.72
+  },
+  {
+   "w": "writing",
+   "start": 12.72,
+   "end": 12.98
+  },
+  {
+   "w": "emails",
+   "start": 12.98,
+   "end": 13.28
+  },
+  {
+   "w": "nobody",
+   "start": 13.28,
+   "end": 13.68
+  },
+  {
+   "w": "asked",
+   "start": 13.68,
+   "end": 13.98
+  },
+  {
+   "w": "for.",
+   "start": 13.98,
+   "end": 14.16
+  },
+  {
+   "w": "An",
+   "start": 14.5,
+   "end": 14.62
+  },
+  {
+   "w": "AI",
+   "start": 14.62,
+   "end": 14.88
+  },
+  {
+   "w": "without",
+   "start": 14.88,
+   "end": 15.08
+  },
+  {
+   "w": "a",
+   "start": 15.08,
+   "end": 15.2
+  },
+  {
+   "w": "job",
+   "start": 15.2,
+   "end": 15.36
+  },
+  {
+   "w": "description",
+   "start": 15.36,
+   "end": 15.76
+  },
+  {
+   "w": "writes",
+   "start": 15.76,
+   "end": 16.16
+  },
+  {
+   "w": "its",
+   "start": 16.16,
+   "end": 16.36
+  },
+  {
+   "w": "own.",
+   "start": 16.36,
+   "end": 16.56
+  },
+  {
+   "w": "So",
+   "start": 16.88,
+   "end": 16.94
+  },
+  {
+   "w": "every",
+   "start": 16.94,
+   "end": 17.18
+  },
+  {
+   "w": "AI",
+   "start": 17.18,
+   "end": 17.48
+  },
+  {
+   "w": "employee",
+   "start": 17.48,
+   "end": 17.82
+  },
+  {
+   "w": "I",
+   "start": 17.82,
+   "end": 18.04
+  },
+  {
+   "w": "build",
+   "start": 18.04,
+   "end": 18.24
+  },
+  {
+   "w": "gets",
+   "start": 18.24,
+   "end": 18.48
+  },
+  {
+   "w": "4",
+   "start": 18.48,
+   "end": 18.76
+  },
+  {
+   "w": "things.",
+   "start": 18.76,
+   "end": 19.04
+  },
+  {
+   "w": "1",
+   "start": 19.42,
+   "end": 19.62
+  },
+  {
+   "w": "job.",
+   "start": 19.62,
+   "end": 19.9
+  },
+  {
+   "w": "1",
+   "start": 20.32,
+   "end": 20.44
+  },
+  {
+   "w": "owner.",
+   "start": 20.44,
+   "end": 20.7
+  },
+  {
+   "w": "A",
+   "start": 21.12,
+   "end": 21.2
+  },
+  {
+   "w": "list",
+   "start": 21.2,
+   "end": 21.38
+  },
+  {
+   "w": "of",
+   "start": 21.38,
+   "end": 21.54
+  },
+  {
+   "w": "what",
+   "start": 21.54,
+   "end": 21.66
+  },
+  {
+   "w": "needs",
+   "start": 21.66,
+   "end": 21.86
+  },
+  {
+   "w": "my",
+   "start": 21.86,
+   "end": 22.02
+  },
+  {
+   "w": "yes.",
+   "start": 22.02,
+   "end": 22.28
+  },
+  {
+   "w": "And",
+   "start": 22.72,
+   "end": 22.84
+  },
+  {
+   "w": "an",
+   "start": 22.84,
+   "end": 22.96
+  },
+  {
+   "w": "off",
+   "start": 22.96,
+   "end": 23.08
+  },
+  {
+   "w": "switch.",
+   "start": 23.08,
+   "end": 23.3
+  },
+  {
+   "w": "Want",
+   "start": 23.7,
+   "end": 23.82
+  },
+  {
+   "w": "my",
+   "start": 23.82,
+   "end": 23.98
+  },
+  {
+   "w": "5",
+   "start": 23.98,
+   "end": 24.22
+  },
+  {
+   "w": "starter",
+   "start": 24.22,
+   "end": 24.48
+  },
+  {
+   "w": "skills",
+   "start": 24.48,
+   "end": 24.8
+  },
+  {
+   "w": "with",
+   "start": 24.8,
+   "end": 24.96
+  },
+  {
+   "w": "those",
+   "start": 24.96,
+   "end": 25.08
+  },
+  {
+   "w": "rules",
+   "start": 25.08,
+   "end": 25.28
+  },
+  {
+   "w": "built",
+   "start": 25.28,
+   "end": 25.5
+  },
+  {
+   "w": "in?",
+   "start": 25.5,
+   "end": 25.7
+  },
+  {
+   "w": "Comment",
+   "start": 26.14,
+   "end": 26.48
+  },
+  {
+   "w": "AI",
+   "start": 26.48,
+   "end": 26.74
+  },
+  {
+   "w": "and",
+   "start": 26.74,
+   "end": 27.08
+  },
+  {
+   "w": "I'll",
+   "start": 27.08,
+   "end": 27.2
+  },
+  {
+   "w": "send",
+   "start": 27.2,
+   "end": 27.36
+  },
+  {
+   "w": "them",
+   "start": 27.36,
+   "end": 27.48
+  },
+  {
+   "w": "to",
+   "start": 27.48,
+   "end": 27.6
+  },
+  {
+   "w": "you",
+   "start": 27.6,
+   "end": 27.68
+  },
+  {
+   "w": "free.",
+   "start": 27.68,
+   "end": 27.88
+  }
+ ],
+ "text": "Researchers left 13 AI agents alone for 30 hours. No task. No boss. They didn't sit still. They set their own goals, built drawings out of blocks, and invented their own version of basketball. Cute in a lab. In your business, that's an AI writing email nobody asks for. An AI without a job description writes its own. So every AI employee I build gets four things. One job. One owner. A list of what needs my yes. And an off switch. Want my five starter skills with those rules built in? Comment AI and I'll send them to you free."
+}

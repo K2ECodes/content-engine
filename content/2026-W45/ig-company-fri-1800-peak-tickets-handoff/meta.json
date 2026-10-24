@@ -1,0 +1,17 @@
+{
+  "channel": "ig-company",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "calm-playbooks",
+  "execution": "checklist",
+  "topic": "support-handoffs",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-11-06T18:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4"
+  ]
+}
