@@ -430,6 +430,7 @@ function resolveStory(dir, spec) {
     if (o.sprites) o.sprites = o.sprites.map((k, j) => ({ ...k, acts: (k.acts || []).map((a, m) => ({ ...a, t: a.at !== undefined ? T(a.at, `scene ${i} sprite ${j} act ${m}`, 0.03) : undefined })) }));
     for (const key of ['nodes', 'edges', 'pulses']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
     if (o.counters) o.counters = o.counters.map((c, k) => ({ ...c, t: c.at !== undefined ? T(c.at, `scene ${i} counter ${k}`) : undefined, ticks: (c.ticks || []).map((tk, j) => ({ ...tk, t: T(tk.at, `scene ${i} counter ${k} tick ${j}`, 0.02) })) }));
+    if (o.type === 'hud') { if (o.resultAt !== undefined) o.resultT = T(o.resultAt, `scene ${i} result`); if (o.opts) o.opts = o.opts.map((x, k) => ({ ...x, t: x.at !== undefined ? T(x.at, `scene ${i} opt ${k}`) : undefined })); }
     if (o.type === 'choice') { for (const k of ['a', 'b']) if (o[k]?.at !== undefined) o[k] = { ...o[k], t: T(o[k].at, `scene ${i} option ${k}`) }; if (o.voteAt !== undefined) o.voteT = T(o.voteAt, `scene ${i} vote`); }
     if (o.type === 'stage' && (o.sprite || o.brand)) o.iconUrl = o.brand ? pathToFileURL(path.join(ROOT, 'assets/logos', JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'))[o.brand].logo)).href : pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${o.sprite}.png`)).href;
     if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;

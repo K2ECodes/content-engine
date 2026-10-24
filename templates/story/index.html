@@ -301,6 +301,25 @@
   .choice .opt .oi { font-size: 84px; line-height: 1; text-align: center; }
   .choice .vote { position: absolute; left: 50%; top: 950px; transform: translateX(-50%); white-space: nowrap; padding: 20px 36px 14px; font: 400 56px/1 'Silkscreen', monospace; color: #121a14; background: #E8B84B; border: 7px solid #121a14; box-shadow: 10px 10px 0 #121a14; opacity: 0; }
   .choice .fine { margin-top: 18px; font: 600 24px/1 'Inter'; color: rgba(255,255,255,.55); }
+
+  /* Realistic what-if / you-decide (documentary look, research/ig-inspiration-2026-10-24.md: simulif.world, binhle.co, stickitoutstories). */
+  .caps.doc { font: italic 400 78px/1.05 'Instrument Serif', serif; letter-spacing: 0; text-shadow: 0 2px 18px rgba(0,0,0,.85), 0 1px 3px rgba(0,0,0,.9); }
+  .caps.doc .w.box { background: none; color: #F2C14E; box-shadow: none; }
+  .scene > .hud { zoom: 1; position: absolute; left: 60px; top: -32px; width: 820px; color: #fff; text-shadow: 0 2px 14px rgba(0,0,0,.7), 0 1px 2px rgba(0,0,0,.8); }
+  .scenes.split .scene > .hud { zoom: 1; }
+  .hud .dots { display: flex; align-items: center; gap: 10px; font: 700 22px/1 'Inter'; letter-spacing: .18em; text-transform: uppercase; opacity: .85; }
+  .hud .dots i { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,.35); }
+  .hud .dots i.on { background: #F2C14E; }
+  .hud .kick { margin-top: 26px; font: 700 24px/1 'Inter'; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+  .hud .stg { margin-top: 6px; font: 800 104px/0.95 'Inter'; letter-spacing: -.04em; text-transform: uppercase; }
+  .hud .sl { margin-top: 26px; font: 700 22px/1 'Inter'; letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+  .hud .sv { margin-top: 4px; font: 800 80px/1 'Inter'; letter-spacing: -.03em; color: #F2C14E; }
+  .hud .src { margin-top: 8px; font: 600 20px/1 'Inter'; letter-spacing: .12em; text-transform: uppercase; opacity: .6; }
+  .hud .res { display: inline-block; margin-top: 30px; padding: 12px 22px 10px; font: 800 34px/1 'Inter'; letter-spacing: .06em; text-transform: uppercase; color: #F2C14E; border: 3px solid #F2C14E; transform: rotate(-2deg); background: rgba(0,0,0,.35); text-shadow: none; }
+  .hud .opts { margin-top: 34px; display: grid; gap: 18px; width: 900px; }
+  .hud .opt { display: grid; grid-template-columns: 74px 1fr; gap: 20px; align-items: center; padding: 16px 22px 16px 16px; border-radius: 20px; background: rgba(10,14,12,.62); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border: 1.5px solid rgba(255,255,255,.3); font: 700 36px/1.15 'Inter'; letter-spacing: -.02em; }
+  .hud .opt b { width: 74px; height: 74px; border-radius: 16px; display: grid; place-items: center; font: 800 44px/1 'Inter'; color: #121a14; background: #F2C14E; text-shadow: none; }
+  .hud .opt.b b { background: #F5F0E8; }
 </style>
 </head>
 <body>
@@ -335,6 +354,7 @@ const BUILD = {
   receipt: (s) => `<div class="receipt-wrap"><div class="printer"></div><div class="paper">${s.lines.map((l) => `<div class="ln${l.miss ? ' miss' : ''}"><span>${esc(l.text)}</span><span>${esc(l.val)}</span></div>`).join('')}${s.total ? `<div class="tot"><span>${esc(s.total.text)}</span><span>${esc(s.total.val)}</span></div>` : ''}</div></div>`,
   stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
   word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
+  hud: (s) => `<div class="hud">${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.kicker ? `<div class="kick">${esc(s.kicker)}</div>` : ''}${s.stage ? `<div class="stg">${esc(s.stage)}</div>` : ''}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
   stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
   choice: (s) => `<div class="choice"><div class="qc glass">${s.level ? `<div class="lv">${esc(s.level)}</div>` : ''}<h3>${esc(s.q).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.fine ? `<div class="fine">${esc(s.fine)}</div>` : ''}${s.timer ? '<svg class="ring" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"/><circle class="fg" cx="50" cy="50" r="40"/></svg>' : ''}</div><div class="opts">${['a', 'b'].map((k) => `<div class="opt ${k}"><b>${k.toUpperCase()}</b><span>${esc(s[k].text)}</span><div class="oi">${esc(s[k].emoji || '')}</div></div>`).join('')}</div><div class="vote">${esc(s.vote || 'COMMENT A OR B')}</div></div>`,
   person: (s) => `<div class="person" style="--pc:${s.b?.bg || s.color || '#FFC93C'}"><div class="ph"><img src="${s.photoUrl}"></div><div class="nm">${esc(s.name)}</div><div class="rl">${esc(s.role)}</div>${s.quote ? `<div class="q">&ldquo;${esc(s.quote)}&rdquo;</div>` : ''}</div>`,
@@ -441,6 +461,16 @@ const ANIMATE = {
   },
   stat: () => {},
   word: () => {},
+  hud: (tl, el, s) => {
+    const parts = el.querySelectorAll('.dots,.kick,.stg,.sl,.sv,.src');
+    tl.fromTo(parts, { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, stagger: 0.07, ease: 'power3.out', immediateRender: false }, s.t + 0.1);
+    const sv = el.querySelector('.sv');
+    if (sv && sv.dataset.n !== '') { const n = Number(sv.dataset.n), txt = sv.textContent, o = { v: 0 }, fmt = (v) => txt.replace(/[\d,.]+/, Math.round(v).toLocaleString('en-US'));
+      tl.fromTo(o, { v: 0 }, { v: n, duration: 1.1, ease: 'power2.out', immediateRender: false, onUpdate: () => { sv.textContent = fmt(o.v); } }, s.t + 0.35); window.sfx.push({ t: s.t + 0.35, kind: 'roll', vol: 0.05 }); }
+    (s.opts || []).forEach((o, k) => { const t = o.t ?? s.t + 0.6 + k * 0.6; tl.fromTo(el.querySelectorAll('.opt')[k], { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, ease: 'power3.out', immediateRender: false }, t); window.sfx.push({ t, kind: 'whoosh', vol: 0.06 }); });
+    const r = el.querySelector('.res'); if (r) { const t = s.resultT ?? s.t + 1.4; tl.fromTo(r, { scale: 1.8, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.18, ease: 'power4.in', immediateRender: false }, t); window.sfx.push({ t: t + 0.15, kind: 'thud', vol: 0.1 }); }
+    window.sfx.push({ t: s.t, kind: 'whoosh', vol: 0.07 });
+  },
   stage: (tl, el, s) => {
     tl.fromTo(el.querySelector('.sc'), { scale: 0.72, y: 90, opacity: 0 }, { scale: 1, y: 0, opacity: 1, duration: 0.42, ease: 'back.out(1.7)', immediateRender: false }, s.t)
       .fromTo(el.querySelector('.when'), { scale: 2.4, rotation: -8, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.2, ease: 'power4.in', immediateRender: false }, s.t + 0.22)
@@ -525,7 +555,7 @@ window.renderPost = (data) => {
     ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;${k.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>` : '').join('')}
     <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
     ${data.rail ? `<div class="rail" id="rail" style="--ra:${data.rail.accent || '#F26B1D'}"><div class="lane glass"><div class="track" id="rtrack">${data.scenes.filter((s) => s.type === 'stage').map((s, k) => `<div class="it" id="ri${k}"><i></i>${esc(s.when)}</div>`).join('')}</div></div>${data.rail.meter ? `<div class="meter"><span>${esc(data.rail.meter)}</span><div class="bar"><div class="fill" id="rfill"></div></div><span id="rnum">0/100</span></div>` : ''}</div>` : ''}
-    <div class="caps">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
+    <div class="caps${data.capStyle === 'doc' ? ' doc' : ''}">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
     ${(data.stickers || []).map((k, i) => `<img class="sticker" id="k${i}" src="${esc(k.srcUrl)}" style="left:${k.x ?? 640}px;top:${Math.min(1500 - (k.h ?? 520), k.y ?? 1180)}px;height:${k.h ?? 520}px">`).join('')}
     ${(data.pops || []).map((p, i) => `<div class="pop ${p.kind}${p.bare ? ' bare' : ''}" id="p${i}" style="left:${Math.min(940 - (p.w ?? 200), Math.max(60, p.x))}px;top:${Math.min(1500 - (p.kind === 'text' ? 80 : p.w ?? 200), Math.max(230, p.y))}px;width:${p.w ?? 200}px;${p.kind === 'logo' ? `height:${p.w ?? 200}px;background:${p.b.tile};` : ''}${p.kind === 'burst' ? `height:${p.w ?? 200}px;--bs:${p.size ?? 44}px;` : ''}${p.kind === 'text' ? `--bs:${p.size ?? 64}px;` : ''}">${p.kind === 'logo' ? `<img src="${p.b.logoUrl}">` : p.kind === 'sprite' ? `<img src="${p.srcUrl}">` : p.kind === 'burst' ? `${burst(p.color || '#FFE066')}<span>${esc(p.text).replace(/\n/g, '<br>')}</span>` : esc(p.text)}</div>`).join('')}
     ${data.hook ? `<div class="hook" id="hook">
@@ -625,7 +655,7 @@ window.renderPost = (data) => {
       tl.set('#cv .mark', { opacity: c.layout === 'full' ? 0 : 1 }, c.t);
       tl.set(face, { attr: { class: `face ${c.layout}${isCut ? ' cut' : ''}` }, opacity: c.layout === 'none' ? 0 : 1 }, c.t).set(vids, { scale: Math.min(c.zoom || 1, 1.15) }, c.t)
         .set(document.getElementById('scs'), { attr: { class: `scenes ${c.layout === 'split' ? 'split' : c.layout === 'full' ? 'full' : c.layout === 'corner' ? 'corner' : ''}` } }, c.t)
-        .set(document.querySelector('.caps'), { attr: { class: `caps${c.layout === 'split' ? ' seam' : c.layout === 'corner' ? ' above' : ''}` } }, c.t);
+        .set(document.querySelector('.caps'), { attr: { class: `caps${data.capStyle === 'doc' ? ' doc' : ''}${c.layout === 'split' ? ' seam' : c.layout === 'corner' ? ' above' : ''}` } }, c.t);
       if (i > 0) window.sfx.push({ t: c.t, kind: 'whoosh' });
       const lb = document.getElementById('flb' + i);
       if (lb && c.layout !== 'none') {

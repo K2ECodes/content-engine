@@ -132,7 +132,7 @@ Round 2 is already here: Anthropic just launched Claude Duet. Who takes the next
 #AI #OpenAI #Claude #Replit #technews
 ```
 
-## 8. @koredekola AI movie-trailer skit "Reply All"
+## 8. @koredekola AI movie-trailer skit "Reply All" (HOLD: being rebuilt so Korede actually looks like himself)
 Folder: `content/2026-W44/ig-personal-sat-2100-reply-all-trailer` · media: video.mp4 · keyword: AI
 
 ```
