@@ -49,8 +49,9 @@ const RULES = [
   { id: 'post-type-label', level: 'error', re: /\b(belief[\s-]shift|calm[\s-]playbooks?|operational[\s-]clarity|tools[\s-]vs\.?[\s-]systems)\b/gi,
     message: (m) => `internal post-type label "${m}". Never name the pillar or execution in copy or on media` },
   { id: 'exclamation', level: 'error', re: /!/g, message: () => 'exclamation mark' },
-  { id: 'percent', level: 'error', re: /%|\bper ?cent\b/gi,
-    message: () => 'percent in prose. Write "4 in 10", "40 in 100" or rephrase' },
+  // Korede 2026-10-24: percentages are fine ("10%"); "X in 100" reads stupid
+  { id: 'in-100', level: 'warn', re: /\b\d+(?:\.\d+)?\s+in\s+100\b/gi,
+    message: () => 'prefer a percentage ("40%"); keep "X in Y" only when it reads naturally ("1 in 4", "9 out of 10")' },
   ...STYLE.bannedPhrases.map(({ phrase, suggest }) => ({
     id: 'banned', level: 'error',
     re: new RegExp(`\\b${phrase.split(/[-\s]+/).map(escapeRe).join('[-\\s]+')}\\b`, 'gi'),

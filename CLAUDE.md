@@ -80,7 +80,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 ## House style (all LINT, errors unless noted)
 - Zero em dashes and zero en dashes. Use commas, periods, "to" or a middot.
-- No exclamation marks. No percent signs in prose (write "40 in 100", "4 in 10" or rephrase).
+- No exclamation marks. Write percentages as "40%" (Korede, 2026-10-24: never "40%", it reads stupid). In TTS say fields write "40 percent".
 - Banned: "purpose-led", "human-first", "responsible AI", "second brain" (say "company brain"), "AI consulting firm", "AI agency".
 - Always "Content Systems.ai" (lowercase ".ai"). The bare domain contentsystems.ai is fine in links.
 - Numerals over spelled-out numbers (warning for "one", error for the rest).
@@ -90,9 +90,9 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 ## Proof bank (from contentsystems.ai/case-studies, anonymised)
 Use only these numbers unless Korede supplies more. Never invent results.
-- An e-commerce D2C apparel brand we work with, based out of Berlin: 72 in 100 support tickets handled autonomously across 4 languages, 1 in 4 cancellation attempts retained, €180K annual revenue recovered, paid for itself in Q1. Stack: Shopify Plus, Gorgias.
-- A wellness practice we work with near Boston, 5 locations: 28 hours a week reclaimed per location, $340K a year in admin cost, no-shows from 23 to 12 in 100, 2 new locations with 0 admin hires.
-- A psychiatry practice we work with in Middlesex County, NJ: 40 in 100 more patient capacity with 0 clinical hires, wait time 8 weeks to 4, 92 in 100 insurance verifications autonomous, $480K added annual revenue.
+- An e-commerce D2C apparel brand we work with, based out of Berlin: 72% support tickets handled autonomously across 4 languages, 1 in 4 cancellation attempts retained, €180K annual revenue recovered, paid for itself in Q1. Stack: Shopify Plus, Gorgias.
+- A wellness practice we work with near Boston, 5 locations: 28 hours a week reclaimed per location, $340K a year in admin cost, no-shows from 23% to 12%, 2 new locations with 0 admin hires.
+- A psychiatry practice we work with in Middlesex County, NJ: 40% more patient capacity with 0 clinical hires, wait time 8 weeks to 4, 92% insurance verifications autonomous, $480K added annual revenue.
 - A 4-agent real estate team we work with in Austin: lead response from 4 hours to 3 minutes, close rate 3.2x, $14.7M added GCI in year 1, 0 agents hired.
 - Our own company runs on 100+ AI employees (lead response, onboarding, follow-ups, scheduling). Fair game for founder stories, but never say or show that our content, reels or ads are made with AI (Korede, 2026-10-24): no "these reels came out of that system", no clips of our reels as proof.
 - Logistics angles from contentsystems.ai/logistics (unbilled storage and accessorial fees, month-end billing, WISMO, RFQ speed, receiving by email) and /ecommerce (3PL invoice overcharges, carrier surcharges, stockouts, returns) are positioning, not client results.
