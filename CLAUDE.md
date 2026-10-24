@@ -60,6 +60,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Never name the skill/tool on the cover or in the caption's first 3 lines (Korede, 2026-10-24)**: say "this skill" / "these 3 skills" and make people swipe for the names; no slash-names in captions at all. No cringe meme captions like "Grr Mondays".
 
+- **@koredekola + Korede's LinkedIn focus (Korede, 2026-10-24)**: freebies, open source tools/repos, reverse-engineering (how X built Y, breaking down a viral app/ad/prompt), trending AI and tech news, skills, hot takes, day in the life. Every week mixes all of these, and videos rotate styles (talking head + B-roll, stop-motion, cinema, pixel worlds, logo battles, AI-slop skits/swaps, screen-recording breakdowns, day-in-the-life vlog cuts) and characters (pixel cast, brand-logo characters, robots, Korede). Every new rule in this file applies to every video and post, old and new, on its next render.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.
