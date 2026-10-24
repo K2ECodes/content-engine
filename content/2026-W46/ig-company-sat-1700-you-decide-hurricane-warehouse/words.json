@@ -1,0 +1,410 @@
+{
+ "words": [
+  {
+   "w": "You",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "run",
+   "start": 0.36,
+   "end": 0.48
+  },
+  {
+   "w": "a",
+   "start": 0.48,
+   "end": 0.58
+  },
+  {
+   "w": "warehouse",
+   "start": 0.58,
+   "end": 0.82
+  },
+  {
+   "w": "in",
+   "start": 0.82,
+   "end": 1.04
+  },
+  {
+   "w": "Tampa.",
+   "start": 1.04,
+   "end": 1.26
+  },
+  {
+   "w": "A",
+   "start": 1.76,
+   "end": 1.82
+  },
+  {
+   "w": "hurricane",
+   "start": 1.82,
+   "end": 2.04
+  },
+  {
+   "w": "watch",
+   "start": 2.04,
+   "end": 2.38
+  },
+  {
+   "w": "just",
+   "start": 2.38,
+   "end": 2.58
+  },
+  {
+   "w": "went",
+   "start": 2.58,
+   "end": 2.74
+  },
+  {
+   "w": "up.",
+   "start": 2.74,
+   "end": 2.9
+  },
+  {
+   "w": "Forecasters",
+   "start": 3.36,
+   "end": 3.8
+  },
+  {
+   "w": "issue",
+   "start": 3.8,
+   "end": 4.06
+  },
+  {
+   "w": "those",
+   "start": 4.06,
+   "end": 4.26
+  },
+  {
+   "w": "about",
+   "start": 4.26,
+   "end": 4.48
+  },
+  {
+   "w": "48",
+   "start": 4.48,
+   "end": 4.9
+  },
+  {
+   "w": "hours",
+   "start": 4.9,
+   "end": 5.16
+  },
+  {
+   "w": "before",
+   "start": 5.16,
+   "end": 5.42
+  },
+  {
+   "w": "tropical",
+   "start": 5.42,
+   "end": 5.76
+  },
+  {
+   "w": "storm",
+   "start": 5.76,
+   "end": 6.1
+  },
+  {
+   "w": "winds",
+   "start": 6.1,
+   "end": 6.3
+  },
+  {
+   "w": "arrive.",
+   "start": 6.3,
+   "end": 6.62
+  },
+  {
+   "w": "You",
+   "start": 7.2,
+   "end": 7.26
+  },
+  {
+   "w": "have",
+   "start": 7.26,
+   "end": 7.38
+  },
+  {
+   "w": "3,000",
+   "start": 7.38,
+   "end": 7.9
+  },
+  {
+   "w": "orders",
+   "start": 7.9,
+   "end": 8.16
+  },
+  {
+   "w": "waiting",
+   "start": 8.16,
+   "end": 8.42
+  },
+  {
+   "w": "to",
+   "start": 8.42,
+   "end": 8.6
+  },
+  {
+   "w": "ship.",
+   "start": 8.6,
+   "end": 8.8
+  },
+  {
+   "w": "You",
+   "start": 9.26,
+   "end": 9.34
+  },
+  {
+   "w": "get",
+   "start": 9.34,
+   "end": 9.48
+  },
+  {
+   "w": "1",
+   "start": 9.48,
+   "end": 9.72
+  },
+  {
+   "w": "move.",
+   "start": 9.72,
+   "end": 10.0
+  },
+  {
+   "w": "Option",
+   "start": 10.58,
+   "end": 10.78
+  },
+  {
+   "w": "A.",
+   "start": 10.78,
+   "end": 11.02
+  },
+  {
+   "w": "Run",
+   "start": 11.46,
+   "end": 11.66
+  },
+  {
+   "w": "every",
+   "start": 11.66,
+   "end": 11.94
+  },
+  {
+   "w": "shift",
+   "start": 11.94,
+   "end": 12.2
+  },
+  {
+   "w": "and",
+   "start": 12.2,
+   "end": 12.38
+  },
+  {
+   "w": "ship",
+   "start": 12.38,
+   "end": 12.52
+  },
+  {
+   "w": "as",
+   "start": 12.52,
+   "end": 12.66
+  },
+  {
+   "w": "many",
+   "start": 12.66,
+   "end": 12.86
+  },
+  {
+   "w": "orders",
+   "start": 12.86,
+   "end": 13.1
+  },
+  {
+   "w": "as",
+   "start": 13.1,
+   "end": 13.26
+  },
+  {
+   "w": "you",
+   "start": 13.26,
+   "end": 13.36
+  },
+  {
+   "w": "can",
+   "start": 13.36,
+   "end": 13.56
+  },
+  {
+   "w": "before",
+   "start": 13.56,
+   "end": 13.78
+  },
+  {
+   "w": "the",
+   "start": 13.78,
+   "end": 13.98
+  },
+  {
+   "w": "storm.",
+   "start": 13.98,
+   "end": 14.22
+  },
+  {
+   "w": "Option",
+   "start": 14.56,
+   "end": 14.84
+  },
+  {
+   "w": "B.",
+   "start": 14.84,
+   "end": 15.1
+  },
+  {
+   "w": "Stop",
+   "start": 15.5,
+   "end": 15.7
+  },
+  {
+   "w": "shipping",
+   "start": 15.7,
+   "end": 15.92
+  },
+  {
+   "w": "now,",
+   "start": 15.92,
+   "end": 16.22
+  },
+  {
+   "w": "move",
+   "start": 16.58,
+   "end": 16.7
+  },
+  {
+   "w": "stock",
+   "start": 16.7,
+   "end": 16.92
+  },
+  {
+   "w": "off",
+   "start": 16.92,
+   "end": 17.1
+  },
+  {
+   "w": "the",
+   "start": 17.1,
+   "end": 17.2
+  },
+  {
+   "w": "floor,",
+   "start": 17.2,
+   "end": 17.44
+  },
+  {
+   "w": "and",
+   "start": 17.74,
+   "end": 17.8
+  },
+  {
+   "w": "send",
+   "start": 17.8,
+   "end": 17.94
+  },
+  {
+   "w": "your",
+   "start": 17.94,
+   "end": 18.06
+  },
+  {
+   "w": "people",
+   "start": 18.06,
+   "end": 18.28
+  },
+  {
+   "w": "home",
+   "start": 18.28,
+   "end": 18.48
+  },
+  {
+   "w": "to",
+   "start": 18.48,
+   "end": 18.62
+  },
+  {
+   "w": "prepare.",
+   "start": 18.62,
+   "end": 18.9
+  },
+  {
+   "w": "Comment",
+   "start": 19.3,
+   "end": 19.52
+  },
+  {
+   "w": "A",
+   "start": 19.52,
+   "end": 19.84
+  },
+  {
+   "w": "or",
+   "start": 19.84,
+   "end": 20.1
+  },
+  {
+   "w": "B.",
+   "start": 20.1,
+   "end": 20.32
+  },
+  {
+   "w": "Part",
+   "start": 20.62,
+   "end": 20.76
+  },
+  {
+   "w": "2",
+   "start": 20.76,
+   "end": 21.06
+  },
+  {
+   "w": "shows",
+   "start": 21.06,
+   "end": 21.32
+  },
+  {
+   "w": "what",
+   "start": 21.32,
+   "end": 21.54
+  },
+  {
+   "w": "the",
+   "start": 21.54,
+   "end": 21.64
+  },
+  {
+   "w": "storm",
+   "start": 21.64,
+   "end": 21.96
+  },
+  {
+   "w": "does",
+   "start": 21.96,
+   "end": 22.24
+  },
+  {
+   "w": "to",
+   "start": 22.24,
+   "end": 22.42
+  },
+  {
+   "w": "each",
+   "start": 22.42,
+   "end": 22.62
+  },
+  {
+   "w": "choice.",
+   "start": 22.62,
+   "end": 22.94
+  }
+ ],
+ "text": "You run a warehouse in Tampa. A hurricane watch just went up. Forecasters issue those about 48 hours before tropical storm winds arrive. You have 3,000 orders waiting to ship. You get one move. Option A. Run every shift and ship as many orders as you can before the storm. Option B. Stop shipping now, move stock off the floor, and send your people home to prepare. Comment A or B. Part 2 shows what the storm does to each choice."
+}

@@ -1,0 +1,305 @@
+{
+ "words": [
+  {
+   "w": "You",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "run",
+   "start": 0.36,
+   "end": 0.52
+  },
+  {
+   "w": "a",
+   "start": 0.52,
+   "end": 0.62
+  },
+  {
+   "w": "3PL.",
+   "start": 0.62,
+   "end": 1.1
+  },
+  {
+   "w": "It's",
+   "start": 1.52,
+   "end": 1.68
+  },
+  {
+   "w": "7",
+   "start": 1.68,
+   "end": 1.88
+  },
+  {
+   "w": "days",
+   "start": 1.88,
+   "end": 2.1
+  },
+  {
+   "w": "before",
+   "start": 2.1,
+   "end": 2.34
+  },
+  {
+   "w": "Black",
+   "start": 2.34,
+   "end": 2.62
+  },
+  {
+   "w": "Friday",
+   "start": 2.62,
+   "end": 2.96
+  },
+  {
+   "w": "and",
+   "start": 2.96,
+   "end": 3.4
+  },
+  {
+   "w": "orders",
+   "start": 3.4,
+   "end": 3.66
+  },
+  {
+   "w": "just",
+   "start": 3.66,
+   "end": 3.94
+  },
+  {
+   "w": "tripled.",
+   "start": 3.94,
+   "end": 4.32
+  },
+  {
+   "w": "Day",
+   "start": 4.62,
+   "end": 4.72
+  },
+  {
+   "w": "1.",
+   "start": 4.72,
+   "end": 5.0
+  },
+  {
+   "w": "You",
+   "start": 5.34,
+   "end": 5.36
+  },
+  {
+   "w": "get",
+   "start": 5.36,
+   "end": 5.5
+  },
+  {
+   "w": "1",
+   "start": 5.5,
+   "end": 5.72
+  },
+  {
+   "w": "move.",
+   "start": 5.72,
+   "end": 6.0
+  },
+  {
+   "w": "Option",
+   "start": 6.28,
+   "end": 6.62
+  },
+  {
+   "w": "A:",
+   "start": 6.62,
+   "end": 6.92
+  },
+  {
+   "w": "hire",
+   "start": 7.12,
+   "end": 7.3
+  },
+  {
+   "w": "20",
+   "start": 7.3,
+   "end": 7.66
+  },
+  {
+   "w": "temps",
+   "start": 7.66,
+   "end": 7.9
+  },
+  {
+   "w": "and",
+   "start": 7.9,
+   "end": 8.2
+  },
+  {
+   "w": "run",
+   "start": 8.2,
+   "end": 8.4
+  },
+  {
+   "w": "every",
+   "start": 8.4,
+   "end": 8.7
+  },
+  {
+   "w": "shift.",
+   "start": 8.7,
+   "end": 9.0
+  },
+  {
+   "w": "Option",
+   "start": 9.4,
+   "end": 9.64
+  },
+  {
+   "w": "B:",
+   "start": 9.64,
+   "end": 9.92
+  },
+  {
+   "w": "spend",
+   "start": 10.18,
+   "end": 10.4
+  },
+  {
+   "w": "the",
+   "start": 10.4,
+   "end": 10.58
+  },
+  {
+   "w": "day",
+   "start": 10.58,
+   "end": 10.72
+  },
+  {
+   "w": "fixing",
+   "start": 10.72,
+   "end": 11.02
+  },
+  {
+   "w": "billing",
+   "start": 11.02,
+   "end": 11.38
+  },
+  {
+   "w": "so",
+   "start": 11.38,
+   "end": 11.8
+  },
+  {
+   "w": "every",
+   "start": 11.8,
+   "end": 12.24
+  },
+  {
+   "w": "extra",
+   "start": 12.24,
+   "end": 12.56
+  },
+  {
+   "w": "job",
+   "start": 12.56,
+   "end": 12.94
+  },
+  {
+   "w": "actually",
+   "start": 12.94,
+   "end": 13.38
+  },
+  {
+   "w": "gets",
+   "start": 13.38,
+   "end": 13.6
+  },
+  {
+   "w": "charged.",
+   "start": 13.6,
+   "end": 13.94
+  },
+  {
+   "w": "Comment",
+   "start": 14.28,
+   "end": 14.58
+  },
+  {
+   "w": "A",
+   "start": 14.58,
+   "end": 15.06
+  },
+  {
+   "w": "or",
+   "start": 15.06,
+   "end": 15.36
+  },
+  {
+   "w": "B.",
+   "start": 15.36,
+   "end": 15.6
+  },
+  {
+   "w": "The",
+   "start": 15.88,
+   "end": 15.92
+  },
+  {
+   "w": "most",
+   "start": 15.92,
+   "end": 16.08
+  },
+  {
+   "w": "comments",
+   "start": 16.08,
+   "end": 16.44
+  },
+  {
+   "w": "wins",
+   "start": 16.44,
+   "end": 16.8
+  },
+  {
+   "w": "and",
+   "start": 16.8,
+   "end": 17.18
+  },
+  {
+   "w": "we'll",
+   "start": 17.18,
+   "end": 17.36
+  },
+  {
+   "w": "show",
+   "start": 17.36,
+   "end": 17.54
+  },
+  {
+   "w": "you",
+   "start": 17.54,
+   "end": 17.66
+  },
+  {
+   "w": "what",
+   "start": 17.66,
+   "end": 17.78
+  },
+  {
+   "w": "happens",
+   "start": 17.78,
+   "end": 18.1
+  },
+  {
+   "w": "on",
+   "start": 18.1,
+   "end": 18.28
+  },
+  {
+   "w": "day",
+   "start": 18.28,
+   "end": 18.44
+  },
+  {
+   "w": "2.",
+   "start": 18.44,
+   "end": 18.68
+  }
+ ],
+ "text": "You run a 3PL. It's 7 days before Black Friday and orders just tripled. Day 1. You get one move. Option A, hire 20 temps and run every shift. Option B, spend the day fixing billing so every extra job actually gets charged. Comment A or B. The most comments wins and we'll show you what happens on day 2."
+}

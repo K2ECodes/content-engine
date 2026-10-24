@@ -1,0 +1,183 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "@koredekola",
+  "platform": "instagram",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#008751",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "What if everyone became",
+     "*10 in 100 Nigerian?*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "a timeline, from a Nigerian",
+     "y": 440
+    },
+    "tree": {
+     "up": true,
+     "many": [
+      {
+       "q": true,
+       "label": "Day 1"
+      },
+      {
+       "q": true,
+       "label": "Week 1"
+      },
+      {
+       "q": true,
+       "label": "Month 1"
+      },
+      {
+       "q": true,
+       "label": "Year 1"
+      }
+     ],
+     "manySize": 140,
+     "spread": 40,
+     "gap": 64,
+     "one": {
+      "q": true
+     },
+     "oneSize": 230,
+     "y": 640
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 80,
+      "h": 250
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Jollof at",
+     "*every lunch*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Day 1",
+     "emoji": "🍛",
+     "text": "Party rice becomes the default. Nobody asks why.",
+     "color": "#008751"
+    }
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "You greet",
+     "*the whole room*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Day 3",
+     "emoji": "🙋🏾",
+     "text": "Nobody walks in without a good morning. Elders get greeted first.",
+     "color": "#C2591F"
+    }
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Afrobeats on",
+     "*every playlist*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Week 1",
+     "emoji": "🎧",
+     "text": "Burna Boy, Tems and Rema at the top of every chart. Again.",
+     "color": "#008751"
+    }
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Everyone has",
+     "*a side hustle*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Week 2",
+     "emoji": "💼",
+     "text": "A main job, a small business and a plan for the third.",
+     "color": "#C2591F"
+    }
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Payments",
+     "*get fast*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Month 1",
+     "emoji": "💸",
+     "text": "Paystack was built in Lagos and bought by Stripe. Everyone wants that speed now.",
+     "color": "#008751"
+    }
+   },
+   {
+    "world": "paper",
+    "accent": "#008751",
+    "headline": [
+     "No",
+     "*wahala*"
+    ],
+    "underline": false,
+    "card": {
+     "y": 420,
+     "kind": "stage",
+     "when": "Year 1",
+     "emoji": "😌",
+     "text": "The official answer to every problem. Then you go and fix it.",
+     "color": "#C2591F"
+    }
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want my",
+     "*5 free AI skills?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "AI",
+     "y": 300,
+     "line": "No wahala, I'll DM you"
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 120,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 720,
+      "h": 240
+     }
+    ]
+   }
+  ]
+ }
+}

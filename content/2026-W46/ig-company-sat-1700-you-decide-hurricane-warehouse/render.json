@@ -1,0 +1,82 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "branded": true,
+  "keys": [
+   "48",
+   "3,000",
+   "A",
+   "B"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/orders.png",
+    "kicker": "Tampa, Florida",
+    "stage": "Your warehouse"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/sat.png",
+    "at": "hurricane",
+    "kicker": "Gulf of Mexico",
+    "stage": "Hurricane watch",
+    "stat": {
+     "label": "Issued before tropical storm winds",
+     "value": "48 hours",
+     "count": 48,
+     "source": "National Hurricane Center"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/orders.png",
+    "at": "have",
+    "kicker": "Loading dock · 6 PM",
+    "stage": "3,000 orders",
+    "result": "Waiting to ship",
+    "resultAt": "waiting"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/storm.png",
+    "at": "get",
+    "kicker": "Day 1 · your move",
+    "stage": "1 move",
+    "opts": [
+     {
+      "text": "Run every shift and ship before the storm",
+      "at": "Option"
+     },
+     {
+      "text": "Stop shipping, move stock up, send people home",
+      "at": "Option#2"
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/empty.png",
+    "at": "Comment",
+    "kicker": "Part 2 next",
+    "stage": "A or B?"
+   }
+  ]
+ }
+}

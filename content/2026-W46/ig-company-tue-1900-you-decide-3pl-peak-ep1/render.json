@@ -1,0 +1,117 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "tail": 2.0,
+  "branded": true,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.09
+  },
+  "keys": [
+   "tripled",
+   "A",
+   "B",
+   "billing"
+  ],
+  "coldOpen": {
+   "until": "Day",
+   "set": "warehouse",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "7 days to Black Friday.",
+      "*Orders just tripled.*"
+     ]
+    }
+   ],
+   "accent": [
+    "tripled."
+   ],
+   "actors": [
+    {
+     "thing": "box",
+     "limbs": true,
+     "x": 250
+    },
+    {
+     "thing": "box",
+     "limbs": true,
+     "x": 500
+    },
+    {
+     "thing": "box",
+     "limbs": true,
+     "x": 750
+    }
+   ],
+   "beats": [
+    {
+     "at": "run",
+     "actor": 0,
+     "do": "drop"
+    },
+    {
+     "at": "Black",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "orders",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "tripled.",
+     "actor": 1,
+     "do": "panic",
+     "say": "3x?"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "choice",
+    "level": "DAY 1 · PEAK WEEK",
+    "q": "You get *1 move.*",
+    "timer": true,
+    "a": {
+     "text": "Hire 20 temps and run every shift",
+     "emoji": "👷",
+     "at": "Option"
+    },
+    "b": {
+     "text": "Fix billing so every extra job gets charged",
+     "emoji": "🧾",
+     "at": "Option#2"
+    },
+    "voteAt": "Comment"
+   },
+   {
+    "at": "most",
+    "world": "dark",
+    "type": "word",
+    "text": "A or B?",
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 140,
+      "h": 300
+     },
+     {
+      "name": "korede-point",
+      "x": 620,
+      "h": 300
+     }
+    ]
+   }
+  ],
+  "badgeY": 1000,
+  "badgeH": 110
+ }
+}

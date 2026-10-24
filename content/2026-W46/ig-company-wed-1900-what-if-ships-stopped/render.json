@@ -1,0 +1,126 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "branded": true,
+  "keys": [
+   "80",
+   "$9.6",
+   "parts.",
+   "weeks"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/anchor.png",
+    "kicker": "A thought experiment",
+    "stage": "Every ship stops"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/anchor.png",
+    "at": "Around",
+    "kicker": "The world economy",
+    "stage": "30 days",
+    "stat": {
+     "label": "World trade by volume moved by sea",
+     "value": "80 in 100",
+     "count": 80,
+     "source": "UNCTAD · Review of Maritime Transport"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/anchor.png",
+    "at": "Day",
+    "dots": [
+     1,
+     4
+    ],
+    "kicker": "Outside every major port",
+    "stage": "Day 1",
+    "result": "Anchored",
+    "resultAt": "anchor"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/suez.png",
+    "at": "2021,",
+    "kicker": "Suez Canal · March 2021",
+    "stage": "6 days",
+    "stat": {
+     "label": "Goods held up per day",
+     "value": "$9.6 billion",
+     "source": "Lloyd's List"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/factory.png",
+    "at": "Week",
+    "dots": [
+     2,
+     4
+    ],
+    "kicker": "Factories",
+    "stage": "Week 1",
+    "result": "Out of parts",
+    "resultAt": "parts."
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/port.png",
+    "at": "Week#2",
+    "dots": [
+     3,
+     4
+    ],
+    "kicker": "Ports and trucks",
+    "stage": "Week 2",
+    "result": "Nothing to pick up",
+    "resultAt": "pick"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/store.png",
+    "at": "Month",
+    "dots": [
+     4,
+     4
+    ],
+    "kicker": "Store shelves",
+    "stage": "Month 1",
+    "result": "Prices climb",
+    "resultAt": "prices"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/manager.png",
+    "at": "How#2",
+    "kicker": "Your business",
+    "stage": "How many weeks?"
+   }
+  ]
+ }
+}

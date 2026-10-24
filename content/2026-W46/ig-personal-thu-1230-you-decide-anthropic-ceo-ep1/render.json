@@ -1,0 +1,113 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.6,
+  "tail": 1.8,
+  "keys": [
+   "CEO",
+   "0",
+   "400",
+   "A",
+   "B"
+  ],
+  "coldOpen": {
+   "until": "Day",
+   "set": "office",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "You wake up as",
+      "*the CEO of Anthropic*"
+     ]
+    }
+   ],
+   "accent": [
+    "Anthropic."
+   ],
+   "actors": [
+    {
+     "sprite": "korede-shrug",
+     "x": 300,
+     "scale": 2.0
+    },
+    {
+     "brand": "anthropic",
+     "props": [
+      "phone"
+     ],
+     "x": 720
+    }
+   ],
+   "beats": [
+    {
+     "at": "wake",
+     "actor": 0,
+     "do": "jump",
+     "say": "Wait, what?"
+    },
+    {
+     "at": "CEO",
+     "actor": 1,
+     "do": "wave"
+    },
+    {
+     "at": "400",
+     "actor": 1,
+     "do": "buzz"
+    },
+    {
+     "at": "messages.",
+     "actor": 0,
+     "do": "panic"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "choice",
+    "level": "DAY 1 · LEVEL 1",
+    "q": "You get *1 decision.*",
+    "fine": "A game. Not real news.",
+    "timer": true,
+    "a": {
+     "text": "Ship a new Claude feature tonight",
+     "emoji": "🚀",
+     "at": "Option"
+    },
+    "b": {
+     "text": "Let Claude run the company for 24 hours",
+     "emoji": "🤖",
+     "at": "Option#2"
+    },
+    "voteAt": "Comment"
+   },
+   {
+    "at": "most",
+    "world": "dark",
+    "type": "word",
+    "text": "A or B?"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "none"
+   },
+   {
+    "at": "Day",
+    "layout": "none"
+   },
+   {
+    "at": "most",
+    "layout": "split"
+   }
+  ]
+ }
+}

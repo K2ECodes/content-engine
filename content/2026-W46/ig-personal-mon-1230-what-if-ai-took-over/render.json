@@ -1,0 +1,174 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.6,
+  "tail": 1.6,
+  "keys": [
+   "empty",
+   "shopping",
+   "yes",
+   "10",
+   "first"
+  ],
+  "coldOpen": {
+   "until": "Here's",
+   "set": "sky",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "What if AI",
+      "*took over tomorrow?*"
+     ]
+    }
+   ],
+   "accent": [
+    "tomorrow?"
+   ],
+   "actors": [
+    {
+     "thing": "bot",
+     "color": "#E8B84B",
+     "x": 260
+    },
+    {
+     "thing": "bot",
+     "color": "#9CCAA0",
+     "x": 520
+    },
+    {
+     "sprite": "korede-shrug",
+     "x": 820,
+     "scale": 2.0
+    }
+   ],
+   "beats": [
+    {
+     "at": "What",
+     "actor": 0,
+     "do": "drop"
+    },
+    {
+     "at": "AI",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "over",
+     "actor": 2,
+     "do": "panic",
+     "say": "Wait."
+    },
+    {
+     "at": "world",
+     "actor": 0,
+     "do": "celebrate"
+    }
+   ]
+  },
+  "rail": {
+   "meter": "AI in charge",
+   "accent": "#F26B1D"
+  },
+  "scenes": [
+   {
+    "at": "Here's",
+    "world": "dark",
+    "type": "word",
+    "text": "The timeline"
+   },
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 1",
+    "title": "Your inbox is *empty*",
+    "sub": "For the first time ever.",
+    "meter": 8,
+    "emoji": "📭"
+   },
+   {
+    "at": "Day#2",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 2",
+    "title": "Meetings get *1 line*",
+    "sub": "Half of them get cancelled.",
+    "meter": 20,
+    "emoji": "📅"
+   },
+   {
+    "at": "Day#3",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 3",
+    "title": "AI does the *shopping*",
+    "sub": "Stores start building for the agents, not you.",
+    "meter": 38,
+    "emoji": "🛒",
+    "px": "neon"
+   },
+   {
+    "at": "Week",
+    "world": "dark",
+    "type": "stage",
+    "when": "Week 2",
+    "title": "It asks *before it spends*",
+    "sub": "Most people say yes without reading.",
+    "meter": 52,
+    "emoji": "✋"
+   },
+   {
+    "at": "Month",
+    "world": "dark",
+    "type": "stage",
+    "when": "Month 1",
+    "title": "10 AI *employees*",
+    "sub": "For people who wrote their work down.",
+    "meter": 74,
+    "sprite": "robot",
+    "accent": "#0B6E4F"
+   },
+   {
+    "at": "Year",
+    "world": "dark",
+    "type": "stage",
+    "when": "Year 1",
+    "title": "It didn't take *your job*",
+    "sub": "The person who set it up first did.",
+    "meter": 90,
+    "emoji": "🏆"
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "none"
+   },
+   {
+    "at": "Here's",
+    "layout": "split"
+   },
+   {
+    "at": "Day",
+    "layout": "none"
+   },
+   {
+    "at": "Want",
+    "layout": "split"
+   }
+  ]
+ }
+}

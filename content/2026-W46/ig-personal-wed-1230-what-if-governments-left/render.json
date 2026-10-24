@@ -1,0 +1,168 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.6,
+  "tail": 1.6,
+  "keys": [
+   "wild",
+   "code",
+   "systems",
+   "approval"
+  ],
+  "coldOpen": {
+   "until": "never",
+   "set": "office",
+   "font": "editorial",
+   "titles": [
+    {
+     "text": [
+      "What if every government",
+      "*left tomorrow?*"
+     ]
+    }
+   ],
+   "accent": [
+    "tomorrow"
+   ],
+   "actors": [
+    {
+     "thing": "sign",
+     "text": "GONE",
+     "x": 300
+    },
+    {
+     "thing": "crowd",
+     "n": 4,
+     "x": 660
+    }
+   ],
+   "beats": [
+    {
+     "at": "every",
+     "actor": 0,
+     "do": "drop"
+    },
+    {
+     "at": "left",
+     "actor": 1,
+     "do": "panic"
+    },
+    {
+     "at": "never",
+     "actor": 1,
+     "do": "shake",
+     "say": "Now what?"
+    }
+   ]
+  },
+  "rail": {
+   "meter": "Order restored",
+   "accent": "#0B6E4F"
+  },
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "word",
+    "text": "The timeline"
+   },
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 1",
+    "title": "Group chats go *wild*",
+    "sub": "No new laws. No new taxes.",
+    "meter": 6,
+    "emoji": "💬"
+   },
+   {
+    "at": "Day#2",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 2",
+    "title": "The lights *still work*",
+    "sub": "Somebody's code is running them.",
+    "meter": 15,
+    "emoji": "🚦"
+   },
+   {
+    "at": "Day#3",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 3",
+    "title": "Neighbours *organise*",
+    "sub": "Group chats become the first councils.",
+    "meter": 28,
+    "emoji": "🏘️",
+    "px": "day"
+   },
+   {
+    "at": "Week",
+    "world": "dark",
+    "type": "stage",
+    "when": "Week 2",
+    "title": "Trash *piles up*",
+    "sub": "Every city finds out who kept things running.",
+    "meter": 36,
+    "emoji": "🗑️"
+   },
+   {
+    "at": "Month",
+    "world": "dark",
+    "type": "stage",
+    "when": "Month 1",
+    "title": "Systems keep *paying people*",
+    "sub": "The ones on 1 person's memory stop.",
+    "meter": 62,
+    "emoji": "💼",
+    "accent": "#E8A80C"
+   },
+   {
+    "at": "Year",
+    "world": "dark",
+    "type": "stage",
+    "when": "Year 1",
+    "title": "Group chats *with rules*",
+    "sub": "And an approval step.",
+    "meter": 86,
+    "emoji": "📜"
+   },
+   {
+    "at": "beat",
+    "world": "dark",
+    "type": "word",
+    "text": "Systems beat titles"
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "none"
+   },
+   {
+    "at": "never",
+    "layout": "split"
+   },
+   {
+    "at": "Day",
+    "layout": "none"
+   },
+   {
+    "at": "beat",
+    "layout": "split"
+   }
+  ]
+ }
+}

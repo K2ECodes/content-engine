@@ -1,0 +1,153 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.4,
+  "keys": [
+   "14",
+   "99",
+   "paper.",
+   "passwords."
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/cable.png",
+    "kicker": "A thought experiment",
+    "stage": "Internet: off"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/card.png",
+    "at": "Hour",
+    "dots": [
+     1,
+     5
+    ],
+    "kicker": "Coffee shop · 8:01 AM",
+    "stage": "Hour 1",
+    "stat": {
+     "label": "US payments made in cash",
+     "value": "14 in 100",
+     "count": 14,
+     "source": "Federal Reserve · 2025 Diary"
+    },
+    "result": "Card declined",
+    "resultAt": "stops"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/cable.png",
+    "at": "Day",
+    "dots": [
+     2,
+     5
+    ],
+    "kicker": "The sea floor",
+    "stage": "Day 1",
+    "stat": {
+     "label": "Data between continents on cables",
+     "value": "99 in 100",
+     "count": 99,
+     "source": "TeleGeography"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/paper.png",
+    "at": "banks,",
+    "dots": [
+     2,
+     5
+    ],
+    "kicker": "Banks · airlines · hospitals",
+    "stage": "Day 1",
+    "result": "Back to paper",
+    "resultAt": "paper."
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/shelves.png",
+    "at": "Day#2",
+    "dots": [
+     3,
+     5
+    ],
+    "kicker": "Your grocery store",
+    "stage": "Day 3",
+    "result": "Orders by phone",
+    "resultAt": "phone"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/radio.png",
+    "at": "Week",
+    "dots": [
+     4,
+     5
+    ],
+    "kicker": "Your street",
+    "stage": "Week 2",
+    "result": "Radio is the news",
+    "resultAt": "radio"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/login.png",
+    "at": "Day#3",
+    "dots": [
+     5,
+     5
+    ],
+    "kicker": "Your desk",
+    "stage": "Day 30",
+    "result": "Forgot password",
+    "resultAt": "passwords."
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/radio.png",
+    "at": "Would",
+    "kicker": "Part 2 next",
+    "stage": "Would you last?"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "split"
+   },
+   {
+    "at": "Hour",
+    "layout": "none"
+   },
+   {
+    "at": "Would",
+    "layout": "split"
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "face": {
+   "src": "plate.mp4"
+  },
+  "sfxGain": 1.4,
+  "keys": [
+   "$4,000",
+   "$50.",
+   "$500.",
+   "all"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/alert.png",
+    "kicker": "9:00 AM · your phone",
+    "stage": "-$4,000",
+    "result": "You never asked for this",
+    "resultAt": "never"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/phone.png",
+    "at": "It's",
+    "kicker": "Your kitchen",
+    "stage": "9 AM",
+    "result": "What first?",
+    "resultAt": "first?"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/call.png",
+    "at": "Here's",
+    "dots": [
+     1,
+     3
+    ],
+    "kicker": "US rules · Regulation E",
+    "stage": "Within 2 days",
+    "stat": {
+     "label": "The most you can lose",
+     "value": "$50",
+     "count": 50,
+     "source": "CFPB · 12 CFR 1005.6"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/call.png",
+    "at": "Wait",
+    "dots": [
+     2,
+     3
+    ],
+    "kicker": "US rules · Regulation E",
+    "stage": "After 2 days",
+    "stat": {
+     "label": "The most you can lose",
+     "value": "$500",
+     "count": 500,
+     "source": "CFPB · 12 CFR 1005.6"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/laptop.png",
+    "at": "Wait#2",
+    "dots": [
+     3,
+     3
+    ],
+    "kicker": "60 days after your statement",
+    "stage": "After 60 days",
+    "stat": {
+     "label": "The most you can lose",
+     "value": "All of it",
+     "source": "CFPB · 12 CFR 1005.6"
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/phone.png",
+    "at": "So",
+    "kicker": "Day 1 · your move",
+    "stage": "1 move",
+    "opts": [
+     {
+      "text": "Call your bank now and report it",
+      "at": "Option"
+     },
+     {
+      "text": "Ask the store for a refund first",
+      "at": "Option#2"
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/alert.png",
+    "at": "Comment",
+    "kicker": "Part 2 next",
+    "stage": "A or B?"
+   }
+  ],
+  "faceCuts": [
+   {
+    "layout": "split"
+   },
+   {
+    "at": "It's",
+    "layout": "none"
+   },
+   {
+    "at": "Comment",
+    "layout": "split"
+   }
+  ]
+ }
+}
