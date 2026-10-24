@@ -7,7 +7,7 @@ Shoppers trust a bot more when it can do that.
 
 In a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists.
 
-Without one, 26.
+Without one, 26%.
 
 Before Black Friday, make sure your bot hands off on:
 

@@ -3,7 +3,7 @@
 // zoom + reframe, colour grade, speed (pitch kept), start trim, audio level + optional opening SFX hit, hook line on screen
 // for the first ~2.2 s (from <post>/trials.json hooks), cover frame. Never mirrors (our videos carry text and faces).
 //   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330] [--out content/_tiktok/<post-id>]
-// <post>/trials.json (optional): { "hooks": [...], "captions": [...], "hookY": 300, "noHook": false }
+// <post>/trials.json (optional): { "hooks": [...], "captions": [...], "hookY": 300, "noHook": false, "reframeX": 0, "maxZoom": 1.06 }
 // Writes content/_trials/<post-id>/vNN.mp4 + manifest.json (kept out of the main post folder).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -63,7 +63,7 @@ const manifest = { post: path.relative(ROOT, post), source: 'video.mp4', duratio
 for (let i = 1; i <= N; i++) {
   const r = rng(POST_SEED + i * 104729); r(); r(); r();
   const id = `v${String(i).padStart(2, '0')}`;
-  const z = between(r, 1.03, 1.08), ox = between(r, 0, 1), oy = between(r, 0.15, 0.85);
+  const z = between(r, 1.03, cfg.maxZoom ?? 1.08), oxr = between(r, 0, 1), ox = cfg.reframeX ?? oxr, oy = between(r, 0.15, 0.85);   // reframeX 0 keeps left-aligned titles uncut
   const grade = GRADES[(i - 1 + POST_SEED) % GRADES.length];   // consecutive variants never share a grade
   const speed = SPEEDS[(i - 1 + POST_SEED) % SPEEDS.length];
   const trim = Number(between(r, 0.1, 0.4).toFixed(2));
