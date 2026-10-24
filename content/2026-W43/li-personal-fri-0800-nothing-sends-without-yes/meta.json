@@ -9,7 +9,7 @@
   "cta_keyword": "WORKSHOP",
   "slot": "2026-10-23T08:00",
   "timezone": "America/New_York",
-  "status": "draft",
+  "status": "published",
   "topic": "approval-gates-claude-duet",
   "media": [
     "slide-01.png",
@@ -18,5 +18,6 @@
     "slide-04.png",
     "slide-05.png",
     "slide-06.png"
-  ]
+  ],
+  "published_at": "2026-10-23"
 }

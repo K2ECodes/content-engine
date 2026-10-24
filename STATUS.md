@@ -1,3 +1,8 @@
+## Posting (updated 2026-10-24)
+- Posting is manual for now (Schedchie not connected). Slots in meta.json are a guide, not rigid.
+- Posted: W43 li-personal-fri-0800-nothing-sends-without-yes (Oct 23).
+- Today's picks: content/POST-TODAY.md (W43 leftovers + best Saturday carousels).
+
 # Status / handoff (updated 2026-10-23 ~13:00 Berlin)
 
 Read CLAUDE.md first (all Korede's rules are there). This file says what's done and what's left.
