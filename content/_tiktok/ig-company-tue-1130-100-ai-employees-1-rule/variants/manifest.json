@@ -1,0 +1,39 @@
+{
+ "post": "content/2026-W44/ig-company-tue-1130-100-ai-employees-1-rule",
+ "source": "video.mp4",
+ "duration": 37.733333,
+ "created": "2026-10-24T18:04:51.559Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-company-tue-1130-100-ai-employees-1-rule/variants/v01.mp4",
+   "hook": "We run on 100+ AI employees",
+   "caption": null,
+   "coverMs": 1981,
+   "changes": [
+    "hook \"We run on 100+ AI employees\"",
+    "zoom 1.047 reframe 0.07/0.47",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.24s",
+    "audio x1.04"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_tiktok/ig-company-tue-1130-100-ai-employees-1-rule/variants/v02.mp4",
+   "hook": "The 1 rule all our AI follows",
+   "caption": null,
+   "coverMs": 2490,
+   "changes": [
+    "hook \"The 1 rule all our AI follows\"",
+    "zoom 1.062 reframe 0.15/0.42",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.13s",
+    "audio x1.06"
+   ]
+  }
+ ]
+}

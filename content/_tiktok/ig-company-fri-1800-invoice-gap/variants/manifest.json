@@ -1,0 +1,39 @@
+{
+ "post": "content/2026-W43/ig-company-fri-1800-invoice-gap",
+ "source": "video.mp4",
+ "duration": 37.833333,
+ "created": "2026-10-24T18:01:26.303Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_tiktok/ig-company-fri-1800-invoice-gap/variants/v01.mp4",
+   "hook": "Your 3PL did the work. Did you bill it?",
+   "caption": null,
+   "coverMs": 2162,
+   "changes": [
+    "hook \"Your 3PL did the work. Did you bill it?\"",
+    "zoom 1.049 reframe 0.76/0.20",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.16s",
+    "audio x0.93"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_tiktok/ig-company-fri-1800-invoice-gap/variants/v02.mp4",
+   "hook": "3 places unbilled work hides",
+   "caption": null,
+   "coverMs": 3187,
+   "changes": [
+    "hook \"3 places unbilled work hides\"",
+    "zoom 1.044 reframe 0.37/0.59",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.33s",
+    "audio x0.89 + chime-1.wav"
+   ]
+  }
+ ]
+}

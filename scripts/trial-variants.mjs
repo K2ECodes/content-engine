@@ -2,7 +2,7 @@
 // Trial-reel variants of a finished reel (research/trial-reels.md). Each variant changes 3+ elements, chosen by seed:
 // zoom + reframe, colour grade, speed (pitch kept), start trim, audio level + optional opening SFX hit, hook line on screen
 // for the first ~2.2 s (from <post>/trials.json hooks), cover frame. Never mirrors (our videos carry text and faces).
-//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330]
+//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330] [--out content/_tiktok/<post-id>]
 // <post>/trials.json (optional): { "hooks": [...], "captions": [...], "hookY": 300, "noHook": false }
 // Writes content/_trials/<post-id>/vNN.mp4 + manifest.json (kept out of the main post folder).
 import fs from 'node:fs';
@@ -19,7 +19,7 @@ if (!fs.existsSync(src)) { console.error(`no video.mp4 in ${post}`); process.exi
 const cfg = fs.existsSync(path.join(post, 'trials.json')) ? JSON.parse(fs.readFileSync(path.join(post, 'trials.json'), 'utf8')) : {};
 const hooks = cfg.noHook ? [] : (cfg.hooks || []);
 const HOOK_Y = Number(arg('hookY', cfg.hookY ?? 1330));   // per post: place the hook pill where the video has no text of its own
-const out = path.join(ROOT, 'content/_trials', path.basename(path.resolve(post)));   // trial variants live apart from main posts (Korede: never post a trial as a main)
+const out = arg('out') ? path.resolve(ROOT, arg('out')) : path.join(ROOT, 'content/_trials', path.basename(path.resolve(post)));   // trial variants live apart from main posts (Korede: never post a trial as a main)
 fs.mkdirSync(out, { recursive: true });
 
 // small deterministic PRNG (mulberry32)
@@ -98,7 +98,7 @@ for (let i = 1; i <= N; i++) {
   if (res.status) { console.error(`ffmpeg failed on ${id}`); process.exit(1); }
   const changes = [`zoom ${z.toFixed(3)} reframe ${ox.toFixed(2)}/${oy.toFixed(2)}`, `grade ${grade.name}`, `speed ${speed}x`, `trim ${trim}s`, `audio x${vol}${sfx ? ` + ${path.basename(sfx)}` : ''}`];
   if (hook) changes.unshift(`hook "${hook}"`);
-  manifest.variants.push({ id, file: `content/_trials/${path.basename(path.resolve(post))}/${id}.mp4`, hook, caption, coverMs, changes });
+  manifest.variants.push({ id, file: path.relative(ROOT, file), hook, caption, coverMs, changes });
   console.log(`${id}: ${changes.join(' · ')}`);
 }
 if (browser) await browser.close();

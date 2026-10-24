@@ -14,5 +14,22 @@
   "media": [
     "video.mp4",
     "poster.png"
+  ],
+  "tiktok_scheduled": [
+    {
+      "variant": "v01",
+      "id": "6adcf7bd3c8ff42965c175ae",
+      "at": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "variant": "v02",
+      "id": "6adcf7cc3c8ff42965c175ef",
+      "at": "2026-10-31T00:00:00.000Z"
+    },
+    {
+      "variant": "main",
+      "id": "6adcf6a03c8ff42965c17252",
+      "at": "2026-10-25T00:00:00.000Z"
+    }
   ]
 }

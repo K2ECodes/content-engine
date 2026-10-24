@@ -14,5 +14,9 @@
   "media": [
     "video.mp4",
     "poster.png"
-  ]
+  ],
+  "linkedin_scheduled": {
+    "id": "6adcf95b3c8ff42965c17a22",
+    "at": "2026-10-27T12:00:00.000Z"
+  }
 }

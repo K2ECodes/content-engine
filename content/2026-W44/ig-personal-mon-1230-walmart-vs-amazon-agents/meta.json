@@ -14,5 +14,12 @@
   "media": [
     "video.mp4",
     "poster.png"
+  ],
+  "tiktok_scheduled": [
+    {
+      "variant": "main",
+      "id": "6adcf7353c8ff42965c1741a",
+      "at": "2026-10-26T15:00:00.000Z"
+    }
   ]
 }

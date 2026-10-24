@@ -20,5 +20,12 @@
     "slide-07.png",
     "slide-08.png",
     "slide-09.png"
+  ],
+  "tiktok_scheduled": [
+    {
+      "variant": "photo",
+      "id": "6adcf8fe3c8ff42965c17756",
+      "at": "2026-10-25T20:00:00.000Z"
+    }
   ]
 }
