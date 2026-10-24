@@ -353,3 +353,4 @@
 {"ts":"2026-10-24T14:51:39.333Z","model":"volcengine/video-to-video-lip-sync","taskId":"b0699621dd733b29047cb4980f69907a","state":"fail","credits":0,"usd":0,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
 {"ts":"2026-10-24T14:56:34.455Z","model":"volcengine/video-to-video-lip-sync","taskId":"171a1d0c44f99cf59d0758427c7522a0","state":"success","credits":24,"usd":0.12,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
 {"ts":"2026-10-24T15:15:30.178Z","model":"kling-4.0/reference-to-video","taskId":"ae45410cd66e4eacd13b5544bde69fd3","state":"success","credits":510,"usd":2.55,"label":"swap k4 depw v2 braids green"}
+{"ts":"2026-10-24T17:20:40.428Z","model":"nano-banana-2","taskId":"6ba7b718071b9d6e2a2ee3fea4ada8a3","state":"success","credits":12,"usd":0.06,"label":"jollof orange regen"}
