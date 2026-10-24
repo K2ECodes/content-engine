@@ -13,3 +13,5 @@ Realistic what-if video narrated by Korede over photoreal stills with a slow pus
 ## Notes
 Realistic format (top of funnel, no offer funnel): photoreal kie.ai nano-banana-2 stills with slow push-in, documentary HUD (stage, place, sourced stat, result tag), italic serif subtitles, calm narration. Modelled on simulif.world, binhle.co and stickitoutstories (research/ig-inspiration-2026-10-24.md).
 Sources: Federal Reserve 2025 Diary of Consumer Payment Choice, cash 14% of payments in 2024 (frbservices.org/news/research/2025-findings-from-the-diary-of-consumer-payment-choice). TeleGeography 2023 mythbusting: submarine cables carry over 99% of intercontinental data (resources.telegeography.com/2023-mythbusting-part-3). Day 3 to day 30 beats are plausible illustrations, not data claims. Face windows 0-2.8 and 31.1-34.3. Part 2 idea: what actually keeps working (radio, landlines, cash ATMs on backup power).
+
+- Re-voiced 2026-10-24 (same free HeyGen voice) so stats are said as percentages ("72 percent"), not "in a hundred"; tightened, re-transcribed, anchors re-checked. Old audio and words in audio/pre-percent/.

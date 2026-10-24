@@ -28,7 +28,7 @@
       "size": 90
      }
     ],
-    "blocksY": 300,
+    "blocksY": 80,
     "pay": {
      "text": "*2 free skills* fix it. Swipe.",
      "y": 1030,
@@ -49,8 +49,8 @@
     "bodyY": 430,
     "annY": 1050,
     "stat": {
-     "value": "58",
-     "label": "in 100 managers expect to oversee more AI helpers than people within a year."
+     "value": "58%",
+     "label": "of managers expect to oversee more AI helpers than people within a year."
     },
     "ann": [
      {
@@ -217,7 +217,7 @@
       "size": 76
      }
     ],
-    "blocksY": 300,
+    "blocksY": 80,
     "pay": {
      "text": "+ the owner sheet. *Free.*",
      "y": 1030,

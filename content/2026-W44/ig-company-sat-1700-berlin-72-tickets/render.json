@@ -23,18 +23,18 @@
     ],
     "tree": {
      "one": {
-      "text": "*100*"
+      "text": "Tickets"
      },
      "oneSize": 200,
      "gap": 56,
      "many": [
       {
        "sprite": "robot",
-       "label": "72"
+       "label": "72% AI"
       },
       {
        "q": true,
-       "label": "28"
+       "label": "28% ?"
       }
      ],
      "manySize": 150,

@@ -1,6 +1,6 @@
 # W45 trends (Nov 2 to Nov 8 2026)
 
-Researched Oct 24 2026. Nothing older than 14 days at research time. Percentages are written as "X in 100" for the house style.
+Researched Oct 24 2026. Nothing older than 14 days at research time. Percentages are written as "X%" (house style since 2026-10-24).
 
 ## 1. Banks block outside AI agents from customer accounts
 - Dates: Oct 13 (JPMorgan earnings call) to Oct 23 2026 (follow-up coverage).

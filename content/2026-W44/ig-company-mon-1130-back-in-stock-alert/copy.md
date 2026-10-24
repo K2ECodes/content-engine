@@ -27,3 +27,5 @@ Animated explainer that flips between dark green and cream. A TechCrunch headlin
 - Scene backgrounds (per-scene `bg`): bg/phone.png generated on kie.ai nano-banana-2, 9:16, 1K, $0.04 each (logs/kie-costs.jsonl, label "value-rewrite bg"). No text or logos in the images. bg/warehouse.png is reused from the W43 invoice-gap post (bg/shelves.png was dropped: too many colours).
 - Re-voiced 2026-10-23 with the corrected pronunciation ("Cunntent Systems dot A I", said CUHN-tent), same voice, re-tightened and re-timed. Rendered on the stop-motion story template (scene photos as taped polaroids, captions mid-frame).
 - Script pass 2026-10-23 (Korede's "Scripts" rule): smoother wording, CTA now "it's in our bio" / "comment SYSTEMS and we'll send it to you free" (LinkedIn: "it's in our profile"); re-voiced in the same voice, re-tightened, re-transcribed and re-anchored. Opening logo burst (tile and bare logos) plus word-timed bursts that act out key lines.
+
+- Re-voiced 2026-10-24 (same free HeyGen voice) so stats are said as percentages ("72 percent"), not "in a hundred"; tightened, re-transcribed, anchors re-checked. Old audio and words in audio/pre-percent/.

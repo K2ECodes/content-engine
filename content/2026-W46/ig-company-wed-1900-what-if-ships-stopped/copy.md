@@ -13,3 +13,5 @@ Realistic what-if video narrated by Sanjana over photoreal stills with a slow pu
 ## Notes
 Realistic format (top of funnel, no offer funnel): photoreal kie.ai nano-banana-2 stills with slow push-in, documentary HUD (stage, place, sourced stat, result tag), italic serif subtitles, calm narration. Modelled on simulif.world, binhle.co and stickitoutstories (research/ig-inspiration-2026-10-24.md).
 Sources: UNCTAD Review of Maritime Transport, around 80% of the volume of international goods trade is carried by sea (unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport). Lloyd's List via BBC, Ever Given blocked Suez 23 to 29 March 2021, about $9.6bn of goods a day ($5.1bn westbound, $4.5bn eastbound). Week 1 to month 1 beats are plausible illustrations. No offer funnel by design; question CTA only. Branded end badge only.
+
+- Re-voiced 2026-10-24 (same free HeyGen voice) so stats are said as percentages ("72 percent"), not "in a hundred"; tightened, re-transcribed, anchors re-checked. Old audio and words in audio/pre-percent/.

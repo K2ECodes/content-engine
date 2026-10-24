@@ -8,21 +8,21 @@
   {
    "w": "now",
    "start": 0.48,
-   "end": 0.76
+   "end": 0.74
   },
   {
    "w": "pings",
-   "start": 0.76,
+   "start": 0.74,
    "end": 1.14
   },
   {
    "w": "shoppers",
    "start": 1.14,
-   "end": 1.58
+   "end": 1.6
   },
   {
    "w": "the",
-   "start": 1.58,
+   "start": 1.6,
    "end": 1.82
   },
   {
@@ -33,16 +33,16 @@
   {
    "w": "your",
    "start": 2.14,
-   "end": 2.32
+   "end": 2.34
   },
   {
    "w": "product's",
-   "start": 2.32,
-   "end": 2.62
+   "start": 2.34,
+   "end": 2.66
   },
   {
    "w": "back",
-   "start": 2.62,
+   "start": 2.66,
    "end": 2.92
   },
   {
@@ -73,11 +73,11 @@
   {
    "w": "knows",
    "start": 3.96,
-   "end": 4.26
+   "end": 4.24
   },
   {
    "w": "what",
-   "start": 4.26,
+   "start": 4.24,
    "end": 4.42
   },
   {
@@ -102,7 +102,7 @@
   },
   {
    "w": "Here",
-   "start": 5.48,
+   "start": 5.46,
    "end": 5.6
   },
   {
@@ -118,11 +118,11 @@
   {
    "w": "checks",
    "start": 5.96,
-   "end": 6.28
+   "end": 6.26
   },
   {
    "w": "so",
-   "start": 6.48,
+   "start": 6.46,
    "end": 6.66
   },
   {
@@ -168,11 +168,11 @@
   {
    "w": "warehouse",
    "start": 9.34,
-   "end": 9.68
+   "end": 9.7
   },
   {
    "w": "count",
-   "start": 9.68,
+   "start": 9.7,
    "end": 10.04
   },
   {
@@ -193,12 +193,12 @@
   {
    "w": "count",
    "start": 10.56,
-   "end": 10.82
+   "end": 10.84
   },
   {
    "w": "today.",
-   "start": 10.82,
-   "end": 11.14
+   "start": 10.84,
+   "end": 11.12
   },
   {
    "w": "If",
@@ -227,7 +227,7 @@
   },
   {
    "w": "and",
-   "start": 12.84,
+   "start": 12.52,
    "end": 12.94
   },
   {
@@ -252,7 +252,7 @@
   },
   {
    "w": "Google",
-   "start": 14.22,
+   "start": 14.2,
    "end": 14.4
   },
   {
@@ -272,22 +272,22 @@
   },
   {
    "w": "and",
-   "start": 15.4,
-   "end": 15.52
+   "start": 15.2,
+   "end": 15.5
   },
   {
    "w": "the",
-   "start": 15.52,
+   "start": 15.5,
    "end": 15.62
   },
   {
    "w": "alert",
    "start": 15.62,
-   "end": 15.86
+   "end": 15.84
   },
   {
    "w": "never",
-   "start": 15.86,
+   "start": 15.84,
    "end": 16.2
   },
   {
@@ -333,21 +333,21 @@
   {
    "w": "syncs.",
    "start": 18.78,
-   "end": 19.1
+   "end": 19.08
   },
   {
    "w": "Once",
-   "start": 19.56,
+   "start": 19.54,
    "end": 19.78
   },
   {
    "w": "a",
    "start": 19.78,
-   "end": 19.96
+   "end": 19.94
   },
   {
    "w": "night",
-   "start": 19.96,
+   "start": 19.94,
    "end": 20.06
   },
   {
@@ -377,7 +377,7 @@
   },
   {
    "w": "Aim",
-   "start": 21.48,
+   "start": 21.46,
    "end": 21.66
   },
   {
@@ -402,7 +402,7 @@
   },
   {
    "w": "make",
-   "start": 23.24,
+   "start": 23.26,
    "end": 23.38
   },
   {
@@ -418,232 +418,227 @@
   {
    "w": "price",
    "start": 23.82,
-   "end": 24.12
+   "end": 24.16
   },
   {
    "w": "and",
-   "start": 24.12,
-   "end": 24.3
+   "start": 24.16,
+   "end": 24.36
   },
   {
    "w": "shipping",
-   "start": 24.3,
-   "end": 24.56
+   "start": 24.36,
+   "end": 24.62
   },
   {
    "w": "time",
-   "start": 24.56,
-   "end": 24.86
+   "start": 24.62,
+   "end": 24.96
   },
   {
    "w": "match",
-   "start": 24.86,
-   "end": 25.3
+   "start": 24.96,
+   "end": 25.36
   },
   {
    "w": "everywhere.",
-   "start": 25.3,
-   "end": 25.86
+   "start": 25.36,
+   "end": 25.84
   },
   {
-   "w": "16",
-   "start": 25.86,
-   "end": 26.76
+   "w": "16%",
+   "start": 26.4,
+   "end": 27.1
   },
   {
-   "w": "in",
-   "start": 26.76,
-   "end": 27.04
-  },
-  {
-   "w": "100",
-   "start": 27.04,
-   "end": 27.36
+   "w": "of",
+   "start": 27.1,
+   "end": 27.24
   },
   {
    "w": "shoppers",
-   "start": 27.36,
-   "end": 27.9
+   "start": 27.24,
+   "end": 27.66
   },
   {
    "w": "now",
-   "start": 27.9,
-   "end": 28.16
+   "start": 27.66,
+   "end": 27.86
   },
   {
    "w": "start",
-   "start": 28.16,
-   "end": 28.42
+   "start": 27.86,
+   "end": 28.08
   },
   {
    "w": "in",
-   "start": 28.42,
-   "end": 28.6
+   "start": 28.08,
+   "end": 28.26
   },
   {
    "w": "ChatGPT,",
-   "start": 28.6,
-   "end": 29.4
+   "start": 28.26,
+   "end": 29.08
   },
   {
    "w": "and",
-   "start": 29.56,
-   "end": 29.68
+   "start": 29.08,
+   "end": 29.54
   },
   {
    "w": "assistants",
-   "start": 29.68,
-   "end": 30.0
+   "start": 29.54,
+   "end": 29.86
   },
   {
    "w": "read",
-   "start": 30.0,
-   "end": 30.4
+   "start": 29.86,
+   "end": 30.32
   },
   {
    "w": "your",
-   "start": 30.4,
-   "end": 30.56
+   "start": 30.32,
+   "end": 30.54
   },
   {
    "w": "data,",
-   "start": 30.56,
-   "end": 30.84
+   "start": 30.54,
+   "end": 30.86
   },
   {
    "w": "not",
-   "start": 31.12,
-   "end": 31.32
+   "start": 31.04,
+   "end": 31.3
   },
   {
    "w": "your",
-   "start": 31.32,
-   "end": 31.5
+   "start": 31.3,
+   "end": 31.48
   },
   {
    "w": "homepage.",
-   "start": 31.5,
-   "end": 31.86
+   "start": 31.48,
+   "end": 32.0
   },
   {
    "w": "Keeping",
-   "start": 32.22,
-   "end": 32.5
+   "start": 32.16,
+   "end": 32.52
   },
   {
    "w": "all",
-   "start": 32.5,
-   "end": 32.8
+   "start": 32.52,
+   "end": 32.78
   },
   {
    "w": "that",
-   "start": 32.8,
-   "end": 32.98
+   "start": 32.78,
+   "end": 32.94
   },
   {
    "w": "in",
-   "start": 32.98,
-   "end": 33.12
+   "start": 32.94,
+   "end": 33.08
   },
   {
    "w": "sync",
-   "start": 33.12,
-   "end": 33.38
+   "start": 33.08,
+   "end": 33.28
   },
   {
    "w": "is",
-   "start": 33.38,
-   "end": 33.62
+   "start": 33.28,
+   "end": 33.46
   },
   {
    "w": "what",
-   "start": 33.62,
-   "end": 33.8
+   "start": 33.46,
+   "end": 33.62
   },
   {
    "w": "we",
-   "start": 33.8,
-   "end": 33.96
+   "start": 33.62,
+   "end": 33.76
   },
   {
    "w": "build",
-   "start": 33.96,
-   "end": 34.24
+   "start": 33.76,
+   "end": 34.02
   },
   {
    "w": "at",
-   "start": 34.24,
-   "end": 34.42
+   "start": 34.02,
+   "end": 34.14
   },
   {
    "w": "Content",
-   "start": 34.42,
-   "end": 35.22
+   "start": 34.14,
+   "end": 34.85
   },
   {
    "w": "Systems.ai.",
-   "start": 35.22,
-   "end": 36.02
+   "start": 34.85,
+   "end": 35.56
   },
   {
    "w": "Want",
+   "start": 36.0,
+   "end": 36.18
+  },
+  {
+   "w": "us",
+   "start": 36.18,
+   "end": 36.32
+  },
+  {
+   "w": "to",
+   "start": 36.32,
+   "end": 36.4
+  },
+  {
+   "w": "check",
    "start": 36.4,
    "end": 36.58
   },
   {
-   "w": "us",
-   "start": 36.58,
-   "end": 36.76
-  },
-  {
-   "w": "to",
-   "start": 36.76,
-   "end": 36.84
-  },
-  {
-   "w": "check",
-   "start": 36.84,
-   "end": 37.02
-  },
-  {
    "w": "your",
-   "start": 37.02,
-   "end": 37.16
+   "start": 36.58,
+   "end": 36.7
   },
   {
    "w": "store",
-   "start": 37.16,
-   "end": 37.36
+   "start": 36.7,
+   "end": 36.92
   },
   {
    "w": "for",
-   "start": 37.36,
-   "end": 37.54
+   "start": 36.92,
+   "end": 37.1
   },
   {
    "w": "free?",
-   "start": 37.54,
-   "end": 37.8
+   "start": 37.1,
+   "end": 37.36
   },
   {
    "w": "It's",
-   "start": 38.22,
-   "end": 38.42
+   "start": 37.74,
+   "end": 37.88
   },
   {
    "w": "in",
-   "start": 38.42,
-   "end": 38.5
+   "start": 37.88,
+   "end": 37.96
   },
   {
    "w": "our",
-   "start": 38.5,
-   "end": 38.62
+   "start": 37.96,
+   "end": 38.08
   },
   {
    "w": "bio.",
-   "start": 38.62,
-   "end": 38.86
+   "start": 38.08,
+   "end": 38.32
   }
  ],
  "text": "Google now pings shoppers the second your product's back in stock. But it only knows what your data tells it. Here are 3 checks so that alert actually goes out. First, compare your warehouse count to your store count today. If the warehouse says 40 and the store says 0, Google shows sold out and the alert never goes out. Second, check how often your stock syncs. Once a night is too slow in peak. Aim for every hour. Third, make sure your price and shipping time match everywhere. 16% of shoppers now start in ChatGPT, and assistants read your data, not your homepage. Keeping all that in sync is what we build at Content Systems.ai. Want us to check your store for free? It's in our bio."
