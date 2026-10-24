@@ -42,7 +42,7 @@ Folder: `content/2026-W43/li-company-fri-1200-parcel-invoice-check` · media: ca
 ```
 Content Systems.ai helps e-commerce brands catch shipping overcharges before they pay them.
 
-Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3 in 100 above its 2018 baseline. And since 2021, 72 in 100 of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
+Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline. And since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
 
 Then peak arrives. Invoices get longer and nobody reads them line by line.
 
@@ -103,7 +103,7 @@ Comment AI for all 5.
 Folder: `content/2026-W44/ig-company-sat-1700-berlin-72-tickets` · media: slide-*.png · keyword: SYSTEMS
 
 ```
-Drowning in support tickets? An apparel brand we work with in Berlin now handles 72 in 100 without a person, in 4 languages. The hard ones still go to a person.
+Drowning in support tickets? An apparel brand we work with in Berlin now handles 72% without a person, in 4 languages. The hard ones still go to a person.
 Comment SYSTEMS and we'll DM you our free support handoff map: the 5 moments a bot must hand to a person.
 
 Before, a small team was buried in where's-my-order emails, sizing questions and refund requests. Peak season made it worse every year.
@@ -182,7 +182,7 @@ Save this for your first skill, and comment AI for the pack.
 Folder: `content/2026-W44/li-personal-sat-1000-13-in-100` · media: slide-01.png · keyword: -
 
 ```
-Only 13 in 100 logistics execs say AI shows up in their numbers. Most of the rest started with a chatbot instead of the money leak.
+Only 13% of logistics execs say AI shows up in their numbers. Most of the rest started with a chatbot instead of the money leak.
 
 That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month. It matches what I see.
 
@@ -214,7 +214,7 @@ Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.
 ```
 The scariest thing in your warehouse this Halloween is the invoice you never sent.
 
-Peak started early this year (Deloitte: 28 in 100 of holiday budgets spent by the end of October), and peak is when fees slip. 3 to check this week:
+Peak started early this year (Deloitte: 28% of holiday budgets spent by the end of October), and peak is when fees slip. 3 to check this week:
 · Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end.
 · Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units.
 · Early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now.
@@ -226,18 +226,6 @@ Our free calculator shows what it adds up to. It's in our bio.
 #3PL #logistics #warehouse #fulfillment #peakseason
 ```
 
-## 13. @koredekola reel Walmart vs Amazon (rendering after that)
-Folder: `content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents` · media: video.mp4 · keyword: AI
-
-```
-Walmart just let AI agents shop its whole store. Amazon said no. Comment AI and I'll send you my AI starter pack, free.
-
-Walmart's gateway lets outside AI assistants browse, build a cart and check out, with spending limits and an approval step. Google launched 1 cart across every store. Meta says Muse has 10M+ users and shopping is a top use.
-
-The shopper is changing. Who wins this, Walmart or Amazon?
-
-#AI #AIagents #ecommerce #Walmart #technews
-```
 
 ## 14. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1)
 Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
@@ -269,11 +257,11 @@ Episode 1. A game, not real news.
 #AI #ClaudeAI #Anthropic #choosewisely #tech
 ```
 
-## 16. @koredekola carousel "What if everyone became 10 in 100 Nigerian?"
+## 16. @koredekola carousel "What if everyone became 10% Nigerian?"
 Folder: `content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian` · media: slide-*.png · keyword: AI
 
 ```
-What if everyone became 10 in 100 Nigerian? I'm Nigerian, so I made you the timeline.
+What if everyone became 10% Nigerian? I'm Nigerian, so I made you the timeline.
 Comment AI and I'll send you my 5 free starter AI skills. No wahala.
 Swipe for day 1 to year 1.
 
@@ -282,4 +270,58 @@ Day 1 is jollof. Year 1 is the best answer to every problem you'll ever hear.
 Which day are you already on? Tell me in the comments.
 
 #Nigeria #Naija #Afrobeats #Lagos #AI
+```
+
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering)
+Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
+
+```
+What if the internet went down tomorrow, for 30 days?
+Hour 1 your card stops working. Day 1 banks, airlines and hospitals go back to paper. Day 30 nobody remembers their passwords.
+Would you last 30 days offline? Follow for part 2.
+
+Only 14% of US payments are still made in cash (Federal Reserve). More than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).
+
+#whatif #internet #tech #technology #AI
+```
+
+## 17. @koredekola gamified "What if every government left tomorrow?"
+Folder: `content/2026-W46/ig-personal-wed-1230-what-if-governments-left` · media: video.mp4 · keyword: AI
+
+```
+What if every government on Earth left tomorrow and never came back? Here's the timeline.
+Comment AI and I'll send you the 5 starter skills I use to run my company, free.
+Month 1 is where it gets interesting.
+
+Day 2 the traffic lights still work, because somebody's code runs them. By year 1 the new governments are group chats with rules and an approval step.
+
+Systems beat titles. Every time.
+
+#AI #whatif #systems #futureofwork #tech
+```
+
+## 18. @koredekola gamified "Every level of AI, where you get stuck"
+Folder: `content/2026-W46/ig-personal-sun-1100-every-level-of-ai` · media: video.mp4 · keyword: AI
+
+```
+Every level of using AI, and where most people get stuck.
+Comment AI and I'll send you the 5 skills that get you to level 4, free.
+Most people never get past level 2.
+
+Level 1 asks questions. Level 2 gives examples and tone. Level 3 gives it your files. Level 4 turns repeat work into skills. Level 5 runs the work and waits for your yes.
+
+#AI #ClaudeAI #ChatGPT #productivity #AItools
+```
+
+## 19. @koredekola reel Walmart vs Amazon (ready)
+Folder: `content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents` · media: video.mp4 · keyword: AI
+
+```
+Walmart just let AI agents shop its whole store. Amazon said no. Comment AI and I'll send you my AI starter pack, free.
+
+Walmart's gateway lets outside AI assistants browse, build a cart and check out, with spending limits and an approval step. Google launched 1 cart across every store. Meta says Muse has 10M+ users and shopping is a top use.
+
+The shopper is changing. Who wins this, Walmart or Amazon?
+
+#AI #AIagents #ecommerce #Walmart #technews
 ```
