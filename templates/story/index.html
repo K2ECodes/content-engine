@@ -570,7 +570,7 @@ window.renderPost = (data) => {
     ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg${s.look === 'cinema' ? ' full' : ''}" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
     ${window.W3D ? window.W3D.html(data) : ''}
     ${data.scenes.map((s, i) => (data.look === 'pixel' || s.px) ? `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>` : '').join('')}
-    ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;${k.flip ? 'scale:-1 1' : ''}">`).join('')}</div>` : '').join('')}
+    ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;" data-flip="${k.flip ? 1 : ''}">`).join('')}</div>` : '').join('')}
     <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
     ${data.rail ? `<div class="rail" id="rail" style="--ra:${data.rail.accent || '#F26B1D'}"><div class="lane glass"><div class="track" id="rtrack">${data.scenes.filter((s) => s.type === 'stage').map((s, k) => `<div class="it" id="ri${k}"><i></i>${esc(s.when)}</div>`).join('')}</div></div>${data.rail.meter ? `<div class="meter"><span>${esc(data.rail.meter)}</span><div class="bar"><div class="fill" id="rfill"></div></div><span id="rnum">0/100</span></div>` : ''}</div>` : ''}
     <div class="caps${data.capStyle === 'doc' ? ' doc' : ''}">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
@@ -627,7 +627,8 @@ window.renderPost = (data) => {
     if (sp) {
       // sprites breathe, and act on their words (sprites[].acts: [{at, do: hop|wave|point|spin|shake}])
       sp.querySelectorAll('img').forEach((img, k) => { const d = Math.max(0.5, s.end - s.t), m = Math.max(1, Math.round(d / 0.5));
-        tl.fromTo(img, { scaleY: 1 }, { scaleY: 1.04, scaleX: 0.98, duration: d / m, ease: 'sine.inOut', yoyo: true, repeat: m - 1, immediateRender: false }, s.t + k * 0.13);
+        const fx = img.dataset.flip ? -1 : 1; gsap.set(img, { scaleX: fx, rotation: 0 });   // mirror via GSAP itself, so its tweens never turn a flip into a 180 rotation
+        tl.fromTo(img, { scaleY: 1, scaleX: fx }, { scaleY: 1.04, scaleX: 0.98 * fx, duration: d / m, ease: 'sine.inOut', yoyo: true, repeat: m - 1, immediateRender: false }, s.t + k * 0.13);
         (s.sprites[k].acts || []).forEach((a) => { if (a.t === undefined) return;
           if (a.do === 'hop') { tl.to(img, { y: -90, duration: 0.18, ease: 'power2.out', yoyo: true, repeat: 1 }, a.t); window.sfx.push({ t: a.t, kind: 'boing', vol: 0.1 }); }
           else if (a.do === 'spin') { tl.to(img, { rotationY: '+=360', duration: 0.5, ease: 'power2.inOut' }, a.t); window.sfx.push({ t: a.t, kind: 'whoosh', vol: 0.1 }); }
