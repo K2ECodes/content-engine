@@ -1,5 +1,6 @@
 ## Caption
 Content Systems.ai runs a live AI workshop where business owners build their first 2 AI employees. Here's what happens in 120 minutes:
+Comment WORKSHOP and we'll send you the details.
 
 · You set up Claude properly on your own account, not the default way most people start.
 · You build AI employee 1. It answers a new lead in seconds, including the 1 that comes in at 2 AM while you're asleep.

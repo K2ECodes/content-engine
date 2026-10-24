@@ -1,5 +1,6 @@
 ## Caption
 What happens when a lead messages your business at 2 AM?
+Comment WORKSHOP and I'll send you the details.
 
 At most companies, nothing. Not until morning. By then they've booked someone else.
 

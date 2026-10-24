@@ -1,5 +1,6 @@
 ## Caption
 Content Systems.ai teaches business owners to set up their first AI employees, so they get time back without losing control.
+Comment WORKSHOP and we'll send you the details for our next live build.
 
 Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58 in 100 managers expect exactly that within a year. Only 29 in 100 say their AI setup is right today, and 57 in 100 have more AI tools than last year.
 
