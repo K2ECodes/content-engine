@@ -146,7 +146,7 @@ Rate the horror: 1 to 10, would you give your agent the card?
 #AI #AIagents #halloween #AIhumor #techmemes
 ```
 
-## 9. @koredekola AI swap skit
+## 9. @koredekola AI swap skit (fixed: braids, green suit, lower caption)
 Folder: `content/2026-W44/ig-personal-fri-2030-swap-boss-catch-you-sleeping` · media: video.mp4 · keyword: -
 
 ```
@@ -208,7 +208,7 @@ From the build, Korede
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```
 
-## 12. Company IG Halloween reel (re-rendering with % fix, ready ~17:20)
+## 12. Company IG Halloween reel (re-rendering with % fix, ready ~18:15)
 Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
 
 ```
@@ -272,7 +272,7 @@ What's the first thing you'd do as a 10% Nigerian? Tell me below, and follow for
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
 
-## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~17:35)
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35)
 Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
 
 ```
@@ -326,7 +326,7 @@ The shopper is changing. Who wins this, Walmart or Amazon?
 #AI #AIagents #ecommerce #Walmart #technews
 ```
 
-## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (rendering now, ready ~17:20)
+## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready)
 Folder: `content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video` · media: video.mp4 · keyword: -
 
 ```
