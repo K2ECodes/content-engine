@@ -227,7 +227,7 @@ Our free calculator shows what it adds up to. It's in our bio.
 ```
 
 
-## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1)
+## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1) **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
 
 ```
@@ -242,7 +242,7 @@ AI won't take your job. The person who sets it up first will.
 #AI #AInews #futureofwork #ClaudeAI #tech
 ```
 
-## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2)
+## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2) **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1` · media: video.mp4 · keyword: -
 
 ```
@@ -272,7 +272,7 @@ What's the first thing you'd do as a 10% Nigerian? Tell me below, and follow for
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
 
-## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35)
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35) **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
 
 ```
@@ -285,7 +285,7 @@ Only 14% of US payments are still made in cash (Federal Reserve). More than 99% 
 #whatif #internet #tech #technology #AI
 ```
 
-## 17. @koredekola gamified "What if every government left tomorrow?"
+## 17. @koredekola gamified "What if every government left tomorrow?" **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-wed-1230-what-if-governments-left` · media: video.mp4 · keyword: AI
 
 ```
@@ -300,7 +300,7 @@ Systems beat titles. Every time.
 #AI #whatif #systems #futureofwork #tech
 ```
 
-## 18. @koredekola gamified "Every level of AI, where you get stuck"
+## 18. @koredekola gamified "Every level of AI, where you get stuck" **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-sun-1100-every-level-of-ai` · media: video.mp4 · keyword: AI
 
 ```
@@ -326,7 +326,7 @@ The shopper is changing. Who wins this, Walmart or Amazon?
 #AI #AIagents #ecommerce #Walmart #technews
 ```
 
-## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready)
+## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready) **HOLD: being reworked (no face, visual hook)**
 Folder: `content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video` · media: video.mp4 · keyword: -
 
 ```
