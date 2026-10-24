@@ -60,6 +60,41 @@ async function renderStatic(browser, data, aspect, dir) {
   return ['static.png'];
 }
 
+
+// Composite a carousel video slide: still PNG + per-frame clip sequences (mp4 with ss, or png/jpg scrolled top to bottom).
+// slide.video: true | { dur }, slide.frames[k].clips: [{ src (repo path or post-relative), ss, dur }], slide.every (s per clip, default 3)
+function videoSlide(dir, png, sl, boxes) {
+  const D = (typeof sl.video === 'object' && sl.video.dur) || 9, every = sl.every || 3, FPS = 30;
+  const resolveSrc = (p) => [path.resolve(dir, p), path.join(ROOT, p)].find((f) => fs.existsSync(f)) || (() => { throw new Error(`clip not found: ${p}`); })();
+  const inputs = ['-loop', '1', '-t', String(D), '-i', path.join(dir, png)];
+  const chains = [], overlays = [];
+  let n = 1;
+  boxes.forEach((b, k) => {
+    const clips = (sl.frames[b.i] || {}).clips;
+    if (!clips || !clips.length) return;
+    const w = Math.round(b.w / 2) * 2, h = Math.round(b.h / 2) * 2;
+    const segs = [];
+    for (let t = 0, j = 0; t < D - 0.01; j++) {
+      const c = clips[j % clips.length], d = Math.min(c.dur || every, D - t), f = resolveSrc(c.src);
+      if (/\.(png|jpe?g|webp)$/i.test(f)) inputs.push('-loop', '1', '-t', String(d), '-i', f);
+      else inputs.push('-ss', String(c.ss || 0), '-t', String(d), '-i', f);
+      const tag = `c${k}_${j}`;
+      chains.push(/\.(png|jpe?g|webp)$/i.test(f)
+        ? `[${n}:v]scale=${w}:${h}:force_original_aspect_ratio=increase,crop=${w}:${h}:(iw-${w})/2:'(ih-${h})*t/${d}',fps=${FPS},setsar=1,format=yuv420p[${tag}]`
+        : `[${n}:v]scale=${w}:${h}:force_original_aspect_ratio=increase,crop=${w}:${h},fps=${FPS},setsar=1,format=yuv420p,trim=duration=${d},setpts=PTS-STARTPTS[${tag}]`);
+      segs.push(tag); n++; t += d;
+    }
+    chains.push(`${segs.map((x) => `[${x}]`).join('')}concat=n=${segs.length}:v=1:a=0,fade=t=in:st=0:d=0.25[f${k}]`);
+    overlays.push({ k, x: Math.round(b.x), y: Math.round(b.y) });
+  });
+  let last = '[0:v]';
+  overlays.forEach((o, j) => { const out = j === overlays.length - 1 ? '[out]' : `[o${j}]`; chains.push(`${last}[f${o.k}]overlay=${o.x}:${o.y}:shortest=1${out}`); last = out; });
+  const out = png.replace('.png', '.mp4');
+  const r = spawnSync('ffmpeg', ['-v', 'error', '-y', ...inputs, '-filter_complex', chains.join(';'), '-map', overlays.length ? '[out]' : '0:v', '-r', String(FPS), '-t', String(D), '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', path.join(dir, out)], { encoding: 'utf8' });
+  if (r.status) throw new Error(`video slide ${out}: ${r.stderr}`);
+  return out;
+}
+
 async function renderCarousel(browser, data, aspect, dir, template = 'carousel') {
   const { page } = await openTemplate(browser, template, data, aspect);
   const files = [];
@@ -69,6 +104,12 @@ async function renderCarousel(browser, data, aspect, dir, template = 'carousel')
     const name = `slide-${String(i + 1).padStart(2, '0')}.png`;
     await page.screenshot({ path: path.join(dir, name) });
     files.push(name);
+    const sl = data.slides[i];
+    if (sl.video && template === 'photo-carousel' && !process.env.NO_VIDEO_SLIDES) {
+      // video slide (mr.pynk style): the layout stays still, only the framed boxes play clips that change every few seconds
+      const boxes = await page.evaluate(() => [...document.querySelectorAll('.frame')].map((f) => { const r = f.getBoundingClientRect(); return { i: +f.dataset.fi, x: r.x + 10, y: r.y + 10, w: r.width - 20, h: r.height - 20 }; }));
+      files.push(videoSlide(dir, name, sl, boxes));
+    }
   }
   return files;
 }
@@ -680,7 +721,9 @@ async function main(argv) {
     const files = spec.template === 'static' ? await renderStatic(browser, data, aspect, dir)
       : spec.template === 'carousel' ? await renderCarousel(browser, data, aspect, dir)
       : spec.template === 'pixel' ? await renderCarousel(browser, { ...data, brandsCfg: JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8')), slides: data.slides.map((sl) => ({ ...sl, ...(sl.bgPhoto ? { bgPhoto: pathToFileURL(path.resolve(dir, sl.bgPhoto)).href } : {}), collage: (sl.collage || []).map((c) => ({ ...c, srcUrl: pathToFileURL(path.resolve(dir, c.src)).href })) })) }, '4:5', dir, 'pixel')
-      : spec.template === 'photo' ? await renderCarousel(browser, data, '4:5', dir, 'photo-carousel')
+      : spec.template === 'photo' ? await renderCarousel(browser, { ...data, brandsCfg: JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8')),
+          // mask images load in CORS mode, which file:// can't satisfy, so the depth cutout goes in as a data URL
+          slides: data.slides.map((sl) => sl.photo?.front ? { ...sl, photo: { ...sl.photo, frontUrl: `data:image/png;base64,${fs.readFileSync(path.join(ROOT, sl.photo.front)).toString('base64')}` } } : sl) }, '4:5', dir, 'photo-carousel')
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)

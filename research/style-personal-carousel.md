@@ -35,3 +35,13 @@ Each inner slide is a ~10 s video (slide 3 is 7.6 s). Everything in the layout s
 The first frame fades in. The movement is the proof: you see the output working without reading anything.
 
 Applied to ours: the frame boxes are already there (`frames` in templates/photo-carousel). Follow-up, not built yet: export some inner slides as 8 to 10 s mp4s (IG carousels accept video slides). Put 2 framed clips in each, such as screen recordings of the AI doing the task or short HeyGen/kie clips, and keep the static layout around them. The current render path only writes PNGs, so this needs a small video-export mode in render.mjs.
+
+## Round 3 (2026-10-24): depth covers, themes, visuals, video slides, memes
+- **Depth covers:** photo, then title boxes, then the same photo masked to Korede's full-frame cutout (`photo.front`, made with `scripts/cutout.py`). His hair passes in front of the lower title box by about 30 px; faces are never covered. On the CTA with a swapped background, the cutout uses `cut.front: true`.
+- **Themes** (`data.theme`): claude (orange `#E07A55`), blue (`#3D7BFF`), emerald (`#2FCB7A`), gold, ink. Max 3 hues: ink, cream/white, 1 accent. ai-feels-mid = claude, 100-ai-employees = emerald, 5-ai-takes = blue.
+- **A visual on every inner slide:** `chat` (bubbles), `flow` (steps with arrows), `logos` (logo + name chips, struck or highlighted), `sprites` (pixel cast on a ground line), `approve` (approval UI card), `meme` (2-panel), `frames` (screenshots or clips).
+- **Video slides** (`video: true`, `frames[].clips`): the still slide PNG plus ffmpeg-composited clips in the frame boxes, about 3 s each, 9 s, 30 fps, written as slide-0N.mp4 next to the PNG. Tall screenshots scroll top to bottom; reels play from `ss`.
+- **Memes, last 2 weeks** (Know Your Meme, 2026-10-19 to 10-23):
+  - "Scientists reveal the hi": a fake news-headline caption over a photo, viral on IG Reels in Oct 2026. Used as the ai-feels-mid cover: a red/white lower-third chip, "SCIENTISTS REVEAL · WHY YOUR AI FEELS MID", with no broadcaster branding.
+  - "Why would I deceive you?": from the Sep 2026 Elizabeth Holmes x Nathan Fielder teaser, used as a lying-partner callout. Rebuilt on 5-ai-takes take 1 with our pixel robot ("Why would I deceive you?") and a shrugging pixel Korede. No real faces.
+- **Hooks used:** a news-headline frame plus a "you're wrong" reversal (ai-feels-mid). A number contrast with a withheld answer, "100+ AI employees. 0 can do this." (li). An identity risk, "5 AI takes that'll get me unfollowed. Take 3 hurts the most." (ig).

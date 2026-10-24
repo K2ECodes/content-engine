@@ -3,35 +3,35 @@
  "data": {
   "handle": "Korede Kolawole",
   "platform": "linkedin",
-  "accent": "#E8B84B",
   "slides": [
    {
     "kind": "cover",
     "photo": {
      "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "54% 0%",
+     "pos": "54% 80px",
      "size": "auto 1180px",
      "dim": {
       "top": 0.65,
       "bot": 0.95
-     }
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
     },
     "blocks": [
      {
-      "text": "We hired *100+*",
+      "text": "100+ AI employees.",
       "style": "white",
-      "size": 100
+      "size": 90
      },
      {
-      "text": "AI employees.",
+      "text": "0 can do *this.*",
       "style": "acc",
-      "size": 100
+      "size": 90
      }
     ],
-    "blocksY": 40,
+    "blocksY": 132,
     "pay": {
-     "text": "Here's what they *still can't* do.",
-     "y": 1010,
+     "text": "The 4 jobs that *stay human.*",
+     "y": 1030,
      "size": 46
     },
     "bgc": "#14110c"
@@ -45,28 +45,66 @@
     },
     "label": "What they do",
     "title": "The work we\nused to *do by hand*",
-    "bodyY": 470,
-    "list": [
-     {
-      "n": "1",
-      "text": "Write and schedule our content"
-     },
-     {
-      "n": "2",
-      "text": "Reply to new leads in minutes"
-     },
-     {
-      "n": "3",
-      "text": "Onboard new clients"
-     },
-     {
-      "n": "4",
-      "text": "Run our ads"
-     }
-    ],
+    "bodyY": 420,
     "labelY": 100,
     "titleY": 170,
-    "annY": 1010
+    "annY": 1030,
+    "video": true,
+    "fh": 560,
+    "frames": [
+     {
+      "src": "assets/photos/korede/studio-with-sanjana.jpg",
+      "x": 60,
+      "y": 0,
+      "w": 380,
+      "h": 560,
+      "clips": [
+       {
+        "src": "content/2026-W44/ig-company-fri-1500-sops-portable-stopmotion/video.mp4",
+        "ss": 2.6
+       },
+       {
+        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
+        "ss": 4
+       },
+       {
+        "src": "content/2026-W44/ig-company-fri-1500-sops-portable-stopmotion/video.mp4",
+        "ss": 10.5
+       }
+      ]
+     },
+     {
+      "src": "assets/photos/korede/studio-with-sanjana.jpg",
+      "x": 480,
+      "y": 0,
+      "w": 380,
+      "h": 560,
+      "clips": [
+       {
+        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
+        "ss": 12
+       },
+       {
+        "src": "content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking/video.mp4",
+        "ss": 4.2
+       },
+       {
+        "src": "content/2026-W43/ig-company-fri-1800-invoice-gap/video.mp4",
+        "ss": 26
+       }
+      ]
+     }
+    ],
+    "ann": [
+     {
+      "k": "They do",
+      "v": "our content, lead replies, client onboarding and ads."
+     },
+     {
+      "k": "Proof",
+      "v": "these reels came out of that system."
+     }
+    ]
    },
    {
     "kind": "body",
@@ -77,21 +115,7 @@
     },
     "label": "The 1 rule",
     "title": "Nothing goes out\nwithout a *yes*.",
-    "bodyY": 470,
-    "list": [
-     {
-      "n": "1",
-      "text": "The AI drafts it"
-     },
-     {
-      "n": "2",
-      "text": "A person taps yes"
-     },
-     {
-      "n": "3",
-      "text": "Then it goes out"
-     }
-    ],
+    "bodyY": 430,
     "ann": [
      {
       "k": "Applies to",
@@ -104,7 +128,22 @@
     ],
     "labelY": 100,
     "titleY": 170,
-    "annY": 1010
+    "annY": 1010,
+    "approve": {
+     "title": "Waiting for a yes",
+     "main": "Reply to a new lead",
+     "sub": "Drafted by AI in seconds. Sent by a person.",
+     "yes": "Send it",
+     "no": "Edit"
+    },
+    "flow": [
+     "AI drafts",
+     {
+      "text": "Person taps yes",
+      "hi": true
+     },
+     "It goes out"
+    ]
    },
    {
     "kind": "body",
@@ -115,7 +154,7 @@
     },
     "label": "What they still can't do",
     "title": "4 jobs that\nstay *human*",
-    "bodyY": 470,
+    "bodyY": 400,
     "list": [
      {
       "n": "1",
@@ -136,7 +175,18 @@
     ],
     "labelY": 100,
     "titleY": 170,
-    "annY": 1010
+    "annY": 1010,
+    "sprites": [
+     {
+      "name": "korede-point",
+      "h": 190
+     },
+     {
+      "name": "sanjana-point",
+      "h": 190,
+      "flip": true
+     }
+    ]
    },
    {
     "kind": "quote",
@@ -160,12 +210,13 @@
     "kind": "cta",
     "photo": {
      "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "54% 0%",
+     "pos": "54% 80px",
      "size": "auto 1180px",
      "dim": {
       "top": 0.65,
       "bot": 0.95
-     }
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
     },
     "blocks": [
      {
@@ -179,7 +230,7 @@
       "size": 72
      }
     ],
-    "blocksY": 60,
+    "blocksY": 108,
     "pay": {
      "text": "5 skills + *what each may do alone.*",
      "y": 1040,
@@ -189,6 +240,7 @@
     "wmTop": 905,
     "bgc": "#14110c"
    }
-  ]
+  ],
+  "theme": "emerald"
  }
 }

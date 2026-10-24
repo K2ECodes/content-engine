@@ -9,7 +9,7 @@
      1 photo per carousel: cutout of Korede on the cover (optionally over a swapped clean background),
      the same photo blurred and darkened behind every inner slide, crisp cards on top. 1080x1350.
      Type: Inter 600-700 tight (-0.05em) + Instrument Serif italic for accent words. No bursts, no stickers. */
-  .canvas { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--bgc, #0f1a13); --a: var(--acc, #E8B84B); --at: var(--acct, #17281C);
+  .canvas { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--bgc, #0f1a13); --a: var(--acc, #E8B84B); --at: var(--acct, #17281C); --ad: #A8761B;
     font-family: 'Inter', sans-serif; color: #fff; }
   .ph { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
   .ph.blur { inset: -80px; filter: blur(var(--bl, 26px)) brightness(var(--br, .55)) saturate(1.05); }
@@ -61,6 +61,46 @@
   .wm { position: absolute; left: 0; right: 0; bottom: 100px; z-index: 7; display: flex; justify-content: center; }
   .wm img { height: 112px; filter: brightness(1.3) contrast(1.2) saturate(1.15) drop-shadow(0 4px 14px rgba(0,0,0,.6)); }
   .swipe { position: absolute; right: 56px; bottom: 100px; z-index: 7; font: 600 28px/1 'Inter'; color: #fff; background: rgba(0,0,0,.4); padding: 14px 22px; border-radius: 40px; }
+
+  /* themes (max 3 hues: ink base, white/cream, 1 accent). DATA.theme: gold | claude | blue | emerald | ink */
+  .ph.front { z-index: 6; pointer-events: none; }
+  .cut.front { z-index: 6; }
+  .canvas .k { color: var(--a); }
+  .blk.white .k, .pay .k, .list .i .k { color: var(--ad); }
+  .ann b { color: var(--ad); }
+  .pay { z-index: 7; }
+  .news { position: absolute; left: 70px; z-index: 5; display: flex; align-items: center; gap: 0; font: 700 34px/1 'Inter'; letter-spacing: -0.01em; text-transform: uppercase; box-shadow: 0 12px 30px rgba(0,0,0,.35); }
+  .news b { background: #C8102E; color: #fff; padding: 14px 18px; }
+  .news span { background: #fff; color: #111; padding: 14px 20px; }
+  /* visual kinds for inner slides */
+  .card { background: #F7F3EA; color: #111; padding: 28px 30px; box-shadow: 0 18px 40px rgba(0,0,0,.35); border-top: 10px solid var(--a); }
+  .chat { display: flex; flex-direction: column; gap: 16px; }
+  .chat .b { max-width: 78%; font: 600 34px/1.25 'Inter'; letter-spacing: -0.025em; padding: 18px 24px; border-radius: 28px; }
+  .chat .b.me { align-self: flex-end; background: var(--a); color: var(--at); border-bottom-right-radius: 6px; }
+  .chat .b.ai { align-self: flex-start; background: #fff; color: #111; border-bottom-left-radius: 6px; box-shadow: 0 2px 0 rgba(0,0,0,.08); }
+  .chat .who { font: 700 22px/1 'Inter'; text-transform: uppercase; letter-spacing: .04em; color: rgba(0,0,0,.45); margin-bottom: 4px; }
+  .flow { display: flex; align-items: center; justify-content: center; gap: 14px; }
+  .flow .st { flex: 1; text-align: center; background: #F7F3EA; color: #111; padding: 26px 14px; font: 700 34px/1.12 'Inter'; letter-spacing: -0.035em; box-shadow: 0 16px 34px rgba(0,0,0,.32); }
+  .flow .st.hi { background: var(--a); color: var(--at); }
+  .flow .ar { font: 700 44px/1 'Inter'; color: var(--a); }
+  .logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+  .logos .lg { display: flex; align-items: center; gap: 14px; background: #fff; color: #111; padding: 16px 22px 16px 16px; font: 700 34px/1 'Inter'; letter-spacing: -0.03em; box-shadow: 0 12px 28px rgba(0,0,0,.3); }
+  .logos .lg img { width: 52px; height: 52px; object-fit: contain; }
+  .logos .lg.off { opacity: .45; text-decoration: line-through; text-decoration-thickness: 4px; }
+  .logos .lg.hi { outline: 6px solid var(--a); }
+  .sprites { display: flex; justify-content: center; align-items: flex-end; gap: 30px; border-bottom: 8px solid var(--a); padding: 0 20px; }
+  .sprites img { image-rendering: pixelated; filter: drop-shadow(0 10px 16px rgba(0,0,0,.4)); }
+  .approve .t { font: 700 26px/1 'Inter'; text-transform: uppercase; letter-spacing: .05em; color: rgba(0,0,0,.5); margin-bottom: 16px; }
+  .approve .m { font: 700 44px/1.15 'Inter'; letter-spacing: -0.04em; }
+  .approve .s { margin-top: 10px; font: 500 30px/1.3 'Inter'; color: rgba(0,0,0,.65); }
+  .approve .btns { margin-top: 22px; display: flex; gap: 16px; }
+  .approve .btns i { font-style: normal; flex: 1; text-align: center; padding: 18px; font: 700 32px/1 'Inter'; border: 4px solid #111; }
+  .approve .btns i.y { background: var(--a); color: var(--at); border-color: var(--a); }
+  .meme { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #111; padding: 8px; box-shadow: 0 18px 40px rgba(0,0,0,.4); }
+  .meme .top { grid-column: 1 / 3; background: #fff; color: #111; font: 700 34px/1.2 'Inter'; letter-spacing: -0.03em; padding: 18px 22px; }
+  .meme .pn { position: relative; height: 330px; padding-bottom: 58px; box-sizing: border-box; background: var(--pbg, #2b2f3a); display: grid; place-items: end center; overflow: hidden; }
+  .meme .pn img { height: 250px; image-rendering: pixelated; }
+  .meme .pn .cap { position: absolute; left: 0; right: 0; bottom: 12px; text-align: center; font: 700 30px/1.15 'Inter'; color: #fff; text-shadow: 0 2px 0 #000, 0 0 10px #000; padding: 0 10px; }
 </style>
 </head>
 <body>
@@ -82,12 +122,32 @@ const ICONS = {
   li: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>',
   bm: '<svg viewBox="0 0 24 24" style="fill:currentColor"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
 };
+
+const THEMES = {
+  gold: { acc: '#E8B84B', at: '#17281C', ad: '#A8761B' },
+  claude: { acc: '#E07A55', at: '#1A0E08', ad: '#C2552E' },
+  blue: { acc: '#3D7BFF', at: '#FFFFFF', ad: '#2457D6' },
+  emerald: { acc: '#2FCB7A', at: '#0B1F14', ad: '#16935A' },
+  ink: { acc: '#F5F0E8', at: '#111111', ad: '#111111' },
+};
+const logoSrc = (id) => `../../assets/logos/${((DATA.brandsCfg || {})[id] || {}).logo || id + '.svg'}`;
+const logoName = (id) => ((DATA.brandsCfg || {})[id] || {}).name || id;
+const VIS = {
+  chat: (c) => `<div class="card chat">${c.map((m) => `<div class="b ${m.who === 'me' ? 'me' : 'ai'}">${m.who !== 'me' && m.label ? `<div class="who">${esc(m.label)}</div>` : ''}${fmt(m.text)}</div>`).join('')}</div>`,
+  flow: (c) => `<div class="flow">${c.map((t, k) => `${k ? '<span class="ar">&rarr;</span>' : ''}<div class="st${typeof t === 'object' && t.hi ? ' hi' : ''}">${fmt(typeof t === 'object' ? t.text : t)}</div>`).join('')}</div>`,
+  logos: (c) => `<div class="logos">${c.map((l) => { const o = typeof l === 'object' ? l : { id: l }; return `<div class="lg${o.off ? ' off' : ''}${o.hi ? ' hi' : ''}"><img src="${logoSrc(o.id)}">${esc(o.name || logoName(o.id))}</div>`; }).join('')}</div>`,
+  sprites: (c) => `<div class="sprites">${c.map((p) => `<img src="../../assets/pixel/sprites/${p.name}.png" style="height:${p.h ?? 240}px;${p.flip ? 'transform:scaleX(-1)' : ''}">`).join('')}</div>`,
+  approve: (c) => `<div class="card approve"><div class="t">${esc(c.title || 'Waiting for your yes')}</div><div class="m">${fmt(c.main)}</div>${c.sub ? `<div class="s">${fmt(c.sub)}</div>` : ''}<div class="btns"><i class="y">${esc(c.yes || 'Approve')}</i><i>${esc(c.no || 'Edit')}</i></div></div>`,
+  meme: (c) => `<div class="meme"><div class="top">${fmt(c.top)}</div>${c.panels.map((p) => `<div class="pn" style="--pbg:${p.bg || '#2b2f3a'}"><img src="../../assets/pixel/sprites/${p.sprite}.png" style="${p.h ? `height:${p.h}px;` : ''}${p.flip ? 'transform:scaleX(-1)' : ''}">${p.cap ? `<div class="cap">${esc(p.cap)}</div>` : ''}</div>`).join('')}</div>`,
+};
 let DATA;
 window.renderPost = (data) => { DATA = data; window.slideCount = data.slides.length; window.showSlide(0); };
 window.showSlide = (i) => {
-  const s = DATA.slides[i], A = s.accent || DATA.accent || '#E8B84B';
+  const s = DATA.slides[i], TH = THEMES[s.theme || DATA.theme] || THEMES.gold, A = s.accent || (DATA.theme ? TH.acc : DATA.accent) || TH.acc;
   const ph = s.photo ? `<div class="ph${s.photo.blur ? ' blur' : ''}" style="background-image:url('${R(s.photo.src)}');background-position:${s.photo.pos || '50% 30%'};background-size:${s.photo.size || 'cover'};${s.photo.blur && s.photo.blur !== true ? `--bl:${s.photo.blur}px` : ''}${s.photo.bright ? `;--br:${s.photo.bright}` : ''}"></div><div class="shade" style="--top:${s.photo.dim?.top ?? .55};--bot:${s.photo.dim?.bot ?? .7}"></div>` : '';
-  const cut = s.cut ? `<img class="cut" src="${R(s.cut.src)}" style="left:${s.cut.x}px;top:${s.cut.y}px;height:${s.cut.h}px;${s.cut.flip ? 'transform:scaleX(-1)' : ''}">` : '';
+  const shadeG = s.photo ? `linear-gradient(180deg, rgba(8,12,10,${s.photo.dim?.top ?? .55}) 0%, rgba(8,12,10,0) 40%, rgba(8,12,10,0) 62%, rgba(8,12,10,${s.photo.dim?.bot ?? .7}) 100%)` : '';
+  const front = s.photo && s.photo.front ? `<div class="ph front" style="background-image:${shadeG},url('${R(s.photo.src)}');background-size:100% 100%,${s.photo.size || 'cover'};background-position:0 0,${s.photo.pos || '50% 30%'};-webkit-mask-image:url('${s.photo.frontUrl || R(s.photo.front)}');-webkit-mask-size:${s.photo.size || 'cover'};-webkit-mask-position:${s.photo.pos || '50% 30%'};-webkit-mask-repeat:no-repeat"></div>` : '';
+  const cut = s.cut ? `<img class="cut${s.cut.front ? ' front' : ''}" src="${R(s.cut.src)}" style="left:${s.cut.x}px;top:${s.cut.y}px;height:${s.cut.h}px;${s.cut.flip ? 'transform:scaleX(-1)' : ''}">` : '';
   const blocks = s.blocks ? `<div class="blocks" style="top:${s.blocksY ?? 110}px;--off:${s.off ?? 30}px">${s.blocks.map((b) => `<div class="blk ${b.style || 'acc'}" style="${b.size ? `--fs:${b.size}px` : ''}">${fmt(b.text)}</div>`).join('')}</div>` : '';
   const pay = s.pay ? `<div class="pay" style="top:${s.pay.y ?? 930}px;${s.pay.size ? `font-size:${s.pay.size}px` : ''}">${fmt(s.pay.text)}</div>` : '';
   const label = s.label ? `<div class="label" style="top:${s.labelY ?? 120}px">${esc(s.label)}</div>` : '';
@@ -95,14 +155,15 @@ window.showSlide = (i) => {
   let body = '';
   if (s.stat) body += `<div class="stat"><b>${esc(s.stat.value)}</b><span>${esc(s.stat.label)}</span></div>`;
   if (s.list) body += `<div class="list">${s.list.map((it) => `<div class="i${it.off ? ' off' : ''}">${it.n !== undefined ? `<em>${esc(it.n)}</em>` : ''}<span>${fmt(it.text)}</span></div>`).join('')}</div>`;
-  if (s.frames) body += `<div class="frames" style="--fh:${s.fh ?? 520}px">${s.frames.map((f) => `<div class="frame" style="left:${f.x}px;top:${f.y}px;width:${f.w}px;height:${f.h}px;transform:rotate(${f.rot ?? 0}deg);--p:${f.pos || '50% 30%'}"><img src="${R(f.src)}"></div>`).join('')}</div>`;
+  if (s.frames) body += `<div class="frames" style="--fh:${s.fh ?? 520}px">${s.frames.map((f) => `<div class="frame" data-fi="${s.frames.indexOf(f)}" style="left:${f.x}px;top:${f.y}px;width:${f.w}px;height:${f.h}px;transform:rotate(${f.rot ?? 0}deg);--p:${f.pos || '50% 30%'}"><img src="${R(f.src)}"></div>`).join('')}</div>`;
+  Object.keys(VIS).forEach((k) => { if (s[k]) body += VIS[k](s[k]); });
   if (s.text) body += `<div class="text">${s.text.map((p) => `<p>${fmt(p)}</p>`).join('')}</div>`;
   const annEl = s.ann ? `<div class="ann" style="--ay:${s.annY ?? 1010}px">${s.ann.map((a) => `<div><b>${esc(a.k)}:</b> ${esc(a.v)}</div>`).join('')}</div>` : '';
   const bodyEl = body ? `<div class="body" style="top:${s.bodyY ?? 470}px">${body}</div>` : '';
   const quote = s.quote ? `<div class="quote" style="top:${s.quote.y ?? 160}px;${s.quote.size ? `--qs:${s.quote.size}px` : ''}">${esc(s.quote.text).replace(/\*([\s\S]+?)\*/g, '<span class=\"k\">$1</span>').replace(/\n/g, '<br>')}${s.quote.sub ? `<small>${esc(s.quote.sub).replace(/\n/g, '<br>')}</small>` : ''}</div>` : '';
   document.getElementById('root').innerHTML = `
-    <div class="canvas" style="--acc:${A};--acct:${s.accentText || DATA.accentText || '#17281C'};${s.bgc ? `--bgc:${s.bgc}` : ''}">
-      ${ph}${cut}${blocks}${label}${title}${bodyEl}${annEl}${quote}${pay}<div class="prog" style="width:${((i + 1) / DATA.slides.length) * 100}%"></div>
+    <div class="canvas" style="--acc:${A};--acct:${s.accentText || (DATA.theme ? TH.at : DATA.accentText) || TH.at};--ad:${TH.ad};${s.bgc ? `--bgc:${s.bgc}` : ''}">
+      ${ph}${cut}${blocks}${front}${s.news ? `<div class="news" style="top:${s.news.y ?? 60}px"><b>${esc(s.news.tag)}</b><span>${esc(s.news.text)}</span></div>` : ''}${label}${title}${bodyEl}${annEl}${quote}${pay}<div class="prog" style="width:${((i + 1) / DATA.slides.length) * 100}%"></div>
       <div class="count">${i + 1}/${DATA.slides.length}</div>
       ${s.swipe ? `<div class="swipe">${esc(s.swipe)} &rarr;</div>` : ''}
       ${s.wordmark ? `<div class="wm"${s.wmTop ? ` style="top:${s.wmTop}px;bottom:auto"` : ''}>` + '<img src="../../assets/brand/lockup-horizontal.png" alt=""></div>' : ''}
