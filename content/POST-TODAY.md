@@ -208,7 +208,7 @@ From the build, Korede
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```
 
-## 12. Company IG Halloween reel (re-rendering now, ready in ~20 min)
+## 12. Company IG Halloween reel (ready)
 Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
 
 ```
@@ -237,4 +237,49 @@ Walmart's gateway lets outside AI assistants browse, build a cart and check out,
 The shopper is changing. Who wins this, Walmart or Amazon?
 
 #AI #AIagents #ecommerce #Walmart #technews
+```
+
+## 14. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1)
+Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
+
+```
+What if AI took over the world tomorrow? Here's the timeline, day 1 to year 1.
+Comment AI and I'll send you the 5 skills I'd set up first, free.
+Year 1 is the one nobody wants to hear.
+
+Day 1 your inbox is empty. Day 3 stores start building for AI shoppers. By month 1 the people who wrote their work down are running 10 AI employees.
+
+AI won't take your job. The person who sets it up first will.
+
+#AI #AInews #futureofwork #ClaudeAI #tech
+```
+
+## 15. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2)
+Folder: `content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1` · media: video.mp4 · keyword: -
+
+```
+You wake up as the CEO of Anthropic with 0 experience. Day 1. What do you do?
+Comment A or B. The most comments decides day 2.
+
+A: ship a new Claude feature tonight.
+B: let Claude run the company for 24 hours while you watch.
+
+Episode 1. A game, not real news.
+
+#AI #ClaudeAI #Anthropic #choosewisely #tech
+```
+
+## 16. @koredekola carousel "What if everyone became 10 in 100 Nigerian?"
+Folder: `content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian` · media: slide-*.png · keyword: AI
+
+```
+What if everyone became 10 in 100 Nigerian? I'm Nigerian, so I made you the timeline.
+Comment AI and I'll send you my 5 free starter AI skills. No wahala.
+Swipe for day 1 to year 1.
+
+Day 1 is jollof. Year 1 is the best answer to every problem you'll ever hear.
+
+Which day are you already on? Tell me in the comments.
+
+#Nigeria #Naija #Afrobeats #Lagos #AI
 ```
