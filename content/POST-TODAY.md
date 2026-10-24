@@ -227,7 +227,7 @@ Our free calculator shows what it adds up to. It's in our bio.
 ```
 
 
-## 14. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1)
+## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1)
 Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
 
 ```
@@ -242,7 +242,7 @@ AI won't take your job. The person who sets it up first will.
 #AI #AInews #futureofwork #ClaudeAI #tech
 ```
 
-## 15. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2)
+## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2)
 Folder: `content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1` · media: video.mp4 · keyword: -
 
 ```
@@ -257,7 +257,7 @@ Episode 1. A game, not real news.
 #AI #ClaudeAI #Anthropic #choosewisely #tech
 ```
 
-## 16. @koredekola carousel "What if everyone became 10% Nigerian?"
+## 15. @koredekola carousel "What if everyone became 10% Nigerian?" (HOLD: being rebuilt realistic + a video version)
 Folder: `content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian` · media: slide-*.png · keyword: AI
 
 ```

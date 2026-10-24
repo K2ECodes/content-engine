@@ -11,7 +11,7 @@ Researched Oct 24 2026. Nothing older than 14 days at research time. Percentages
 ## 2. AI shoppers at peak season
 - Dates: Sep 28 to Oct 21 2026.
 - Sources: https://www.semafor.com/article/10/16/2026/ecommerce-confronts-ai-shopping-agents-ahead-of-holiday-season · https://www.bloomberg.com/news/articles/2026-09-28/ai-assisted-shopping-to-rise-130-during-holidays-adobe-says (Sep 28, context only) · https://startupfortune.com/target-leans-harder-into-ai-shopping-tools-for-its-second-chatgpt-holiday-season/
-- Facts: Salesforce projects 20 in 100 visits to online stores this holiday will come from AI chat agents. Cheq saw agent traffic jump 100x in 45 days after consumer agents launched (Semafor, Oct 16). Target's ChatGPT shopping returns for its second holiday. NRF forecasts holiday sales of about $1 trillion.
+- Facts: Salesforce projects 20% of visits to online stores this holiday will come from AI chat agents. Cheq saw agent traffic jump 100x in 45 days after consumer agents launched (Semafor, Oct 16). Target's ChatGPT shopping returns for its second holiday. NRF forecasts holiday sales of about $1 trillion.
 - Why operators care: product data, stock and delivery dates are what a machine buyer reads. Ties to the agent-ready store checklist and the agent-ready check for brands and 3PLs.
 
 ## 3. Walmart opens to shopping agents, Amazon keeps blocking
@@ -20,7 +20,7 @@ Researched Oct 24 2026. Nothing older than 14 days at research time. Percentages
 
 ## 4. 3PLs and AI: the data gap
 - Dates: Oct 6 to Oct 22 2026. Sources: https://www.logisticsmgmt.com/article/2026_3pl_study_highlights_ai_adoption_freight_fraud_and_supply_chain_disruption · https://www.aftermarketnews.com/ai-adoption-data-gaps-in-2027-3pl-study/
-- Facts: the annual Third-Party Logistics Study says AI moved from trials into daily operations, 3PLs lead shippers on generative AI (74 in 100), and data quality plus old systems are the main brakes.
+- Facts: the annual Third-Party Logistics Study says AI moved from trials into daily operations, 3PLs lead shippers on generative AI (74%), and data quality plus old systems are the main brakes.
 - Why operators care: AI can't bill, quote or answer WISMO on data nobody trusts. Clean the data the AI reads first. Ties to the 3PL billing leak checklist.
 
 ## 5. Kognitos ships 61 AI employee roles with written SOPs
@@ -43,4 +43,4 @@ Researched Oct 24 2026. Nothing older than 14 days at research time. Percentages
 
 ## 9. Parcel prices at a record into peak
 - Date: Oct 16 2026. Source: https://www.supplychaindive.com/news/fedex-ups-delivery-prices-set-for-record-high-q4/832992/
-- Facts: Q4 ground rate per package at an all-time high; since 2021, 72 in 100 of the fuel surcharge rise came from carrier pricing, not diesel.
+- Facts: Q4 ground rate per package at an all-time high; since 2021, 72% of the fuel surcharge rise came from carrier pricing, not diesel.

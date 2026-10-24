@@ -39,7 +39,7 @@
     "stage": "Hour 1",
     "stat": {
      "label": "US payments made in cash",
-     "value": "14 in 100",
+     "value": "14%",
      "count": 14,
      "source": "Federal Reserve · 2025 Diary"
     },
@@ -60,7 +60,7 @@
     "stage": "Day 1",
     "stat": {
      "label": "Data between continents on cables",
-     "value": "99 in 100",
+     "value": "99%",
      "count": 99,
      "source": "TeleGeography"
     },

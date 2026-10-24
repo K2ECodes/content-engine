@@ -3,7 +3,7 @@
  "data": {
   "words": "words.json",
   "audio": "audio/vo.wav",
-  "script": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55 in 100 trust AI when there's a human option. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72 in 100 tickets, and it still saves 1 in 4 customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.",
+  "script": "Shoppers trust a support bot twice as much when it can do 1 thing. Hand them to a person. In a survey of 3,000 shoppers, 55% trust AI when there's a human option. Without one, just 26. So before Black Friday, make sure your bot hands off in 5 moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Content Systems.ai. An apparel brand we work with in Berlin lets AI answer 72% of tickets, and it still saves 1 in 4 customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.",
   "say": "Shoppers trust a support bot twice as much when it can do one thing. Hand them to a person. In a survey of three thousand shoppers, fifty-five in a hundred trust AI when there's a human option. Without one, just twenty-six. So before Black Friday, make sure your bot hands off in five moments. An angry customer. Anyone trying to cancel. A refund over your limit. A question it isn't sure about. And anyone who asks for a human. That's how we build support bots at Cunntent Systems dot A I. An apparel brand we work with in Berlin lets AI answer seventy-two in a hundred tickets, and it still saves one in four customers who try to cancel. Want the handoff map? Comment SYSTEMS and we'll send it to you free.",
   "music": {
    "file": "audio/music.mp3",
@@ -67,12 +67,12 @@
      {
       "text": "With a human option",
       "at": "55",
-      "val": "55 in 100"
+      "val": "55%"
      },
      {
       "text": "Without one",
       "at": "26.",
-      "val": "26 in 100"
+      "val": "26%"
      }
     ],
     "bg": "bg/shopper.png"

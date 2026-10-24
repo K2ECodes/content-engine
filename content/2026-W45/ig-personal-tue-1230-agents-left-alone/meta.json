@@ -12,6 +12,7 @@
   "timezone": "America/New_York",
   "status": "draft",
   "media": [
-    "video.mp4"
+    "video.mp4",
+    "poster.png"
   ]
 }

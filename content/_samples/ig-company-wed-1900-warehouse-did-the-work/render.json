@@ -51,7 +51,7 @@
         "value": 90000,
         "prefix": "$",
         "label": "a year, *earned* and never invoiced",
-        "note": "Illustrative: $250K billed a month, 3 in 100 dollars missed.",
+        "note": "Illustrative: $250K billed a month, 3% missed.",
         "vo": "On $250K a month, missing 3 in every 100 dollars is $90K a year.",
         "voSay": "On two hundred fifty thousand dollars a month, missing 3 in every 100 is ninety thousand a year."
       },

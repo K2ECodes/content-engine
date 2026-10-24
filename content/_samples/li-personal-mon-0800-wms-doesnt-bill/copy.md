@@ -23,7 +23,7 @@ Want your own number? The free calculator is on our logistics page: contentsyste
 #3PL #logistics #warehousing #fulfillment #supplychain #3PLbilling #warehousemanagement #ecommerce #operations #AI #automation
 
 ## Alt text
-Dark green card with the Content Systems.ai bulb logo. Headline: Your WMS records the work. It doesn't bill it. 2 stats: $90K a year missed at 3 in 100 dollars on $250K a month, and 0 new tools needed.
+Dark green card with the Content Systems.ai bulb logo. Headline: Your WMS records the work. It doesn't bill it. 2 stats: $90K a year missed at 3% on $250K a month, and 0 new tools needed.
 
 ## Notes
 Numbers are the illustrative example from contentsystems.ai/logistics calculator, not a client result.

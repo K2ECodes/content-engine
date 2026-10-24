@@ -3,7 +3,7 @@ Who's watching your AI helpers? 2 free skills fix it.
 
 Comment SYSTEMS and I'll send you both skills plus the 1-page owner sheet, free.
 
-58 in 100 managers expect to oversee more AI helpers than people within a year, and 46 in 100 worry about losing control of what those helpers do (Nielsen survey of 1,700 managers for Monday.com, via TechCrunch).
+58% of managers expect to oversee more AI helpers than people within a year, and 46% worry about losing control of what those helpers do (Nielsen survey of 1,700 managers for Monday.com, via TechCrunch).
 
 We run Content Systems.ai on 100+ AI employees, and every 1 has a person's name on it.
 
@@ -20,7 +20,7 @@ Comment SYSTEMS and I'll DM them to you.
 #AI #ArtificialIntelligence #AIAgents #Management #Leadership #Operations #Automation #FutureOfWork #Founders #SmallBusiness #Ecommerce #Logistics
 
 ## Alt text
-6-slide carousel from Korede Kolawole in orange. Cover: Korede at a laptop on a rooftop, his head in front of the headline Who's watching your AI helpers?, payoff 2 free skills fix it. Slide 2: 58 in 100 managers expect to oversee more AI helpers than people. Slide 3: /helper-owner and the fields it fills in. Slide 4 (video): /daily-note writing an owner's note and /helper-owner filling in a sheet. Slide 5: what's locked in the sheet. Last slide: Comment SYSTEMS for both skills.
+6-slide carousel from Korede Kolawole in orange. Cover: Korede at a laptop on a rooftop, his head in front of the headline Who's watching your AI helpers?, payoff 2 free skills fix it. Slide 2: 58% of managers expect to oversee more AI helpers than people. Slide 3: /helper-owner and the fields it fills in. Slide 4 (video): /daily-note writing an owner's note and /helper-owner filling in a sheet. Slide 5: what's locked in the sheet. Last slide: Comment SYSTEMS for both skills.
 
 ## Notes
 Freebie (keyword SYSTEMS): assets/freebies/ai-helper-owner-sheet.pdf + assets/freebies/bundles/helper-owner-skills.zip (/helper-owner, /daily-note). Listed in config/offers.json.

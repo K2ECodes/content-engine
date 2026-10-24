@@ -2,7 +2,7 @@
 Content Systems.ai teaches business owners to set up their first AI employees, so they get time back without losing control.
 Comment WORKSHOP and we'll send you the details for our next live build.
 
-Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58 in 100 managers expect exactly that within a year. Only 29 in 100 say their AI setup is right today, and 57 in 100 have more AI tools than last year.
+Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58% of managers expect exactly that within a year. Only 29% say their AI setup is right today, and 57% have more AI tools than last year.
 
 More tools, more checking, less control. That's what the survey describes.
 
@@ -21,13 +21,13 @@ Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details
 #SmallBusiness #BusinessOwners #AI #Management #Leadership #Operations #Workshop #Ecommerce #Logistics #FutureOfWork #Productivity #Entrepreneurs
 
 ## Alt text
-Portrait pixel-art graphic in a neon city world: Who manages your AI helper? A big COMMENT WORKSHOP box with the line next date in our bio. Starbursts: 58 in 100 managers expect more AI, 29 in 100 say their setup is right. Taped screenshots of the TechCrunch survey story and Claude Duet, pixel Korede and Sanjana.
+Portrait pixel-art graphic in a neon city world: Who manages your AI helper? A big COMMENT WORKSHOP box with the line next date in our bio. Starbursts: 58% of managers expect more AI, 29% say their setup is right. Taped screenshots of the TechCrunch survey story and Claude Duet, pixel Korede and Sanjana.
 
 ## Notes
 Offer: The AI Employee Accelerator, Sun Nov 1 11 AM ET, $97 GA / $197 VIP, https://contentsystems.ai/workshop.
 
 Sources (research/weekly/2026-W44.md 1.9):
-- Nielsen for Monday.com survey of 1,700 directors and senior managers in 7 countries: 58 in 100 expect to oversee more AI agents than humans within a year, 29 in 100 call setup fully optimized and centralized, 57 in 100 have more tools: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
+- Nielsen for Monday.com survey of 1,700 directors and senior managers in 7 countries: 58% expect to oversee more AI agents than humans within a year, 29% call setup fully optimized and centralized, 57% have more tools: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
 
 Judgement calls: "AI helpers" instead of "agents" for the plain-language rule. The 4-line plan teases the AI employee owner sheet (ig-company freebie) without giving it away. AEO opener describes the workshop offer (ai-workshops: "Build your first AI employees").
 

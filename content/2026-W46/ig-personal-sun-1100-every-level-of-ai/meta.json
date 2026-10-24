@@ -10,7 +10,10 @@
   "slot": "2026-11-15T11:00",
   "timezone": "America/New_York",
   "status": "draft",
-  "media": [],
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ],
   "cta_keyword": "AI",
   "freebie": "AI Employee Starter Pack"
 }

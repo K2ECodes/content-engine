@@ -1,5 +1,5 @@
 ## Caption
-Drowning in support tickets? An apparel brand we work with in Berlin now handles 72 in 100 without a person, in 4 languages. The hard ones still go to a person.
+Drowning in support tickets? An apparel brand we work with in Berlin now handles 72% without a person, in 4 languages. The hard ones still go to a person.
 Comment SYSTEMS and we'll DM you our free support handoff map: the 5 moments a bot must hand to a person.
 
 Before, a small team was buried in where's-my-order emails, sizing questions and refund requests. Peak season made it worse every year.
@@ -13,11 +13,11 @@ Black Friday is 4 weeks out. Comment SYSTEMS for the handoff map before it hits.
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 
 ## Alt text
-7-slide pixel-art carousel with Korede and Sanjana in a platformer world. Cover: 72 in 100 tickets without a person, an apparel brand we work with in Berlin. Slides on the before, routine questions answered day and night, 1 in 4 cancellations kept worth €180K a year, hard ones going to a person with Five9 trust numbers, and paid for itself in Q1. A night CTA for a free quote before Black Friday, link in bio.
+7-slide pixel-art carousel with Korede and Sanjana in a platformer world. Cover: 72% of tickets without a person, an apparel brand we work with in Berlin. Slides on the before, routine questions answered day and night, 1 in 4 cancellations kept worth €180K a year, hard ones going to a person with Five9 trust numbers, and paid for itself in Q1. A night CTA for a free quote before Black Friday, link in bio.
 
 ## Notes
-Proof bank (CLAUDE.md): Berlin D2C apparel brand, 72 in 100 tickets handled autonomously across 4 languages, 1 in 4 cancellation attempts retained, €180K annual revenue recovered, paid for itself in Q1, built on Shopify Plus and Gorgias (said as "the store and help desk they already used"). Client unnamed.
-- Five9 survey: 55 in 100 trust AI to solve their issue when a human option exists vs 26 in 100 when it doesn't: https://www.retaildive.com/news/why-customers-fed-up-ai-chatbots/833488/ (Oct 22 2026). "Twice as much" = 55 vs 26.
+Proof bank (CLAUDE.md): Berlin D2C apparel brand, 72% of tickets handled autonomously across 4 languages, 1 in 4 cancellation attempts retained, €180K annual revenue recovered, paid for itself in Q1, built on Shopify Plus and Gorgias (said as "the store and help desk they already used"). Client unnamed.
+- Five9 survey: 55% trust AI to solve their issue when a human option exists vs 26% when it doesn't: https://www.retaildive.com/news/why-customers-fed-up-ai-chatbots/833488/ (Oct 22 2026). "Twice as much" = 55 vs 26.
 - "4 weeks out": Sat Oct 31 to Black Friday Nov 27.
 "Peak season made it worse every year" is a soft framing of the proof bank's context; cut it if Korede wants zero added colour.
 CTA: free-quote, ecommerce-systems (contentsystems.ai/ecommerce) via link in bio.

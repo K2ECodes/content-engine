@@ -1,7 +1,7 @@
 ## Caption
 Content Systems.ai helps e-commerce brands catch shipping overcharges before they pay them.
 
-Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3 in 100 above its 2018 baseline. And since 2021, 72 in 100 of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
+Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline. And since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
 
 Then peak arrives. Invoices get longer and nobody reads them line by line.
 
@@ -29,7 +29,7 @@ See what hidden fees could be costing you with our free calculator: contentsyste
 
 ## Notes
 Sources (research/weekly/2026-W44.md section 2.1, 2.2):
-- TD Cowen/AFS Freight Index: Q4 ground rate per package projected 43.3 in 100 above the Jan 2018 baseline, an all-time high. Since Q1 2021, 72 in 100 of the ground fuel surcharge increase came from carrier adjustments, not diesel. https://www.supplychaindive.com/news/fedex-ups-delivery-prices-set-for-record-high-q4/832992/ (Oct 16 2026).
+- TD Cowen/AFS Freight Index: Q4 ground rate per package projected 43.3% above the Jan 2018 baseline, an all-time high. Since Q1 2021, 72% of the ground fuel surcharge increase came from carrier adjustments, not diesel. https://www.supplychaindive.com/news/fedex-ups-delivery-prices-set-for-record-high-q4/832992/ (Oct 16 2026).
 - Bluffworks' $200,000 back invoice and switch to Cart.com: https://www.supplychaindive.com/news/bluffworks-targets-lower-fulfillment-costs-after-provider-switch/833337/ (Oct 20 2026). Bluffworks isn't our client, so naming it is fine.
 - The 6 line items are standard carrier invoice charge types, matching contentsystems.ai/ecommerce ("Surcharges and weight adjustments add up quietly", "We compare what you were charged against your contract rates and order data"). No frequency stats claimed.
 - The $2,500 a month / $30K a year figure is illustrative (5,000 orders x $0.50), labelled as such in the caption and on the slide.

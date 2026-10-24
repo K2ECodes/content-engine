@@ -9,7 +9,7 @@ It paired 30 AI engineers with teams for 2 weeks to automate parts of real jobs.
 
 Now compare how most warehouses try it. Someone buys licenses, sends a login email and runs a lunch-and-learn. 3 months later 4 people use it and nobody can say what changed.
 
-The same week a Nielsen survey for Monday.com found 57 in 100 managers have more AI tools than last year. Only 29 in 100 say their setup is right.
+The same week a Nielsen survey for Monday.com found 57% of managers have more AI tools than last year. Only 29% say their setup is right.
 
 More tools didn't fix it. Time next to the work did.
 
@@ -31,7 +31,7 @@ Freebie: AI Employee Starter Pack (keyword AI). Must be built and added to confi
 
 Sources (research/weekly/2026-W44.md 1.6, 1.9):
 - Uber ChatGPT Work rollout, about 1,000 to about 30,000, 30 AI engineers paired with teams for 2 weeks, about 8 in 10 pilot adopters non-engineers, pilot uses: https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/ and https://openai.com/index/uber-chatgpt-work-rollout/ (Oct 22 2026).
-- Nielsen for Monday.com: 57 in 100 have more tools, 29 in 100 call setup fully optimized: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
+- Nielsen for Monday.com: 57% have more tools, 29% call setup fully optimized: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/ (Oct 21 2026).
 
 Judgement calls: "3 months later 4 people use it" is framed as the typical pattern, not a stat. "When I start with a 3PL" describes Korede's method; no client result claimed.
 
