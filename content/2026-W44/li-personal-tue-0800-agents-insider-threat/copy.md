@@ -1,5 +1,6 @@
 ## Caption
 Microsoft just told companies to treat AI agents like insider threats.
+Comment WORKSHOP and I'll send you the details for the next live build.
 
 Most setups I see make that worse.
 

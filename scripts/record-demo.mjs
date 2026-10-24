@@ -24,7 +24,18 @@ for (const d of list) {
   const page = await ctx.newPage();
   const t0 = Date.now();
   if (d.kind === 'web') {
-    await page.goto(d.url, { waitUntil: 'networkidle', timeout: 60000 });
+    await page.goto(d.url, { waitUntil: 'domcontentloaded', timeout: 60000 }); await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
+    // dismiss consent walls (TechCrunch/Yahoo, OneTrust, Cookiebot...), then start the clip after them (trim)
+    for (let k = 0; k < 3; k++) {
+      let hit = false;
+      for (const frame of page.frames()) for (const name of [/^reject all$/i, /^do not consent$/i, /^reject$/i, /^necessary only$/i, /^accept all$/i, /^accept$/i, /^consent$/i, /^i agree$/i, /^agree$/i, /^ok$/i, /^got it$/i]) {
+        const btn = frame.getByRole('button', { name }).first();
+        if (await btn.isVisible({ timeout: 300 }).catch(() => false)) { await btn.click({ timeout: 3000 }).catch(() => {}); hit = true; break; }
+      }
+      if (!hit) break;
+      await page.waitForLoadState('domcontentloaded').catch(() => {}); await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {}); await sleep(1200);
+    }
+    d.trim = d.trim ?? (Date.now() - t0) / 1000 + 0.3;
     for (const sel of d.hide || []) await page.addStyleTag({ content: `${sel}{display:none!important}` });
     for (const s of d.steps) {
       if (s.wait) await sleep(s.wait);
@@ -37,7 +48,7 @@ for (const d of list) {
     await page.evaluate((x) => { window.renderDemo(x); }, d.data);
     await page.waitForFunction(() => window.demoDone === true, null, { timeout: 30000 });
   }
-  const left = MIN * 1000 + 600 - (Date.now() - t0); if (left > 0) await sleep(left); else await sleep(1200);
+  const left = MIN * 1000 + 600 + (d.kind === 'web' ? d.trim * 1000 : 0) - (Date.now() - t0); if (left > 0) await sleep(left); else await sleep(1200);
   const vid = await page.video().path();
   await ctx.close();
   // drop the blank first ~0.5 s (page load), 30 fps, h264

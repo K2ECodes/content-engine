@@ -32,7 +32,8 @@
     "caption": "Google's new shopping cart",
     "h": 720,
     "pan": 60,
-    "bg": "bg/phone.png"
+    "bg": "bg/phone.png",
+    "look": "cinema"
    },
    {
     "at": "But",
@@ -95,7 +96,19 @@
       "chipKind": "ok"
      }
     ],
-    "bg": "bg/warehouse.png"
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "sanjana-point",
+      "x": 120,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 640,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "Third,",
@@ -126,28 +139,18 @@
     "label": "shoppers now start in ChatGPT",
     "foot": "Feedvisor and PartnerCentric, Oct 2026",
     "vb": "#10A37F",
-    "bg": "bg/phone.png"
+    "bg": "bg/phone.png",
+    "look": "cinema"
    },
    {
     "at": "assistants",
     "world": "light",
-    "type": "list",
-    "title": "What the assistant reads",
-    "rows": [
-     {
-      "text": "Your data",
-      "at": "data#2",
-      "chip": "Read",
-      "chipKind": "ok"
-     },
-     {
-      "text": "Your homepage",
-      "at": "homepage.",
-      "chip": "Skipped",
-      "chipKind": "bad"
-     }
-    ],
-    "bg": "bg/phone.png"
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-google-cart.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema"
    },
    {
     "at": "Keeping",
@@ -265,41 +268,6 @@
     "w": 170,
     "rot": -8,
     "until": "assistants"
-   },
-   {
-    "at": "Want",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 290,
-    "w": 220,
-    "size": 60,
-    "color": "#E8B84B",
-    "rot": 12
-   },
-   {
-    "at": "never",
-    "kind": "burst",
-    "text": "NO ALERT",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#F26B1D",
-    "rot": -8,
-    "until": "Second,#2"
-   },
-   {
-    "at": "hour.",
-    "kind": "burst",
-    "text": "EVERY HOUR",
-    "x": 800,
-    "y": 290,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": 10,
-    "until": "Third,"
    }
   ],
   "branded": true,
@@ -367,7 +335,9 @@
      "actor": 2,
      "do": "celebrate"
     }
-   ]
-  }
+   ],
+   "font": "ig"
+  },
+  "badgeH": 110
  }
 }

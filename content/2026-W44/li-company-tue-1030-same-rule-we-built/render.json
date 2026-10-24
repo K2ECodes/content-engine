@@ -1,520 +1,490 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "script": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. Want us to set this up with you, live? Comment WORKSHOP and we'll send you the details. The next date's in our profile.",
-    "say": "Four of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. One Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Cunntent Systems dot A I starts there. Want us to set this up with you, live? Comment workshop and we'll send you the details. The next date's in our profile.",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.1,
-      "dropAt": "rule"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "script": "4 of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. 1Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Content Systems.ai starts there. Want us to set this up with you, live? Comment WORKSHOP and we'll send you the details. The next date's in our profile.",
+  "say": "Four of the biggest names in tech shipped the same AI rule this month. Here's what each one teaches you. Anthropic's new assistant asks before it pays. So money going out always needs a yes. Walmart lets shoppers set a spending limit for an AI. So routine stuff gets a limit, not a meeting. One Password lets AI log in without ever seeing the password. So never paste passwords into an AI tool. And Microsoft says to watch AI like an insider with the keys. So give each AI helper only the access its job needs. AI does the work. A person owns the yes. Every system we build at Cunntent Systems dot A I starts there. Want us to set this up with you, live? Comment workshop and we'll send you the details. The next date's in our profile.",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1,
+   "dropAt": "rule"
+  },
+  "tail": 2.4,
+  "keys": [
+   "4",
+   "same",
+   "yes",
+   "limit",
+   "never",
+   "insider",
+   "access",
+   "owns",
+   "workshop"
+  ],
+  "strikes": [
+   "meeting"
+  ],
+  "posterAt": 2.8,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "word",
+    "text": "1 rule",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "evil-robot",
+      "x": 770,
+      "h": 280
+     }
+    ]
+   },
+   {
+    "at": "Anthropic's",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-duet.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "neon"
+   },
+   {
+    "at": "So",
+    "world": "dark",
+    "type": "list",
+    "title": "Money out",
+    "vb": "#191919",
+    "rows": [
+     {
+      "text": "Needs a yes",
+      "at": "needs",
+      "chip": "Always",
+      "chipKind": "ok"
+     }
+    ],
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "coin",
+      "x": 820,
+      "h": 120
+     }
+    ]
+   },
+   {
+    "at": "Walmart",
+    "world": "light",
+    "type": "brand",
+    "brand": "walmart",
+    "title": "Walmart",
+    "sub": "Shoppers set a spending limit",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 80,
+      "h": 280
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "So#2",
+    "world": "dark",
+    "type": "list",
+    "title": "Routine stuff",
+    "vb": "#0071DC",
+    "rows": [
+     {
+      "text": "A spending limit",
+      "at": "limit,",
+      "chip": "Yes",
+      "chipKind": "ok"
+     },
+     {
+      "text": "A meeting",
+      "at": "meeting.",
+      "chip": "No",
+      "chipKind": "bad"
+     }
+    ],
+    "px": "day",
+    "sprites": [
+     {
+      "name": "sanjana-shrug",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "boss",
+      "x": 790,
+      "h": 300,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "at": "1Password",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-1password.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "night"
+   },
+   {
+    "at": "So#3",
+    "world": "dark",
+    "type": "list",
+    "title": "Passwords",
+    "rows": [
+     {
+      "text": "Pasted into AI tools",
+      "at": "paste",
+      "chip": "Never",
+      "chipKind": "bad"
+     }
+    ],
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 80,
+      "h": 280
+     },
+     {
+      "name": "korede-shrug",
+      "x": 780,
+      "h": 300,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "at": "Microsoft",
+    "world": "light",
+    "type": "person",
+    "photo": "people/nadella.jpg",
+    "name": "Satya Nadella",
+    "role": "Microsoft CEO",
+    "quote": "We need to separate the supply of intelligence from the authority over it.",
+    "color": "#E8B84B",
+    "px": "night",
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 90,
+      "h": 300
+     }
+    ]
+   },
+   {
+    "at": "So#4",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Each AI helper gets",
+    "rows": [
+     {
+      "text": "Only the access its job needs",
+      "at": "access"
+     }
+    ],
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 90,
+      "h": 260
+     },
+     {
+      "name": "worker",
+      "x": 790,
+      "h": 300,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "at": "AI does",
+    "world": "light",
+    "type": "list",
+    "title": "Who does what",
+    "rows": [
+     {
+      "text": "AI",
+      "at": "does",
+      "chip": "Does the work",
+      "chipKind": "ok"
+     },
+     {
+      "text": "A person",
+      "at": "owns",
+      "chip": "Owns the yes",
+      "chipKind": "wait"
+     }
+    ],
+    "stamp": {
+     "text": "APPROVED",
+     "kind": "ok",
+     "at": "yes#2",
+     "x": 420,
+     "y": 520
     },
-    "tail": 2.4,
-    "keys": [
-      "4",
-      "same",
-      "yes",
-      "limit",
-      "never",
-      "insider",
-      "access",
-      "owns",
-      "workshop"
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Every",
+    "world": "dark",
+    "type": "checklist",
+    "title": "Every system we build",
+    "rows": [
+     {
+      "text": "Starts with the yes",
+      "at": "starts"
+     }
     ],
-    "strikes": [
-      "meeting"
-    ],
-    "posterAt": 2.8,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "word",
-        "text": "1 rule",
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "evil-robot",
-            "x": 770,
-            "h": 280
-          }
-        ]
-      },
-      {
-        "at": "Anthropic's",
-        "world": "light",
-        "type": "brand",
-        "brand": "anthropic",
-        "title": "Anthropic",
-        "sub": "Asks before it pays",
-        "px": "neon",
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 90,
-            "h": 260
-          },
-          {
-            "name": "sanjana-point",
-            "x": 780,
-            "h": 300,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "at": "So",
-        "world": "dark",
-        "type": "list",
-        "title": "Money out",
-        "vb": "#191919",
-        "rows": [
-          {
-            "text": "Needs a yes",
-            "at": "needs",
-            "chip": "Always",
-            "chipKind": "ok"
-          }
-        ],
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "coin",
-            "x": 820,
-            "h": 120
-          }
-        ]
-      },
-      {
-        "at": "Walmart",
-        "world": "light",
-        "type": "brand",
-        "brand": "walmart",
-        "title": "Walmart",
-        "sub": "Shoppers set a spending limit",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "shopper",
-            "x": 80,
-            "h": 280
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "So#2",
-        "world": "dark",
-        "type": "list",
-        "title": "Routine stuff",
-        "vb": "#0071DC",
-        "rows": [
-          {
-            "text": "A spending limit",
-            "at": "limit,",
-            "chip": "Yes",
-            "chipKind": "ok"
-          },
-          {
-            "text": "A meeting",
-            "at": "meeting.",
-            "chip": "No",
-            "chipKind": "bad"
-          }
-        ],
-        "px": "day",
-        "sprites": [
-          {
-            "name": "sanjana-shrug",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "boss",
-            "x": 790,
-            "h": 300,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "at": "1Password",
-        "world": "light",
-        "type": "brand",
-        "brand": "1password",
-        "title": "1Password",
-        "sub": "AI logs in, never sees the password",
-        "px": "night",
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 90,
-            "h": 260
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "So#3",
-        "world": "dark",
-        "type": "list",
-        "title": "Passwords",
-        "rows": [
-          {
-            "text": "Pasted into AI tools",
-            "at": "paste",
-            "chip": "Never",
-            "chipKind": "bad"
-          }
-        ],
-        "px": "neon",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 80,
-            "h": 280
-          },
-          {
-            "name": "korede-shrug",
-            "x": 780,
-            "h": 300,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "at": "Microsoft",
-        "world": "light",
-        "type": "person",
-        "photo": "people/nadella.jpg",
-        "name": "Satya Nadella",
-        "role": "Microsoft CEO",
-        "quote": "We need to separate the supply of intelligence from the authority over it.",
-        "color": "#E8B84B",
-        "px": "night",
-        "sprites": [
-          {
-            "name": "boss",
-            "x": 90,
-            "h": 300
-          }
-        ]
-      },
-      {
-        "at": "So#4",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Each AI helper gets",
-        "rows": [
-          {
-            "text": "Only the access its job needs",
-            "at": "access"
-          }
-        ],
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "robot",
-            "x": 90,
-            "h": 260
-          },
-          {
-            "name": "worker",
-            "x": 790,
-            "h": 300,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "at": "AI does",
-        "world": "light",
-        "type": "list",
-        "title": "Who does what",
-        "rows": [
-          {
-            "text": "AI",
-            "at": "does",
-            "chip": "Does the work",
-            "chipKind": "ok"
-          },
-          {
-            "text": "A person",
-            "at": "owns",
-            "chip": "Owns the yes",
-            "chipKind": "wait"
-          }
-        ],
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "yes#2",
-          "x": 420,
-          "y": 520
-        },
-        "px": "day",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Every",
-        "world": "dark",
-        "type": "checklist",
-        "title": "Every system we build",
-        "rows": [
-          {
-            "text": "Starts with the yes",
-            "at": "starts"
-          }
-        ],
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "sanjana-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "korede-laptop",
-            "x": 760,
-            "h": 300,
-            "flip": true
-          }
-        ]
-      },
-      {
-        "at": "Want",
-        "world": "light",
-        "type": "cta",
-        "keyword": "WORKSHOP",
-        "dm": "Next date in our profile",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 120,
-            "h": 320
-          },
-          {
-            "name": "sanjana-cheer",
-            "x": 700,
-            "h": 320
-          }
-        ]
-      }
-    ],
-    "bgLogos": [
-      "anthropic",
-      "walmart",
-      "1password",
-      "microsoft",
-      "anthropic",
-      "walmart",
-      "1password",
-      "microsoft"
-    ],
-    "pops": [
-      {
-        "at": "of",
-        "kind": "logo",
-        "brand": "anthropic",
-        "x": 40,
-        "y": 420,
-        "w": 140,
-        "rot": -8,
-        "until": "Here's"
-      },
-      {
-        "at": "biggest",
-        "kind": "logo",
-        "brand": "walmart",
-        "x": 860,
-        "y": 430,
-        "w": 170,
-        "rot": 8,
-        "until": "Here's",
-        "bare": true
-      },
-      {
-        "at": "names",
-        "kind": "logo",
-        "brand": "1password",
-        "x": 60,
-        "y": 640,
-        "w": 140,
-        "rot": 6,
-        "until": "Here's"
-      },
-      {
-        "at": "tech",
-        "kind": "logo",
-        "brand": "microsoft",
-        "x": 860,
-        "y": 640,
-        "w": 160,
-        "rot": -6,
-        "until": "Here's",
-        "bare": true
-      },
-      {
-        "at": "meeting.",
-        "kind": "burst",
-        "text": "NO MEETING",
-        "x": 40,
-        "y": 590,
-        "w": 230,
-        "size": 50,
-        "color": "#F26B1D",
-        "rot": -8,
-        "until": "1Password"
-      }
-    ],
-    "branded": true,
-    "look": "pixel",
-    "coldOpen": {
-      "until": "Here's",
-      "set": "stage",
-      "titleColor": "#C98A3C",
-      "titles": [
-        {
-          "text": [
-            "4 tech giants.",
-            "*1 AI rule.*"
-          ]
-        }
-      ],
-      "accent": [
-        "same",
-        "rule"
-      ],
-      "actors": [
-        {
-          "brand": "anthropic",
-          "props": [
-            "sign"
-          ],
-          "sign": "ASK FIRST",
-          "x": 170,
-          "scale": 0.95
-        },
-        {
-          "brand": "walmart",
-          "props": [
-            "sign"
-          ],
-          "sign": "ASK FIRST",
-          "x": 370,
-          "scale": 0.95
-        },
-        {
-          "brand": "1password",
-          "props": [
-            "sign"
-          ],
-          "sign": "ASK FIRST",
-          "x": 590,
-          "scale": 0.95
-        },
-        {
-          "brand": "microsoft",
-          "props": [
-            "sign"
-          ],
-          "sign": "ASK FIRST",
-          "x": 830,
-          "scale": 0.95
-        }
-      ],
-      "beats": [
-        {
-          "at": "4",
-          "actor": 0,
-          "do": "drop"
-        },
-        {
-          "at": "biggest",
-          "actor": 1,
-          "do": "drop"
-        },
-        {
-          "at": "names",
-          "actor": 2,
-          "do": "drop"
-        },
-        {
-          "at": "tech",
-          "actor": 3,
-          "do": "drop"
-        },
-        {
-          "at": "same",
-          "actor": 0,
-          "do": "raise"
-        },
-        {
-          "at": "same",
-          "actor": 1,
-          "do": "raise"
-        },
-        {
-          "at": "same",
-          "actor": 2,
-          "do": "raise"
-        },
-        {
-          "at": "same",
-          "actor": 3,
-          "do": "raise"
-        },
-        {
-          "at": "month.",
-          "actor": 0,
-          "do": "squash"
-        },
-        {
-          "at": "month.",
-          "actor": 1,
-          "do": "squash"
-        },
-        {
-          "at": "month.",
-          "actor": 2,
-          "do": "squash"
-        },
-        {
-          "at": "month.",
-          "actor": 3,
-          "do": "squash"
-        }
-      ]
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "korede-laptop",
+      "x": 760,
+      "h": 300,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "WORKSHOP",
+    "dm": "Next date in our profile",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 120,
+      "h": 320
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 700,
+      "h": 320
+     }
+    ]
+   }
+  ],
+  "bgLogos": [
+   "anthropic",
+   "walmart",
+   "1password",
+   "microsoft",
+   "anthropic",
+   "walmart",
+   "1password",
+   "microsoft"
+  ],
+  "pops": [
+   {
+    "at": "of",
+    "kind": "logo",
+    "brand": "anthropic",
+    "x": 40,
+    "y": 420,
+    "w": 140,
+    "rot": -8,
+    "until": "Here's"
+   },
+   {
+    "at": "biggest",
+    "kind": "logo",
+    "brand": "walmart",
+    "x": 860,
+    "y": 430,
+    "w": 170,
+    "rot": 8,
+    "until": "Here's",
+    "bare": true
+   },
+   {
+    "at": "names",
+    "kind": "logo",
+    "brand": "1password",
+    "x": 60,
+    "y": 640,
+    "w": 140,
+    "rot": 6,
+    "until": "Here's"
+   },
+   {
+    "at": "tech",
+    "kind": "logo",
+    "brand": "microsoft",
+    "x": 860,
+    "y": 640,
+    "w": 160,
+    "rot": -6,
+    "until": "Here's",
+    "bare": true
+   }
+  ],
+  "branded": true,
+  "look": "pixel",
+  "coldOpen": {
+   "until": "Here's",
+   "set": "stage",
+   "titleColor": "#C98A3C",
+   "titles": [
+    {
+     "text": [
+      "4 tech giants.",
+      "*1 AI rule.*"
+     ]
     }
-  }
+   ],
+   "accent": [
+    "same",
+    "rule"
+   ],
+   "actors": [
+    {
+     "brand": "anthropic",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 170,
+     "scale": 0.95
+    },
+    {
+     "brand": "walmart",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 370,
+     "scale": 0.95
+    },
+    {
+     "brand": "1password",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 590,
+     "scale": 0.95
+    },
+    {
+     "brand": "microsoft",
+     "props": [
+      "sign"
+     ],
+     "sign": "ASK FIRST",
+     "x": 830,
+     "scale": 0.95
+    }
+   ],
+   "beats": [
+    {
+     "at": "4",
+     "actor": 0,
+     "do": "drop"
+    },
+    {
+     "at": "biggest",
+     "actor": 1,
+     "do": "drop"
+    },
+    {
+     "at": "names",
+     "actor": 2,
+     "do": "drop"
+    },
+    {
+     "at": "tech",
+     "actor": 3,
+     "do": "drop"
+    },
+    {
+     "at": "same",
+     "actor": 0,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 1,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 2,
+     "do": "raise"
+    },
+    {
+     "at": "same",
+     "actor": 3,
+     "do": "raise"
+    },
+    {
+     "at": "month.",
+     "actor": 0,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 1,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 2,
+     "do": "squash"
+    },
+    {
+     "at": "month.",
+     "actor": 3,
+     "do": "squash"
+    }
+   ],
+   "font": "ig"
+  },
+  "badgeH": 110,
+  "badgeY": 1000
+ }
 }

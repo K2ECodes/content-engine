@@ -378,41 +378,6 @@
     "w": 140,
     "rot": -6,
     "until": "Peak"
-   },
-   {
-    "at": "Our",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 290,
-    "w": 220,
-    "size": 60,
-    "color": "#E8B84B",
-    "rot": 12
-   },
-   {
-    "at": "cutoff.",
-    "kind": "burst",
-    "text": "AFTER 5PM",
-    "x": 800,
-    "y": 290,
-    "w": 230,
-    "size": 50,
-    "color": "#E8B84B",
-    "rot": 10,
-    "until": "Retailer"
-   },
-   {
-    "at": "expiry",
-    "kind": "burst",
-    "text": "CHECK NOW",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#F26B1D",
-    "rot": -8,
-    "until": "At#2"
    }
   ],
   "branded": true,
@@ -489,7 +454,10 @@
      "actor": 0,
      "do": "fall"
     }
-   ]
-  }
+   ],
+   "font": "ig"
+  },
+  "badgeH": 110,
+  "badgeY": 1000
  }
 }

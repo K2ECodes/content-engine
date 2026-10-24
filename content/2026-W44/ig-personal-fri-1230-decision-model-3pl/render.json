@@ -48,7 +48,8 @@
     "role": "OpenAI CEO",
     "bg": "bg/speed-tunnel.png",
     "color": "#10A37F",
-    "bgc": "#0B6E4F"
+    "bgc": "#0B6E4F",
+    "look": "cinema"
    },
    {
     "at": "picks",
@@ -74,27 +75,12 @@
    {
     "at": "Speak",
     "world": "light",
-    "type": "list",
-    "title": "Speak, time between steps",
-    "badge": "Oct 2026",
-    "rows": [
-     {
-      "text": "Before",
-      "val": "1.4 s",
-      "chip": "Slow",
-      "chipKind": "bad",
-      "at": "1.4"
-     },
-     {
-      "text": "Now",
-      "val": "0.13 s",
-      "chip": "Fast",
-      "chipKind": "ok",
-      "at": "0.13"
-     }
-    ],
-    "bg": "bg/speed-tunnel.png",
-    "bgc": "#0B6E4F"
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-decisions.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema"
    },
    {
     "at": "Most",
@@ -204,8 +190,20 @@
       "at": "fine"
      }
     ],
-    "bg": "bg/speed-tunnel.png",
-    "bgc": "#17281C"
+    "bgc": "#17281C",
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 120,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 640,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "When",
@@ -298,18 +296,6 @@
     "until": "A chat"
    },
    {
-    "at": "milliseconds.",
-    "kind": "burst",
-    "text": "100 MS",
-    "x": 40,
-    "y": 1230,
-    "w": 250,
-    "size": 38,
-    "color": "#FFE066",
-    "rot": -10,
-    "until": "A chat"
-   },
-   {
     "at": "choosing.",
     "kind": "sprite",
     "sprite": "chart",
@@ -317,18 +303,6 @@
     "y": 260,
     "w": 200,
     "until": "Here's"
-   },
-   {
-    "at": "blink.",
-    "kind": "burst",
-    "text": "BLINK",
-    "x": 40,
-    "y": 1230,
-    "w": 250,
-    "size": 38,
-    "color": "#9CCAA0",
-    "rot": 10,
-    "until": "When"
    },
    {
     "at": "person.",
@@ -449,7 +423,8 @@
      "actor": 0,
      "do": "fall"
     }
-   ]
+   ],
+   "font": "ig"
   },
   "sfxGain": 1.6
  }

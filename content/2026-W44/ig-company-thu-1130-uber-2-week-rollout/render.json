@@ -33,28 +33,18 @@
     "value": "30,000",
     "label": "Uber staff now on AI",
     "landAt": "staff.",
-    "bg": "bg/uber-car.png"
+    "bg": "bg/uber-car.png",
+    "look": "cinema"
    },
    {
     "at": "The",
     "world": "light",
-    "type": "list",
-    "title": "What made it work",
-    "rows": [
-     {
-      "text": "The tool",
-      "at": "tool",
-      "chip": "No",
-      "chipKind": "bad"
-     },
-     {
-      "text": "The rollout",
-      "at": "rollout",
-      "chip": "Yes",
-      "chipKind": "ok"
-     }
-    ],
-    "bg": "bg/uber-car.png"
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-uber.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema"
    },
    {
     "at": "Step",
@@ -94,7 +84,19 @@
       "chipKind": "ok"
      }
     ],
-    "bg": "bg/team.png"
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 120,
+      "h": 300
+     },
+     {
+      "name": "sanjana-point",
+      "x": 640,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "Step#2",
@@ -111,7 +113,8 @@
     "value": "30",
     "label": "AI engineers paired with teams",
     "landAt": "30",
-    "bg": "bg/team.png"
+    "bg": "bg/team.png",
+    "look": "cinema"
    },
    {
     "at": "Step#3",
@@ -277,33 +280,9 @@
     "y": 250,
     "w": 160,
     "until": "Buying"
-   },
-   {
-    "at": "Bring",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 290,
-    "w": 220,
-    "size": 60,
-    "color": "#E8B84B",
-    "rot": 12
-   },
-   {
-    "at": "login",
-    "kind": "burst",
-    "text": "LOGIN SENT?",
-    "x": 40,
-    "y": 590,
-    "w": 230,
-    "size": 50,
-    "color": "#F26B1D",
-    "rot": -8,
-    "until": "This"
    }
   ],
   "branded": true,
-  "stop": false,
   "coldOpen": {
    "until": "The",
    "set": "office",
@@ -350,7 +329,9 @@
      "actor": 1,
      "do": "celebrate"
     }
-   ]
-  }
+   ],
+   "font": "ig"
+  },
+  "badgeH": 110
  }
 }

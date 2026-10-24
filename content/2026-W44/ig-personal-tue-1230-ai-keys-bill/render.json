@@ -17,19 +17,13 @@
   "scenes": [
    {
     "world": "dark",
-    "type": "shot",
-    "src": "shots/c-headline.png",
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-opencode.mp4",
     "url": "techcrunch.com",
-    "h": 624,
-    "pan": 20,
-    "px": "night",
-    "sprites": [
-     {
-      "name": "evil-robot",
-      "x": 760,
-      "h": 280
-     }
-    ]
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "night"
    },
    {
     "at": "Here's",
@@ -293,18 +287,6 @@
   ],
   "pops": [
    {
-    "at": "$1,000",
-    "kind": "burst",
-    "text": "$1,000+",
-    "x": 420,
-    "y": 1130,
-    "w": 240,
-    "size": 38,
-    "color": "#FFE066",
-    "rot": -10,
-    "until": "Here's"
-   },
-   {
     "at": "Attackers",
     "kind": "sprite",
     "sprite": "evil-robot",
@@ -341,18 +323,6 @@
     "y": 600,
     "w": 150,
     "rot": -4,
-    "until": "If"
-   },
-   {
-    "at": "overnight.",
-    "kind": "burst",
-    "text": "OOPS",
-    "x": 420,
-    "y": 1130,
-    "w": 240,
-    "size": 38,
-    "color": "#FF5A4E",
-    "rot": 10,
     "until": "If"
    },
    {
@@ -469,7 +439,8 @@
      "actor": 0,
      "do": "panic"
     }
-   ]
+   ],
+   "font": "ig"
   },
   "sfxGain": 1.6
  }

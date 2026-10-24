@@ -1,5 +1,6 @@
 ## Caption
 Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and every one of them starts with the same rule: AI does the work, a person owns the yes.
+Comment WORKSHOP and we'll send you the details for the next live build.
 
 This month 4 of the biggest names in tech shipped that rule. Each one teaches something you can apply this week:
 

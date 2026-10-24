@@ -1,463 +1,398 @@
 {
-  "template": "story",
-  "data": {
-    "words": "words.json",
-    "audio": "audio/vo.wav",
-    "music": {
-      "file": "audio/music.mp3",
-      "volume": 0.11
-    },
-    "script": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system and the bank, all with 1 master key. Now 1 bad instruction can touch everything. Satya Nadella said it plainly. Separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. In my live workshop, I build an AI employee with these exact rules, with you. Want in? Comment WORKSHOP and I'll send you the details. The next date's in my profile.",
-    "keys": [
-      "insider",
-      "threats",
-      "master",
-      "everything",
-      "approves",
-      "workshop"
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.11
+  },
+  "script": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system and the bank, all with 1 master key. Now 1 bad instruction can touch everything. Satya Nadella said it plainly. Separate the supply of intelligence from the authority over it. So here's how I build at Content Systems.ai. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. In my live workshop, I build an AI employee with these exact rules, with you. Want in? Comment WORKSHOP and I'll send you the details. The next date's in my profile.",
+  "keys": [
+   "insider",
+   "threats",
+   "master",
+   "everything",
+   "approves",
+   "workshop"
+  ],
+  "strikes": [],
+  "posterAt": 1.2,
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-msft-insider.mp4",
+    "url": "techcrunch.com",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "night"
+   },
+   {
+    "at": "And",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/c-insider.png",
+    "url": "techcrunch.com",
+    "h": 700,
+    "pan": 15,
+    "caption": "An agent you pay for, acting like a rogue employee",
+    "px": "night",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 280
+     },
+     {
+      "name": "boss",
+      "x": 780,
+      "h": 300
+     }
+    ]
+   },
+   {
+    "at": "Someone",
+    "world": "dark",
+    "type": "list",
+    "title": "agent-access",
+    "badge": "1 KEY",
+    "rows": [
+     {
+      "text": "Email",
+      "chip": "FULL",
+      "chipKind": "bad",
+      "at": "email"
+     },
+     {
+      "text": "Warehouse system",
+      "chip": "FULL",
+      "chipKind": "bad",
+      "at": "warehouse"
+     },
+     {
+      "text": "Bank",
+      "chip": "FULL",
+      "chipKind": "bad",
+      "at": "bank"
+     }
     ],
-    "strikes": [],
-    "posterAt": 1.2,
-    "scenes": [
-      {
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-headline.png",
-        "url": "techcrunch.com",
-        "h": 624,
-        "pan": 20,
-        "px": "night",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 760,
-            "h": 280
-          }
-        ]
-      },
-      {
-        "at": "And",
-        "world": "light",
-        "type": "shot",
-        "src": "shots/c-insider.png",
-        "url": "techcrunch.com",
-        "h": 700,
-        "pan": 15,
-        "caption": "An agent you pay for, acting like a rogue employee",
-        "px": "night",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 70,
-            "h": 280
-          },
-          {
-            "name": "boss",
-            "x": 780,
-            "h": 300
-          }
-        ]
-      },
-      {
-        "at": "Someone",
-        "world": "dark",
-        "type": "list",
-        "title": "agent-access",
-        "badge": "1 KEY",
-        "rows": [
-          {
-            "text": "Email",
-            "chip": "FULL",
-            "chipKind": "bad",
-            "at": "email"
-          },
-          {
-            "text": "Warehouse system",
-            "chip": "FULL",
-            "chipKind": "bad",
-            "at": "warehouse"
-          },
-          {
-            "text": "Bank",
-            "chip": "FULL",
-            "chipKind": "bad",
-            "at": "bank"
-          }
-        ],
-        "px": "warehouse",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "box-monster",
-            "x": 760,
-            "h": 220
-          }
-        ]
-      },
-      {
-        "at": "Now",
-        "world": "light",
-        "type": "stat",
-        "value": "1",
-        "label": "bad instruction can touch everything",
-        "px": "neon",
-        "sprites": [
-          {
-            "name": "evil-robot",
-            "x": 770,
-            "h": 280
-          },
-          {
-            "name": "korede-shrug",
-            "x": 60,
-            "h": 300
-          }
-        ]
-      },
-      {
-        "at": "Satya",
-        "world": "dark",
-        "type": "person",
-        "photo": "people/satya-nadella.jpg",
-        "name": "Satya Nadella",
-        "role": "Microsoft CEO",
-        "color": "#00A4EF",
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          }
-        ]
-      },
-      {
-        "at": "separate",
-        "world": "dark",
-        "type": "shot",
-        "src": "shots/c-nadella.png",
-        "url": "techcrunch.com",
-        "h": 790,
-        "pan": 15,
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "So",
-        "world": "light",
-        "type": "word",
-        "text": "MY RULES",
-        "px": "factory",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 380,
-            "h": 320
-          }
-        ]
-      },
-      {
-        "at": "Each",
-        "world": "dark",
-        "type": "checklist",
-        "title": "every agent",
-        "rows": [
-          {
-            "text": "Sees only what its job needs",
-            "at": "sees"
-          },
-          {
-            "text": "Gets its own key",
-            "at": "gets"
-          },
-          {
-            "text": "A person approves what leaves",
-            "at": "approves"
-          }
-        ],
-        "px": "warehouse",
-        "sprites": [
-          {
-            "name": "worker",
-            "x": 80,
-            "h": 300
-          },
-          {
-            "name": "robot",
-            "x": 780,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "Emails",
-        "world": "light",
-        "type": "list",
-        "title": "waiting for a yes",
-        "badge": "3",
-        "rows": [
-          {
-            "text": "Customer emails",
-            "chip": "WAIT",
-            "chipKind": "wait",
-            "at": "emails"
-          },
-          {
-            "text": "Refunds",
-            "chip": "WAIT",
-            "chipKind": "wait",
-            "at": "refunds"
-          },
-          {
-            "text": "Payments",
-            "chip": "WAIT",
-            "chipKind": "wait",
-            "at": "payments"
-          }
-        ],
-        "stamp": {
-          "text": "APPROVED",
-          "kind": "ok",
-          "at": "payments.",
-          "x": 260,
-          "y": 830
-        },
-        "px": "hq",
-        "sprites": [
-          {
-            "name": "korede-point",
-            "x": 60,
-            "h": 300
-          },
-          {
-            "name": "shopper",
-            "x": 790,
-            "h": 260
-          }
-        ]
-      },
-      {
-        "at": "In my",
-        "world": "dark",
-        "type": "stat",
-        "value": "LIVE",
-        "label": "building an AI employee with these rules",
-        "px": "sunset",
-        "sprites": [
-          {
-            "name": "korede-laptop",
-            "x": 70,
-            "h": 300
-          },
-          {
-            "name": "cat",
-            "x": 800,
-            "h": 150
-          }
-        ]
-      },
-      {
-        "at": "Want",
-        "world": "light",
-        "type": "cta",
-        "keyword": "WORKSHOP",
-        "dm": "Next date in my profile",
-        "px": "day",
-        "sprites": [
-          {
-            "name": "korede-cheer",
-            "x": 380,
-            "h": 320
-          }
-        ]
-      }
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "box-monster",
+      "x": 760,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "at": "Now",
+    "world": "light",
+    "type": "stat",
+    "value": "1",
+    "label": "bad instruction can touch everything",
+    "px": "neon",
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 770,
+      "h": 280
+     },
+     {
+      "name": "korede-shrug",
+      "x": 60,
+      "h": 300
+     }
+    ]
+   },
+   {
+    "at": "Satya",
+    "world": "dark",
+    "type": "person",
+    "photo": "people/satya-nadella.jpg",
+    "name": "Satya Nadella",
+    "role": "Microsoft CEO",
+    "color": "#00A4EF",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 60,
+      "h": 300
+     }
+    ]
+   },
+   {
+    "at": "separate",
+    "world": "dark",
+    "type": "shot",
+    "src": "shots/c-nadella.png",
+    "url": "techcrunch.com",
+    "h": 790,
+    "pan": 15,
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "So",
+    "world": "light",
+    "type": "word",
+    "text": "MY RULES",
+    "px": "factory",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 380,
+      "h": 320
+     }
+    ]
+   },
+   {
+    "at": "Each",
+    "world": "dark",
+    "type": "checklist",
+    "title": "every agent",
+    "rows": [
+     {
+      "text": "Sees only what its job needs",
+      "at": "sees"
+     },
+     {
+      "text": "Gets its own key",
+      "at": "gets"
+     },
+     {
+      "text": "A person approves what leaves",
+      "at": "approves"
+     }
     ],
-    "heygen": {
-      "say": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system and the bank, all with one master key. Now one bad instruction can touch everything. Satya Nadella said it plainly. Separate the supply of intelligence from the authority over it. So here's how I build at Cunntent Systems dot A I. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. In my live workshop, I build an AI employee with these exact rules, with you. Want in? Comment workshop and I'll send you the details. The next date's in my profile."
-    },
-    "bgLogos": [
-      "microsoft",
-      "microsoft",
-      "microsoft",
-      "microsoft"
-    ],
-    "pops": [
-      {
-        "at": "Microsoft",
-        "kind": "logo",
-        "brand": "microsoft",
-        "x": 90,
-        "y": 250,
-        "w": 160,
-        "rot": -8,
-        "until": "And"
-      },
-      {
-        "at": "threats.",
-        "kind": "burst",
-        "text": "INSIDER\nTHREAT",
-        "x": 420,
-        "y": 1130,
-        "w": 240,
-        "size": 38,
-        "color": "#FFE066",
-        "rot": -10,
-        "until": "Someone"
-      },
-      {
-        "at": "bad",
-        "kind": "sprite",
-        "sprite": "evil-robot",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "Satya"
-      },
-      {
-        "at": "person",
-        "kind": "sprite",
-        "sprite": "worker",
-        "x": 780,
-        "y": 260,
-        "w": 200,
-        "until": "In my"
-      },
-      {
-        "at": "live",
-        "kind": "burst",
-        "text": "LIVE",
-        "x": 420,
-        "y": 1130,
-        "w": 240,
-        "size": 38,
-        "color": "#9CCAA0",
-        "rot": 10,
-        "until": "Want"
-      },
-      {
-        "at": "Microsoft",
-        "kind": "logo",
-        "brand": "openai",
-        "x": 90,
-        "y": 600,
-        "w": 150,
-        "rot": -8,
-        "bare": true,
-        "until": "And"
-      },
-      {
-        "at": "just",
-        "kind": "logo",
-        "brand": "claude",
-        "x": 800,
-        "y": 640,
-        "w": 150,
-        "rot": 8,
-        "bare": true,
-        "until": "And"
-      },
-      {
-        "at": "warehouse",
-        "kind": "sprite",
-        "sprite": "box",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "Now"
-      },
-      {
-        "at": "bank,",
-        "kind": "sprite",
-        "sprite": "coin",
-        "x": 600,
-        "y": 600,
-        "w": 150,
-        "until": "Now"
-      },
-      {
-        "at": "approves",
-        "kind": "sprite",
-        "sprite": "button",
-        "x": 780,
-        "y": 560,
-        "w": 180,
-        "until": "Emails,"
-      }
-    ],
-    "look": "pixel",
-    "coldOpen": {
-      "until": "And",
-      "set": "office",
-      "titleColor": "#0F6CBD",
-      "titles": [
-        {
-          "text": [
-            "Treat AI agents",
-            "*like insider threats.*"
-          ]
-        }
-      ],
-      "accent": [
-        "insider"
-      ],
-      "actors": [
-        {
-          "brand": "microsoft",
-          "props": [
-            "magnifier"
-          ],
-          "x": 250
-        },
-        {
-          "thing": "bot",
-          "limbs": true,
-          "color": "#9FC3EA",
-          "props": [
-            "mask"
-          ],
-          "x": 720
-        }
-      ],
-      "beats": [
-        {
-          "at": "told",
-          "actor": 1,
-          "do": "sneak",
-          "from": "right"
-        },
-        {
-          "at": "treat",
-          "actor": 0,
-          "do": "point",
-          "dir": "right"
-        },
-        {
-          "at": "insider",
-          "actor": 0,
-          "do": "squash",
-          "say": "Insider threat."
-        },
-        {
-          "at": "threats.",
-          "actor": 1,
-          "do": "panic"
-        }
-      ]
+    "px": "warehouse",
+    "sprites": [
+     {
+      "name": "worker",
+      "x": 80,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 780,
+      "h": 260
+     }
+    ]
+   },
+   {
+    "at": "Emails",
+    "world": "light",
+    "type": "clip",
+    "src": "assets/demo-clips/approval-gate-chat-gold.mp4",
+    "url": "AI chat · waiting for your yes",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "hq"
+   },
+   {
+    "at": "In my",
+    "world": "dark",
+    "type": "stat",
+    "value": "LIVE",
+    "label": "building an AI employee with these rules",
+    "px": "sunset",
+    "sprites": [
+     {
+      "name": "korede-laptop",
+      "x": 70,
+      "h": 300
+     },
+     {
+      "name": "cat",
+      "x": 800,
+      "h": 150
+     }
+    ]
+   },
+   {
+    "at": "Want",
+    "world": "light",
+    "type": "cta",
+    "keyword": "WORKSHOP",
+    "dm": "Next date in my profile",
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 380,
+      "h": 320
+     }
+    ]
+   }
+  ],
+  "heygen": {
+   "say": "Microsoft just told companies to treat AI agents like insider threats. And most setups I see make that worse. Here's the mistake. Someone connects an agent to email, the warehouse system and the bank, all with one master key. Now one bad instruction can touch everything. Satya Nadella said it plainly. Separate the supply of intelligence from the authority over it. So here's how I build at Cunntent Systems dot A I. Each agent only sees what its job needs. It gets its own key. And a person approves anything that goes out. Emails, refunds, payments. In my live workshop, I build an AI employee with these exact rules, with you. Want in? Comment workshop and I'll send you the details. The next date's in my profile."
+  },
+  "bgLogos": [
+   "microsoft",
+   "microsoft",
+   "microsoft",
+   "microsoft"
+  ],
+  "pops": [
+   {
+    "at": "Microsoft",
+    "kind": "logo",
+    "brand": "microsoft",
+    "x": 90,
+    "y": 250,
+    "w": 160,
+    "rot": -8,
+    "until": "And"
+   },
+   {
+    "at": "bad",
+    "kind": "sprite",
+    "sprite": "evil-robot",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "Satya"
+   },
+   {
+    "at": "person",
+    "kind": "sprite",
+    "sprite": "worker",
+    "x": 780,
+    "y": 260,
+    "w": 200,
+    "until": "In my"
+   },
+   {
+    "at": "Microsoft",
+    "kind": "logo",
+    "brand": "openai",
+    "x": 90,
+    "y": 600,
+    "w": 150,
+    "rot": -8,
+    "bare": true,
+    "until": "And"
+   },
+   {
+    "at": "just",
+    "kind": "logo",
+    "brand": "claude",
+    "x": 800,
+    "y": 640,
+    "w": 150,
+    "rot": 8,
+    "bare": true,
+    "until": "And"
+   },
+   {
+    "at": "warehouse",
+    "kind": "sprite",
+    "sprite": "box",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "Now"
+   },
+   {
+    "at": "bank,",
+    "kind": "sprite",
+    "sprite": "coin",
+    "x": 600,
+    "y": 600,
+    "w": 150,
+    "until": "Now"
+   },
+   {
+    "at": "approves",
+    "kind": "sprite",
+    "sprite": "button",
+    "x": 780,
+    "y": 560,
+    "w": 180,
+    "until": "Emails,"
+   }
+  ],
+  "look": "pixel",
+  "coldOpen": {
+   "until": "And",
+   "set": "office",
+   "titleColor": "#0F6CBD",
+   "titles": [
+    {
+     "text": [
+      "Treat AI agents",
+      "*like insider threats.*"
+     ]
     }
+   ],
+   "accent": [
+    "insider"
+   ],
+   "actors": [
+    {
+     "brand": "microsoft",
+     "props": [
+      "magnifier"
+     ],
+     "x": 250
+    },
+    {
+     "thing": "bot",
+     "limbs": true,
+     "color": "#9FC3EA",
+     "props": [
+      "mask"
+     ],
+     "x": 720
+    }
+   ],
+   "beats": [
+    {
+     "at": "told",
+     "actor": 1,
+     "do": "sneak",
+     "from": "right"
+    },
+    {
+     "at": "treat",
+     "actor": 0,
+     "do": "point",
+     "dir": "right"
+    },
+    {
+     "at": "insider",
+     "actor": 0,
+     "do": "squash",
+     "say": "Insider threat."
+    },
+    {
+     "at": "threats.",
+     "actor": 1,
+     "do": "panic"
+    }
+   ],
+   "font": "ig"
   }
+ }
 }

@@ -1,5 +1,6 @@
 ## Caption
 We run Content Systems.ai on 100+ AI employees. Not 1 of them can send a refund on its own.
+Comment WORKSHOP and we'll send you the details for the next live build.
 
 The rule: let AI draft anything, but 4 things always wait for a person's yes. Money going out, a message to a customer, a quote or a contract, deleting data.
 

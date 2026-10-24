@@ -34,7 +34,8 @@
     "role": "Google CEO",
     "bg": "bg/cloud-towers.png",
     "color": "#8AB4F8",
-    "bgc": "#2D5BE3"
+    "bgc": "#0B6E4F",
+    "look": "cinema"
    },
    {
     "at": "OpenAI's#2",
@@ -45,7 +46,8 @@
     "role": "OpenAI CEO",
     "bg": "bg/datacenter.png",
     "color": "#10A37F",
-    "bgc": "#F2B705"
+    "bgc": "#F2B705",
+    "look": "cinema"
    },
    {
     "at": "Cloud's",
@@ -79,7 +81,7 @@
      }
     ],
     "bg": "bg/cloud-towers.png",
-    "bgc": "#2D5BE3"
+    "bgc": "#0B6E4F"
    },
    {
     "at": "Microsoft",
@@ -118,8 +120,20 @@
       "at": "company"
      }
     ],
-    "bg": "bg/menu-wall.png",
-    "bgc": "#2D5BE3"
+    "bgc": "#0B6E4F",
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "korede-shrug",
+      "x": 120,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 640,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "Rivals",
@@ -160,7 +174,7 @@
     "prompt": "AI",
     "dm": "Sent: your free AI starter pack",
     "bg": "bg/datacenter.png",
-    "bgc": "#2D5BE3"
+    "bgc": "#0B6E4F"
    }
   ],
   "heygen": {
@@ -200,18 +214,6 @@
     "until": "Yes"
    },
    {
-    "at": "Google#2",
-    "kind": "burst",
-    "text": "GOOGLE?",
-    "x": 40,
-    "y": 1230,
-    "w": 250,
-    "size": 38,
-    "color": "#FFE066",
-    "rot": -10,
-    "until": "Here's"
-   },
-   {
     "at": "Gemini.",
     "kind": "logo",
     "brand": "gemini",
@@ -249,17 +251,6 @@
     "y": 260,
     "w": 200,
     "until": "Would"
-   },
-   {
-    "at": "Want",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 780,
-    "y": 300,
-    "w": 220,
-    "size": 60,
-    "color": "#9CCAA0",
-    "rot": 12
    },
    {
     "at": "OpenAI's",
@@ -367,7 +358,8 @@
      "actor": 0,
      "do": "celebrate"
     }
-   ]
+   ],
+   "font": "ig"
   },
   "sfxGain": 1.6
  }

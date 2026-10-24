@@ -127,37 +127,13 @@
    {
     "at": "Write",
     "world": "dark",
-    "type": "list",
-    "title": "Same skill, any tool",
-    "badge": "1 file",
-    "rows": [
-     {
-      "text": "Claude",
-      "chip": "Runs",
-      "chipKind": "ok",
-      "at": "Claude"
-     },
-     {
-      "text": "ChatGPT",
-      "chip": "Runs",
-      "chipKind": "ok",
-      "at": "ChatGPT"
-     },
-     {
-      "text": "Cursor",
-      "chip": "Runs",
-      "chipKind": "ok",
-      "at": "Cursor"
-     }
-    ],
-    "px": "neon",
-    "sprites": [
-     {
-      "name": "korede-cheer",
-      "x": 380,
-      "h": 320
-     }
-    ]
+    "type": "clip",
+    "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+    "url": "github.com/anthropics/skills",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "neon"
    },
    {
     "at": "No",
@@ -220,36 +196,13 @@
    {
     "at": "1",
     "world": "light",
-    "type": "list",
-    "title": "inbox-triage",
-    "badge": "1 of 5",
-    "rows": [
-     {
-      "text": "Needs you",
-      "chip": "Top",
-      "chipKind": "ok",
-      "at": "needs"
-     },
-     {
-      "text": "Can wait",
-      "chip": "Later",
-      "chipKind": "wait",
-      "at": "doesn't"
-     }
-    ],
-    "px": "factory",
-    "sprites": [
-     {
-      "name": "korede-laptop",
-      "x": 70,
-      "h": 300
-     },
-     {
-      "name": "cat",
-      "x": 800,
-      "h": 150
-     }
-    ]
+    "type": "clip",
+    "src": "assets/demo-clips/inbox-triage-chat-emerald.mp4",
+    "url": "AI chat · waiting for your yes",
+    "h": 900,
+    "ss": 0,
+    "look": "cinema",
+    "px": "factory"
    },
    {
     "at": "2",
@@ -477,18 +430,6 @@
     "until": "Over"
    },
    {
-    "at": "280M",
-    "kind": "burst",
-    "text": "280M",
-    "x": 420,
-    "y": 1130,
-    "w": 240,
-    "size": 38,
-    "color": "#FFE066",
-    "rot": -10,
-    "until": "Here's"
-   },
-   {
     "at": "Claude,",
     "kind": "logo",
     "brand": "claude",
@@ -534,17 +475,6 @@
     "y": 260,
     "w": 200,
     "until": "Want"
-   },
-   {
-    "at": "Want",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 780,
-    "y": 300,
-    "w": 220,
-    "size": 60,
-    "color": "#9CCAA0",
-    "rot": 12
    },
    {
     "at": "Anthropic",
@@ -643,7 +573,8 @@
      "actor": 2,
      "do": "jump"
     }
-   ]
+   ],
+   "font": "ig"
   },
   "sfxGain": 1.6
  }

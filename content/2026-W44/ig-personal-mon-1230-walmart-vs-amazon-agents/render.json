@@ -9,12 +9,12 @@
   "scenes": [
    {
     "world": "dark",
-    "type": "shot",
-    "src": "shots/walmart-crop.png",
+    "type": "clip",
+    "src": "assets/demo-clips/web-tc-walmart.mp4",
     "url": "techcrunch.com",
-    "caption": "Walmart: AI agents welcome",
-    "h": 980,
-    "pan": 120
+    "h": 900,
+    "ss": 0,
+    "look": "cinema"
    },
    {
     "at": "Amazon",
@@ -34,7 +34,8 @@
     "name": "John Furner",
     "role": "Walmart CEO",
     "bg": "bg/aisle.png",
-    "color": "#FFC220"
+    "color": "#FFC220",
+    "look": "cinema"
    },
    {
     "at": "assistants",
@@ -69,7 +70,8 @@
     "name": "Andy Jassy",
     "role": "Amazon CEO",
     "bg": "bg/gate.png",
-    "color": "#FF9900"
+    "color": "#FF9900",
+    "look": "cinema"
    },
    {
     "at": "Meanwhile,",
@@ -125,7 +127,19 @@
      "x": 760,
      "y": 1150
     },
-    "bg": "bg/aisle.png"
+    "px": "hq",
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 120,
+      "h": 300
+     },
+     {
+      "name": "robot",
+      "x": 640,
+      "h": 300
+     }
+    ]
    },
    {
     "at": "stores",
@@ -225,18 +239,6 @@
     "until": "Amazon"
    },
    {
-    "at": "mistake.",
-    "kind": "burst",
-    "text": "HUGE\nMISTAKE?",
-    "x": 620,
-    "y": 380,
-    "w": 300,
-    "size": 46,
-    "color": "#FFE066",
-    "rot": -10,
-    "until": "Here's"
-   },
-   {
     "at": "blocking",
     "kind": "sprite",
     "sprite": "evil-robot",
@@ -291,17 +293,6 @@
     "y": 620,
     "w": 200,
     "until": "Walmart#3"
-   },
-   {
-    "at": "comment",
-    "kind": "burst",
-    "text": "FREE",
-    "x": 800,
-    "y": 300,
-    "w": 220,
-    "size": 60,
-    "color": "#9CCAA0",
-    "rot": 12
    },
    {
     "at": "Walmart#2",
@@ -378,7 +369,6 @@
    "amazon",
    "gemini"
   ],
-  "stop": false,
   "coldOpen": {
    "until": "And",
    "set": "store",
@@ -462,7 +452,8 @@
      "actor": 1,
      "do": "sad"
     }
-   ]
+   ],
+   "font": "ig"
   },
   "sfxGain": 1.6
  }
