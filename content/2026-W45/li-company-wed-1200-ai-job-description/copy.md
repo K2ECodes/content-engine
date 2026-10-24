@@ -1,16 +1,23 @@
 ## Caption
+Comment "WORKSHOP" and we'll send you the details of our live workshop plus the free AI employee starter pack.
+
 Content Systems.ai teaches business owners to build AI employees with a real job description, so they save time without losing control.
-Comment WORKSHOP and we'll send you the details of our live workshop plus the free AI employee starter pack.
 
 2 stories from this month say the same thing.
 
-A software company launched 61 AI employee roles backed by 515 written SOPs, each with limits that need a person's sign-off. And MIT researchers left AI agents alone with no task: they invented their own goals and games.
+A software company launched 61 AI employee roles backed by 515 written SOPs, each with limits that need a person's sign-off.
 
-An AI employee without a job writes its own. With 1, it does the work you hired it for.
+And MIT researchers left AI agents alone with no task: they invented their own goals and games.
 
-Every AI employee we build gets 4 things before it starts: 1 job, 1 owner, a list of what needs a person's yes, and an off switch. In the workshop you build your first 2 with us, live on Zoom, and see the 100+ that run our own company.
+An AI employee without a job writes its own.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our profile for the next date.
+With 1, it does the work you hired it for.
+
+Every AI employee we build gets 4 things before it starts: 1 job, 1 owner, a list of what needs a person's yes, and an off switch.
+
+In the workshop you build your first 2 with us, live on Zoom, and see the 100+ that run our own company.
+
+Want in on the next AI workshop?
 
 #Ecommerce #3PL #Logistics #Fulfillment #Operations #SmallBusiness #AI #Automation #SupplyChain #BusinessOwners #Leadership
 

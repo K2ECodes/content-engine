@@ -1,11 +1,29 @@
 ## Caption
-3 places unbilled warehouse work hides. Want the full checklist? Comment SYSTEMS and we'll send it to you free.
+Comment "SYSTEMS" and we'll send you the full checklist free.
 
-1. Storage past the free period. Pull every pallet older than its free days and check it's on this month's bill.
-2. Special handling. Relabels, reboxing, anything the floor touched twice. Get that list from your shift leads every Friday.
-3. Jobs quoted in an email. Kitting and rush work agreed by email rarely reach billing. Search your inbox for "quote" and match each one to an invoice.
+3 places unbilled warehouse work hides.
 
-The work isn't the problem. Getting it to billing is. Content Systems.ai automates that check for 3PLs, and your team approves every line before it's billed.
+1. Storage past the free period.
+
+Pull every pallet older than its free days and check it's on this month's bill.
+
+2. Special handling.
+
+Relabels, reboxing, anything the floor touched twice.
+
+Get that list from your shift leads every Friday.
+
+3. Jobs quoted in an email.
+
+Kitting and rush work agreed by email rarely reach billing.
+
+Search your inbox for "quote" and match each one to an invoice.
+
+The work isn't the problem.
+
+Getting it to billing is.
+
+Content Systems.ai automates that check for 3PLs, and your team approves every line before it's billed.
 
 #3PL #logistics #warehouse #fulfillment #3PLbilling
 

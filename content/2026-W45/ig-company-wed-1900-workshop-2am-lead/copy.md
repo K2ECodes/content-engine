@@ -1,10 +1,17 @@
 ## Caption
-A lead comes in at 2 AM. Who answers it?
-Comment WORKSHOP and we'll send you the details of our live AI workshop, plus the AI employee starter pack.
+Comment "WORKSHOP" and we'll send you the details of our live AI workshop, plus the AI employee starter pack.
 
-In the workshop you set up Claude properly on your own account and build your first 2 AI employees with us. 1 of them answers a new lead in seconds, any hour. You'll also see the 100+ that run our own company.
+A lead comes in at 2 AM.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our bio for the next date.
+Who answers it?
+
+In the workshop you set up Claude properly on your own account and build your first 2 AI employees with us.
+
+1 of them answers a new lead in seconds, any hour.
+
+You'll also see the 100+ that run our own company.
+
+Want in on the next AI workshop?
 
 #smallbusiness #AI #automation #entrepreneur #workshop
 

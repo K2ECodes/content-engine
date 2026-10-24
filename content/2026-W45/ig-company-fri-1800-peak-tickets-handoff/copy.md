@@ -1,8 +1,19 @@
 ## Caption
-Peak season will triple your support inbox. Let AI answer most of it, and hand these 5 to a person.
-Comment SYSTEMS and we'll send you the free support handoff map.
+Comment "SYSTEMS" and we'll send you the free support handoff map.
 
-Angry customers. Money decisions over your limit. Broken or missing items. Anyone asking twice. Anyone who asks for a human.
+Peak season will triple your support inbox.
+
+Let AI answer most of it, and hand these 5 to a person.
+
+Angry customers.
+
+Money decisions over your limit.
+
+Broken or missing items.
+
+Anyone asking twice.
+
+Anyone who asks for a human.
 
 Content Systems.ai sets up support helpers for e-commerce brands that know when to step aside, in the tools you already use.
 

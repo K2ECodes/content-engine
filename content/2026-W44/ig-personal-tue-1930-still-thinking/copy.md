@@ -1,8 +1,11 @@
 ## Caption
-POV: your boss catches you sleeping, but you've got a real excuse.
-Comment AI and I'll send you my AI Employee Starter Pack, so your AI does the work while you're actually awake.
+Comment "AI" and I'll send you my AI Employee Starter Pack, so your AI does the work while you're actually awake.
 
-47 minutes of "thinking" for 1 "hi". We've all been there.
+POV: your boss catches you sleeping, but you've got a real excuse.
+
+47 minutes of "thinking" for 1 "hi".
+
+We've all been there.
 
 Tag the coworker who's "waiting on the AI" right now.
 

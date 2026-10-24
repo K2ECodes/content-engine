@@ -1,21 +1,33 @@
 ## Caption
-Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and every one of them starts with the same rule: AI does the work, a person owns the yes.
-Comment WORKSHOP and we'll send you the details for the next live build.
+Comment "WORKSHOP" and we'll send you the details for the next live build.
 
-This month 4 of the biggest names in tech shipped that rule. Each one teaches something you can apply this week:
+Content Systems.ai builds AI systems for 3PLs and e-commerce brands, and every one of them starts with the same rule: AI does the work, a person owns the yes.
+
+This month 4 of the biggest names in tech shipped that rule.
+
+Each one teaches something you can apply this week:
 
 · Anthropic's new assistant, Duet, asks before it pays for anything. Lesson: money going out always needs a yes.
+
 · Walmart lets shoppers set a spending limit for an AI that buys for them. Lesson: routine, low-value actions get a limit, not a meeting.
+
 · 1Password lets an AI log in for you without ever seeing the password. Lesson: never paste passwords into an AI tool.
+
 · Microsoft told companies to watch AI helpers like an insider with the keys. Lesson: give each AI helper only the access its job needs.
 
-A 10-minute Monday check: list every AI tool your team uses and write what it can do without asking. Anything that moves money, messages a customer or touches account access without a yes is your first fix.
+A 10-minute Monday check: list every AI tool your team uses and write what it can do without asking.
 
-Our own company runs on 100+ AI employees. Not 1 of them sends anything to a customer until a person says yes.
+Anything that moves money, messages a customer or touches account access without a yes is your first fix.
 
-We set it up live with business owners in our AI workshop on Zoom. 120 minutes, replay included.
+Our own company runs on 100+ AI employees.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our profile for the next date.
+Not 1 of them sends anything to a customer until a person says yes.
+
+We set it up live with business owners in our AI workshop on Zoom.
+
+120 minutes, replay included.
+
+Want in on the next AI workshop?
 
 #AI #AIEmployees #SmallBusiness #BusinessOwners #Ecommerce #Logistics #3PL #Operations #Automation #Workshop #FutureOfWork #Entrepreneurship
 

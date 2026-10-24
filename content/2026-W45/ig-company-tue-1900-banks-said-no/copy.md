@@ -1,8 +1,15 @@
 ## Caption
-The biggest US banks just said no to AI agents moving money. Your business should draw the same line.
-Comment SYSTEMS and we'll send you the free approval sheet we use for every AI helper.
+Comment "SYSTEMS" and we'll send you the free approval sheet we use for every AI helper.
 
-AI can read and draft. A person approves money out, promises in writing, quotes and bookings, and anything deleted. Everything else, it handles on its own.
+The biggest US banks just said no to AI agents moving money.
+
+Your business should draw the same line.
+
+AI can read and draft.
+
+A person approves money out, promises in writing, quotes and bookings, and anything deleted.
+
+Everything else, it handles on its own.
 
 Content Systems.ai builds AI helpers for e-commerce brands and 3PLs with that yes built in.
 

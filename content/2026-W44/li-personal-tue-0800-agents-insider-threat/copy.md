@@ -1,20 +1,43 @@
 ## Caption
+Comment "WORKSHOP" and I'll send you the details for the next live build.
+
 Microsoft just told companies to treat AI agents like insider threats.
-Comment WORKSHOP and I'll send you the details for the next live build.
 
 Most setups I see make that worse.
 
-Here's the mistake. Someone connects 1 agent to email, the warehouse system and the bank account, all with the same master key. Now 1 bad instruction, 1 confused prompt or 1 leaked login can touch everything.
+Here's the mistake.
 
-Microsoft's point isn't that models are evil. It's that they're unpredictable. Satya Nadella put it in 1 line: separate the supply of intelligence from the authority over it.
+Someone connects 1 agent to email, the warehouse system and the bank account, all with the same master key.
 
-I build every AI employee at Content Systems.ai on 3 rules. 2 of them are about what it can see and touch. The 3rd is the 1 that lets me sleep, and it's in the video.
+Now 1 bad instruction, 1 confused prompt or 1 leaked login can touch everything.
 
-Fast inside, gated at the door. Our own company runs on 100+ AI employees that way.
+Microsoft's point isn't that models are evil.
 
-In my live AI workshop I open it up. You'll set up Claude properly on your own account, build your first 2 AI employees with me, and see the 100+ running. The first answers a new lead in seconds. Ask yourself who answers yours at 2 AM right now. The second keeps track of your competitors.
+It's that they're unpredictable.
 
-Want in on the next AI workshop? Comment WORKSHOP and I'll send you the details, and check the link in my profile for the next date.
+Satya Nadella put it in 1 line: separate the supply of intelligence from the authority over it.
+
+I build every AI employee at Content Systems.ai on 3 rules.
+
+2 of them are about what it can see and touch.
+
+The 3rd is the 1 that lets me sleep, and it's in the video.
+
+Fast inside, gated at the door.
+
+Our own company runs on 100+ AI employees that way.
+
+In my live AI workshop I open it up.
+
+You'll set up Claude properly on your own account, build your first 2 AI employees with me, and see the 100+ running.
+
+The first answers a new lead in seconds.
+
+Ask yourself who answers yours at 2 AM right now.
+
+The second keeps track of your competitors.
+
+Want in on the next AI workshop?
 
 #AI #AIagents #AIsecurity #Cybersecurity #Microsoft #Logistics #3PL #Warehousing #SupplyChain #Ecommerce #Automation #Founders
 

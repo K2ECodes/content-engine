@@ -1,24 +1,45 @@
 ## Caption
-Content Systems.ai helps brands and their 3PLs stay buyable when the shopper is an AI.
+Comment "SYSTEMS" and we'll send you our free Agent-ready check for brands and 3PLs.
 
-Comment SYSTEMS and we'll send you our free Agent-ready check for brands and 3PLs.
+Content Systems.ai helps brands and their 3PLs stay buyable when the shopper is an AI.
 
 Here are 4 things your warehouse controls that an AI shopping assistant checks before it buys.
 
-In the last 10 days Walmart opened its store to outside AI shopping assistants, Google's Universal Cart went live in the US, and Meta said its assistant Muse passed 10M users. More shoppers now ask an assistant to find and buy for them.
+In the last 10 days Walmart opened its store to outside AI shopping assistants, Google's Universal Cart went live in the US, and Meta said its assistant Muse passed 10M users.
 
-The assistant doesn't look at your photos. It checks facts, and 4 of them come from the warehouse:
+More shoppers now ask an assistant to find and buy for them.
 
-1. Stock. The count has to be right now. An item that shows in stock but isn't gets skipped, or cancelled after the order.
-2. Delivery date. A clear promise like "arrives Thursday" beats "ships in 3 to 7 days".
-3. Returns. Who pays, how long it takes, and where it goes back to. 1 in 3 shoppers say return and shipping rules change what they buy.
-4. Shipping cost. The full total at checkout, with no surprise at the end.
+The assistant doesn't look at your photos.
+
+It checks facts, and 4 of them come from the warehouse:
+
+1. Stock.
+
+The count has to be right now.
+
+An item that shows in stock but isn't gets skipped, or cancelled after the order.
+
+2. Delivery date.
+
+A clear promise like "arrives Thursday" beats "ships in 3 to 7 days".
+
+3. Returns.
+
+Who pays, how long it takes, and where it goes back to.
+
+1 in 3 shoppers say return and shipping rules change what they buy.
+
+4. Shipping cost.
+
+The full total at checkout, with no surprise at the end.
 
 If any of these is out of date, the assistant picks a store that's sure.
 
-Most brands treat this as a website job. It's mostly a warehouse job, so the brand and the 3PL need to own it together.
+Most brands treat this as a website job.
 
-Our 1-page check shows what an AI shopping assistant reads and who owns each item, brand or warehouse. Comment SYSTEMS and we'll send it.
+It's mostly a warehouse job, so the brand and the 3PL need to own it together.
+
+Our 1-page check shows what an AI shopping assistant reads and who owns each item, brand or warehouse.
 
 #Ecommerce #3PL #Fulfillment #Logistics #Warehousing #Retail #OnlineShopping #BlackFriday #BFCM #DTC #Shopify #AIShopping
 

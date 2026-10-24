@@ -1,7 +1,17 @@
 ## Caption
-You run a warehouse in Tampa. A hurricane watch just went up. 3,000 orders are waiting to ship.
-A: run every shift and ship before the storm. B: stop shipping, move stock up and send your people home.
-Comment A or B. Part 2 shows what the storm does to each choice.
+You run a warehouse in Tampa.
+
+A hurricane watch just went up.
+
+3,000 orders are waiting to ship.
+
+A: run every shift and ship before the storm.
+
+B: stop shipping, move stock up and send your people home.
+
+Comment A or B.
+
+Part 2 shows what the storm does to each choice.
 
 Forecasters issue a hurricane watch about 48 hours before tropical storm winds arrive (National Hurricane Center).
 

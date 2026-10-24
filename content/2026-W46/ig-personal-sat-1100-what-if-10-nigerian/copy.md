@@ -1,11 +1,19 @@
 ## Caption
-What if everyone on Earth woke up 10% Nigerian? I'm Nigerian, so I walked it through.
-Day 1 every DNA test says Nigeria. Week 1 everyone wants the passport, and the embassy says no.
+What if everyone on Earth woke up 10% Nigerian?
+
+I'm Nigerian, so I walked it through.
+
+Day 1 every DNA test says Nigeria.
+
+Week 1 everyone wants the passport, and the embassy says no.
+
 10 years later, racism doesn't survive the family reunion.
 
 Some of this is already real: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.
 
-What's the first thing you'd do as a 10% Nigerian? Tell me below, and follow for part 2.
+What's the first thing you'd do as a 10% Nigerian?
+
+Tell me below, and follow for part 2.
 
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 

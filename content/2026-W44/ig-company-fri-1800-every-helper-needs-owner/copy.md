@@ -1,14 +1,23 @@
 ## Caption
-Your AI helper has no boss. 3 questions fix that, and the 1-page owner sheet we use is free.
-Comment SYSTEMS and we'll DM you the 1-page owner sheet we use.
+Comment "SYSTEMS" and we'll DM you the 1-page owner sheet we use.
 
-58% of managers expect to oversee more AI helpers than people within a year. Most haven't decided who checks their work.
+Your AI helper has no boss.
 
-Without an owner, a helper that drifts goes unnoticed until a customer notices first. With 1, there's a name, a limit and a daily note.
+3 questions fix that, and the 1-page owner sheet we use is free.
 
-Content Systems.ai sets up every AI helper we build for logistics and e-commerce teams with an owner from day 1. It's how we run our own company too.
+58% of managers expect to oversee more AI helpers than people within a year.
 
-Save this for your next team meeting. Comment SYSTEMS for the sheet.
+Most haven't decided who checks their work.
+
+Without an owner, a helper that drifts goes unnoticed until a customer notices first.
+
+With 1, there's a name, a limit and a daily note.
+
+Content Systems.ai sets up every AI helper we build for logistics and e-commerce teams with an owner from day 1.
+
+It's how we run our own company too.
+
+Save this for your next team meeting.
 
 #AIforbusiness #smallbusiness #automation #ecommerce #logistics
 

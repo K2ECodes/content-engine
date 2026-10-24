@@ -1,11 +1,23 @@
 ## Caption
-OpenAI's models are coming to Google Cloud. Comment AI and I'll send you my free AI starter pack.
+Comment "AI" and I'll send you my free AI starter pack.
 
-Yes, Google, the company building Gemini. OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models. Companies can buy them through Google Cloud Marketplace with money they've already committed to Google, and they're coming to the Gemini Agent soon. Microsoft is still OpenAI's main cloud partner.
+OpenAI's models are coming to Google Cloud.
 
-What it means: the model is becoming a menu choice. You'll pick the best model for each job, not 1 company for everything.
+Yes, Google, the company building Gemini.
 
-Would you use OpenAI models inside Google? Tell me below.
+OpenAI's frontier models and Codex are heading into Google Cloud's Model Garden, next to 200+ other models.
+
+Companies can buy them through Google Cloud Marketplace with money they've already committed to Google, and they're coming to the Gemini Agent soon.
+
+Microsoft is still OpenAI's main cloud partner.
+
+What it means: the model is becoming a menu choice.
+
+You'll pick the best model for each job, not 1 company for everything.
+
+Would you use OpenAI models inside Google?
+
+Tell me below.
 
 #AI #OpenAI #GoogleCloud #Gemini #technews
 

@@ -1,22 +1,39 @@
 ## Caption
+Comment "WORKSHOP" and we'll send you the details for our next live build.
+
 Content Systems.ai teaches business owners to set up their first AI employees, so they get time back without losing control.
-Comment WORKSHOP and we'll send you the details for our next live build.
 
-Most managers will soon oversee more AI helpers than people. A Nielsen survey for Monday.com this month found 58% of managers expect exactly that within a year. Only 29% say their AI setup is right today, and 57% have more AI tools than last year.
+Most managers will soon oversee more AI helpers than people.
 
-More tools, more checking, less control. That's what the survey describes.
+A Nielsen survey for Monday.com this month found 58% of managers expect exactly that within a year.
 
-We run our own company on 100+ AI employees, and that isn't our week. Not because our tools are better. Because every AI employee we add gets 4 things before it does any work. 1 of them is a rule about what it's never allowed to send on its own. The other 3 are why we can keep adding them without losing track.
+Only 29% say their AI setup is right today, and 57% have more AI tools than last year.
+
+More tools, more checking, less control.
+
+That's what the survey describes.
+
+We run our own company on 100+ AI employees, and that isn't our week.
+
+Not because our tools are better.
+
+Because every AI employee we add gets 4 things before it does any work.
+
+1 of them is a rule about what it's never allowed to send on its own.
+
+The other 3 are why we can keep adding them without losing track.
 
 In our live AI workshop we open it up, on Zoom:
 
 · Set up Claude properly on your own account
+
 · Build your first 2 AI employees: 1 answers a new lead in seconds, even at 2 AM, 1 keeps track of your competitors
+
 · See the 100+ that run Content Systems.ai
 
 It's 120 minutes, and the replay's included.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our profile for the next date.
+Want in on the next AI workshop?
 
 #SmallBusiness #BusinessOwners #AI #Management #Leadership #Operations #Workshop #Ecommerce #Logistics #FutureOfWork #Productivity #Entrepreneurs
 

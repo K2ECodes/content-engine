@@ -1,13 +1,25 @@
 ## Caption
-57% of managers have more AI tools than last year. Only 29% say it's set up right.
+57% of managers have more AI tools than last year.
 
-That's from a survey of 1,700 senior managers, out last week. Nearly half also say they now spend more time checking AI's work than before.
+Only 29% say it's set up right.
 
-More tools didn't buy control. Each 1 has its own logins, its own copy of your rules and its own idea of how you talk to customers.
+That's from a survey of 1,700 senior managers, out last week.
 
-The fix isn't another tool. It's 1 place where your prices, processes and rules live, so every AI helper on the team works from the same page. We call it a company brain, and it's how Content Systems.ai helps logistics and e-commerce teams get calm about AI.
+Nearly half also say they now spend more time checking AI's work than before.
 
-We write about what's working every week, in plain language. Join the newsletter at the link in bio.
+More tools didn't buy control.
+
+Each 1 has its own logins, its own copy of your rules and its own idea of how you talk to customers.
+
+The fix isn't another tool.
+
+It's 1 place where your prices, processes and rules live, so every AI helper on the team works from the same page.
+
+We call it a company brain, and it's how Content Systems.ai helps logistics and e-commerce teams get calm about AI.
+
+We write about what's working every week, in plain language.
+
+Join the newsletter at the link in bio.
 
 #AIforbusiness #smallbusiness #automation #ecommerce #logistics
 

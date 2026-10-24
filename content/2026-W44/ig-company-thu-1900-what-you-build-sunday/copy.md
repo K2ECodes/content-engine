@@ -1,12 +1,23 @@
 ## Caption
-Your 2 AM lead waits until 9. In our live AI workshop you build the AI employee that answers it, plus 1 that keeps an eye on your competitors.
-Comment WORKSHOP and we'll send you the details and our free AI Employee Starter Pack.
+Comment "WORKSHOP" and we'll send you the details and our free AI Employee Starter Pack.
 
-It's a live, hands-on session for business owners. First you set up Claude properly on your own account. Then you build both AI employees with us. Then we open up the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
+Your 2 AM lead waits until 9.
 
-We won't spoil what the first 1 does at 2 AM. You'll see it live, and the replay's included.
+In our live AI workshop you build the AI employee that answers it, plus 1 that keeps an eye on your competitors.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our bio for the next date.
+It's a live, hands-on session for business owners.
+
+First you set up Claude properly on your own account.
+
+Then you build both AI employees with us.
+
+Then we open up the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
+
+We won't spoil what the first 1 does at 2 AM.
+
+You'll see it live, and the replay's included.
+
+Want in on the next AI workshop?
 
 #AIforbusiness #smallbusiness #automation #businessowner #ecommerce
 

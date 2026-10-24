@@ -1,16 +1,29 @@
 ## Caption
-5 moments your support bot has to hand the customer to a person. Want the handoff map? Comment SYSTEMS and we'll send it to you free.
+Comment "SYSTEMS" and we'll send you the handoff map free.
 
-Shoppers trust a bot more when it can do that. In a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists. Without one, 26.
+5 moments your support bot has to hand the customer to a person.
+
+Shoppers trust a bot more when it can do that.
+
+In a Five9 survey of 3,000 shoppers, 55% trust AI to fix their issue when a human option exists.
+
+Without one, 26.
 
 Before Black Friday, make sure your bot hands off on:
+
 1. An angry customer
+
 2. Anyone trying to cancel
+
 3. A refund over your limit
+
 4. A question it isn't sure about
+
 5. Anyone who asks for a human
 
-An apparel brand we work with in Berlin lets AI answer 72% of support tickets in 4 languages and still saves 1 in 4 customers who try to cancel. That's how Content Systems.ai builds support for e-commerce brands.
+An apparel brand we work with in Berlin lets AI answer 72% of support tickets in 4 languages and still saves 1 in 4 customers who try to cancel.
+
+That's how Content Systems.ai builds support for e-commerce brands.
 
 #customerservice #ecommerce #blackfriday #customersupport #onlinestore
 

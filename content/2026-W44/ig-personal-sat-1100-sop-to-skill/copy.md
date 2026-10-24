@@ -1,10 +1,23 @@
 ## Caption
-Doing the same task every week? Turn it into an AI skill in 20 minutes. Here's the order I do it in.
-Comment AI and I'll send you my free AI Employee Starter Pack: 5 starter skills you can copy.
+Comment "AI" and I'll send you my free AI Employee Starter Pack: 5 starter skills you can copy.
 
-Most of us already have the hard part. The weekly update email you write the same way every time. The messy notes you turn into a plan. The question you answer 10 times a month.
+Doing the same task every week?
 
-A skill is that routine in a format AI can run. And as of last week it's an open standard, so 70+ AI tools read the same skill.
+Turn it into an AI skill in 20 minutes.
+
+Here's the order I do it in.
+
+Most of us already have the hard part.
+
+The weekly update email you write the same way every time.
+
+The messy notes you turn into a plan.
+
+The question you answer 10 times a month.
+
+A skill is that routine in a format AI can run.
+
+And as of last week it's an open standard, so 70+ AI tools read the same skill.
 
 I pick 1 thing I repeat, write it like I'm training a new hire, add 3 real examples, mark where it needs my yes, then test it on last week's work.
 

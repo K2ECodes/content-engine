@@ -1,10 +1,21 @@
 ## Caption
+Comment "AI" and I'll send you the checklist I'd use, free.
+
 I reverse-engineered how an AI shopping assistant picks a store.
-Comment AI and I'll send you the checklist I'd use, free.
 
-1 in 5 holiday visits could come from these assistants this year. They don't look at your photos. They read: sizes and materials, real stock, a delivery date, returns in plain words. Miss 1 and they recommend the next store.
+1 in 5 holiday visits could come from these assistants this year.
 
-Walmart opened its doors to them. Amazon keeps blocking them. Either way, your page has to answer first.
+They don't look at your photos.
+
+They read: sizes and materials, real stock, a delivery date, returns in plain words.
+
+Miss 1 and they recommend the next store.
+
+Walmart opened its doors to them.
+
+Amazon keeps blocking them.
+
+Either way, your page has to answer first.
 
 #AI #ecommerce #shopify #blackfriday #aitools
 

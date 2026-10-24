@@ -1,22 +1,41 @@
 ## Caption
-Only 13% of logistics execs say AI shows up in their numbers. Most of the rest started with a chatbot instead of the money leak.
+Only 13% of logistics execs say AI shows up in their numbers.
 
-That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month. It matches what I see.
+Most of the rest started with a chatbot instead of the money leak.
 
-The usual first AI project in a warehouse is a chatbot, a writing assistant or a pilot nobody owns. Easy to start, hard to measure. 6 months later the question is "is anyone using it", not "what did it earn".
+That figure is BCG's, from executives at 30 leading logistics companies, quoted by FreightWaves this month.
 
-In my experience the teams that see results start somewhere less exciting. They pick the place money leaks:
+It matches what I see.
+
+The usual first AI project in a warehouse is a chatbot, a writing assistant or a pilot nobody owns.
+
+Easy to start, hard to measure.
+
+6 months later the question is "is anyone using it", not "what did it earn".
+
+In my experience the teams that see results start somewhere less exciting.
+
+They pick the place money leaks:
 
 · Storage that rolls past the free period and never gets billed
+
 · Accessorials done on the floor and never keyed in
+
 · RFQs that sit for a day while the shipper gets 3 other quotes
+
 · WISMO emails eating the CS team's afternoon
 
 Each 1 has a number before you start, so you know if it worked.
 
-This month's logistics news points the same way. Motive, Samsara and Netradyne all shipped agents tied to a specific job: a safety alert, a maintenance ticket, a driver call. Not a general assistant.
+This month's logistics news points the same way.
 
-The human part still matters. Five9 found people are about twice as likely to trust AI support when a person is reachable.
+Motive, Samsara and Netradyne all shipped agents tied to a specific job: a safety alert, a maintenance ticket, a driver call.
+
+Not a general assistant.
+
+The human part still matters.
+
+Five9 found people are about twice as likely to trust AI support when a person is reachable.
 
 If you run a 3PL and want to find your first money leak, book 30 minutes with me: calendly.com/contentsystems/30min
 

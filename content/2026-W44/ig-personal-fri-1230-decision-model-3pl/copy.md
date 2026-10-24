@@ -1,16 +1,33 @@
 ## Caption
-Comment AI and I'll send you my AI starter pack, with the permission sheet for every step.
+Comment "AI" and I'll send you my AI starter pack, with the permission sheet for every step.
 
-Not every AI step needs a chatbot. OpenAI just opened its decision model to everyone. It picks between options and hands back a confidence score, and OpenAI says it answers in 100 to 180 milliseconds instead of 1 to 3 seconds. Speak says the wait between steps fell from 1.4 seconds to 0.13.
+Not every AI step needs a chatbot.
 
-Most AI work isn't writing, it's choosing. Where a decision model fits:
+OpenAI just opened its decision model to everyone.
+
+It picks between options and hands back a confidence score, and OpenAI says it answers in 100 to 180 milliseconds instead of 1 to 3 seconds.
+
+Speak says the wait between steps fell from 1.4 seconds to 0.13.
+
+Most AI work isn't writing, it's choosing.
+
+Where a decision model fits:
+
 1. Routing: which inbox, which team
+
 2. Picking: which reply, which tool, which next step
+
 3. Flagging: spam, urgent or fine
 
-Low confidence goes to a person. The chat model still writes the reply. The decision model just picks the lane, fast.
+Low confidence goes to a person.
 
-No pricing is out yet. Save this and follow for the next AI drop.
+The chat model still writes the reply.
+
+The decision model just picks the lane, fast.
+
+No pricing is out yet.
+
+Save this and follow for the next AI drop.
 
 #AIautomation #OpenAI #AItools #AInews #AIagents
 

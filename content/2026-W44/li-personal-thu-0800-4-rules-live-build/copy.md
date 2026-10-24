@@ -1,21 +1,49 @@
 ## Caption
-In our live AI workshop I build 2 AI employees with you. Before either does anything, it gets 4 rules it can't break.
-Comment WORKSHOP and I'll send you the details, plus my free AI Employee Starter Pack.
+Comment "WORKSHOP" and I'll send you the details, plus my free AI Employee Starter Pack.
 
-This month made the case for me. Microsoft told companies to treat AI agents like insider threats. A breach at an AI coding tool ran up charges on people's AI accounts, some over $1,000. Walmart is adding spending limits for shopping agents.
+In our live AI workshop I build 2 AI employees with you.
 
-The model isn't the risk. Access without rules is.
+Before either does anything, it gets 4 rules it can't break.
+
+This month made the case for me.
+
+Microsoft told companies to treat AI agents like insider threats.
+
+A breach at an AI coding tool ran up charges on people's AI accounts, some over $1,000.
+
+Walmart is adding spending limits for shopping agents.
+
+The model isn't the risk.
+
+Access without rules is.
 
 2 of the rules are the ones you'd guess:
 
-1. It asks before money moves. Refunds, payments, credits.
-2. It asks before a customer hears from it. Drafting is free, sending isn't.
+1. It asks before money moves.
 
-Rules 3 and 4 protect your deals and your data. They're the quiet ones, and the 2 I'd never run without. You'll see all 4 running inside our own 100+ AI employees in the workshop.
+Refunds, payments, credits.
 
-Then the 2 we build together. The first answers a new lead in seconds. Think about what happens in your business right now when a lead comes in at 2 AM. The second keeps track of your competitors, so you're not the last to know. We set up Claude properly on your own account first, so both run on your setup, not mine.
+2. It asks before a customer hears from it.
 
-Want in on the next AI workshop? Comment WORKSHOP and I'll send you the details, and check the link in my profile for the next date.
+Drafting is free, sending isn't.
+
+Rules 3 and 4 protect your deals and your data.
+
+They're the quiet ones, and the 2 I'd never run without.
+
+You'll see all 4 running inside our own 100+ AI employees in the workshop.
+
+Then the 2 we build together.
+
+The first answers a new lead in seconds.
+
+Think about what happens in your business right now when a lead comes in at 2 AM.
+
+The second keeps track of your competitors, so you're not the last to know.
+
+We set up Claude properly on your own account first, so both run on your setup, not mine.
+
+Want in on the next AI workshop?
 
 From the build, Korede
 

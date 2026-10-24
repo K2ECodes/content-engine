@@ -1,14 +1,21 @@
 ## Caption
-Your inbox eats your whole morning? 3 skills fix that.
-Comment AI and I'll send you all 5 of my starter skills free, plus the permission sheet.
+Comment "AI" and I'll send you all 5 of my starter skills free, plus the permission sheet.
+
+Your inbox eats your whole morning?
+
+3 skills fix that.
 
 8:00: the 3 numbers that moved, the math, and what to ask your team.
-9:00: inbox sorted, flagged, replies drafted. Nothing sent.
+
+9:00: inbox sorted, flagged, replies drafted.
+
+Nothing sent.
+
 10:45: a 1-page brief for the 11:00 call.
 
-Real SKILL.md files. Drop them into Claude or paste them into any AI chat, no code.
+Real SKILL.md files.
 
-Comment AI and I'll DM them.
+Drop them into Claude or paste them into any AI chat, no code.
 
 #AI #ChatGPT #ClaudeAI #productivity #aitools
 

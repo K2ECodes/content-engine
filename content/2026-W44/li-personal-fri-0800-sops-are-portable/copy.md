@@ -1,25 +1,37 @@
 ## Caption
-Your SOP binder now works in 70+ AI tools. Anthropic just gave Agent Skills to the Linux Foundation, and it changes how I build for warehouses.
+Comment "AI" and I'll send you the 5 skills I install first for an ops team, free.
 
-Comment AI and I'll send you the 5 skills I install first for an ops team, free.
+Your SOP binder now works in 70+ AI tools.
 
-What happened: Agent Skills is now a vendor-neutral standard under the Linux Foundation's Agentic AI Foundation. 70+ agent platforms support it, including ChatGPT, Cursor, GitHub Copilot and VS Code. 1M skills published, nearly 280M installs.
+Anthropic just gave Agent Skills to the Linux Foundation, and it changes how I build for warehouses.
 
-A skill is simple. It's a folder with written instructions, plus any scripts or reference files the AI needs to do 1 job the way your team does it.
+What happened: Agent Skills is now a vendor-neutral standard under the Linux Foundation's Agentic AI Foundation.
+
+70+ agent platforms support it, including ChatGPT, Cursor, GitHub Copilot and VS Code.
+
+1M skills published, nearly 280M installs.
+
+A skill is simple.
+
+It's a folder with written instructions, plus any scripts or reference files the AI needs to do 1 job the way your team does it.
 
 That's an SOP, written for an AI instead of a new hire.
 
 Why it matters for a 3PL or a brand:
 
 · Your process isn't locked to 1 AI company. If pricing changes or a better model ships, the skill moves with you.
+
 · Know-how stops living in 1 person's head. Your best CS rep's way of handling a WISMO email becomes a file the team runs.
+
 · You can read and edit the rules. No black box.
 
-Replit just switched its default model, citing cost among other reasons. Expect more of that. Build on something you can carry.
+Replit just switched its default model, citing cost among other reasons.
+
+Expect more of that.
+
+Build on something you can carry.
 
 The Starter Pack: 5 skills (quote reply, WISMO answer, carrier claim, returns triage, daily ops brief) and the sheet that says what each can do alone and what needs a yes.
-
-Comment AI and I'll send it.
 
 From the build, Korede
 

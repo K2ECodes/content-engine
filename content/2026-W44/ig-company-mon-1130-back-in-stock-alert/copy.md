@@ -1,14 +1,23 @@
 ## Caption
-Google now tells shoppers when your product is back in stock. That alert only fires if your data is right.
+Google now tells shoppers when your product is back in stock.
+
+That alert only fires if your data is right.
 
 3 checks to run this week:
+
 · Compare your warehouse count to your store count. Warehouse says 40, store says 0? Google says sold out and the alert never goes out.
+
 · Check how often your stock syncs. Once a night is too slow in peak. Aim for every hour.
+
 · Make your price and shipping time match everywhere they're listed.
 
 16% of shoppers now start their search in ChatGPT, and AI assistants read your data, not your homepage.
 
-Content Systems.ai keeps the warehouse, the store and Google in sync for e-commerce brands. Want us to check your store for free? It's in our bio.
+Content Systems.ai keeps the warehouse, the store and Google in sync for e-commerce brands.
+
+Want us to check your store for free?
+
+It's in our bio.
 
 #ecommerce #shopify #inventory #onlinestore #googleshopping
 

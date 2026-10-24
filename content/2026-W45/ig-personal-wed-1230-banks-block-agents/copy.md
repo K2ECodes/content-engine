@@ -1,8 +1,19 @@
 ## Caption
-JPMorgan just locked AI agents out of customer accounts. Honestly, they're right.
-Comment AI and I'll send you the 5 skills I start every AI employee with, free.
+Comment "AI" and I'll send you the 5 skills I start every AI employee with, free.
 
-Citi said the same. Bank of America wants a person to approve payments. Schwab blocks outside agents every week. But nobody banned AI from reading. They banned it from moving money alone.
+JPMorgan just locked AI agents out of customer accounts.
+
+Honestly, they're right.
+
+Citi said the same.
+
+Bank of America wants a person to approve payments.
+
+Schwab blocks outside agents every week.
+
+But nobody banned AI from reading.
+
+They banned it from moving money alone.
 
 That's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.
 

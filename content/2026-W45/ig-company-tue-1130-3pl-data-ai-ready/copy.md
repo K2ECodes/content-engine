@@ -1,12 +1,21 @@
 ## Caption
-Your AI can't answer customers on data nobody trusts. Fix these 5 things first.
-Comment SYSTEMS and we'll DM you the free 5-point check for brands and 3PLs.
+Comment "SYSTEMS" and we'll DM you the free 5-point check for brands and 3PLs.
 
-This year's Third-Party Logistics Study says AI has moved into daily work at 3PLs, and 74% already use it to write and answer. The brake isn't the AI. It's data: stock counts, order status and rates spread across emails and spreadsheets.
+Your AI can't answer customers on data nobody trusts.
 
-Content Systems.ai helps 3PLs and the brands they ship for get that data into 1 place, so the answers are right and the bills match. Your team approves anything that leaves.
+Fix these 5 things first.
 
-Save this. Comment SYSTEMS for the check.
+This year's Third-Party Logistics Study says AI has moved into daily work at 3PLs, and 74% already use it to write and answer.
+
+The brake isn't the AI.
+
+It's data: stock counts, order status and rates spread across emails and spreadsheets.
+
+Content Systems.ai helps 3PLs and the brands they ship for get that data into 1 place, so the answers are right and the bills match.
+
+Your team approves anything that leaves.
+
+Save this.
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

@@ -1,8 +1,13 @@
 ## Caption
-Your next customer might be an AI with a spending limit.
-Comment SYSTEMS and we'll send you the free agent-ready store checklist.
+Comment "SYSTEMS" and we'll send you the free agent-ready store checklist.
 
-Walmart now lets AI shopping assistants buy in its store, with budgets, approvals and an off switch. They read 4 things first: sizes and materials, real stock, a delivery date, returns in plain words. Miss 1 and they move on.
+Your next customer might be an AI with a spending limit.
+
+Walmart now lets AI shopping assistants buy in its store, with budgets, approvals and an off switch.
+
+They read 4 things first: sizes and materials, real stock, a delivery date, returns in plain words.
+
+Miss 1 and they move on.
 
 Content Systems.ai helps online brands keep all 4 complete and right.
 

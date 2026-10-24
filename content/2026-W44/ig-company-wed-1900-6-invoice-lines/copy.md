@@ -1,14 +1,25 @@
 ## Caption
-Peak fees hide on your carrier bill. Check these 6 lines on every invoice before Black Friday.
-Comment SYSTEMS and we'll DM you the free peak invoice check, ready to print.
+Comment "SYSTEMS" and we'll DM you the free peak invoice check, ready to print.
 
-Ground rates are at an all-time high this quarter. And since 2021, 72% of the fuel surcharge rise came from carrier pricing, not the price of diesel.
+Peak fees hide on your carrier bill.
 
-Peak makes it worse. More orders, more lines, less time to read them. That's how a brand ends up with a $200,000 back invoice.
+Check these 6 lines on every invoice before Black Friday.
 
-Content Systems.ai helps e-commerce brands and 3PLs check every carrier and warehouse charge against what they agreed, so mistakes are caught the week they happen. Your team approves every dispute.
+Ground rates are at an all-time high this quarter.
 
-Save this for your next invoice. Comment SYSTEMS for the check.
+And since 2021, 72% of the fuel surcharge rise came from carrier pricing, not the price of diesel.
+
+Peak makes it worse.
+
+More orders, more lines, less time to read them.
+
+That's how a brand ends up with a $200,000 back invoice.
+
+Content Systems.ai helps e-commerce brands and 3PLs check every carrier and warehouse charge against what they agreed, so mistakes are caught the week they happen.
+
+Your team approves every dispute.
+
+Save this for your next invoice.
 
 #ecommerce #3PL #shipping #logistics #blackfriday
 

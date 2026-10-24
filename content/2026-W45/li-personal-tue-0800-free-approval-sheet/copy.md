@@ -1,21 +1,37 @@
 ## Caption
-AI sending the wrong thing? These 3 free skills stop it. Our team uses them every day.
+Comment "SYSTEMS" and I'll send you all 3 skills plus the approval sheet, free.
 
-Comment SYSTEMS and I'll send you all 3 skills plus the approval sheet, free.
+AI sending the wrong thing?
 
-Content Systems.ai runs on 100+ AI employees. They draft, sort, quote and follow up all day. Not 1 of them moves money or makes a promise without a person saying yes. These 3 skills are how:
+These 3 free skills stop it.
 
-Skill 1 checks every draft or action for the 4 things that always wait: money out, messages that promise something, quotes and bookings, and deleting records. The risky 1 becomes an approval request with the approver named. The rest goes.
+Our team uses them every day.
+
+Content Systems.ai runs on 100+ AI employees.
+
+They draft, sort, quote and follow up all day.
+
+Not 1 of them moves money or makes a promise without a person saying yes.
+
+These 3 skills are how:
+
+Skill 1 checks every draft or action for the 4 things that always wait: money out, messages that promise something, quotes and bookings, and deleting records.
+
+The risky 1 becomes an approval request with the approver named.
+
+The rest goes.
 
 Skill 2 marks every line in a customer reply that promises a date, a refund or an exception, and checks it against your policy.
 
 Skill 3 prepares the action, the booking, the refund, and waits for your yes.
 
-They're real SKILL.md files for Claude or any AI chat. The approval sheet tells your team who signs off on what.
+They're real SKILL.md files for Claude or any AI chat.
 
-The big players are landing in the same place. Anthropic's new assistant, Duet, can buy things for you, but every payment waits for your approval.
+The approval sheet tells your team who signs off on what.
 
-Comment SYSTEMS and they're yours.
+The big players are landing in the same place.
+
+Anthropic's new assistant, Duet, can buy things for you, but every payment waits for your approval.
 
 #AI #ArtificialIntelligence #AIAgents #Automation #Operations #Ecommerce #Logistics #SupplyChain #Leadership #Founders #SmallBusiness #FutureOfWork
 

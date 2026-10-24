@@ -1,19 +1,33 @@
 ## Caption
+Comment "WORKSHOP" and I'll send you the details.
+
 What happens when a lead messages your business at 2 AM?
-Comment WORKSHOP and I'll send you the details.
 
-At most companies, nothing. Not until morning. By then they've booked someone else.
+At most companies, nothing.
 
-In our live AI workshop, that's the first thing we fix. Here's what I'll say about it without spoiling it:
+Not until morning.
+
+By then they've booked someone else.
+
+In our live AI workshop, that's the first thing we fix.
+
+Here's what I'll say about it without spoiling it:
 
 · You'll set up Claude properly on your own account. Not the default way, the way I'd set it up for my own team.
+
 · We'll build 2 AI employees together. The first answers a new lead in seconds, even the 1 that comes in at 2 AM.
+
 · The second keeps watch on your competitors, so a price change or a new offer doesn't reach you 3 weeks late.
+
 · Then I'll open up the 100+ AI employees that run Content Systems.ai, including the 1 rule none of them can break.
 
-Who it's for: owners and operators who've tried ChatGPT, liked it, and still do the same tasks by hand every week. You don't need to code. It's live on Zoom, and the replay's included.
+Who it's for: owners and operators who've tried ChatGPT, liked it, and still do the same tasks by hand every week.
 
-Want in on the next AI workshop? Comment WORKSHOP and I'll send you the details, and check the link in my profile for the next date.
+You don't need to code.
+
+It's live on Zoom, and the replay's included.
+
+Want in on the next AI workshop?
 
 From the build, Korede
 

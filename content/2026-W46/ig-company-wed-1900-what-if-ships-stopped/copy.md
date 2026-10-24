@@ -1,9 +1,19 @@
 ## Caption
 What if every container ship on Earth stopped for 30 days?
-Around 80% of world trade by volume moves by sea (UN). We've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.
-How many weeks could your business last? Tell us in the comments.
 
-Week 1 factories run out of parts. Week 2 ports go quiet. Month 1 every brand finds out how many weeks of stock it really has.
+Around 80% of world trade by volume moves by sea (UN).
+
+We've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.
+
+How many weeks could your business last?
+
+Tell us in the comments.
+
+Week 1 factories run out of parts.
+
+Week 2 ports go quiet.
+
+Month 1 every brand finds out how many weeks of stock it really has.
 
 #logistics #supplychain #shipping #ecommerce #whatif
 

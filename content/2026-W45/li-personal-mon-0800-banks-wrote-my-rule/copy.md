@@ -1,18 +1,41 @@
 ## Caption
-JPMorgan just wrote down the rule I've built every AI system around.
-Comment AI and I'll send you the 5 starter skills I give every new AI employee, free.
+Comment "AI" and I'll send you the 5 starter skills I give every new AI employee, free.
 
-On their earnings call, Jamie Dimon said outside AI agents won't be logging in to customer accounts. Citi said the same. Bank of America wants a person to approve payments until agents prove they're reliable.
+JPMorgan just wrote down the rule I've built every AI system around.
+
+On their earnings call, Jamie Dimon said outside AI agents won't be logging in to customer accounts.
+
+Citi said the same.
+
+Bank of America wants a person to approve payments until agents prove they're reliable.
 
 Read: fine. Move money: not without a person.
 
-Our company runs on 100+ AI employees. Every 1 can draft the refund, the quote, the reply. None of them can send money or make a promise on their own. A person taps yes.
+Our company runs on 100+ AI employees.
 
-People ask if that slows us down. It doesn't. The AI does 95 out of 100 steps. The yes takes 3 seconds. And the 1 time it catches something, it pays for a year of taps.
+Every 1 can draft the refund, the quote, the reply.
 
-The banks didn't block AI. They blocked AI acting alone. That's the line every business should draw.
+None of them can send money or make a promise on their own.
 
-Comment AI for the 5 skills. 1 of them is the approval step.
+A person taps yes.
+
+People ask if that slows us down.
+
+It doesn't.
+
+The AI does 95 out of 100 steps.
+
+The yes takes 3 seconds.
+
+And the 1 time it catches something, it pays for a year of taps.
+
+The banks didn't block AI.
+
+They blocked AI acting alone.
+
+That's the line every business should draw.
+
+1 of them is the approval step.
 
 #AI #AIagents #Automation #SmallBusiness #BusinessOwners #Founders #Operations #Ecommerce #Logistics #3PL #Productivity
 

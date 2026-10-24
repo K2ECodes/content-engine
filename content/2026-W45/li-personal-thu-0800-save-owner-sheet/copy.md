@@ -1,7 +1,9 @@
 ## Caption
-Who's watching your AI helpers? 2 free skills fix it.
+Comment "SYSTEMS" and I'll send you both skills plus the 1-page owner sheet, free.
 
-Comment SYSTEMS and I'll send you both skills plus the 1-page owner sheet, free.
+Who's watching your AI helpers?
+
+2 free skills fix it.
 
 58% of managers expect to oversee more AI helpers than people within a year, and 46% worry about losing control of what those helpers do (Nielsen survey of 1,700 managers for Monday.com, via TechCrunch).
 
@@ -14,8 +16,6 @@ Skill 2 has the helper send its owner a 30-second note every day: what it handle
 A helper that drifts gets noticed by its owner, not a customer.
 
 They're real SKILL.md files for Claude or any AI chat.
-
-Comment SYSTEMS and I'll DM them to you.
 
 #AI #ArtificialIntelligence #AIAgents #Management #Leadership #Operations #Automation #FutureOfWork #Founders #SmallBusiness #Ecommerce #Logistics
 

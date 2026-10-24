@@ -1,11 +1,19 @@
 ## Caption
-What if every government on Earth left tomorrow and never came back? Here's the timeline.
-Comment AI and I'll send you the 5 starter skills I use to run my company, free.
+Comment "AI" and I'll send you the 5 starter skills I use to run my company, free.
+
+What if every government on Earth left tomorrow and never came back?
+
+Here's the timeline.
+
 Month 1 is where it gets interesting.
 
-Day 2 the traffic lights still work, because somebody's code runs them. By year 1 the new governments are group chats with rules and an approval step.
+Day 2 the traffic lights still work, because somebody's code runs them.
 
-Systems beat titles. Every time.
+By year 1 the new governments are group chats with rules and an approval step.
+
+Systems beat titles.
+
+Every time.
 
 #AI #whatif #systems #futureofwork #tech
 

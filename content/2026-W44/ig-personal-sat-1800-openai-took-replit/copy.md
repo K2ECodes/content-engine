@@ -1,11 +1,21 @@
 ## Caption
-OpenAI just took Replit from Claude, at least the default spot. Comment AI and I'll send you my free AI starter pack.
+Comment "AI" and I'll send you my free AI starter pack.
 
-Replit's CEO Amjad Masad said it on stage at TechCrunch Disrupt: OpenAI is now the default model powering Replit Agent. His reasons were cost, partnership and performance, and he said ChatGPT is better now.
+OpenAI just took Replit from Claude, at least the default spot.
 
-But it's not a knockout. You can still pick Claude inside Replit. It's just not the default anymore, and most people never change the default.
+Replit's CEO Amjad Masad said it on stage at TechCrunch Disrupt: OpenAI is now the default model powering Replit Agent.
 
-Round 2 is already here: Anthropic just launched Claude Duet. Who takes the next round?
+His reasons were cost, partnership and performance, and he said ChatGPT is better now.
+
+But it's not a knockout.
+
+You can still pick Claude inside Replit.
+
+It's just not the default anymore, and most people never change the default.
+
+Round 2 is already here: Anthropic just launched Claude Duet.
+
+Who takes the next round?
 
 #AI #OpenAI #Claude #Replit #technews
 

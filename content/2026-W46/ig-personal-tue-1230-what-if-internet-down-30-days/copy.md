@@ -1,9 +1,19 @@
 ## Caption
 What if the internet went down tomorrow, for 30 days?
-Hour 1 your card stops working. Day 1 banks, airlines and hospitals go back to paper. Day 30 nobody remembers their passwords.
-Would you last 30 days offline? Follow for part 2.
 
-Only 14% of US payments are still made in cash (Federal Reserve). More than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).
+Hour 1 your card stops working.
+
+Day 1 banks, airlines and hospitals go back to paper.
+
+Day 30 nobody remembers their passwords.
+
+Would you last 30 days offline?
+
+Follow for part 2.
+
+Only 14% of US payments are still made in cash (Federal Reserve).
+
+More than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).
 
 #whatif #internet #tech #technology #AI
 

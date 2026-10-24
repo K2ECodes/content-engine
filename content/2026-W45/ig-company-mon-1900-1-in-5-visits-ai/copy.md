@@ -1,10 +1,17 @@
 ## Caption
+Comment "SYSTEMS" and we'll DM you the free agent-ready store checklist.
+
 1 in 5 visits to online stores this holiday could come from an AI shopping assistant, not a person.
-Comment SYSTEMS and we'll DM you the free agent-ready store checklist.
 
-Salesforce expects 1 in 5 holiday visits to come from AI chat assistants. 1 company that verifies these assistants saw their traffic jump 100x in 45 days.
+Salesforce expects 1 in 5 holiday visits to come from AI chat assistants.
 
-They don't scroll. They read: product details, stock, delivery dates, returns. If a line is missing or wrong, they move on to the next store.
+1 company that verifies these assistants saw their traffic jump 100x in 45 days.
+
+They don't scroll.
+
+They read: product details, stock, delivery dates, returns.
+
+If a line is missing or wrong, they move on to the next store.
 
 The checklist covers what they read first and how to fix it before Black Friday.
 

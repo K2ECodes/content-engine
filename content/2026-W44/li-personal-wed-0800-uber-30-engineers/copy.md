@@ -1,23 +1,47 @@
 ## Caption
-Uber didn't roll out AI to 30,000 people. It sat 30 engineers next to teams for 2 weeks. That's the part most warehouses skip.
+Comment "AI" and I'll send you the AI Employee Starter Pack I use for that first sit-down.
 
-Comment AI and I'll send you the AI Employee Starter Pack I use for that first sit-down.
+Uber didn't roll out AI to 30,000 people.
 
-Uber is taking ChatGPT Work from a pilot of about 1,000 people to about 30,000. The tool isn't the story. The rollout is.
+It sat 30 engineers next to teams for 2 weeks.
 
-It paired 30 AI engineers with teams for 2 weeks to automate parts of real jobs. About 8 in 10 pilot adopters weren't engineers.
+That's the part most warehouses skip.
 
-Now compare how most warehouses try it. Someone buys licenses, sends a login email and runs a lunch-and-learn. 3 months later 4 people use it and nobody can say what changed.
+Uber is taking ChatGPT Work from a pilot of about 1,000 people to about 30,000.
 
-The same week a Nielsen survey for Monday.com found 57% of managers have more AI tools than last year. Only 29% say their setup is right.
+The tool isn't the story.
 
-More tools didn't fix it. Time next to the work did.
+The rollout is.
 
-When I start with a 3PL it's Uber's playbook at a smaller size. Sit with the inbound team, the CS desk, the billing lead. Pick 1 job each. Build it with them, with a person approving anything that goes out. Then scale what stuck.
+It paired 30 AI engineers with teams for 2 weeks to automate parts of real jobs.
+
+About 8 in 10 pilot adopters weren't engineers.
+
+Now compare how most warehouses try it.
+
+Someone buys licenses, sends a login email and runs a lunch-and-learn.
+
+3 months later 4 people use it and nobody can say what changed.
+
+The same week a Nielsen survey for Monday.com found 57% of managers have more AI tools than last year.
+
+Only 29% say their setup is right.
+
+More tools didn't fix it.
+
+Time next to the work did.
+
+When I start with a 3PL it's Uber's playbook at a smaller size.
+
+Sit with the inbound team, the CS desk, the billing lead.
+
+Pick 1 job each.
+
+Build it with them, with a person approving anything that goes out.
+
+Then scale what stuck.
 
 The Starter Pack: 5 skills I'd install first for an ops team (quote reply, WISMO answer, carrier claim, returns triage, daily ops brief) and the sheet showing what each may do alone and what needs a yes.
-
-Comment AI and I'll send it.
 
 From the build, Korede
 

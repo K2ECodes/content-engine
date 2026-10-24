@@ -1,8 +1,13 @@
 ## Caption
-The scariest movie of the year is 20 seconds long.
-Comment AI and I'll send you my AI Employee Starter Pack (it asks before it sends anything).
+Comment "AI" and I'll send you my AI Employee Starter Pack (it asks before it sends anything).
 
-It was supposed to answer a few emails. Then we gave it the company card. Happy Halloween.
+The scariest movie of the year is 20 seconds long.
+
+It was supposed to answer a few emails.
+
+Then we gave it the company card.
+
+Happy Halloween.
 
 Rate the horror: 1 to 10, would you give your agent the card?
 

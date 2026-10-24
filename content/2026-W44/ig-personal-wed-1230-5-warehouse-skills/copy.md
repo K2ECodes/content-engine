@@ -1,15 +1,28 @@
 ## Caption
-Comment AI and I'll send you my AI starter pack: the first 5 skills I'd set up, plus the permission sheet.
+Comment "AI" and I'll send you my AI starter pack: the first 5 skills I'd set up, plus the permission sheet.
 
-Anthropic just gave Agent Skills to the Linux Foundation. 70+ AI tools now read the same skill files, ChatGPT, Cursor and VS Code included. Over 1M skills published, nearly 280M installs.
+Anthropic just gave Agent Skills to the Linux Foundation.
 
-Why that's huge: a skill is a saved how-to your AI can actually run. Write it once, use it everywhere. No more pasting the same prompt into a chat window every morning.
+70+ AI tools now read the same skill files, ChatGPT, Cursor and VS Code included.
+
+Over 1M skills published, nearly 280M installs.
+
+Why that's huge: a skill is a saved how-to your AI can actually run.
+
+Write it once, use it everywhere.
+
+No more pasting the same prompt into a chat window every morning.
 
 The 5 I'd set up first:
+
 1. Inbox triage: what needs you, what can wait
+
 2. Meeting notes: every call becomes a task list
+
 3. Weekly report: pulls the numbers and drafts it
+
 4. Research brief: 1 question in, sources out
+
 5. Daily brief: what's late, what's stuck, what needs you
 
 Every 1 of them waits for my yes before it sends anything.

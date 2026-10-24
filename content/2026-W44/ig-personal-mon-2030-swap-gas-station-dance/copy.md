@@ -1,8 +1,15 @@
 ## Caption
-Gave an AI a few photos of me and a dance video. It did the rest.
-Same moves, same song, same gas station. I've never done this dance in my life.
+Gave an AI a few photos of me and a dance video.
 
-The video model copies every step from the original clip and rebuilds it with my face. 15 seconds, same gas station, every frame rebuilt.
+It did the rest.
+
+Same moves, same song, same gas station.
+
+I've never done this dance in my life.
+
+The video model copies every step from the original clip and rebuilds it with my face.
+
+15 seconds, same gas station, every frame rebuilt.
 
 Follow for more AI experiments like this.
 

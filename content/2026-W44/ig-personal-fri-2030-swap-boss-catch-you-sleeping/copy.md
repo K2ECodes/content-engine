@@ -1,8 +1,13 @@
 ## Caption
 When your boss catches you sleeping and you wake up with a whole new haircut.
-Same office, same tap on the shoulder, same stare. The only new thing is me.
 
-A few photos of me and 1 viral clip. AI rebuilt every frame, the camera move, the timing, even the hairpiece.
+Same office, same tap on the shoulder, same stare.
+
+The only new thing is me.
+
+A few photos of me and 1 viral clip.
+
+AI rebuilt every frame, the camera move, the timing, even the hairpiece.
 
 Follow for more AI experiments like this.
 

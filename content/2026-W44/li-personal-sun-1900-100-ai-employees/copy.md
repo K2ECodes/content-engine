@@ -1,21 +1,33 @@
 ## Caption
-Drowning in admin? These 3 free skills fix it. They're the first 3 AI employees I'd hire.
+Comment "AI" and I'll send you all 5 starter skills plus the permission sheet, free.
 
-Comment AI and I'll send you all 5 starter skills plus the permission sheet, free.
+Drowning in admin?
 
-We run Content Systems.ai on 100+ AI employees. Every 1 of them started as a small, drafts-only skill like these:
+These 3 free skills fix it.
 
-Skill 1 sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies. It never sends.
+They're the first 3 AI employees I'd hire.
+
+We run Content Systems.ai on 100+ AI employees.
+
+Every 1 of them started as a small, drafts-only skill like these:
+
+Skill 1 sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies.
+
+It never sends.
 
 Skill 2 hands you a 1-page brief 15 minutes before the call: who's in the room, where things stand, 3 questions worth asking.
 
 Skill 3 turns call notes into a clear email: what you agreed, who does what by when, the next step.
 
-They're real SKILL.md files. Drop them into Claude, or paste them into a project in any AI chat. No code.
+They're real SKILL.md files.
 
-2 more skills and the permission sheet are in the pack too. The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
+Drop them into Claude, or paste them into a project in any AI chat.
 
-Comment AI and I'll DM it to you.
+No code.
+
+2 more skills and the permission sheet are in the pack too.
+
+The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
 
 From the build, Korede
 

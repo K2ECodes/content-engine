@@ -1,19 +1,31 @@
 ## Caption
-Content Systems.ai runs a live AI workshop where business owners build their first 2 AI employees. Here's what happens in 120 minutes:
-Comment WORKSHOP and we'll send you the details.
+Comment "WORKSHOP" and we'll send you the details.
+
+Content Systems.ai runs a live AI workshop where business owners build their first 2 AI employees.
+
+Here's what happens in 120 minutes:
 
 · You set up Claude properly on your own account, not the default way most people start.
+
 · You build AI employee 1. It answers a new lead in seconds, including the 1 that comes in at 2 AM while you're asleep.
+
 · You build AI employee 2. It keeps track of what your competitors change, so you're not the last to know.
+
 · You see inside the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
 
-Who it's for: owners and operators. No coding needed.
+Who it's for: owners and operators.
 
-Why that rule matters: Anthropic, Walmart and Microsoft all shipped ways to keep a person in charge of AI. We've worked that way since day 1. You'll see how it looks across 100+ AI employees.
+No coding needed.
+
+Why that rule matters: Anthropic, Walmart and Microsoft all shipped ways to keep a person in charge of AI.
+
+We've worked that way since day 1.
+
+You'll see how it looks across 100+ AI employees.
 
 It's live on Zoom, and the replay's included if you can't stay for all of it.
 
-Want in on the next AI workshop? Comment WORKSHOP and we'll send you the details, and check the link in our profile for the next date.
+Want in on the next AI workshop?
 
 #AI #AIEmployees #Workshop #SmallBusiness #BusinessOwners #Automation #Operations #Ecommerce #Logistics #Entrepreneurs #LiveWorkshop
 

@@ -1,24 +1,43 @@
 ## Caption
 Content Systems.ai helps e-commerce brands catch shipping overcharges before they pay them.
 
-Parcel pricing is at a record this quarter. The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline. And since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
+Parcel pricing is at a record this quarter.
 
-Then peak arrives. Invoices get longer and nobody reads them line by line.
+The TD Cowen/AFS Freight Index projects Q4 ground rates per package at an all-time high, 43.3% above its 2018 baseline.
+
+And since 2021, 72% of the rise in ground fuel surcharges came from carrier pricing changes, not diesel prices.
+
+Then peak arrives.
+
+Invoices get longer and nobody reads them line by line.
 
 These are the lines most brands pay without checking:
 
 · Fuel surcharges above what the contract allows
+
 · Peak surcharges billed outside their dates
+
 · Address correction fees on addresses that were fine
+
 · Residential fees on business deliveries
+
 · Dimensional weight billed on the wrong box size
+
 · The same parcel charged twice
 
-Each 1 looks small. An illustrative example, not a client result: 5,000 orders a month with 50 cents of overcharges per order is $2,500 a month. That's $30K a year.
+Each 1 looks small.
 
-It isn't only carriers. This month Bluffworks switched fulfillment providers after a $200,000 back invoice.
+An illustrative example, not a client result: 5,000 orders a month with 50 cents of overcharges per order is $2,500 a month.
 
-What a system does for you: it checks every carrier and 3PL invoice against your contract rates and order data, lists what doesn't match with the proof, and your team decides what to dispute. Nothing goes out without your approval.
+That's $30K a year.
+
+It isn't only carriers.
+
+This month Bluffworks switched fulfillment providers after a $200,000 back invoice.
+
+What a system does for you: it checks every carrier and 3PL invoice against your contract rates and order data, lists what doesn't match with the proof, and your team decides what to dispute.
+
+Nothing goes out without your approval.
 
 See what hidden fees could be costing you with our free calculator: contentsystems.ai/ecommerce
 

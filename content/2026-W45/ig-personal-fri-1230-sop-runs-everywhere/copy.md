@@ -1,10 +1,17 @@
 ## Caption
+Comment "AI" and I'll send you the 5 skills I install first, free.
+
 The SOP you write this weekend now runs in 70+ AI tools.
-Comment AI and I'll send you the 5 skills I install first, free.
 
-Skills just became an open standard. A skill is a folder: your steps, 3 real examples, and what needs your yes. Over 1,000,000 are already published, and Anthropic's own are free on GitHub.
+Skills just became an open standard.
 
-Write the process once. It moves with you, whatever AI you use next year.
+A skill is a folder: your steps, 3 real examples, and what needs your yes.
+
+Over 1,000,000 are already published, and Anthropic's own are free on GitHub.
+
+Write the process once.
+
+It moves with you, whatever AI you use next year.
 
 #AI #ClaudeAI #opensource #aitools #productivity
 

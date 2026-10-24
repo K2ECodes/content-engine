@@ -1,21 +1,37 @@
 ## Caption
-Content Systems.ai builds AI helpers that do the work and wait for a person's yes before money or promises go out. This month the biggest US banks made the same call.
-Comment SYSTEMS and we'll send you the free approval sheet we use for every AI helper.
+Comment "SYSTEMS" and we'll send you the free approval sheet we use for every AI helper.
 
-JPMorgan won't let outside AI agents log in to customer accounts. Citi doesn't let them transact. Bank of America wants a person to approve payments until agents prove reliable. Schwab says it turns away outside agents every week.
+Content Systems.ai builds AI helpers that do the work and wait for a person's yes before money or promises go out.
 
-Read access stays. Moving money doesn't.
+This month the biggest US banks made the same call.
 
-That's the right line for an e-commerce brand or a 3PL too. In our systems there are 4 moments that always wait for a person:
+JPMorgan won't let outside AI agents log in to customer accounts.
+
+Citi doesn't let them transact.
+
+Bank of America wants a person to approve payments until agents prove reliable.
+
+Schwab says it turns away outside agents every week.
+
+Read access stays.
+
+Moving money doesn't.
+
+That's the right line for an e-commerce brand or a 3PL too.
+
+In our systems there are 4 moments that always wait for a person:
 
 · Money going out: refunds, credits, supplier payments
+
 · Promises in writing: delivery dates, discounts, policy exceptions
+
 · Quotes and bookings: anything that commits a truck or a price
+
 · Deleting records: if it can't be undone, a person signs
 
-Everything else, the AI handles on its own. That's how you get the speed without the risk.
+Everything else, the AI handles on its own.
 
-Comment SYSTEMS for the sheet, or see how we build it at contentsystems.ai.
+That's how you get the speed without the risk.
 
 #Ecommerce #3PL #Logistics #Fulfillment #Operations #SmallBusiness #AI #Automation #SupplyChain #BusinessOwners #Leadership
 

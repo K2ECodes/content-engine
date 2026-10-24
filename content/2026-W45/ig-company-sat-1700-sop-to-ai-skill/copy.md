@@ -1,14 +1,17 @@
 ## Caption
-Your SOP binder can run itself now. Write it once, use it in almost any AI tool.
-Comment SYSTEMS and we'll DM you the free sheet that turns 1 SOP into an AI skill.
+Comment "SYSTEMS" and we'll DM you the free sheet that turns 1 SOP into an AI skill.
 
-Last month the format for AI skills became an open standard: 70+ AI tools support it and over 1,000,000 have been published. That means the process you write down today isn't locked to 1 provider.
+Your SOP binder can run itself now.
+
+Write it once, use it in almost any AI tool.
+
+Last month the format for AI skills became an open standard: 70+ AI tools support it and over 1,000,000 have been published.
+
+That means the process you write down today isn't locked to 1 provider.
 
 Start with a task you repeat every week, add 3 real examples, and mark what needs a person's yes.
 
 Content Systems.ai helps e-commerce brands and 3PLs turn their SOPs into AI helpers that follow them.
-
-Comment SYSTEMS for the sheet.
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

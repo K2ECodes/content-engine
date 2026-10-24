@@ -1,13 +1,33 @@
 ## Caption
-Uber gave AI to 30,000 staff. The tool wasn't the trick. The rollout was, and you can copy it.
+Uber gave AI to 30,000 staff.
 
-1. Start small. Uber's pilot had about 1,000 people, and 8 in 10 weren't engineers. Give AI to your ops team, not just your tech person.
-2. Sit next to each team for 2 weeks. Uber paired 30 AI engineers with teams to find the boring work.
-3. Automate that first. Data reports, training in new languages, dashboards. Then scale.
+The tool wasn't the trick.
 
-Buying licenses and sending a login isn't a rollout. Content Systems.ai rolls out AI the same way for 3PLs and e-commerce brands: 1 team, 2 weeks, real work.
+The rollout was, and you can copy it.
 
-Bring your biggest bottleneck to our free office hours. It's in our bio.
+1. Start small.
+
+Uber's pilot had about 1,000 people, and 8 in 10 weren't engineers.
+
+Give AI to your ops team, not just your tech person.
+
+2. Sit next to each team for 2 weeks.
+
+Uber paired 30 AI engineers with teams to find the boring work.
+
+3. Automate that first.
+
+Data reports, training in new languages, dashboards.
+
+Then scale.
+
+Buying licenses and sending a login isn't a rollout.
+
+Content Systems.ai rolls out AI the same way for 3PLs and e-commerce brands: 1 team, 2 weeks, real work.
+
+Bring your biggest bottleneck to our free office hours.
+
+It's in our bio.
 
 #operations #smallbusiness #ecommerce #logistics #teamwork
 

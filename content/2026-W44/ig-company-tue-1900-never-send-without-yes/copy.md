@@ -1,14 +1,25 @@
 ## Caption
+Comment "SYSTEMS" and we'll DM you our free approval sheet, with the 4th action that always needs a yes.
+
 Your AI should never send a refund, a customer email or a freight booking alone.
-Comment SYSTEMS and we'll DM you our free approval sheet, with the 4th action that always needs a yes.
 
-We run our own company on 100+ AI employees. They draft, sort, quote and follow up all day. Not 1 of them can move money or make a promise to a customer without a person saying yes.
+We run our own company on 100+ AI employees.
 
-This month the biggest names in AI shipped the same rule. Anthropic's new assistant asks before it pays. Walmart gives AI shoppers spending limits. Microsoft told companies to watch AI helpers as closely as staff with the keys.
+They draft, sort, quote and follow up all day.
 
-Content Systems.ai builds that yes into every system for logistics and e-commerce teams. The AI does the work, your team signs off on what leaves the building.
+Not 1 of them can move money or make a promise to a customer without a person saying yes.
 
-Comment SYSTEMS for the sheet.
+This month the biggest names in AI shipped the same rule.
+
+Anthropic's new assistant asks before it pays.
+
+Walmart gives AI shoppers spending limits.
+
+Microsoft told companies to watch AI helpers as closely as staff with the keys.
+
+Content Systems.ai builds that yes into every system for logistics and e-commerce teams.
+
+The AI does the work, your team signs off on what leaves the building.
 
 #AIforbusiness #smallbusiness #automation #ecommerce #logistics
 

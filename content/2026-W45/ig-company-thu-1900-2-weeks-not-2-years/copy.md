@@ -1,8 +1,17 @@
 ## Caption
-Uber didn't start its AI rollout with 30,000 people. It started with 30 engineers and 2 weeks.
-Comment SYSTEMS and we'll send you the free owner sheet we use for every AI helper.
+Comment "SYSTEMS" and we'll send you the free owner sheet we use for every AI helper.
 
-Pick 1 team and 1 boring job. Build it with their real examples. Give it 1 owner and a list of what needs a yes. Then add the next team.
+Uber didn't start its AI rollout with 30,000 people.
+
+It started with 30 engineers and 2 weeks.
+
+Pick 1 team and 1 boring job.
+
+Build it with their real examples.
+
+Give it 1 owner and a list of what needs a yes.
+
+Then add the next team.
 
 That's how Content Systems.ai starts every rollout with 3PLs and e-commerce brands.
 
