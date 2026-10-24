@@ -430,6 +430,8 @@ function resolveStory(dir, spec) {
     if (o.sprites) o.sprites = o.sprites.map((k, j) => ({ ...k, acts: (k.acts || []).map((a, m) => ({ ...a, t: a.at !== undefined ? T(a.at, `scene ${i} sprite ${j} act ${m}`, 0.03) : undefined })) }));
     for (const key of ['nodes', 'edges', 'pulses']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
     if (o.counters) o.counters = o.counters.map((c, k) => ({ ...c, t: c.at !== undefined ? T(c.at, `scene ${i} counter ${k}`) : undefined, ticks: (c.ticks || []).map((tk, j) => ({ ...tk, t: T(tk.at, `scene ${i} counter ${k} tick ${j}`, 0.02) })) }));
+    if (o.type === 'choice') { for (const k of ['a', 'b']) if (o[k]?.at !== undefined) o[k] = { ...o[k], t: T(o[k].at, `scene ${i} option ${k}`) }; if (o.voteAt !== undefined) o.voteT = T(o.voteAt, `scene ${i} vote`); }
+    if (o.type === 'stage' && (o.sprite || o.brand)) o.iconUrl = o.brand ? pathToFileURL(path.join(ROOT, 'assets/logos', JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'))[o.brand].logo)).href : pathToFileURL(path.join(ROOT, 'assets/pixel/sprites', `${o.sprite}.png`)).href;
     if (o.type === 'shot') o.srcUrl = pathToFileURL(path.resolve(dir, o.src)).href;
     if (o.type === 'clip') o.srcUrl = pathToFileURL(o.src.startsWith('assets/') ? path.join(ROOT, o.src) : path.resolve(dir, o.src)).href;
     if (o.bg) o.bgUrl = pathToFileURL(path.resolve(dir, o.bg)).href;
@@ -491,6 +493,11 @@ async function renderStory(browser, spec, dir, fps) {
   const { page } = await openTemplate(browser, 'story', data, '9:16');
   if (faceSrc) await page.evaluate(() => Promise.all(window.faceVideos.map((v) => new Promise((r) => { v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); }))));
   await page.evaluate(() => Promise.all((window.clipVideos || []).map((v) => new Promise((r) => { v.readyState >= 2 ? r() : v.addEventListener('loadeddata', r, { once: true }); setTimeout(r, 15000); }))));
+  if (process.env.STORY_SNAP) {   // STORY_SNAP=1.5,6,12 node scripts/render.mjs <post>: still frames only (snap-<t>.png), no video, cheap layout check
+    const out = [];
+    for (const t of process.env.STORY_SNAP.split(',').map(Number)) { await page.evaluate((t) => window.seek(t), t); const f = `snap-${t}.png`; await page.screenshot({ path: path.join(dir, f) }); out.push(f); }
+    return out;
+  }
   const duration = data.duration, frames = Math.round(duration * fps);
   const sfx = await page.evaluate(() => window.sfx);
   const silent = path.join(dir, 'video-silent.mp4');
@@ -738,8 +745,7 @@ async function main(argv) {
       : spec.template === 'arena' ? await renderArena(browser, spec, dir, fps)
       : spec.template === 'talkhead' ? await renderTalkhead(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
-    meta.media = files;
-    fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
+    if (!process.env.STORY_SNAP) { meta.media = files; fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n'); }
     console.log(`  wrote ${files.join(', ')}`);
   } finally {
     await browser.close();

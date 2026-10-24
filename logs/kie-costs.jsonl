@@ -291,3 +291,6 @@
 {"ts":"2026-10-23T22:40:44.481Z","model":"ai-music-api/generate","taskId":"cea579cee7cbc4dc86ab9183ced7cb06","state":"success","credits":12,"usd":0.06,"label":"ig-personal-wed-1230-5-warehouse-skills playful music"}
 {"ts":"2026-10-24T01:54:32.905Z","model":"nano-banana-2","taskId":"c38d53951112df992101b98452212be1","state":"success","credits":12,"usd":0.06,"label":"personal carousel bg morning-apartment"}
 {"ts":"2026-10-24T01:54:56.629Z","model":"nano-banana-2","taskId":"b8502b70f01a716c3e3b5b3a0dfa4a54","state":"success","credits":12,"usd":0.06,"label":"personal carousel bg warm-studio"}
+{"ts":"2026-10-24T05:43:17.211Z","model":"volcengine/video-to-video-lip-sync","taskId":"f3638fb3d515dc84a0ea8f1c81b48e43","state":"fail","credits":0,"usd":0,"label":"ig-personal-mon-1230-what-if-ai-took-over talk 0"}
+{"ts":"2026-10-24T05:44:57.379Z","model":"volcengine/video-to-video-lip-sync","taskId":"326a275cd9dc374af2dcf85a967ab249","state":"success","credits":16,"usd":0.08,"label":"ig-personal-mon-1230-what-if-ai-took-over talk 0"}
+{"ts":"2026-10-24T05:46:38.167Z","model":"volcengine/video-to-video-lip-sync","taskId":"592341191a05582a91f020188aaaec5d","state":"success","credits":32,"usd":0.16,"label":"ig-personal-mon-1230-what-if-ai-took-over talk 1"}

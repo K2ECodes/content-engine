@@ -1420,5 +1420,82 @@
     "no": "Skip"
    }
   }
+ },
+ {
+  "id": "handoff-chat-claude",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "support-handoff",
+   "acc": "#E07A55",
+   "title": "Help desk",
+   "cmd": "This is the 2nd time I'm asking. My order arrived broken.",
+   "input": null,
+   "out": [
+    {
+     "t": "Handing this to a person.",
+     "c": "h"
+    },
+    {
+     "t": "Reason: 2nd time asking + broken item."
+    },
+    {
+     "t": "Photos attached, order 5520, refund $84 ready.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Assign to Priya, support lead",
+    "yes": "Assign",
+    "no": "Edit"
+   }
+  }
+ },
+ {
+  "id": "shopper-check-term-claude",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "agent-shopper",
+   "acc": "#E07A55",
+   "title": "~/shopper · reading store",
+   "cmd": "",
+   "input": "find: wool hoodie, size M, under $80, by Friday",
+   "out": [
+    {
+     "t": "Reading 3 stores",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Store A: size M listed, stock 0",
+     "c": "warn"
+    },
+    {
+     "t": "  skipped",
+     "c": "dim"
+    },
+    {
+     "t": "Store B: no delivery date",
+     "c": "warn"
+    },
+    {
+     "t": "  skipped",
+     "c": "dim"
+    },
+    {
+     "t": "Store C: M in stock, arrives Thu, free returns"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Recommending Store C. Waiting for your yes.",
+     "c": "ok"
+    }
+   ]
+  }
  }
 ]

@@ -60,7 +60,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Never name the skill/tool on the cover or in the caption's first 3 lines (Korede, 2026-10-24)**: say "this skill" / "these 3 skills" and make people swipe for the names; no slash-names in captions at all. No cringe meme captions like "Grr Mondays".
 
-- **@koredekola + Korede's LinkedIn focus (Korede, 2026-10-24)**: freebies, open source tools/repos, reverse-engineering (how X built Y, breaking down a viral app/ad/prompt), trending AI and tech news, skills, hot takes, day in the life. Every week mixes all of these, and videos rotate styles (talking head + B-roll, stop-motion, cinema, pixel worlds, logo battles, AI-slop skits/swaps, screen-recording breakdowns, day-in-the-life vlog cuts) and characters (pixel cast, brand-logo characters, robots, Korede). Every new rule in this file applies to every video and post, old and new, on its next render.
+- **@koredekola + Korede's LinkedIn focus (Korede, 2026-10-24; examples, not a limit: invent any other format that can go viral)**: freebies, open source tools/repos, reverse-engineering (how X built Y, breaking down a viral app/ad/prompt), trending AI and tech news, skills, hot takes, day in the life. Every week mixes all of these, and videos rotate styles (talking head + B-roll, stop-motion, cinema, pixel worlds, logo battles, AI-slop skits/swaps, screen-recording breakdowns, day-in-the-life vlog cuts) and characters (pixel cast, brand-logo characters, robots, Korede). Every new rule in this file applies to every video and post, old and new, on its next render.
 
 
 ## Content rules
