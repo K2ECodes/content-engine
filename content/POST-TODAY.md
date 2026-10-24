@@ -208,7 +208,7 @@ From the build, Korede
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```
 
-## 12. Company IG Halloween reel (ready)
+## 12. Company IG Halloween reel (re-rendering with % fix, ready ~17:20)
 Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
 
 ```
@@ -257,22 +257,22 @@ Episode 1. A game, not real news.
 #AI #ClaudeAI #Anthropic #choosewisely #tech
 ```
 
-## 15. @koredekola carousel "What if everyone became 10% Nigerian?" (HOLD: being rebuilt realistic + a video version)
+## 15. @koredekola carousel "What if everyone became 10% Nigerian?" (ready: realistic, 9 slides, flag)
 Folder: `content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian` · media: slide-*.png · keyword: AI
 
 ```
-What if everyone became 10% Nigerian? I'm Nigerian, so I made you the timeline.
-Comment AI and I'll send you my 5 free starter AI skills. No wahala.
-Swipe for day 1 to year 1.
+What if everyone on Earth woke up 10% Nigerian? I'm Nigerian, so I walked it through.
+Day 1 every DNA test says Nigeria. Week 1 everyone wants the passport, and the embassy says no.
+10 years later, racism doesn't survive the family reunion.
 
-Day 1 is jollof. Year 1 is the best answer to every problem you'll ever hear.
+Some of this is already real: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.
 
-Which day are you already on? Tell me in the comments.
+What's the first thing you'd do as a 10% Nigerian? Tell me below, and follow for part 2.
 
-#Nigeria #Naija #Afrobeats #Lagos #AI
+#Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
 
-## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering)
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~17:35)
 Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
 
 ```
@@ -324,4 +324,19 @@ Walmart's gateway lets outside AI assistants browse, build a cart and check out,
 The shopper is changing. Who wins this, Walmart or Amazon?
 
 #AI #AIagents #ecommerce #Walmart #technews
+```
+
+## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (rendering now, ready ~17:20)
+Folder: `content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video` · media: video.mp4 · keyword: -
+
+```
+What if everyone on Earth woke up 10% Nigerian? I'm Nigerian, so I walked you through it.
+Day 1 every DNA test says Nigeria. Week 1 the embassy says no.
+10 years later, racism doesn't survive the family reunion.
+
+The real numbers: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.
+
+What's the first thing you'd do as a 10% Nigerian? Tell me below, and follow for part 2.
+
+#Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
