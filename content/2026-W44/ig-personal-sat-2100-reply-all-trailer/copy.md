@@ -29,3 +29,9 @@ Reel cost about $0.65.
 Freebie for keyword AI: AI Employee Starter Pack (assets/freebies/ai-employee-starter-pack.pdf, listed in config/offers.json).
 Format research: research/style-ai-slop.md. All Korede shots are generated from his likeness photos (assets/talking-head/likeness/korede-terrace.jpg, korede-ubahn.jpg, assets/talking-head/korede-still.png) via nano-banana-2 image editing, then animated. No real people other than Korede, no brand logos on screen (the chat and voice-mode UIs are generic, drawn in HTML).
 Korede voice: HeyGen heygen-voice-1-turbo-free, instant clone 2119a56717374a708188f84e99e8f2c4. Assembly: ffmpeg (scratchpad assembler), captions rendered with Playwright (Anton), loudness -14 LUFS. SFX from assets/sfx. Not yet linted by Korede; status draft. Consider a trending IG audio swap at queue time.
+
+Likeness rebuild 2026-10-24 (Korede: "looks insanely not like me"):
+- Laptop and printer stills re-made with nano-banana-2 editing REAL photos of Korede (laptop-rooftop.jpg, korede-ubahn.jpg) with his front plate frame and terrace photo as identity refs, 2K; outputs checked face-to-face against the refs (young round face, braids, ear studs). Saved in src/. Slow push-ins instead of AI motion so the face can't drift.
+- Whisper close-up ("it replied... all.") is now his REAL face: a 3.2 s cut of the W43 lip-sync plate, re-lip-synced to the whisper line (volcengine lite), dark blue phone-lit grade.
+- Music removed (Korede adds his own); SFX: impact, whoosh, riser, notify, print, explode, thud.
+- Spend $0.32 (4 stills + 1 lip-sync). Assembly spec: src/assemble-spec.json (scratchpad assembler).

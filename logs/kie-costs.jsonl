@@ -319,3 +319,11 @@
 {"ts":"2026-10-24T06:07:18.000Z","model":"nano-banana-2","taskId":"9e1804f890c5edb9078074def4ade6b6","state":"success","credits":12,"usd":0.06,"label":"W46 ig-company-sat-1700-you-decide-hurricane-warehouse prep"}
 {"ts":"2026-10-24T06:07:31.204Z","model":"nano-banana-2","taskId":"483bc75da4fead2e6bd23110cc57e285","state":"success","credits":12,"usd":0.06,"label":"W46 ig-company-sat-1700-you-decide-hurricane-warehouse storm"}
 {"ts":"2026-10-24T06:07:31.206Z","model":"nano-banana-2","taskId":"9fb1f0b560956a937514b8c7e1056f47","state":"success","credits":12,"usd":0.06,"label":"W46 ig-company-sat-1700-you-decide-hurricane-warehouse empty"}
+{"ts":"2026-10-24T06:09:40.688Z","model":"volcengine/video-to-video-lip-sync","taskId":"aa913214318182348b480159c63a4eaa","state":"success","credits":16,"usd":0.08,"label":"ig-personal-tue-1230-what-if-internet-down-30-days talk 0"}
+{"ts":"2026-10-24T06:10:37.499Z","model":"nano-banana-2","taskId":"eda7b0835253d38189256240fff3bbb2","state":"success","credits":12,"usd":0.06,"label":"reply-all likeness laptop.png"}
+{"ts":"2026-10-24T06:10:52.883Z","model":"nano-banana-2","taskId":"3d013d780eb1175fc904d964b05be9b5","state":"success","credits":12,"usd":0.06,"label":"reply-all likeness close.png"}
+{"ts":"2026-10-24T06:10:54.641Z","model":"nano-banana-2","taskId":"9e66a201a124b9399e86f81118a0e5f2","state":"success","credits":12,"usd":0.06,"label":"reply-all likeness printer.png"}
+{"ts":"2026-10-24T06:11:38.529Z","model":"volcengine/video-to-video-lip-sync","taskId":"09f6078be860d31b716335140495ea05","state":"success","credits":24,"usd":0.12,"label":"ig-personal-tue-1230-what-if-internet-down-30-days talk 1"}
+{"ts":"2026-10-24T06:12:08.017Z","model":"nano-banana-2","taskId":"872209a2e80e130dbbe05f23385cc191","state":"success","credits":12,"usd":0.06,"label":"reply-all likeness printer2.png"}
+{"ts":"2026-10-24T06:12:42.528Z","model":"volcengine/video-to-video-lip-sync","taskId":"e279c3c103000b7131e7a920b9decdd4","state":"success","credits":16,"usd":0.08,"label":"reply-all whisper real face"}
+{"ts":"2026-10-24T06:14:36.796Z","model":"volcengine/video-to-video-lip-sync","taskId":"77a4f816fc45b5bf27db01aa9d0cffe3","state":"success","credits":32,"usd":0.16,"label":"ig-personal-fri-1230-you-decide-ai-spent-4000 talk 0"}

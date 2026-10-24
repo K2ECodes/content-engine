@@ -1,0 +1,143 @@
+{
+ "tmp": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/likeness/tmp",
+ "out": "/Users/koredekola/content-engine/content/2026-W44/ig-personal-sat-2100-reply-all-trailer/video.mp4",
+ "poster": {
+  "t": 14.5,
+  "out": "/Users/koredekola/content-engine/content/2026-W44/ig-personal-sat-2100-reply-all-trailer/poster.png"
+ },
+ "shots": [
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/likeness/laptop.png",
+   "image": true,
+   "dur": 5.0,
+   "zoom": "1+0.0009*on",
+   "bars": [
+    220,
+    1250
+   ]
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/likeness/printer2.png",
+   "image": true,
+   "dur": 5.0,
+   "zoom": "1+0.0011*on",
+   "bars": [
+    220,
+    1250
+   ]
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/black.png",
+   "image": true,
+   "dur": 2.6
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/likeness/whisper-graded.mp4",
+   "ss": 0,
+   "dur": 2.95
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/r3-title.png",
+   "image": true,
+   "dur": 2.6,
+   "zoom": "1+0.0012*on"
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/end.png",
+   "image": true,
+   "dur": 2.2
+  }
+ ],
+ "captions": [
+  {
+   "png": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/r3-c1.png",
+   "t0": 0.1,
+   "t1": 5.0
+  },
+  {
+   "png": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/r3-c2.png",
+   "t0": 5.3,
+   "t1": 10.0
+  },
+  {
+   "png": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/r3-c3.png",
+   "t0": 10.1,
+   "t1": 12.6
+  },
+  {
+   "png": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/cards/r3-c4.png",
+   "t0": 12.8,
+   "t1": 15.6
+  }
+ ],
+ "audio": [
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/audio/r3-n1.wav",
+   "at": 0.1,
+   "tempo": 1.15,
+   "vol": 1.3
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/print.wav",
+   "at": 5.2,
+   "vol": 0.5
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/audio/r3-n2.wav",
+   "at": 5.0,
+   "tempo": 1.15,
+   "vol": 1.3
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/slop/audio/r3-n3.wav",
+   "at": 10.3,
+   "tempo": 1.1,
+   "vol": 1.4
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/explode.wav",
+   "at": 15.56,
+   "vol": 0.7
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/thud.wav",
+   "at": 15.56,
+   "vol": 0.8
+  },
+  {
+   "src": "/private/tmp/claude-501/-Users-koredekola/fd732047-66c1-4dc1-8b4a-de709942f3b9/scratchpad/likeness/whisper.wav",
+   "at": 12.61,
+   "vol": 1.5
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/riser-1.wav",
+   "at": 8.6,
+   "vol": 0.55
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/impact-big-1.wav",
+   "at": 0.05,
+   "vol": 0.6
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/whoosh-big-1.wav",
+   "at": 4.95,
+   "vol": 0.5
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/impact-soft-1.wav",
+   "at": 10.05,
+   "vol": 0.6
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/notify-1.wav",
+   "at": 12.5,
+   "vol": 0.45
+  },
+  {
+   "src": "/Users/koredekola/content-engine/assets/sfx/kit/whoosh-subtle-1.wav",
+   "at": 18.0,
+   "vol": 0.5
+  }
+ ]
+}
