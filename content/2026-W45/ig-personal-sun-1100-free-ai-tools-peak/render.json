@@ -1,0 +1,266 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "gold",
+  "handle": "@koredekola",
+  "platform": "instagram",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.6
+     }
+    },
+    "blocks": [
+     {
+      "text": "Paying for AI tools?",
+      "style": "acc",
+      "size": 96
+     },
+     {
+      "text": "These *3 are free.*",
+      "style": "white",
+      "size": 92
+     }
+    ],
+    "blocksY": 110,
+    "pay": {
+     "text": "*Open source.* Swipe for all 3.",
+     "y": 1010,
+     "size": 48
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 185,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.95) sepia(.08) saturate(1.05)"
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "blur": true
+    },
+    "label": "Tool 1.",
+    "labelY": 100,
+    "title": "Anthropic's\n*skills library*",
+    "titleY": 170,
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/gh-anthropic-skills.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/sop-to-skill-term-claude.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/sop-to-skill-term-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
+    "ann": [
+     {
+      "k": "What's in it",
+      "v": "ready-made skills for Claude and 70+ AI tools, free on GitHub."
+     },
+     {
+      "k": "Start with",
+      "v": "the 1 that writes new skills for you."
+     }
+    ],
+    "annY": 1040
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "blur": true
+    },
+    "label": "Tool 2.",
+    "labelY": 100,
+    "title": "A web reader\nfor *your AI*",
+    "titleY": 170,
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/gh-firecrawl.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/gh-firecrawl.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/price-watch-chat-claude.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/price-watch-chat-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
+    "ann": [
+     {
+      "k": "What it does",
+      "v": "turns any web page into clean text your AI can read."
+     },
+     {
+      "k": "Try it on",
+      "v": "your 3 biggest competitors' prices, every Monday."
+     }
+    ],
+    "annY": 1040
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "blur": true
+    },
+    "label": "Tool 3.",
+    "labelY": 100,
+    "title": "My 5\n*starter skills*",
+    "titleY": 170,
+    "bodyY": 440,
+    "locked": [
+     {
+      "n": "1",
+      "text": "Sorts your inbox, drafts replies"
+     },
+     {
+      "n": "2",
+      "text": "Preps you for every call"
+     },
+     {
+      "n": "3",
+      "text": "Writes the follow-up"
+     },
+     {
+      "n": "4",
+      "text": "Pulls the weekly numbers"
+     },
+     {
+      "n": "5",
+      "text": "Turns an SOP into a skill"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Why it works",
+      "v": "none of them send anything without your yes."
+     }
+    ],
+    "annY": 1060
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "blur": true
+    },
+    "label": "Before you install",
+    "labelY": 100,
+    "title": "1 rule for\n*all 3*",
+    "titleY": 170,
+    "bodyY": 440,
+    "approve": {
+     "title": "Waiting for a yes",
+     "main": "Email 40 customers about the delay",
+     "sub": "Drafted by AI. Sent by a person.",
+     "yes": "Send",
+     "no": "Edit"
+    },
+    "ann": [
+     {
+      "k": "The rule",
+      "v": "it reads and drafts on its own. Anything that leaves your business waits for you."
+     }
+    ],
+    "annY": 1040
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/talking-head/backgrounds/city-dusk.png",
+     "pos": "50% 55%",
+     "dim": {
+      "top": 0.7,
+      "bot": 0.55
+     }
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 180,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.95) sepia(.08) saturate(1.05)"
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 116
+     },
+     {
+      "text": "for all 3 + the links.",
+      "style": "acc",
+      "size": 72
+     }
+    ],
+    "blocksY": 70,
+    "pay": {
+     "text": "My 5 starter skills, *free.*",
+     "y": 1030,
+     "size": 48
+    },
+    "wordmark": false
+   }
+  ]
+ }
+}

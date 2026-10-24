@@ -900,5 +900,525 @@
     "no": "Edit"
    }
   }
+ },
+ {
+  "id": "web-tc-google-cart",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-uber",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-rd-five9",
+  "kind": "web",
+  "url": "https://www.retaildive.com/news/why-customers-fed-up-ai-chatbots/833488/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-openai-google-cloud",
+  "kind": "web",
+  "url": "https://openai.com/index/openai-models-google-cloud/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-opencode",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-msft-insider",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-anthropic-aaif",
+  "kind": "web",
+  "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-walmart",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-duet",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-1password",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "web-tc-decisions",
+  "kind": "web",
+  "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+  "min": 10,
+  "hide": [
+   "#onetrust-banner-sdk",
+   "#onetrust-consent-sdk",
+   ".fc-consent-root",
+   "[id*=cookie]",
+   "[class*=cookie]",
+   "[class*=consent]",
+   "[id*=consent]",
+   "[class*=newsletter]",
+   "[class*=paywall]"
+  ],
+  "steps": [
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   },
+   {
+    "wait": 700
+   },
+   {
+    "scroll": 700,
+    "speed": 30
+   },
+   {
+    "wait": 600
+   },
+   {
+    "scroll": 500,
+    "speed": 30
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "gh-firecrawl",
+  "kind": "web",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "min": 12,
+  "hide": [
+   "header.HeaderMktg",
+   ".js-header-wrapper",
+   "div[data-testid=\"signup-prompt\"]",
+   ".flash-full"
+  ],
+  "steps": [
+   {
+    "wait": 900
+   },
+   {
+    "scroll": 500,
+    "speed": 16
+   },
+   {
+    "wait": 500
+   },
+   {
+    "scroll": 700,
+    "speed": 18
+   },
+   {
+    "wait": 500
+   },
+   {
+    "scroll": 600,
+    "speed": 18
+   }
+  ],
+  "vw": 430
+ },
+ {
+  "id": "price-watch-chat-claude",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "price-watch",
+   "acc": "#E07A55",
+   "title": "AI chat",
+   "cmd": "check the 3 competitor pages and tell me what changed",
+   "input": null,
+   "out": [
+    {
+     "t": "3 pages read. 2 changes.",
+     "c": "h"
+    },
+    {
+     "t": "Store A: hoodie down from $68 to $59."
+    },
+    {
+     "t": "Store B: free shipping now starts at $50.",
+     "c": "dim"
+    },
+    {
+     "t": "Store C: no change."
+    }
+   ],
+   "approve": {
+    "main": "Add to Monday's notes",
+    "yes": "Save",
+    "no": "Skip"
+   }
+  }
  }
 ]
