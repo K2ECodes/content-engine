@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../_base/brand.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=JetBrains+Mono:wght@700&display=block" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Silkscreen:wght@400;700&display=block" rel="stylesheet">
 <style>
   /* Content Systems.ai pixel-world carousel: the 8-bit platformer world from the brand's "Our Story" posts,
@@ -108,6 +108,27 @@
   .collage.clean { padding: 0; border-radius: 18px; overflow: hidden; border: 6px solid #fff; }
   .collage.clean img { border-radius: 0; }
   .collage.clean .tape { display: none; }
+
+  /* Content Systems cover (world "paper", restyled 2026-10-24 to be ours, not Albert's): cream grid page, brand chips with names,
+     accent words in a brand-colour block with hard ink shadow, terminal subline, pixel ? blocks, pixel host pointing. */
+  .paper .sky { background-color: #F4EFE6 !important; background-image: linear-gradient(rgba(23,40,28,.07) 2px, transparent 2px), linear-gradient(90deg, rgba(23,40,28,.07) 2px, transparent 2px) !important; background-size: 54px 54px !important; image-rendering: auto; }
+  .paper .bgph { opacity: .1; }
+  .paper .bbar { gap: 18px; font: 800 40px/1 'Inter', sans-serif; }
+  .paper .bbar .chip { display: flex; align-items: center; gap: 12px; background: #fff; border: 5px solid #17281C; box-shadow: 6px 6px 0 #17281C; border-radius: 14px; padding: 10px 18px 10px 12px; }
+  .paper .bbar .chip img { width: 54px; height: 54px; }
+  .paper .bbar .plus { display: none; }
+  .paper .hl .a { color: #fff; background: var(--acc); padding: 0 18px; box-shadow: 10px 10px 0 #17281C; display: inline-block; line-height: 1.02; margin-top: 10px; }
+  .paper .uline { display: none; }
+  .paper .hand { font: 700 38px/1 'JetBrains Mono', monospace; }
+  .paper .hand span { display: inline-block; background: #17281C; color: #F5F0E8; padding: 16px 26px; border-radius: 12px; box-shadow: 0 8px 0 rgba(23,40,28,.25); }
+  .paper .hand b { color: var(--gold); margin-right: 14px; }
+  .paper .tree svg.wires path { stroke-dasharray: 14 10; stroke-width: 6; }
+  .paper .tnode { border: 6px solid #17281C; box-shadow: 8px 8px 0 #17281C; border-radius: 14px; }
+  .paper .tnode.qb { background: transparent url(../../assets/pixel/sprites/qblock.png) center/112% 112% no-repeat; overflow: hidden; image-rendering: pixelated; border: 0; box-shadow: 0 10px 0 rgba(23,40,28,.25); border-radius: 0; }
+  .paper .tnode.qb .q { display: none; }
+  .paper .tnode .lbl { bottom: -50px; font: 800 30px/1 'Inter', sans-serif; color: #17281C; }
+  .tree.up .tnode .lbl { bottom: auto; top: -44px; }
+  .paper .note { font: 700 52px/1 'Caveat', cursive; }
   .count { position: absolute; top: 30px; right: 40px; font: 700 22px/1 'Silkscreen'; color: var(--hl); opacity: .55; }
 </style>
 </head>
@@ -120,7 +141,7 @@
 // Sprites stand on the grass line (y 1108) unless y is given. All text lives here, so it's exact and linted.
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const acc = (s) => esc(s).replace(/\*(.+?)\*/g, '<span class="a">$1</span>');
-const GRASS_BY_WORLD = { day: 1108, night: 1108, sunset: 1082, neon: 1052 };
+const GRASS_BY_WORLD = { day: 1108, night: 1108, sunset: 1082, neon: 1052, paper: 1176 };
 let GRASS = 1108;
 const burstSvg = (color) => { const pts = []; for (let i = 0; i < 24; i++) { const r = i % 2 ? 40 : 50, a = (i / 24) * Math.PI * 2; pts.push(`${50 + r * Math.cos(a)},${50 + r * Math.sin(a)}`); } return `<svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon points="${pts.join(' ')}" fill="${color}"/></svg>`; };
 const ICONS = {
@@ -144,7 +165,7 @@ const arrow = (a) => { const mx = (a.x1 + a.x2) / 2 + (a.bend ?? 60), my = (a.y1
 
 
 let BRANDS = {};
-const logoUrl = (id) => `../../assets/logos/${(BRANDS[id] && BRANDS[id].logo) || id + '.svg'}`;
+const logoUrl = (id) => `../../assets/logos/${(BRANDS[id] && (BRANDS[id].icon || BRANDS[id].logo)) || id + '.svg'}`;
 const nodeHtml = (n, size) => {
   const inner = n.q ? `<span class="q" style="font-size:${Math.round(size * 0.62)}px">?</span>`
     : n.brand ? `<img class="lg" src="${logoUrl(n.brand)}">` : n.sprite ? `<img class="sp" style="height:${Math.round(size * 0.74)}px" src="../../assets/pixel/sprites/${n.sprite}.png">`
@@ -161,10 +182,11 @@ const treeHtml = (t) => {
   t.many.forEach((m, i) => {
     const mx = x0 + i * (ms + (t.spread ?? 60)), mcx = mx + ms / 2;
     wires += up ? `<path d="M${mcx} ${ms} V${midY} H${cx} V${yOne}"/>` : `<path d="M${cx} ${os} V${midY} H${mcx} V${yMany}"/>`;
-    nodes += `<div class="tnode" style="left:${mx}px;top:${yMany}px;width:${ms}px;height:${ms}px">${nodeHtml(m, ms)}</div>`;
+    const ml = m.brand && !m.label && t.names !== false && !t.hasBar ? { ...m, label: (BRANDS[m.brand] || {}).name } : m;
+    nodes += `<div class="tnode${m.q ? ' qb' : ''}" style="left:${mx}px;top:${yMany}px;width:${ms}px;height:${ms}px">${nodeHtml(ml, ms)}</div>`;
   });
-  nodes += `<div class="tnode" style="left:${cx - os / 2}px;top:${yOne}px;width:${os}px;height:${os}px;--tb:${t.oneBorder || 'var(--acc)'}">${nodeHtml(t.one, os)}</div>`;
-  return `<div class="tree" style="top:${t.y}px;--tb:${t.border || 'color-mix(in srgb, var(--acc) 38%, white)'}"><svg class="wires" width="1" height="1">${wires}</svg>${nodes}</div>`;
+  nodes += `<div class="tnode${t.one.q ? ' qb' : ''}" style="left:${cx - os / 2}px;top:${yOne}px;width:${os}px;height:${os}px;--tb:${t.oneBorder || 'var(--acc)'}">${nodeHtml(t.one, os)}</div>`;
+  return `<div class="tree${up ? ' up' : ''}" style="top:${t.y}px;--tb:${t.border || 'color-mix(in srgb, var(--acc) 38%, white)'}"><svg class="wires" width="1" height="1">${wires}</svg>${nodes}</div>`;
 };
 let DATA;
 window.renderPost = (data) => { DATA = data; BRANDS = data.brandsCfg || {}; window.slideCount = data.slides.length; window.showSlide(0); };
@@ -182,17 +204,18 @@ window.showSlide = (i) => {
     <div class="canvas ${world}" style="${s.accent ? `--acc:${s.accent};` : ''}">
       <div class="sky" style="background-image:url(../../assets/pixel/sky-${world}.png)"></div>
       ${s.bgPhoto ? `<div class="bgph" style="background-image:url(${esc(s.bgPhoto)})"></div><div class="bgwash"></div>` : ''}
-      ${s.brandbar ? `<div class="bbar">${s.brandbar.map((b, k) => `${k ? '<span class="plus">+</span>' : ''}<img src="${logoUrl(b)}">${s.brandbar.length === 1 ? esc((BRANDS[b] || {}).name || b) : ''}`).join('')}</div>` : ''}
+      ${s.brandbar ? `<div class="bbar">${s.brandbar.map((b, k) => s.world === 'paper' ? `<span class="chip"><img src="${logoUrl(b)}">${esc((BRANDS[b] || {}).name || b)}</span>` : `${k ? '<span class="plus">+</span>' : ''}<img src="${logoUrl(b)}">${s.brandbar.length === 1 ? esc((BRANDS[b] || {}).name || b) : ''}`).join('')}</div>` : ''}
       <div class="count">${i + 1}/${DATA.slides.length}</div>
       <div class="hl ${s.size || ''}${s.brandbar ? ' withbar' : ''}">${hl}${s.underline !== false && hl ? '<svg class="uline" viewBox="0 0 600 28" preserveAspectRatio="none"><path d="M6 18 C150 6, 420 6, 594 14"/><path d="M60 25 C220 16, 400 17, 520 22" style="stroke-width:4"/></svg>' : ''}</div>
       ${card}
       ${s.kw ? `<div class="kw" style="top:${s.kw.y ?? 520}px">${esc(s.kw.text)}</div>` : ''}
-      ${s.hand ? `<div class="hand" style="top:${s.hand.y}px">${esc(s.hand.text)}</div>` : ''}
-      ${s.tree ? treeHtml(s.tree) : ''}
+      ${s.hand ? `<div class="hand" style="top:${s.hand.y}px">${s.world === 'paper' ? `<span><b>&gt;</b>${esc(s.hand.text.replace(/^\(|\)$/g, ''))}</span>` : esc(s.hand.text)}</div>` : ''}
+      ${s.tree ? treeHtml({ ...s.tree, hasBar: !!s.brandbar }) : ''}
       ${collage}${sprites}${igcta}${notes}${bursts}
       <div class="wmrow"><img src="../../assets/brand/lockup-horizontal.png" alt=""></div>
       <div class="foot"><span class="h">${DATA.platform === 'linkedin' ? ICONS.li : ICONS.ig}${esc(DATA.handle || '@contentsystems.ai')}</span><span class="h">save for later ${ICONS.bm}</span></div>
     </div>`;
+  document.querySelectorAll('.hand span').forEach((h) => { h.style.whiteSpace = 'nowrap'; let fs = 38; while (h.offsetWidth > 990 && fs > 22) { fs -= 2; h.style.fontSize = fs + 'px'; } });
   document.querySelectorAll('.hl > div').forEach((l) => { l.style.whiteSpace = 'nowrap'; let fs = parseFloat(getComputedStyle(l).fontSize); while (l.scrollWidth > 960 && fs > 60) { fs -= 4; l.style.fontSize = fs + 'px'; } });
 };
 </script>

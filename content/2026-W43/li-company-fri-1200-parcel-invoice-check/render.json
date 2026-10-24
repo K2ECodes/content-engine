@@ -68,6 +68,14 @@
        "bend": -30
       }
      }
+    ],
+    "sprites": [
+     {
+      "name": "sanjana-shrug",
+      "x": 100,
+      "h": 250,
+      "flip": false
+     }
     ]
    },
    {

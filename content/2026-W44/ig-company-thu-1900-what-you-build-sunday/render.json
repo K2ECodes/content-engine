@@ -25,8 +25,8 @@
      "one": {
       "sprite": "korede-laptop"
      },
-     "oneSize": 240,
-     "gap": 70,
+     "oneSize": 190,
+     "gap": 56,
      "many": [
       {
        "sprite": "robot"
@@ -35,9 +35,9 @@
        "q": true
       }
      ],
-     "manySize": 180,
+     "manySize": 140,
      "spread": 140,
-     "y": 690
+     "y": 700
     },
     "notes": [
      {
@@ -276,7 +276,7 @@
     "underline": false,
     "cta": {
      "keyword": "WORKSHOP",
-     "y": 330,
+     "y": 300,
      "line": "next date in our bio",
      "pill": true
     },

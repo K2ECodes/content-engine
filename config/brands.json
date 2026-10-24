@@ -63,7 +63,8 @@
     "bg": "#232F3E",
     "fg": "#FFFFFF",
     "tile": "#FFFFFF",
-    "accent": "#FF9900"
+    "accent": "#FF9900",
+    "icon": "amazon-icon.svg"
   },
   "microsoft": {
     "name": "Microsoft",

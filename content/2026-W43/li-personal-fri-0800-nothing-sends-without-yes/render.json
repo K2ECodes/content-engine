@@ -60,6 +60,14 @@
        "bend": -30
       }
      }
+    ],
+    "sprites": [
+     {
+      "name": "korede-point",
+      "x": 140,
+      "h": 250,
+      "flip": false
+     }
     ]
    },
    {
