@@ -1,5 +1,5 @@
 ## Caption
-The AI feature that'll save business owners the most money this year isn't a smarter model. It's a pause.
+Claude, Amazon and Microsoft all just bet on the same AI feature. And it's not a smarter model.
 
 Anthropic put Claude Duet into research preview this week. It works in the background, builds your daily briefing and suggests what to do next.
 
