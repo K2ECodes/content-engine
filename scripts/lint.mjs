@@ -133,7 +133,8 @@ function lintCaption(caption, meta, file) {
 
   if (meta.cta_keyword) {
     const head = caption.split('\n').filter((l) => l.trim()).slice(0, 3).join(' ');
-    if (!new RegExp(`\\b${escapeRe(meta.cta_keyword)}\\b`).test(head))
+    // Instagram only: Korede's LinkedIn style puts the CTA near the end
+    if (!String(meta.channel).startsWith('li-') && !new RegExp(`\\b${escapeRe(meta.cta_keyword)}\\b`).test(head))
       push('warn', 'cta', `put "${meta.cta_keyword}" in the first 3 lines, before the "more" cut`);
   }
 
