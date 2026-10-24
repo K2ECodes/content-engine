@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
+<style>
+  /* Skill-run replay for carousel video slides: a skill typed, the input pasted, the real output streamed.
+     Recorded with Playwright recordVideo (scripts/record-demo.mjs). 800x1080. Generic UI, no vendor branding. */
+  html, body { margin: 0; width: 800px; height: 1080px; overflow: hidden; }
+  .term { width: 800px; height: 1080px; background: #14161A; color: #E8E6E1; font: 500 40px/1.38 'JetBrains Mono', monospace; display: flex; flex-direction: column; }
+  .term .bar { display: flex; align-items: center; gap: 14px; padding: 26px 30px; background: #1D2025; font: 600 30px/1 'Inter'; color: #9AA0A8; }
+  .term .bar i { width: 22px; height: 22px; border-radius: 50%; display: inline-block; }
+  .term .body { padding: 30px 32px; flex: 1; overflow: hidden; }
+  .term .p { color: var(--acc, #E8B84B); }
+  .term .cmd b { color: #fff; }
+  .term .in { margin: 16px 0 20px; padding: 16px 20px; font-size: 34px; border-left: 5px solid #3A3F47; color: #9AA0A8; background: #1A1D22; }
+  .term .out div { min-height: 1.5em; white-space: pre-wrap; }
+  .term .out .h { color: var(--acc, #E8B84B); font-weight: 700; }
+  .term .out .ok { color: #7FD19B; }
+  .term .out .warn { color: #F2A65A; }
+  .term .out .dim { color: #8B9199; }
+  .cur { display: inline-block; width: 20px; height: 1.1em; vertical-align: -3px; background: #E8E6E1; animation: bl 1s steps(1) infinite; }
+  @keyframes bl { 50% { opacity: 0; } }
+  .chat { width: 800px; height: 1080px; background: #F6F4EF; color: #1B1B1B; font: 500 42px/1.3 'Inter', sans-serif; letter-spacing: -0.02em; display: flex; flex-direction: column; }
+  .chat .bar { padding: 26px 30px; font: 700 30px/1 'Inter'; color: #555; border-bottom: 2px solid #E4E0D8; background: #FBFAF7; display: flex; justify-content: space-between; }
+  .chat .bar span { font-weight: 600; color: #888; }
+  .chat .body { flex: 1; padding: 28px 26px; display: flex; flex-direction: column; gap: 22px; overflow: hidden; }
+  .chat .u { align-self: flex-end; max-width: 82%; background: #1B1B1B; color: #fff; padding: 18px 22px; border-radius: 26px 26px 6px 26px; }
+  .chat .a { align-self: flex-start; max-width: 92%; background: #fff; padding: 20px 24px; border-radius: 26px 26px 26px 6px; box-shadow: 0 2px 0 rgba(0,0,0,.06); }
+  .chat .a div { min-height: 1.42em; }
+  .chat .a .h { font-weight: 700; }
+  .chat .u div { font-size: 34px; }
+  .chat .a .ok { color: #1E8A4C; font-weight: 700; }
+  .chat .a .warn { color: #C25A1C; font-weight: 700; }
+  .chat .a .dim { color: #777; }
+  .chat .card { margin-top: 10px; border: 2px solid #E4E0D8; border-radius: 16px; padding: 16px 18px; }
+  .chat .btns { display: flex; gap: 12px; margin-top: 12px; }
+  .chat .btns i { font-style: normal; flex: 1; text-align: center; padding: 12px; border-radius: 12px; font-weight: 700; border: 2px solid #1B1B1B; }
+  .chat .btns i.y { background: var(--acc, #E8B84B); border-color: var(--acc, #E8B84B); color: #1B1B1B; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// data: { style: term|chat, acc, title, cmd, input, out: [{t, c: h|ok|warn|dim}], approve: {main, yes, no} }
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const sleep = (ms) => new Promise((r) => { const B = document.getElementById('b'); if (B) B.scrollTop = B.scrollHeight; setTimeout(r, ms); });
+window.renderDemo = async (d) => {
+  document.documentElement.style.setProperty('--acc', d.acc || '#E8B84B');
+  const R = document.getElementById('root');
+  if (d.style === 'chat') {
+    R.innerHTML = `<div class="chat"><div class="bar">${esc(d.title || 'AI chat')}<span>skill: /${esc(d.skill)}</span></div><div class="body" id="b"></div></div>`;
+  } else {
+    R.innerHTML = `<div class="term"><div class="bar"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i>&nbsp;${esc(d.title || '~/work')}</div><div class="body" id="b"></div></div>`;
+  }
+  const B = document.getElementById('b');
+  await sleep(300);
+  if (d.style === 'chat') {
+    const u = document.createElement('div'); u.className = 'u'; B.appendChild(u);
+    for (const ch of `/${d.skill} ${d.cmd || ''}`) { u.textContent += ch; await sleep(28); }
+    if (d.input) { await sleep(150); u.innerHTML += `<div style="opacity:.7;margin-top:8px">${esc(d.input)}</div>`; }
+    await sleep(450);
+    const a = document.createElement('div'); a.className = 'a'; B.appendChild(a);
+    for (const l of d.out) { const e = document.createElement('div'); e.className = l.c || ''; a.appendChild(e); for (const w of l.t.split(/(\s+)/)) { e.textContent += w; await sleep(26); } await sleep(70); }
+    if (d.approve) { await sleep(200); a.insertAdjacentHTML('beforeend', `<div class="card"><b>${esc(d.approve.main)}</b><div class="btns"><i class="y">${esc(d.approve.yes || 'Approve')}</i><i>${esc(d.approve.no || 'Edit')}</i></div></div>`); }
+  } else {
+    const c = document.createElement('div'); c.className = 'cmd'; c.innerHTML = '<span class="p">›</span> <b></b><span class="cur"></span>'; B.appendChild(c);
+    const bEl = c.querySelector('b');
+    for (const ch of `/${d.skill}${d.cmd ? ' ' + d.cmd : ''}`) { bEl.textContent += ch; await sleep(40); }
+    await sleep(250); c.querySelector('.cur').remove();
+    if (d.input) { const i = document.createElement('div'); i.className = 'in'; i.textContent = d.input; B.appendChild(i); await sleep(400); }
+    const o = document.createElement('div'); o.className = 'out'; B.appendChild(o);
+    for (const l of d.out) { const e = document.createElement('div'); e.className = l.c || ''; o.appendChild(e); for (const w of l.t.split(/(\s+)/)) { e.textContent += w; await sleep(22); } await sleep(60); }
+    o.insertAdjacentHTML('beforeend', '<div><span class="p">›</span> <span class="cur"></span></div>');
+  }
+  window.demoDone = true;
+};
+</script>
+</body>
+</html>

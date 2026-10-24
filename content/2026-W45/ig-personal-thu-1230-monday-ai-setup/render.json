@@ -24,21 +24,21 @@
     },
     "blocks": [
      {
-      "text": "Steal my Monday",
+      "text": "Grr. Mondays.",
       "style": "acc",
-      "size": 96
+      "size": 100
      },
      {
-      "text": "*AI setup.* All free.",
+      "text": "*3 skills* fix them.",
       "style": "white",
       "size": 90
      }
     ],
     "blocksY": 140,
     "pay": {
-     "text": "3 prompts. *Copy them.*",
+     "text": "Free: */weekly-numbers* + 2 more.",
      "y": 1010,
-     "size": 48
+     "size": 46
     }
    },
    {
@@ -48,52 +48,54 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Monday, 8:00",
+    "label": "8:00 · Skill 1.",
     "labelY": 100,
-    "title": "Last week's numbers\nin *2 minutes*",
+    "title": "*/weekly-numbers*",
     "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
-    "prompt": {
-     "text": "I'll paste this week's numbers and last\nweek's. Tell me:\n1. The 3 that moved most, with the change\n2. 1 likely reason each, marked as a guess\n3. Anything in the data that looks wrong\nShow the math. Never invent a number."
-    },
-    "ann": [
+    "video": true,
+    "frames": [
      {
-      "k": "You check",
-      "v": "1 number against the source, every week."
-     }
-    ]
-   },
-   {
-    "kind": "body",
-    "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
-     "blur": true
-    },
-    "label": "Monday, 9:00",
-    "labelY": 100,
-    "title": "The inbox, sorted\n*before coffee*",
-    "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
-    "chat": [
-     {
-      "who": "me",
-      "text": "(pastes 40 emails)"
+      "src": "assets/demo-clips/posters/weekly-numbers-term-ink.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/weekly-numbers-term-ink.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      },
      {
-      "who": "ai",
-      "label": "AI",
-      "text": "Act today: 3. This week: 7. FYI: 30. Flagged: 1 refund request. Replies drafted, nothing sent."
+      "src": "assets/demo-clips/posters/weekly-numbers-chat-ink.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/weekly-numbers-chat-ink.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      }
     ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "You approve",
-      "v": "every reply before it goes out."
+      "k": "Looks like",
+      "v": "the 3 numbers that moved, the math, and what to ask."
+     },
+     {
+      "k": "Why it works",
+      "v": "you know last week in 2 minutes."
      }
-    ]
+    ],
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -102,11 +104,77 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Monday, 10:45",
+    "label": "9:00 · Skill 2.",
     "labelY": 100,
-    "title": "Ready for the\n*11:00 call*",
+    "title": "*/inbox-triage*",
+    "titleY": 170,
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/inbox-triage-term-ink.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/inbox-triage-term-ink.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/inbox-triage-chat-ink.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/inbox-triage-chat-ink.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "sorted, flagged, replies drafted. Nothing sent."
+     },
+     {
+      "k": "Why it works",
+      "v": "the inbox is done before coffee."
+     }
+    ],
+    "annY": 1050
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/white-jacket-lounge.jpg",
+     "pos": "50% 12%",
+     "blur": true
+    },
+    "label": "10:45 · Skill 3.",
+    "labelY": 100,
+    "title": "*/meeting-prep*",
     "titleY": 170,
     "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "a 1-page brief for the 11:00 call."
+     },
+     {
+      "k": "Why it works",
+      "v": "you walk in with 3 good questions."
+     }
+    ],
     "annY": 1050,
     "form": {
      "title": "The brief it writes",
@@ -124,13 +192,7 @@
        "v": "3 questions worth asking"
       }
      ]
-    },
-    "ann": [
-     {
-      "k": "Paste in",
-      "v": "the invite, past emails and your notes."
-     }
-    ]
+    }
    },
    {
     "kind": "body",
@@ -141,21 +203,21 @@
     },
     "label": "In the pack",
     "labelY": 100,
-    "title": "2 more, plus\nthe *permission sheet*",
+    "title": "2 more skills, plus\nthe *permission sheet*",
     "titleY": 170,
     "bodyY": 450,
     "annY": 1050,
     "locked": [
      {
       "n": "4",
-      "text": "The follow-up writer"
+      "text": "/follow-up-writer"
      },
      {
       "n": "5",
-      "text": "The SOP writer"
+      "text": "/sop-writer"
      },
      {
-      "n": "6",
+      "n": "+",
       "text": "What each 1 may do alone"
      }
     ],
@@ -190,9 +252,9 @@
       "size": 116
      },
      {
-      "text": "I'll send the whole setup.",
+      "text": "I'll send all 5 skills.",
       "style": "acc",
-      "size": 66
+      "size": 70
      }
     ],
     "blocksY": 168,

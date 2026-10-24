@@ -17,19 +17,19 @@
     },
     "blocks": [
      {
-      "text": "Steal my 4 fixes",
+      "text": "Your AI feels mid?",
       "style": "acc",
       "size": 96
      },
      {
-      "text": "for AI that feels *mid.*",
+      "text": "These *4 skills* fix it.",
       "style": "white",
       "size": 90
      }
     ],
     "blocksY": 140,
     "pay": {
-     "text": "*Copy-paste* prompts inside.",
+     "text": "*Free.* Comment AI for all 4.",
      "y": 1010,
      "size": 48
     },
@@ -47,31 +47,34 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Fix 1.",
-    "title": "Give it *files*,\nnot one-liners",
-    "bodyY": 420,
-    "list": [
-     {
-      "text": "\"Write me a reply\"",
-      "off": true
-     },
-     {
-      "text": "Your SOP + 3 past replies + your tone"
-     }
-    ],
+    "label": "Skill 1.",
+    "labelY": 100,
+    "title": "*/context-pack*",
+    "titleY": 170,
+    "bodyY": 430,
     "ann": [
+     {
+      "k": "Looks like",
+      "v": "it reads your SOP, 3 past examples and your tone before it drafts."
+     },
      {
       "k": "Why it works",
       "v": "it stops guessing who you are."
      }
     ],
-    "labelY": 100,
-    "titleY": 170,
     "annY": 1050,
     "prompt": {
-     "label": "Paste this with your files",
-     "text": "Here's our SOP, 3 past replies and our\ntone guide. Draft the reply in my voice.\nIf you're unsure, write [ASK ME]."
-    }
+     "label": "context-pack/SKILL.md",
+     "text": "1. Read the files. Write a 10-line brief:\n   who we are, who it's for, how we sound.\n2. List what's missing and ask for it.\n3. Do the task using the brief.\nIf unsure, write [ASK ME]."
+    },
+    "flow": [
+     "Your files",
+     "10-line brief",
+     {
+      "text": "Sounds like you",
+      "hi": true
+     }
+    ]
    },
    {
     "kind": "body",
@@ -80,55 +83,54 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Fix 2.",
-    "title": "Make it *ask*\nbefore it acts",
-    "bodyY": 430,
+    "label": "Skill 2.",
+    "labelY": 100,
+    "title": "*/draft-only*",
+    "titleY": 170,
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/draft-only-term-claude.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/draft-only-term-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/draft-only-chat-claude.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/draft-only-chat-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "Copy this rule",
-      "v": "\"Draft only. Never send, buy or delete without my yes.\""
+      "k": "Looks like",
+      "v": "it prepares the refund, then waits for your yes."
      },
      {
       "k": "Why it works",
-      "v": "nothing embarrassing goes out."
+      "v": "nothing goes out that you didn't see."
      }
     ],
-    "labelY": 100,
-    "titleY": 170,
-    "annY": 1010,
-    "frames": [
-     {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/duet.png",
-      "x": 0,
-      "y": 0,
-      "w": 450,
-      "h": 540,
-      "pos": "50% 0%",
-      "clips": [
-       {
-        "src": "shots/duet.png"
-       },
-       {
-        "src": "shots/duet.png"
-       }
-      ]
-     },
-     {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png",
-      "x": 470,
-      "y": 40,
-      "w": 450,
-      "h": 540,
-      "pos": "50% 0%",
-      "clips": [
-       {
-        "src": "shots/microsoft.png"
-       }
-      ]
-     }
-    ],
-    "fh": 580,
-    "video": true
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -137,55 +139,54 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Fix 3.",
-    "title": "Turn repeats\ninto *skills*",
-    "bodyY": 430,
+    "label": "Skill 3.",
+    "labelY": 100,
+    "title": "*/sop-to-skill*",
+    "titleY": 170,
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/sop-to-skill-term-claude.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/sop-to-skill-term-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/gh-anthropic-skills.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "Do this",
-      "v": "save your morning prompt once as a skill: a name, when to use it, the steps."
+      "k": "Looks like",
+      "v": "your SOP becomes a skill folder. Same format as Anthropic's open repo."
      },
      {
       "k": "Why it works",
       "v": "you stop re-explaining."
      }
     ],
-    "labelY": 100,
-    "titleY": 170,
-    "annY": 1010,
-    "frames": [
-     {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
-      "x": 0,
-      "y": 0,
-      "w": 450,
-      "h": 540,
-      "pos": "50% 0%",
-      "clips": [
-       {
-        "src": "shots/skills.png"
-       },
-       {
-        "src": "shots/skills.png"
-       }
-      ]
-     },
-     {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif.png",
-      "x": 470,
-      "y": 40,
-      "w": 450,
-      "h": 540,
-      "pos": "50% 0%",
-      "clips": [
-       {
-        "src": "shots/aaif-top.png"
-       }
-      ]
-     }
-    ],
-    "fh": 580,
-    "video": true
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -194,30 +195,33 @@
      "pos": "50% 12%",
      "blur": true
     },
-    "label": "Fix 4.",
-    "title": "Make it *check*\nits own work",
+    "label": "Skill 4.",
+    "labelY": 100,
+    "title": "*/self-check*",
+    "titleY": 170,
     "bodyY": 430,
     "ann": [
+     {
+      "k": "Looks like",
+      "v": "a second pass against your rules before you see it."
+     },
      {
       "k": "Why it works",
       "v": "it catches the mistakes you'd catch."
      }
     ],
-    "labelY": 100,
-    "titleY": 170,
-    "annY": 1010,
-    "flow": [
-     "Draft",
-     "Check it vs your list",
-     {
-      "text": "Fix, then show you",
-      "hi": true
-     }
-    ],
+    "annY": 1050,
     "prompt": {
-     "label": "Add to the end of any prompt",
-     "text": "Before you show me, check your draft\nagainst my rules and fix what's off.\nThen tell me what you changed."
-    }
+     "label": "self-check/SKILL.md",
+     "text": "1. Check the draft against each rule.\n2. Fix anything that breaks a rule.\n3. List what you changed, 1 line each.\nIf a fact can't be checked, mark [CHECK]."
+    },
+    "chat": [
+     {
+      "who": "ai",
+      "label": "AI",
+      "text": "Checked against your 6 rules. Fixed 2: the tone and a wrong price."
+     }
+    ]
    },
    {
     "kind": "cta",
@@ -243,14 +247,14 @@
       "size": 116
      },
      {
-      "text": "I'll send all 5 prompts.",
+      "text": "I'll send all 4 skills.",
       "style": "acc",
-      "size": 70
+      "size": 72
      }
     ],
     "blocksY": 168,
     "pay": {
-     "text": "+ the permission sheet *I use.*",
+     "text": "+ my 5 starter skills, *free.*",
      "y": 1030,
      "size": 48
     },

@@ -22,16 +22,16 @@
       "size": 116
      },
      {
-      "text": "+ the *fix* for each.",
+      "text": "+ the *skill* for each.",
       "style": "white",
-      "size": 90
+      "size": 88
      }
     ],
     "blocksY": 120,
     "pay": {
-     "text": "*Copy them.* Take 3 hurts.",
+     "text": "*5 free skills.* Take 3 hurts.",
      "y": 1030,
-     "size": 50
+     "size": 48
     }
    },
    {
@@ -42,7 +42,7 @@
      "blur": true,
      "bright": 0.4
     },
-    "label": "Take 1.",
+    "label": "Take 1 · /confidence-check",
     "labelY": 100,
     "quote": {
      "text": "If your AI can't say\n*I don't know*,\nit's guessing.",
@@ -51,8 +51,8 @@
     },
     "ann": [
      {
-      "k": "Copy this",
-      "v": "\"Before you answer, tell me what you're unsure about.\""
+      "k": "/confidence-check",
+      "v": "it lists what it's unsure about before it answers."
      }
     ],
     "annY": 1050,
@@ -81,7 +81,7 @@
      "blur": true,
      "bright": 0.4
     },
-    "label": "Take 2.",
+    "label": "Take 2 · /draft-only",
     "labelY": 100,
     "quote": {
      "text": "Agents that act\nwithout asking\naren't brave.\n*They're a liability.*",
@@ -90,8 +90,8 @@
     },
     "ann": [
      {
-      "k": "Copy this",
-      "v": "\"Draft only. Never send, buy or delete without my yes.\""
+      "k": "/draft-only",
+      "v": "it prepares everything and waits for your yes."
      }
     ],
     "annY": 1050,
@@ -100,23 +100,32 @@
     "fh": 440,
     "frames": [
      {
-      "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
-      "x": 40,
+      "src": "assets/demo-clips/posters/draft-only-term-gold.png",
+      "x": 60,
       "y": 0,
-      "w": 400,
-      "h": 440
-     },
-     {
-      "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
-      "x": 480,
-      "y": 0,
-      "w": 400,
+      "w": 380,
       "h": 440,
       "clips": [
        {
-        "src": "../ig-personal-sun-1100-ai-feels-mid/shots/microsoft.png"
+        "src": "assets/demo-clips/draft-only-term-gold.mp4",
+        "dur": 9
        }
-      ]
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/draft-only-chat-gold.png",
+      "x": 440,
+      "y": 0,
+      "w": 380,
+      "h": 440,
+      "clips": [
+       {
+        "src": "assets/demo-clips/draft-only-chat-gold.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      }
     ]
    },
@@ -128,7 +137,7 @@
      "blur": true,
      "bright": 0.4
     },
-    "label": "Take 3.",
+    "label": "Take 3 · /context-pack",
     "labelY": 100,
     "quote": {
      "text": "Prompting isn't\nthe skill.\n*Knowing your\nbusiness is.*",
@@ -137,8 +146,8 @@
     },
     "ann": [
      {
-      "k": "Copy this",
-      "v": "\"Here's my process: [paste]. Follow it. Ask if a step is missing.\""
+      "k": "/context-pack",
+      "v": "it reads your process before it answers."
      }
     ],
     "annY": 1050,
@@ -163,7 +172,7 @@
      "blur": true,
      "bright": 0.4
     },
-    "label": "Take 4.",
+    "label": "Take 4 · /tool-audit",
     "labelY": 100,
     "quote": {
      "text": "You don't need\n10 AI tools.\n*You need 1 that\nknows your work.*",
@@ -172,8 +181,8 @@
     },
     "ann": [
      {
-      "k": "Do this",
-      "v": "list every AI tool you pay for. Keep the ones that know your work."
+      "k": "/tool-audit",
+      "v": "it lists what each tool knows about your work."
      }
     ],
     "annY": 1050,
@@ -213,7 +222,7 @@
      "blur": true,
      "bright": 0.4
     },
-    "label": "Take 5.",
+    "label": "Take 5 · /plan-first",
     "labelY": 100,
     "quote": {
      "text": "The best AI feature\nthis year is\n*a yes button.*",
@@ -222,34 +231,40 @@
     },
     "frames": [
      {
-      "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
-      "x": 40,
+      "src": "assets/demo-clips/posters/plan-first-term-gold.png",
+      "x": 60,
       "y": 0,
-      "w": 400,
-      "h": 470,
+      "w": 380,
+      "h": 440,
       "clips": [
        {
-        "src": "shots/duet.png"
-       },
-       {
-        "src": "shots/duet.png"
+        "src": "assets/demo-clips/plan-first-term-gold.mp4",
+        "dur": 9
        }
-      ]
+      ],
+      "pos": "50% 0%"
      },
      {
-      "src": "content/2026-W44/ig-personal-sat-1500-5-ai-takes/shots/duet.png",
-      "x": 480,
+      "src": "assets/demo-clips/posters/plan-first-chat-gold.png",
+      "x": 440,
       "y": 0,
-      "w": 400,
-      "h": 470
+      "w": 380,
+      "h": 440,
+      "clips": [
+       {
+        "src": "assets/demo-clips/plan-first-chat-gold.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      }
     ],
-    "fh": 470,
-    "bodyY": 520,
+    "fh": 440,
+    "bodyY": 560,
     "ann": [
      {
-      "k": "Copy this",
-      "v": "\"Show me the plan first. Wait for my yes before you act.\""
+      "k": "/plan-first",
+      "v": "it shows the plan and waits before it acts."
      }
     ],
     "annY": 1050,
@@ -273,14 +288,14 @@
       "size": 116
      },
      {
-      "text": "for 5 more prompts.",
+      "text": "for all 5 skills.",
       "style": "acc",
       "size": 76
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "My starter pack, *free.*",
+     "text": "+ my starter pack, *free.*",
      "y": 1010,
      "size": 46
     }

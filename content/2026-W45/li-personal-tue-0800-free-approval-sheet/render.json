@@ -20,21 +20,21 @@
     "bgc": "#14110c",
     "blocks": [
      {
-      "text": "Free: the sheet",
+      "text": "AI sending the",
       "style": "white",
       "size": 96
      },
      {
-      "text": "our *AI* follows.",
+      "text": "*wrong thing?*",
       "style": "acc",
       "size": 96
      }
     ],
     "blocksY": 132,
     "pay": {
-     "text": "4 things that never go out *without a yes.*",
+     "text": "*3 free skills* stop it. Our team uses them.",
      "y": 1020,
-     "size": 42
+     "size": 40
     }
    },
    {
@@ -44,29 +44,54 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "01",
+    "label": "Skill 1.",
     "labelY": 100,
-    "title": "Money *out*",
+    "title": "*/approval-gate*",
     "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
-    "approve": {
-     "title": "Waiting for a yes",
-     "main": "Refund on order 2281",
-     "sub": "AI checked the policy and worked out the amount.",
-     "yes": "Approve",
-     "no": "Edit"
-    },
-    "ann": [
+    "video": true,
+    "frames": [
      {
-      "k": "What counts",
-      "v": "refunds, credits, supplier payments, price changes, new discount codes."
+      "src": "assets/demo-clips/posters/approval-gate-term-gold.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/approval-gate-term-gold.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      },
      {
-      "k": "AI can still",
-      "v": "pull the order, check the policy, line it up for 1 click."
+      "src": "assets/demo-clips/posters/draft-only-chat-gold.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/draft-only-chat-gold.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      }
-    ]
+    ],
+    "fh": 600,
+    "bodyY": 410,
+    "ann": [
+     {
+      "k": "Checks the 4",
+      "v": "money out, promises, quotes and bookings, deleting records."
+     },
+     {
+      "k": "Why it works",
+      "v": "the risky 1 waits, the rest goes."
+     }
+    ],
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -75,40 +100,42 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "02",
+    "label": "Skill 2.",
     "labelY": 100,
-    "title": "Messages that\n*promise* something",
+    "title": "*/promise-check*",
     "titleY": 170,
     "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "every promise in a reply marked, checked against your policy."
+     },
+     {
+      "k": "Why it works",
+      "v": "nobody sends a date or refund nobody agreed to."
+     }
+    ],
     "annY": 1050,
     "chat": [
      {
       "who": "ai",
       "label": "AI draft, waiting for you",
-      "text": "Sorry about the delay. Your order will arrive [Thursday]."
+      "text": "So sorry. We'll ship a replacement [today]."
      }
     ],
-    "ann": [
-     {
-      "k": "What counts",
-      "v": "delivery dates, discounts, apologies, exceptions to your policy."
-     },
-     {
-      "k": "AI can still",
-      "v": "draft it in your voice and mark the line that makes the promise."
-     }
-    ],
-    "sprites": [
-     {
-      "name": "robot",
-      "h": 170
-     },
-     {
-      "name": "korede-point",
-      "h": 180,
-      "flip": true
-     }
-    ]
+    "form": {
+     "title": "Verdict",
+     "rows": [
+      {
+       "k": "\"today\"",
+       "v": "needs a yes, policy says 2 days"
+      },
+      {
+       "k": "Free label",
+       "v": "OK by policy"
+      }
+     ]
+    }
    },
    {
     "kind": "body",
@@ -117,26 +144,22 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "03",
+    "label": "Skill 3.",
     "labelY": 100,
-    "title": "Quotes, bookings\nand *contracts*",
+    "title": "*/draft-only*",
     "titleY": 170,
     "bodyY": 430,
-    "annY": 1050,
-    "flow": [
-     "AI builds the quote",
-     "You check the rate",
-     {
-      "text": "You sign",
-      "hi": true
-     }
-    ],
     "ann": [
      {
-      "k": "Why it waits",
-      "v": "a booking commits a truck and a bill. A quote sets a price you'll be held to."
+      "k": "Looks like",
+      "v": "it prepares the action and waits for your yes."
+     },
+     {
+      "k": "Why it works",
+      "v": "AI does the work. A person signs off."
      }
     ],
+    "annY": 1050,
     "approve": {
      "title": "Waiting for a yes",
      "main": "Book 2 trucks for Friday",
@@ -241,9 +264,9 @@
       "size": 100
      },
      {
-      "text": "for the full sheet.",
+      "text": "for all 3 + the sheet.",
       "style": "acc",
-      "size": 72
+      "size": 70
      }
     ],
     "blocksY": 108,

@@ -18,21 +18,21 @@
     },
     "blocks": [
      {
-      "text": "I'd pay $500",
+      "text": "Same task,",
       "style": "acc",
       "size": 116
      },
      {
-      "text": "for this. *It's free.*",
+      "text": "*every week?*",
       "style": "white",
-      "size": 88
+      "size": 96
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "My SOP-to-skill *template.*",
+     "text": "This free skill fixes it: */sop-to-skill*",
      "y": 1030,
-     "size": 48
+     "size": 44
     }
    },
    {
@@ -44,56 +44,48 @@
     },
     "label": "Why now",
     "labelY": 100,
-    "title": "Your SOPs can\n*run in 70+ AI tools*",
+    "title": "Skills are free\nand *open*",
     "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
     "video": true,
-    "fh": 560,
     "frames": [
      {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
-      "x": 40,
+      "src": "assets/demo-clips/posters/gh-anthropic-skills.png",
+      "x": 0,
       "y": 0,
-      "w": 400,
-      "h": 540,
-      "pos": "50% 0%",
+      "w": 440,
+      "h": 594,
       "clips": [
        {
-        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
-        "dur": 4.5
-       },
-       {
-        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
-        "dur": 4.5
+        "src": "assets/demo-clips/gh-anthropic-skills.mp4",
+        "dur": 9
        }
-      ]
+      ],
+      "pos": "50% 0%"
      },
      {
-      "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
+      "src": "assets/demo-clips/posters/sop-to-skill-term-emerald.png",
       "x": 480,
-      "y": 20,
-      "w": 400,
-      "h": 540,
-      "pos": "50% 0%",
+      "y": 0,
+      "w": 440,
+      "h": 594,
       "clips": [
        {
-        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/aaif-top.png",
-        "dur": 4.5
-       },
-       {
-        "src": "content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots/skills.png",
-        "dur": 4.5
+        "src": "assets/demo-clips/sop-to-skill-term-emerald.mp4",
+        "dur": 9
        }
-      ]
+      ],
+      "pos": "50% 0%"
      }
     ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "What changed",
-      "v": "Anthropic made skills an open standard on Oct 22. 1 file, every tool."
+      "k": "The real repo",
+      "v": "Anthropic's skills, incl. /skill-creator, are open on GitHub. 1 file, 70+ tools."
      }
-    ]
+    ],
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -102,30 +94,68 @@
      "pos": "50% 62%",
      "blur": true
     },
-    "label": "Step 1",
+    "label": "Skill 1.",
     "labelY": 100,
-    "title": "Pick 1 thing you\n*repeat* every week",
+    "title": "*/sop-to-skill*",
     "titleY": 170,
     "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "your SOP in, a SKILL.md folder out."
+     },
+     {
+      "k": "Why it works",
+      "v": "every AI tool that reads skills runs it the same way."
+     }
+    ],
+    "annY": 1050,
+    "prompt": {
+     "label": "what it writes",
+     "text": "---\nname: [job-name]\ndescription: [What it does.\n  Use when [the moment].]\n---\n## Steps\n1. [1 action per step]\n## Rules\n- Needs my yes before: [sending]\n- If unsure: write [ASK ME]"
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "What you give it",
+    "labelY": 100,
+    "title": "3 things, *10 minutes*",
+    "titleY": 170,
+    "bodyY": 430,
+    "ann": [
+     {
+      "k": "Tip",
+      "v": "pick the task you explain most often."
+     }
+    ],
     "annY": 1050,
     "list": [
      {
       "n": "1",
-      "text": "Answering \"where's my order?\""
+      "text": "The SOP, or a voice note of you doing it"
      },
      {
       "n": "2",
-      "text": "Writing the weekly update"
+      "text": "3 real examples of it done well"
      },
      {
       "n": "3",
-      "text": "Prepping a sales call"
+      "text": "What needs your yes"
      }
     ],
-    "ann": [
+    "sprites": [
      {
-      "k": "Takes",
-      "v": "3 minutes. Pick the 1 you explain most."
+      "name": "korede-point",
+      "h": 170
+     },
+     {
+      "name": "robot",
+      "h": 160
      }
     ]
    },
@@ -136,55 +166,31 @@
      "pos": "50% 62%",
      "blur": true
     },
-    "label": "Step 2",
+    "label": "Skill 2.",
     "labelY": 100,
-    "title": "Write it like you're\ntraining a *new hire*",
+    "title": "*/skill-test*",
     "titleY": 170,
     "bodyY": 430,
-    "annY": 1050,
-    "prompt": {
-     "label": "SKILL.md, fill in the brackets",
-     "text": "---\nname: [job-name]\ndescription: [What it does.\n  Use when [the moment].]\n---\n## Steps\n1. [1 action per step]\n## Rules\n- Needs my yes before: [sending]\n- If unsure: write [ASK ME]"
-    },
     "ann": [
      {
-      "k": "The line that matters",
-      "v": "the description. The AI reads it to decide when to use the skill."
-     }
-    ]
-   },
-   {
-    "kind": "body",
-    "photo": {
-     "src": "assets/photos/korede/laptop-rooftop.jpg",
-     "pos": "50% 62%",
-     "blur": true
-    },
-    "label": "Step 3",
-    "labelY": 100,
-    "title": "Add 3 *real*\nexamples",
-    "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
-    "flow": [
-     "3 emails you sent",
-     "Same folder",
+      "k": "Looks like",
+      "v": "it runs the new skill on last week's work and shows where it's off."
+     },
      {
-      "text": "It copies your voice",
-      "hi": true
+      "k": "Why it works",
+      "v": "you fix it before a customer finds it."
      }
     ],
-    "approve": {
-     "title": "Needs your yes",
-     "main": "Send this reply",
-     "sub": "Drafted from your SOP and 3 examples.",
-     "yes": "Send it",
-     "no": "Edit"
-    },
-    "ann": [
+    "annY": 1050,
+    "chat": [
      {
-      "k": "Why",
-      "v": "\"friendly but brief\" means nothing. 3 real emails mean everything."
+      "who": "me",
+      "text": "/skill-test returns-replies on last week's 3 returns"
+     },
+     {
+      "who": "ai",
+      "label": "AI",
+      "text": "2 of 3 match what you sent. Case 3: it offered a refund past 30 days. Fix: add \"over 30 days needs my yes\"."
      }
     ]
    },
@@ -240,14 +246,14 @@
       "size": 116
      },
      {
-      "text": "for the full template.",
+      "text": "for both skills.",
       "style": "acc",
       "size": 76
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "It's free. *I'll DM it.*",
+     "text": "+ the template sheet. *Free.*",
      "y": 1030,
      "size": 48
     }

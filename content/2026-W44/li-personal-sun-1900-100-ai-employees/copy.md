@@ -1,17 +1,19 @@
 ## Caption
-We run Content Systems.ai on 100+ AI employees. These are the 3 I'd hire first, and you can copy them free.
+Drowning in admin? These 3 free skills fix it. They're the first 3 AI employees I'd hire.
 
-Comment AI and I'll send you the full starter pack: 5 skills plus the sheet that says what each 1 may do alone.
+Comment AI and I'll send you all 5 starter skills plus the permission sheet, free.
 
-1. Inbox triage, drafts only. It sorts what you paste into act today, this week, FYI and ignore, then drafts the replies. It never sends.
+We run Content Systems.ai on 100+ AI employees. Every 1 of them started as a small, drafts-only skill like these:
 
-2. A meeting brief in 3 minutes. Who's in the room, where things stand, 3 questions worth asking, and what you want out of it.
+/inbox-triage sorts what you paste into act today, this week, FYI and ignore, flags anything about money, and drafts the replies. It never sends.
 
-3. The follow-up writer. Call notes in, a clear email out: what you agreed, who does what by when, and the next step.
+/meeting-prep hands you a 1-page brief 15 minutes before the call: who's in the room, where things stand, 3 questions worth asking.
 
-The instructions for all 3 are on the slides, ready to paste into Claude or ChatGPT.
+/follow-up-writer turns call notes into a clear email: what you agreed, who does what by when, the next step.
 
-The other 2, and the permission sheet I never skip, are in the pack. Every AI employee we run started as a drafts-only skill like these, and none of them sends anything without a person saying yes.
+They're real SKILL.md files. Drop them into Claude, or paste them into a project in any AI chat. No code.
+
+/weekly-numbers, /sop-writer and the permission sheet are in the pack too. The sheet says what each AI employee may do alone, and nothing sends without a person saying yes.
 
 Comment AI and I'll DM it to you.
 
@@ -20,10 +22,10 @@ From the build, Korede
 #AI #AIEmployees #ArtificialIntelligence #Automation #Founders #Startups #Leadership #FutureOfWork #Operations #Productivity #SmallBusiness #Ecommerce
 
 ## Alt text
-6-slide carousel from Korede Kolawole in green. Cover: Korede and his co-founder Sanjana in their studio, their heads in front of the headline 3 AI employees I'd hire first, payoff box All free. Copy the setup. Slide 2: inbox triage, drafts only, with the instruction to copy. Slide 3: a meeting brief in 3 minutes, the brief's fields. Slide 4: the follow-up writer, a 3-step flow and the instruction to copy. Slide 5: what's locked in the pack (weekly numbers summary, SOP writer, the permission sheet). Last slide: Comment AI for all 5 plus the sheet, Content Systems.ai wordmark.
+6-slide carousel from Korede Kolawole in green. Cover: Korede and his co-founder Sanjana in their studio, their heads in front of the headline Drowning in admin? 3 free skills fix it. Slide 2 (video): /inbox-triage sorting 6 emails in a terminal and a chat. Slide 3: /meeting-prep and the brief it writes. Slide 4: /follow-up-writer with its instructions. Slide 5: 2 more skills and the permission sheet, locked. Last slide: Comment AI for all 5 skills, Content Systems.ai wordmark.
 
 ## Notes
-Photo carousel (templates/photo-carousel). Photos: assets/photos/korede/studio-with-sanjana.jpg (rembg cutout of both) and white-jacket-lounge.jpg.
-Proof bank: "Our own company runs on 100+ AI employees (content, lead response, onboarding, ads)" and "human approval gate on outbound actions". The 4 human jobs are Korede's opinion, not a claim.
-Slot: li-personal default Sunday slot 19:00 (sun 09:00 is the workshop post).
-Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, config/offers.json).
+Freebie (keyword AI): assets/freebies/ai-employee-starter-pack.pdf + assets/freebies/bundles/ai-starter-skills.zip (/inbox-triage, /meeting-prep, /follow-up-writer, /weekly-numbers, /sop-writer). Listed in config/offers.json.
+Video slide footage: screen recordings made with scripts/record-demo.mjs of templates/demo-run replaying each skill on a demo task (assets/demo-clips/<id>.mp4, defs in assets/demo-clips/demos.json). Demo data (names, orders, amounts) is illustrative. No reels or AI-made content of ours shown. Clips: inbox-triage-term-emerald, inbox-triage-chat-emerald.
+Proof bank: 100+ AI employees, human approval on outbound actions. Photo: assets/photos/korede/studio-with-sanjana.jpg.
+Slot: li-personal default Sunday slot 19:00.

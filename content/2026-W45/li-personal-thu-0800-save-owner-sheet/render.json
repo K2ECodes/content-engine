@@ -18,21 +18,21 @@
     },
     "blocks": [
      {
-      "text": "Save this:",
+      "text": "Who's watching",
       "style": "acc",
-      "size": 116
+      "size": 110
      },
      {
-      "text": "the AI *owner sheet.*",
+      "text": "your *AI helpers?*",
       "style": "white",
-      "size": 88
+      "size": 90
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "3 questions every AI helper *must answer.*",
+     "text": "*2 free skills* fix it: /helper-owner + /daily-note",
      "y": 1030,
-     "size": 42
+     "size": 38
     }
    },
    {
@@ -66,52 +66,29 @@
      "pos": "50% 62%",
      "blur": true
     },
-    "label": "Question 1",
+    "label": "Skill 1.",
     "labelY": 100,
-    "title": "Who *checks*\nits work?",
+    "title": "*/helper-owner*",
     "titleY": 170,
     "bodyY": 430,
-    "annY": 1050,
-    "form": {
-     "title": "Top of the sheet",
-     "rows": [
-      {
-       "k": "AI helper",
-       "v": "order status replies"
-      },
-      {
-       "k": "Owner",
-       "v": "1 named person"
-      },
-      {
-       "k": "Backup",
-       "v": "when the owner is out"
-      }
-     ]
-    },
     "ann": [
      {
-      "k": "The rule",
-      "v": "1 named person, every day. Not \"the team\"."
+      "k": "Looks like",
+      "v": "a 1-page owner sheet for each helper: owner, limits, off switch."
+     },
+     {
+      "k": "Why it works",
+      "v": "every helper has a person's name on it."
      }
-    ]
-   },
-   {
-    "kind": "body",
-    "photo": {
-     "src": "assets/photos/korede/laptop-rooftop.jpg",
-     "pos": "50% 62%",
-     "blur": true
-    },
-    "label": "Question 2",
-    "labelY": 100,
-    "title": "What can it\ndo *alone*?",
-    "titleY": 170,
-    "bodyY": 430,
+    ],
     "annY": 1050,
     "form": {
-     "title": "Its limits",
+     "title": "What it fills in",
      "rows": [
+      {
+       "k": "Owner",
+       "v": "1 named person, plus a backup"
+      },
       {
        "k": "Does alone",
        "v": "routine, on record, easy to undo"
@@ -121,17 +98,11 @@
        "v": "money, promises, anything that leaves"
       },
       {
-       "k": "Never does",
-       "v": "no exceptions, even if asked"
+       "k": "Off switch",
+       "v": "who pauses it, in 1 step"
       }
      ]
-    },
-    "ann": [
-     {
-      "k": "Write it down",
-      "v": "if it isn't on the sheet, it waits for a yes."
-     }
-    ]
+    }
    },
    {
     "kind": "body",
@@ -140,25 +111,54 @@
      "pos": "50% 62%",
      "blur": true
     },
-    "label": "Question 3",
+    "label": "Skill 2.",
     "labelY": 100,
-    "title": "What does it\n*report*?",
+    "title": "*/daily-note*",
     "titleY": 170,
-    "bodyY": 430,
-    "annY": 1050,
-    "chat": [
+    "video": true,
+    "frames": [
      {
-      "who": "ai",
-      "label": "Daily note to its owner",
-      "text": "Handled 46 order emails. Passed 3 to you: 2 refunds, 1 upset customer. 1 correction today, instruction updated."
+      "src": "assets/demo-clips/posters/daily-note-term-claude.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/daily-note-term-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/helper-owner-chat-claude.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/helper-owner-chat-claude.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
      }
     ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "Why",
+      "k": "Looks like",
+      "v": "a 30-second note to the owner every day."
+     },
+     {
+      "k": "Why it works",
       "v": "a helper that drifts gets noticed by its owner, not a customer."
      }
-    ]
+    ],
+    "annY": 1050
    },
    {
     "kind": "body",
@@ -212,14 +212,14 @@
       "size": 100
      },
      {
-      "text": "for the owner sheet.",
+      "text": "for both skills.",
       "style": "acc",
       "size": 76
      }
     ],
     "blocksY": 300,
     "pay": {
-     "text": "Free. *I'll DM it.*",
+     "text": "+ the owner sheet. *Free.*",
      "y": 1030,
      "size": 48
     }

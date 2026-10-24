@@ -86,7 +86,7 @@
       },
       {
         "keyword": "AI",
-        "name": "AI Employee Starter Pack: 5 starter skills plus the permission sheet",
+        "name": "AI Employee Starter Pack: 5 starter skills (/inbox-triage, /meeting-prep, /follow-up-writer, /weekly-numbers, /sop-writer) plus the permission sheet",
         "file": "assets/freebies/ai-employee-starter-pack.pdf",
         "source": "assets/freebies/src/ai-employee-starter-pack.html",
         "status": "built",
@@ -109,10 +109,16 @@
           "li-personal-wed-0800-uber-30-engineers",
           "li-personal-fri-0800-sops-are-portable",
           "ig-company-fri-1500-sops-portable-stopmotion",
-          "ig-personal-thu-1230-monday-ai-setup"
+          "ig-personal-thu-1230-monday-ai-setup",
+          "li-personal-sun-1900-100-ai-employees"
         ],
-        "note": "Also sent for SYSTEMS on ig-company-fri-1500-sops-portable-stopmotion (caption promises \"the 5 skills we install first\"). On the 2 SOP posts it goes out with the SOP-to-skill sheet.",
-        "pages": 4
+        "note": "Also sent for SYSTEMS on ig-company-fri-1500-sops-portable-stopmotion (caption promises \"the 5 skills we install first\"). On the 2 SOP posts it goes out with the SOP-to-skill sheet. WORKSHOP DMs also send this pack. The PDF names the 5 skill folders in the zip.",
+        "pages": 4,
+        "skills_zip": "assets/freebies/bundles/ai-starter-skills.zip",
+        "send": [
+          "assets/freebies/ai-employee-starter-pack.pdf",
+          "assets/freebies/bundles/ai-starter-skills.zip"
+        ]
       },
       {
         "status": "built",
@@ -129,7 +135,12 @@
           "ig-company"
         ],
         "offer": "ecommerce-systems",
-        "note": "Callout points to both contentsystems.ai/logistics and /ecommerce (refunds and customer emails plus freight bookings)."
+        "note": "Callout points to both contentsystems.ai/logistics and /ecommerce (refunds and customer emails plus freight bookings).",
+        "skills_zip": "assets/freebies/bundles/approval-skills.zip",
+        "send": [
+          "assets/freebies/approval-sheet.pdf",
+          "assets/freebies/bundles/approval-skills.zip"
+        ]
       },
       {
         "status": "built",
@@ -160,7 +171,12 @@
         "channels": [
           "ig-company"
         ],
-        "offer": "ai-partner"
+        "offer": "ai-partner",
+        "skills_zip": "assets/freebies/bundles/helper-owner-skills.zip",
+        "send": [
+          "assets/freebies/ai-helper-owner-sheet.pdf",
+          "assets/freebies/bundles/helper-owner-skills.zip"
+        ]
       },
       {
         "status": "built",
@@ -214,7 +230,12 @@
         ],
         "offer": null,
         "next_step": "Follow @koredekola, comment AI for the Starter Pack",
-        "note": "Sent together with the AI Employee Starter Pack on the SOPs-are-portable posts. No company selling (ig-personal rule)."
+        "note": "Sent together with the AI Employee Starter Pack on the SOPs-are-portable posts. No company selling (ig-personal rule).",
+        "skills_zip": "assets/freebies/bundles/sop-to-skill-kit.zip",
+        "send": [
+          "assets/freebies/sop-to-skill-sheet.pdf",
+          "assets/freebies/bundles/sop-to-skill-kit.zip"
+        ]
       },
       {
         "keyword": "WORKSHOP",
@@ -242,8 +263,41 @@
         ],
         "offer": "ai-workshops",
         "note": "Evergreen workshop CTA (Korede, 2026-10-24): comment WORKSHOP + next date in bio; posts never mention a date. From 2026-10-24 the WORKSHOP DM also sends the AI Employee Starter Pack (assets/freebies/ai-employee-starter-pack.pdf), so workshop covers can promise a free starter pack."
+      },
+      {
+        "keyword": "AI",
+        "name": "4 skills that fix AI that feels mid: /context-pack, /draft-only, /sop-to-skill, /self-check",
+        "status": "built",
+        "used_by": [
+          "ig-personal-sun-1100-ai-feels-mid"
+        ],
+        "skills_zip": "assets/freebies/bundles/fix-mid-ai-skills.zip",
+        "send": [
+          "assets/freebies/bundles/fix-mid-ai-skills.zip",
+          "assets/freebies/ai-employee-starter-pack.pdf",
+          "assets/freebies/bundles/ai-starter-skills.zip"
+        ],
+        "source": "assets/freebies/skills/",
+        "note": "Keyword AI on this post sends this bundle plus the starter pack."
+      },
+      {
+        "keyword": "AI",
+        "name": "5 skills, 1 per AI take: /confidence-check, /draft-only, /context-pack, /tool-audit, /plan-first",
+        "status": "built",
+        "used_by": [
+          "ig-personal-sat-1500-5-ai-takes"
+        ],
+        "skills_zip": "assets/freebies/bundles/ai-takes-skills.zip",
+        "send": [
+          "assets/freebies/bundles/ai-takes-skills.zip",
+          "assets/freebies/ai-employee-starter-pack.pdf",
+          "assets/freebies/bundles/ai-starter-skills.zip"
+        ],
+        "source": "assets/freebies/skills/",
+        "note": "Keyword AI on this post sends this bundle plus the starter pack."
       }
-    ]
+    ],
+    "_skills": "Skill folders live in assets/freebies/skills/<name>/SKILL.md; zipped bundles in assets/freebies/bundles/. Send every file listed in \"send\"."
   },
   "offers": {
     "_readme": "The 6 packaged offers from the LinkedIn banner (Oct 2026). Rotate CTAs across them; match the offer to the post's audience.",

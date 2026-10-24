@@ -1,0 +1,874 @@
+[
+ {
+  "id": "draft-only-term-claude",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "draft-only",
+   "acc": "#E07A55",
+   "title": "~/work · skill run",
+   "cmd": "refund the customer on order 4417",
+   "input": null,
+   "out": [
+    {
+     "t": "Prepared. Nothing done yet.",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Refund $64.00 to Maya R."
+    },
+    {
+     "t": "Order 4417, mug arrived broken."
+    },
+    {
+     "t": "Policy: damaged on arrival, full refund.",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Waiting for your yes.",
+     "c": "warn"
+    },
+    {
+     "t": "Reply yes, edit or no.",
+     "c": "dim"
+    }
+   ]
+  }
+ },
+ {
+  "id": "draft-only-chat-claude",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "draft-only",
+   "acc": "#E07A55",
+   "title": "AI chat",
+   "cmd": "refund the customer on order 4417",
+   "input": null,
+   "out": [
+    {
+     "t": "Ready, not sent.",
+     "c": "h"
+    },
+    {
+     "t": "Refund $64.00 to Maya R. for order 4417 (arrived broken)."
+    },
+    {
+     "t": "Matches your policy: damaged on arrival.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Refund $64.00 to Maya R.",
+    "yes": "Approve",
+    "no": "Edit"
+   }
+  }
+ },
+ {
+  "id": "sop-to-skill-term-claude",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "sop-to-skill",
+   "acc": "#E07A55",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Pasted: our returns SOP (1 page) + 3 replies we sent",
+   "out": [
+    {
+     "t": "Created returns-replies/",
+     "c": "ok"
+    },
+    {
+     "t": "  SKILL.md"
+    },
+    {
+     "t": "  examples/ 1.md 2.md 3.md"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "---",
+     "c": "dim"
+    },
+    {
+     "t": "name: returns-replies"
+    },
+    {
+     "t": "description: Drafts replies to return"
+    },
+    {
+     "t": "  requests using our policy. Use when"
+    },
+    {
+     "t": "  a customer asks to return or exchange."
+    },
+    {
+     "t": "---",
+     "c": "dim"
+    },
+    {
+     "t": "## Rules",
+     "c": "h"
+    },
+    {
+     "t": "- Needs my yes before: sending, refunds"
+    },
+    {
+     "t": "- If unsure: write [ASK ME]"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Ready. Test it on last week's 3 returns.",
+     "c": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "id": "draft-only-term-gold",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "draft-only",
+   "acc": "#E8B84B",
+   "title": "~/work · skill run",
+   "cmd": "refund the customer on order 4417",
+   "input": null,
+   "out": [
+    {
+     "t": "Prepared. Nothing done yet.",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Refund $64.00 to Maya R."
+    },
+    {
+     "t": "Order 4417, mug arrived broken."
+    },
+    {
+     "t": "Policy: damaged on arrival, full refund.",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Waiting for your yes.",
+     "c": "warn"
+    },
+    {
+     "t": "Reply yes, edit or no.",
+     "c": "dim"
+    }
+   ]
+  }
+ },
+ {
+  "id": "draft-only-chat-gold",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "draft-only",
+   "acc": "#E8B84B",
+   "title": "AI chat",
+   "cmd": "refund the customer on order 4417",
+   "input": null,
+   "out": [
+    {
+     "t": "Ready, not sent.",
+     "c": "h"
+    },
+    {
+     "t": "Refund $64.00 to Maya R. for order 4417 (arrived broken)."
+    },
+    {
+     "t": "Matches your policy: damaged on arrival.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Refund $64.00 to Maya R.",
+    "yes": "Approve",
+    "no": "Edit"
+   }
+  }
+ },
+ {
+  "id": "plan-first-term-gold",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "plan-first",
+   "acc": "#E8B84B",
+   "title": "~/work · skill run",
+   "cmd": "update prices on the 12 winter products",
+   "input": null,
+   "out": [
+    {
+     "t": "Plan. Nothing changed yet.",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "1. Read the 12 products from your sheet"
+    },
+    {
+     "t": "2. Set the new prices in the store"
+    },
+    {
+     "t": "   (can be undone in 1 click)"
+    },
+    {
+     "t": "3. Note the change in the price log"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Can't be undone: nothing",
+     "c": "dim"
+    },
+    {
+     "t": "Customers emailed: 0",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Reply yes to run it.",
+     "c": "warn"
+    }
+   ]
+  }
+ },
+ {
+  "id": "plan-first-chat-gold",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "plan-first",
+   "acc": "#E8B84B",
+   "title": "AI chat",
+   "cmd": "book the carrier pickup for Friday",
+   "input": null,
+   "out": [
+    {
+     "t": "Here is the plan:",
+     "c": "h"
+    },
+    {
+     "t": "1. Book a pickup with your carrier, Friday 2 to 4 pm"
+    },
+    {
+     "t": "2. 3 pallets, 1,240 lb, dock 2"
+    },
+    {
+     "t": "3. Email the warehouse the booking number"
+    },
+    {
+     "t": "This commits a truck and a fee.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Book Friday pickup, 3 pallets",
+    "yes": "Yes, book it",
+    "no": "Edit"
+   }
+  }
+ },
+ {
+  "id": "inbox-triage-term-emerald",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "inbox-triage",
+   "acc": "#2FCB7A",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Pasted 6 emails",
+   "out": [
+    {
+     "t": "ACT TODAY (2)",
+     "c": "h"
+    },
+    {
+     "t": "· Dana: quote for 400 units, by Fri"
+    },
+    {
+     "t": "· Leo: invoice 2211 looks wrong"
+    },
+    {
+     "t": "THIS WEEK (1)",
+     "c": "h"
+    },
+    {
+     "t": "· Priya: intro call next week?"
+    },
+    {
+     "t": "FYI (3)",
+     "c": "h"
+    },
+    {
+     "t": "· 2 newsletters, 1 receipt",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "FLAGGED",
+     "c": "warn"
+    },
+    {
+     "t": "! Leo: invoice dispute (money)",
+     "c": "warn"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Drafts ready: 3. Nothing sent.",
+     "c": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "id": "inbox-triage-chat-emerald",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "inbox-triage",
+   "acc": "#2FCB7A",
+   "title": "AI chat",
+   "cmd": "",
+   "input": "(6 emails pasted)",
+   "out": [
+    {
+     "t": "Act today: 2. This week: 1. FYI: 3.",
+     "c": "h"
+    },
+    {
+     "t": "Flagged: Leo disputes invoice 2211.",
+     "c": "warn"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Draft to Dana:",
+     "c": "dim"
+    },
+    {
+     "t": "Hi Dana, thanks for this. For 400 units I can send a full quote by Thursday. [ASK ME: confirm Thursday]"
+    }
+   ],
+   "approve": null
+  }
+ },
+ {
+  "id": "sop-to-skill-term-emerald",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "sop-to-skill",
+   "acc": "#2FCB7A",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Pasted: our returns SOP (1 page) + 3 replies we sent",
+   "out": [
+    {
+     "t": "Created returns-replies/",
+     "c": "ok"
+    },
+    {
+     "t": "  SKILL.md"
+    },
+    {
+     "t": "  examples/ 1.md 2.md 3.md"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "---",
+     "c": "dim"
+    },
+    {
+     "t": "name: returns-replies"
+    },
+    {
+     "t": "description: Drafts replies to return"
+    },
+    {
+     "t": "  requests using our policy. Use when"
+    },
+    {
+     "t": "  a customer asks to return or exchange."
+    },
+    {
+     "t": "---",
+     "c": "dim"
+    },
+    {
+     "t": "## Rules",
+     "c": "h"
+    },
+    {
+     "t": "- Needs my yes before: sending, refunds"
+    },
+    {
+     "t": "- If unsure: write [ASK ME]"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Ready. Test it on last week's 3 returns.",
+     "c": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "id": "weekly-numbers-term-ink",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "weekly-numbers",
+   "acc": "#F5F0E8",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Pasted: this week vs last week",
+   "out": [
+    {
+     "t": "What moved",
+     "c": "h"
+    },
+    {
+     "t": "1. Orders 412 to 356, down 56"
+    },
+    {
+     "t": "   Guess: the promo ended Sunday",
+     "c": "dim"
+    },
+    {
+     "t": "2. Leads 38 to 51, up 13"
+    },
+    {
+     "t": "   Guess: Tuesday webinar",
+     "c": "dim"
+    },
+    {
+     "t": "3. Cash 41.2K to 35.0K, down 6.2K"
+    },
+    {
+     "t": "   Math: 41.2 - 35.0 = 6.2",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Looks wrong: 2 refunds counted twice?",
+     "c": "warn"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Ask the team",
+     "c": "h"
+    },
+    {
+     "t": "· Why did repeat orders drop?"
+    },
+    {
+     "t": "· Which leads came from the webinar?"
+    }
+   ]
+  }
+ },
+ {
+  "id": "weekly-numbers-chat-ink",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "weekly-numbers",
+   "acc": "#F5F0E8",
+   "title": "AI chat",
+   "cmd": "",
+   "input": "(this week + last week pasted)",
+   "out": [
+    {
+     "t": "3 numbers moved most:",
+     "c": "h"
+    },
+    {
+     "t": "Orders down 56 (412 to 356). Guess: promo ended."
+    },
+    {
+     "t": "Leads up 13 (38 to 51). Guess: the webinar."
+    },
+    {
+     "t": "Cash down 6.2K."
+    },
+    {
+     "t": "Check: 2 refunds may be counted twice.",
+     "c": "warn"
+    }
+   ],
+   "approve": null
+  }
+ },
+ {
+  "id": "inbox-triage-term-ink",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "inbox-triage",
+   "acc": "#F5F0E8",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Pasted 6 emails",
+   "out": [
+    {
+     "t": "ACT TODAY (2)",
+     "c": "h"
+    },
+    {
+     "t": "· Dana: quote for 400 units, by Fri"
+    },
+    {
+     "t": "· Leo: invoice 2211 looks wrong"
+    },
+    {
+     "t": "THIS WEEK (1)",
+     "c": "h"
+    },
+    {
+     "t": "· Priya: intro call next week?"
+    },
+    {
+     "t": "FYI (3)",
+     "c": "h"
+    },
+    {
+     "t": "· 2 newsletters, 1 receipt",
+     "c": "dim"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "FLAGGED",
+     "c": "warn"
+    },
+    {
+     "t": "! Leo: invoice dispute (money)",
+     "c": "warn"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Drafts ready: 3. Nothing sent.",
+     "c": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "id": "inbox-triage-chat-ink",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "inbox-triage",
+   "acc": "#F5F0E8",
+   "title": "AI chat",
+   "cmd": "",
+   "input": "(6 emails pasted)",
+   "out": [
+    {
+     "t": "Act today: 2. This week: 1. FYI: 3.",
+     "c": "h"
+    },
+    {
+     "t": "Flagged: Leo disputes invoice 2211.",
+     "c": "warn"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Draft to Dana:",
+     "c": "dim"
+    },
+    {
+     "t": "Hi Dana, thanks for this. For 400 units I can send a full quote by Thursday. [ASK ME: confirm Thursday]"
+    }
+   ],
+   "approve": null
+  }
+ },
+ {
+  "id": "approval-gate-term-gold",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "approval-gate",
+   "acc": "#E8B84B",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": "Draft: reply to Sam + refund $120",
+   "out": [
+    {
+     "t": "Checking the 4 that always wait",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Money out: refund $120",
+     "c": "warn"
+    },
+    {
+     "t": "  needs a yes, approver: ops lead",
+     "c": "dim"
+    },
+    {
+     "t": "Promise: \"arrives Thursday\"",
+     "c": "warn"
+    },
+    {
+     "t": "  needs a yes, approver: support lead",
+     "c": "dim"
+    },
+    {
+     "t": "Quote or booking: none"
+    },
+    {
+     "t": "Deletes records: none"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "2 approval requests sent. Nothing went out.",
+     "c": "ok"
+    }
+   ]
+  }
+ },
+ {
+  "id": "promise-check-chat-gold",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "promise-check",
+   "acc": "#E8B84B",
+   "title": "AI chat",
+   "cmd": "",
+   "input": "Draft: \"So sorry. We'll ship a replacement today and the return label is free.\"",
+   "out": [
+    {
+     "t": "2 promises found",
+     "c": "h"
+    },
+    {
+     "t": "1. \"ship a replacement today\"",
+     "c": "warn"
+    },
+    {
+     "t": "   Needs a yes: policy says 2 business days.",
+     "c": "dim"
+    },
+    {
+     "t": "2. \"the return label is free\"",
+     "c": "ok"
+    },
+    {
+     "t": "   OK by policy: free returns over $50.",
+     "c": "dim"
+    }
+   ],
+   "approve": {
+    "main": "Approve promise 1 or change it?",
+    "yes": "Approve",
+    "no": "Change to 2 days"
+   }
+  }
+ },
+ {
+  "id": "daily-note-term-claude",
+  "kind": "demo",
+  "data": {
+   "style": "term",
+   "skill": "daily-note",
+   "acc": "#E07A55",
+   "title": "~/work · skill run",
+   "cmd": "",
+   "input": null,
+   "out": [
+    {
+     "t": "Daily note: order status helper",
+     "c": "h"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Handled: 46 emails",
+     "c": "ok"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Passed to you: 3",
+     "c": "warn"
+    },
+    {
+     "t": "· 2 refunds over $50"
+    },
+    {
+     "t": "· 1 upset customer"
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Corrected today: 1",
+     "c": "h"
+    },
+    {
+     "t": "· Wrong delivery date on 1 reply."
+    },
+    {
+     "t": "  Fix added to the instructions."
+    },
+    {
+     "t": ""
+    },
+    {
+     "t": "Unusual: 4 emails about the same",
+     "c": "dim"
+    },
+    {
+     "t": "late carrier. Not acted on.",
+     "c": "dim"
+    }
+   ]
+  }
+ },
+ {
+  "id": "helper-owner-chat-claude",
+  "kind": "demo",
+  "data": {
+   "style": "chat",
+   "skill": "helper-owner",
+   "acc": "#E07A55",
+   "title": "AI chat",
+   "cmd": "order status replies",
+   "input": null,
+   "out": [
+    {
+     "t": "Owner sheet: order status replies",
+     "c": "h"
+    },
+    {
+     "t": "Owner: support lead · Backup: ops manager"
+    },
+    {
+     "t": "Job: answers \"where is my order?\" with live tracking."
+    },
+    {
+     "t": "Does alone: tracking updates on record",
+     "c": "ok"
+    },
+    {
+     "t": "Needs a yes: refunds, reships, any promise",
+     "c": "warn"
+    },
+    {
+     "t": "Never does: changes orders or prices"
+    },
+    {
+     "t": "Off switch: pause in inbox settings, 1 click.",
+     "c": "dim"
+    }
+   ],
+   "approve": null
+  }
+ },
+ {
+  "id": "gh-anthropic-skills",
+  "kind": "web",
+  "url": "https://github.com/anthropics/skills",
+  "min": 12,
+  "hide": [
+   "header.HeaderMktg",
+   ".js-header-wrapper",
+   "div[data-testid=\"signup-prompt\"]",
+   ".flash-full"
+  ],
+  "steps": [
+   {
+    "wait": 800
+   },
+   {
+    "scroll": 420,
+    "speed": 18
+   },
+   {
+    "wait": 400
+   },
+   {
+    "click": "a[href=\"/anthropics/skills/tree/main/skills\"]"
+   },
+   {
+    "wait": 800
+   },
+   {
+    "scroll": 270,
+    "speed": 18
+   },
+   {
+    "click": "a[href=\"/anthropics/skills/tree/main/skills/skill-creator\"]"
+   },
+   {
+    "wait": 700
+   },
+   {
+    "click": "a[href=\"/anthropics/skills/blob/main/skills/skill-creator/SKILL.md\"]"
+   },
+   {
+    "wait": 1200
+   },
+   {
+    "scroll": 540,
+    "speed": 22
+   }
+  ],
+  "vw": 430
+ }
+]

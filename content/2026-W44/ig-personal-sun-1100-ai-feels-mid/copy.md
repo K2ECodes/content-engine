@@ -1,27 +1,23 @@
 ## Caption
-Steal my 4 fixes for AI that feels mid. The prompts are in the slides, copy them.
-Comment AI and I'll send you all 5 of my starter prompts free, plus the permission sheet I use.
+Your AI feels mid? These 4 skills fix it.
+Comment AI and I'll send you all 4 free, plus my 5 starter skills.
 
-Most people type 1 line, get a generic answer and decide AI is overrated. Same thing happened to me.
+/context-pack reads your SOP, 3 past examples and your tone before it drafts.
+/draft-only prepares the refund, the email, the order, then waits for your yes.
+/sop-to-skill turns a process you repeat into a skill folder, same format as Anthropic's open skills repo.
+/self-check checks the draft against your rules before you ever see it.
 
-These 4 changed how I use it:
-Give it your files, not 1-liners.
-Make it draft and wait for your yes.
-Save the prompt you paste every morning as a skill.
-Make it check its own work before you see it.
+Each 1 is a real SKILL.md you drop into Claude or paste into any AI chat.
 
-Swipe, copy the lines, try them today.
-
-Comment AI for the full pack.
+Comment AI and they're yours.
 
 #AI #ClaudeAI #AItools #productivity #aitips
 
 ## Alt text
-6-slide carousel from @koredekola in orange. Cover: Korede in a white jacket, his head in front of the headline Steal my 4 fixes for AI that feels mid, with a Scientists reveal, why your AI feels mid news chip. Payoff box: Copy-paste prompts inside. Fix 1: give it files, with a prompt to copy. Fix 2 (video): make it ask before it acts, screenshots of TechCrunch on Claude Duet and on Microsoft's agent warning, with a rule to copy. Fix 3 (video): turn repeats into skills, screenshots of Anthropic's skills announcement and the Agentic AI Foundation. Fix 4: make it check its own work, with a prompt to copy. Last slide: Comment AI, I'll send all 5 prompts.
+6-slide carousel from @koredekola in orange. Cover: Korede in a white jacket, his head in front of the headline Your AI feels mid? These 4 skills fix it., with a Scientists reveal news chip. Slide 2: /context-pack with its instructions and a 3-step flow. Slide 3 (video): /draft-only running in a terminal and a chat, preparing a refund and waiting for approval. Slide 4 (video): /sop-to-skill creating a skill folder, next to a screen recording of Anthropic's open skills repo on GitHub. Slide 5: /self-check with its instructions. Last slide: Comment AI, I'll send all 4 skills.
 
 ## Notes
-Photo carousel (templates/photo-carousel, research/style-personal-carousel.md, ref @mr.pynk). Real photos of Korede: assets/photos/korede/white-jacket-lounge.jpg and its rembg cutout.
-Source for "70+ AI tools read the skills format": Anthropic donated Agent Skills to the Linux Foundation's Agentic AI Foundation, 70+ platforms read it: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation (Oct 22 2026).
-Screenshots (shots/, commentary use): duet.png = https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/; microsoft.png = TechCrunch, Microsoft says AI agents are like insider threats (Oct 19 2026); skills.png = https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation; aaif.png = Agentic AI Foundation homepage.
-Slot sun 11:00 is the free ig-personal default slot in W44 (sun 09:30 is taken).
-Keyword AI sends: assets/freebies/ai-employee-starter-pack.pdf (built, config/offers.json).
+Freebie (keyword AI): assets/freebies/bundles/fix-mid-ai-skills.zip (/context-pack, /draft-only, /sop-to-skill, /self-check; folders in assets/freebies/skills/) plus the starter pack PDF and ai-starter-skills.zip. Listed in config/offers.json.
+Video slide footage: screen recordings made with scripts/record-demo.mjs of templates/demo-run replaying each skill on a demo task (assets/demo-clips/<id>.mp4, defs in assets/demo-clips/demos.json). Demo data (names, orders, amounts) is illustrative. No reels or AI-made content of ours shown. Clips: draft-only-term-claude, draft-only-chat-claude, sop-to-skill-term-claude.
+Real open-source repo shown in clips: https://github.com/anthropics/skills (Anthropic's official Agent Skills repo, 183K stars, last push 2026-10-09, incl. skills/skill-creator/SKILL.md), recorded with scripts/record-demo.mjs (gh-anthropic-skills.mp4).
+Cover meme chip: "Scientists reveal" headline format (Know Your Meme, Oct 2026).

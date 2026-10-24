@@ -1,26 +1,22 @@
 ## Caption
-I'd pay $500 for this template. It's yours free.
-Comment AI and I'll send you my SOP-to-skill sheet: the fill-in template, the 20-minute order and a worked example.
+Same task, every week? This free skill fixes it: /sop-to-skill.
+Comment AI and I'll send you /sop-to-skill and /skill-test free, plus my template sheet.
 
-Every week you explain the same task again. To a new hire, to a freelancer, to ChatGPT.
+Give it your SOP (or a voice note of you doing the task) and 3 real examples. It writes a ready SKILL.md folder: name, when to use it, the steps, and what needs your yes.
 
-Write it once as a skill and it runs the same way every time. And since Anthropic made skills an open standard on Oct 22, the same file works in 70+ AI tools.
+Then /skill-test runs it on last week's work and shows you where it's off before a customer finds it.
 
-The first 3 steps are in the slides:
-Pick 1 thing you repeat every week.
-Write it like you're training a new hire.
-Add 3 real examples.
+Skills are an open format now. Anthropic's skills are free on GitHub, and the same file works in 70+ AI tools.
 
-Steps 4 and 5 and the worked example are in the sheet.
-
-Comment AI and it's yours.
+Comment AI and they're yours.
 
 #AI #ClaudeAI #AItools #productivity #automation
 
 ## Alt text
-7-slide carousel from @koredekola in blue. Cover: Korede at a laptop on a rooftop, his head in front of the headline I'd pay $500 for this. It's free. Payoff box: My SOP-to-skill template. Slide 2 (video): screenshots of Anthropic's skills announcement and the Agentic AI Foundation, headline Your SOPs can run in 70+ AI tools. Slides 3 to 5: step 1 pick 1 repeated task (3 examples), step 2 the SKILL.md fill-in template to copy, step 3 add 3 real examples with an approval card. Slide 6: what's locked in the sheet. Last slide: Comment AI for the full template.
+7-slide carousel from @koredekola in green. Cover: Korede at a laptop on a rooftop, his head in front of the headline Same task, every week?, payoff This free skill fixes it: /sop-to-skill. Slide 2 (video): a screen recording of Anthropic's open skills repo on GitHub next to /sop-to-skill creating a skill folder. Slide 3: the SKILL.md it writes. Slide 4: the 3 things you give it. Slide 5: /skill-test catching a mistake. Slide 6: what's locked in the sheet. Last slide: Comment AI for both skills.
 
 ## Notes
-Freebie: assets/freebies/sop-to-skill-sheet.pdf (keyword AI, built). The template text on slide 4 is copied from the sheet; steps 4 and 5 and the worked example stay in the PDF.
-Source: Anthropic, Oct 22 2026, Agent Skills donated to the Agentic AI Foundation, 70+ platforms: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation. Screenshots reused from content/2026-W44/ig-personal-sun-1100-ai-feels-mid/shots.
-Cover hook format: price anchor ("I'd pay $500 for this. It's free."). $500 is Korede's value claim, not a price we charge.
+Freebie (keyword AI): assets/freebies/sop-to-skill-sheet.pdf + assets/freebies/bundles/sop-to-skill-kit.zip (/sop-to-skill, /skill-test). Listed in config/offers.json.
+Real open-source repo shown in clips: https://github.com/anthropics/skills (Anthropic's official Agent Skills repo, 183K stars, last push 2026-10-09, incl. skills/skill-creator/SKILL.md), recorded with scripts/record-demo.mjs (gh-anthropic-skills.mp4).
+Video slide footage: screen recordings made with scripts/record-demo.mjs of templates/demo-run replaying each skill on a demo task (assets/demo-clips/<id>.mp4, defs in assets/demo-clips/demos.json). Demo data (names, orders, amounts) is illustrative. No reels or AI-made content of ours shown. Clips: gh-anthropic-skills, sop-to-skill-term-emerald.
+Source for 70+ tools: Anthropic, Oct 22 2026, https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation

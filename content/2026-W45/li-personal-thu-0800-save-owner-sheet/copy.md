@@ -1,28 +1,28 @@
 ## Caption
-Save this: the 1-page owner sheet we fill in for every AI helper.
+Who's watching your AI helpers? These 2 free skills fix it: /helper-owner and /daily-note.
 
-Comment SYSTEMS and I'll send you the full sheet with a filled-in example.
+Comment SYSTEMS and I'll send you both skills plus the 1-page owner sheet, free.
 
 58 in 100 managers expect to oversee more AI helpers than people within a year, and 46 in 100 worry about losing control of what those helpers do (Nielsen survey of 1,700 managers for Monday.com, via TechCrunch).
 
-We run Content Systems.ai on 100+ AI employees. Every 1 of them has a person's name on it, and 3 answers written down:
+We run Content Systems.ai on 100+ AI employees, and every 1 has a person's name on it.
 
-1. Who checks its work? 1 named person, every day. Not "the team".
+/helper-owner writes the owner sheet for each helper: its job, its owner and backup, what it does alone, what needs a yes, what it never does, and its off switch.
 
-2. What can it do alone? Routine, on record and easy to undo goes alone. Money, promises and anything that leaves waits for a yes.
+/daily-note has the helper send its owner a 30-second note every day: what it handled, what it passed on, what got corrected, and anything unusual.
 
-3. What does it report? A short daily note to its owner: what it handled, what it passed on and what got corrected.
+A helper that drifts gets noticed by its owner, not a customer.
 
-The part most teams forget is the off switch. It's in the sheet, with a filled-in example you can copy.
+They're real SKILL.md files for Claude or any AI chat.
 
-Comment SYSTEMS and I'll DM it to you.
+Comment SYSTEMS and I'll DM them to you.
 
 #AI #ArtificialIntelligence #AIAgents #Management #Leadership #Operations #Automation #FutureOfWork #Founders #SmallBusiness #Ecommerce #Logistics
 
 ## Alt text
-7-slide carousel from Korede Kolawole in orange. Cover: Korede at a laptop on a rooftop, his head in front of the headline Save this: the AI owner sheet., payoff box 3 questions every AI helper must answer. Slide 2: 58 in 100 managers expect to oversee more AI helpers than people. Slides 3 to 5: who checks its work (the sheet's top fields), what it can do alone (its limits), what it reports (a daily note). Slide 6: what's locked in the sheet. Last slide: Comment SYSTEMS for the owner sheet.
+6-slide carousel from Korede Kolawole in orange. Cover: Korede at a laptop on a rooftop, his head in front of the headline Who's watching your AI helpers?, payoff 2 free skills fix it. Slide 2: 58 in 100 managers expect to oversee more AI helpers than people. Slide 3: /helper-owner and the fields it fills in. Slide 4 (video): /daily-note writing an owner's note and /helper-owner filling in a sheet. Slide 5: what's locked in the sheet. Last slide: Comment SYSTEMS for both skills.
 
 ## Notes
-Freebie: assets/freebies/ai-helper-owner-sheet.pdf (keyword SYSTEMS, built). The off switch, the filled-in example and the print page stay in the PDF.
-Source: Nielsen survey for Monday.com, 1,700 managers in 7 countries, via TechCrunch Oct 21 2026: techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey. Proof bank: 100+ AI employees.
-The daily note on slide 5 is illustrative.
+Freebie (keyword SYSTEMS): assets/freebies/ai-helper-owner-sheet.pdf + assets/freebies/bundles/helper-owner-skills.zip (/helper-owner, /daily-note). Listed in config/offers.json.
+Video slide footage: screen recordings made with scripts/record-demo.mjs of templates/demo-run replaying each skill on a demo task (assets/demo-clips/<id>.mp4, defs in assets/demo-clips/demos.json). Demo data (names, orders, amounts) is illustrative. No reels or AI-made content of ours shown. Clips: daily-note-term-claude, helper-owner-chat-claude.
+Source: Nielsen survey for Monday.com, 1,700 managers in 7 countries, via TechCrunch Oct 21 2026. Proof bank: 100+ AI employees.

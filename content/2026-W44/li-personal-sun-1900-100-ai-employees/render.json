@@ -18,21 +18,21 @@
     },
     "blocks": [
      {
-      "text": "3 AI employees",
+      "text": "Drowning in admin?",
       "style": "white",
-      "size": 96
+      "size": 92
      },
      {
-      "text": "I'd hire *first.*",
+      "text": "*3 free skills* fix it.",
       "style": "acc",
-      "size": 96
+      "size": 90
      }
     ],
     "blocksY": 132,
     "pay": {
-     "text": "All free. *Copy the setup.*",
+     "text": "The first 3 AI employees *I'd hire.*",
      "y": 1030,
-     "size": 46
+     "size": 44
     },
     "bgc": "#14110c"
    },
@@ -43,18 +43,51 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "AI employee 1",
+    "label": "Skill 1.",
     "labelY": 100,
-    "title": "Inbox triage,\n*drafts only*",
+    "title": "*/inbox-triage*",
     "titleY": 170,
-    "bodyY": 430,
-    "prompt": {
-     "text": "You're my inbox assistant. When I paste\nemails:\n1. Sort each into Act today, This week,\n   FYI or Ignore.\n2. 1 line each: who, what, by when.\n3. Draft replies in my voice.\nNever send anything. Unsure? [ASK ME]"
-    },
+    "video": true,
+    "frames": [
+     {
+      "src": "assets/demo-clips/posters/inbox-triage-term-emerald.png",
+      "x": 0,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/inbox-triage-term-emerald.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     },
+     {
+      "src": "assets/demo-clips/posters/inbox-triage-chat-emerald.png",
+      "x": 480,
+      "y": 0,
+      "w": 440,
+      "h": 594,
+      "clips": [
+       {
+        "src": "assets/demo-clips/inbox-triage-chat-emerald.mp4",
+        "dur": 9
+       }
+      ],
+      "pos": "50% 0%"
+     }
+    ],
+    "fh": 600,
+    "bodyY": 410,
     "ann": [
      {
-      "k": "You approve",
-      "v": "every reply before it goes out."
+      "k": "Looks like",
+      "v": "6 emails sorted, the money one flagged, 3 replies drafted. Nothing sent."
+     },
+     {
+      "k": "Why it works",
+      "v": "you clear the inbox in minutes and still approve every reply."
      }
     ],
     "annY": 1050
@@ -66,13 +99,24 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "AI employee 2",
+    "label": "Skill 2.",
     "labelY": 100,
-    "title": "A meeting brief\nin *3 minutes*",
+    "title": "*/meeting-prep*",
     "titleY": 170,
     "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "a 1-page brief 15 minutes before the call."
+     },
+     {
+      "k": "Why it works",
+      "v": "you walk in knowing what to ask."
+     }
+    ],
+    "annY": 1050,
     "form": {
-     "title": "What it hands you, 15 minutes before",
+     "title": "What it hands you",
      "rows": [
       {
        "k": "In the room",
@@ -91,14 +135,7 @@
        "v": "what you want out of it"
       }
      ]
-    },
-    "ann": [
-     {
-      "k": "You approve",
-      "v": "nothing goes out. You read it and decide."
-     }
-    ],
-    "annY": 1050
+    }
    },
    {
     "kind": "body",
@@ -107,11 +144,22 @@
      "pos": "50% 50%",
      "blur": true
     },
-    "label": "AI employee 3",
+    "label": "Skill 3.",
     "labelY": 100,
-    "title": "The follow-up,\n*written for you*",
+    "title": "*/follow-up-writer*",
     "titleY": 170,
     "bodyY": 430,
+    "ann": [
+     {
+      "k": "Looks like",
+      "v": "call notes in, a clear email out."
+     },
+     {
+      "k": "Why it works",
+      "v": "you send it while the call is still fresh."
+     }
+    ],
+    "annY": 1050,
     "flow": [
      "Call notes",
      "Draft",
@@ -121,15 +169,9 @@
      }
     ],
     "prompt": {
-     "text": "Write a follow-up from my call notes:\n- what we agreed, as bullets\n- who does what, by when\n- the next step and its date\nUnder 150 words, in my voice."
-    },
-    "ann": [
-     {
-      "k": "You approve",
-      "v": "the email before it goes out."
-     }
-    ],
-    "annY": 1050
+     "label": "follow-up-writer/SKILL.md",
+     "text": "1. 1 line of thanks, no fluff.\n2. What we agreed, as bullets.\n3. Who does what, by when.\n4. The next step and its date.\nUnder 150 words. Never send."
+    }
    },
    {
     "kind": "body",
@@ -140,30 +182,30 @@
     },
     "label": "In the pack",
     "labelY": 100,
-    "title": "2 more, plus the\nsheet I *never skip*",
+    "title": "2 more skills, plus\nthe sheet I *never skip*",
     "titleY": 170,
     "bodyY": 450,
-    "locked": [
-     {
-      "n": "4",
-      "text": "Weekly numbers summary"
-     },
-     {
-      "n": "5",
-      "text": "SOP writer"
-     },
-     {
-      "n": "6",
-      "text": "The permission sheet"
-     }
-    ],
     "ann": [
      {
       "k": "Why the sheet",
       "v": "it says what each AI employee may do alone. Write it before day 1."
      }
     ],
-    "annY": 1050
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "4",
+      "text": "/weekly-numbers"
+     },
+     {
+      "n": "5",
+      "text": "/sop-writer"
+     },
+     {
+      "n": "+",
+      "text": "The permission sheet"
+     }
+    ]
    },
    {
     "kind": "cta",
@@ -184,14 +226,14 @@
       "size": 110
      },
      {
-      "text": "for all 5 + the sheet.",
+      "text": "for all 5 skills.",
       "style": "acc",
       "size": 72
      }
     ],
     "blocksY": 108,
     "pay": {
-     "text": "Free. *I'll DM it.*",
+     "text": "Free. *I'll DM them.*",
      "y": 1040,
      "size": 46
     },
