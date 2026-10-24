@@ -8,16 +8,13 @@
    {
     "kind": "cover",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "-1753px 0px",
-     "size": "3300px auto",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "dim": {
       "top": 0.65,
       "bot": 0.95
-     },
-     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+     }
     },
-    "bgc": "#14110c",
     "blocks": [
      {
       "text": "AI sending the",
@@ -30,18 +27,26 @@
       "size": 96
      }
     ],
-    "blocksY": 132,
+    "blocksY": 110,
     "pay": {
      "text": "*3 free skills* stop it. Our team uses them.",
      "y": 1020,
      "size": 40
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 185,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.86) sepia(.14) contrast(1.05)"
     }
    },
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "blur": true
     },
     "label": "Skill 1.",
@@ -96,8 +101,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "blur": true
     },
     "label": "Skill 2.",
@@ -140,8 +145,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "blur": true
     },
     "label": "Skill 3.",
@@ -171,8 +176,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "blur": true
     },
     "label": "Even they agree",
@@ -213,8 +218,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "blur": true
     },
     "label": "In the sheet",
@@ -247,16 +252,13 @@
    {
     "kind": "cta",
     "photo": {
-     "src": "assets/photos/korede/studio-with-sanjana.jpg",
-     "pos": "-1753px 0px",
-     "size": "3300px auto",
+     "src": "assets/photos/backgrounds/warm-studio.png",
+     "pos": "50% 62%",
      "dim": {
       "top": 0.75,
       "bot": 0.95
-     },
-     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+     }
     },
-    "bgc": "#14110c",
     "blocks": [
      {
       "text": "Comment *SYSTEMS*",
@@ -269,14 +271,22 @@
       "size": 70
      }
     ],
-    "blocksY": 108,
+    "blocksY": 70,
     "pay": {
      "text": "Free. *Pin it for your team.*",
      "y": 1040,
      "size": 42
     },
     "wordmark": true,
-    "wmTop": 905
+    "wmTop": 905,
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 180,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.86) sepia(.14) contrast(1.05)"
+    }
    }
   ]
  }

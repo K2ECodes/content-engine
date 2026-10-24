@@ -8,15 +8,13 @@
    {
     "kind": "cover",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 0px",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "dim": {
       "top": 0.55,
       "bot": 0.6
-     },
-     "front": "assets/photos/korede/cutouts/white-jacket-lounge-full.png"
+     }
     },
-    "bgc": "#120c09",
     "blocks": [
      {
       "text": "Your inbox eats",
@@ -34,13 +32,21 @@
      "text": "*3 skills* fix that. Swipe.",
      "y": 1010,
      "size": 46
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 110,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(1.05) saturate(1.04)"
     }
    },
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "8:00 · Skill 1.",
@@ -95,8 +101,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "9:00 · Skill 2.",
@@ -151,8 +157,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "10:45 · Skill 3.",
@@ -192,8 +198,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "In the pack",
@@ -226,8 +232,8 @@
    {
     "kind": "cta",
     "photo": {
-     "src": "assets/talking-head/backgrounds/city-dusk.png",
-     "pos": "50% 50%",
+     "src": "assets/photos/backgrounds/morning-apartment.png",
+     "pos": "50% 55%",
      "dim": {
       "top": 0.7,
       "bot": 0.55
@@ -235,10 +241,11 @@
     },
     "cut": {
      "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-     "x": 60,
-     "y": 170,
+     "x": 70,
+     "y": 180,
      "h": 1400,
-     "front": true
+     "front": true,
+     "grade": "brightness(1.05) saturate(1.04)"
     },
     "blocks": [
      {
@@ -252,7 +259,7 @@
       "size": 70
      }
     ],
-    "blocksY": 168,
+    "blocksY": 70,
     "pay": {
      "text": "Free. *I'll DM it.*",
      "y": 1030,

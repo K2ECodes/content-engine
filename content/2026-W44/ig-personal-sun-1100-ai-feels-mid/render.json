@@ -7,13 +7,12 @@
    {
     "kind": "cover",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 80px",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "dim": {
       "top": 0.55,
       "bot": 0.6
-     },
-     "front": "assets/photos/korede/cutouts/white-jacket-lounge-full.png"
+     }
     },
     "blocks": [
      {
@@ -27,7 +26,7 @@
       "size": 90
      }
     ],
-    "blocksY": 140,
+    "blocksY": 110,
     "pay": {
      "text": "*Free.* Comment AI for all 4.",
      "y": 1010,
@@ -38,13 +37,20 @@
      "y": 50,
      "tag": "Scientists reveal"
     },
-    "bgc": "#120c09"
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 185,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.97) sepia(.06)"
+    }
    },
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "Skill 1.",
@@ -79,8 +85,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "Skill 2.",
@@ -135,8 +141,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "Skill 3.",
@@ -191,8 +197,8 @@
    {
     "kind": "body",
     "photo": {
-     "src": "assets/photos/korede/white-jacket-lounge.jpg",
-     "pos": "50% 12%",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "blur": true
     },
     "label": "Skill 4.",
@@ -226,8 +232,8 @@
    {
     "kind": "cta",
     "photo": {
-     "src": "assets/talking-head/backgrounds/city-dusk.png",
-     "pos": "50% 50%",
+     "src": "assets/talking-head/backgrounds/loft-office.png",
+     "pos": "50% 55%",
      "dim": {
       "top": 0.7,
       "bot": 0.55
@@ -235,10 +241,11 @@
     },
     "cut": {
      "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
-     "x": 60,
-     "y": 170,
+     "x": 70,
+     "y": 180,
      "h": 1400,
-     "front": true
+     "front": true,
+     "grade": "brightness(.97) sepia(.06)"
     },
     "blocks": [
      {
@@ -252,7 +259,7 @@
       "size": 72
      }
     ],
-    "blocksY": 168,
+    "blocksY": 70,
     "pay": {
      "text": "+ my 5 starter skills, *free.*",
      "y": 1030,

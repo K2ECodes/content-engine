@@ -273,13 +273,12 @@
    {
     "kind": "cta",
     "photo": {
-     "src": "assets/photos/korede/laptop-rooftop.jpg",
-     "pos": "50% 62%",
+     "src": "assets/talking-head/backgrounds/library.png",
+     "pos": "50% 55%",
      "dim": {
       "top": 0.55,
       "bot": 0.55
-     },
-     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+     }
     },
     "blocks": [
      {
@@ -293,11 +292,19 @@
       "size": 76
      }
     ],
-    "blocksY": 300,
+    "blocksY": 70,
     "pay": {
      "text": "+ my starter pack, *free.*",
      "y": 1010,
      "size": 46
+    },
+    "cut": {
+     "src": "assets/photos/korede/cutouts/white-jacket-lounge.png",
+     "x": 70,
+     "y": 180,
+     "h": 1400,
+     "front": true,
+     "grade": "brightness(.93) sepia(.1)"
     }
    }
   ],
