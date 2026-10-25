@@ -3,7 +3,7 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "script": "What if everyone on Earth woke up 10% Nigerian? Day 1. An aunty you've never met calls to ask about your future. Day 3. Your mum now calls you this boy, in public. Week 1. The office party jollof argument ends in HR. Week 3. Your whole street now argues about whose generator is louder. Month 2. Every wedding lasts 3 days. You have 4 this weekend. Month 6. The visa queue reaches the next city. They still say no. Year 1. 'We have food at home' becomes the most said sentence on Earth. Year 5. Every stadium on Earth plays Afrobeats. Even at funerals. Year 10. You finally become a doctor. Your mum asks when you're getting married. What should happen next?",
+  "script": "What if everyone on Earth woke up 10% Nigerian? Day 1. An aunty you've never met calls to ask about your future. Day 3. Your mum now calls you this boy. In public. Week 1. The office party jollof argument ends in HR. Week 3. Your whole street now argues about whose generator is louder. Month 2. Every wedding lasts 3 days. You have 4 this weekend. Month 6. The visa queue reaches the next city. They still say no. Year 1. 'We have food at home' becomes the most said sentence on Earth. Year 5. Every stadium on Earth plays Afrobeats, even at funerals. Year 10. You finally become a doctor. Your mum asks when you're getting married. What should happen next?",
   "stop": false,
   "capStyle": "wif",
   "tail": 1.6,

@@ -64,5 +64,5 @@ Mechanics from the low-poly reference, our look: warm ink-green and gold grade, 
 - Scene `type: "wif"` with `look: "cinema"` + `bg` still: `when` ("Week 3"), `num` + optional `count` (counts up) + `unit`, `cmp` (scale comparison), `stat` (tiny line), `rule` (gold pill, the premise rule), `tag` ("K2E" on the last beat), `sfx`.
 - Files per post: `beats.json` (lines, say, overlay, set description), `prompts.json` (one still per beat), `audio/say.txt`.
 - Stills: `node --env-file=.env scripts/what-if-stills.mjs <post>` (first still is the hero reference for the rest; skips stills already done; refuses if over the weekly cap).
-- Voice: HeyGen free narrator (deadpan, expressiveness 0.25), tighten with `--beatBefore "Day,Week,Month,Year,What" --beat 0.5`.
+- Voice: Korede's HeyGen free instant clone (HEYGEN_INSTANT_VOICE_ID, deadpan, expressiveness 0.25; "Korayday" in TTS), tighten with `--beatBefore "Day,Week,Month,Year,What" --beat 0.5`.
 - Examples: content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan, ig-personal-sat-2030-what-if-dollar-every-ai.

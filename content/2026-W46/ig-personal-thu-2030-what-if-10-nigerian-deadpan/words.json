@@ -3,618 +3,618 @@
   {
    "w": "What",
    "start": 0,
-   "end": 0.42
+   "end": 0.36
   },
   {
    "w": "if",
-   "start": 0.42,
-   "end": 0.54
+   "start": 0.36,
+   "end": 0.48
   },
   {
    "w": "everyone",
-   "start": 0.54,
-   "end": 0.98
+   "start": 0.48,
+   "end": 0.78
   },
   {
    "w": "on",
-   "start": 0.98,
-   "end": 1.14
+   "start": 0.78,
+   "end": 0.9
   },
   {
    "w": "Earth",
-   "start": 1.14,
-   "end": 1.36
+   "start": 0.9,
+   "end": 1.1
   },
   {
    "w": "woke",
-   "start": 1.36,
-   "end": 1.68
+   "start": 1.1,
+   "end": 1.32
   },
   {
    "w": "up",
-   "start": 1.68,
-   "end": 1.82
+   "start": 1.32,
+   "end": 1.48
   },
   {
    "w": "10%",
-   "start": 1.82,
-   "end": 2.38
+   "start": 1.48,
+   "end": 1.96
   },
   {
    "w": "Nigerian?",
-   "start": 2.38,
-   "end": 2.96
+   "start": 1.96,
+   "end": 2.58
   },
   {
    "w": "Day",
-   "start": 3.477,
-   "end": 3.597
+   "start": 3.133,
+   "end": 3.253
   },
   {
    "w": "1.",
-   "start": 3.597,
-   "end": 3.877
+   "start": 3.253,
+   "end": 3.513
   },
   {
    "w": "An",
-   "start": 4.237,
-   "end": 4.337
+   "start": 3.833,
+   "end": 3.993
   },
   {
    "w": "aunty",
-   "start": 4.337,
-   "end": 4.637
+   "start": 3.993,
+   "end": 4.333
   },
   {
    "w": "you've",
-   "start": 4.637,
-   "end": 4.897
+   "start": 4.333,
+   "end": 4.433
   },
   {
    "w": "never",
-   "start": 4.897,
-   "end": 5.077
+   "start": 4.433,
+   "end": 4.593
   },
   {
    "w": "met",
-   "start": 5.077,
-   "end": 5.297
+   "start": 4.593,
+   "end": 4.793
   },
   {
    "w": "calls",
-   "start": 5.297,
-   "end": 5.617
+   "start": 4.793,
+   "end": 5.053
   },
   {
    "w": "to",
-   "start": 5.617,
-   "end": 5.797
+   "start": 5.053,
+   "end": 5.233
   },
   {
    "w": "ask",
-   "start": 5.797,
-   "end": 6.017
+   "start": 5.233,
+   "end": 5.413
   },
   {
    "w": "about",
-   "start": 6.017,
-   "end": 6.217
+   "start": 5.413,
+   "end": 5.593
   },
   {
    "w": "your",
-   "start": 6.217,
-   "end": 6.357
+   "start": 5.593,
+   "end": 5.713
   },
   {
    "w": "future.",
-   "start": 6.357,
-   "end": 6.637
+   "start": 5.713,
+   "end": 5.973
   },
   {
    "w": "Day",
-   "start": 7.216,
-   "end": 7.356
+   "start": 6.493,
+   "end": 6.593
   },
   {
    "w": "3.",
-   "start": 7.356,
-   "end": 7.596
+   "start": 6.593,
+   "end": 6.853
   },
   {
    "w": "Your",
-   "start": 7.908,
-   "end": 8.008
+   "start": 7.293,
+   "end": 7.353
   },
   {
    "w": "mum",
-   "start": 8.008,
-   "end": 8.208
+   "start": 7.353,
+   "end": 7.513
   },
   {
    "w": "now",
-   "start": 8.208,
-   "end": 8.428
+   "start": 7.513,
+   "end": 7.713
   },
   {
    "w": "calls",
-   "start": 8.428,
-   "end": 8.688
+   "start": 7.713,
+   "end": 7.953
   },
   {
    "w": "you",
-   "start": 8.688,
-   "end": 8.848
+   "start": 7.953,
+   "end": 8.113
   },
   {
    "w": "this",
-   "start": 8.848,
-   "end": 9.048
+   "start": 8.113,
+   "end": 8.293
   },
   {
-   "w": "boy,",
-   "start": 9.048,
-   "end": 9.308
+   "w": "boy.",
+   "start": 8.293,
+   "end": 8.533
   },
   {
-   "w": "in",
-   "start": 9.628,
-   "end": 9.848
+   "w": "In",
+   "start": 8.873,
+   "end": 8.993
   },
   {
    "w": "public.",
-   "start": 9.848,
-   "end": 10.128
+   "start": 8.993,
+   "end": 9.253
   },
   {
    "w": "Week",
-   "start": 10.765,
-   "end": 10.885
+   "start": 9.893,
+   "end": 10.013
   },
   {
    "w": "1.",
-   "start": 10.885,
-   "end": 11.145
+   "start": 10.013,
+   "end": 10.253
   },
   {
    "w": "The",
-   "start": 11.376,
-   "end": 11.456
+   "start": 10.713,
+   "end": 10.773
   },
   {
    "w": "office",
-   "start": 11.456,
-   "end": 11.816
+   "start": 10.773,
+   "end": 10.993
   },
   {
    "w": "party",
-   "start": 11.816,
-   "end": 12.096
+   "start": 10.993,
+   "end": 11.253
   },
   {
    "w": "jollof",
-   "start": 12.096,
-   "end": 12.476
+   "start": 11.253,
+   "end": 11.593
   },
   {
    "w": "argument",
-   "start": 12.476,
-   "end": 12.836
+   "start": 11.593,
+   "end": 11.933
   },
   {
    "w": "ends",
-   "start": 12.836,
-   "end": 13.196
+   "start": 11.933,
+   "end": 12.313
   },
   {
    "w": "in",
-   "start": 13.196,
-   "end": 13.356
+   "start": 12.313,
+   "end": 12.453
   },
   {
    "w": "HR.",
-   "start": 13.356,
-   "end": 13.576
+   "start": 12.453,
+   "end": 12.673
   },
   {
    "w": "Week",
-   "start": 14.278,
-   "end": 14.458
+   "start": 13.3,
+   "end": 13.5
   },
   {
    "w": "3.",
-   "start": 14.458,
-   "end": 14.718
+   "start": 13.5,
+   "end": 13.74
   },
   {
    "w": "Your",
-   "start": 15.078,
-   "end": 15.138
+   "start": 14.4,
+   "end": 14.5
   },
   {
    "w": "whole",
-   "start": 15.138,
-   "end": 15.298
+   "start": 14.5,
+   "end": 14.74
   },
   {
    "w": "street",
-   "start": 15.298,
-   "end": 15.538
+   "start": 14.74,
+   "end": 15
   },
   {
    "w": "now",
-   "start": 15.538,
-   "end": 15.738
+   "start": 15,
+   "end": 15.2
   },
   {
    "w": "argues",
-   "start": 15.738,
-   "end": 16.078
+   "start": 15.2,
+   "end": 15.46
   },
   {
    "w": "about",
-   "start": 16.078,
-   "end": 16.278
+   "start": 15.46,
+   "end": 15.7
   },
   {
    "w": "whose",
-   "start": 16.278,
-   "end": 16.538
+   "start": 15.7,
+   "end": 15.98
   },
   {
    "w": "generator",
-   "start": 16.538,
-   "end": 16.938
+   "start": 15.98,
+   "end": 16.32
   },
   {
    "w": "is",
-   "start": 16.938,
-   "end": 17.198
+   "start": 16.32,
+   "end": 16.6
   },
   {
    "w": "louder.",
-   "start": 17.198,
-   "end": 17.438
+   "start": 16.6,
+   "end": 16.84
   },
   {
    "w": "Month",
-   "start": 18.007,
-   "end": 18.207
+   "start": 17.528,
+   "end": 17.668
   },
   {
    "w": "2.",
-   "start": 18.207,
-   "end": 18.467
+   "start": 17.668,
+   "end": 17.968
   },
   {
    "w": "Every",
-   "start": 18.815,
-   "end": 19.055
+   "start": 18.508,
+   "end": 18.788
   },
   {
    "w": "wedding",
-   "start": 19.055,
-   "end": 19.255
+   "start": 18.788,
+   "end": 18.988
   },
   {
    "w": "lasts",
-   "start": 19.255,
-   "end": 19.575
+   "start": 18.988,
+   "end": 19.308
   },
   {
    "w": "3",
-   "start": 19.575,
-   "end": 19.835
+   "start": 19.308,
+   "end": 19.568
   },
   {
    "w": "days.",
-   "start": 19.835,
-   "end": 20.055
+   "start": 19.568,
+   "end": 19.788
   },
   {
    "w": "You",
-   "start": 20.335,
-   "end": 20.435
+   "start": 20.188,
+   "end": 20.308
   },
   {
    "w": "have",
-   "start": 20.435,
-   "end": 20.555
+   "start": 20.308,
+   "end": 20.448
   },
   {
    "w": "4",
-   "start": 20.555,
-   "end": 20.795
+   "start": 20.448,
+   "end": 20.648
   },
   {
    "w": "this",
-   "start": 20.795,
-   "end": 20.995
+   "start": 20.648,
+   "end": 20.828
   },
   {
    "w": "weekend.",
-   "start": 20.995,
-   "end": 21.215
+   "start": 20.828,
+   "end": 21.048
   },
   {
    "w": "Month",
-   "start": 21.795,
-   "end": 21.935
+   "start": 21.628,
+   "end": 21.728
   },
   {
    "w": "6.",
-   "start": 21.935,
-   "end": 22.215
+   "start": 21.728,
+   "end": 22.068
   },
   {
    "w": "The",
-   "start": 22.675,
-   "end": 22.755
+   "start": 22.568,
+   "end": 22.668
   },
   {
    "w": "visa",
-   "start": 22.755,
-   "end": 22.935
+   "start": 22.668,
+   "end": 22.848
   },
   {
    "w": "queue",
-   "start": 22.935,
-   "end": 23.175
+   "start": 22.848,
+   "end": 23.068
   },
   {
    "w": "reaches",
-   "start": 23.175,
-   "end": 23.495
+   "start": 23.068,
+   "end": 23.368
   },
   {
    "w": "the",
-   "start": 23.495,
-   "end": 23.675
+   "start": 23.368,
+   "end": 23.528
   },
   {
    "w": "next",
-   "start": 23.675,
-   "end": 23.835
+   "start": 23.528,
+   "end": 23.668
   },
   {
    "w": "city.",
-   "start": 23.835,
-   "end": 24.075
+   "start": 23.668,
+   "end": 23.888
   },
   {
    "w": "They",
-   "start": 24.335,
-   "end": 24.455
+   "start": 24.128,
+   "end": 24.228
   },
   {
    "w": "still",
-   "start": 24.455,
-   "end": 24.675
+   "start": 24.228,
+   "end": 24.468
   },
   {
    "w": "say",
-   "start": 24.675,
-   "end": 24.855
+   "start": 24.468,
+   "end": 24.668
   },
   {
    "w": "no.",
-   "start": 24.855,
-   "end": 25.055
+   "start": 24.668,
+   "end": 24.868
   },
   {
    "w": "Year",
-   "start": 25.593,
-   "end": 25.773
+   "start": 25.427,
+   "end": 25.567
   },
   {
    "w": "1.",
-   "start": 25.773,
-   "end": 26.033
+   "start": 25.567,
+   "end": 25.827
   },
   {
    "w": "'We",
-   "start": 26.033,
-   "end": 26.753
+   "start": 26.347,
+   "end": 26.447
   },
   {
    "w": "have",
-   "start": 26.753,
-   "end": 27.013
+   "start": 26.447,
+   "end": 26.627
   },
   {
    "w": "food",
-   "start": 27.013,
-   "end": 27.213
+   "start": 26.627,
+   "end": 26.847
   },
   {
    "w": "at",
-   "start": 27.213,
-   "end": 27.353
+   "start": 26.847,
+   "end": 27.007
   },
   {
    "w": "home'",
-   "start": 27.353,
-   "end": 27.513
+   "start": 27.007,
+   "end": 27.207
   },
   {
    "w": "becomes",
-   "start": 27.513,
-   "end": 27.773
+   "start": 27.207,
+   "end": 27.487
   },
   {
    "w": "the",
-   "start": 27.773,
-   "end": 27.993
+   "start": 27.487,
+   "end": 27.707
   },
   {
    "w": "most",
-   "start": 27.993,
-   "end": 28.173
+   "start": 27.707,
+   "end": 27.847
   },
   {
    "w": "said",
-   "start": 28.173,
-   "end": 28.413
+   "start": 27.847,
+   "end": 28.107
   },
   {
    "w": "sentence",
-   "start": 28.413,
-   "end": 28.613
+   "start": 28.107,
+   "end": 28.327
   },
   {
    "w": "on",
-   "start": 28.613,
-   "end": 28.833
+   "start": 28.327,
+   "end": 28.527
   },
   {
    "w": "Earth.",
-   "start": 28.833,
-   "end": 29.053
+   "start": 28.527,
+   "end": 28.767
   },
   {
    "w": "Year",
-   "start": 29.599,
-   "end": 29.759
+   "start": 28.767,
+   "end": 29.209
   },
   {
    "w": "5.",
-   "start": 29.759,
-   "end": 30.079
+   "start": 29.209,
+   "end": 29.489
   },
   {
    "w": "Every",
-   "start": 30.679,
-   "end": 31.039
+   "start": 30.149,
+   "end": 30.389
   },
   {
    "w": "stadium",
-   "start": 31.039,
-   "end": 31.359
+   "start": 30.389,
+   "end": 30.729
   },
   {
    "w": "on",
-   "start": 31.359,
-   "end": 31.559
+   "start": 30.729,
+   "end": 30.909
   },
   {
    "w": "Earth",
-   "start": 31.559,
-   "end": 31.779
+   "start": 30.909,
+   "end": 31.129
   },
   {
    "w": "plays",
-   "start": 31.779,
-   "end": 32.019
+   "start": 31.129,
+   "end": 31.369
   },
   {
-   "w": "Afrobeats.",
-   "start": 32.019,
-   "end": 32.619
+   "w": "Afrobeats,",
+   "start": 31.369,
+   "end": 31.949
   },
   {
-   "w": "Even",
-   "start": 32.893,
-   "end": 33.153
+   "w": "even",
+   "start": 32.259,
+   "end": 32.479
   },
   {
    "w": "at",
-   "start": 33.153,
-   "end": 33.273
+   "start": 32.479,
+   "end": 32.619
   },
   {
    "w": "funerals.",
-   "start": 33.273,
-   "end": 33.793
+   "start": 32.619,
+   "end": 33.039
   },
   {
    "w": "Year",
-   "start": 34.34,
-   "end": 34.6
+   "start": 33.638,
+   "end": 33.778
   },
   {
    "w": "10.",
-   "start": 34.6,
-   "end": 34.94
+   "start": 33.778,
+   "end": 34.058
   },
   {
    "w": "You",
-   "start": 35.46,
-   "end": 35.52
+   "start": 34.558,
+   "end": 34.618
   },
   {
    "w": "finally",
-   "start": 35.52,
-   "end": 35.84
+   "start": 34.618,
+   "end": 34.858
   },
   {
    "w": "become",
-   "start": 35.84,
-   "end": 36.14
+   "start": 34.858,
+   "end": 35.158
   },
   {
    "w": "a",
-   "start": 36.14,
-   "end": 36.26
+   "start": 35.158,
+   "end": 35.258
   },
   {
    "w": "doctor.",
-   "start": 36.26,
-   "end": 36.52
+   "start": 35.258,
+   "end": 35.518
   },
   {
    "w": "Your",
-   "start": 37.102,
-   "end": 37.222
+   "start": 36.054,
+   "end": 36.194
   },
   {
    "w": "mum",
-   "start": 37.222,
-   "end": 37.382
+   "start": 36.194,
+   "end": 36.354
   },
   {
    "w": "asks",
-   "start": 37.382,
-   "end": 37.722
+   "start": 36.354,
+   "end": 36.614
   },
   {
    "w": "when",
-   "start": 37.722,
-   "end": 37.962
+   "start": 36.614,
+   "end": 36.754
   },
   {
    "w": "you're",
-   "start": 37.962,
-   "end": 38.062
+   "start": 36.754,
+   "end": 36.854
   },
   {
    "w": "getting",
-   "start": 38.062,
-   "end": 38.202
+   "start": 36.854,
+   "end": 36.994
   },
   {
    "w": "married.",
-   "start": 38.202,
-   "end": 38.522
+   "start": 36.994,
+   "end": 37.294
   },
   {
    "w": "What",
-   "start": 39.077,
-   "end": 39.297
+   "start": 37.877,
+   "end": 37.997
   },
   {
    "w": "should",
-   "start": 39.297,
-   "end": 39.417
+   "start": 37.997,
+   "end": 38.117
   },
   {
    "w": "happen",
-   "start": 39.417,
-   "end": 39.677
+   "start": 38.117,
+   "end": 38.357
   },
   {
    "w": "next?",
-   "start": 39.677,
-   "end": 39.997
+   "start": 38.357,
+   "end": 38.657
   }
  ],
- "text": "What if everyone on earth woke up 10% Nigerian? Day 1. An ante you've never met calls to ask about your future. Day 3. Your mom now calls you this boy, in public. Week 1. The office party Jalof argument ends in HR. Week 3. Your whole street now argues about whose generator is louder. Month 2. Every wedding lasts three days. You have four this weekend. Month 6. The visa queue reaches the next city. They still say no. Year 1. We have food at home becomes the most said sentence on earth. Year 5. Every stadium on earth plays afro beats. Even at funerals. Year 10. You finally become a doctor. Your mom asks when you're getting married. What should happen next?"
+ "text": "What if everyone on Earth woke up 10% Nigerian? Day 1. An auntie you've never met calls to ask about your future. Day 3. Your mom now calls you this boy. In public. Week 1. The office party Jalof argument ends in HR. Week 3. Your whole street now argues about whose generator is louder. Month 2. Every wedding lasts three days. You have four this weekend. Month 6. The visa queue reaches the next city. They still say no. Year 1. We have food at home becomes the most said sentence on Earth. Year 5. Every stadium on Earth plays afro beats, even at funerals. Year 10. You finally become a doctor. Your mom asks when you're getting married. What should happen next?"
 }
