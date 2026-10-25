@@ -1,0 +1,57 @@
+{
+ "hero": "a tall, fit young Black man in his mid-20s with long black braids past his ears, slim face, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers",
+ "style": "Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+ "refs": [
+  "assets/photos/korede/refs/korede-cafe-smile.jpg",
+  "assets/photos/korede/refs/korede-terrace.jpg",
+  "assets/photos/korede/refs/white-jacket-lounge.jpg"
+ ],
+ "shots": [
+  {
+   "out": "bg/b00.png",
+   "prompt": "close shot of the hero at a corner shop counter holding up a single one-dollar coin, shopkeeper unimpressed, morning light. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero flips the coin and catches it, the shopkeeper raises an eyebrow, slight push in.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b01.png",
+   "prompt": "the hero at a busy restaurant table paying the bill for a big group of laughing friends, plates everywhere, medium shot. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The friends cheer and raise glasses, the hero taps his card on the reader with a smile, camera slowly pulls back.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b02.png",
+   "prompt": "the hero walking down a busy city street while his phone rings nonstop, people turning to look at him, wider street shot. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero walks forward looking at his ringing phone and declines the call, camera pulls back down the street.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b03.png",
+   "prompt": "the hero standing in front of a tall modern apartment building holding a giant key, wide shot showing the whole building. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero holds up the giant key and looks up at the building, camera cranes up the building.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b04.png",
+   "prompt": "a grand bank lobby high in a skyscraper where bankers in suits bow to the hero, floor-to-ceiling windows with the whole city skyline below. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The bankers bow as the hero walks through, camera pulls back to show the whole city through the windows.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b05.png",
+   "prompt": "aerial view of an entire country at golden hour, cities glowing, with the hero standing tiny on a mountaintop overlooking it. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Slow drone pull-back from the hero on the mountaintop to reveal the whole country below.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b06.png",
+   "prompt": "the hero standing on the curve of the Earth seen from space, sunlight on the planet, stars behind, calm. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Slow pull-back into space from the hero standing on the Earth, the planet slowly rotating."
+  },
+  {
+   "out": "bg/b07.png",
+   "prompt": "the hero at a small café table with a friend who slides the bill across to him, the hero stares at the camera deadpan. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The friend slides the bill across the table, the hero looks down at it, then deadpan at the camera."
+  }
+ ]
+}

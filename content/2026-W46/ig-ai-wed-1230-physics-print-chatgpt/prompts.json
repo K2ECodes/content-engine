@@ -1,0 +1,52 @@
+{
+ "hero": "a tall, fit young Black man in his mid-20s with long black braids past his ears, slim face, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers",
+ "style": "Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+ "refs": [
+  "assets/photos/korede/refs/korede-cafe-smile.jpg",
+  "assets/photos/korede/refs/korede-terrace.jpg",
+  "assets/photos/korede/refs/white-jacket-lounge.jpg"
+ ],
+ "shots": [
+  {
+   "out": "bg/b00.png",
+   "prompt": "the hero standing next to an office printer that is spitting out an endless river of white paper flooding the office floor, looking resigned. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Paper keeps pouring out of the printer onto the growing pile, the hero sighs and shakes his head.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b01.png",
+   "prompt": "a vast warehouse filled with towering stacks of printed paper reaching the ceiling, forklifts moving pallets of paper, the hero walking in the foreground looking up. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Forklifts drive between the paper stacks, the hero walks forward looking up, slow camera dolly."
+  },
+  {
+   "out": "bg/b02.png",
+   "prompt": "a colossal stack of white paper rising from a city center straight up into the sky like a skyscraper, clouds wrapping around it, aerial view. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "noref": true,
+   "motion": "Camera tilts up the enormous paper tower as it keeps growing taller into the clouds."
+  },
+  {
+   "out": "bg/b03.png",
+   "prompt": "a passenger airliner flying past the side of a gigantic white paper tower high above the clouds, sunny sky. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "noref": true,
+   "motion": "The airliner flies past the paper tower from right to left, clouds drifting, a few sheets flutter off."
+  },
+  {
+   "out": "bg/b04.png",
+   "prompt": "a gigantic stack of white paper piercing through the atmosphere into black space with the curved Earth below, sunlit. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "noref": true,
+   "motion": "Slow orbit around the paper tower piercing into space, the Earth below, sheets floating away."
+  },
+  {
+   "out": "bg/b05.png",
+   "prompt": "a huge forest clearing filled with thousands of fresh tree stumps stretching to the horizon, logging trucks loaded with logs, aerial view. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "noref": true,
+   "motion": "Aerial drone flies forward over the endless stumps, logging trucks driving away.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b06.png",
+   "prompt": "the hero holding up a single printed page and looking at the camera with a deadpan unimpressed face, an endless paper tower visible through the office window behind him. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero lowers the page slowly and gives a deadpan stare at the camera, tiny head shake."
+  }
+ ]
+}

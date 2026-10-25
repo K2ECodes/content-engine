@@ -1,0 +1,57 @@
+{
+ "hero": "a friendly courier in his 30s wearing a plain dark green polo shirt and dark green cap, khaki cargo pants, no logos",
+ "style": "Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+ "shots": [
+  {
+   "out": "bg/b00.png",
+   "prompt": "a courier on a busy New York City street with yellow cabs, winding up to throw a cardboard package like a baseball pitcher, skyscrapers behind, low angle. The main character: a friendly courier in his 30s wearing a plain dark green polo shirt and dark green cap, khaki cargo pants, no logos. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "motion": "The courier winds up and throws the package hard like a baseball pitcher, camera follows the throw."
+  },
+  {
+   "out": "bg/b01.png",
+   "prompt": "the cardboard package skidding to a stop on a New York sidewalk not far away, the courier small in the background with arms out, pedestrians staring. The main character: a friendly courier in his 30s wearing a plain dark green polo shirt and dark green cap, khaki cargo pants, no logos. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "motion": "The package bounces and skids to a stop on the sidewalk, the courier in the background throws his arms up, pedestrians turn their heads."
+  },
+  {
+   "out": "bg/b02.png",
+   "prompt": "a construction crew with yellow excavators and cranes building an enormous wooden and steel catapult half a mile long across an empty highway at the edge of New York, aerial view. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "Slow aerial drone push over the construction site, excavators and cranes moving, workers building the giant catapult."
+  },
+  {
+   "out": "bg/b03.png",
+   "prompt": "a cardboard package launching from a giant catapult into a blue sky with a bright motion trail and shockwave ring, the courier watching from below with hands on his cap. The main character: a friendly courier in his 30s wearing a plain dark green polo shirt and dark green cap, khaki cargo pants, no logos. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "motion": "The catapult arm swings and launches the package upward at huge speed with a shockwave ring, camera tilts up following it."
+  },
+  {
+   "out": "bg/b04.png",
+   "prompt": "a single cardboard package arcing high above the clouds with the curved blue Earth below and black space above, glowing slightly from speed. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "The package streaks across the frame high above the clouds, the Earth slowly rotating below, slight camera follow."
+  },
+  {
+   "out": "bg/b05.png",
+   "prompt": "aerial view of endless flat Kansas farmland fields in a patchwork grid with a tiny cardboard package streaking across the sky above, bright daylight. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "Fast aerial fly-over across the farmland grid, the package streaking overhead from left to right."
+  },
+  {
+   "out": "bg/b06.png",
+   "prompt": "a cardboard package falling toward the Los Angeles skyline with palm trees and the hills in the background, motion streak, sunny. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "The package falls fast toward the city, camera tracks it down past the palm trees."
+  },
+  {
+   "out": "bg/b07.png",
+   "prompt": "a slightly dented, smoking cardboard package sitting perfectly on a sunny Los Angeles front porch, a surprised homeowner opening the door, palm tree. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "The front door opens, the homeowner stares at the smoking package on the porch, smoke drifting."
+  },
+  {
+   "out": "bg/b08.png",
+   "prompt": "a calm office desk with a laptop showing a clean spreadsheet with green check marks next to every line, a coffee mug and a cardboard box, warm light, no readable text. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright sunny daylight, vivid saturated colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+   "noref": true,
+   "motion": "Slow push-in toward the laptop screen with the green check marks, steam rising from the coffee mug."
+  }
+ ]
+}

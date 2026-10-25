@@ -1,0 +1,136 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "script": "What would happen if you printed every ChatGPT answer from one single day? That's about 2.5 billion pages. One office printer would need 119 years, and it would jam on day 2. So you rent a warehouse. The paper weighs about 12,500 tonnes. That's roughly 1,000 school buses. Stack it up, and the pile is 250 kilometers tall. That's 28 Mount Everests. At 10 kilometers, it passes the planes. A pilot radios in and asks who approved this. At 100 kilometers, it leaves the atmosphere. Technically, your printouts are now astronauts. To make all that paper, you'd cut down about 300,000 trees. A whole forest, gone, for one day of questions. And half the pages start with: great question.",
+  "stop": false,
+  "capStyle": "phys",
+  "tail": 1.2,
+  "introSfx": false,
+  "sfxGain": 1.2,
+  "keys": [
+   "2.5",
+   "119",
+   "12,500",
+   "250",
+   "10",
+   "100",
+   "300,000",
+   "great",
+   "question."
+  ],
+  "tr": "cut",
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c00.mp4",
+    "look": "cinema",
+    "callouts": [
+     {
+      "text": "2.5B pages",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 5.43
+     },
+     {
+      "text": "119 yrs",
+      "x": 110,
+      "y": 860,
+      "h": 150,
+      "at": 7.79
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c01.mp4",
+    "look": "cinema",
+    "at": 10.82,
+    "callouts": [
+     {
+      "text": "12,500 t",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 12.83
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c02.mp4",
+    "look": "cinema",
+    "at": 16.78,
+    "callouts": [
+     {
+      "text": "250 km",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 18.49
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c03.mp4",
+    "look": "cinema",
+    "at": 21.92,
+    "callouts": [
+     {
+      "text": "10 km",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 22.27
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c04.mp4",
+    "look": "cinema",
+    "at": 26.96,
+    "callouts": [
+     {
+      "text": "100 km",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 27.21
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c05.mp4",
+    "look": "cinema",
+    "at": 32.4,
+    "callouts": [
+     {
+      "text": "300,000 trees",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 34.41
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c06.mp4",
+    "look": "cinema",
+    "at": 39.06
+   }
+  ]
+ }
+}

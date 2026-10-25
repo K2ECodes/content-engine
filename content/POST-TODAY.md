@@ -276,6 +276,9 @@ Follow for part 2.
 - Deadpan what-if: "What if you got $1 every time someone said 'AI'?" (bank freezes your account, tax office team, ends "You still can't explain what AI is"). Folder `content/2026-W46/ig-personal-sat-2030-what-if-dollar-every-ai`.
 Status: tmp/wif-deadpan-status.txt (stills, render, contact-sheet.png in each folder).
 
+## Ready to post: @contentsystems.ai (absurd-physics what-if, Korede's voice, real video shots)
+- `content/2026-W46/ig-company-mon-1900-physics-throw-package/video.mp4` (54 s, caption in copy.md, keyword SYSTEMS). Hook: "What would happen if a package could get from New York to LA in 15 minutes?" 5 trial variants scheduled Nov 10 to 14, 12:00 ET.
+
 ## Ready to post: @koredekola (new, realistic deadpan what-ifs, your voice)
 - `content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan/video.mp4` (caption in copy.md)
 - `content/2026-W46/ig-personal-sat-2030-what-if-dollar-every-ai/video.mp4` (caption in copy.md)

@@ -85,3 +85,9 @@ Don't just say "Day 2" + one line. Each beat gets 2 to 3 short sentences: what h
 
 ## Hook test (Korede, 2026-10-25)
 The premise must be something people genuinely wonder about, phrased "What would happen if...". Bad: "How far could you throw a package from New York to LA?" (nobody asks that). Good: "What would happen if Black Friday lasted a whole year?", "What would happen if every warehouse worker quit tomorrow?"
+
+## Real-video build (physics / doubling reels, 2026-10-25)
+- Every shot is real motion: keyframes with `scripts/what-if-stills.mjs` (nano-banana-2; `refs` in prompts.json for Korede's likeness from assets/photos/korede/refs, `noref` for shots without him), then `node --env-file=.env scripts/what-if-clips.mjs <post>` (Kling V3 Turbo i2v, 720p, audio stripped, 1080x1920 30 fps into clips/cNN.mp4; $0.45 per 5 s, a shot's `"dur": "10"` doubles it). Check every clip for face/hand/physics glitches; redo with `--only N --force`.
+- Edit in templates/story: `"capStyle": "phys"`, scenes `"type": "phys"` with `"bg": "clips/cNN.mp4"` (an .mp4 bg plays in sync instead of a push-in), gold bracket `callouts: [{ text, x, y, h, at }]` (at = word or seconds).
+- Voice: Korede's (HeyGen `freeSpeech`, HEYGEN_INSTANT_VOICE_ID, expressiveness 1.0 tested livelier than 0.6) or the company voices per CLAUDE.md, never the ttsCreator narrator. Storyteller energy, a beat before the twist. Then tighten.mjs + transcribe.py, fix words.json.
+- Script lines run longer than clips once beats are detailed: give long beats a 10 s clip, or stretch a 5 s clip up to ~1.5x with `setpts` + `minterpolate` (mci) to fit the scene.

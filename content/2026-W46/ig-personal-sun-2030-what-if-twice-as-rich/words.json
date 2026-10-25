@@ -1,0 +1,765 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0,
+   "end": 0.4
+  },
+  {
+   "w": "would",
+   "start": 0.4,
+   "end": 0.52
+  },
+  {
+   "w": "happen",
+   "start": 0.52,
+   "end": 0.76
+  },
+  {
+   "w": "if",
+   "start": 0.76,
+   "end": 0.88
+  },
+  {
+   "w": "you",
+   "start": 0.88,
+   "end": 0.96
+  },
+  {
+   "w": "got",
+   "start": 0.96,
+   "end": 1.12
+  },
+  {
+   "w": "twice",
+   "start": 1.12,
+   "end": 1.44
+  },
+  {
+   "w": "as",
+   "start": 1.44,
+   "end": 1.66
+  },
+  {
+   "w": "rich",
+   "start": 1.66,
+   "end": 1.86
+  },
+  {
+   "w": "every",
+   "start": 1.86,
+   "end": 2.28
+  },
+  {
+   "w": "single",
+   "start": 2.28,
+   "end": 2.52
+  },
+  {
+   "w": "day?",
+   "start": 2.52,
+   "end": 2.78
+  },
+  {
+   "w": "Day",
+   "start": 3.14,
+   "end": 3.24
+  },
+  {
+   "w": "1.",
+   "start": 3.24,
+   "end": 3.5
+  },
+  {
+   "w": "You",
+   "start": 3.88,
+   "end": 4
+  },
+  {
+   "w": "have",
+   "start": 4,
+   "end": 4.14
+  },
+  {
+   "w": "$1,",
+   "start": 4.14,
+   "end": 4.44
+  },
+  {
+   "w": "you",
+   "start": 5.06,
+   "end": 5.24
+  },
+  {
+   "w": "buy",
+   "start": 5.24,
+   "end": 5.38
+  },
+  {
+   "w": "a",
+   "start": 5.38,
+   "end": 5.52
+  },
+  {
+   "w": "pack",
+   "start": 5.52,
+   "end": 5.64
+  },
+  {
+   "w": "of",
+   "start": 5.64,
+   "end": 5.78
+  },
+  {
+   "w": "gum,",
+   "start": 5.78,
+   "end": 5.98
+  },
+  {
+   "w": "and",
+   "start": 6.32,
+   "end": 6.44
+  },
+  {
+   "w": "the",
+   "start": 6.44,
+   "end": 6.52
+  },
+  {
+   "w": "guy",
+   "start": 6.52,
+   "end": 6.68
+  },
+  {
+   "w": "at",
+   "start": 6.68,
+   "end": 6.78
+  },
+  {
+   "w": "the",
+   "start": 6.78,
+   "end": 6.86
+  },
+  {
+   "w": "corner",
+   "start": 6.86,
+   "end": 7.02
+  },
+  {
+   "w": "shop",
+   "start": 7.02,
+   "end": 7.3
+  },
+  {
+   "w": "doesn't",
+   "start": 7.3,
+   "end": 7.5
+  },
+  {
+   "w": "even",
+   "start": 7.5,
+   "end": 7.64
+  },
+  {
+   "w": "look",
+   "start": 7.64,
+   "end": 7.8
+  },
+  {
+   "w": "up.",
+   "start": 7.8,
+   "end": 8
+  },
+  {
+   "w": "Day",
+   "start": 8.46,
+   "end": 8.58
+  },
+  {
+   "w": "10.",
+   "start": 8.58,
+   "end": 8.9
+  },
+  {
+   "w": "$512.",
+   "start": 9.86,
+   "end": 10.3
+  },
+  {
+   "w": "You",
+   "start": 10.96,
+   "end": 11.1
+  },
+  {
+   "w": "take",
+   "start": 11.1,
+   "end": 11.26
+  },
+  {
+   "w": "8",
+   "start": 11.26,
+   "end": 11.52
+  },
+  {
+   "w": "friends",
+   "start": 11.52,
+   "end": 11.74
+  },
+  {
+   "w": "to",
+   "start": 11.74,
+   "end": 11.92
+  },
+  {
+   "w": "dinner",
+   "start": 11.92,
+   "end": 12.12
+  },
+  {
+   "w": "and",
+   "start": 12.12,
+   "end": 12.36
+  },
+  {
+   "w": "pay",
+   "start": 12.36,
+   "end": 12.54
+  },
+  {
+   "w": "for",
+   "start": 12.54,
+   "end": 12.7
+  },
+  {
+   "w": "everyone.",
+   "start": 12.7,
+   "end": 13
+  },
+  {
+   "w": "You've",
+   "start": 13.44,
+   "end": 13.58
+  },
+  {
+   "w": "never",
+   "start": 13.58,
+   "end": 13.74
+  },
+  {
+   "w": "been",
+   "start": 13.74,
+   "end": 13.9
+  },
+  {
+   "w": "this",
+   "start": 13.9,
+   "end": 14.02
+  },
+  {
+   "w": "popular.",
+   "start": 14.02,
+   "end": 14.3
+  },
+  {
+   "w": "Day",
+   "start": 14.9,
+   "end": 15.08
+  },
+  {
+   "w": "20.",
+   "start": 15.08,
+   "end": 15.34
+  },
+  {
+   "w": "$524,000.",
+   "start": 16.38,
+   "end": 17.26
+  },
+  {
+   "w": "Your",
+   "start": 17.56,
+   "end": 17.68
+  },
+  {
+   "w": "phone",
+   "start": 17.68,
+   "end": 17.94
+  },
+  {
+   "w": "won't",
+   "start": 17.94,
+   "end": 18.14
+  },
+  {
+   "w": "stop",
+   "start": 18.14,
+   "end": 18.34
+  },
+  {
+   "w": "ringing,",
+   "start": 18.34,
+   "end": 18.64
+  },
+  {
+   "w": "cousins",
+   "start": 19.04,
+   "end": 19.28
+  },
+  {
+   "w": "you've",
+   "start": 19.28,
+   "end": 19.54
+  },
+  {
+   "w": "never",
+   "start": 19.54,
+   "end": 19.7
+  },
+  {
+   "w": "met",
+   "start": 19.7,
+   "end": 19.94
+  },
+  {
+   "w": "want",
+   "start": 19.94,
+   "end": 20.1
+  },
+  {
+   "w": "to",
+   "start": 20.1,
+   "end": 20.2
+  },
+  {
+   "w": "catch",
+   "start": 20.2,
+   "end": 20.42
+  },
+  {
+   "w": "up.",
+   "start": 20.42,
+   "end": 20.6
+  },
+  {
+   "w": "Day",
+   "start": 21.08,
+   "end": 21.2
+  },
+  {
+   "w": "30.",
+   "start": 21.2,
+   "end": 21.48
+  },
+  {
+   "w": "$537 million.",
+   "start": 22.62,
+   "end": 23.42
+  },
+  {
+   "w": "You",
+   "start": 23.8,
+   "end": 24.08
+  },
+  {
+   "w": "buy",
+   "start": 24.08,
+   "end": 24.22
+  },
+  {
+   "w": "the",
+   "start": 24.22,
+   "end": 24.34
+  },
+  {
+   "w": "building",
+   "start": 24.34,
+   "end": 24.54
+  },
+  {
+   "w": "you've",
+   "start": 24.54,
+   "end": 24.78
+  },
+  {
+   "w": "been",
+   "start": 24.78,
+   "end": 24.84
+  },
+  {
+   "w": "renting",
+   "start": 24.84,
+   "end": 25.08
+  },
+  {
+   "w": "in,",
+   "start": 25.08,
+   "end": 25.32
+  },
+  {
+   "w": "your",
+   "start": 25.62,
+   "end": 25.74
+  },
+  {
+   "w": "old",
+   "start": 25.74,
+   "end": 25.94
+  },
+  {
+   "w": "landlord",
+   "start": 25.94,
+   "end": 26.24
+  },
+  {
+   "w": "asks",
+   "start": 26.24,
+   "end": 26.64
+  },
+  {
+   "w": "if",
+   "start": 26.64,
+   "end": 26.82
+  },
+  {
+   "w": "you're",
+   "start": 26.82,
+   "end": 26.94
+  },
+  {
+   "w": "hiring.",
+   "start": 26.94,
+   "end": 27.18
+  },
+  {
+   "w": "Day",
+   "start": 27.72,
+   "end": 27.96
+  },
+  {
+   "w": "41.",
+   "start": 27.96,
+   "end": 28.38
+  },
+  {
+   "w": "$1.1",
+   "start": 28.74,
+   "end": 29.76
+  },
+  {
+   "w": "trillion.",
+   "start": 29.76,
+   "end": 30.1
+  },
+  {
+   "w": "You're",
+   "start": 30.52,
+   "end": 30.68
+  },
+  {
+   "w": "richer",
+   "start": 30.68,
+   "end": 30.86
+  },
+  {
+   "w": "than",
+   "start": 30.86,
+   "end": 31.08
+  },
+  {
+   "w": "anyone",
+   "start": 31.08,
+   "end": 31.44
+  },
+  {
+   "w": "alive.",
+   "start": 31.44,
+   "end": 31.76
+  },
+  {
+   "w": "The",
+   "start": 32.26,
+   "end": 32.3
+  },
+  {
+   "w": "bank",
+   "start": 32.3,
+   "end": 32.48
+  },
+  {
+   "w": "manager",
+   "start": 32.48,
+   "end": 32.82
+  },
+  {
+   "w": "walks",
+   "start": 32.82,
+   "end": 33.08
+  },
+  {
+   "w": "you",
+   "start": 33.08,
+   "end": 33.24
+  },
+  {
+   "w": "to",
+   "start": 33.24,
+   "end": 33.34
+  },
+  {
+   "w": "the",
+   "start": 33.34,
+   "end": 33.44
+  },
+  {
+   "w": "lift",
+   "start": 33.44,
+   "end": 33.6
+  },
+  {
+   "w": "personally.",
+   "start": 33.6,
+   "end": 34.04
+  },
+  {
+   "w": "Day",
+   "start": 34.5,
+   "end": 34.58
+  },
+  {
+   "w": "48.",
+   "start": 34.58,
+   "end": 35
+  },
+  {
+   "w": "$140",
+   "start": 35.84,
+   "end": 36.32
+  },
+  {
+   "w": "trillion.",
+   "start": 36.32,
+   "end": 36.76
+  },
+  {
+   "w": "That's",
+   "start": 37.22,
+   "end": 37.36
+  },
+  {
+   "w": "more",
+   "start": 37.36,
+   "end": 37.5
+  },
+  {
+   "w": "than",
+   "start": 37.5,
+   "end": 37.62
+  },
+  {
+   "w": "the",
+   "start": 37.62,
+   "end": 37.72
+  },
+  {
+   "w": "whole",
+   "start": 37.72,
+   "end": 37.98
+  },
+  {
+   "w": "world",
+   "start": 37.98,
+   "end": 38.26
+  },
+  {
+   "w": "earns",
+   "start": 38.26,
+   "end": 38.56
+  },
+  {
+   "w": "in",
+   "start": 38.56,
+   "end": 38.7
+  },
+  {
+   "w": "a",
+   "start": 38.7,
+   "end": 38.78
+  },
+  {
+   "w": "year.",
+   "start": 38.78,
+   "end": 38.98
+  },
+  {
+   "w": "Countries",
+   "start": 39.3,
+   "end": 39.58
+  },
+  {
+   "w": "start",
+   "start": 39.58,
+   "end": 39.74
+  },
+  {
+   "w": "calling",
+   "start": 39.74,
+   "end": 40
+  },
+  {
+   "w": "you",
+   "start": 40,
+   "end": 40.14
+  },
+  {
+   "w": "for",
+   "start": 40.14,
+   "end": 40.28
+  },
+  {
+   "w": "a",
+   "start": 40.28,
+   "end": 40.38
+  },
+  {
+   "w": "loan.",
+   "start": 40.38,
+   "end": 40.58
+  },
+  {
+   "w": "Day",
+   "start": 40.94,
+   "end": 41.06
+  },
+  {
+   "w": "50.",
+   "start": 41.06,
+   "end": 41.34
+  },
+  {
+   "w": "$563",
+   "start": 42.24,
+   "end": 42.72
+  },
+  {
+   "w": "trillion.",
+   "start": 42.72,
+   "end": 43.04
+  },
+  {
+   "w": "You",
+   "start": 43.4,
+   "end": 43.52
+  },
+  {
+   "w": "own",
+   "start": 43.52,
+   "end": 43.7
+  },
+  {
+   "w": "more",
+   "start": 43.7,
+   "end": 43.92
+  },
+  {
+   "w": "than",
+   "start": 43.92,
+   "end": 44.06
+  },
+  {
+   "w": "all",
+   "start": 44.06,
+   "end": 44.3
+  },
+  {
+   "w": "the",
+   "start": 44.3,
+   "end": 44.42
+  },
+  {
+   "w": "wealth",
+   "start": 44.42,
+   "end": 44.6
+  },
+  {
+   "w": "on",
+   "start": 44.6,
+   "end": 44.78
+  },
+  {
+   "w": "earth.",
+   "start": 44.78,
+   "end": 45.02
+  },
+  {
+   "w": "There's",
+   "start": 45.46,
+   "end": 45.64
+  },
+  {
+   "w": "nothing",
+   "start": 45.64,
+   "end": 45.8
+  },
+  {
+   "w": "left",
+   "start": 45.8,
+   "end": 46.02
+  },
+  {
+   "w": "to",
+   "start": 46.02,
+   "end": 46.18
+  },
+  {
+   "w": "buy.",
+   "start": 46.18,
+   "end": 46.36
+  },
+  {
+   "w": "Day",
+   "start": 46.72,
+   "end": 46.82
+  },
+  {
+   "w": "51.",
+   "start": 46.82,
+   "end": 47.24
+  },
+  {
+   "w": "Your",
+   "start": 47.72,
+   "end": 47.86
+  },
+  {
+   "w": "friend",
+   "start": 47.86,
+   "end": 48.12
+  },
+  {
+   "w": "still",
+   "start": 48.12,
+   "end": 48.38
+  },
+  {
+   "w": "slides",
+   "start": 48.38,
+   "end": 48.66
+  },
+  {
+   "w": "you",
+   "start": 48.66,
+   "end": 48.82
+  },
+  {
+   "w": "the",
+   "start": 48.82,
+   "end": 48.9
+  },
+  {
+   "w": "bill.",
+   "start": 48.9,
+   "end": 49.08
+  }
+ ],
+ "text": "What would happen if you got twice as rich every single day? Day 1. You have $1, you buy a pack of gum, and the guy at the corner shop doesn't even look up. Day 10. $512. You take 8 friends to dinner and pay for everyone. You've never been this popular. Day 20. $524,000. Your phone won't stop ringing, cousins you've never met want to catch up. Day 30. $537,000. You buy the building you've been renting in, your old landlord asks if you're hiring. Day 41. $1.1 trillion. You're richer than anyone alive. The bank manager walks you to the lift personally. Day 48. $140 trillion. That's more than the whole world earns in a year. Countries start calling you for a loan. Day 50. $563 trillion. You own more than all the wealth on earth. There's nothing left to buy. Day 51. Your friend still slides you the bill."
+}

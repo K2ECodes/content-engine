@@ -1,0 +1,17 @@
+{
+  "channel": "ig-ai",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "entertainment",
+  "execution": "story",
+  "topic": "physics-print-chatgpt",
+  "lead": false,
+  "cta_type": "comment-keyword",
+  "slot": "2026-11-11T12:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

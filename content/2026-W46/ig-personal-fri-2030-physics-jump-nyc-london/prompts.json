@@ -1,0 +1,53 @@
+{
+ "hero": "a tall, fit young Black man in his mid-20s with long black braids past his ears, slim face, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers",
+ "style": "Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no UI, no watermark.",
+ "refs": [
+  "assets/photos/korede/refs/korede-cafe-smile.jpg",
+  "assets/photos/korede/refs/korede-terrace.jpg",
+  "assets/photos/korede/refs/white-jacket-lounge.jpg"
+ ],
+ "shots": [
+  {
+   "out": "bg/b00.png",
+   "prompt": "the hero crouched at a long-jump take-off line painted across a Times Square street in New York, yellow cabs and billboards around, low angle. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero sprints off the line and leaps forward, cabs moving around him, camera tracking.",
+   "dur": "10"
+  },
+  {
+   "out": "bg/b01.png",
+   "prompt": "the hero landing in a small sand pit just a few meters away in the middle of Times Square, tourists staring and filming with phones, yellow cabs. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero lands in the sand pit and looks around awkwardly, tourists film him, cabs drive past."
+  },
+  {
+   "out": "bg/b02.png",
+   "prompt": "the Empire State Building with a gigantic ski-jump ramp built off its top pointing east toward the ocean, aerial view of Manhattan, sunny. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Aerial drone circles the Empire State Building toward the giant ramp on top, Manhattan traffic moving below.",
+   "noref": true
+  },
+  {
+   "out": "bg/b03.png",
+   "prompt": "the hero blasting off the end of a giant ramp on top of the Empire State Building at enormous speed with a bright speed trail and shockwave. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero blasts off the ramp upward at enormous speed with a speed trail, camera whips up after him."
+  },
+  {
+   "out": "bg/b04.png",
+   "prompt": "the hero flying high above the Atlantic Ocean with arms out like superman, deep blue water and clouds below. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero glides fast over the ocean, clouds rushing past, camera flying alongside him."
+  },
+  {
+   "out": "bg/b05.png",
+   "prompt": "the hero flying low past a huge white cruise ship on the ocean, waving at passengers on deck who wave back. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero flies past the cruise ship waving, passengers wave back, camera follows."
+  },
+  {
+   "out": "bg/b06.png",
+   "prompt": "the hero descending over London with the Thames, Big Ben and Tower Bridge below, grey overcast sky. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "The hero descends toward London, camera follows him down past Big Ben."
+  },
+  {
+   "out": "bg/b07.png",
+   "prompt": "the hero landing on a London street in pouring rain, red double-decker bus passing, he looks up at the rain with a deadpan face. The main character: a tall, fit young Black man in his mid-20s with long black braids past his ears, slim narrow face with high cheekbones, slender athletic build, thin goatee, small diamond stud earrings, wearing a cream-white zip jacket over a black tee, dark trousers and white sneakers. Realistic modern video game 3D render, Unreal Engine 5 / GTA style, bright natural light, vivid colors, crisp detail, cinematic wide-angle camera, 9:16 vertical, no text, no letters, no logos, no brand names on any product or sign, no UI, no watermark.",
+   "motion": "Rain pours down, the hero lands, wipes rain off his face and looks up deadpan, a red bus drives past."
+  }
+ ]
+}

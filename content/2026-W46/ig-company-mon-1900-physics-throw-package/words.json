@@ -1,0 +1,850 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0,
+   "end": 0.42
+  },
+  {
+   "w": "would",
+   "start": 0.42,
+   "end": 0.52
+  },
+  {
+   "w": "happen",
+   "start": 0.52,
+   "end": 0.76
+  },
+  {
+   "w": "if",
+   "start": 0.76,
+   "end": 0.88
+  },
+  {
+   "w": "a",
+   "start": 0.88,
+   "end": 0.98
+  },
+  {
+   "w": "package",
+   "start": 0.98,
+   "end": 1.22
+  },
+  {
+   "w": "could",
+   "start": 1.22,
+   "end": 1.44
+  },
+  {
+   "w": "get",
+   "start": 1.44,
+   "end": 1.58
+  },
+  {
+   "w": "from",
+   "start": 1.58,
+   "end": 1.76
+  },
+  {
+   "w": "New",
+   "start": 1.76,
+   "end": 1.94
+  },
+  {
+   "w": "York",
+   "start": 1.94,
+   "end": 2.16
+  },
+  {
+   "w": "to",
+   "start": 2.16,
+   "end": 2.34
+  },
+  {
+   "w": "LA",
+   "start": 2.34,
+   "end": 2.64
+  },
+  {
+   "w": "in",
+   "start": 2.64,
+   "end": 2.8
+  },
+  {
+   "w": "15",
+   "start": 2.8,
+   "end": 3.14
+  },
+  {
+   "w": "minutes?",
+   "start": 3.14,
+   "end": 3.48
+  },
+  {
+   "w": "Right",
+   "start": 4,
+   "end": 4.14
+  },
+  {
+   "w": "now,",
+   "start": 4.14,
+   "end": 4.38
+  },
+  {
+   "w": "ground",
+   "start": 4.66,
+   "end": 4.96
+  },
+  {
+   "w": "shipping",
+   "start": 4.96,
+   "end": 5.2
+  },
+  {
+   "w": "takes",
+   "start": 5.2,
+   "end": 5.48
+  },
+  {
+   "w": "about",
+   "start": 5.48,
+   "end": 5.68
+  },
+  {
+   "w": "5",
+   "start": 5.68,
+   "end": 6
+  },
+  {
+   "w": "days.",
+   "start": 6,
+   "end": 6.26
+  },
+  {
+   "w": "Even",
+   "start": 6.68,
+   "end": 6.88
+  },
+  {
+   "w": "a",
+   "start": 6.88,
+   "end": 7.04
+  },
+  {
+   "w": "plane",
+   "start": 7.04,
+   "end": 7.26
+  },
+  {
+   "w": "needs",
+   "start": 7.26,
+   "end": 7.56
+  },
+  {
+   "w": "6",
+   "start": 7.56,
+   "end": 7.84
+  },
+  {
+   "w": "hours.",
+   "start": 7.84,
+   "end": 8.18
+  },
+  {
+   "w": "So",
+   "start": 8.62,
+   "end": 8.74
+  },
+  {
+   "w": "trucks",
+   "start": 8.74,
+   "end": 8.98
+  },
+  {
+   "w": "are",
+   "start": 8.98,
+   "end": 9.18
+  },
+  {
+   "w": "out,",
+   "start": 9.18,
+   "end": 9.36
+  },
+  {
+   "w": "throwing",
+   "start": 9.68,
+   "end": 9.96
+  },
+  {
+   "w": "it",
+   "start": 9.96,
+   "end": 10.12
+  },
+  {
+   "w": "is",
+   "start": 10.12,
+   "end": 10.24
+  },
+  {
+   "w": "out",
+   "start": 10.24,
+   "end": 10.4
+  },
+  {
+   "w": "too.",
+   "start": 10.4,
+   "end": 10.62
+  },
+  {
+   "w": "The",
+   "start": 10.94,
+   "end": 11.04
+  },
+  {
+   "w": "longest",
+   "start": 11.04,
+   "end": 11.32
+  },
+  {
+   "w": "throw",
+   "start": 11.32,
+   "end": 11.58
+  },
+  {
+   "w": "on",
+   "start": 11.58,
+   "end": 11.7
+  },
+  {
+   "w": "record",
+   "start": 11.7,
+   "end": 11.96
+  },
+  {
+   "w": "is",
+   "start": 11.96,
+   "end": 12.16
+  },
+  {
+   "w": "about",
+   "start": 12.16,
+   "end": 12.36
+  },
+  {
+   "w": "445",
+   "start": 12.36,
+   "end": 13.18
+  },
+  {
+   "w": "feet,",
+   "start": 13.18,
+   "end": 13.64
+  },
+  {
+   "w": "and",
+   "start": 13.98,
+   "end": 14.14
+  },
+  {
+   "w": "a",
+   "start": 14.14,
+   "end": 14.22
+  },
+  {
+   "w": "box",
+   "start": 14.22,
+   "end": 14.44
+  },
+  {
+   "w": "is",
+   "start": 14.44,
+   "end": 14.6
+  },
+  {
+   "w": "worse.",
+   "start": 14.6,
+   "end": 14.82
+  },
+  {
+   "w": "So",
+   "start": 15.26,
+   "end": 15.5
+  },
+  {
+   "w": "you",
+   "start": 15.5,
+   "end": 15.88
+  },
+  {
+   "w": "build",
+   "start": 15.88,
+   "end": 16.04
+  },
+  {
+   "w": "a",
+   "start": 16.04,
+   "end": 16.16
+  },
+  {
+   "w": "catapult,",
+   "start": 16.16,
+   "end": 16.52
+  },
+  {
+   "w": "half",
+   "start": 16.9,
+   "end": 17.14
+  },
+  {
+   "w": "a",
+   "start": 17.14,
+   "end": 17.26
+  },
+  {
+   "w": "mile",
+   "start": 17.26,
+   "end": 17.44
+  },
+  {
+   "w": "long.",
+   "start": 17.44,
+   "end": 17.72
+  },
+  {
+   "w": "The",
+   "start": 18.14,
+   "end": 18.24
+  },
+  {
+   "w": "box",
+   "start": 18.24,
+   "end": 18.44
+  },
+  {
+   "w": "pulls",
+   "start": 18.44,
+   "end": 18.68
+  },
+  {
+   "w": "about",
+   "start": 18.68,
+   "end": 18.88
+  },
+  {
+   "w": "2,400",
+   "start": 18.88,
+   "end": 19.62
+  },
+  {
+   "w": "G's",
+   "start": 19.62,
+   "end": 20
+  },
+  {
+   "w": "on",
+   "start": 20,
+   "end": 20.08
+  },
+  {
+   "w": "the",
+   "start": 20.08,
+   "end": 20.16
+  },
+  {
+   "w": "way",
+   "start": 20.16,
+   "end": 20.32
+  },
+  {
+   "w": "out.",
+   "start": 20.32,
+   "end": 20.5
+  },
+  {
+   "w": "It",
+   "start": 20.74,
+   "end": 20.84
+  },
+  {
+   "w": "leaves",
+   "start": 20.84,
+   "end": 21.1
+  },
+  {
+   "w": "at",
+   "start": 21.1,
+   "end": 21.26
+  },
+  {
+   "w": "14,000",
+   "start": 21.26,
+   "end": 22.32
+  },
+  {
+   "w": "miles",
+   "start": 22.32,
+   "end": 22.54
+  },
+  {
+   "w": "an",
+   "start": 22.54,
+   "end": 22.76
+  },
+  {
+   "w": "hour.",
+   "start": 22.76,
+   "end": 22.98
+  },
+  {
+   "w": "That's",
+   "start": 23.3,
+   "end": 23.52
+  },
+  {
+   "w": "18",
+   "start": 23.52,
+   "end": 23.86
+  },
+  {
+   "w": "times",
+   "start": 23.86,
+   "end": 24.28
+  },
+  {
+   "w": "the",
+   "start": 24.28,
+   "end": 24.46
+  },
+  {
+   "w": "speed",
+   "start": 24.46,
+   "end": 24.6
+  },
+  {
+   "w": "of",
+   "start": 24.6,
+   "end": 24.74
+  },
+  {
+   "w": "sound.",
+   "start": 24.74,
+   "end": 25
+  },
+  {
+   "w": "The",
+   "start": 25.46,
+   "end": 25.62
+  },
+  {
+   "w": "bubble",
+   "start": 25.62,
+   "end": 25.8
+  },
+  {
+   "w": "wrap",
+   "start": 25.8,
+   "end": 26.06
+  },
+  {
+   "w": "does",
+   "start": 26.06,
+   "end": 26.22
+  },
+  {
+   "w": "not",
+   "start": 26.22,
+   "end": 26.38
+  },
+  {
+   "w": "make",
+   "start": 26.38,
+   "end": 26.6
+  },
+  {
+   "w": "it.",
+   "start": 26.6,
+   "end": 26.76
+  },
+  {
+   "w": "It",
+   "start": 26.76,
+   "end": 27.06
+  },
+  {
+   "w": "clears",
+   "start": 27.06,
+   "end": 27.3
+  },
+  {
+   "w": "the",
+   "start": 27.3,
+   "end": 27.48
+  },
+  {
+   "w": "atmosphere",
+   "start": 27.48,
+   "end": 27.88
+  },
+  {
+   "w": "and",
+   "start": 27.88,
+   "end": 28.16
+  },
+  {
+   "w": "peaks",
+   "start": 28.16,
+   "end": 28.44
+  },
+  {
+   "w": "around",
+   "start": 28.44,
+   "end": 28.72
+  },
+  {
+   "w": "600",
+   "start": 28.72,
+   "end": 29.14
+  },
+  {
+   "w": "miles",
+   "start": 29.14,
+   "end": 29.42
+  },
+  {
+   "w": "up,",
+   "start": 29.42,
+   "end": 29.76
+  },
+  {
+   "w": "higher",
+   "start": 29.94,
+   "end": 30.38
+  },
+  {
+   "w": "than",
+   "start": 30.38,
+   "end": 30.58
+  },
+  {
+   "w": "the",
+   "start": 30.58,
+   "end": 30.7
+  },
+  {
+   "w": "space",
+   "start": 30.7,
+   "end": 30.88
+  },
+  {
+   "w": "station.",
+   "start": 30.88,
+   "end": 31.24
+  },
+  {
+   "w": "Tracking",
+   "start": 31.8,
+   "end": 32.12
+  },
+  {
+   "w": "says,",
+   "start": 32.12,
+   "end": 32.48
+  },
+  {
+   "w": "in",
+   "start": 32.88,
+   "end": 33.02
+  },
+  {
+   "w": "transit.",
+   "start": 33.02,
+   "end": 33.34
+  },
+  {
+   "w": "Halfway",
+   "start": 33.9,
+   "end": 34.2
+  },
+  {
+   "w": "there,",
+   "start": 34.2,
+   "end": 34.48
+  },
+  {
+   "w": "it",
+   "start": 34.8,
+   "end": 34.84
+  },
+  {
+   "w": "coasts",
+   "start": 34.84,
+   "end": 35.2
+  },
+  {
+   "w": "over",
+   "start": 35.2,
+   "end": 35.34
+  },
+  {
+   "w": "Kansas.",
+   "start": 35.34,
+   "end": 35.66
+  },
+  {
+   "w": "A",
+   "start": 36.26,
+   "end": 36.36
+  },
+  {
+   "w": "farmer",
+   "start": 36.36,
+   "end": 36.58
+  },
+  {
+   "w": "looks",
+   "start": 36.58,
+   "end": 36.78
+  },
+  {
+   "w": "up",
+   "start": 36.78,
+   "end": 37.08
+  },
+  {
+   "w": "and",
+   "start": 37.08,
+   "end": 37.4
+  },
+  {
+   "w": "decides",
+   "start": 37.4,
+   "end": 37.68
+  },
+  {
+   "w": "not",
+   "start": 37.68,
+   "end": 37.92
+  },
+  {
+   "w": "to",
+   "start": 37.92,
+   "end": 38.08
+  },
+  {
+   "w": "tell",
+   "start": 38.08,
+   "end": 38.22
+  },
+  {
+   "w": "anyone.",
+   "start": 38.22,
+   "end": 38.42
+  },
+  {
+   "w": "It",
+   "start": 38.8,
+   "end": 38.88
+  },
+  {
+   "w": "comes",
+   "start": 38.88,
+   "end": 39.04
+  },
+  {
+   "w": "down",
+   "start": 39.04,
+   "end": 39.24
+  },
+  {
+   "w": "in",
+   "start": 39.24,
+   "end": 39.38
+  },
+  {
+   "w": "Los",
+   "start": 39.38,
+   "end": 39.5
+  },
+  {
+   "w": "Angeles,",
+   "start": 39.5,
+   "end": 39.92
+  },
+  {
+   "w": "15",
+   "start": 40.26,
+   "end": 40.54
+  },
+  {
+   "w": "minutes",
+   "start": 40.54,
+   "end": 40.8
+  },
+  {
+   "w": "after",
+   "start": 40.8,
+   "end": 41.08
+  },
+  {
+   "w": "launch.",
+   "start": 41.08,
+   "end": 41.4
+  },
+  {
+   "w": "Right",
+   "start": 41.84,
+   "end": 41.92
+  },
+  {
+   "w": "on",
+   "start": 41.92,
+   "end": 42.06
+  },
+  {
+   "w": "time.",
+   "start": 42.06,
+   "end": 42.26
+  },
+  {
+   "w": "The",
+   "start": 42.76,
+   "end": 42.84
+  },
+  {
+   "w": "box",
+   "start": 42.84,
+   "end": 43.04
+  },
+  {
+   "w": "arrives,",
+   "start": 43.04,
+   "end": 43.38
+  },
+  {
+   "w": "mostly.",
+   "start": 43.86,
+   "end": 44.1
+  },
+  {
+   "w": "It's",
+   "start": 44.56,
+   "end": 44.72
+  },
+  {
+   "w": "dented,",
+   "start": 44.72,
+   "end": 45.06
+  },
+  {
+   "w": "it's",
+   "start": 45.48,
+   "end": 45.6
+  },
+  {
+   "w": "smoking,",
+   "start": 45.6,
+   "end": 45.92
+  },
+  {
+   "w": "and",
+   "start": 46.5,
+   "end": 46.62
+  },
+  {
+   "w": "someone",
+   "start": 46.62,
+   "end": 46.84
+  },
+  {
+   "w": "still",
+   "start": 46.84,
+   "end": 47.06
+  },
+  {
+   "w": "signs",
+   "start": 47.06,
+   "end": 47.34
+  },
+  {
+   "w": "for",
+   "start": 47.34,
+   "end": 47.6
+  },
+  {
+   "w": "it.",
+   "start": 47.6,
+   "end": 47.74
+  },
+  {
+   "w": "And",
+   "start": 48.06,
+   "end": 48.16
+  },
+  {
+   "w": "the",
+   "start": 48.16,
+   "end": 48.26
+  },
+  {
+   "w": "shipping",
+   "start": 48.26,
+   "end": 48.42
+  },
+  {
+   "w": "invoice,",
+   "start": 48.42,
+   "end": 48.76
+  },
+  {
+   "w": "still",
+   "start": 49.16,
+   "end": 49.4
+  },
+  {
+   "w": "comes",
+   "start": 49.4,
+   "end": 49.58
+  },
+  {
+   "w": "out",
+   "start": 49.58,
+   "end": 49.74
+  },
+  {
+   "w": "right.",
+   "start": 49.74,
+   "end": 49.94
+  },
+  {
+   "w": "Because",
+   "start": 50.36,
+   "end": 50.6
+  },
+  {
+   "w": "Content",
+   "start": 50.6,
+   "end": 51.230000000000004
+  },
+  {
+   "w": "Systems.ai",
+   "start": 51.230000000000004,
+   "end": 52
+  },
+  {
+   "w": "checked",
+   "start": 52,
+   "end": 52.4
+  },
+  {
+   "w": "every",
+   "start": 52.4,
+   "end": 52.74
+  },
+  {
+   "w": "line.",
+   "start": 52.74,
+   "end": 53.04
+  }
+ ],
+ "text": "What would happen if a package could get from New York to LA in 15 minutes? Right now, ground shipping takes about 5 days. Even a plane needs 6 hours. So trucks are out, throwing it is out too. The longest throw on record is about 445 feet, and a box is worse. So you build a catapult, half a mile long. The box pulls about 2400 G's on the way out. It leaves at 14,000 miles an hour. That's 18 times the speed of sound. The bubble wrap does not make it. It clears the atmosphere and peaks around 600 miles up, higher than the space station. Tracking says, in transit. Halfway there, it coasts over Kansas. A farmer looks up and decides not to tell anyone. It comes down in Los Angeles, 15 minutes after launch. Right on time. The box arrives, mostly. It's dented, it's smoking, and someone still signs for it. And the shipping invoice, still comes out right. Because contentsystems.ai checked every line."
+}

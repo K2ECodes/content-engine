@@ -1,0 +1,84 @@
+{
+ "post": "content/2026-W46/ig-company-mon-1900-physics-throw-package",
+ "source": "video.mp4",
+ "duration": 54.233333,
+ "created": "2026-10-25T17:04:48.906Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-mon-1900-physics-throw-package/v01.mp4",
+   "hook": "NY to LA in 15 minutes?",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the free 3PL billing leak checklist.\n\nNew York to LA in 15 minutes was the easy part 😂\n\n#funny #humor #logistics #ecommerce #shipping",
+   "coverMs": 556,
+   "changes": [
+    "hook \"NY to LA in 15 minutes?\"",
+    "zoom 1.052 reframe 0.81/0.27",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.14s",
+    "audio x1.03"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-mon-1900-physics-throw-package/v02.mp4",
+   "hook": "What if shipping took 15 minutes?",
+   "caption": "Comment \"SYSTEMS\" for the free 3PL billing leak checklist.\n\nThe box survived. The invoice is the scary part 😂\n\n#funny #humor #logistics #3pl #shipping",
+   "coverMs": 2165,
+   "changes": [
+    "hook \"What if shipping took 15 minutes?\"",
+    "zoom 1.032 reframe 0.47/0.47",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.33s",
+    "audio x1.09"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-mon-1900-physics-throw-package/v03.mp4",
+   "hook": "The physics of same-day shipping",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the 3PL billing leak checklist, free.\n\n14,000 mph and still on budget 🤣\n\n#funny #humor #ecommerce #logistics #fulfillment",
+   "coverMs": 2084,
+   "changes": [
+    "hook \"The physics of same-day shipping\"",
+    "zoom 1.078 reframe 0.18/0.36",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.28s",
+    "audio x0.89"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/ig-company-mon-1900-physics-throw-package/v04.mp4",
+   "hook": "14,000 mph to ship one box",
+   "caption": "Comment \"SYSTEMS\" and we'll send you the free 3PL billing leak checklist.\n\nNew York to LA in 15 minutes was the easy part 😂\n\n#funny #humor #logistics #ecommerce #shipping",
+   "coverMs": 2160,
+   "changes": [
+    "hook \"14,000 mph to ship one box\"",
+    "zoom 1.055 reframe 0.15/0.57",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.12s",
+    "audio x0.92 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ig-company-mon-1900-physics-throw-package/v05.mp4",
+   "hook": "Overnight shipping, but literal",
+   "caption": "Comment \"SYSTEMS\" for the free 3PL billing leak checklist.\n\nThe box survived. The invoice is the scary part 😂\n\n#funny #humor #logistics #3pl #shipping",
+   "coverMs": 2745,
+   "changes": [
+    "hook \"Overnight shipping, but literal\"",
+    "zoom 1.067 reframe 0.96/0.52",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.23s",
+    "audio x1 + ding-1.wav"
+   ]
+  }
+ ]
+}

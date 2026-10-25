@@ -1,0 +1,17 @@
+{
+  "channel": "ig-personal",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "entertainment",
+  "execution": "story",
+  "topic": "what-if-twice-as-rich",
+  "lead": false,
+  "cta_type": "none",
+  "slot": "2026-11-15T20:30",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

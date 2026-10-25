@@ -1,0 +1,144 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "script": "What would happen if you got twice as rich every single day? Day 1. You have 1 dollar. You buy a pack of gum, and the guy at the corner shop doesn't even look up. Day 10. 512 dollars. You take 8 friends to dinner and pay for everyone. You've never been this popular. Day 20. 524,000. Your phone won't stop ringing. Cousins you've never met want to catch up. Day 30. 537 million. You buy the building you've been renting in. Your old landlord asks if you're hiring. Day 41. 1.1 trillion. You're richer than anyone alive. The bank manager walks you to the lift personally. Day 48. 140 trillion. That's more than the whole world earns in a year. Countries start calling you for a loan. Day 50. 563 trillion. You own more than all the wealth on Earth. There's nothing left to buy. Day 51. Your friend still slides you the bill.",
+  "stop": false,
+  "capStyle": "phys",
+  "tail": 1.2,
+  "introSfx": false,
+  "sfxGain": 1.2,
+  "keys": [
+   "$1,",
+   "$512.",
+   "$524,000.",
+   "$537",
+   "$1.1",
+   "$140",
+   "$563",
+   "bill."
+  ],
+  "tr": "cut",
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c00.mp4",
+    "look": "cinema",
+    "callouts": [
+     {
+      "text": "$1",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 4.11
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c01.mp4",
+    "look": "cinema",
+    "at": 8.34,
+    "callouts": [
+     {
+      "text": "$512",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 9.83
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c02.mp4",
+    "look": "cinema",
+    "at": 14.78,
+    "callouts": [
+     {
+      "text": "$524K",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 16.35
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c03.mp4",
+    "look": "cinema",
+    "at": 20.96,
+    "callouts": [
+     {
+      "text": "$537M",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 22.59
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c04.mp4",
+    "look": "cinema",
+    "at": 27.6,
+    "callouts": [
+     {
+      "text": "$1.1T",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 28.71
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c05.mp4",
+    "look": "cinema",
+    "at": 34.38,
+    "callouts": [
+     {
+      "text": "$140T",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 35.81
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c06.mp4",
+    "look": "cinema",
+    "at": 40.82,
+    "callouts": [
+     {
+      "text": "$563T",
+      "x": 110,
+      "y": 640,
+      "h": 150,
+      "at": 42.21
+     }
+    ]
+   },
+   {
+    "world": "dark",
+    "type": "phys",
+    "bg": "clips/c07.mp4",
+    "look": "cinema",
+    "at": 46.6
+   }
+  ]
+ }
+}
