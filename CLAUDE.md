@@ -93,6 +93,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **@koredekola swaps/skits scope (Korede, 2026-10-25)**: AI swaps are only funny, comedic, entertaining top-of-funnel skits (relatable situations, memes, absurd moments). Never swap real lifestyle content (no footballer-life, Berlin-life or fake LARP lifestyle swaps). Real lifestyle content comes from footage Korede records; we edit it.
 
+- **What-ifs are realistic, not optimistic (Korede, 2026-10-25)**: show honest consequences, good and bad, often inconvenient or absurd; comedy from deadpan realism, escalating counters and scale comparisons, dry punchline ending (see .claude/skills/what-if-reel/SKILL.md, ref instagram.com/reel/Dex7yYdOtPo).
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

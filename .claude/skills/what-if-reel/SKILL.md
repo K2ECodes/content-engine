@@ -39,3 +39,11 @@ Korede: no face on these videos (no AI lip-sync), and the first 2 s must not rea
 - `scene.w3d` on any scene (usually a `hud` scene for the stage text): the 3D layer shows behind it. Globe: `focus` {lat, lon}, `zoom` [from, to] camera distance (7 to 11 shows the whole Earth), `spin`, `lookY` (0.9 default keeps the globe under the captions), `showPins`, `showArcs`, `drawn`, `arcsOff` (0 to 1: lines go dead grey), `shipsMove` false (anchored), `labels`. City: `orbit`, `height`, `zoom` [from, to], `lightsOff` [from, to], `traffic`, `lightsWork`.
 - Consecutive w3d scenes glide into each other; the layer fades over the next photo scene.
 - Check with `STORY_SNAP=0.5,2,4 node scripts/render.mjs <post>`.
+
+## Tone: realistic, not optimistic (Korede, 2026-10-25)
+Reference: instagram.com/reel/Dex7yYdOtPo (115K likes, low-poly 3D "what if it grew 1 inch every day", 92 s).
+- Follow the premise to its honest consequences, good AND bad. Most beats are inconvenient, embarrassing, expensive or dangerous. Never a feel-good ending by default.
+- The comedy comes from deadpan realism applied to a crazy premise: "Day 34. Doctors have no explanation." "Uber bans you for life." "HR fires you for safety reasons." "$25 a ticket." "You're 107. Still single."
+- Every stage: a counter that escalates (day/age + a measurable number) and a size/scale comparison ("longer than a school bus", "as long as a blue whale", "longer than the Burj Khalifa").
+- Fast escalation: early beats days apart, then years. One short deadpan line per beat. End on a dry punchline, then "What should X next?" as the comment prompt.
+- Visual: one consistent low-poly 3D character and world (template world3d / photoreal stills), same character every beat.
