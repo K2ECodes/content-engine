@@ -106,7 +106,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 - **Quality bar for AI video (Korede, 2026-10-25)**: anything that reads as AI slop (generated-character 'movie trailer' skits like Reply All) is rejected on every account.
 - **Never throw away decent content (Korede, 2026-10-25)**: keep every decent video/variant; fix only what breaks a rule, reroute off-brand-for-this-page items to the right account, and keep adding new variants for volume. Don't delete scheduled posts unless they break a rule.
 
-- **Funny video captions + TikTok captions (Korede, 2026-10-25)**: TikTok captions are as short as Instagram (1 to 3 lines + 3 to 5 hashtags). Funny/swap videos: one natural, relatable line a real person would say (never 'X vibes only', never explaining the AI), and always include #funny and #humor (instead of filler like #vibes #nightlife); plus #explore #K2E on @koredekola, #fyp on TikTok.
+- **Funny video captions + TikTok captions (Korede, 2026-10-25)**: use 😂 or 🤣 (not 😭) on funny captions, often. TikTok captions are as short as Instagram (1 to 3 lines + 3 to 5 hashtags). Funny/swap videos: one natural, relatable line a real person would say (never 'X vibes only', never explaining the AI), and always include #funny and #humor (instead of filler like #vibes #nightlife); plus #explore #K2E on @koredekola, #fyp on TikTok.
 
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.

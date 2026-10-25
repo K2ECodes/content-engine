@@ -1,5 +1,5 @@
 ## Caption
-When your boss catches you sleeping 😭
+When your boss catches you sleeping 😂
 
 #office #worklife #corporate #officehumor #explore #K2E
 
