@@ -1,0 +1,65 @@
+{
+ "post": "content/2026-W44/ig-personal-wed-1230-5-warehouse-skills",
+ "source": "video.mp4",
+ "duration": 45.833333,
+ "created": "2026-10-25T14:23:11.228Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ai-ig-personal-wed-1230-5-warehouse-skills/v01.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 2304,
+   "changes": [
+    "zoom 1.040 reframe 0.76/0.15",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.3s",
+    "audio x0.98"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ai-ig-personal-wed-1230-5-warehouse-skills/v02.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 3511,
+   "changes": [
+    "zoom 1.059 reframe 0.68/0.35",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.25s",
+    "audio x1.01"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ai-ig-personal-wed-1230-5-warehouse-skills/v03.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1400,
+   "changes": [
+    "zoom 1.048 reframe 0.04/0.48",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.34s",
+    "audio x0.96"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/ai-ig-personal-wed-1230-5-warehouse-skills/v04.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 572,
+   "changes": [
+    "zoom 1.072 reframe 0.14/0.73",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.35s",
+    "audio x0.94 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}

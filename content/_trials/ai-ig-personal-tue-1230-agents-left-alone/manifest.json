@@ -1,0 +1,69 @@
+{
+ "post": "content/2026-W45/ig-personal-tue-1230-agents-left-alone",
+ "source": "video.mp4",
+ "duration": 29.466667,
+ "created": "2026-10-25T14:26:07.081Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ai-ig-personal-tue-1230-agents-left-alone/v01.mp4",
+   "hook": "13 AI agents, no boss",
+   "caption": "Comment \"AI\" and I'll send you my 5 starter skills with the rules built in, free.\n\n13 AI agents, no boss.\n\nThey invented their own job.\n\nIt's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.\n\nBut the lesson for a business is real: an AI without a job description writes its own.\n\nEvery AI employee I build gets 4 things before it starts.\n\n1 job, 1 owner, a list of what needs my yes, and an off switch.\n\n#AI #AIagents #ClaudeAI #smallbusiness #automation",
+   "coverMs": 3311,
+   "changes": [
+    "hook \"13 AI agents, no boss\"",
+    "zoom 1.043 reframe 0.23/0.54",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.39s",
+    "audio x1.03"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ai-ig-personal-tue-1230-agents-left-alone/v02.mp4",
+   "hook": "AI with no job invents one",
+   "caption": "Comment \"AI\" and I'll send you my 5 starter skills with the rules built in, free.\n\nAI with no job invents one.\n\nThey invented their own job.\n\nIt's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.\n\nBut the lesson for a business is real: an AI without a job description writes its own.\n\nEvery AI employee I build gets 4 things before it starts.\n\n1 job, 1 owner, a list of what needs my yes, and an off switch.\n\n#AI #AIagents #ClaudeAI #smallbusiness #automation",
+   "coverMs": 3238,
+   "changes": [
+    "hook \"AI with no job invents one\"",
+    "zoom 1.062 reframe 0.02/0.50",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.29s",
+    "audio x1.05 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ai-ig-personal-tue-1230-agents-left-alone/v03.mp4",
+   "hook": "13 AI agents, no boss",
+   "caption": "Comment \"AI\" and I'll send you my 5 starter skills with the rules built in, free.\n\n13 AI agents, no boss.\n\nThey invented their own job.\n\nIt's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.\n\nBut the lesson for a business is real: an AI without a job description writes its own.\n\nEvery AI employee I build gets 4 things before it starts.\n\n1 job, 1 owner, a list of what needs my yes, and an off switch.\n\n#AI #AIagents #ClaudeAI #smallbusiness #automation",
+   "coverMs": 1798,
+   "changes": [
+    "hook \"13 AI agents, no boss\"",
+    "zoom 1.054 reframe 0.89/0.77",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.23s",
+    "audio x1.07 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/ai-ig-personal-tue-1230-agents-left-alone/v04.mp4",
+   "hook": "AI with no job invents one",
+   "caption": "Comment \"AI\" and I'll send you my 5 starter skills with the rules built in, free.\n\nAI with no job invents one.\n\nThey invented their own job.\n\nIt's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.\n\nBut the lesson for a business is real: an AI without a job description writes its own.\n\nEvery AI employee I build gets 4 things before it starts.\n\n1 job, 1 owner, a list of what needs my yes, and an off switch.\n\n#AI #AIagents #ClaudeAI #smallbusiness #automation",
+   "coverMs": 2755,
+   "changes": [
+    "hook \"AI with no job invents one\"",
+    "zoom 1.059 reframe 0.09/0.76",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.19s",
+    "audio x1.02"
+   ]
+  }
+ ]
+}

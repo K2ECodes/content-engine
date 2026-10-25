@@ -1,0 +1,84 @@
+{
+ "post": "content/2026-W44/ig-personal-sat-1800-openai-took-replit",
+ "source": "video.mp4",
+ "duration": 30.233333,
+ "created": "2026-10-25T14:28:36.187Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v01.mp4",
+   "hook": "OpenAI just took Claude's spot at Replit",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nOpenAI just took Claude's default spot at Replit.\n\nReplit's CEO said it on stage at TechCrunch Disrupt.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 3095,
+   "changes": [
+    "hook \"OpenAI just took Claude's spot at Replit\"",
+    "zoom 1.067 reframe 0.09/0.23",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.23s",
+    "audio x0.89"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v02.mp4",
+   "hook": "Round 1: OpenAI vs Claude. Who won?",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nRound 1 of OpenAI vs Claude went to OpenAI.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 836,
+   "changes": [
+    "hook \"Round 1: OpenAI vs Claude. Who won?\"",
+    "zoom 1.059 reframe 0.35/0.85",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.35s",
+    "audio x1.09 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v03.mp4",
+   "hook": "Replit switched its default AI. Here's why",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nReplit switched its default AI this week.\n\nReplit's CEO said it on stage at TechCrunch Disrupt.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 1427,
+   "changes": [
+    "hook \"Replit switched its default AI. Here's why\"",
+    "zoom 1.079 reframe 0.42/0.72",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.22s",
+    "audio x1.01 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v04.mp4",
+   "hook": "Claude lost a big one this week",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nClaude just lost a big one.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 837,
+   "changes": [
+    "hook \"Claude lost a big one this week\"",
+    "zoom 1.059 reframe 0.72/0.27",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.12s",
+    "audio x0.91 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v05.mp4",
+   "hook": "The AI war just got real",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nThe AI model war has a new round.\n\nReplit's CEO said it on stage at TechCrunch Disrupt.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 1229,
+   "changes": [
+    "hook \"The AI war just got real\"",
+    "zoom 1.043 reframe 0.92/0.16",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.3s",
+    "audio x1.01 + impact-soft-2.wav"
+   ]
+  }
+ ]
+}
