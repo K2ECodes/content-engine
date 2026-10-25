@@ -354,3 +354,13 @@
 {"ts":"2026-10-24T14:56:34.455Z","model":"volcengine/video-to-video-lip-sync","taskId":"171a1d0c44f99cf59d0758427c7522a0","state":"success","credits":24,"usd":0.12,"label":"ig-personal-sat-1500-what-if-10-nigerian-video talk 1"}
 {"ts":"2026-10-24T15:15:30.178Z","model":"kling-4.0/reference-to-video","taskId":"ae45410cd66e4eacd13b5544bde69fd3","state":"success","credits":510,"usd":2.55,"label":"swap k4 depw v2 braids green"}
 {"ts":"2026-10-24T17:20:40.428Z","model":"nano-banana-2","taskId":"6ba7b718071b9d6e2a2ee3fea4ada8a3","state":"success","credits":12,"usd":0.06,"label":"jollof orange regen"}
+{"ts":"2026-10-25T04:20:47.525Z","model":"nano-banana-2","taskId":"5391b7b323b8169c279e1d33097e2746","state":"success","credits":8,"usd":0.04,"label":"mascot google"}
+{"ts":"2026-10-25T04:21:02.820Z","model":"nano-banana-2","taskId":"8f7901412b43ebf9ef577b253b607211","state":"success","credits":8,"usd":0.04,"label":"mascot walmart"}
+{"ts":"2026-10-25T04:21:02.825Z","model":"nano-banana-2","taskId":"d06353fcea36f45255f903b6d5c6f3f9","state":"success","credits":8,"usd":0.04,"label":"mascot openai"}
+{"ts":"2026-10-25T04:21:03.156Z","model":"nano-banana-2","taskId":"d58e4f6b86205611f902d06844c0503d","state":"success","credits":8,"usd":0.04,"label":"mascot amazon"}
+{"ts":"2026-10-25T04:21:18.475Z","model":"nano-banana-2","taskId":"3ad9d9171d2a0fbac9e6547f87b1b77b","state":"success","credits":8,"usd":0.04,"label":"mascot meta"}
+{"ts":"2026-10-25T04:21:18.477Z","model":"nano-banana-2","taskId":"8bee968bd5524108b29a86b99030aa2d","state":"success","credits":8,"usd":0.04,"label":"mascot claude"}
+{"ts":"2026-10-25T04:21:33.855Z","model":"nano-banana-2","taskId":"7f18463e47281634ffae89e082942c46","state":"success","credits":8,"usd":0.04,"label":"mascot cursor"}
+{"ts":"2026-10-25T04:22:50.838Z","model":"nano-banana-2","taskId":"125425482654f732ab15f50696a83868","state":"success","credits":8,"usd":0.04,"label":"mascot grok"}
+{"ts":"2026-10-25T04:25:12.208Z","model":"nano-banana-2","taskId":"8282ebe26f0abe53d1ec2a0abb209f25","state":"success","credits":12,"usd":0.06,"label":"fight-card bg arena"}
+{"ts":"2026-10-25T04:25:12.215Z","model":"nano-banana-2","taskId":"b72e7337c8849a6b2d5afea53761bb15","state":"success","credits":12,"usd":0.06,"label":"fight-card bg storm"}

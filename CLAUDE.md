@@ -89,6 +89,10 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Nigerian content music (Korede, 2026-10-25)**: use real trending Afrobeats (Burna Boy, Wizkid, Rema, Tems, Asake...) not library 'afro' instrumentals. The licensed catalog doesn't carry them, so search_instagram_audio with audio_type 'all' and pick a clean original_sound upload of the song (e.g. Burna Boy 'Last Last', Wizkid 'Essence'), volume 11.
 
+- **Fight card carousels (Korede, 2026-10-25, ref instagram.com/p/DezNuipk6Jm)**: head-to-head carousels with glossy 3D brand mascots, round-by-round (price, the work, apps, the brain, initiative, trust), an honest verdict and a comment-keyword CTA, every slide a subtle-motion video. For @koredekola.ai (AI tools) and @contentsystems.ai (business angle). Skill: .claude/skills/fight-card-carousel.
+
+- **@koredekola swaps/skits scope (Korede, 2026-10-25)**: AI swaps are only funny, comedic, entertaining top-of-funnel skits (relatable situations, memes, absurd moments). Never swap real lifestyle content (no footballer-life, Berlin-life or fake LARP lifestyle swaps). Real lifestyle content comes from footage Korede records; we edit it.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

@@ -3,7 +3,7 @@
 //
 //   node scripts/render.mjs <post-dir> [--fps 30] [--frames-only]
 //
-// render.json: { "template": "static" | "carousel" | "pixel" | "video" | "split" | "story" | "arena" | "talkhead", "data": { ... } }
+// render.json: { "template": "static" | "carousel" | "pixel" | "fight" | "video" | "split" | "story" | "arena" | "talkhead", "data": { ... } }
 // Aspect comes from meta.json (1:1, 4:5, 9:16). Icons are Lucide names (lucide.dev), resolved here
 // into inline SVG under the key "<name>Svg" (icon -> iconSvg, loopIcon -> loopIconSvg).
 //
@@ -61,6 +61,21 @@ async function renderStatic(browser, data, aspect, dir) {
 }
 
 
+// Animated carousel slide: the template exposes window.seekSlide(t); every frame is screenshotted and piped to ffmpeg (fight-card).
+async function animSlide(page, dir, png, sl) {
+  const D = (typeof sl.video === 'object' && sl.video.dur) || 6, FPS = 24, out = png.replace('.png', '.mp4');
+  const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'png', '-i', '-', '-c:v', 'libx264', '-crf', '18', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', path.join(dir, out)], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg ${out} exited ${c}`)))));
+  for (let f = 0; f < D * FPS; f++) {
+    await page.evaluate((t) => window.seekSlide(t), f / FPS);
+    const buf = await page.screenshot({ type: 'png' });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+  }
+  ff.stdin.end(); await done;
+  await page.evaluate(() => window.seekSlide(0.6));
+  return out;
+}
+
 // Composite a carousel video slide: still PNG + per-frame clip sequences (mp4 with ss, or png/jpg fitted to the frame width and scrolled top to bottom).
 // slide.video: true | { dur }, slide.frames[k].clips: [{ src (repo path or post-relative), ss, dur }], slide.every (s per clip, default 3)
 function videoSlide(dir, png, sl, boxes) {
@@ -110,6 +125,7 @@ async function renderCarousel(browser, data, aspect, dir, template = 'carousel')
       const boxes = await page.evaluate(() => [...document.querySelectorAll('.frame')].map((f) => { const r = f.getBoundingClientRect(); return { i: +f.dataset.fi, x: r.x + 10, y: r.y + 10, w: r.width - 20, h: r.height - 20 }; }));
       files.push(videoSlide(dir, name, sl, boxes));
     }
+    if (sl.video && template === 'fight-card' && !process.env.NO_VIDEO_SLIDES) files.push(await animSlide(page, dir, name, sl));
   }
   return files;
 }
@@ -535,6 +551,45 @@ async function renderStory(browser, spec, dir, fps) {
   return ['video.mp4', 'poster.png'];
 }
 
+// ---------- scoreboard template (team vs team reel, .claude/skills/fight-card-carousel) ----------
+// Every `at` / `<name>At` (any depth) is a spoken-word anchor, resolved to `t` / `<name>T` seconds.
+async function renderScoreboard(browser, spec, dir, fps) {
+  const d = structuredClone(spec.data);
+  const words = JSON.parse(fs.readFileSync(path.join(dir, d.words), 'utf8')).words;
+  const voiceSrc = d.audio ? path.join(dir, d.audio) : null;
+  d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 2.2));
+  d.words = words;
+  const walk = (o, label) => {
+    for (const [k, v] of Object.entries(o)) {
+      if ((k === 'at' || /At$/.test(k)) && (typeof v === 'string' || typeof v === 'number'))
+        o[k === 'at' ? 't' : k.slice(0, -2) + 'T'] = Math.max(0, wordTime(words, v, `${label} ${k}`) - 0.05);
+      else if (v && typeof v === 'object') walk(v, `${label} ${k}`);
+    }
+  };
+  walk(d, 'scoreboard');
+  const { page } = await openTemplate(browser, 'scoreboard', d, '9:16');
+  if (process.env.STORY_SNAP) {
+    const out = [];
+    for (const t of process.env.STORY_SNAP.split(',').map(Number)) { await page.evaluate((t) => window.seek(t), t); const f = `snap-${t}.png`; await page.screenshot({ path: path.join(dir, f) }); out.push(f); }
+    return out;
+  }
+  const frames = Math.round(d.duration * fps), sfx = await page.evaluate(() => window.sfx);
+  const silent = path.join(dir, 'video-silent.mp4');
+  const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'png', '-i', '-', '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg exited ${c}`)))));
+  for (let f = 0; f < frames; f++) {
+    await page.evaluate((t) => window.seek(t), f / fps);
+    const buf = await page.screenshot({ type: 'png' });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+    if (f % fps === 0) process.stdout.write(`\r  frame ${f}/${frames}`);
+  }
+  ff.stdin.end(); await done;
+  process.stdout.write(`\r  ${frames} frames, ${d.duration.toFixed(2)}s at ${fps}fps\n`);
+  mixAudio({ dir, silent, voiceSrc, sfx, music: d.music, lastWordEnd: words.at(-1).end, duration: d.duration, sfxGain: d.sfxGain ?? 1 });
+  spawnSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(d.posterAt ?? 1.2), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
+  return ['video.mp4', 'poster.png'];
+}
+
 // ---------- arena template (research/style-fire-reel.md) ----------
 // Every `at` / `<name>At` in a beat (at any depth) is a spoken-word anchor, resolved to `t` / `<name>T` in seconds.
 function resolveArena(dir, spec) {
@@ -740,9 +795,11 @@ async function main(argv) {
       : spec.template === 'photo' ? await renderCarousel(browser, { ...data, brandsCfg: JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8')),
           // mask images load in CORS mode, which file:// can't satisfy, so the depth cutout goes in as a data URL
           slides: data.slides.map((sl) => sl.photo?.front ? { ...sl, photo: { ...sl.photo, frontUrl: `data:image/png;base64,${fs.readFileSync(path.join(ROOT, sl.photo.front)).toString('base64')}` } } : sl) }, '4:5', dir, 'photo-carousel')
+      : spec.template === 'fight' ? await renderCarousel(browser, data, '4:5', dir, 'fight-card')
       : spec.template === 'video' ? await renderVideo(browser, data, aspect, dir, fps)
       : spec.template === 'split' ? await renderSplit(browser, spec, dir, fps)
       : spec.template === 'story' ? await renderStory(browser, spec, dir, fps)
+      : spec.template === 'scoreboard' ? await renderScoreboard(browser, spec, dir, fps)
       : spec.template === 'arena' ? await renderArena(browser, spec, dir, fps)
       : spec.template === 'talkhead' ? await renderTalkhead(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
