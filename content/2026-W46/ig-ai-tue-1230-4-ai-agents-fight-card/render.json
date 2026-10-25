@@ -1,0 +1,292 @@
+{
+ "template": "fight",
+ "data": {
+  "handle": "@koredekola.ai",
+  "accent": "#D97757",
+  "slides": [
+   {
+    "kind": "cover",
+    "video": true,
+    "bg": "assets/mascots/bg-storm.png",
+    "tag": "*4 agents* · 10 weeks",
+    "winner": {
+     "m": "claude",
+     "x": 360,
+     "y": 330,
+     "w": 360
+    },
+    "losers": [
+     {
+      "m": "openai",
+      "x": 90,
+      "y": 640,
+      "w": 230,
+      "rot": -16,
+      "dim": 0.65
+     },
+     {
+      "m": "meta",
+      "x": 400,
+      "y": 760,
+      "w": 260,
+      "rot": 8,
+      "dim": 0.6
+     },
+     {
+      "m": "grok",
+      "x": 770,
+      "y": 640,
+      "w": 210,
+      "rot": 18,
+      "dim": 0.65
+     }
+    ],
+    "title": [
+     "Claude just joined the AI agent war.",
+     "*Its 3 rivals* look nervous."
+    ],
+    "sub": "Here's how they stack up"
+   },
+   {
+    "kind": "lineup",
+    "video": true,
+    "label": "The *fight card*",
+    "title": "4 AI agents launched in\n10 weeks. *Only one wins.*",
+    "mascots": [
+     {
+      "m": "grok",
+      "name": "Grok Bot",
+      "meta": "xAI · 11 Aug"
+     },
+     {
+      "m": "meta",
+      "name": "Muse",
+      "meta": "Meta · 8 Sep"
+     },
+     {
+      "m": "openai",
+      "name": "Dots",
+      "meta": "OpenAI · 29 Sep"
+     },
+     {
+      "m": "claude",
+      "name": "Claude Duet",
+      "meta": "Anthropic · 22 Oct",
+      "win": true
+     }
+    ],
+    "sub": "Each one works for you in the background.\n*Anthropic's came last.* Here's how it stacks up."
+   },
+   {
+    "kind": "price",
+    "video": true,
+    "label": "Round 1 · *Price* · vs Dots",
+    "round": 1,
+    "title": "Duet is *5x cheaper.*",
+    "left": {
+     "m": "openai",
+     "price": "$100",
+     "name": "ChatGPT Dots"
+    },
+    "right": {
+     "m": "claude",
+     "price": "$20",
+     "name": "Claude Duet"
+    },
+    "note": "Dots starts at ChatGPT Pro, $100 a month.\n*Duet comes with Claude Pro, the $20 plan.*"
+   },
+   {
+    "kind": "list",
+    "video": true,
+    "label": "Round 2 · *The work* · vs Muse",
+    "round": 2,
+    "title": "Muse books your dinner.\n*Duet runs your business.*",
+    "left": {
+     "m": "meta",
+     "name": "Meta Muse",
+     "items": [
+      [
+       "·",
+       "Email and calendar"
+      ],
+      [
+       "·",
+       "Bookings and dining"
+      ],
+      [
+       "·",
+       "Shopping errands"
+      ]
+     ]
+    },
+    "right": {
+     "m": "claude",
+     "name": "Claude Duet",
+     "items": [
+      [
+       "✓",
+       "Daily briefings"
+      ],
+      [
+       "✓",
+       "Live dashboards"
+      ],
+      [
+       "✓",
+       "Suggests next moves"
+      ]
+     ]
+    }
+   },
+   {
+    "kind": "grid",
+    "video": true,
+    "label": "Round 3 · *Apps* · vs Dots",
+    "round": 3,
+    "title": "It plugs into *2,000 more apps.*",
+    "right": {
+     "n": "6,000+",
+     "label": "Claude Duet",
+     "cells": 54
+    },
+    "left": {
+     "n": "4,000+",
+     "label": "ChatGPT Dots",
+     "cells": 36
+    },
+    "note": "Each square is about 110 apps.\n*Connectors and plug-ins from the Claude Marketplace.*"
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 4 · *The brain* · vs all",
+    "round": 4,
+    "title": "It runs on *Claude Opus 5.5.*",
+    "rows": [
+     {
+      "m": "claude",
+      "name": "Claude Duet",
+      "val": "Claude Opus 5.5",
+      "win": true
+     },
+     {
+      "m": "openai",
+      "name": "ChatGPT Dots",
+      "val": "GPT-6 Astra"
+     },
+     {
+      "m": "meta",
+      "name": "Meta Muse",
+      "val": "Muse Spark"
+     },
+     {
+      "m": "grok",
+      "name": "Grok Bot",
+      "val": "Not named"
+     }
+    ],
+    "note": "Grok Bot doesn't say which model it runs."
+   },
+   {
+    "kind": "phone",
+    "video": true,
+    "label": "Round 5 · *Initiative* · vs all",
+    "round": 5,
+    "title": "It messages you *before you ask.*",
+    "time": "8:02",
+    "day": "Thursday",
+    "notes": [
+     {
+      "app": "claude",
+      "name": "Claude Duet",
+      "when": "now",
+      "text": "Morning. 3 invoices are overdue. I drafted the reminders."
+     },
+     {
+      "app": "claude",
+      "name": "Claude Duet",
+      "when": "9:40",
+      "text": "Your Q4 dashboard is ready. Revenue is up, refunds too."
+     },
+     {
+      "app": "claude",
+      "name": "Claude Duet",
+      "when": "12:15",
+      "text": "Ready to pay the supplier. Want me to send it?"
+     }
+    ],
+    "note": "Illustrative messages. Duet sends briefings\nand asks before it acts."
+   },
+   {
+    "kind": "approval",
+    "video": true,
+    "label": "Round 6 · *Trust* · vs all",
+    "round": 6,
+    "title": "It *can't* go rogue.",
+    "card": {
+     "head": "Needs your OK",
+     "tag": "Pay?",
+     "msg": "Pay the supplier invoice, $1,240, with Link.",
+     "no": "Not now",
+     "yes": "Approve"
+    },
+    "blocked": {
+     "head": "Blocked, even if you say yes",
+     "tag": "Never",
+     "items": [
+      "Trading stocks",
+      "Moving money between accounts",
+      "Sharing card numbers or your ID"
+     ]
+    },
+    "note": "Payments go through Stripe Link or Shop Pay,\nand *every one waits for your yes.*"
+   },
+   {
+    "kind": "verdict",
+    "video": true,
+    "label": "The *verdict*",
+    "title": "6 rounds. *5 wins.*",
+    "m": "claude",
+    "rows": [
+     {
+      "c": "Price",
+      "t": "5x cheaper than Dots"
+     },
+     {
+      "c": "The work",
+      "t": "Muse wins errands",
+      "lose": true
+     },
+     {
+      "c": "Apps",
+      "t": "6,000+ vs 4,000+"
+     },
+     {
+      "c": "The brain",
+      "t": "Claude Opus 5.5"
+     },
+     {
+      "c": "Initiative",
+      "t": "Briefs you first"
+     },
+     {
+      "c": "Trust",
+      "t": "Hard limits on money"
+     }
+    ],
+    "loses": "*Where it still loses:* it's a research preview with a waitlist, it isn't built for errands, and you can't watch it browse live."
+   },
+   {
+    "kind": "cta",
+    "video": true,
+    "label": "Want *in?*",
+    "m": "claude",
+    "pre": "Comment",
+    "word": "AI",
+    "post": "and I'll DM you my *AI employee starter pack.*",
+    "sub": "5 skills to set up first, plus the\npermission sheet I give every AI employee."
+   }
+  ],
+  "theme": "ai"
+ }
+}

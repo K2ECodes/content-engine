@@ -1,0 +1,248 @@
+{
+ "template": "fight",
+ "data": {
+  "handle": "@koredekola.ai",
+  "accent": "#D97757",
+  "slides": [
+   {
+    "kind": "cover",
+    "video": true,
+    "bg": "assets/mascots/bg-storm.png",
+    "tag": "*3 coding agents* · $20 each",
+    "winner": {
+     "m": "claude",
+     "x": 360,
+     "y": 330,
+     "w": 360
+    },
+    "losers": [
+     {
+      "m": "openai",
+      "x": 110,
+      "y": 660,
+      "w": 230,
+      "rot": -14,
+      "dim": 0.65
+     },
+     {
+      "m": "cursor",
+      "x": 720,
+      "y": 640,
+      "w": 260,
+      "rot": 14,
+      "dim": 0.65
+     }
+    ],
+    "title": [
+     "Claude Code, Codex or Cursor?",
+     "*Same price.* Very different jobs."
+    ],
+    "sub": "Here's which one to pick"
+   },
+   {
+    "kind": "lineup",
+    "video": true,
+    "label": "The *fight card*",
+    "title": "3 AI coding agents.\n*Pick the one that fits.*",
+    "mascots": [
+     {
+      "m": "cursor",
+      "name": "Cursor",
+      "meta": "Editor"
+     },
+     {
+      "m": "openai",
+      "name": "Codex",
+      "meta": "OpenAI"
+     },
+     {
+      "m": "claude",
+      "name": "Claude Code",
+      "meta": "Anthropic",
+      "win": true
+     }
+    ],
+    "sub": "All 3 write and fix code for you.\n*Where they work is the real difference.*"
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 1 · *Price* · vs all",
+    "round": 1,
+    "rounds": 4,
+    "title": "It's a *$20 tie.*",
+    "rows": [
+     {
+      "m": "claude",
+      "name": "Claude Code",
+      "val": "$20 · Claude Pro",
+      "win": true
+     },
+     {
+      "m": "openai",
+      "name": "Codex",
+      "val": "$20 · ChatGPT Plus"
+     },
+     {
+      "m": "cursor",
+      "name": "Cursor",
+      "val": "Free · Pro $20"
+     }
+    ],
+    "note": "Cursor is the only one with a free tier.\n*Power plans for all 3 start around $100.*"
+   },
+   {
+    "kind": "list",
+    "video": true,
+    "label": "Round 2 · *Where it works* · vs Cursor",
+    "round": 2,
+    "rounds": 4,
+    "title": "Editor vs *terminal.*",
+    "left": {
+     "m": "cursor",
+     "name": "Cursor",
+     "items": [
+      [
+       "·",
+       "A VS Code fork"
+      ],
+      [
+       "·",
+       "Edits inline"
+      ],
+      [
+       "·",
+       "Free Hobby tier"
+      ]
+     ]
+    },
+    "right": {
+     "m": "claude",
+     "name": "Claude Code",
+     "items": [
+      [
+       "✓",
+       "Runs in the terminal"
+      ],
+      [
+       "✓",
+       "Long multi-file jobs"
+      ],
+      [
+       "✓",
+       "Works across a repo"
+      ]
+     ]
+    }
+   },
+   {
+    "kind": "list",
+    "video": true,
+    "label": "Round 3 · *Reach* · vs Codex",
+    "round": 3,
+    "rounds": 4,
+    "title": "Codex goes *everywhere.*",
+    "left": {
+     "m": "claude",
+     "name": "Claude Code",
+     "items": [
+      [
+       "·",
+       "Terminal first"
+      ],
+      [
+       "·",
+       "IDE plug-ins"
+      ],
+      [
+       "·",
+       "Your machine"
+      ]
+     ]
+    },
+    "right": {
+     "m": "openai",
+     "name": "Codex",
+     "items": [
+      [
+       "✓",
+       "CLI and IDE"
+      ],
+      [
+       "✓",
+       "Cloud tasks"
+      ],
+      [
+       "✓",
+       "Web app"
+      ]
+     ]
+    },
+    "accent": "#10A37F"
+   },
+   {
+    "kind": "approval",
+    "video": true,
+    "label": "Round 4 · *Your keys* · vs all",
+    "round": 4,
+    "rounds": 4,
+    "title": "Guard your keys *first.*",
+    "card": {
+     "head": "Before you connect any agent",
+     "tag": "Check",
+     "msg": "Keep API keys out of web dashboards you don't need.",
+     "no": "Later",
+     "yes": "Do it now"
+    },
+    "blocked": {
+     "head": "What happened at OpenCode",
+     "tag": "Oct 19",
+     "items": [
+      "Its web console got hacked",
+      "Users' AI accounts got charged",
+      "Some bills went past $1,000"
+     ]
+    }
+   },
+   {
+    "kind": "verdict",
+    "video": true,
+    "label": "The *verdict*",
+    "title": "No knockout. *Pick by job.*",
+    "m": "claude",
+    "rows": [
+     {
+      "c": "Price",
+      "t": "$20 each, Cursor has free"
+     },
+     {
+      "c": "Editor",
+      "t": "Cursor wins",
+      "lose": true
+     },
+     {
+      "c": "Big jobs",
+      "t": "Claude Code"
+     },
+     {
+      "c": "Reach",
+      "t": "Codex wins",
+      "lose": true
+     }
+    ],
+    "loses": "*My pick:* Claude Code for building real systems. Cursor if you live in an editor. Codex if you want it in the cloud."
+   },
+   {
+    "kind": "cta",
+    "video": true,
+    "label": "Want *in?*",
+    "m": "claude",
+    "pre": "Comment",
+    "word": "AI",
+    "post": "and I'll DM you my *AI employee starter pack.*",
+    "sub": "The 5 skills I set up first,\nfree."
+   }
+  ],
+  "theme": "ai"
+ }
+}

@@ -337,7 +337,8 @@
     "for 30 days"
    ],
    "until": "Not",
-   "scene": 6
+   "scene": 6,
+   "metric": "Weeks of stock: ???"
   }
  }
 }

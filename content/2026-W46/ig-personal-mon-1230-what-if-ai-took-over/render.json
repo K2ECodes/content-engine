@@ -302,7 +302,8 @@
     "the world tomorrow"
    ],
    "until": "No",
-   "scene": 7
+   "scene": 7,
+   "metric": "AI in charge: ???"
   }
  }
 }

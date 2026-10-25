@@ -426,7 +426,8 @@
     "10% Nigerian"
    ],
    "until": "Not",
-   "scene": 8
+   "scene": 8,
+   "metric": "DNA results: ???"
   }
  }
 }

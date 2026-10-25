@@ -1,0 +1,196 @@
+{
+ "template": "fight",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "accent": "#D97757",
+  "slides": [
+   {
+    "kind": "cover",
+    "video": true,
+    "bg": "assets/mascots/bg-arena.png",
+    "tag": "*AI agents* · for business",
+    "winner": {
+     "m": "claude",
+     "x": 390,
+     "y": 400,
+     "w": 300
+    },
+    "losers": [
+     {
+      "m": "openai",
+      "x": 80,
+      "y": 690,
+      "w": 220,
+      "rot": -12,
+      "dim": 0.7
+     },
+     {
+      "m": "meta",
+      "x": 420,
+      "y": 800,
+      "w": 240,
+      "rot": 6,
+      "dim": 0.6
+     },
+     {
+      "m": "grok",
+      "x": 780,
+      "y": 680,
+      "w": 200,
+      "rot": 14,
+      "dim": 0.7
+     }
+    ],
+    "title": [
+     "4 AI agents want your business.",
+     "*Only 1 rule matters.*"
+    ],
+    "sub": "Here's how they compare"
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 1 · *Built for* · vs all",
+    "round": 1,
+    "rounds": 4,
+    "title": "Not all agents *do business.*",
+    "rows": [
+     {
+      "m": "claude",
+      "name": "Claude Duet",
+      "val": "Briefings, dashboards",
+      "win": true
+     },
+     {
+      "m": "openai",
+      "name": "ChatGPT Dots",
+      "val": "Work in Slack, Teams"
+     },
+     {
+      "m": "meta",
+      "name": "Meta Muse",
+      "val": "Personal errands"
+     },
+     {
+      "m": "grok",
+      "name": "Grok Bot",
+      "val": "Clicks through your tools"
+     }
+    ]
+   },
+   {
+    "kind": "approval",
+    "video": true,
+    "label": "Round 2 · *The yes* · vs all",
+    "round": 2,
+    "rounds": 4,
+    "title": "Who asks *before money moves?*",
+    "card": {
+     "head": "Needs your OK",
+     "tag": "Duet",
+     "msg": "Pay the carrier invoice, $3,180.",
+     "no": "Not now",
+     "yes": "Approve"
+    },
+    "blocked": {
+     "head": "How each one asks",
+     "tag": "Rules",
+     "items": [
+      "Dots: Custom Rules for approvals",
+      "Muse: a Sentinel agent checks actions",
+      "Duet: payments wait for your yes"
+     ],
+     "good": true
+    }
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 3 · *Where* · vs all",
+    "round": 3,
+    "rounds": 4,
+    "title": "Check *your region* first.",
+    "rows": [
+     {
+      "m": "claude",
+      "name": "Claude Duet",
+      "val": "Preview, waitlist",
+      "win": true
+     },
+     {
+      "m": "openai",
+      "name": "ChatGPT Dots",
+      "val": "Not for Pro in EU, UK"
+     },
+     {
+      "m": "meta",
+      "name": "Meta Muse",
+      "val": "US and Canada"
+     },
+     {
+      "m": "grok",
+      "name": "Grok Bot",
+      "val": "Desktop and mobile"
+     }
+    ]
+   },
+   {
+    "kind": "price",
+    "video": true,
+    "label": "Round 4 · *Price* · vs Dots",
+    "round": 4,
+    "rounds": 4,
+    "title": "Start at *$20, not $100.*",
+    "left": {
+     "m": "openai",
+     "price": "$100",
+     "name": "ChatGPT Dots"
+    },
+    "right": {
+     "m": "claude",
+     "price": "$20",
+     "name": "Claude Duet"
+    },
+    "note": "Dots starts with ChatGPT Pro.\n*Duet comes with Claude Pro.*"
+   },
+   {
+    "kind": "verdict",
+    "video": true,
+    "label": "The *verdict*",
+    "title": "Pick the agent. *Write the rules.*",
+    "m": "claude",
+    "rows": [
+     {
+      "c": "Built for",
+      "t": "Duet and Dots do business"
+     },
+     {
+      "c": "The yes",
+      "t": "3 of 4 spell it out"
+     },
+     {
+      "c": "Where",
+      "t": "Check your region",
+      "lose": true
+     },
+     {
+      "c": "Price",
+      "t": "$20 vs $100"
+     }
+    ],
+    "loses": "*The real work:* deciding what your AI may never send alone. That part is yours, whichever agent you pick."
+   },
+   {
+    "kind": "cta",
+    "video": true,
+    "label": "Want *the sheet?*",
+    "m": "claude",
+    "pre": "Comment",
+    "word": "SYSTEMS",
+    "post": "and we'll DM you the *approval sheet.*",
+    "sub": "4 things AI should never send\nwithout your yes. Free."
+   }
+  ],
+  "theme": "company"
+ }
+}

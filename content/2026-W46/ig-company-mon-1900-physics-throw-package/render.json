@@ -215,7 +215,8 @@
     "in 15 minutes"
    ],
    "until": "Right",
-   "scene": 7
+   "scene": 7,
+   "metric": "Speed: ???"
   }
  }
 }

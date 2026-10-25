@@ -1,0 +1,228 @@
+{
+ "template": "fight",
+ "data": {
+  "handle": "@contentsystems.ai",
+  "accent": "#4C9BFF",
+  "slides": [
+   {
+    "kind": "cover",
+    "video": true,
+    "bg": "assets/mascots/bg-arena.png",
+    "tag": "*AI shoppers* · holiday 2026",
+    "winner": {
+     "m": "walmart",
+     "x": 390,
+     "y": 420,
+     "w": 300
+    },
+    "losers": [
+     {
+      "m": "amazon",
+      "x": 90,
+      "y": 680,
+      "w": 240,
+      "rot": -12,
+      "dim": 0.6
+     },
+     {
+      "m": "google",
+      "x": 760,
+      "y": 690,
+      "w": 230,
+      "rot": 10,
+      "dim": 0.75
+     }
+    ],
+    "title": [
+     "Walmart just let AI shoppers in.",
+     "*Amazon kicked them out.*"
+    ],
+    "sub": "What it means for your store"
+   },
+   {
+    "kind": "lineup",
+    "video": true,
+    "label": "The *fight card*",
+    "title": "3 giants. 3 answers to\n*AI shopping agents.*",
+    "mascots": [
+     {
+      "m": "amazon",
+      "name": "Amazon",
+      "meta": "Blocks agents"
+     },
+     {
+      "m": "google",
+      "name": "Google",
+      "meta": "Builds a cart"
+     },
+     {
+      "m": "walmart",
+      "name": "Walmart",
+      "meta": "Opens the door",
+      "win": true
+     }
+    ],
+    "sub": "Salesforce expects *20% of holiday store visits*\nto come from AI agents this year."
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 1 · *The door* · vs all",
+    "round": 1,
+    "rounds": 4,
+    "title": "Walmart *opened the door.*",
+    "rows": [
+     {
+      "m": "walmart",
+      "name": "Walmart",
+      "val": "Approved agents buy",
+      "win": true
+     },
+     {
+      "m": "google",
+      "name": "Google",
+      "val": "Universal Cart"
+     },
+     {
+      "m": "amazon",
+      "name": "Amazon",
+      "val": "Blocked Muse"
+     }
+    ],
+    "note": "Amazon blocked Meta's Muse less than\n2 weeks after it launched."
+   },
+   {
+    "kind": "approval",
+    "video": true,
+    "label": "Round 2 · *Control* · Walmart",
+    "round": 2,
+    "rounds": 4,
+    "title": "Shoppers stay *in control.*",
+    "card": {
+     "head": "AI agent wants to buy",
+     "tag": "Walmart",
+     "msg": "Holiday lights x3, $64.97. Your limit: $100.",
+     "no": "Decline",
+     "yes": "Approve"
+    },
+    "blocked": {
+     "head": "What shoppers can set",
+     "tag": "Rules",
+     "items": [
+      "A spending limit: $50, $100 or $200",
+      "Approval on every single purchase",
+      "Same prices a person sees"
+     ],
+     "good": true
+    }
+   },
+   {
+    "kind": "list",
+    "video": true,
+    "label": "Round 3 · *Stock* · Google",
+    "round": 3,
+    "rounds": 4,
+    "title": "Google pings shoppers\n*when you're back in stock.*",
+    "left": {
+     "m": "amazon",
+     "name": "Amazon",
+     "items": [
+      [
+       "·",
+       "Agents blocked"
+      ],
+      [
+       "·",
+       "Its own assistant"
+      ],
+      [
+       "·",
+       "Closed garden"
+      ]
+     ]
+    },
+    "right": {
+     "m": "google",
+     "name": "Google",
+     "items": [
+      [
+       "✓",
+       "Cart across stores"
+      ],
+      [
+       "✓",
+       "Back-in-stock alerts"
+      ],
+      [
+       "✓",
+       "Reads your data"
+      ]
+     ]
+    },
+    "accent": "#4C9BFF"
+   },
+   {
+    "kind": "models",
+    "video": true,
+    "label": "Round 4 · *Your store* · vs all",
+    "round": 4,
+    "rounds": 4,
+    "title": "Agents read *3 things first.*",
+    "rows": [
+     {
+      "name": "Product facts",
+      "val": "Size, fit, materials",
+      "win": true
+     },
+     {
+      "name": "Stock",
+      "val": "Live and accurate"
+     },
+     {
+      "name": "Delivery",
+      "val": "A real date"
+     }
+    ],
+    "note": "If any of these is wrong, the agent\n*picks another store.*"
+   },
+   {
+    "kind": "verdict",
+    "video": true,
+    "label": "The *verdict*",
+    "title": "Get your data *agent-ready.*",
+    "m": "walmart",
+    "rows": [
+     {
+      "c": "Door",
+      "t": "Walmart lets agents buy"
+     },
+     {
+      "c": "Control",
+      "t": "Limits and approvals"
+     },
+     {
+      "c": "Stock",
+      "t": "Google alerts shoppers"
+     },
+     {
+      "c": "Amazon",
+      "t": "Still blocking",
+      "lose": true
+     }
+    ],
+    "loses": "*The catch:* AI shoppers only buy what your data says is true. Wrong stock or vague dates and they skip you."
+   },
+   {
+    "kind": "cta",
+    "video": true,
+    "label": "Want *the check?*",
+    "m": "walmart",
+    "pre": "Comment",
+    "word": "SYSTEMS",
+    "post": "and we'll DM you the *agent-ready store check.*",
+    "sub": "What AI shoppers look for\nbefore they buy. Free."
+   }
+  ],
+  "theme": "company"
+ }
+}

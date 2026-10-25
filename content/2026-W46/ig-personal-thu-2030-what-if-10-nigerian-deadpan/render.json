@@ -174,7 +174,10 @@
     "Everyone wakes up",
     "10% Nigerian"
    ],
-   "until": "Not"
+   "until": "Not",
+   "label": "+10% NIGERIAN",
+   "unit": "aunties",
+   "metric": "Aunties calling: ???"
   }
  }
 }

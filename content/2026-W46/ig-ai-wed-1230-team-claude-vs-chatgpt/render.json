@@ -1,0 +1,145 @@
+{
+ "template": "scoreboard",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "tail": 2.0,
+  "teams": [
+   {
+    "name": "Team Claude",
+    "short": "Claude Duet",
+    "sub": "Anthropic",
+    "chip": "Claude",
+    "color": "#D97757",
+    "img": "assets/mascots/cut/claude.png"
+   },
+   {
+    "name": "Team ChatGPT",
+    "short": "ChatGPT Dots",
+    "sub": "OpenAI",
+    "chip": "ChatGPT",
+    "color": "#0B0F0C",
+    "text": "#F5F0E8",
+    "img": "assets/mascots/cut/openai.png"
+   }
+  ],
+  "intro": [
+   "Team Claude",
+   "Team ChatGPT"
+  ],
+  "rounds": [
+   {
+    "at": 6.7,
+    "name": "Price",
+    "title": "Price.",
+    "values": [
+     {
+      "text": "$20 · Pro plan",
+      "at": 11.4
+     },
+     {
+      "text": "$100 · Pro plan",
+      "at": 8.5
+     }
+    ],
+    "winner": 0,
+    "pointAt": 13.8
+   },
+   {
+    "at": 14.6,
+    "name": "Apps",
+    "title": "Apps.",
+    "values": [
+     {
+      "text": "6,000+",
+      "at": 18.6
+     },
+     {
+      "text": "4,000+",
+      "at": 16.4
+     }
+    ],
+    "winner": 0,
+    "pointAt": 20.4
+   },
+   {
+    "at": 21.3,
+    "name": "Where",
+    "title": "Where it *works.*",
+    "values": [
+     {
+      "text": "Its own app",
+      "at": 25.0
+     },
+     {
+      "text": "Slack, Teams",
+      "at": 23.2
+     }
+    ],
+    "winner": 1,
+    "pointAt": 26.5
+   },
+   {
+    "at": 27.7,
+    "name": "Today",
+    "title": "Use it *today?*",
+    "values": [
+     {
+      "text": "Preview, waitlist",
+      "at": 31.7
+     },
+     {
+      "text": "Live for Pro",
+      "at": 30.2
+     }
+    ],
+    "winner": 1,
+    "pointAt": 33.8
+   },
+   {
+    "at": 35.2,
+    "name": "Money",
+    "title": "Money.",
+    "values": [
+     {
+      "text": "Asks before paying",
+      "at": 38.6
+     },
+     {
+      "text": "Your own rules",
+      "at": 36.7
+     }
+    ],
+    "winner": 0,
+    "pointAt": 43.1
+   }
+  ],
+  "finalAt": 43.8,
+  "final": {
+   "text": "*Claude* wins."
+  },
+  "twistAt": 46.2,
+  "twist": {
+   "title": "The rules *win.*",
+   "nodes": [
+    {
+     "text": "AI drafts",
+     "at": 48.9
+    },
+    {
+     "text": "You approve",
+     "at": 49.8,
+     "gold": true
+    },
+    {
+     "text": "It goes out",
+     "at": 50.6
+    }
+   ]
+  },
+  "ctaAt": 51.6,
+  "cta": {
+   "q": "Team Claude, or\n*team ChatGPT?*"
+  }
+ }
+}

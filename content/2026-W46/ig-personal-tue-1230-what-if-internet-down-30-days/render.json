@@ -284,7 +284,8 @@
     "for 30 days"
    ],
    "until": "No",
-   "scene": 6
+   "scene": 6,
+   "metric": "Devices online: ???"
   }
  }
 }

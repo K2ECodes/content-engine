@@ -1,0 +1,147 @@
+{
+ "template": "scoreboard",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "tail": 2.0,
+  "teams": [
+   {
+    "name": "Team Chatbot",
+    "short": "AI chatbot",
+    "sub": "Answers on its own",
+    "chip": "Chatbot",
+    "color": "#C98A3C",
+    "img": "assets/pixel/sprites/robot.png"
+   },
+   {
+    "name": "Team Human",
+    "short": "Your team",
+    "sub": "Real people",
+    "chip": "Human",
+    "color": "#F5F0E8",
+    "headText": "#17281C",
+    "text": "#F5F0E8",
+    "img": "assets/pixel/sprites/worker.png"
+   }
+  ],
+  "intro": [
+   "Team Chatbot",
+   "Team Human"
+  ],
+  "rounds": [
+   {
+    "at": 5.4,
+    "name": "Hours",
+    "title": "Hours.",
+    "values": [
+     {
+      "text": "Answers at 3 AM",
+      "at": 6.8
+     },
+     {
+      "text": "Asleep",
+      "at": 8.6
+     }
+    ],
+    "winner": 0,
+    "pointAt": 9.6
+   },
+   {
+    "at": 10.9,
+    "name": "Languages",
+    "title": "Languages.",
+    "values": [
+     {
+      "text": "4, from 1 system",
+      "at": 14.7
+     },
+     {
+      "text": "Who you hired",
+      "at": 15.4
+     }
+    ],
+    "winner": 0,
+    "pointAt": 17.0
+   },
+   {
+    "at": 18.4,
+    "name": "Trust",
+    "title": "Trust.",
+    "values": [
+     {
+      "text": "46% rated it good",
+      "at": 20.2
+     },
+     {
+      "text": "A real person",
+      "at": 22.4
+     }
+    ],
+    "winner": 1,
+    "pointAt": 24.1
+   },
+   {
+    "at": 25.3,
+    "name": "Hard cases",
+    "title": "Hard *cases.*",
+    "values": [
+     {
+      "text": "Needs a handoff",
+      "at": 30.3
+     },
+     {
+      "text": "Refunds, angry calls",
+      "at": 27.2
+     }
+    ],
+    "winner": 1,
+    "pointAt": 33.8
+   },
+   {
+    "at": 35.1,
+    "name": "Scale",
+    "title": "Scale.",
+    "values": [
+     {
+      "text": "72% of tickets",
+      "at": 38.1
+     },
+     {
+      "text": "Hires for peak",
+      "at": 39.4
+     }
+    ],
+    "winner": 0,
+    "pointAt": 40.6
+   }
+  ],
+  "finalAt": 42.0,
+  "final": {
+   "text": "*Chatbot* wins."
+  },
+  "twistAt": 44.5,
+  "twist": {
+   "title": "Don't *pick.*",
+   "nodes": [
+    {
+     "text": "Ticket comes in",
+     "at": 45.6
+    },
+    {
+     "text": "Bot answers 72%",
+     "at": 46.3,
+     "gold": true
+    },
+    {
+     "text": "Team takes the rest",
+     "at": 48.2
+    }
+   ]
+  },
+  "ctaAt": 49.3,
+  "cta": {
+   "q": "Team Chatbot, or\n*team Human?*",
+   "lockup": true
+  }
+ }
+}

@@ -383,6 +383,7 @@
   #rwt { position: absolute; left: 0; right: 0; top: 236px; z-index: 8; text-align: center; opacity: 0; pointer-events: none; }
   #rwt .bd { position: absolute; left: 110px; right: 110px; top: -14px; bottom: -18px; border-radius: 40px; background: rgba(0,0,0,.26); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); -webkit-mask: radial-gradient(ellipse at center, #000 55%, transparent 100%); mask: radial-gradient(ellipse at center, #000 55%, transparent 100%); }
   #rwt div.l { position: relative; font: 400 104px/1.04 'Instrument Serif', serif; letter-spacing: -.01em; color: #FBF7EE; text-shadow: 0 2px 18px rgba(0,0,0,.55); }
+  #rwh { position: absolute; top: 560px; z-index: 7; opacity: 0; color: #F5F0E8; }
   #rwx { position: absolute; inset: 0; z-index: 8; opacity: 0; pointer-events: none; overflow: hidden; }
   #rwx .scan { position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgba(255,255,255,.07) 0 2px, rgba(0,0,0,.2) 2px 5px); }
   #rwx .band { position: absolute; left: -60px; right: -60px; top: 0; height: 170px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.42) 38%, rgba(190,210,255,.18) 62%, transparent); filter: blur(3px); }
@@ -676,7 +677,7 @@ window.renderPost = (data) => {
     </div>` : ''}
     ${data.face ? (data.faceCuts || []).map((c, i) => c.label ? `<div class="flabel" id="flb${i}">${esc(c.label)}</div>` : '').join('') : ''}
     ${data.coldOpen ? window.ColdOpen.html(data) : ''}
-    ${data.rewind ? `<div id="rwx"><div class="scan"></div><div class="band"></div><div class="band b2"></div><svg class="ico" viewBox="0 0 96 60"><path d="M46 4 L4 30 L46 56Z M92 4 L50 30 L92 56Z" fill="#fff"/></svg></div><div id="rwt"><div class="bd"></div>${(data.rewind.title || []).map((l) => `<div class="l">${esc(l)}</div>`).join('')}</div>` : ''}
+    ${data.rewind ? `<div id="rwx"><div class="scan"></div><div class="band"></div><div class="band b2"></div><svg class="ico" viewBox="0 0 96 60"><path d="M46 4 L4 30 L46 56Z M92 4 L50 30 L92 56Z" fill="#fff"/></svg></div><div id="rwh" class="wif panel">${(data.rewind.label ?? data.hdr?.label) ? `<div class="wl">${esc(data.rewind.label ?? data.hdr.label)}</div>` : ''}<div class="wn">${esc(data.rewind.counter || '???')}${data.rewind.unit ? `<small>${esc(data.rewind.unit)}</small>` : ''}</div>${METRIC(data.rewind.metric || 'Signal: rewinding')}</div><div id="rwt"><div class="bd"></div>${(data.rewind.title || []).map((l) => `<div class="l">${esc(l)}</div>`).join('')}</div>` : ''}
     ${data.safeGuides ? '<div class="safeg"><i style="left:0;top:0;width:1080px;height:230px"></i><i style="left:0;top:1500px;width:1080px;height:420px"></i><i style="left:940px;top:230px;width:140px;height:1270px"></i><i style="left:0;top:230px;width:60px;height:1270px"></i></div>' : ''}
     <div id="flash" style="position:absolute;inset:0;background:#fff;opacity:0;z-index:9;pointer-events:none"></div>
     <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
@@ -909,11 +910,13 @@ window.renderPost = (data) => {
     if (E < 0) for (let i = sc.length - 1; i >= 0; i--) if (sc[i].type !== 'cta' && sc[i].bgUrl) { E = i; break; }
     if (E < 0) E = sc.length - 1;
     const L = Math.max(0, sc.findIndex((s) => s.t <= U + 0.01 && s.end > U + 0.01));
-    const vis = (i, on, t) => { tl.set('#s' + i, { opacity: on ? 1 : 0 }, t); ['sb', 'px', 'sp'].forEach((k) => { const x = document.getElementById(k + i); if (x) tl.set(x, { opacity: on ? 1 : 0 }, t); }); };
+    // TEASE, never the answer (Korede 2026-10-25): end-state shots only as blurred, tinted shapes; overlays (numbers, results) hidden; a ??? header instead
+    const BL = 'blur(40px) brightness(0.5) saturate(0.85)', CLR = 'blur(0px) brightness(1) saturate(1)', touched = new Set();
+    const bgv = (i, on, t) => ['sb', 'px', 'sp'].forEach((k) => { const x = document.getElementById(k + i); if (!x) return; tl.set(x, { opacity: on ? 1 : 0 }, t); if (on && !touched.has(x)) { touched.add(x); tl.set(x, { filter: BL, scale: 1.12 }, 0); } });
     const pw = (i, a, b, ss, rate) => { const v = document.querySelector('#sb' + i + ' video'); if (!v) return; const w = JSON.parse(v.dataset.pw || '[]'); w.push([a, b, ss, rate]); v.dataset.pw = JSON.stringify(w); };   // extra play windows for render.mjs
     const ssOf = (i) => Number(document.querySelector('#sb' + i + ' video')?.dataset.ss || 0);
-    sc.forEach((s, i) => { if (s.t < U - 0.01) vis(i, false, 0); });
-    vis(E, true, 0);
+    sc.forEach((s, i) => { if (s.t < U - 0.01) { tl.set('#s' + i, { opacity: 0 }, 0); bgv(i, false, 0); } });
+    bgv(E, true, 0); tl.set('#s' + E, { opacity: 0 }, 0);
     const eSS = ssOf(E) + Math.max(0, (sc[E].end - sc[E].t) - H - 0.4);   // end state: the last seconds of the final shot
     pw(E, 0, H, eSS, 1);
     const eimg = document.querySelector('#sb' + E + ' img'); if (eimg) tl.fromTo(eimg, { scale: 1.08 }, { scale: 1.14, duration: Math.max(0.5, H), ease: 'none', immediateRender: false }, 0);
@@ -923,8 +926,15 @@ window.renderPost = (data) => {
     const pick = fl.length > 8 ? Array.from({ length: 8 }, (_, k) => fl[Math.round((k * (fl.length - 1)) / 7)]) : fl, step = RD / (pick.length + 1);
     pw(E, H, H + step, eSS + H, -3);
     let prev = E;
-    pick.forEach((i, k) => { const t = H + step * (k + 1); vis(prev, false, t); vis(i, true, t); pw(i, t, t + step, ssOf(i) + (sc[i].end - sc[i].t) * 0.6, -3); prev = i; });
-    vis(prev, false, U); vis(L, true, U);
+    pick.forEach((i, k) => { const t = H + step * (k + 1); bgv(prev, false, t); bgv(i, true, t); pw(i, t, t + step, ssOf(i) + (sc[i].end - sc[i].t) * 0.6, -3); prev = i; });
+    bgv(prev, false, U); bgv(L, true, U); tl.set('#s' + L, { opacity: 1 }, U);
+    const lb = ['sb', 'px', 'sp'].map((k) => document.getElementById(k + L)).filter(Boolean);
+    touched.forEach((x) => { if (!lb.includes(x)) tl.set(x, { filter: 'none', scale: 1 }, U); });
+    lb.forEach((x) => { if (!touched.has(x)) tl.set(x, { filter: BL, scale: 1.12 }, 0); tl.fromTo(x, { filter: BL, scale: 1.12 }, { filter: CLR, scale: 1, duration: 0.45, ease: 'power2.out', immediateRender: false }, U).set(x, { filter: 'none' }, U + 0.46); });
+    // the cold-open header: premise label, ??? counter, blinking metric (never the final value)
+    tl.fromTo('#rwh', { opacity: 0 }, { opacity: 1, duration: 0.3, immediateRender: false }, 0.15).set('#rwh', { opacity: 0 }, U);
+    tl.set('#rwh', { opacity: 0 }, 0);
+    for (let k = 0; k * 0.35 < U; k++) tl.set('#rwh .wm', { opacity: k % 2 ? 0.2 : 0.85 }, k * 0.35);
     // VHS look: scanlines, tracking bands, jitter, a blinking rewind icon, then a hard stop
     tl.set('#rwx', { opacity: 1 }, H).set('#rwx', { opacity: 0 }, U);
     tl.fromTo('#rwx .band', { y: -200 }, { y: 1920, duration: RD / 2, ease: 'none', repeat: 1, immediateRender: false }, H)
@@ -937,12 +947,13 @@ window.renderPost = (data) => {
     tl.set('#rwt', { opacity: 0 }, 0);
     tl.set('.caps', { opacity: 0 }, 0).set('.caps', { opacity: 1 }, U + TH + 0.4);   // captions return once the headers are back up
     window.smoothWin.push([0, U + 0.4]);
-    window._rw = { U, live3d: !!sc[L].w3d, keep3d: !sc[E].bgUrl };
+    window._rw = { U, live3d: !!sc[L].w3d, keep3d: !sc[E].bgUrl, BL, CLR };
     window.sfx = window.sfx.filter((c) => c.t >= U - 0.05);
     window.sfx.push({ t: 0.05, kind: 'whoosh', vol: 0.08 }, { t: H, kind: 'rewind', vol: 0.2 }, { t: U, kind: 'thud', vol: 0.1 });
   }
   if (data.introSfx !== false && window.IntroSfx) window.IntroSfx.apply(tl, data);   // intro sound design (introsfx.js)
   if (window.W3D) window.W3D.build(tl, data);   // low-poly 3D layer behind any scene with w3d (world3d.js)
+  if (window._rw?.keep3d && document.getElementById('w3dwrap')) tl.set('#w3dwrap', { filter: window._rw.BL }, 0).fromTo('#w3dwrap', { filter: window._rw.BL }, { filter: window._rw.CLR, duration: 0.45, immediateRender: false }, window._rw.U).set('#w3dwrap', { filter: 'none' }, window._rw.U + 0.46);   // 3D end state: blurred too
   if (window._rw && !window._rw.keep3d && document.getElementById('w3dwrap')) tl.set('#w3dwrap', { opacity: 0 }, 0).set('#w3dwrap', { opacity: 0 }, 0.02).set('#w3dwrap', { opacity: window._rw.live3d ? 1 : 0 }, window._rw.U);   // the rewind intro shows the end-state still, not the 3D layer
   tl.set({}, {}, data.duration);
   window.faceVideo = data.face ? document.getElementById('fv') : null;

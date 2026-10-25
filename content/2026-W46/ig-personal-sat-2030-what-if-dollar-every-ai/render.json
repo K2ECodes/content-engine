@@ -164,7 +164,9 @@
     "$1 every time",
     "someone says AI"
    ],
-   "until": "Out"
+   "until": "Out",
+   "label": "+$1 EVERY \"AI\"",
+   "metric": "Times heard: ???"
   }
  }
 }

@@ -155,7 +155,8 @@
     "leaves tomorrow"
    ],
    "until": "No",
-   "scene": 6
+   "scene": 6,
+   "metric": "Order restored: ???"
   }
  }
 }
