@@ -2,7 +2,7 @@
  "post": "content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video",
  "source": "video.mp4",
  "duration": 51.866667,
- "created": "2026-10-25T02:20:31.433Z",
+ "created": "2026-10-25T03:34:39.787Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,66 @@
     "speed 0.97x",
     "trim 0.15s",
     "audio x1.06 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ig-personal-sat-1500-what-if-10-nigerian-video/v06.mp4",
+   "hook": "Jollof wars go global",
+   "caption": "Jollof wars go global.\n\nHere's what would actually happen.\n\nDay 1 every DNA test says Nigeria.\n\nWeek 1 the embassy says no.\n\n10 years later, racism doesn't survive the family reunion.\n\nThe real numbers: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.\n\nWhat's the first thing you'd do as a 10% Nigerian?\n\nTell me below, and follow for part 2.\n\n#Nigeria #Naija #Afrobeats #Lagos #whatif",
+   "coverMs": 2014,
+   "changes": [
+    "hook \"Jollof wars go global\"",
+    "zoom 1.043 reframe 0.00/0.65",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.14s",
+    "audio x1.09"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ig-personal-sat-1500-what-if-10-nigerian-video/v07.mp4",
+   "hook": "Everyone is 10% Nigerian now",
+   "caption": "Everyone is 10% Nigerian now.\n\nHere's what would actually happen.\n\nDay 1 every DNA test says Nigeria.\n\nWeek 1 the embassy says no.\n\n10 years later, racism doesn't survive the family reunion.\n\nThe real numbers: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.\n\nWhat's the first thing you'd do as a 10% Nigerian?\n\nTell me below, and follow for part 2.\n\n#Nigeria #Naija #Afrobeats #Lagos #whatif",
+   "coverMs": 3110,
+   "changes": [
+    "hook \"Everyone is 10% Nigerian now\"",
+    "zoom 1.058 reframe 0.00/0.82",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.4s",
+    "audio x1.07 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ig-personal-sat-1500-what-if-10-nigerian-video/v08.mp4",
+   "hook": "Day 1: every DNA test says Nigeria",
+   "caption": "Day 1: every DNA test says Nigeria.\n\nHere's what would actually happen.\n\nDay 1 every DNA test says Nigeria.\n\nWeek 1 the embassy says no.\n\n10 years later, racism doesn't survive the family reunion.\n\nThe real numbers: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.\n\nWhat's the first thing you'd do as a 10% Nigerian?\n\nTell me below, and follow for part 2.\n\n#Nigeria #Naija #Afrobeats #Lagos #whatif",
+   "coverMs": 3998,
+   "changes": [
+    "hook \"Day 1: every DNA test says Nigeria\"",
+    "zoom 1.042 reframe 0.00/0.50",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.33s",
+    "audio x1.01 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ig-personal-sat-1500-what-if-10-nigerian-video/v09.mp4",
+   "hook": "What if the whole world got Nigerian DNA?",
+   "caption": "What if the whole world got Nigerian DNA?\n\nHere's what would actually happen.\n\nDay 1 every DNA test says Nigeria.\n\nWeek 1 the embassy says no.\n\n10 years later, racism doesn't survive the family reunion.\n\nThe real numbers: Nigeria has 237M people, the diaspora sent home $21B in 2024, and people found Nigerian artists 1B+ times on Spotify last year.\n\nWhat's the first thing you'd do as a 10% Nigerian?\n\nTell me below, and follow for part 2.\n\n#Nigeria #Naija #Afrobeats #Lagos #whatif",
+   "coverMs": 3299,
+   "changes": [
+    "hook \"What if the whole world got Nigerian DNA?\"",
+    "zoom 1.056 reframe 0.00/0.62",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.18s",
+    "audio x1 + ding-1.wav"
    ]
   }
  ]

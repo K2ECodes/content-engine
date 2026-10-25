@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-mon-2030-swap-gas-station-dance",
  "source": "video.mp4",
  "duration": 15.045079,
- "created": "2026-10-25T01:59:17.118Z",
+ "created": "2026-10-25T03:27:33.456Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,66 @@
     "speed 1.03x",
     "trim 0.26s",
     "audio x0.98"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ig-personal-mon-2030-swap-gas-station-dance/v06.mp4",
+   "hook": "I've never done this dance",
+   "caption": "I've never done this dance in my life.\n\nGave an AI a few photos of me and a dance video.\n\nIt did the rest.\n\nSame moves, same song, same gas station.\n\nThe video model copies every step from the original clip and rebuilds it with my face.\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 1989,
+   "changes": [
+    "hook \"I've never done this dance\"",
+    "zoom 1.066 reframe 0.42/0.42",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.2s",
+    "audio x0.97 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ig-personal-mon-2030-swap-gas-station-dance/v07.mp4",
+   "hook": "AI taught me this dance",
+   "caption": "AI taught me this dance in 15 seconds.\n\nGave an AI a few photos of me and a dance video.\n\nIt did the rest.\n\nSame moves, same song, same gas station.\n\nThe video model copies every step from the original clip and rebuilds it with my face.\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 3888,
+   "changes": [
+    "hook \"AI taught me this dance\"",
+    "zoom 1.060 reframe 0.11/0.16",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.25s",
+    "audio x0.89"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ig-personal-mon-2030-swap-gas-station-dance/v08.mp4",
+   "hook": "Same gas station. New dancer.",
+   "caption": "Same gas station, new dancer.\n\nGave an AI a few photos of me and a dance video.\n\nIt did the rest.\n\nSame moves, same song, same gas station.\n\nThe video model copies every step from the original clip and rebuilds it with my face.\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 2437,
+   "changes": [
+    "hook \"Same gas station. New dancer.\"",
+    "zoom 1.067 reframe 0.57/0.17",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.11s",
+    "audio x0.92 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ig-personal-mon-2030-swap-gas-station-dance/v09.mp4",
+   "hook": "Did you clock it?",
+   "caption": "Did you clock it?\n\nGave an AI a few photos of me and a dance video.\n\nIt did the rest.\n\nSame moves, same song, same gas station.\n\nThe video model copies every step from the original clip and rebuilds it with my face.\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 1704,
+   "changes": [
+    "hook \"Did you clock it?\"",
+    "zoom 1.031 reframe 0.47/0.17",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.39s",
+    "audio x0.89 + impact-soft-2.wav"
    ]
   }
  ]

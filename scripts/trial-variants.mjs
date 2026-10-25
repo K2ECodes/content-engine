@@ -13,7 +13,7 @@ import { chromium } from 'playwright';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const post = path.resolve(process.argv[2] || '');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i >= 0 ? process.argv[i + 1] : d; };
-const N = Number(arg('n', 10)), SEED = Number(arg('seed', 1));
+const N = Number(arg('n', 10)), SEED = Number(arg('seed', 1)), FROM = Number(arg('from', 1));   // --from 6: keep existing v01..v05 files, render only v06+
 const src = path.join(post, 'video.mp4');
 if (!fs.existsSync(src)) { console.error(`no video.mp4 in ${post}`); process.exit(1); }
 const cfg = fs.existsSync(path.join(post, 'trials.json')) ? JSON.parse(fs.readFileSync(path.join(post, 'trials.json'), 'utf8')) : {};
@@ -74,11 +74,12 @@ for (let i = 1; i <= N; i++) {
   const coverMs = Math.round(between(r, 400, Math.min(4000, (dur - 1) * 1000)));
   const file = path.join(out, `${id}.mp4`);
 
+  const keep = i < FROM && fs.existsSync(file);
   const cw = `iw/${z.toFixed(4)}`, ch = `ih/${z.toFixed(4)}`;
   let vchain = `[0:v]trim=start=${trim},setpts=PTS-STARTPTS,crop=${cw}:${ch}:(iw-${cw})*${ox.toFixed(3)}:(ih-${ch})*${oy.toFixed(3)},scale=1080:1920:flags=lanczos,${grade.vf},setpts=PTS/${speed}`;
   const inputs = ['-i', src];
   let n = 1;
-  if (hook) {
+  if (hook && !keep) {
     const png = path.join(out, `${id}-hook.png`);
     await hookPng(hook, png);
     inputs.push('-loop', '1', '-t', '2.6', '-i', png);
@@ -93,7 +94,7 @@ for (let i = 1; i <= N; i++) {
     filters.push(`${a},aresample=48000[a]`);
     maps.push('-map', '[a]');
   }
-  const res = spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', ...inputs, '-filter_complex', filters.join(';'), ...maps,
+  const res = keep ? { status: 0 } : spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', ...inputs, '-filter_complex', filters.join(';'), ...maps,
     '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', file], { stdio: 'inherit' });
   if (res.status) { console.error(`ffmpeg failed on ${id}`); process.exit(1); }
   const changes = [`zoom ${z.toFixed(3)} reframe ${ox.toFixed(2)}/${oy.toFixed(2)}`, `grade ${grade.name}`, `speed ${speed}x`, `trim ${trim}s`, `audio x${vol}${sfx ? ` + ${path.basename(sfx)}` : ''}`];
