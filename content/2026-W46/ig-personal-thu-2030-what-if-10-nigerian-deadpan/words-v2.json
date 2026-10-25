@@ -1,0 +1,1305 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.381
+  },
+  {
+   "w": "if",
+   "start": 0.381,
+   "end": 0.495
+  },
+  {
+   "w": "everyone",
+   "start": 0.495,
+   "end": 0.819
+  },
+  {
+   "w": "on",
+   "start": 0.819,
+   "end": 0.971
+  },
+  {
+   "w": "Earth",
+   "start": 0.971,
+   "end": 1.181
+  },
+  {
+   "w": "woke",
+   "start": 1.181,
+   "end": 1.39
+  },
+  {
+   "w": "up",
+   "start": 1.39,
+   "end": 1.524
+  },
+  {
+   "w": "10%",
+   "start": 1.524,
+   "end": 2.0
+  },
+  {
+   "w": "Nigerian?",
+   "start": 2.0,
+   "end": 2.533
+  },
+  {
+   "w": "Not",
+   "start": 2.914,
+   "end": 3.01
+  },
+  {
+   "w": "a",
+   "start": 3.01,
+   "end": 3.105
+  },
+  {
+   "w": "little",
+   "start": 3.105,
+   "end": 3.219
+  },
+  {
+   "w": "bit.",
+   "start": 3.219,
+   "end": 3.429
+  },
+  {
+   "w": "Exactly",
+   "start": 3.657,
+   "end": 3.924
+  },
+  {
+   "w": "10%.",
+   "start": 3.924,
+   "end": 4.724
+  },
+  {
+   "w": "And",
+   "start": 4.724,
+   "end": 5.086
+  },
+  {
+   "w": "your",
+   "start": 5.086,
+   "end": 5.162
+  },
+  {
+   "w": "family",
+   "start": 5.162,
+   "end": 5.41
+  },
+  {
+   "w": "found",
+   "start": 5.41,
+   "end": 5.619
+  },
+  {
+   "w": "out",
+   "start": 5.619,
+   "end": 5.81
+  },
+  {
+   "w": "first.",
+   "start": 5.81,
+   "end": 6.019
+  },
+  {
+   "w": "Day",
+   "start": 6.476,
+   "end": 6.59
+  },
+  {
+   "w": "1.",
+   "start": 6.59,
+   "end": 6.838
+  },
+  {
+   "w": "An",
+   "start": 7.219,
+   "end": 7.295
+  },
+  {
+   "w": "aunty",
+   "start": 7.295,
+   "end": 7.6
+  },
+  {
+   "w": "you've",
+   "start": 7.6,
+   "end": 7.714
+  },
+  {
+   "w": "never",
+   "start": 7.714,
+   "end": 7.848
+  },
+  {
+   "w": "met",
+   "start": 7.848,
+   "end": 8.057
+  },
+  {
+   "w": "calls",
+   "start": 8.057,
+   "end": 8.305
+  },
+  {
+   "w": "you",
+   "start": 8.305,
+   "end": 8.457
+  },
+  {
+   "w": "at",
+   "start": 8.457,
+   "end": 8.552
+  },
+  {
+   "w": "6 AM.",
+   "start": 8.552,
+   "end": 9.067
+  },
+  {
+   "w": "She",
+   "start": 9.41,
+   "end": 9.524
+  },
+  {
+   "w": "knows",
+   "start": 9.524,
+   "end": 9.657
+  },
+  {
+   "w": "your",
+   "start": 9.657,
+   "end": 9.79
+  },
+  {
+   "w": "full",
+   "start": 9.79,
+   "end": 10.019
+  },
+  {
+   "w": "name,",
+   "start": 10.019,
+   "end": 10.324
+  },
+  {
+   "w": "your",
+   "start": 10.667,
+   "end": 10.743
+  },
+  {
+   "w": "salary,",
+   "start": 10.743,
+   "end": 11.105
+  },
+  {
+   "w": "and",
+   "start": 11.543,
+   "end": 11.6
+  },
+  {
+   "w": "that",
+   "start": 11.6,
+   "end": 11.695
+  },
+  {
+   "w": "you're",
+   "start": 11.695,
+   "end": 11.81
+  },
+  {
+   "w": "still",
+   "start": 11.81,
+   "end": 11.981
+  },
+  {
+   "w": "single.",
+   "start": 11.981,
+   "end": 12.267
+  },
+  {
+   "w": "She",
+   "start": 12.724,
+   "end": 12.914
+  },
+  {
+   "w": "hangs",
+   "start": 12.914,
+   "end": 13.105
+  },
+  {
+   "w": "up",
+   "start": 13.105,
+   "end": 13.276
+  },
+  {
+   "w": "before",
+   "start": 13.276,
+   "end": 13.448
+  },
+  {
+   "w": "you",
+   "start": 13.448,
+   "end": 13.581
+  },
+  {
+   "w": "can",
+   "start": 13.581,
+   "end": 13.676
+  },
+  {
+   "w": "ask",
+   "start": 13.676,
+   "end": 13.867
+  },
+  {
+   "w": "who",
+   "start": 13.867,
+   "end": 14.019
+  },
+  {
+   "w": "she",
+   "start": 14.019,
+   "end": 14.152
+  },
+  {
+   "w": "is.",
+   "start": 14.152,
+   "end": 14.4
+  },
+  {
+   "w": "Day",
+   "start": 14.857,
+   "end": 14.971
+  },
+  {
+   "w": "3.",
+   "start": 14.971,
+   "end": 15.181
+  },
+  {
+   "w": "Your",
+   "start": 15.733,
+   "end": 15.752
+  },
+  {
+   "w": "mum",
+   "start": 15.752,
+   "end": 15.905
+  },
+  {
+   "w": "calls",
+   "start": 15.905,
+   "end": 16.152
+  },
+  {
+   "w": "you",
+   "start": 16.152,
+   "end": 16.305
+  },
+  {
+   "w": "this",
+   "start": 16.305,
+   "end": 16.571
+  },
+  {
+   "w": "boy",
+   "start": 16.571,
+   "end": 16.895
+  },
+  {
+   "w": "in",
+   "start": 16.895,
+   "end": 17.143
+  },
+  {
+   "w": "the",
+   "start": 17.143,
+   "end": 17.219
+  },
+  {
+   "w": "middle",
+   "start": 17.219,
+   "end": 17.352
+  },
+  {
+   "w": "of",
+   "start": 17.352,
+   "end": 17.486
+  },
+  {
+   "w": "the",
+   "start": 17.486,
+   "end": 17.562
+  },
+  {
+   "w": "supermarket.",
+   "start": 17.562,
+   "end": 17.962
+  },
+  {
+   "w": "9",
+   "start": 18.362,
+   "end": 18.552
+  },
+  {
+   "w": "times.",
+   "start": 18.552,
+   "end": 18.952
+  },
+  {
+   "w": "Now",
+   "start": 19.295,
+   "end": 19.41
+  },
+  {
+   "w": "strangers",
+   "start": 19.41,
+   "end": 19.638
+  },
+  {
+   "w": "are",
+   "start": 19.638,
+   "end": 19.886
+  },
+  {
+   "w": "calling",
+   "start": 19.886,
+   "end": 20.038
+  },
+  {
+   "w": "you",
+   "start": 20.038,
+   "end": 20.21
+  },
+  {
+   "w": "this",
+   "start": 20.21,
+   "end": 20.4
+  },
+  {
+   "w": "boy",
+   "start": 20.4,
+   "end": 20.648
+  },
+  {
+   "w": "too.",
+   "start": 20.648,
+   "end": 20.838
+  },
+  {
+   "w": "Week",
+   "start": 21.562,
+   "end": 21.771
+  },
+  {
+   "w": "1.",
+   "start": 21.771,
+   "end": 22.0
+  },
+  {
+   "w": "The",
+   "start": 22.476,
+   "end": 22.571
+  },
+  {
+   "w": "office",
+   "start": 22.571,
+   "end": 22.781
+  },
+  {
+   "w": "party",
+   "start": 22.781,
+   "end": 23.029
+  },
+  {
+   "w": "has",
+   "start": 23.029,
+   "end": 23.181
+  },
+  {
+   "w": "two",
+   "start": 23.181,
+   "end": 23.371
+  },
+  {
+   "w": "pots",
+   "start": 23.371,
+   "end": 23.6
+  },
+  {
+   "w": "of",
+   "start": 23.6,
+   "end": 23.733
+  },
+  {
+   "w": "jollof.",
+   "start": 23.733,
+   "end": 24.0
+  },
+  {
+   "w": "By",
+   "start": 24.362,
+   "end": 24.571
+  },
+  {
+   "w": "3 PM",
+   "start": 24.571,
+   "end": 25.067
+  },
+  {
+   "w": "it's",
+   "start": 25.067,
+   "end": 25.333
+  },
+  {
+   "w": "a",
+   "start": 25.333,
+   "end": 25.39
+  },
+  {
+   "w": "full",
+   "start": 25.39,
+   "end": 25.6
+  },
+  {
+   "w": "argument",
+   "start": 25.6,
+   "end": 25.943
+  },
+  {
+   "w": "about",
+   "start": 25.943,
+   "end": 26.152
+  },
+  {
+   "w": "whose",
+   "start": 26.152,
+   "end": 26.4
+  },
+  {
+   "w": "is",
+   "start": 26.4,
+   "end": 26.457
+  },
+  {
+   "w": "better.",
+   "start": 26.457,
+   "end": 26.648
+  },
+  {
+   "w": "It",
+   "start": 26.648,
+   "end": 27.086
+  },
+  {
+   "w": "ends",
+   "start": 27.086,
+   "end": 27.257
+  },
+  {
+   "w": "with",
+   "start": 27.257,
+   "end": 27.429
+  },
+  {
+   "w": "HR,",
+   "start": 27.429,
+   "end": 27.79
+  },
+  {
+   "w": "a",
+   "start": 28.152,
+   "end": 28.248
+  },
+  {
+   "w": "written",
+   "start": 28.248,
+   "end": 28.419
+  },
+  {
+   "w": "warning,",
+   "start": 28.419,
+   "end": 28.743
+  },
+  {
+   "w": "and",
+   "start": 29.086,
+   "end": 29.2
+  },
+  {
+   "w": "nobody",
+   "start": 29.2,
+   "end": 29.486
+  },
+  {
+   "w": "returning",
+   "start": 29.486,
+   "end": 29.81
+  },
+  {
+   "w": "the",
+   "start": 29.81,
+   "end": 29.962
+  },
+  {
+   "w": "plates.",
+   "start": 29.962,
+   "end": 30.21
+  },
+  {
+   "w": "Week",
+   "start": 30.648,
+   "end": 30.686
+  },
+  {
+   "w": "3.",
+   "start": 30.686,
+   "end": 30.895
+  },
+  {
+   "w": "Every",
+   "start": 31.467,
+   "end": 31.714
+  },
+  {
+   "w": "house",
+   "start": 31.714,
+   "end": 31.905
+  },
+  {
+   "w": "on",
+   "start": 31.905,
+   "end": 32.057
+  },
+  {
+   "w": "your",
+   "start": 32.057,
+   "end": 32.133
+  },
+  {
+   "w": "street",
+   "start": 32.133,
+   "end": 32.362
+  },
+  {
+   "w": "buys",
+   "start": 32.362,
+   "end": 32.552
+  },
+  {
+   "w": "a",
+   "start": 32.552,
+   "end": 32.686
+  },
+  {
+   "w": "generator.",
+   "start": 32.686,
+   "end": 33.01
+  },
+  {
+   "w": "Just",
+   "start": 33.2,
+   "end": 33.371
+  },
+  {
+   "w": "in",
+   "start": 33.371,
+   "end": 33.505
+  },
+  {
+   "w": "case.",
+   "start": 33.505,
+   "end": 33.676
+  },
+  {
+   "w": "Nobody's",
+   "start": 34.133,
+   "end": 34.476
+  },
+  {
+   "w": "power",
+   "start": 34.476,
+   "end": 34.686
+  },
+  {
+   "w": "has",
+   "start": 34.686,
+   "end": 34.857
+  },
+  {
+   "w": "gone",
+   "start": 34.857,
+   "end": 35.01
+  },
+  {
+   "w": "off,",
+   "start": 35.01,
+   "end": 35.276
+  },
+  {
+   "w": "they",
+   "start": 35.543,
+   "end": 35.657
+  },
+  {
+   "w": "argue",
+   "start": 35.657,
+   "end": 35.905
+  },
+  {
+   "w": "about",
+   "start": 35.905,
+   "end": 36.095
+  },
+  {
+   "w": "whose",
+   "start": 36.095,
+   "end": 36.324
+  },
+  {
+   "w": "is",
+   "start": 36.324,
+   "end": 36.419
+  },
+  {
+   "w": "louder",
+   "start": 36.419,
+   "end": 36.59
+  },
+  {
+   "w": "anyway.",
+   "start": 36.59,
+   "end": 36.876
+  },
+  {
+   "w": "Month",
+   "start": 37.276,
+   "end": 37.371
+  },
+  {
+   "w": "2.",
+   "start": 37.371,
+   "end": 37.657
+  },
+  {
+   "w": "Weddings",
+   "start": 37.962,
+   "end": 38.229
+  },
+  {
+   "w": "now",
+   "start": 38.229,
+   "end": 38.476
+  },
+  {
+   "w": "last",
+   "start": 38.476,
+   "end": 38.762
+  },
+  {
+   "w": "three",
+   "start": 38.762,
+   "end": 38.952
+  },
+  {
+   "w": "days.",
+   "start": 38.952,
+   "end": 39.181
+  },
+  {
+   "w": "You",
+   "start": 39.524,
+   "end": 39.619
+  },
+  {
+   "w": "have",
+   "start": 39.619,
+   "end": 39.752
+  },
+  {
+   "w": "four",
+   "start": 39.752,
+   "end": 39.886
+  },
+  {
+   "w": "this",
+   "start": 39.886,
+   "end": 40.057
+  },
+  {
+   "w": "weekend.",
+   "start": 40.057,
+   "end": 40.286
+  },
+  {
+   "w": "You've",
+   "start": 40.667,
+   "end": 40.819
+  },
+  {
+   "w": "spent",
+   "start": 40.819,
+   "end": 40.971
+  },
+  {
+   "w": "2,400",
+   "start": 40.971,
+   "end": 41.981
+  },
+  {
+   "w": "euros",
+   "start": 41.981,
+   "end": 42.267
+  },
+  {
+   "w": "on",
+   "start": 42.267,
+   "end": 42.476
+  },
+  {
+   "w": "matching",
+   "start": 42.476,
+   "end": 42.762
+  },
+  {
+   "w": "outfits,",
+   "start": 42.762,
+   "end": 43.105
+  },
+  {
+   "w": "and",
+   "start": 43.429,
+   "end": 43.562
+  },
+  {
+   "w": "you've",
+   "start": 43.562,
+   "end": 43.695
+  },
+  {
+   "w": "only",
+   "start": 43.695,
+   "end": 43.829
+  },
+  {
+   "w": "met",
+   "start": 43.829,
+   "end": 43.981
+  },
+  {
+   "w": "one",
+   "start": 43.981,
+   "end": 44.19
+  },
+  {
+   "w": "of",
+   "start": 44.19,
+   "end": 44.305
+  },
+  {
+   "w": "the",
+   "start": 44.305,
+   "end": 44.362
+  },
+  {
+   "w": "couples.",
+   "start": 44.362,
+   "end": 44.571
+  },
+  {
+   "w": "Month",
+   "start": 45.029,
+   "end": 45.162
+  },
+  {
+   "w": "6.",
+   "start": 45.162,
+   "end": 45.486
+  },
+  {
+   "w": "The",
+   "start": 45.905,
+   "end": 45.905
+  },
+  {
+   "w": "visa",
+   "start": 45.905,
+   "end": 46.095
+  },
+  {
+   "w": "queue",
+   "start": 46.095,
+   "end": 46.343
+  },
+  {
+   "w": "at",
+   "start": 46.343,
+   "end": 46.476
+  },
+  {
+   "w": "the",
+   "start": 46.476,
+   "end": 46.552
+  },
+  {
+   "w": "embassy",
+   "start": 46.552,
+   "end": 46.819
+  },
+  {
+   "w": "stretches",
+   "start": 46.819,
+   "end": 47.181
+  },
+  {
+   "w": "41",
+   "start": 47.181,
+   "end": 47.657
+  },
+  {
+   "w": "kilometres.",
+   "start": 47.657,
+   "end": 47.962
+  },
+  {
+   "w": "People",
+   "start": 48.552,
+   "end": 48.686
+  },
+  {
+   "w": "bring",
+   "start": 48.686,
+   "end": 48.895
+  },
+  {
+   "w": "folding",
+   "start": 48.895,
+   "end": 49.181
+  },
+  {
+   "w": "chairs",
+   "start": 49.181,
+   "end": 49.581
+  },
+  {
+   "w": "and",
+   "start": 49.581,
+   "end": 49.848
+  },
+  {
+   "w": "coolers",
+   "start": 49.848,
+   "end": 50.21
+  },
+  {
+   "w": "of",
+   "start": 50.21,
+   "end": 50.324
+  },
+  {
+   "w": "food.",
+   "start": 50.324,
+   "end": 50.552
+  },
+  {
+   "w": "At",
+   "start": 50.819,
+   "end": 50.971
+  },
+  {
+   "w": "the",
+   "start": 50.971,
+   "end": 51.048
+  },
+  {
+   "w": "front,",
+   "start": 51.048,
+   "end": 51.257
+  },
+  {
+   "w": "the",
+   "start": 51.524,
+   "end": 51.6
+  },
+  {
+   "w": "answer",
+   "start": 51.6,
+   "end": 51.829
+  },
+  {
+   "w": "is",
+   "start": 51.829,
+   "end": 52.0
+  },
+  {
+   "w": "still",
+   "start": 52.0,
+   "end": 52.229
+  },
+  {
+   "w": "no.",
+   "start": 52.229,
+   "end": 52.495
+  },
+  {
+   "w": "Year",
+   "start": 52.933,
+   "end": 53.105
+  },
+  {
+   "w": "1.",
+   "start": 53.105,
+   "end": 53.333
+  },
+  {
+   "w": "We",
+   "start": 53.333,
+   "end": 53.905
+  },
+  {
+   "w": "have",
+   "start": 53.905,
+   "end": 54.076
+  },
+  {
+   "w": "food",
+   "start": 54.076,
+   "end": 54.286
+  },
+  {
+   "w": "at",
+   "start": 54.286,
+   "end": 54.419
+  },
+  {
+   "w": "home",
+   "start": 54.419,
+   "end": 54.61
+  },
+  {
+   "w": "becomes",
+   "start": 54.61,
+   "end": 54.895
+  },
+  {
+   "w": "the",
+   "start": 54.895,
+   "end": 55.105
+  },
+  {
+   "w": "most",
+   "start": 55.105,
+   "end": 55.314
+  },
+  {
+   "w": "said",
+   "start": 55.314,
+   "end": 55.562
+  },
+  {
+   "w": "sentence",
+   "start": 55.562,
+   "end": 55.79
+  },
+  {
+   "w": "on",
+   "start": 55.79,
+   "end": 56.0
+  },
+  {
+   "w": "Earth.",
+   "start": 56.0,
+   "end": 56.267
+  },
+  {
+   "w": "Fast",
+   "start": 56.571,
+   "end": 56.876
+  },
+  {
+   "w": "food",
+   "start": 56.876,
+   "end": 57.105
+  },
+  {
+   "w": "sales",
+   "start": 57.105,
+   "end": 57.352
+  },
+  {
+   "w": "drop",
+   "start": 57.352,
+   "end": 57.638
+  },
+  {
+   "w": "31%.",
+   "start": 57.638,
+   "end": 58.552
+  },
+  {
+   "w": "Burger",
+   "start": 58.552,
+   "end": 59.029
+  },
+  {
+   "w": "chains",
+   "start": 59.029,
+   "end": 59.314
+  },
+  {
+   "w": "quietly",
+   "start": 59.314,
+   "end": 59.771
+  },
+  {
+   "w": "add",
+   "start": 59.771,
+   "end": 60.038
+  },
+  {
+   "w": "jollof",
+   "start": 60.038,
+   "end": 60.438
+  },
+  {
+   "w": "to",
+   "start": 60.438,
+   "end": 60.571
+  },
+  {
+   "w": "the",
+   "start": 60.571,
+   "end": 60.629
+  },
+  {
+   "w": "menu.",
+   "start": 60.629,
+   "end": 60.876
+  },
+  {
+   "w": "Year",
+   "start": 61.257,
+   "end": 61.333
+  },
+  {
+   "w": "5.",
+   "start": 61.333,
+   "end": 61.619
+  },
+  {
+   "w": "Every",
+   "start": 62.0,
+   "end": 62.171
+  },
+  {
+   "w": "stadium",
+   "start": 62.171,
+   "end": 62.495
+  },
+  {
+   "w": "plays",
+   "start": 62.495,
+   "end": 62.781
+  },
+  {
+   "w": "Afrobeats",
+   "start": 62.781,
+   "end": 63.314
+  },
+  {
+   "w": "at",
+   "start": 63.314,
+   "end": 63.467
+  },
+  {
+   "w": "half time.",
+   "start": 63.467,
+   "end": 63.924
+  },
+  {
+   "w": "Even",
+   "start": 64.381,
+   "end": 64.514
+  },
+  {
+   "w": "funerals",
+   "start": 64.514,
+   "end": 64.99
+  },
+  {
+   "w": "have",
+   "start": 64.99,
+   "end": 65.105
+  },
+  {
+   "w": "a",
+   "start": 65.105,
+   "end": 65.2
+  },
+  {
+   "w": "DJ",
+   "start": 65.2,
+   "end": 65.41
+  },
+  {
+   "w": "now.",
+   "start": 65.41,
+   "end": 65.733
+  },
+  {
+   "w": "Nobody",
+   "start": 66.229,
+   "end": 66.381
+  },
+  {
+   "w": "remembers",
+   "start": 66.381,
+   "end": 66.667
+  },
+  {
+   "w": "what",
+   "start": 66.667,
+   "end": 66.895
+  },
+  {
+   "w": "a",
+   "start": 66.895,
+   "end": 66.99
+  },
+  {
+   "w": "quiet",
+   "start": 66.99,
+   "end": 67.238
+  },
+  {
+   "w": "afternoon",
+   "start": 67.238,
+   "end": 67.6
+  },
+  {
+   "w": "sounds",
+   "start": 67.6,
+   "end": 67.962
+  },
+  {
+   "w": "like.",
+   "start": 67.962,
+   "end": 68.229
+  },
+  {
+   "w": "Year",
+   "start": 68.552,
+   "end": 68.648
+  },
+  {
+   "w": "10.",
+   "start": 68.648,
+   "end": 68.933
+  },
+  {
+   "w": "You",
+   "start": 69.448,
+   "end": 69.543
+  },
+  {
+   "w": "finally",
+   "start": 69.543,
+   "end": 69.829
+  },
+  {
+   "w": "become",
+   "start": 69.829,
+   "end": 70.095
+  },
+  {
+   "w": "a",
+   "start": 70.095,
+   "end": 70.21
+  },
+  {
+   "w": "doctor.",
+   "start": 70.21,
+   "end": 70.476
+  },
+  {
+   "w": "Your",
+   "start": 70.952,
+   "end": 71.029
+  },
+  {
+   "w": "mum",
+   "start": 71.029,
+   "end": 71.2
+  },
+  {
+   "w": "hugs",
+   "start": 71.2,
+   "end": 71.467
+  },
+  {
+   "w": "you,",
+   "start": 71.467,
+   "end": 71.695
+  },
+  {
+   "w": "cries,",
+   "start": 71.981,
+   "end": 72.267
+  },
+  {
+   "w": "and",
+   "start": 72.743,
+   "end": 72.8
+  },
+  {
+   "w": "asks",
+   "start": 72.8,
+   "end": 73.029
+  },
+  {
+   "w": "when",
+   "start": 73.029,
+   "end": 73.162
+  },
+  {
+   "w": "you're",
+   "start": 73.162,
+   "end": 73.238
+  },
+  {
+   "w": "getting",
+   "start": 73.238,
+   "end": 73.371
+  },
+  {
+   "w": "married.",
+   "start": 73.371,
+   "end": 73.657
+  },
+  {
+   "w": "What",
+   "start": 74.114,
+   "end": 74.286
+  },
+  {
+   "w": "should",
+   "start": 74.286,
+   "end": 74.362
+  },
+  {
+   "w": "happen",
+   "start": 74.362,
+   "end": 74.552
+  },
+  {
+   "w": "next?",
+   "start": 74.552,
+   "end": 74.838
+  }
+ ],
+ "text": "What if everyone on earth woke up 10% Nigerian? Not a little bit. Exactly 10%. And your family found out first. Day 1. An auntie you've never met calls you at 6am. She knows your full name, your salary, and that you're still single. She hangs up before you can ask who she is. Day 3. Your mom calls you this boy in the middle of the supermarket. 9 times. Now strangers are calling you this boy too. Week 1. The office party has two pots of geloff. By 3pm it's a full argument about who's is better. It ends with HR, a written warning, and nobody returning the plates. Week 3. Every house on your street buys a generator. Just in case. Nobody's power has gone off, they argue about who's is louder anyway. Month 2. Weddings now last three days. You have four this weekend. You've spent 2,400 euros on matching outfits, and you've only met one of the couples. Month 6. The visa queue at the embassy stretches 41 kilometers. People bring folding chairs and coolers of food. At the front, the answer is still no. Year 1. We have food at home becomes the most said sentence on earth. Fast food sales drop 31%. Burger chains quietly add joe loft to the menu. Year 5. Every stadium plays afro beats at halftime. Even funerals have a DJ now. Nobody remembers what a quiet afternoon sounds like. Year 10. You finally become a doctor. Your mom hugs you, cries, and asks when you're getting married. What should happen next?"
+}

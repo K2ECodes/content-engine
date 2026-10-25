@@ -1,9 +1,9 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
-  "script": "What if you got $1 every time someone said AI? Day 1. A podcast plays in the background, $14. Day 2. You go to 1 tech meetup. Week 1. Your friends start saying it on purpose, they want a cut. Week 3. Your bank freezes your account. Suspicious activity. Month 2. Earnings season. Every CEO says it 80 times per call. Month 6. The tax office has a whole team just for you. Year 1. Companies start saying machine learning, just to avoid paying you. Year 3. 3 governments try to ban the word. Year 10. You're a billionaire. You still can't explain what AI is. What should pay you next?",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
+  "script": "What if you got $1 every time someone said AI? Out loud, anywhere on Earth, straight into your account. Day 1. A podcast plays at the gym. $14 before your second set. You buy yourself lunch and feel like a genius. Day 2. You go to 1 tech meetup. 2 hours, 4 slices of free pizza, $1,340. You never miss a meetup again. Week 1. Your friends work it out. Now they say it on purpose, then ask for 20%. 6 of them. Same group chat. Week 3. Your bank freezes your account for suspicious activity. $61,000, and you can't even buy a coffee. 9 calls from the fraud team. Month 2. Earnings season. Every CEO says it 80 times per call. You listen to 212 of them, just for fun. Month 6. $3.2M. The tax office sets up a whole team just for you. 14 people. They have a group chat too. Year 1. Companies panic and start saying machine learning, just to avoid paying you. It doesn't work. You're at $41M. Year 3. 3 governments try to ban the word. Tech conferences now sound like spy movies. $900M. Year 10. $14B. More than some countries. And you still can't explain what AI actually is. What should pay you next?",
   "stop": false,
   "capStyle": "wif",
   "tail": 1.6,

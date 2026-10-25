@@ -1,9 +1,9 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
-  "script": "What if everyone on Earth woke up 10% Nigerian? Day 1. An aunty you've never met calls to ask about your future. Day 3. Your mum now calls you this boy. In public. Week 1. The office party jollof argument ends in HR. Week 3. Your whole street now argues about whose generator is louder. Month 2. Every wedding lasts 3 days. You have 4 this weekend. Month 6. The visa queue reaches the next city. They still say no. Year 1. 'We have food at home' becomes the most said sentence on Earth. Year 5. Every stadium on Earth plays Afrobeats, even at funerals. Year 10. You finally become a doctor. Your mum asks when you're getting married. What should happen next?",
+  "audio": "audio/vo-v2f.wav",
+  "words": "words-v2.json",
+  "script": "What if everyone on Earth woke up 10% Nigerian? Not a little bit. Exactly 10%. And your family found out first. Day 1. An aunty you've never met calls you at 6 AM. She knows your full name, your salary, and that you're still single. She hangs up before you can ask who she is. Day 3. Your mum calls you \"this boy\" in the middle of the supermarket. 9 times. Now strangers are calling you \"this boy\" too. Week 1. The office party has 2 pots of jollof. By 3 PM it's a full argument about whose is better. It ends with HR, a written warning, and nobody returning the plates. Week 3. Every house on your street buys a generator, just in case. Nobody's power has gone off. They argue about whose is louder anyway. Month 2. Weddings now last 3 days. You have 4 this weekend. You've spent 2,400 euros on matching outfits, and you've only met 1 of the couples. Month 6. The visa queue at the embassy stretches 41 kilometres. People bring folding chairs and coolers of food. At the front, the answer is still no. Year 1. \"We have food at home\" becomes the most-said sentence on Earth. Fast food sales drop 31%. Burger chains quietly add jollof to the menu. Year 5. Every stadium plays Afrobeats at half time. Even funerals have a DJ now. Nobody remembers what a quiet afternoon sounds like. Year 10. You finally become a doctor. Your mum hugs you, cries, and asks when you're getting married. What should happen next?",
   "stop": false,
   "capStyle": "wif",
   "tail": 1.6,

@@ -1,0 +1,560 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0,
+   "end": 0.36
+  },
+  {
+   "w": "if",
+   "start": 0.36,
+   "end": 0.46
+  },
+  {
+   "w": "you",
+   "start": 0.46,
+   "end": 0.54
+  },
+  {
+   "w": "got",
+   "start": 0.54,
+   "end": 0.7
+  },
+  {
+   "w": "$1",
+   "start": 0.7,
+   "end": 0.98
+  },
+  {
+   "w": "every",
+   "start": 0.98,
+   "end": 1.48
+  },
+  {
+   "w": "time",
+   "start": 1.48,
+   "end": 1.72
+  },
+  {
+   "w": "someone",
+   "start": 1.72,
+   "end": 1.96
+  },
+  {
+   "w": "said",
+   "start": 1.96,
+   "end": 2.16
+  },
+  {
+   "w": "AI?",
+   "start": 2.16,
+   "end": 2.4
+  },
+  {
+   "w": "Day",
+   "start": 3.194,
+   "end": 3.294
+  },
+  {
+   "w": "1.",
+   "start": 3.294,
+   "end": 3.554
+  },
+  {
+   "w": "A",
+   "start": 3.795,
+   "end": 4.001
+  },
+  {
+   "w": "podcast",
+   "start": 4.001,
+   "end": 4.301
+  },
+  {
+   "w": "plays",
+   "start": 4.301,
+   "end": 4.621
+  },
+  {
+   "w": "in",
+   "start": 4.621,
+   "end": 4.741
+  },
+  {
+   "w": "the",
+   "start": 4.741,
+   "end": 4.821
+  },
+  {
+   "w": "background,",
+   "start": 4.821,
+   "end": 5.081
+  },
+  {
+   "w": "$14.",
+   "start": 5.381,
+   "end": 5.701
+  },
+  {
+   "w": "Day",
+   "start": 6.237,
+   "end": 6.542
+  },
+  {
+   "w": "2.",
+   "start": 6.542,
+   "end": 6.822
+  },
+  {
+   "w": "You",
+   "start": 6.822,
+   "end": 7.462
+  },
+  {
+   "w": "go",
+   "start": 7.462,
+   "end": 7.582
+  },
+  {
+   "w": "to",
+   "start": 7.582,
+   "end": 7.662
+  },
+  {
+   "w": "1",
+   "start": 7.662,
+   "end": 7.882
+  },
+  {
+   "w": "tech",
+   "start": 7.882,
+   "end": 8.062
+  },
+  {
+   "w": "meetup.",
+   "start": 8.062,
+   "end": 8.402
+  },
+  {
+   "w": "Week",
+   "start": 8.919,
+   "end": 9.039
+  },
+  {
+   "w": "1.",
+   "start": 9.039,
+   "end": 9.359
+  },
+  {
+   "w": "Your",
+   "start": 9.359,
+   "end": 9.939
+  },
+  {
+   "w": "friends",
+   "start": 9.939,
+   "end": 10.139
+  },
+  {
+   "w": "start",
+   "start": 10.139,
+   "end": 10.359
+  },
+  {
+   "w": "saying",
+   "start": 10.359,
+   "end": 10.559
+  },
+  {
+   "w": "it",
+   "start": 10.559,
+   "end": 10.679
+  },
+  {
+   "w": "on",
+   "start": 10.679,
+   "end": 10.759
+  },
+  {
+   "w": "purpose,",
+   "start": 10.759,
+   "end": 11.019
+  },
+  {
+   "w": "they",
+   "start": 11.319,
+   "end": 11.399
+  },
+  {
+   "w": "want",
+   "start": 11.399,
+   "end": 11.559
+  },
+  {
+   "w": "a",
+   "start": 11.559,
+   "end": 11.639
+  },
+  {
+   "w": "cut.",
+   "start": 11.639,
+   "end": 11.819
+  },
+  {
+   "w": "Week",
+   "start": 12.431,
+   "end": 12.571
+  },
+  {
+   "w": "3.",
+   "start": 12.571,
+   "end": 12.851
+  },
+  {
+   "w": "Your",
+   "start": 12.851,
+   "end": 13.292
+  },
+  {
+   "w": "bank",
+   "start": 13.292,
+   "end": 13.472
+  },
+  {
+   "w": "freezes",
+   "start": 13.472,
+   "end": 13.852
+  },
+  {
+   "w": "your",
+   "start": 13.852,
+   "end": 13.972
+  },
+  {
+   "w": "account.",
+   "start": 13.972,
+   "end": 14.252
+  },
+  {
+   "w": "Suspicious",
+   "start": 14.642,
+   "end": 14.902
+  },
+  {
+   "w": "activity.",
+   "start": 14.902,
+   "end": 15.342
+  },
+  {
+   "w": "Month",
+   "start": 15.923,
+   "end": 16.123
+  },
+  {
+   "w": "2.",
+   "start": 16.123,
+   "end": 16.423
+  },
+  {
+   "w": "Earnings",
+   "start": 16.423,
+   "end": 17.023
+  },
+  {
+   "w": "season.",
+   "start": 17.023,
+   "end": 17.343
+  },
+  {
+   "w": "Every",
+   "start": 17.343,
+   "end": 18.063
+  },
+  {
+   "w": "CEO",
+   "start": 18.063,
+   "end": 18.563
+  },
+  {
+   "w": "says",
+   "start": 18.563,
+   "end": 18.903
+  },
+  {
+   "w": "it",
+   "start": 18.903,
+   "end": 19.083
+  },
+  {
+   "w": "80",
+   "start": 19.083,
+   "end": 19.283
+  },
+  {
+   "w": "times",
+   "start": 19.283,
+   "end": 19.583
+  },
+  {
+   "w": "per",
+   "start": 19.583,
+   "end": 19.803
+  },
+  {
+   "w": "call.",
+   "start": 19.803,
+   "end": 20.063
+  },
+  {
+   "w": "Month",
+   "start": 20.47,
+   "end": 20.71
+  },
+  {
+   "w": "6.",
+   "start": 20.71,
+   "end": 21.05
+  },
+  {
+   "w": "The",
+   "start": 21.05,
+   "end": 21.53
+  },
+  {
+   "w": "tax",
+   "start": 21.53,
+   "end": 21.75
+  },
+  {
+   "w": "office",
+   "start": 21.75,
+   "end": 22.05
+  },
+  {
+   "w": "has",
+   "start": 22.05,
+   "end": 22.25
+  },
+  {
+   "w": "a",
+   "start": 22.25,
+   "end": 22.37
+  },
+  {
+   "w": "whole",
+   "start": 22.37,
+   "end": 22.59
+  },
+  {
+   "w": "team",
+   "start": 22.59,
+   "end": 22.87
+  },
+  {
+   "w": "just",
+   "start": 22.87,
+   "end": 23.09
+  },
+  {
+   "w": "for",
+   "start": 23.09,
+   "end": 23.27
+  },
+  {
+   "w": "you.",
+   "start": 23.27,
+   "end": 23.45
+  },
+  {
+   "w": "Year",
+   "start": 23.888,
+   "end": 24.068
+  },
+  {
+   "w": "1.",
+   "start": 24.068,
+   "end": 24.388
+  },
+  {
+   "w": "Companies",
+   "start": 24.388,
+   "end": 24.811
+  },
+  {
+   "w": "start",
+   "start": 24.811,
+   "end": 25.091
+  },
+  {
+   "w": "saying",
+   "start": 25.091,
+   "end": 25.311
+  },
+  {
+   "w": "machine",
+   "start": 25.311,
+   "end": 25.531
+  },
+  {
+   "w": "learning,",
+   "start": 25.531,
+   "end": 25.871
+  },
+  {
+   "w": "just",
+   "start": 26.151,
+   "end": 26.611
+  },
+  {
+   "w": "to",
+   "start": 26.611,
+   "end": 26.731
+  },
+  {
+   "w": "avoid",
+   "start": 26.731,
+   "end": 26.931
+  },
+  {
+   "w": "paying",
+   "start": 26.931,
+   "end": 27.191
+  },
+  {
+   "w": "you.",
+   "start": 27.191,
+   "end": 27.411
+  },
+  {
+   "w": "Year",
+   "start": 27.411,
+   "end": 28.171
+  },
+  {
+   "w": "3.",
+   "start": 28.171,
+   "end": 28.491
+  },
+  {
+   "w": "3",
+   "start": 28.951,
+   "end": 29.411
+  },
+  {
+   "w": "governments",
+   "start": 29.411,
+   "end": 29.711
+  },
+  {
+   "w": "try",
+   "start": 29.711,
+   "end": 29.971
+  },
+  {
+   "w": "to",
+   "start": 29.971,
+   "end": 30.051
+  },
+  {
+   "w": "ban",
+   "start": 30.051,
+   "end": 30.251
+  },
+  {
+   "w": "the",
+   "start": 30.251,
+   "end": 30.391
+  },
+  {
+   "w": "word.",
+   "start": 30.391,
+   "end": 30.591
+  },
+  {
+   "w": "Year",
+   "start": 31.051,
+   "end": 31.291
+  },
+  {
+   "w": "10.",
+   "start": 31.291,
+   "end": 31.591
+  },
+  {
+   "w": "You're",
+   "start": 32.161,
+   "end": 32.391
+  },
+  {
+   "w": "a",
+   "start": 32.391,
+   "end": 32.431
+  },
+  {
+   "w": "billionaire.",
+   "start": 32.431,
+   "end": 32.731
+  },
+  {
+   "w": "You",
+   "start": 33.191,
+   "end": 33.311
+  },
+  {
+   "w": "still",
+   "start": 33.311,
+   "end": 33.531
+  },
+  {
+   "w": "can't",
+   "start": 33.531,
+   "end": 33.751
+  },
+  {
+   "w": "explain",
+   "start": 33.751,
+   "end": 33.971
+  },
+  {
+   "w": "what",
+   "start": 33.971,
+   "end": 34.111
+  },
+  {
+   "w": "AI",
+   "start": 34.111,
+   "end": 34.291
+  },
+  {
+   "w": "is.",
+   "start": 34.291,
+   "end": 34.671
+  },
+  {
+   "w": "What",
+   "start": 34.951,
+   "end": 35.091
+  },
+  {
+   "w": "should",
+   "start": 35.091,
+   "end": 35.211
+  },
+  {
+   "w": "pay",
+   "start": 35.211,
+   "end": 35.371
+  },
+  {
+   "w": "you",
+   "start": 35.371,
+   "end": 35.491
+  },
+  {
+   "w": "next?",
+   "start": 35.491,
+   "end": 35.731
+  }
+ ],
+ "text": "What if you got $1 every time someone said AI? Day 1 A podcast plays in the background, $14. Day 2 You go to one tech meetup. Week 1 Your friends start saying it on purpose, they want to cut. Week 3 Your bank freezes your account. Suspicious activity. Month 2 Earning season Every CEO says it 80 times per call. Month 6 The tax office has a whole team just for you. Year 1 Companies start saying machine learning, just to avoid paying you. Year 3 Three governments try to ban the word. Year 10 You're a billionaire. You still can't explain what AI is. What should pay you next?"
+}
