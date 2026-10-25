@@ -1,0 +1,54 @@
+{
+ "template": "edit",
+ "data": {
+  "thread": [
+   {
+    "from": "them",
+    "text": "Why are you smiling at your laptop",
+    "at": 0.3
+   },
+   {
+    "from": "me",
+    "text": "Claude fixed my code",
+    "at": 1.25
+   },
+   {
+    "from": "me",
+    "text": "First try",
+    "at": 1.85
+   },
+   {
+    "from": "them",
+    "text": "Should I be worried",
+    "at": 2.75
+   },
+   {
+    "from": "me",
+    "text": "Yes",
+    "at": 3.6
+   }
+  ],
+  "readAt": 4.0,
+  "readTime": "11:49 PM",
+  "timeLabel": "11:47 PM",
+  "brand": "claude",
+  "brandAccent": false,
+  "hookEnd": 4.6,
+  "stingerEnd": 5.4,
+  "duration": 12,
+  "seed": 5,
+  "music": {
+   "file": "../../../assets/edit-audio/dl-ilck-dashboard.mp3",
+   "bpm": 108,
+   "volume": 1,
+   "drop": 62.34
+  },
+  "posterAt": 2.8,
+  "montage": {
+   "brands": [
+    "claude",
+    "cursor"
+   ]
+  }
+ }
+}

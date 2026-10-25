@@ -91,7 +91,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Fight card carousels (Korede, 2026-10-25, ref instagram.com/p/DezNuipk6Jm)**: head-to-head carousels with glossy 3D brand mascots, round-by-round (price, the work, apps, the brain, initiative, trust), an honest verdict and a comment-keyword CTA, every slide a subtle-motion video. For @koredekola.ai (AI tools) and @contentsystems.ai (business angle). Skill: .claude/skills/fight-card-carousel.
 
-- **AI edits on @koredekola (Korede, 2026-10-25)**: the short meme-text + montage "AI edit" reels can go on @koredekola too (music edit, catalog track up front).
+- **AI edits on @koredekola (Korede, 2026-10-25)**: the short meme-text + montage "AI edit" reels can go on @koredekola too (music edit; the track is baked into the file, so no catalog song).
 - **@koredekola swaps/skits scope (Korede, 2026-10-25)**: AI swaps are only funny, comedic, entertaining top-of-funnel skits (relatable situations, memes, absurd moments). Never swap real lifestyle content (no footballer-life, Berlin-life or fake LARP lifestyle swaps). Real lifestyle content comes from footage Korede records; we edit it.
 
 - **What-ifs need detail (Korede, 2026-10-25)**: 2 to 3 specific sentences per beat (what happens, a concrete number/who/where, consequence or joke), fewer richer beats over many thin ones.
@@ -112,7 +112,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **IG to TikTok mirror (Korede, 2026-10-25)**: every video and carousel on his Instagram (@koredekola and @koredekola.ai, including ones he posts by hand) also goes on his TikTok (Korede Kola): videos as videos, carousels as TikTok photo posts (auto music, title). Original files, not trial variants; short TikTok captions.
 
-- **AI edit reels (2026-10-25, ref tiktok.com/t/ZPLAptXyg)**: 12 s meme text-thread hook about an AI, brand stinger, fast generative montage in our palette cut to a beat (templates/edit, scripts/render-edit.mjs, .claude/skills/ai-edit-reel). For @koredekola.ai and Korede's TikTok; caption = hashtags only.
+- **AI edit reels (2026-10-25, ref tiktok.com/t/ZPLAptXyg)**: 11 to 12 s meme text-thread hook about an AI, brand stinger, then a montage of REAL footage cut to the beat (Korede: never generated HyperFrames/HTML filler after the hook): screen recordings of real AI tool UIs, code, terminals, dashboards and official demo clips from assets/edit-clips (manifest.json with sources; `scripts/edit-clips-record.mjs`, `scripts/edit-clips-extract.py`), brand-matched (Claude edit = Claude clips). Track from Korede's Destroy Lonely session folders (If Looks Could Kill / NO STYLIST first) or the reference audio, hardest drop on the first montage cut, baked in at full level, so no catalog song on IG. Check the whole video at 4 fps before scheduling. For @koredekola.ai, @koredekola (trials, hashtags + #explore #K2E, no #ai) and Korede's TikTok; caption = hashtags only. Skill: .claude/skills/ai-edit-reel.
 
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.

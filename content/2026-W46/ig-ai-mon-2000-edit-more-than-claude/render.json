@@ -1,0 +1,49 @@
+{
+ "template": "edit",
+ "data": {
+  "thread": [
+   {
+    "from": "them",
+    "text": "Be honest. Do you love me?",
+    "at": 0.3
+   },
+   {
+    "from": "me",
+    "text": "Obviously",
+    "at": 1.25
+   },
+   {
+    "from": "them",
+    "text": "More than Claude?",
+    "at": 2.15
+   },
+   {
+    "from": "me",
+    "text": "Next question.",
+    "at": 3.2
+   }
+  ],
+  "readAt": 3.6,
+  "readTime": "11:49 PM",
+  "timeLabel": "11:47 PM",
+  "brand": "claude",
+  "brandAccent": true,
+  "hookEnd": 4.2,
+  "stingerEnd": 5.0,
+  "duration": 11.2,
+  "seed": 1,
+  "music": {
+   "file": "../../../assets/edit-audio/ref-tt1.mp3",
+   "bpm": 117.5,
+   "volume": 1,
+   "start": 0
+  },
+  "posterAt": 2.8,
+  "montage": {
+   "brands": [
+    "claude",
+    "any"
+   ]
+  }
+ }
+}

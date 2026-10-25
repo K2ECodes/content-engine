@@ -1,0 +1,37 @@
+{
+ "post": "content/2026-W46/ig-ai-tue-2000-edit-3am-chatgpt",
+ "source": "video.mp4",
+ "duration": 12,
+ "created": "2026-10-25T16:44:57.973Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/kk-ig-ai-tue-2000-edit-3am-chatgpt/v01.mp4",
+   "hook": null,
+   "caption": "#chatgpt #ai #openai #edit #relatable",
+   "coverMs": 1723,
+   "changes": [
+    "zoom 1.034 reframe 0.83/0.66",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.21s",
+    "audio x1.08"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/kk-ig-ai-tue-2000-edit-3am-chatgpt/v02.mp4",
+   "hook": null,
+   "caption": "#chatgpt #ai #relationships #edit #funny",
+   "coverMs": 2589,
+   "changes": [
+    "zoom 1.059 reframe 0.12/0.43",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.23s",
+    "audio x0.91"
+   ]
+  }
+ ]
+}

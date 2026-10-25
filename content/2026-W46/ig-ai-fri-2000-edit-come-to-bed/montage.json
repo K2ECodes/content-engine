@@ -1,0 +1,113 @@
+{
+ "cut": 0.2727272727272727,
+ "clips": [
+  {
+   "file": "yt-vUdNaAAc4FY-01.mp4",
+   "source": "https://www.youtube.com/watch?v=vUdNaAAc4FY (Anthropic: How we built Artifacts with Claude)"
+  },
+  {
+   "file": "yt-AJpK3YTTKZ4-01.mp4",
+   "source": "https://www.youtube.com/watch?v=AJpK3YTTKZ4 (Anthropic: Introducing Claude Code)"
+  },
+  {
+   "file": "ref-tt1-16.mp4",
+   "source": "reference edit tiktok.com/t/ZPLAptXyg (montage only, punched in 1.1x)"
+  },
+  {
+   "file": "yt-AJpK3YTTKZ4-04.mp4",
+   "source": "https://www.youtube.com/watch?v=AJpK3YTTKZ4 (Anthropic: Introducing Claude Code)"
+  },
+  {
+   "file": "web-anthropic-claude-05.mp4",
+   "source": "https://www.anthropic.com/claude"
+  },
+  {
+   "file": "yt-en0GuyhieQk-03.mp4",
+   "source": "https://www.youtube.com/watch?v=en0GuyhieQk (Claude: Introducing Claude Dashboards and Claude Motion)"
+  },
+  {
+   "file": "yt-vUdNaAAc4FY-02.mp4",
+   "source": "https://www.youtube.com/watch?v=vUdNaAAc4FY (Anthropic: How we built Artifacts with Claude)"
+  },
+  {
+   "file": "yt-Fb-68zqcSVs-06.mp4",
+   "source": "https://www.youtube.com/watch?v=Fb-68zqcSVs (Claude: Introducing Claude Duet)"
+  },
+  {
+   "file": "yt-bVXiNb9RyyI-01.mp4",
+   "source": "https://www.youtube.com/watch?v=bVXiNb9RyyI (Claude: How an Anthropic designer uses Claude Slides)"
+  },
+  {
+   "file": "yt-en0GuyhieQk-01.mp4",
+   "source": "https://www.youtube.com/watch?v=en0GuyhieQk (Claude: Introducing Claude Dashboards and Claude Motion)"
+  },
+  {
+   "file": "web-anthropic-claude-07.mp4",
+   "source": "https://www.anthropic.com/claude"
+  },
+  {
+   "file": "web-claude-code-05.mp4",
+   "source": "https://www.claude.com/product/claude-code"
+  },
+  {
+   "file": "ref-tt1-11.mp4",
+   "source": "reference edit tiktok.com/t/ZPLAptXyg (montage only, punched in 1.1x)"
+  },
+  {
+   "file": "web-anthropic-claude-06.mp4",
+   "source": "https://www.anthropic.com/claude"
+  },
+  {
+   "file": "web-gh-claude-code-06.mp4",
+   "source": "https://github.com/anthropics/claude-code"
+  },
+  {
+   "file": "yt-AJpK3YTTKZ4-03.mp4",
+   "source": "https://www.youtube.com/watch?v=AJpK3YTTKZ4 (Anthropic: Introducing Claude Code)"
+  },
+  {
+   "file": "yt-iSn77jvjojA-02.mp4",
+   "source": "https://www.youtube.com/watch?v=iSn77jvjojA (Anthropic: Turn ideas into interactive artifacts)"
+  },
+  {
+   "file": "ref-tt1-10.mp4",
+   "source": "reference edit tiktok.com/t/ZPLAptXyg (montage only, punched in 1.1x)"
+  },
+  {
+   "file": "yt-Fb-68zqcSVs-04.mp4",
+   "source": "https://www.youtube.com/watch?v=Fb-68zqcSVs (Claude: Introducing Claude Duet)"
+  },
+  {
+   "file": "yt-iSn77jvjojA-03.mp4",
+   "source": "https://www.youtube.com/watch?v=iSn77jvjojA (Anthropic: Turn ideas into interactive artifacts)"
+  },
+  {
+   "file": "yt-Fb-68zqcSVs-03.mp4",
+   "source": "https://www.youtube.com/watch?v=Fb-68zqcSVs (Claude: Introducing Claude Duet)"
+  },
+  {
+   "file": "web-gh-claude-code-04.mp4",
+   "source": "https://github.com/anthropics/claude-code"
+  },
+  {
+   "file": "ref-tt1-07.mp4",
+   "source": "reference edit tiktok.com/t/ZPLAptXyg (montage only, punched in 1.1x)"
+  },
+  {
+   "file": "yt-AJpK3YTTKZ4-06.mp4",
+   "source": "https://www.youtube.com/watch?v=AJpK3YTTKZ4 (Anthropic: Introducing Claude Code)"
+  },
+  {
+   "file": "yt-t_LBECIQQqs-05.mp4",
+   "source": "https://www.youtube.com/watch?v=t_LBECIQQqs (Claude: Introducing Claude Design by Anthropic Labs)"
+  },
+  {
+   "file": "ref-tt1-08.mp4",
+   "source": "reference edit tiktok.com/t/ZPLAptXyg (montage only, punched in 1.1x)"
+  },
+  {
+   "file": "yt-fl1DSmwQKKY-06.mp4",
+   "source": "https://www.youtube.com/watch?v=fl1DSmwQKKY (Claude: What is Claude Code?)"
+  }
+ ]
+}

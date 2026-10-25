@@ -1,0 +1,37 @@
+{
+ "post": "content/2026-W46/ig-ai-fri-2000-edit-come-to-bed",
+ "source": "video.mp4",
+ "duration": 11.833333,
+ "created": "2026-10-25T16:41:40.169Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/kk-ig-ai-fri-2000-edit-come-to-bed/v01.mp4",
+   "hook": null,
+   "caption": "#claudecode #ai #agents #edit #vibecode",
+   "coverMs": 3152,
+   "changes": [
+    "zoom 1.035 reframe 0.17/0.56",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.2s",
+    "audio x0.93"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/kk-ig-ai-fri-2000-edit-come-to-bed/v02.mp4",
+   "hook": null,
+   "caption": "#claude #ai #4am #edit #developer",
+   "coverMs": 2873,
+   "changes": [
+    "zoom 1.049 reframe 0.68/0.31",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.4s",
+    "audio x0.9"
+   ]
+  }
+ ]
+}

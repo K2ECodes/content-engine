@@ -1,0 +1,37 @@
+{
+ "post": "content/2026-W46/ig-ai-mon-2000-edit-more-than-claude",
+ "source": "video.mp4",
+ "duration": 11.2,
+ "created": "2026-10-25T16:42:37.610Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/kk-ig-ai-mon-2000-edit-more-than-claude/v01.mp4",
+   "hook": null,
+   "caption": "#claude #ai #code #edit #vibecode",
+   "coverMs": 1851,
+   "changes": [
+    "zoom 1.043 reframe 0.38/0.53",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.29s",
+    "audio x1.08"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/kk-ig-ai-mon-2000-edit-more-than-claude/v02.mp4",
+   "hook": null,
+   "caption": "#claudeai #ai #relationships #edit #vibecode",
+   "coverMs": 1439,
+   "changes": [
+    "zoom 1.060 reframe 0.21/0.75",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.14s",
+    "audio x0.93"
+   ]
+  }
+ ]
+}

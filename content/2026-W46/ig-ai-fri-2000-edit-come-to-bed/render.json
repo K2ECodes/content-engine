@@ -1,0 +1,48 @@
+{
+ "template": "edit",
+ "data": {
+  "thread": [
+   {
+    "from": "them",
+    "text": "Come to bed",
+    "at": 0.3
+   },
+   {
+    "from": "me",
+    "text": "5 more minutes",
+    "at": 1.0
+   },
+   {
+    "from": "them",
+    "text": "It's 4am",
+    "at": 1.8
+   },
+   {
+    "from": "me",
+    "text": "The agent's almost done",
+    "at": 2.65
+   }
+  ],
+  "readAt": 3.1,
+  "readTime": "4:12 AM",
+  "timeLabel": "4:09 AM",
+  "brand": "claude",
+  "brandAccent": true,
+  "hookEnd": 4.0,
+  "stingerEnd": 4.8,
+  "duration": 12,
+  "seed": 9,
+  "music": {
+   "file": "../../../assets/edit-audio/dl-ns-crash-out.mp3",
+   "bpm": 110,
+   "volume": 1,
+   "drop": 10.88
+  },
+  "posterAt": 2.8,
+  "montage": {
+   "brands": [
+    "claude"
+   ]
+  }
+ }
+}

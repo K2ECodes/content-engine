@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=block" rel="stylesheet">
+<style>
+  /* "AI edit" reel (research/style-claude-edit-reel.md): iMessage meme hook on black, brand stinger, then the montage (render-edit.mjs renders only the hook + stinger from this page; the montage is real footage from assets/edit-clips, never these canvas scenes, which are kept only as a preview fallback).
+     Every frame is a pure function of t (window.seek), so renders are deterministic. 1080x1920. */
+  html, body { margin: 0; background: #000; }
+  .canvas { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+  canvas { position: absolute; inset: 0; }
+  #thread { position: absolute; left: 0; right: 0; top: 0; bottom: 0; transform-origin: 50% 45%; font-family: 'Inter', -apple-system, sans-serif; }
+  .ts { text-align: center; color: #8e8e93; font: 500 30px/1 'Inter'; margin: 0 0 34px; }
+  .ts b { color: #8e8e93; font-weight: 600; }
+  .msgs { position: absolute; left: 110px; right: 110px; top: 640px; display: flex; flex-direction: column; gap: 14px; }
+  .b { max-width: 640px; padding: 22px 34px 24px; border-radius: 44px; font: 400 46px/1.22 'Inter'; letter-spacing: -0.01em; opacity: 0; transform: translateY(18px) scale(.96); transform-origin: left bottom; }
+  .b.them { align-self: flex-start; background: #262629; color: #fff; border-bottom-left-radius: 14px; }
+  .b.me { align-self: flex-end; background: #1f8bff; color: #fff; border-bottom-right-radius: 14px; transform-origin: right bottom; }
+  .typing { align-self: flex-start; background: #262629; border-radius: 40px; padding: 26px 30px; display: flex; gap: 12px; opacity: 0; }
+  .typing.me { align-self: flex-end; background: #1f8bff; }
+  .typing i { width: 18px; height: 18px; border-radius: 50%; background: #8e8e93; display: block; }
+  .typing.me i { background: #cfe5ff; }
+  .read { align-self: flex-end; color: #8e8e93; font: 500 28px/1 'Inter'; opacity: 0; margin-top: 2px; }
+  .read b { font-weight: 600; }
+  #stinger { position: absolute; inset: 0; display: grid; place-items: center; opacity: 0; }
+  #stinger img { width: 260px; height: 260px; object-fit: contain; }
+  #stinger .wm { display: flex; align-items: center; gap: 26px; color: #F5F0E8; font: 600 120px/1 'Space Grotesk'; letter-spacing: -0.03em; }
+  #stinger .wm img { width: 120px; height: 120px; }
+  #flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+<div class="canvas" id="cv">
+  <canvas id="gfx" width="1080" height="1920"></canvas>
+  <div id="stinger"></div>
+  <div id="thread"><div class="msgs" id="msgs"></div></div>
+  <div id="flash"></div>
+  <div style="position:absolute;opacity:0;pointer-events:none"><span style="font:500 20px 'JetBrains Mono'">a</span><span style="font:700 20px 'JetBrains Mono'">a</span><span style="font:700 20px 'Space Grotesk'">a</span></div>
+</div>
+<script>
+// data: { thread: [{from: "them"|"me", text, at, typeFor?}], readAt, readTime, brand: {id, name, color, logoUrl, logoInvert}, hookEnd, stingerEnd, duration, cut (s per montage shot), seed, scenes: [names] }
+let D, G, ctx;
+const PAL = { ink: '#0B140E', ink2: '#17281C', cream: '#F5F0E8', gold: '#E8B84B', sage: '#9CCAA0', dim: 'rgba(245,240,232,.35)' };
+const rnd = (s) => { let x = Math.sin(s * 9301 + 49297) * 233280; return x - Math.floor(x); };
+const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+
+window.renderPost = (data) => {
+  D = data; G = document.getElementById('gfx'); ctx = G.getContext('2d');
+  const msgs = document.getElementById('msgs');
+  msgs.innerHTML = `<div class="ts"><b>Today</b> ${D.timeLabel || '11:48 PM'}</div>` + D.thread.map((m, i) =>
+    `<div class="typing ${m.from}" id="ty${i}"><i></i><i></i><i></i></div><div class="b ${m.from}" id="m${i}">${m.text.replace(/</g, '&lt;')}</div>`).join('') +
+    `<div class="read" id="read"><b>Read</b> ${D.readTime || '11:49 PM'}</div>`;
+  const s = document.getElementById('stinger'), b = D.brand;
+  s.innerHTML = `<div id="st1" style="position:absolute;inset:0;display:grid;place-items:center;background:${b.color}"><img src="${b.logoUrl}" style="${b.logoInvert ? 'filter:brightness(0) invert(1)' : ''}"></div>
+    <div id="st2" style="position:absolute;inset:0;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 120%, #1d3a28 0%, #050806 60%)"><div class="wm"><img src="${b.logoUrl}" style="${b.logoInvert ? 'filter:brightness(0) invert(1)' : ''}">${b.name}</div></div>`;
+  window.seek(0);
+};
+
+function bubbleState(t) {
+  D.thread.forEach((m, i) => {
+    const ty = document.getElementById('ty' + i), el = document.getElementById('m' + i);
+    const typeFor = m.typeFor ?? (m.from === 'them' ? 0.55 : 0);
+    const tyOn = typeFor > 0 && t >= m.at - typeFor && t < m.at;
+    ty.style.display = tyOn ? 'flex' : 'none';
+    ty.style.opacity = tyOn ? 1 : 0;
+    if (tyOn) [...ty.children].forEach((d, k) => { d.style.transform = `translateY(${Math.sin((t * 9) - k * 0.9) * -6}px)`; d.style.opacity = 0.5 + 0.5 * Math.max(0, Math.sin(t * 9 - k * 0.9)); });
+    const p = ease((t - m.at) / 0.22);
+    el.style.display = t >= m.at - 0.001 ? 'block' : 'none';
+    el.style.opacity = p; el.style.transform = `translateY(${(1 - p) * 18}px) scale(${0.96 + 0.04 * p})`;
+  });
+  const r = document.getElementById('read'); r.style.opacity = t >= D.readAt ? 1 : 0;
+}
+
+// ---------- montage scenes: each draws a full 1080x1920 frame from (local time u, seed k, accent a) ----------
+const W = 1080, H = 1920;
+function bg(c) { ctx.fillStyle = c; ctx.fillRect(0, 0, W, H); }
+function txt(s, x, y, size, color, font = 'JetBrains Mono', weight = 500, align = 'left') { ctx.font = `${weight} ${size}px '${font}'`; ctx.fillStyle = color; ctx.textAlign = align; ctx.fillText(s, x, y); }
+const CODE = ['const agent = await claude.run({', '  skill: "invoice-check",', '  approve: (draft) => human.review(draft),', '});', 'for (const line of invoice.lines) {', '  if (!rates.match(line)) flag(line);', '}', 'export async function ship(order) {', '  const quote = await carriers.best(order);', '  return draft(quote).waitFor("yes");', '}', '// 100+ agents online', 'status: 200 OK  ·  tokens 18,204', 'deploy --prod  ✓ built in 4.2s'];
+const SCENES = {
+  code(u, k, a) { bg('#0d0f0e'); const off = (u * 900 + k * 80) % 60;
+    for (let i = 0; i < 34; i++) { const line = CODE[(i + k) % CODE.length]; const y = 140 + i * 52 - off;
+      txt(String(i + 1 + k).padStart(3, ' '), 40, y, 26, 'rgba(255,255,255,.25)');
+      const parts = line.split(/(".*?"|\b(?:const|await|return|export|async|function|for|if|of)\b)/);
+      let x = 120; for (const p of parts) { if (!p) continue; const c = /^"/.test(p) ? PAL.gold : /^(const|await|return|export|async|function|for|if|of)$/.test(p) ? a : PAL.cream; ctx.font = "500 30px 'JetBrains Mono'"; ctx.fillStyle = c; ctx.textAlign = 'left'; ctx.fillText(p, x, y); x += ctx.measureText(p).width; } }
+    ctx.fillStyle = a; ctx.fillRect(120 + ((u * 40) % 20) * 30, 140 + 16 * 52 - off - 30, 16, 36); },
+  iso(u, k, a) { bg(PAL.ink); const cx = W / 2, cy = 720, s = 104;
+    for (let z = 0; z < 5; z++) for (let x = 0; x < 5; x++) for (let y = 0; y < 5; y++) {
+      const h = rnd(k * 31 + x * 7 + y * 13 + z) < 0.45 - z * 0.06 + Math.sin(u * 6 + x + y) * 0.08; if (!h) continue;
+      const px = cx + (x - y) * s * 0.866, py = cy + (x + y) * s * 0.5 - z * s - u * 40;
+      const top = [[px, py - s * 0.5], [px + s * 0.866, py], [px, py + s * 0.5], [px - s * 0.866, py]];
+      const shade = (pts, c) => { ctx.beginPath(); pts.forEach(([X, Y], i) => i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y)); ctx.closePath(); ctx.fillStyle = c; ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,.35)'; ctx.stroke(); };
+      shade(top, z % 2 ? PAL.gold : a);
+      shade([[px - s * 0.866, py], [px, py + s * 0.5], [px, py + s * 1.5], [px - s * 0.866, py + s]], '#2c3f31');
+      shade([[px + s * 0.866, py], [px, py + s * 0.5], [px, py + s * 1.5], [px + s * 0.866, py + s]], '#1d2b21'); }
+    txt('SYSTEM MAP · 125 NODES', 60, 1700, 30, PAL.dim); },
+  radial(u, k, a) { bg(PAL.cream); const cx = W / 2, cy = 960; ctx.lineWidth = 2.4;
+    for (let i = 0; i < 180; i++) { const ang = (i / 180) * Math.PI * 2 + u * 0.6, r1 = 120 + rnd(i + k) * 80, r2 = 300 + rnd(i * 3 + k) * 380;
+      ctx.strokeStyle = i % 9 === 0 ? a : 'rgba(23,40,28,.35)'; ctx.beginPath(); ctx.moveTo(cx + Math.cos(ang) * r1, cy + Math.sin(ang) * r1); ctx.lineTo(cx + Math.cos(ang) * r2, cy + Math.sin(ang) * r2); ctx.stroke(); }
+    for (let r = 1; r < 7; r++) { ctx.strokeStyle = 'rgba(23,40,28,.5)'; ctx.setLineDash([4, 10]); ctx.beginPath(); ctx.arc(cx, cy, r * 110, 0, Math.PI * 2); ctx.stroke(); } ctx.setLineDash([]);
+    for (let i = 0; i < 28; i++) { const ang = rnd(i + k * 5) * Math.PI * 2 + u, r = 200 + rnd(i * 11) * 500; ctx.fillStyle = i % 4 ? PAL.ink2 : a; ctx.fillRect(cx + Math.cos(ang) * r - 11, cy + Math.sin(ang) * r - 11, 22, 22); }
+    txt('ROUTING · LIVE', 60, 150, 32, PAL.ink2, 'JetBrains Mono', 700); },
+  tree(u, k, a) { bg(PAL.cream); ctx.strokeStyle = PAL.ink2; ctx.lineWidth = 2;
+    const node = (x, y, ang, len, d) => { if (d > 7) return; const x2 = x + Math.cos(ang) * len, y2 = y + Math.sin(ang) * len; ctx.globalAlpha = 1 - d * 0.1; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x2, y2); ctx.stroke();
+      ctx.fillStyle = d === 7 ? a : PAL.ink2; ctx.fillRect(x2 - 4, y2 - 4, 8, 8);
+      const sp = 0.38 + Math.sin(u * 3 + d) * 0.05; node(x2, y2, ang - sp, len * 0.72, d + 1); node(x2, y2, ang + sp, len * 0.72, d + 1); };
+    node(W / 2, 1500, -Math.PI / 2, 260, 0); ctx.globalAlpha = 1;
+    txt('DECISION TREE · 128 BRANCHES', 60, 150, 30, PAL.ink2, 'JetBrains Mono', 700); },
+  dash(u, k, a) { bg(PAL.cream); txt('THINK IT. SHIP IT.', 60, 150, 64, PAL.ink2, 'Space Grotesk', 700);
+    for (let c = 0; c < 4; c++) { const x = 60 + c * 245; txt(['LATENCY', 'AGENTS', 'TASKS', 'SAVED'][c], x, 240, 22, 'rgba(23,40,28,.55)'); txt([`${(21 + Math.floor(u * 40) % 9)}.7 ms`, `${100 + (k % 30)}`, `${(2400 + Math.floor(u * 900)).toLocaleString()}`, `$${(18 + k % 9)}K`][c], x, 290, 40, PAL.ink2, 'Space Grotesk', 700); }
+    for (let r = 0; r < 14; r++) { const y = 380 + r * 80; for (let i = 0; i < 26; i++) { const v = rnd(r * 26 + i + k) * (0.6 + 0.4 * Math.sin(u * 8 + i * 0.4 + r)); ctx.fillStyle = (i + r) % 7 === 0 ? a : r % 3 ? PAL.ink2 : PAL.gold; ctx.fillRect(60 + i * 37, y + 50 - v * 50, 26, Math.max(4, v * 50)); } }
+    ctx.strokeStyle = a; ctx.lineWidth = 4; ctx.beginPath(); for (let i = 0; i <= 60; i++) { const x = 60 + i * 16, y = 1650 - (Math.sin(i * 0.3 + u * 5) * 60 + i * 2.2); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); },
+  sphere(u, k, a) { bg('#050806'); const cx = W / 2, cy = 960, R = 420;
+    for (let i = 0; i < 3200; i++) { const t1 = rnd(i + k) * Math.PI * 2 + u * 0.8, p = Math.acos(2 * rnd(i * 7 + 3) - 1); const x = Math.sin(p) * Math.cos(t1), y = Math.cos(p), z = Math.sin(p) * Math.sin(t1);
+      const n = 0.82 + 0.25 * Math.sin(p * 6 + t1 * 3 + u * 4); const s = (z + 1.6) / 2.6; ctx.fillStyle = i % 13 === 0 ? a : `rgba(232,184,75,${0.35 + 0.65 * s})`; ctx.fillRect(cx + x * R * n, cy + y * R * n, 5 * s, 5 * s); }
+    txt('NEURAL MAP · 3,200 PTS', 60, 1760, 28, PAL.dim); },
+  terminal(u, k, a) { bg('#0a0c0b'); const lines = ['$ agents deploy --all', '  ✓ inbox-triage        ready', '  ✓ meeting-prep        ready', '  ✓ invoice-check       ready', '  ✓ follow-up-writer    ready', '  ◐ peak-support        warming', '', '$ run nightly', ''];
+    lines.forEach((l, i) => txt(l, 60, 200 + i * 60, 34, l.startsWith('$') ? PAL.gold : l.includes('◐') ? a : PAL.cream));
+    for (let b = 0; b < 8; b++) { const p = Math.min(1, ((u * 3 + rnd(b + k)) % 1.2)); txt(`job ${String(b + 1).padStart(2, '0')}`, 60, 820 + b * 90, 28, PAL.dim); ctx.fillStyle = '#1b231e'; ctx.fillRect(220, 795 + b * 90, 760, 30); ctx.fillStyle = b % 3 ? PAL.sage : a; ctx.fillRect(220, 795 + b * 90, 760 * p, 30); } },
+  waterfall(u, k, a) { bg('#050806'); for (let x = 0; x < 120; x++) for (let y = 0; y < 200; y++) { const v = 0.5 + 0.5 * Math.sin(x * 0.12 + (y + u * 120) * 0.08 + Math.sin(y * 0.05 + k) * 2); if (v < 0.35) continue; ctx.fillStyle = v > 0.92 ? a : v > 0.7 ? PAL.gold : `rgba(156,202,160,${v * 0.5})`; ctx.fillRect(x * 9, y * 9.6, 8, 8.6); } },
+  waves(u, k, a) { bg(PAL.ink); for (let l = 0; l < 42; l++) { ctx.strokeStyle = l % 7 === 0 ? a : `rgba(245,240,232,${0.12 + l * 0.012})`; ctx.lineWidth = 1.6; ctx.beginPath();
+    for (let x = 0; x <= W; x += 12) { const y = 380 + l * 30 + Math.sin(x * 0.012 + u * 4 + l * 0.3) * (40 + l * 3) * Math.sin(x / W * Math.PI); x ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); }
+    txt('SIGNAL · 42 CHANNELS', 60, 1700, 30, PAL.dim); },
+};
+const ORDER = ['code', 'iso', 'radial', 'dash', 'sphere', 'terminal', 'tree', 'waterfall', 'waves'];
+
+window.seek = (t) => {
+  const thread = document.getElementById('thread'), st = document.getElementById('stinger'), fl = document.getElementById('flash');
+  bg('#000');
+  if (t < D.hookEnd) {
+    thread.style.display = 'block'; st.style.opacity = 0;
+    const z = 1 + 0.16 * ease(t / D.hookEnd);
+    thread.style.transform = `scale(${z}) translateY(${-90 * ease(t / D.hookEnd)}px)`;
+    bubbleState(t); fl.style.opacity = 0; return;
+  }
+  thread.style.display = 'none';
+  if (t < D.stingerEnd) {
+    st.style.opacity = 1; const half = (D.hookEnd + D.stingerEnd) / 2;
+    document.getElementById('st1').style.opacity = t < half ? 1 : 0;
+    document.getElementById('st2').style.opacity = t < half ? 0 : 1;
+    const im = document.querySelector('#st1 img'); im.style.transform = `scale(${0.85 + 0.25 * ease((t - D.hookEnd) / (half - D.hookEnd))}) rotate(${(t - D.hookEnd) * 120}deg)`;
+    document.querySelector('#st2 .wm').style.transform = `scale(${0.9 + 0.12 * ease((t - half) / (D.stingerEnd - half))})`;
+    fl.style.opacity = Math.max(0, 0.6 - (t - D.hookEnd) * 6); return;
+  }
+  st.style.opacity = 0;
+  const m = t - D.stingerEnd, idx = Math.floor(m / D.cut), u = m - idx * D.cut;
+  const order = D.scenes || ORDER, name = order[(idx + (D.seed || 0)) % order.length];
+  const a = (idx % 3 === 0 && D.brand.accentOk) ? D.brand.color : (D.accent || PAL.gold);
+  SCENES[name](u + idx * 0.37, idx + (D.seed || 0) * 17, a);
+  fl.style.opacity = u < 0.02 && idx % 4 === 0 ? 0.25 : 0;
+};
+</script>
+</body>
+</html>

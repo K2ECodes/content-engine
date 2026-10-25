@@ -1,0 +1,37 @@
+{
+ "post": "content/2026-W46/ig-ai-wed-2000-edit-smiling-at-laptop",
+ "source": "video.mp4",
+ "duration": 11.733333,
+ "created": "2026-10-25T16:45:57.680Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/kk-ig-ai-wed-2000-edit-smiling-at-laptop/v01.mp4",
+   "hook": null,
+   "caption": "#claude #ai #coding #edit #vibecode",
+   "coverMs": 3413,
+   "changes": [
+    "zoom 1.046 reframe 0.27/0.41",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.26s",
+    "audio x1.01"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/kk-ig-ai-wed-2000-edit-smiling-at-laptop/v02.mp4",
+   "hook": null,
+   "caption": "#claudeai #ai #developer #edit #relatable",
+   "coverMs": 704,
+   "changes": [
+    "zoom 1.045 reframe 0.32/0.51",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.34s",
+    "audio x0.89"
+   ]
+  }
+ ]
+}

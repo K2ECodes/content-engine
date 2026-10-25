@@ -1,0 +1,51 @@
+{
+ "template": "edit",
+ "data": {
+  "thread": [
+   {
+    "from": "them",
+    "text": "You said you'd plan our trip",
+    "at": 0.3
+   },
+   {
+    "from": "me",
+    "text": "I did",
+    "at": 1.2
+   },
+   {
+    "from": "them",
+    "text": "Gemini planned our trip",
+    "at": 2.1
+   },
+   {
+    "from": "me",
+    "text": "Same thing",
+    "at": 3.05
+   }
+  ],
+  "readAt": 3.45,
+  "readTime": "11:49 PM",
+  "timeLabel": "11:47 PM",
+  "brand": "gemini",
+  "brandAccent": false,
+  "hookEnd": 4.2,
+  "stingerEnd": 5.0,
+  "duration": 12,
+  "seed": 7,
+  "music": {
+   "file": "../../../assets/edit-audio/dl-ilck-creepin.mp3",
+   "bpm": 91,
+   "volume": 1,
+   "drop": 13.75
+  },
+  "posterAt": 2.8,
+  "montage": {
+   "brands": [
+    "gemini"
+   ],
+   "avoid": [
+    "web-gh-"
+   ]
+  }
+ }
+}

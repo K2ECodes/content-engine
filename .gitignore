@@ -27,3 +27,4 @@ content/**/trials/*-hook.png
 # IG -> TikTok mirror downloads
 content/_mirror/
 assets/edit-audio/
+assets/edit-clips/*.mp4

@@ -1,0 +1,81 @@
+{
+ "cut": 0.3592814371257485,
+ "clips": [
+  {
+   "file": "yt-2jqS7JD0hrY-04.mp4",
+   "source": "https://www.youtube.com/watch?v=2jqS7JD0hrY (OpenAI: GPT-5: Our best model for work)"
+  },
+  {
+   "file": "yt-PUBc2G0Tj5E-06.mp4",
+   "source": "https://www.youtube.com/watch?v=PUBc2G0Tj5E (OpenAI: Meet the New Codex CLI)"
+  },
+  {
+   "file": "yt-2jqS7JD0hrY-03.mp4",
+   "source": "https://www.youtube.com/watch?v=2jqS7JD0hrY (OpenAI: GPT-5: Our best model for work)"
+  },
+  {
+   "file": "yt-Wgn4JeYI9lY-06.mp4",
+   "source": "https://www.youtube.com/watch?v=Wgn4JeYI9lY (OpenAI: Introducing ChatGPT agent)"
+  },
+  {
+   "file": "yt-PUBc2G0Tj5E-05.mp4",
+   "source": "https://www.youtube.com/watch?v=PUBc2G0Tj5E (OpenAI: Meet the New Codex CLI)"
+  },
+  {
+   "file": "yt-Wgn4JeYI9lY-04.mp4",
+   "source": "https://www.youtube.com/watch?v=Wgn4JeYI9lY (OpenAI: Introducing ChatGPT agent)"
+  },
+  {
+   "file": "web-gh-codex-03.mp4",
+   "source": "https://github.com/openai/codex"
+  },
+  {
+   "file": "yt-JbIvaFh44EY-04.mp4",
+   "source": "https://www.youtube.com/watch?v=JbIvaFh44EY (OpenAI: Prototyping with canvas in ChatGPT)"
+  },
+  {
+   "file": "yt-HFM3se4lNiw-01.mp4",
+   "source": "https://www.youtube.com/watch?v=HFM3se4lNiw (OpenAI: Introducing the Codex app)"
+  },
+  {
+   "file": "web-gh-codex-05.mp4",
+   "source": "https://github.com/openai/codex"
+  },
+  {
+   "file": "yt-GphgJjaKKhw-05.mp4",
+   "source": "https://www.youtube.com/watch?v=GphgJjaKKhw (OpenAI: Get started with ChatGPT Work)"
+  },
+  {
+   "file": "yt-JbIvaFh44EY-03.mp4",
+   "source": "https://www.youtube.com/watch?v=JbIvaFh44EY (OpenAI: Prototyping with canvas in ChatGPT)"
+  },
+  {
+   "file": "web-gh-trending-01.mp4",
+   "source": "https://github.com/trending"
+  },
+  {
+   "file": "yt-PUBc2G0Tj5E-03.mp4",
+   "source": "https://www.youtube.com/watch?v=PUBc2G0Tj5E (OpenAI: Meet the New Codex CLI)"
+  },
+  {
+   "file": "yt-HFM3se4lNiw-04.mp4",
+   "source": "https://www.youtube.com/watch?v=HFM3se4lNiw (OpenAI: Introducing the Codex app)"
+  },
+  {
+   "file": "yt-PUBc2G0Tj5E-02.mp4",
+   "source": "https://www.youtube.com/watch?v=PUBc2G0Tj5E (OpenAI: Meet the New Codex CLI)"
+  },
+  {
+   "file": "yt-yyvVUEPSCu0-04.mp4",
+   "source": "https://www.youtube.com/watch?v=yyvVUEPSCu0 (OpenAI: Introducing workspace agents in ChatGPT)"
+  },
+  {
+   "file": "yt-2jqS7JD0hrY-06.mp4",
+   "source": "https://www.youtube.com/watch?v=2jqS7JD0hrY (OpenAI: GPT-5: Our best model for work)"
+  },
+  {
+   "file": "web-gh-codex-01.mp4",
+   "source": "https://github.com/openai/codex"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "post": "content/2026-W46/ig-ai-thu-2000-edit-gemini-trip",
+ "source": "video.mp4",
+ "duration": 12,
+ "created": "2026-10-25T16:43:48.477Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/kk-ig-ai-thu-2000-edit-gemini-trip/v01.mp4",
+   "hook": null,
+   "caption": "#gemini #ai #google #edit #relatable",
+   "coverMs": 3040,
+   "changes": [
+    "zoom 1.078 reframe 0.53/0.43",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.39s",
+    "audio x1.1"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/kk-ig-ai-thu-2000-edit-gemini-trip/v02.mp4",
+   "hook": null,
+   "caption": "#googlegemini #ai #travel #edit #funny",
+   "coverMs": 1620,
+   "changes": [
+    "zoom 1.043 reframe 0.80/0.39",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.13s",
+    "audio x0.91"
+   ]
+  }
+ ]
+}
