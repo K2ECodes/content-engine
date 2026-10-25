@@ -72,3 +72,9 @@ Mechanics from the low-poly reference, our look: warm ink-green and gold grade, 
 - Visual: game-engine 3D (GTA/Unreal look), bright daylight city, one hero, constant camera motion, red measurement callouts with brackets ("19 ft", "2,000 ft", "4 ft"), short white captions bottom-third, 1 to 3 words.
 - The twist: he lands safely at the business ("...land safely at Middleton Ford, where you can drive away in your brand new F-150"). The ad is the punchline, so it reads as entertainment first. Caption tiny ("Looking for a truck?..."), #funny #viral.
 - For us: company version lands at the point ("...and your invoice still arrives correct, because Content Systems.ai checked every line"), personal/.ai version lands at the freebie or a joke. Real physics numbers, deadpan voice, measurement callouts in our gold.
+
+## Variant: "twice as X every time" exponential escalation (ref instagram.com/reel/De5O5VRxp3U)
+- Premise: one action repeated, doubling each time ("shout twice as loud every time"). Counter "SHOUT #13", huge number "190 dB", small caps real-world comparison ("THE LOUDEST SOUND AIR CAN CARRY", "2x THE BIGGEST US BOMB", "40 MINUTES OF THE SUN"), energy stat, red rule pill "TWICE AS LOUD EVERY TIME".
+- Escalates from street level (people turn around, eardrums rupture, windows shatter) to city (car alarms everywhere, the UN asks you to stop) to planet (pressure waves circle Earth, Earth cracks) to the Sun, then a hard cut to space: "0 dB. In space no one can hear you" + one-word comedic punchline in the hero's slang.
+- Every beat is a real physics milestone (dB thresholds, TNT/Hiroshima/Krakatoa equivalents, sun output); camera pulls back with each doubling until we see the planet.
+- For us: "Send twice as many cold emails every day", "AI agent doubles its tasks every hour", "deliver twice as many parcels every day" (company), "your jollof pot doubles every day" (koredekola, Nigerian punchline at the end).

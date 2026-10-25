@@ -442,6 +442,7 @@ function resolveStory(dir, spec) {
     if (o.landAt !== undefined) o.land = wordTime(words, o.landAt, `scene ${i} land`);
     if (o.totalAt !== undefined) o.totalT = T(o.totalAt, `scene ${i} total`);
     if (o.stamp) o.stamp = { ...o.stamp, t: T(o.stamp.at, `scene ${i} stamp`) };
+    if (o.callouts) o.callouts = o.callouts.map((c, k) => ({ ...c, t: c.at !== undefined ? T(c.at, `scene ${i} callout ${k}`, 0.03) : undefined }));
     if (o.click) o.click = { ...o.click, t: T(o.click.at, `scene ${i} click`) };
     if (o.sprites) o.sprites = o.sprites.map((k, j) => ({ ...k, acts: (k.acts || []).map((a, m) => ({ ...a, t: a.at !== undefined ? T(a.at, `scene ${i} sprite ${j} act ${m}`, 0.03) : undefined })) }));
     for (const key of ['nodes', 'edges', 'pulses']) if (o[key]) o[key] = o[key].map((r, k) => ({ ...r, t: r.at !== undefined ? T(r.at, `scene ${i} ${key} ${k}`) : undefined }));
