@@ -1,7 +1,7 @@
 ## Caption
 bro I don't even know this dance 😂
 
-#dance #gasstation #funny #vibes #explore #K2E
+#funny #humor #dance #gasstation #explore #K2E
 
 ## Script
 No dialogue. Original audio: "hey, hey, hey" trending track. Korede dances at a gas station at night, move for move with the original clip.

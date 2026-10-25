@@ -1,7 +1,7 @@
 ## Caption
-millionaire in 30 days, trust the process 💰
+Asked my phone how to get rich in 30 days 🤣
 
-#millionaire #money #motivation #funny #explore #K2E
+#funny #humor #money #millionaire #explore #K2E
 
 ## Script
 KOREDE (into phone): How do I become a millionaire in 30 days?

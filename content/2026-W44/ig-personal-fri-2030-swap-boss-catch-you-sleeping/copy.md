@@ -1,7 +1,7 @@
 ## Caption
 When your boss catches you sleeping 😂
 
-#office #worklife #corporate #officehumor #explore #K2E
+#funny #humor #office #worklife #explore #K2E
 
 ## Script
 No dialogue. Original meme audio. Korede asleep face-down at his office desk, a hand taps his shoulder, he slowly wakes and lifts his head to reveal a giant glossy bowl wig, then stares into the camera.
