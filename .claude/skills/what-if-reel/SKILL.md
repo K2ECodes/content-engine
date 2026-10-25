@@ -56,3 +56,12 @@ Reference: instagram.com/reel/Dex7yYdOtPo (115K likes, low-poly 3D "what if it g
 - Camera: early beats close and intimate; scale grows with the number until drone/aerial shots; final beat back to an intimate shot for the punchline.
 - How we build it: generate each beat's still with nano-banana-2 in a fixed low-poly style prompt + the same character reference image (first still becomes the reference for the rest), animate with slow push-in/parallax (or Kling image-to-video for 2 to 3 key beats if budget allows), overlay in templates/story `hud` with the serif number + small caps + red rule pill.
 - Our spin (Korede, 2026-10-25): don't clone the reference look. Keep the mechanics, make it ours: warm ink-green and gold grade, cream serif number + Space Mono small caps + gold rule pill, our own hero (distinct face/outfit, signature item, Afro-Berlin vibe), more cinematic light and camera, SFX on every beat, tiny K2E end tag.
+
+## Our spin: deadpan `wif` reels (2026-10-25)
+Mechanics from the low-poly reference, our look: warm ink-green and gold grade, cream serif number (Fraunces 500), Space Mono small caps, gold rule pill, K2E end tag, SFX on each beat, one recurring Afro-Berlin hero (green bomber, gold chain).
+- `data.capStyle: "wif"`: italic Fraunces narration mid-left, cream, key words gold.
+- Scene `type: "wif"` with `look: "cinema"` + `bg` still: `kicker` ("Week 3"), `num` + optional `count` (counts up) + `unit`, `cmp` (scale comparison), `stat` (tiny line), `rule` (gold pill, the premise rule), `tag` ("K2E" on the last beat), `sfx`.
+- Files per post: `beats.json` (lines, say, overlay, set description), `prompts.json` (one still per beat), `audio/say.txt`.
+- Stills: `node --env-file=.env scripts/what-if-stills.mjs <post>` (first still is the hero reference for the rest; skips stills already done; refuses if over the weekly cap).
+- Voice: HeyGen free narrator (deadpan, expressiveness 0.25), tighten with `--beatBefore "Day,Week,Month,Year,What" --beat 0.5`.
+- Examples: content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan, ig-personal-sat-2030-what-if-dollar-every-ai.

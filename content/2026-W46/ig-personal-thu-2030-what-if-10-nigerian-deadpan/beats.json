@@ -1,0 +1,115 @@
+{
+ "beats": [
+  {
+   "line": "What if everyone on Earth woke up 10% Nigerian?",
+   "say": "What if everyone on Earth woke up ten percent Nigerian?",
+   "kicker": "Day 0",
+   "num": "0",
+   "unit": "aunties",
+   "cmp": "Just you and your phone",
+   "stat": "Unsolicited advice: 0 per day",
+   "set": "the hero waking up in a small Berlin apartment bedroom at dawn, phone glowing on the bed, slightly confused face, close shot"
+  },
+  {
+   "line": "Day 1. An aunty you've never met calls about your future.",
+   "say": "Day one. An aunty you've never met calls to ask about your future.",
+   "kicker": "Day 1",
+   "num": "1",
+   "count": 1,
+   "unit": "aunty",
+   "cmp": "Already too many",
+   "stat": "Unsolicited advice: 14 per day",
+   "set": "the hero on the phone at a kitchen table, holding the phone away from his ear, low-poly elderly woman in a bright head wrap shown on the phone screen as a video call, close shot"
+  },
+  {
+   "line": "Day 3. Your mum calls you this boy in public.",
+   "say": "Day three. Your mum now calls you this boy, in public.",
+   "kicker": "Day 3",
+   "num": "4",
+   "count": 4,
+   "unit": "aunties",
+   "cmp": "Enough for a group chat",
+   "stat": "Times called 'this boy': 9",
+   "set": "the hero standing awkwardly in a supermarket aisle while his low-poly mum in a colourful head wrap points at him and talks loudly, other shoppers turning to look, medium shot"
+  },
+  {
+   "line": "Week 1. The office party jollof argument ends in HR.",
+   "say": "Week one. The office party jollof argument ends in HR.",
+   "kicker": "Week 1",
+   "num": "11",
+   "count": 11,
+   "unit": "aunties",
+   "cmp": "A full football squad",
+   "stat": "HR complaints: 1",
+   "set": "an office party with two big pots of orange jollof rice on a table, coworkers arguing, an HR lady with a clipboard stepping in, the hero holding a plate in the middle, medium wide shot"
+  },
+  {
+   "line": "Week 3. Your whole street now argues about whose generator is louder.",
+   "say": "Week three. Your whole street now argues about whose generator is louder.",
+   "kicker": "Week 3",
+   "num": "40",
+   "count": 40,
+   "unit": "aunties",
+   "cmp": "More than a bus full",
+   "stat": "Generators on your street: 12",
+   "set": "a residential European street at dusk with small generators humming outside every door, neighbours arguing over the fences, the hero holding his ears, wide shot"
+  },
+  {
+   "line": "Month 2. Every wedding lasts 3 days. You have 4 this weekend.",
+   "say": "Month two. Every wedding lasts three days. You have four this weekend.",
+   "kicker": "Month 2",
+   "num": "130",
+   "count": 130,
+   "unit": "aunties",
+   "cmp": "A full wedding hall",
+   "stat": "Savings spent on outfits: 2,400 euros",
+   "set": "a huge colourful wedding hall full of dancing guests in matching gele and agbada outfits, money being sprayed in the air, the hero in matching outfit looking exhausted at his wallet, wide shot"
+  },
+  {
+   "line": "Month 6. The visa queue reaches the next city. They still say no.",
+   "say": "Month six. The visa queue reaches the next city. They still say no.",
+   "kicker": "Month 6",
+   "num": "400",
+   "count": 400,
+   "unit": "aunties",
+   "cmp": "More than a jumbo jet",
+   "stat": "Queue length: 41 km",
+   "set": "aerial drone shot of an endless queue of tiny low-poly people with folders stretching from an embassy building along a highway into the distance, the hero visible near the front looking at a 'denied' stamp, golden hour"
+  },
+  {
+   "line": "Year 1. 'We have food at home' becomes the world's most said sentence.",
+   "say": "Year one. We have food at home becomes the most said sentence on Earth.",
+   "kicker": "Year 1",
+   "num": "2,400",
+   "count": 2400,
+   "unit": "aunties",
+   "cmp": "A small village",
+   "stat": "Fast food sales: down 31%",
+   "set": "aerial shot of a city food court with empty fast food restaurants and closed signs while every home window shows families eating jollof, the hero walking past with a takeaway bag hidden behind his back, wide shot"
+  },
+  {
+   "line": "Year 5. Every stadium on Earth plays Afrobeats. Even at funerals.",
+   "say": "Year five. Every stadium on Earth plays Afrobeats. Even at funerals.",
+   "kicker": "Year 5",
+   "num": "18,000",
+   "count": 18000,
+   "unit": "aunties",
+   "cmp": "A full stadium",
+   "stat": "Funerals with a DJ: 100%",
+   "set": "aerial shot of a packed football stadium at night with green and white lights and dancing crowds, a tiny funeral procession dancing outside the gates, the hero in the stands, epic wide shot"
+  },
+  {
+   "line": "Year 10. You finally become a doctor. Your mum asks when you're getting married.",
+   "say": "Year ten. You finally become a doctor. Your mum asks when you're getting married.",
+   "kicker": "Year 10",
+   "num": "43,000",
+   "count": 43000,
+   "unit": "aunties",
+   "cmp": "More than a city",
+   "stat": "Weddings attended: 412",
+   "set": "the hero in a white doctor's coat in a hospital corridor, his low-poly mum in a head wrap holding his face and pointing at a ring finger, warm intimate close shot",
+   "tag": "K2E"
+  }
+ ],
+ "rule": "+10% NIGERIAN"
+}

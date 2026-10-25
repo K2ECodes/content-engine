@@ -1,0 +1,46 @@
+{
+ "hero": "the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain",
+ "style": "Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark.",
+ "shots": [
+  {
+   "out": "bg/b00.png",
+   "prompt": "the hero waking up in a small Berlin apartment bedroom at dawn, phone glowing on the bed, slightly confused face, close shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b01.png",
+   "prompt": "the hero on the phone at a kitchen table, holding the phone away from his ear, low-poly elderly woman in a bright head wrap shown on the phone screen as a video call, close shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b02.png",
+   "prompt": "the hero standing awkwardly in a supermarket aisle while his low-poly mum in a colourful head wrap points at him and talks loudly, other shoppers turning to look, medium shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b03.png",
+   "prompt": "an office party with two big pots of orange jollof rice on a table, coworkers arguing, an HR lady with a clipboard stepping in, the hero holding a plate in the middle, medium wide shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b04.png",
+   "prompt": "a residential European street at dusk with small generators humming outside every door, neighbours arguing over the fences, the hero holding his ears, wide shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b05.png",
+   "prompt": "a huge colourful wedding hall full of dancing guests in matching gele and agbada outfits, money being sprayed in the air, the hero in matching outfit looking exhausted at his wallet, wide shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b06.png",
+   "prompt": "aerial drone shot of an endless queue of tiny low-poly people with folders stretching from an embassy building along a highway into the distance, the hero visible near the front looking at a 'denied' stamp, golden hour. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b07.png",
+   "prompt": "aerial shot of a city food court with empty fast food restaurants and closed signs while every home window shows families eating jollof, the hero walking past with a takeaway bag hidden behind his back, wide shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b08.png",
+   "prompt": "aerial shot of a packed football stadium at night with green and white lights and dancing crowds, a tiny funeral procession dancing outside the gates, the hero in the stands, epic wide shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  },
+  {
+   "out": "bg/b09.png",
+   "prompt": "the hero in a white doctor's coat in a hospital corridor, his low-poly mum in a head wrap holding his face and pointing at a ring finger, warm intimate close shot. The main character is the same recurring low-poly 3D hero: a young Black man in his mid-20s with short black twists, warm dark-brown skin, a green bomber jacket over a plain white tee, white trousers, white sneakers and a thin gold chain. Soft low-poly blocky 3D render, Roblox-meets-Pixar, chunky simple geometry, matte materials, cinematic warm lighting with deep green and golden tones, gentle volumetric light, shallow depth of field, 9:16 vertical, no text, no logos, no UI, no watermark."
+  }
+ ]
+}

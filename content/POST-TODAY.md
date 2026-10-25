@@ -282,3 +282,9 @@ Follow for part 2.
 
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
+
+## Coming next for @koredekola (rendering after the Mon Oct 26 budget reset)
+- Deadpan what-if: "What if everyone on Earth woke up 10% Nigerian?" (aunty counter, jollof war in HR, 3-day weddings, ends "Your mum asks when you're getting married"). Folder `content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan`. Music at schedule time: Afrobeats at 11%.
+- Deadpan what-if: "What if you got $1 every time someone said 'AI'?" (bank freezes your account, tax office team, ends "You still can't explain what AI is"). Folder `content/2026-W46/ig-personal-sat-2030-what-if-dollar-every-ai`.
+Status: tmp/wif-deadpan-status.txt (stills, render, contact-sheet.png in each folder).
+
