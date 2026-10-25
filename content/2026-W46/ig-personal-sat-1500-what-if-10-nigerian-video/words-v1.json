@@ -1,0 +1,775 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "if",
+   "start": 0.36,
+   "end": 0.48
+  },
+  {
+   "w": "everyone",
+   "start": 0.48,
+   "end": 0.8
+  },
+  {
+   "w": "on",
+   "start": 0.8,
+   "end": 0.94
+  },
+  {
+   "w": "Earth",
+   "start": 0.94,
+   "end": 1.16
+  },
+  {
+   "w": "woke",
+   "start": 1.16,
+   "end": 1.36
+  },
+  {
+   "w": "up",
+   "start": 1.36,
+   "end": 1.52
+  },
+  {
+   "w": "10%",
+   "start": 1.52,
+   "end": 1.98
+  },
+  {
+   "w": "Nigerian?",
+   "start": 1.98,
+   "end": 2.52
+  },
+  {
+   "w": "Day",
+   "start": 2.94,
+   "end": 3.04
+  },
+  {
+   "w": "1.",
+   "start": 3.04,
+   "end": 3.3
+  },
+  {
+   "w": "Every",
+   "start": 3.64,
+   "end": 3.82
+  },
+  {
+   "w": "DNA",
+   "start": 3.82,
+   "end": 4.1
+  },
+  {
+   "w": "test",
+   "start": 4.1,
+   "end": 4.4
+  },
+  {
+   "w": "says",
+   "start": 4.4,
+   "end": 4.62
+  },
+  {
+   "w": "Nigeria,",
+   "start": 4.62,
+   "end": 4.96
+  },
+  {
+   "w": "8.2",
+   "start": 5.34,
+   "end": 6.18
+  },
+  {
+   "w": "billion",
+   "start": 6.18,
+   "end": 6.5
+  },
+  {
+   "w": "people",
+   "start": 6.5,
+   "end": 6.84
+  },
+  {
+   "w": "with",
+   "start": 6.84,
+   "end": 7.02
+  },
+  {
+   "w": "Nigerian",
+   "start": 7.02,
+   "end": 7.48
+  },
+  {
+   "w": "roots.",
+   "start": 7.48,
+   "end": 7.76
+  },
+  {
+   "w": "Yesterday,",
+   "start": 8.28,
+   "end": 8.6
+  },
+  {
+   "w": "it",
+   "start": 9.06,
+   "end": 9.12
+  },
+  {
+   "w": "was",
+   "start": 9.12,
+   "end": 9.24
+  },
+  {
+   "w": "237",
+   "start": 9.24,
+   "end": 10.16
+  },
+  {
+   "w": "million.",
+   "start": 10.16,
+   "end": 10.38
+  },
+  {
+   "w": "Day",
+   "start": 10.8,
+   "end": 10.96
+  },
+  {
+   "w": "2.",
+   "start": 10.96,
+   "end": 11.2
+  },
+  {
+   "w": "The",
+   "start": 11.54,
+   "end": 11.56
+  },
+  {
+   "w": "people",
+   "start": 11.56,
+   "end": 11.76
+  },
+  {
+   "w": "who",
+   "start": 11.76,
+   "end": 11.92
+  },
+  {
+   "w": "hated",
+   "start": 11.92,
+   "end": 12.16
+  },
+  {
+   "w": "us",
+   "start": 12.16,
+   "end": 12.42
+  },
+  {
+   "w": "are",
+   "start": 12.42,
+   "end": 12.62
+  },
+  {
+   "w": "us",
+   "start": 12.62,
+   "end": 12.84
+  },
+  {
+   "w": "now.",
+   "start": 12.84,
+   "end": 13.06
+  },
+  {
+   "w": "Hate",
+   "start": 13.52,
+   "end": 13.68
+  },
+  {
+   "w": "forums",
+   "start": 13.68,
+   "end": 13.98
+  },
+  {
+   "w": "go",
+   "start": 13.98,
+   "end": 14.18
+  },
+  {
+   "w": "quiet,",
+   "start": 14.18,
+   "end": 14.54
+  },
+  {
+   "w": "family",
+   "start": 14.9,
+   "end": 15.12
+  },
+  {
+   "w": "group",
+   "start": 15.12,
+   "end": 15.38
+  },
+  {
+   "w": "chats",
+   "start": 15.38,
+   "end": 15.58
+  },
+  {
+   "w": "don't.",
+   "start": 15.58,
+   "end": 15.98
+  },
+  {
+   "w": "Day",
+   "start": 16.4,
+   "end": 16.54
+  },
+  {
+   "w": "3.",
+   "start": 16.54,
+   "end": 16.82
+  },
+  {
+   "w": "Every",
+   "start": 17.32,
+   "end": 17.52
+  },
+  {
+   "w": "parent",
+   "start": 17.52,
+   "end": 17.78
+  },
+  {
+   "w": "on",
+   "start": 17.78,
+   "end": 17.92
+  },
+  {
+   "w": "Earth",
+   "start": 17.92,
+   "end": 18.14
+  },
+  {
+   "w": "asks",
+   "start": 18.14,
+   "end": 18.46
+  },
+  {
+   "w": "why",
+   "start": 18.46,
+   "end": 18.76
+  },
+  {
+   "w": "you're",
+   "start": 18.76,
+   "end": 18.88
+  },
+  {
+   "w": "not",
+   "start": 18.88,
+   "end": 19.0
+  },
+  {
+   "w": "a",
+   "start": 19.0,
+   "end": 19.14
+  },
+  {
+   "w": "doctor",
+   "start": 19.14,
+   "end": 19.34
+  },
+  {
+   "w": "yet.",
+   "start": 19.34,
+   "end": 19.58
+  },
+  {
+   "w": "Week",
+   "start": 19.86,
+   "end": 19.98
+  },
+  {
+   "w": "1.",
+   "start": 19.98,
+   "end": 20.24
+  },
+  {
+   "w": "Everyone",
+   "start": 20.68,
+   "end": 20.92
+  },
+  {
+   "w": "wants",
+   "start": 20.92,
+   "end": 21.16
+  },
+  {
+   "w": "the",
+   "start": 21.16,
+   "end": 21.3
+  },
+  {
+   "w": "passport.",
+   "start": 21.3,
+   "end": 21.62
+  },
+  {
+   "w": "The",
+   "start": 22.06,
+   "end": 22.14
+  },
+  {
+   "w": "embassy",
+   "start": 22.14,
+   "end": 22.34
+  },
+  {
+   "w": "says",
+   "start": 22.34,
+   "end": 22.62
+  },
+  {
+   "w": "no.",
+   "start": 22.62,
+   "end": 22.88
+  },
+  {
+   "w": "You",
+   "start": 23.18,
+   "end": 23.28
+  },
+  {
+   "w": "need",
+   "start": 23.28,
+   "end": 23.42
+  },
+  {
+   "w": "a",
+   "start": 23.42,
+   "end": 23.5
+  },
+  {
+   "w": "Nigerian",
+   "start": 23.5,
+   "end": 23.9
+  },
+  {
+   "w": "parent",
+   "start": 23.9,
+   "end": 24.16
+  },
+  {
+   "w": "and",
+   "start": 24.16,
+   "end": 24.5
+  },
+  {
+   "w": "10%",
+   "start": 24.5,
+   "end": 24.98
+  },
+  {
+   "w": "doesn't",
+   "start": 24.98,
+   "end": 25.2
+  },
+  {
+   "w": "count.",
+   "start": 25.2,
+   "end": 25.4
+  },
+  {
+   "w": "Week",
+   "start": 25.8,
+   "end": 26.0
+  },
+  {
+   "w": "2.",
+   "start": 26.0,
+   "end": 26.26
+  },
+  {
+   "w": "Jollof",
+   "start": 26.82,
+   "end": 27.22
+  },
+  {
+   "w": "wars",
+   "start": 27.22,
+   "end": 27.5
+  },
+  {
+   "w": "go",
+   "start": 27.5,
+   "end": 27.7
+  },
+  {
+   "w": "global.",
+   "start": 27.7,
+   "end": 28.06
+  },
+  {
+   "w": "Ghana",
+   "start": 28.54,
+   "end": 28.7
+  },
+  {
+   "w": "still",
+   "start": 28.7,
+   "end": 28.94
+  },
+  {
+   "w": "says",
+   "start": 28.94,
+   "end": 29.2
+  },
+  {
+   "w": "theirs",
+   "start": 29.2,
+   "end": 29.44
+  },
+  {
+   "w": "is",
+   "start": 29.44,
+   "end": 29.6
+  },
+  {
+   "w": "better.",
+   "start": 29.6,
+   "end": 29.82
+  },
+  {
+   "w": "Month",
+   "start": 30.26,
+   "end": 30.3
+  },
+  {
+   "w": "1.",
+   "start": 30.3,
+   "end": 30.56
+  },
+  {
+   "w": "Afrobeats",
+   "start": 30.94,
+   "end": 31.46
+  },
+  {
+   "w": "is",
+   "start": 31.46,
+   "end": 31.56
+  },
+  {
+   "w": "just",
+   "start": 31.56,
+   "end": 31.7
+  },
+  {
+   "w": "music",
+   "start": 31.7,
+   "end": 31.94
+  },
+  {
+   "w": "now.",
+   "start": 31.94,
+   "end": 32.2
+  },
+  {
+   "w": "People",
+   "start": 32.52,
+   "end": 32.64
+  },
+  {
+   "w": "already",
+   "start": 32.64,
+   "end": 32.96
+  },
+  {
+   "w": "found",
+   "start": 32.96,
+   "end": 33.22
+  },
+  {
+   "w": "Nigerian",
+   "start": 33.22,
+   "end": 33.7
+  },
+  {
+   "w": "artists",
+   "start": 33.7,
+   "end": 33.96
+  },
+  {
+   "w": "over",
+   "start": 33.96,
+   "end": 34.22
+  },
+  {
+   "w": "1",
+   "start": 34.22,
+   "end": 34.62
+  },
+  {
+   "w": "billion",
+   "start": 34.62,
+   "end": 35.0
+  },
+  {
+   "w": "times",
+   "start": 35.0,
+   "end": 35.32
+  },
+  {
+   "w": "on",
+   "start": 35.32,
+   "end": 35.5
+  },
+  {
+   "w": "Spotify",
+   "start": 35.5,
+   "end": 35.74
+  },
+  {
+   "w": "last",
+   "start": 35.74,
+   "end": 36.12
+  },
+  {
+   "w": "year.",
+   "start": 36.12,
+   "end": 36.4
+  },
+  {
+   "w": "Year",
+   "start": 36.72,
+   "end": 36.84
+  },
+  {
+   "w": "1.",
+   "start": 36.84,
+   "end": 37.12
+  },
+  {
+   "w": "Money",
+   "start": 37.5,
+   "end": 37.68
+  },
+  {
+   "w": "flows",
+   "start": 37.68,
+   "end": 37.94
+  },
+  {
+   "w": "to",
+   "start": 37.94,
+   "end": 38.16
+  },
+  {
+   "w": "Lagos.",
+   "start": 38.16,
+   "end": 38.6
+  },
+  {
+   "w": "The",
+   "start": 39.08,
+   "end": 39.12
+  },
+  {
+   "w": "diaspora",
+   "start": 39.12,
+   "end": 39.56
+  },
+  {
+   "w": "already",
+   "start": 39.56,
+   "end": 39.86
+  },
+  {
+   "w": "sends",
+   "start": 39.86,
+   "end": 40.06
+  },
+  {
+   "w": "home",
+   "start": 40.06,
+   "end": 40.22
+  },
+  {
+   "w": "$21",
+   "start": 40.22,
+   "end": 40.7
+  },
+  {
+   "w": "billion",
+   "start": 40.7,
+   "end": 41.06
+  },
+  {
+   "w": "a",
+   "start": 41.06,
+   "end": 41.5
+  },
+  {
+   "w": "year.",
+   "start": 41.5,
+   "end": 41.68
+  },
+  {
+   "w": "Now",
+   "start": 41.98,
+   "end": 42.1
+  },
+  {
+   "w": "everyone",
+   "start": 42.1,
+   "end": 42.5
+  },
+  {
+   "w": "has",
+   "start": 42.5,
+   "end": 42.74
+  },
+  {
+   "w": "an",
+   "start": 42.74,
+   "end": 42.86
+  },
+  {
+   "w": "auntie",
+   "start": 42.86,
+   "end": 43.2
+  },
+  {
+   "w": "in",
+   "start": 43.2,
+   "end": 43.26
+  },
+  {
+   "w": "Lagos.",
+   "start": 43.26,
+   "end": 43.68
+  },
+  {
+   "w": "10",
+   "start": 43.96,
+   "end": 44.16
+  },
+  {
+   "w": "years",
+   "start": 44.16,
+   "end": 44.28
+  },
+  {
+   "w": "later.",
+   "start": 44.28,
+   "end": 44.54
+  },
+  {
+   "w": "Racism",
+   "start": 45.06,
+   "end": 45.46
+  },
+  {
+   "w": "doesn't",
+   "start": 45.46,
+   "end": 45.72
+  },
+  {
+   "w": "survive",
+   "start": 45.72,
+   "end": 45.94
+  },
+  {
+   "w": "the",
+   "start": 45.94,
+   "end": 46.16
+  },
+  {
+   "w": "family",
+   "start": 46.16,
+   "end": 46.36
+  },
+  {
+   "w": "reunion.",
+   "start": 46.36,
+   "end": 46.78
+  },
+  {
+   "w": "So",
+   "start": 47.24,
+   "end": 47.34
+  },
+  {
+   "w": "what's",
+   "start": 47.34,
+   "end": 47.5
+  },
+  {
+   "w": "the",
+   "start": 47.5,
+   "end": 47.58
+  },
+  {
+   "w": "first",
+   "start": 47.58,
+   "end": 47.8
+  },
+  {
+   "w": "thing",
+   "start": 47.8,
+   "end": 47.98
+  },
+  {
+   "w": "you'd",
+   "start": 47.98,
+   "end": 48.24
+  },
+  {
+   "w": "as",
+   "start": 48.24,
+   "end": 48.4
+  },
+  {
+   "w": "a",
+   "start": 48.4,
+   "end": 48.48
+  },
+  {
+   "w": "10%",
+   "start": 48.48,
+   "end": 48.82
+  },
+  {
+   "w": "Nigerian?",
+   "start": 48.82,
+   "end": 49.4
+  },
+  {
+   "w": "Follow",
+   "start": 49.68,
+   "end": 49.94
+  },
+  {
+   "w": "for",
+   "start": 49.94,
+   "end": 50.08
+  },
+  {
+   "w": "part",
+   "start": 50.08,
+   "end": 50.24
+  },
+  {
+   "w": "2.",
+   "start": 50.24,
+   "end": 50.46
+  }
+ ],
+ "text": "What if everyone on Earth woke up 10% Nigerian? I'm Nigerian. Let me walk you through it. Day 1. Every DNA test says Nigeria, 8.2 billion people with Nigerian roots. Yesterday, it was 237 million. Day 2. The people who hated us are us now. Hate forums go quiet, family group chats don't. Day 3. Every parent on Earth asks why you're not a doctor yet. Week 1. Everyone wants the passport. The embassy says no. You need a Nigerian parent and 10% doesn't count. Week 2. Jolof Wars go global. Ghana still says theirs is better. Month 1. Afrobeats is just music now. People already found Nigerian artists over 1 billion times on Spotify last year. Year 1. Money flows to Lagos. The diaspora already sends home $21 billion a year. Now everyone has an auntie in Lagos. 10 years later. Racism doesn't survive the family reunion. So what's the first thing you do as a 10% Nigerian? Follow for part 2."
+}
