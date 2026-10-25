@@ -2,7 +2,7 @@
  "post": "content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over",
  "source": "video.mp4",
  "duration": 35.9,
- "created": "2026-10-25T14:27:06.037Z",
+ "created": "2026-10-25T14:35:05.241Z",
  "aiLabel": false,
  "variants": [
   {
@@ -63,6 +63,21 @@
     "speed 1.01x",
     "trim 0.16s",
     "audio x1.04"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-mon-1230-what-if-ai-took-over/v05.mp4",
+   "hook": "The AI takeover, day by day",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I'd set up first, free.\n\nThe AI takeover, day by day.\n\nHere's the timeline, day 1 to year 1.\n\nYear 1 is the one nobody wants to hear.\n\nDay 1 your inbox is empty.\n\nDay 3 stores start building for AI shoppers.\n\nBy month 1 the people who wrote their work down are running 10 AI employees.\n\nAI won't take your job.\n\nThe person who sets it up first will.\n\n#AI #AInews #futureofwork #ClaudeAI #tech",
+   "coverMs": 1978,
+   "changes": [
+    "hook \"The AI takeover, day by day\"",
+    "zoom 1.037 reframe 0.00/0.44",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.27s",
+    "audio x0.98"
    ]
   }
  ]

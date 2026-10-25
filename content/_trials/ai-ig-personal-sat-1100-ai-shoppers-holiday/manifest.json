@@ -2,7 +2,7 @@
  "post": "content/2026-W45/ig-personal-sat-1100-ai-shoppers-holiday",
  "source": "video.mp4",
  "duration": 30.5,
- "created": "2026-10-25T14:25:30.605Z",
+ "created": "2026-10-25T14:33:41.465Z",
  "aiLabel": false,
  "variants": [
   {
@@ -63,6 +63,21 @@
     "speed 1.02x",
     "trim 0.38s",
     "audio x1.04"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-sat-1100-ai-shoppers-holiday/v05.mp4",
+   "hook": "How AI shoppers pick a store",
+   "caption": "Comment \"AI\" and I'll send you the checklist I'd use, free.\n\nHow AI shoppers pick a store.\n\n1 in 5 holiday visits could come from these assistants this year.\n\nThey don't look at your photos.\n\nThey read: sizes and materials, real stock, a delivery date, returns in plain words.\n\nMiss 1 and they recommend the next store.\n\nWalmart opened its doors to them.\n\nAmazon keeps blocking them.\n\nEither way, your page has to answer first.\n\n#AI #ecommerce #shopify #blackfriday #aitools",
+   "coverMs": 1486,
+   "changes": [
+    "hook \"How AI shoppers pick a store\"",
+    "zoom 1.053 reframe 0.10/0.44",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.38s",
+    "audio x0.92"
    ]
   }
  ]

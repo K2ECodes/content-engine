@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-fri-1230-decision-model-3pl",
  "source": "video.mp4",
  "duration": 39.766667,
- "created": "2026-10-25T14:23:58.521Z",
+ "created": "2026-10-25T14:31:44.069Z",
  "aiLabel": false,
  "variants": [
   {
@@ -59,6 +59,20 @@
     "speed 0.97x",
     "trim 0.29s",
     "audio x0.97 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-fri-1230-decision-model-3pl/v05.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 3547,
+   "changes": [
+    "zoom 1.058 reframe 0.06/0.80",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.3s",
+    "audio x1 + impact-soft-1.wav"
    ]
   }
  ]

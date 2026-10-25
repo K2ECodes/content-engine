@@ -2,7 +2,7 @@
  "post": "content/2026-W45/ig-personal-fri-1230-sop-runs-everywhere",
  "source": "video.mp4",
  "duration": 31.2,
- "created": "2026-10-25T14:25:07.770Z",
+ "created": "2026-10-25T14:33:07.719Z",
  "aiLabel": false,
  "variants": [
   {
@@ -63,6 +63,21 @@
     "speed 0.99x",
     "trim 0.37s",
     "audio x0.95 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-fri-1230-sop-runs-everywhere/v05.mp4",
+   "hook": "Your SOP runs in 70+ AIs",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I install first, free.\n\nYour SOP runs in 70+ AIs.\n\nSkills just became an open standard.\n\nA skill is a folder: your steps, 3 real examples, and what needs your yes.\n\nOver 1,000,000 are already published, and Anthropic's own are free on GitHub.\n\nWrite the process once.\n\nIt moves with you, whatever AI you use next year.\n\n#AI #ClaudeAI #opensource #aitools #productivity",
+   "coverMs": 1624,
+   "changes": [
+    "hook \"Your SOP runs in 70+ AIs\"",
+    "zoom 1.041 reframe 0.76/0.48",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.39s",
+    "audio x0.96"
    ]
   }
  ]

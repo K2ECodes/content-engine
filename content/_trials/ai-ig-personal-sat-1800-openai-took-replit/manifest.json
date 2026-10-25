@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-sat-1800-openai-took-replit",
  "source": "video.mp4",
  "duration": 30.233333,
- "created": "2026-10-25T14:28:36.187Z",
+ "created": "2026-10-25T14:36:37.827Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,21 @@
     "speed 0.98x",
     "trim 0.3s",
     "audio x1.01 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-sat-1800-openai-took-replit/v06.mp4",
+   "hook": "OpenAI just took Claude's spot at Replit",
+   "caption": "Comment \"AI\" and I'll send you my free AI starter pack.\n\nOpenAI just took Claude's default spot at Replit.\n\nReplit's CEO said it on stage at TechCrunch Disrupt.\n\nOpenAI is now the default model behind Replit Agent.\n\nHis reasons: cost, partnership and performance.\n\nYou can still pick @claudeai inside Replit.\n\nMost people never change the default though.\n\nWho takes round 2?\n\n#AI #OpenAI #Claude #Replit #technews",
+   "coverMs": 428,
+   "changes": [
+    "hook \"OpenAI just took Claude's spot at Replit\"",
+    "zoom 1.056 reframe 0.98/0.74",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.33s",
+    "audio x0.97"
    ]
   }
  ]

@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-tue-1230-ai-keys-bill",
  "source": "video.mp4",
  "duration": 39.466667,
- "created": "2026-10-25T14:22:42.698Z",
+ "created": "2026-10-25T14:30:23.353Z",
  "aiLabel": false,
  "variants": [
   {
@@ -59,6 +59,20 @@
     "speed 0.99x",
     "trim 0.22s",
     "audio x1.04 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-tue-1230-ai-keys-bill/v05.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1685,
+   "changes": [
+    "zoom 1.062 reframe 0.83/0.51",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.14s",
+    "audio x0.95"
    ]
   }
  ]

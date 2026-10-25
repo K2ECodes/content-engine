@@ -2,7 +2,7 @@
  "post": "content/2026-W46/ig-personal-wed-1230-what-if-governments-left",
  "source": "video.mp4",
  "duration": 37.666667,
- "created": "2026-10-25T14:27:40.337Z",
+ "created": "2026-10-25T14:35:32.028Z",
  "aiLabel": false,
  "variants": [
   {
@@ -63,6 +63,21 @@
     "speed 0.98x",
     "trim 0.19s",
     "audio x0.91 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ai-ig-personal-wed-1230-what-if-governments-left/v05.mp4",
+   "hook": "Systems beat titles. Watch",
+   "caption": "Comment \"AI\" and I'll send you the 5 starter skills I use to run my company, free.\n\nSystems beat titles. Watch.\n\nHere's the timeline.\n\nMonth 1 is where it gets interesting.\n\nDay 2 the traffic lights still work, because somebody's code runs them.\n\nBy year 1 the new governments are group chats with rules and an approval step.\n\nSystems beat titles.\n\nEvery time.\n\n#AI #whatif #systems #futureofwork #tech",
+   "coverMs": 2681,
+   "changes": [
+    "hook \"Systems beat titles. Watch\"",
+    "zoom 1.033 reframe 0.00/0.66",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.19s",
+    "audio x1.06"
    ]
   }
  ]
