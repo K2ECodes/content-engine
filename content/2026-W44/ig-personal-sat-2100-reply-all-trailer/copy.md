@@ -34,3 +34,4 @@ Likeness rebuild 2026-10-24 (Korede: "looks insanely not like me"):
 - Whisper close-up ("it replied... all.") is now his REAL face: a 3.2 s cut of the W43 lip-sync plate, re-lip-synced to the whisper line (volcengine lite), dark blue phone-lit grade.
 - Music removed (Korede adds his own); SFX: impact, whoosh, riser, notify, print, explode, thud.
 - Spend $0.32 (4 stills + 1 lip-sync). Assembly spec: src/assemble-spec.json (scratchpad assembler).
+End card handle patched to @koredekola.ai with ffmpeg drawtext (2026-10-25).
