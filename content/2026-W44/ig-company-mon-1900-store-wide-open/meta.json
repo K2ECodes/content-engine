@@ -10,5 +10,13 @@
   "cta_keyword": "SYSTEMS",
   "slot": "2026-10-26T19:00",
   "timezone": "America/New_York",
-  "status": "draft"
+  "status": "draft",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ],
+  "tiktok_scheduled": {
+    "id": "6addbaf03c8ff42965c43c42",
+    "at": "2026-10-26T18:00:00Z"
+  }
 }

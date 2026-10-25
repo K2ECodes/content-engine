@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W44/ig-company-mon-1900-store-wide-open",
+ "source": "video.mp4",
+ "duration": 31.733333,
+ "created": "2026-10-25T08:13:28.550Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-mon-1900-store-wide-open/v01.mp4",
+   "hook": "Is your online store patched?",
+   "caption": "Comment \"SYSTEMS\" and we'll send you our free store safety check.\nIs your online store patched?\n#ecommerce #shopify #wordpress #onlinestore #smallbusiness",
+   "coverMs": 3027,
+   "changes": [
+    "hook \"Is your online store patched?\"",
+    "zoom 1.033 reframe 0.23/0.75",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.13s",
+    "audio x0.94"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-mon-1900-store-wide-open/v02.mp4",
+   "hook": "2 bugs. No password needed.",
+   "caption": "Comment \"SYSTEMS\" and we'll send you our free store safety check.\n2 bugs, no password needed.\n#ecommerce #onlinestore #cybersecurity #smallbusiness #wordpress",
+   "coverMs": 1116,
+   "changes": [
+    "hook \"2 bugs. No password needed.\"",
+    "zoom 1.047 reframe 0.58/0.85",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.18s",
+    "audio x1.05 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-mon-1900-store-wide-open/v03.mp4",
+   "hook": "Check this before Black Friday",
+   "caption": "Comment \"SYSTEMS\" and we'll send you our free store safety check.\nRun these 3 checks before Black Friday.\n#ecommerce #blackfriday #onlinestore #shopify #smallbusiness",
+   "coverMs": 2706,
+   "changes": [
+    "hook \"Check this before Black Friday\"",
+    "zoom 1.069 reframe 0.47/0.63",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.35s",
+    "audio x0.99 + ding-1.wav"
+   ]
+  }
+ ]
+}
