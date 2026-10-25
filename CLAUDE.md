@@ -93,6 +93,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **@koredekola swaps/skits scope (Korede, 2026-10-25)**: AI swaps are only funny, comedic, entertaining top-of-funnel skits (relatable situations, memes, absurd moments). Never swap real lifestyle content (no footballer-life, Berlin-life or fake LARP lifestyle swaps). Real lifestyle content comes from footage Korede records; we edit it.
 
+- **What-ifs need detail (Korede, 2026-10-25)**: 2 to 3 specific sentences per beat (what happens, a concrete number/who/where, consequence or joke), fewer richer beats over many thin ones.
 - **What-ifs are realistic, not optimistic (Korede, 2026-10-25)**: show honest consequences, good and bad, often inconvenient or absurd; comedy from deadpan realism, escalating counters and scale comparisons, dry punchline ending (see .claude/skills/what-if-reel/SKILL.md, ref instagram.com/reel/Dex7yYdOtPo).
 
 - **Freshest news first (Korede, 2026-10-25)**: when scheduling, the most current news goes out first; older stories later, evergreen pieces fill the rest. Re-order the queue when newer news arrives.

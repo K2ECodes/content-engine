@@ -79,3 +79,6 @@ Mechanics from the low-poly reference, our look: warm ink-green and gold grade, 
 - Escalates from street level (people turn around, eardrums rupture, windows shatter) to city (car alarms everywhere, the UN asks you to stop) to planet (pressure waves circle Earth, Earth cracks) to the Sun, then a hard cut to space: "0 dB. In space no one can hear you" + one-word comedic punchline in the hero's slang.
 - Every beat is a real physics milestone (dB thresholds, TNT/Hiroshima/Krakatoa equivalents, sun output); camera pulls back with each doubling until we see the planet.
 - For us: "Send twice as many cold emails every day", "AI agent doubles its tasks every hour", "deliver twice as many parcels every day" (company), "you get twice as rich every day" (koredekola; Nigerian angles only occasionally, not every time).
+
+## Detail per beat (Korede, 2026-10-25)
+Don't just say "Day 2" + one line. Each beat gets 2 to 3 short sentences: what happens (specific), a concrete detail or number that makes it real (who, where, how much), and the consequence or a joke beat. Example: not "Day 3. Visa queues." but "Day 3. The Nigerian embassy in London has a queue around 4 blocks. A man in a suit has been there since 5 AM with a cooler of jollof. He's selling plates for 12 pounds." Keep it punchy, still 45 to 70 s total, so use fewer, richer beats rather than many thin ones.
