@@ -160,5 +160,5 @@ Korede's call (2026-10-23): use Hypit when a video needs more than our template.
 - Weekly: pull analytics, write `reports/<YYYY-Www>.md` (performance by pillar, format, channel), feed it into next week's plan.
 
 ## Working rules
-- Ask before choices that are costly to undo. Otherwise decide and say what you chose.
+- Ask before choices that are costly to undo. kie.ai weekly cap is KIE_WEEKLY_CAP_USD in .env (raised to $60 on 2026-10-25, Korede has credits); don't wait for weekly resets. Otherwise decide and say what you chose.
 - Commit in small steps.
