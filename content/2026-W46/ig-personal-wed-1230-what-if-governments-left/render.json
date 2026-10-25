@@ -1,8 +1,8 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
   "sfxGain": 1.6,
   "tail": 1.6,
   "keys": [
@@ -42,7 +42,7 @@
     "type": "stage",
     "when": "Day 1",
     "title": "Group chats go *wild*",
-    "sub": "No new laws. No new taxes.",
+    "sub": "Somebody's uncle declares himself mayor.",
     "meter": 6,
     "emoji": "💬"
    },
@@ -76,7 +76,7 @@
     "type": "stage",
     "when": "Day 3",
     "title": "Neighbours *organise*",
-    "sub": "Group chats become the first councils.",
+    "sub": "One already has a treasurer.",
     "meter": 28,
     "emoji": "🏘️",
     "px": "day"

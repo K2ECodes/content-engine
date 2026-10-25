@@ -1,0 +1,875 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "if",
+   "start": 0.42,
+   "end": 0.54
+  },
+  {
+   "w": "AI",
+   "start": 0.54,
+   "end": 0.78
+  },
+  {
+   "w": "took",
+   "start": 0.78,
+   "end": 1.04
+  },
+  {
+   "w": "over",
+   "start": 1.04,
+   "end": 1.22
+  },
+  {
+   "w": "the",
+   "start": 1.22,
+   "end": 1.32
+  },
+  {
+   "w": "world",
+   "start": 1.32,
+   "end": 1.54
+  },
+  {
+   "w": "tomorrow?",
+   "start": 1.54,
+   "end": 1.84
+  },
+  {
+   "w": "No",
+   "start": 2.4,
+   "end": 2.5
+  },
+  {
+   "w": "robots",
+   "start": 2.5,
+   "end": 2.82
+  },
+  {
+   "w": "in",
+   "start": 2.82,
+   "end": 3.0
+  },
+  {
+   "w": "the",
+   "start": 3.0,
+   "end": 3.1
+  },
+  {
+   "w": "streets,",
+   "start": 3.1,
+   "end": 3.32
+  },
+  {
+   "w": "just",
+   "start": 3.66,
+   "end": 3.86
+  },
+  {
+   "w": "software,",
+   "start": 3.86,
+   "end": 4.28
+  },
+  {
+   "w": "quietly",
+   "start": 4.52,
+   "end": 4.9
+  },
+  {
+   "w": "doing",
+   "start": 4.9,
+   "end": 5.16
+  },
+  {
+   "w": "everything.",
+   "start": 5.16,
+   "end": 5.52
+  },
+  {
+   "w": "Here's",
+   "start": 5.96,
+   "end": 6.2
+  },
+  {
+   "w": "the",
+   "start": 6.2,
+   "end": 6.28
+  },
+  {
+   "w": "timeline.",
+   "start": 6.28,
+   "end": 6.54
+  },
+  {
+   "w": "Day",
+   "start": 7.0,
+   "end": 7.1
+  },
+  {
+   "w": "1.",
+   "start": 7.1,
+   "end": 7.36
+  },
+  {
+   "w": "Nothing",
+   "start": 7.76,
+   "end": 7.96
+  },
+  {
+   "w": "looks",
+   "start": 7.96,
+   "end": 8.18
+  },
+  {
+   "w": "different.",
+   "start": 8.18,
+   "end": 8.5
+  },
+  {
+   "w": "Then",
+   "start": 8.9,
+   "end": 9.06
+  },
+  {
+   "w": "you",
+   "start": 9.06,
+   "end": 9.16
+  },
+  {
+   "w": "open",
+   "start": 9.16,
+   "end": 9.34
+  },
+  {
+   "w": "your",
+   "start": 9.34,
+   "end": 9.48
+  },
+  {
+   "w": "inbox,",
+   "start": 9.48,
+   "end": 9.7
+  },
+  {
+   "w": "and",
+   "start": 10.18,
+   "end": 10.3
+  },
+  {
+   "w": "it's",
+   "start": 10.3,
+   "end": 10.46
+  },
+  {
+   "w": "empty",
+   "start": 10.46,
+   "end": 10.7
+  },
+  {
+   "w": "for",
+   "start": 10.7,
+   "end": 10.88
+  },
+  {
+   "w": "the",
+   "start": 10.88,
+   "end": 10.98
+  },
+  {
+   "w": "first",
+   "start": 10.98,
+   "end": 11.14
+  },
+  {
+   "w": "time",
+   "start": 11.14,
+   "end": 11.36
+  },
+  {
+   "w": "ever.",
+   "start": 11.36,
+   "end": 11.58
+  },
+  {
+   "w": "Every",
+   "start": 11.98,
+   "end": 12.16
+  },
+  {
+   "w": "email",
+   "start": 12.16,
+   "end": 12.42
+  },
+  {
+   "w": "got",
+   "start": 12.42,
+   "end": 12.62
+  },
+  {
+   "w": "answered",
+   "start": 12.62,
+   "end": 12.84
+  },
+  {
+   "w": "overnight,",
+   "start": 12.84,
+   "end": 13.24
+  },
+  {
+   "w": "including",
+   "start": 13.54,
+   "end": 13.82
+  },
+  {
+   "w": "the",
+   "start": 13.82,
+   "end": 14.02
+  },
+  {
+   "w": "one",
+   "start": 14.02,
+   "end": 14.16
+  },
+  {
+   "w": "to",
+   "start": 14.16,
+   "end": 14.3
+  },
+  {
+   "w": "your",
+   "start": 14.3,
+   "end": 14.4
+  },
+  {
+   "w": "landlord.",
+   "start": 14.4,
+   "end": 14.68
+  },
+  {
+   "w": "Day",
+   "start": 15.44,
+   "end": 15.58
+  },
+  {
+   "w": "2.",
+   "start": 15.58,
+   "end": 15.84
+  },
+  {
+   "w": "Every",
+   "start": 16.24,
+   "end": 16.46
+  },
+  {
+   "w": "meeting",
+   "start": 16.46,
+   "end": 16.7
+  },
+  {
+   "w": "gets",
+   "start": 16.7,
+   "end": 16.9
+  },
+  {
+   "w": "a",
+   "start": 16.9,
+   "end": 17.04
+  },
+  {
+   "w": "one-line",
+   "start": 17.04,
+   "end": 17.44
+  },
+  {
+   "w": "summary.",
+   "start": 17.44,
+   "end": 17.84
+  },
+  {
+   "w": "Half",
+   "start": 18.18,
+   "end": 18.38
+  },
+  {
+   "w": "of",
+   "start": 18.38,
+   "end": 18.48
+  },
+  {
+   "w": "them",
+   "start": 18.48,
+   "end": 18.56
+  },
+  {
+   "w": "get",
+   "start": 18.56,
+   "end": 18.72
+  },
+  {
+   "w": "cancelled.",
+   "start": 18.72,
+   "end": 19.02
+  },
+  {
+   "w": "Nobody",
+   "start": 19.4,
+   "end": 19.6
+  },
+  {
+   "w": "misses",
+   "start": 19.6,
+   "end": 19.9
+  },
+  {
+   "w": "them.",
+   "start": 19.9,
+   "end": 20.14
+  },
+  {
+   "w": "Day",
+   "start": 20.42,
+   "end": 20.56
+  },
+  {
+   "w": "3.",
+   "start": 20.56,
+   "end": 20.8
+  },
+  {
+   "w": "AI",
+   "start": 21.22,
+   "end": 21.54
+  },
+  {
+   "w": "agents",
+   "start": 21.54,
+   "end": 21.88
+  },
+  {
+   "w": "start",
+   "start": 21.88,
+   "end": 22.14
+  },
+  {
+   "w": "shopping",
+   "start": 22.14,
+   "end": 22.46
+  },
+  {
+   "w": "for",
+   "start": 22.46,
+   "end": 22.66
+  },
+  {
+   "w": "you.",
+   "start": 22.66,
+   "end": 22.82
+  },
+  {
+   "w": "Stores",
+   "start": 23.12,
+   "end": 23.36
+  },
+  {
+   "w": "redesign",
+   "start": 23.36,
+   "end": 23.7
+  },
+  {
+   "w": "their",
+   "start": 23.7,
+   "end": 23.98
+  },
+  {
+   "w": "websites",
+   "start": 23.98,
+   "end": 24.3
+  },
+  {
+   "w": "for",
+   "start": 24.3,
+   "end": 24.54
+  },
+  {
+   "w": "the",
+   "start": 24.54,
+   "end": 24.64
+  },
+  {
+   "w": "agents,",
+   "start": 24.64,
+   "end": 24.94
+  },
+  {
+   "w": "Not",
+   "start": 25.26,
+   "end": 25.5
+  },
+  {
+   "w": "for",
+   "start": 25.5,
+   "end": 25.66
+  },
+  {
+   "w": "you.",
+   "start": 25.66,
+   "end": 25.84
+  },
+  {
+   "w": "Your",
+   "start": 26.28,
+   "end": 26.42
+  },
+  {
+   "w": "fridge",
+   "start": 26.42,
+   "end": 26.64
+  },
+  {
+   "w": "orders",
+   "start": 26.64,
+   "end": 26.94
+  },
+  {
+   "w": "milk",
+   "start": 26.94,
+   "end": 27.24
+  },
+  {
+   "w": "before",
+   "start": 27.24,
+   "end": 27.48
+  },
+  {
+   "w": "you",
+   "start": 27.48,
+   "end": 27.64
+  },
+  {
+   "w": "even",
+   "start": 27.64,
+   "end": 27.82
+  },
+  {
+   "w": "notice",
+   "start": 27.82,
+   "end": 28.06
+  },
+  {
+   "w": "it's",
+   "start": 28.06,
+   "end": 28.3
+  },
+  {
+   "w": "gone.",
+   "start": 28.3,
+   "end": 28.48
+  },
+  {
+   "w": "Week",
+   "start": 29.12,
+   "end": 29.24
+  },
+  {
+   "w": "2.",
+   "start": 29.24,
+   "end": 29.52
+  },
+  {
+   "w": "The",
+   "start": 30.18,
+   "end": 30.22
+  },
+  {
+   "w": "AI",
+   "start": 30.22,
+   "end": 30.52
+  },
+  {
+   "w": "asks",
+   "start": 30.52,
+   "end": 31.0
+  },
+  {
+   "w": "before",
+   "start": 31.0,
+   "end": 31.32
+  },
+  {
+   "w": "it",
+   "start": 31.32,
+   "end": 31.5
+  },
+  {
+   "w": "spends",
+   "start": 31.5,
+   "end": 31.72
+  },
+  {
+   "w": "a",
+   "start": 31.72,
+   "end": 31.9
+  },
+  {
+   "w": "cent.",
+   "start": 31.9,
+   "end": 32.14
+  },
+  {
+   "w": "Most",
+   "start": 32.5,
+   "end": 32.64
+  },
+  {
+   "w": "people",
+   "start": 32.64,
+   "end": 32.84
+  },
+  {
+   "w": "tap",
+   "start": 32.84,
+   "end": 33.08
+  },
+  {
+   "w": "yes",
+   "start": 33.08,
+   "end": 33.34
+  },
+  {
+   "w": "without",
+   "start": 33.34,
+   "end": 33.58
+  },
+  {
+   "w": "reading,",
+   "start": 33.58,
+   "end": 33.92
+  },
+  {
+   "w": "and",
+   "start": 34.38,
+   "end": 34.46
+  },
+  {
+   "w": "somebody's",
+   "start": 34.46,
+   "end": 34.84
+  },
+  {
+   "w": "agent",
+   "start": 34.84,
+   "end": 35.1
+  },
+  {
+   "w": "buys",
+   "start": 35.1,
+   "end": 35.32
+  },
+  {
+   "w": "40",
+   "start": 35.32,
+   "end": 35.76
+  },
+  {
+   "w": "rubber",
+   "start": 35.76,
+   "end": 35.98
+  },
+  {
+   "w": "ducks.",
+   "start": 35.98,
+   "end": 36.26
+  },
+  {
+   "w": "Month",
+   "start": 36.76,
+   "end": 36.84
+  },
+  {
+   "w": "1.",
+   "start": 36.84,
+   "end": 37.12
+  },
+  {
+   "w": "The",
+   "start": 37.54,
+   "end": 37.56
+  },
+  {
+   "w": "people",
+   "start": 37.56,
+   "end": 37.74
+  },
+  {
+   "w": "who",
+   "start": 37.74,
+   "end": 37.88
+  },
+  {
+   "w": "wrote",
+   "start": 37.88,
+   "end": 38.02
+  },
+  {
+   "w": "down",
+   "start": 38.02,
+   "end": 38.22
+  },
+  {
+   "w": "how",
+   "start": 38.22,
+   "end": 38.4
+  },
+  {
+   "w": "their",
+   "start": 38.4,
+   "end": 38.52
+  },
+  {
+   "w": "work",
+   "start": 38.52,
+   "end": 38.72
+  },
+  {
+   "w": "gets",
+   "start": 38.72,
+   "end": 38.94
+  },
+  {
+   "w": "done",
+   "start": 38.94,
+   "end": 39.18
+  },
+  {
+   "w": "are",
+   "start": 39.18,
+   "end": 39.42
+  },
+  {
+   "w": "running",
+   "start": 39.42,
+   "end": 39.66
+  },
+  {
+   "w": "10",
+   "start": 39.66,
+   "end": 39.94
+  },
+  {
+   "w": "AI",
+   "start": 39.94,
+   "end": 40.2
+  },
+  {
+   "w": "employees.",
+   "start": 40.2,
+   "end": 40.58
+  },
+  {
+   "w": "Everyone",
+   "start": 41.24,
+   "end": 41.46
+  },
+  {
+   "w": "else",
+   "start": 41.46,
+   "end": 41.68
+  },
+  {
+   "w": "is",
+   "start": 41.68,
+   "end": 41.82
+  },
+  {
+   "w": "still",
+   "start": 41.82,
+   "end": 41.98
+  },
+  {
+   "w": "copying",
+   "start": 41.98,
+   "end": 42.36
+  },
+  {
+   "w": "and",
+   "start": 42.36,
+   "end": 42.6
+  },
+  {
+   "w": "pasting",
+   "start": 42.6,
+   "end": 42.94
+  },
+  {
+   "w": "prompts.",
+   "start": 42.94,
+   "end": 43.24
+  },
+  {
+   "w": "Year",
+   "start": 43.68,
+   "end": 43.8
+  },
+  {
+   "w": "1.",
+   "start": 43.8,
+   "end": 44.06
+  },
+  {
+   "w": "AI",
+   "start": 44.54,
+   "end": 44.88
+  },
+  {
+   "w": "didn't",
+   "start": 44.88,
+   "end": 45.24
+  },
+  {
+   "w": "take",
+   "start": 45.24,
+   "end": 45.38
+  },
+  {
+   "w": "your",
+   "start": 45.38,
+   "end": 45.54
+  },
+  {
+   "w": "job.",
+   "start": 45.54,
+   "end": 45.8
+  },
+  {
+   "w": "The",
+   "start": 46.06,
+   "end": 46.1
+  },
+  {
+   "w": "person",
+   "start": 46.1,
+   "end": 46.32
+  },
+  {
+   "w": "who",
+   "start": 46.32,
+   "end": 46.46
+  },
+  {
+   "w": "set",
+   "start": 46.46,
+   "end": 46.62
+  },
+  {
+   "w": "it",
+   "start": 46.62,
+   "end": 46.72
+  },
+  {
+   "w": "up",
+   "start": 46.72,
+   "end": 46.8
+  },
+  {
+   "w": "first",
+   "start": 46.8,
+   "end": 47.02
+  },
+  {
+   "w": "did.",
+   "start": 47.02,
+   "end": 47.3
+  },
+  {
+   "w": "Want",
+   "start": 47.8,
+   "end": 47.94
+  },
+  {
+   "w": "the",
+   "start": 47.94,
+   "end": 48.1
+  },
+  {
+   "w": "five",
+   "start": 48.1,
+   "end": 48.26
+  },
+  {
+   "w": "skills",
+   "start": 48.26,
+   "end": 48.56
+  },
+  {
+   "w": "I",
+   "start": 48.56,
+   "end": 48.7
+  },
+  {
+   "w": "set",
+   "start": 48.7,
+   "end": 48.84
+  },
+  {
+   "w": "up",
+   "start": 48.84,
+   "end": 48.96
+  },
+  {
+   "w": "first?",
+   "start": 48.96,
+   "end": 49.16
+  },
+  {
+   "w": "Comment",
+   "start": 49.6,
+   "end": 49.92
+  },
+  {
+   "w": "AI,",
+   "start": 49.92,
+   "end": 50.26
+  },
+  {
+   "w": "and",
+   "start": 50.76,
+   "end": 50.82
+  },
+  {
+   "w": "I'll",
+   "start": 50.82,
+   "end": 50.92
+  },
+  {
+   "w": "send",
+   "start": 50.92,
+   "end": 51.08
+  },
+  {
+   "w": "them",
+   "start": 51.08,
+   "end": 51.22
+  },
+  {
+   "w": "to",
+   "start": 51.22,
+   "end": 51.34
+  },
+  {
+   "w": "you",
+   "start": 51.34,
+   "end": 51.46
+  },
+  {
+   "w": "free.",
+   "start": 51.46,
+   "end": 51.66
+  }
+ ],
+ "text": "What if AI took over the world tomorrow? No robots in the streets, just software, quietly doing everything. Here's the timeline. Day 1. Nothing looks different. Then you open your inbox, and it's empty for the first time ever. Every email got answered overnight, including the one to your landlord. Day 2. Every meeting gets a one-line summary. Half of them get canceled. Nobody misses them. Day 3. AI agents start shopping for you. Stores redesign their websites for the agents? Not for you. Your fridge orders milk before you even notice it's gone. Week 2. The AI asks before it spends a cent. Most people tap yes without reading, and somebody's agent buys 40 rubber ducks. Month 1. The people who wrote down how their work gets done are running 10 AI employees. Everyone else is still copying and pasting prompts. Year 1. AI didn't take your job. The person who set it up first did. Want the five skills I set up first? Comment AI, and I'll send them to you free."
+}

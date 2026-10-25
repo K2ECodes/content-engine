@@ -1,0 +1,140 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "sfxGain": 1.6,
+  "tail": 1.6,
+  "keys": [
+   "wild",
+   "code",
+   "systems",
+   "approval"
+  ],
+  "rail": {
+   "meter": "Order restored",
+   "accent": "#0B6E4F"
+  },
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "No government",
+    "place": "Every city on Earth, tomorrow",
+    "w3d": {
+     "orbit": [
+      20,
+      70
+     ],
+     "height": [
+      10,
+      5
+     ],
+     "zoom": [
+      17,
+      11
+     ]
+    }
+   },
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 1",
+    "title": "Group chats go *wild*",
+    "sub": "No new laws. No new taxes.",
+    "meter": 6,
+    "emoji": "💬"
+   },
+   {
+    "at": "Day#2",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 2",
+    "title": "The lights *still work*",
+    "sub": "Somebody's code is running them.",
+    "meter": 15,
+    "emoji": "🚦",
+    "w3d": {
+     "orbit": [
+      110,
+      140
+     ],
+     "height": [
+      2.2,
+      1.6
+     ],
+     "zoom": [
+      5.5,
+      4.2
+     ]
+    }
+   },
+   {
+    "at": "Day#3",
+    "world": "dark",
+    "type": "stage",
+    "when": "Day 3",
+    "title": "Neighbours *organise*",
+    "sub": "Group chats become the first councils.",
+    "meter": 28,
+    "emoji": "🏘️",
+    "px": "day"
+   },
+   {
+    "at": "Week",
+    "world": "dark",
+    "type": "stage",
+    "when": "Week 2",
+    "title": "Trash *piles up*",
+    "sub": "Every city finds out who kept things running.",
+    "meter": 36,
+    "emoji": "🗑️"
+   },
+   {
+    "at": "Month",
+    "world": "dark",
+    "type": "stage",
+    "when": "Month 1",
+    "title": "Systems keep *paying people*",
+    "sub": "The ones on 1 person's memory stop.",
+    "meter": 62,
+    "emoji": "💼",
+    "accent": "#E8A80C"
+   },
+   {
+    "at": "Year",
+    "world": "dark",
+    "type": "stage",
+    "when": "Year 1",
+    "title": "Group chats *with rules*",
+    "sub": "And an approval step.",
+    "meter": 86,
+    "emoji": "📜"
+   },
+   {
+    "at": "beat",
+    "world": "dark",
+    "type": "word",
+    "text": "Systems beat titles"
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent"
+   }
+  ],
+  "world3d": {
+   "kind": "city",
+   "palette": {
+    "sky": [
+     "#141a33",
+     "#e38b5b"
+    ]
+   }
+  }
+ }
+}

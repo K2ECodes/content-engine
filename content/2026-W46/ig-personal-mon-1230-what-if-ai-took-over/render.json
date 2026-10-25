@@ -1,8 +1,8 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
   "sfxGain": 1.6,
   "tail": 1.6,
   "keys": [
@@ -58,7 +58,7 @@
     "type": "stage",
     "when": "Day 1",
     "title": "Your inbox is *empty*",
-    "sub": "For the first time ever.",
+    "sub": "Every email answered overnight. Even the landlord.",
     "meter": 8,
     "emoji": "📭"
    },
@@ -89,7 +89,7 @@
     "type": "stage",
     "when": "Week 2",
     "title": "It asks *before it spends*",
-    "sub": "Most people say yes without reading.",
+    "sub": "Somebody's agent buys 40 rubber ducks.",
     "meter": 52,
     "emoji": "✋"
    },

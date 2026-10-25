@@ -1,0 +1,840 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.4
+  },
+  {
+   "w": "if",
+   "start": 0.4,
+   "end": 0.52
+  },
+  {
+   "w": "every",
+   "start": 0.52,
+   "end": 0.8
+  },
+  {
+   "w": "government",
+   "start": 0.8,
+   "end": 1.1
+  },
+  {
+   "w": "on",
+   "start": 1.1,
+   "end": 1.3
+  },
+  {
+   "w": "Earth",
+   "start": 1.3,
+   "end": 1.52
+  },
+  {
+   "w": "left",
+   "start": 1.52,
+   "end": 1.76
+  },
+  {
+   "w": "tomorrow",
+   "start": 1.76,
+   "end": 2.18
+  },
+  {
+   "w": "and",
+   "start": 2.18,
+   "end": 2.54
+  },
+  {
+   "w": "never",
+   "start": 2.54,
+   "end": 2.76
+  },
+  {
+   "w": "came",
+   "start": 2.76,
+   "end": 2.96
+  },
+  {
+   "w": "back?",
+   "start": 2.96,
+   "end": 3.18
+  },
+  {
+   "w": "No",
+   "start": 3.72,
+   "end": 3.8
+  },
+  {
+   "w": "presidents,",
+   "start": 3.8,
+   "end": 4.14
+  },
+  {
+   "w": "no",
+   "start": 4.66,
+   "end": 4.76
+  },
+  {
+   "w": "parliaments,",
+   "start": 4.76,
+   "end": 5.3
+  },
+  {
+   "w": "no",
+   "start": 5.7,
+   "end": 5.8
+  },
+  {
+   "w": "tax",
+   "start": 5.8,
+   "end": 6.06
+  },
+  {
+   "w": "office.",
+   "start": 6.06,
+   "end": 6.42
+  },
+  {
+   "w": "Day",
+   "start": 7.06,
+   "end": 7.18
+  },
+  {
+   "w": "1.",
+   "start": 7.18,
+   "end": 7.46
+  },
+  {
+   "w": "No",
+   "start": 7.82,
+   "end": 8.02
+  },
+  {
+   "w": "new",
+   "start": 8.02,
+   "end": 8.16
+  },
+  {
+   "w": "laws,",
+   "start": 8.16,
+   "end": 8.5
+  },
+  {
+   "w": "no",
+   "start": 8.86,
+   "end": 8.96
+  },
+  {
+   "w": "new",
+   "start": 8.96,
+   "end": 9.1
+  },
+  {
+   "w": "taxes.",
+   "start": 9.1,
+   "end": 9.44
+  },
+  {
+   "w": "Every",
+   "start": 9.96,
+   "end": 10.16
+  },
+  {
+   "w": "group",
+   "start": 10.16,
+   "end": 10.36
+  },
+  {
+   "w": "chat",
+   "start": 10.36,
+   "end": 10.58
+  },
+  {
+   "w": "goes",
+   "start": 10.58,
+   "end": 10.8
+  },
+  {
+   "w": "wild",
+   "start": 10.8,
+   "end": 11.22
+  },
+  {
+   "w": "and",
+   "start": 11.22,
+   "end": 11.68
+  },
+  {
+   "w": "somebody's",
+   "start": 11.68,
+   "end": 12.14
+  },
+  {
+   "w": "uncle",
+   "start": 12.14,
+   "end": 12.3
+  },
+  {
+   "w": "declares",
+   "start": 12.3,
+   "end": 12.68
+  },
+  {
+   "w": "himself",
+   "start": 12.68,
+   "end": 12.96
+  },
+  {
+   "w": "mayor.",
+   "start": 12.96,
+   "end": 13.28
+  },
+  {
+   "w": "Day",
+   "start": 13.64,
+   "end": 13.76
+  },
+  {
+   "w": "2.",
+   "start": 13.76,
+   "end": 14.0
+  },
+  {
+   "w": "The",
+   "start": 14.28,
+   "end": 14.34
+  },
+  {
+   "w": "traffic",
+   "start": 14.34,
+   "end": 14.56
+  },
+  {
+   "w": "lights",
+   "start": 14.56,
+   "end": 14.84
+  },
+  {
+   "w": "still",
+   "start": 14.84,
+   "end": 15.08
+  },
+  {
+   "w": "work,",
+   "start": 15.08,
+   "end": 15.36
+  },
+  {
+   "w": "nobody's",
+   "start": 15.72,
+   "end": 16.16
+  },
+  {
+   "w": "in",
+   "start": 16.16,
+   "end": 16.22
+  },
+  {
+   "w": "charge",
+   "start": 16.22,
+   "end": 16.4
+  },
+  {
+   "w": "of",
+   "start": 16.4,
+   "end": 16.54
+  },
+  {
+   "w": "them.",
+   "start": 16.54,
+   "end": 16.68
+  },
+  {
+   "w": "Somebody's",
+   "start": 17.08,
+   "end": 17.54
+  },
+  {
+   "w": "code",
+   "start": 17.54,
+   "end": 17.74
+  },
+  {
+   "w": "is",
+   "start": 17.74,
+   "end": 17.9
+  },
+  {
+   "w": "just",
+   "start": 17.9,
+   "end": 18.04
+  },
+  {
+   "w": "running",
+   "start": 18.04,
+   "end": 18.3
+  },
+  {
+   "w": "in",
+   "start": 18.3,
+   "end": 18.44
+  },
+  {
+   "w": "a",
+   "start": 18.44,
+   "end": 18.52
+  },
+  {
+   "w": "basement.",
+   "start": 18.52,
+   "end": 18.72
+  },
+  {
+   "w": "Day",
+   "start": 19.1,
+   "end": 19.26
+  },
+  {
+   "w": "3.",
+   "start": 19.26,
+   "end": 19.5
+  },
+  {
+   "w": "The",
+   "start": 19.98,
+   "end": 19.98
+  },
+  {
+   "w": "first",
+   "start": 19.98,
+   "end": 20.18
+  },
+  {
+   "w": "people",
+   "start": 20.18,
+   "end": 20.4
+  },
+  {
+   "w": "to",
+   "start": 20.4,
+   "end": 20.52
+  },
+  {
+   "w": "organise",
+   "start": 20.52,
+   "end": 20.82
+  },
+  {
+   "w": "anything",
+   "start": 20.82,
+   "end": 21.3
+  },
+  {
+   "w": "are",
+   "start": 21.3,
+   "end": 21.62
+  },
+  {
+   "w": "the",
+   "start": 21.62,
+   "end": 21.74
+  },
+  {
+   "w": "neighbourhood",
+   "start": 21.74,
+   "end": 22.04
+  },
+  {
+   "w": "group",
+   "start": 22.04,
+   "end": 22.34
+  },
+  {
+   "w": "chats.",
+   "start": 22.34,
+   "end": 22.68
+  },
+  {
+   "w": "One",
+   "start": 23.06,
+   "end": 23.22
+  },
+  {
+   "w": "of",
+   "start": 23.22,
+   "end": 23.32
+  },
+  {
+   "w": "them",
+   "start": 23.32,
+   "end": 23.42
+  },
+  {
+   "w": "already",
+   "start": 23.42,
+   "end": 23.72
+  },
+  {
+   "w": "has",
+   "start": 23.72,
+   "end": 23.96
+  },
+  {
+   "w": "a",
+   "start": 23.96,
+   "end": 24.04
+  },
+  {
+   "w": "treasurer",
+   "start": 24.04,
+   "end": 24.48
+  },
+  {
+   "w": "and",
+   "start": 24.48,
+   "end": 24.66
+  },
+  {
+   "w": "a",
+   "start": 24.66,
+   "end": 24.76
+  },
+  {
+   "w": "strict",
+   "start": 24.76,
+   "end": 25.04
+  },
+  {
+   "w": "no",
+   "start": 25.04,
+   "end": 25.42
+  },
+  {
+   "w": "voice",
+   "start": 25.42,
+   "end": 25.66
+  },
+  {
+   "w": "notes",
+   "start": 25.66,
+   "end": 25.88
+  },
+  {
+   "w": "rule.",
+   "start": 25.88,
+   "end": 26.18
+  },
+  {
+   "w": "Week",
+   "start": 26.6,
+   "end": 26.78
+  },
+  {
+   "w": "2.",
+   "start": 26.78,
+   "end": 27.0
+  },
+  {
+   "w": "Trash",
+   "start": 27.46,
+   "end": 27.8
+  },
+  {
+   "w": "piles",
+   "start": 27.8,
+   "end": 28.1
+  },
+  {
+   "w": "up",
+   "start": 28.1,
+   "end": 28.28
+  },
+  {
+   "w": "on",
+   "start": 28.28,
+   "end": 28.44
+  },
+  {
+   "w": "every",
+   "start": 28.44,
+   "end": 28.76
+  },
+  {
+   "w": "corner.",
+   "start": 28.76,
+   "end": 29.08
+  },
+  {
+   "w": "Every",
+   "start": 29.08,
+   "end": 29.72
+  },
+  {
+   "w": "city",
+   "start": 29.72,
+   "end": 30.0
+  },
+  {
+   "w": "finds",
+   "start": 30.0,
+   "end": 30.24
+  },
+  {
+   "w": "out",
+   "start": 30.24,
+   "end": 30.46
+  },
+  {
+   "w": "who",
+   "start": 30.46,
+   "end": 30.6
+  },
+  {
+   "w": "actually",
+   "start": 30.6,
+   "end": 30.9
+  },
+  {
+   "w": "kept",
+   "start": 30.9,
+   "end": 31.12
+  },
+  {
+   "w": "things",
+   "start": 31.12,
+   "end": 31.32
+  },
+  {
+   "w": "running",
+   "start": 31.32,
+   "end": 31.56
+  },
+  {
+   "w": "and",
+   "start": 31.56,
+   "end": 32.04
+  },
+  {
+   "w": "it",
+   "start": 32.04,
+   "end": 32.12
+  },
+  {
+   "w": "wasn't",
+   "start": 32.12,
+   "end": 32.46
+  },
+  {
+   "w": "the",
+   "start": 32.46,
+   "end": 32.54
+  },
+  {
+   "w": "people",
+   "start": 32.54,
+   "end": 32.7
+  },
+  {
+   "w": "on",
+   "start": 32.7,
+   "end": 32.88
+  },
+  {
+   "w": "TV.",
+   "start": 32.88,
+   "end": 33.12
+  },
+  {
+   "w": "Month",
+   "start": 33.6,
+   "end": 33.7
+  },
+  {
+   "w": "1.",
+   "start": 33.7,
+   "end": 33.94
+  },
+  {
+   "w": "Businesses",
+   "start": 34.2,
+   "end": 34.64
+  },
+  {
+   "w": "with",
+   "start": 34.64,
+   "end": 34.76
+  },
+  {
+   "w": "clear",
+   "start": 34.76,
+   "end": 34.98
+  },
+  {
+   "w": "systems",
+   "start": 34.98,
+   "end": 35.36
+  },
+  {
+   "w": "keep",
+   "start": 35.36,
+   "end": 35.62
+  },
+  {
+   "w": "paying",
+   "start": 35.62,
+   "end": 35.88
+  },
+  {
+   "w": "people",
+   "start": 35.88,
+   "end": 36.12
+  },
+  {
+   "w": "on",
+   "start": 36.12,
+   "end": 36.3
+  },
+  {
+   "w": "time.",
+   "start": 36.3,
+   "end": 36.54
+  },
+  {
+   "w": "The",
+   "start": 37.08,
+   "end": 37.18
+  },
+  {
+   "w": "ones",
+   "start": 37.18,
+   "end": 37.32
+  },
+  {
+   "w": "running",
+   "start": 37.32,
+   "end": 37.58
+  },
+  {
+   "w": "on",
+   "start": 37.58,
+   "end": 37.72
+  },
+  {
+   "w": "one",
+   "start": 37.72,
+   "end": 37.88
+  },
+  {
+   "w": "person's",
+   "start": 37.88,
+   "end": 38.26
+  },
+  {
+   "w": "memory",
+   "start": 38.26,
+   "end": 38.54
+  },
+  {
+   "w": "just",
+   "start": 38.54,
+   "end": 38.84
+  },
+  {
+   "w": "stop.",
+   "start": 38.84,
+   "end": 39.18
+  },
+  {
+   "w": "Year",
+   "start": 39.72,
+   "end": 39.92
+  },
+  {
+   "w": "1.",
+   "start": 39.92,
+   "end": 40.2
+  },
+  {
+   "w": "The",
+   "start": 40.68,
+   "end": 40.78
+  },
+  {
+   "w": "new",
+   "start": 40.78,
+   "end": 40.9
+  },
+  {
+   "w": "governments",
+   "start": 40.9,
+   "end": 41.2
+  },
+  {
+   "w": "are",
+   "start": 41.2,
+   "end": 41.42
+  },
+  {
+   "w": "basically",
+   "start": 41.42,
+   "end": 41.68
+  },
+  {
+   "w": "group",
+   "start": 41.68,
+   "end": 41.94
+  },
+  {
+   "w": "chats",
+   "start": 41.94,
+   "end": 42.22
+  },
+  {
+   "w": "with",
+   "start": 42.22,
+   "end": 42.46
+  },
+  {
+   "w": "rules",
+   "start": 42.46,
+   "end": 42.8
+  },
+  {
+   "w": "and",
+   "start": 42.8,
+   "end": 43.06
+  },
+  {
+   "w": "an",
+   "start": 43.06,
+   "end": 43.14
+  },
+  {
+   "w": "approval",
+   "start": 43.14,
+   "end": 43.38
+  },
+  {
+   "w": "step.",
+   "start": 43.38,
+   "end": 43.74
+  },
+  {
+   "w": "Systems",
+   "start": 44.08,
+   "end": 44.4
+  },
+  {
+   "w": "beat",
+   "start": 44.4,
+   "end": 44.68
+  },
+  {
+   "w": "titles.",
+   "start": 44.68,
+   "end": 45.0
+  },
+  {
+   "w": "Want",
+   "start": 45.42,
+   "end": 45.54
+  },
+  {
+   "w": "the",
+   "start": 45.54,
+   "end": 45.68
+  },
+  {
+   "w": "five",
+   "start": 45.68,
+   "end": 45.84
+  },
+  {
+   "w": "starter",
+   "start": 45.84,
+   "end": 46.1
+  },
+  {
+   "w": "skills",
+   "start": 46.1,
+   "end": 46.34
+  },
+  {
+   "w": "I",
+   "start": 46.34,
+   "end": 46.52
+  },
+  {
+   "w": "use",
+   "start": 46.52,
+   "end": 46.64
+  },
+  {
+   "w": "to",
+   "start": 46.64,
+   "end": 46.76
+  },
+  {
+   "w": "run",
+   "start": 46.76,
+   "end": 46.9
+  },
+  {
+   "w": "my",
+   "start": 46.9,
+   "end": 47.0
+  },
+  {
+   "w": "company?",
+   "start": 47.0,
+   "end": 47.26
+  },
+  {
+   "w": "Comment",
+   "start": 47.58,
+   "end": 47.84
+  },
+  {
+   "w": "AI",
+   "start": 47.84,
+   "end": 48.14
+  },
+  {
+   "w": "and",
+   "start": 48.14,
+   "end": 48.68
+  },
+  {
+   "w": "I'll",
+   "start": 48.68,
+   "end": 48.82
+  },
+  {
+   "w": "send",
+   "start": 48.82,
+   "end": 48.94
+  },
+  {
+   "w": "them",
+   "start": 48.94,
+   "end": 49.06
+  },
+  {
+   "w": "to",
+   "start": 49.06,
+   "end": 49.18
+  },
+  {
+   "w": "you",
+   "start": 49.18,
+   "end": 49.26
+  },
+  {
+   "w": "free.",
+   "start": 49.26,
+   "end": 49.46
+  }
+ ],
+ "text": "What if every government on earth left tomorrow and never came back? No presidents, no parliaments, no tax office. Day 1. No new laws, no new taxes. Every group chat goes wild and somebody's uncle declares himself mayor. Day 2. The traffic lights still work, nobody's in charge of them. Somebody's code is just running in a basement. Day 3. The first people to organize anything are the neighborhood group chats. One of them already has a treasurer and a strict no voice notes rule. Week 2. Trash piles up on every corner. Every city finds out who actually kept things running and it wasn't the people on TV. Month 1. Businesses with clear systems keep paying people on time. The ones running on one person's memory just stop. Year 1. The new governments are basically group chats with rules and an approval step. Systems beat titles. Want the five starter skills I use to run my company? Comment AI and I'll send them to you free."
+}

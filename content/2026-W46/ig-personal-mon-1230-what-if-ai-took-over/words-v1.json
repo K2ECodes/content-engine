@@ -1,0 +1,650 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.34
+  },
+  {
+   "w": "if",
+   "start": 0.34,
+   "end": 0.48
+  },
+  {
+   "w": "AI",
+   "start": 0.48,
+   "end": 0.68
+  },
+  {
+   "w": "took",
+   "start": 0.68,
+   "end": 0.96
+  },
+  {
+   "w": "over",
+   "start": 0.96,
+   "end": 1.16
+  },
+  {
+   "w": "the",
+   "start": 1.16,
+   "end": 1.26
+  },
+  {
+   "w": "world",
+   "start": 1.26,
+   "end": 1.44
+  },
+  {
+   "w": "tomorrow?",
+   "start": 1.44,
+   "end": 1.72
+  },
+  {
+   "w": "Here's",
+   "start": 2.1,
+   "end": 2.26
+  },
+  {
+   "w": "the",
+   "start": 2.26,
+   "end": 2.34
+  },
+  {
+   "w": "timeline.",
+   "start": 2.34,
+   "end": 2.56
+  },
+  {
+   "w": "Day",
+   "start": 3.0,
+   "end": 3.12
+  },
+  {
+   "w": "1.",
+   "start": 3.12,
+   "end": 3.38
+  },
+  {
+   "w": "Nothing",
+   "start": 3.78,
+   "end": 3.98
+  },
+  {
+   "w": "looks",
+   "start": 3.98,
+   "end": 4.22
+  },
+  {
+   "w": "different.",
+   "start": 4.22,
+   "end": 4.52
+  },
+  {
+   "w": "Your",
+   "start": 4.84,
+   "end": 4.96
+  },
+  {
+   "w": "inbox",
+   "start": 4.96,
+   "end": 5.24
+  },
+  {
+   "w": "is",
+   "start": 5.24,
+   "end": 5.46
+  },
+  {
+   "w": "just",
+   "start": 5.46,
+   "end": 5.58
+  },
+  {
+   "w": "empty",
+   "start": 5.58,
+   "end": 5.86
+  },
+  {
+   "w": "for",
+   "start": 5.86,
+   "end": 6.06
+  },
+  {
+   "w": "the",
+   "start": 6.06,
+   "end": 6.14
+  },
+  {
+   "w": "first",
+   "start": 6.14,
+   "end": 6.32
+  },
+  {
+   "w": "time",
+   "start": 6.32,
+   "end": 6.58
+  },
+  {
+   "w": "ever.",
+   "start": 6.58,
+   "end": 6.76
+  },
+  {
+   "w": "Day",
+   "start": 7.1,
+   "end": 7.22
+  },
+  {
+   "w": "2.",
+   "start": 7.22,
+   "end": 7.5
+  },
+  {
+   "w": "Every",
+   "start": 7.88,
+   "end": 8.16
+  },
+  {
+   "w": "meeting",
+   "start": 8.16,
+   "end": 8.38
+  },
+  {
+   "w": "gets",
+   "start": 8.38,
+   "end": 8.56
+  },
+  {
+   "w": "a",
+   "start": 8.56,
+   "end": 8.68
+  },
+  {
+   "w": "1-line",
+   "start": 8.68,
+   "end": 9.1
+  },
+  {
+   "w": "summary,",
+   "start": 9.1,
+   "end": 9.46
+  },
+  {
+   "w": "and",
+   "start": 9.78,
+   "end": 9.88
+  },
+  {
+   "w": "half",
+   "start": 9.88,
+   "end": 10.12
+  },
+  {
+   "w": "of",
+   "start": 10.12,
+   "end": 10.2
+  },
+  {
+   "w": "them",
+   "start": 10.2,
+   "end": 10.28
+  },
+  {
+   "w": "get",
+   "start": 10.28,
+   "end": 10.44
+  },
+  {
+   "w": "canceled.",
+   "start": 10.44,
+   "end": 10.72
+  },
+  {
+   "w": "Day",
+   "start": 11.12,
+   "end": 11.26
+  },
+  {
+   "w": "3.",
+   "start": 11.26,
+   "end": 11.52
+  },
+  {
+   "w": "AI",
+   "start": 11.94,
+   "end": 12.22
+  },
+  {
+   "w": "agents",
+   "start": 12.22,
+   "end": 12.58
+  },
+  {
+   "w": "start",
+   "start": 12.58,
+   "end": 12.78
+  },
+  {
+   "w": "shopping",
+   "start": 12.78,
+   "end": 13.1
+  },
+  {
+   "w": "for",
+   "start": 13.1,
+   "end": 13.32
+  },
+  {
+   "w": "you,",
+   "start": 13.32,
+   "end": 13.5
+  },
+  {
+   "w": "and",
+   "start": 13.68,
+   "end": 13.88
+  },
+  {
+   "w": "stores",
+   "start": 13.88,
+   "end": 14.16
+  },
+  {
+   "w": "start",
+   "start": 14.16,
+   "end": 14.44
+  },
+  {
+   "w": "building",
+   "start": 14.44,
+   "end": 14.66
+  },
+  {
+   "w": "for",
+   "start": 14.66,
+   "end": 14.84
+  },
+  {
+   "w": "the",
+   "start": 14.84,
+   "end": 14.94
+  },
+  {
+   "w": "agents,",
+   "start": 14.94,
+   "end": 15.2
+  },
+  {
+   "w": "not",
+   "start": 15.44,
+   "end": 15.58
+  },
+  {
+   "w": "you.",
+   "start": 15.58,
+   "end": 15.8
+  },
+  {
+   "w": "Week",
+   "start": 16.38,
+   "end": 16.54
+  },
+  {
+   "w": "2.",
+   "start": 16.54,
+   "end": 16.8
+  },
+  {
+   "w": "The",
+   "start": 17.16,
+   "end": 17.26
+  },
+  {
+   "w": "AI",
+   "start": 17.26,
+   "end": 17.5
+  },
+  {
+   "w": "asks",
+   "start": 17.5,
+   "end": 17.9
+  },
+  {
+   "w": "before",
+   "start": 17.9,
+   "end": 18.26
+  },
+  {
+   "w": "it",
+   "start": 18.26,
+   "end": 18.46
+  },
+  {
+   "w": "spends",
+   "start": 18.46,
+   "end": 18.64
+  },
+  {
+   "w": "a",
+   "start": 18.64,
+   "end": 18.86
+  },
+  {
+   "w": "cent,",
+   "start": 18.86,
+   "end": 19.0
+  },
+  {
+   "w": "and",
+   "start": 19.16,
+   "end": 19.28
+  },
+  {
+   "w": "most",
+   "start": 19.28,
+   "end": 19.44
+  },
+  {
+   "w": "people",
+   "start": 19.44,
+   "end": 19.6
+  },
+  {
+   "w": "say",
+   "start": 19.6,
+   "end": 19.78
+  },
+  {
+   "w": "yes",
+   "start": 19.78,
+   "end": 20.02
+  },
+  {
+   "w": "without",
+   "start": 20.02,
+   "end": 20.2
+  },
+  {
+   "w": "reading.",
+   "start": 20.2,
+   "end": 20.48
+  },
+  {
+   "w": "Month",
+   "start": 20.8,
+   "end": 20.94
+  },
+  {
+   "w": "1.",
+   "start": 20.94,
+   "end": 21.2
+  },
+  {
+   "w": "The",
+   "start": 21.68,
+   "end": 21.74
+  },
+  {
+   "w": "people",
+   "start": 21.74,
+   "end": 21.94
+  },
+  {
+   "w": "who",
+   "start": 21.94,
+   "end": 22.06
+  },
+  {
+   "w": "wrote",
+   "start": 22.06,
+   "end": 22.24
+  },
+  {
+   "w": "down",
+   "start": 22.24,
+   "end": 22.44
+  },
+  {
+   "w": "how",
+   "start": 22.44,
+   "end": 22.62
+  },
+  {
+   "w": "their",
+   "start": 22.62,
+   "end": 22.74
+  },
+  {
+   "w": "work",
+   "start": 22.74,
+   "end": 22.92
+  },
+  {
+   "w": "gets",
+   "start": 22.92,
+   "end": 23.12
+  },
+  {
+   "w": "done",
+   "start": 23.12,
+   "end": 23.38
+  },
+  {
+   "w": "are",
+   "start": 23.38,
+   "end": 23.52
+  },
+  {
+   "w": "running",
+   "start": 23.52,
+   "end": 23.72
+  },
+  {
+   "w": "10",
+   "start": 23.72,
+   "end": 23.94
+  },
+  {
+   "w": "AI",
+   "start": 23.94,
+   "end": 24.2
+  },
+  {
+   "w": "employees.",
+   "start": 24.2,
+   "end": 24.56
+  },
+  {
+   "w": "Everyone",
+   "start": 25.06,
+   "end": 25.32
+  },
+  {
+   "w": "else",
+   "start": 25.32,
+   "end": 25.56
+  },
+  {
+   "w": "is",
+   "start": 25.56,
+   "end": 25.7
+  },
+  {
+   "w": "still",
+   "start": 25.7,
+   "end": 25.86
+  },
+  {
+   "w": "pasting",
+   "start": 25.86,
+   "end": 26.1
+  },
+  {
+   "w": "prompts.",
+   "start": 26.1,
+   "end": 26.44
+  },
+  {
+   "w": "Year",
+   "start": 26.44,
+   "end": 26.96
+  },
+  {
+   "w": "1.",
+   "start": 26.96,
+   "end": 27.26
+  },
+  {
+   "w": "AI",
+   "start": 27.54,
+   "end": 27.78
+  },
+  {
+   "w": "didn't",
+   "start": 27.78,
+   "end": 28.18
+  },
+  {
+   "w": "take",
+   "start": 28.18,
+   "end": 28.3
+  },
+  {
+   "w": "your",
+   "start": 28.3,
+   "end": 28.44
+  },
+  {
+   "w": "job.",
+   "start": 28.44,
+   "end": 28.68
+  },
+  {
+   "w": "The",
+   "start": 28.98,
+   "end": 29.06
+  },
+  {
+   "w": "person",
+   "start": 29.06,
+   "end": 29.3
+  },
+  {
+   "w": "who",
+   "start": 29.3,
+   "end": 29.42
+  },
+  {
+   "w": "set",
+   "start": 29.42,
+   "end": 29.58
+  },
+  {
+   "w": "it",
+   "start": 29.58,
+   "end": 29.68
+  },
+  {
+   "w": "up",
+   "start": 29.68,
+   "end": 29.78
+  },
+  {
+   "w": "first",
+   "start": 29.78,
+   "end": 30.0
+  },
+  {
+   "w": "did.",
+   "start": 30.0,
+   "end": 30.4
+  },
+  {
+   "w": "Want",
+   "start": 30.7,
+   "end": 30.82
+  },
+  {
+   "w": "the",
+   "start": 30.82,
+   "end": 30.96
+  },
+  {
+   "w": "5",
+   "start": 30.96,
+   "end": 31.14
+  },
+  {
+   "w": "skills",
+   "start": 31.14,
+   "end": 31.42
+  },
+  {
+   "w": "I",
+   "start": 31.42,
+   "end": 31.58
+  },
+  {
+   "w": "set",
+   "start": 31.58,
+   "end": 31.74
+  },
+  {
+   "w": "up",
+   "start": 31.74,
+   "end": 31.88
+  },
+  {
+   "w": "first?",
+   "start": 31.88,
+   "end": 32.1
+  },
+  {
+   "w": "Comment",
+   "start": 32.54,
+   "end": 32.86
+  },
+  {
+   "w": "AI,",
+   "start": 32.86,
+   "end": 33.16
+  },
+  {
+   "w": "and",
+   "start": 33.46,
+   "end": 33.52
+  },
+  {
+   "w": "I'll",
+   "start": 33.52,
+   "end": 33.6
+  },
+  {
+   "w": "send",
+   "start": 33.6,
+   "end": 33.74
+  },
+  {
+   "w": "them",
+   "start": 33.74,
+   "end": 33.86
+  },
+  {
+   "w": "to",
+   "start": 33.86,
+   "end": 33.98
+  },
+  {
+   "w": "you",
+   "start": 33.98,
+   "end": 34.1
+  },
+  {
+   "w": "free.",
+   "start": 34.1,
+   "end": 34.3
+  }
+ ],
+ "text": "What if AI took over the world tomorrow? Here's the timeline. Day 1. Nothing looks different. Your inbox is just empty for the first time ever. Day 2. Every meeting gets a one-line summary, and half of them get canceled. Day 3. AI agents start shopping for you, and stores start building for the agents, not you. Week 2. The AI asks before it spends a cent, and most people say yes without reading. Month 1. The people who wrote down how their work gets done are running 10 AI employees. Everyone else is still pacing prompts. Year 1. AI didn't take your job. The person who set it up first did. Want the five skills I set up first? Comment AI, and I'll send them to you free."
+}
