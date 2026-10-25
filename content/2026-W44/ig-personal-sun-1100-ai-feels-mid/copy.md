@@ -18,7 +18,7 @@ Each 1 is a real SKILL.md you drop into Claude or paste into any AI chat.
 #AI #ClaudeAI #AItools #productivity #aitips
 
 ## Alt text
-6-slide carousel from @koredekola in orange. Cover: Korede in a white jacket, his head in front of the headline Your AI feels mid? These 4 skills fix it., with a Scientists reveal news chip. Slide 2: /context-pack with its instructions and a 3-step flow. Slide 3 (video): /draft-only running in a terminal and a chat, preparing a refund and waiting for approval. Slide 4 (video): /sop-to-skill creating a skill folder, next to a screen recording of Anthropic's open skills repo on GitHub. Slide 5: /self-check with its instructions. Last slide: Comment AI, I'll send all 4 skills.
+6-slide carousel from @koredekola.ai in orange. Cover: Korede in a white jacket, his head in front of the headline Your AI feels mid? These 4 skills fix it., with a Scientists reveal news chip. Slide 2: /context-pack with its instructions and a 3-step flow. Slide 3 (video): /draft-only running in a terminal and a chat, preparing a refund and waiting for approval. Slide 4 (video): /sop-to-skill creating a skill folder, next to a screen recording of Anthropic's open skills repo on GitHub. Slide 5: /self-check with its instructions. Last slide: Comment AI, I'll send all 4 skills.
 
 ## Notes
 Freebie (keyword AI): assets/freebies/bundles/fix-mid-ai-skills.zip (/context-pack, /draft-only, /sop-to-skill, /self-check; folders in assets/freebies/skills/) plus the starter pack PDF and ai-starter-skills.zip. Listed in config/offers.json.

@@ -20,7 +20,7 @@ Drop them into Claude or paste them into any AI chat, no code.
 #AI #ChatGPT #ClaudeAI #productivity #aitools
 
 ## Alt text
-6-slide carousel from @koredekola in black and cream. Cover: Korede in a white jacket, his head in front of the headline Your inbox eats your whole morning? 3 skills fix that. Slide 2 (video): /weekly-numbers summarising a week in a terminal and a chat. Slide 3 (video): /inbox-triage sorting emails. Slide 4: /meeting-prep and its brief. Slide 5: 2 more skills and the permission sheet, locked. Last slide: Comment AI, I'll send all 5 skills.
+6-slide carousel from @koredekola.ai in black and cream. Cover: Korede in a white jacket, his head in front of the headline Your inbox eats your whole morning? 3 skills fix that. Slide 2 (video): /weekly-numbers summarising a week in a terminal and a chat. Slide 3 (video): /inbox-triage sorting emails. Slide 4: /meeting-prep and its brief. Slide 5: 2 more skills and the permission sheet, locked. Last slide: Comment AI, I'll send all 5 skills.
 
 ## Notes
 Freebie (keyword AI): assets/freebies/ai-employee-starter-pack.pdf + assets/freebies/bundles/ai-starter-skills.zip (all 3 Monday skills are in it). Listed in config/offers.json.

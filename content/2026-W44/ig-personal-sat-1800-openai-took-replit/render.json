@@ -11,7 +11,7 @@
   "opponent": {
    "brand": "claude"
   },
-  "handle": "@koredekola",
+  "handle": "@koredekola.ai",
   "popTop": 380,
   "stopMotion": 10,
   "prize": {
@@ -206,7 +206,7 @@
      "ROUND 1 ONLY",
      "REPLIT DEFAULT"
     ],
-    "foot": "@koredekola"
+    "foot": "@koredekola.ai"
    },
    {
     "type": "title",

@@ -9,7 +9,7 @@ import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i >= 0 ? process.argv[i + 1] : d; };
-const ACCOUNTS = { 'ig-personal': { id: '17841448447150542', name: '@koredekola' }, 'ig-company': { id: '17841418697572654', name: '@contentsystems.ai' } };
+const ACCOUNTS = { 'ig-personal': { id: '17841448447150542', name: '@koredekola' }, 'ig-company': { id: '17841418697572654', name: '@contentsystems.ai' }, 'ig-ai': { id: '17841446002300673', name: '@koredekola.ai' } };
 const TZ = 'America/New_York';
 const tomorrow = new Date(Date.now() + 864e5).toLocaleDateString('en-CA', { timeZone: TZ });
 const START = arg('start', tomorrow), DAYS = Number(arg('days', 7)), PER_DAY = Number(arg('perDay', 3));
@@ -30,9 +30,15 @@ function nyToUtc(ymd, hm) {
 const addDays = (ymd, n) => new Date(Date.parse(`${ymd}T12:00:00Z`) + n * 864e5).toISOString().slice(0, 10);
 
 const logFile = path.join(ROOT, 'logs/trial-posts.jsonl');
-const done = new Set(fs.existsSync(logFile) ? fs.readFileSync(logFile, 'utf8').split('\n').filter(Boolean).map((l) => { const j = JSON.parse(l); return `${j.post}#${j.variant}`; }) : []);
+// log rows: scheduled posts, plus {schedchiePostId, status: 'deleted'} rows for posts removed in Schedchie (those variants are free again)
+const logRows = fs.existsSync(logFile) ? fs.readFileSync(logFile, 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)) : [];
+const deleted = new Set(logRows.filter((j) => j.status === 'deleted').map((j) => j.schedchiePostId));
+const live = logRows.filter((j) => j.post && j.status !== 'deleted' && !deleted.has(j.schedchiePostId));
+const done = new Set(live.map((j) => `${j.post}#${j.variant}`));
 const lastAt = {};   // post -> last scheduled time (ms), from the log, so the 24 h rule holds across runs
-if (fs.existsSync(logFile)) for (const l of fs.readFileSync(logFile, 'utf8').split('\n').filter(Boolean)) { const j = JSON.parse(l); lastAt[j.post] = Math.max(lastAt[j.post] || 0, Date.parse(j.scheduledTime)); }
+for (const j of live) lastAt[j.post] = Math.max(lastAt[j.post] || 0, Date.parse(j.scheduledTime));
+// --accounts ig-personal,ig-company limits planning to those channels (ig-ai has no trial reels until @koredekola.ai reaches 1,000 followers)
+const ONLY = arg('accounts', '') ? arg('accounts', '').split(',') : null;
 
 // collect eligible posts and their unused variants
 const pools = {};
@@ -41,7 +47,7 @@ for (const week of fs.readdirSync(path.join(ROOT, 'content')).filter((w) => /^\d
     const dir = path.join(ROOT, 'content', week, id), man = path.join(ROOT, 'content/_trials', id, 'manifest.json'), metaF = path.join(dir, 'meta.json');
     if (!fs.existsSync(man) || !fs.existsSync(metaF)) continue;
     const meta = JSON.parse(fs.readFileSync(metaF, 'utf8'));
-    if (meta.format !== 'video' || !ACCOUNTS[meta.channel] || meta.trials === 'done') continue;
+    if (meta.format !== 'video' || !ACCOUNTS[meta.channel] || meta.trials === 'done' || (ONLY && !ONLY.includes(meta.channel))) continue;
     const m = JSON.parse(fs.readFileSync(man, 'utf8')), post = path.relative(ROOT, dir);
     const left = m.variants.filter((v) => !done.has(`${post}#${v.id}`));
     if (left.length) (pools[meta.channel] ||= []).push({ post, keyword: meta.cta_keyword || null, left });

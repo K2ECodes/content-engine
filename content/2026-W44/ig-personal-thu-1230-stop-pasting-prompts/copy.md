@@ -22,7 +22,7 @@ Write it once, use it anywhere.
 #AI #ClaudeAI #AItools #productivity #promptengineering
 
 ## Alt text
-6-slide carousel from @koredekola in a pixel-art platformer world. Cover: Stop pasting the same prompt, with a prompt being pasted, re-explained and fixed every morning. 3 slides on why it hurts: the chat forgets your context, you end up with 3 versions of 1 prompt, and it's stuck in 1 app now that 70+ AI tools read the open skills format. A night slide: save it once as a skill (steps, examples, files). A CTA to comment AI for the AI Employee Starter Pack.
+6-slide carousel from @koredekola.ai in a pixel-art platformer world. Cover: Stop pasting the same prompt, with a prompt being pasted, re-explained and fixed every morning. 3 slides on why it hurts: the chat forgets your context, you end up with 3 versions of 1 prompt, and it's stuck in 1 app now that 70+ AI tools read the open skills format. A night slide: save it once as a skill (steps, examples, files). A CTA to comment AI for the AI Employee Starter Pack.
 
 ## Notes
 Rewritten 2026-10-23 for the new ig-personal direction: general AI how-to and news, "I" voice, no company, workshop or logistics selling. Old workshop CTA dropped; now a lead post with keyword AI.

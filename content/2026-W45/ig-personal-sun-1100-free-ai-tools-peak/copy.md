@@ -18,7 +18,7 @@ Anything that leaves your business waits for your yes.
 #AI #opensource #ClaudeAI #aitools #smallbusiness
 
 ## Alt text
-6-slide carousel from @koredekola in gold on a city-at-dusk background. Cover: Korede in a white jacket, his head in front of the headline Paying for AI tools? These 3 are free., payoff Open source. Swipe for all 3. Slide 2 (video): Anthropic's skills library on GitHub and a skill running. Slide 3 (video): a web reader for your AI, its GitHub page and an AI chat comparing 3 competitor prices. Slide 4: my 5 starter skills, locked. Slide 5: the 1 rule, an approval card. Slide 6: comment AI.
+6-slide carousel from @koredekola.ai in gold on a city-at-dusk background. Cover: Korede in a white jacket, his head in front of the headline Paying for AI tools? These 3 are free., payoff Open source. Swipe for all 3. Slide 2 (video): Anthropic's skills library on GitHub and a skill running. Slide 3 (video): a web reader for your AI, its GitHub page and an AI chat comparing 3 competitor prices. Slide 4: my 5 starter skills, locked. Slide 5: the 1 rule, an approval card. Slide 6: comment AI.
 
 ## Notes
 Open-source tools verified on the GitHub API on 2026-10-24:

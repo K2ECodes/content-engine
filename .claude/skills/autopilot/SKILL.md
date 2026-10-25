@@ -10,7 +10,7 @@ Main IG posts stay manual. Autopilot covers: IG trial reels (trial-reels skill),
 Accounts: TikTok personal `-000yrCy6A18Yz1WwdIOKs3muERuL1mEzsw9`, TikTok company `-000ArZBUhhsQppfPpgjaziIAvLSYPsPWaqv`, LinkedIn Korede `acjHaFzZBp`, LinkedIn company `109821772`. Check `list_accounts` first; never schedule onto a publishBlocked account.
 
 ## TikTok
-1. Eligible: rendered + checked main reels (video.mp4 newer than render.json), not marked HOLD in content/POST-TODAY.md. ig-personal -> personal TikTok, ig-company -> company TikTok.
+1. Eligible: rendered + checked main reels (video.mp4 newer than render.json), not marked HOLD in content/POST-TODAY.md. ig-personal and ig-ai -> personal TikTok (Korede Kola), ig-company -> company TikTok. Instagram split: ig-ai = @koredekola.ai (17841446002300673: carousels + AI-focused videos), ig-personal = @koredekola (17841448447150542: realistic what-if/you-decide + swaps/skits).
 2. Files live in `content/_tiktok/<post-id>/` (never in the main folder, never in content/_trials):
    - `node scripts/tiktok-cut.mjs <post> [--music <mp3>] [--vol 0.10]` -> `main.mp4`. Our TikTok accounts can't attach library music (`musicSelectable: false`), so reels without a bed get one mixed in quietly (sidechain-ducked, ~10% under voice). Reuse beds from posts' `audio/music*.mp3`; personal = dark trap or playful, company reels already carry a bed (copy).
    - Variants: `node scripts/trial-variants.mjs <post> --n 2 --out content/_tiktok/<post-id>/variants` (hook pill, grade, zoom, speed, trim; set `hookY` in `<post>/trials.json` so the pill sits on empty space), then mix the bed in for personal ones.

@@ -26,7 +26,7 @@ Save this for your first skill, and comment AI for the pack.
 #AI #ClaudeAI #AItools #productivity #automation
 
 ## Alt text
-8-slide carousel from @koredekola in a pixel-art platformer world. Cover: Turn a routine into an AI skill, 20 minutes, 5 steps. 5 timed steps: pick 1 thing you repeat, write it for a new hire, add 3 real examples, mark where it needs a yes, test it on last week. A night slide: skills are now an open standard that 70+ AI tools read. A CTA to comment AI for the AI Employee Starter Pack.
+8-slide carousel from @koredekola.ai in a pixel-art platformer world. Cover: Turn a routine into an AI skill, 20 minutes, 5 steps. 5 timed steps: pick 1 thing you repeat, write it for a new hire, add 3 real examples, mark where it needs a yes, test it on last week. A night slide: skills are now an open standard that 70+ AI tools read. A CTA to comment AI for the AI Employee Starter Pack.
 
 ## Notes
 Rewritten 2026-10-23 for the new ig-personal direction: general AI how-to, "I" voice, no warehouse or company selling. Examples swapped from warehouse SOPs to everyday routines (weekly update email, notes into a plan, a repeated question).

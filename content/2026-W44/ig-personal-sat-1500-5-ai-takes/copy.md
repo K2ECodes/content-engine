@@ -16,7 +16,7 @@ Every skill is a real SKILL.md file for Claude or any AI chat.
 #AI #ChatGPT #ClaudeAI #aitools #productivity
 
 ## Alt text
-7-slide carousel from @koredekola in gold. Cover: Korede at a laptop on a rooftop, his head in front of the headline 5 AI takes + the skill for each. Take 1 /confidence-check with a pixel meme, Why would I deceive you?. Take 2 (video): /draft-only preparing a refund and waiting for approval. Take 3 /context-pack: a chat where the AI follows the SOP. Take 4 /tool-audit: AI tool logos struck through, 1 kept. Take 5 (video): /plan-first showing a plan and waiting for yes. Last slide: Comment AI for all 5 skills.
+7-slide carousel from @koredekola.ai in gold. Cover: Korede at a laptop on a rooftop, his head in front of the headline 5 AI takes + the skill for each. Take 1 /confidence-check with a pixel meme, Why would I deceive you?. Take 2 (video): /draft-only preparing a refund and waiting for approval. Take 3 /context-pack: a chat where the AI follows the SOP. Take 4 /tool-audit: AI tool logos struck through, 1 kept. Take 5 (video): /plan-first showing a plan and waiting for yes. Last slide: Comment AI for all 5 skills.
 
 ## Notes
 Freebie (keyword AI): assets/freebies/bundles/ai-takes-skills.zip (/confidence-check, /draft-only, /context-pack, /tool-audit, /plan-first) plus the starter pack. Listed in config/offers.json.

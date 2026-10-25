@@ -2,7 +2,9 @@
 
 Posting manually, order is a suggestion. Already posted: li-personal-fri-0800-nothing-sends-without-yes, ig-personal-fri-1230-ai-wont-spend-without-asking.
 
-## 1. @koredekola reel (POSTED Oct 24)
+**Instagram split (2026-10-25):** personal carousels and AI-focused videos go to @koredekola.ai; realistic what-if / you-decide videos and swaps/skits go to @koredekola. Each item says where.
+
+## 1. @koredekola reel (POSTED Oct 24) [post to @koredekola]
 Folder: `content/2026-W43/ig-personal-fri-1230-ai-wont-spend-without-asking` · media: video.mp4 · keyword: AI
 
 ```
@@ -15,7 +17,7 @@ Preview is Pro and Max only, with a waitlist.
 #AI #ClaudeAI #AIagents #smallbusiness #automation
 ```
 
-## 2. Company IG carousel
+## 2. Company IG carousel [post to @contentsystems.ai]
 Folder: `content/2026-W43/ig-company-fri-1130-next-customer-is-an-ai` · media: slide-01..08.png · keyword: SYSTEMS
 
 ```
@@ -50,7 +52,7 @@ Save this before Black Friday.
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 ```
 
-## 3. Company LinkedIn carousel (POSTED via Schedchie Oct 24)
+## 3. Company LinkedIn carousel (POSTED via Schedchie Oct 24) [post to LinkedIn (company)]
 Folder: `content/2026-W43/li-company-fri-1200-parcel-invoice-check` · media: carousel.pdf · keyword: -
 
 ```
@@ -73,7 +75,7 @@ See what hidden fees could be costing you with our free calculator: contentsyste
 #Ecommerce #Shipping #Parcel #Logistics #Fulfillment #3PL #PeakSeason #BFCM #DTC #SupplyChain #Shopify #FedEx #UPS
 ```
 
-## 4. Company IG reel
+## 4. Company IG reel [post to @contentsystems.ai]
 Folder: `content/2026-W43/ig-company-fri-1800-invoice-gap` · media: video.mp4 · keyword: SYSTEMS
 
 ```
@@ -106,7 +108,7 @@ Content Systems.ai automates that check for 3PLs, and your team approves every l
 #3PL #logistics #warehouse #fulfillment #3PLbilling
 ```
 
-## 5. @koredekola carousel (slides 3 and 6 are video: slide-03.mp4, slide-06.mp4)
+## 5. @koredekola carousel (slides 3 and 6 are video: slide-03.mp4, slide-06.mp4) [post to @koredekola.ai]
 Folder: `content/2026-W44/ig-personal-sat-1500-5-ai-takes` · media: slide-01..07 · keyword: AI
 
 ```
@@ -127,7 +129,7 @@ Every skill is a real SKILL.md file for Claude or any AI chat.
 #AI #ChatGPT #ClaudeAI #aitools #productivity
 ```
 
-## 6. Company IG carousel
+## 6. Company IG carousel [post to @contentsystems.ai]
 Folder: `content/2026-W44/ig-company-sat-1700-berlin-72-tickets` · media: slide-*.png · keyword: SYSTEMS
 
 ```
@@ -162,7 +164,7 @@ Black Friday is 4 weeks out.
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 ```
 
-## 7. @koredekola gamified logo battle reel (OpenAI vs Claude)
+## 7. @koredekola gamified logo battle reel (OpenAI vs Claude) [post to @koredekola.ai]
 Folder: `content/2026-W44/ig-personal-sat-1800-openai-took-replit` · media: video.mp4 · keyword: AI
 
 ```
@@ -187,7 +189,7 @@ Who takes the next round?
 #AI #OpenAI #Claude #Replit #technews
 ```
 
-## 8. @koredekola AI movie-trailer skit "Reply All" (rebuilt: real likeness)
+## 8. @koredekola AI movie-trailer skit "Reply All" (rebuilt: real likeness) [post to @koredekola]
 Folder: `content/2026-W44/ig-personal-sat-2100-reply-all-trailer` · media: video.mp4 · keyword: AI
 
 ```
@@ -206,7 +208,7 @@ Rate the horror: 1 to 10, would you give your agent the card?
 #AI #AIagents #halloween #AIhumor #techmemes
 ```
 
-## 9. @koredekola AI swap skit (fixed: braids, green suit, lower caption)
+## 9. @koredekola AI swap skit (fixed: braids, green suit, lower caption) [post to @koredekola]
 Folder: `content/2026-W44/ig-personal-fri-2030-swap-boss-catch-you-sleeping` · media: video.mp4 · keyword: -
 
 ```
@@ -225,7 +227,7 @@ Follow for more AI experiments like this.
 #AI #AIvideo #aitools #klingai #officehumor
 ```
 
-## 10. @koredekola carousel
+## 10. @koredekola carousel [post to @koredekola.ai]
 Folder: `content/2026-W44/ig-personal-sat-1100-sop-to-skill` · media: slide-*.png · keyword: AI
 
 ```
@@ -256,7 +258,7 @@ Save this for your first skill, and comment AI for the pack.
 #AI #ClaudeAI #AItools #productivity #automation
 ```
 
-## 11. LinkedIn (you) image post
+## 11. LinkedIn (you) image post [post to LinkedIn (Korede)]
 Folder: `content/2026-W44/li-personal-sat-1000-13-in-100` · media: slide-01.png · keyword: -
 
 ```
@@ -277,7 +279,7 @@ If you run a 3PL and want to find your first money leak, book 30 minutes with me
 #Logistics #3PL #Warehousing #SupplyChain #AI #Freight #Operations #Fulfillment #LogisticsTech #3PLbilling #Ecommerce #AIstrategy
 ```
 
-## 12. Company IG Halloween reel (ready: % fix + upright worker)
+## 12. Company IG Halloween reel (ready: % fix + upright worker) [post to @contentsystems.ai]
 Folder: `content/2026-W44/ig-company-sat-1000-scariest-invoice` · media: video.mp4 · keyword: -
 
 ```
@@ -307,7 +309,7 @@ It's in our bio.
 ```
 
 
-## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1) (reworked: 3D hook, no face; ready)
+## 13. @koredekola gamified "What if AI took over tomorrow?" (Day 1 to Year 1) (reworked: 3D hook, no face; ready) [post to @koredekola]
 Folder: `content/2026-W46/ig-personal-mon-1230-what-if-ai-took-over` · media: video.mp4 · keyword: AI
 
 ```
@@ -332,7 +334,7 @@ The person who sets it up first will.
 #AI #AInews #futureofwork #ClaudeAI #tech
 ```
 
-## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2) (reworked: 3D hook, no face; ready)
+## 14. @koredekola gamified "You wake up as CEO of Anthropic" ep 1 (comment A or B; count votes tomorrow for ep 2) (reworked: 3D hook, no face; ready) [post to @koredekola]
 Folder: `content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1` · media: video.mp4 · keyword: -
 
 ```
@@ -357,7 +359,7 @@ A game, not real news.
 #AI #ClaudeAI #Anthropic #choosewisely #tech
 ```
 
-## 15. @koredekola carousel "What if everyone became 10% Nigerian?" (ready: realistic, 9 slides, flag)
+## 15. @koredekola carousel "What if everyone became 10% Nigerian?" (ready: realistic, 9 slides, flag) [post to @koredekola.ai]
 Folder: `content/2026-W46/ig-personal-sat-1100-what-if-10-nigerian` · media: slide-*.png · keyword: AI
 
 ```
@@ -378,7 +380,7 @@ Tell me below, and follow for part 2.
 #Nigeria #Naija #Afrobeats #Lagos #whatif
 ```
 
-## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35) (reworked: 3D hook, no face; ready)
+## 16. @koredekola REALISTIC "Internet: off" (Hour 1 to Day 30, real sources; on-screen % fix re-rendering, ready ~18:35) (reworked: 3D hook, no face; ready) [post to @koredekola]
 Folder: `content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days` · media: video.mp4 · keyword: -
 
 ```
@@ -401,7 +403,7 @@ More than 99% of bits of data between continents run through cables on the sea f
 #whatif #internet #tech #technology #AI
 ```
 
-## 17. @koredekola gamified "What if every government left tomorrow?" (reworked: 3D hook, no face; ready)
+## 17. @koredekola gamified "What if every government left tomorrow?" (reworked: 3D hook, no face; ready) [post to @koredekola]
 Folder: `content/2026-W46/ig-personal-wed-1230-what-if-governments-left` · media: video.mp4 · keyword: AI
 
 ```
@@ -424,7 +426,7 @@ Every time.
 #AI #whatif #systems #futureofwork #tech
 ```
 
-## 18. @koredekola gamified "Every level of AI, where you get stuck" (reworked: 3D hook, no face; ready)
+## 18. @koredekola gamified "Every level of AI, where you get stuck" (reworked: 3D hook, no face; ready) [post to @koredekola.ai] NOTE: a variant of this already went live on @koredekola.ai as a regular reel on Oct 25 (trial test), so skip posting this main there
 Folder: `content/2026-W46/ig-personal-sun-1100-every-level-of-ai` · media: video.mp4 · keyword: AI
 
 ```
@@ -447,7 +449,7 @@ Level 5 runs the work and waits for your yes.
 #AI #ClaudeAI #ChatGPT #productivity #AItools
 ```
 
-## 19. @koredekola reel Walmart vs Amazon (ready)
+## 19. @koredekola reel Walmart vs Amazon (ready) [post to @koredekola.ai]
 Folder: `content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents` · media: video.mp4 · keyword: AI
 
 ```
@@ -470,7 +472,7 @@ Who wins this, Walmart or Amazon?
 #AI #AIagents #ecommerce #Walmart #technews
 ```
 
-## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready: 3D globe hook, no face)
+## 20. @koredekola REALISTIC video "What if everyone became 10% Nigerian?" (ready: 3D globe hook, no face) [post to @koredekola]
 Folder: `content/2026-W46/ig-personal-sat-1500-what-if-10-nigerian-video` · media: video.mp4 · keyword: -
 
 ```

@@ -18,7 +18,7 @@ Anthropic's skills are free on GitHub, and the same file works in 70+ AI tools.
 #AI #ClaudeAI #AItools #productivity #automation
 
 ## Alt text
-7-slide carousel from @koredekola in green. Cover: Korede at a laptop on a rooftop, his head in front of the headline Same task, every week?, payoff This free skill fixes it: /sop-to-skill. Slide 2 (video): a screen recording of Anthropic's open skills repo on GitHub next to /sop-to-skill creating a skill folder. Slide 3: the SKILL.md it writes. Slide 4: the 3 things you give it. Slide 5: /skill-test catching a mistake. Slide 6: what's locked in the sheet. Last slide: Comment AI for both skills.
+7-slide carousel from @koredekola.ai in green. Cover: Korede at a laptop on a rooftop, his head in front of the headline Same task, every week?, payoff This free skill fixes it: /sop-to-skill. Slide 2 (video): a screen recording of Anthropic's open skills repo on GitHub next to /sop-to-skill creating a skill folder. Slide 3: the SKILL.md it writes. Slide 4: the 3 things you give it. Slide 5: /skill-test catching a mistake. Slide 6: what's locked in the sheet. Last slide: Comment AI for both skills.
 
 ## Notes
 Freebie (keyword AI): assets/freebies/sop-to-skill-sheet.pdf + assets/freebies/bundles/sop-to-skill-kit.zip (/sop-to-skill, /skill-test). Listed in config/offers.json.

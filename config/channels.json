@@ -94,7 +94,7 @@
       ]
     },
     "ig-personal": {
-      "label": "Korede Kolawole, Instagram (@koredekola)",
+      "label": "Korede Kolawole, Instagram (@koredekola): realistic what-if / you-decide videos and AI swap reels/skits",
       "platform": "instagram",
       "perWeek": 7,
       "minVideos": 4,
@@ -115,6 +115,33 @@
       "aspects": [
         "9:16",
         "4:5",
+        "1:1"
+      ],
+      "schedchieAccountId": "17841448447150542"
+    },
+    "ig-ai": {
+      "label": "Korede Kolawole, Instagram (@koredekola.ai): personal-brand carousels and AI-focused videos",
+      "platform": "instagram",
+      "schedchieAccountId": "17841446002300673",
+      "perWeek": 7,
+      "minVideos": 3,
+      "formats": [
+        "carousel",
+        "video",
+        "static"
+      ],
+      "slots": {
+        "mon": "12:30",
+        "tue": "12:30",
+        "wed": "12:30",
+        "thu": "12:30",
+        "fri": "12:30",
+        "sat": "11:00",
+        "sun": "11:00"
+      },
+      "aspects": [
+        "4:5",
+        "9:16",
         "1:1"
       ]
     }
