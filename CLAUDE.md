@@ -87,6 +87,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Music when scheduling (Korede, 2026-10-25)**: when posting a reel through Schedchie, pick a fitting catalog song (search_instagram_audio) and set instagram_audio_volume about 11 (10 to 12%) with instagram_video_volume 100, like his Edits post instagram.com/reel/De4dsgjoUrr. Do this on every reel that has no music of its own, except swap videos (never add music to swaps; keep their original audio). Don't mix music into our files for this. Accounts connected by Instagram sign-in (@contentsystems.ai) and TikTok can't attach songs via the API.
 
+- **Nigerian content music (Korede, 2026-10-25)**: use real trending Afrobeats (Burna Boy, Wizkid, Rema, Tems, Asake...) not library 'afro' instrumentals. The licensed catalog doesn't carry them, so search_instagram_audio with audio_type 'all' and pick a clean original_sound upload of the song (e.g. Burna Boy 'Last Last', Wizkid 'Essence'), volume 11.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.
