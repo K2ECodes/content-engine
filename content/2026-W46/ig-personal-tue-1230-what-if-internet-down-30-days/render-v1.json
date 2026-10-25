@@ -1,0 +1,261 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "stop": false,
+  "capStyle": "doc",
+  "tail": 1.4,
+  "introSfx": false,
+  "sfxGain": 1.4,
+  "keys": [
+   "14",
+   "99",
+   "paper.",
+   "passwords."
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "Internet: off",
+    "place": "A thought experiment",
+    "w3d": {
+     "focus": {
+      "lat": 28,
+      "lon": -35
+     },
+     "zoom": [
+      9.5,
+      6.6
+     ],
+     "arcsOff": 0.62,
+     "spin": 8
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/card.jpg",
+    "at": "Hour",
+    "dots": [
+     1,
+     5
+    ],
+    "stage": "Hour 1",
+    "stat": {
+     "label": "US payments made in cash",
+     "value": "14%",
+     "count": 14,
+     "source": "Federal Reserve · 2025 Diary"
+    },
+    "result": "Card declined",
+    "resultAt": "stops",
+    "place": "Coffee shop, 8:01 AM"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "at": "Day",
+    "dots": [
+     2,
+     5
+    ],
+    "stage": "Day 1",
+    "stat": {
+     "label": "Data between continents on cables",
+     "value": "99%",
+     "count": 99,
+     "source": "TeleGeography"
+    },
+    "place": "The sea floor",
+    "w3d": {
+     "focus": {
+      "lat": 25,
+      "lon": -20
+     },
+     "zoom": [
+      6.2,
+      5.0
+     ],
+     "drawn": true,
+     "arcsOff": 0.35,
+     "spin": 10
+    }
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/paper.jpg",
+    "at": "banks,",
+    "dots": [
+     2,
+     5
+    ],
+    "stage": "Day 1",
+    "result": "Back to paper",
+    "resultAt": "paper.",
+    "place": "Banks, airlines, hospitals"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/shelves.jpg",
+    "at": "Day#2",
+    "dots": [
+     3,
+     5
+    ],
+    "stage": "Day 3",
+    "result": "Orders by phone",
+    "resultAt": "phone",
+    "place": "Your grocery store"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/radio.jpg",
+    "at": "Week",
+    "dots": [
+     4,
+     5
+    ],
+    "stage": "Week 2",
+    "result": "Radio is the news",
+    "resultAt": "radio",
+    "place": "Your street"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/login.jpg",
+    "at": "Day#3",
+    "dots": [
+     5,
+     5
+    ],
+    "stage": "Day 30",
+    "result": "Forgot password",
+    "resultAt": "passwords.",
+    "place": "Your desk"
+   },
+   {
+    "world": "dark",
+    "type": "hud",
+    "look": "cinema",
+    "bg": "bg/radio.jpg",
+    "at": "Would",
+    "stage": "Would you last?",
+    "place": "Part 2 next"
+   }
+  ],
+  "world3d": {
+   "kind": "globe",
+   "arcs": [
+    [
+     40.7,
+     -74,
+     50.4,
+     -4.1
+    ],
+    [
+     36.8,
+     -76,
+     43.3,
+     -3
+    ],
+    [
+     -3.7,
+     -38.5,
+     38.7,
+     -9.1
+    ],
+    [
+     6.4,
+     3.4,
+     38.7,
+     -9.1
+    ],
+    [
+     -33.9,
+     18.4,
+     50.4,
+     -4.1
+    ],
+    [
+     43.3,
+     5.4,
+     1.3,
+     103.8
+    ],
+    [
+     1.3,
+     103.8,
+     35.6,
+     139.7
+    ],
+    [
+     34,
+     -118,
+     35.6,
+     139.7
+    ],
+    [
+     -33.9,
+     151.2,
+     21.3,
+     -157.8
+    ],
+    [
+     21.3,
+     -157.8,
+     34,
+     -118
+    ],
+    [
+     25.2,
+     55.3,
+     19,
+     72.8
+    ],
+    [
+     1.3,
+     103.8,
+     -31.9,
+     115.9
+    ]
+   ],
+   "pins": [
+    {
+     "lat": 40.7,
+     "lon": -74
+    },
+    {
+     "lat": 51.5,
+     "lon": -0.1
+    },
+    {
+     "lat": 1.3,
+     "lon": 103.8
+    },
+    {
+     "lat": 35.6,
+     "lon": 139.7
+    },
+    {
+     "lat": -33.9,
+     "lon": 151.2
+    },
+    {
+     "lat": 6.4,
+     "lon": 3.4
+    }
+   ]
+  }
+ }
+}

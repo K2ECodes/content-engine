@@ -16,3 +16,4 @@ Sources: Federal Reserve 2025 Diary of Consumer Payment Choice, cash 14% of paym
 
 - Re-voiced 2026-10-24 (same free HeyGen voice) so stats are said as percentages ("72 percent"), not "in a hundred"; tightened, re-transcribed, anchors re-checked. Old audio and words in audio/pre-percent/.
 Rework 2026-10-24 (Korede): no face on camera; 3D globe hook and Day 1 (world3d.js).
+- v2 2026-10-25: richer beats (2 to 3 specific sentences each), Korede's HeyGen instant clone at expressiveness 0.9 (lively); v1 kept as video-v1.mp4. Pilots/doctors/grandad beats are plausible illustrations.

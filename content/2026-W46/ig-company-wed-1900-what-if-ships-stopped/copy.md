@@ -16,3 +16,4 @@ Sources: UNCTAD Review of Maritime Transport, around 80% of the volume of intern
 
 - Re-voiced 2026-10-24 (same free HeyGen voice) so stats are said as percentages ("72 percent"), not "in a hundred"; tightened, re-transcribed, anchors re-checked. Old audio and words in audio/pre-percent/.
 Rework 2026-10-24: 3D globe hook, Day 1 and Suez beats (world3d.js), ships moving then anchored.
+- v2 2026-10-25: richer beats (2 to 3 specific sentences each), Sanjana's HeyGen instant clone at expressiveness 0.9; v1 kept as video-v1.mp4. Rotterdam/Shanghai/LA, the car-plant chip and trucks beats are plausible illustrations.

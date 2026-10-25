@@ -1,0 +1,920 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "if",
+   "start": 0.42,
+   "end": 0.62
+  },
+  {
+   "w": "every",
+   "start": 0.62,
+   "end": 0.94
+  },
+  {
+   "w": "container",
+   "start": 0.94,
+   "end": 1.22
+  },
+  {
+   "w": "ship",
+   "start": 1.22,
+   "end": 1.58
+  },
+  {
+   "w": "on",
+   "start": 1.58,
+   "end": 1.72
+  },
+  {
+   "w": "Earth",
+   "start": 1.72,
+   "end": 1.96
+  },
+  {
+   "w": "stopped",
+   "start": 1.96,
+   "end": 2.22
+  },
+  {
+   "w": "for",
+   "start": 2.22,
+   "end": 2.46
+  },
+  {
+   "w": "30",
+   "start": 2.46,
+   "end": 2.76
+  },
+  {
+   "w": "days?",
+   "start": 2.76,
+   "end": 3.08
+  },
+  {
+   "w": "Not",
+   "start": 3.54,
+   "end": 3.7
+  },
+  {
+   "w": "slowed",
+   "start": 3.7,
+   "end": 3.92
+  },
+  {
+   "w": "down,",
+   "start": 3.92,
+   "end": 4.26
+  },
+  {
+   "w": "stopped.",
+   "start": 4.56,
+   "end": 4.86
+  },
+  {
+   "w": "Around",
+   "start": 5.44,
+   "end": 5.62
+  },
+  {
+   "w": "80%",
+   "start": 5.62,
+   "end": 6.32
+  },
+  {
+   "w": "of",
+   "start": 6.32,
+   "end": 6.5
+  },
+  {
+   "w": "world",
+   "start": 6.5,
+   "end": 6.66
+  },
+  {
+   "w": "trade",
+   "start": 6.66,
+   "end": 6.94
+  },
+  {
+   "w": "by",
+   "start": 6.94,
+   "end": 7.12
+  },
+  {
+   "w": "volume",
+   "start": 7.12,
+   "end": 7.5
+  },
+  {
+   "w": "moves",
+   "start": 7.5,
+   "end": 7.8
+  },
+  {
+   "w": "by",
+   "start": 7.8,
+   "end": 8.04
+  },
+  {
+   "w": "sea,",
+   "start": 8.04,
+   "end": 8.34
+  },
+  {
+   "w": "according",
+   "start": 8.5,
+   "end": 8.74
+  },
+  {
+   "w": "to",
+   "start": 8.74,
+   "end": 8.96
+  },
+  {
+   "w": "the",
+   "start": 8.96,
+   "end": 9.06
+  },
+  {
+   "w": "United",
+   "start": 9.06,
+   "end": 9.22
+  },
+  {
+   "w": "Nations.",
+   "start": 9.22,
+   "end": 9.68
+  },
+  {
+   "w": "Day",
+   "start": 10.1,
+   "end": 10.24
+  },
+  {
+   "w": "1.",
+   "start": 10.24,
+   "end": 10.5
+  },
+  {
+   "w": "Ships",
+   "start": 10.82,
+   "end": 11.0
+  },
+  {
+   "w": "drop",
+   "start": 11.0,
+   "end": 11.22
+  },
+  {
+   "w": "anchor",
+   "start": 11.22,
+   "end": 11.52
+  },
+  {
+   "w": "outside",
+   "start": 11.52,
+   "end": 11.96
+  },
+  {
+   "w": "every",
+   "start": 11.96,
+   "end": 12.44
+  },
+  {
+   "w": "major",
+   "start": 12.44,
+   "end": 12.72
+  },
+  {
+   "w": "port,",
+   "start": 12.72,
+   "end": 13.08
+  },
+  {
+   "w": "from",
+   "start": 13.4,
+   "end": 13.54
+  },
+  {
+   "w": "Rotterdam",
+   "start": 13.54,
+   "end": 14.18
+  },
+  {
+   "w": "to",
+   "start": 14.18,
+   "end": 14.34
+  },
+  {
+   "w": "Shanghai",
+   "start": 14.34,
+   "end": 14.72
+  },
+  {
+   "w": "to",
+   "start": 14.72,
+   "end": 15.12
+  },
+  {
+   "w": "Los",
+   "start": 15.12,
+   "end": 15.28
+  },
+  {
+   "w": "Angeles.",
+   "start": 15.28,
+   "end": 15.7
+  },
+  {
+   "w": "Crews",
+   "start": 16.26,
+   "end": 16.6
+  },
+  {
+   "w": "wait",
+   "start": 16.6,
+   "end": 16.74
+  },
+  {
+   "w": "for",
+   "start": 16.74,
+   "end": 16.88
+  },
+  {
+   "w": "orders",
+   "start": 16.88,
+   "end": 17.18
+  },
+  {
+   "w": "that",
+   "start": 17.18,
+   "end": 17.36
+  },
+  {
+   "w": "never",
+   "start": 17.36,
+   "end": 17.7
+  },
+  {
+   "w": "come,",
+   "start": 17.7,
+   "end": 17.98
+  },
+  {
+   "w": "insurers",
+   "start": 18.26,
+   "end": 18.64
+  },
+  {
+   "w": "start",
+   "start": 18.64,
+   "end": 18.92
+  },
+  {
+   "w": "making",
+   "start": 18.92,
+   "end": 19.18
+  },
+  {
+   "w": "very",
+   "start": 19.18,
+   "end": 19.6
+  },
+  {
+   "w": "nervous",
+   "start": 19.6,
+   "end": 19.9
+  },
+  {
+   "w": "phone",
+   "start": 19.9,
+   "end": 20.18
+  },
+  {
+   "w": "calls.",
+   "start": 20.18,
+   "end": 20.46
+  },
+  {
+   "w": "We've",
+   "start": 20.86,
+   "end": 21.06
+  },
+  {
+   "w": "seen",
+   "start": 21.06,
+   "end": 21.16
+  },
+  {
+   "w": "a",
+   "start": 21.16,
+   "end": 21.3
+  },
+  {
+   "w": "tiny",
+   "start": 21.3,
+   "end": 21.52
+  },
+  {
+   "w": "version",
+   "start": 21.52,
+   "end": 21.82
+  },
+  {
+   "w": "of",
+   "start": 21.82,
+   "end": 21.98
+  },
+  {
+   "w": "this",
+   "start": 21.98,
+   "end": 22.12
+  },
+  {
+   "w": "before.",
+   "start": 22.12,
+   "end": 22.4
+  },
+  {
+   "w": "In",
+   "start": 22.72,
+   "end": 22.82
+  },
+  {
+   "w": "2021,",
+   "start": 22.82,
+   "end": 23.28
+  },
+  {
+   "w": "1",
+   "start": 23.94,
+   "end": 24.18
+  },
+  {
+   "w": "ship,",
+   "start": 24.18,
+   "end": 24.46
+  },
+  {
+   "w": "the",
+   "start": 24.76,
+   "end": 24.9
+  },
+  {
+   "w": "Ever",
+   "start": 24.9,
+   "end": 25.1
+  },
+  {
+   "w": "Given,",
+   "start": 25.1,
+   "end": 25.34
+  },
+  {
+   "w": "got",
+   "start": 25.76,
+   "end": 25.94
+  },
+  {
+   "w": "stuck",
+   "start": 25.94,
+   "end": 26.2
+  },
+  {
+   "w": "in",
+   "start": 26.2,
+   "end": 26.38
+  },
+  {
+   "w": "the",
+   "start": 26.38,
+   "end": 26.46
+  },
+  {
+   "w": "Suez",
+   "start": 26.46,
+   "end": 26.78
+  },
+  {
+   "w": "Canal",
+   "start": 26.78,
+   "end": 27.04
+  },
+  {
+   "w": "for",
+   "start": 27.04,
+   "end": 27.32
+  },
+  {
+   "w": "6",
+   "start": 27.32,
+   "end": 27.64
+  },
+  {
+   "w": "days.",
+   "start": 27.64,
+   "end": 27.92
+  },
+  {
+   "w": "It",
+   "start": 27.92,
+   "end": 28.52
+  },
+  {
+   "w": "held",
+   "start": 28.52,
+   "end": 28.7
+  },
+  {
+   "w": "up",
+   "start": 28.7,
+   "end": 28.88
+  },
+  {
+   "w": "about",
+   "start": 28.88,
+   "end": 29.1
+  },
+  {
+   "w": "$9.6",
+   "start": 29.1,
+   "end": 30.02
+  },
+  {
+   "w": "billion",
+   "start": 30.02,
+   "end": 30.52
+  },
+  {
+   "w": "of",
+   "start": 30.52,
+   "end": 31.08
+  },
+  {
+   "w": "goods",
+   "start": 31.08,
+   "end": 31.34
+  },
+  {
+   "w": "every",
+   "start": 31.34,
+   "end": 31.96
+  },
+  {
+   "w": "single",
+   "start": 31.96,
+   "end": 32.26
+  },
+  {
+   "w": "day.",
+   "start": 32.26,
+   "end": 32.52
+  },
+  {
+   "w": "Week",
+   "start": 32.96,
+   "end": 33.04
+  },
+  {
+   "w": "1.",
+   "start": 33.04,
+   "end": 33.32
+  },
+  {
+   "w": "Factories",
+   "start": 33.62,
+   "end": 34.02
+  },
+  {
+   "w": "run",
+   "start": 34.02,
+   "end": 34.2
+  },
+  {
+   "w": "out",
+   "start": 34.2,
+   "end": 34.34
+  },
+  {
+   "w": "of",
+   "start": 34.34,
+   "end": 34.44
+  },
+  {
+   "w": "parts.",
+   "start": 34.44,
+   "end": 34.72
+  },
+  {
+   "w": "A",
+   "start": 35.16,
+   "end": 35.18
+  },
+  {
+   "w": "car",
+   "start": 35.18,
+   "end": 35.38
+  },
+  {
+   "w": "plant",
+   "start": 35.38,
+   "end": 35.62
+  },
+  {
+   "w": "stops",
+   "start": 35.62,
+   "end": 35.88
+  },
+  {
+   "w": "the",
+   "start": 35.88,
+   "end": 36.12
+  },
+  {
+   "w": "whole",
+   "start": 36.12,
+   "end": 36.36
+  },
+  {
+   "w": "line",
+   "start": 36.36,
+   "end": 36.66
+  },
+  {
+   "w": "because",
+   "start": 36.66,
+   "end": 36.9
+  },
+  {
+   "w": "1",
+   "start": 36.9,
+   "end": 37.22
+  },
+  {
+   "w": "small",
+   "start": 37.22,
+   "end": 37.5
+  },
+  {
+   "w": "chip",
+   "start": 37.5,
+   "end": 37.76
+  },
+  {
+   "w": "is",
+   "start": 37.76,
+   "end": 37.92
+  },
+  {
+   "w": "missing.",
+   "start": 37.92,
+   "end": 38.2
+  },
+  {
+   "w": "Phone",
+   "start": 38.5,
+   "end": 38.64
+  },
+  {
+   "w": "makers",
+   "start": 38.64,
+   "end": 38.92
+  },
+  {
+   "w": "send",
+   "start": 38.92,
+   "end": 39.22
+  },
+  {
+   "w": "workers",
+   "start": 39.22,
+   "end": 39.46
+  },
+  {
+   "w": "home.",
+   "start": 39.46,
+   "end": 39.82
+  },
+  {
+   "w": "Week",
+   "start": 40.02,
+   "end": 40.16
+  },
+  {
+   "w": "2.",
+   "start": 40.16,
+   "end": 40.42
+  },
+  {
+   "w": "Ports",
+   "start": 40.74,
+   "end": 40.88
+  },
+  {
+   "w": "go",
+   "start": 40.88,
+   "end": 41.1
+  },
+  {
+   "w": "quiet.",
+   "start": 41.1,
+   "end": 41.44
+  },
+  {
+   "w": "Thousands",
+   "start": 41.7,
+   "end": 42.0
+  },
+  {
+   "w": "of",
+   "start": 42.0,
+   "end": 42.24
+  },
+  {
+   "w": "trucks",
+   "start": 42.24,
+   "end": 42.44
+  },
+  {
+   "w": "sit",
+   "start": 42.44,
+   "end": 42.74
+  },
+  {
+   "w": "in",
+   "start": 42.74,
+   "end": 42.84
+  },
+  {
+   "w": "the",
+   "start": 42.84,
+   "end": 42.92
+  },
+  {
+   "w": "yard",
+   "start": 42.92,
+   "end": 43.12
+  },
+  {
+   "w": "with",
+   "start": 43.12,
+   "end": 43.28
+  },
+  {
+   "w": "nothing",
+   "start": 43.28,
+   "end": 43.58
+  },
+  {
+   "w": "to",
+   "start": 43.58,
+   "end": 43.76
+  },
+  {
+   "w": "pick",
+   "start": 43.76,
+   "end": 43.9
+  },
+  {
+   "w": "up.",
+   "start": 43.9,
+   "end": 44.1
+  },
+  {
+   "w": "Drivers",
+   "start": 44.46,
+   "end": 44.78
+  },
+  {
+   "w": "start",
+   "start": 44.78,
+   "end": 44.98
+  },
+  {
+   "w": "looking",
+   "start": 44.98,
+   "end": 45.18
+  },
+  {
+   "w": "for",
+   "start": 45.18,
+   "end": 45.4
+  },
+  {
+   "w": "other",
+   "start": 45.4,
+   "end": 45.6
+  },
+  {
+   "w": "work.",
+   "start": 45.6,
+   "end": 45.92
+  },
+  {
+   "w": "Month",
+   "start": 47.06,
+   "end": 47.54
+  },
+  {
+   "w": "1.",
+   "start": 47.54,
+   "end": 47.9
+  },
+  {
+   "w": "Shelves",
+   "start": 48.24,
+   "end": 48.48
+  },
+  {
+   "w": "thin",
+   "start": 48.48,
+   "end": 48.7
+  },
+  {
+   "w": "out,",
+   "start": 48.7,
+   "end": 48.96
+  },
+  {
+   "w": "prices",
+   "start": 49.2,
+   "end": 49.46
+  },
+  {
+   "w": "climb,",
+   "start": 49.46,
+   "end": 49.86
+  },
+  {
+   "w": "and",
+   "start": 50.34,
+   "end": 50.44
+  },
+  {
+   "w": "every",
+   "start": 50.44,
+   "end": 50.76
+  },
+  {
+   "w": "brand",
+   "start": 50.76,
+   "end": 51.1
+  },
+  {
+   "w": "finds",
+   "start": 51.1,
+   "end": 51.38
+  },
+  {
+   "w": "out",
+   "start": 51.38,
+   "end": 51.54
+  },
+  {
+   "w": "how",
+   "start": 51.54,
+   "end": 51.8
+  },
+  {
+   "w": "many",
+   "start": 51.8,
+   "end": 51.98
+  },
+  {
+   "w": "weeks",
+   "start": 51.98,
+   "end": 52.2
+  },
+  {
+   "w": "of",
+   "start": 52.2,
+   "end": 52.34
+  },
+  {
+   "w": "stock",
+   "start": 52.34,
+   "end": 52.62
+  },
+  {
+   "w": "it",
+   "start": 52.62,
+   "end": 52.76
+  },
+  {
+   "w": "really",
+   "start": 52.76,
+   "end": 52.96
+  },
+  {
+   "w": "has.",
+   "start": 52.96,
+   "end": 53.26
+  },
+  {
+   "w": "Most",
+   "start": 53.6,
+   "end": 53.84
+  },
+  {
+   "w": "find",
+   "start": 53.84,
+   "end": 54.08
+  },
+  {
+   "w": "out",
+   "start": 54.08,
+   "end": 54.22
+  },
+  {
+   "w": "it's",
+   "start": 54.22,
+   "end": 54.44
+  },
+  {
+   "w": "fewer",
+   "start": 54.44,
+   "end": 54.6
+  },
+  {
+   "w": "than",
+   "start": 54.6,
+   "end": 54.78
+  },
+  {
+   "w": "they",
+   "start": 54.78,
+   "end": 54.92
+  },
+  {
+   "w": "thought.",
+   "start": 54.92,
+   "end": 55.14
+  },
+  {
+   "w": "How",
+   "start": 55.44,
+   "end": 55.64
+  },
+  {
+   "w": "many",
+   "start": 55.64,
+   "end": 55.76
+  },
+  {
+   "w": "weeks",
+   "start": 55.76,
+   "end": 56.02
+  },
+  {
+   "w": "could",
+   "start": 56.02,
+   "end": 56.2
+  },
+  {
+   "w": "your",
+   "start": 56.2,
+   "end": 56.28
+  },
+  {
+   "w": "business",
+   "start": 56.28,
+   "end": 56.48
+  },
+  {
+   "w": "last?",
+   "start": 56.48,
+   "end": 56.9
+  },
+  {
+   "w": "Tell",
+   "start": 56.9,
+   "end": 57.36
+  },
+  {
+   "w": "us",
+   "start": 57.36,
+   "end": 57.52
+  },
+  {
+   "w": "in",
+   "start": 57.52,
+   "end": 57.6
+  },
+  {
+   "w": "the",
+   "start": 57.6,
+   "end": 57.68
+  },
+  {
+   "w": "comments.",
+   "start": 57.68,
+   "end": 57.9
+  }
+ ],
+ "text": "What if every container ship on Earth stopped for 30 days? Not slowed down, stopped. Around 80% of world trade by volume moves by sea, according to the United Nations. Day 1. Ships drop anchor outside every major port, from Rotterdam to Shanghai to Los Angeles. Crews wait for orders that never come, insurers start making very nervous phone calls. We've seen a tiny version of this before. In 2021, one ship, the Ever Given, got stuck in the Suez Canal for six days. It held up about $9.6 billion of goods every single day. Week 1. Factories run out of parts. A car plant stops the whole line because one small ship is missing. Phone makers send workers home. Week 2. Ports go quiet. Thousands of trucks sit in the yard with nothing to pick up. Drivers start looking for other work. DHO Month 1. Shelves thin out, prices climb, and every brand finds out how many weeks of stock it really has. Most find out it's fewer than they thought. How many weeks could your business last? Tell us in the comments."
+}

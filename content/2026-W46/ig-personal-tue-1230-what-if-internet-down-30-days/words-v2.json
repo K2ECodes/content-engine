@@ -1,0 +1,910 @@
+{
+ "words": [
+  {
+   "w": "What",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "if",
+   "start": 0.42,
+   "end": 0.52
+  },
+  {
+   "w": "the",
+   "start": 0.52,
+   "end": 0.62
+  },
+  {
+   "w": "Internet",
+   "start": 0.62,
+   "end": 0.88
+  },
+  {
+   "w": "went",
+   "start": 0.88,
+   "end": 1.04
+  },
+  {
+   "w": "down",
+   "start": 1.04,
+   "end": 1.24
+  },
+  {
+   "w": "tomorrow,",
+   "start": 1.24,
+   "end": 1.7
+  },
+  {
+   "w": "everywhere,",
+   "start": 1.98,
+   "end": 2.3
+  },
+  {
+   "w": "for",
+   "start": 2.6,
+   "end": 2.78
+  },
+  {
+   "w": "30",
+   "start": 2.78,
+   "end": 3.02
+  },
+  {
+   "w": "days?",
+   "start": 3.02,
+   "end": 3.3
+  },
+  {
+   "w": "No",
+   "start": 3.92,
+   "end": 4.0
+  },
+  {
+   "w": "Wi-Fi,",
+   "start": 4.0,
+   "end": 4.52
+  },
+  {
+   "w": "no",
+   "start": 4.84,
+   "end": 4.94
+  },
+  {
+   "w": "mobile",
+   "start": 4.94,
+   "end": 5.16
+  },
+  {
+   "w": "data,",
+   "start": 5.16,
+   "end": 5.44
+  },
+  {
+   "w": "no",
+   "start": 5.84,
+   "end": 5.94
+  },
+  {
+   "w": "cloud.",
+   "start": 5.94,
+   "end": 6.24
+  },
+  {
+   "w": "Just",
+   "start": 6.62,
+   "end": 6.7
+  },
+  {
+   "w": "silence.",
+   "start": 6.7,
+   "end": 7.02
+  },
+  {
+   "w": "Hour",
+   "start": 7.52,
+   "end": 7.68
+  },
+  {
+   "w": "1.",
+   "start": 7.68,
+   "end": 7.96
+  },
+  {
+   "w": "Your",
+   "start": 8.44,
+   "end": 8.44
+  },
+  {
+   "w": "card",
+   "start": 8.44,
+   "end": 8.68
+  },
+  {
+   "w": "stops",
+   "start": 8.68,
+   "end": 8.86
+  },
+  {
+   "w": "working",
+   "start": 8.86,
+   "end": 9.16
+  },
+  {
+   "w": "at",
+   "start": 9.16,
+   "end": 9.34
+  },
+  {
+   "w": "the",
+   "start": 9.34,
+   "end": 9.42
+  },
+  {
+   "w": "coffee",
+   "start": 9.42,
+   "end": 9.62
+  },
+  {
+   "w": "shop.",
+   "start": 9.62,
+   "end": 9.9
+  },
+  {
+   "w": "The",
+   "start": 10.28,
+   "end": 10.36
+  },
+  {
+   "w": "barista",
+   "start": 10.36,
+   "end": 10.66
+  },
+  {
+   "w": "shrugs.",
+   "start": 10.66,
+   "end": 11.02
+  },
+  {
+   "w": "Only",
+   "start": 11.42,
+   "end": 11.62
+  },
+  {
+   "w": "14%",
+   "start": 11.62,
+   "end": 12.54
+  },
+  {
+   "w": "of",
+   "start": 12.54,
+   "end": 12.7
+  },
+  {
+   "w": "payments",
+   "start": 12.7,
+   "end": 12.94
+  },
+  {
+   "w": "in",
+   "start": 12.94,
+   "end": 13.16
+  },
+  {
+   "w": "the",
+   "start": 13.16,
+   "end": 13.26
+  },
+  {
+   "w": "US",
+   "start": 13.26,
+   "end": 13.46
+  },
+  {
+   "w": "are",
+   "start": 13.46,
+   "end": 13.66
+  },
+  {
+   "w": "still",
+   "start": 13.66,
+   "end": 13.88
+  },
+  {
+   "w": "made",
+   "start": 13.88,
+   "end": 14.06
+  },
+  {
+   "w": "in",
+   "start": 14.06,
+   "end": 14.18
+  },
+  {
+   "w": "cash,",
+   "start": 14.18,
+   "end": 14.4
+  },
+  {
+   "w": "according",
+   "start": 14.74,
+   "end": 15.02
+  },
+  {
+   "w": "to",
+   "start": 15.02,
+   "end": 15.18
+  },
+  {
+   "w": "the",
+   "start": 15.18,
+   "end": 15.3
+  },
+  {
+   "w": "Federal",
+   "start": 15.3,
+   "end": 15.46
+  },
+  {
+   "w": "Reserve,",
+   "start": 15.46,
+   "end": 15.9
+  },
+  {
+   "w": "and",
+   "start": 16.36,
+   "end": 16.52
+  },
+  {
+   "w": "you're",
+   "start": 16.52,
+   "end": 16.68
+  },
+  {
+   "w": "not",
+   "start": 16.68,
+   "end": 16.84
+  },
+  {
+   "w": "one",
+   "start": 16.84,
+   "end": 17.0
+  },
+  {
+   "w": "of",
+   "start": 17.0,
+   "end": 17.1
+  },
+  {
+   "w": "them.",
+   "start": 17.1,
+   "end": 17.26
+  },
+  {
+   "w": "Day",
+   "start": 17.58,
+   "end": 17.7
+  },
+  {
+   "w": "1.",
+   "start": 17.7,
+   "end": 17.94
+  },
+  {
+   "w": "More",
+   "start": 18.52,
+   "end": 18.66
+  },
+  {
+   "w": "than",
+   "start": 18.66,
+   "end": 18.78
+  },
+  {
+   "w": "99%",
+   "start": 18.78,
+   "end": 19.58
+  },
+  {
+   "w": "of",
+   "start": 19.58,
+   "end": 19.7
+  },
+  {
+   "w": "the",
+   "start": 19.7,
+   "end": 19.78
+  },
+  {
+   "w": "data",
+   "start": 19.78,
+   "end": 19.98
+  },
+  {
+   "w": "between",
+   "start": 19.98,
+   "end": 20.24
+  },
+  {
+   "w": "continents",
+   "start": 20.24,
+   "end": 20.74
+  },
+  {
+   "w": "travels",
+   "start": 20.74,
+   "end": 21.2
+  },
+  {
+   "w": "through",
+   "start": 21.2,
+   "end": 21.44
+  },
+  {
+   "w": "cables",
+   "start": 21.44,
+   "end": 21.78
+  },
+  {
+   "w": "on",
+   "start": 21.78,
+   "end": 21.98
+  },
+  {
+   "w": "the",
+   "start": 21.98,
+   "end": 22.1
+  },
+  {
+   "w": "sea floor.",
+   "start": 22.1,
+   "end": 22.58
+  },
+  {
+   "w": "They're",
+   "start": 22.9,
+   "end": 23.04
+  },
+  {
+   "w": "still",
+   "start": 23.04,
+   "end": 23.2
+  },
+  {
+   "w": "there.",
+   "start": 23.2,
+   "end": 23.44
+  },
+  {
+   "w": "Nothing",
+   "start": 23.78,
+   "end": 24.02
+  },
+  {
+   "w": "is",
+   "start": 24.02,
+   "end": 24.22
+  },
+  {
+   "w": "moving",
+   "start": 24.22,
+   "end": 24.4
+  },
+  {
+   "w": "through",
+   "start": 24.4,
+   "end": 24.6
+  },
+  {
+   "w": "them.",
+   "start": 24.6,
+   "end": 24.76
+  },
+  {
+   "w": "So",
+   "start": 25.18,
+   "end": 25.36
+  },
+  {
+   "w": "banks,",
+   "start": 25.36,
+   "end": 25.64
+  },
+  {
+   "w": "airlines,",
+   "start": 26.06,
+   "end": 26.32
+  },
+  {
+   "w": "and",
+   "start": 26.78,
+   "end": 26.94
+  },
+  {
+   "w": "hospitals",
+   "start": 26.94,
+   "end": 27.3
+  },
+  {
+   "w": "go",
+   "start": 27.3,
+   "end": 27.68
+  },
+  {
+   "w": "back",
+   "start": 27.68,
+   "end": 27.86
+  },
+  {
+   "w": "to",
+   "start": 27.86,
+   "end": 28.0
+  },
+  {
+   "w": "paper.",
+   "start": 28.0,
+   "end": 28.22
+  },
+  {
+   "w": "Pilots",
+   "start": 28.22,
+   "end": 28.88
+  },
+  {
+   "w": "get",
+   "start": 28.88,
+   "end": 29.0
+  },
+  {
+   "w": "printed",
+   "start": 29.0,
+   "end": 29.26
+  },
+  {
+   "w": "flight",
+   "start": 29.26,
+   "end": 29.52
+  },
+  {
+   "w": "plans,",
+   "start": 29.52,
+   "end": 29.94
+  },
+  {
+   "w": "doctors",
+   "start": 30.26,
+   "end": 30.58
+  },
+  {
+   "w": "write",
+   "start": 30.58,
+   "end": 30.8
+  },
+  {
+   "w": "prescriptions",
+   "start": 30.8,
+   "end": 31.2
+  },
+  {
+   "w": "by",
+   "start": 31.2,
+   "end": 31.42
+  },
+  {
+   "w": "hand",
+   "start": 31.42,
+   "end": 31.68
+  },
+  {
+   "w": "again,",
+   "start": 31.68,
+   "end": 31.86
+  },
+  {
+   "w": "and",
+   "start": 32.32,
+   "end": 32.4
+  },
+  {
+   "w": "nobody",
+   "start": 32.4,
+   "end": 32.64
+  },
+  {
+   "w": "can",
+   "start": 32.64,
+   "end": 32.86
+  },
+  {
+   "w": "read",
+   "start": 32.86,
+   "end": 33.02
+  },
+  {
+   "w": "them.",
+   "start": 33.02,
+   "end": 33.22
+  },
+  {
+   "w": "Day",
+   "start": 33.42,
+   "end": 33.56
+  },
+  {
+   "w": "3.",
+   "start": 33.56,
+   "end": 33.76
+  },
+  {
+   "w": "Stores",
+   "start": 34.16,
+   "end": 34.52
+  },
+  {
+   "w": "reorder",
+   "start": 34.52,
+   "end": 34.92
+  },
+  {
+   "w": "by",
+   "start": 34.92,
+   "end": 35.1
+  },
+  {
+   "w": "phone",
+   "start": 35.1,
+   "end": 35.4
+  },
+  {
+   "w": "and",
+   "start": 35.4,
+   "end": 35.56
+  },
+  {
+   "w": "fax.",
+   "start": 35.56,
+   "end": 35.88
+  },
+  {
+   "w": "Shelves",
+   "start": 36.3,
+   "end": 36.58
+  },
+  {
+   "w": "start",
+   "start": 36.58,
+   "end": 36.74
+  },
+  {
+   "w": "to",
+   "start": 36.74,
+   "end": 36.88
+  },
+  {
+   "w": "thin",
+   "start": 36.88,
+   "end": 37.06
+  },
+  {
+   "w": "out,",
+   "start": 37.06,
+   "end": 37.26
+  },
+  {
+   "w": "starting",
+   "start": 37.54,
+   "end": 37.8
+  },
+  {
+   "w": "with",
+   "start": 37.8,
+   "end": 37.96
+  },
+  {
+   "w": "bread,",
+   "start": 37.96,
+   "end": 38.22
+  },
+  {
+   "w": "batteries,",
+   "start": 38.6,
+   "end": 39.0
+  },
+  {
+   "w": "and",
+   "start": 39.34,
+   "end": 39.38
+  },
+  {
+   "w": "toilet",
+   "start": 39.38,
+   "end": 39.56
+  },
+  {
+   "w": "paper.",
+   "start": 39.56,
+   "end": 39.84
+  },
+  {
+   "w": "Week",
+   "start": 40.2,
+   "end": 40.3
+  },
+  {
+   "w": "2.",
+   "start": 40.3,
+   "end": 40.56
+  },
+  {
+   "w": "Neighbours",
+   "start": 40.98,
+   "end": 41.24
+  },
+  {
+   "w": "trade",
+   "start": 41.24,
+   "end": 41.46
+  },
+  {
+   "w": "favours.",
+   "start": 41.46,
+   "end": 41.76
+  },
+  {
+   "w": "Somebody's",
+   "start": 42.28,
+   "end": 42.7
+  },
+  {
+   "w": "grandad",
+   "start": 42.7,
+   "end": 43.08
+  },
+  {
+   "w": "becomes",
+   "start": 43.08,
+   "end": 43.34
+  },
+  {
+   "w": "the",
+   "start": 43.34,
+   "end": 43.54
+  },
+  {
+   "w": "most",
+   "start": 43.54,
+   "end": 43.78
+  },
+  {
+   "w": "important",
+   "start": 43.78,
+   "end": 44.1
+  },
+  {
+   "w": "person",
+   "start": 44.1,
+   "end": 44.44
+  },
+  {
+   "w": "on",
+   "start": 44.44,
+   "end": 44.58
+  },
+  {
+   "w": "the",
+   "start": 44.58,
+   "end": 44.7
+  },
+  {
+   "w": "street",
+   "start": 44.7,
+   "end": 44.94
+  },
+  {
+   "w": "because",
+   "start": 44.94,
+   "end": 45.32
+  },
+  {
+   "w": "he",
+   "start": 45.32,
+   "end": 45.44
+  },
+  {
+   "w": "still",
+   "start": 45.44,
+   "end": 45.66
+  },
+  {
+   "w": "has",
+   "start": 45.66,
+   "end": 45.8
+  },
+  {
+   "w": "a",
+   "start": 45.8,
+   "end": 45.9
+  },
+  {
+   "w": "radio",
+   "start": 45.9,
+   "end": 46.2
+  },
+  {
+   "w": "and",
+   "start": 46.2,
+   "end": 46.44
+  },
+  {
+   "w": "knows",
+   "start": 46.44,
+   "end": 46.62
+  },
+  {
+   "w": "how",
+   "start": 46.62,
+   "end": 46.78
+  },
+  {
+   "w": "to",
+   "start": 46.78,
+   "end": 46.86
+  },
+  {
+   "w": "use",
+   "start": 46.86,
+   "end": 47.04
+  },
+  {
+   "w": "it.",
+   "start": 47.04,
+   "end": 47.16
+  },
+  {
+   "w": "Day",
+   "start": 47.36,
+   "end": 47.5
+  },
+  {
+   "w": "30.",
+   "start": 47.5,
+   "end": 47.78
+  },
+  {
+   "w": "The",
+   "start": 48.14,
+   "end": 48.18
+  },
+  {
+   "w": "Internet",
+   "start": 48.18,
+   "end": 48.36
+  },
+  {
+   "w": "comes",
+   "start": 48.36,
+   "end": 48.62
+  },
+  {
+   "w": "back",
+   "start": 48.62,
+   "end": 48.82
+  },
+  {
+   "w": "on.",
+   "start": 48.82,
+   "end": 49.04
+  },
+  {
+   "w": "Billions",
+   "start": 49.38,
+   "end": 49.7
+  },
+  {
+   "w": "of",
+   "start": 49.7,
+   "end": 49.84
+  },
+  {
+   "w": "people",
+   "start": 49.84,
+   "end": 50.02
+  },
+  {
+   "w": "log",
+   "start": 50.02,
+   "end": 50.3
+  },
+  {
+   "w": "in",
+   "start": 50.3,
+   "end": 50.46
+  },
+  {
+   "w": "at",
+   "start": 50.46,
+   "end": 50.54
+  },
+  {
+   "w": "once,",
+   "start": 50.54,
+   "end": 50.84
+  },
+  {
+   "w": "and",
+   "start": 51.22,
+   "end": 51.38
+  },
+  {
+   "w": "nobody",
+   "start": 51.38,
+   "end": 51.68
+  },
+  {
+   "w": "remembers",
+   "start": 51.68,
+   "end": 51.98
+  },
+  {
+   "w": "their",
+   "start": 51.98,
+   "end": 52.24
+  },
+  {
+   "w": "passwords.",
+   "start": 52.24,
+   "end": 52.6
+  },
+  {
+   "w": "Would",
+   "start": 53.24,
+   "end": 53.42
+  },
+  {
+   "w": "you",
+   "start": 53.42,
+   "end": 53.52
+  },
+  {
+   "w": "last",
+   "start": 53.52,
+   "end": 53.78
+  },
+  {
+   "w": "30",
+   "start": 53.78,
+   "end": 54.0
+  },
+  {
+   "w": "days",
+   "start": 54.0,
+   "end": 54.16
+  },
+  {
+   "w": "offline?",
+   "start": 54.16,
+   "end": 54.46
+  },
+  {
+   "w": "Follow",
+   "start": 54.92,
+   "end": 55.32
+  },
+  {
+   "w": "for",
+   "start": 55.32,
+   "end": 55.5
+  },
+  {
+   "w": "part",
+   "start": 55.5,
+   "end": 55.66
+  },
+  {
+   "w": "2.",
+   "start": 55.66,
+   "end": 55.92
+  }
+ ],
+ "text": "What if the internet went down tomorrow, everywhere, for 30 days? No Wi-Fi, no mobile data, no cloud. Just silence. Hour 1. Your card stops working at the coffee shop. The barista shrugs. Only 14% of payments in the US are still made in cash, according to the Federal Reserve, and you're not one of them. Day 1. More than 99% of the data between continents travels through cables on the seafloor. They're still there. Nothing is moving through them. So banks, airlines, and hospitals go back to paper. Pilots get printed flight plans, doctors write prescriptions by hand again, and nobody can read them. Day 3. Stores reorder by phone and fax. Shelves start to thin out, starting with bread, batteries, and toilet paper. Week 2. Neighbors trade favors. Somebody's grandad becomes the most important person on the street because he still has a radio and knows how to use it. Day 30. The internet comes back on. Billions of people log in at once, and nobody remembers their passwords. Would you last 30 days offline? Follow for part 2."
+}
