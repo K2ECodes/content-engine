@@ -23,3 +23,6 @@ assets/talking-head/natural-frames/
 tmp/
 content/**/snap-*.png
 content/**/trials/*-hook.png
+
+# IG -> TikTok mirror downloads
+content/_mirror/
