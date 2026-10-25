@@ -1,0 +1,237 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#C2591F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/city-dusk.png",
+    "headline": [
+     "Your store may be",
+     "*wide open*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the 10-minute store safety check",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "text": "Your *store*"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 140,
+     "spread": 40,
+     "y": 690,
+     "up": true
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 740,
+      "y": 880,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 800,
+       "y1": 950,
+       "x2": 700,
+       "y2": 1000,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "2 bugs.",
+     "*No password.*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Anyone can take over *the server*",
+      "Patched *Oct 21*",
+      "Attacks seen *before the fix*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-shrug",
+      "x": 780,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "70% of the web",
+     "*runs on PHP*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "WordPress:",
+       "v": "PHP"
+      },
+      {
+       "k": "Drupal:",
+       "v": "PHP"
+      },
+      {
+       "k": "Joomla:",
+       "v": "PHP"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 800,
+      "h": 250,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "Check 1.",
+     "*Ask your host*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Is PHP patched *since Oct 21?*",
+      "Get it *in writing*",
+      "Note *the date*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 260,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "Check 2.",
+     "*Update everything*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Store platform",
+      "Plugins and *themes*",
+      "Old *test sites*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 70,
+      "h": 220
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Check 3.",
+     "*Look for signs*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "New *admin users*",
+      "Files changed *since Oct 17*",
+      "Payout details *you didn't change*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "ghost",
+      "x": 70,
+      "h": 220
+     },
+     {
+      "name": "korede-point",
+      "x": 780,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*full check?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

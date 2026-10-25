@@ -144,3 +144,10 @@
 {"platform": "linkedin", "schedchieId": "6adcf9863c8ff42965c17ab3", "event": "rescheduled", "scheduledTime": "2026-11-03T15:30:00Z", "reason": "freshest news first (Korede 2026-10-25)"}
 {"platform": "linkedin", "schedchieId": "6adcf9bc3c8ff42965c17b3b", "event": "rescheduled", "scheduledTime": "2026-11-05T15:30:00Z", "reason": "freshest news first (Korede 2026-10-25)"}
 {"platform": "linkedin", "schedchieId": "6adcfb863c8ff42965c18003", "event": "rescheduled", "scheduledTime": "2026-11-07T15:30:00Z", "reason": "freshest news first (Korede 2026-10-25)"}
+{"platform": "linkedin", "account": "Korede Kolawole", "post": "content/2026-W44/li-personal-mon-0900-openai-unplugs-ai", "file": "slide-*.png", "scheduledTime": "2026-10-26T12:00:00Z", "schedchieId": "6adda0a13c8ff42965c3f04a", "by": "fresh-news-fork"}
+{"platform": "linkedin", "account": "Korede Kolawole", "post": "content/2026-W44/li-personal-tue-0900-ai-graveyard", "file": "slide-*.png", "scheduledTime": "2026-10-27T12:00:00Z", "schedchieId": "6adda0a33c8ff42965c3f05b", "by": "fresh-news-fork"}
+{"platform": "linkedin", "account": "Content Systems.ai (Organization)", "post": "content/2026-W44/li-company-mon-1100-store-wide-open", "file": "slide-*.png", "scheduledTime": "2026-10-26T14:00:00Z", "schedchieId": "6adda0a63c8ff42965c3f06e", "by": "fresh-news-fork"}
+{"platform": "linkedin", "account": "Content Systems.ai (Organization)", "post": "content/2026-W44/li-company-tue-1100-labs-unplug-ai", "file": "slide-*.png", "scheduledTime": "2026-10-27T14:00:00Z", "schedchieId": "6adda0a93c8ff42965c3f081", "by": "fresh-news-fork"}
+{"platform": "linkedin", "schedchieId": "6adcfb153c8ff42965c17ed2", "rescheduledTo": "2026-10-26T18:00:00Z", "reason": "freshest news first (2026-10-25)"}
+{"platform": "linkedin", "schedchieId": "6adcf92c3c8ff42965c178b3", "rescheduledTo": "2026-10-27T18:00:00Z", "reason": "freshest news first (2026-10-25)"}
+{"platform": "linkedin", "schedchieId": "6add286c3c8ff42965c2012b", "rescheduledTo": "2026-10-27T19:00:00Z", "reason": "freshest news first (2026-10-25)"}

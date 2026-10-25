@@ -1,0 +1,475 @@
+{
+ "words": [
+  {
+   "w": "2",
+   "start": 0.0,
+   "end": 0.5
+  },
+  {
+   "w": "bugs",
+   "start": 0.5,
+   "end": 0.86
+  },
+  {
+   "w": "just",
+   "start": 0.86,
+   "end": 1.14
+  },
+  {
+   "w": "left",
+   "start": 1.14,
+   "end": 1.3
+  },
+  {
+   "w": "a",
+   "start": 1.3,
+   "end": 1.48
+  },
+  {
+   "w": "lot",
+   "start": 1.48,
+   "end": 1.8
+  },
+  {
+   "w": "of",
+   "start": 1.8,
+   "end": 1.92
+  },
+  {
+   "w": "online",
+   "start": 1.92,
+   "end": 2.18
+  },
+  {
+   "w": "stores",
+   "start": 2.18,
+   "end": 2.6
+  },
+  {
+   "w": "wide",
+   "start": 2.6,
+   "end": 3.16
+  },
+  {
+   "w": "open.",
+   "start": 3.16,
+   "end": 3.48
+  },
+  {
+   "w": "They're",
+   "start": 3.78,
+   "end": 3.9
+  },
+  {
+   "w": "called",
+   "start": 3.9,
+   "end": 4.04
+  },
+  {
+   "w": "PHP2Shell,",
+   "start": 4.0,
+   "end": 5.3
+  },
+  {
+   "w": "and",
+   "start": 5.46,
+   "end": 5.72
+  },
+  {
+   "w": "they",
+   "start": 5.72,
+   "end": 5.82
+  },
+  {
+   "w": "let",
+   "start": 5.82,
+   "end": 5.98
+  },
+  {
+   "w": "anyone",
+   "start": 5.98,
+   "end": 6.48
+  },
+  {
+   "w": "take",
+   "start": 6.48,
+   "end": 6.68
+  },
+  {
+   "w": "over",
+   "start": 6.68,
+   "end": 6.88
+  },
+  {
+   "w": "a",
+   "start": 6.88,
+   "end": 7.02
+  },
+  {
+   "w": "web",
+   "start": 7.02,
+   "end": 7.12
+  },
+  {
+   "w": "server",
+   "start": 7.12,
+   "end": 7.4
+  },
+  {
+   "w": "without",
+   "start": 7.4,
+   "end": 7.82
+  },
+  {
+   "w": "a",
+   "start": 7.82,
+   "end": 8.02
+  },
+  {
+   "w": "password.",
+   "start": 8.02,
+   "end": 8.36
+  },
+  {
+   "w": "The",
+   "start": 8.94,
+   "end": 9.08
+  },
+  {
+   "w": "fix",
+   "start": 9.08,
+   "end": 9.24
+  },
+  {
+   "w": "came",
+   "start": 9.24,
+   "end": 9.46
+  },
+  {
+   "w": "out",
+   "start": 9.46,
+   "end": 9.64
+  },
+  {
+   "w": "on",
+   "start": 9.64,
+   "end": 9.76
+  },
+  {
+   "w": "October",
+   "start": 9.76,
+   "end": 9.96
+  },
+  {
+   "w": "21,",
+   "start": 9.96,
+   "end": 10.44
+  },
+  {
+   "w": "but",
+   "start": 10.7,
+   "end": 10.9
+  },
+  {
+   "w": "Amazon",
+   "start": 10.9,
+   "end": 11.34
+  },
+  {
+   "w": "saw",
+   "start": 11.34,
+   "end": 11.66
+  },
+  {
+   "w": "attacks",
+   "start": 11.66,
+   "end": 12.0
+  },
+  {
+   "w": "a",
+   "start": 12.0,
+   "end": 12.24
+  },
+  {
+   "w": "week",
+   "start": 12.24,
+   "end": 12.36
+  },
+  {
+   "w": "before",
+   "start": 12.36,
+   "end": 12.76
+  },
+  {
+   "w": "that.",
+   "start": 12.76,
+   "end": 13.06
+  },
+  {
+   "w": "About",
+   "start": 13.46,
+   "end": 13.68
+  },
+  {
+   "w": "70%",
+   "start": 13.68,
+   "end": 14.52
+  },
+  {
+   "w": "of",
+   "start": 14.52,
+   "end": 14.64
+  },
+  {
+   "w": "the",
+   "start": 14.64,
+   "end": 14.7
+  },
+  {
+   "w": "web",
+   "start": 14.7,
+   "end": 14.9
+  },
+  {
+   "w": "runs",
+   "start": 14.9,
+   "end": 15.28
+  },
+  {
+   "w": "on",
+   "start": 15.28,
+   "end": 15.5
+  },
+  {
+   "w": "PHP,",
+   "start": 15.5,
+   "end": 15.9
+  },
+  {
+   "w": "including",
+   "start": 16.26,
+   "end": 16.66
+  },
+  {
+   "w": "WordPress.",
+   "start": 16.66,
+   "end": 17.0
+  },
+  {
+   "w": "So",
+   "start": 17.6,
+   "end": 17.74
+  },
+  {
+   "w": "do",
+   "start": 17.74,
+   "end": 18.02
+  },
+  {
+   "w": "3",
+   "start": 18.02,
+   "end": 18.38
+  },
+  {
+   "w": "things",
+   "start": 18.38,
+   "end": 18.68
+  },
+  {
+   "w": "today.",
+   "start": 18.68,
+   "end": 18.9
+  },
+  {
+   "w": "Ask",
+   "start": 19.32,
+   "end": 19.5
+  },
+  {
+   "w": "your",
+   "start": 19.5,
+   "end": 19.64
+  },
+  {
+   "w": "host",
+   "start": 19.64,
+   "end": 19.82
+  },
+  {
+   "w": "if",
+   "start": 19.82,
+   "end": 19.96
+  },
+  {
+   "w": "PHP",
+   "start": 19.96,
+   "end": 20.18
+  },
+  {
+   "w": "was",
+   "start": 20.18,
+   "end": 20.46
+  },
+  {
+   "w": "patched",
+   "start": 20.46,
+   "end": 20.84
+  },
+  {
+   "w": "after",
+   "start": 20.84,
+   "end": 21.02
+  },
+  {
+   "w": "October",
+   "start": 21.02,
+   "end": 21.34
+  },
+  {
+   "w": "21.",
+   "start": 21.34,
+   "end": 21.74
+  },
+  {
+   "w": "Update",
+   "start": 22.2,
+   "end": 22.56
+  },
+  {
+   "w": "your",
+   "start": 22.56,
+   "end": 22.76
+  },
+  {
+   "w": "store,",
+   "start": 22.76,
+   "end": 23.06
+  },
+  {
+   "w": "your",
+   "start": 23.28,
+   "end": 23.38
+  },
+  {
+   "w": "plugins,",
+   "start": 23.38,
+   "end": 23.7
+  },
+  {
+   "w": "and",
+   "start": 23.9,
+   "end": 24.16
+  },
+  {
+   "w": "your",
+   "start": 24.16,
+   "end": 24.26
+  },
+  {
+   "w": "themes.",
+   "start": 24.26,
+   "end": 24.56
+  },
+  {
+   "w": "And",
+   "start": 24.9,
+   "end": 25.14
+  },
+  {
+   "w": "look",
+   "start": 25.14,
+   "end": 25.32
+  },
+  {
+   "w": "for",
+   "start": 25.32,
+   "end": 25.48
+  },
+  {
+   "w": "admin",
+   "start": 25.48,
+   "end": 25.84
+  },
+  {
+   "w": "users",
+   "start": 25.84,
+   "end": 26.12
+  },
+  {
+   "w": "nobody",
+   "start": 26.12,
+   "end": 26.64
+  },
+  {
+   "w": "created.",
+   "start": 26.64,
+   "end": 27.1
+  },
+  {
+   "w": "Want",
+   "start": 27.1,
+   "end": 27.54
+  },
+  {
+   "w": "the",
+   "start": 27.54,
+   "end": 27.68
+  },
+  {
+   "w": "full",
+   "start": 27.68,
+   "end": 27.84
+  },
+  {
+   "w": "check?",
+   "start": 27.84,
+   "end": 28.04
+  },
+  {
+   "w": "Comment",
+   "start": 28.3,
+   "end": 28.58
+  },
+  {
+   "w": "SYSTEMS",
+   "start": 28.58,
+   "end": 29.0
+  },
+  {
+   "w": "and",
+   "start": 29.0,
+   "end": 29.3
+  },
+  {
+   "w": "we'll",
+   "start": 29.3,
+   "end": 29.44
+  },
+  {
+   "w": "send",
+   "start": 29.44,
+   "end": 29.6
+  },
+  {
+   "w": "it",
+   "start": 29.6,
+   "end": 29.72
+  },
+  {
+   "w": "to",
+   "start": 29.72,
+   "end": 29.82
+  },
+  {
+   "w": "you",
+   "start": 29.82,
+   "end": 29.9
+  },
+  {
+   "w": "free.",
+   "start": 29.9,
+   "end": 30.12
+  }
+ ],
+ "text": "Two bugs just left a lot of online stores wide open. They're called PHP-to-shell, and they let anyone take over a web server without a password. The fix came out on October 21, but Amazon saw a tax a week before that. About 70% of the web runs on PHP, including WordPress. So do three things today. Ask your host if PHP was patched after October 21. Update your store, your plugins, and your themes. And look for admin users nobody created. Want the full check? Comment Systems and we'll send it to you free."
+}

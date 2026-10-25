@@ -1,0 +1,26 @@
+{
+  "channel": "li-personal",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "tools-vs-systems",
+  "execution": "mistakes",
+  "topic": "ai-graveyard",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "AI",
+  "slot": "2026-10-27T09:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png"
+  ],
+  "linkedin_scheduled": {
+    "id": "6adda0a33c8ff42965c3f05b",
+    "at": "2026-10-27T12:00:00Z"
+  }
+}

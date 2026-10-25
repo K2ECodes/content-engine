@@ -1,0 +1,156 @@
+{
+ "template": "story",
+ "data": {
+  "words": "words.json",
+  "audio": "audio/vo.wav",
+  "tail": 1.6,
+  "script": "2 bugs just left a lot of online stores wide open. They're called PHP2Shell, and they let anyone take over a web server without a password. The fix came out on October 21, but Amazon saw attacks a week before that. About 70% of the web runs on PHP, including WordPress. So do 3 things today. Ask your host if PHP was patched after October 21. Update your store, your plugins, and your themes. And look for admin users nobody created. Want the full check? Comment SYSTEMS and we'll send it to you free.",
+  "say": "(see audio/vo.wav)",
+  "branded": true,
+  "badgeY": 1000,
+  "badgeH": 110,
+  "music": {
+   "file": "audio/music.mp3",
+   "volume": 0.1
+  },
+  "keys": [
+   "password",
+   "patched",
+   "free"
+  ],
+  "strikes": [],
+  "bgLogos": [
+   "amazon",
+   "shopify",
+   "amazon",
+   "shopify"
+  ],
+  "coldOpen": {
+   "until": "They're",
+   "set": "store",
+   "font": "ig",
+   "titles": [
+    {
+     "text": [
+      "Your store may be",
+      "*wide open.*"
+     ]
+    }
+   ],
+   "accent": [
+    "open."
+   ],
+   "actors": [
+    {
+     "thing": "cart",
+     "x": 300,
+     "scale": 1.3,
+     "limbs": true
+    },
+    {
+     "thing": "ghost",
+     "text": "BUG",
+     "x": 720,
+     "scale": 1.2
+    }
+   ],
+   "beats": [
+    {
+     "at": "bugs",
+     "actor": 1,
+     "do": "rise",
+     "say": "Boo."
+    },
+    {
+     "at": "left",
+     "actor": 0,
+     "do": "shake"
+    },
+    {
+     "at": "open.",
+     "actor": 0,
+     "do": "panic"
+    }
+   ]
+  },
+  "scenes": [
+   {
+    "at": "They're",
+    "world": "dark",
+    "type": "checklist",
+    "title": "PHP2Shell",
+    "rows": [
+     {
+      "text": "Takes over the server",
+      "at": "take"
+     },
+     {
+      "text": "No password needed",
+      "at": "password."
+     }
+    ]
+   },
+   {
+    "at": "The#1",
+    "world": "light",
+    "type": "shot",
+    "src": "shots/tc.png",
+    "url": "techcrunch.com",
+    "caption": "TechCrunch, Oct 24 2026",
+    "h": 900,
+    "pan": 160,
+    "look": "cinema"
+   },
+   {
+    "at": "About",
+    "world": "dark",
+    "type": "stat",
+    "value": "70%",
+    "label": "of the web runs on PHP",
+    "foot": "incl. WordPress · TechCrunch"
+   },
+   {
+    "at": "So",
+    "world": "light",
+    "type": "checklist",
+    "title": "3 checks today",
+    "rows": [
+     {
+      "text": "Ask your host: patched after Oct 21?",
+      "at": "Ask"
+     },
+     {
+      "text": "Update store, plugins, themes",
+      "at": "Update"
+     },
+     {
+      "text": "Look for unknown admin users",
+      "at": "look"
+     }
+    ],
+    "px": "hq"
+   },
+   {
+    "at": "Want",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "SYSTEMS",
+    "prompt": "SYSTEMS",
+    "dm": "Store safety check sent",
+    "px": "day",
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 300
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 760,
+      "h": 300
+     }
+    ]
+   }
+  ]
+ }
+}

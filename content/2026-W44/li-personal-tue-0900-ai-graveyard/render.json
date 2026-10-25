@@ -1,0 +1,202 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "claude",
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "42% of AI projects",
+      "style": "acc",
+      "size": 96
+     },
+     {
+      "text": "get *abandoned.*",
+      "style": "white",
+      "size": 96
+     }
+    ],
+    "blocksY": 80,
+    "pay": {
+     "text": "How yours survives. *Free sheet.* Swipe.",
+     "y": 1030,
+     "size": 42
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Oct 24 2026",
+    "labelY": 100,
+    "title": "The AI\n*graveyard*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "list": [
+     {
+      "n": "×",
+      "text": "Relay, *shut down*"
+     },
+     {
+      "n": "×",
+      "text": "Notion Mail, *closed*"
+     },
+     {
+      "n": "×",
+      "text": "ChatGPT Atlas, *discontinued*"
+     },
+     {
+      "n": "×",
+      "text": "Character.ai, *bankrupt*"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Source",
+      "v": "TechCrunch's running list, Oct 24 2026. 42% figure: S&P Global Market Intelligence."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "Why they died",
+    "labelY": 100,
+    "title": "Someone bigger\n*built it in*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "flow": [
+     "Your tool",
+     {
+      "text": "OpenAI ships it",
+      "hi": true
+     },
+     "Tool dies"
+    ],
+    "ann": [
+     {
+      "k": "Relay",
+      "v": "shut down after OpenAI and Google built automation into their own tools."
+     },
+     {
+      "k": "Notion Mail",
+      "v": "people handled email with separate AI agents."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "What survives",
+    "labelY": 100,
+    "title": "Your process,\n*written down*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "flow": [
+     "Your SOP",
+     {
+      "text": "A skill file",
+      "hi": true
+     },
+     "Any AI tool"
+    ],
+    "ann": [
+     {
+      "k": "Why",
+      "v": "Agent Skills is an open standard now. 70+ AI tools run the same skill file."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "blur": true
+    },
+    "label": "In the sheet",
+    "labelY": 100,
+    "title": "The sheet\n*I use*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "locked": [
+     {
+      "n": "1",
+      "text": "The SOP-to-skill template"
+     },
+     {
+      "n": "2",
+      "text": "A worked example"
+     },
+     {
+      "n": "3",
+      "text": "The test before it goes live"
+     }
+    ],
+    "ann": [
+     {
+      "k": "Start with",
+      "v": "the task you explain most often."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/laptop-rooftop.jpg",
+     "pos": "50% 62%",
+     "dim": {
+      "top": 0.55,
+      "bot": 0.55
+     },
+     "front": "assets/photos/korede/cutouts/laptop-rooftop-full.png"
+    },
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 110
+     },
+     {
+      "text": "for the sheet.",
+      "style": "acc",
+      "size": 76
+     }
+    ],
+    "blocksY": 80,
+    "pay": {
+     "text": "Template + worked example. *Free.*",
+     "y": 1040,
+     "size": 44
+    }
+   }
+  ]
+ }
+}

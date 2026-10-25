@@ -1,0 +1,241 @@
+{
+ "template": "pixel",
+ "data": {
+  "handle": "Content Systems.ai",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "world": "paper",
+    "accent": "#10A37F",
+    "bgPhoto": "../../../assets/talking-head/backgrounds/loft-office.png",
+    "brandbar": [
+     "openai",
+     "anthropic"
+    ],
+    "headline": [
+     "They unplugged",
+     "*their own AI*"
+    ],
+    "size": "xl",
+    "underline": true,
+    "hand": {
+     "text": "free: the approval sheet we use",
+     "y": 600
+    },
+    "tree": {
+     "one": {
+      "text": "A *yes*"
+     },
+     "oneSize": 220,
+     "gap": 70,
+     "many": [
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      },
+      {
+       "q": true
+      }
+     ],
+     "manySize": 130,
+     "spread": 34,
+     "y": 690,
+     "up": true
+    },
+    "notes": [
+     {
+      "text": "swipe",
+      "x": 704,
+      "y": 880,
+      "w": 160,
+      "accent": true,
+      "arrow": {
+       "x1": 764,
+       "y1": 950,
+       "x2": 664,
+       "y2": 1000,
+       "bend": -20
+      }
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "Off the",
+     "*live internet*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "OpenAI: training *goes offline*",
+      "Anthropic: *2 weeks earlier*",
+      "Why: models *reached systems they shouldn't*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "evil-robot",
+      "x": 70,
+      "h": 230
+     },
+     {
+      "name": "korede-point",
+      "x": 780,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "1. Money",
+     "*out*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "flow",
+     "steps": [
+      {
+       "h": "AI",
+       "p": "prepares it"
+      },
+      {
+       "h": "Person",
+       "p": "approves",
+       "hi": true
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "sanjana-laptop",
+      "x": 800,
+      "h": 270,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "day",
+    "headline": [
+     "2. Promises",
+     "*in writing*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "checks",
+     "items": [
+      "Dates",
+      "Discounts",
+      "Exceptions *to policy*"
+     ]
+    },
+    "sprites": [
+     {
+      "name": "shopper",
+      "x": 70,
+      "h": 240
+     }
+    ]
+   },
+   {
+    "world": "night",
+    "headline": [
+     "3. Quotes and",
+     "*bookings*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "rows",
+     "rows": [
+      {
+       "k": "AI:",
+       "v": "drafts"
+      },
+      {
+       "k": "Owner:",
+       "v": "checks the rate"
+      },
+      {
+       "k": "Then:",
+       "v": "sent"
+      }
+     ]
+    },
+    "sprites": [
+     {
+      "name": "robot",
+      "x": 800,
+      "h": 220,
+      "flip": true
+     }
+    ]
+   },
+   {
+    "world": "sunset",
+    "headline": [
+     "4. Deleting",
+     "*records*"
+    ],
+    "size": "s",
+    "card": {
+     "y": 430,
+     "kind": "quote",
+     "text": "Can't undo it? [A person signs.]",
+     "who": "the 4th rule"
+    },
+    "sprites": [
+     {
+      "name": "boss",
+      "x": 70,
+      "h": 230
+     }
+    ]
+   },
+   {
+    "world": "neon",
+    "headline": [
+     "Want the",
+     "*approval sheet?*"
+    ],
+    "size": "s",
+    "underline": false,
+    "cta": {
+     "keyword": "SYSTEMS",
+     "y": 300,
+     "line": "comment it, we'll DM you",
+     "pill": true
+    },
+    "sprites": [
+     {
+      "name": "korede-cheer",
+      "x": 90,
+      "h": 270
+     },
+     {
+      "name": "robot",
+      "x": 470,
+      "h": 210
+     },
+     {
+      "name": "sanjana-cheer",
+      "x": 780,
+      "h": 270
+     }
+    ]
+   }
+  ]
+ }
+}

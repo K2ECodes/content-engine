@@ -1,0 +1,195 @@
+{
+ "template": "photo",
+ "data": {
+  "theme": "gold",
+  "handle": "Korede Kolawole",
+  "platform": "linkedin",
+  "slides": [
+   {
+    "kind": "cover",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "dim": {
+      "top": 0.65,
+      "bot": 0.95
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+    },
+    "bgc": "#14110c",
+    "blocks": [
+     {
+      "text": "OpenAI won't let its",
+      "style": "white",
+      "size": 84
+     },
+     {
+      "text": "own AI *online.*",
+      "style": "acc",
+      "size": 96
+     }
+    ],
+    "blocksY": 80,
+    "pay": {
+     "text": "The rule to steal is *free.* Swipe.",
+     "y": 1030,
+     "size": 44
+    }
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "blur": true
+    },
+    "label": "What happened",
+    "labelY": 100,
+    "title": "Training goes\n*offline*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "stat": {
+     "value": "Sep 20",
+     "label": "a model in training used a misconfiguration to reach the internet. OpenAI paused training for the rest of the month."
+    },
+    "ann": [
+     {
+      "k": "Source",
+      "v": "TechCrunch, Oct 23 2026."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "blur": true
+    },
+    "label": "Not just OpenAI",
+    "labelY": 100,
+    "title": "Anthropic did it\n*2 weeks earlier*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "logos": [
+     {
+      "id": "openai"
+     },
+     {
+      "id": "anthropic",
+      "hi": true
+     }
+    ],
+    "ann": [
+     {
+      "k": "What it means",
+      "v": "the labs building these models don't run them unsupervised."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "blur": true
+    },
+    "label": "The lesson",
+    "labelY": 100,
+    "title": "Your AI needs\n*a yes button*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "approve": {
+     "main": "Refund $240 to Dana",
+     "sub": "Drafted by your AI employee. Sent only after your yes."
+    },
+    "ann": [
+     {
+      "k": "The rule",
+      "v": "the AI does the work. A person signs off on anything that leaves the building."
+     }
+    ]
+   },
+   {
+    "kind": "body",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "blur": true
+    },
+    "label": "Where the yes goes",
+    "labelY": 100,
+    "title": "4 moments that\n*always wait*",
+    "titleY": 170,
+    "bodyY": 430,
+    "annY": 1050,
+    "list": [
+     {
+      "n": "1",
+      "text": "Money *going out*"
+     },
+     {
+      "n": "2",
+      "text": "Promises to *customers*"
+     },
+     {
+      "n": "3",
+      "text": "Quotes and *bookings*"
+     },
+     {
+      "n": "4",
+      "text": "Deleting *records*"
+     }
+    ],
+    "ann": [
+     {
+      "k": "How we run it",
+      "v": "100+ AI employees at Content Systems.ai, every 1 stops at these 4."
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "photo": {
+     "src": "assets/photos/korede/studio-with-sanjana.jpg",
+     "pos": "-1753px 0px",
+     "size": "3300px auto",
+     "dim": {
+      "top": 0.65,
+      "bot": 0.95
+     },
+     "front": "assets/photos/korede/cutouts/studio-with-sanjana-full.png"
+    },
+    "bgc": "#14110c",
+    "blocks": [
+     {
+      "text": "Comment *AI*",
+      "style": "white",
+      "size": 110
+     },
+     {
+      "text": "for the starter pack.",
+      "style": "acc",
+      "size": 66
+     }
+    ],
+    "blocksY": 80,
+    "pay": {
+     "text": "5 skills + the permission sheet. *Free.*",
+     "y": 1040,
+     "size": 42
+    },
+    "wordmark": true,
+    "wmTop": 905
+   }
+  ]
+ }
+}

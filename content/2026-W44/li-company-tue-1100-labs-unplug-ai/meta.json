@@ -1,0 +1,27 @@
+{
+  "channel": "li-company",
+  "format": "carousel",
+  "aspect": "4:5",
+  "pillar": "belief-shift",
+  "execution": "checklist",
+  "topic": "labs-unplug-ai-approval",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "SYSTEMS",
+  "slot": "2026-10-27T11:00",
+  "timezone": "America/New_York",
+  "status": "draft",
+  "media": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png"
+  ],
+  "linkedin_scheduled": {
+    "id": "6adda0a93c8ff42965c3f081",
+    "at": "2026-10-27T14:00:00Z"
+  }
+}
