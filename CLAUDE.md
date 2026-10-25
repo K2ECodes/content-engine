@@ -91,6 +91,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Fight card carousels (Korede, 2026-10-25, ref instagram.com/p/DezNuipk6Jm)**: head-to-head carousels with glossy 3D brand mascots, round-by-round (price, the work, apps, the brain, initiative, trust), an honest verdict and a comment-keyword CTA, every slide a subtle-motion video. For @koredekola.ai (AI tools) and @contentsystems.ai (business angle). Skill: .claude/skills/fight-card-carousel.
 
+- **AI edits on @koredekola (Korede, 2026-10-25)**: the short meme-text + montage "AI edit" reels can go on @koredekola too (music edit, catalog track up front).
 - **@koredekola swaps/skits scope (Korede, 2026-10-25)**: AI swaps are only funny, comedic, entertaining top-of-funnel skits (relatable situations, memes, absurd moments). Never swap real lifestyle content (no footballer-life, Berlin-life or fake LARP lifestyle swaps). Real lifestyle content comes from footage Korede records; we edit it.
 
 - **What-ifs need detail (Korede, 2026-10-25)**: 2 to 3 specific sentences per beat (what happens, a concrete number/who/where, consequence or joke), fewer richer beats over many thin ones.
