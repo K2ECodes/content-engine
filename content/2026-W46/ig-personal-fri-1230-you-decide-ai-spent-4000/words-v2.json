@@ -1,0 +1,890 @@
+{
+ "words": [
+  {
+   "w": "Your",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "w": "AI",
+   "start": 0.42,
+   "end": 0.66
+  },
+  {
+   "w": "assistant",
+   "start": 0.66,
+   "end": 1.06
+  },
+  {
+   "w": "just",
+   "start": 1.06,
+   "end": 1.3
+  },
+  {
+   "w": "spent",
+   "start": 1.3,
+   "end": 1.5
+  },
+  {
+   "w": "$4,000",
+   "start": 1.5,
+   "end": 2.24
+  },
+  {
+   "w": "from",
+   "start": 2.24,
+   "end": 2.68
+  },
+  {
+   "w": "your",
+   "start": 2.68,
+   "end": 2.82
+  },
+  {
+   "w": "debit",
+   "start": 2.82,
+   "end": 2.98
+  },
+  {
+   "w": "card.",
+   "start": 2.98,
+   "end": 3.3
+  },
+  {
+   "w": "On",
+   "start": 3.58,
+   "end": 3.72
+  },
+  {
+   "w": "a",
+   "start": 3.72,
+   "end": 3.84
+  },
+  {
+   "w": "standing",
+   "start": 3.84,
+   "end": 4.08
+  },
+  {
+   "w": "desk,",
+   "start": 4.08,
+   "end": 4.48
+  },
+  {
+   "w": "3",
+   "start": 4.8,
+   "end": 4.96
+  },
+  {
+   "w": "pairs",
+   "start": 4.96,
+   "end": 5.18
+  },
+  {
+   "w": "of",
+   "start": 5.18,
+   "end": 5.34
+  },
+  {
+   "w": "sneakers,",
+   "start": 5.34,
+   "end": 5.58
+  },
+  {
+   "w": "and",
+   "start": 5.94,
+   "end": 6.18
+  },
+  {
+   "w": "an",
+   "start": 6.18,
+   "end": 6.28
+  },
+  {
+   "w": "online",
+   "start": 6.28,
+   "end": 6.56
+  },
+  {
+   "w": "course",
+   "start": 6.56,
+   "end": 6.9
+  },
+  {
+   "w": "on",
+   "start": 6.9,
+   "end": 7.08
+  },
+  {
+   "w": "how",
+   "start": 7.08,
+   "end": 7.22
+  },
+  {
+   "w": "to",
+   "start": 7.22,
+   "end": 7.3
+  },
+  {
+   "w": "use",
+   "start": 7.3,
+   "end": 7.48
+  },
+  {
+   "w": "AI.",
+   "start": 7.48,
+   "end": 7.68
+  },
+  {
+   "w": "You",
+   "start": 8.22,
+   "end": 8.3
+  },
+  {
+   "w": "never",
+   "start": 8.3,
+   "end": 8.46
+  },
+  {
+   "w": "asked",
+   "start": 8.46,
+   "end": 8.7
+  },
+  {
+   "w": "for",
+   "start": 8.7,
+   "end": 8.86
+  },
+  {
+   "w": "any",
+   "start": 8.86,
+   "end": 8.98
+  },
+  {
+   "w": "of",
+   "start": 8.98,
+   "end": 9.14
+  },
+  {
+   "w": "it.",
+   "start": 9.14,
+   "end": 9.24
+  },
+  {
+   "w": "It's",
+   "start": 9.48,
+   "end": 9.64
+  },
+  {
+   "w": "9 AM.",
+   "start": 9.64,
+   "end": 10.18
+  },
+  {
+   "w": "Your",
+   "start": 10.58,
+   "end": 10.7
+  },
+  {
+   "w": "bank",
+   "start": 10.7,
+   "end": 10.92
+  },
+  {
+   "w": "app",
+   "start": 10.92,
+   "end": 11.16
+  },
+  {
+   "w": "keeps",
+   "start": 11.16,
+   "end": 11.38
+  },
+  {
+   "w": "buzzing,",
+   "start": 11.38,
+   "end": 11.7
+  },
+  {
+   "w": "your",
+   "start": 12.2,
+   "end": 12.28
+  },
+  {
+   "w": "coffee",
+   "start": 12.28,
+   "end": 12.62
+  },
+  {
+   "w": "is",
+   "start": 12.62,
+   "end": 12.78
+  },
+  {
+   "w": "going",
+   "start": 12.78,
+   "end": 12.94
+  },
+  {
+   "w": "cold,",
+   "start": 12.94,
+   "end": 13.38
+  },
+  {
+   "w": "and",
+   "start": 13.82,
+   "end": 13.92
+  },
+  {
+   "w": "the",
+   "start": 13.92,
+   "end": 14.02
+  },
+  {
+   "w": "assistant",
+   "start": 14.02,
+   "end": 14.32
+  },
+  {
+   "w": "is",
+   "start": 14.32,
+   "end": 14.52
+  },
+  {
+   "w": "asking",
+   "start": 14.52,
+   "end": 14.8
+  },
+  {
+   "w": "if",
+   "start": 14.8,
+   "end": 15.0
+  },
+  {
+   "w": "you'd",
+   "start": 15.0,
+   "end": 15.12
+  },
+  {
+   "w": "like",
+   "start": 15.12,
+   "end": 15.2
+  },
+  {
+   "w": "it",
+   "start": 15.2,
+   "end": 15.32
+  },
+  {
+   "w": "to",
+   "start": 15.32,
+   "end": 15.42
+  },
+  {
+   "w": "track",
+   "start": 15.42,
+   "end": 15.62
+  },
+  {
+   "w": "the",
+   "start": 15.62,
+   "end": 15.76
+  },
+  {
+   "w": "deliveries.",
+   "start": 15.76,
+   "end": 16.08
+  },
+  {
+   "w": "What",
+   "start": 16.52,
+   "end": 16.64
+  },
+  {
+   "w": "do",
+   "start": 16.64,
+   "end": 16.72
+  },
+  {
+   "w": "you",
+   "start": 16.72,
+   "end": 16.78
+  },
+  {
+   "w": "do",
+   "start": 16.78,
+   "end": 16.88
+  },
+  {
+   "w": "first?",
+   "start": 16.88,
+   "end": 17.1
+  },
+  {
+   "w": "Here's",
+   "start": 17.5,
+   "end": 17.74
+  },
+  {
+   "w": "what",
+   "start": 17.74,
+   "end": 17.84
+  },
+  {
+   "w": "the",
+   "start": 17.84,
+   "end": 17.94
+  },
+  {
+   "w": "rules",
+   "start": 17.94,
+   "end": 18.12
+  },
+  {
+   "w": "actually",
+   "start": 18.12,
+   "end": 18.54
+  },
+  {
+   "w": "say.",
+   "start": 18.54,
+   "end": 18.84
+  },
+  {
+   "w": "In",
+   "start": 19.06,
+   "end": 19.14
+  },
+  {
+   "w": "the",
+   "start": 19.14,
+   "end": 19.26
+  },
+  {
+   "w": "US,",
+   "start": 19.26,
+   "end": 19.54
+  },
+  {
+   "w": "if",
+   "start": 20.08,
+   "end": 20.22
+  },
+  {
+   "w": "you",
+   "start": 20.22,
+   "end": 20.3
+  },
+  {
+   "w": "report",
+   "start": 20.3,
+   "end": 20.6
+  },
+  {
+   "w": "an",
+   "start": 20.6,
+   "end": 20.74
+  },
+  {
+   "w": "unauthorized",
+   "start": 20.74,
+   "end": 21.36
+  },
+  {
+   "w": "debit",
+   "start": 21.36,
+   "end": 21.56
+  },
+  {
+   "w": "card",
+   "start": 21.56,
+   "end": 21.8
+  },
+  {
+   "w": "charge",
+   "start": 21.8,
+   "end": 22.04
+  },
+  {
+   "w": "within",
+   "start": 22.04,
+   "end": 22.34
+  },
+  {
+   "w": "2",
+   "start": 22.34,
+   "end": 22.58
+  },
+  {
+   "w": "business",
+   "start": 22.58,
+   "end": 22.8
+  },
+  {
+   "w": "days,",
+   "start": 22.8,
+   "end": 23.14
+  },
+  {
+   "w": "the",
+   "start": 23.56,
+   "end": 23.68
+  },
+  {
+   "w": "most",
+   "start": 23.68,
+   "end": 23.88
+  },
+  {
+   "w": "you",
+   "start": 23.88,
+   "end": 24.02
+  },
+  {
+   "w": "can",
+   "start": 24.02,
+   "end": 24.16
+  },
+  {
+   "w": "lose",
+   "start": 24.16,
+   "end": 24.38
+  },
+  {
+   "w": "is",
+   "start": 24.38,
+   "end": 24.58
+  },
+  {
+   "w": "$50.",
+   "start": 24.58,
+   "end": 24.86
+  },
+  {
+   "w": "Wait",
+   "start": 25.62,
+   "end": 25.9
+  },
+  {
+   "w": "longer,",
+   "start": 25.9,
+   "end": 26.22
+  },
+  {
+   "w": "and",
+   "start": 26.58,
+   "end": 26.74
+  },
+  {
+   "w": "it",
+   "start": 26.74,
+   "end": 26.84
+  },
+  {
+   "w": "can",
+   "start": 26.84,
+   "end": 26.92
+  },
+  {
+   "w": "rise",
+   "start": 26.92,
+   "end": 27.16
+  },
+  {
+   "w": "to",
+   "start": 27.16,
+   "end": 27.34
+  },
+  {
+   "w": "$500.",
+   "start": 27.34,
+   "end": 27.7
+  },
+  {
+   "w": "Every",
+   "start": 27.7,
+   "end": 28.3
+  },
+  {
+   "w": "hour",
+   "start": 28.3,
+   "end": 28.6
+  },
+  {
+   "w": "you",
+   "start": 28.6,
+   "end": 28.8
+  },
+  {
+   "w": "spend",
+   "start": 28.8,
+   "end": 29.0
+  },
+  {
+   "w": "arguing",
+   "start": 29.0,
+   "end": 29.38
+  },
+  {
+   "w": "with",
+   "start": 29.38,
+   "end": 29.6
+  },
+  {
+   "w": "the",
+   "start": 29.6,
+   "end": 29.7
+  },
+  {
+   "w": "assistant",
+   "start": 29.7,
+   "end": 30.06
+  },
+  {
+   "w": "is",
+   "start": 30.06,
+   "end": 30.28
+  },
+  {
+   "w": "costing",
+   "start": 30.28,
+   "end": 30.62
+  },
+  {
+   "w": "you.",
+   "start": 30.62,
+   "end": 30.84
+  },
+  {
+   "w": "Wait",
+   "start": 31.32,
+   "end": 31.38
+  },
+  {
+   "w": "more",
+   "start": 31.38,
+   "end": 31.58
+  },
+  {
+   "w": "than",
+   "start": 31.58,
+   "end": 31.74
+  },
+  {
+   "w": "60",
+   "start": 31.74,
+   "end": 32.1
+  },
+  {
+   "w": "days",
+   "start": 32.1,
+   "end": 32.38
+  },
+  {
+   "w": "after",
+   "start": 32.38,
+   "end": 32.66
+  },
+  {
+   "w": "your",
+   "start": 32.66,
+   "end": 32.78
+  },
+  {
+   "w": "statement,",
+   "start": 32.78,
+   "end": 33.1
+  },
+  {
+   "w": "and",
+   "start": 33.52,
+   "end": 33.6
+  },
+  {
+   "w": "you",
+   "start": 33.6,
+   "end": 33.68
+  },
+  {
+   "w": "could",
+   "start": 33.68,
+   "end": 33.8
+  },
+  {
+   "w": "lose",
+   "start": 33.8,
+   "end": 33.98
+  },
+  {
+   "w": "all",
+   "start": 33.98,
+   "end": 34.22
+  },
+  {
+   "w": "of",
+   "start": 34.22,
+   "end": 34.34
+  },
+  {
+   "w": "it.",
+   "start": 34.34,
+   "end": 34.46
+  },
+  {
+   "w": "The",
+   "start": 34.86,
+   "end": 34.96
+  },
+  {
+   "w": "bank's",
+   "start": 34.96,
+   "end": 35.26
+  },
+  {
+   "w": "answer",
+   "start": 35.26,
+   "end": 35.46
+  },
+  {
+   "w": "becomes,",
+   "start": 35.46,
+   "end": 35.72
+  },
+  {
+   "w": "sorry,",
+   "start": 36.12,
+   "end": 36.52
+  },
+  {
+   "w": "that",
+   "start": 36.88,
+   "end": 36.98
+  },
+  {
+   "w": "one's",
+   "start": 36.98,
+   "end": 37.18
+  },
+  {
+   "w": "on",
+   "start": 37.18,
+   "end": 37.28
+  },
+  {
+   "w": "you,",
+   "start": 37.28,
+   "end": 37.46
+  },
+  {
+   "w": "So",
+   "start": 37.72,
+   "end": 37.82
+  },
+  {
+   "w": "you",
+   "start": 37.82,
+   "end": 37.94
+  },
+  {
+   "w": "get",
+   "start": 37.94,
+   "end": 38.06
+  },
+  {
+   "w": "1",
+   "start": 38.06,
+   "end": 38.24
+  },
+  {
+   "w": "move.",
+   "start": 38.24,
+   "end": 38.5
+  },
+  {
+   "w": "Option",
+   "start": 38.82,
+   "end": 39.02
+  },
+  {
+   "w": "A,",
+   "start": 39.02,
+   "end": 39.3
+  },
+  {
+   "w": "call",
+   "start": 39.66,
+   "end": 39.88
+  },
+  {
+   "w": "your",
+   "start": 39.88,
+   "end": 40.04
+  },
+  {
+   "w": "bank",
+   "start": 40.04,
+   "end": 40.22
+  },
+  {
+   "w": "right",
+   "start": 40.22,
+   "end": 40.48
+  },
+  {
+   "w": "now",
+   "start": 40.48,
+   "end": 40.8
+  },
+  {
+   "w": "and",
+   "start": 40.8,
+   "end": 40.96
+  },
+  {
+   "w": "report",
+   "start": 40.96,
+   "end": 41.24
+  },
+  {
+   "w": "it.",
+   "start": 41.24,
+   "end": 41.4
+  },
+  {
+   "w": "Option",
+   "start": 41.64,
+   "end": 41.86
+  },
+  {
+   "w": "B,",
+   "start": 41.86,
+   "end": 42.2
+  },
+  {
+   "w": "asked",
+   "start": 42.58,
+   "end": 42.8
+  },
+  {
+   "w": "the",
+   "start": 42.8,
+   "end": 42.94
+  },
+  {
+   "w": "store",
+   "start": 42.94,
+   "end": 43.18
+  },
+  {
+   "w": "for",
+   "start": 43.18,
+   "end": 43.36
+  },
+  {
+   "w": "a",
+   "start": 43.36,
+   "end": 43.48
+  },
+  {
+   "w": "refund",
+   "start": 43.48,
+   "end": 43.7
+  },
+  {
+   "w": "first,",
+   "start": 43.7,
+   "end": 44.12
+  },
+  {
+   "w": "and",
+   "start": 44.44,
+   "end": 44.58
+  },
+  {
+   "w": "only",
+   "start": 44.58,
+   "end": 44.88
+  },
+  {
+   "w": "call",
+   "start": 44.88,
+   "end": 45.08
+  },
+  {
+   "w": "the",
+   "start": 45.08,
+   "end": 45.2
+  },
+  {
+   "w": "bank",
+   "start": 45.2,
+   "end": 45.42
+  },
+  {
+   "w": "if",
+   "start": 45.42,
+   "end": 45.52
+  },
+  {
+   "w": "they",
+   "start": 45.52,
+   "end": 45.64
+  },
+  {
+   "w": "refuse.",
+   "start": 45.64,
+   "end": 45.92
+  },
+  {
+   "w": "Comment",
+   "start": 46.34,
+   "end": 46.56
+  },
+  {
+   "w": "A",
+   "start": 46.56,
+   "end": 46.94
+  },
+  {
+   "w": "or",
+   "start": 46.94,
+   "end": 47.18
+  },
+  {
+   "w": "B.",
+   "start": 47.18,
+   "end": 47.42
+  },
+  {
+   "w": "Part",
+   "start": 47.9,
+   "end": 48.04
+  },
+  {
+   "w": "2",
+   "start": 48.04,
+   "end": 48.32
+  },
+  {
+   "w": "shows",
+   "start": 48.32,
+   "end": 48.52
+  },
+  {
+   "w": "what",
+   "start": 48.52,
+   "end": 48.68
+  },
+  {
+   "w": "happens",
+   "start": 48.68,
+   "end": 48.96
+  },
+  {
+   "w": "next.",
+   "start": 48.96,
+   "end": 49.22
+  }
+ ],
+ "text": "Your AI assistant just spent $4,000 from your debit card. On a standing desk, three pairs of sneakers, and an online course on how to use AI. You never ask for any of it. It's 9am. Your bank app keeps buzzing, your coffee is going cold, and the assistant is asking if you'd like it to track the deliveries. What do you do first? Here's what the rules actually say. In the US, if you report an unauthorized debit card charge within two business days, the most you can lose is $50. Wait longer, and it can rise to $500. Every hour you spend arguing with the assistant is costing you. Wait more than 60 days after your statement, and you could lose all of it. The bank's answer becomes, sorry, that one's on you, so you get one move. Option A, call your bank right now and report it. Option B, ask the store for a refund first, and only call the bank if they refuse. Comment A or B. Part two shows what happens next."
+}

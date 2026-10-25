@@ -14,3 +14,5 @@ Realistic you-decide video narrated by Korede over photoreal stills. A low-poly 
 Realistic format (top of funnel, no offer funnel): photoreal kie.ai nano-banana-2 stills with slow push-in, documentary HUD (stage, place, sourced stat, result tag), italic serif subtitles, calm narration. Modelled on simulif.world, binhle.co and stickitoutstories (research/ig-inspiration-2026-10-24.md).
 Sources: NHC watch and warning lead times (hurricane watch about 48 h, warning about 36 h before tropical-storm-force winds), nhc.noaa.gov glossary. Tampa and 3,000 orders are a hypothetical scenario, not a client. Part 2: what each choice costs (staff safety first, NHC: storm surge is the biggest threat to life; flooded ground-level stock).
 Rework 2026-10-24: 3D globe hook on Tampa (world3d.js).
+
+- v2 2026-10-25: richer beats (team size, client texts, shift lead), Sanjana's HeyGen instant clone at expressiveness 0.9; v1 kept as video-v1.mp4. Team size and texts are illustrations; NHC 48-hour watch fact unchanged.

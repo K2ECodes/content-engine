@@ -1,0 +1,705 @@
+{
+ "words": [
+  {
+   "w": "You",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "w": "run",
+   "start": 0.36,
+   "end": 0.52
+  },
+  {
+   "w": "a",
+   "start": 0.52,
+   "end": 0.62
+  },
+  {
+   "w": "3PL",
+   "start": 0.62,
+   "end": 1.14
+  },
+  {
+   "w": "warehouse",
+   "start": 1.14,
+   "end": 1.54
+  },
+  {
+   "w": "in",
+   "start": 1.54,
+   "end": 1.78
+  },
+  {
+   "w": "Tampa.",
+   "start": 1.78,
+   "end": 2.06
+  },
+  {
+   "w": "180",
+   "start": 2.54,
+   "end": 2.92
+  },
+  {
+   "w": "people,",
+   "start": 2.92,
+   "end": 3.48
+  },
+  {
+   "w": "2",
+   "start": 3.82,
+   "end": 4.04
+  },
+  {
+   "w": "docks,",
+   "start": 4.04,
+   "end": 4.48
+  },
+  {
+   "w": "and",
+   "start": 4.76,
+   "end": 4.88
+  },
+  {
+   "w": "peak",
+   "start": 4.88,
+   "end": 5.12
+  },
+  {
+   "w": "season",
+   "start": 5.12,
+   "end": 5.5
+  },
+  {
+   "w": "starts",
+   "start": 5.5,
+   "end": 5.74
+  },
+  {
+   "w": "next",
+   "start": 5.74,
+   "end": 6.04
+  },
+  {
+   "w": "week.",
+   "start": 6.04,
+   "end": 6.32
+  },
+  {
+   "w": "Then",
+   "start": 6.78,
+   "end": 6.9
+  },
+  {
+   "w": "your",
+   "start": 6.9,
+   "end": 7.02
+  },
+  {
+   "w": "phone",
+   "start": 7.02,
+   "end": 7.22
+  },
+  {
+   "w": "buzzes.",
+   "start": 7.22,
+   "end": 7.66
+  },
+  {
+   "w": "A",
+   "start": 8.02,
+   "end": 8.16
+  },
+  {
+   "w": "hurricane",
+   "start": 8.16,
+   "end": 8.42
+  },
+  {
+   "w": "watch",
+   "start": 8.42,
+   "end": 8.74
+  },
+  {
+   "w": "just",
+   "start": 8.74,
+   "end": 9.02
+  },
+  {
+   "w": "went",
+   "start": 9.02,
+   "end": 9.16
+  },
+  {
+   "w": "up",
+   "start": 9.16,
+   "end": 9.28
+  },
+  {
+   "w": "for",
+   "start": 9.28,
+   "end": 9.4
+  },
+  {
+   "w": "your",
+   "start": 9.4,
+   "end": 9.5
+  },
+  {
+   "w": "county.",
+   "start": 9.5,
+   "end": 9.8
+  },
+  {
+   "w": "Forecasters",
+   "start": 10.12,
+   "end": 10.64
+  },
+  {
+   "w": "issue",
+   "start": 10.64,
+   "end": 10.9
+  },
+  {
+   "w": "those",
+   "start": 10.9,
+   "end": 11.1
+  },
+  {
+   "w": "about",
+   "start": 11.1,
+   "end": 11.38
+  },
+  {
+   "w": "48",
+   "start": 11.38,
+   "end": 11.88
+  },
+  {
+   "w": "hours",
+   "start": 11.88,
+   "end": 12.2
+  },
+  {
+   "w": "before",
+   "start": 12.2,
+   "end": 12.52
+  },
+  {
+   "w": "tropical",
+   "start": 12.52,
+   "end": 12.94
+  },
+  {
+   "w": "storm",
+   "start": 12.94,
+   "end": 13.26
+  },
+  {
+   "w": "winds",
+   "start": 13.26,
+   "end": 13.52
+  },
+  {
+   "w": "arrive.",
+   "start": 13.52,
+   "end": 13.84
+  },
+  {
+   "w": "The",
+   "start": 14.32,
+   "end": 14.42
+  },
+  {
+   "w": "port",
+   "start": 14.42,
+   "end": 14.6
+  },
+  {
+   "w": "usually",
+   "start": 14.6,
+   "end": 14.92
+  },
+  {
+   "w": "closes",
+   "start": 14.92,
+   "end": 15.34
+  },
+  {
+   "w": "before",
+   "start": 15.34,
+   "end": 15.64
+  },
+  {
+   "w": "a",
+   "start": 15.64,
+   "end": 15.86
+  },
+  {
+   "w": "storm",
+   "start": 15.86,
+   "end": 15.98
+  },
+  {
+   "w": "like",
+   "start": 15.98,
+   "end": 16.18
+  },
+  {
+   "w": "this.",
+   "start": 16.18,
+   "end": 16.46
+  },
+  {
+   "w": "On",
+   "start": 16.92,
+   "end": 17.12
+  },
+  {
+   "w": "the",
+   "start": 17.12,
+   "end": 17.22
+  },
+  {
+   "w": "floor,",
+   "start": 17.22,
+   "end": 17.46
+  },
+  {
+   "w": "3,000",
+   "start": 17.92,
+   "end": 18.48
+  },
+  {
+   "w": "orders",
+   "start": 18.48,
+   "end": 18.76
+  },
+  {
+   "w": "are",
+   "start": 18.76,
+   "end": 18.96
+  },
+  {
+   "w": "waiting",
+   "start": 18.96,
+   "end": 19.12
+  },
+  {
+   "w": "to",
+   "start": 19.12,
+   "end": 19.34
+  },
+  {
+   "w": "ship.",
+   "start": 19.34,
+   "end": 19.56
+  },
+  {
+   "w": "Your",
+   "start": 19.92,
+   "end": 20.02
+  },
+  {
+   "w": "biggest",
+   "start": 20.02,
+   "end": 20.26
+  },
+  {
+   "w": "client",
+   "start": 20.26,
+   "end": 20.68
+  },
+  {
+   "w": "is",
+   "start": 20.68,
+   "end": 20.9
+  },
+  {
+   "w": "texting",
+   "start": 20.9,
+   "end": 21.24
+  },
+  {
+   "w": "about",
+   "start": 21.24,
+   "end": 21.48
+  },
+  {
+   "w": "Black",
+   "start": 21.48,
+   "end": 21.74
+  },
+  {
+   "w": "Friday",
+   "start": 21.74,
+   "end": 22.0
+  },
+  {
+   "w": "stock.",
+   "start": 22.0,
+   "end": 22.32
+  },
+  {
+   "w": "Your",
+   "start": 22.78,
+   "end": 22.9
+  },
+  {
+   "w": "shift",
+   "start": 22.9,
+   "end": 23.16
+  },
+  {
+   "w": "lead",
+   "start": 23.16,
+   "end": 23.38
+  },
+  {
+   "w": "wants",
+   "start": 23.38,
+   "end": 23.6
+  },
+  {
+   "w": "to",
+   "start": 23.6,
+   "end": 23.8
+  },
+  {
+   "w": "know",
+   "start": 23.8,
+   "end": 23.92
+  },
+  {
+   "w": "if",
+   "start": 23.92,
+   "end": 24.04
+  },
+  {
+   "w": "people",
+   "start": 24.04,
+   "end": 24.26
+  },
+  {
+   "w": "can",
+   "start": 24.26,
+   "end": 24.44
+  },
+  {
+   "w": "go",
+   "start": 24.44,
+   "end": 24.54
+  },
+  {
+   "w": "home",
+   "start": 24.54,
+   "end": 24.86
+  },
+  {
+   "w": "and",
+   "start": 24.86,
+   "end": 25.02
+  },
+  {
+   "w": "board",
+   "start": 25.02,
+   "end": 25.18
+  },
+  {
+   "w": "up",
+   "start": 25.18,
+   "end": 25.32
+  },
+  {
+   "w": "their",
+   "start": 25.32,
+   "end": 25.46
+  },
+  {
+   "w": "windows.",
+   "start": 25.46,
+   "end": 25.7
+  },
+  {
+   "w": "You",
+   "start": 26.2,
+   "end": 26.32
+  },
+  {
+   "w": "get",
+   "start": 26.32,
+   "end": 26.46
+  },
+  {
+   "w": "1",
+   "start": 26.46,
+   "end": 26.74
+  },
+  {
+   "w": "move.",
+   "start": 26.74,
+   "end": 27.02
+  },
+  {
+   "w": "Option",
+   "start": 27.44,
+   "end": 27.64
+  },
+  {
+   "w": "A.",
+   "start": 27.64,
+   "end": 27.96
+  },
+  {
+   "w": "Run",
+   "start": 28.3,
+   "end": 28.52
+  },
+  {
+   "w": "every",
+   "start": 28.52,
+   "end": 28.86
+  },
+  {
+   "w": "shift",
+   "start": 28.86,
+   "end": 29.2
+  },
+  {
+   "w": "and",
+   "start": 29.2,
+   "end": 29.44
+  },
+  {
+   "w": "ship",
+   "start": 29.44,
+   "end": 29.64
+  },
+  {
+   "w": "as",
+   "start": 29.64,
+   "end": 29.8
+  },
+  {
+   "w": "many",
+   "start": 29.8,
+   "end": 30.1
+  },
+  {
+   "w": "orders",
+   "start": 30.1,
+   "end": 30.36
+  },
+  {
+   "w": "as",
+   "start": 30.36,
+   "end": 30.58
+  },
+  {
+   "w": "you",
+   "start": 30.58,
+   "end": 30.68
+  },
+  {
+   "w": "can",
+   "start": 30.68,
+   "end": 30.9
+  },
+  {
+   "w": "before",
+   "start": 30.9,
+   "end": 31.16
+  },
+  {
+   "w": "the",
+   "start": 31.16,
+   "end": 31.34
+  },
+  {
+   "w": "storm",
+   "start": 31.34,
+   "end": 31.58
+  },
+  {
+   "w": "hits.",
+   "start": 31.58,
+   "end": 31.82
+  },
+  {
+   "w": "Option",
+   "start": 32.28,
+   "end": 32.58
+  },
+  {
+   "w": "B.",
+   "start": 32.58,
+   "end": 32.86
+  },
+  {
+   "w": "Stop",
+   "start": 33.18,
+   "end": 33.42
+  },
+  {
+   "w": "shipping",
+   "start": 33.42,
+   "end": 33.7
+  },
+  {
+   "w": "now,",
+   "start": 33.7,
+   "end": 34.04
+  },
+  {
+   "w": "move",
+   "start": 34.32,
+   "end": 34.46
+  },
+  {
+   "w": "stock",
+   "start": 34.46,
+   "end": 34.7
+  },
+  {
+   "w": "off",
+   "start": 34.7,
+   "end": 34.96
+  },
+  {
+   "w": "the",
+   "start": 34.96,
+   "end": 35.06
+  },
+  {
+   "w": "floor",
+   "start": 35.06,
+   "end": 35.32
+  },
+  {
+   "w": "and",
+   "start": 35.32,
+   "end": 35.48
+  },
+  {
+   "w": "up",
+   "start": 35.48,
+   "end": 35.64
+  },
+  {
+   "w": "the",
+   "start": 35.64,
+   "end": 35.76
+  },
+  {
+   "w": "racks,",
+   "start": 35.76,
+   "end": 36.06
+  },
+  {
+   "w": "and",
+   "start": 36.4,
+   "end": 36.48
+  },
+  {
+   "w": "send",
+   "start": 36.48,
+   "end": 36.68
+  },
+  {
+   "w": "your",
+   "start": 36.68,
+   "end": 36.84
+  },
+  {
+   "w": "people",
+   "start": 36.84,
+   "end": 37.04
+  },
+  {
+   "w": "home",
+   "start": 37.04,
+   "end": 37.28
+  },
+  {
+   "w": "to",
+   "start": 37.28,
+   "end": 37.42
+  },
+  {
+   "w": "prepare.",
+   "start": 37.42,
+   "end": 37.72
+  },
+  {
+   "w": "Comment",
+   "start": 38.08,
+   "end": 38.36
+  },
+  {
+   "w": "A",
+   "start": 38.36,
+   "end": 38.78
+  },
+  {
+   "w": "or",
+   "start": 38.78,
+   "end": 39.08
+  },
+  {
+   "w": "B.",
+   "start": 39.08,
+   "end": 39.34
+  },
+  {
+   "w": "Part",
+   "start": 39.52,
+   "end": 39.72
+  },
+  {
+   "w": "2",
+   "start": 39.72,
+   "end": 40.06
+  },
+  {
+   "w": "shows",
+   "start": 40.06,
+   "end": 40.34
+  },
+  {
+   "w": "what",
+   "start": 40.34,
+   "end": 40.6
+  },
+  {
+   "w": "the",
+   "start": 40.6,
+   "end": 40.7
+  },
+  {
+   "w": "storm",
+   "start": 40.7,
+   "end": 41.0
+  },
+  {
+   "w": "does",
+   "start": 41.0,
+   "end": 41.28
+  },
+  {
+   "w": "to",
+   "start": 41.28,
+   "end": 41.5
+  },
+  {
+   "w": "each",
+   "start": 41.5,
+   "end": 41.72
+  },
+  {
+   "w": "choice.",
+   "start": 41.72,
+   "end": 42.0
+  }
+ ],
+ "text": "You run a 3PL warehouse in Tampa. 180 people, two docks, and peak season starts next week. Then your phone buzzes. A hurricane watch just went up for your county. Forecasters issue those about 48 hours before tropical storm winds arrive. The port usually closes before a storm like this. On the floor, 3,000 orders are waiting to ship. Your biggest client is texting about Black Friday stock. Your shift lead wants to know if people can go home and board up their windows. You get one move. Option A. Run every shift and ship as many orders as you can before the storm hits. Option B. Stop shipping now, move stock off the floor and up the racks, and send your people home to prepare. Comment A or B. Part 2 shows what the storm does to each choice."
+}

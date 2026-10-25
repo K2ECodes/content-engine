@@ -1,8 +1,8 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
   "stop": false,
   "capStyle": "doc",
   "tail": 1.4,
@@ -52,7 +52,7 @@
     "type": "hud",
     "look": "cinema",
     "bg": "bg/orders.jpg",
-    "at": "have",
+    "at": "On",
     "stage": "3,000 orders",
     "result": "Waiting to ship",
     "resultAt": "waiting",
