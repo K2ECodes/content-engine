@@ -1,0 +1,219 @@
+{
+ "post": "content/_reposts/DYuu26hICVf",
+ "source": "video.mp4",
+ "duration": 12.119365,
+ "created": "2026-10-25T06:56:56.429Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/repost-DYuu26hICVf/v01.mp4",
+   "hook": null,
+   "caption": "It all starts with a laptop and an insane amount of delusion.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 3316,
+   "changes": [
+    "zoom 1.045 reframe 0.36/0.67",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.13s",
+    "audio x0.99"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/repost-DYuu26hICVf/v02.mp4",
+   "hook": null,
+   "caption": "A laptop, a why and a lot of delusion.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 2149,
+   "changes": [
+    "zoom 1.048 reframe 0.36/0.54",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.25s",
+    "audio x0.99"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/repost-DYuu26hICVf/v03.mp4",
+   "hook": null,
+   "caption": "Every chapter started with a laptop and delusion.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 2478,
+   "changes": [
+    "zoom 1.043 reframe 0.15/0.54",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.4s",
+    "audio x0.92"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/repost-DYuu26hICVf/v04.mp4",
+   "hook": null,
+   "caption": "Amazon driver to founder. Same laptop.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 1071,
+   "changes": [
+    "zoom 1.049 reframe 0.85/0.82",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.37s",
+    "audio x1.1"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/repost-DYuu26hICVf/v05.mp4",
+   "hook": null,
+   "caption": "The world humbles you. Then it hands it back.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 1075,
+   "changes": [
+    "zoom 1.041 reframe 0.89/0.80",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.14s",
+    "audio x0.99"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/repost-DYuu26hICVf/v06.mp4",
+   "hook": null,
+   "caption": "Delusion is a strategy.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 3351,
+   "changes": [
+    "zoom 1.041 reframe 0.92/0.61",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.3s",
+    "audio x1.04"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/repost-DYuu26hICVf/v07.mp4",
+   "hook": null,
+   "caption": "Ruptured Achilles to building my own firm.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 2107,
+   "changes": [
+    "zoom 1.050 reframe 0.75/0.58",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.11s",
+    "audio x1.07"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/repost-DYuu26hICVf/v08.mp4",
+   "hook": null,
+   "caption": "Keep believing while you're down.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 3395,
+   "changes": [
+    "zoom 1.040 reframe 0.25/0.78",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.15s",
+    "audio x0.9"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/repost-DYuu26hICVf/v09.mp4",
+   "hook": null,
+   "caption": "Laptop, a why, and zero backup plan.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 554,
+   "changes": [
+    "zoom 1.039 reframe 0.76/0.48",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.25s",
+    "audio x0.94"
+   ]
+  },
+  {
+   "id": "v10",
+   "file": "content/_trials/repost-DYuu26hICVf/v10.mp4",
+   "hook": null,
+   "caption": "Delusion got me here.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 3003,
+   "changes": [
+    "zoom 1.042 reframe 0.22/0.68",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.37s",
+    "audio x1.02"
+   ]
+  },
+  {
+   "id": "v11",
+   "file": "content/_trials/repost-DYuu26hICVf/v11.mp4",
+   "hook": null,
+   "caption": "Laptop open. Excuses closed.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 2161,
+   "changes": [
+    "zoom 1.041 reframe 0.91/0.31",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.3s",
+    "audio x0.89"
+   ]
+  },
+  {
+   "id": "v12",
+   "file": "content/_trials/repost-DYuu26hICVf/v12.mp4",
+   "hook": null,
+   "caption": "Started with nothing but belief.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 774,
+   "changes": [
+    "zoom 1.031 reframe 0.46/0.62",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.15s",
+    "audio x1"
+   ]
+  },
+  {
+   "id": "v13",
+   "file": "content/_trials/repost-DYuu26hICVf/v13.mp4",
+   "hook": null,
+   "caption": "Every chapter, same laptop.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 2177,
+   "changes": [
+    "zoom 1.034 reframe 0.83/0.60",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.31s",
+    "audio x0.91"
+   ]
+  },
+  {
+   "id": "v14",
+   "file": "content/_trials/repost-DYuu26hICVf/v14.mp4",
+   "hook": null,
+   "caption": "Humbled, then handed back.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 3844,
+   "changes": [
+    "zoom 1.046 reframe 0.49/0.62",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.15s",
+    "audio x0.93"
+   ]
+  },
+  {
+   "id": "v15",
+   "file": "content/_trials/repost-DYuu26hICVf/v15.mp4",
+   "hook": null,
+   "caption": "Believe while you're down.\n\n#mindset #founder #footballer #dontgiveup #explore #K2E",
+   "coverMs": 1463,
+   "changes": [
+    "zoom 1.045 reframe 0.13/0.23",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.36s",
+    "audio x0.9"
+   ]
+  }
+ ]
+}
