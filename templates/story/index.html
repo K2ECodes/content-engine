@@ -359,6 +359,35 @@
   .hud .opt { display: grid; grid-template-columns: 74px 1fr; gap: 20px; align-items: center; padding: 16px 22px 16px 16px; border-radius: 20px; background: rgba(10,14,12,.62); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border: 1.5px solid rgba(255,255,255,.3); font: 700 36px/1.15 'Inter'; letter-spacing: -.02em; }
   .hud .opt b { width: 74px; height: 74px; border-radius: 16px; display: grid; place-items: center; font: 800 44px/1 'Inter'; color: #121a14; background: #F2C14E; text-shadow: none; }
   .hud .opt.b b { background: #F5F0E8; }
+  /* what-if header block (Korede 2026-10-25, ref "No shower for 365 days"): premise label, big counter, stat line, tiny live metric on a translucent panel */
+  .wif.panel { left: 56px; width: auto; max-width: 880px; padding: 22px 30px 24px; border-radius: 18px; background: rgba(8,12,10,.38); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 10px 40px rgba(0,0,0,.25); }
+  .scene > .wif.hdrx { top: -60px; }
+  .stage .slb { margin-bottom: 8px; font: 700 20px/1 'Space Mono', monospace; letter-spacing: .16em; text-transform: uppercase; opacity: .6; }
+  .stage .wm { display: flex; align-items: center; gap: 12px; margin-top: 14px; font: 700 18px/1 'Space Mono', monospace; letter-spacing: .08em; text-transform: uppercase; opacity: .75; }
+  .stage .wm i { width: 12px; height: 12px; border-radius: 50%; background: #E5484D; box-shadow: 0 0 10px #E5484D; }
+  .stage .wm svg { width: 140px; height: 22px; overflow: visible; }
+  .stage .wm svg path { fill: none; stroke: #E5484D; stroke-width: 2.5; stroke-dasharray: 60 260; }
+  .hud.panel { left: 56px; width: auto; max-width: 880px; padding: 24px 30px 26px; border-radius: 18px; background: rgba(8,12,10,.38); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+  .hud .wl { margin-bottom: 4px; font: 700 22px/1 'Space Mono', monospace; letter-spacing: .16em; text-transform: uppercase; opacity: .85; }
+  .hud .hl { margin-top: 14px; max-width: 800px; font: 700 23px/1.25 'Space Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--hacc, #F2C14E); }
+  .hud .wm { display: flex; align-items: center; gap: 12px; margin-top: 12px; font: 700 19px/1 'Space Mono', monospace; letter-spacing: .1em; text-transform: uppercase; opacity: .82; }
+  .hud .wm i { width: 12px; height: 12px; border-radius: 50%; background: #E5484D; box-shadow: 0 0 10px #E5484D; }
+  .hud .wm svg { width: 160px; height: 24px; overflow: visible; }
+  .hud .wm svg path { fill: none; stroke: #E5484D; stroke-width: 2.5; stroke-dasharray: 60 260; }
+  .wif .wl { margin-bottom: 10px; font: 700 22px/1 'Space Mono', monospace; letter-spacing: .16em; text-transform: uppercase; opacity: .85; }
+  .wif .wm { display: flex; align-items: center; gap: 12px; margin-top: 12px; font: 700 19px/1 'Space Mono', monospace; letter-spacing: .1em; text-transform: uppercase; opacity: .82; }
+  .wif .wm i { width: 12px; height: 12px; border-radius: 50%; background: #E5484D; box-shadow: 0 0 10px #E5484D; }
+  .wif .wm svg { width: 160px; height: 24px; overflow: visible; }
+  .wif .wm svg path { fill: none; stroke: #E5484D; stroke-width: 2.5; stroke-dasharray: 60 260; }
+  /* rewind cold open: end state + premise title, then a VHS rewind to the start */
+  #rwt { position: absolute; left: 0; right: 0; top: 236px; z-index: 8; text-align: center; opacity: 0; pointer-events: none; }
+  #rwt .bd { position: absolute; left: 110px; right: 110px; top: -14px; bottom: -18px; border-radius: 40px; background: rgba(0,0,0,.26); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); -webkit-mask: radial-gradient(ellipse at center, #000 55%, transparent 100%); mask: radial-gradient(ellipse at center, #000 55%, transparent 100%); }
+  #rwt div.l { position: relative; font: 400 104px/1.04 'Instrument Serif', serif; letter-spacing: -.01em; color: #FBF7EE; text-shadow: 0 2px 18px rgba(0,0,0,.55); }
+  #rwx { position: absolute; inset: 0; z-index: 8; opacity: 0; pointer-events: none; overflow: hidden; }
+  #rwx .scan { position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgba(255,255,255,.07) 0 2px, rgba(0,0,0,.2) 2px 5px); }
+  #rwx .band { position: absolute; left: -60px; right: -60px; top: 0; height: 170px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.42) 38%, rgba(190,210,255,.18) 62%, transparent); filter: blur(3px); }
+  #rwx .band.b2 { height: 60px; opacity: .7; }
+  #rwx .ico { position: absolute; left: 76px; top: 250px; width: 96px; height: 60px; filter: drop-shadow(0 2px 8px rgba(0,0,0,.6)); }
 </style>
 </head>
 <body>
@@ -385,6 +414,12 @@ const BGS = { 'pixel-day': '../../assets/pixel/sky-day.png', 'pixel-night': '../
   loft: '../../assets/talking-head/backgrounds/loft-office.png', library: '../../assets/talking-head/backgrounds/library.png',
   studio: '../../assets/talking-head/backgrounds/studio-plants.png', 'city-dusk': '../../assets/talking-head/backgrounds/city-dusk.png' };
 
+const METRIC = (m) => m ? `<div class="wm"><i></i><span>${esc(m)}</span><svg viewBox="0 0 160 24"><path d="M0 12 H40 L48 4 L56 20 L64 12 H96 L104 2 L112 22 L120 12 H160"/></svg></div>` : '';
+function metricAnim(tl, el, s) {   // live metric: pulsing dot + travelling heartbeat
+  el.querySelectorAll('.wm').forEach((m) => { const d = Math.max(0.6, (s.out ?? s.end ?? s.t + 3) - s.t), n = Math.max(1, Math.round(d / 0.42)), h = Math.max(1, Math.round(d / 1.1));
+    tl.fromTo(m.querySelector('i'), { scale: 1, opacity: 1 }, { scale: 0.55, opacity: 0.5, duration: d / n, ease: 'sine.inOut', yoyo: true, repeat: n - 1, immediateRender: false }, s.t)
+      .fromTo(m.querySelector('path'), { strokeDashoffset: 320 }, { strokeDashoffset: 0, duration: d / h, ease: 'none', repeat: h - 1, immediateRender: false }, s.t); });
+}
 const BUILD = {
   list: (s) => `<div class="card"><div class="win-bar"><i></i><i></i><i></i><span>${esc(s.title)}</span>${s.badge ? `<b>${esc(s.badge)}</b>` : ''}</div><div class="rows">${s.rows.map((r) =>
     `<div class="r"><div class="dot">${esc((r.text || '?')[0])}</div><span>${esc(r.text)}</span>${r.val ? `<span class="val">${esc(r.val)}</span>` : ''}${r.chip ? `<span class="chip ${r.chipKind || 'ok'}">${esc(r.chip)}</span>` : ''}</div>`).join('')}</div></div>`,
@@ -396,9 +431,9 @@ const BUILD = {
   stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
   word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
   phys: (s) => `<div class="phys">${(s.callouts || []).map((c) => `<div class="pco" style="left:${c.x ?? 120}px;top:${c.y ?? 700}px"><div class="pbr" style="height:${c.h ?? 160}px"></div><div class="pct">${esc(c.text).replace(/ (ft|m|km|mph|km\/h|mi)$/, ' <small>$1</small>')}</div></div>`).join('')}</div>`,
-  wif: (s) => `<div class="wif">${s.when ? `<div class="wk">${esc(s.when)}</div>` : ''}${s.num ? `<div class="wn" data-n="${s.count ?? ''}">${esc(s.num)}${s.unit ? `<small>${esc(s.unit)}</small>` : ''}</div>` : ''}${s.cmp ? `<div class="wc">${esc(s.cmp)}</div>` : ''}${s.stat ? `<div class="ws">${esc(s.stat)}</div>` : ''}${s.rule ? `<div class="wr">${esc(s.rule)}</div>` : ''}</div>${s.tag ? `<div class="wiftag">${esc(s.tag)}</div>` : ''}`,
-  hud: (s) => `<div class="hud">${s.flagBig && FLAG[DATA_FLAG] ? `<div class="bigflag">${FLAG[DATA_FLAG]}</div>` : ''}${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.stage ? `<div class="stg">${DATA_FLAG && FLAG[DATA_FLAG] && s.pin !== false ? `<span class="flagpin">${FLAG[DATA_FLAG]}</span>` : ''}${esc(s.stage)}</div>` : ''}${s.place ? `<div class="plc">${esc(s.place)}</div>` : ''}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
-  stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
+  wif: (s) => `<div class="wif${s.panel ? ' panel' : ''}${s._hdr ? ' hdrx' : ''}">${s.label ? `<div class="wl">${esc(s.label)}</div>` : ''}${s.when ? `<div class="wk">${esc(s.when)}</div>` : ''}${s.num ? `<div class="wn" data-n="${s.count ?? ''}">${esc(s.num)}${s.unit ? `<small>${esc(s.unit)}</small>` : ''}</div>` : ''}${s.cmp ? `<div class="wc">${esc(s.cmp)}</div>` : ''}${s.stat ? `<div class="ws">${esc(s.stat)}</div>` : ''}${METRIC(s.metric)}${s.rule ? `<div class="wr">${esc(s.rule)}</div>` : ''}</div>${s.tag ? `<div class="wiftag">${esc(s.tag)}</div>` : ''}`,
+  hud: (s) => `<div class="hud${s.panel ? ' panel' : ''}">${s.label ? `<div class="wl">${esc(s.label)}</div>` : ''}${s.flagBig && FLAG[DATA_FLAG] ? `<div class="bigflag">${FLAG[DATA_FLAG]}</div>` : ''}${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.stage ? `<div class="stg">${DATA_FLAG && FLAG[DATA_FLAG] && s.pin !== false ? `<span class="flagpin">${FLAG[DATA_FLAG]}</span>` : ''}${esc(s.stage)}</div>` : ''}${s.place ? `<div class="plc">${esc(s.place)}</div>` : ''}${s.line ? `<div class="hl">${esc(s.line)}</div>` : ''}${METRIC(s.metric)}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
+  stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div>${s.label ? `<div class="slb">${esc(s.label)}</div>` : ''}<h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}${METRIC(s.metric)}</div></div></div>`,
   choice: (s) => `<div class="choice"><div class="qc glass">${s.level ? `<div class="lv">${esc(s.level)}</div>` : ''}<h3>${esc(s.q).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.fine ? `<div class="fine">${esc(s.fine)}</div>` : ''}${s.timer ? '<svg class="ring" viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="40"/><circle class="fg" cx="50" cy="50" r="40"/></svg>' : ''}</div><div class="opts">${['a', 'b'].map((k) => `<div class="opt ${k}"><b>${k.toUpperCase()}</b><span>${esc(s[k].text)}</span><div class="oi">${esc(s[k].emoji || '')}</div></div>`).join('')}</div><div class="vote">${esc(s.vote || 'COMMENT A OR B')}</div></div>`,
   person: (s) => `<div class="person" style="--pc:${s.b?.bg || s.color || '#FFC93C'}"><div class="ph"><img src="${s.photoUrl}"></div><div class="nm">${esc(s.name)}</div><div class="rl">${esc(s.role)}</div>${s.quote ? `<div class="q">&ldquo;${esc(s.quote)}&rdquo;</div>` : ''}</div>`,
   brand: (s) => `<div class="brandp" style="--bbg:${s.b.bg};--bfg:${s.b.fg};--btile:${s.b.tile}"><div class="tile"><img src="${s.b.logoUrl}"></div><h2>${esc(s.title || s.b.name)}</h2>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div>`,
@@ -512,17 +547,19 @@ const ANIMATE = {
     window.sfx.push({ t: s.t, kind: s.sfx || 'whoosh', vol: 0.08 });
   },
   wif: (tl, el, s) => {
-    tl.fromTo(el.querySelectorAll('.wk,.wn,.wc,.ws,.wr'), { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, stagger: 0.08, ease: 'power3.out', immediateRender: false }, s.t + 0.08);
+    metricAnim(tl, el, s);
+    tl.fromTo(el.querySelectorAll('.wl,.wk,.wn,.wc,.ws,.wm,.wr'), { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, stagger: 0.08, ease: 'power3.out', immediateRender: false }, s.t + 0.08);
     const wn = el.querySelector('.wn');
     if (wn && wn.dataset.n !== '') { const n = Number(wn.dataset.n), node = wn.firstChild, txt = node.textContent, from = Number(s.countFrom ?? 0), o = { v: from };
       const fmt = (v) => txt.replace(/[\d,.]+/, (n % 1 ? v.toFixed(1) : Math.round(v).toLocaleString('en-US')));
       tl.fromTo(o, { v: from }, { v: n, duration: 0.9, ease: 'power2.out', immediateRender: false, onUpdate: () => { node.textContent = fmt(o.v); } }, s.t + 0.2); window.sfx.push({ t: s.t + 0.2, kind: 'roll', vol: 0.05 }); }
     const r = el.querySelector('.wr'); if (r) window.sfx.push({ t: s.t + 0.5, kind: 'tick', vol: 0.06 });
     const tg = el.querySelector('.wiftag'); if (tg) tl.fromTo(tg, { opacity: 0 }, { opacity: 0.9, duration: 0.6, immediateRender: false }, s.t + 0.8);
-    window.sfx.push({ t: s.t, kind: s.sfx || 'whoosh', vol: 0.08 });
+    if (!s._hdr) window.sfx.push({ t: s.t, kind: s.sfx || 'whoosh', vol: 0.08 });
   },
   hud: (tl, el, s) => {
-    const parts = el.querySelectorAll('.dots,.plc,.stg,.sl,.sv,.src');
+    const parts = el.querySelectorAll('.wl,.dots,.plc,.stg,.hl,.wm,.sl,.sv,.src');
+    metricAnim(tl, el, s);
     tl.fromTo(parts, { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, stagger: 0.07, ease: 'power3.out', immediateRender: false }, s.t + 0.1);
     const sv = el.querySelector('.sv');
     if (sv && sv.dataset.n !== '') { const n = Number(sv.dataset.n), txt = sv.textContent, o = { v: 0 }, fmt = (v) => txt.replace(/[\d,.]+/, Math.round(v).toLocaleString('en-US'));
@@ -535,6 +572,7 @@ const ANIMATE = {
     window.sfx.push({ t: s.t, kind: 'whoosh', vol: 0.07 });
   },
   stage: (tl, el, s) => {
+    metricAnim(tl, el, s);
     tl.fromTo(el.querySelector('.sc'), { scale: 0.72, y: 90, opacity: 0 }, { scale: 1, y: 0, opacity: 1, duration: 0.42, ease: 'back.out(1.7)', immediateRender: false }, s.t)
       .fromTo(el.querySelector('.when'), { scale: 2.4, rotation: -8, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.2, ease: 'power4.in', immediateRender: false }, s.t + 0.22)
       .fromTo(el.querySelector('.ic'), { scale: 0.2, rotation: -25 }, { scale: 1, rotation: 0, duration: 0.5, ease: 'elastic.out(1, 0.5)', immediateRender: false }, s.t + 0.3);
@@ -602,6 +640,7 @@ window.renderPost = (data) => {
   window.duration = data.duration;
   window.sfx = [];
   window.smoothWin = [];
+  window._rw = null;
   if (data.coldOpen) data.hook = null;   // the cold open replaces the old hook styles
   const keys = new Set((data.keys || []).map((k) => k.toLowerCase()));
   const strikes = new Set((data.strikes || []).map((k) => k.toLowerCase()));
@@ -618,7 +657,7 @@ window.renderPost = (data) => {
     ${window.W3D ? window.W3D.html(data) : ''}
     ${data.scenes.map((s, i) => (data.look === 'pixel' || s.px) ? `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>` : '').join('')}
     ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;" data-flip="${k.flip ? 1 : ''}">`).join('')}</div>` : '').join('')}
-    <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](s)}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
+    <div class="scenes" id="scs">${data.scenes.map((s, i) => `<div class="scene ${s.world}" id="s${i}">${BUILD[s.type](['wif', 'hud', 'stage'].includes(s.type) && data.hdr ? { ...data.hdr, ...s } : s)}${s.hdr && s.type !== 'wif' ? BUILD.wif({ ...(data.hdr || {}), ...s.hdr, _hdr: true }) : ''}${s.stamp ? `<div class="stamp ${s.stamp.kind || 'ok'}" style="left:${s.stamp.x ?? 520}px;top:${s.stamp.y ?? 620}px">${esc(s.stamp.text)}</div>` : ''}</div>`).join('')}</div>
     ${data.rail ? `<div class="rail" id="rail" style="--ra:${data.rail.accent || '#F26B1D'}"><div class="lane glass"><div class="track" id="rtrack">${data.scenes.filter((s) => s.type === 'stage').map((s, k) => `<div class="it" id="ri${k}"><i></i>${esc(s.when)}</div>`).join('')}</div></div>${data.rail.meter ? `<div class="meter"><span>${esc(data.rail.meter)}</span><div class="bar"><div class="fill" id="rfill"></div></div><span id="rnum">0/100</span></div>` : ''}</div>` : ''}
     <div class="caps${data.capStyle === 'doc' ? ' doc' : data.capStyle === 'wif' ? ' wif' : data.capStyle === 'phys' ? ' phys' : ''}">${lines.map((ln, li) => `<div class="line" id="l${li}">${ln.map((w) => `<span class="w${keys.has(clean(w.w)) ? ' box' : ''}${strikes.has(clean(w.w)) ? ' strike' : ''}" id="w${w.i}">${esc(w.w)}</span>`).join(' ')}</div>`).join('')}</div>
     ${(data.stickers || []).map((k, i) => `<img class="sticker" id="k${i}" src="${esc(k.srcUrl)}" style="left:${k.x ?? 640}px;top:${Math.min(1500 - (k.h ?? 520), k.y ?? 1180)}px;height:${k.h ?? 520}px">`).join('')}
@@ -637,6 +676,7 @@ window.renderPost = (data) => {
     </div>` : ''}
     ${data.face ? (data.faceCuts || []).map((c, i) => c.label ? `<div class="flabel" id="flb${i}">${esc(c.label)}</div>` : '').join('') : ''}
     ${data.coldOpen ? window.ColdOpen.html(data) : ''}
+    ${data.rewind ? `<div id="rwx"><div class="scan"></div><div class="band"></div><div class="band b2"></div><svg class="ico" viewBox="0 0 96 60"><path d="M46 4 L4 30 L46 56Z M92 4 L50 30 L92 56Z" fill="#fff"/></svg></div><div id="rwt"><div class="bd"></div>${(data.rewind.title || []).map((l) => `<div class="l">${esc(l)}</div>`).join('')}</div>` : ''}
     ${data.safeGuides ? '<div class="safeg"><i style="left:0;top:0;width:1080px;height:230px"></i><i style="left:0;top:1500px;width:1080px;height:420px"></i><i style="left:940px;top:230px;width:140px;height:1270px"></i><i style="left:0;top:230px;width:60px;height:1270px"></i></div>' : ''}
     <div id="flash" style="position:absolute;inset:0;background:#fff;opacity:0;z-index:9;pointer-events:none"></div>
     <div class="cursor" id="cur">${CURSOR}</div><div class="ripple" id="rip"></div>
@@ -692,6 +732,7 @@ window.renderPost = (data) => {
     const vb = s.b?.bg || s.lb?.bg || s.vb;
     if (vb) tl.set(document.getElementById('vibe'), { '--vb': vb }, s.t);
     ANIMATE[s.type](tl, el, s);
+    if (s.hdr && s.type !== 'wif') ANIMATE.wif(tl, el, { ...(data.hdr || {}), ...s.hdr, t: s.t, end: s.end, out: s.out, _hdr: true });
     if (s.stamp) {
       const st = el.querySelector('.stamp');
       tl.fromTo(st, { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.12, ease: 'power4.in' }, s.stamp.t)
@@ -861,8 +902,48 @@ window.renderPost = (data) => {
       }
     });
   }
+  if (data.rewind) {   // rewind cold open (Korede 2026-10-25): open on the end state under the premise title, then VHS-rewind back to the start
+    const R = data.rewind, sc = data.scenes, U = R.untilT ?? sc[1]?.t ?? 2.5;
+    const RD = Math.min(R.dur ?? 1.1, U * 0.5), H = U - RD;
+    let E = R.scene ?? -1;
+    if (E < 0) for (let i = sc.length - 1; i >= 0; i--) if (sc[i].type !== 'cta' && sc[i].bgUrl) { E = i; break; }
+    if (E < 0) E = sc.length - 1;
+    const L = Math.max(0, sc.findIndex((s) => s.t <= U + 0.01 && s.end > U + 0.01));
+    const vis = (i, on, t) => { tl.set('#s' + i, { opacity: on ? 1 : 0 }, t); ['sb', 'px', 'sp'].forEach((k) => { const x = document.getElementById(k + i); if (x) tl.set(x, { opacity: on ? 1 : 0 }, t); }); };
+    const pw = (i, a, b, ss, rate) => { const v = document.querySelector('#sb' + i + ' video'); if (!v) return; const w = JSON.parse(v.dataset.pw || '[]'); w.push([a, b, ss, rate]); v.dataset.pw = JSON.stringify(w); };   // extra play windows for render.mjs
+    const ssOf = (i) => Number(document.querySelector('#sb' + i + ' video')?.dataset.ss || 0);
+    sc.forEach((s, i) => { if (s.t < U - 0.01) vis(i, false, 0); });
+    vis(E, true, 0);
+    const eSS = ssOf(E) + Math.max(0, (sc[E].end - sc[E].t) - H - 0.4);   // end state: the last seconds of the final shot
+    pw(E, 0, H, eSS, 1);
+    const eimg = document.querySelector('#sb' + E + ' img'); if (eimg) tl.fromTo(eimg, { scale: 1.08 }, { scale: 1.14, duration: Math.max(0.5, H), ease: 'none', immediateRender: false }, 0);
+    const TH = R.titleHold ?? 0.7, hdrs = document.querySelectorAll('.scene .wif, .scene .hud, .scene .stage');   // headers sit under the title until it fades, then slide up
+    if (hdrs.length) tl.set(hdrs, { y: R.push ?? 230 }, 0).to(hdrs, { y: 0, duration: 0.4, ease: 'power2.inOut' }, U + TH + 0.35);
+    const fl = []; for (let i = E - 1; i > L; i--) fl.push(i);
+    const pick = fl.length > 8 ? Array.from({ length: 8 }, (_, k) => fl[Math.round((k * (fl.length - 1)) / 7)]) : fl, step = RD / (pick.length + 1);
+    pw(E, H, H + step, eSS + H, -3);
+    let prev = E;
+    pick.forEach((i, k) => { const t = H + step * (k + 1); vis(prev, false, t); vis(i, true, t); pw(i, t, t + step, ssOf(i) + (sc[i].end - sc[i].t) * 0.6, -3); prev = i; });
+    vis(prev, false, U); vis(L, true, U);
+    // VHS look: scanlines, tracking bands, jitter, a blinking rewind icon, then a hard stop
+    tl.set('#rwx', { opacity: 1 }, H).set('#rwx', { opacity: 0 }, U);
+    tl.fromTo('#rwx .band', { y: -200 }, { y: 1920, duration: RD / 2, ease: 'none', repeat: 1, immediateRender: false }, H)
+      .fromTo('#rwx .band.b2', { y: 1900 }, { y: -100, duration: RD / 3, ease: 'none', repeat: 2, immediateRender: false }, H);
+    for (let k = 0; k * 0.05 < RD; k++) tl.set('#cv', { x: (((k * 37) % 7) - 3) * 5, skewX: (((k * 13) % 5) - 2) * 0.7 }, H + k * 0.05);
+    for (let k = 0; k * 0.2 < RD; k++) tl.set('#rwx .ico', { opacity: k % 2 ? 0.25 : 1 }, H + k * 0.2);
+    tl.set('#cv', { x: 0, skewX: 0, scale: 1.04, filter: 'contrast(1.2) saturate(1.4) brightness(1.06) blur(0.7px)' }, H).set('#cv', { x: 0, skewX: 0, scale: 1, filter: 'none' }, U);
+    tl.fromTo('#flash', { opacity: 0.55 }, { opacity: 0, duration: 0.2, immediateRender: false }, U);
+    tl.fromTo('#rwt', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out', immediateRender: false }, 0.12).to('#rwt', { opacity: 0, duration: 0.5 }, U + TH);
+    tl.set('#rwt', { opacity: 0 }, 0);
+    tl.set('.caps', { opacity: 0 }, 0).set('.caps', { opacity: 1 }, U + TH + 0.4);   // captions return once the headers are back up
+    window.smoothWin.push([0, U + 0.4]);
+    window._rw = { U, live3d: !!sc[L].w3d, keep3d: !sc[E].bgUrl };
+    window.sfx = window.sfx.filter((c) => c.t >= U - 0.05);
+    window.sfx.push({ t: 0.05, kind: 'whoosh', vol: 0.08 }, { t: H, kind: 'rewind', vol: 0.2 }, { t: U, kind: 'thud', vol: 0.1 });
+  }
   if (data.introSfx !== false && window.IntroSfx) window.IntroSfx.apply(tl, data);   // intro sound design (introsfx.js)
   if (window.W3D) window.W3D.build(tl, data);   // low-poly 3D layer behind any scene with w3d (world3d.js)
+  if (window._rw && !window._rw.keep3d && document.getElementById('w3dwrap')) tl.set('#w3dwrap', { opacity: 0 }, 0).set('#w3dwrap', { opacity: 0 }, 0.02).set('#w3dwrap', { opacity: window._rw.live3d ? 1 : 0 }, window._rw.U);   // the rewind intro shows the end-state still, not the 3D layer
   tl.set({}, {}, data.duration);
   window.faceVideo = data.face ? document.getElementById('fv') : null;
   window.faceVideos = data.face ? [...document.querySelectorAll('#face video')] : [];

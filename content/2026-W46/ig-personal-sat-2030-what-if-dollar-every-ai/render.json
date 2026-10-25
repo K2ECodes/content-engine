@@ -23,9 +23,9 @@
     "bg": "bg/b00.png",
     "num": "$0",
     "cmp": "Broke, as usual",
-    "stat": "Times heard today: 0",
     "rule": "+$1 EVERY \"AI\"",
-    "when": "Day 0"
+    "when": "Day 0",
+    "metric": "Times heard today: 0"
    },
    {
     "world": "dark",
@@ -34,12 +34,12 @@
     "bg": "bg/b01.png",
     "num": "$14",
     "cmp": "A cheap lunch",
-    "stat": "Per hour: $3",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Day",
     "tr": "zoom",
     "count": 14,
-    "when": "Day 1"
+    "when": "Day 1",
+    "metric": "Per hour: $3"
    },
    {
     "world": "dark",
@@ -48,12 +48,12 @@
     "bg": "bg/b02.png",
     "num": "$1,340",
     "cmp": "A new iPhone",
-    "stat": "Free pizza eaten: 4 slices",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Day#2",
     "tr": "fade",
     "count": 1340,
-    "when": "Day 2"
+    "when": "Day 2",
+    "metric": "Free pizza eaten: 4 slices"
    },
    {
     "world": "dark",
@@ -62,12 +62,12 @@
     "bg": "bg/b03.png",
     "num": "$9,800",
     "cmp": "A used car",
-    "stat": "Friends asking for 20%: 6",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Week",
     "tr": "up",
     "count": 9800,
-    "when": "Week 1"
+    "when": "Week 1",
+    "metric": "Friends asking for 20%: 6"
    },
    {
     "world": "dark",
@@ -76,12 +76,12 @@
     "bg": "bg/b04.png",
     "num": "$61,000",
     "cmp": "A Tesla Model 3",
-    "stat": "Calls from the bank: 9",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Week#2",
     "tr": "zoom",
     "count": 61000,
-    "when": "Week 3"
+    "when": "Week 3",
+    "metric": "Calls from the bank: 9"
    },
    {
     "world": "dark",
@@ -90,12 +90,12 @@
     "bg": "bg/b05.png",
     "num": "$480,000",
     "cmp": "A house in the suburbs",
-    "stat": "Earnings calls listened to: 212",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Month",
     "tr": "fade",
     "count": 480000,
-    "when": "Month 2"
+    "when": "Month 2",
+    "metric": "Earnings calls listened to: 212"
    },
    {
     "world": "dark",
@@ -104,12 +104,12 @@
     "bg": "bg/b06.png",
     "num": "$3.2M",
     "cmp": "A Premier League salary",
-    "stat": "Tax officers on your case: 14",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Month#2",
     "tr": "zoom",
     "count": 3.2,
-    "when": "Month 6"
+    "when": "Month 6",
+    "metric": "Tax officers on your case: 14"
    },
    {
     "world": "dark",
@@ -118,12 +118,12 @@
     "bg": "bg/b07.png",
     "num": "$41M",
     "cmp": "A private jet",
-    "stat": "Times 'machine learning' said: 3B",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Year",
     "tr": "fade",
     "count": 41,
-    "when": "Year 1"
+    "when": "Year 1",
+    "metric": "Times 'machine learning' said: 3B"
    },
    {
     "world": "dark",
@@ -132,12 +132,12 @@
     "bg": "bg/b08.png",
     "num": "$900M",
     "cmp": "13 rocket launches",
-    "stat": "Countries where you're banned: 3",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Year#2",
     "tr": "zoom",
     "count": 900,
-    "when": "Year 3"
+    "when": "Year 3",
+    "metric": "Countries where you're banned: 3"
    },
    {
     "world": "dark",
@@ -146,15 +146,25 @@
     "bg": "bg/b09.png",
     "num": "$14B",
     "cmp": "More than some countries",
-    "stat": "Times asked to explain it: 1,000+",
     "rule": "+$1 EVERY \"AI\"",
     "at": "Year#3",
     "tr": "fade",
     "count": 14,
     "tag": "K2E",
     "sfx": "thud",
-    "when": "Year 10"
+    "when": "Year 10",
+    "metric": "Times asked to explain it: 1,000+"
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true
+  },
+  "rewind": {
+   "title": [
+    "$1 every time",
+    "someone says AI"
+   ],
+   "until": "Out"
+  }
  }
 }

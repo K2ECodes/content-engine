@@ -39,7 +39,10 @@
      ],
      "spin": 0,
      "labels": false
-    }
+    },
+    "line": "NOT ON PAPER. IN THE BLOOD.",
+    "metric": "DNA TESTS PENDING: 8.2B",
+    "label": ""
    },
    {
     "world": "dark",
@@ -69,7 +72,9 @@
      ],
      "spin": 14,
      "labels": false
-    }
+    },
+    "line": "YESTERDAY: 237M",
+    "metric": "TESTS SAYING NIGERIA: 100%"
    },
    {
     "world": "dark",
@@ -84,7 +89,9 @@
      8
     ],
     "result": "Hate forums: quiet",
-    "resultAt": "forums"
+    "resultAt": "forums",
+    "line": "SAME VOICE NOTE, 40 PEOPLE",
+    "metric": "VOICE NOTES FORWARDED: 40"
    },
    {
     "world": "dark",
@@ -99,7 +106,9 @@
      8
     ],
     "result": "Not a doctor yet?",
-    "resultAt": "doctor"
+    "resultAt": "doctor",
+    "line": "A 9-YEAR-OLD GETS THE SPEECH OVER A B+",
+    "metric": "DOCTORS IN THE FAMILY: 0"
    },
    {
     "world": "dark",
@@ -119,7 +128,9 @@
      "source": "Constitution of Nigeria, s. 25"
     },
     "result": "Denied",
-    "resultAt": "count."
+    "resultAt": "count.",
+    "line": "10% DOESN'T COUNT",
+    "metric": "QUEUE: AROUND THE BLOCK"
    },
    {
     "world": "dark",
@@ -134,7 +145,9 @@
      8
     ],
     "result": "Nigeria wins",
-    "resultAt": "wins."
+    "resultAt": "wins.",
+    "line": "4,000 PEOPLE. 1 WINNER.",
+    "metric": "GHANA STILL DISAGREES: YES"
    },
    {
     "world": "dark",
@@ -153,7 +166,9 @@
      "value": "1B+",
      "count": 1,
      "source": "Spotify Loud & Clear"
-    }
+    },
+    "line": "YOUR GRANDMOTHER KNOWS THE DANCE",
+    "metric": "SONGS ON REPEAT: 1"
    },
    {
     "world": "dark",
@@ -174,7 +189,9 @@
      "source": "World Bank / CBN"
     },
     "result": "Auntie in Lagos",
-    "resultAt": "aunty"
+    "resultAt": "aunty",
+    "line": "EVERYONE HAS AN AUNTY IN LAGOS",
+    "metric": "REQUESTS TO SEND SOMETHING SMALL: 3"
    },
    {
     "world": "dark",
@@ -189,7 +206,9 @@
      8
     ],
     "result": "Racism: gone",
-    "resultAt": "survive"
+    "resultAt": "survive",
+    "line": "JOLLOF EVERY SUNDAY",
+    "metric": "FAMILY MEMBERS: 8.2B"
    },
    {
     "world": "dark",
@@ -396,6 +415,18 @@
     "pin": "#3DDC84",
     "atmo": "#9fffc9"
    }
+  },
+  "hdr": {
+   "panel": true,
+   "label": "+10% NIGERIAN"
+  },
+  "rewind": {
+   "title": [
+    "Everyone wakes up",
+    "10% Nigerian"
+   ],
+   "until": "Not",
+   "scene": 8
   }
  }
 }

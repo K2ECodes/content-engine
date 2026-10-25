@@ -30,7 +30,10 @@
       7
      ],
      "spin": 12
-    }
+    },
+    "line": "NOT SLOWED DOWN. STOPPED.",
+    "metric": "SHIPS MOVING: 0",
+    "label": ""
    },
    {
     "world": "dark",
@@ -54,7 +57,9 @@
       7.6
      ],
      "spin": 8
-    }
+    },
+    "line": "FOR 30 DAYS",
+    "metric": "CONTAINERS MOVED: 0"
    },
    {
     "world": "dark",
@@ -79,7 +84,9 @@
      ],
      "shipsMove": false,
      "spin": 3
-    }
+    },
+    "line": "ROTTERDAM, SHANGHAI, LOS ANGELES",
+    "metric": "INSURER PHONE CALLS: RISING"
    },
    {
     "world": "dark",
@@ -103,7 +110,9 @@
      ],
      "shipsMove": false,
      "spin": 0
-    }
+    },
+    "line": "1 SHIP. THE EVER GIVEN.",
+    "metric": "SHIPS WAITING: 369"
    },
    {
     "world": "dark",
@@ -118,7 +127,9 @@
     "stage": "Week 1",
     "result": "Out of parts",
     "resultAt": "parts.",
-    "place": "Factories"
+    "place": "Factories",
+    "line": "1 MISSING CHIP STOPS A CAR LINE",
+    "metric": "LINES RUNNING: 0"
    },
    {
     "world": "dark",
@@ -133,7 +144,9 @@
     "stage": "Week 2",
     "result": "Nothing to pick up",
     "resultAt": "pick",
-    "place": "Ports and trucks"
+    "place": "Ports and trucks",
+    "line": "THOUSANDS OF TRUCKS, NOTHING TO PICK UP",
+    "metric": "PICKUPS TODAY: 0"
    },
    {
     "world": "dark",
@@ -148,7 +161,9 @@
     "stage": "Month 1",
     "result": "Prices climb",
     "resultAt": "prices",
-    "place": "Store shelves"
+    "place": "Store shelves",
+    "line": "MOST BRANDS HAVE FEWER WEEKS THAN THEY THOUGHT",
+    "metric": "WEEKS OF STOCK LEFT: ?"
    },
    {
     "world": "dark",
@@ -311,6 +326,18 @@
      "size": 0.8
     }
    ]
+  },
+  "hdr": {
+   "panel": true,
+   "label": "EVERY SHIP STOPS"
+  },
+  "rewind": {
+   "title": [
+    "Every ship stops",
+    "for 30 days"
+   ],
+   "until": "Not",
+   "scene": 6
   }
  }
 }

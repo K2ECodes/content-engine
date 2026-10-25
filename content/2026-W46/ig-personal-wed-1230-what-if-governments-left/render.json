@@ -34,7 +34,10 @@
       17,
       11
      ]
-    }
+    },
+    "label": "",
+    "line": "No presidents. No parliaments. No tax office.",
+    "metric": "Laws passed today: 0"
    },
    {
     "at": "Day",
@@ -44,7 +47,8 @@
     "title": "Group chats go *wild*",
     "sub": "Somebody's uncle declares himself mayor.",
     "meter": 6,
-    "emoji": "💬"
+    "emoji": "💬",
+    "metric": "Self-declared mayors: 1"
    },
    {
     "at": "Day#2",
@@ -68,7 +72,8 @@
       5.5,
       4.2
      ]
-    }
+    },
+    "metric": "Traffic lights working: all"
    },
    {
     "at": "Day#3",
@@ -79,7 +84,8 @@
     "sub": "One already has a treasurer.",
     "meter": 28,
     "emoji": "🏘️",
-    "px": "day"
+    "px": "day",
+    "metric": "Voice notes allowed: 0"
    },
    {
     "at": "Week",
@@ -89,7 +95,8 @@
     "title": "Trash *piles up*",
     "sub": "Every city finds out who kept things running.",
     "meter": 36,
-    "emoji": "🗑️"
+    "emoji": "🗑️",
+    "metric": "Bins collected: 0"
    },
    {
     "at": "Month",
@@ -100,7 +107,8 @@
     "sub": "The ones on 1 person's memory stop.",
     "meter": 62,
     "emoji": "💼",
-    "accent": "#E8A80C"
+    "accent": "#E8A80C",
+    "metric": "Payrolls missed: 0"
    },
    {
     "at": "Year",
@@ -110,7 +118,8 @@
     "title": "Group chats *with rules*",
     "sub": "And an approval step.",
     "meter": 86,
-    "emoji": "📜"
+    "emoji": "📜",
+    "metric": "Titles that mattered: 0"
    },
    {
     "at": "beat",
@@ -135,6 +144,18 @@
      "#e38b5b"
     ]
    }
+  },
+  "hdr": {
+   "panel": true,
+   "label": "NO GOVERNMENT"
+  },
+  "rewind": {
+   "title": [
+    "Every government",
+    "leaves tomorrow"
+   ],
+   "until": "No",
+   "scene": 6
   }
  }
 }

@@ -237,6 +237,7 @@ const SFX = {
   blast: 'anoisesrc=d=0.12:c=white:a=0.9,highpass=f=600,lowpass=f=6000,afade=t=out:st=0.02:d=0.1',
   shutter: 'anoisesrc=d=0.14:c=white:a=0.9,highpass=f=1800,afade=t=out:st=0.03:d=0.11,aecho=0.8:0.5:40:0.35',
   pop: 'sine=f=520:d=0.09,asetrate=48000*1.0,volume=1.2,afade=t=out:st=0.02:d=0.07,vibrato=f=18:d=0.4',
+  rewind: "aevalsrc='0.22*sin(2*PI*(1500+1100*sin(2*PI*9*t))*t)*(0.55+0.45*sin(2*PI*27*t))+0.1*(random(0)*2-1)':s=48000:d=1.1,highpass=f=250,lowpass=f=6000,afade=t=in:d=0.04,afade=t=out:st=0.95:d=0.15",   // VHS tape rewind (story rewind intro)
   whoosh: 'anoisesrc=d=0.35:c=pink:a=0.6,highpass=f=400,lowpass=f=3000,afade=t=in:d=0.15,afade=t=out:st=0.15:d=0.2',
   // cold-open character cues (templates/story/coldopen.js)
   snore: 'anoisesrc=d=1.0:c=brown:a=0.7,lowpass=f=420,tremolo=f=4:d=0.8,afade=t=in:d=0.35,afade=t=out:st=0.55:d=0.45',
@@ -464,6 +465,7 @@ function resolveStory(dir, spec) {
   d.scenes.forEach((sc) => { if (sc.brand) sc.b = brand(sc.brand); if (sc.type === 'vs') { sc.lb = brand(sc.left); sc.rb = brand(sc.right); } });
   d.bgLogos = (d.bgLogos || []).map((id) => brand(id));
   d.scenes.forEach((sc) => { (sc.nodes || []).forEach((n) => { if (n.brand) n.b = brand(n.brand); }); });
+  if (d.rewind && d.rewind.until !== undefined) d.rewind.untilT = T(d.rewind.until, 'rewind until', 0.12);   // rewind cold open lands here (default: scene 1)
   if (d.coldOpen) {
     // Cold open: 1 visual gag acting out the hook line. Anchors that no longer resolve (after a re-voice) are dropped with a warning, never fatal.
     const C = d.coldOpen;
@@ -533,8 +535,9 @@ async function renderStory(browser, spec, dir, fps) {
       }
       for (const v of window.clipVideos || []) {   // screen-recording scenes: play from data-ss while the scene is up
         const t0 = Number(v.dataset.t0), t1 = Number(v.dataset.t1);
-        if (!(t >= t0 - 0.1 && t <= t1 + 0.1)) continue;
-        const target = Math.max(0, Math.min(Number(v.dataset.ss || 0) + (t - t0), (v.duration || 1) - 0.04));
+        const pw = JSON.parse(v.dataset.pw || '[]').find(([a, b]) => t >= a && t < b);   // extra windows (rewind intro): [start, end, ss, rate], rate < 0 plays backwards
+        if (!pw && !(t >= t0 - 0.1 && t <= t1 + 0.1)) continue;
+        const target = Math.max(0, Math.min(pw ? pw[2] + (t - pw[0]) * pw[3] : Number(v.dataset.ss || 0) + (t - t0), (v.duration || 1) - 0.04));
         if (Math.abs(v.currentTime - target) > 0.001) await new Promise((r) => { v.addEventListener('seeked', r, { once: true }); v.currentTime = target; });
       }
     }, t);

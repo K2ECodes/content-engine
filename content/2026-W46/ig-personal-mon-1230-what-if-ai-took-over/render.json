@@ -32,7 +32,10 @@
       7.2
      ],
      "spin": 10
-    }
+    },
+    "label": "",
+    "line": "No robots. Just software.",
+    "metric": "Agents running: 0"
    },
    {
     "at": "Here's",
@@ -60,7 +63,8 @@
     "title": "Your inbox is *empty*",
     "sub": "Every email answered overnight. Even the landlord.",
     "meter": 8,
-    "emoji": "📭"
+    "emoji": "📭",
+    "metric": "Unread emails: 0"
    },
    {
     "at": "Day#2",
@@ -70,7 +74,8 @@
     "title": "Meetings get *1 line*",
     "sub": "Half of them get cancelled.",
     "meter": 20,
-    "emoji": "📅"
+    "emoji": "📅",
+    "metric": "Meetings missed: 0"
    },
    {
     "at": "Day#3",
@@ -81,7 +86,8 @@
     "sub": "Stores start building for the agents, not you.",
     "meter": 38,
     "emoji": "🛒",
-    "px": "neon"
+    "px": "neon",
+    "metric": "Milk orders placed: 1"
    },
    {
     "at": "Week",
@@ -91,7 +97,8 @@
     "title": "It asks *before it spends*",
     "sub": "Somebody's agent buys 40 rubber ducks.",
     "meter": 52,
-    "emoji": "✋"
+    "emoji": "✋",
+    "metric": "Rubber ducks bought: 40"
    },
    {
     "at": "Month",
@@ -102,7 +109,8 @@
     "sub": "For people who wrote their work down.",
     "meter": 74,
     "sprite": "robot",
-    "accent": "#0B6E4F"
+    "accent": "#0B6E4F",
+    "metric": "Prompts copy-pasted: 300"
    },
    {
     "at": "Year",
@@ -112,7 +120,8 @@
     "title": "It didn't take *your job*",
     "sub": "The person who set it up first did.",
     "meter": 90,
-    "emoji": "🏆"
+    "emoji": "🏆",
+    "metric": "Jobs taken by AI: 0"
    },
    {
     "at": "Want",
@@ -282,6 +291,18 @@
      121.5
     ]
    ]
+  },
+  "hdr": {
+   "panel": true,
+   "label": "AI TOOK OVER"
+  },
+  "rewind": {
+   "title": [
+    "AI takes over",
+    "the world tomorrow"
+   ],
+   "until": "No",
+   "scene": 7
   }
  }
 }

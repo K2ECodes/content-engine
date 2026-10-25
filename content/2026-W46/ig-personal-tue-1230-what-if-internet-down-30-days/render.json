@@ -31,7 +31,10 @@
      ],
      "arcsOff": 0.62,
      "spin": 8
-    }
+    },
+    "line": "EVERY COUNTRY, AT ONCE",
+    "metric": "DEVICES ONLINE: 0",
+    "label": ""
    },
    {
     "world": "dark",
@@ -52,7 +55,9 @@
     },
     "result": "Card declined",
     "resultAt": "stops",
-    "place": "Coffee shop, 8:01 AM"
+    "place": "Coffee shop, 8:01 AM",
+    "line": "CARD READERS NEED A CONNECTION",
+    "metric": "CARDS DECLINED: 1"
    },
    {
     "world": "dark",
@@ -82,7 +87,9 @@
      "drawn": true,
      "arcsOff": 0.35,
      "spin": 10
-    }
+    },
+    "line": "THE CABLES ARE FINE. NOTHING MOVES.",
+    "metric": "DATA SENT: 0 GB"
    },
    {
     "world": "dark",
@@ -97,7 +104,9 @@
     "stage": "Day 1",
     "result": "Back to paper",
     "resultAt": "paper.",
-    "place": "Banks, airlines, hospitals"
+    "place": "Banks, airlines, hospitals",
+    "line": "PRESCRIPTIONS AND FLIGHT PLANS ON PAPER",
+    "metric": "PRINTERS RUNNING: ALL"
    },
    {
     "world": "dark",
@@ -112,7 +121,9 @@
     "stage": "Day 3",
     "result": "Orders by phone",
     "resultAt": "phone",
-    "place": "Your grocery store"
+    "place": "Your grocery store",
+    "line": "BREAD, BATTERIES, TOILET PAPER GO FIRST",
+    "metric": "FAX MACHINES FOUND: 3"
    },
    {
     "world": "dark",
@@ -127,7 +138,9 @@
     "stage": "Week 2",
     "result": "Radio is the news",
     "resultAt": "radio",
-    "place": "Your street"
+    "place": "Your street",
+    "line": "GRANDAD'S RADIO RUNS THE STREET",
+    "metric": "NEIGHBOURS AT YOUR DOOR: 6"
    },
    {
     "world": "dark",
@@ -142,7 +155,9 @@
     "stage": "Day 30",
     "result": "Forgot password",
     "resultAt": "passwords.",
-    "place": "Your desk"
+    "place": "Your desk",
+    "line": "BILLIONS LOG IN AT ONCE",
+    "metric": "PASSWORDS REMEMBERED: 0"
    },
    {
     "world": "dark",
@@ -151,7 +166,9 @@
     "bg": "bg/radio.jpg",
     "at": "Would",
     "stage": "Would you last?",
-    "place": "Part 2 next"
+    "place": "Part 2 next",
+    "line": "FOLLOW FOR PART 2",
+    "metric": "DAYS OFFLINE: 30"
    }
   ],
   "world3d": {
@@ -256,6 +273,18 @@
      "lon": 3.4
     }
    ]
+  },
+  "hdr": {
+   "panel": true,
+   "label": "INTERNET: OFF"
+  },
+  "rewind": {
+   "title": [
+    "The internet goes down",
+    "for 30 days"
+   ],
+   "until": "No",
+   "scene": 6
   }
  }
 }

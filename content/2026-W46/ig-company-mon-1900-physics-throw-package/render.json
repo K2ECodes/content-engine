@@ -32,18 +32,24 @@
      {
       "text": "15 min",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 2.77
      },
      {
       "text": "5 days",
       "x": 110,
-      "y": 860,
+      "y": 1020,
       "h": 150,
       "at": 5.65
      }
-    ]
+    ],
+    "hdr": {
+     "num": "15 min",
+     "stat": "Ground shipping: 5 days. A plane: 6 hours.",
+     "metric": "Speed: 0 mph",
+     "count": 15
+    }
    },
    {
     "at": 8.5,
@@ -55,11 +61,17 @@
      {
       "text": "445 ft",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 12.33
      }
-    ]
+    ],
+    "hdr": {
+     "num": "445 ft",
+     "stat": "The longest throw on record. A box is worse.",
+     "metric": "Distance left: 2,450 mi",
+     "count": 445
+    }
    },
    {
     "at": 15.14,
@@ -71,18 +83,24 @@
      {
       "text": "0.5 mi",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 16.87
      },
      {
       "text": "2,400 g",
       "x": 110,
-      "y": 860,
+      "y": 1020,
       "h": 150,
       "at": 18.85
      }
-    ]
+    ],
+    "hdr": {
+     "num": "2,400 g",
+     "stat": "A catapult half a mile long",
+     "metric": "Bubble wrap: holding",
+     "count": 2400
+    }
    },
    {
     "at": 20.62,
@@ -94,11 +112,17 @@
      {
       "text": "14,000 mph",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 21.23
      }
-    ]
+    ],
+    "hdr": {
+     "num": "14,000 mph",
+     "stat": "18 times the speed of sound",
+     "metric": "Bubble wrap: gone",
+     "count": 14000
+    }
    },
    {
     "at": 26.64,
@@ -110,18 +134,29 @@
      {
       "text": "600 mi",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 28.69
      }
-    ]
+    ],
+    "hdr": {
+     "num": "600 mi",
+     "stat": "Higher than the Space Station",
+     "metric": "Tracking: in transit",
+     "count": 600
+    }
    },
    {
     "at": 33.78,
     "world": "dark",
     "type": "phys",
     "bg": "clips/s05.mp4",
-    "look": "cinema"
+    "look": "cinema",
+    "hdr": {
+     "num": "Kansas",
+     "stat": "Halfway there",
+     "metric": "Farmers who saw it: 1"
+    }
    },
    {
     "at": 38.68,
@@ -133,26 +168,54 @@
      {
       "text": "15 min",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 40.23
      }
-    ]
+    ],
+    "hdr": {
+     "num": "15 min",
+     "stat": "Lands in Los Angeles, right on time",
+     "metric": "Speed: dropping",
+     "count": 15
+    }
    },
    {
     "at": 42.64,
     "world": "dark",
     "type": "phys",
     "bg": "clips/s07.mp4",
-    "look": "cinema"
+    "look": "cinema",
+    "hdr": {
+     "num": "Delivered",
+     "stat": "Dented, smoking, signed for",
+     "metric": "Box condition: mostly"
+    }
    },
    {
     "at": 47.94,
     "world": "dark",
     "type": "phys",
     "bg": "clips/s08.mp4",
-    "look": "cinema"
+    "look": "cinema",
+    "hdr": {
+     "num": "0 errors",
+     "stat": "The shipping invoice still comes out right",
+     "metric": "Lines checked: all"
+    }
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true,
+   "label": "New York → LA"
+  },
+  "rewind": {
+   "title": [
+    "New York to LA",
+    "in 15 minutes"
+   ],
+   "until": "Right",
+   "scene": 7
+  }
  }
 }

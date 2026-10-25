@@ -23,10 +23,10 @@
     "bg": "bg/b00.png",
     "num": "0",
     "cmp": "Just you and your phone",
-    "stat": "Unsolicited advice: 0 per day",
     "rule": "+10% NIGERIAN",
     "unit": "aunties",
-    "when": "Day 0"
+    "when": "Day 0",
+    "metric": "Unsolicited advice: 0 per day"
    },
    {
     "world": "dark",
@@ -35,13 +35,13 @@
     "bg": "bg/b01.png",
     "num": "1",
     "cmp": "Already too many",
-    "stat": "Unsolicited advice: 14 per day",
     "rule": "+10% NIGERIAN",
     "at": "Day",
     "tr": "zoom",
     "count": 1,
     "unit": "aunty",
-    "when": "Day 1"
+    "when": "Day 1",
+    "metric": "Unsolicited advice: 14 per day"
    },
    {
     "world": "dark",
@@ -50,13 +50,13 @@
     "bg": "bg/b02.png",
     "num": "4",
     "cmp": "Enough for a group chat",
-    "stat": "Times called 'this boy': 9",
     "rule": "+10% NIGERIAN",
     "at": "Day#2",
     "tr": "fade",
     "count": 4,
     "unit": "aunties",
-    "when": "Day 3"
+    "when": "Day 3",
+    "metric": "Times called 'this boy': 9"
    },
    {
     "world": "dark",
@@ -65,13 +65,13 @@
     "bg": "bg/b03.png",
     "num": "11",
     "cmp": "A full football squad",
-    "stat": "HR complaints: 1",
     "rule": "+10% NIGERIAN",
     "at": "Week",
     "tr": "up",
     "count": 11,
     "unit": "aunties",
-    "when": "Week 1"
+    "when": "Week 1",
+    "metric": "HR complaints: 1"
    },
    {
     "world": "dark",
@@ -80,13 +80,13 @@
     "bg": "bg/b04.png",
     "num": "40",
     "cmp": "More than a bus full",
-    "stat": "Generators on your street: 12",
     "rule": "+10% NIGERIAN",
     "at": "Week#2",
     "tr": "zoom",
     "count": 40,
     "unit": "aunties",
-    "when": "Week 3"
+    "when": "Week 3",
+    "metric": "Generators on your street: 12"
    },
    {
     "world": "dark",
@@ -95,13 +95,13 @@
     "bg": "bg/b05.png",
     "num": "130",
     "cmp": "A full wedding hall",
-    "stat": "Savings spent on outfits: 2,400 euros",
     "rule": "+10% NIGERIAN",
     "at": "Month",
     "tr": "fade",
     "count": 130,
     "unit": "aunties",
-    "when": "Month 2"
+    "when": "Month 2",
+    "metric": "Savings spent on outfits: 2,400 euros"
    },
    {
     "world": "dark",
@@ -110,13 +110,13 @@
     "bg": "bg/b06.png",
     "num": "400",
     "cmp": "More than a jumbo jet",
-    "stat": "Queue length: 41 km",
     "rule": "+10% NIGERIAN",
     "at": "Month#2",
     "tr": "zoom",
     "count": 400,
     "unit": "aunties",
-    "when": "Month 6"
+    "when": "Month 6",
+    "metric": "Queue length: 41 km"
    },
    {
     "world": "dark",
@@ -125,13 +125,13 @@
     "bg": "bg/b07.png",
     "num": "2,400",
     "cmp": "A small village",
-    "stat": "Fast food sales: down 31%",
     "rule": "+10% NIGERIAN",
     "at": "Year",
     "tr": "fade",
     "count": 2400,
     "unit": "aunties",
-    "when": "Year 1"
+    "when": "Year 1",
+    "metric": "Fast food sales: down 31%"
    },
    {
     "world": "dark",
@@ -140,13 +140,13 @@
     "bg": "bg/b08.png",
     "num": "18,000",
     "cmp": "A full stadium",
-    "stat": "Funerals with a DJ: 100%",
     "rule": "+10% NIGERIAN",
     "at": "Year#2",
     "tr": "zoom",
     "count": 18000,
     "unit": "aunties",
-    "when": "Year 5"
+    "when": "Year 5",
+    "metric": "Funerals with a DJ: 100%"
    },
    {
     "world": "dark",
@@ -155,7 +155,6 @@
     "bg": "bg/b09.png",
     "num": "43,000",
     "cmp": "More than a city",
-    "stat": "Weddings attended: 412",
     "rule": "+10% NIGERIAN",
     "at": "Year#3",
     "tr": "fade",
@@ -163,8 +162,19 @@
     "unit": "aunties",
     "tag": "K2E",
     "sfx": "thud",
-    "when": "Year 10"
+    "when": "Year 10",
+    "metric": "Weddings attended: 412"
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true
+  },
+  "rewind": {
+   "title": [
+    "Everyone wakes up",
+    "10% Nigerian"
+   ],
+   "until": "Not"
+  }
  }
 }
