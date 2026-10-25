@@ -1,0 +1,80 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "sfxGain": 1.6,
+  "tail": 1.8,
+  "keys": [
+   "CEO",
+   "0",
+   "400",
+   "A",
+   "B"
+  ],
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "CEO, day 0",
+    "place": "San Francisco, 6:00 AM",
+    "stat": {
+     "label": "Unread messages",
+     "value": "400",
+     "count": 400
+    },
+    "w3d": {
+     "orbit": [
+      200,
+      250
+     ],
+     "height": [
+      12,
+      4
+     ],
+     "zoom": [
+      18,
+      8
+     ]
+    }
+   },
+   {
+    "at": "Day",
+    "world": "dark",
+    "type": "choice",
+    "level": "DAY 1 · LEVEL 1",
+    "q": "You get *1 decision.*",
+    "fine": "A game. Not real news.",
+    "timer": true,
+    "a": {
+     "text": "Ship a new Claude feature tonight",
+     "emoji": "🚀",
+     "at": "Option"
+    },
+    "b": {
+     "text": "Let Claude run the company for 24 hours",
+     "emoji": "🤖",
+     "at": "Option#2"
+    },
+    "voteAt": "Comment"
+   },
+   {
+    "at": "most",
+    "world": "dark",
+    "type": "word",
+    "text": "A or B?"
+   }
+  ],
+  "world3d": {
+   "kind": "city",
+   "seed": 5,
+   "palette": {
+    "sky": [
+     "#2a2f55",
+     "#f4a259"
+    ],
+    "win": "#ffe2a8"
+   }
+  }
+ }
+}

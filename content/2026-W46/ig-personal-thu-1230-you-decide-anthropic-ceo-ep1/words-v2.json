@@ -1,0 +1,545 @@
+{
+ "words": [
+  {
+   "w": "You",
+   "start": 0.0,
+   "end": 0.4
+  },
+  {
+   "w": "wake",
+   "start": 0.4,
+   "end": 0.54
+  },
+  {
+   "w": "up",
+   "start": 0.54,
+   "end": 0.7
+  },
+  {
+   "w": "as",
+   "start": 0.7,
+   "end": 0.84
+  },
+  {
+   "w": "the",
+   "start": 0.84,
+   "end": 0.96
+  },
+  {
+   "w": "CEO",
+   "start": 0.96,
+   "end": 1.3
+  },
+  {
+   "w": "of",
+   "start": 1.3,
+   "end": 1.48
+  },
+  {
+   "w": "Anthropic.",
+   "start": 1.48,
+   "end": 1.88
+  },
+  {
+   "w": "You",
+   "start": 2.36,
+   "end": 2.44
+  },
+  {
+   "w": "have",
+   "start": 2.44,
+   "end": 2.6
+  },
+  {
+   "w": "zero",
+   "start": 2.6,
+   "end": 2.92
+  },
+  {
+   "w": "experience.",
+   "start": 2.92,
+   "end": 3.46
+  },
+  {
+   "w": "Your",
+   "start": 3.92,
+   "end": 4.0
+  },
+  {
+   "w": "phone",
+   "start": 4.0,
+   "end": 4.18
+  },
+  {
+   "w": "has",
+   "start": 4.18,
+   "end": 4.36
+  },
+  {
+   "w": "400",
+   "start": 4.36,
+   "end": 4.98
+  },
+  {
+   "w": "unread",
+   "start": 4.98,
+   "end": 5.34
+  },
+  {
+   "w": "messages",
+   "start": 5.34,
+   "end": 5.72
+  },
+  {
+   "w": "and",
+   "start": 5.72,
+   "end": 6.26
+  },
+  {
+   "w": "one",
+   "start": 6.26,
+   "end": 6.4
+  },
+  {
+   "w": "of",
+   "start": 6.4,
+   "end": 6.5
+  },
+  {
+   "w": "them",
+   "start": 6.5,
+   "end": 6.58
+  },
+  {
+   "w": "just",
+   "start": 6.58,
+   "end": 6.78
+  },
+  {
+   "w": "says,",
+   "start": 6.78,
+   "end": 7.02
+  },
+  {
+   "w": "call",
+   "start": 7.38,
+   "end": 7.58
+  },
+  {
+   "w": "me.",
+   "start": 7.58,
+   "end": 7.78
+  },
+  {
+   "w": "Now.",
+   "start": 8.06,
+   "end": 8.22
+  },
+  {
+   "w": "Day",
+   "start": 8.72,
+   "end": 8.88
+  },
+  {
+   "w": "1.",
+   "start": 8.88,
+   "end": 9.16
+  },
+  {
+   "w": "You",
+   "start": 9.56,
+   "end": 9.66
+  },
+  {
+   "w": "get",
+   "start": 9.66,
+   "end": 9.78
+  },
+  {
+   "w": "exactly",
+   "start": 9.78,
+   "end": 10.22
+  },
+  {
+   "w": "1",
+   "start": 10.22,
+   "end": 10.44
+  },
+  {
+   "w": "decision",
+   "start": 10.44,
+   "end": 10.8
+  },
+  {
+   "w": "and",
+   "start": 10.8,
+   "end": 11.28
+  },
+  {
+   "w": "the",
+   "start": 11.28,
+   "end": 11.4
+  },
+  {
+   "w": "whole",
+   "start": 11.4,
+   "end": 11.64
+  },
+  {
+   "w": "internet",
+   "start": 11.64,
+   "end": 11.94
+  },
+  {
+   "w": "is",
+   "start": 11.94,
+   "end": 12.12
+  },
+  {
+   "w": "watching.",
+   "start": 12.12,
+   "end": 12.38
+  },
+  {
+   "w": "Option",
+   "start": 12.9,
+   "end": 13.1
+  },
+  {
+   "w": "A.",
+   "start": 13.1,
+   "end": 13.32
+  },
+  {
+   "w": "Ship",
+   "start": 13.64,
+   "end": 13.72
+  },
+  {
+   "w": "a",
+   "start": 13.72,
+   "end": 13.88
+  },
+  {
+   "w": "brand",
+   "start": 13.88,
+   "end": 14.08
+  },
+  {
+   "w": "new",
+   "start": 14.08,
+   "end": 14.26
+  },
+  {
+   "w": "Claude",
+   "start": 14.26,
+   "end": 14.54
+  },
+  {
+   "w": "feature",
+   "start": 14.54,
+   "end": 14.72
+  },
+  {
+   "w": "tonight.",
+   "start": 14.72,
+   "end": 15.06
+  },
+  {
+   "w": "You",
+   "start": 15.36,
+   "end": 15.42
+  },
+  {
+   "w": "announce",
+   "start": 15.42,
+   "end": 15.66
+  },
+  {
+   "w": "it",
+   "start": 15.66,
+   "end": 15.82
+  },
+  {
+   "w": "before",
+   "start": 15.82,
+   "end": 15.98
+  },
+  {
+   "w": "the",
+   "start": 15.98,
+   "end": 16.12
+  },
+  {
+   "w": "lawyers",
+   "start": 16.12,
+   "end": 16.32
+  },
+  {
+   "w": "wake",
+   "start": 16.32,
+   "end": 16.56
+  },
+  {
+   "w": "up",
+   "start": 16.56,
+   "end": 16.8
+  },
+  {
+   "w": "and",
+   "start": 16.8,
+   "end": 17.22
+  },
+  {
+   "w": "you",
+   "start": 17.22,
+   "end": 17.3
+  },
+  {
+   "w": "pray",
+   "start": 17.3,
+   "end": 17.5
+  },
+  {
+   "w": "the",
+   "start": 17.5,
+   "end": 17.62
+  },
+  {
+   "w": "servers",
+   "start": 17.62,
+   "end": 17.86
+  },
+  {
+   "w": "hold.",
+   "start": 17.86,
+   "end": 18.16
+  },
+  {
+   "w": "Option",
+   "start": 18.6,
+   "end": 18.84
+  },
+  {
+   "w": "B.",
+   "start": 18.84,
+   "end": 19.14
+  },
+  {
+   "w": "Hand",
+   "start": 19.56,
+   "end": 19.76
+  },
+  {
+   "w": "Claude",
+   "start": 19.76,
+   "end": 20.06
+  },
+  {
+   "w": "the",
+   "start": 20.06,
+   "end": 20.16
+  },
+  {
+   "w": "keys",
+   "start": 20.16,
+   "end": 20.36
+  },
+  {
+   "w": "to",
+   "start": 20.36,
+   "end": 20.54
+  },
+  {
+   "w": "the",
+   "start": 20.54,
+   "end": 20.62
+  },
+  {
+   "w": "company",
+   "start": 20.62,
+   "end": 20.92
+  },
+  {
+   "w": "for",
+   "start": 20.92,
+   "end": 21.08
+  },
+  {
+   "w": "24",
+   "start": 21.08,
+   "end": 21.46
+  },
+  {
+   "w": "hours.",
+   "start": 21.46,
+   "end": 21.78
+  },
+  {
+   "w": "You",
+   "start": 22.46,
+   "end": 22.58
+  },
+  {
+   "w": "sit",
+   "start": 22.58,
+   "end": 22.74
+  },
+  {
+   "w": "in",
+   "start": 22.74,
+   "end": 22.82
+  },
+  {
+   "w": "the",
+   "start": 22.82,
+   "end": 22.9
+  },
+  {
+   "w": "corner",
+   "start": 22.9,
+   "end": 23.1
+  },
+  {
+   "w": "with",
+   "start": 23.1,
+   "end": 23.26
+  },
+  {
+   "w": "a",
+   "start": 23.26,
+   "end": 23.36
+  },
+  {
+   "w": "coffee",
+   "start": 23.36,
+   "end": 23.62
+  },
+  {
+   "w": "and",
+   "start": 23.62,
+   "end": 23.88
+  },
+  {
+   "w": "watch",
+   "start": 23.88,
+   "end": 24.12
+  },
+  {
+   "w": "it",
+   "start": 24.12,
+   "end": 24.26
+  },
+  {
+   "w": "answer",
+   "start": 24.26,
+   "end": 24.5
+  },
+  {
+   "w": "all",
+   "start": 24.5,
+   "end": 24.82
+  },
+  {
+   "w": "400",
+   "start": 24.82,
+   "end": 25.22
+  },
+  {
+   "w": "messages.",
+   "start": 25.22,
+   "end": 25.7
+  },
+  {
+   "w": "Comment",
+   "start": 26.2,
+   "end": 26.48
+  },
+  {
+   "w": "A",
+   "start": 26.48,
+   "end": 26.84
+  },
+  {
+   "w": "or",
+   "start": 26.84,
+   "end": 27.12
+  },
+  {
+   "w": "B.",
+   "start": 27.12,
+   "end": 27.34
+  },
+  {
+   "w": "Whichever",
+   "start": 27.92,
+   "end": 28.18
+  },
+  {
+   "w": "gets",
+   "start": 28.18,
+   "end": 28.34
+  },
+  {
+   "w": "the",
+   "start": 28.34,
+   "end": 28.46
+  },
+  {
+   "w": "most",
+   "start": 28.46,
+   "end": 28.6
+  },
+  {
+   "w": "comments",
+   "start": 28.6,
+   "end": 28.94
+  },
+  {
+   "w": "decides",
+   "start": 28.94,
+   "end": 29.36
+  },
+  {
+   "w": "day",
+   "start": 29.36,
+   "end": 29.64
+  },
+  {
+   "w": "2",
+   "start": 29.64,
+   "end": 29.92
+  },
+  {
+   "w": "and",
+   "start": 29.92,
+   "end": 30.3
+  },
+  {
+   "w": "I'll",
+   "start": 30.3,
+   "end": 30.44
+  },
+  {
+   "w": "post",
+   "start": 30.44,
+   "end": 30.58
+  },
+  {
+   "w": "what",
+   "start": 30.58,
+   "end": 30.74
+  },
+  {
+   "w": "happens",
+   "start": 30.74,
+   "end": 30.98
+  },
+  {
+   "w": "next.",
+   "start": 30.98,
+   "end": 31.26
+  }
+ ],
+ "text": "You wake up as the CEO of Anthropic. You have zero experience. Your phone has 400 unread messages and one of them just says, call me. Now. Day one. You get exactly one decision and the whole internet is watching. Option A. Ship a brand new Claude feature tonight. You announce it before the lawyers wake up and you pray the servers hold. Option B. Hand Claude the keys to the company for 24 hours. You sit in the corner with a coffee and watch it answer all 400 messages. Comment A or B. Whichever gets the most comments decides day two and I'll post what happens next."
+}

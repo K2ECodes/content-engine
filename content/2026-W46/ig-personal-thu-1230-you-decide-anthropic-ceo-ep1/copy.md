@@ -13,3 +13,6 @@ Interactive game video with Korede's voice. Opens on a low-poly 3D San Francisco
 ## Notes
 New you-decide series format. Episode 2 continues with the winning choice: count A and B comments 24 h after posting, then script ep2 (same template, choice scene for day 2). Fiction, labelled on screen as a game, not real news; no claims about Anthropic. Face windows 0-5.5 and 17.6-20.6.
 Rework 2026-10-24 (Korede): no face on camera (no AI lip-sync), opens on the low-poly 3D world3d hook (templates/story/world3d.js) instead of a cartoon gag.
+
+
+v2 (2026-10-25): richer beats, re-voiced in Korede's HeyGen clone (lively, expressiveness 0.9), audio/vo-v2.wav + words-v2.json. Old render kept as video-v1.mp4. Kept at about 32 s on purpose: a 1-decision game episode, padding it would slow the vote.

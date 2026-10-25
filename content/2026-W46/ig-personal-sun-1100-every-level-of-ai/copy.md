@@ -13,3 +13,6 @@ Gamified level-up video narrated by Korede. Opens on a camera rising up a low-po
 ## Notes
 Extra viral format from research: 'every level' comparison (WatchData 'Comparison' / 'What you learn at every age' shorts, 1.2M to 1.5M views). Gamified, so it funnels to the AI keyword. Keyword AI sends assets/freebies/ai-employee-starter-pack.pdf + assets/freebies/bundles/ai-starter-skills.zip.
 Rework 2026-10-24 (Korede): no face on camera (no AI lip-sync), opens on the low-poly 3D world3d hook (templates/story/world3d.js) instead of a cartoon gag.
+
+
+v2 (2026-10-25): richer beats, re-voiced in Korede's HeyGen clone (lively, expressiveness 0.9), audio/vo-v2.wav + words-v2.json. Old render kept as video-v1.mp4.

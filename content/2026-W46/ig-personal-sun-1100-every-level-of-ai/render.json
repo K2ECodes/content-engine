@@ -1,8 +1,8 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
   "sfxGain": 1.6,
   "tail": 1.6,
   "keys": [
@@ -42,7 +42,7 @@
     "when": "Level 1",
     "emoji": "🔍",
     "title": "Ask it *questions*",
-    "sub": "Like a search engine.",
+    "sub": "Then you rewrite half of it anyway.",
     "meter": 20
    },
    {
@@ -52,7 +52,7 @@
     "when": "Level 2",
     "emoji": "✍️",
     "title": "Give it *examples*",
-    "sub": "Your tone, so it sounds like you.",
+    "sub": "Sounds like you, not a robot.",
     "meter": 40
    },
    {
@@ -62,7 +62,7 @@
     "when": "Level 3",
     "emoji": "📁",
     "title": "Give it *your files*",
-    "sub": "Now it knows your business.",
+    "sub": "Prices, proposals, notes. Now it knows your business.",
     "meter": 60,
     "px": "hq"
    },
@@ -73,7 +73,7 @@
     "when": "Level 4",
     "emoji": "🧩",
     "title": "Turn repeats into *skills*",
-    "sub": "Never explain it twice.",
+    "sub": "1 sentence. Same result every time.",
     "meter": 80,
     "accent": "#0B6E4F"
    },
@@ -84,7 +84,7 @@
     "when": "Level 5",
     "emoji": "✅",
     "title": "It runs the work, *you say yes*",
-    "sub": "Nothing goes out without you.",
+    "sub": "Replies, invoices, posts. Nothing goes out without your yes.",
     "meter": 100
    },
    {

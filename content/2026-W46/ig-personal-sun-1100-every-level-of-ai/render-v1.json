@@ -1,0 +1,117 @@
+{
+ "template": "story",
+ "data": {
+  "audio": "audio/vo.wav",
+  "words": "words.json",
+  "sfxGain": 1.6,
+  "tail": 1.6,
+  "keys": [
+   "stuck.",
+   "skills",
+   "yes"
+  ],
+  "rail": {
+   "meter": "Your AI level",
+   "accent": "#E8A80C"
+  },
+  "scenes": [
+   {
+    "world": "dark",
+    "type": "hud",
+    "stage": "5 levels",
+    "place": "Most people stop at level 2",
+    "w3d": {
+     "orbit": [
+      0,
+      60
+     ],
+     "height": [
+      0.8,
+      9
+     ],
+     "zoom": [
+      9,
+      13
+     ]
+    }
+   },
+   {
+    "at": "Level#2",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 1",
+    "emoji": "🔍",
+    "title": "Ask it *questions*",
+    "sub": "Like a search engine.",
+    "meter": 20
+   },
+   {
+    "at": "Level#3",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 2",
+    "emoji": "✍️",
+    "title": "Give it *examples*",
+    "sub": "Your tone, so it sounds like you.",
+    "meter": 40
+   },
+   {
+    "at": "Level#4",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 3",
+    "emoji": "📁",
+    "title": "Give it *your files*",
+    "sub": "Now it knows your business.",
+    "meter": 60,
+    "px": "hq"
+   },
+   {
+    "at": "Level#5",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 4",
+    "emoji": "🧩",
+    "title": "Turn repeats into *skills*",
+    "sub": "Never explain it twice.",
+    "meter": 80,
+    "accent": "#0B6E4F"
+   },
+   {
+    "at": "Level#6",
+    "world": "dark",
+    "type": "stage",
+    "when": "Level 5",
+    "emoji": "✅",
+    "title": "It runs the work, *you say yes*",
+    "sub": "Nothing goes out without you.",
+    "meter": 100
+   },
+   {
+    "at": "Most#2",
+    "world": "dark",
+    "type": "word",
+    "text": "Stuck at level 2?"
+   },
+   {
+    "at": "Comment",
+    "world": "dark",
+    "type": "cta",
+    "keyword": "AI",
+    "prompt": "AI",
+    "dm": "5 starter skills sent"
+   }
+  ],
+  "world3d": {
+   "kind": "city",
+   "seed": 21,
+   "palette": {
+    "sky": [
+     "#0b0f24",
+     "#3b2a6b"
+    ],
+    "win": "#ffcf66"
+   }
+  }
+ }
+}

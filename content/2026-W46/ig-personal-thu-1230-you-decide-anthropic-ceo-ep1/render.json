@@ -1,8 +1,8 @@
 {
  "template": "story",
  "data": {
-  "audio": "audio/vo.wav",
-  "words": "words.json",
+  "audio": "audio/vo-v2.wav",
+  "words": "words-v2.json",
   "sfxGain": 1.6,
   "tail": 1.8,
   "keys": [
@@ -52,7 +52,7 @@
      "at": "Option"
     },
     "b": {
-     "text": "Let Claude run the company for 24 hours",
+     "text": "Hand Claude the keys for 24 hours",
      "emoji": "🤖",
      "at": "Option#2"
     },
