@@ -1,11 +1,7 @@
 ## Caption
-When your boss catches you sleeping.
+When your boss catches you sleeping 😭
 
-Same office, same tap on the shoulder, whole new fit.
-
-Tag the coworker who'd do this.
-
-#AI #AIvideo #aitools #klingai #officehumor
+#office #worklife #corporate #officehumor #explore #K2E
 
 ## Script
 No dialogue. Original meme audio. Korede asleep face-down at his office desk, a hand taps his shoulder, he slowly wakes and lifts his head to reveal a giant glossy bowl wig, then stares into the camera.

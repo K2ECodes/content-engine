@@ -1,11 +1,7 @@
 ## Caption
-Gave an AI a few photos of me and a dance video.
+bro I don't even know this dance 😭
 
-It did the rest.
-
-Should I keep going?
-
-#AI #AIvideo #aitools #klingai #motioncontrol
+#dance #gasstation #funny #vibes #explore #K2E
 
 ## Script
 No dialogue. Original audio: "hey, hey, hey" trending track. Korede dances at a gas station at night, move for move with the original clip.

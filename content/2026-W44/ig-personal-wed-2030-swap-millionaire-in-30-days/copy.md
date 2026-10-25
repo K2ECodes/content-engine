@@ -1,11 +1,7 @@
 ## Caption
-I asked my phone how to become a millionaire in 30 days.
+millionaire in 30 days, trust the process 💰
 
-It didn't hold back.
-
-Did you clock it?
-
-#AI #AIvideo #aitools #klingai #motioncontrol
+#millionaire #money #motivation #funny #explore #K2E
 
 ## Script
 KOREDE (into phone): How do I become a millionaire in 30 days?
