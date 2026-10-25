@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W45/ig-company-fri-1800-peak-tickets-handoff",
+ "source": "video.mp4",
+ "duration": 28.3,
+ "created": "2026-10-25T03:15:45.239Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-fri-1800-peak-tickets-handoff/v01.mp4",
+   "hook": "Peak will triple your support inbox",
+   "caption": "Peak will triple your support inbox.\n\nComment \"SYSTEMS\" for the free handoff map.\n\n#ecommerce #customerservice #shopify #blackfriday #AI",
+   "coverMs": 445,
+   "changes": [
+    "hook \"Peak will triple your support inbox\"",
+    "zoom 1.072 reframe 0.98/0.31",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.17s",
+    "audio x1.05 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-fri-1800-peak-tickets-handoff/v02.mp4",
+   "hook": "5 tickets a bot should never answer",
+   "caption": "5 tickets a bot should never answer.\n\nComment \"SYSTEMS\" for the free handoff map.\n\n#ecommerce #customerservice #shopify #blackfriday #AI",
+   "coverMs": 1305,
+   "changes": [
+    "hook \"5 tickets a bot should never answer\"",
+    "zoom 1.031 reframe 0.38/0.70",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.25s",
+    "audio x1 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-fri-1800-peak-tickets-handoff/v03.mp4",
+   "hook": "When your bot needs a human",
+   "caption": "When your bot needs a human.\n\nComment \"SYSTEMS\" for the free handoff map.\n\n#ecommerce #customerservice #shopify #blackfriday #AI",
+   "coverMs": 2212,
+   "changes": [
+    "hook \"When your bot needs a human\"",
+    "zoom 1.040 reframe 0.19/0.52",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.28s",
+    "audio x1.01 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}

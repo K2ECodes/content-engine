@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W45/ig-company-thu-1900-2-weeks-not-2-years",
+ "source": "video.mp4",
+ "duration": 32.733333,
+ "created": "2026-10-25T03:19:35.238Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-thu-1900-2-weeks-not-2-years/v01.mp4",
+   "hook": "Uber started with 30 people, not 30,000",
+   "caption": "Uber started with 30 people, not 30,000.\n\nComment \"SYSTEMS\" for the free owner sheet.\n\n#3PL #logistics #ecommerce #operations #AI",
+   "coverMs": 1508,
+   "changes": [
+    "hook \"Uber started with 30 people, not 30,000\"",
+    "zoom 1.065 reframe 0.71/0.78",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.32s",
+    "audio x0.99 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-thu-1900-2-weeks-not-2-years/v02.mp4",
+   "hook": "2 weeks, not 2 years",
+   "caption": "2 weeks, not 2 years.\n\nComment \"SYSTEMS\" for the free owner sheet.\n\n#3PL #logistics #ecommerce #operations #AI",
+   "coverMs": 1715,
+   "changes": [
+    "hook \"2 weeks, not 2 years\"",
+    "zoom 1.075 reframe 0.10/0.38",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.12s",
+    "audio x1.01 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-thu-1900-2-weeks-not-2-years/v03.mp4",
+   "hook": "Start your AI rollout small",
+   "caption": "Start your AI rollout small.\n\nComment \"SYSTEMS\" for the free owner sheet.\n\n#3PL #logistics #ecommerce #operations #AI",
+   "coverMs": 3680,
+   "changes": [
+    "hook \"Start your AI rollout small\"",
+    "zoom 1.063 reframe 0.51/0.70",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.21s",
+    "audio x1.03"
+   ]
+  }
+ ]
+}

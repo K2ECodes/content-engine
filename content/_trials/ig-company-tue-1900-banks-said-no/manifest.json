@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W45/ig-company-tue-1900-banks-said-no",
+ "source": "video.mp4",
+ "duration": 28.5,
+ "created": "2026-10-25T03:21:55.679Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-tue-1900-banks-said-no/v01.mp4",
+   "hook": "Banks just said no to AI agents",
+   "caption": "Banks just said no to AI agents.\n\nComment \"SYSTEMS\" for the free approval sheet.\n\n#ecommerce #3PL #logistics #smallbusiness #AI",
+   "coverMs": 3953,
+   "changes": [
+    "hook \"Banks just said no to AI agents\"",
+    "zoom 1.047 reframe 0.68/0.82",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.21s",
+    "audio x1.02"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-tue-1900-banks-said-no/v02.mp4",
+   "hook": "AI can't move money at the big banks",
+   "caption": "AI can't move money at the big banks.\n\nComment \"SYSTEMS\" for the free approval sheet.\n\n#ecommerce #3PL #logistics #smallbusiness #AI",
+   "coverMs": 2669,
+   "changes": [
+    "hook \"AI can't move money at the big banks\"",
+    "zoom 1.038 reframe 0.59/0.18",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.31s",
+    "audio x0.92 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-tue-1900-banks-said-no/v03.mp4",
+   "hook": "Draw the line banks just drew",
+   "caption": "Draw the line banks just drew.\n\nComment \"SYSTEMS\" for the free approval sheet.\n\n#ecommerce #3PL #logistics #smallbusiness #AI",
+   "coverMs": 924,
+   "changes": [
+    "hook \"Draw the line banks just drew\"",
+    "zoom 1.032 reframe 0.41/0.64",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.25s",
+    "audio x1.1 + ding-1.wav"
+   ]
+  }
+ ]
+}
