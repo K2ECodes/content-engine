@@ -97,7 +97,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Freshest news first (Korede, 2026-10-25)**: when scheduling, the most current news goes out first; older stories later, evergreen pieces fill the rest. Re-order the queue when newer news arrives.
 
-- **Trial reel minimums (Korede, 2026-10-25)**: @koredekola at least 5 trial reels a day (including reposts of his best-performing on-brand reels as varied trials, content/_reposts and content/_trials/repost-*); @contentsystems.ai at least 3 a day.
+- **Trial reel volume (Korede, 2026-10-25)**: as many as possible: target 8 to 10 a day on @koredekola and on @contentsystems.ai (minimums 5 and 3; under IG API 50/24h). @koredekola at least 5 trial reels a day (including reposts of his best-performing on-brand reels as varied trials, content/_reposts and content/_trials/repost-*); @contentsystems.ai at least 3 a day.
 
 - **@koredekola trial variants (Korede, 2026-10-25)**: no hook pills, HUD boxes or overlay cards. Change only contrast/grade, zoom/reframe, trim, slight speed, cover frame; text only as a clean fitting font line (no box) where it doesn't clash.
 
