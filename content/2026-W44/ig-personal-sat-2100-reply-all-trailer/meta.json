@@ -10,7 +10,7 @@
   "cta_keyword": "AI",
   "slot": "2026-10-31T21:00",
   "timezone": "America/New_York",
-  "status": "draft",
+  "status": "rejected",
   "media": [
     "video.mp4",
     "poster.png"
@@ -31,5 +31,6 @@
       "id": "6adcf76c3c8ff42965c17503",
       "at": "2026-11-01T00:00:00.000Z"
     }
-  ]
+  ],
+  "rejected_reason": "Korede 2026-10-25: AI slop, not good enough for any account"
 }

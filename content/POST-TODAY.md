@@ -105,18 +105,6 @@ Who takes the next round?
 #AI #OpenAI #Claude #Replit #technews
 ```
 
-## 8. @koredekola AI movie-trailer skit "Reply All" (rebuilt: real likeness) [post to @koredekola.ai]
-Folder: `content/2026-W44/ig-personal-sat-2100-reply-all-trailer` · media: video.mp4 · keyword: AI
-
-```
-Comment "AI" and I'll send you my AI Employee Starter Pack.
-
-The scariest movie of the year is 20 seconds long.
-
-Would you give your agent the company card?
-
-#AI #AIagents #halloween #AIhumor #techmemes
-```
 
 ## 9. @koredekola AI swap skit (fixed: braids, green suit, lower caption) [post to @koredekola]
 Folder: `content/2026-W44/ig-personal-fri-2030-swap-boss-catch-you-sleeping` · media: video.mp4 · keyword: -
