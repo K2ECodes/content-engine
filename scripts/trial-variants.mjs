@@ -2,7 +2,7 @@
 // Trial-reel variants of a finished reel (research/trial-reels.md). Each variant changes 3+ elements, chosen by seed:
 // zoom + reframe, colour grade, speed (pitch kept), start trim, audio level + optional opening SFX hit, hook line on screen
 // for the first ~2.2 s (from <post>/trials.json hooks), cover frame. Never mirrors (our videos carry text and faces).
-//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330] [--out content/_tiktok/<post-id>]
+//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330] [--out content/_tiktok/<post-id>] [--noHook] [--noSfx]
 // <post>/trials.json (optional): { "hooks": [...], "captions": [...], "hookY": 300, "noHook": false, "reframeX": 0, "maxZoom": 1.06 }
 // Writes content/_trials/<post-id>/vNN.mp4 + manifest.json (kept out of the main post folder).
 import fs from 'node:fs';
@@ -17,7 +17,7 @@ const N = Number(arg('n', 10)), SEED = Number(arg('seed', 1)), FROM = Number(arg
 const src = path.join(post, 'video.mp4');
 if (!fs.existsSync(src)) { console.error(`no video.mp4 in ${post}`); process.exit(1); }
 const cfg = fs.existsSync(path.join(post, 'trials.json')) ? JSON.parse(fs.readFileSync(path.join(post, 'trials.json'), 'utf8')) : {};
-const hooks = cfg.noHook ? [] : (cfg.hooks || []);
+const hooks = (cfg.noHook || process.argv.includes('--noHook')) ? [] : (cfg.hooks || []);   // --noHook: @koredekola rule, no pills/boxes
 const HOOK_Y = Number(arg('hookY', cfg.hookY ?? 1330));   // per post: place the hook pill where the video has no text of its own
 const out = arg('out') ? path.resolve(ROOT, arg('out')) : path.join(ROOT, 'content/_trials', path.basename(path.resolve(post)));   // trial variants live apart from main posts (Korede: never post a trial as a main)
 fs.mkdirSync(out, { recursive: true });
@@ -68,7 +68,7 @@ for (let i = 1; i <= N; i++) {
   const speed = SPEEDS[(i - 1 + POST_SEED) % SPEEDS.length];
   const trim = Number(between(r, 0.1, 0.4).toFixed(2));
   const vol = Number(between(r, 0.88, 1.1).toFixed(2));
-  const sfx = SFX.length && r() < 0.6 ? pick(r, SFX) : null;
+  const sfxRoll = r(); const sfx = SFX.length && sfxRoll < 0.6 && !cfg.noSfx && !process.argv.includes('--noSfx') ? pick(r, SFX) : null;   // --noSfx: keep original audio untouched (swaps, reposts)
   const hook = hooks.length ? hooks[(i - 1) % hooks.length] : null;
   const caption = cfg.captions?.length ? cfg.captions[(i - 1) % cfg.captions.length] : null;
   const coverMs = Math.round(between(r, 400, Math.min(4000, (dur - 1) * 1000)));
