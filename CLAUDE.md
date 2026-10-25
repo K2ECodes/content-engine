@@ -95,6 +95,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **What-ifs are realistic, not optimistic (Korede, 2026-10-25)**: show honest consequences, good and bad, often inconvenient or absurd; comedy from deadpan realism, escalating counters and scale comparisons, dry punchline ending (see .claude/skills/what-if-reel/SKILL.md, ref instagram.com/reel/Dex7yYdOtPo).
 
+- **Freshest news first (Korede, 2026-10-25)**: when scheduling, the most current news goes out first; older stories later, evergreen pieces fill the rest. Re-order the queue when newer news arrives.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.
