@@ -153,7 +153,7 @@
   .hook .crack { position: absolute; width: 260px; height: 40px; opacity: 0; }
   .hook .dust { position: absolute; width: 360px; height: 120px; border-radius: 50%; background: radial-gradient(ellipse, rgba(245,240,232,.75), rgba(245,240,232,0) 70%); opacity: 0; }
   .sbg { position: absolute; inset: 0; z-index: 3; opacity: 0; overflow: hidden; }
-  .sbg img { width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 40%; }
+  .sbg img, .sbg video { width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 40%; }
   .pxw { position: absolute; inset: 0; z-index: 1; background-size: cover; background-position: center bottom; image-rendering: pixelated; opacity: 0; }
   .spr { position: absolute; left: 0; right: 0; top: 0; height: 1920px; z-index: 4; pointer-events: none; opacity: 0; }
   .spr img { position: absolute; image-rendering: pixelated; filter: drop-shadow(0 8px 0 rgba(0,0,0,.35)); transform-origin: 50% 100%; }
@@ -324,11 +324,11 @@
   .caps.phys { top: 1150px; font: 800 58px/1.05 'Inter', sans-serif; letter-spacing: -.01em; color: #FFFFFF; text-shadow: 0 2px 10px rgba(0,0,0,.75), 0 1px 2px rgba(0,0,0,.8); }
   .caps.phys .w.box { color: #FFD45A; }
   .caps.phys .w.box::before { display: none; }
-  .scene > .phys { position: absolute; inset: -400px 0 0 0; pointer-events: none; }
-  .phys .co { position: absolute; display: flex; align-items: flex-start; gap: 14px; }
-  .phys .co .br { width: 26px; border: 6px solid #E8B84B; border-right: 0; filter: drop-shadow(0 2px 6px rgba(0,0,0,.6)); }
-  .phys .co .ct { font: 800 84px/1 'Inter', sans-serif; letter-spacing: -.03em; color: #E8B84B; text-shadow: 0 3px 12px rgba(0,0,0,.7), 0 1px 2px rgba(0,0,0,.8); white-space: nowrap; }
-  .phys .co .ct small { font-size: .5em; margin-left: .12em; }
+  .scene > .phys { zoom: 1; position: absolute; inset: -400px 0 0 0; pointer-events: none; }
+  .phys .pco { position: absolute; display: flex; align-items: flex-start; gap: 14px; }
+  .phys .pco .pbr { width: 30px; border: 8px solid #E8B84B; border-right: 0; filter: drop-shadow(0 2px 6px rgba(0,0,0,.6)); }
+  .phys .pco .pct { font: 800 112px/1 'Inter', sans-serif; letter-spacing: -.03em; color: #E8B84B; text-shadow: 0 3px 12px rgba(0,0,0,.7), 0 1px 2px rgba(0,0,0,.8); white-space: nowrap; }
+  .phys .pco .pct small { font-size: .5em; margin-left: .12em; }
   .phys-look .mark { display: none; }
   .phys-look .sbg img { filter: saturate(1.08) contrast(1.05); }
   .wiftag { position: absolute; right: 150px; bottom: -560px; font: 700 26px/1 'Space Mono', monospace; letter-spacing: .2em; color: #E8B84B; opacity: 0; z-index: 7; text-shadow: 0 2px 10px rgba(0,0,0,.6); }
@@ -395,7 +395,7 @@ const BUILD = {
   receipt: (s) => `<div class="receipt-wrap"><div class="printer"></div><div class="paper">${s.lines.map((l) => `<div class="ln${l.miss ? ' miss' : ''}"><span>${esc(l.text)}</span><span>${esc(l.val)}</span></div>`).join('')}${s.total ? `<div class="tot"><span>${esc(s.total.text)}</span><span>${esc(s.total.val)}</span></div>` : ''}</div></div>`,
   stat: (s) => `<div class="card"><div class="stat-card"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div></div>${s.foot ? `<div class="foot">${esc(s.foot)}</div>` : ''}`,
   word: (s) => `<div class="bigword">${esc(s.text)}</div>`,
-  phys: (s) => `<div class="phys">${(s.callouts || []).map((c) => `<div class="co" style="left:${c.x ?? 120}px;top:${c.y ?? 700}px"><div class="br" style="height:${c.h ?? 160}px"></div><div class="ct">${esc(c.text).replace(/ (ft|m|km|mph|km\/h|mi)$/, ' <small>$1</small>')}</div></div>`).join('')}</div>`,
+  phys: (s) => `<div class="phys">${(s.callouts || []).map((c) => `<div class="pco" style="left:${c.x ?? 120}px;top:${c.y ?? 700}px"><div class="pbr" style="height:${c.h ?? 160}px"></div><div class="pct">${esc(c.text).replace(/ (ft|m|km|mph|km\/h|mi)$/, ' <small>$1</small>')}</div></div>`).join('')}</div>`,
   wif: (s) => `<div class="wif">${s.when ? `<div class="wk">${esc(s.when)}</div>` : ''}${s.num ? `<div class="wn" data-n="${s.count ?? ''}">${esc(s.num)}${s.unit ? `<small>${esc(s.unit)}</small>` : ''}</div>` : ''}${s.cmp ? `<div class="wc">${esc(s.cmp)}</div>` : ''}${s.stat ? `<div class="ws">${esc(s.stat)}</div>` : ''}${s.rule ? `<div class="wr">${esc(s.rule)}</div>` : ''}</div>${s.tag ? `<div class="wiftag">${esc(s.tag)}</div>` : ''}`,
   hud: (s) => `<div class="hud">${s.flagBig && FLAG[DATA_FLAG] ? `<div class="bigflag">${FLAG[DATA_FLAG]}</div>` : ''}${s.dots ? `<div class="dots">${Array.from({ length: s.dots[1] }, (_, k) => `<i class="${k < s.dots[0] ? 'on' : ''}"></i>`).join('')}<span>&nbsp;Stage ${s.dots[0]} / ${s.dots[1]}</span></div>` : ''}${s.stage ? `<div class="stg">${DATA_FLAG && FLAG[DATA_FLAG] && s.pin !== false ? `<span class="flagpin">${FLAG[DATA_FLAG]}</span>` : ''}${esc(s.stage)}</div>` : ''}${s.place ? `<div class="plc">${esc(s.place)}</div>` : ''}${s.stat ? `<div class="sl">${esc(s.stat.label)}</div><div class="sv" data-n="${s.stat.count ?? ''}">${esc(s.stat.value)}</div>${s.stat.source ? `<div class="src">${esc(s.stat.source)}</div>` : ''}` : ''}${s.opts ? `<div class="opts">${s.opts.map((o, k) => `<div class="opt ${k ? 'b' : 'a'}"><b>${k ? 'B' : 'A'}</b><span>${esc(o.text)}</span></div>`).join('')}</div>` : ''}${s.result ? `<div class="res">${esc(s.result)}</div>` : ''}</div>`,
   stage: (s) => `<div class="stage" style="--sa:${s.accent || '#F26B1D'}"><div class="when">${esc(s.when)}</div><div class="sc glass"><div class="ic">${s.iconUrl ? `<img class="${s.brand ? 'lg' : ''}" src="${s.iconUrl}">` : esc(s.emoji || '')}</div><div><h3>${esc(s.title).replace(/\*([^*]+)\*/g, '<em>$1</em>')}</h3>${s.sub ? `<p>${esc(s.sub)}</p>` : ''}</div></div></div>`,
@@ -505,9 +505,9 @@ const ANIMATE = {
   stat: () => {},
   word: () => {},
   phys: (tl, el, s) => {
-    el.querySelectorAll('.co').forEach((co, k) => { const at = (s.callouts[k].t ?? s.t + 0.25 + k * 0.5);
-      tl.fromTo(co.querySelector('.br'), { scaleY: 0, transformOrigin: '50% 100%' }, { scaleY: 1, duration: 0.35, ease: 'power3.out', immediateRender: false }, at)
-        .fromTo(co.querySelector('.ct'), { x: -20, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: 'back.out(2)', immediateRender: false }, at + 0.15);
+    el.querySelectorAll('.pco').forEach((co, k) => { const at = (s.callouts[k].t ?? s.t + 0.25 + k * 0.5);
+      tl.fromTo(co.querySelector('.pbr'), { scaleY: 0, transformOrigin: '50% 100%' }, { scaleY: 1, duration: 0.35, ease: 'power3.out', immediateRender: false }, at)
+        .fromTo(co.querySelector('.pct'), { x: -20, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: 'back.out(2)', immediateRender: false }, at + 0.15);
       window.sfx.push({ t: at + 0.15, kind: 'tick', vol: 0.08 }); });
     window.sfx.push({ t: s.t, kind: s.sfx || 'whoosh', vol: 0.08 });
   },
@@ -614,7 +614,7 @@ window.renderPost = (data) => {
     <div class="vibe" id="vibe" style="${data.look === 'pixel' ? 'display:none' : ''}">${data.stop !== false ? Array.from({ length: 22 }, (_, k) => `<i class="scrap" style="left:${(k * 211) % 1040}px;top:${(k * 389) % 1880}px;background:${SCRAP_COLORS[k % 4]};transform:rotate(${(k * 47) % 180}deg)"></i>`).join('') : ''}<div class="ray"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
       ${(data.bgLogos || []).map((b, i) => `<div class="flogo" style="background:${b.tile};left:${i % 2 ? 950 : 30}px;top:${340 + ((i * 131) % 420)}px"><img src="${b.logoUrl}"></div>`).join('')}</div>
     ${data.face ? `<div class="facebg" id="fbg"></div><div class="face" id="face"><video class="blurfill" src="${esc(data.face.src)}" muted playsinline preload="auto"></video><video id="fv" class="plain" src="${esc(data.face.src)}" muted playsinline preload="auto"></video>${data.face.cutSrc ? `<video id="fvc" class="cutv" src="${esc(data.face.cutSrc)}" muted playsinline preload="auto"></video>` : ''}</div>` : ''}
-    ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg${s.look === 'cinema' ? ' full' : ''}" id="sb${i}"><img src="${s.bgUrl}"></div>` : '').join('')}
+    ${data.scenes.map((s, i) => s.bgUrl ? `<div class="sbg${s.look === 'cinema' ? ' full' : ''}" id="sb${i}">${/\.mp4$/i.test(s.bgUrl) ? `<video class="clipv sbgv" muted playsinline preload="auto" src="${s.bgUrl}" data-ss="${s.bgSs ?? 0}"></video>` : `<img src="${s.bgUrl}">`}</div>` : '').join('')}
     ${window.W3D ? window.W3D.html(data) : ''}
     ${data.scenes.map((s, i) => (data.look === 'pixel' || s.px) ? `<div class="pxw" id="px${i}" style="background-image:url(../../assets/pixel/world-${s.px || PXW[i % PXW.length]}.png)"></div>` : '').join('')}
     ${data.scenes.map((s, i) => s.sprites ? `<div class="spr" id="sp${i}">${s.sprites.map((k) => `<img src="../../assets/pixel/sprites/${k.name}.png" style="left:${Math.min(940 - (k.h ?? 300) * 0.75, Math.max(60, k.x))}px;bottom:${1920 - (k.ground ?? 1500)}px;height:${k.h ?? 300}px;" data-flip="${k.flip ? 1 : ''}">`).join('')}</div>` : '').join('')}
@@ -687,7 +687,8 @@ window.renderPost = (data) => {
       tl.set('#wd', { background: c, opacity: 1 }, s.t + trD).set('#wl', { opacity: 0 }, s.t).set('#cv', { attr: { class: `canvas ${data.branded ? 'branded ' : ''}tf-${(data.coldOpen && data.coldOpen.font) || 'ig'} ${LIGHTISH.has(c) ? 'light-on' : 'dark-on'}` } }, s.t); }
     const sb = document.getElementById('sb' + i);
     if (sb && data.stop !== false && s.look !== 'cinema') tl.set(sb, { rotation: (i % 2 ? 3 : -3) }, s.t);
-    if (sb) { tl.set(sb, { opacity: 1 }, s.t).set(sb, { opacity: 0 }, s.out).fromTo(sb.querySelector('img'), { scale: 1.0 }, { scale: 1.14, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t); }
+    if (sb) { const bv = sb.querySelector('video'); if (bv) { bv.dataset.t0 = s.t; bv.dataset.t1 = s.out; }   // video bg: seeked by render.mjs, no fake push-in
+      tl.set(sb, { opacity: 1 }, s.t).set(sb, { opacity: 0 }, s.out); if (!bv) tl.fromTo(sb.querySelector('img'), { scale: 1.0 }, { scale: 1.14, duration: Math.max(1, s.end - s.t), ease: 'none', immediateRender: false }, s.t); }
     const vb = s.b?.bg || s.lb?.bg || s.vb;
     if (vb) tl.set(document.getElementById('vibe'), { '--vb': vb }, s.t);
     ANIMATE[s.type](tl, el, s);

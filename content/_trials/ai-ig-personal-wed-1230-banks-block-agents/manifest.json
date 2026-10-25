@@ -2,7 +2,7 @@
  "post": "content/2026-W45/ig-personal-wed-1230-banks-block-agents",
  "source": "video.mp4",
  "duration": 28.033333,
- "created": "2026-10-25T14:34:42.969Z",
+ "created": "2026-10-25T15:07:54.748Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,66 @@
     "speed 0.97x",
     "trim 0.37s",
     "audio x0.96 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-wed-1230-banks-block-agents/v06.mp4",
+   "hook": "Banks just blocked AI agents",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I start every AI employee with, free.\n\nBanks just blocked AI agents.\n\nHonestly, they're right.\n\nCiti said the same.\n\nBank of America wants a person to approve payments.\n\nSchwab blocks outside agents every week.\n\nBut nobody banned AI from reading.\n\nThey banned it from moving money alone.\n\nThat's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.\n\n#AI #AIagents #fintech #smallbusiness #automation",
+   "coverMs": 683,
+   "changes": [
+    "hook \"Banks just blocked AI agents\"",
+    "zoom 1.077 reframe 0.28/0.50",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.39s",
+    "audio x0.97 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-wed-1230-banks-block-agents/v07.mp4",
+   "hook": "JPMorgan locked AI out",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I start every AI employee with, free.\n\nJPMorgan locked AI out.\n\nHonestly, they're right.\n\nCiti said the same.\n\nBank of America wants a person to approve payments.\n\nSchwab blocks outside agents every week.\n\nBut nobody banned AI from reading.\n\nThey banned it from moving money alone.\n\nThat's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.\n\n#AI #AIagents #fintech #smallbusiness #automation",
+   "coverMs": 972,
+   "changes": [
+    "hook \"JPMorgan locked AI out\"",
+    "zoom 1.040 reframe 0.03/0.33",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.39s",
+    "audio x1.1 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-wed-1230-banks-block-agents/v08.mp4",
+   "hook": "Banks just blocked AI agents",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I start every AI employee with, free.\n\nBanks just blocked AI agents.\n\nHonestly, they're right.\n\nCiti said the same.\n\nBank of America wants a person to approve payments.\n\nSchwab blocks outside agents every week.\n\nBut nobody banned AI from reading.\n\nThey banned it from moving money alone.\n\nThat's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.\n\n#AI #AIagents #fintech #smallbusiness #automation",
+   "coverMs": 689,
+   "changes": [
+    "hook \"Banks just blocked AI agents\"",
+    "zoom 1.051 reframe 0.31/0.20",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.32s",
+    "audio x1.07"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-wed-1230-banks-block-agents/v09.mp4",
+   "hook": "JPMorgan locked AI out",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills I start every AI employee with, free.\n\nJPMorgan locked AI out.\n\nHonestly, they're right.\n\nCiti said the same.\n\nBank of America wants a person to approve payments.\n\nSchwab blocks outside agents every week.\n\nBut nobody banned AI from reading.\n\nThey banned it from moving money alone.\n\nThat's the rule I run 100+ AI employees on: draft everything, send nothing without a yes.\n\n#AI #AIagents #fintech #smallbusiness #automation",
+   "coverMs": 2908,
+   "changes": [
+    "hook \"JPMorgan locked AI out\"",
+    "zoom 1.069 reframe 0.61/0.29",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.33s",
+    "audio x0.93"
    ]
   }
  ]

@@ -2,7 +2,7 @@
  "post": "content/2026-W46/ig-personal-wed-1230-what-if-governments-left",
  "source": "video.mp4",
  "duration": 37.666667,
- "created": "2026-10-25T14:35:32.028Z",
+ "created": "2026-10-25T15:08:40.314Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,66 @@
     "speed 1.03x",
     "trim 0.19s",
     "audio x1.06"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-wed-1230-what-if-governments-left/v06.mp4",
+   "hook": "Every government just left",
+   "caption": "Comment \"AI\" and I'll send you the 5 starter skills I use to run my company, free.\n\nEvery government just left.\n\nHere's the timeline.\n\nMonth 1 is where it gets interesting.\n\nDay 2 the traffic lights still work, because somebody's code runs them.\n\nBy year 1 the new governments are group chats with rules and an approval step.\n\nSystems beat titles.\n\nEvery time.\n\n#AI #whatif #systems #futureofwork #tech",
+   "coverMs": 3269,
+   "changes": [
+    "hook \"Every government just left\"",
+    "zoom 1.033 reframe 0.00/0.76",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.17s",
+    "audio x1.03"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-wed-1230-what-if-governments-left/v07.mp4",
+   "hook": "Day 2 without any government",
+   "caption": "Comment \"AI\" and I'll send you the 5 starter skills I use to run my company, free.\n\nDay 2 without any government.\n\nHere's the timeline.\n\nMonth 1 is where it gets interesting.\n\nDay 2 the traffic lights still work, because somebody's code runs them.\n\nBy year 1 the new governments are group chats with rules and an approval step.\n\nSystems beat titles.\n\nEvery time.\n\n#AI #whatif #systems #futureofwork #tech",
+   "coverMs": 3115,
+   "changes": [
+    "hook \"Day 2 without any government\"",
+    "zoom 1.047 reframe 0.00/0.27",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.28s",
+    "audio x0.88"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-wed-1230-what-if-governments-left/v08.mp4",
+   "hook": "Who runs the traffic lights?",
+   "caption": "Comment \"AI\" and I'll send you the 5 starter skills I use to run my company, free.\n\nWho runs the traffic lights?\n\nHere's the timeline.\n\nMonth 1 is where it gets interesting.\n\nDay 2 the traffic lights still work, because somebody's code runs them.\n\nBy year 1 the new governments are group chats with rules and an approval step.\n\nSystems beat titles.\n\nEvery time.\n\n#AI #whatif #systems #futureofwork #tech",
+   "coverMs": 3488,
+   "changes": [
+    "hook \"Who runs the traffic lights?\"",
+    "zoom 1.050 reframe 0.00/0.53",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.14s",
+    "audio x0.93"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-wed-1230-what-if-governments-left/v09.mp4",
+   "hook": "No government. Month 1:",
+   "caption": "Comment \"AI\" and I'll send you the 5 starter skills I use to run my company, free.\n\nNo government. Month 1.\n\nHere's the timeline.\n\nMonth 1 is where it gets interesting.\n\nDay 2 the traffic lights still work, because somebody's code runs them.\n\nBy year 1 the new governments are group chats with rules and an approval step.\n\nSystems beat titles.\n\nEvery time.\n\n#AI #whatif #systems #futureofwork #tech",
+   "coverMs": 3276,
+   "changes": [
+    "hook \"No government. Month 1:\"",
+    "zoom 1.053 reframe 0.00/0.24",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.32s",
+    "audio x1.03"
    ]
   }
  ]

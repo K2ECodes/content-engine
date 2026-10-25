@@ -15,12 +15,14 @@ const cap = Number(process.env.KIE_WEEKLY_CAP_USD || 30), per = 0.09;
 const todo = P.shots.map((s, i) => ({ ...s, i })).filter((s) => (!only || only.includes(s.i)) && (force || !fs.existsSync(path.join(post, s.out + '.done'))));
 if (weekSpendUsd() + todo.length * per > cap) { console.error(`budget: ${weekSpendUsd().toFixed(2)} + ${(todo.length * per).toFixed(2)} > ${cap}`); process.exit(2); }
 
-let refUrl = null;
+let refUrl = null, likeUrls = null;
 const refFile = path.join(post, P.shots[0].out);
 for (const s of todo) {
   const out = path.join(post, s.out);
   const input = { prompt: s.prompt, aspect_ratio: '9:16', resolution: '2K', output_format: 'png' };
-  if (s.i > 0 && !s.noref) { refUrl ??= await upload(refFile, 'whatif'); input.image_input = [refUrl]; input.prompt = `Keep the exact same main character as the reference image (same face, hair, outfit, low-poly style). ${s.prompt}`; }
+  // P.refs: real likeness photos (e.g. Korede) sent with every character shot, so the hero is recognisably him
+  if (P.refs && !s.noref) { likeUrls ??= await Promise.all(P.refs.map((f) => upload(f, 'whatif-likeness'))); input.image_input = [...likeUrls]; input.prompt = `The main character is the real person in the reference photos: keep his exact face, face shape, skin tone, braids, goatee and build, rendered in the scene's style. ${s.prompt}`; }
+  if (s.i > 0 && !s.noref) { refUrl ??= await upload(refFile, 'whatif'); input.image_input = [...(input.image_input || []), refUrl]; if (!P.refs) input.prompt = `Keep the exact same main character as the reference image (same face, hair, outfit, low-poly style). ${s.prompt}`; }
   const d = await runTask('nano-banana-2', input, { label: `what-if still ${path.basename(post)} ${s.out}`, estimateUsd: per });
   await download(d.result.resultUrls[0], out);
   fs.writeFileSync(out + '.done', new Date().toISOString());

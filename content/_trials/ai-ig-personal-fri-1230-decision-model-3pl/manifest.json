@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-fri-1230-decision-model-3pl",
  "source": "video.mp4",
  "duration": 39.766667,
- "created": "2026-10-25T14:31:44.069Z",
+ "created": "2026-10-25T15:05:25.252Z",
  "aiLabel": false,
  "variants": [
   {
@@ -73,6 +73,62 @@
     "speed 1.02x",
     "trim 0.3s",
     "audio x1 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-fri-1230-decision-model-3pl/v06.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1496,
+   "changes": [
+    "zoom 1.064 reframe 0.87/0.62",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.13s",
+    "audio x1.05 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-fri-1230-decision-model-3pl/v07.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1939,
+   "changes": [
+    "zoom 1.036 reframe 0.28/0.35",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.37s",
+    "audio x1.04 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-fri-1230-decision-model-3pl/v08.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 960,
+   "changes": [
+    "zoom 1.075 reframe 0.96/0.28",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.26s",
+    "audio x1.02 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-fri-1230-decision-model-3pl/v09.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1009,
+   "changes": [
+    "zoom 1.054 reframe 0.07/0.59",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.28s",
+    "audio x0.98 + chime-1.wav"
    ]
   }
  ]

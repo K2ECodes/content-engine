@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-mon-1230-walmart-vs-amazon-agents",
  "source": "video.mp4",
  "duration": 37.666667,
- "created": "2026-10-25T14:29:50.892Z",
+ "created": "2026-10-25T15:03:36.465Z",
  "aiLabel": false,
  "variants": [
   {
@@ -73,6 +73,62 @@
     "speed 0.97x",
     "trim 0.13s",
     "audio x1.08 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-mon-1230-walmart-vs-amazon-agents/v06.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 2978,
+   "changes": [
+    "zoom 1.065 reframe 0.34/0.28",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.35s",
+    "audio x0.99"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-mon-1230-walmart-vs-amazon-agents/v07.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1327,
+   "changes": [
+    "zoom 1.041 reframe 0.02/0.74",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.34s",
+    "audio x0.89 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-mon-1230-walmart-vs-amazon-agents/v08.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 3348,
+   "changes": [
+    "zoom 1.051 reframe 0.72/0.32",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.23s",
+    "audio x0.91"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-mon-1230-walmart-vs-amazon-agents/v09.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 3184,
+   "changes": [
+    "zoom 1.045 reframe 0.82/0.19",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.15s",
+    "audio x1.1"
    ]
   }
  ]

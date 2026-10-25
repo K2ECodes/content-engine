@@ -2,7 +2,7 @@
  "post": "content/2026-W45/ig-personal-sat-1100-ai-shoppers-holiday",
  "source": "video.mp4",
  "duration": 30.5,
- "created": "2026-10-25T14:33:41.465Z",
+ "created": "2026-10-25T15:07:06.651Z",
  "aiLabel": false,
  "variants": [
   {
@@ -78,6 +78,66 @@
     "speed 0.98x",
     "trim 0.38s",
     "audio x0.92"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-sat-1100-ai-shoppers-holiday/v06.mp4",
+   "hook": "AI shoppers skip your store?",
+   "caption": "Comment \"AI\" and I'll send you the checklist I'd use, free.\n\nAI shoppers skip your store?\n\n1 in 5 holiday visits could come from these assistants this year.\n\nThey don't look at your photos.\n\nThey read: sizes and materials, real stock, a delivery date, returns in plain words.\n\nMiss 1 and they recommend the next store.\n\nWalmart opened its doors to them.\n\nAmazon keeps blocking them.\n\nEither way, your page has to answer first.\n\n#AI #ecommerce #shopify #blackfriday #aitools",
+   "coverMs": 3379,
+   "changes": [
+    "hook \"AI shoppers skip your store?\"",
+    "zoom 1.079 reframe 0.41/0.63",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.23s",
+    "audio x0.92"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-sat-1100-ai-shoppers-holiday/v07.mp4",
+   "hook": "How AI shoppers pick a store",
+   "caption": "Comment \"AI\" and I'll send you the checklist I'd use, free.\n\nHow AI shoppers pick a store.\n\n1 in 5 holiday visits could come from these assistants this year.\n\nThey don't look at your photos.\n\nThey read: sizes and materials, real stock, a delivery date, returns in plain words.\n\nMiss 1 and they recommend the next store.\n\nWalmart opened its doors to them.\n\nAmazon keeps blocking them.\n\nEither way, your page has to answer first.\n\n#AI #ecommerce #shopify #blackfriday #aitools",
+   "coverMs": 3586,
+   "changes": [
+    "hook \"How AI shoppers pick a store\"",
+    "zoom 1.072 reframe 0.24/0.46",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.19s",
+    "audio x0.96 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-sat-1100-ai-shoppers-holiday/v08.mp4",
+   "hook": "AI shoppers skip your store?",
+   "caption": "Comment \"AI\" and I'll send you the checklist I'd use, free.\n\nAI shoppers skip your store?\n\n1 in 5 holiday visits could come from these assistants this year.\n\nThey don't look at your photos.\n\nThey read: sizes and materials, real stock, a delivery date, returns in plain words.\n\nMiss 1 and they recommend the next store.\n\nWalmart opened its doors to them.\n\nAmazon keeps blocking them.\n\nEither way, your page has to answer first.\n\n#AI #ecommerce #shopify #blackfriday #aitools",
+   "coverMs": 2862,
+   "changes": [
+    "hook \"AI shoppers skip your store?\"",
+    "zoom 1.042 reframe 0.35/0.56",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.23s",
+    "audio x0.95"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-sat-1100-ai-shoppers-holiday/v09.mp4",
+   "hook": "How AI shoppers pick a store",
+   "caption": "Comment \"AI\" and I'll send you the checklist I'd use, free.\n\nHow AI shoppers pick a store.\n\n1 in 5 holiday visits could come from these assistants this year.\n\nThey don't look at your photos.\n\nThey read: sizes and materials, real stock, a delivery date, returns in plain words.\n\nMiss 1 and they recommend the next store.\n\nWalmart opened its doors to them.\n\nAmazon keeps blocking them.\n\nEither way, your page has to answer first.\n\n#AI #ecommerce #shopify #blackfriday #aitools",
+   "coverMs": 588,
+   "changes": [
+    "hook \"How AI shoppers pick a store\"",
+    "zoom 1.076 reframe 0.99/0.70",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.29s",
+    "audio x1.03"
    ]
   }
  ]

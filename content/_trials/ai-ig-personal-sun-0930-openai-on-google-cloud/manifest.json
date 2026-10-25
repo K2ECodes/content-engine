@@ -2,7 +2,7 @@
  "post": "content/2026-W44/ig-personal-sun-0930-openai-on-google-cloud",
  "source": "video.mp4",
  "duration": 34.933333,
- "created": "2026-10-25T14:32:27.284Z",
+ "created": "2026-10-25T15:06:03.918Z",
  "aiLabel": false,
  "variants": [
   {
@@ -73,6 +73,62 @@
     "speed 0.98x",
     "trim 0.27s",
     "audio x0.99 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v06",
+   "file": "content/_trials/ai-ig-personal-sun-0930-openai-on-google-cloud/v06.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 2319,
+   "changes": [
+    "zoom 1.076 reframe 0.23/0.55",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.2s",
+    "audio x1.07 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v07",
+   "file": "content/_trials/ai-ig-personal-sun-0930-openai-on-google-cloud/v07.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 2747,
+   "changes": [
+    "zoom 1.045 reframe 0.82/0.71",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.18s",
+    "audio x0.99 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v08",
+   "file": "content/_trials/ai-ig-personal-sun-0930-openai-on-google-cloud/v08.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 2410,
+   "changes": [
+    "zoom 1.053 reframe 0.52/0.59",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.33s",
+    "audio x0.94"
+   ]
+  },
+  {
+   "id": "v09",
+   "file": "content/_trials/ai-ig-personal-sun-0930-openai-on-google-cloud/v09.mp4",
+   "hook": null,
+   "caption": null,
+   "coverMs": 1266,
+   "changes": [
+    "zoom 1.056 reframe 0.06/0.29",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.2s",
+    "audio x0.95 + ding-1.wav"
    ]
   }
  ]
