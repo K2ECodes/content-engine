@@ -1,8 +1,14 @@
 {
  "hooks": [
-  "Uber put 30,000 people on AI in 2 weeks",
-  "How Uber rolled out AI this fast"
+  "Uber gave AI to 30,000 staff",
+  "How Uber rolled out AI in 2 weeks",
+  "Don't roll out AI to everyone at once"
  ],
  "hookY": 1120,
- "aiLabel": false
+ "aiLabel": false,
+ "captions": [
+  "Uber gave AI to 30,000 staff.\n\nThe tool wasn't the trick. The first 2 weeks were.\n\n#operations #smallbusiness #ecommerce #logistics #teamwork",
+  "How Uber rolled out AI in 2 weeks.\n\nThe tool wasn't the trick. The first 2 weeks were.\n\n#operations #smallbusiness #ecommerce #logistics #teamwork",
+  "Don't roll out AI to everyone at once.\n\nThe tool wasn't the trick. The first 2 weeks were.\n\n#operations #smallbusiness #ecommerce #logistics #teamwork"
+ ]
 }

@@ -1,8 +1,14 @@
 {
  "hooks": [
-  "We run on 100+ AI employees",
-  "The 1 rule all our AI follows"
+  "100+ AI employees, 1 rule",
+  "The rule every AI employee follows",
+  "Nothing goes out without a yes"
  ],
  "hookY": 1120,
- "aiLabel": false
+ "aiLabel": false,
+ "captions": [
+  "100+ AI employees, 1 rule.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics",
+  "The rule every AI employee follows.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics",
+  "Nothing goes out without a yes.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics"
+ ]
 }

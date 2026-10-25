@@ -105,7 +105,7 @@ Who takes the next round?
 #AI #OpenAI #Claude #Replit #technews
 ```
 
-## 8. @koredekola AI movie-trailer skit "Reply All" (rebuilt: real likeness) [post to @koredekola]
+## 8. @koredekola AI movie-trailer skit "Reply All" (rebuilt: real likeness) [post to @koredekola.ai]
 Folder: `content/2026-W44/ig-personal-sat-2100-reply-all-trailer` · media: video.mp4 · keyword: AI
 
 ```

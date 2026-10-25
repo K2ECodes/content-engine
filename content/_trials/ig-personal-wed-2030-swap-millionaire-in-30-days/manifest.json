@@ -1,0 +1,84 @@
+{
+ "post": "content/2026-W44/ig-personal-wed-2030-swap-millionaire-in-30-days",
+ "source": "video.mp4",
+ "duration": 18.033333,
+ "created": "2026-10-25T02:02:03.277Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-personal-wed-2030-swap-millionaire-in-30-days/v01.mp4",
+   "hook": "Millionaire in 30 days?",
+   "caption": "I asked my phone how to become a millionaire in 30 days.\n\nSame clip, same audio, same moves.\n\nThe only thing AI changed is the guy holding the phone.\n\nA few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.\n\nDid you clock it?\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 3061,
+   "changes": [
+    "hook \"Millionaire in 30 days?\"",
+    "zoom 1.031 reframe 0.75/0.83",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.39s",
+    "audio x1.09 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-personal-wed-2030-swap-millionaire-in-30-days/v02.mp4",
+   "hook": "My phone roasted me",
+   "caption": "My phone roasted me.\n\nSame clip, same audio, same moves.\n\nThe only thing AI changed is the guy holding the phone.\n\nA few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.\n\nDid you clock it?\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 3518,
+   "changes": [
+    "hook \"My phone roasted me\"",
+    "zoom 1.044 reframe 0.38/0.83",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.29s",
+    "audio x0.89 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-personal-wed-2030-swap-millionaire-in-30-days/v03.mp4",
+   "hook": "I asked AI how to get rich",
+   "caption": "I asked AI how to get rich in 30 days.\n\nSame clip, same audio, same moves.\n\nThe only thing AI changed is the guy holding the phone.\n\nA few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.\n\nDid you clock it?\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 3931,
+   "changes": [
+    "hook \"I asked AI how to get rich\"",
+    "zoom 1.073 reframe 0.16/0.47",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.24s",
+    "audio x0.94"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/ig-personal-wed-2030-swap-millionaire-in-30-days/v04.mp4",
+   "hook": "Get a job, bro",
+   "caption": "It said get a job, bro.\n\nSame clip, same audio, same moves.\n\nThe only thing AI changed is the guy holding the phone.\n\nA few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.\n\nDid you clock it?\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 535,
+   "changes": [
+    "hook \"Get a job, bro\"",
+    "zoom 1.054 reframe 0.33/0.67",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.3s",
+    "audio x0.88 + chime-1.wav"
+   ]
+  },
+  {
+   "id": "v05",
+   "file": "content/_trials/ig-personal-wed-2030-swap-millionaire-in-30-days/v05.mp4",
+   "hook": "Don't ask your phone this",
+   "caption": "Don't ask your phone this question.\n\nSame clip, same audio, same moves.\n\nThe only thing AI changed is the guy holding the phone.\n\nA few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.\n\nDid you clock it?\n\nFollow for more AI experiments like this.\n\n#AI #AIvideo #aitools #klingai #motioncontrol",
+   "coverMs": 1899,
+   "changes": [
+    "hook \"Don't ask your phone this\"",
+    "zoom 1.054 reframe 0.57/0.56",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.39s",
+    "audio x1.01"
+   ]
+  }
+ ]
+}

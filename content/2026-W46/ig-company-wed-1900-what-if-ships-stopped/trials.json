@@ -1,13 +1,13 @@
 {
  "hooks": [
-  "Every ship stopped for 30 days",
-  "How long would your stock last?",
-  "Week 2: the ports go quiet"
+  "What if every ship stopped for 30 days?",
+  "Day 1: the ports go quiet",
+  "30 days without container ships"
  ],
  "captions": [
-  "Every ship stopped for 30 days.\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif",
-  "How long would your stock last?\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif",
-  "Week 2: the ports go quiet.\n\nAround 80% of world trade by volume moves by sea (UN).\n\nWe've seen a small version: the Ever Given held up about $9.6B of goods a day for 6 days.\n\nHow many weeks could your business last?\n\nTell us in the comments.\n\nWeek 1 factories run out of parts.\n\nWeek 2 ports go quiet.\n\nMonth 1 every brand finds out how many weeks of stock it really has.\n\n#logistics #supplychain #shipping #ecommerce #whatif"
+  "What if every ship stopped for 30 days?\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+  "Day 1: the ports go quiet.\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+  "30 days without container ships.\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif"
  ],
  "hookY": 1250,
  "aiLabel": false,

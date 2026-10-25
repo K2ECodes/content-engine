@@ -1,0 +1,54 @@
+{
+ "post": "content/2026-W44/ig-company-tue-1130-100-ai-employees-1-rule",
+ "source": "video.mp4",
+ "duration": 37.733333,
+ "created": "2026-10-25T02:51:42.521Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/ig-company-tue-1130-100-ai-employees-1-rule/v01.mp4",
+   "hook": "100+ AI employees, 1 rule",
+   "caption": "100+ AI employees, 1 rule.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics",
+   "coverMs": 805,
+   "changes": [
+    "hook \"100+ AI employees, 1 rule\"",
+    "zoom 1.062 reframe 0.24/0.29",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.17s",
+    "audio x1.01"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/ig-company-tue-1130-100-ai-employees-1-rule/v02.mp4",
+   "hook": "The rule every AI employee follows",
+   "caption": "The rule every AI employee follows.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics",
+   "coverMs": 1489,
+   "changes": [
+    "hook \"The rule every AI employee follows\"",
+    "zoom 1.054 reframe 0.04/0.48",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.22s",
+    "audio x1.1"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/ig-company-tue-1130-100-ai-employees-1-rule/v03.mp4",
+   "hook": "Nothing goes out without a yes",
+   "caption": "Nothing goes out without a yes.\n\nComment \"WORKSHOP\" for the next live build.\n\n#aiemployees #smallbusiness #automation #ecommerce #logistics",
+   "coverMs": 2514,
+   "changes": [
+    "hook \"Nothing goes out without a yes\"",
+    "zoom 1.047 reframe 0.17/0.73",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.14s",
+    "audio x0.95 + impact-soft-1.wav"
+   ]
+  }
+ ]
+}
