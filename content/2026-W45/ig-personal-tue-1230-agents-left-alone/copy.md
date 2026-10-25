@@ -5,14 +5,6 @@ Researchers left 13 AI agents alone for 30 hours with no task.
 
 They invented their own job.
 
-It's an MIT experiment, not peer reviewed yet, and calling it play is a stretch.
-
-But the lesson for a business is real: an AI without a job description writes its own.
-
-Every AI employee I build gets 4 things before it starts.
-
-1 job, 1 owner, a list of what needs my yes, and an off switch.
-
 #AI #AIagents #ClaudeAI #smallbusiness #automation
 
 ## Script

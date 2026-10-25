@@ -3,20 +3,6 @@ Comment "WORKSHOP" and we'll send you the details and our free AI Employee Start
 
 Your 2 AM lead waits until 9.
 
-In our live AI workshop you build the AI employee that answers it, plus 1 that keeps an eye on your competitors.
-
-It's a live, hands-on session for business owners.
-
-First you set up Claude properly on your own account.
-
-Then you build both AI employees with us.
-
-Then we open up the 100+ AI employees that run our own company, and the 1 rule every single 1 of them follows.
-
-We won't spoil what the first 1 does at 2 AM.
-
-You'll see it live, and the replay's included.
-
 Want in on the next AI workshop?
 
 #AIforbusiness #smallbusiness #automation #businessowner #ecommerce

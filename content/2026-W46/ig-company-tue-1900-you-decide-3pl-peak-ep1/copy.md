@@ -1,21 +1,9 @@
 ## Caption
-You run a 3PL.
-
-7 days to Black Friday, and orders just tripled.
+You run a 3PL. Peak just hit.
 
 What's your day 1 move?
 
 Comment A or B.
-
-The most comments wins, and we'll show you day 2.
-
-A: hire 20 temps and run every shift.
-
-B: fix billing first, so every extra job actually gets charged.
-
-There's no wrong answer.
-
-There's an expensive one.
 
 #3PL #logistics #warehouse #BlackFriday #fulfillment
 

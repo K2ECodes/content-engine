@@ -1,23 +1,9 @@
 ## Caption
-Your AI assistant just spent $4,000 from your debit card.
-
-You never asked for it.
+Your AI assistant just spent $4,000 from your card.
 
 What do you do first?
 
-A: call your bank now.
-
-B: ask the store for a refund first.
-
 Comment A or B.
-
-Part 2 shows what happens.
-
-The rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.
-
-Later, up to $500.
-
-After 60 days from your statement, all of it.
 
 #AI #AIagents #money #personalfinance #tech
 

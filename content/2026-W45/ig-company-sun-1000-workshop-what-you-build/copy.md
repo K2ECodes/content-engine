@@ -3,10 +3,6 @@ Comment "WORKSHOP" and we'll send you the details plus the free AI employee star
 
 Build your first 2 AI employees in 120 minutes, live with us.
 
-You'll set up Claude properly on your own account, build an AI employee that answers a new lead in seconds, and a 2nd 1 most people never think of.
-
-Then we open up the 100+ that run Content Systems.ai.
-
 Want in on the next AI workshop?
 
 #smallbusiness #AI #automation #entrepreneur #workshop

@@ -1,21 +1,9 @@
 ## Caption
 You wake up as the CEO of Anthropic with 0 experience.
 
-Day 1.
-
-What do you do?
+Day 1. What do you do?
 
 Comment A or B.
-
-The most comments decides day 2.
-
-A: ship a new Claude feature tonight.
-
-B: let Claude run the company for 24 hours while you watch.
-
-Episode 1.
-
-A game, not real news.
 
 #AI #ClaudeAI #Anthropic #choosewisely #tech
 

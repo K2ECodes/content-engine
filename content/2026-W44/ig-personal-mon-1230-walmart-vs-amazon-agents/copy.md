@@ -3,16 +3,6 @@ Comment "AI" and I'll send you my AI starter pack, free.
 
 Walmart just let AI agents shop its whole store.
 
-Amazon said no.
-
-Walmart's gateway lets outside AI assistants browse, build a cart and check out, with spending limits and an approval step.
-
-Google launched 1 cart across every store.
-
-Meta says Muse has 10M+ users and shopping is a top use.
-
-The shopper is changing.
-
 Who wins this, Walmart or Amazon?
 
 #AI #AIagents #ecommerce #Walmart #technews

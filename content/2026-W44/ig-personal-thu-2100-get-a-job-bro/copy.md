@@ -3,12 +3,6 @@ Comment "AI" and I'll send you my AI Employee Starter Pack, the stuff that actua
 
 I asked AI how to make $1M in 30 days.
 
-It didn't hold back.
-
-AI won't make you rich in 30 days.
-
-It'll make you faster at the job you've already got, and that's where the money is.
-
 Would you argue back?
 
 #AI #AIhumor #aitools #sidehustle #techmemes

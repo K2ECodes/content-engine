@@ -1,31 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you our free support handoff map: the 5 moments a bot must hand to a person.
+Comment "SYSTEMS" and we'll send you our support handoff map, free.
 
 Drowning in support tickets?
 
-An apparel brand we work with in Berlin now handles 72% without a person, in 4 languages.
-
-The hard ones still go to a person.
-
-Before, a small team was buried in where's-my-order emails, sizing questions and refund requests.
-
-Peak season made it worse every year.
-
-Now the routine questions get answered day and night, in the customer's language.
-
-When someone tries to cancel, they get a better option first, and 1 in 4 stay.
-
-That's €180K a year the brand kept.
-
-It paid for itself in the first quarter.
-
-The part that makes it work is the handoff.
-
-Anything tricky goes to a person, with the full story ready.
-
-A new survey says customers trust a support bot twice as much when a person is within reach.
-
-Black Friday is 4 weeks out.
+A Berlin apparel brand we work with now handles 72% without a person.
 
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 

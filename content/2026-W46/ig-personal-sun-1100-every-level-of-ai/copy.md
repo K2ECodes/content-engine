@@ -1,19 +1,9 @@
 ## Caption
 Comment "AI" and I'll send you the 5 skills that get you to level 4, free.
 
-Every level of using AI, and where most people get stuck.
-
 Most people never get past level 2.
 
-Level 1 asks questions.
-
-Level 2 gives examples and tone.
-
-Level 3 gives it your files.
-
-Level 4 turns repeat work into skills.
-
-Level 5 runs the work and waits for your yes.
+Which level are you on?
 
 #AI #ClaudeAI #ChatGPT #productivity #AItools
 

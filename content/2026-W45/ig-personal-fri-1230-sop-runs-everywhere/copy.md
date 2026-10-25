@@ -5,14 +5,6 @@ The SOP you write this weekend now runs in 70+ AI tools.
 
 Skills just became an open standard.
 
-A skill is a folder: your steps, 3 real examples, and what needs your yes.
-
-Over 1,000,000 are already published, and Anthropic's own are free on GitHub.
-
-Write the process once.
-
-It moves with you, whatever AI you use next year.
-
 #AI #ClaudeAI #opensource #aitools #productivity
 
 ## Script

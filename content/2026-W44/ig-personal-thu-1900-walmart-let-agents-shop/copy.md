@@ -3,22 +3,6 @@ Comment "AI" and I'll send you my free AI starter pack.
 
 Walmart just let AI agents shop.
 
-Amazon said no.
-
-Walmart's Agent Gateway lets approved AI agents search the store and buy for you.
-
-You set a spending limit or approve every order, the agent never sees your card, and agents that break the rules get blocked.
-
-Amazon went the other way.
-
-It's blocking AI agents from buying, and it already blocked Meta's agent.
-
-Meanwhile Walmart plugs into ChatGPT and Gemini.
-
-Walmart bet on agents.
-
-Amazon bet on its own store.
-
 Who wins this?
 
 #AI #AIagents #Walmart #Amazon #ecommerce

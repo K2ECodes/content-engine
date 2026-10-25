@@ -1,15 +1,9 @@
 ## Caption
-When your boss catches you sleeping and you wake up with a whole new haircut.
+When your boss catches you sleeping.
 
-Same office, same tap on the shoulder, same stare.
+Same office, same tap on the shoulder, whole new fit.
 
-The only new thing is me.
-
-A few photos of me and 1 viral clip.
-
-AI rebuilt every frame, the camera move, the timing, even the hairpiece.
-
-Follow for more AI experiments like this.
+Tag the coworker who'd do this.
 
 #AI #AIvideo #aitools #klingai #officehumor
 

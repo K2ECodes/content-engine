@@ -5,16 +5,6 @@ Your AI feels mid?
 
 These 4 skills fix it.
 
-Skill 1 reads your SOP, 3 past examples and your tone before it drafts.
-
-Skill 2 prepares the refund, the email, the order, then waits for your yes.
-
-Skill 3 turns a process you repeat into a skill folder, same format as Anthropic's open skills repo.
-
-Skill 4 checks the draft against your rules before you ever see it.
-
-Each 1 is a real SKILL.md you drop into Claude or paste into any AI chat.
-
 #AI #ClaudeAI #AItools #productivity #aitips
 
 ## Alt text

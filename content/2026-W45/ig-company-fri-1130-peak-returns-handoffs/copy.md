@@ -1,17 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you the free support handoff map.
+Comment "SYSTEMS" and we'll send you the support handoff map, free.
 
 Peak tickets bury your team?
 
-Let AI answer the easy 7 in 10 and hand these 5 to a person.
-
-AI shoppers and AI support both get busy at peak.
-
-The brands that keep customers aren't the ones with the smartest bot.
-
-They're the ones whose bot knows when to step aside: angry customers, money decisions, broken items, 2nd-time askers and anyone who asks for a person.
-
-Content Systems.ai sets up support helpers for e-commerce brands that work this way, in the inbox and help desk you already use.
+Let AI answer the easy ones and hand these 5 to a person.
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

@@ -5,16 +5,6 @@ Same task, every week?
 
 This skill fixes it.
 
-Give it your SOP (or a voice note of you doing the task) and 3 real examples.
-
-It writes a ready SKILL.md folder: name, when to use it, the steps, and what needs your yes.
-
-Then the second skill runs it on last week's work and shows you where it's off before a customer finds it.
-
-Skills are an open format now.
-
-Anthropic's skills are free on GitHub, and the same file works in 70+ AI tools.
-
 #AI #ClaudeAI #AItools #productivity #automation
 
 ## Alt text

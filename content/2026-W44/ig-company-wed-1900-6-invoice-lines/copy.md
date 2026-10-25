@@ -5,22 +5,6 @@ Peak fees hide on your carrier bill.
 
 Check these 6 lines on every invoice before Black Friday.
 
-Ground rates are at an all-time high this quarter.
-
-And since 2021, 72% of the fuel surcharge rise came from carrier pricing, not the price of diesel.
-
-Peak makes it worse.
-
-More orders, more lines, less time to read them.
-
-That's how a brand ends up with a $200,000 back invoice.
-
-Content Systems.ai helps e-commerce brands and 3PLs check every carrier and warehouse charge against what they agreed, so mistakes are caught the week they happen.
-
-Your team approves every dispute.
-
-Save this for your next invoice.
-
 #ecommerce #3PL #shipping #logistics #blackfriday
 
 ## Alt text

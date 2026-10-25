@@ -1,17 +1,9 @@
 ## Caption
 I asked my phone how to become a millionaire in 30 days.
 
-It said get a job, bro.
-
-Same clip, same audio, same moves.
-
-The only thing AI changed is the guy holding the phone.
-
-A few photos of me, 1 viral video, 18 seconds of motion copied frame by frame.
+It didn't hold back.
 
 Did you clock it?
-
-Follow for more AI experiments like this.
 
 #AI #AIvideo #aitools #klingai #motioncontrol
 

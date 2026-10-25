@@ -1,23 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you the free approval sheet we use for every AI helper.
+Comment "SYSTEMS" and we'll send you the approval sheet we use, free.
 
-JPMorgan, Citi and Bank of America just told outside AI agents: you can read, you can't move money.
+The biggest US banks just told AI agents: read, yes. Move money, no.
 
 The 4 moments that always wait for a person are in the slides.
-
-Banks spent this month blocking AI agents that log in for customers.
-
-Schwab says it turns away outside agents every week.
-
-Bank of America wants a person to approve payments until agents prove they're reliable.
-
-That's the right rule for your business too.
-
-Your AI can draft the refund, the quote and the reply.
-
-A person on your team says yes before money or a promise goes out.
-
-Content Systems.ai builds AI helpers for e-commerce brands and 3PLs with that yes built in, on the tools you already use.
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

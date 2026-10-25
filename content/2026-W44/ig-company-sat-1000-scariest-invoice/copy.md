@@ -1,25 +1,9 @@
 ## Caption
-The scariest thing in your warehouse this Halloween is the invoice you never sent.
+The scariest thing in your warehouse this Halloween?
 
-Peak started early this year (Deloitte: 28% of holiday budgets spent by the end of October), and peak is when fees slip.
+The invoice you never sent.
 
-3 to check this week:
-
-· Rush orders packed after cutoff. Log each one with the client's name the same day, not at month end.
-
-· Retailer prep. Relabeling and retailer stickers are usually priced per unit, so count the units.
-
-· Early holiday stock. If a brand sent it in October, its free storage could run out in November. Check every expiry date now.
-
-At month end, nobody remembers who stayed late on the 3rd.
-
-Check daily in peak.
-
-Content Systems.ai automates that daily check for 3PLs.
-
-Our free calculator shows what it adds up to.
-
-It's in our bio.
+Peak is when fees slip.
 
 #3PL #logistics #warehouse #fulfillment #peakseason
 

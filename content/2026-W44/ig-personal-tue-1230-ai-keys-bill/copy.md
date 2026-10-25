@@ -1,29 +1,9 @@
 ## Caption
 Comment "AI" and I'll send you my free AI starter pack.
 
-A hacked AI tool just ran up $1,000+ bills on people's AI accounts.
+A hacked AI tool just ran up $1,000+ bills on people's AI keys.
 
-Attackers got into OpenCode's web platform, where some users had saved their AI keys, then spent on them.
-
-OpenAI, Anthropic and Google accounts, with spend alerts firing overnight.
-
-If you've ever pasted a key into an AI tool, check 3 settings today:
-
-1. A spending limit.
-
-Set a monthly cap wherever your account allows it.
-
-2. Separate keys.
-
-1 key per tool, so 1 leak doesn't open everything.
-
-3. Who can use them.
-
-Delete old keys and remove people who've left.
-
-Takes 5 minutes.
-
-A surprise bill takes longer.
+Where are yours saved?
 
 #AI #AItools #cybersecurity #technews #OpenAI
 

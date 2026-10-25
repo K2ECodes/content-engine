@@ -5,20 +5,6 @@ Still pasting the same prompt into your AI every morning?
 
 Save it once as a skill.
 
-I used to keep my best prompts in a notes app.
-
-Paste it, re-explain who I am, fix the tone, and do it all again tomorrow.
-
-5 minutes every workday is 20 hours a year.
-
-A skill is that prompt done properly: your steps, your examples and your files, in 1 folder the AI loads when it needs it.
-
-And it's not stuck in 1 app anymore.
-
-Last week Anthropic handed the skills format to the Linux Foundation, and 70+ AI tools already read it.
-
-Write it once, use it anywhere.
-
 #AI #ClaudeAI #AItools #productivity #promptengineering
 
 ## Alt text

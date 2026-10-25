@@ -5,16 +5,6 @@ Peak brings more work than ever.
 
 Most 3PLs bill less of it than they think.
 
-4 places unbilled work hides are in the slides.
-
-Parcel prices are at a record this quarter, so your customers are reading every line.
-
-Your own invoices should be just as tight: storage past free days, work the floor did twice, jobs agreed by email, and peak rates that start on the right date.
-
-Content Systems.ai helps 3PLs catch that work every week, before month-end.
-
-Your team approves every line before it's billed.
-
 #ecommerce #3PL #logistics #smallbusiness #AI
 
 ## Alt text

@@ -1,21 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll send you the free sheet: the 5 skills we install first for an ops team.
+Comment "SYSTEMS" and we'll send you the 5 skills we install first for an ops team, free.
 
 Your business already runs on a binder.
 
-How you pack, how you ship, what you say when an order's late.
-
-Anthropic just gave Agent Skills to the Linux Foundation.
-
-A skill is simply written-down instructions an AI follows.
-
-70+ AI tools can read them now, with 1M skills published and nearly 280M installs.
-
-That means the binder you write once isn't locked into 1 app.
-
-Claude, ChatGPT or Copilot can all run the same steps.
-
-Content Systems.ai writes those binders for warehouses and online stores, built on the tools you already use, with a person approving anything that goes out.
+Now 70+ AI tools can run it.
 
 #AIforbusiness #ecommerce #logistics #smallbusiness #automation
 

@@ -1,19 +1,9 @@
 ## Caption
-Comment "AI" and I'll send you all 3 with the links, plus my 5 starter skills, free.
+Comment "AI" and I'll send you all 3 with the links, free.
 
 Paying for AI tools?
 
-These 3 are free, open source, and better than most of what I've paid for.
-
-Tool 1 is a library of ready-made skills that work in Claude and 70+ other AI tools.
-
-Tool 2 reads any website for your AI, so it can watch competitor prices for you every Monday.
-
-Tool 3 is my own set of 5 starter skills.
-
-1 rule before you install any of them: your AI can read and draft on its own.
-
-Anything that leaves your business waits for your yes.
+These 3 are free and open source.
 
 #AI #opensource #ClaudeAI #aitools #smallbusiness
 

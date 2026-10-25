@@ -1,31 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you the full agent-ready check for your store.
+Comment "SYSTEMS" and we'll send you the agent-ready check for your store, free.
 
-Your next customer might not be a person.
+Your next customer might be an AI with $200 to spend.
 
-It might be an AI shopping assistant with $200 to spend.
-
-5 things it looks for before it buys are in the slides.
-
-This month Walmart opened its store to outside AI shopping assistants, with spending limits on the way.
-
-Google launched a cart that works across stores and tells shoppers when an item's back in stock.
-
-Meta says its assistant Muse has 10M+ users, and shopping is 1 of the top things they use it for.
-
-These assistants don't scroll.
-
-They read.
-
-Product details, stock, delivery dates, returns.
-
-If yours are missing or wrong, they pick another store.
-
-Content Systems.ai helps e-commerce brands keep that information complete and accurate, so the assistant can pick you.
-
-Your team approves every change.
-
-Save this before Black Friday.
+Would it pick your store?
 
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 

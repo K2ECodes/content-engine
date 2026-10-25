@@ -3,25 +3,7 @@ Comment "WORKSHOP" and we'll send you the details for the next live build.
 
 We run Content Systems.ai on 100+ AI employees.
 
-Not 1 of them can send a refund on its own.
-
-The rule: let AI draft anything, but 4 things always wait for a person's yes.
-
-Money going out, a message to a customer, a quote or a contract, deleting data.
-
-Try it today.
-
-List every AI tool your team uses and write next to each which of those 4 it can do alone.
-
-If it can do any, add a yes step.
-
-Anthropic's new assistant works the same way: it asks before it pays.
-
-In our live AI workshop you'll build your first AI employees with us, with the yes built in.
-
-Replay included.
-
-Want in on the next AI workshop?
+They all follow 1 rule.
 
 #aiemployees #smallbusiness #automation #ecommerce #logistics
 

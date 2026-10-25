@@ -5,12 +5,6 @@ Parcel prices just hit a record.
 
 Are you checking every line of the bill?
 
-Q4 ground rates per package are at an all-time high.
-
-Since 2021, 72% of the fuel surcharge rise came from carrier pricing, not diesel.
-
-At peak, invoices get longer and nobody reads them.
-
 #ecommerce #3PL #logistics #smallbusiness #shipping
 
 ## Alt text

@@ -1,17 +1,9 @@
 ## Caption
 Comment "AI" and I'll send you all 5 skills, plus my starter pack.
 
-5 AI takes people won't like, plus the free skill that fixes each 1.
+5 AI takes people won't like.
 
-Take 1: if your AI can't say "I don't know", it's guessing.
-
-Take 2: agents that act without asking are a liability.
-
-Take 3 is the 1 that hurts.
-
-It's on slide 4.
-
-Every skill is a real SKILL.md file for Claude or any AI chat.
+Take 3 hurts the most.
 
 #AI #ChatGPT #ClaudeAI #aitools #productivity
 

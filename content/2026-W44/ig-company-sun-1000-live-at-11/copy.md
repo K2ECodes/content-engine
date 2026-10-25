@@ -3,20 +3,6 @@ Comment "WORKSHOP" and we'll send you the details.
 
 Who answers your business when a lead messages at 2 AM?
 
-In our live AI workshop, you build the AI employee that does it in seconds.
-
-In 120 minutes you'll set up Claude properly on your own account and build 2 AI employees.
-
-The first answers a new lead in seconds, even the 1 that comes in while you're asleep.
-
-The second keeps track of what your competitors are up to, so you're not the last to know.
-
-Then we open up the 100+ AI employees that run Content Systems.ai.
-
-There's 1 rule every single 1 of them follows.
-
-You'll see it live, and the replay's included.
-
 Want in on the next AI workshop?
 
 #AIforbusiness #smallbusiness #automation #businessowner #ecommerce

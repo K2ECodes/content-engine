@@ -1,19 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you the free agent-ready store checklist.
+Comment "SYSTEMS" and we'll send you the agent-ready store checklist, free.
 
-1 in 5 visits to online stores this holiday could come from an AI shopping assistant, not a person.
+1 in 5 holiday visits could come from an AI shopping assistant.
 
-Salesforce expects 1 in 5 holiday visits to come from AI chat assistants.
-
-1 company that verifies these assistants saw their traffic jump 100x in 45 days.
-
-They don't scroll.
-
-They read: product details, stock, delivery dates, returns.
-
-If a line is missing or wrong, they move on to the next store.
-
-The checklist covers what they read first and how to fix it before Black Friday.
+Is your store ready for them?
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

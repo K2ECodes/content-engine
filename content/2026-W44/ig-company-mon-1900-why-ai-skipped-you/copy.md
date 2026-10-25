@@ -5,22 +5,6 @@ AI shopping assistants skip stores for 5 fixable reasons.
 
 Steal our agent-ready check and fix yours.
 
-5 mistakes in the slides.
-
-In 10 days, Walmart opened its store to outside AI shopping assistants, Google's new cart started sending back-in-stock alerts, and Meta said some shoppers using its assistant spend $200+ an order.
-
-These assistants don't browse.
-
-They read your stock, delivery dates, prices and returns rules, then pick the store that answers clearly.
-
-Half of those answers live with your brand.
-
-The other half live with your warehouse.
-
-Content Systems.ai helps e-commerce brands and their 3PLs keep that information right, so the assistant picks you.
-
-Your team approves every change.
-
 #ecommerce #shopify #onlinebusiness #smallbusiness #blackfriday
 
 ## Alt text

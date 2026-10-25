@@ -3,23 +3,7 @@ A brand just got a $200,000 back invoice from its fulfillment provider.
 
 Peak season is when charges like that hide.
 
-A back invoice is the bill for work that was never charged at the time.
-
-Months of it, all at once.
-
-This brand switched providers over it.
-
-It's worth checking now.
-
-Parcel prices hit a record this quarter, holiday orders started in October, and more volume means more lines nobody reads.
-
-Content Systems.ai helps e-commerce brands check every 3PL and carrier invoice line against what they agreed to pay, every week, so surprises show up in days, not months.
-
-A person on your team approves every dispute.
-
-Run your own numbers with our free hidden-cost calculator.
-
-Link in bio.
+When did you last check yours?
 
 #ecommerce #3PL #shipping #logistics #blackfriday
 

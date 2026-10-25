@@ -1,17 +1,9 @@
 ## Caption
-Comment "SYSTEMS" and we'll DM you the free 1-page owner sheet we fill in for every AI helper.
+Comment "SYSTEMS" and we'll send you the 1-page owner sheet we use, free.
 
 An AI helper without a job description writes its own.
 
-This month MIT researchers left AI agents alone with no task.
-
-They made up their own goals and games.
-
-And a software company just launched 61 AI employee roles, each with a written job, approved steps and limits that need a person's sign-off.
-
-Same lesson both ways: give it 1 job, 1 owner, a list of what it does alone, what needs a yes, and an off switch.
-
-Content Systems.ai builds AI helpers for e-commerce brands and 3PLs that way, on your existing tools.
+MIT researchers just proved it.
 
 #ecommerce #3PL #logistics #smallbusiness #AI
 

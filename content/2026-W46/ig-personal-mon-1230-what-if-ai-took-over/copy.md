@@ -1,21 +1,9 @@
 ## Caption
-Comment "AI" and I'll send you the 5 skills I'd set up first, free.
-
 What if AI took over the world tomorrow?
 
-Here's the timeline, day 1 to year 1.
+Day 1 to year 1.
 
-Year 1 is the one nobody wants to hear.
-
-Day 1 your inbox is empty.
-
-Day 3 stores start building for AI shoppers.
-
-By month 1 the people who wrote their work down are running 10 AI employees.
-
-AI won't take your job.
-
-The person who sets it up first will.
+Which day would you notice?
 
 #AI #AInews #futureofwork #ClaudeAI #tech
 
