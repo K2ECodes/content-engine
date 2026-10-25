@@ -47,3 +47,11 @@ Reference: instagram.com/reel/Dex7yYdOtPo (115K likes, low-poly 3D "what if it g
 - Every stage: a counter that escalates (day/age + a measurable number) and a size/scale comparison ("longer than a school bus", "as long as a blue whale", "longer than the Burj Khalifa").
 - Fast escalation: early beats days apart, then years. One short deadpan line per beat. End on a dry punchline, then "What should X next?" as the comment prompt.
 - Visual: one consistent low-poly 3D character and world (template world3d / photoreal stills), same character every beat.
+
+## Visual system (from the same reference, frames checked)
+- Look: soft low-poly / blocky 3D (Roblox-meets-Pixar), warm natural light, shallow depth of field, gentle camera drift. One recurring hero character in a fixed outfit (red hoodie, grey joggers) so viewers track him; side characters same style (doctor, HR, scientists, crowd).
+- Every beat is a NEW little set that acts out the line literally: bedroom, doctor's office with height chart, car that it doesn't fit in, farm, plane seat, office, then wide aerial shots as scale explodes (news vans, tents, highway, cows) for the late beats.
+- Overlay (top-left, same position every beat): small caps "DAY 34 · AGE 18", huge serif number "2 ft 10 in", small caps comparison "LONGER THAN A BASEBALL BAT", tiny stat "WEIGHT 2.6 LB", red pill "+1 INCH EVERY DAY" (the rule of the premise, always visible).
+- Narration line as large italic serif subtitle mid-left ("Day 34. Doctors have no explanation."), white with soft shadow; no caption boxes, no logos, no UI chrome.
+- Camera: early beats close and intimate; scale grows with the number until drone/aerial shots; final beat back to an intimate shot for the punchline.
+- How we build it: generate each beat's still with nano-banana-2 in a fixed low-poly style prompt + the same character reference image (first still becomes the reference for the rest), animate with slow push-in/parallax (or Kling image-to-video for 2 to 3 key beats if budget allows), overlay in templates/story `hud` with the serif number + small caps + red rule pill.
