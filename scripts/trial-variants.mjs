@@ -2,7 +2,7 @@
 // Trial-reel variants of a finished reel (research/trial-reels.md). Each variant changes 3+ elements, chosen by seed:
 // zoom + reframe, colour grade, speed (pitch kept), start trim, audio level + optional opening SFX hit, hook line on screen
 // for the first ~2.2 s (from <post>/trials.json hooks), cover frame. Never mirrors (our videos carry text and faces).
-//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--hookY 1330] [--out content/_tiktok/<post-id>] [--noHook] [--noSfx]
+//   node scripts/trial-variants.mjs <post> [--n 10] [--seed 1] [--preset slow] [--hookY 1330] [--out content/_tiktok/<post-id>] [--noHook] [--noSfx]
 // <post>/trials.json (optional): { "hooks": [...], "captions": [...], "hookY": 300, "noHook": false, "reframeX": 0, "maxZoom": 1.06 }
 // Writes content/_trials/<post-id>/vNN.mp4 + manifest.json (kept out of the main post folder).
 import fs from 'node:fs';
@@ -95,7 +95,7 @@ for (let i = 1; i <= N; i++) {
     maps.push('-map', '[a]');
   }
   const res = keep ? { status: 0 } : spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', ...inputs, '-filter_complex', filters.join(';'), ...maps,
-    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', file], { stdio: 'inherit' });
+    '-c:v', 'libx264', '-preset', arg('preset', 'slow'), '-crf', '18', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', file], { stdio: 'inherit' });
   if (res.status) { console.error(`ffmpeg failed on ${id}`); process.exit(1); }
   const changes = [`zoom ${z.toFixed(3)} reframe ${ox.toFixed(2)}/${oy.toFixed(2)}`, `grade ${grade.name}`, `speed ${speed}x`, `trim ${trim}s`, `audio x${vol}${sfx ? ` + ${path.basename(sfx)}` : ''}`];
   if (hook) changes.unshift(`hook "${hook}"`);

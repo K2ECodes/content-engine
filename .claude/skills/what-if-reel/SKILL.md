@@ -66,3 +66,9 @@ Mechanics from the low-poly reference, our look: warm ink-green and gold grade, 
 - Stills: `node --env-file=.env scripts/what-if-stills.mjs <post>` (first still is the hero reference for the rest; skips stills already done; refuses if over the weekly cap).
 - Voice: Korede's HeyGen free instant clone (HEYGEN_INSTANT_VOICE_ID, deadpan, expressiveness 0.25; "Korayday" in TTS), tighten with `--beatBefore "Day,Week,Month,Year,What" --beat 0.5`.
 - Examples: content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan, ig-personal-sat-2030-what-if-dollar-every-ai.
+
+## Variant: "absurd physics + bait-and-switch ad" (ref instagram.com/reel/DdZC5ElxwpV, Middleton Ford, 587K likes, 37 s)
+- Premise: "If you tried to pole vault over the Empire State Building..." Deadpan narrator explains what would REALLY happen (smash into it at ~20 ft), then the absurd engineering fix (2,000 ft pole, 4 ft thick, a giant slot dug in the road, run faster than a race car), then the payoff physics (hundreds of feet per second, fly across the country).
+- Visual: game-engine 3D (GTA/Unreal look), bright daylight city, one hero, constant camera motion, red measurement callouts with brackets ("19 ft", "2,000 ft", "4 ft"), short white captions bottom-third, 1 to 3 words.
+- The twist: he lands safely at the business ("...land safely at Middleton Ford, where you can drive away in your brand new F-150"). The ad is the punchline, so it reads as entertainment first. Caption tiny ("Looking for a truck?..."), #funny #viral.
+- For us: company version lands at the point ("...and your invoice still arrives correct, because Content Systems.ai checked every line"), personal/.ai version lands at the freebie or a joke. Real physics numbers, deadpan voice, measurement callouts in our gold.
