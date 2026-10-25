@@ -55,7 +55,7 @@ Reference: instagram.com/reel/Dex7yYdOtPo (115K likes, low-poly 3D "what if it g
 - Narration line as large italic serif subtitle mid-left ("Day 34. Doctors have no explanation."), white with soft shadow; no caption boxes, no logos, no UI chrome.
 - Camera: early beats close and intimate; scale grows with the number until drone/aerial shots; final beat back to an intimate shot for the punchline.
 - How we build it: generate each beat's still with nano-banana-2 in a fixed low-poly style prompt + the same character reference image (first still becomes the reference for the rest), animate with slow push-in/parallax (or Kling image-to-video for 2 to 3 key beats if budget allows), overlay in templates/story `hud` with the serif number + small caps + red rule pill.
-- Voice: Korede's own voice (HeyGen instant clone) on what-ifs and physics reels on every account (company may use Sanjana); never the ttsCreator narrator (Korede disliked it, 2026-10-25).
+- Voice: Korede's own voice (HeyGen instant clone) on what-ifs and physics reels on every account (company may use Sanjana); never the ttsCreator narrator (Korede disliked it, 2026-10-25). Delivery must be interesting: storyteller energy, amused/incredulous, punchy, rising with the escalation; deadpan lives in the writing, not a flat voice.
 - Hero: Korede himself as the stylised 3D character (from his real photos, recognisable, tall, fit, braids, studs), consistent across shots.
 - Our spin (Korede, 2026-10-25): don't clone the reference look. Keep the mechanics, make it ours: warm ink-green and gold grade, cream serif number + Space Mono small caps + gold rule pill, our own hero (distinct face/outfit, signature item, Afro-Berlin vibe), more cinematic light and camera, SFX on every beat, tiny K2E end tag.
 
