@@ -111,6 +111,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **IG to TikTok mirror (Korede, 2026-10-25)**: every video and carousel on his Instagram (@koredekola and @koredekola.ai, including ones he posts by hand) also goes on his TikTok (Korede Kola): videos as videos, carousels as TikTok photo posts (auto music, title). Original files, not trial variants; short TikTok captions.
 
+- **AI edit reels (2026-10-25, ref tiktok.com/t/ZPLAptXyg)**: 12 s meme text-thread hook about an AI, brand stinger, fast generative montage in our palette cut to a beat (templates/edit, scripts/render-edit.mjs, .claude/skills/ai-edit-reel). For @koredekola.ai and Korede's TikTok; caption = hashtags only.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

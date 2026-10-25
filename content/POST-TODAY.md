@@ -279,3 +279,11 @@ Status: tmp/wif-deadpan-status.txt (stills, render, contact-sheet.png in each fo
 ## Ready to post: @koredekola (new, realistic deadpan what-ifs, your voice)
 - `content/2026-W46/ig-personal-thu-2030-what-if-10-nigerian-deadpan/video.mp4` (caption in copy.md)
 - `content/2026-W46/ig-personal-sat-2030-what-if-dollar-every-ai/video.mp4` (caption in copy.md)
+
+## Ready to post (@koredekola.ai): AI edit reels (12 s, beat included, caption = hashtags)
+- `content/2026-W46/ig-ai-mon-2000-edit-more-than-claude/video.mp4`: #claude #ai #code #edit #vibecode
+- `content/2026-W46/ig-ai-tue-2000-edit-3am-chatgpt/video.mp4`: #chatgpt #ai #openai #edit #relatable
+- `content/2026-W46/ig-ai-wed-2000-edit-smiling-at-laptop/video.mp4`: #claude #ai #coding #edit #vibecode
+- `content/2026-W46/ig-ai-thu-2000-edit-gemini-trip/video.mp4`: #gemini #ai #google #edit #relatable
+- `content/2026-W46/ig-ai-fri-2000-edit-come-to-bed/video.mp4`: #claudecode #ai #agents #edit #vibecode
+

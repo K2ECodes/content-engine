@@ -82,3 +82,6 @@ Mechanics from the low-poly reference, our look: warm ink-green and gold grade, 
 
 ## Detail per beat (Korede, 2026-10-25)
 Don't just say "Day 2" + one line. Each beat gets 2 to 3 short sentences: what happens (specific), a concrete detail or number that makes it real (who, where, how much), and the consequence or a joke beat. Example: not "Day 3. Visa queues." but "Day 3. The Nigerian embassy in London has a queue around 4 blocks. A man in a suit has been there since 5 AM with a cooler of jollof. He's selling plates for 12 pounds." Keep it punchy, still 45 to 70 s total, so use fewer, richer beats rather than many thin ones.
+
+## Hook test (Korede, 2026-10-25)
+The premise must be something people genuinely wonder about, phrased "What would happen if...". Bad: "How far could you throw a package from New York to LA?" (nobody asks that). Good: "What would happen if Black Friday lasted a whole year?", "What would happen if every warehouse worker quit tomorrow?"
