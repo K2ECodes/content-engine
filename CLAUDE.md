@@ -109,6 +109,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **Funny video captions + TikTok captions (Korede, 2026-10-25)**: use 😂 or 🤣 (not 😭) on funny captions, often. TikTok captions are as short as Instagram (1 to 3 lines + 3 to 5 hashtags). Funny/swap videos: one natural, relatable line a real person would say (never 'X vibes only', never explaining the AI), and always include #funny and #humor (instead of filler like #vibes #nightlife); plus #explore #K2E on @koredekola, #fyp on TikTok.
 
+- **IG to TikTok mirror (Korede, 2026-10-25)**: every video and carousel on his Instagram (@koredekola and @koredekola.ai, including ones he posts by hand) also goes on his TikTok (Korede Kola): videos as videos, carousels as TikTok photo posts (auto music, title). Original files, not trial variants; short TikTok captions.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.
