@@ -3,102 +3,102 @@
   {
    "line": "What if you got $1 every time someone said AI?",
    "say": "What if you got one dollar every time someone said A I?",
-   "kicker": "Day 0",
    "num": "$0",
    "cmp": "Broke, as usual",
    "stat": "Times heard today: 0",
-   "set": "the hero sitting on a sofa in a small apartment scrolling his phone, empty wallet on the coffee table, close shot"
+   "set": "the hero sitting on a sofa in a small apartment scrolling his phone, empty wallet on the coffee table, close shot",
+   "when": "Day 0"
   },
   {
    "line": "Day 1. A podcast plays in the background. $14.",
    "say": "Day one. A podcast plays in the background. Fourteen dollars.",
-   "kicker": "Day 1",
    "num": "$14",
    "count": 14,
    "cmp": "A cheap lunch",
    "stat": "Per hour: $3",
-   "set": "the hero cooking in a small kitchen with a podcast playing from a speaker, a few dollar bills floating out of the speaker, close shot"
+   "set": "the hero cooking in a small kitchen with a podcast playing from a speaker, a few dollar bills floating out of the speaker, close shot",
+   "when": "Day 1"
   },
   {
    "line": "Day 2. You attend 1 tech meetup.",
    "say": "Day two. You go to one tech meetup.",
-   "kicker": "Day 2",
    "num": "$1,340",
    "count": 1340,
    "cmp": "A new iPhone",
    "stat": "Free pizza eaten: 4 slices",
-   "set": "a crowded tech meetup room with a presenter on stage and slides, the hero in the audience as dollar bills rain down on him, other attendees confused, medium shot"
+   "set": "a crowded tech meetup room with a presenter on stage and slides, the hero in the audience as dollar bills rain down on him, other attendees confused, medium shot",
+   "when": "Day 2"
   },
   {
    "line": "Week 1. Your friends start saying it on purpose. They want a cut.",
    "say": "Week one. Your friends start saying it on purpose. They want a cut.",
-   "kicker": "Week 1",
    "num": "$9,800",
    "count": 9800,
    "cmp": "A used car",
    "stat": "Friends asking for 20%: 6",
-   "set": "the hero at a cafe table surrounded by grinning friends leaning in and holding out open palms, a stack of cash in front of him, medium shot"
+   "set": "the hero at a cafe table surrounded by grinning friends leaning in and holding out open palms, a stack of cash in front of him, medium shot",
+   "when": "Week 1"
   },
   {
    "line": "Week 3. Your bank freezes your account. Suspicious activity.",
    "say": "Week three. Your bank freezes your account. Suspicious activity.",
-   "kicker": "Week 3",
    "num": "$61,000",
    "count": 61000,
    "cmp": "A Tesla Model 3",
    "stat": "Calls from the bank: 9",
-   "set": "the hero at a bank counter while a stern bank clerk slides a 'frozen' sign across, a giant padlock around a vault behind them, medium shot"
+   "set": "the hero at a bank counter while a stern bank clerk slides a 'frozen' sign across, a giant padlock around a vault behind them, medium shot",
+   "when": "Week 3"
   },
   {
    "line": "Month 2. Earnings season. Every CEO says it 80 times per call.",
    "say": "Month two. Earnings season. Every C E O says it eighty times per call.",
-   "kicker": "Month 2",
    "num": "$480,000",
    "count": 480000,
    "cmp": "A house in the suburbs",
    "stat": "Earnings calls listened to: 212",
-   "set": "the hero at a desk wearing headphones in front of several monitors showing executives in suits on video calls, a money counting machine running next to him, medium shot"
+   "set": "the hero at a desk wearing headphones in front of several monitors showing executives in suits on video calls, a money counting machine running next to him, medium shot",
+   "when": "Month 2"
   },
   {
    "line": "Month 6. The tax office has a team just for you.",
    "say": "Month six. The tax office has a whole team just for you.",
-   "kicker": "Month 6",
    "num": "$3.2M",
    "count": 3.2,
    "cmp": "A Premier League salary",
    "stat": "Tax officers on your case: 14",
-   "set": "a grey tax office with a long table of serious tax officers with stacks of paper all staring at the hero sitting alone at the other end, wide shot"
+   "set": "a grey tax office with a long table of serious tax officers with stacks of paper all staring at the hero sitting alone at the other end, wide shot",
+   "when": "Month 6"
   },
   {
    "line": "Year 1. Companies start saying machine learning to avoid paying you.",
    "say": "Year one. Companies start saying machine learning, just to avoid paying you.",
-   "kicker": "Year 1",
    "num": "$41M",
    "count": 41,
    "cmp": "A private jet",
-   "stat": "Times 'machine learning' said: 3 billion",
-   "set": "aerial shot of a city business district at sunset with glass towers, giant billboards being repainted, the hero tiny on a rooftop looking unimpressed, wide shot"
+   "stat": "Times 'machine learning' said: 3B",
+   "set": "aerial shot of a city business district at sunset with glass towers, giant billboards being repainted, the hero tiny on a rooftop looking unimpressed, wide shot",
+   "when": "Year 1"
   },
   {
    "line": "Year 3. 3 governments try to ban the word.",
    "say": "Year three. Three governments try to ban the word.",
-   "kicker": "Year 3",
    "num": "$900M",
    "count": 900,
    "cmp": "13 rocket launches",
    "stat": "Countries where you're banned: 3",
-   "set": "aerial shot of a grand parliament building with a crowd of protesters holding blank signs and politicians on the steps at a podium, the hero tiny in the crowd, golden hour, epic wide shot"
+   "set": "aerial shot of a grand parliament building with a crowd of protesters holding blank signs and politicians on the steps at a podium, the hero tiny in the crowd, golden hour, epic wide shot",
+   "when": "Year 3"
   },
   {
    "line": "Year 10. You're a billionaire. You still can't explain what AI is.",
    "say": "Year ten. You're a billionaire. You still can't explain what A I is.",
-   "kicker": "Year 10",
    "num": "$14B",
    "count": 14,
    "cmp": "More than some countries",
    "stat": "Times asked to explain it: 1,000+",
    "set": "the hero sitting alone on a huge modern balcony at night over a glowing city, holding a glass, slightly lost, intimate close shot",
-   "tag": "K2E"
+   "tag": "K2E",
+   "when": "Year 10"
   }
  ],
  "rule": "+$1 EVERY \"AI\""

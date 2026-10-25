@@ -21,19 +21,18 @@
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b00.png",
-    "kicker": "Day 0",
     "num": "0",
     "cmp": "Just you and your phone",
     "stat": "Unsolicited advice: 0 per day",
     "rule": "+10% NIGERIAN",
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Day 0"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b01.png",
-    "kicker": "Day 1",
     "num": "1",
     "cmp": "Already too many",
     "stat": "Unsolicited advice: 14 per day",
@@ -41,14 +40,14 @@
     "at": "Day",
     "tr": "zoom",
     "count": 1,
-    "unit": "aunty"
+    "unit": "aunty",
+    "when": "Day 1"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b02.png",
-    "kicker": "Day 3",
     "num": "4",
     "cmp": "Enough for a group chat",
     "stat": "Times called 'this boy': 9",
@@ -56,14 +55,14 @@
     "at": "Day#2",
     "tr": "fade",
     "count": 4,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Day 3"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b03.png",
-    "kicker": "Week 1",
     "num": "11",
     "cmp": "A full football squad",
     "stat": "HR complaints: 1",
@@ -71,14 +70,14 @@
     "at": "Week",
     "tr": "up",
     "count": 11,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Week 1"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b04.png",
-    "kicker": "Week 3",
     "num": "40",
     "cmp": "More than a bus full",
     "stat": "Generators on your street: 12",
@@ -86,14 +85,14 @@
     "at": "Week#2",
     "tr": "zoom",
     "count": 40,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Week 3"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b05.png",
-    "kicker": "Month 2",
     "num": "130",
     "cmp": "A full wedding hall",
     "stat": "Savings spent on outfits: 2,400 euros",
@@ -101,14 +100,14 @@
     "at": "Month",
     "tr": "fade",
     "count": 130,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Month 2"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b06.png",
-    "kicker": "Month 6",
     "num": "400",
     "cmp": "More than a jumbo jet",
     "stat": "Queue length: 41 km",
@@ -116,14 +115,14 @@
     "at": "Month#2",
     "tr": "zoom",
     "count": 400,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Month 6"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b07.png",
-    "kicker": "Year 1",
     "num": "2,400",
     "cmp": "A small village",
     "stat": "Fast food sales: down 31%",
@@ -131,14 +130,14 @@
     "at": "Year",
     "tr": "fade",
     "count": 2400,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Year 1"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b08.png",
-    "kicker": "Year 5",
     "num": "18,000",
     "cmp": "A full stadium",
     "stat": "Funerals with a DJ: 100%",
@@ -146,14 +145,14 @@
     "at": "Year#2",
     "tr": "zoom",
     "count": 18000,
-    "unit": "aunties"
+    "unit": "aunties",
+    "when": "Year 5"
    },
    {
     "world": "dark",
     "type": "wif",
     "look": "cinema",
     "bg": "bg/b09.png",
-    "kicker": "Year 10",
     "num": "43,000",
     "cmp": "More than a city",
     "stat": "Weddings attended: 412",
@@ -163,7 +162,8 @@
     "count": 43000,
     "unit": "aunties",
     "tag": "K2E",
-    "sfx": "thud"
+    "sfx": "thud",
+    "when": "Year 10"
    }
   ]
  }
