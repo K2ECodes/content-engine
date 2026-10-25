@@ -101,6 +101,8 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 - **@koredekola trial variants (Korede, 2026-10-25)**: no hook pills, HUD boxes or overlay cards. Change only contrast/grade, zoom/reframe, trim, slight speed, cover frame; text only as a clean fitting font line (no box) where it doesn't clash.
 
+- **@koredekola vibe (Korede, 2026-10-25)**: wealth-coded (premium, successful, disciplined, calm confidence) and motivational at times (mindset lines, quote reels). Show him as he is now (fitter); skip dated clips.
+
 ## Content rules
 - Topics: our business (logistics/3PL, e-commerce, AI systems) plus what's trending in AI right now. Each week starts with fresh research (`content/<week>/trends.md`, sources and dates cited, nothing older than 14 days) and the plan mixes trending stories into the pillars, always tied back to what it means for operators.
 - Pillars: `belief-shift` ("if you believe X, it's costing you Y"), `tools-vs-systems`, `calm-playbooks` (for overwhelmed founders), `operational-clarity`, `case-studies` (results from systems). Angle everything at logistics/3PL and e-commerce operators.

@@ -295,6 +295,20 @@
         ],
         "source": "assets/freebies/skills/",
         "note": "Keyword AI on this post sends this bundle plus the starter pack."
+      },
+      {
+        "keyword": "SYSTEMS",
+        "name": "Store safety check: 3 checks after the PHP2Shell bugs",
+        "status": "built",
+        "used_by": [
+          "li-company-mon-1100-store-wide-open",
+          "ig-company-mon-1900-store-wide-open"
+        ],
+        "file": "assets/freebies/store-safety-check.pdf",
+        "source": "assets/freebies/src/store-safety-check.html",
+        "offer": "ecommerce-systems",
+        "note": "SYSTEMS on the PHP2Shell store-safety posts.",
+        "pages": 2
       }
     ],
     "_skills": "Skill folders live in assets/freebies/skills/<name>/SKILL.md; zipped bundles in assets/freebies/bundles/. Send every file listed in \"send\"."
