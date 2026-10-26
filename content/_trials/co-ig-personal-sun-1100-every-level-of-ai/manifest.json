@@ -1,0 +1,69 @@
+{
+ "post": "content/2026-W46/ig-personal-sun-1100-every-level-of-ai",
+ "source": "video.mp4",
+ "duration": 47.3,
+ "created": "2026-10-26T05:29:43.245Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/co-ig-personal-sun-1100-every-level-of-ai/v01.mp4",
+   "hook": "Which AI level are you on?",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nWhich AI level are you on?\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
+   "coverMs": 1702,
+   "changes": [
+    "hook \"Which AI level are you on?\"",
+    "zoom 1.051 reframe 0.00/0.36",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.36s",
+    "audio x0.89 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/co-ig-personal-sun-1100-every-level-of-ai/v02.mp4",
+   "hook": "Most people stop at level 2",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nMost people stop at level 2.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
+   "coverMs": 3014,
+   "changes": [
+    "hook \"Most people stop at level 2\"",
+    "zoom 1.059 reframe 0.00/0.35",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.25s",
+    "audio x0.88 + impact-soft-2.wav"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/co-ig-personal-sun-1100-every-level-of-ai/v03.mp4",
+   "hook": "5 levels of using AI",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\n5 levels of using AI.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
+   "coverMs": 720,
+   "changes": [
+    "hook \"5 levels of using AI\"",
+    "zoom 1.040 reframe 0.00/0.51",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.15s",
+    "audio x1.02"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/co-ig-personal-sun-1100-every-level-of-ai/v04.mp4",
+   "hook": "Level 5 changes everything",
+   "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nLevel 5 changes everything.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
+   "coverMs": 454,
+   "changes": [
+    "hook \"Level 5 changes everything\"",
+    "zoom 1.059 reframe 0.00/0.44",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.33s",
+    "audio x0.98 + impact-soft-2.wav"
+   ]
+  }
+ ]
+}

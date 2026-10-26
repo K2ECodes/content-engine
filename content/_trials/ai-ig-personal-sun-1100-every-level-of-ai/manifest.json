@@ -1,8 +1,8 @@
 {
  "post": "content/2026-W46/ig-personal-sun-1100-every-level-of-ai",
  "source": "video.mp4",
- "duration": 29.766667,
- "created": "2026-10-25T15:03:03.334Z",
+ "duration": 47.3,
+ "created": "2026-10-26T05:33:04.781Z",
  "aiLabel": false,
  "variants": [
   {
@@ -10,14 +10,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v01.mp4",
    "hook": "Which AI level are you on?",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nWhich AI level are you on?\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 647,
+   "coverMs": 2152,
    "changes": [
     "hook \"Which AI level are you on?\"",
-    "zoom 1.059 reframe 0.00/0.20",
-    "grade warm",
-    "speed 1.02x",
-    "trim 0.29s",
-    "audio x0.91 + impact-soft-1.wav"
+    "zoom 1.057 reframe 0.00/0.44",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.21s",
+    "audio x1 + impact-soft-1.wav"
    ]
   },
   {
@@ -25,14 +25,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v02.mp4",
    "hook": "Most people stop at level 2",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nMost people stop at level 2.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 3966,
+   "coverMs": 701,
    "changes": [
     "hook \"Most people stop at level 2\"",
-    "zoom 1.031 reframe 0.00/0.65",
-    "grade cool",
-    "speed 0.98x",
-    "trim 0.17s",
-    "audio x0.98 + impact-soft-1.wav"
+    "zoom 1.035 reframe 0.00/0.20",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.16s",
+    "audio x0.92"
    ]
   },
   {
@@ -40,14 +40,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v03.mp4",
    "hook": "5 levels of using AI",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\n5 levels of using AI.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 3853,
+   "coverMs": 876,
    "changes": [
     "hook \"5 levels of using AI\"",
-    "zoom 1.052 reframe 0.00/0.55",
-    "grade film",
-    "speed 1.03x",
-    "trim 0.25s",
-    "audio x1.04"
+    "zoom 1.040 reframe 0.00/0.65",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.15s",
+    "audio x0.95"
    ]
   },
   {
@@ -55,14 +55,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v04.mp4",
    "hook": "Level 5 changes everything",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nLevel 5 changes everything.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 3184,
+   "coverMs": 3528,
    "changes": [
     "hook \"Level 5 changes everything\"",
-    "zoom 1.031 reframe 0.00/0.61",
-    "grade bright",
-    "speed 0.99x",
-    "trim 0.38s",
-    "audio x0.96"
+    "zoom 1.059 reframe 0.00/0.19",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.26s",
+    "audio x0.88"
    ]
   },
   {
@@ -70,14 +70,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v05.mp4",
    "hook": "Where you get stuck with AI",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nWhere you get stuck with AI.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 517,
+   "coverMs": 3409,
    "changes": [
     "hook \"Where you get stuck with AI\"",
-    "zoom 1.055 reframe 0.00/0.72",
-    "grade moody",
-    "speed 1.01x",
-    "trim 0.27s",
-    "audio x1.09"
+    "zoom 1.038 reframe 0.00/0.26",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.25s",
+    "audio x1.01"
    ]
   },
   {
@@ -85,14 +85,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v06.mp4",
    "hook": "Which AI level are you on?",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nWhich AI level are you on?\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 3531,
+   "coverMs": 2345,
    "changes": [
     "hook \"Which AI level are you on?\"",
-    "zoom 1.057 reframe 0.00/0.29",
-    "grade punch",
-    "speed 0.97x",
-    "trim 0.2s",
-    "audio x1.04 + chime-1.wav"
+    "zoom 1.037 reframe 0.00/0.20",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.22s",
+    "audio x1 + impact-soft-1.wav"
    ]
   },
   {
@@ -100,14 +100,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v07.mp4",
    "hook": "Most people stop at level 2",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nMost people stop at level 2.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 509,
+   "coverMs": 1163,
    "changes": [
     "hook \"Most people stop at level 2\"",
-    "zoom 1.032 reframe 0.00/0.22",
-    "grade warm",
-    "speed 1.02x",
-    "trim 0.31s",
-    "audio x0.88"
+    "zoom 1.032 reframe 0.00/0.79",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.15s",
+    "audio x1.08"
    ]
   },
   {
@@ -115,14 +115,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v08.mp4",
    "hook": "5 levels of using AI",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\n5 levels of using AI.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 2041,
+   "coverMs": 1923,
    "changes": [
     "hook \"5 levels of using AI\"",
-    "zoom 1.048 reframe 0.00/0.34",
-    "grade cool",
-    "speed 0.98x",
-    "trim 0.34s",
-    "audio x0.96"
+    "zoom 1.054 reframe 0.00/0.36",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.32s",
+    "audio x1 + impact-soft-2.wav"
    ]
   },
   {
@@ -130,14 +130,14 @@
    "file": "content/_trials/ai-ig-personal-sun-1100-every-level-of-ai/v09.mp4",
    "hook": "Level 5 changes everything",
    "caption": "Comment \"AI\" and I'll send you the 5 skills that get you to level 4, free.\n\nLevel 5 changes everything.\n\nMost people never get past level 2.\n\nLevel 1 asks questions.\n\nLevel 2 gives examples and tone.\n\nLevel 3 gives it your files.\n\nLevel 4 turns repeat work into skills.\n\nLevel 5 runs the work and waits for your yes.\n\n#AI #ClaudeAI #ChatGPT #productivity #AItools",
-   "coverMs": 1331,
+   "coverMs": 1080,
    "changes": [
     "hook \"Level 5 changes everything\"",
-    "zoom 1.053 reframe 0.00/0.78",
-    "grade film",
-    "speed 1.03x",
-    "trim 0.21s",
-    "audio x0.96 + ding-1.wav"
+    "zoom 1.059 reframe 0.00/0.68",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.23s",
+    "audio x1.05 + ding-1.wav"
    ]
   }
  ]
