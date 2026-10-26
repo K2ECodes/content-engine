@@ -29,11 +29,16 @@
      {
       "text": "8.95 m",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 4.17
      }
-    ]
+    ],
+    "hdr": {
+     "num": "8.95 m",
+     "stat": "World long jump record. Mike Powell, 1991.",
+     "metric": "Distance left: 5,570 km"
+    }
    },
    {
     "world": "dark",
@@ -45,11 +50,17 @@
      {
       "text": "9 m",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 9.39
      }
-    ]
+    ],
+    "hdr": {
+     "num": "9 m",
+     "count": 9,
+     "stat": "You land in Times Square",
+     "metric": "Elmos clapping: 1"
+    }
    },
    {
     "world": "dark",
@@ -61,11 +72,17 @@
      {
       "text": "381 m",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 15.37
      }
-    ]
+    ],
+    "hdr": {
+     "num": "381 m",
+     "count": 381,
+     "stat": "A ramp off the Empire State Building",
+     "metric": "Permits: 0"
+    }
    },
    {
     "world": "dark",
@@ -77,11 +94,17 @@
      {
       "text": "26,000 km/h",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 18.49
      }
-    ]
+    ],
+    "hdr": {
+     "num": "26,000 km/h",
+     "count": 26000,
+     "stat": "Over 20 times the speed of sound",
+     "metric": "Speed: Mach 21"
+    }
    },
    {
     "world": "dark",
@@ -93,18 +116,30 @@
      {
       "text": "1,400 km",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 23.59
      }
-    ]
+    ],
+    "hdr": {
+     "num": "1,400 km",
+     "count": 1400,
+     "stat": "3 times higher than the Space Station",
+     "metric": "Altitude: peaking"
+    }
    },
    {
     "world": "dark",
     "type": "phys",
     "bg": "clips/c05.mp4",
     "look": "cinema",
-    "at": 27.3
+    "at": 27.3,
+    "hdr": {
+     "num": "3,000",
+     "count": 3000,
+     "stat": "Cruise passengers film it. Nobody believes them.",
+     "metric": "Over the Atlantic"
+    }
    },
    {
     "world": "dark",
@@ -116,19 +151,43 @@
      {
       "text": "18 min",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 33.95
      }
-    ]
+    ],
+    "hdr": {
+     "num": "18 min",
+     "count": 18,
+     "stat": "Coming down over London",
+     "metric": "Weather: turning"
+    }
    },
    {
     "world": "dark",
     "type": "phys",
     "bg": "clips/c07.mp4",
     "look": "cinema",
-    "at": 35.56
+    "at": 35.56,
+    "hdr": {
+     "num": "Landed",
+     "stat": "It starts raining. The flight was cheaper.",
+     "metric": "Umbrella: no"
+    }
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true,
+   "label": "New York → London"
+  },
+  "rewind": {
+   "title": [
+    "Jump from",
+    "New York to London"
+   ],
+   "until": "The",
+   "scene": 7,
+   "metric": "Distance: ???"
+  }
  }
 }

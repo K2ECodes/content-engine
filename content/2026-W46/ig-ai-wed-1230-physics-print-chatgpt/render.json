@@ -3,7 +3,7 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "script": "What would happen if you printed every ChatGPT answer from one single day? That's about 2.5 billion pages. One office printer would need 119 years, and it would jam on day 2. So you rent a warehouse. The paper weighs about 12,500 tonnes. That's roughly 1,000 school buses. Stack it up, and the pile is 250 kilometers tall. That's 28 Mount Everests. At 10 kilometers, it passes the planes. A pilot radios in and asks who approved this. At 100 kilometers, it leaves the atmosphere. Technically, your printouts are now astronauts. To make all that paper, you'd cut down about 300,000 trees. A whole forest, gone, for one day of questions. And half the pages start with: great question.",
+  "script": "What would happen if you printed every ChatGPT answer from one single day? That's about 2.5B pages. One office printer would need 119 years, and it would jam on day 2. So you rent a warehouse. The paper weighs about 12,500 tonnes. That's roughly 1,000 school buses. Stack it up, and the pile is 250 kilometers tall. That's 28 Mount Everests. At 10 kilometers, it passes the planes. A pilot radios in and asks who approved this. At 100 kilometers, it leaves the atmosphere. Technically, your printouts are now astronauts. To make all that paper, you'd cut down about 300,000 trees. A whole forest, gone, for one day of questions. And half the pages start with: great question.",
   "stop": false,
   "capStyle": "phys",
   "tail": 1.2,
@@ -31,18 +31,24 @@
      {
       "text": "2.5B pages",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 5.43
      },
      {
       "text": "119 yrs",
       "x": 110,
-      "y": 860,
+      "y": 1020,
       "h": 150,
       "at": 7.79
      }
-    ]
+    ],
+    "hdr": {
+     "num": "2.5B pages",
+     "count": 2.5,
+     "stat": "One office printer: 119 years",
+     "metric": "Printer jams: 1"
+    }
    },
    {
     "world": "dark",
@@ -54,11 +60,17 @@
      {
       "text": "12,500 t",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 12.83
      }
-    ]
+    ],
+    "hdr": {
+     "num": "12,500 t",
+     "count": 12500,
+     "stat": "Roughly 1,000 school buses of paper",
+     "metric": "Warehouses rented: 1"
+    }
    },
    {
     "world": "dark",
@@ -70,11 +82,17 @@
      {
       "text": "250 km",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 18.49
      }
-    ]
+    ],
+    "hdr": {
+     "num": "250 km",
+     "count": 250,
+     "stat": "28 Mount Everests, stacked",
+     "metric": "Height: rising"
+    }
    },
    {
     "world": "dark",
@@ -86,11 +104,17 @@
      {
       "text": "10 km",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 22.27
      }
-    ]
+    ],
+    "hdr": {
+     "num": "10 km",
+     "count": 10,
+     "stat": "Cruising altitude. It passes the planes.",
+     "metric": "Pilots asking questions: 1"
+    }
    },
    {
     "world": "dark",
@@ -102,11 +126,17 @@
      {
       "text": "100 km",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 27.21
      }
-    ]
+    ],
+    "hdr": {
+     "num": "100 km",
+     "count": 100,
+     "stat": "The edge of space",
+     "metric": "Printouts in orbit: all of them"
+    }
    },
    {
     "world": "dark",
@@ -118,19 +148,43 @@
      {
       "text": "300,000 trees",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 34.41
      }
-    ]
+    ],
+    "hdr": {
+     "num": "300,000 trees",
+     "count": 300000,
+     "stat": "A whole forest, for 1 day of questions",
+     "metric": "Trees left: 0"
+    }
    },
    {
     "world": "dark",
     "type": "phys",
     "bg": "clips/c06.mp4",
     "look": "cinema",
-    "at": 39.06
+    "at": 39.06,
+    "hdr": {
+     "num": "Page 1",
+     "stat": "Half of them start with: great question",
+     "metric": "Questions answered: 2.5B"
+    }
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true,
+   "label": "1 day of ChatGPT, printed"
+  },
+  "rewind": {
+   "title": [
+    "Print 1 day",
+    "of ChatGPT"
+   ],
+   "until": "That's",
+   "scene": 4,
+   "metric": "Height: ???"
+  }
  }
 }

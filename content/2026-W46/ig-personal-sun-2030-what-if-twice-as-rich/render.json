@@ -3,7 +3,7 @@
  "data": {
   "audio": "audio/vo.wav",
   "words": "words.json",
-  "script": "What would happen if you got twice as rich every single day? Day 1. You have 1 dollar. You buy a pack of gum, and the guy at the corner shop doesn't even look up. Day 10. 512 dollars. You take 8 friends to dinner and pay for everyone. You've never been this popular. Day 20. 524,000. Your phone won't stop ringing. Cousins you've never met want to catch up. Day 30. 537 million. You buy the building you've been renting in. Your old landlord asks if you're hiring. Day 41. 1.1 trillion. You're richer than anyone alive. The bank manager walks you to the lift personally. Day 48. 140 trillion. That's more than the whole world earns in a year. Countries start calling you for a loan. Day 50. 563 trillion. You own more than all the wealth on Earth. There's nothing left to buy. Day 51. Your friend still slides you the bill.",
+  "script": "What would happen if you got twice as rich every single day? Day 1. You have 1 dollar. You buy a pack of gum, and the guy at the corner shop doesn't even look up. Day 10. 512 dollars. You take 8 friends to dinner and pay for everyone. You've never been this popular. Day 20. 524,000. Your phone won't stop ringing. Cousins you've never met want to catch up. Day 30. 537M. You buy the building you've been renting in. Your old landlord asks if you're hiring. Day 41. 1.1 trillion. You're richer than anyone alive. The bank manager walks you to the lift personally. Day 48. 140 trillion. That's more than the whole world earns in a year. Countries start calling you for a loan. Day 50. 563 trillion. You own more than all the wealth on Earth. There's nothing left to buy. Day 51. Your friend still slides you the bill.",
   "stop": false,
   "capStyle": "phys",
   "tail": 1.2,
@@ -30,11 +30,16 @@
      {
       "text": "$1",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 4.11
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$1",
+     "stat": "A pack of gum. Nobody looks up.",
+     "metric": "Day 1"
+    }
    },
    {
     "world": "dark",
@@ -46,11 +51,17 @@
      {
       "text": "$512",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 9.83
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$512",
+     "count": 512,
+     "stat": "Dinner for 8 friends, on you",
+     "metric": "Day 10 · Popularity: rising"
+    }
    },
    {
     "world": "dark",
@@ -62,11 +73,17 @@
      {
       "text": "$524K",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 16.35
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$524,000",
+     "count": 524000,
+     "stat": "Cousins you've never met want to catch up",
+     "metric": "Day 20 · Missed calls: 47"
+    }
    },
    {
     "world": "dark",
@@ -78,11 +95,17 @@
      {
       "text": "$537M",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 22.59
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$537M",
+     "count": 537,
+     "stat": "You buy the building you rent in",
+     "metric": "Day 30 · Landlord: asking for a job"
+    }
    },
    {
     "world": "dark",
@@ -94,11 +117,17 @@
      {
       "text": "$1.1T",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 28.71
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$1.1T",
+     "count": 1.1,
+     "stat": "Richer than anyone alive",
+     "metric": "Day 41"
+    }
    },
    {
     "world": "dark",
@@ -110,11 +139,17 @@
      {
       "text": "$140T",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 35.81
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$140T",
+     "count": 140,
+     "stat": "More than the whole world earns in a year",
+     "metric": "Day 48 · Countries calling: 12"
+    }
    },
    {
     "world": "dark",
@@ -126,19 +161,44 @@
      {
       "text": "$563T",
       "x": 110,
-      "y": 640,
+      "y": 820,
       "h": 150,
       "at": 42.21
      }
-    ]
+    ],
+    "hdr": {
+     "num": "$563T",
+     "count": 563,
+     "stat": "More than all the wealth on Earth",
+     "metric": "Day 50 · Things left to buy: 0"
+    }
    },
    {
     "world": "dark",
     "type": "phys",
     "bg": "clips/c07.mp4",
     "look": "cinema",
-    "at": 46.6
+    "at": 46.6,
+    "hdr": {
+     "num": "$1.1 quadrillion",
+     "count": 1.1,
+     "stat": "Your friend still slides you the bill",
+     "metric": "Day 51 · Bill: yours"
+    }
    }
-  ]
+  ],
+  "hdr": {
+   "panel": true,
+   "label": "Twice as rich every day"
+  },
+  "rewind": {
+   "title": [
+    "Twice as rich",
+    "every single day"
+   ],
+   "until": "Day",
+   "scene": 6,
+   "metric": "Day ???"
+  }
  }
 }

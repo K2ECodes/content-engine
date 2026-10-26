@@ -2,10 +2,10 @@
   "channel": "ig-ai",
   "format": "video",
   "aspect": "9:16",
-  "pillar": "entertainment",
-  "execution": "story",
+  "pillar": "belief-shift",
+  "execution": "proof",
   "topic": "physics-print-chatgpt",
-  "lead": false,
+  "lead": true,
   "cta_type": "comment-keyword",
   "slot": "2026-11-11T12:30",
   "timezone": "America/New_York",
@@ -13,5 +13,6 @@
   "media": [
     "video.mp4",
     "poster.png"
-  ]
+  ],
+  "cta_keyword": "AI"
 }
