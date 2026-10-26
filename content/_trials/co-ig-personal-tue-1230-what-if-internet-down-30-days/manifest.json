@@ -1,0 +1,69 @@
+{
+ "post": "content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days",
+ "source": "video.mp4",
+ "duration": 57.333333,
+ "created": "2026-10-26T01:12:27.844Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/co-ig-personal-tue-1230-what-if-internet-down-30-days/v01.mp4",
+   "hook": "The internet is off. Hour 1:",
+   "caption": "The internet is off. Hour 1.\n\nHour 1 your card stops working.\n\nDay 1 banks, airlines and hospitals go back to paper.\n\nDay 30 nobody remembers their passwords.\n\nWould you last 30 days offline?\n\nFollow for part 2.\n\nOnly 14% of US payments are still made in cash (Federal Reserve).\n\nMore than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).\n\n#whatif #internet #tech #technology #AI",
+   "coverMs": 402,
+   "changes": [
+    "hook \"The internet is off. Hour 1:\"",
+    "zoom 1.056 reframe 0.00/0.82",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.18s",
+    "audio x0.91 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/co-ig-personal-tue-1230-what-if-internet-down-30-days/v02.mp4",
+   "hook": "30 days with no internet",
+   "caption": "30 days with no internet.\n\nHour 1 your card stops working.\n\nDay 1 banks, airlines and hospitals go back to paper.\n\nDay 30 nobody remembers their passwords.\n\nWould you last 30 days offline?\n\nFollow for part 2.\n\nOnly 14% of US payments are still made in cash (Federal Reserve).\n\nMore than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).\n\n#whatif #internet #tech #technology #AI",
+   "coverMs": 2039,
+   "changes": [
+    "hook \"30 days with no internet\"",
+    "zoom 1.032 reframe 0.00/0.42",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.38s",
+    "audio x0.91"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/co-ig-personal-tue-1230-what-if-internet-down-30-days/v03.mp4",
+   "hook": "Day 1 offline: back to paper",
+   "caption": "Day 1 offline: back to paper.\n\nHour 1 your card stops working.\n\nDay 1 banks, airlines and hospitals go back to paper.\n\nDay 30 nobody remembers their passwords.\n\nWould you last 30 days offline?\n\nFollow for part 2.\n\nOnly 14% of US payments are still made in cash (Federal Reserve).\n\nMore than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).\n\n#whatif #internet #tech #technology #AI",
+   "coverMs": 2798,
+   "changes": [
+    "hook \"Day 1 offline: back to paper\"",
+    "zoom 1.031 reframe 0.00/0.74",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.33s",
+    "audio x1 + impact-soft-1.wav"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/co-ig-personal-tue-1230-what-if-internet-down-30-days/v04.mp4",
+   "hook": "Would you last 30 days?",
+   "caption": "Would you last 30 days?\n\nHour 1 your card stops working.\n\nDay 1 banks, airlines and hospitals go back to paper.\n\nDay 30 nobody remembers their passwords.\n\nWould you last 30 days offline?\n\nFollow for part 2.\n\nOnly 14% of US payments are still made in cash (Federal Reserve).\n\nMore than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).\n\n#whatif #internet #tech #technology #AI",
+   "coverMs": 2918,
+   "changes": [
+    "hook \"Would you last 30 days?\"",
+    "zoom 1.042 reframe 0.00/0.75",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.16s",
+    "audio x1.05"
+   ]
+  }
+ ]
+}

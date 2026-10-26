@@ -1,8 +1,8 @@
 {
  "post": "content/2026-W46/ig-personal-tue-1230-what-if-internet-down-30-days",
  "source": "video.mp4",
- "duration": 34.966667,
- "created": "2026-10-24T22:20:21.348Z",
+ "duration": 57.333333,
+ "created": "2026-10-26T00:57:54.942Z",
  "aiLabel": false,
  "variants": [
   {
@@ -10,14 +10,14 @@
    "file": "content/_tiktok/ig-personal-tue-1230-what-if-internet-down-30-days/variants/v01.mp4",
    "hook": "The internet is off. Hour 1:",
    "caption": "The internet is off. Hour 1.\n\nHour 1 your card stops working.\n\nDay 1 banks, airlines and hospitals go back to paper.\n\nDay 30 nobody remembers their passwords.\n\nWould you last 30 days offline?\n\nFollow for part 2.\n\nOnly 14% of US payments are still made in cash (Federal Reserve).\n\nMore than 99% of bits of data between continents run through cables on the sea floor (TeleGeography).\n\n#whatif #internet #tech #technology #AI",
-   "coverMs": 3659,
+   "coverMs": 508,
    "changes": [
     "hook \"The internet is off. Hour 1:\"",
-    "zoom 1.043 reframe 0.00/0.22",
-    "grade warm",
-    "speed 1.02x",
-    "trim 0.35s",
-    "audio x1.03"
+    "zoom 1.050 reframe 0.00/0.22",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.28s",
+    "audio x1.07"
    ]
   }
  ]
