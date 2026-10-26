@@ -1,8 +1,8 @@
 {
  "post": "content/2026-W46/ig-personal-fri-1230-you-decide-ai-spent-4000",
  "source": "video.mp4",
- "duration": 32.066667,
- "created": "2026-10-25T06:29:30.597Z",
+ "duration": 50.633333,
+ "created": "2026-10-26T04:17:43.180Z",
  "aiLabel": false,
  "variants": [
   {
@@ -10,13 +10,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v01.mp4",
    "hook": null,
    "caption": "Your AI just spent $4,000.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 3258,
+   "coverMs": 2843,
    "changes": [
-    "zoom 1.034 reframe 0.00/0.41",
-    "grade punch",
-    "speed 0.97x",
-    "trim 0.34s",
-    "audio x0.92"
+    "zoom 1.051 reframe 0.00/0.27",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.11s",
+    "audio x1.03 + ding-1.wav"
    ]
   },
   {
@@ -24,13 +24,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v02.mp4",
    "hook": null,
    "caption": "You have 2 days to report it.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 1684,
+   "coverMs": 516,
    "changes": [
-    "zoom 1.032 reframe 0.00/0.15",
-    "grade warm",
-    "speed 1.02x",
+    "zoom 1.056 reframe 0.00/0.52",
+    "grade cool",
+    "speed 0.98x",
     "trim 0.32s",
-    "audio x0.9"
+    "audio x1.04 + impact-soft-1.wav"
    ]
   },
   {
@@ -38,13 +38,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v03.mp4",
    "hook": null,
    "caption": "$4,000 gone. Nobody approved it.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 2594,
+   "coverMs": 2139,
    "changes": [
-    "zoom 1.048 reframe 0.00/0.44",
-    "grade cool",
-    "speed 0.98x",
-    "trim 0.31s",
-    "audio x1.01"
+    "zoom 1.051 reframe 0.00/0.75",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.18s",
+    "audio x1.08"
    ]
   },
   {
@@ -52,13 +52,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v04.mp4",
    "hook": null,
    "caption": "Your agent bought something. What now?\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 3474,
+   "coverMs": 801,
    "changes": [
-    "zoom 1.039 reframe 0.00/0.73",
-    "grade film",
-    "speed 1.03x",
-    "trim 0.16s",
-    "audio x0.94"
+    "zoom 1.050 reframe 0.00/0.76",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.32s",
+    "audio x0.92"
    ]
   },
   {
@@ -66,13 +66,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v05.mp4",
    "hook": null,
    "caption": "A or B: your AI just spent $4,000.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 3501,
+   "coverMs": 712,
    "changes": [
-    "zoom 1.049 reframe 0.00/0.51",
-    "grade bright",
-    "speed 0.99x",
-    "trim 0.21s",
-    "audio x0.96"
+    "zoom 1.048 reframe 0.00/0.25",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.37s",
+    "audio x1.03 + ding-1.wav"
    ]
   },
   {
@@ -80,13 +80,13 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v06.mp4",
    "hook": null,
    "caption": "The purchase alert nobody wants.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 2651,
+   "coverMs": 1702,
    "changes": [
-    "zoom 1.034 reframe 0.00/0.21",
-    "grade moody",
-    "speed 1.01x",
-    "trim 0.33s",
-    "audio x1.05"
+    "zoom 1.033 reframe 0.00/0.61",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.14s",
+    "audio x0.97"
    ]
   },
   {
@@ -94,12 +94,12 @@
    "file": "content/_trials/kk-ig-personal-fri-1230-you-decide-ai-spent-4000/v07.mp4",
    "hook": null,
    "caption": "Your AI just spent $4,000.\n\nYou never asked for it.\n\nWhat do you do first?\n\nA: call your bank now.\n\nB: ask the store for a refund first.\n\nComment A or B.\n\nPart 2 shows what happens.\n\nThe rules are real: report an unauthorized debit card charge within 2 business days and your loss is capped at $50 in the US.\n\nLater, up to $500.\n\nAfter 60 days from your statement, all of it.\n\n#AI #AIagents #money #personalfinance #tech",
-   "coverMs": 3784,
+   "coverMs": 1215,
    "changes": [
-    "zoom 1.033 reframe 0.00/0.47",
-    "grade punch",
-    "speed 0.97x",
-    "trim 0.33s",
+    "zoom 1.053 reframe 0.00/0.78",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.17s",
     "audio x0.93"
    ]
   }
