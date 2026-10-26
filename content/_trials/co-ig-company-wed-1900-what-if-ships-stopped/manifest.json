@@ -1,0 +1,69 @@
+{
+ "post": "content/2026-W46/ig-company-wed-1900-what-if-ships-stopped",
+ "source": "video.mp4",
+ "duration": 59.3,
+ "created": "2026-10-26T00:21:39.239Z",
+ "aiLabel": false,
+ "variants": [
+  {
+   "id": "v01",
+   "file": "content/_trials/co-ig-company-wed-1900-what-if-ships-stopped/v01.mp4",
+   "hook": "What if every ship stopped for 30 days?",
+   "caption": "What if every ship stopped for 30 days?\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 2741,
+   "changes": [
+    "hook \"What if every ship stopped for 30 days?\"",
+    "zoom 1.049 reframe 0.00/0.77",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.13s",
+    "audio x0.94 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v02",
+   "file": "content/_trials/co-ig-company-wed-1900-what-if-ships-stopped/v02.mp4",
+   "hook": "Day 1: the ports go quiet",
+   "caption": "Day 1: the ports go quiet.\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 3673,
+   "changes": [
+    "hook \"Day 1: the ports go quiet\"",
+    "zoom 1.042 reframe 0.00/0.52",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.38s",
+    "audio x0.91"
+   ]
+  },
+  {
+   "id": "v03",
+   "file": "content/_trials/co-ig-company-wed-1900-what-if-ships-stopped/v03.mp4",
+   "hook": "30 days without container ships",
+   "caption": "30 days without container ships.\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 2398,
+   "changes": [
+    "hook \"30 days without container ships\"",
+    "zoom 1.037 reframe 0.00/0.34",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.35s",
+    "audio x0.91 + ding-1.wav"
+   ]
+  },
+  {
+   "id": "v04",
+   "file": "content/_trials/co-ig-company-wed-1900-what-if-ships-stopped/v04.mp4",
+   "hook": "What if every ship stopped for 30 days?",
+   "caption": "What if every ship stopped for 30 days?\n\nHow many weeks could your business last?\n\n#logistics #supplychain #shipping #ecommerce #whatif",
+   "coverMs": 3389,
+   "changes": [
+    "hook \"What if every ship stopped for 30 days?\"",
+    "zoom 1.053 reframe 0.00/0.77",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.34s",
+    "audio x0.95 + impact-soft-2.wav"
+   ]
+  }
+ ]
+}
