@@ -1,8 +1,8 @@
 {
  "post": "content/2026-W46/ig-personal-thu-1230-you-decide-anthropic-ceo-ep1",
  "source": "video.mp4",
- "duration": 22.033333,
- "created": "2026-10-25T15:09:21.620Z",
+ "duration": 33.066667,
+ "created": "2026-10-26T05:05:07.377Z",
  "aiLabel": false,
  "variants": [
   {
@@ -10,14 +10,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v01.mp4",
    "hook": "You're CEO of Anthropic. Now what?",
    "caption": "You're CEO of Anthropic. Now what?\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3708,
+   "coverMs": 2886,
    "changes": [
     "hook \"You're CEO of Anthropic. Now what?\"",
-    "zoom 1.043 reframe 0.00/0.63",
-    "grade film",
-    "speed 1.03x",
-    "trim 0.13s",
-    "audio x0.92 + ding-1.wav"
+    "zoom 1.043 reframe 0.00/0.17",
+    "grade warm",
+    "speed 1.02x",
+    "trim 0.32s",
+    "audio x0.91 + ding-1.wav"
    ]
   },
   {
@@ -25,14 +25,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v02.mp4",
    "hook": "Day 1 as Anthropic's CEO",
    "caption": "Day 1 as Anthropic's CEO.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3496,
+   "coverMs": 1560,
    "changes": [
     "hook \"Day 1 as Anthropic's CEO\"",
-    "zoom 1.044 reframe 0.00/0.25",
-    "grade bright",
-    "speed 0.99x",
-    "trim 0.16s",
-    "audio x0.93 + ding-1.wav"
+    "zoom 1.058 reframe 0.00/0.17",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.29s",
+    "audio x1.04 + impact-soft-1.wav"
    ]
   },
   {
@@ -40,14 +40,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v03.mp4",
    "hook": "400 unread messages. You're the CEO.",
    "caption": "400 unread messages. You're the CEO.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3448,
+   "coverMs": 666,
    "changes": [
     "hook \"400 unread messages. You're the CEO.\"",
-    "zoom 1.030 reframe 0.00/0.72",
-    "grade moody",
-    "speed 1.01x",
-    "trim 0.35s",
-    "audio x0.95 + chime-1.wav"
+    "zoom 1.054 reframe 0.00/0.80",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.38s",
+    "audio x1.06"
    ]
   },
   {
@@ -55,14 +55,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v04.mp4",
    "hook": "Run Anthropic for 1 day",
    "caption": "Run Anthropic for 1 day.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3387,
+   "coverMs": 2214,
    "changes": [
     "hook \"Run Anthropic for 1 day\"",
-    "zoom 1.032 reframe 0.00/0.66",
-    "grade punch",
-    "speed 0.97x",
-    "trim 0.28s",
-    "audio x0.95"
+    "zoom 1.040 reframe 0.00/0.48",
+    "grade bright",
+    "speed 0.99x",
+    "trim 0.19s",
+    "audio x1.04"
    ]
   },
   {
@@ -70,14 +70,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v05.mp4",
    "hook": "A or B. You decide.",
    "caption": "A or B. You decide.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 2094,
+   "coverMs": 2065,
    "changes": [
     "hook \"A or B. You decide.\"",
-    "zoom 1.038 reframe 0.00/0.29",
-    "grade warm",
-    "speed 1.02x",
-    "trim 0.18s",
-    "audio x1.1"
+    "zoom 1.050 reframe 0.00/0.58",
+    "grade moody",
+    "speed 1.01x",
+    "trim 0.3s",
+    "audio x0.97"
    ]
   },
   {
@@ -85,14 +85,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v06.mp4",
    "hook": "Day 0: you just got the keys to Anthropic",
    "caption": "Day 0: you just got the keys to Anthropic.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 2933,
+   "coverMs": 3110,
    "changes": [
     "hook \"Day 0: you just got the keys to Anthropic\"",
-    "zoom 1.044 reframe 0.00/0.34",
-    "grade cool",
-    "speed 0.98x",
-    "trim 0.33s",
-    "audio x1 + impact-soft-2.wav"
+    "zoom 1.045 reframe 0.00/0.62",
+    "grade punch",
+    "speed 0.97x",
+    "trim 0.32s",
+    "audio x1.05"
    ]
   },
   {
@@ -100,14 +100,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v07.mp4",
    "hook": "You're CEO of Anthropic. Now what?",
    "caption": "You're CEO of Anthropic. Now what?\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3245,
+   "coverMs": 3594,
    "changes": [
     "hook \"You're CEO of Anthropic. Now what?\"",
-    "zoom 1.052 reframe 0.00/0.26",
-    "grade film",
-    "speed 1.03x",
+    "zoom 1.036 reframe 0.00/0.27",
+    "grade warm",
+    "speed 1.02x",
     "trim 0.38s",
-    "audio x1.02 + impact-soft-1.wav"
+    "audio x0.89"
    ]
   },
   {
@@ -115,14 +115,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v08.mp4",
    "hook": "Day 1 as Anthropic's CEO",
    "caption": "Day 1 as Anthropic's CEO.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 2784,
+   "coverMs": 2051,
    "changes": [
     "hook \"Day 1 as Anthropic's CEO\"",
-    "zoom 1.043 reframe 0.00/0.38",
-    "grade bright",
-    "speed 0.99x",
-    "trim 0.22s",
-    "audio x1.05"
+    "zoom 1.039 reframe 0.00/0.79",
+    "grade cool",
+    "speed 0.98x",
+    "trim 0.24s",
+    "audio x1 + impact-soft-1.wav"
    ]
   },
   {
@@ -130,14 +130,14 @@
    "file": "content/_trials/ai-ig-personal-thu-1230-you-decide-anthropic-ceo-ep1/v09.mp4",
    "hook": "400 unread messages. You're the CEO.",
    "caption": "400 unread messages. You're the CEO.\n\nDay 1.\n\nWhat do you do?\n\nComment A or B.\n\nThe most comments decides day 2.\n\nA: ship a new Claude feature tonight.\n\nB: let Claude run the company for 24 hours while you watch.\n\nEpisode 1.\n\nA game, not real news.\n\n#AI #ClaudeAI #Anthropic #choosewisely #tech",
-   "coverMs": 3672,
+   "coverMs": 3323,
    "changes": [
     "hook \"400 unread messages. You're the CEO.\"",
-    "zoom 1.032 reframe 0.00/0.29",
-    "grade moody",
-    "speed 1.01x",
-    "trim 0.13s",
-    "audio x1.01 + impact-soft-1.wav"
+    "zoom 1.056 reframe 0.00/0.78",
+    "grade film",
+    "speed 1.03x",
+    "trim 0.29s",
+    "audio x0.99"
    ]
   }
  ]
