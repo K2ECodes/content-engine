@@ -25,3 +25,6 @@ Source: instagram.com/reel/DctEm8ugamJ, Christian Di Bratto (his agency ghostwri
   - MOFU: 3PL / e-commerce ops commentary and frameworks.
   - BOFU: case studies, objections, FAQs (proof bank only).
 - **Connecting and commenting** are manual, done in Korede's own account. We can only supply ICP lists and comment drafts; we never automate LinkedIn actions.
+
+## Korede's decision (2026-10-28)
+Keep 7 posts a week on li-personal, not 5. Split: 3 top-of-funnel (founder stories, hot takes, agent-wars fight cards), 3 middle-of-funnel (3PL/e-commerce ops commentary, frameworks to steal), 1 bottom-of-funnel (case study, objection or FAQ from the proof bank). Ask Korede for anything we need as it comes up (proof, testimonials, profile assets).
