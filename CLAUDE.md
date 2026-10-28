@@ -1,7 +1,7 @@
 # Content Systems.ai content engine: standing rules
 
 
-> **Read `business-brief.md` first (Korede, 2026-10-28).** It's the source of truth for Content Systems.ai facts, offers, proof, pillars, CTAs and voice, and it overrides the old master prompt. Use only facts and numbers from it (sourced news is still fine for news posts). Its banned-word list and formatting rules are hard rules. Never name 10am Anywhere or any unapproved client. Korede decided (2026-10-28): keep autopilot on every channel (the brief's approval line is about client outbound, not our own posts), and keep "40%" everywhere (not "40 percent").
+> **Read `business-brief.md` first (Korede, 2026-10-28).** It's the source of truth for Content Systems.ai facts, offers, proof, pillars, CTAs and voice, and it overrides the old master prompt. It's a reference, not a fact whitelist: the "use only facts/numbers from this brief" line and the Proof section are NOT rules (Korede, 2026-10-28), so sourced facts from elsewhere are fine. No workshop dates on LinkedIn. Never promote The Purposeful Entrepreneur community (Whop). Its banned-word list and formatting rules are hard rules. Never name 10am Anywhere or any unapproved client. Korede decided (2026-10-28): keep autopilot on every channel (the brief's approval line is about client outbound, not our own posts), and keep "40%" everywhere (not "40 percent").
 
 Plans, produces and queues social content for Content Systems.ai. Owner: Korede Kolawole (co-founder, CTO). Read this before every session. Rules marked LINT are enforced by `npm run lint`; a post that fails lint never gets queued.
 
