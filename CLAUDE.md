@@ -130,7 +130,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 
 ## House style (all LINT, errors unless noted)
 - Zero em dashes and zero en dashes. Use commas, periods, "to" or a middot.
-- No exclamation marks. Write percentages as "40%" (Korede, 2026-10-24: never "40%", it reads stupid). In TTS say fields write "40 percent".
+- Exclamation marks are allowed (Korede, 2026-10-28; overrides the brief). Write percentages as "40%" (Korede, 2026-10-24: never "40%", it reads stupid). In TTS say fields write "40 percent".
 - Banned: "purpose-led", "human-first", "responsible AI", "second brain" (say "company brain"), "AI consulting firm", "AI agency".
 - Always "Content Systems.ai" (lowercase ".ai"). The bare domain contentsystems.ai is fine in links.
 - Numerals over spelled-out numbers (warning for "one", error for the rest).

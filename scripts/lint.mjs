@@ -48,7 +48,7 @@ const RULES = [
     message: () => 'hyphen used as a dash. Use a comma, period, "to" or a middot' },
   { id: 'post-type-label', level: 'error', re: /\b(belief[\s-]shift|calm[\s-]playbooks?|operational[\s-]clarity|tools[\s-]vs\.?[\s-]systems)\b/gi,
     message: (m) => `internal post-type label "${m}". Never name the pillar or execution in copy or on media` },
-  { id: 'exclamation', level: 'error', re: /!/g, message: () => 'exclamation mark' },
+  // Korede 2026-10-28: exclamation marks are allowed
   // Korede 2026-10-24: percentages are fine ("10%"); "X in 100" reads stupid
   { id: 'in-100', level: 'warn', re: /\b\d+(?:\.\d+)?\s+in\s+100\b/gi,
     message: () => 'prefer a percentage ("40%"); keep "X in Y" only when it reads naturally ("1 in 4", "9 out of 10")' },
