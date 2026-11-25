@@ -23,10 +23,10 @@
   "limits": {
     "li-personal": {
       "maxChars": 3000,
-      "targetMin": 900,
-      "targetMax": 1500,
-      "maxHashtags": 15,
-      "minHashtags": 10
+      "targetMin": 400,
+      "targetMax": 1200,
+      "maxHashtags": 5,
+      "minHashtags": 3
     },
     "li-company": {
       "maxChars": 3000,
@@ -49,6 +49,13 @@
       "maxChars": 2200,
       "maxHashtags": 5,
       "minHashtags": 5
+    },
+    "li-sanjana": {
+      "maxChars": 3000,
+      "targetMin": 400,
+      "targetMax": 1200,
+      "maxHashtags": 5,
+      "minHashtags": 3
     }
   },
   "motivationalCloserPatterns": [
