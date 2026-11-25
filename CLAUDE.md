@@ -136,7 +136,7 @@ Formats: `static`, `carousel`, `video`. Vary aspect ratios across the week (1:1,
 - Numerals over spelled-out numbers (warning for "one", error for the rest).
 - Contractions everywhere they fit (warning).
 - No motivational closers (warning, heuristic on the last line).
-- Limits: LinkedIn 3000 chars (aim 900 to 1500, warning outside), Instagram caption 2200. Hashtags: 10 to 15 on LinkedIn, exactly 5 on IG.
+- Limits: LinkedIn 3000 chars (aim 900 to 1500, warning outside), Instagram caption 2200. Hashtags: 3 to 5 on Korede's and Sanjana's personal LinkedIn (v2, 2026-11-25), 10 to 15 on the company LinkedIn, exactly 5 on IG.
 
 ## Proof bank (from contentsystems.ai/case-studies, anonymised)
 Use only these numbers unless Korede supplies more. Never invent results.
