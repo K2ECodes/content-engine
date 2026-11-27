@@ -1,0 +1,18 @@
+{
+  "channel": "ig-ai",
+  "format": "video",
+  "aspect": "9:16",
+  "pillar": "tools-vs-systems",
+  "execution": "proof",
+  "topic": "gemini-tasks-free",
+  "lead": true,
+  "cta_type": "comment-keyword",
+  "cta_keyword": "TASKS",
+  "slot": "2026-11-27T12:30",
+  "timezone": "America/New_York",
+  "status": "linted",
+  "media": [
+    "video.mp4",
+    "poster.png"
+  ]
+}

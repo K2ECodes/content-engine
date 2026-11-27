@@ -1,0 +1,1230 @@
+{
+ "words": [
+  {
+   "w": "Google",
+   "start": 0.0,
+   "end": 0.46
+  },
+  {
+   "w": "just",
+   "start": 0.46,
+   "end": 0.68
+  },
+  {
+   "w": "made",
+   "start": 0.68,
+   "end": 0.86
+  },
+  {
+   "w": "Gemini",
+   "start": 0.86,
+   "end": 1.18
+  },
+  {
+   "w": "Tasks",
+   "start": 1.18,
+   "end": 1.62
+  },
+  {
+   "w": "free,",
+   "start": 1.62,
+   "end": 1.92
+  },
+  {
+   "w": "and",
+   "start": 2.28,
+   "end": 2.36
+  },
+  {
+   "w": "this",
+   "start": 2.36,
+   "end": 2.48
+  },
+  {
+   "w": "is",
+   "start": 2.48,
+   "end": 2.62
+  },
+  {
+   "w": "big",
+   "start": 2.62,
+   "end": 2.8
+  },
+  {
+   "w": "news.",
+   "start": 2.8,
+   "end": 3.04
+  },
+  {
+   "w": "Tasks",
+   "start": 3.56,
+   "end": 4.04
+  },
+  {
+   "w": "is",
+   "start": 4.04,
+   "end": 4.2
+  },
+  {
+   "w": "Gemini's",
+   "start": 4.2,
+   "end": 4.7
+  },
+  {
+   "w": "AI",
+   "start": 4.7,
+   "end": 4.9
+  },
+  {
+   "w": "agent.",
+   "start": 4.9,
+   "end": 5.32
+  },
+  {
+   "w": "Instead",
+   "start": 5.84,
+   "end": 6.06
+  },
+  {
+   "w": "of",
+   "start": 6.06,
+   "end": 6.2
+  },
+  {
+   "w": "just",
+   "start": 6.2,
+   "end": 6.32
+  },
+  {
+   "w": "chatting,",
+   "start": 6.32,
+   "end": 6.64
+  },
+  {
+   "w": "you",
+   "start": 6.96,
+   "end": 7.04
+  },
+  {
+   "w": "handed",
+   "start": 7.04,
+   "end": 7.24
+  },
+  {
+   "w": "a",
+   "start": 7.24,
+   "end": 7.38
+  },
+  {
+   "w": "job,",
+   "start": 7.38,
+   "end": 7.66
+  },
+  {
+   "w": "it",
+   "start": 7.98,
+   "end": 8.06
+  },
+  {
+   "w": "works",
+   "start": 8.06,
+   "end": 8.24
+  },
+  {
+   "w": "on",
+   "start": 8.24,
+   "end": 8.4
+  },
+  {
+   "w": "it",
+   "start": 8.4,
+   "end": 8.5
+  },
+  {
+   "w": "in",
+   "start": 8.5,
+   "end": 8.56
+  },
+  {
+   "w": "the",
+   "start": 8.56,
+   "end": 8.64
+  },
+  {
+   "w": "background,",
+   "start": 8.64,
+   "end": 8.96
+  },
+  {
+   "w": "and",
+   "start": 9.34,
+   "end": 9.5
+  },
+  {
+   "w": "it",
+   "start": 9.5,
+   "end": 9.6
+  },
+  {
+   "w": "pings",
+   "start": 9.6,
+   "end": 9.82
+  },
+  {
+   "w": "you",
+   "start": 9.82,
+   "end": 9.96
+  },
+  {
+   "w": "when",
+   "start": 9.96,
+   "end": 10.06
+  },
+  {
+   "w": "it's",
+   "start": 10.06,
+   "end": 10.26
+  },
+  {
+   "w": "done.",
+   "start": 10.26,
+   "end": 10.38
+  },
+  {
+   "w": "For",
+   "start": 10.92,
+   "end": 11.04
+  },
+  {
+   "w": "example,",
+   "start": 11.04,
+   "end": 11.34
+  },
+  {
+   "w": "I",
+   "start": 11.7,
+   "end": 11.8
+  },
+  {
+   "w": "can",
+   "start": 11.8,
+   "end": 11.92
+  },
+  {
+   "w": "flip",
+   "start": 11.92,
+   "end": 12.08
+  },
+  {
+   "w": "Gemini",
+   "start": 12.08,
+   "end": 12.46
+  },
+  {
+   "w": "from",
+   "start": 12.46,
+   "end": 12.7
+  },
+  {
+   "w": "chat",
+   "start": 12.7,
+   "end": 12.98
+  },
+  {
+   "w": "to",
+   "start": 12.98,
+   "end": 13.14
+  },
+  {
+   "w": "task",
+   "start": 13.14,
+   "end": 13.5
+  },
+  {
+   "w": "and",
+   "start": 13.5,
+   "end": 13.68
+  },
+  {
+   "w": "type,",
+   "start": 13.68,
+   "end": 13.92
+  },
+  {
+   "w": "Watch",
+   "start": 14.36,
+   "end": 14.62
+  },
+  {
+   "w": "flights",
+   "start": 14.62,
+   "end": 14.9
+  },
+  {
+   "w": "from",
+   "start": 14.9,
+   "end": 15.14
+  },
+  {
+   "w": "New",
+   "start": 15.14,
+   "end": 15.3
+  },
+  {
+   "w": "York",
+   "start": 15.3,
+   "end": 15.5
+  },
+  {
+   "w": "to",
+   "start": 15.5,
+   "end": 15.62
+  },
+  {
+   "w": "Lagos",
+   "start": 15.62,
+   "end": 15.96
+  },
+  {
+   "w": "in",
+   "start": 15.96,
+   "end": 16.14
+  },
+  {
+   "w": "December,",
+   "start": 16.14,
+   "end": 16.52
+  },
+  {
+   "w": "and",
+   "start": 16.82,
+   "end": 16.98
+  },
+  {
+   "w": "tell",
+   "start": 16.98,
+   "end": 17.12
+  },
+  {
+   "w": "me",
+   "start": 17.12,
+   "end": 17.26
+  },
+  {
+   "w": "when",
+   "start": 17.26,
+   "end": 17.4
+  },
+  {
+   "w": "one",
+   "start": 17.4,
+   "end": 17.58
+  },
+  {
+   "w": "drops",
+   "start": 17.58,
+   "end": 17.82
+  },
+  {
+   "w": "under",
+   "start": 17.82,
+   "end": 18.14
+  },
+  {
+   "w": "$900.",
+   "start": 18.14,
+   "end": 18.56
+  },
+  {
+   "w": "It",
+   "start": 19.5,
+   "end": 19.76
+  },
+  {
+   "w": "checks",
+   "start": 19.76,
+   "end": 19.94
+  },
+  {
+   "w": "the",
+   "start": 19.94,
+   "end": 20.12
+  },
+  {
+   "w": "prices",
+   "start": 20.12,
+   "end": 20.4
+  },
+  {
+   "w": "every",
+   "start": 20.4,
+   "end": 20.66
+  },
+  {
+   "w": "morning,",
+   "start": 20.66,
+   "end": 21.06
+  },
+  {
+   "w": "compares",
+   "start": 21.44,
+   "end": 21.7
+  },
+  {
+   "w": "the",
+   "start": 21.7,
+   "end": 21.96
+  },
+  {
+   "w": "airlines,",
+   "start": 21.96,
+   "end": 22.26
+  },
+  {
+   "w": "and",
+   "start": 22.82,
+   "end": 23.0
+  },
+  {
+   "w": "sends",
+   "start": 23.0,
+   "end": 23.2
+  },
+  {
+   "w": "me",
+   "start": 23.2,
+   "end": 23.34
+  },
+  {
+   "w": "a",
+   "start": 23.34,
+   "end": 23.42
+  },
+  {
+   "w": "notification",
+   "start": 23.42,
+   "end": 23.78
+  },
+  {
+   "w": "the",
+   "start": 23.78,
+   "end": 24.14
+  },
+  {
+   "w": "moment",
+   "start": 24.14,
+   "end": 24.44
+  },
+  {
+   "w": "the",
+   "start": 24.44,
+   "end": 24.64
+  },
+  {
+   "w": "price",
+   "start": 24.64,
+   "end": 24.82
+  },
+  {
+   "w": "drops.",
+   "start": 24.82,
+   "end": 25.14
+  },
+  {
+   "w": "But",
+   "start": 25.66,
+   "end": 25.92
+  },
+  {
+   "w": "here's",
+   "start": 25.92,
+   "end": 26.16
+  },
+  {
+   "w": "the",
+   "start": 26.16,
+   "end": 26.22
+  },
+  {
+   "w": "part",
+   "start": 26.22,
+   "end": 26.4
+  },
+  {
+   "w": "most",
+   "start": 26.4,
+   "end": 26.64
+  },
+  {
+   "w": "people",
+   "start": 26.64,
+   "end": 26.88
+  },
+  {
+   "w": "are",
+   "start": 26.88,
+   "end": 27.02
+  },
+  {
+   "w": "missing.",
+   "start": 27.02,
+   "end": 27.24
+  },
+  {
+   "w": "In",
+   "start": 27.77,
+   "end": 28.0
+  },
+  {
+   "w": "the",
+   "start": 28.0,
+   "end": 28.12
+  },
+  {
+   "w": "US,",
+   "start": 28.12,
+   "end": 28.36
+  },
+  {
+   "w": "it",
+   "start": 28.82,
+   "end": 28.92
+  },
+  {
+   "w": "can",
+   "start": 28.92,
+   "end": 29.02
+  },
+  {
+   "w": "now",
+   "start": 29.02,
+   "end": 29.18
+  },
+  {
+   "w": "call",
+   "start": 29.18,
+   "end": 29.34
+  },
+  {
+   "w": "businesses",
+   "start": 29.34,
+   "end": 29.68
+  },
+  {
+   "w": "for",
+   "start": 29.68,
+   "end": 29.96
+  },
+  {
+   "w": "you",
+   "start": 29.96,
+   "end": 30.06
+  },
+  {
+   "w": "to",
+   "start": 30.06,
+   "end": 30.14
+  },
+  {
+   "w": "compare",
+   "start": 30.14,
+   "end": 30.4
+  },
+  {
+   "w": "quotes,",
+   "start": 30.4,
+   "end": 30.74
+  },
+  {
+   "w": "it",
+   "start": 31.22,
+   "end": 31.34
+  },
+  {
+   "w": "can",
+   "start": 31.34,
+   "end": 31.44
+  },
+  {
+   "w": "buy",
+   "start": 31.44,
+   "end": 31.64
+  },
+  {
+   "w": "things",
+   "start": 31.64,
+   "end": 31.86
+  },
+  {
+   "w": "with",
+   "start": 31.86,
+   "end": 32.04
+  },
+  {
+   "w": "Google",
+   "start": 32.04,
+   "end": 32.22
+  },
+  {
+   "w": "Pay",
+   "start": 32.22,
+   "end": 32.52
+  },
+  {
+   "w": "once",
+   "start": 32.52,
+   "end": 32.7
+  },
+  {
+   "w": "you",
+   "start": 32.7,
+   "end": 32.86
+  },
+  {
+   "w": "approve,",
+   "start": 32.86,
+   "end": 33.22
+  },
+  {
+   "w": "and",
+   "start": 33.5,
+   "end": 33.72
+  },
+  {
+   "w": "you",
+   "start": 33.72,
+   "end": 33.8
+  },
+  {
+   "w": "can",
+   "start": 33.8,
+   "end": 33.88
+  },
+  {
+   "w": "even",
+   "start": 33.88,
+   "end": 34.04
+  },
+  {
+   "w": "text",
+   "start": 34.04,
+   "end": 34.32
+  },
+  {
+   "w": "it",
+   "start": 34.32,
+   "end": 34.54
+  },
+  {
+   "w": "like",
+   "start": 34.54,
+   "end": 34.8
+  },
+  {
+   "w": "a",
+   "start": 34.8,
+   "end": 34.92
+  },
+  {
+   "w": "friend.",
+   "start": 34.92,
+   "end": 35.12
+  },
+  {
+   "w": "And",
+   "start": 35.72,
+   "end": 35.98
+  },
+  {
+   "w": "it's",
+   "start": 35.98,
+   "end": 36.14
+  },
+  {
+   "w": "free",
+   "start": 36.14,
+   "end": 36.4
+  },
+  {
+   "w": "in",
+   "start": 36.4,
+   "end": 36.68
+  },
+  {
+   "w": "the",
+   "start": 36.68,
+   "end": 36.78
+  },
+  {
+   "w": "US,",
+   "start": 36.78,
+   "end": 37.08
+  },
+  {
+   "w": "Canada,",
+   "start": 37.48,
+   "end": 37.86
+  },
+  {
+   "w": "Japan,",
+   "start": 38.34,
+   "end": 38.68
+  },
+  {
+   "w": "South",
+   "start": 39.2,
+   "end": 39.38
+  },
+  {
+   "w": "Korea,",
+   "start": 39.38,
+   "end": 39.7
+  },
+  {
+   "w": "Australia,",
+   "start": 40.14,
+   "end": 40.5
+  },
+  {
+   "w": "and",
+   "start": 40.78,
+   "end": 40.8
+  },
+  {
+   "w": "India,",
+   "start": 40.8,
+   "end": 41.1
+  },
+  {
+   "w": "on",
+   "start": 41.36,
+   "end": 41.58
+  },
+  {
+   "w": "your",
+   "start": 41.58,
+   "end": 41.72
+  },
+  {
+   "w": "phone,",
+   "start": 41.72,
+   "end": 42.06
+  },
+  {
+   "w": "your",
+   "start": 42.42,
+   "end": 42.44
+  },
+  {
+   "w": "Mac,",
+   "start": 42.44,
+   "end": 42.68
+  },
+  {
+   "w": "and",
+   "start": 42.98,
+   "end": 43.16
+  },
+  {
+   "w": "the",
+   "start": 43.16,
+   "end": 43.28
+  },
+  {
+   "w": "web.",
+   "start": 43.28,
+   "end": 43.48
+  },
+  {
+   "w": "Before",
+   "start": 44.12,
+   "end": 44.4
+  },
+  {
+   "w": "this,",
+   "start": 44.4,
+   "end": 44.74
+  },
+  {
+   "w": "you",
+   "start": 45.02,
+   "end": 45.22
+  },
+  {
+   "w": "had",
+   "start": 45.22,
+   "end": 45.32
+  },
+  {
+   "w": "to",
+   "start": 45.32,
+   "end": 45.42
+  },
+  {
+   "w": "pay",
+   "start": 45.42,
+   "end": 45.54
+  },
+  {
+   "w": "for",
+   "start": 45.54,
+   "end": 45.7
+  },
+  {
+   "w": "Pro",
+   "start": 45.7,
+   "end": 46.0
+  },
+  {
+   "w": "or",
+   "start": 46.0,
+   "end": 46.26
+  },
+  {
+   "w": "Ultra.",
+   "start": 46.26,
+   "end": 46.58
+  },
+  {
+   "w": "The",
+   "start": 47.12,
+   "end": 47.26
+  },
+  {
+   "w": "one",
+   "start": 47.26,
+   "end": 47.46
+  },
+  {
+   "w": "thing",
+   "start": 47.46,
+   "end": 47.6
+  },
+  {
+   "w": "I'd",
+   "start": 47.6,
+   "end": 47.74
+  },
+  {
+   "w": "watch",
+   "start": 47.74,
+   "end": 47.92
+  },
+  {
+   "w": "out",
+   "start": 47.92,
+   "end": 48.1
+  },
+  {
+   "w": "for,",
+   "start": 48.1,
+   "end": 48.34
+  },
+  {
+   "w": "it",
+   "start": 48.72,
+   "end": 48.86
+  },
+  {
+   "w": "can",
+   "start": 48.86,
+   "end": 48.96
+  },
+  {
+   "w": "read",
+   "start": 48.96,
+   "end": 49.12
+  },
+  {
+   "w": "your",
+   "start": 49.12,
+   "end": 49.28
+  },
+  {
+   "w": "email,",
+   "start": 49.28,
+   "end": 49.6
+  },
+  {
+   "w": "your",
+   "start": 50.06,
+   "end": 50.14
+  },
+  {
+   "w": "calendar,",
+   "start": 50.14,
+   "end": 50.54
+  },
+  {
+   "w": "and",
+   "start": 50.8,
+   "end": 50.92
+  },
+  {
+   "w": "your",
+   "start": 50.92,
+   "end": 51.04
+  },
+  {
+   "w": "saved",
+   "start": 51.04,
+   "end": 51.3
+  },
+  {
+   "w": "passwords",
+   "start": 51.3,
+   "end": 51.7
+  },
+  {
+   "w": "to",
+   "start": 51.7,
+   "end": 51.94
+  },
+  {
+   "w": "get",
+   "start": 51.94,
+   "end": 52.06
+  },
+  {
+   "w": "things",
+   "start": 52.06,
+   "end": 52.3
+  },
+  {
+   "w": "done.",
+   "start": 52.3,
+   "end": 52.5
+  },
+  {
+   "w": "It",
+   "start": 53.04,
+   "end": 53.18
+  },
+  {
+   "w": "asks",
+   "start": 53.18,
+   "end": 53.42
+  },
+  {
+   "w": "before",
+   "start": 53.42,
+   "end": 53.7
+  },
+  {
+   "w": "it",
+   "start": 53.7,
+   "end": 53.9
+  },
+  {
+   "w": "buys",
+   "start": 53.9,
+   "end": 54.08
+  },
+  {
+   "w": "or",
+   "start": 54.08,
+   "end": 54.3
+  },
+  {
+   "w": "sends",
+   "start": 54.3,
+   "end": 54.54
+  },
+  {
+   "w": "anything,",
+   "start": 54.54,
+   "end": 54.94
+  },
+  {
+   "w": "but",
+   "start": 55.28,
+   "end": 55.44
+  },
+  {
+   "w": "set",
+   "start": 55.44,
+   "end": 55.58
+  },
+  {
+   "w": "a",
+   "start": 55.58,
+   "end": 55.66
+  },
+  {
+   "w": "spending",
+   "start": 55.66,
+   "end": 55.9
+  },
+  {
+   "w": "cap,",
+   "start": 55.9,
+   "end": 56.2
+  },
+  {
+   "w": "and",
+   "start": 56.48,
+   "end": 56.64
+  },
+  {
+   "w": "don't",
+   "start": 56.64,
+   "end": 56.86
+  },
+  {
+   "w": "hit",
+   "start": 56.86,
+   "end": 56.94
+  },
+  {
+   "w": "always",
+   "start": 56.94,
+   "end": 57.18
+  },
+  {
+   "w": "allow",
+   "start": 57.18,
+   "end": 57.5
+  },
+  {
+   "w": "on",
+   "start": 57.5,
+   "end": 57.66
+  },
+  {
+   "w": "everything.",
+   "start": 57.66,
+   "end": 57.96
+  },
+  {
+   "w": "But",
+   "start": 58.62,
+   "end": 58.7
+  },
+  {
+   "w": "think",
+   "start": 58.7,
+   "end": 58.86
+  },
+  {
+   "w": "about",
+   "start": 58.86,
+   "end": 59.02
+  },
+  {
+   "w": "what",
+   "start": 59.02,
+   "end": 59.12
+  },
+  {
+   "w": "this",
+   "start": 59.12,
+   "end": 59.28
+  },
+  {
+   "w": "means,",
+   "start": 59.28,
+   "end": 59.54
+  },
+  {
+   "w": "hundreds",
+   "start": 59.94,
+   "end": 60.28
+  },
+  {
+   "w": "of",
+   "start": 60.28,
+   "end": 60.48
+  },
+  {
+   "w": "millions",
+   "start": 60.48,
+   "end": 60.72
+  },
+  {
+   "w": "of",
+   "start": 60.72,
+   "end": 60.88
+  },
+  {
+   "w": "people",
+   "start": 60.88,
+   "end": 61.1
+  },
+  {
+   "w": "just",
+   "start": 61.1,
+   "end": 61.26
+  },
+  {
+   "w": "got",
+   "start": 61.26,
+   "end": 61.42
+  },
+  {
+   "w": "a",
+   "start": 61.42,
+   "end": 61.52
+  },
+  {
+   "w": "free",
+   "start": 61.52,
+   "end": 61.76
+  },
+  {
+   "w": "assistant",
+   "start": 61.76,
+   "end": 62.12
+  },
+  {
+   "w": "that",
+   "start": 62.12,
+   "end": 62.4
+  },
+  {
+   "w": "does",
+   "start": 62.4,
+   "end": 62.56
+  },
+  {
+   "w": "the",
+   "start": 62.56,
+   "end": 62.68
+  },
+  {
+   "w": "boring",
+   "start": 62.68,
+   "end": 63.0
+  },
+  {
+   "w": "stuff",
+   "start": 63.0,
+   "end": 63.32
+  },
+  {
+   "w": "while",
+   "start": 63.32,
+   "end": 63.54
+  },
+  {
+   "w": "they're",
+   "start": 63.54,
+   "end": 63.68
+  },
+  {
+   "w": "busy",
+   "start": 63.68,
+   "end": 63.88
+  },
+  {
+   "w": "living.",
+   "start": 63.88,
+   "end": 64.14
+  },
+  {
+   "w": "If",
+   "start": 64.78,
+   "end": 64.9
+  },
+  {
+   "w": "you",
+   "start": 64.9,
+   "end": 64.98
+  },
+  {
+   "w": "wanna",
+   "start": 64.98,
+   "end": 65.1
+  },
+  {
+   "w": "try",
+   "start": 65.1,
+   "end": 65.34
+  },
+  {
+   "w": "it,",
+   "start": 65.34,
+   "end": 65.56
+  },
+  {
+   "w": "comment",
+   "start": 65.78,
+   "end": 65.96
+  },
+  {
+   "w": "tasks,",
+   "start": 65.96,
+   "end": 66.46
+  },
+  {
+   "w": "and",
+   "start": 66.84,
+   "end": 66.9
+  },
+  {
+   "w": "I'll",
+   "start": 66.9,
+   "end": 67.02
+  },
+  {
+   "w": "send",
+   "start": 67.02,
+   "end": 67.14
+  },
+  {
+   "w": "you",
+   "start": 67.14,
+   "end": 67.26
+  },
+  {
+   "w": "the",
+   "start": 67.26,
+   "end": 67.36
+  },
+  {
+   "w": "link,",
+   "start": 67.36,
+   "end": 67.58
+  },
+  {
+   "w": "plus",
+   "start": 67.74,
+   "end": 68.02
+  },
+  {
+   "w": "10",
+   "start": 68.02,
+   "end": 68.38
+  },
+  {
+   "w": "tasks",
+   "start": 68.38,
+   "end": 68.8
+  },
+  {
+   "w": "you",
+   "start": 68.8,
+   "end": 68.98
+  },
+  {
+   "w": "can",
+   "start": 68.98,
+   "end": 69.1
+  },
+  {
+   "w": "hand",
+   "start": 69.1,
+   "end": 69.3
+  },
+  {
+   "w": "it",
+   "start": 69.3,
+   "end": 69.38
+  },
+  {
+   "w": "today.",
+   "start": 69.38,
+   "end": 69.6
+  }
+ ],
+ "text": "Google just made Gemini Tasks free, and this is big news. Tasks is Gemini's AI agent. Instead of just chatting, you handed a job, it works on it in the background, and it pings you when it's done. For example, I can flip Gemini from chat to task and type, Watch flights from New York to Lagos in December, and tell me when one drops under $900. It checks the prices every morning, compares the airlines, and sends me a notification the moment the price drops. But here's the part most people are missing. In the US, it can now call businesses for you to compare quotes, it can buy things with Google Pay once you approve, and you can even text it like a friend. And it's free in the US, Canada, Japan, South Korea, Australia, and India, on your phone, your Mac, and the web. Before this, you had to pay for Pro or Ultra. The one thing I'd watch out for, it can read your email, your calendar, and your saved passwords to get things done. It asks before it buys or sends anything, but set a spending cap, and don't hit always allow on everything. But think about what this means, hundreds of millions of people just got a free assistant that does the boring stuff while they're busy living. If you wanna try it, comment tasks, and I'll send you the link, plus 10 tasks you can hand it today."
+}

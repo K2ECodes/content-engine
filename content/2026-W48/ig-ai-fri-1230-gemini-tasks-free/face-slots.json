@@ -1,0 +1,17 @@
+{
+ "_readme": "Split-screen face windows (seconds in the final video). Make a talking-head clip per slot that lip-syncs the matching VO slice, then set data.face.<slot>.src.",
+ "open": {
+  "start": 0,
+  "end": 3.5,
+  "seconds": 3.5,
+  "audio": "audio/face-open.wav",
+  "src": null
+ },
+ "close": {
+  "start": 63.267,
+  "end": 69.407,
+  "seconds": 6.14,
+  "audio": "audio/face-close.wav",
+  "src": null
+ }
+}

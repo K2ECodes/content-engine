@@ -309,6 +309,23 @@
         "offer": "ecommerce-systems",
         "note": "SYSTEMS on the PHP2Shell store-safety posts.",
         "pages": 2
+      },
+      {
+        "keyword": "TASKS",
+        "name": "10 tasks you can hand Gemini Tasks today (+ the link)",
+        "status": "built",
+        "used_by": [
+          "ig-ai-fri-1230-gemini-tasks-free"
+        ],
+        "file": "assets/freebies/gemini-tasks-10.pdf",
+        "source": "assets/freebies/src/gemini-tasks-10.html",
+        "link": "https://gemini.google.com",
+        "send": [
+          "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "assets/freebies/gemini-tasks-10.pdf"
+        ],
+        "note": "TASKS on the Gemini Tasks free-launch reel (@koredekola.ai). DM: the official Google link plus the 1-page PDF of 10 copy-paste tasks.",
+        "pages": 1
       }
     ],
     "_skills": "Skill folders live in assets/freebies/skills/<name>/SKILL.md; zipped bundles in assets/freebies/bundles/. Send every file listed in \"send\"."

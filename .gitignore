@@ -16,6 +16,7 @@ content/**/*.webm
 content/**/*.wav
 content/**/*.mp3
 content/**/talk/
+content/**/.ui-reel/
 content/**/old/
 hyperframes/**/renders/
 hyperframes/**/node_modules/

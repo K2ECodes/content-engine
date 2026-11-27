@@ -1,0 +1,1061 @@
+{
+  "template": "ui-reel",
+  "data": {
+    "words": "words.json",
+    "audio": "audio/vo.wav",
+    "brand": "gemini",
+    "accent": "#7B8CFF",
+    "music": {
+      "file": "audio/music.mp3",
+      "volume": 0.08,
+      "dropT": 0.5
+    },
+    "face": {
+      "open": {
+        "until": "Tasks#2"
+      },
+      "close": {
+        "at": "If you wanna"
+      }
+    },
+    "scenes": [
+      {
+        "items": [
+          {
+            "type": "tile",
+            "brand": "gemini",
+            "size": 210,
+            "y": 580,
+            "at": "Google",
+            "ringAt": "Gemini",
+            "orbitAt": "Tasks",
+            "orbit": [
+              {
+                "icon": "plane",
+                "color": "blue"
+              },
+              {
+                "icon": "calendar",
+                "color": "grey"
+              },
+              {
+                "icon": "receipt",
+                "color": "grey"
+              },
+              {
+                "icon": "shopping-cart",
+                "color": "accent"
+              },
+              {
+                "icon": "mail",
+                "color": "grey"
+              }
+            ]
+          },
+          {
+            "type": "pill",
+            "label": "Now free",
+            "y": 900,
+            "at": "free,"
+          }
+        ]
+      },
+      {
+        "at": "and this",
+        "items": [
+          {
+            "type": "headline",
+            "y": 650,
+            "at": "and this",
+            "source": "TechRepublic",
+            "icon": "newspaper",
+            "color": "grey",
+            "date": "Nov 2026",
+            "headline": "Google Makes Gemini Tasks Free in 6 Countries, Adds US-Only Calls and Purchases",
+            "mark": "Gemini Tasks Free",
+            "markAt": "news.",
+            "byline": "By TechRepublic Staff"
+          }
+        ]
+      },
+      {
+        "at": "Tasks#2",
+        "items": [
+          {
+            "type": "tile",
+            "brand": "gemini",
+            "size": 170,
+            "y": 560,
+            "at": "Tasks#2",
+            "ringAt": "Gemini's"
+          },
+          {
+            "type": "pill",
+            "label": "AI agent",
+            "y": 800,
+            "at": "agent."
+          }
+        ]
+      },
+      {
+        "at": "Instead",
+        "items": [
+          {
+            "type": "window",
+            "title": "Gemini",
+            "w": 720,
+            "h": 330,
+            "y": 650,
+            "at": "Instead",
+            "body": [
+              {
+                "k": "bubble",
+                "text": "What's a good time to visit Lagos?"
+              },
+              {
+                "k": "bubble",
+                "ai": true,
+                "brand": "gemini",
+                "text": "December is great. Dry season, lots of festivals..."
+              },
+              {
+                "k": "input",
+                "text": "Reply to Gemini"
+              }
+            ]
+          },
+          {
+            "type": "strike",
+            "x1": 200,
+            "y1": 700,
+            "x2": 880,
+            "y2": 600,
+            "at": "chatting,"
+          }
+        ]
+      },
+      {
+        "at": "you hand",
+        "items": [
+          {
+            "type": "icon",
+            "icon": "user",
+            "color": "grey",
+            "size": 130,
+            "x": 260,
+            "y": 640,
+            "label": "You",
+            "at": "you hand"
+          },
+          {
+            "type": "tile",
+            "brand": "gemini",
+            "size": 130,
+            "x": 820,
+            "y": 625,
+            "ring": true,
+            "at": "you hand",
+            "ringAt": "job,"
+          },
+          {
+            "type": "arrow",
+            "x1": 350,
+            "y1": 625,
+            "x2": 720,
+            "y2": 625,
+            "bend": -0.18,
+            "at": "hand it"
+          },
+          {
+            "type": "pill",
+            "label": "1 job",
+            "x": 300,
+            "y": 470,
+            "at": "hand it",
+            "moveAt": "a job,",
+            "mx": 780,
+            "my": 470
+          }
+        ]
+      },
+      {
+        "at": "it works",
+        "items": [
+          {
+            "type": "checklist",
+            "title": "Task running",
+            "icon": "loader",
+            "w": 640,
+            "y": 600,
+            "at": "it works",
+            "items": [
+              {
+                "label": "Opening the sites",
+                "doneAt": "works"
+              },
+              {
+                "label": "Comparing options",
+                "doneAt": "in the background"
+              },
+              {
+                "label": "Writing the summary",
+                "doneAt": "background,"
+              }
+            ]
+          },
+          {
+            "type": "progress",
+            "w": 640,
+            "y": 870,
+            "label": "In the background",
+            "pct": true,
+            "at": "it works",
+            "fillAt": "works",
+            "dur": 1.5
+          }
+        ]
+      },
+      {
+        "at": "and it pings",
+        "items": [
+          {
+            "type": "phone",
+            "w": 440,
+            "h": 470,
+            "y": 640,
+            "at": "and it pings",
+            "body": [
+              {
+                "k": "notif",
+                "brand": "gemini",
+                "title": "Gemini",
+                "body": "Your task is done",
+                "at": "pings"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "For example",
+        "cam": [
+          {
+            "at": "watch",
+            "x": 540,
+            "y": 600,
+            "zoom": 1.1
+          },
+          {
+            "at": "Lagos",
+            "x": 540,
+            "y": 700,
+            "zoom": 1
+          }
+        ],
+        "items": [
+          {
+            "type": "prompt",
+            "brand": "gemini",
+            "w": 800,
+            "y": 600,
+            "at": "For example",
+            "placeholder": "Ask Gemini",
+            "modes": [
+              "Chat",
+              "Task"
+            ],
+            "modeAt": "Task#1",
+            "text": "Watch flights from New York to Lagos in December and tell me when one drops under $900",
+            "typeAt": "watch",
+            "cps": 22,
+            "sendAt": "$900.",
+            "glow": true
+          },
+          {
+            "type": "cursor",
+            "at": "flip",
+            "path": [
+              {
+                "x": 700,
+                "y": 820
+              },
+              {
+                "x": 300,
+                "y": 660,
+                "at": "Chat"
+              }
+            ],
+            "clicks": [
+              {
+                "at": "Task#1"
+              }
+            ],
+            "outAt": "watch"
+          },
+          {
+            "type": "chips",
+            "w": 760,
+            "y": 830,
+            "at": "Lagos",
+            "items": [
+              {
+                "label": "JFK to LOS",
+                "icon": "plane",
+                "at": "Lagos"
+              },
+              {
+                "label": "December",
+                "icon": "calendar",
+                "at": "December,"
+              },
+              {
+                "label": "Under $900",
+                "icon": "bell",
+                "hi": true,
+                "at": "drops"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "It checks",
+        "items": [
+          {
+            "type": "stats",
+            "size": 200,
+            "y": 640,
+            "at": "It checks",
+            "litAt": "every morning",
+            "tiles": [
+              {
+                "k": "ring",
+                "value": "7:00",
+                "p": 0.3
+              },
+              {
+                "k": "bars",
+                "vals": [
+                  0.8,
+                  0.65,
+                  0.72,
+                  0.5,
+                  0.42
+                ]
+              },
+              {
+                "k": "list"
+              }
+            ]
+          },
+          {
+            "type": "label",
+            "text": "Every morning",
+            "y": 830,
+            "at": "every morning",
+            "accent": true,
+            "size": 30
+          }
+        ]
+      },
+      {
+        "at": "compares",
+        "items": [
+          {
+            "type": "window",
+            "url": "google.com/travel/flights",
+            "w": 760,
+            "h": 340,
+            "y": 640,
+            "at": "compares",
+            "body": [
+              {
+                "k": "row",
+                "icon": "plane",
+                "label": "JFK to LOS",
+                "sub": "1 stop · 19h 40m",
+                "value": "$1,140",
+                "at": "compares"
+              },
+              {
+                "k": "row",
+                "icon": "plane",
+                "label": "JFK to LOS",
+                "sub": "1 stop · 17h 05m",
+                "value": "$968",
+                "at": "the airlines"
+              },
+              {
+                "k": "row",
+                "icon": "plane",
+                "label": "JFK to LOS",
+                "sub": "Nonstop · 11h 30m",
+                "value": "$872",
+                "at": "airlines,",
+                "doneAt": "airlines,",
+                "hiOnDone": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "and sends",
+        "items": [
+          {
+            "type": "notif",
+            "brand": "gemini",
+            "title": "Gemini Tasks",
+            "body": "Price drop: JFK to LOS is now $872",
+            "w": 760,
+            "y": 520,
+            "at": "notification"
+          },
+          {
+            "type": "text",
+            "text": "$872",
+            "sub": "was $968",
+            "accent": true,
+            "size": 130,
+            "y": 790,
+            "at": "price drops."
+          }
+        ]
+      },
+      {
+        "at": "But here's",
+        "items": [
+          {
+            "type": "grid",
+            "cols": 3,
+            "size": 112,
+            "y": 620,
+            "at": "But here's",
+            "hi": 4,
+            "q": 4,
+            "hiAt": "most people",
+            "icons": [
+              {
+                "icon": "chart-column",
+                "color": "grey"
+              },
+              {
+                "icon": "mail",
+                "color": "grey"
+              },
+              {
+                "icon": "image",
+                "color": "grey"
+              },
+              {
+                "icon": "timer",
+                "color": "grey"
+              },
+              {
+                "icon": "sparkles"
+              },
+              {
+                "icon": "music",
+                "color": "grey"
+              },
+              {
+                "icon": "list-checks",
+                "color": "grey"
+              },
+              {
+                "icon": "calendar",
+                "color": "grey"
+              },
+              {
+                "icon": "file-text",
+                "color": "grey"
+              }
+            ]
+          },
+          {
+            "type": "invaders",
+            "n": 7,
+            "size": 50,
+            "y": 1250,
+            "q": true,
+            "at": "missing."
+          }
+        ]
+      },
+      {
+        "at": "In the US",
+        "items": [
+          {
+            "type": "pill",
+            "label": "US only",
+            "y": 380,
+            "at": "US,#1",
+            "ghost": true
+          },
+          {
+            "type": "tile",
+            "brand": "gemini",
+            "size": 130,
+            "x": 270,
+            "y": 640,
+            "at": "it can now",
+            "ring": false
+          },
+          {
+            "type": "arrow",
+            "x1": 350,
+            "y1": 610,
+            "x2": 650,
+            "y2": 500,
+            "bend": -0.08,
+            "at": "call"
+          },
+          {
+            "type": "arrow",
+            "x1": 350,
+            "y1": 640,
+            "x2": 650,
+            "y2": 640,
+            "at": "call"
+          },
+          {
+            "type": "arrow",
+            "x1": 350,
+            "y1": 670,
+            "x2": 650,
+            "y2": 780,
+            "bend": 0.08,
+            "at": "call"
+          },
+          {
+            "type": "icon",
+            "icon": "store",
+            "color": "grey",
+            "size": 92,
+            "x": 730,
+            "y": 500,
+            "at": "businesses"
+          },
+          {
+            "type": "icon",
+            "icon": "wrench",
+            "color": "grey",
+            "size": 92,
+            "x": 730,
+            "y": 640,
+            "at": "businesses"
+          },
+          {
+            "type": "icon",
+            "icon": "building-2",
+            "color": "grey",
+            "size": 92,
+            "x": 730,
+            "y": 780,
+            "at": "businesses"
+          },
+          {
+            "type": "label",
+            "text": "$120",
+            "x": 860,
+            "y": 500,
+            "at": "quotes,",
+            "size": 28
+          },
+          {
+            "type": "label",
+            "text": "$95",
+            "x": 860,
+            "y": 640,
+            "at": "quotes,",
+            "size": 28,
+            "accent": true
+          },
+          {
+            "type": "label",
+            "text": "$140",
+            "x": 860,
+            "y": 780,
+            "at": "quotes,",
+            "size": 28
+          }
+        ]
+      },
+      {
+        "at": "it can buy",
+        "items": [
+          {
+            "type": "window",
+            "title": "Checkout",
+            "w": 680,
+            "h": 330,
+            "y": 640,
+            "at": "it can buy",
+            "body": [
+              {
+                "k": "row",
+                "icon": "shopping-cart",
+                "label": "USB-C charger",
+                "sub": "Best price found",
+                "value": "$24.99"
+              },
+              {
+                "k": "row",
+                "brand": "google",
+                "tile": "brand",
+                "label": "Google Pay",
+                "sub": "Card ending 4242",
+                "at": "Google Pay"
+              },
+              {
+                "k": "btn",
+                "label": "Approve purchase",
+                "at": "once",
+                "pressAt": "approve,"
+              }
+            ],
+            "glowAt": "approve,"
+          }
+        ]
+      },
+      {
+        "at": "and you can even",
+        "items": [
+          {
+            "type": "phone",
+            "w": 460,
+            "h": 470,
+            "y": 650,
+            "at": "and you can even",
+            "body": [
+              {
+                "k": "bubble",
+                "text": "Any cheaper flights yet?",
+                "at": "text"
+              },
+              {
+                "k": "bubble",
+                "ai": true,
+                "brand": "gemini",
+                "text": "Not yet. I'll check again tomorrow morning.",
+                "at": "friend."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "And it's free",
+        "items": [
+          {
+            "type": "text",
+            "text": "Free",
+            "accent": true,
+            "size": 140,
+            "y": 440,
+            "at": "free#2"
+          },
+          {
+            "type": "chips",
+            "w": 800,
+            "y": 720,
+            "at": "US,#2",
+            "items": [
+              {
+                "label": "US",
+                "at": "US,#2"
+              },
+              {
+                "label": "Canada",
+                "at": "Canada,"
+              },
+              {
+                "label": "Japan",
+                "at": "Japan,"
+              },
+              {
+                "label": "South Korea",
+                "at": "South"
+              },
+              {
+                "label": "Australia",
+                "at": "Australia,"
+              },
+              {
+                "label": "India",
+                "at": "India,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "on your phone",
+        "items": [
+          {
+            "type": "icons",
+            "size": 130,
+            "gap": 70,
+            "y": 650,
+            "at": "on your phone",
+            "items": [
+              {
+                "icon": "smartphone",
+                "color": "grey",
+                "label": "Phone",
+                "at": "phone,"
+              },
+              {
+                "icon": "laptop",
+                "color": "grey",
+                "label": "Mac",
+                "at": "Mac,"
+              },
+              {
+                "icon": "globe",
+                "color": "grey",
+                "label": "Web",
+                "at": "web."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "Before this",
+        "items": [
+          {
+            "type": "plans",
+            "pw": 200,
+            "y": 640,
+            "at": "Before this",
+            "cols": [
+              {
+                "label": "Free",
+                "unlockAt": "Ultra."
+              },
+              {
+                "label": "Pro",
+                "open": true
+              },
+              {
+                "label": "Ultra",
+                "open": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "The one thing",
+        "items": [
+          {
+            "type": "icon",
+            "icon": "triangle-alert",
+            "color": "yellow",
+            "size": 160,
+            "y": 640,
+            "at": "The one thing"
+          }
+        ]
+      },
+      {
+        "at": "it can read",
+        "items": [
+          {
+            "type": "tile",
+            "brand": "gemini",
+            "size": 140,
+            "y": 760,
+            "at": "it can read",
+            "ring": false
+          },
+          {
+            "type": "icon",
+            "icon": "mail",
+            "color": "grey",
+            "size": 100,
+            "x": 230,
+            "y": 470,
+            "label": "Email",
+            "at": "email,"
+          },
+          {
+            "type": "icon",
+            "icon": "calendar",
+            "color": "grey",
+            "size": 100,
+            "x": 540,
+            "y": 400,
+            "label": "Calendar",
+            "at": "calendar,"
+          },
+          {
+            "type": "icon",
+            "icon": "key-round",
+            "color": "grey",
+            "size": 100,
+            "x": 850,
+            "y": 470,
+            "label": "Passwords",
+            "at": "passwords"
+          },
+          {
+            "type": "arrow",
+            "x1": 290,
+            "y1": 570,
+            "x2": 450,
+            "y2": 700,
+            "at": "email,",
+            "color": "muted"
+          },
+          {
+            "type": "arrow",
+            "x1": 540,
+            "y1": 520,
+            "x2": 540,
+            "y2": 660,
+            "at": "calendar,",
+            "color": "muted"
+          },
+          {
+            "type": "arrow",
+            "x1": 790,
+            "y1": 570,
+            "x2": 630,
+            "y2": 700,
+            "at": "passwords",
+            "color": "muted"
+          }
+        ]
+      },
+      {
+        "at": "It asks",
+        "items": [
+          {
+            "type": "window",
+            "title": "Gemini",
+            "w": 660,
+            "h": 250,
+            "y": 640,
+            "at": "It asks",
+            "glow": true,
+            "body": [
+              {
+                "k": "row",
+                "brand": "gemini",
+                "label": "Approve this purchase?",
+                "sub": "USB-C charger · $24.99"
+              },
+              {
+                "k": "btns",
+                "items": [
+                  "Deny",
+                  "Approve"
+                ],
+                "at": "buys"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "but set",
+        "items": [
+          {
+            "type": "checklist",
+            "title": "Task settings",
+            "icon": "shield-check",
+            "toggles": true,
+            "w": 660,
+            "y": 640,
+            "at": "but set",
+            "items": [
+              {
+                "label": "Spending cap",
+                "sub": "$50 per task",
+                "doneAt": "cap,"
+              },
+              {
+                "label": "Always allow",
+                "sub": "Purchases and messages",
+                "at": "don't"
+              }
+            ]
+          },
+          {
+            "type": "strike",
+            "x1": 250,
+            "y1": 714,
+            "x2": 830,
+            "y2": 714,
+            "at": "allow"
+          }
+        ]
+      },
+      {
+        "at": "But think",
+        "items": [
+          {
+            "type": "dock",
+            "monitor": true,
+            "w": 800,
+            "y": 640,
+            "at": "But think",
+            "size": 74,
+            "hi": 3,
+            "hiAt": "means,",
+            "icons": [
+              {
+                "icon": "folder",
+                "color": "blue"
+              },
+              {
+                "icon": "mail",
+                "color": "grey"
+              },
+              {
+                "icon": "calendar",
+                "color": "grey"
+              },
+              {
+                "brand": "gemini"
+              },
+              {
+                "icon": "music",
+                "color": "grey"
+              },
+              {
+                "icon": "file-text",
+                "color": "grey"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "hundreds",
+        "items": [
+          {
+            "type": "people",
+            "n": 9,
+            "y": 560,
+            "at": "hundreds"
+          },
+          {
+            "type": "text",
+            "text": "100s of millions",
+            "size": 76,
+            "y": 760,
+            "at": "millions"
+          }
+        ]
+      },
+      {
+        "at": "a free assistant",
+        "items": [
+          {
+            "type": "checklist",
+            "title": "Gemini Tasks",
+            "brand": "gemini",
+            "w": 640,
+            "y": 640,
+            "at": "a free assistant",
+            "items": [
+              {
+                "label": "Find the cheaper flight",
+                "doneAt": "boring"
+              },
+              {
+                "label": "Sort out the bill",
+                "doneAt": "stuff"
+              },
+              {
+                "label": "Book the dentist",
+                "doneAt": "busy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "at": "If you wanna",
+        "items": [
+          {
+            "type": "comments",
+            "keyword": "TASKS",
+            "w": 680,
+            "y": 620,
+            "at": "If you wanna",
+            "typeAt": "comment",
+            "cps": 10,
+            "sendAt": "and I'll"
+          }
+        ]
+      },
+      {
+        "at": "plus",
+        "items": [
+          {
+            "type": "text",
+            "text": "10",
+            "sub": "tasks to hand it today",
+            "accent": true,
+            "size": 120,
+            "y": 430,
+            "at": "plus"
+          },
+          {
+            "type": "grid",
+            "cols": 5,
+            "size": 96,
+            "y": 760,
+            "at": "tasks#4",
+            "icons": [
+              {
+                "icon": "plane",
+                "color": "blue"
+              },
+              {
+                "icon": "receipt",
+                "color": "grey"
+              },
+              {
+                "icon": "shopping-cart",
+                "color": "accent"
+              },
+              {
+                "icon": "calendar",
+                "color": "grey"
+              },
+              {
+                "icon": "mail",
+                "color": "grey"
+              },
+              {
+                "icon": "hotel",
+                "color": "grey"
+              },
+              {
+                "icon": "phone-call",
+                "color": "accent"
+              },
+              {
+                "icon": "gift",
+                "color": "grey"
+              },
+              {
+                "icon": "stethoscope",
+                "color": "grey"
+              },
+              {
+                "icon": "package",
+                "color": "blue"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
