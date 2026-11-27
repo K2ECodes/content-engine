@@ -40,7 +40,13 @@
     "logo": "googlegemini.svg",
     "bg": "#8E75B2",
     "fg": "#FFFFFF",
-    "tile": "#FFFFFF"
+    "tile": "#FFFFFF",
+    "grad": [
+      "#4796E3",
+      "#9177C7",
+      "#CA6673"
+    ],
+    "accent": "#7C9BFF"
   },
   "meta": {
     "name": "Meta",

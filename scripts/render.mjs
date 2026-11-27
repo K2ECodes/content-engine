@@ -3,7 +3,7 @@
 //
 //   node scripts/render.mjs <post-dir> [--fps 30] [--frames-only]
 //
-// render.json: { "template": "static" | "carousel" | "pixel" | "fight" | "video" | "split" | "story" | "arena" | "talkhead", "data": { ... } }
+// render.json: { "template": "static" | "carousel" | "pixel" | "fight" | "video" | "split" | "story" | "arena" | "talkhead" | "ui-reel", "data": { ... } }
 // Aspect comes from meta.json (1:1, 4:5, 9:16). Icons are Lucide names (lucide.dev), resolved here
 // into inline SVG under the key "<name>Svg" (icon -> iconSvg, loopIcon -> loopIconSvg).
 //
@@ -335,7 +335,7 @@ function findDrop(file) {
   return Math.max(0, idx * 0.25 - 0.1);
 }
 
-function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration, sfxGain = 1 }) {
+function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration, sfxGain = 1, limit }) {
 // Audio: voice first, short dry SFX about 20 dB under, optional music bed ducked under speech.
   const ain = [], af = [], mix = [];
   let n = 1; // input 0 is the silent video
@@ -379,7 +379,8 @@ function mixAudio({ dir, silent, voiceSrc, sfx, music, lastWordEnd, duration, sf
   const out = path.join(dir, 'video.mp4');
   if (!parts.length) { fs.renameSync(silent, out); }
   else {
-    af.push(`${parts.join('')}amix=inputs=${parts.length}:normalize=0,loudnorm=I=-14:TP=-1:LRA=9[aout]`);
+    // limit (linear, e.g. 0.82): a brick-wall limiter after loudnorm so the AAC file's sample peak stays safely under -0.7 dBFS
+    af.push(`${parts.join('')}amix=inputs=${parts.length}:normalize=0,loudnorm=I=-14:TP=-1:LRA=9${limit ? `,aresample=48000,alimiter=limit=${limit}:level=false:attack=2:release=60` : ''}[aout]`);
     const r = spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', silent, ...ain, '-filter_complex', af.join(';'), '-map', '0:v', '-map', '[aout]',
       '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', String(duration), '-movflags', '+faststart', out], { stdio: 'inherit' });
     if (r.status !== 0) throw new Error('ffmpeg split audio mix failed');
@@ -781,6 +782,103 @@ async function renderTalkhead(browser, spec, dir, fps) {
   return ['video.mp4', 'poster.png'];
 }
 
+// ---------- ui-reel template (research/style-bossai.md, schema in .claude/skills/ui-reel/SKILL.md) ----------
+// Every `at` / `<name>At` (any depth) is a spoken-word anchor resolved to `t` / `<name>T`; `brand` -> `b` (inline SVG logo),
+// `src` -> `srcUrl`, `<x>icon` -> `<x>iconSvg` (Lucide). Face slots are optional videos cut into JPEG frames for the split screen.
+function resolveUiReel(dir, spec, fps) {
+  const d = resolveIcons(structuredClone(spec.data));
+  const words = JSON.parse(fs.readFileSync(path.join(dir, d.words), 'utf8')).words;
+  const voiceSrc = d.audio ? path.join(dir, d.audio) : null;
+  d.duration = Math.max(voiceSrc ? probeSeconds(voiceSrc) : 0, words.at(-1).end + (d.tail ?? 1.2));
+  d.words = words;
+  const BRANDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/brands.json'), 'utf8'));
+  const brand = (id) => { const b = BRANDS[id]; if (!b) throw new Error(`unknown brand "${id}" (config/brands.json)`); return { ...b, id, svg: fs.readFileSync(path.join(ROOT, 'assets/logos', b.logo), 'utf8') }; };
+  const T = (a, label, lead) => (typeof a === 'number' ? a : Math.max(0, wordTime(words, a, label) - lead));
+  const walk = (o, label, lead) => {
+    for (const [k, v] of Object.entries(o)) {
+      if ((k === 'at' || /At$/.test(k)) && (typeof v === 'string' || typeof v === 'number')) o[k === 'at' ? 't' : k.slice(0, -2) + 'T'] = T(v, `${label} ${k}`, k === 'at' ? lead : 0.04);
+      else if (k === 'brand' && typeof v === 'string') o.b = brand(v);
+      else if (k === 'src' && typeof v === 'string') o.srcUrl = pathToFileURL(v.startsWith('assets/') ? path.join(ROOT, v) : path.resolve(dir, v)).href;
+      else if (v && typeof v === 'object') walk(v, `${label} ${k}`, 0.05);
+    }
+  };
+  if (d.brand) d.b = brand(d.brand);
+  d.scenes = d.scenes.map((s, i) => {
+    const o = structuredClone(s);
+    const { items, ...rest } = o;
+    walk(rest, `scene ${i}`, 0.15);
+    const out = { ...rest, items: (items || []).map((it, k) => { walk(it, `scene ${i} item ${k}`, 0.05); return it; }) };
+    if (out.t === undefined) out.t = i === 0 ? 0 : (() => { throw new Error(`ui-reel: scene ${i} needs "at"`); })();
+    return out;
+  }).sort((a, b) => a.t - b.t);
+  d.scenes[0].t = 0;
+  d.scenes.forEach((s, i) => { s.end = d.scenes[i + 1]?.t ?? d.duration; });
+  if (d.music) walk(d.music, 'music', 0.15);
+
+  // Face slots. Windows exist even when faceless, so clone footage can be made for them later (face-slots.json + VO slices).
+  const fs0 = d.face || {}; d.face = {};
+  const stop = words.findIndex((w) => /[.!?]$/.test(w.w));
+  const win = {
+    open: [0, fs0.open?.until !== undefined ? T(fs0.open.until, 'face.open until', 0.06) : Math.min(4, (words[stop + 1]?.start ?? 3) - 0.06)],
+    close: fs0.close?.at !== undefined ? [T(fs0.close.at, 'face.close at', 0.12), d.duration] : null,
+  };
+  const slotsInfo = {};
+  for (const slot of ['open', 'close']) {
+    if (!win[slot]) continue;
+    const [t0, t1] = win[slot];
+    slotsInfo[slot] = { start: +t0.toFixed(3), end: +t1.toFixed(3), seconds: +(t1 - t0).toFixed(3), audio: voiceSrc ? `audio/face-${slot}.wav` : null, src: fs0[slot]?.src || null };
+    if (voiceSrc) spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', '-ss', String(t0), '-to', String(Math.min(t1, probeSeconds(voiceSrc))), '-i', voiceSrc, path.join(dir, `audio/face-${slot}.wav`)], { stdio: ['ignore', 'inherit', 'inherit'] });
+    const f = fs0[slot];
+    if (!f?.src) continue;
+    const src = f.src.startsWith('assets/') ? path.join(ROOT, f.src) : path.resolve(dir, f.src);
+    if (!fs.existsSync(src)) { console.warn(`  face.${slot}: ${f.src} not found, rendering faceless`); continue; }
+    const fr = { cx: 0.5, cy: 0.35, zoom: 1, ...(f.frame || {}) }, FH = 860, dur = t1 - t0 + 0.2;
+    const key = crypto.createHash('sha1').update(JSON.stringify([fs.statSync(src).mtimeMs, src, f.ss ?? 0, fr, fps, dur.toFixed(2)])).digest('hex').slice(0, 10);
+    const fdir = path.join(dir, '.ui-reel', `${slot}-${key}`);
+    if (!fs.existsSync(fdir) || !fs.readdirSync(fdir).length) {
+      fs.mkdirSync(fdir, { recursive: true });
+      const r = spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', '-ss', String(f.ss ?? 0), '-i', src, '-t', dur.toFixed(3), '-an', '-vf',
+        `fps=${fps},scale=w=${Math.round(1080 * fr.zoom)}:h=${Math.round(FH * fr.zoom)}:force_original_aspect_ratio=increase,crop=1080:${FH}:(iw-1080)*${fr.cx}:(ih-${FH})*${fr.cy}`,
+        '-q:v', '3', path.join(fdir, '%05d.jpg')], { stdio: ['ignore', 'inherit', 'inherit'] });
+      if (r.status !== 0) throw new Error(`face.${slot}: ffmpeg frame cut failed`);
+    }
+    const count = fs.readdirSync(fdir).filter((x) => x.endsWith('.jpg')).length;
+    if (count < (t1 - t0) * fps - 1) console.warn(`  face.${slot}: clip covers ${(count / fps).toFixed(2)}s of a ${(t1 - t0).toFixed(2)}s slot, ${f.loop === false ? 'last frame holds' : 'ping-pongs'}`);
+    d.face[slot] = { t0, t1, fps, count, loop: f.loop, url: pathToFileURL(fdir).href + '/' };
+  }
+  fs.writeFileSync(path.join(dir, 'face-slots.json'), JSON.stringify({ _readme: 'Split-screen face windows (seconds in the final video). Make a talking-head clip per slot that lip-syncs the matching VO slice, then set data.face.<slot>.src.', ...slotsInfo }, null, 1) + '\n');
+  return { data: d, voiceSrc };
+}
+
+async function renderUiReel(browser, spec, dir, fps) {
+  const { data, voiceSrc } = resolveUiReel(dir, spec, fps);
+  const { page } = await openTemplate(browser, 'ui-reel', data, '9:16');
+  const shot = async (t, opts) => { await page.evaluate(async (t) => { window.seek(t); await window.ready(); }, t); return page.screenshot(opts); };
+  if (process.env.UI_SNAP) {   // UI_SNAP=1.5,6,12 node scripts/render.mjs <post>: stills only (snap-<t>.png), cheap layout check
+    const out = [];
+    for (const t of process.env.UI_SNAP.split(',').map(Number)) { const f = `snap-${t}.png`; await shot(t, { path: path.join(dir, f) }); out.push(f); }
+    return out;
+  }
+  const duration = data.duration, frames = Math.round(duration * fps);
+  const sfx = await page.evaluate(() => window.sfx);
+  const silent = path.join(dir, 'video-silent.mp4');
+  const ff = spawn('ffmpeg', ['-nostdin', '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-',
+    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', silent], { stdio: ['pipe', 'inherit', 'inherit'] });
+  const done = new Promise((res, rej) => ff.on('close', (c) => (c === 0 ? res() : rej(new Error(`ffmpeg exited ${c}`)))));
+  for (let f = 0; f < frames; f++) {
+    const buf = await shot(f / fps, { type: 'jpeg', quality: 93 });
+    if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
+    if (f % fps === 0) process.stdout.write(`\r  frame ${f}/${frames}`);
+  }
+  ff.stdin.end();
+  await done;
+  process.stdout.write(`\r  ${frames} frames, ${duration.toFixed(2)}s at ${fps}fps\n`);
+  mixAudio({ dir, silent, voiceSrc, sfx, music: data.music, lastWordEnd: data.words.at(-1).end, duration, sfxGain: data.sfxGain ?? 1, limit: 0.82 });
+  const posterAt = data.posterAt ?? Math.min(duration - 0.1, 1.0);
+  spawnSync('ffmpeg', ['-nostdin', '-v', 'error', '-y', '-ss', String(posterAt), '-i', path.join(dir, 'video.mp4'), '-frames:v', '1', path.join(dir, 'poster.png')]);
+  return ['video.mp4', 'poster.png'];
+}
+
 async function main(argv) {
   const dir = path.resolve(argv.find((a) => !a.startsWith('--')) || '');
   const fps = Number(argv[argv.indexOf('--fps') + 1]) || 30;
@@ -806,8 +904,9 @@ async function main(argv) {
       : spec.template === 'scoreboard' ? await renderScoreboard(browser, spec, dir, fps)
       : spec.template === 'arena' ? await renderArena(browser, spec, dir, fps)
       : spec.template === 'talkhead' ? await renderTalkhead(browser, spec, dir, fps)
+      : spec.template === 'ui-reel' ? await renderUiReel(browser, spec, dir, fps)
       : (() => { throw new Error(`unknown template "${spec.template}"`); })();
-    if (!process.env.STORY_SNAP) { meta.media = files; fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n'); }
+    if (!process.env.STORY_SNAP && !process.env.UI_SNAP) { meta.media = files; fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n'); }
     console.log(`  wrote ${files.join(', ')}`);
   } finally {
     await browser.close();
